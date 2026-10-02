@@ -1,0 +1,458 @@
+{
+  "tenseName": "Modal Verbs",
+  "route": "cards_modalverbs",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Модальные глаголы показывают не действие, а отношение к нему: умение, разрешение, обязанность, совет, вероятность.",
+        "highlight": "не действие",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "9 основных глаголов",
+          "borderColor": "info",
+          "text": "can · could · may · might · must · shall · should · will · would",
+          "textColor": "example"
+        },
+        {
+          "title": "Запомни раз и навсегда",
+          "borderColor": "term",
+          "bullets": [
+            { "text": "После них — инфинитив БЕЗ to", "color": "bad" },
+            { "text": "В 3-м лице НЕТ -s", "color": "bad" },
+            { "text": "Вопрос — инверсией, БЕЗ do/does", "color": "bad" },
+            { "text": "Отрицание — просто not", "color": "bad" },
+            { "text": "Нет инфинитива — есть заменители", "color": "bad" }
+          ],
+          "examples": [
+            {
+              "en": "I can swim.",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good",
+              "ruColor": "good"
+            },
+            {
+              "en": "I can to swim.",
+              "ru": "✗ неправильно",
+              "icon": "cross",
+              "iconColor": "bad",
+              "ruColor": "bad"
+            },
+            {
+              "en": "She can swim.",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good",
+              "ruColor": "good"
+            },
+            {
+              "en": "She cans swim.",
+              "ru": "✗ неправильно",
+              "icon": "cross",
+              "iconColor": "bad",
+              "ruColor": "bad"
+            },
+            {
+              "en": "Can you swim?",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good",
+              "ruColor": "good"
+            },
+            {
+              "en": "Do you can swim?",
+              "ru": "✗ неправильно",
+              "icon": "cross",
+              "iconColor": "bad",
+              "ruColor": "bad"
+            },
+            {
+              "en": "I can't swim.",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good",
+              "ruColor": "good"
+            }
+          ],
+          "transforms": [
+            { "from": "can", "to": "be able to", "toColor": "info" },
+            { "from": "must", "to": "have to", "toColor": "info" }
+          ]
+        },
+        {
+          "title": "⚠ Исключение",
+          "borderColor": "bad",
+          "text": "ought to и have to — требуют to.",
+          "textColor": "text"
+        }
+      ]
+    },
+
+    {
+      "label": "Can / Could",
+      "intro": {
+        "text": "Умение, возможность, просьба. Главное различие — в прошлом.",
+        "highlight": "Главное различие — в прошлом.",
+        "highlightColor": "term"
+      },
+      "table": {
+        "headers": ["Глагол", "Значение", "Пример"],
+        "rows": [
+          {
+            "cells": ["can", "умение сейчас · разрешение · просьба", "I can swim. Can I come in?"],
+            "colors": ["term", "text", "example"]
+          },
+          {
+            "cells": ["could", "общее умение в прошлом · вежливая просьба", "I could run fast. Could you help me?"],
+            "colors": ["info", "text", "example"]
+          }
+        ],
+        "borderColor": "info"
+      },
+      "sections": [
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "transforms": [
+            { "from": "can't / cannot", "to": "не могу (сейчас)", "toColor": "bad" },
+            { "from": "couldn't", "to": "не мог (в прошлом)", "toColor": "bad" }
+          ]
+        },
+        {
+          "title": "🔑 Ловушка: could vs was able to",
+          "borderColor": "term",
+          "text": "could — общая способность в прошлом.\nwas able to — удалось в конкретный раз.",
+          "textColor": "text",
+          "examples": [
+            {
+              "en": "I could play chess when I was 5.",
+              "ru": "✓ общая способность",
+              "icon": "check",
+              "iconColor": "good",
+              "ruColor": "good"
+            },
+            {
+              "en": "I was able to win yesterday.",
+              "ru": "✓ удалось в конкретный раз",
+              "icon": "check",
+              "iconColor": "good",
+              "ruColor": "good"
+            },
+            {
+              "en": "I could win yesterday.",
+              "ru": "✗ так нельзя",
+              "icon": "cross",
+              "iconColor": "bad",
+              "ruColor": "bad"
+            }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "be able to — заменитель во всех временах",
+          "preview": "have been able to · will be able to",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "examples": [
+              {
+                "en": "I have been able to swim since childhood.",
+                "ru": "Я умею плавать с детства.",
+                "ruColor": "example"
+              },
+              {
+                "en": "You will be able to speak fluently.",
+                "ru": "Ты сможешь говорить бегло.",
+                "ruColor": "example"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "May / Might",
+      "intro": {
+        "text": "May и might — это формальность и степень уверенности.",
+        "highlight": "формальность",
+        "highlightColor": "info"
+      },
+      "table": {
+        "headers": ["Глагол", "Значение", "Пример"],
+        "rows": [
+          {
+            "cells": ["may", "формальное разрешение · вероятность ~50%", "May I come in? He may be at home."],
+            "colors": ["term", "text", "example"]
+          },
+          {
+            "cells": ["might", "слабая вероятность ~30%", "She might come later."],
+            "colors": ["info", "text", "example"]
+          }
+        ],
+        "borderColor": "info"
+      },
+      "sections": [
+        {
+          "title": "От 100% к 0%",
+          "borderColor": "info",
+          "transforms": [
+            { "from": "must be", "to": "почти уверен (95%)", "toColor": "good" },
+            { "from": "may be", "to": "вполне возможно (50%)", "toColor": "info" },
+            { "from": "might / could be", "to": "возможно, шансов меньше (30%)", "toColor": "term" },
+            { "from": "can't be", "to": "невозможно (0%)", "toColor": "bad" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Разрешение и запрет в отрицании",
+          "preview": "may not = формально, can't = разговорно",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "examples": [
+              {
+                "en": "You may not smoke here.",
+                "ru": "Формальный запрет.",
+                "icon": "cross",
+                "iconColor": "bad",
+                "ruColor": "bad"
+              },
+              {
+                "en": "You can't smoke here.",
+                "ru": "Разговорный запрет.",
+                "icon": "cross",
+                "iconColor": "bad",
+                "ruColor": "bad"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Must / Have to",
+      "intro": {
+        "text": "Must и have to — разные обязанности, а mustn't и don't have to — совсем разные вещи.",
+        "highlight": "совсем разные вещи",
+        "highlightColor": "bad"
+      },
+      "table": {
+        "headers": ["Глагол", "Значение", "Пример"],
+        "rows": [
+          {
+            "cells": ["must", "личная обязанность · строгое правило · вывод", "You must wear a seatbelt."],
+            "colors": ["term", "text", "example"]
+          },
+          {
+            "cells": ["have to", "внешняя обязанность (работа, закон)", "I have to work on Saturday."],
+            "colors": ["info", "text", "example"]
+          }
+        ],
+        "borderColor": "info"
+      },
+      "sections": [
+        {
+          "title": "Самая частая путаница",
+          "borderColor": "bad",
+          "examples": [
+            {
+              "en": "You mustn't park here.",
+              "ru": "Нельзя, запрещено.",
+              "icon": "cross",
+              "iconColor": "bad",
+              "ruColor": "bad"
+            },
+            {
+              "en": "You don't have to park here.",
+              "ru": "Не обязательно.",
+              "icon": "check",
+              "iconColor": "good",
+              "ruColor": "good"
+            }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "need и прошлое must",
+          "preview": "needn't = не нужно · must → had to",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "transforms": [
+              { "from": "need to do", "to": "обычная необходимость", "toColor": "example" },
+              { "from": "needn't", "to": "не нужно: You needn't wait.", "toColor": "info" }
+            ],
+            "examples": [
+              {
+                "en": "I had to leave early.",
+                "ru": "✓ правильно",
+                "icon": "check",
+                "iconColor": "good",
+                "ruColor": "good"
+              },
+              {
+                "en": "I must leave early yesterday.",
+                "ru": "✗ неправильно",
+                "icon": "cross",
+                "iconColor": "bad",
+                "ruColor": "bad"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Should / Had better",
+      "intro": {
+        "text": "Should — мягко, had better — настойчиво. Will / would / shall — просьбы и обещания.",
+        "highlight": "настойчиво",
+        "highlightColor": "term"
+      },
+      "table": {
+        "headers": ["Глагол", "Значение", "Пример"],
+        "rows": [
+          {
+            "cells": ["should", "совет, мнение, ожидание", "You should see a doctor."],
+            "colors": ["example", "text", "example"]
+          },
+          {
+            "cells": ["ought to", "то же, но формальнее, с to", "You ought to apologize."],
+            "colors": ["info", "text", "example"]
+          },
+          {
+            "cells": ["had better", "сильное предупреждение", "You'd better hurry up."],
+            "colors": ["term", "text", "example"]
+          }
+        ],
+        "borderColor": "term"
+      },
+      "sections": [
+        {
+          "title": "От мягкого к строгому",
+          "borderColor": "term",
+          "transforms": [
+            { "from": "should / ought to", "to": "мягкий совет", "toColor": "example" },
+            { "from": "had better", "to": "настойчиво", "toColor": "term" },
+            { "from": "must", "to": "обязательно", "toColor": "bad" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Will / would / shall",
+          "preview": "спонтанные решения, вежливые просьбы",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              { "text": "will: спонтанное решение, обещание, просьба", "color": "example" },
+              { "text": "would: вежливая просьба, привычка в прошлом", "color": "info" },
+              { "text": "shall: только с I и we", "color": "term" }
+            ],
+            "text": "Лесенка вежливости: Can < Could < Would < Would you mind",
+            "textColor": "example"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Прошлое",
+      "intro": {
+        "text": "Формула прошлого: модальный + have + V3",
+        "highlight": "модальный + have + V3",
+        "highlightColor": "term"
+      },
+      "table": {
+        "headers": ["Формула", "Значение", "Пример"],
+        "rows": [
+          {
+            "cells": ["must have done", "уверен", "He must have left."],
+            "colors": ["good", "text", "example"]
+          },
+          {
+            "cells": ["can't have done", "невозможно", "She can't have forgotten."],
+            "colors": ["bad", "text", "example"]
+          },
+          {
+            "cells": ["might have done", "возможно", "They might have missed it."],
+            "colors": ["info", "text", "example"]
+          },
+          {
+            "cells": ["should have done", "надо было", "You should have called."],
+            "colors": ["term", "text", "example"]
+          },
+          {
+            "cells": ["could have done", "мог, но не сделал", "I could have helped."],
+            "colors": ["example", "text", "example"]
+          }
+        ],
+        "borderColor": "info"
+      },
+      "expandables": [
+        {
+          "label": "Тонкая разница: needn't have vs didn't need",
+          "preview": "Сделал зря vs не было необходимости",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "transforms": [
+              { "from": "needn't have done", "to": "вы это сделали зря", "toColor": "bad" },
+              { "from": "didn't need to do", "to": "необходимости не было", "toColor": "info" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Топ-7 ошибок новичков.",
+        "highlight": "Топ-7 ошибок",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "He can swims.", "right": "He can swim." },
+            { "wrong": "I must to go.", "right": "I must go." },
+            { "wrong": "Do you can swim?", "right": "Can you swim?" },
+            { "wrong": "I will can help.", "right": "I will be able to help." },
+            { "wrong": "You mustn't come. (не обязательно)", "right": "You don't have to come." },
+            { "wrong": "He mustn't be at home. (вывод)", "right": "He can't be at home." },
+            { "wrong": "You should to see a doctor.", "right": "You should see a doctor." }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "💡 Интересный факт",
+          "preview": "Почему в could есть l, но она не читается",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              {
+                "text": "В слове could буква l не произносится. Она появилась в XVI веке по аналогии с would и should.",
+                "color": "example"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
