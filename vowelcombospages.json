@@ -1,0 +1,225 @@
+{
+  "tenseName": "Vowel Combos",
+  "route": "cards_vowelcombos",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Гласные рядом часто сливаются в один звук, который отличается от каждой буквы по отдельности.",
+        "highlight": "сливаются в один звук",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Зачем это нужно",
+          "bullets": [
+            { "text": "Одна буква читается по-разному (a в cat и cake).", "color": "example" },
+            { "text": "Разные сочетания дают один звук (ee и ea → [iː]).", "color": "info" },
+            { "text": "Без правил невозможно прочитать новое слово.", "color": "term" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Все группы сочетаний",
+          "preview": "ee, ea, oo, oa, ai, ay, oi, oy, ou, ow, au, aw, igh",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              { "text": "ee, ea — долгий [iː]", "color": "example" },
+              { "text": "oo — [uː] / [ʊ]", "color": "info" },
+              { "text": "oa, ai, ay — долгие звуки и дифтонги", "color": "term" },
+              { "text": "oi, oy, ou, ow, au, aw — дифтонги", "color": "example" },
+              { "text": "igh, magic e — [aɪ]", "color": "info" },
+              { "text": "ar, or, er, ir, ur — гласная + r", "color": "term" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ee, ea, oo",
+      "intro": {
+        "text": "Ee и ea → [iː]. Oo → [uː] или [ʊ].",
+        "highlight": "Ee и ea → [iː]",
+        "highlightColor": "example"
+      },
+      "sections": [
+        { "title": "Ee → [iː]", "examples": [
+          { "en": "Tree [triː]", "ru": "дерево" },
+          { "en": "Green [ɡriːn]", "ru": "зелёный" },
+          { "en": "Sleep [sliːp]", "ru": "спать" }
+        ]},
+        { "title": "Ea → [iː]", "examples": [
+          { "en": "Tea [tiː]", "ru": "чай" },
+          { "en": "Sea [siː]", "ru": "море" }
+        ]},
+        { "title": "Oo → [uː] долгий", "examples": [
+          { "en": "Moon [muːn]", "ru": "луна" },
+          { "en": "Food [fuːd]", "ru": "еда" }
+        ]},
+        { "title": "Oo → [ʊ] краткий", "examples": [
+          { "en": "Book [bʊk]", "ru": "книга" },
+          { "en": "Look [lʊk]", "ru": "смотреть" }
+        ]}
+      ],
+      "expandables": [
+        {
+          "label": "Осторожно: у ea есть варианты",
+          "preview": "ea → [e] · ea → [eɪ]",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "transforms": [
+              { "from": "ea → [e]", "to": "bread, head, ready", "toColor": "bad" },
+              { "from": "ea → [eɪ]", "to": "great, break", "toColor": "term" }
+            ],
+            "text": "ee — почти всегда [iː] без исключений. С ea — проверяй по словарю.",
+            "textColor": "info"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Oa, ai, ay",
+      "intro": {
+        "text": "Oa / «долгое» ow → [əʊ]. Ai / ay → [eɪ].",
+        "highlight": "Oa / «долгое» ow → [əʊ]",
+        "highlightColor": "example"
+      },
+      "sections": [
+        { "title": "Oa / ow → [əʊ]", "examples": [
+          { "en": "Boat [bəʊt]", "ru": "лодка" },
+          { "en": "Snow [snəʊ]", "ru": "снег" },
+          { "en": "Yellow [ˈjeləʊ]", "ru": "жёлтый" }
+        ]},
+        { "title": "Ai — в середине слова", "examples": [
+          { "en": "Rain [reɪn]", "ru": "дождь" },
+          { "en": "Train [treɪn]", "ru": "поезд" }
+        ]},
+        { "title": "Ay — в конце слова", "examples": [
+          { "en": "Day [deɪ]", "ru": "день" },
+          { "en": "Play [pleɪ]", "ru": "играть" }
+        ]},
+        {
+          "title": "Внимание: ow бывает и [aʊ]",
+          "borderColor": "bad",
+          "text": "ow может быть [əʊ] (snow) и [aʊ] (cow). Определяется только по слову.",
+          "textColor": "text"
+        }
+      ]
+    },
+
+    {
+      "label": "Дифтонги",
+      "intro": {
+        "text": "Oi / oy = [ɔɪ]. Ou / ow = [aʊ]. Au / aw = [ɔː].",
+        "highlight": "Oi / oy = [ɔɪ]",
+        "highlightColor": "example"
+      },
+      "sections": [
+        { "title": "oi / oy → [ɔɪ]", "transforms": [
+          { "from": "oi", "to": "Coin, Voice, Point", "toColor": "example" },
+          { "from": "oy", "to": "Boy, Toy, Enjoy", "toColor": "example" }
+        ]},
+        { "title": "ou / ow → [aʊ]", "transforms": [
+          { "from": "ou", "to": "House, Mouse, Loud", "toColor": "info" },
+          { "from": "ow", "to": "Cow, How, Now, Down", "toColor": "info" }
+        ]},
+        { "title": "au / aw → [ɔː]", "transforms": [
+          { "from": "au", "to": "Autumn, August, Author", "toColor": "term" },
+          { "from": "aw", "to": "Draw, Saw, Law, Yawn", "toColor": "term" }
+        ]},
+        {
+          "title": "Правило позиции",
+          "borderColor": "term",
+          "text": "oi / au — в середине. oy / aw — на конце. Так и запоминается.",
+          "textColor": "text"
+        }
+      ]
+    },
+
+    {
+      "label": "Igh, magic e",
+      "intro": {
+        "text": "Igh и y на конце = [aɪ]. Magic e делает гласную долгой.",
+        "highlight": "Magic e",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "igh → [aɪ]", "examples": [
+          { "en": "Night [naɪt]", "ru": "ночь" },
+          { "en": "Light [laɪt]", "ru": "свет" },
+          { "en": "High [haɪ]", "ru": "высокий" }
+        ]},
+        { "title": "y → [aɪ] (в односложных)", "examples": [
+          { "en": "My [maɪ]", "ru": "мой" },
+          { "en": "Sky [skaɪ]", "ru": "небо" }
+        ]},
+        {
+          "title": "Magic e: гласная + согл. + немая e",
+          "borderColor": "term",
+          "transforms": [
+            { "from": "a_e → [eɪ]", "to": "Cake, Name", "toColor": "example" },
+            { "from": "i_e → [aɪ]", "to": "Bike, Time", "toColor": "info" },
+            { "from": "o_e → [əʊ]", "to": "Home, Note", "toColor": "term" },
+            { "from": "u_e → [juː]", "to": "Cute, June", "toColor": "accent2" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ловушка: y в длинных словах",
+          "preview": "happy, family, city — [i], не [aɪ]",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "examples": [
+              { "en": "Happy [ˈhæpi]", "ru": "y = краткое [i]" },
+              { "en": "Family [ˈfæməli]", "ru": "y = краткое [i]" },
+              { "en": "City [ˈsɪti]", "ru": "y = краткое [i]" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Гласная + r и ошибки",
+      "intro": {
+        "text": "R после гласной «окрашивает» звук и делает его долгим.",
+        "highlight": "«окрашивает»",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "ar / or", "transforms": [
+          { "from": "ar → [ɑː]", "to": "Car, Park, Star", "toColor": "example" },
+          { "from": "or → [ɔː]", "to": "Fork, Sport, Short", "toColor": "info" }
+        ]},
+        { "title": "er, ir, ur → [ɜː] — один звук!", "transforms": [
+          { "from": "er", "to": "Her [hɜː]", "toColor": "example" },
+          { "from": "ir", "to": "Bird [bɜːd]", "toColor": "info" },
+          { "from": "ur", "to": "Turn [tɜːn], Nurse", "toColor": "term" }
+        ],
+          "text": "er, ir, ur звучат одинаково — различие только в написании.",
+          "textColor": "term"
+        },
+        { "title": "Ei / ie — капризные", "borderColor": "term", "transforms": [
+          { "from": "ei / ie → [iː]", "to": "piece, field, believe", "toColor": "example" },
+          { "from": "ei → [eɪ]", "to": "eight, neighbour, vein", "toColor": "info" }
+        ]},
+        { "title": "Ошибки", "borderColor": "bad", "errors": [
+          { "wrong": "bread → [briːd]", "right": "bread → [bred]" },
+          { "wrong": "book → [buːk]", "right": "book → [bʊk]" },
+          { "wrong": "cow → [kəʊ]", "right": "cow → [kaʊ]" },
+          { "wrong": "cake → [kæk]", "right": "cake → [keɪk]" },
+          { "wrong": "eight → [iːt]", "right": "eight → [eɪt]" },
+          { "wrong": "happy → «хэппай»", "right": "happy → [ˈhæpi]" }
+        ]}
+      ]
+    }
+  ]
+}
