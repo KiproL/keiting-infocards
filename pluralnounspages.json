@@ -1,0 +1,219 @@
+{
+  "tenseName": "Plural Nouns",
+  "route": "cards_pluralnouns",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Singular — один. Plural — два и больше.",
+        "highlight": "один",
+        "highlightColor": "info"
+      },
+      "sections": [
+        { "title": "Зачем это важно", "bullets": [
+          { "text": "От числа зависит форма глагола: A cat runs. / Cats run.", "color": "example" },
+          { "text": "От числа зависит артикль: this book / these books.", "color": "info" },
+          { "text": "Многие существительные образуют мн. ч. особым способом.", "color": "term" }
+        ]},
+        { "title": "Общая схема", "transforms": [
+          { "from": "Regular", "to": "+s, +es, y→ies", "toColor": "example" },
+          { "from": "Irregular", "to": "man → men, child → children", "toColor": "term" },
+          { "from": "Uncountable", "to": "water, information", "toColor": "info" },
+          { "from": "Only plural", "to": "trousers, scissors", "toColor": "accent2" }
+        ]}
+      ]
+    },
+
+    {
+      "label": "+s и -es",
+      "intro": {
+        "text": "Большинство → +s. После шипящих/свистящих → +es.",
+        "highlight": "+s",
+        "highlightColor": "example"
+      },
+      "sections": [
+        { "title": "Основное правило: +s", "examples": [
+          { "en": "Cat → cats", "ru": "кошка" },
+          { "en": "Book → books", "ru": "книга" },
+          { "en": "Dog → dogs", "ru": "собака" }
+        ]},
+        { "title": "-es после -s, -ss, -sh, -ch, -x, -z", "examples": [
+          { "en": "Bus → buses [ˈbʌsɪz]", "ru": "автобус" },
+          { "en": "Box → boxes [ˈbɒksɪz]", "ru": "коробка" },
+          { "en": "Watch → watches [ˈwɒtʃɪz]", "ru": "часы" }
+        ]}
+      ],
+      "expandables": [
+        {
+          "label": "Произношение -s",
+          "preview": "/s/ · /z/ · /ɪz/",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "transforms": [
+              { "from": "/s/", "to": "после глухих: cats, books", "toColor": "info" },
+              { "from": "/z/", "to": "после звонких: dogs, boys", "toColor": "example" },
+              { "from": "/ɪz/", "to": "после шипящих: buses", "toColor": "term" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "-o, -y, -f",
+      "intro": {
+        "text": "Три особых группы: -o, -y, -f/-fe.",
+        "highlight": "особых групп",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "Слова на -o", "transforms": [
+          { "from": "+es", "to": "potatoes, tomatoes, heroes", "toColor": "example" },
+          { "from": "+s", "to": "photos, pianos, radios", "toColor": "info" }
+        ]},
+        { "title": "Согласная + y → ies", "examples": [
+          { "en": "City → cities", "ru": "город" },
+          { "en": "Family → families", "ru": "семья" }
+        ]},
+        { "title": "Гласная + y → +s", "examples": [
+          { "en": "Boy → boys", "ru": "мальчик" },
+          { "en": "Day → days", "ru": "день" }
+        ]}
+      ],
+      "expandables": [
+        {
+          "label": "-f / -fe → -ves, но есть исключения",
+          "preview": "knife → knives, но roof → roofs",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              { "text": "f / fe → ves: leaf, knife, wife, life, wolf, shelf", "color": "example" },
+              { "text": "Исключения +s: roof, chief, cliff, belief", "color": "bad" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Irregular",
+      "intro": {
+        "text": "Особые формы — просто запомнить.",
+        "highlight": "просто запомнить",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "Меняется гласная", "transforms": [
+          { "from": "man", "to": "men", "toColor": "example" },
+          { "from": "woman", "to": "women", "toColor": "example" },
+          { "from": "foot", "to": "feet", "toColor": "example" },
+          { "from": "tooth", "to": "teeth", "toColor": "example" },
+          { "from": "mouse", "to": "mice", "toColor": "example" }
+        ]},
+        { "title": "Особое окончание", "transforms": [
+          { "from": "child", "to": "children", "toColor": "info" },
+          { "from": "ox", "to": "oxen", "toColor": "info" }
+        ]}
+      ],
+      "expandables": [
+        {
+          "label": "Форма совпадает с ед. ч. + заимствования",
+          "preview": "sheep → sheep, datum → data",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "examples": [
+              { "en": "Sheep → sheep", "ru": "овца" },
+              { "en": "Deer → deer", "ru": "олень" },
+              { "en": "Fish → fish", "ru": "рыба (fishes — о разных видах)" },
+              { "en": "Datum → data", "ru": "данные" },
+              { "en": "Analysis → analyses", "ru": "анализ" },
+              { "en": "Crisis → crises", "ru": "кризис" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Plurals only / Uncountable",
+      "intro": {
+        "text": "Есть слова только во мн. ч. и неисчисляемые.",
+        "highlight": "только во мн. ч.",
+        "highlightColor": "info"
+      },
+      "sections": [
+        { "title": "Только множественное", "examples": [
+          { "en": "Trousers / pants", "ru": "брюки" },
+          { "en": "Jeans", "ru": "джинсы" },
+          { "en": "Scissors", "ru": "ножницы" },
+          { "en": "Glasses", "ru": "очки" }
+        ],
+          "text": "Считаются через pair(s) of: a pair of scissors.",
+          "textColor": "info"
+        },
+        { "title": "Другие только во мн. ч.", "borderColor": "term", "examples": [
+          { "en": "Clothes", "ru": "одежда" },
+          { "en": "Police", "ru": "полиция" },
+          { "en": "People", "ru": "люди" }
+        ]}
+      ],
+      "expandables": [
+        {
+          "label": "Неисчисляемые — категории",
+          "preview": "water · advice · news · furniture",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "transforms": [
+              { "from": "Вещества", "to": "water, milk, bread, sugar, rice", "toColor": "example" },
+              { "from": "Абстрактные", "to": "information, advice, knowledge", "toColor": "info" },
+              { "from": "Собирательные", "to": "furniture, luggage, news", "toColor": "term" }
+            ],
+            "text": "Счётчики: a piece of advice, a glass of water.",
+            "textColor": "example"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Топ ошибок с числом существительных.",
+        "highlight": "числом",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "Слева — нельзя, справа — правильно", "errors": [
+          { "wrong": "two mans", "right": "two men" },
+          { "wrong": "many childs", "right": "many children" },
+          { "wrong": "three sheeps", "right": "three sheep" },
+          { "wrong": "my trousers is dirty", "right": "my trousers are dirty" },
+          { "wrong": "two informations", "right": "two pieces of information" },
+          { "wrong": "potatos", "right": "potatoes" },
+          { "wrong": "knifes", "right": "knives" },
+          { "wrong": "the news are good", "right": "the news is good" }
+        ]}
+      ],
+      "expandables": [
+        {
+          "label": "Согласование глагола + ловушки",
+          "preview": "team is/are · news is · mathematics is",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              { "text": "Ед. ч.: The cat runs. / My sister is a teacher.", "color": "example" },
+              { "text": "Мн. ч.: The cats run. / My sisters are teachers.", "color": "info" },
+              { "text": "Собирательные (team, family) в BrE — часто мн. ч.", "color": "term" },
+              { "text": "Слова на -s, но ед. ч.: mathematics is, news is", "color": "bad" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
