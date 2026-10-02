@@ -1,0 +1,181 @@
+{
+  "tenseName": "Present Perfect",
+  "route": "cards_presentperf",
+  "slides": [
+    {
+      "label": "Формы",
+      "intro": {
+        "text": "Present Perfect описывает действие, которое произошло в прошлом, но связано с настоящим — важен результат, а не время.",
+        "highlight": "связано с настоящим",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Утверждение",
+          "keysValues": [
+            { "key": "I / You / We / They", "value": "+ have + V3", "valueColor": "term" },
+            { "key": "He / She / It", "value": "+ has + V3", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "I have finished my homework.", "ru": "Я уже закончил домашнее задание." },
+            { "en": "She has cooked dinner.", "ru": "Она приготовила ужин." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "have / has + not", "value": "+ V3", "valueColor": "bad" }
+          ],
+          "examples": [
+            { "en": "She hasn't cooked dinner yet.", "ru": "Она ещё не приготовила ужин." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "Have / Has + подлежащее", "value": "+ V3?", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "Have they finished the project?", "ru": "Они закончили проект?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Have / Has",
+      "intro": {
+        "text": "В Present Perfect вспомогательный глагол have (или has для he/she/it) + третья форма смыслового глагола.",
+        "highlight": "have",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Кто какой использует",
+          "keysValues": [
+            { "key": "have", "value": "I / you / we / they", "valueColor": "example" },
+            { "key": "has", "value": "he / she / it", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Сокращения",
+          "keysValues": [
+            { "key": "I have / you have / we have", "value": "I've / you've / we've", "valueColor": "term" },
+            { "key": "he has / she has / it has", "value": "he's / she's / it's", "valueColor": "term" },
+            { "key": "have not", "value": "haven't", "valueColor": "term" },
+            { "key": "has not", "value": "hasn't", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "Have you ever been to Paris?", "ru": "Ты когда-нибудь был в Париже?", "icon": "question", "iconColor": "bad" },
+            { "en": "He hasn't called yet.", "ru": "Он ещё не позвонил.", "icon": "cross", "iconColor": "bad" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Вспомогательные слова",
+      "chips": {
+        "intro": "Эти слова подсказывают, что действие связано с настоящим моментом или ещё не завершено.",
+        "title": "Слова-маркеры",
+        "selectedTitle": "Выбранное слово",
+        "items": [
+          { "word": "just", "translation": "только что", "example": "I have just finished my homework.", "exampleTranslation": "Я только что закончил домашнее задание." },
+          { "word": "already", "translation": "уже", "example": "She has already left.", "exampleTranslation": "Она уже ушла." },
+          { "word": "yet", "translation": "ещё (в вопросах и отрицаниях)", "example": "Have you finished the report yet?", "exampleTranslation": "Ты уже закончил отчёт?" },
+          { "word": "ever", "translation": "когда-либо", "example": "Have you ever tried sushi?", "exampleTranslation": "Ты когда-нибудь пробовал суши?" },
+          { "word": "never", "translation": "никогда", "example": "I have never been to Japan.", "exampleTranslation": "Я никогда не был в Японии." },
+          { "word": "since / for", "translation": "с (момента) / в течение", "example": "They have lived here since 2015.", "exampleTranslation": "Они живут здесь с 2015 года." }
+        ]
+      }
+    },
+
+    {
+      "label": "Третья форма глагола",
+      "intro": {
+        "text": "Третья форма (V3, Past Participle) образуется по-разному у правильных и неправильных глаголов.",
+        "highlight": "V3",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Правильные глаголы",
+          "rules": [
+            { "name": "Большинство глаголов", "suffix": "+ ed", "example": "work → worked, play → played" },
+            { "name": "Немая -e", "suffix": "+ d", "example": "live → lived, like → liked" },
+            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ed", "example": "stop → stopped, plan → planned" },
+            { "name": "Согласная + y", "suffix": "y → ied", "example": "study → studied, cry → cried" }
+          ]
+        },
+        {
+          "title": "Неправильные глаголы (V3 нужно запоминать)",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "be", "value": "been", "valueColor": "bad" },
+            { "key": "go", "value": "gone / been", "valueColor": "bad" },
+            { "key": "see", "value": "seen", "valueColor": "bad" },
+            { "key": "do", "value": "done", "valueColor": "bad" },
+            { "key": "write", "value": "written", "valueColor": "bad" },
+            { "key": "eat", "value": "eaten", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I have already eaten breakfast.", "ru": "Я уже позавтракал." },
+            { "en": "She has never seen the ocean.", "ru": "Она никогда не видела океан." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Present Perfect vs Past Simple",
+      "intro": {
+        "text": "Оба времени говорят о прошлом, но фокус разный: Present Perfect важен результат сейчас, Past Simple — конкретный момент в прошлом.",
+        "highlight": "результат сейчас",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Present Perfect",
+          "borderColor": "good",
+          "keysValues": [
+            { "key": "Время", "value": "не указано или важен результат", "valueColor": "example" },
+            { "key": "Связь", "value": "с настоящим моментом", "valueColor": "example" },
+            { "key": "Маркеры", "value": "just, already, yet, ever, never", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Past Simple",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "Время", "value": "указано точно", "valueColor": "bad" },
+            { "key": "Связь", "value": "действие закончилось в прошлом", "valueColor": "bad" },
+            { "key": "Маркеры", "value": "yesterday, last week, in 2010, ago", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I have lost my keys.", "ru": "Я потерял ключи (и сейчас их нет)." },
+            { "en": "I lost my keys yesterday.", "ru": "Я потерял ключи вчера (просто факт)." }
+          ]
+        },
+        {
+          "title": "since / for",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "since", "value": "с определённого момента: I have worked here since 2018.", "valueColor": "term" },
+            { "key": "for", "value": "в течение периода: I have worked here for six years.", "valueColor": "example" }
+          ]
+        }
+      ]
+    }
+  ]
+}
