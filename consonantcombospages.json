@@ -1,0 +1,253 @@
+{
+  "tenseName": "Consonant Combos",
+  "route": "cards_consonantcombos",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Согласные рядом читаются не так, как по отдельности. Это нужно запомнить.",
+        "highlight": "не так, как по отдельности",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Почему это важно",
+          "bullets": [
+            { "text": "Одна комбинация читается по-разному (ch в chair и school).", "color": "example" },
+            { "text": "Некоторые буквы не произносятся (kn в know).", "color": "info" },
+            { "text": "Без правил чтение новых слов — угадывание.", "color": "term" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Все группы сочетаний",
+          "preview": "ch, ck, sh, th, ph, wh, wr, kn, ng, qu, gh, tch",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              { "text": "ch, ck, sh, th — «шипящие»", "color": "example" },
+              { "text": "ph, gh, wh — с h", "color": "info" },
+              { "text": "wr, kn, gn, mb — немые", "color": "term" },
+              { "text": "ng, qu — особые звуки", "color": "example" },
+              { "text": "tch, dge — после краткого гласного", "color": "info" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ch, ck",
+      "intro": {
+        "text": "Ch = [tʃ], [k] или [ʃ]. Ck = всегда [k].",
+        "highlight": "Ch = [tʃ]",
+        "highlightColor": "example"
+      },
+      "sections": [
+        {
+          "title": "Ch → [tʃ] — самый частый",
+          "examples": [
+            { "en": "Chair [tʃeə]", "ru": "стул" },
+            { "en": "Church [tʃɜːtʃ]", "ru": "церковь" },
+            { "en": "Child [tʃaɪld]", "ru": "ребёнок" }
+          ]
+        },
+        {
+          "title": "Ch → [k] — греческие слова",
+          "examples": [
+            { "en": "School [skuːl]", "ru": "школа" },
+            { "en": "Chemistry [ˈkemɪstri]", "ru": "химия" },
+            { "en": "Christmas [ˈkrɪsməs]", "ru": "Рождество" }
+          ]
+        },
+        {
+          "title": "Ch → [ʃ] — французские слова",
+          "examples": [
+            { "en": "Machine [məˈʃiːn]", "ru": "машина" },
+            { "en": "Chef [ʃef]", "ru": "шеф-повар" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ck — только после краткого гласного",
+          "preview": "back · clock · duck — никогда в начале",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "examples": [
+              { "en": "Back [bæk]", "ru": "спина" },
+              { "en": "Clock [klɒk]", "ru": "часы" },
+              { "en": "Duck [dʌk]", "ru": "утка" }
+            ],
+            "text": "Краткий гласный → ck. Долгий/дифтонг → k (book, bank).",
+            "textColor": "term"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Sh, th",
+      "intro": {
+        "text": "Sh = [ʃ]. Th = [θ] или [ð].",
+        "highlight": "Th = [θ] или [ð]",
+        "highlightColor": "info"
+      },
+      "sections": [
+        {
+          "title": "Sh → [ʃ]",
+          "examples": [
+            { "en": "Ship [ʃɪp]", "ru": "корабль" },
+            { "en": "Shop [ʃɒp]", "ru": "магазин" },
+            { "en": "Fish [fɪʃ]", "ru": "рыба" }
+          ]
+        },
+        {
+          "title": "Th → [θ] (глухой)",
+          "examples": [
+            { "en": "Think [θɪŋk]", "ru": "думать" },
+            { "en": "Three [θriː]", "ru": "три" }
+          ]
+        },
+        {
+          "title": "Th → [ð] (звонкий)",
+          "examples": [
+            { "en": "This [ðɪs]", "ru": "этот" },
+            { "en": "Mother [ˈmʌðə]", "ru": "мать" }
+          ]
+        },
+        {
+          "title": "Как проверить",
+          "borderColor": "term",
+          "text": "Пальцы на горло: [ð] — вибрация, [θ] — нет.",
+          "textColor": "text"
+        }
+      ]
+    },
+
+    {
+      "label": "Ph, wh, gh",
+      "intro": {
+        "text": "Ph = [f]. Wh = [w] или [h]. Gh = молчит или [f].",
+        "highlight": "Ph = [f]",
+        "highlightColor": "example"
+      },
+      "sections": [
+        {
+          "title": "Ph → [f]",
+          "examples": [
+            { "en": "Phone [fəʊn]", "ru": "телефон" },
+            { "en": "Photo [ˈfəʊtəʊ]", "ru": "фото" },
+            { "en": "Elephant [ˈelɪfənt]", "ru": "слон" }
+          ]
+        },
+        {
+          "title": "Wh → [w]",
+          "examples": [
+            { "en": "What [wɒt]", "ru": "что" },
+            { "en": "When [wen]", "ru": "когда" },
+            { "en": "Where [weə]", "ru": "где" }
+          ]
+        },
+        {
+          "title": "Wh → [h] — только перед o",
+          "examples": [
+            { "en": "Who [huː]", "ru": "кто" },
+            { "en": "Whose [huːz]", "ru": "чей" }
+          ]
+        },
+        {
+          "title": "Gh",
+          "borderColor": "term",
+          "transforms": [
+            { "from": "молчит", "to": "night, light, high, though", "toColor": "info" },
+            { "from": "[f]", "to": "laugh, enough, cough", "toColor": "example" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Немые и особые",
+      "intro": {
+        "text": "Wr, kn, gn, mb — одна буква молчит. Ng и qu — особые звуки.",
+        "highlight": "одна буква молчит",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Немые согласные",
+          "transforms": [
+            { "from": "wr → [r]", "to": "Write, Wrong, Wrist", "toColor": "example" },
+            { "from": "kn → [n]", "to": "Know, Knee, Knife", "toColor": "example" },
+            { "from": "gn → [n]", "to": "Sign, Gnome", "toColor": "example" },
+            { "from": "mb → [m]", "to": "Comb, Climb, Lamb", "toColor": "example" }
+          ]
+        },
+        {
+          "title": "Ng → [ŋ] — носовой",
+          "examples": [
+            { "en": "Sing [sɪŋ]", "ru": "петь" },
+            { "en": "Morning [ˈmɔːnɪŋ]", "ru": "утро" }
+          ],
+          "text": "После ng звук [g] не слышен: sing ≠ «синг».",
+          "textColor": "bad"
+        },
+        {
+          "title": "Qu → [kw]",
+          "examples": [
+            { "en": "Queen [kwiːn]", "ru": "королева" },
+            { "en": "Question [ˈkwestʃən]", "ru": "вопрос" }
+          ]
+        },
+        {
+          "title": "Tch / dge — после краткого гласного",
+          "examples": [
+            { "en": "Catch [kætʃ]", "ru": "ловить" },
+            { "en": "Bridge [brɪdʒ]", "ru": "мост" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Топ ошибок в произношении согласных.",
+        "highlight": "Топ ошибок",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "school → «чкул»", "right": "school → [skuːl], ch = [k]" },
+            { "wrong": "think → «синк»", "right": "think → [θɪŋk]" },
+            { "wrong": "sing → «синг» с г", "right": "sing → [sɪŋ], g не читается" },
+            { "wrong": "know → «кнов»", "right": "know → [nəʊ], k молчит" },
+            { "wrong": "write → «врайт»", "right": "write → [raɪt], w молчит" },
+            { "wrong": "laugh → «лаугх»", "right": "laugh → [lɑːf], gh = [f]" },
+            { "wrong": "machine → «мачин»", "right": "machine → [məˈʃiːn], ch = [ʃ]" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Интересный факт",
+          "preview": "Почему gh раньше звучало как «х»",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              { "text": "Сочетание gh когда-то произносилось как русское «х» (как в шотландском loch). Со временем звук исчез, кроме laugh, enough, где он превратился в [f].", "color": "example" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
