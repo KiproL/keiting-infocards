@@ -1,0 +1,179 @@
+{
+  "tenseName": "Future Perfect",
+  "route": "cards_futureperf",
+  "slides": [
+    {
+      "label": "Формы",
+      "intro": {
+        "text": "Future Perfect описывает действие, которое завершится к определённому моменту в будущем — важен результат к этому сроку.",
+        "highlight": "завершится к определённому моменту",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Утверждение",
+          "keysValues": [
+            { "key": "I / You / He / She / It / We / They", "value": "+ will have + V3", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "I will have finished the report by Friday.", "ru": "К пятнице я закончу отчёт." },
+            { "en": "She will have graduated by next summer.", "ru": "К следующему лету она закончит университет." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "will + not", "value": "+ have + V3", "valueColor": "bad" }
+          ],
+          "examples": [
+            { "en": "They won't have finished by then.", "ru": "Они не закончат к тому времени." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "Will + подлежащее", "value": "+ have + V3?", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "Will you have finished by 6 pm?", "ru": "Ты закончишь к 6 вечера?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Will have",
+      "intro": {
+        "text": "В Future Perfect используется will have + третья форма смыслового глагола (V3). Форма не меняется по лицам.",
+        "highlight": "will have",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Кто использует",
+          "keysValues": [
+            { "key": "will have", "value": "I / you / he / she / it / we / they", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Сокращения",
+          "keysValues": [
+            { "key": "I will have", "value": "I'll have", "valueColor": "term" },
+            { "key": "you / we / they will have", "value": "you'll / we'll / they'll have", "valueColor": "term" },
+            { "key": "he / she / it will have", "value": "he'll / she'll / it'll have", "valueColor": "term" },
+            { "key": "will not have", "value": "won't have", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "How much will you have saved by December?", "ru": "Сколько ты накопишь к декабрю?", "icon": "question", "iconColor": "bad" },
+            { "en": "He won't have arrived by then.", "ru": "Он не приедет к тому времени.", "icon": "cross", "iconColor": "bad" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Слова-маркеры",
+      "chips": {
+        "intro": "Эти слова указывают срок, к которому действие уже будет завершено.",
+        "title": "Слова-маркеры",
+        "selectedTitle": "Выбранное слово",
+        "items": [
+          { "word": "by", "translation": "к (сроку)", "example": "I will have finished by Monday.", "exampleTranslation": "Я закончу к понедельнику." },
+          { "word": "by the time", "translation": "к тому времени как", "example": "By the time you wake up, I will have left.", "exampleTranslation": "К тому времени, как ты проснёшься, я уже уйду." },
+          { "word": "by then", "translation": "к тому времени", "example": "The movie will have started by then.", "exampleTranslation": "К тому времени фильм уже начнётся." },
+          { "word": "before", "translation": "до того как", "example": "She will have left before you arrive.", "exampleTranslation": "Она уйдёт до того, как ты приедешь." },
+          { "word": "by next year", "translation": "к следующему году", "example": "We will have moved by next year.", "exampleTranslation": "К следующему году мы переедем." },
+          { "word": "already", "translation": "уже (к тому моменту)", "example": "They will have already eaten by 8 pm.", "exampleTranslation": "К 8 вечера они уже поедят." }
+        ]
+      }
+    },
+
+    {
+      "label": "Третья форма глагола",
+      "intro": {
+        "text": "После have глагол всегда стоит в третьей форме (V3, Past Participle) — как в Present Perfect.",
+        "highlight": "V3",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Правильные глаголы",
+          "rules": [
+            { "name": "Большинство глаголов", "suffix": "+ ed", "example": "finish → finished, work → worked" },
+            { "name": "Немая -e", "suffix": "+ d", "example": "live → lived, save → saved" },
+            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ed", "example": "stop → stopped, plan → planned" },
+            { "name": "Согласная + y", "suffix": "y → ied", "example": "study → studied, carry → carried" }
+          ]
+        },
+        {
+          "title": "Неправильные глаголы (V3 нужно запоминать)",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "go", "value": "gone", "valueColor": "bad" },
+            { "key": "finish", "value": "finished", "valueColor": "bad" },
+            { "key": "leave", "value": "left", "valueColor": "bad" },
+            { "key": "write", "value": "written", "valueColor": "bad" },
+            { "key": "build", "value": "built", "valueColor": "bad" },
+            { "key": "become", "value": "become", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "By 2030, scientists will have found a cure.", "ru": "К 2030 году учёные найдут лекарство." },
+            { "en": "We will have built the house by summer.", "ru": "К лету мы построим дом." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Future Perfect vs Future Simple",
+      "intro": {
+        "text": "Future Perfect показывает, что действие завершится к определённому сроку, а Future Simple — просто что действие произойдёт в будущем.",
+        "highlight": "завершится к сроку",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Future Perfect",
+          "borderColor": "good",
+          "keysValues": [
+            { "key": "Акцент", "value": "завершено к сроку", "valueColor": "example" },
+            { "key": "Форма", "value": "will have + V3", "valueColor": "example" },
+            { "key": "Слово", "value": "by, by the time, before", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Future Simple",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "Акцент", "value": "просто будущее действие", "valueColor": "bad" },
+            { "key": "Форма", "value": "will + V", "valueColor": "bad" },
+            { "key": "Слово", "value": "tomorrow, next week", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I will have finished the project by Monday.", "ru": "К понедельнику я закончу проект (уже готово к сроку)." },
+            { "en": "I will finish the project on Monday.", "ru": "Я закончу проект в понедельник (просто факт)." }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "examples": [
+            { "en": "By 9 pm, she will have cooked dinner.", "ru": "К 9 вечера она уже приготовит ужин (Perfect)." },
+            { "en": "She will cook dinner at 9 pm.", "ru": "Она приготовит ужин в 9 вечера (Simple)." }
+          ]
+        }
+      ]
+    }
+  ]
+}
