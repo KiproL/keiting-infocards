@@ -1,0 +1,172 @@
+{
+  "tenseName": "Past Perfect Continuous",
+  "route": "cards_pastperfcont",
+  "slides": [
+    {
+      "label": "Формы",
+      "intro": {
+        "text": "Past Perfect Continuous описывает действие, которое длилось до определённого момента в прошлом — важна длительность до того, как случилось что-то ещё.",
+        "highlight": "длилось до момента",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Утверждение",
+          "keysValues": [
+            { "key": "I / You / He / She / It / We / They", "value": "+ had been + V-ing", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "I had been waiting for an hour when the bus came.", "ru": "Я ждал уже час, когда пришёл автобус." },
+            { "en": "She had been working there for five years before she quit.", "ru": "Она проработала там пять лет, прежде чем уволилась." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "had + not", "value": "+ been + V-ing", "valueColor": "bad" }
+          ],
+          "examples": [
+            { "en": "She hadn't been sleeping well before the trip.", "ru": "Она плохо спала перед поездкой." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "Had + подлежащее", "value": "+ been + V-ing?", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "Had they been waiting long before you arrived?", "ru": "Они долго ждали до того, как ты приехал?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Had been",
+      "intro": {
+        "text": "В Past Perfect Continuous используется had been + глагол с окончанием -ing. Форма не меняется по лицам.",
+        "highlight": "had been",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Кто использует",
+          "keysValues": [
+            { "key": "had been", "value": "I / you / he / she / it / we / they", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Сокращения",
+          "keysValues": [
+            { "key": "I had been / you had been", "value": "I'd been / you'd been", "valueColor": "term" },
+            { "key": "he had been / she had been", "value": "he'd been / she'd been", "valueColor": "term" },
+            { "key": "had not been", "value": "hadn't been", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "How long had you been studying before the exam?", "ru": "Как долго ты готовился до экзамена?", "icon": "question", "iconColor": "bad" },
+            { "en": "He hadn't been feeling well before the trip.", "ru": "Он плохо себя чувствовал перед поездкой.", "icon": "cross", "iconColor": "bad" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Слова-маркеры",
+      "chips": {
+        "intro": "Эти слова показывают длительность действия, которое продолжалось до момента другого события в прошлом.",
+        "title": "Слова-маркеры",
+        "selectedTitle": "Выбранное слово",
+        "items": [
+          { "word": "for", "translation": "в течение (периода)", "example": "I had been waiting for two hours when she called.", "exampleTranslation": "Я ждал уже два часа, когда она позвонила." },
+          { "word": "since", "translation": "с (момента)", "example": "He had been working there since 2015.", "exampleTranslation": "Он работал там с 2015 года." },
+          { "word": "before", "translation": "до того как", "example": "She had been crying before we arrived.", "exampleTranslation": "Она плакала до того, как мы приехали." },
+          { "word": "by the time", "translation": "к тому времени как", "example": "By the time help arrived, they had been waiting for hours.", "exampleTranslation": "К тому времени, как прибыла помощь, они ждали уже несколько часов." },
+          { "word": "how long", "translation": "как долго", "example": "How long had they been driving before the accident?", "exampleTranslation": "Как долго они ехали до аварии?" },
+          { "word": "all morning / all day", "translation": "всё утро / весь день", "example": "It had been raining all morning.", "exampleTranslation": "Всё утро шёл дождь." }
+        ]
+      }
+    },
+
+    {
+      "label": "Окончание -ing",
+      "intro": {
+        "text": "После been глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
+        "highlight": "been",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Правила",
+          "rules": [
+            { "name": "Большинство глаголов", "suffix": "+ ing", "example": "wait → waiting, work → working" },
+            { "name": "Немая -e", "suffix": "e убирается + ing", "example": "write → writing, drive → driving" },
+            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ing", "example": "run → running, sit → sitting" },
+            { "name": "Глаголы на -ie", "suffix": "ie → y + ing", "example": "lie → lying, die → dying" }
+          ]
+        },
+        {
+          "title": "Важно",
+          "keysValues": [
+            { "key": "been", "value": "не изменяется, стоит перед V-ing", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "They had been driving for six hours when they stopped.", "ru": "Они ехали уже шесть часов, когда остановились." },
+            { "en": "I had been studying all night before the exam.", "ru": "Я занимался всю ночь перед экзаменом." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Perfect Continuous vs Perfect",
+      "intro": {
+        "text": "Оба времени описывают «прошлое до прошлого», но Past Perfect Continuous делает акцент на длительности процесса, а Past Perfect — на результате.",
+        "highlight": "на длительности",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Past Perfect Continuous",
+          "borderColor": "good",
+          "keysValues": [
+            { "key": "Акцент", "value": "процесс, длительность", "valueColor": "example" },
+            { "key": "Форма", "value": "had been + V-ing", "valueColor": "example" },
+            { "key": "Вопрос", "value": "как долго?", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Past Perfect",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "Акцент", "value": "результат, факт к моменту", "valueColor": "bad" },
+            { "key": "Форма", "value": "had + V3", "valueColor": "bad" },
+            { "key": "Вопрос", "value": "сколько сделано?", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I had been reading for two hours when he came.", "ru": "Я читал уже два часа, когда он пришёл (процесс)." },
+            { "en": "I had read three books by the time he came.", "ru": "К тому моменту, как он пришёл, я прочитал три книги (результат)." }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "examples": [
+            { "en": "She had been cooking all morning.", "ru": "Она готовила всё утро (процесс)." },
+            { "en": "She had cooked three dishes by noon.", "ru": "К полудню она приготовила три блюда (результат)." }
+          ]
+        }
+      ]
+    }
+  ]
+}

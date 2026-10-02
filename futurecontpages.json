@@ -1,0 +1,173 @@
+{
+  "tenseName": "Future Continuous",
+  "route": "cards_futurecont",
+  "slides": [
+    {
+      "label": "Формы",
+      "intro": {
+        "text": "Future Continuous описывает действие, которое будет в процессе в определённый момент в будущем.",
+        "highlight": "в процессе",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Утверждение",
+          "keysValues": [
+            { "key": "I / You / He / She / It / We / They", "value": "+ will be + V-ing", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "I will be sleeping at midnight.", "ru": "В полночь я буду спать." },
+            { "en": "They will be traveling this time next week.", "ru": "На следующей неделе в это время они будут путешествовать." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "will + not", "value": "+ be + V-ing", "valueColor": "bad" }
+          ],
+          "examples": [
+            { "en": "She won't be working tomorrow evening.", "ru": "Она не будет работать завтра вечером." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "Will + подлежащее", "value": "+ be + V-ing?", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "Will you be using the car tonight?", "ru": "Ты будешь пользоваться машиной сегодня вечером?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Will be",
+      "intro": {
+        "text": "В Future Continuous используется will be + глагол с окончанием -ing. Форма не меняется по лицам.",
+        "highlight": "will be",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Кто использует",
+          "keysValues": [
+            { "key": "will be", "value": "I / you / he / she / it / we / they", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Сокращения",
+          "keysValues": [
+            { "key": "I will be", "value": "I'll be", "valueColor": "term" },
+            { "key": "you / we / they will be", "value": "you'll / we'll / they'll be", "valueColor": "term" },
+            { "key": "he / she / it will be", "value": "he'll / she'll / it'll be", "valueColor": "term" },
+            { "key": "will not be", "value": "won't be", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "What will you be doing at 8 pm tomorrow?", "ru": "Что ты будешь делать завтра в 8 вечера?", "icon": "question", "iconColor": "bad" },
+            { "en": "He won't be sleeping when we arrive.", "ru": "Он не будет спать, когда мы приедем.", "icon": "cross", "iconColor": "bad" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Слова-маркеры",
+      "chips": {
+        "intro": "Эти слова показывают конкретный момент или период в будущем, когда действие будет в процессе.",
+        "title": "Слова-маркеры",
+        "selectedTitle": "Выбранное слово",
+        "items": [
+          { "word": "at this time tomorrow", "translation": "завтра в это время", "example": "At this time tomorrow, I will be flying to London.", "exampleTranslation": "Завтра в это время я буду лететь в Лондон." },
+          { "word": "at 5 o'clock tomorrow", "translation": "завтра в 5 часов", "example": "At 5 o'clock tomorrow, she will be teaching.", "exampleTranslation": "Завтра в 5 часов она будет преподавать." },
+          { "word": "this time next week", "translation": "на следующей неделе в это время", "example": "This time next week, we will be relaxing on the beach.", "exampleTranslation": "На следующей неделе в это время мы будем отдыхать на пляже." },
+          { "word": "while", "translation": "пока / в то время как", "example": "While you're sleeping, I will be working.", "exampleTranslation": "Пока ты будешь спать, я буду работать." },
+          { "word": "all day tomorrow", "translation": "весь день завтра", "example": "I will be studying all day tomorrow.", "exampleTranslation": "Я буду учиться весь завтрашний день." },
+          { "word": "in an hour", "translation": "через час", "example": "In an hour, they will be landing.", "exampleTranslation": "Через час они будут приземляться." }
+        ]
+      }
+    },
+
+    {
+      "label": "Окончание -ing",
+      "intro": {
+        "text": "После be глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
+        "highlight": "-ing",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Правила",
+          "rules": [
+            { "name": "Большинство глаголов", "suffix": "+ ing", "example": "work → working, fly → flying" },
+            { "name": "Немая -e", "suffix": "e убирается + ing", "example": "write → writing, drive → driving" },
+            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ing", "example": "run → running, sit → sitting" },
+            { "name": "Глаголы на -ie", "suffix": "ie → y + ing", "example": "lie → lying, die → dying" }
+          ]
+        },
+        {
+          "title": "Важно",
+          "keysValues": [
+            { "key": "be", "value": "не изменяется, стоит перед V-ing", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "This time tomorrow, I will be flying to New York.", "ru": "Завтра в это время я буду лететь в Нью-Йорк." },
+            { "en": "They will be waiting for us at the airport.", "ru": "Они будут ждать нас в аэропорту." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Future Continuous vs Future Simple",
+      "intro": {
+        "text": "Future Continuous показывает, что действие будет в процессе в конкретный момент, а Future Simple — просто факт, что действие произойдёт.",
+        "highlight": "в процессе",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Future Continuous",
+          "borderColor": "good",
+          "keysValues": [
+            { "key": "Акцент", "value": "процесс в конкретный момент", "valueColor": "example" },
+            { "key": "Форма", "value": "will be + V-ing", "valueColor": "example" },
+            { "key": "Слово", "value": "at this time tomorrow", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Future Simple",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "Акцент", "value": "факт, решение, предсказание", "valueColor": "bad" },
+            { "key": "Форма", "value": "will + V", "valueColor": "bad" },
+            { "key": "Слово", "value": "tomorrow, next week", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "At 8 pm I will be having dinner.", "ru": "В 8 вечера я буду ужинать (процесс)." },
+            { "en": "I will have dinner at 8 pm.", "ru": "Я поужинаю в 8 вечера (факт)." }
+          ]
+        },
+        {
+          "title": "Вежливый вопрос о планах",
+          "borderColor": "term",
+          "examples": [
+            { "en": "Will you be using the printer soon?", "ru": "Ты скоро будешь пользоваться принтером? (вежливо)." },
+            { "en": "Will you use the printer?", "ru": "Ты будешь пользоваться принтером? (прямая просьба)." }
+          ]
+        }
+      ]
+    }
+  ]
+}
