@@ -1,0 +1,156 @@
+{
+  "tenseName": "Present Simple",
+  "route": "cards_presentsimp",
+  "slides": [
+    {
+      "label": "Формы",
+      "intro": {
+        "text": "Present Simple показывает факты, привычки и то, что происходит регулярно — без привязки к конкретному моменту.",
+        "highlight": "регулярно",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Утверждение",
+          "keysValues": [
+            { "key": "I / You / We / They", "value": "+ V", "valueColor": "term" },
+            { "key": "He / She / It", "value": "+ V-s / -es", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "I play football every day.", "ru": "Я играю в футбол каждый день." },
+            { "en": "He usually listens to music.", "ru": "Он обычно слушает музыку." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "don't / doesn't", "value": "+ V (начальная форма)", "valueColor": "bad" }
+          ],
+          "examples": [
+            { "en": "He doesn't play football.", "ru": "Он не играет в футбол." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "Do / Does + подлежащее", "value": "+ V?", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "Do you play football?", "ru": "Ты играешь в футбол?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Do / Does",
+      "intro": {
+        "text": "Do и does — вспомогательные глаголы Present Simple, употребляются в отрицательных и вопросительных предложениях.",
+        "highlight": "вспомогательные глаголы",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Кто какой использует",
+          "keysValues": [
+            { "key": "do", "value": "I / you / we / they", "valueColor": "example" },
+            { "key": "does", "value": "he / she / it", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Сокращения",
+          "keysValues": [
+            { "key": "do not", "value": "don't", "valueColor": "term" },
+            { "key": "does not", "value": "doesn't", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "Do you like tea?", "ru": "Ты любишь чай?", "icon": "question", "iconColor": "bad" },
+            { "en": "She doesn't like coffee.", "ru": "Она не любит кофе.", "icon": "cross", "iconColor": "bad" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Вспомогательные слова",
+      "chips": {
+        "intro": "Эти слова указывают, как часто происходит действие.",
+        "title": "Слова-маркеры",
+        "selectedTitle": "Выбранное слово",
+        "items": [
+          { "word": "always", "translation": "всегда", "example": "She always plays football on weekends.", "exampleTranslation": "Она всегда играет в футбол по выходным." },
+          { "word": "usually", "translation": "обычно", "example": "He usually listens to music in the evening.", "exampleTranslation": "Он обычно слушает музыку вечером." },
+          { "word": "often", "translation": "часто", "example": "They often go to the cinema.", "exampleTranslation": "Они часто ходят в кино." },
+          { "word": "every day", "translation": "каждый день", "example": "I drink coffee every day.", "exampleTranslation": "Я пью кофе каждый день." },
+          { "word": "sometimes", "translation": "иногда", "example": "We sometimes watch films together.", "exampleTranslation": "Мы иногда смотрим фильмы вместе." },
+          { "word": "never", "translation": "никогда", "example": "She never eats fast food.", "exampleTranslation": "Она никогда не ест фастфуд." }
+        ]
+      }
+    },
+
+    {
+      "label": "Окончания -s/-es",
+      "intro": {
+        "text": "Окончание добавляется только к глаголу после he / she / it. Правило написания зависит от последней буквы глагола.",
+        "highlight": "he / she / it",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Правила",
+          "rules": [
+            { "name": "Большинство глаголов", "suffix": "+ s", "example": "work → works, play → plays" },
+            { "name": "На -s, -ss, -sh, -ch, -x, -o", "suffix": "+ es", "example": "watch → watches, go → goes" },
+            { "name": "Согласная + y", "suffix": "y → ies", "example": "study → studies" },
+            { "name": "Гласная + y", "suffix": "+ s", "example": "play → plays" }
+          ]
+        },
+        {
+          "title": "Исключение",
+          "keysValues": [
+            { "key": "have", "value": "has", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "He watches TV every evening.", "ru": "Он смотрит телевизор каждый вечер." },
+            { "en": "She studies English on Fridays.", "ru": "Она изучает английский по пятницам." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Глагол to be",
+      "intro": {
+        "text": "Если в предложении нет действия — описывается состояние, качество или личность — используется to be как основной глагол.",
+        "highlight": "to be",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Формы",
+          "keysValues": [
+            { "key": "I", "value": "am", "valueColor": "example" },
+            { "key": "He / She / It", "value": "is", "valueColor": "example" },
+            { "key": "You / We / They", "value": "are", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I am a teacher.", "ru": "Я учитель." },
+            { "en": "She is not tired.", "ru": "Она не устала.", "icon": "cross", "iconColor": "bad" },
+            { "en": "Are you ready?", "ru": "Ты готов?", "icon": "question", "iconColor": "term" }
+          ]
+        }
+      ]
+    }
+  ]
+}
