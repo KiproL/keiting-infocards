@@ -1,0 +1,215 @@
+{
+  "tenseName": "Numbers",
+  "route": "cards_numbers",
+  "slides": [
+    {
+      "label": "Cardinal / Ordinal",
+      "intro": {
+        "text": "Cardinal — «сколько?». Ordinal — «какой по счёту?».",
+        "highlight": "Cardinal",
+        "highlightColor": "info"
+      },
+      "sections": [
+        { "title": "Cardinal Numbers", "examples": [
+          { "en": "one, two, three, four, five…", "ru": "один, два, три, четыре, пять" }
+        ]},
+        { "title": "Ordinal Numbers", "examples": [
+          { "en": "first, second, third, fourth…", "ru": "первый, второй, третий…" }
+        ]},
+        { "title": "Где используются порядковые", "bullets": [
+          { "text": "Даты: the first of May", "color": "example" },
+          { "text": "Этажи: the third floor", "color": "info" },
+          { "text": "Места: She came second", "color": "term" }
+        ]},
+        {
+          "title": "Артикль перед порядковым",
+          "borderColor": "term",
+          "text": "Обычно the: the first, the second.",
+          "textColor": "text"
+        }
+      ]
+    },
+
+    {
+      "label": "1–20",
+      "intro": {
+        "text": "Cardinal Numbers 1–20.",
+        "highlight": "1–20",
+        "highlightColor": "term"
+      },
+      "table": {
+        "headers": ["Число", "Слово", ""],
+        "rows": [
+          { "cells": ["1", "one", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["2", "two", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["3", "three", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["4", "four", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["5", "five", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["6", "six", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["7", "seven", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["8", "eight", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["9", "nine", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["10", "ten", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["11", "eleven", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["12", "twelve", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["13", "thirteen", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["15", "fifteen", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["18", "eighteen", ""], "colors": ["text", "example", "text"] },
+          { "cells": ["20", "twenty", ""], "colors": ["text", "example", "text"] }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Особые случаи",
+          "borderColor": "term",
+          "bullets": [
+            { "text": "five → fifteen", "color": "term" },
+            { "text": "nine → nineteen (e сохраняется)", "color": "term" },
+            { "text": "eight → eighteen (одна t)", "color": "term" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Десятки и сотни",
+      "intro": {
+        "text": "Десятки пишутся через дефис. forty — без u!",
+        "highlight": "дефис",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "Круглые десятки", "transforms": [
+          { "from": "40", "to": "forty (не fourty!)", "toColor": "bad" },
+          { "from": "50", "to": "fifty", "toColor": "example" },
+          { "from": "80", "to": "eighty", "toColor": "example" },
+          { "from": "90", "to": "ninety", "toColor": "example" }
+        ]},
+        { "title": "Составные: через дефис", "examples": [
+          { "en": "21", "ru": "twenty-one" },
+          { "en": "35", "ru": "thirty-five" },
+          { "en": "99", "ru": "ninety-nine" }
+        ]},
+        {
+          "title": "Сотни, тысячи, миллионы",
+          "borderColor": "term",
+          "examples": [
+            { "en": "101", "ru": "a hundred and one (BrE)" },
+            { "en": "250", "ru": "two hundred and fifty" },
+            { "en": "1,000", "ru": "a/one thousand" },
+            { "en": "1,000,000", "ru": "a/one million" }
+          ]
+        },
+        {
+          "title": "Важно про -s",
+          "borderColor": "bad",
+          "text": "hundred, thousand, million без -s, если есть число.",
+          "textColor": "text",
+          "examples": [
+            { "en": "three hundred people", "ru": "не hundreds" },
+            { "en": "five thousand dollars", "ru": "не thousands" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Порядковые 1–20",
+      "intro": {
+        "text": "Ordinal Numbers 1–20.",
+        "highlight": "Ordinal",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "Первые три — особые", "examples": [
+          { "en": "1st", "ru": "first" },
+          { "en": "2nd", "ru": "second" },
+          { "en": "3rd", "ru": "third" }
+        ]},
+        { "title": "С 4 и дальше — +th", "examples": [
+          { "en": "4th", "ru": "fourth" },
+          { "en": "5th", "ru": "fifth (v → f)" },
+          { "en": "8th", "ru": "eighth (одна t)" },
+          { "en": "9th", "ru": "ninth (e уходит)" },
+          { "en": "12th", "ru": "twelfth (ve → f)" }
+        ]},
+        { "title": "Десятки: y → ie + th", "examples": [
+          { "en": "20th", "ru": "twentieth" },
+          { "en": "30th", "ru": "thirtieth" },
+          { "en": "100th", "ru": "hundredth" }
+        ]},
+        { "title": "Составные: меняется последнее слово", "examples": [
+          { "en": "21st", "ru": "twenty-first" },
+          { "en": "53rd", "ru": "fifty-third" }
+        ]}
+      ]
+    },
+
+    {
+      "label": "Даты и дроби",
+      "intro": {
+        "text": "Число месяца — порядковое. Годы — парами.",
+        "highlight": "порядковое",
+        "highlightColor": "term"
+      },
+      "sections": [
+        { "title": "Даты", "examples": [
+          { "en": "1 May", "ru": "the first of May / May the first" },
+          { "en": "25 December", "ru": "the twenty-fifth of December" }
+        ]},
+        { "title": "Годы", "examples": [
+          { "en": "1990", "ru": "nineteen ninety" },
+          { "en": "1805", "ru": "eighteen oh five" },
+          { "en": "2024", "ru": "twenty twenty-four" }
+        ]},
+        {
+          "title": "Дроби и проценты",
+          "borderColor": "term",
+          "examples": [
+            { "en": "1/2", "ru": "a half" },
+            { "en": "1/4", "ru": "a quarter" },
+            { "en": "2/3", "ru": "two thirds" },
+            { "en": "50%", "ru": "fifty per cent" }
+          ]
+        },
+        { "title": "Математические действия", "examples": [
+          { "en": "2 + 2 = 4", "ru": "two plus two equals four" },
+          { "en": "4 × 2 = 8", "ru": "four times two equals eight" }
+        ]}
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Топ ошибок с числами.",
+        "highlight": "ошибок",
+        "highlightColor": "bad"
+      },
+      "sections": [
+        { "title": "Слева — нельзя, справа — правильно", "errors": [
+          { "wrong": "fourty", "right": "forty" },
+          { "wrong": "five hundreds dollars", "right": "five hundred dollars" },
+          { "wrong": "the one of May", "right": "the first of May" },
+          { "wrong": "one fourth", "right": "a quarter" },
+          { "wrong": "nineth", "right": "ninth" },
+          { "wrong": "21th", "right": "21st" },
+          { "wrong": "threeteen", "right": "thirteen" }
+        ]}
+      ],
+      "expandables": [
+        {
+          "label": "Интересный факт",
+          "preview": "thirTEEN vs THIRty — различие в ударении",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "bullets": [
+              { "text": "Числа 13–19 и десятки (30, 40…) отличаются только ударением: thirTEEN — на конце, THIRty — в начале. При диктовке специально произносят медленнее: \"thirteen, one-three\".", "color": "example" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
