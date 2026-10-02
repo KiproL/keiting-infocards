@@ -1,0 +1,178 @@
+{
+  "tenseName": "Past Perfect",
+  "route": "cards_pastperf",
+  "slides": [
+    {
+      "label": "Формы",
+      "intro": {
+        "text": "Past Perfect описывает действие, которое произошло раньше другого действия в прошлом — это «прошлое в прошлом».",
+        "highlight": "раньше другого действия в прошлом",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Утверждение",
+          "keysValues": [
+            { "key": "I / You / He / She / It / We / They", "value": "+ had + V3", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "I had finished my homework before dinner.", "ru": "Я закончил домашнее задание до ужина." },
+            { "en": "She had already left when I arrived.", "ru": "Она уже ушла, когда я приехал." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "had + not", "value": "+ V3", "valueColor": "bad" }
+          ],
+          "examples": [
+            { "en": "She hadn't cooked dinner when we came.", "ru": "Она не приготовила ужин, когда мы пришли." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "Had + подлежащее", "value": "+ V3?", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "Had they left before you called?", "ru": "Они ушли до того, как ты позвонил?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Had",
+      "intro": {
+        "text": "В Past Perfect вспомогательный глагол had для всех лиц + третья форма смыслового глагола (V3).",
+        "highlight": "had",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Кто использует",
+          "keysValues": [
+            { "key": "had", "value": "I / you / he / she / it / we / they", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Сокращения",
+          "keysValues": [
+            { "key": "I had / you had / he had", "value": "I'd / you'd / he'd", "valueColor": "term" },
+            { "key": "she had / we had / they had", "value": "she'd / we'd / they'd", "valueColor": "term" },
+            { "key": "had not", "value": "hadn't", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "Had you ever seen snow before that trip?", "ru": "Ты видел снег до этой поездки?", "icon": "question", "iconColor": "bad" },
+            { "en": "He hadn't finished the report.", "ru": "Он не закончил отчёт.", "icon": "cross", "iconColor": "bad" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Слова-маркеры",
+      "chips": {
+        "intro": "Эти слова показывают порядок двух действий в прошлом — какое из них произошло раньше.",
+        "title": "Слова-маркеры",
+        "selectedTitle": "Выбранное слово",
+        "items": [
+          { "word": "before", "translation": "до того как", "example": "I had left before it started raining.", "exampleTranslation": "Я ушёл до того, как начался дождь." },
+          { "word": "after", "translation": "после того как", "example": "After she had finished, she went home.", "exampleTranslation": "После того как она закончила, она пошла домой." },
+          { "word": "by the time", "translation": "к тому времени как", "example": "By the time we arrived, the film had started.", "exampleTranslation": "К тому времени, как мы приехали, фильм уже начался." },
+          { "word": "already", "translation": "уже", "example": "They had already eaten when I came.", "exampleTranslation": "Они уже поели, когда я пришёл." },
+          { "word": "just", "translation": "только что", "example": "She had just left when he called.", "exampleTranslation": "Она только что ушла, когда он позвонил." },
+          { "word": "never ... before", "translation": "никогда раньше", "example": "I had never seen such a big dog before.", "exampleTranslation": "Я никогда раньше не видел такой большой собаки." }
+        ]
+      }
+    },
+
+    {
+      "label": "Третья форма глагола",
+      "intro": {
+        "text": "После had глагол всегда стоит в третьей форме (V3, Past Participle) — как в Present Perfect.",
+        "highlight": "V3",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Правильные глаголы",
+          "rules": [
+            { "name": "Большинство глаголов", "suffix": "+ ed", "example": "work → worked, play → played" },
+            { "name": "Немая -e", "suffix": "+ d", "example": "live → lived, like → liked" },
+            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ed", "example": "stop → stopped, plan → planned" },
+            { "name": "Согласная + y", "suffix": "y → ied", "example": "study → studied, cry → cried" }
+          ]
+        },
+        {
+          "title": "Неправильные глаголы (V3 нужно запоминать)",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "go", "value": "gone", "valueColor": "bad" },
+            { "key": "see", "value": "seen", "valueColor": "bad" },
+            { "key": "do", "value": "done", "valueColor": "bad" },
+            { "key": "take", "value": "taken", "valueColor": "bad" },
+            { "key": "write", "value": "written", "valueColor": "bad" },
+            { "key": "leave", "value": "left", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I had already left the office by 6 pm.", "ru": "Я уже ушёл из офиса к 6 вечера." },
+            { "en": "She had never taken a plane before that flight.", "ru": "Она никогда раньше не летала на самолёте до этого рейса." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Past Perfect vs Past Simple",
+      "intro": {
+        "text": "Когда в прошлом было два действия, Past Perfect используется для того, что случилось раньше, а Past Simple — для того, что позже.",
+        "highlight": "раньше",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Past Perfect",
+          "borderColor": "good",
+          "keysValues": [
+            { "key": "Момент", "value": "раньше другого действия", "valueColor": "example" },
+            { "key": "Форма", "value": "had + V3", "valueColor": "example" },
+            { "key": "Маркеры", "value": "before, after, by the time, already", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Past Simple",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "Момент", "value": "второе, более позднее действие", "valueColor": "bad" },
+            { "key": "Форма", "value": "V2 / V-ed", "valueColor": "bad" },
+            { "key": "Маркеры", "value": "yesterday, when, last week", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Пример последовательности",
+          "examples": [
+            { "en": "The train had left when we arrived at the station.", "ru": "Поезд уже ушёл, когда мы приехали на вокзал." },
+            { "en": "We arrived at the station. → The train had already left.", "ru": "Мы приехали на вокзал. → Поезд уже ушёл (раньше)." }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "examples": [
+            { "en": "I left before she arrived.", "ru": "Я ушёл до того, как она приехала (без Past Perfect)." },
+            { "en": "I had left before she arrived.", "ru": "Я уже ушёл до того, как она приехала (акцент на завершённости)." }
+          ]
+        }
+      ]
+    }
+  ]
+}
