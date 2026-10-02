@@ -1,0 +1,175 @@
+{
+  "tenseName": "Present Perfect Continuous",
+  "route": "cards_presentperfcont",
+  "slides": [
+    {
+      "label": "Формы",
+      "intro": {
+        "text": "Present Perfect Continuous описывает действие, которое началось в прошлом и продолжается до сих пор (или только что закончилось) — важна длительность.",
+        "highlight": "продолжается до сих пор",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Утверждение",
+          "keysValues": [
+            { "key": "I / You / We / They", "value": "+ have been + V-ing", "valueColor": "term" },
+            { "key": "He / She / It", "value": "+ has been + V-ing", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "I have been waiting for an hour.", "ru": "Я жду уже час." },
+            { "en": "She has been working all day.", "ru": "Она работает весь день." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "have / has + not", "value": "+ been + V-ing", "valueColor": "bad" }
+          ],
+          "examples": [
+            { "en": "She hasn't been sleeping well.", "ru": "Она плохо спит последнее время." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "term",
+          "keysValues": [
+            { "key": "Have / Has + подлежащее", "value": "+ been + V-ing?", "valueColor": "term" }
+          ],
+          "examples": [
+            { "en": "Have you been studying English long?", "ru": "Ты давно учишь английский?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Have / Has been",
+      "intro": {
+        "text": "В Present Perfect Continuous используется have / has been + глагол с окончанием -ing. Been — неизменяемая часть конструкции.",
+        "highlight": "been",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Кто какой использует",
+          "keysValues": [
+            { "key": "have been", "value": "I / you / we / they", "valueColor": "example" },
+            { "key": "has been", "value": "he / she / it", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Сокращения",
+          "keysValues": [
+            { "key": "I / you have been", "value": "I've / you've been", "valueColor": "term" },
+            { "key": "he / she has been", "value": "he's / she's been", "valueColor": "term" },
+            { "key": "have not been", "value": "haven't been", "valueColor": "term" },
+            { "key": "has not been", "value": "hasn't been", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "How long have you been living here?", "ru": "Как долго ты здесь живёшь?", "icon": "question", "iconColor": "bad" },
+            { "en": "They haven't been talking to each other.", "ru": "Они не разговаривают друг с другом.", "icon": "cross", "iconColor": "bad" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Слова-маркеры",
+      "chips": {
+        "intro": "Эти слова подчёркивают длительность действия — как долго оно продолжается или продолжалось.",
+        "title": "Слова-маркеры",
+        "selectedTitle": "Выбранное слово",
+        "items": [
+          { "word": "for", "translation": "в течение (периода)", "example": "I have been learning English for three years.", "exampleTranslation": "Я учу английский уже три года." },
+          { "word": "since", "translation": "с (момента)", "example": "She has been working here since 2019.", "exampleTranslation": "Она работает здесь с 2019 года." },
+          { "word": "how long", "translation": "как долго", "example": "How long have you been waiting?", "exampleTranslation": "Как долго ты ждёшь?" },
+          { "word": "recently / lately", "translation": "недавно / в последнее время", "example": "I have been feeling tired lately.", "exampleTranslation": "Я в последнее время чувствую усталость." },
+          { "word": "all day / all week", "translation": "весь день / всю неделю", "example": "It has been raining all day.", "exampleTranslation": "Весь день идёт дождь." },
+          { "word": "just", "translation": "только что", "example": "I have just been talking to her.", "exampleTranslation": "Я только что разговаривал с ней." }
+        ]
+      }
+    },
+
+    {
+      "label": "Окончание -ing",
+      "intro": {
+        "text": "После been глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
+        "highlight": "been",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Правила",
+          "rules": [
+            { "name": "Большинство глаголов", "suffix": "+ ing", "example": "work → working, read → reading" },
+            { "name": "Немая -e", "suffix": "e убирается + ing", "example": "write → writing, make → making" },
+            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ing", "example": "run → running, sit → sitting" },
+            { "name": "Глаголы на -ie", "suffix": "ie → y + ing", "example": "lie → lying, die → dying" }
+          ]
+        },
+        {
+          "title": "Важно",
+          "keysValues": [
+            { "key": "been", "value": "не изменяется, стоит перед V-ing", "valueColor": "term" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I have been writing this essay for two hours.", "ru": "Я пишу это эссе уже два часа." },
+            { "en": "They have been running since morning.", "ru": "Они бегают с самого утра." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Perfect Continuous vs Perfect",
+      "intro": {
+        "text": "Оба времени связывают прошлое с настоящим, но Present Perfect Continuous делает акцент на процессе, а Present Perfect — на результате.",
+        "highlight": "на процессе",
+        "highlightColor": "term"
+      },
+      "sections": [
+        {
+          "title": "Present Perfect Continuous",
+          "borderColor": "good",
+          "keysValues": [
+            { "key": "Акцент", "value": "процесс, длительность", "valueColor": "example" },
+            { "key": "Форма", "value": "have / has been + V-ing", "valueColor": "example" },
+            { "key": "Вопрос", "value": "как долго?", "valueColor": "example" }
+          ]
+        },
+        {
+          "title": "Present Perfect",
+          "borderColor": "bad",
+          "keysValues": [
+            { "key": "Акцент", "value": "результат, факт", "valueColor": "bad" },
+            { "key": "Форма", "value": "have / has + V3", "valueColor": "bad" },
+            { "key": "Вопрос", "value": "сколько сделано?", "valueColor": "bad" }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            { "en": "I have been reading this book.", "ru": "Я читаю эту книгу (процесс)." },
+            { "en": "I have read this book.", "ru": "Я прочитал эту книгу (результат)." }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "examples": [
+            { "en": "She has been writing emails all morning.", "ru": "Она пишет письма всё утро (процесс)." },
+            { "en": "She has written five emails.", "ru": "Она написала пять писем (результат)." }
+          ]
+        }
+      ]
+    }
+  ]
+}
