@@ -18,11 +18,15 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "Adj",                       "color": "info" },
-              { "text": " → ",                       "color": "muted" },
-              { "text": "Adj+er / more Adj",         "color": "example" },
-              { "text": " → ",                       "color": "muted" },
-              { "text": "the Adj+est / the most Adj","color": "term" }
+              { "text": "Adj",           "color": "info" },
+              { "text": "→",             "color": "muted" },
+              { "text": "Adj+er",        "color": "example" },
+              { "text": "/",             "color": "muted" },
+              { "text": "more Adj",      "color": "example" },
+              { "text": "→",             "color": "muted" },
+              { "text": "the Adj+est",   "color": "term" },
+              { "text": "/",             "color": "muted" },
+              { "text": "the most Adj",  "color": "term" }
             ],
             "accentColor": "term"
           },
@@ -37,10 +41,11 @@
           "borderColor": "info",
           "table": {
             "headers": ["Степень", "Что делает", "Пример"],
+            "headerColors": ["info", "term", "example"],
             "rows": [
-              { "cells": ["Positive",    "просто называет признак", "tall — высокий"],                "colors": ["info",    "text", "example"] },
-              { "cells": ["Comparative", "сравнивает двух",         "taller — выше"],                 "colors": ["example", "text", "example"] },
-              { "cells": ["Superlative", "выделяет одного из всех", "the tallest — самый высокий"],   "colors": ["term",    "text", "example"] }
+              { "cells": ["Positive",    "просто называет признак", "tall — высокий"] },
+              { "cells": ["Comparative", "сравнивает двух",         "taller — выше"] },
+              { "cells": ["Superlative", "выделяет одного из всех", "the tallest — самый высокий"] }
             ],
             "borderColor": "info"
           }
@@ -49,17 +54,17 @@
           "title": "Как выбрать форму",
           "borderColor": "term",
           "rules": [
-            { "name": "1 слог",         "suffix": "+er / +est",     "example": "tall → taller → the tallest" },
-            { "name": "2 и больше слогов", "suffix": "more / the most", "example": "beautiful → more beautiful → the most beautiful" },
-            { "name": "Неправильные",   "suffix": "особая форма",   "example": "good → better → the best" }
+            { "name": "1 слог",              "suffix": "+er / +est",     "example": "tall → taller → the tallest" },
+            { "name": "2 и больше слогов",   "suffix": "more / the most", "example": "beautiful → more beautiful → the most beautiful" },
+            { "name": "Неправильные",        "suffix": "особая форма",   "example": "good → better → the best" }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "My coffee is hot.",             "ru": "Мой кофе горячий. (positive)" },
-            { "en": "My coffee is hotter than yours.","ru": "Мой кофе горячее твоего. (comparative)" },
+            { "en": "My coffee is hot.",                   "ru": "Мой кофе горячий. (positive)" },
+            { "en": "My coffee is hotter than yours.",     "ru": "Мой кофе горячее твоего. (comparative)" },
             { "en": "This is the hottest coffee in town.", "ru": "Это самый горячий кофе в городе. (superlative)" }
           ]
         }
@@ -71,9 +76,9 @@
       "intro": {
         "text": "Односложные и некоторые двусложные. Перед превосходной всегда the.",
         "highlights": [
-          { "text": "Односложные",       "color": "info",    "style": "bold" },
-          { "text": "двусложные",        "color": "example", "style": "bold" },
-          { "text": "the",               "color": "term",    "style": "bold_underline" }
+          { "text": "Односложные", "color": "info",    "style": "bold" },
+          { "text": "двусложные",  "color": "example", "style": "bold" },
+          { "text": "the",         "color": "term",    "style": "bold_underline" }
         ]
       },
       "sections": [
@@ -95,20 +100,20 @@
           "title": "Правописание",
           "borderColor": "term",
           "rules": [
-            { "name": "Немая -e",         "suffix": "просто +r / +st",       "example": "large → larger → the largest" },
-            { "name": "Краткий ударный",  "suffix": "удвоение согласной",    "example": "big → bigger → the biggest" },
-            { "name": "Согласная + y",    "suffix": "y → ier / iest",         "example": "happy → happier → the happiest" },
-            { "name": "Гласная + y",      "suffix": "y остаётся",             "example": "grey → greyer → the greyest" }
+            { "name": "Немая -e",         "suffix": "просто +r / +st",    "example": "large → larger → the largest" },
+            { "name": "Краткий ударный",  "suffix": "удвоение согласной",  "example": "big → bigger → the biggest" },
+            { "name": "Согласная + y",    "suffix": "y → ier / iest",       "example": "happy → happier → the happiest" },
+            { "name": "Гласная + y",      "suffix": "y остаётся",           "example": "grey → greyer → the greyest" }
           ]
         },
         {
           "title": "В предложениях",
           "borderColor": "good",
           "examples": [
-            { "en": "My brother is taller than me.",                 "ru": "Мой брат выше меня." },
-            { "en": "This is the tallest building in the city.",     "ru": "Это самое высокое здание в городе." },
-            { "en": "Today is colder than yesterday.",               "ru": "Сегодня холоднее, чем вчера." },
-            { "en": "She is the smartest student in our group.",     "ru": "Она самая умная студентка в нашей группе." }
+            { "en": "My brother is taller than me.",             "ru": "Мой брат выше меня." },
+            { "en": "This is the tallest building in the city.", "ru": "Это самое высокое здание в городе." },
+            { "en": "Today is colder than yesterday.",           "ru": "Сегодня холоднее, чем вчера." },
+            { "en": "She is the smartest student in our group.", "ru": "Она самая умная студентка в нашей группе." }
           ]
         }
       ]
@@ -119,9 +124,9 @@
       "intro": {
         "text": "Длинные слова. Перед прилагательным ставим more или the most — само слово не меняется.",
         "highlights": [
-          { "text": "more",       "color": "example", "style": "bold" },
-          { "text": "the most",   "color": "term",    "style": "bold" },
-          { "text": "не меняется","color": "accent2", "style": "bold_underline" }
+          { "text": "more",        "color": "example", "style": "bold" },
+          { "text": "the most",    "color": "term",    "style": "bold" },
+          { "text": "не меняется", "color": "accent2", "style": "bold_underline" }
         ]
       },
       "sections": [
@@ -129,10 +134,10 @@
           "title": "Примеры",
           "borderColor": "info",
           "examples": [
-            { "en": "Beautiful  →  more beautiful  →  the most beautiful.",   "ru": "красивый → красивее → самый красивый" },
-            { "en": "Interesting →  more interesting →  the most interesting.","ru": "интересный → интереснее → самый интересный" },
-            { "en": "Expensive  →  more expensive  →  the most expensive.",   "ru": "дорогой → дороже → самый дорогой" },
-            { "en": "Difficult  →  more difficult  →  the most difficult.",   "ru": "сложный → сложнее → самый сложный" }
+            { "en": "Beautiful   →  more beautiful   →  the most beautiful.",   "ru": "красивый → красивее → самый красивый" },
+            { "en": "Interesting →  more interesting →  the most interesting.", "ru": "интересный → интереснее → самый интересный" },
+            { "en": "Expensive   →  more expensive   →  the most expensive.",   "ru": "дорогой → дороже → самый дорогой" },
+            { "en": "Difficult   →  more difficult   →  the most difficult.",   "ru": "сложный → сложнее → самый сложный" }
           ]
         },
         {
@@ -140,13 +145,14 @@
           "borderColor": "term",
           "table": {
             "headers": ["Окончание", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
             "rows": [
-              { "cells": ["-y",        "-er / -est",   "happy → happier → the happiest"],       "colors": ["info",    "example", "example"] },
-              { "cells": ["-ow",       "-er / -est",   "narrow → narrower → the narrowest"],    "colors": ["info",    "example", "example"] },
-              { "cells": ["-er",       "-er / -est",   "clever → cleverer → the cleverest"],    "colors": ["info",    "example", "example"] },
-              { "cells": ["-le",       "-er / -est",   "simple → simpler → the simplest"],      "colors": ["info",    "example", "example"] },
-              { "cells": ["-et",       "-er / -est",   "quiet → quieter → the quietest"],       "colors": ["info",    "example", "example"] },
-              { "cells": ["другие",    "more / the most", "modern → more modern"],              "colors": ["term",    "info",    "info"] }
+              { "cells": ["-y",     "-er / -est",   "happy → happier → the happiest"] },
+              { "cells": ["-ow",    "-er / -est",   "narrow → narrower → the narrowest"] },
+              { "cells": ["-er",    "-er / -est",   "clever → cleverer → the cleverest"] },
+              { "cells": ["-le",    "-er / -est",   "simple → simpler → the simplest"] },
+              { "cells": ["-et",    "-er / -est",   "quiet → quieter → the quietest"] },
+              { "cells": ["другие", "more / the most", "modern → more modern"] }
             ],
             "borderColor": "term"
           },
@@ -183,13 +189,14 @@
           "borderColor": "bad",
           "table": {
             "headers": ["Positive", "Comparative", "Superlative"],
+            "headerColors": ["info", "example", "term"],
             "rows": [
-              { "cells": ["good",       "better",              "the best"],              "colors": ["example", "term", "term"] },
-              { "cells": ["bad",        "worse",               "the worst"],             "colors": ["example", "bad",  "bad"]  },
-              { "cells": ["far",        "farther / further",   "the farthest / furthest"],"colors": ["example", "info", "info"] },
-              { "cells": ["little",     "less",                "the least"],             "colors": ["example", "term", "term"] },
-              { "cells": ["many / much","more",                "the most"],              "colors": ["example", "info", "info"] },
-              { "cells": ["old",        "older / elder",       "the oldest / eldest"],   "colors": ["example", "info", "info"] }
+              { "cells": ["good",        "better",              "the best"] },
+              { "cells": ["bad",         "worse",               "the worst"] },
+              { "cells": ["far",         "farther / further",   "the farthest / furthest"] },
+              { "cells": ["little",      "less",                "the least"] },
+              { "cells": ["many / much", "more",                "the most"] },
+              { "cells": ["old",         "older / elder",       "the oldest / eldest"] }
             ],
             "borderColor": "bad"
           }
@@ -214,10 +221,10 @@
             "title": "",
             "borderColor": "info",
             "rules": [
-              { "name": "farther", "suffix": "физическое расстояние",   "example": "The station is farther than the park." },
-              { "name": "further", "suffix": "переносный смысл",         "example": "We need further information." },
+              { "name": "farther", "suffix": "физическое расстояние",         "example": "The station is farther than the park." },
+              { "name": "further", "suffix": "переносный смысл",               "example": "We need further information." },
               { "name": "older",   "suffix": "для людей и предметов, с than", "example": "He is older than me." },
-              { "name": "elder",   "suffix": "только о членах семьи, без than", "example": "my elder brother" }
+              { "name": "elder",   "suffix": "только о членах семьи, без than","example": "my elder brother" }
             ]
           }
         }
@@ -229,8 +236,8 @@
       "intro": {
         "text": "Сравнение равенства и неравенства: as … as и than.",
         "highlights": [
-          { "text": "as … as", "color": "info",    "style": "bold_underline" },
-          { "text": "than",    "color": "term",    "style": "bold" }
+          { "text": "as … as", "color": "info", "style": "bold_underline" },
+          { "text": "than",    "color": "term", "style": "bold" }
         ]
       },
       "sections": [
@@ -243,9 +250,9 @@
             "text": "Между as … as ставим положительную степень прилагательного. Отрицание — not as … as."
           },
           "examples": [
-            { "en": "She is as tall as her brother.",            "ru": "Она такая же высокая, как её брат." },
-            { "en": "This book is as interesting as the film.",  "ru": "Эта книга такая же интересная, как фильм." },
-            { "en": "He is not as fast as he used to be.",       "ru": "Он уже не такой быстрый, как раньше." }
+            { "en": "She is as tall as her brother.",           "ru": "Она такая же высокая, как её брат." },
+            { "en": "This book is as interesting as the film.", "ru": "Эта книга такая же интересная, как фильм." },
+            { "en": "He is not as fast as he used to be.",      "ru": "Он уже не такой быстрый, как раньше." }
           ]
         },
         {
@@ -276,9 +283,9 @@
             "title": "",
             "borderColor": "term",
             "rules": [
-              { "name": "much / far / a lot",             "suffix": "намного сильнее",       "example": "She is much taller than me." },
-              { "name": "a bit / a little / slightly",    "suffix": "немного сильнее",       "example": "He is a bit taller than me." },
-              { "name": "by far the best",                "suffix": "безоговорочно лучший",  "example": "This is by far the best option." }
+              { "name": "much / far / a lot",          "suffix": "намного сильнее",      "example": "She is much taller than me." },
+              { "name": "a bit / a little / slightly", "suffix": "немного сильнее",      "example": "He is a bit taller than me." },
+              { "name": "by far the best",             "suffix": "безоговорочно лучший", "example": "This is by far the best option." }
             ]
           }
         }
@@ -290,8 +297,8 @@
       "intro": {
         "text": "Перед превосходной степенью ставится the. Наречия сравниваются по тем же правилам.",
         "highlights": [
-          { "text": "the",        "color": "term",    "style": "bold_underline" },
-          { "text": "Наречия",    "color": "info",    "style": "bold" }
+          { "text": "the",     "color": "term", "style": "bold_underline" },
+          { "text": "Наречия", "color": "info", "style": "bold" }
         ]
       },
       "sections": [
@@ -299,9 +306,9 @@
           "title": "Когда the обязателен, а когда нет",
           "borderColor": "term",
           "rules": [
-            { "name": "the + превосходная",       "suffix": "всегда",               "example": "She is the tallest girl in the class." },
-            { "name": "притяжательное + превосходная", "suffix": "без the",         "example": "This is my best friend." },
-            { "name": "at best / at worst",       "suffix": "the опускается",       "example": "At best, we'll arrive by 6." }
+            { "name": "the + превосходная",             "suffix": "всегда",        "example": "She is the tallest girl in the class." },
+            { "name": "притяжательное + превосходная",  "suffix": "без the",       "example": "This is my best friend." },
+            { "name": "at best / at worst",             "suffix": "the опускается","example": "At best, we'll arrive by 6." }
           ]
         },
         {
@@ -309,30 +316,31 @@
           "borderColor": "info",
           "table": {
             "headers": ["Тип", "Образование", "Пример"],
+            "headerColors": ["info", "example", "term"],
             "rows": [
-              { "cells": ["Короткие",      "+er / +est",     "fast → faster → the fastest"],       "colors": ["info",    "example", "example"] },
-              { "cells": ["На -ly",        "more / the most","carefully → more carefully"],         "colors": ["info",    "term",    "term"] },
-              { "cells": ["Неправильные",  "особая форма",   "well → better → the best"],          "colors": ["info",    "example", "example"] }
+              { "cells": ["Короткие",     "+er / +est",     "fast → faster → the fastest"] },
+              { "cells": ["На -ly",       "more / the most","carefully → more carefully"] },
+              { "cells": ["Неправильные", "особая форма",   "well → better → the best"] }
             ],
             "borderColor": "info"
           },
           "examples": [
-            { "en": "He runs faster than me.",              "ru": "Он бегает быстрее меня." },
-            { "en": "She speaks more carefully than him.",  "ru": "Она говорит внимательнее, чем он." },
-            { "en": "You did it the best.",                 "ru": "Ты сделал это лучше всех." }
+            { "en": "He runs faster than me.",             "ru": "Он бегает быстрее меня." },
+            { "en": "She speaks more carefully than him.", "ru": "Она говорит внимательнее, чем он." },
+            { "en": "You did it the best.",                "ru": "Ты сделал это лучше всех." }
           ]
         },
         {
           "title": "Типичные ошибки",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "more taller",                           "right": "taller" },
-            { "wrong": "gooder",                                "right": "better" },
-            { "wrong": "badder",                                "right": "worse" },
-            { "wrong": "She is tallest in the class.",          "right": "She is the tallest…" },
-            { "wrong": "This is bigger then that.",             "right": "This is bigger than that." },
-            { "wrong": "modernner",                             "right": "more modern" },
-            { "wrong": "my elder than me",                      "right": "my elder brother (без than)" }
+            { "wrong": "more taller",                  "right": "taller" },
+            { "wrong": "gooder",                       "right": "better" },
+            { "wrong": "badder",                       "right": "worse" },
+            { "wrong": "She is tallest in the class.", "right": "She is the tallest…" },
+            { "wrong": "This is bigger then that.",    "right": "This is bigger than that." },
+            { "wrong": "modernner",                    "right": "more modern" },
+            { "wrong": "my elder than me",             "right": "my elder brother (без than)" }
           ]
         },
         {
