@@ -1,94 +1,68 @@
 {
-  "label": "Что такое залог",
-  "intro": {
-    "text": "Залог показывает, кто выполняет действие, а кто его испытывает на себе. В активном залоге подлежащее само совершает действие, в пассивном — подлежащее получает действие со стороны.",
-    "highlights": [
-      { "text": "кто выполняет действие", "color": "info",    "style": "bold" },
-      { "text": "испытывает на себе",      "color": "term",    "style": "bold" },
-      { "text": "активном",                "color": "example", "style": "bold_underline" },
-      { "text": "пассивном",               "color": "accent2", "style": "bold_underline" }
-    ]
-  },
-  "sections": [
-    {
-      "title": "Формулы",
-      "borderColor": "term",
-      "formulas": [
+      "label": "Типичные ошибки",
+      "intro": {
+        "text": "Семь самых частых ошибок с английскими числами — и как их избежать.",
+        "highlights": [
+          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
         {
-          "parts": [
-            { "text": "Subject", "color": "example" },
-            { "text": "+",       "color": "muted" },
-            { "text": "Verb",    "color": "info" },
-            { "text": "+",       "color": "muted" },
-            { "text": "Object",  "color": "example" },
-            { "text": "=",       "color": "muted" },
-            { "text": "Active",  "color": "good" }
-          ],
-          "accentColor": "good"
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "fourty",              "right": "forty" },
+            { "wrong": "five hundreds dollars","right": "five hundred dollars" },
+            { "wrong": "the one of May",      "right": "the first of May" },
+            { "wrong": "one fourth",          "right": "a quarter" },
+            { "wrong": "nineth",              "right": "ninth" },
+            { "wrong": "21th",                "right": "21st" },
+            { "wrong": "threeteen",           "right": "thirteen" }
+          ]
         },
         {
-          "parts": [
-            { "text": "Object",     "color": "example" },
-            { "text": "+",          "color": "muted" },
-            { "text": "be + V3",    "color": "term" },
-            { "text": "+",          "color": "muted" },
-            { "text": "(by Subject)","color": "muted" },
-            { "text": "=",          "color": "muted" },
-            { "text": "Passive",    "color": "accent2" }
-          ],
-          "accentColor": "accent2"
+          "title": "Как не ошибаться",
+          "borderColor": "good",
+          "callout": {
+            "type": "success",
+            "title": "Правило большого пальца",
+            "text": "Запомни три слова-исключения: forty (без u), ninth (без e), twelfth (ve → f). Остальное — по правилам."
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Числа — это единственная часть языка, где ошибка слышна сразу.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Интересный факт про ударение",
+          "preview": "thirTEEN vs THIRty",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "info",
+            "callout": {
+              "type": "info",
+              "title": "Как различать на слух",
+              "text": "Числа 13–19 и десятки (30, 40…) отличаются только ударением: thirTEEN — на конце, THIRty — в начале. При диктовке специально произносят медленнее: thirteen = one-three."
+            },
+            "examples": [
+              { "en": "thirTEEN  [θɜːˈtiːn]", "ru": "13 — ударение в конце" },
+              { "en": "THIRty    [ˈθɜːti]",   "ru": "30 — ударение в начале" },
+              { "en": "fourTEEN  [fɔːˈtiːn]", "ru": "14 — ударение в конце" },
+              { "en": "FORty     [ˈfɔːti]",   "ru": "40 — ударение в начале" },
+              { "en": "fifTEEN   [fɪfˈtiːn]", "ru": "15 — ударение в конце" },
+              { "en": "FIFty     [ˈfɪfti]",   "ru": "50 — ударение в начале" }
+            ]
+          }
         }
       ]
-    },
-    {
-      "title": "Сравнение",
-      "borderColor": "info",
-      "table": {
-        "headers": ["Залог", "Пример", "Кто в центре"],
-        "headerColors": ["info", "example", "term"],
-        "rows": [
-          { "cells": ["Active",  "The chef cooks the dinner.",        "повар — действует"] },
-          { "cells": ["Passive", "The dinner is cooked by the chef.", "ужин — получает действие"] }
-        ],
-        "borderColor": "info"
-      }
-    },
-    {
-      "title": "Active — активный",
-      "borderColor": "example",
-      "examples": [
-        { "en": "The chef cooks the dinner.",  "ru": "Повар готовит ужин. (повар — действующее лицо)" },
-        { "en": "My mother baked this cake.",   "ru": "Мама испекла этот торт." },
-        { "en": "Shakespeare wrote Hamlet.",    "ru": "Шекспир написал «Гамлета»." }
-      ]
-    },
-    {
-      "title": "Passive — пассивный",
-      "borderColor": "term",
-      "examples": [
-        { "en": "The dinner is cooked by the chef.",  "ru": "Ужин готовится поваром." },
-        { "en": "This cake was baked by my mother.",  "ru": "Этот торт испечён моей мамой." },
-        { "en": "Hamlet was written by Shakespeare.", "ru": "«Гамлет» написан Шекспиром." }
-      ]
-    },
-    {
-      "title": "Зачем нужен пассив",
-      "borderColor": "good",
-      "bullets": [
-        { "text": "Исполнитель неизвестен: My bike was stolen.",                 "color": "example" },
-        { "text": "Исполнитель неважен: English is spoken all over the world.",    "color": "info" },
-        { "text": "Официальный или научный стиль: The bridge was built in 1990.",  "color": "term" },
-        { "text": "Хотим подчеркнуть результат, а не того, кто его сделал.",       "color": "accent2" }
-      ]
-    },
-    {
-      "title": "Мысль напоследок",
-      "borderColor": "accent2",
-      "quote": {
-        "text": "Активный залог — про действие. Пассивный залог — про результат.",
-        "author": "правило большого пальца",
-        "accentColor": "accent2"
-      }
     }
   ]
 }
