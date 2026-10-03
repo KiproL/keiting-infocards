@@ -5,55 +5,161 @@
     {
       "label": "Что это",
       "intro": {
-        "text": "Singular — один. Plural — два и больше.",
-        "highlight": "один",
-        "highlightColor": "info"
+        "text": "Singular — один предмет. Plural — два и больше. От числа зависит форма глагола, артикль и даже смысл предложения.",
+        "highlights": [
+          { "text": "Singular",   "color": "info",    "style": "bold" },
+          { "text": "Plural",     "color": "term",    "style": "bold" },
+          { "text": "два и больше","color": "example", "style": "bold_underline" },
+          { "text": "форма глагола","color": "bad",   "style": "bold" }
+        ]
       },
       "sections": [
-        { "title": "Зачем это важно", "bullets": [
-          { "text": "От числа зависит форма глагола: A cat runs. / Cats run.", "color": "example" },
-          { "text": "От числа зависит артикль: this book / these books.", "color": "info" },
-          { "text": "Многие существительные образуют мн. ч. особым способом.", "color": "term" }
-        ]},
-        { "title": "Общая схема", "transforms": [
-          { "from": "Regular", "to": "+s, +es, y→ies", "toColor": "example" },
-          { "from": "Irregular", "to": "man → men, child → children", "toColor": "term" },
-          { "from": "Uncountable", "to": "water, information", "toColor": "info" },
-          { "from": "Only plural", "to": "trousers, scissors", "toColor": "accent2" }
-        ]}
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Singular", "color": "info" },
+              { "text": "→",        "color": "muted" },
+              { "text": "Plural",   "color": "term" },
+              { "text": "=",        "color": "muted" },
+              { "text": "+s / +es / особая форма", "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Зачем это важно",
+          "borderColor": "info",
+          "bullets": [
+            { "text": "Форма глагола: A cat runs. / Cats run.",        "color": "example" },
+            { "text": "Артикль и указатель: this book / these books.",  "color": "info" },
+            { "text": "Многие слова образуют мн. ч. особым способом.",  "color": "term" },
+            { "text": "Часть слов вообще не имеет мн. ч.: water, advice.","color": "bad" }
+          ]
+        },
+        {
+          "title": "Четыре категории",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Категория", "Правило", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Regular",     "+s / +es / y → ies",       "cat → cats, box → boxes"] },
+              { "cells": ["Irregular",   "меняется форма",             "man → men, child → children"] },
+              { "cells": ["Uncountable", "нет мн. ч.",                 "water, information, advice"] },
+              { "cells": ["Plural only", "только мн. ч.",               "trousers, scissors, glasses"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "A cat runs fast.",       "ru": "Одна кошка бегает быстро." },
+            { "en": "Cats run fast.",         "ru": "Кошки бегают быстро." },
+            { "en": "This book is new.",      "ru": "Эта книга новая. (ед. ч.)" },
+            { "en": "These books are new.",   "ru": "Эти книги новые. (мн. ч.)" }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Число — это не просто окончание. Это выбор формы всего предложения.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Три главных вопроса",
+          "preview": "Сколько? Какой артикль? Какая форма глагола?",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "info",
+            "steps": {
+              "accentColor": "term",
+              "items": [
+                "Сколько предметов? Один → Singular. Два и больше → Plural.",
+                "Какой указатель? This/that → Singular. These/those → Plural.",
+                "Какая форма глагола? is/was → Singular. are/were → Plural."
+              ]
+            }
+          }
+        }
       ]
     },
 
     {
       "label": "+s и -es",
       "intro": {
-        "text": "Большинство → +s. После шипящих/свистящих → +es.",
-        "highlight": "+s",
-        "highlightColor": "example"
+        "text": "Большинство существительных берёт +s. После шипящих и свистящих — +es, чтобы услышать окончание.",
+        "highlights": [
+          { "text": "+s",                 "color": "example", "style": "bold" },
+          { "text": "+es",                "color": "term",    "style": "bold" },
+          { "text": "шипящих и свистящих","color": "bad",     "style": "bold_underline" }
+        ]
       },
       "sections": [
-        { "title": "Основное правило: +s", "examples": [
-          { "en": "Cat → cats", "ru": "кошка" },
-          { "en": "Book → books", "ru": "книга" },
-          { "en": "Dog → dogs", "ru": "собака" }
-        ]},
-        { "title": "-es после -s, -ss, -sh, -ch, -x, -z", "examples": [
-          { "en": "Bus → buses [ˈbʌsɪz]", "ru": "автобус" },
-          { "en": "Box → boxes [ˈbɒksɪz]", "ru": "коробка" },
-          { "en": "Watch → watches [ˈwɒtʃɪz]", "ru": "часы" }
-        ]}
+        {
+          "title": "Основное правило: +s",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Cat  → cats",   "ru": "кошка → кошки" },
+            { "en": "Book → books",  "ru": "книга → книги" },
+            { "en": "Dog  → dogs",   "ru": "собака → собаки" },
+            { "en": "Tree → trees",  "ru": "дерево → деревья" }
+          ]
+        },
+        {
+          "title": "+es после -s, -ss, -sh, -ch, -x, -z",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Окончание", "Правило", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["-s",  "+es", "bus → buses"] },
+              { "cells": ["-ss", "+es", "class → classes"] },
+              { "cells": ["-sh", "+es", "dish → dishes"] },
+              { "cells": ["-ch", "+es", "watch → watches"] },
+              { "cells": ["-x",  "+es", "box → boxes"] },
+              { "cells": ["-z",  "+es", "quiz → quizzes"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Произношение -es",
+          "borderColor": "info",
+          "callout": {
+            "type": "tip",
+            "title": "Всегда /ɪz/",
+            "text": "Окончание -es после шипящих и свистящих всегда читается как отдельный слог [ɪz]. Buses = [ˈbʌsɪz], не [bʌss]."
+          },
+          "examples": [
+            { "en": "Bus   → buses   [ˈbʌsɪz]",  "ru": "автобус" },
+            { "en": "Box   → boxes   [ˈbɒksɪz]", "ru": "коробка" },
+            { "en": "Watch → watches [ˈwɒtʃɪz]", "ru": "часы" },
+            { "en": "Dish  → dishes  [ˈdɪʃɪz]",  "ru": "тарелка" }
+          ]
+        }
       ],
       "expandables": [
         {
-          "label": "Произношение -s",
+          "label": "Три звука окончания -s / -es",
           "preview": "/s/ · /z/ · /ɪz/",
           "initiallyExpanded": false,
           "section": {
             "title": "",
-            "transforms": [
-              { "from": "/s/", "to": "после глухих: cats, books", "toColor": "info" },
-              { "from": "/z/", "to": "после звонких: dogs, boys", "toColor": "example" },
-              { "from": "/ɪz/", "to": "после шипящих: buses", "toColor": "term" }
+            "borderColor": "info",
+            "rules": [
+              { "name": "/s/",   "suffix": "после глухих",   "example": "cats, books, cups, hats" },
+              { "name": "/z/",   "suffix": "после звонких",  "example": "dogs, boys, trees, keys" },
+              { "name": "/ɪz/",  "suffix": "после шипящих",  "example": "buses, boxes, watches, dishes" }
             ]
           }
         }
@@ -63,36 +169,74 @@
     {
       "label": "-o, -y, -f",
       "intro": {
-        "text": "Три особых группы: -o, -y, -f/-fe.",
-        "highlight": "особых групп",
-        "highlightColor": "term"
+        "text": "Три особые группы — в каждой есть свои правила и исключения. Ошибиться легко, поэтому запоминаем таблицей.",
+        "highlights": [
+          { "text": "-o",         "color": "example", "style": "bold" },
+          { "text": "-y",         "color": "info",    "style": "bold" },
+          { "text": "-f / -fe",   "color": "term",    "style": "bold" },
+          { "text": "исключения", "color": "bad",     "style": "bold_underline" }
+        ]
       },
       "sections": [
-        { "title": "Слова на -o", "transforms": [
-          { "from": "+es", "to": "potatoes, tomatoes, heroes", "toColor": "example" },
-          { "from": "+s", "to": "photos, pianos, radios", "toColor": "info" }
-        ]},
-        { "title": "Согласная + y → ies", "examples": [
-          { "en": "City → cities", "ru": "город" },
-          { "en": "Family → families", "ru": "семья" }
-        ]},
-        { "title": "Гласная + y → +s", "examples": [
-          { "en": "Boy → boys", "ru": "мальчик" },
-          { "en": "Day → days", "ru": "день" }
-        ]}
-      ],
-      "expandables": [
         {
-          "label": "-f / -fe → -ves, но есть исключения",
-          "preview": "knife → knives, но roof → roofs",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "bullets": [
-              { "text": "f / fe → ves: leaf, knife, wife, life, wolf, shelf", "color": "example" },
-              { "text": "Исключения +s: roof, chief, cliff, belief", "color": "bad" }
-            ]
+          "title": "Слова на -o",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Правило", "Когда", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["+es", "короткие, живые, часто старые слова", "potato → potatoes, tomato → tomatoes, hero → heroes"] },
+              { "cells": ["+s",  "заимствования, музыка, сокращения",    "photo → photos, piano → pianos, radio → radios"] }
+            ],
+            "borderColor": "term"
+          },
+          "callout": {
+            "type": "warning",
+            "title": "Запомни пару",
+            "text": "potatoes, tomatoes, heroes — через es. photos, pianos, radios — через s. Остальные слова на -o проверяй по словарю."
           }
+        },
+        {
+          "title": "Согласная + y → ies",
+          "borderColor": "info",
+          "examples": [
+            { "en": "City   → cities",   "ru": "город → города" },
+            { "en": "Family → families", "ru": "семья → семьи" },
+            { "en": "Story  → stories",  "ru": "история → истории" },
+            { "en": "Baby   → babies",   "ru": "малыш → малыши" }
+          ]
+        },
+        {
+          "title": "Гласная + y → +s",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Boy → boys", "ru": "мальчик → мальчики" },
+            { "en": "Day → days", "ru": "день → дни" },
+            { "en": "Toy → toys", "ru": "игрушка → игрушки" },
+            { "en": "Key → keys", "ru": "ключ → ключи" }
+          ]
+        },
+        {
+          "title": "f / fe → ves",
+          "borderColor": "term",
+          "rules": [
+            { "name": "leaf → leaves",  "suffix": "лист",       "example": "осенние листья — autumn leaves" },
+            { "name": "knife → knives","suffix": "нож",        "example": "острые ножи — sharp knives" },
+            { "name": "wife → wives",  "suffix": "жена",       "example": "две жены — two wives" },
+            { "name": "life → lives",  "suffix": "жизнь",      "example": "много жизней — many lives" },
+            { "name": "wolf → wolves", "suffix": "волк",       "example": "стая волков — a pack of wolves" },
+            { "name": "shelf → shelves","suffix": "полка",     "example": "пустые полки — empty shelves" }
+          ]
+        },
+        {
+          "title": "Исключения: +s, не ves",
+          "borderColor": "bad",
+          "examples": [
+            { "en": "roof  → roofs",   "ru": "крыша" },
+            { "en": "chief → chiefs",  "ru": "начальник" },
+            { "en": "cliff → cliffs",  "ru": "утес" },
+            { "en": "belief → beliefs","ru": "убеждение" }
+          ]
         }
       ]
     },
@@ -100,38 +244,95 @@
     {
       "label": "Irregular",
       "intro": {
-        "text": "Особые формы — просто запомнить.",
-        "highlight": "просто запомнить",
-        "highlightColor": "term"
+        "text": "Особые формы — их просто надо знать. Некоторые меняют гласную, некоторые добавляют -en, некоторые вообще не меняются.",
+        "highlights": [
+          { "text": "меняют гласную", "color": "example", "style": "bold" },
+          { "text": "-en",            "color": "info",    "style": "bold" },
+          { "text": "не меняются",    "color": "term",    "style": "bold_underline" }
+        ]
       },
       "sections": [
-        { "title": "Меняется гласная", "transforms": [
-          { "from": "man", "to": "men", "toColor": "example" },
-          { "from": "woman", "to": "women", "toColor": "example" },
-          { "from": "foot", "to": "feet", "toColor": "example" },
-          { "from": "tooth", "to": "teeth", "toColor": "example" },
-          { "from": "mouse", "to": "mice", "toColor": "example" }
-        ]},
-        { "title": "Особое окончание", "transforms": [
-          { "from": "child", "to": "children", "toColor": "info" },
-          { "from": "ox", "to": "oxen", "toColor": "info" }
-        ]}
+        {
+          "title": "Сводная таблица",
+          "borderColor": "bad",
+          "table": {
+            "headers": ["Singular", "Plural", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["man",   "men",      "мужчина"] },
+              { "cells": ["woman", "women",    "женщина"] },
+              { "cells": ["foot",  "feet",     "ступня"] },
+              { "cells": ["tooth", "teeth",    "зуб"] },
+              { "cells": ["mouse", "mice",     "мышь"] },
+              { "cells": ["goose", "geese",    "гусь"] },
+              { "cells": ["child", "children", "ребёнок"] },
+              { "cells": ["ox",    "oxen",     "бык"] },
+              { "cells": ["person","people",   "человек"] }
+            ],
+            "borderColor": "bad"
+          }
+        },
+        {
+          "title": "Меняется гласная",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Man   → men",    "ru": "мужчина → мужчины" },
+            { "en": "Foot  → feet",   "ru": "ступня → ступни" },
+            { "en": "Tooth → teeth",  "ru": "зуб → зубы" },
+            { "en": "Mouse → mice",   "ru": "мышь → мыши" },
+            { "en": "Goose → geese",  "ru": "гусь → гуси" }
+          ]
+        },
+        {
+          "title": "Особое окончание -en",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Child → children", "ru": "ребёнок → дети" },
+            { "en": "Ox    → oxen",     "ru": "бык → быки" }
+          ]
+        },
+        {
+          "title": "Форма совпадает",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "Singular = Plural",
+            "text": "Некоторые слова не меняются: sheep, deer, fish. С fishes — только если речь о разных видах рыб."
+          },
+          "examples": [
+            { "en": "One sheep, two sheep",     "ru": "одна овца, две овцы" },
+            { "en": "One deer, three deer",     "ru": "один олень, три оленя" },
+            { "en": "One fish, many fish",      "ru": "одна рыба, много рыбы" },
+            { "en": "Different fishes of the lake","ru": "разные виды рыб в озере" }
+          ]
+        }
       ],
       "expandables": [
         {
-          "label": "Форма совпадает с ед. ч. + заимствования",
-          "preview": "sheep → sheep, datum → data",
+          "label": "Заимствования из латыни и греческого",
+          "preview": "datum → data, analysis → analyses",
           "initiallyExpanded": false,
           "section": {
             "title": "",
-            "examples": [
-              { "en": "Sheep → sheep", "ru": "овца" },
-              { "en": "Deer → deer", "ru": "олень" },
-              { "en": "Fish → fish", "ru": "рыба (fishes — о разных видах)" },
-              { "en": "Datum → data", "ru": "данные" },
-              { "en": "Analysis → analyses", "ru": "анализ" },
-              { "en": "Crisis → crises", "ru": "кризис" }
-            ]
+            "borderColor": "term",
+            "table": {
+              "headers": ["Singular", "Plural", "Перевод"],
+              "headerColors": ["info", "example", "term"],
+              "rows": [
+                { "cells": ["datum",    "data",       "данные"] },
+                { "cells": ["analysis", "analyses",   "анализ"] },
+                { "cells": ["crisis",   "crises",     "кризис"] },
+                { "cells": ["basis",    "bases",      "основа"] },
+                { "cells": ["phenomenon","phenomena", "явление"] },
+                { "cells": ["criterion","criteria",   "критерий"] }
+              ],
+              "borderColor": "term"
+            },
+            "callout": {
+              "type": "tip",
+              "title": "Правило чтения",
+              "text": "-is → -es, -on → -a, -um → -a. Это греческие и латинские слова, они сохранили свою форму."
+            }
           }
         }
       ]
@@ -140,63 +341,126 @@
     {
       "label": "Plurals only / Uncountable",
       "intro": {
-        "text": "Есть слова только во мн. ч. и неисчисляемые.",
-        "highlight": "только во мн. ч.",
-        "highlightColor": "info"
+        "text": "Есть слова только во множественном числе — их нельзя посчитать по одному. И есть неисчисляемые — у них вообще нет множественного.",
+        "highlights": [
+          { "text": "только во множественном", "color": "info",    "style": "bold_underline" },
+          { "text": "неисчисляемые",            "color": "term",    "style": "bold" },
+          { "text": "нет множественного",       "color": "bad",     "style": "bold" }
+        ]
       },
       "sections": [
-        { "title": "Только множественное", "examples": [
-          { "en": "Trousers / pants", "ru": "брюки" },
-          { "en": "Jeans", "ru": "джинсы" },
-          { "en": "Scissors", "ru": "ножницы" },
-          { "en": "Glasses", "ru": "очки" }
-        ],
-          "text": "Считаются через pair(s) of: a pair of scissors.",
-          "textColor": "info"
-        },
-        { "title": "Другие только во мн. ч.", "borderColor": "term", "examples": [
-          { "en": "Clothes", "ru": "одежда" },
-          { "en": "Police", "ru": "полиция" },
-          { "en": "People", "ru": "люди" }
-        ]}
-      ],
-      "expandables": [
         {
-          "label": "Неисчисляемые — категории",
-          "preview": "water · advice · news · furniture",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "transforms": [
-              { "from": "Вещества", "to": "water, milk, bread, sugar, rice", "toColor": "example" },
-              { "from": "Абстрактные", "to": "information, advice, knowledge", "toColor": "info" },
-              { "from": "Собирательные", "to": "furniture, luggage, news", "toColor": "term" }
-            ],
-            "text": "Счётчики: a piece of advice, a glass of water.",
-            "textColor": "example"
+          "title": "Только множественное",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Trousers / pants", "ru": "брюки" },
+            { "en": "Jeans",            "ru": "джинсы" },
+            { "en": "Scissors",         "ru": "ножницы" },
+            { "en": "Glasses",          "ru": "очки" },
+            { "en": "Clothes",          "ru": "одежда" },
+            { "en": "Police",           "ru": "полиция" },
+            { "en": "People",           "ru": "люди" }
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "Как посчитать",
+            "text": "Через pair(s) of: a pair of scissors, two pairs of jeans. Глагол при этих словах — всегда во множественном: My trousers are dirty."
           }
+        },
+        {
+          "title": "Неисчисляемые — три категории",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Категория", "Примеры", "Как посчитать"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Вещества",   "water, milk, bread, sugar, rice",     "a glass of water, a piece of bread"] },
+              { "cells": ["Абстрактные","information, advice, knowledge",      "a piece of advice, a bit of knowledge"] },
+              { "cells": ["Собирательные","furniture, luggage, news",           "a piece of furniture, a piece of news"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Глагол при неисчисляемых",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Всегда единственное",
+            "text": "Неисчисляемые согласуются с глаголом в единственном числе: The news is good. Information is useful."
+          },
+          "examples": [
+            { "en": "The news is good.",       "ru": "✓ новость (ед. ч.)", "icon": "check", "iconColor": "good" },
+            { "en": "The news are good.",      "ru": "✗ нельзя",            "icon": "cross", "iconColor": "bad" },
+            { "en": "Water is cold.",          "ru": "✓ вода (ед. ч.)",    "icon": "check", "iconColor": "good" },
+            { "en": "Water are cold.",         "ru": "✗ нельзя",            "icon": "cross", "iconColor": "bad" }
+          ]
+        },
+        {
+          "title": "Слова на -s, но единственное",
+          "borderColor": "term",
+          "rules": [
+            { "name": "mathematics",  "suffix": "is",  "example": "Mathematics is easy." },
+            { "name": "physics",      "suffix": "is",  "example": "Physics is difficult." },
+            { "name": "news",         "suffix": "is",  "example": "The news is good." },
+            { "name": "politics",     "suffix": "is",  "example": "Politics is complicated." }
+          ]
         }
       ]
     },
 
     {
-      "label": "Ошибки",
+      "label": "Типичные ошибки",
       "intro": {
-        "text": "Топ ошибок с числом существительных.",
-        "highlight": "числом",
-        "highlightColor": "term"
+        "text": "Восемь самых частых ошибок с числом существительных — слева как нельзя, справа как правильно.",
+        "highlights": [
+          { "text": "Восемь самых частых", "color": "bad", "style": "bold_underline" }
+        ]
       },
       "sections": [
-        { "title": "Слева — нельзя, справа — правильно", "errors": [
-          { "wrong": "two mans", "right": "two men" },
-          { "wrong": "many childs", "right": "many children" },
-          { "wrong": "three sheeps", "right": "three sheep" },
-          { "wrong": "my trousers is dirty", "right": "my trousers are dirty" },
-          { "wrong": "two informations", "right": "two pieces of information" },
-          { "wrong": "potatos", "right": "potatoes" },
-          { "wrong": "knifes", "right": "knives" },
-          { "wrong": "the news are good", "right": "the news is good" }
-        ]}
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "two mans",                "right": "two men" },
+            { "wrong": "many childs",             "right": "many children" },
+            { "wrong": "three sheeps",            "right": "three sheep" },
+            { "wrong": "my trousers is dirty",    "right": "my trousers are dirty" },
+            { "wrong": "two informations",        "right": "two pieces of information" },
+            { "wrong": "potatos",                 "right": "potatoes" },
+            { "wrong": "knifes",                  "right": "knives" },
+            { "wrong": "the news are good",       "right": "the news is good" }
+          ]
+        },
+        {
+          "title": "Согласование глагола",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Ед. ч.", "Мн. ч.", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["The cat runs.",     "The cats run.",         "кошка бегает / кошки бегают"] },
+              { "cells": ["My sister is a teacher.","My sisters are teachers.","сестра / сестры"] },
+              { "cells": ["The bus goes.",     "The buses go.",         "автобус / автобусы"] },
+              { "cells": ["The news is good.", "The books are good.",   "новость / книги"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Как не ошибаться",
+          "borderColor": "good",
+          "callout": {
+            "type": "success",
+            "title": "Правило большого пальца",
+            "text": "Запомни три особых слова: forty, ninth, twelfth — они касаются чисел. Здесь — запомни three важных пары: man/men, child/children, leaf/leaves."
+          },
+          "quote": {
+            "text": "Ошибка в числе слышна сразу — как фальшивая нота в музыке.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
       ],
       "expandables": [
         {
@@ -205,11 +469,13 @@
           "initiallyExpanded": false,
           "section": {
             "title": "",
+            "borderColor": "term",
             "bullets": [
-              { "text": "Ед. ч.: The cat runs. / My sister is a teacher.", "color": "example" },
-              { "text": "Мн. ч.: The cats run. / My sisters are teachers.", "color": "info" },
-              { "text": "Собирательные (team, family) в BrE — часто мн. ч.", "color": "term" },
-              { "text": "Слова на -s, но ед. ч.: mathematics is, news is", "color": "bad" }
+              { "text": "Ед. ч.: The cat runs. My sister is a teacher.",            "color": "example" },
+              { "text": "Мн. ч.: The cats run. My sisters are teachers.",            "color": "info" },
+              { "text": "Собирательные (team, family) в BrE — часто мн. ч.",          "color": "term" },
+              { "text": "Слова на -s, но ед. ч.: mathematics is, news is, physics is","color": "bad" },
+              { "text": "Plural-only: trousers are, scissors are, glasses are",      "color": "accent2" }
             ]
           }
         }
