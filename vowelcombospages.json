@@ -5,65 +5,154 @@
     {
       "label": "Что это",
       "intro": {
-        "text": "Гласные рядом часто сливаются в один звук, который отличается от каждой буквы по отдельности.",
-        "highlight": "сливаются в один звук",
-        "highlightColor": "term"
+        "text": "Гласные рядом часто сливаются в один звук, который отличается от каждой буквы по отдельности. Это ключ к чтению тысяч английских слов.",
+        "highlights": [
+          { "text": "сливаются в один звук", "color": "term",    "style": "bold_underline" },
+          { "text": "отличается",            "color": "bad",     "style": "bold" },
+          { "text": "ключ к чтению",         "color": "example", "style": "bold" }
+        ]
       },
       "sections": [
         {
-          "title": "Зачем это нужно",
+          "title": "Почему это важно",
+          "borderColor": "term",
           "bullets": [
-            { "text": "Одна буква читается по-разному (a в cat и cake).", "color": "example" },
-            { "text": "Разные сочетания дают один звук (ee и ea → [iː]).", "color": "info" },
-            { "text": "Без правил невозможно прочитать новое слово.", "color": "term" }
+            { "text": "Одна буква читается по-разному: a в cat [æ] и cake [eɪ]",     "color": "example" },
+            { "text": "Разные сочетания дают один звук: ee и ea → [iː]",              "color": "info" },
+            { "text": "Без правил новое слово превращается в угадывание",             "color": "bad" }
           ]
+        },
+        {
+          "title": "Все группы сочетаний",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Группа", "Сочетания", "Звук"],
+            "headerColors": ["term", "example", "text"],
+            "rows": [
+              { "cells": ["Долгий [iː]",   "ee, ea",       "tree, tea"] },
+              { "cells": ["Долгий [uː]",   "oo, ue, ui",   "moon, blue"] },
+              { "cells": ["Дифтонги [eɪ]", "ai, ay, a_e",  "rain, day, cake"] },
+              { "cells": ["Дифтонги [əʊ]", "oa, ow, o_e",  "boat, snow, home"] },
+              { "cells": ["Дифтонги [aɪ]", "igh, y, i_e",  "night, sky, bike"] },
+              { "cells": ["Дифтонги [ɔɪ]", "oi, oy",       "coin, boy"] },
+              { "cells": ["Дифтонги [aʊ]", "ou, ow",       "house, cow"] },
+              { "cells": ["Гласная + r",   "ar, or, er, ir, ur", "car, fork, her, bird, turn"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Как читать новое слово",
+          "borderColor": "good",
+          "steps": {
+            "accentColor": "term",
+            "items": [
+              "Найди в слове знакомое сочетание: ee, oa, ai, ou…",
+              "Вспомни звук — их всего 5-6 основных",
+              "Проверь, нет ли magic e на конце",
+              "Собери слово: сочетание читается как один звук"
+            ]
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Гласные в английском не поют по одной — они поют хором.",
+            "author": "правило чтения",
+            "accentColor": "accent2"
+          }
         }
       ],
       "expandables": [
         {
-          "label": "Все группы сочетаний",
-          "preview": "ee, ea, oo, oa, ai, ay, oi, oy, ou, ow, au, aw, igh",
+          "label": "Все сочетания списком",
+          "preview": "ee · ea · oo · oa · ai · ay · oi · oy · ou · ow · au · aw · igh",
           "initiallyExpanded": false,
           "section": {
             "title": "",
-            "bullets": [
-              { "text": "ee, ea — долгий [iː]", "color": "example" },
-              { "text": "oo — [uː] / [ʊ]", "color": "info" },
-              { "text": "oa, ai, ay — долгие звуки и дифтонги", "color": "term" },
-              { "text": "oi, oy, ou, ow, au, aw — дифтонги", "color": "example" },
-              { "text": "igh, magic e — [aɪ]", "color": "info" },
-              { "text": "ar, or, er, ir, ur — гласная + r", "color": "term" }
-            ]
+            "borderColor": "term",
+            "verbGrid": {
+              "accentColor": "example",
+              "verbs": ["ee", "ea", "oo", "ue", "ui", "oa", "ai", "ay", "oi", "oy", "ou", "ow", "au", "aw", "igh", "ar", "or", "er", "ir", "ur"]
+            }
           }
         }
       ]
     },
 
     {
-      "label": "Ee, ea, oo",
+      "label": "ee / ea / oo",
       "intro": {
-        "text": "Ee и ea → [iː]. Oo → [uː] или [ʊ].",
-        "highlight": "Ee и ea → [iː]",
-        "highlightColor": "example"
+        "text": "Ee и ea чаще всего читаются как [iː]. Oo даёт два звука: долгий [uː] и краткий [ʊ].",
+        "highlights": [
+          { "text": "Ee и ea", "color": "example", "style": "bold" },
+          { "text": "[iː]",    "color": "term",    "style": "bold_underline" },
+          { "text": "[uː]",    "color": "info",    "style": "bold" },
+          { "text": "[ʊ]",     "color": "bad",     "style": "bold" }
+        ]
       },
       "sections": [
-        { "title": "Ee → [iː]", "examples": [
-          { "en": "Tree [triː]", "ru": "дерево" },
-          { "en": "Green [ɡriːn]", "ru": "зелёный" },
-          { "en": "Sleep [sliːp]", "ru": "спать" }
-        ]},
-        { "title": "Ea → [iː]", "examples": [
-          { "en": "Tea [tiː]", "ru": "чай" },
-          { "en": "Sea [siː]", "ru": "море" }
-        ]},
-        { "title": "Oo → [uː] долгий", "examples": [
-          { "en": "Moon [muːn]", "ru": "луна" },
-          { "en": "Food [fuːd]", "ru": "еда" }
-        ]},
-        { "title": "Oo → [ʊ] краткий", "examples": [
-          { "en": "Book [bʊk]", "ru": "книга" },
-          { "en": "Look [lʊk]", "ru": "смотреть" }
-        ]}
+        {
+          "title": "Сводная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Сочетание", "Звук", "Пример"],
+            "headerColors": ["example", "term", "info"],
+            "rows": [
+              { "cells": ["ee", "всегда [iː]",       "tree, green, sleep"] },
+              { "cells": ["ea", "чаще [iː]",         "tea, sea, dream"] },
+              { "cells": ["oo", "[uː] в большинстве", "moon, food, school"] },
+              { "cells": ["oo", "[ʊ] в коротких",    "book, look, foot"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Ee → [iː]",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Tree  [triː]",   "ru": "дерево" },
+            { "en": "Green [ɡriːn]",  "ru": "зелёный" },
+            { "en": "Sleep [sliːp]",  "ru": "спать" },
+            { "en": "Free  [friː]",   "ru": "свободный" }
+          ]
+        },
+        {
+          "title": "Ea → [iː]",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Tea   [tiː]",  "ru": "чай" },
+            { "en": "Sea   [siː]",  "ru": "море" },
+            { "en": "Read  [riːd]", "ru": "читать" },
+            { "en": "Dream [driːm]","ru": "мечта" }
+          ]
+        },
+        {
+          "title": "Oo → [uː] — долгий",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Moon   [muːn]",  "ru": "луна" },
+            { "en": "Food   [fuːd]",  "ru": "еда" },
+            { "en": "School [skuːl]", "ru": "школа" },
+            { "en": "Room   [ruːm]",  "ru": "комната" }
+          ]
+        },
+        {
+          "title": "Oo → [ʊ] — краткий",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Внимание",
+            "text": "Краткий [ʊ] в oo — короткий список слов, которые надо просто выучить: book, look, foot, good, cook, wood."
+          },
+          "examples": [
+            { "en": "Book [bʊk]", "ru": "книга" },
+            { "en": "Look [lʊk]", "ru": "смотреть" },
+            { "en": "Foot [fʊt]", "ru": "ступня" },
+            { "en": "Good [ɡʊd]", "ru": "хороший" }
+          ]
+        }
       ],
       "expandables": [
         {
@@ -72,43 +161,86 @@
           "initiallyExpanded": false,
           "section": {
             "title": "",
-            "transforms": [
-              { "from": "ea → [e]", "to": "bread, head, ready", "toColor": "bad" },
-              { "from": "ea → [eɪ]", "to": "great, break", "toColor": "term" }
+            "borderColor": "bad",
+            "rules": [
+              { "name": "ea → [iː]", "suffix": "самый частый", "example": "tea, sea, dream, clean" },
+              { "name": "ea → [e]",  "suffix": "в коротком списке", "example": "bread, head, ready, dead" },
+              { "name": "ea → [eɪ]", "suffix": "редкие исключения",  "example": "great, break, steak" }
             ],
-            "text": "ee — почти всегда [iː] без исключений. С ea — проверяй по словарю.",
-            "textColor": "info"
+            "callout": {
+              "type": "tip",
+              "title": "Правило большого пальца",
+              "text": "ee — практически всегда [iː] без исключений. С ea приходится проверять по словарю."
+            }
           }
         }
       ]
     },
 
     {
-      "label": "Oa, ai, ay",
+      "label": "oa / ai / ay",
       "intro": {
-        "text": "Oa / «долгое» ow → [əʊ]. Ai / ay → [eɪ].",
-        "highlight": "Oa / «долгое» ow → [əʊ]",
-        "highlightColor": "example"
+        "text": "Oa и долгое ow читаются как [əʊ]. Ai и ay — как [eɪ]. Всё зависит от позиции в слове.",
+        "highlights": [
+          { "text": "Oa",     "color": "example", "style": "bold" },
+          { "text": "[əʊ]",   "color": "term",    "style": "bold_underline" },
+          { "text": "Ai / ay","color": "info",    "style": "bold" },
+          { "text": "[eɪ]",   "color": "example", "style": "bold" }
+        ]
       },
       "sections": [
-        { "title": "Oa / ow → [əʊ]", "examples": [
-          { "en": "Boat [bəʊt]", "ru": "лодка" },
-          { "en": "Snow [snəʊ]", "ru": "снег" },
-          { "en": "Yellow [ˈjeləʊ]", "ru": "жёлтый" }
-        ]},
-        { "title": "Ai — в середине слова", "examples": [
-          { "en": "Rain [reɪn]", "ru": "дождь" },
-          { "en": "Train [treɪn]", "ru": "поезд" }
-        ]},
-        { "title": "Ay — в конце слова", "examples": [
-          { "en": "Day [deɪ]", "ru": "день" },
-          { "en": "Play [pleɪ]", "ru": "играть" }
-        ]},
+        {
+          "title": "Oa / ow → [əʊ]",
+          "borderColor": "term",
+          "examples": [
+            { "en": "Boat   [bəʊt]",     "ru": "лодка" },
+            { "en": "Snow   [snəʊ]",     "ru": "снег" },
+            { "en": "Yellow [ˈjeləʊ]",   "ru": "жёлтый" },
+            { "en": "Road   [rəʊd]",     "ru": "дорога" }
+          ]
+        },
+        {
+          "title": "Ai — в середине слова",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Rain  [reɪn]",  "ru": "дождь" },
+            { "en": "Train [treɪn]", "ru": "поезд" },
+            { "en": "Wait  [weɪt]",  "ru": "ждать" },
+            { "en": "Pain  [peɪn]",  "ru": "боль" }
+          ]
+        },
+        {
+          "title": "Ay — в конце слова",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Day  [deɪ]",  "ru": "день" },
+            { "en": "Play [pleɪ]", "ru": "играть" },
+            { "en": "Stay [steɪ]", "ru": "оставаться" },
+            { "en": "May  [meɪ]",  "ru": "май / мочь" }
+          ]
+        },
+        {
+          "title": "Позиция решает",
+          "borderColor": "good",
+          "rules": [
+            { "name": "ai в середине",  "suffix": "[eɪ]",  "example": "rain, train, wait, fail" },
+            { "name": "ay в конце",     "suffix": "[eɪ]",  "example": "day, play, stay, way" },
+            { "name": "oa в середине",  "suffix": "[əʊ]",  "example": "boat, road, coat, goat" },
+            { "name": "ow в конце",     "suffix": "[əʊ]",  "example": "snow, slow, yellow, window" }
+          ]
+        },
         {
           "title": "Внимание: ow бывает и [aʊ]",
           "borderColor": "bad",
-          "text": "ow может быть [əʊ] (snow) и [aʊ] (cow). Определяется только по слову.",
-          "textColor": "text"
+          "callout": {
+            "type": "warning",
+            "title": "Два звука ow",
+            "text": "ow = [əʊ] в snow, slow, yellow. ow = [aʊ] в cow, how, now, down. Определяется только по слову."
+          },
+          "examples": [
+            { "en": "Snow [snəʊ] — [əʊ]", "ru": "снег" },
+            { "en": "Cow  [kaʊ]  — [aʊ]", "ru": "корова" }
+          ]
         }
       ]
     },
@@ -116,58 +248,143 @@
     {
       "label": "Дифтонги",
       "intro": {
-        "text": "Oi / oy = [ɔɪ]. Ou / ow = [aʊ]. Au / aw = [ɔː].",
-        "highlight": "Oi / oy = [ɔɪ]",
-        "highlightColor": "example"
+        "text": "Четыре пары сочетаний дают четыре разных дифтонга: oi/oy, ou/ow, au/aw.",
+        "highlights": [
+          { "text": "oi / oy", "color": "example", "style": "bold" },
+          { "text": "ou / ow", "color": "info",    "style": "bold" },
+          { "text": "au / aw", "color": "term",    "style": "bold" },
+          { "text": "позиция", "color": "accent2", "style": "bold_underline" }
+        ]
       },
       "sections": [
-        { "title": "oi / oy → [ɔɪ]", "transforms": [
-          { "from": "oi", "to": "Coin, Voice, Point", "toColor": "example" },
-          { "from": "oy", "to": "Boy, Toy, Enjoy", "toColor": "example" }
-        ]},
-        { "title": "ou / ow → [aʊ]", "transforms": [
-          { "from": "ou", "to": "House, Mouse, Loud", "toColor": "info" },
-          { "from": "ow", "to": "Cow, How, Now, Down", "toColor": "info" }
-        ]},
-        { "title": "au / aw → [ɔː]", "transforms": [
-          { "from": "au", "to": "Autumn, August, Author", "toColor": "term" },
-          { "from": "aw", "to": "Draw, Saw, Law, Yawn", "toColor": "term" }
-        ]},
+        {
+          "title": "Сводная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Сочетание", "Звук", "Пример"],
+            "headerColors": ["example", "term", "info"],
+            "rows": [
+              { "cells": ["oi / oy", "[ɔɪ]", "coin, boy"] },
+              { "cells": ["ou / ow", "[aʊ]", "house, cow"] },
+              { "cells": ["au / aw", "[ɔː]", "autumn, saw"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "oi / oy → [ɔɪ]",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Coin  [kɔɪn]",   "ru": "монета" },
+            { "en": "Voice [vɔɪs]",   "ru": "голос" },
+            { "en": "Boy   [bɔɪ]",    "ru": "мальчик" },
+            { "en": "Toy   [tɔɪ]",    "ru": "игрушка" },
+            { "en": "Enjoy [ɪnˈdʒɔɪ]","ru": "наслаждаться" }
+          ]
+        },
+        {
+          "title": "ou / ow → [aʊ]",
+          "borderColor": "info",
+          "examples": [
+            { "en": "House [haʊs]",  "ru": "дом" },
+            { "en": "Mouse [maʊs]",  "ru": "мышь" },
+            { "en": "Loud  [laʊd]",  "ru": "громкий" },
+            { "en": "Cow   [kaʊ]",   "ru": "корова" },
+            { "en": "How   [haʊ]",   "ru": "как" },
+            { "en": "Down  [daʊn]",  "ru": "вниз" }
+          ]
+        },
+        {
+          "title": "au / aw → [ɔː]",
+          "borderColor": "term",
+          "examples": [
+            { "en": "Autumn [ˈɔːtəm]", "ru": "осень" },
+            { "en": "August [ˈɔːɡəst]", "ru": "август" },
+            { "en": "Author [ˈɔːθə]",   "ru": "автор" },
+            { "en": "Draw   [drɔː]",    "ru": "рисовать" },
+            { "en": "Saw    [sɔː]",     "ru": "пила / видел" }
+          ]
+        },
         {
           "title": "Правило позиции",
-          "borderColor": "term",
-          "text": "oi / au — в середине. oy / aw — на конце. Так и запоминается.",
-          "textColor": "text"
+          "borderColor": "good",
+          "rules": [
+            { "name": "oi — в середине", "suffix": "coin, voice, point",   "example": "oi никогда не стоит в конце слова" },
+            { "name": "oy — на конце",   "suffix": "boy, toy, enjoy",      "example": "oy всегда на конце или перед гласной" },
+            { "name": "au — в середине", "suffix": "autumn, August",       "example": "au не стоит в конце слова" },
+            { "name": "aw — на конце",   "suffix": "draw, saw, law",       "example": "aw обычно в конце слова" }
+          ]
         }
       ]
     },
 
     {
-      "label": "Igh, magic e",
+      "label": "igh / magic e / y",
       "intro": {
-        "text": "Igh и y на конце = [aɪ]. Magic e делает гласную долгой.",
-        "highlight": "Magic e",
-        "highlightColor": "term"
+        "text": "Igh и конечная y дают [aɪ]. Magic e делает гласную долгой — буква e в конце не читается, но меняет звук предыдущей.",
+        "highlights": [
+          { "text": "Igh",     "color": "example", "style": "bold" },
+          { "text": "Magic e", "color": "term",    "style": "bold_underline" },
+          { "text": "меняет звук", "color": "bad", "style": "bold" },
+          { "text": "не читается", "color": "info","style": "bold" }
+        ]
       },
       "sections": [
-        { "title": "igh → [aɪ]", "examples": [
-          { "en": "Night [naɪt]", "ru": "ночь" },
-          { "en": "Light [laɪt]", "ru": "свет" },
-          { "en": "High [haɪ]", "ru": "высокий" }
-        ]},
-        { "title": "y → [aɪ] (в односложных)", "examples": [
-          { "en": "My [maɪ]", "ru": "мой" },
-          { "en": "Sky [skaɪ]", "ru": "небо" }
-        ]},
         {
-          "title": "Magic e: гласная + согл. + немая e",
+          "title": "Магия немая e",
           "borderColor": "term",
-          "transforms": [
-            { "from": "a_e → [eɪ]", "to": "Cake, Name", "toColor": "example" },
-            { "from": "i_e → [aɪ]", "to": "Bike, Time", "toColor": "info" },
-            { "from": "o_e → [əʊ]", "to": "Home, Note", "toColor": "term" },
-            { "from": "u_e → [juː]", "to": "Cute, June", "toColor": "accent2" }
+          "formulaCard": {
+            "parts": [
+              { "text": "гласная",   "color": "info" },
+              { "text": "+",         "color": "muted" },
+              { "text": "согласная", "color": "example" },
+              { "text": "+",         "color": "muted" },
+              { "text": "e",         "color": "term" },
+              { "text": "=",         "color": "muted" },
+              { "text": "долгий звук", "color": "term" }
+            ],
+            "accentColor": "term"
+          },
+          "callout": {
+            "type": "info",
+            "title": "Почему magic",
+            "text": "Буква e сама не читается, но делает предыдущую гласную долгой: hat [hæt] → hate [heɪt]."
+          }
+        },
+        {
+          "title": "igh → [aɪ]",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Night [naɪt]", "ru": "ночь" },
+            { "en": "Light [laɪt]", "ru": "свет" },
+            { "en": "High  [haɪ]",  "ru": "высокий" },
+            { "en": "Right [raɪt]", "ru": "правильный" }
           ]
+        },
+        {
+          "title": "y → [aɪ] в односложных",
+          "borderColor": "info",
+          "examples": [
+            { "en": "My  [maɪ]", "ru": "мой" },
+            { "en": "Sky [skaɪ]","ru": "небо" },
+            { "en": "Try [traɪ]","ru": "пробовать" },
+            { "en": "Fly [flaɪ]","ru": "летать" }
+          ]
+        },
+        {
+          "title": "Четыре варианта magic e",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Схема", "Звук", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["a_e", "[eɪ]",  "cake, name, game, plane"] },
+              { "cells": ["i_e", "[aɪ]",  "bike, time, like, line"] },
+              { "cells": ["o_e", "[əʊ]",  "home, note, hope, stone"] },
+              { "cells": ["u_e", "[juː]", "cute, June, use, huge"] }
+            ],
+            "borderColor": "term"
+          }
         }
       ],
       "expandables": [
@@ -177,10 +394,18 @@
           "initiallyExpanded": false,
           "section": {
             "title": "",
+            "borderColor": "bad",
+            "callout": {
+              "type": "warning",
+              "title": "Короткое против длинного",
+              "text": "y = [aɪ] в односложных словах (my, sky, try). y = [i] в конце многосложных слов (happy, family, city)."
+            },
             "examples": [
-              { "en": "Happy [ˈhæpi]", "ru": "y = краткое [i]" },
+              { "en": "Happy  [ˈhæpi]",   "ru": "y = краткое [i]" },
               { "en": "Family [ˈfæməli]", "ru": "y = краткое [i]" },
-              { "en": "City [ˈsɪti]", "ru": "y = краткое [i]" }
+              { "en": "City   [ˈsɪti]",   "ru": "y = краткое [i]" },
+              { "en": "My     [maɪ]",     "ru": "y = [aɪ] — один слог" },
+              { "en": "Sky    [skaɪ]",    "ru": "y = [aɪ] — один слог" }
             ]
           }
         }
@@ -188,37 +413,116 @@
     },
 
     {
-      "label": "Гласная + r и ошибки",
+      "label": "Гласная + r",
       "intro": {
-        "text": "R после гласной «окрашивает» звук и делает его долгим.",
-        "highlight": "«окрашивает»",
-        "highlightColor": "term"
+        "text": "Буква r после гласной окрашивает звук и делает его долгим. Особенно важно: er, ir, ur читаются одинаково.",
+        "highlights": [
+          { "text": "окрашивает", "color": "term",    "style": "bold_underline" },
+          { "text": "er, ir, ur", "color": "example", "style": "bold" },
+          { "text": "одинаково",  "color": "bad",     "style": "bold" }
+        ]
       },
       "sections": [
-        { "title": "ar / or", "transforms": [
-          { "from": "ar → [ɑː]", "to": "Car, Park, Star", "toColor": "example" },
-          { "from": "or → [ɔː]", "to": "Fork, Sport, Short", "toColor": "info" }
-        ]},
-        { "title": "er, ir, ur → [ɜː] — один звук!", "transforms": [
-          { "from": "er", "to": "Her [hɜː]", "toColor": "example" },
-          { "from": "ir", "to": "Bird [bɜːd]", "toColor": "info" },
-          { "from": "ur", "to": "Turn [tɜːn], Nurse", "toColor": "term" }
-        ],
-          "text": "er, ir, ur звучат одинаково — различие только в написании.",
-          "textColor": "term"
+        {
+          "title": "Сводная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Сочетание", "Звук", "Пример"],
+            "headerColors": ["example", "term", "info"],
+            "rows": [
+              { "cells": ["ar", "[ɑː]", "car, park, star"] },
+              { "cells": ["or", "[ɔː]", "fork, sport, short"] },
+              { "cells": ["er", "[ɜː]", "her, term, person"] },
+              { "cells": ["ir", "[ɜː]", "bird, girl, first"] },
+              { "cells": ["ur", "[ɜː]", "turn, nurse, hurt"] }
+            ],
+            "borderColor": "info"
+          }
         },
-        { "title": "Ei / ie — капризные", "borderColor": "term", "transforms": [
-          { "from": "ei / ie → [iː]", "to": "piece, field, believe", "toColor": "example" },
-          { "from": "ei → [eɪ]", "to": "eight, neighbour, vein", "toColor": "info" }
-        ]},
-        { "title": "Ошибки", "borderColor": "bad", "errors": [
-          { "wrong": "bread → [briːd]", "right": "bread → [bred]" },
-          { "wrong": "book → [buːk]", "right": "book → [bʊk]" },
-          { "wrong": "cow → [kəʊ]", "right": "cow → [kaʊ]" },
-          { "wrong": "cake → [kæk]", "right": "cake → [keɪk]" },
-          { "wrong": "eight → [iːt]", "right": "eight → [eɪt]" },
-          { "wrong": "happy → «хэппай»", "right": "happy → [ˈhæpi]" }
-        ]}
+        {
+          "title": "ar / or",
+          "borderColor": "example",
+          "examples": [
+            { "en": "Car   [kɑː]",   "ru": "машина" },
+            { "en": "Park  [pɑːk]",  "ru": "парк" },
+            { "en": "Star  [stɑː]",  "ru": "звезда" },
+            { "en": "Fork  [fɔːk]",  "ru": "вилка" },
+            { "en": "Sport [spɔːt]", "ru": "спорт" },
+            { "en": "Short [ʃɔːt]",  "ru": "короткий" }
+          ]
+        },
+        {
+          "title": "er, ir, ur — один звук [ɜː]",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "Один звук — три написания",
+            "text": "er, ir, ur звучат абсолютно одинаково. Различие только в написании слова — как в русском «о» и «ё» в некоторых позициях."
+          },
+          "examples": [
+            { "en": "Her  [hɜː]",   "ru": "её / её" },
+            { "en": "Term [tɜːm]",  "ru": "термин" },
+            { "en": "Bird [bɜːd]",  "ru": "птица" },
+            { "en": "Girl [ɡɜːl]",  "ru": "девочка" },
+            { "en": "Turn [tɜːn]",  "ru": "поворот" },
+            { "en": "Nurse [nɜːs]", "ru": "медсестра" }
+          ]
+        },
+        {
+          "title": "ei / ie — капризные сочетания",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Сочетание", "Звук", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["ei / ie", "[iː]", "piece, field, believe"] },
+              { "cells": ["ei",       "[eɪ]", "eight, neighbour, vein"] },
+              { "cells": ["ie",       "[aɪ]", "pie, lie, die, tie"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Типичные ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "bread  → [briːd]",  "right": "bread  → [bred]" },
+            { "wrong": "book   → [buːk]",   "right": "book   → [bʊk]" },
+            { "wrong": "cow    → [kəʊ]",    "right": "cow    → [kaʊ]" },
+            { "wrong": "cake   → [kæk]",    "right": "cake   → [keɪk]" },
+            { "wrong": "eight  → [iːt]",    "right": "eight  → [eɪt]" },
+            { "wrong": "happy  → «хэппай»", "right": "happy  → [ˈhæpi]" }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Гласные — это не буквы, а звуки. Один звук может прятаться за четырьмя разными сочетаниями.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Все варианты чтения гласной + r",
+          "preview": "ar · or · er · ir · ur · air · ear · oor",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "info",
+            "verbGrid": {
+              "accentColor": "example",
+              "verbs": ["ar", "or", "er", "ir", "ur", "air", "ear", "oor", "our"]
+            },
+            "callout": {
+              "type": "tip",
+              "title": "Дополнительно",
+              "text": "air читается как [eə] (chair), ear — по-разному: [ɪə] (near), [ɜː] (learn), [eə] (bear)."
+            }
+          }
+        }
       ]
     }
   ]
