@@ -41,11 +41,11 @@
           }
         },
         {
-          "title": "Ключевое отличие",
-          "borderColor": "good",
-          "keysValues": [
-            { "key": "Что?  →  -ing",     "value": "Reading is useful.",  "valueColor": "text" },
-            { "key": "Что делать?  →  to do", "value": "I want to read.",  "valueColor": "text" }
+        "title": "Ключевое отличие",
+        "borderColor": "good",
+        "rules": [
+          { "name": "-ing",  "suffix": "отвечает на «что?»",       "example": "Reading is useful." },
+          { "name": "to do", "suffix": "отвечает на «что делать?»", "example": "I want to read." }
           ]
         }
       ],
