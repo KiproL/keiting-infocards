@@ -1,1 +1,501 @@
+{
+  "tenseName": "Numbers",
+  "route": "cards_numbers",
+  "slides": [
+    {
+      "label": "Cardinal / Ordinal",
+      "intro": {
+        "text": "Cardinal отвечает на вопрос «сколько?». Ordinal — на вопрос «какой по счёту?». Это два разных набора чисел, и путать их нельзя.",
+        "highlights": [
+          { "text": "Cardinal",       "color": "info",    "style": "bold" },
+          { "text": "Ordinal",        "color": "term",    "style": "bold" },
+          { "text": "какой по счёту", "color": "example", "style": "bold_underline" },
+          { "text": "путать",         "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Cardinal", "color": "info" },
+              { "text": "=",        "color": "muted" },
+              { "text": "сколько?", "color": "example" },
+              { "text": "·",        "color": "muted" },
+              { "text": "Ordinal",  "color": "term" },
+              { "text": "=",        "color": "muted" },
+              { "text": "какой по счёту?", "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Число", "Cardinal", "Ordinal"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["1",  "one",   "the first"] },
+              { "cells": ["2",  "two",   "the second"] },
+              { "cells": ["3",  "three", "the third"] },
+              { "cells": ["10", "ten",   "the tenth"] },
+              { "cells": ["25", "twenty-five", "the twenty-fifth"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Где используются порядковые",
+          "borderColor": "term",
+          "bullets": [
+            { "text": "Даты: the first of May, the twenty-fifth of December",     "color": "example" },
+            { "text": "Этажи: the third floor, the tenth floor",                   "color": "info" },
+            { "text": "Места: She came second, He finished third",                 "color": "term" },
+            { "text": "Дни рождения: my twentieth birthday",                       "color": "example" }
+          ]
+        },
+        {
+          "title": "Артикль the",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "Правило",
+            "text": "Перед порядковым числом почти всегда ставится the: the first, the second, the third."
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Cardinal считает, Ordinal расставляет по порядку. Одно число — две роли.",
+            "author": "простая истина",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
 
+    {
+      "label": "1 – 20",
+      "intro": {
+        "text": "Первые двадцать чисел надо знать наизусть — они не подчиняются правилам, каждое запоминается отдельно.",
+        "highlights": [
+          { "text": "наизусть",       "color": "term",    "style": "bold_underline" },
+          { "text": "не подчиняются", "color": "bad",     "style": "bold" },
+          { "text": "запоминается",   "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "1 – 10",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Число", "Слово", "Заметка"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["1",  "one",   "базовое"] },
+              { "cells": ["2",  "two",   "базовое"] },
+              { "cells": ["3",  "three", "базовое"] },
+              { "cells": ["4",  "four",  "базовое"] },
+              { "cells": ["5",  "five",  "базовое"] },
+              { "cells": ["6",  "six",   "базовое"] },
+              { "cells": ["7",  "seven", "базовое"] },
+              { "cells": ["8",  "eight", "базовое"] },
+              { "cells": ["9",  "nine",  "базовое"] },
+              { "cells": ["10", "ten",   "базовое"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "11 – 20",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Число", "Слово", "Заметка"],
+            "headerColors": ["term", "example", "info"],
+            "rows": [
+              { "cells": ["11", "eleven",   "своё слово"] },
+              { "cells": ["12", "twelve",   "своё слово"] },
+              { "cells": ["13", "thirteen", "-teen"] },
+              { "cells": ["14", "fourteen", "-teen"] },
+              { "cells": ["15", "fifteen",  "five → fif"] },
+              { "cells": ["16", "sixteen",  "-teen"] },
+              { "cells": ["17", "seventeen","-teen"] },
+              { "cells": ["18", "eighteen", "одна t"] },
+              { "cells": ["19", "nineteen", "e сохраняется"] },
+              { "cells": ["20", "twenty",   "-ty"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Особые случаи -teen",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "five  → fifteen",  "suffix": "ve → f",         "example": "5 → 15: пять → пятнадцать" },
+            { "name": "nine  → nineteen", "suffix": "e сохраняется",   "example": "9 → 19: девять → девятнадцать" },
+            { "name": "eight → eighteen", "suffix": "одна t",          "example": "8 → 18: восемь → восемнадцать" },
+            { "name": "three → thirteen","suffix": "две t",           "example": "3 → 13: три → тринадцать" }
+          ]
+        },
+        {
+          "title": "Ударение 13–19 vs десятки",
+          "borderColor": "term",
+          "callout": {
+            "type": "warning",
+            "title": "Различие только в ударении",
+            "text": "thirTEEN — ударение на конце. THIRty — на начале. В диктовке специально произносят: thirteen = one-three."
+          },
+          "examples": [
+            { "en": "thirTEEN [θɜːˈtiːn]", "ru": "тринадцать — ударение в конце" },
+            { "en": "THIRty  [ˈθɜːti]",   "ru": "тридцать — ударение в начале" },
+            { "en": "fourTEEN [fɔːˈtiːn]", "ru": "четырнадцать — ударение в конце" },
+            { "en": "FORty   [ˈfɔːti]",    "ru": "сорок — ударение в начале" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Десятки и сотни",
+      "intro": {
+        "text": "Десятки образуются от базовых чисел, но с несколькими ловушками. Сотни, тысячи и миллионы пишутся без -s, если перед ними стоит число.",
+        "highlights": [
+          { "text": "ловушками", "color": "bad",     "style": "bold_underline" },
+          { "text": "без -s",    "color": "term",    "style": "bold" },
+          { "text": "число",     "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Круглые десятки",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Число", "Слово", "Заметка"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["20", "twenty",  "обычное"] },
+              { "cells": ["30", "thirty",  "обычное"] },
+              { "cells": ["40", "forty",   "без u"] },
+              { "cells": ["50", "fifty",   "five → fif"] },
+              { "cells": ["60", "sixty",   "обычное"] },
+              { "cells": ["70", "seventy", "обычное"] },
+              { "cells": ["80", "eighty",  "одна t"] },
+              { "cells": ["90", "ninety",  "nine → nine"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Главная ошибка: forty",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Никогда fourty",
+            "text": "Только forty — без u. Это самая частая ошибка. Запомни: four → forty, но не fourty."
+          },
+          "examples": [
+            { "en": "forty people",   "ru": "✓ правильно",   "icon": "check", "iconColor": "good" },
+            { "en": "fourty people",  "ru": "✗ неправильно", "icon": "cross", "iconColor": "bad" }
+          ]
+        },
+        {
+          "title": "Составные числа — через дефис",
+          "borderColor": "term",
+          "rules": [
+            { "name": "twenty-one",  "suffix": "21",  "example": "Twenty-one guns." },
+            { "name": "thirty-five", "suffix": "35",  "example": "Thirty-five minutes." },
+            { "name": "ninety-nine", "suffix": "99",  "example": "Ninety-nine bottles." },
+            { "name": "forty-two",   "suffix": "42",  "example": "The answer is forty-two." }
+          ],
+          "callout": {
+            "type": "info",
+            "title": "Правило дефиса",
+            "text": "Между десятком и единицей ставится дефис: 21 = twenty-one. Между сотнями и десятками — and (в британском): 121 = a hundred and twenty-one."
+          }
+        },
+        {
+          "title": "Сотни, тысячи, миллионы",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Число", "Слово", "Разбор"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["100",     "a hundred",             "без числа перед"] },
+              { "cells": ["101",     "a hundred and one",     "BrE: and"] },
+              { "cells": ["250",     "two hundred and fifty", "число + hundred"] },
+              { "cells": ["1,000",   "a thousand",            "без числа перед"] },
+              { "cells": ["5,000",   "five thousand",         "число + thousand"] },
+              { "cells": ["1,000,000","a million",            "без числа перед"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Важно про -s",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "hundred, thousand, million",
+            "text": "Пишутся без -s, если перед ними стоит число. Но с -s, когда речь о неопределённом множестве: hundreds of people, thousands of stars."
+          },
+          "examples": [
+            { "en": "three hundred people",  "ru": "✓ не hundreds", "icon": "check", "iconColor": "good" },
+            { "en": "five thousand dollars", "ru": "✓ не thousands","icon": "check", "iconColor": "good" },
+            { "en": "hundreds of tourists",  "ru": "неопределённое множество — с -s" },
+            { "en": "thousands of years",    "ru": "неопределённое множество — с -s" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Порядковые 1–20",
+      "intro": {
+        "text": "Порядковые числа отвечают на вопрос «какой по счёту?». Первые три — особые, дальше работает правило +th с несколькими ловушками.",
+        "highlights": [
+          { "text": "какой по счёту", "color": "term",    "style": "bold_underline" },
+          { "text": "особые",         "color": "bad",     "style": "bold" },
+          { "text": "+th",            "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "1 → first",        "color": "example" },
+              { "text": "·",                 "color": "muted" },
+              { "text": "2 → second",        "color": "example" },
+              { "text": "·",                 "color": "muted" },
+              { "text": "3 → third",         "color": "example" },
+              { "text": "·",                 "color": "muted" },
+              { "text": "4+ → +th",          "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Первые три — особые",
+          "borderColor": "bad",
+          "table": {
+            "headers": ["Цифра", "Слово"],
+            "headerColors": ["bad", "example"],
+            "rows": [
+              { "cells": ["1st", "first"] },
+              { "cells": ["2nd", "second"] },
+              { "cells": ["3rd", "third"] }
+            ],
+            "borderColor": "bad"
+          }
+        },
+        {
+          "title": "С 4 и дальше — +th",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Цифра", "Слово", "Заметка"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["4th",  "fourth",   "+th"] },
+              { "cells": ["5th",  "fifth",    "ve → f"] },
+              { "cells": ["6th",  "sixth",    "+th"] },
+              { "cells": ["7th",  "seventh",  "+th"] },
+              { "cells": ["8th",  "eighth",   "одна t"] },
+              { "cells": ["9th",  "ninth",    "e уходит"] },
+              { "cells": ["10th", "tenth",    "+th"] },
+              { "cells": ["11th", "eleventh", "+th"] },
+              { "cells": ["12th", "twelfth",  "ve → f"] },
+              { "cells": ["13th", "thirteenth","+th"] },
+              { "cells": ["20th", "twentieth","y → ie + th"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Десятки: y → ie + th",
+          "borderColor": "term",
+          "rules": [
+            { "name": "twenty → twentieth", "suffix": "20th",  "example": "y → ie, + th" },
+            { "name": "thirty → thirtieth", "suffix": "30th",  "example": "y → ie, + th" },
+            { "name": "forty  → fortieth",  "suffix": "40th",  "example": "y → ie, + th" },
+            { "name": "hundred → hundredth","suffix": "100th", "example": "просто + th" }
+          ]
+        },
+        {
+          "title": "Составные числа",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Меняется только последнее слово",
+            "text": "В составных числах порядковое — только последнее слово. Остальное остаётся как в cardinal."
+          },
+          "examples": [
+            { "en": "21st  = twenty-first",   "ru": "двадцать первый" },
+            { "en": "53rd  = fifty-third",    "ru": "пятьдесят третий" },
+            { "en": "99th  = ninety-ninth",   "ru": "девяносто девятый" },
+            { "en": "121st = a hundred and twenty-first", "ru": "сто двадцать первый" }
+          ]
+        },
+        {
+          "title": "Исключения правописания",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "fiveth",   "right": "fifth" },
+            { "wrong": "nineth",   "right": "ninth" },
+            { "wrong": "twelveth", "right": "twelfth" },
+            { "wrong": "eightth",  "right": "eighth" },
+            { "wrong": "twentyth", "right": "twentieth" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Даты, годы, дроби",
+      "intro": {
+        "text": "В датах день месяца — всегда порядковое. Годы читаются парами цифр. Дроби и проценты — тоже числа, но с нюансами.",
+        "highlights": [
+          { "text": "порядковое", "color": "term",    "style": "bold_underline" },
+          { "text": "парами",     "color": "info",    "style": "bold" },
+          { "text": "нюансами",   "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Даты",
+          "borderColor": "info",
+          "examples": [
+            { "en": "1 May",       "ru": "the first of May (BrE) / May first (AmE)" },
+            { "en": "25 December", "ru": "the twenty-fifth of December" },
+            { "en": "3 March",     "ru": "the third of March" },
+            { "en": "On 1 May",    "ru": "on the first of May" }
+          ],
+          "callout": {
+            "type": "info",
+            "title": "Правило",
+            "text": "В британском английском: the + порядковое + of + месяц. В американском: месяц + the + порядковое."
+          }
+        },
+        {
+          "title": "Годы",
+          "borderColor": "term",
+          "rules": [
+            { "name": "1990", "suffix": "nineteen ninety",    "example": "разбивается на две пары: 19 + 90" },
+            { "name": "1805", "suffix": "eighteen oh five",   "example": "0 читается как oh" },
+            { "name": "1900", "suffix": "nineteen hundred",   "example": "круглый — hundred" },
+            { "name": "2024", "suffix": "twenty twenty-four", "example": "21 век — по паре" },
+            { "name": "2005", "suffix": "two thousand and five","example": "2000–2009 — исключение" },
+            { "name": "2010", "suffix": "twenty ten",         "example": "с 2010 снова парами" }
+          ]
+        },
+        {
+          "title": "Дроби",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Дробь", "Чтение", "Заметка"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["1/2", "a half",     "не one second"] },
+              { "cells": ["1/4", "a quarter",  "не one fourth"] },
+              { "cells": ["1/3", "a third",    "ordinal"] },
+              { "cells": ["2/3", "two thirds", "с -s если >1"] },
+              { "cells": ["3/4", "three quarters", "с -s если >1"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Проценты и действия",
+          "borderColor": "term",
+          "examples": [
+            { "en": "50%",       "ru": "fifty per cent" },
+            { "en": "100%",      "ru": "a hundred per cent" },
+            { "en": "2 + 2 = 4", "ru": "two plus two equals four" },
+            { "en": "5 − 3 = 2", "ru": "five minus three equals two" },
+            { "en": "4 × 2 = 8", "ru": "four times two equals eight" },
+            { "en": "10 ÷ 2 = 5", "ru": "ten divided by two equals five" }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Число — это факт. Как ты его произносишь — это уже язык.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Типичные ошибки",
+      "intro": {
+        "text": "Семь самых частых ошибок с английскими числами — и как их избежать.",
+        "highlights": [
+          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "fourty",              "right": "forty" },
+            { "wrong": "five hundreds dollars","right": "five hundred dollars" },
+            { "wrong": "the one of May",      "right": "the first of May" },
+            { "wrong": "one fourth",          "right": "a quarter" },
+            { "wrong": "nineth",              "right": "ninth" },
+            { "wrong": "21th",                "right": "21st" },
+            { "wrong": "threeteen",           "right": "thirteen" }
+          ]
+        },
+        {
+          "title": "Как не ошибаться",
+          "borderColor": "good",
+          "callout": {
+            "type": "success",
+            "title": "Правило большого пальца",
+            "text": "Запомни три слова-исключения: forty (без u), ninth (без e), twelfth (ve → f). Остальное — по правилам."
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Числа — это единственная часть языка, где ошибка слышна сразу.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Интересный факт про ударение",
+          "preview": "thirTEEN vs THIRty",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "info",
+            "callout": {
+              "type": "info",
+              "title": "Как различать на слух",
+              "text": "Числа 13–19 и десятки (30, 40…) отличаются только ударением: thirTEEN — на конце, THIRty — в начале. При диктовке специально произносят медленнее: thirteen = one-three."
+            },
+            "examples": [
+              { "en": "thirTEEN  [θɜːˈtiːn]", "ru": "13 — ударение в конце" },
+              { "en": "THIRty    [ˈθɜːti]",   "ru": "30 — ударение в начале" },
+              { "en": "fourTEEN  [fɔːˈtiːn]", "ru": "14 — ударение в конце" },
+              { "en": "FORty     [ˈfɔːti]",   "ru": "40 — ударение в начале" },
+              { "en": "fifTEEN   [fɪfˈtiːn]", "ru": "15 — ударение в конце" },
+              { "en": "FIFty     [ˈfɪfti]",   "ru": "50 — ударение в начале" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
