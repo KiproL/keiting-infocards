@@ -28,7 +28,7 @@
             "text": "Герундий — это глагол, который ведёт себя как существительное: может быть подлежащим, дополнением, частью сказуемого."
           },
           "examples": [
-            { "en": "Learning English opens doors.", "ru": "Изучение английского открывает двери." },
+            { "en": "Learning English opens doors.",   "ru": "Изучение английского открывает двери." },
             { "en": "Swimming is my favourite sport.", "ru": "Плавание — мой любимый вид спорта." }
           ]
         },
@@ -37,7 +37,20 @@
           "borderColor": "bad",
           "callout": {
             "type": "warning",
+            "title": "Частая ошибка",
             "text": "Герундий всегда на -ing. Формы на -ed — это причастие (bored) или Past Simple (worked), а не герундий."
+          },
+          "examples": [
+            { "en": "I'm interested in music.", "ru": "Я интересуюсь музыкой.", "icon": "check", "iconColor": "good" },
+            { "en": "I'm interesting in music.", "ru": "✗ так нельзя", "icon": "cross", "iconColor": "bad", "ruColor": "bad" }
+          ]
+        },
+        {
+          "title": "Зачем это нужно",
+          "quote": {
+            "text": "Герундий превращает действие в понятие. Умеешь это — умеешь говорить абстрактно.",
+            "author": "правило больших текстов",
+            "accentColor": "accent2"
           }
         }
       ],
@@ -89,11 +102,11 @@
         {
           "title": "5 главных ролей",
           "keysValues": [
-            { "key": "Подлежащее",       "value": "Reading improves memory.",       "valueColor": "example" },
-            { "key": "Дополнение",       "value": "She enjoys cooking.",            "valueColor": "example" },
-            { "key": "После предлога",   "value": "Thanks for helping!",            "valueColor": "example" },
-            { "key": "Часть сказуемого", "value": "My hobby is collecting stamps.", "valueColor": "example" },
-            { "key": "Определение",      "value": "a swimming pool",                "valueColor": "example" }
+            { "key": "Подлежащее",       "value": "Reading improves memory.",        "valueColor": "example" },
+            { "key": "Дополнение",       "value": "She enjoys cooking.",             "valueColor": "example" },
+            { "key": "После предлога",   "value": "Thanks for helping!",             "valueColor": "example" },
+            { "key": "Часть сказуемого", "value": "My hobby is collecting stamps.",  "valueColor": "example" },
+            { "key": "Определение",      "value": "a swimming pool",                 "valueColor": "example" }
           ]
         },
         {
@@ -105,7 +118,11 @@
               "swimming", "running", "painting", "singing",
               "travelling", "shopping"
             ]
-          }
+          },
+          "examples": [
+            { "en": "Reading helps me relax.",   "ru": "Чтение помогает мне расслабиться." },
+            { "en": "Shopping is tiring today.", "ru": "Шопинг сегодня утомителен." }
+          ]
         },
         {
           "title": "Мысль напоследок",
@@ -193,12 +210,12 @@
               "callout": {
                 "type": "info",
                 "title": "Смысл меняется",
-                "text": "С like, love, hate, prefer можно и -ing, и to do — значение почти одинаковое. А вот со stop, remember, forget разница принципиальная (смотри слайд «Смысл и -ed»)."
+                "text": "С like, love, hate, prefer можно и -ing, и to do — значение почти одинаковое. А вот со stop, remember, forget разница принципиальная."
               },
               "examples": [
-                { "en": "I like reading.",     "ru": "Мне нравится читать (вообще)." },
-                { "en": "I like to read before bed.", "ru": "Мне нравится читать перед сном (привычка)." },
-                { "en": "She loves dancing.",  "ru": "Она обожает танцевать." },
+                { "en": "I like reading.",                "ru": "Мне нравится читать (вообще)." },
+                { "en": "I like to read before bed.",     "ru": "Мне нравится читать перед сном (привычка)." },
+                { "en": "She loves dancing.",             "ru": "Она обожает танцевать." },
                 { "en": "She loves to dance at parties.", "ru": "Она обожает танцевать на вечеринках." }
               ]
             }
@@ -250,6 +267,7 @@
         },
         {
           "title": "Ловушка: to — это предлог",
+          "borderColor": "term",
           "callout": {
             "type": "warning",
             "title": "Внимание",
