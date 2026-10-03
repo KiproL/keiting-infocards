@@ -27,11 +27,8 @@
             "accentColor": "term"
           },
           "examples": [
-            { "en": "Learning English opens doors.",       "ru": "Изучение английского открывает двери." },
-            { "en": "Swimming is my favourite sport.",     "ru": "Плавание — мой любимый вид спорта." },
-            { "en": "Reading helps me relax after work.",  "ru": "Чтение помогает мне расслабиться после работы." },
-            { "en": "Cooking for friends is a real joy.",  "ru": "Готовить для друзей — настоящее удовольствие." },
-            { "en": "Travelling teaches you patience.",    "ru": "Путешествия учат терпению." }
+            { "en": "Learning English opens doors.",   "ru": "Изучение английского открывает двери." },
+            { "en": "Swimming is my favourite sport.", "ru": "Плавание — мой любимый вид спорта." }
           ]
         },
         {
@@ -47,9 +44,8 @@
           "title": "Ключевое отличие",
           "borderColor": "good",
           "keysValues": [
-            { "key": "Gerund (что?)",   "value": "Reading is useful.",      "valueColor": "text" },
-            { "key": "Инфинитив (что делать?)", "value": "I want to read.", "valueColor": "text" },
-            { "key": "Причастие -ed",   "value": "I'm bored.",               "valueColor": "text" }
+            { "key": "Что?  →  -ing",     "value": "Reading is useful.",  "valueColor": "text" },
+            { "key": "Что делать?  →  to do", "value": "I want to read.",  "valueColor": "text" }
           ]
         }
       ],
@@ -61,6 +57,11 @@
           "section": {
             "title": "",
             "borderColor": "term",
+            "callout": {
+              "type": "tip",
+              "title": "Запомни",
+              "text": "В 90% случаев используется Simple (active) — то есть просто V + ing. Остальные формы нужны для продвинутого уровня."
+            },
             "keysValues": [
               { "key": "Simple (active)",   "value": "writing",             "valueColor": "text" },
               { "key": "Simple (passive)",  "value": "being written",       "valueColor": "text" },
@@ -106,35 +107,34 @@
           "title": "5 главных ролей",
           "borderColor": "info",
           "keysValues": [
-            { "key": "1. Подлежащее",       "value": "Reading improves memory.",        "valueColor": "text" },
-            { "key": "2. Дополнение",       "value": "She enjoys cooking.",             "valueColor": "text" },
-            { "key": "3. После предлога",   "value": "Thanks for helping!",             "valueColor": "text" },
-            { "key": "4. Часть сказуемого", "value": "My hobby is collecting stamps.",  "valueColor": "text" },
-            { "key": "5. Определение",      "value": "a swimming pool, a reading room","valueColor": "text" }
+            { "key": "1. Подлежащее",       "value": "Reading improves memory.",         "valueColor": "text" },
+            { "key": "2. Дополнение",       "value": "She enjoys cooking.",              "valueColor": "text" },
+            { "key": "3. После предлога",   "value": "Thanks for helping!",              "valueColor": "text" },
+            { "key": "4. Часть сказуемого", "value": "My hobby is collecting stamps.",   "valueColor": "text" },
+            { "key": "5. Определение",      "value": "a swimming pool, a reading room", "valueColor": "text" }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "term",
           "examples": [
-            { "en": "Smoking is bad for your health.",       "ru": "Курение вредно для здоровья." },
-            { "en": "I hate waiting in long queues.",        "ru": "Ненавижу ждать в длинных очередях." },
-            { "en": "He is afraid of flying.",               "ru": "Он боится летать." },
-            { "en": "My dream is travelling around the world.","ru": "Моя мечта — путешествовать по миру." },
-            { "en": "She bought a new washing machine.",     "ru": "Она купила новую стиральную машину." }
+            { "en": "Swimming keeps me fit.",           "ru": "Плавание помогает мне держать форму." },
+            { "en": "I love reading detective stories.", "ru": "Обожаю читать детективы." },
+            { "en": "Thank you for helping me.",         "ru": "Спасибо, что помогли мне." },
+            { "en": "My dream is travelling.",           "ru": "Моя мечта — путешествовать." },
+            { "en": "We need a bigger dining table.",    "ru": "Нам нужен обеденный стол побольше." }
           ]
         },
         {
           "title": "Устойчивые конструкции",
           "borderColor": "good",
-          "keysValues": [
-            { "key": "It's no use",         "value": "It's no use crying.",              "valueColor": "text" },
-            { "key": "There's no point in", "value": "There's no point in waiting.",     "valueColor": "text" },
-            { "key": "be worth",            "value": "The museum is worth visiting.",    "valueColor": "text" },
-            { "key": "can't help",          "value": "I couldn't help laughing.",        "valueColor": "text" },
-            { "key": "feel like",           "value": "I feel like having a walk.",       "valueColor": "text" },
-            { "key": "Would you mind",      "value": "Would you mind closing the door?", "valueColor": "text" },
-            { "key": "How about",           "value": "How about going to the cinema?",   "valueColor": "text" }
+          "rules": [
+            { "name": "It's no use + -ing",     "suffix": "бесполезно",        "example": "It's no use crying." },
+            { "name": "be worth + -ing",         "suffix": "стоит",             "example": "The museum is worth visiting." },
+            { "name": "can't help + -ing",       "suffix": "не могу не",        "example": "I couldn't help laughing." },
+            { "name": "feel like + -ing",        "suffix": "хочется",           "example": "I feel like having a walk." },
+            { "name": "Would you mind + -ing",   "suffix": "не могли бы вы",    "example": "Would you mind closing the door?" },
+            { "name": "How about + -ing",        "suffix": "как насчёт",        "example": "How about going to the cinema?" }
           ]
         },
         {
@@ -154,8 +154,8 @@
       "intro": {
         "text": "После одних глаголов идёт только -ing, после других — только to do.",
         "highlights": [
-          { "text": "только -ing", "color": "term",    "style": "bold" },
-          { "text": "только to do","color": "info",    "style": "bold" }
+          { "text": "только -ing",  "color": "term", "style": "bold" },
+          { "text": "только to do", "color": "info", "style": "bold" }
         ]
       },
       "sections": [
@@ -171,10 +171,10 @@
             ]
           },
           "examples": [
-            { "en": "I enjoy playing chess.",       "ru": "✓ правильно",   "icon": "check", "iconColor": "good" },
-            { "en": "I enjoy to play.",             "ru": "✗ неправильно", "icon": "cross", "iconColor": "bad"  },
-            { "en": "She suggested going home.",    "ru": "Она предложила пойти домой." },
-            { "en": "He gave up smoking last year.","ru": "Он бросил курить в прошлом году." }
+            { "en": "I enjoy playing chess.",        "ru": "✓ правильно",   "icon": "check", "iconColor": "good" },
+            { "en": "I enjoy to play.",              "ru": "✗ неправильно", "icon": "cross", "iconColor": "bad"  },
+            { "en": "She suggested going home.",     "ru": "Она предложила пойти домой." },
+            { "en": "He gave up smoking last year.", "ru": "Он бросил курить в прошлом году." }
           ]
         },
         {
@@ -189,10 +189,10 @@
             ]
           },
           "examples": [
-            { "en": "We decided to stay home.",       "ru": "✓ правильно",   "icon": "check", "iconColor": "good" },
-            { "en": "We decided staying.",            "ru": "✗ неправильно", "icon": "cross", "iconColor": "bad"  },
-            { "en": "I hope to see you soon.",        "ru": "Надеюсь скоро тебя увидеть." },
-            { "en": "She promised to help us.",       "ru": "Она пообещала нам помочь." }
+            { "en": "We decided to stay home.", "ru": "✓ правильно",   "icon": "check", "iconColor": "good" },
+            { "en": "We decided staying.",      "ru": "✗ неправильно", "icon": "cross", "iconColor": "bad"  },
+            { "en": "I hope to see you soon.",  "ru": "Надеюсь скоро тебя увидеть." },
+            { "en": "She promised to help us.", "ru": "Она пообещала нам помочь." }
           ]
         },
         {
@@ -232,15 +232,13 @@
         {
           "title": "Частые связки",
           "borderColor": "info",
-          "keysValues": [
-            { "key": "good / bad at",   "value": "She is good at drawing.",            "valueColor": "text" },
-            { "key": "interested in",   "value": "I'm interested in learning German.",  "valueColor": "text" },
-            { "key": "afraid of",       "value": "He is afraid of flying.",             "valueColor": "text" },
-            { "key": "tired of",        "value": "I'm tired of waiting.",               "valueColor": "text" },
-            { "key": "thank you for",   "value": "Thank you for coming.",               "valueColor": "text" },
-            { "key": "look forward to", "value": "I look forward to seeing you.",       "valueColor": "text" },
-            { "key": "instead of",      "value": "Instead of watching TV, read a book.","valueColor": "text" },
-            { "key": "without",         "value": "She left without saying goodbye.",    "valueColor": "text" }
+          "rules": [
+            { "name": "good / bad at",  "suffix": "хорошо / плохо получается", "example": "She is good at drawing." },
+            { "name": "interested in",  "suffix": "интересоваться",           "example": "I'm interested in learning German." },
+            { "name": "afraid of",      "suffix": "бояться",                  "example": "He is afraid of flying." },
+            { "name": "tired of",       "suffix": "устал от",                 "example": "I'm tired of waiting." },
+            { "name": "thank you for",  "suffix": "спасибо за",               "example": "Thank you for coming." },
+            { "name": "look forward to","suffix": "с нетерпением ждать",      "example": "I look forward to seeing you." }
           ]
         },
         {
@@ -293,12 +291,12 @@
           "borderColor": "info",
           "text": "-ing — то, что вызывает чувство. -ed — что человек чувствует.",
           "transforms": [
-            { "from": "bore",     "to": "boring lesson / I'm bored",              "toColor": "example" },
-            { "from": "interest", "to": "interesting book / I'm interested",      "toColor": "example" },
-            { "from": "tire",     "to": "tiring day / I'm tired",                 "toColor": "example" },
-            { "from": "surprise", "to": "surprising result / We were surprised",  "toColor": "example" },
-            { "from": "excite",   "to": "exciting news / I'm excited",            "toColor": "example" },
-            { "from": "confuse",  "to": "confusing task / I'm confused",          "toColor": "example" }
+            { "from": "bore",     "to": "boring lesson / I'm bored",             "toColor": "example" },
+            { "from": "interest", "to": "interesting book / I'm interested",     "toColor": "example" },
+            { "from": "tire",     "to": "tiring day / I'm tired",                "toColor": "example" },
+            { "from": "surprise", "to": "surprising result / We were surprised", "toColor": "example" },
+            { "from": "excite",   "to": "exciting news / I'm excited",           "toColor": "example" },
+            { "from": "confuse",  "to": "confusing task / I'm confused",         "toColor": "example" }
           ]
         }
       ]
@@ -309,8 +307,8 @@
       "intro": {
         "text": "Слева — как нельзя, справа — как правильно. Запомни эти связки.",
         "highlights": [
-          { "text": "как нельзя",    "color": "bad",     "style": "bold" },
-          { "text": "как правильно", "color": "good",    "style": "bold" }
+          { "text": "как нельзя",    "color": "bad",  "style": "bold" },
+          { "text": "как правильно", "color": "good", "style": "bold" }
         ]
       },
       "sections": [
