@@ -1,163 +1,85 @@
 {
   "tenseName": "Conditionals",
   "route": "cards_conditionals",
+  "intro": {
+    "text": "Условное предложение = if-часть + главная часть. Четыре основных типа.",
+    "highlight": "if-часть",
+    "highlightColor": "info"
+  },
   "slides": [
     {
       "label": "Что это",
       "intro": {
-        "text": "Условное предложение = if-часть + главная часть. Четыре основных типа.",
-        "highlight": "if-часть",
-        "highlightColor": "info"
-      },
-      "sections": [
-        { "title": "4 типа", "transforms": [
-          { "from": "Zero", "to": "общая истина: If you heat water, it boils.", "toColor": "example" },
-          { "from": "First", "to": "реальное в будущем: If it rains, I will stay home.", "toColor": "info" },
-          { "from": "Second", "to": "нереальное: If I had money, I would travel.", "toColor": "term" },
-          { "from": "Third", "to": "нереальное в прошлом: If I had studied, I would have passed.", "toColor": "accent2" }
-        ]},
-        {
-          "title": "Правило запятой",
-          "borderColor": "term",
-          "text": "If-часть первая → запятая после неё. Главная первая → запятой нет.",
-          "textColor": "text"
-        }
-      ]
-    },
-
-    {
-      "label": "Zero / First",
-      "intro": {
-        "text": "Zero = общий факт. First = реальное условие в будущем.",
-        "highlight": "Zero",
-        "highlightColor": "example"
-      },
-      "sections": [
-        { "title": "Zero: If + Present Simple, Present Simple", "examples": [
-          { "en": "If you heat ice, it melts.", "ru": "Если нагреть лёд, он тает." },
-          { "en": "If you mix red and blue, you get purple.", "ru": "Смешаешь — получишь фиолетовый." }
-        ],
-          "text": "Проверка: if можно заменить на when без потери смысла.",
-          "textColor": "term"
-        },
-        { "title": "First: If + Present Simple, will + инфинитив", "examples": [
-          { "en": "If it rains tomorrow, I will stay home.", "ru": "Если завтра дождь — останусь дома." },
-          { "en": "If you study hard, you will pass the exam.", "ru": "Будешь учиться — сдашь." },
-          { "en": "If it will rain, I will stay home.", "ru": "✗ неправильно: после if — без will", "icon": "cross", "iconColor": "bad", "ruColor": "bad" }
-        ]}
-      ]
-    },
-
-    {
-      "label": "Second / Third",
-      "intro": {
-        "text": "Second = нереально сейчас. Third = нереально в прошлом.",
-        "highlight": "Second",
-        "highlightColor": "term"
-      },
-      "sections": [
-        { "title": "Second: If + Past Simple, would + инфинитив", "examples": [
-          { "en": "If I had a million dollars, I would buy a house.", "ru": "у меня его нет." },
-          { "en": "If I were you, I would apologize.", "ru": "я не ты." }
-        ],
-          "text": "were — для всех лиц (формально). If I were you = на твоём месте.",
-          "textColor": "term"
-        },
-        { "title": "Third: If + Past Perfect, would have + V3", "examples": [
-          { "en": "If I had studied, I would have passed.", "ru": "не учился — не сдал." },
-          { "en": "If she had left earlier, she wouldn't have missed the train.", "ru": "вышла поздно — опоздала." }
-        ],
-          "text": "Это альтернативная история — то, чего не случилось.",
-          "textColor": "info"
-        }
-      ]
-    },
-
-    {
-      "label": "Mixed и Wish",
-      "intro": {
-        "text": "Смешанные типы + wish / if only.",
-        "highlight": "wish / if only",
-        "highlightColor": "term"
-      },
-      "sections": [
-        { "title": "Mixed — разное время в частях", "transforms": [
-          { "from": "прошлое → настоящее", "to": "If + Past Perfect, would + инф.", "toColor": "info" },
-          { "from": "настоящее → прошлое", "to": "If + Past Simple, would have + V3", "toColor": "term" }
-        ],
-          "examples": [
-            { "en": "If I had studied medicine, I would be a doctor now.", "ru": "прошлое → настоящее." },
-            { "en": "If I weren't afraid, I would have gone skydiving.", "ru": "настоящее → прошлое." }
-          ]
-        },
-        { "title": "Wish + If only", "keysValues": [
-          { "key": "Wish + Past Simple", "value": "сожаление о настоящем: I wish I had more time.", "valueColor": "example" },
-          { "key": "Wish + Past Perfect", "value": "о прошлом: I wish I had studied harder.", "valueColor": "info" },
-          { "key": "Wish + would", "value": "о чужих действиях: I wish you would stop.", "valueColor": "term" }
-        ]}
-      ]
-    },
-
-    {
-      "label": "Другие союзы",
-      "intro": {
-        "text": "Вместо if можно использовать другие союзы условия.",
-        "highlight": "if",
-        "highlightColor": "term"
-      },
-      "sections": [
-        { "title": "Основные", "keysValues": [
-          { "key": "unless", "value": "если не: I won't go unless you come.", "valueColor": "info" },
-          { "key": "provided that", "value": "при условии, что", "valueColor": "example" },
-          { "key": "as long as", "value": "пока, при условии что", "valueColor": "term" },
-          { "key": "in case", "value": "на случай если (действие заранее)", "valueColor": "info" },
-          { "key": "even if", "value": "даже если (результат не изменится)", "valueColor": "accent2" }
-        ]}
-      ],
-      "expandables": [
-        {
-          "label": "Инверсия без if — формально",
-          "preview": "Should / Were / Had + подлежащее",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "keysValues": [
-              { "key": "Should you need…", "value": "= If you need…", "valueColor": "info" },
-              { "key": "Were I you…", "value": "= If I were you…", "valueColor": "term" },
-              { "key": "Had I known…", "value": "= If I had known…", "valueColor": "example" }
-            ],
-            "text": "Типично для деловой переписки, юридических текстов, литературы.",
-            "textColor": "muted"
-          }
-        }
-      ]
-    },
-
-    {
-      "label": "Таблица и ошибки",
-      "intro": {
-        "text": "Сравнительная таблица и топ ошибок.",
-        "highlight": "таблица и ошибок",
-        "highlightColor": "term"
-      },
-      "table": {
-        "headers": ["Тип", "If-часть", "Главная", "Смысл"],
-        "rows": [
-          { "cells": ["Zero", "Present Simp.", "Present Simp.", "общий факт"], "colors": ["example", "info", "info", "text"] },
-          { "cells": ["First", "Present Simp.", "will + инф.", "реально может"], "colors": ["info", "info", "info", "text"] },
-          { "cells": ["Second", "Past Simp.", "would + инф.", "нереально сейчас"], "colors": ["term", "term", "term", "text"] },
-          { "cells": ["Third", "Past Perf.", "would have + V3", "не случилось"], "colors": ["accent2", "accent2", "accent2", "text"] }
+        "text": "Условное предложение состоит из двух частей: if-часть (условие) и главная часть (результат). Всего четыре основных типа — от реального до нереального в прошлом.",
+        "highlights": [
+          { "text": "if-часть",     "color": "info",    "style": "bold" },
+          { "text": "главная часть", "color": "term",    "style": "bold" },
+          { "text": "четыре",       "color": "example", "style": "bold_underline" },
+          { "text": "нереального",  "color": "bad",     "style": "bold" }
         ]
       },
       "sections": [
-        { "title": "Ошибки", "borderColor": "bad", "errors": [
-          { "wrong": "If it will rain, I will stay home.", "right": "If it rains, I will stay home." },
-          { "wrong": "If I would have money…", "right": "If I had money…" },
-          { "wrong": "If I was you…", "right": "If I were you…" },
-          { "wrong": "I wish I am taller.", "right": "I wish I were taller." },
-          { "wrong": "Unless you don't hurry…", "right": "Unless you hurry…" },
-          { "wrong": "I wish I would be there yesterday.", "right": "I wish I had been there yesterday." }
-        ]}
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "If",          "color": "info" },
+              { "text": "+",           "color": "muted" },
+              { "text": "условие",     "color": "info" },
+              { "text": "→",           "color": "muted" },
+              { "text": "результат",   "color": "term" }
+            ],
+            "accentColor": "term"
+          },
+          "callout": {
+            "type": "info",
+            "title": "Порядок не важен",
+            "text": "If-часть может стоять первой или второй. Смысл не меняется — меняется только запятая."
+          }
+        },
+        {
+          "title": "Четыре типа — сводная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Тип", "If-часть", "Главная", "Смысл"],
+            "headerColors": ["example", "info", "term", "text"],
+            "rows": [
+              { "cells": ["Zero",   "Present Simple",  "Present Simple",    "общая истина"] },
+              { "cells": ["First",  "Present Simple",  "will + инфинитив",  "реально в будущем"] },
+              { "cells": ["Second", "Past Simple",     "would + инфинитив", "нереально сейчас"] },
+              { "cells": ["Third",  "Past Perfect",    "would have + V3",   "нереально в прошлом"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "If you heat water, it boils.",                     "ru": "Если нагреть воду, она кипит. (Zero)" },
+            { "en": "If it rains, I will stay home.",                   "ru": "Если пойдёт дождь — останусь дома. (First)" },
+            { "en": "If I had money, I would travel.",                  "ru": "Были бы деньги — путешествовал бы. (Second)" },
+            { "en": "If I had studied, I would have passed.",           "ru": "Учился бы — сдал бы. (Third)" }
+          ]
+        },
+        {
+          "title": "Правило запятой",
+          "borderColor": "term",
+          "rules": [
+            { "name": "If-часть первая",   "suffix": "запятая",     "example": "If it rains, I will stay home." },
+            { "name": "Главная первая",    "suffix": "без запятой", "example": "I will stay home if it rains." }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Условие — это вопрос: реально ли это вообще? От ответа зависит форма.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
       ],
       "expandables": [
         {
@@ -166,13 +88,354 @@
           "initiallyExpanded": false,
           "section": {
             "title": "",
-            "bullets": [
-              { "text": "Точно возможно → First", "color": "info" },
-              { "text": "Воображаемо сейчас → Second", "color": "term" },
-              { "text": "Уже не изменить → Third", "color": "accent2" }
+            "borderColor": "term",
+            "rules": [
+              { "name": "Точно возможно",      "suffix": "First",  "example": "If it rains, I will stay home." },
+              { "name": "Воображаемо сейчас",  "suffix": "Second", "example": "If I had money, I would travel." },
+              { "name": "Уже не изменить",     "suffix": "Third",  "example": "If I had studied, I would have passed." }
             ],
-            "text": "В русском «бы» — значит Second или Third, а не First.",
-            "textColor": "term"
+            "callout": {
+              "type": "tip",
+              "title": "Русское «бы»",
+              "text": "Если в русском есть «бы» — это Second или Third, а не First. «Если бы я был богат» — Second."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Zero / First",
+      "intro": {
+        "text": "Zero описывает общий факт или закон природы. First — реальное условие в будущем, которое вполне может случиться.",
+        "highlights": [
+          { "text": "Zero",   "color": "example", "style": "bold" },
+          { "text": "First",  "color": "info",    "style": "bold" },
+          { "text": "реальное", "color": "term",   "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Тип", "If-часть", "Главная", "Смысл"],
+            "headerColors": ["example", "info", "term", "text"],
+            "rows": [
+              { "cells": ["Zero",   "Present Simple", "Present Simple",   "общая истина"] },
+              { "cells": ["First",  "Present Simple", "will + инфинитив", "реально в будущем"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Zero — общий факт",
+          "borderColor": "example",
+          "callout": {
+            "type": "tip",
+            "title": "Проверка",
+            "text": "Если if можно заменить на when без потери смысла — это Zero. If you heat ice → When you heat ice."
+          },
+          "examples": [
+            { "en": "If you heat ice, it melts.",                  "ru": "Если нагреть лёд, он тает." },
+            { "en": "If you mix red and blue, you get purple.",    "ru": "Смешаешь красный с синим — получишь фиолетовый." },
+            { "en": "If I drink coffee, I can't sleep.",            "ru": "Если пью кофе, не могу уснуть." },
+            { "en": "If you don't water plants, they die.",         "ru": "Не поливаешь растения — они умирают." }
+          ]
+        },
+        {
+          "title": "First — реальное будущее",
+          "borderColor": "info",
+          "callout": {
+            "type": "warning",
+            "title": "Никогда will после if",
+            "text": "После if в First используется Present Simple, а не will. Буквально «Если будет дождь» — это If it rains, а не If it will rain."
+          },
+          "examples": [
+            { "en": "If it rains tomorrow, I will stay home.",   "ru": "Если завтра дождь — останусь дома." },
+            { "en": "If you study hard, you will pass the exam.","ru": "Будешь усердно учиться — сдашь экзамен." },
+            { "en": "If she calls, I will tell her everything.", "ru": "Если она позвонит, я ей всё расскажу." },
+            { "en": "If it will rain, I will stay home.",        "ru": "✗ неправильно: после if — без will", "icon": "cross", "iconColor": "bad", "ruColor": "bad" }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Will в главной части",
+          "preview": "will, can, may, must — что можно",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "term",
+            "rules": [
+              { "name": "will", "suffix": "будущее",   "example": "If it rains, I will stay home." },
+              { "name": "can",  "suffix": "возможность","example": "If you finish early, you can leave." },
+              { "name": "may",  "suffix": "вероятность","example": "If you hurry, you may catch the train." },
+              { "name": "must", "suffix": "обязанность","example": "If you finish, you must tell me." }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Second / Third",
+      "intro": {
+        "text": "Second описывает нереальную ситуацию в настоящем. Third — нереальную ситуацию в прошлом, которую уже не изменить.",
+        "highlights": [
+          { "text": "Second",  "color": "term",    "style": "bold" },
+          { "text": "Third",   "color": "accent2", "style": "bold" },
+          { "text": "нереальную", "color": "bad",  "style": "bold_underline" },
+          { "text": "не изменить", "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Тип", "If-часть", "Главная", "Смысл"],
+            "headerColors": ["term", "accent2", "example", "text"],
+            "rows": [
+              { "cells": ["Second", "Past Simple",  "would + инфинитив", "нереально сейчас"] },
+              { "cells": ["Third",  "Past Perfect", "would have + V3",   "не случилось"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Second — нереально сейчас",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "Была бы возможность — но её нет",
+            "text": "Second описывает воображаемую ситуацию: реальность другая, и мы жалеем, что не так."
+          },
+          "examples": [
+            { "en": "If I had a million dollars, I would buy a house.", "ru": "Денег нет — но если бы были, купил бы дом." },
+            { "en": "If I were you, I would apologize.",                "ru": "Я не ты — но на твоём месте извинился бы." },
+            { "en": "If she lived closer, we would meet more often.",   "ru": "Она живёт далеко, и мы редко видимся." }
+          ]
+        },
+        {
+          "title": "were — для всех лиц",
+          "borderColor": "info",
+          "rules": [
+            { "name": "If I were",   "suffix": "формально",    "example": "If I were you, I would apologize." },
+            { "name": "If he were",  "suffix": "формально",    "example": "If he were here, he would help." },
+            { "name": "If she were", "suffix": "формально",    "example": "If she were taller, she would play basketball." },
+            { "name": "If I was",    "suffix": "разговорно",   "example": "If I was you — в речи допустимо." }
+          ]
+        },
+        {
+          "title": "Third — нереально в прошлом",
+          "borderColor": "accent2",
+          "callout": {
+            "type": "warning",
+            "title": "Альтернативная история",
+            "text": "Third — это разговор о том, чего не случилось. Уже не изменить, поэтому используем Past Perfect + would have + V3."
+          },
+          "examples": [
+            { "en": "If I had studied, I would have passed.",                         "ru": "Не учился — не сдал." },
+            { "en": "If she had left earlier, she wouldn't have missed the train.",   "ru": "Вышла поздно — опоздала." },
+            { "en": "If we had known, we would have helped.",                         "ru": "Не знали — не помогли." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Mixed и Wish",
+      "intro": {
+        "text": "Смешанные типы смешивают времена в двух частях. А wish и if only — сожаления о том, чего нет или не было.",
+        "highlights": [
+          { "text": "Mixed",       "color": "info",    "style": "bold" },
+          { "text": "wish",        "color": "term",    "style": "bold" },
+          { "text": "if only",     "color": "example", "style": "bold" },
+          { "text": "сожаления",   "color": "bad",     "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Mixed — разное время в частях",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Смешение", "Формула", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["прошлое → настоящее", "If + Past Perfect, would + инф.",     "If I had studied medicine, I would be a doctor now."] },
+              { "cells": ["настоящее → прошлое", "If + Past Simple, would have + V3",    "If I weren't afraid, I would have gone skydiving."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Wish + Past Simple — о настоящем",
+          "borderColor": "term",
+          "examples": [
+            { "en": "I wish I had more time.",          "ru": "Жаль, что у меня мало времени." },
+            { "en": "I wish I were taller.",             "ru": "Хотел бы быть выше." },
+            { "en": "I wish I knew the answer.",         "ru": "Хотел бы знать ответ." }
+          ]
+        },
+        {
+          "title": "Wish + Past Perfect — о прошлом",
+          "borderColor": "accent2",
+          "examples": [
+            { "en": "I wish I had studied harder.",          "ru": "Жаль, что не учился усерднее." },
+            { "en": "I wish I had told her the truth.",      "ru": "Жаль, что не сказал ей правду." },
+            { "en": "I wish we had met earlier.",             "ru": "Жаль, что мы не встретились раньше." }
+          ]
+        },
+        {
+          "title": "Wish + would — о чужих действиях",
+          "borderColor": "example",
+          "callout": {
+            "type": "info",
+            "title": "Раздражение",
+            "text": "Wish + would используется, когда мы хотим, чтобы кто-то другой изменил поведение. Часто с оттенком раздражения."
+          },
+          "examples": [
+            { "en": "I wish you would stop interrupting me.",  "ru": "Хотел бы, чтобы ты перестал меня перебивать." },
+            { "en": "I wish it would stop raining.",           "ru": "Хотел бы, чтобы дождь прекратился." },
+            { "en": "I wish he would call me back.",           "ru": "Хотел бы, чтобы он перезвонил." }
+          ]
+        },
+        {
+          "title": "If only = wish, но сильнее",
+          "borderColor": "good",
+          "examples": [
+            { "en": "If only I had more time!",           "ru": "Если бы только у меня было больше времени!" },
+            { "en": "If only I had known earlier!",       "ru": "Если бы я только знал раньше!" },
+            { "en": "If only she would listen to me.",    "ru": "Если бы она только меня слушала." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Другие союзы",
+      "intro": {
+        "text": "Вместо if можно использовать другие союзы условия. Каждый придаёт свой оттенок: строгость, время, случайность.",
+        "highlights": [
+          { "text": "unless",       "color": "bad",     "style": "bold" },
+          { "text": "as long as",   "color": "info",    "style": "bold" },
+          { "text": "in case",      "color": "term",    "style": "bold" },
+          { "text": "even if",      "color": "accent2", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Основные союзы",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Союз", "Значение", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["unless",        "если не",                     "I won't go unless you come."] },
+              { "cells": ["provided that", "при условии, что",             "You can stay provided that you're quiet."] },
+              { "cells": ["as long as",    "пока; при условии что",        "As long as you try, you'll improve."] },
+              { "cells": ["in case",       "на случай если",                "Take an umbrella in case it rains."] },
+              { "cells": ["even if",       "даже если (результат тот же)", "I'll go even if it rains."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "unless = if not",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Двойное отрицание запрещено",
+            "text": "unless уже содержит в себе «не». Поэтому unless you hurry — правильно, а unless you don't hurry — двойное отрицание, ошибка."
+          },
+          "examples": [
+            { "en": "Unless you hurry, we'll be late.",       "ru": "✓ если не поторопишься" },
+            { "en": "Unless you don't hurry, we'll be late.","ru": "✗ двойное отрицание", "icon": "cross", "iconColor": "bad" }
+          ]
+        },
+        {
+          "title": "in case vs if",
+          "borderColor": "info",
+          "rules": [
+            { "name": "if",      "suffix": "условие",         "example": "If it rains, I will take an umbrella. (после)" },
+            { "name": "in case", "suffix": "заранее, на случай","example": "I will take an umbrella in case it rains. (заранее)" }
+          ]
+        },
+        {
+          "title": "even if ≠ if",
+          "borderColor": "accent2",
+          "examples": [
+            { "en": "If it rains, I won't go.",       "ru": "Если дождь — не пойду." },
+            { "en": "Even if it rains, I will go.",    "ru": "Даже если дождь — пойду. Результат не меняется." }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Инверсия без if — формально",
+          "preview": "Should / Were / Had + подлежащее",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "info",
+            "rules": [
+              { "name": "Should you need…", "suffix": "= If you need…",         "example": "Should you need help, call me." },
+              { "name": "Were I you…",       "suffix": "= If I were you…",       "example": "Were I you, I would apologize." },
+              { "name": "Had I known…",      "suffix": "= If I had known…",      "example": "Had I known, I would have come." }
+            ],
+            "callout": {
+              "type": "tip",
+              "title": "Где встречается",
+              "text": "Типично для деловой переписки, юридических текстов, литературы. В обычной речи почти не используется."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Шесть самых частых ошибок в условных предложениях — слева как нельзя, справа как правильно.",
+        "highlights": [
+          { "text": "Шесть самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "If it will rain, I will stay home.",       "right": "If it rains, I will stay home." },
+            { "wrong": "If I would have money…",                   "right": "If I had money…" },
+            { "wrong": "If I was you…",                            "right": "If I were you…" },
+            { "wrong": "I wish I am taller.",                      "right": "I wish I were taller." },
+            { "wrong": "Unless you don't hurry…",                  "right": "Unless you hurry…" },
+            { "wrong": "I wish I would be there yesterday.",       "right": "I wish I had been there yesterday." }
+          ]
+        },
+        {
+          "title": "Как выбрать тип",
+          "borderColor": "good",
+          "callout": {
+            "type": "success",
+            "title": "Три вопроса",
+            "text": "Реально ли это в будущем? → First. Воображаемо сейчас? → Second. Уже не изменить? → Third. Если в русском есть «бы» — это Second или Third."
+          },
+          "quote": {
+            "text": "Условные предложения — это не формы, а выбор реальности.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "If пишется без will, wish — без would, а unless — без not. Три слова — три главные ошибки.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
           }
         }
       ]
