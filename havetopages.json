@@ -1,0 +1,140 @@
+{
+  "tenseName": "Have to",
+  "route": "cards_haveto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Have to выражает обязанность, которую накладывают обстоятельства: работа, закон, правила. Это не личное желание — это внешняя необходимость.",
+        "highlights": [
+          { "text": "Have to",             "color": "term",    "style": "bold_underline" },
+          { "text": "обстоятельства",       "color": "info",    "style": "bold" },
+          { "text": "внешняя необходимость","color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "have to", "color": "info" },
+              { "text": "+",       "color": "muted" },
+              { "text": "глагол",  "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "По временам",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Present",         "have to / has to", "I have to work. She has to work."] },
+              { "cells": ["Past",            "had to",            "I had to work yesterday."] },
+              { "cells": ["Future",          "will have to",      "I will have to work tomorrow."] },
+              { "cells": ["Present Perfect", "have / has had to","I have had to work hard."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I have to wear a uniform at work.",   "ru": "На работе я должен носить форму." },
+            { "en": "She has to study for the exam.",       "ru": "Она должна готовиться к экзамену." },
+            { "en": "We had to leave early yesterday.",     "ru": "Вчера нам пришлось уйти рано." },
+            { "en": "You will have to wait.",                "ru": "Вам придётся подождать." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Отрицание и вопрос",
+      "intro": {
+        "text": "Have to — обычный глагол, поэтому в вопросах и отрицаниях нужны do / does / did.",
+        "highlights": [
+          { "text": "do / does / did", "color": "bad",     "style": "bold_underline" },
+          { "text": "don't have to",   "color": "info",    "style": "bold" },
+          { "text": "не обязательно",  "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "don't have to",   "suffix": "не обязательно",   "example": "You don't have to come." },
+            { "name": "doesn't have to", "suffix": "для he / she / it", "example": "He doesn't have to work today." },
+            { "name": "didn't have to",  "suffix": "в прошлом",         "example": "I didn't have to pay." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Do you have to work on Sunday?",       "ru": "Ты должен работать в воскресенье?" },
+            { "en": "Does she have to wear a uniform?",      "ru": "Она должна носить форму?" },
+            { "en": "Did you have to pay?",                   "ru": "Тебе пришлось платить?" },
+            { "en": "What do I have to do?",                  "ru": "Что мне нужно сделать?" }
+          ]
+        },
+        {
+          "title": "Have to vs must",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["have to",       "внешняя обязанность", "I have to wear a uniform."] },
+              { "cells": ["must",           "личное решение",      "I must call my mom."] },
+              { "cells": ["don't have to",  "не обязательно",      "You don't have to come."] },
+              { "cells": ["mustn't",        "запрещено",            "You mustn't smoke here."] }
+            ],
+            "borderColor": "term"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три ошибки, которые чаще всего путают have to и must.",
+        "highlights": [
+          { "text": "чаще всего путают", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I have to work yesterday.",  "right": "I had to work yesterday." },
+            { "wrong": "He have to go.",               "right": "He has to go." },
+            { "wrong": "Do you must work?",            "right": "Do you have to work?" },
+            { "wrong": "I don't must go.",              "right": "I don't have to go." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Have to — обстоятельства заставляют. Must — ты сам так решил. Если можно добавить «приходится / вынужден» — это have to."
+          },
+          "quote": {
+            "text": "Must — голос внутри. Have to — голос снаружи.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
