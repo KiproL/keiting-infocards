@@ -1,0 +1,152 @@
+{
+  "tenseName": "Would like",
+  "route": "cards_wouldlike",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Would like — вежливая форма «хочу». Используется в просьбах, заказах, приглашениях. В разговорной речи сокращается до 'd like.",
+        "highlights": [
+          { "text": "Would like", "color": "term",    "style": "bold_underline" },
+          { "text": "вежливая",    "color": "info",    "style": "bold" },
+          { "text": "'d like",     "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                { "text": "would like", "color": "info" },
+                { "text": "+",          "color": "muted" },
+                { "text": "существительное", "color": "example" }
+              ],
+              "accentColor": "info"
+            },
+            {
+              "parts": [
+                { "text": "would like", "color": "good" },
+                { "text": "+",          "color": "muted" },
+                { "text": "to + глагол", "color": "example" }
+              ],
+              "accentColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Что после", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["would like",     "существительное", "I would like a coffee."] },
+              { "cells": ["would like to",  "глагол",           "I would like to sleep."] },
+              { "cells": ["'d like",         "то же, короче",   "I'd like a coffee."] },
+              { "cells": ["Would you like", "вежливый вопрос",   "Would you like some tea?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I would like a cup of tea.",          "ru": "Я бы хотел чашку чая." },
+            { "en": "I'd like to book a table.",            "ru": "Я хотел бы забронировать столик." },
+            { "en": "Would you like some coffee?",          "ru": "Хотите немного кофе?" },
+            { "en": "We would like to see the menu.",       "ru": "Мы хотели бы посмотреть меню." }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Would like — это «хочу» в вежливой форме. В английском это норма, а не излишняя формальность.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Отрицание и вопрос",
+      "intro": {
+        "text": "Отрицание и вопрос образуются без do — сдвигом would.",
+        "highlights": [
+          { "text": "wouldn't like", "color": "bad",     "style": "bold" },
+          { "text": "Would you like", "color": "info",    "style": "bold" },
+          { "text": "без do",         "color": "example", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "examples": [
+            { "en": "I wouldn't like to live there.",       "ru": "Я бы не хотел там жить." },
+            { "en": "She wouldn't like this film.",          "ru": "Ей бы не понравился этот фильм." },
+            { "en": "We wouldn't like to wait.",             "ru": "Мы бы не хотели ждать." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Would you like some tea?",          "ru": "Хотите чаю?" },
+            { "en": "Would you like to come with us?",    "ru": "Хочешь пойти с нами?" },
+            { "en": "What would you like to drink?",       "ru": "Что бы вы хотели выпить?" },
+            { "en": "Where would you like to sit?",        "ru": "Где бы вы хотели сесть?" }
+          ]
+        },
+        {
+          "title": "Краткие ответы",
+          "borderColor": "good",
+          "table": {
+            "headers": ["Вопрос", "Да", "Нет"],
+            "headerColors": ["info", "good", "bad"],
+            "rows": [
+              { "cells": ["Would you like tea?",  "Yes, please.",      "No, thank you."] },
+              { "cells": ["Would you like to go?", "Yes, I'd love to.", "No, I wouldn't."] }
+            ],
+            "borderColor": "good"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три ошибки, которые ломают всю вежливость.",
+        "highlights": [
+          { "text": "ломают вежливость", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I want a coffee, please.",  "right": "I would like a coffee, please." },
+            { "wrong": "I would like go home.",       "right": "I would like to go home." },
+            { "wrong": "Do you would like tea?",      "right": "Would you like tea?" },
+            { "wrong": "I will like a coffee.",        "right": "I would like a coffee." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой тест",
+            "text": "Если в русском есть «бы» — это would like, а не want. «Хотел бы» = would like. «Хочу» = want."
+          }
+        }
+      ]
+    }
+  ]
+}
