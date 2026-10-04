@@ -1,11 +1,11 @@
 {
   "tenseName": "There is / There are",
-  "route": "cards_there",
+  "route": "cards_thereisare",
   "slides": [
     {
       "label": "Что это",
       "intro": {
-        "text": "Конструкция There is / There are говорит, что что-то где-то есть. По-русски мы часто просто скажем «На столе книга», а в английском обязательно нужно There is.",
+        "text": "Конструкция There is / There are говорит, что что-то где-то есть. В русском мы часто говорим «На столе книга», а в английском обязательно нужен There is.",
         "highlights": [
           { "text": "There is / There are", "color": "term",    "style": "bold_underline" },
           { "text": "что-то где-то есть",    "color": "info",    "style": "bold" },
@@ -65,7 +65,7 @@
           "title": "Мысль напоследок",
           "borderColor": "accent2",
           "quote": {
-            "text": "There is — не «там». Это просто «есть».",
+            "text": "There is — это не «там». Это просто «есть».",
             "author": "правило большого пальца",
             "accentColor": "accent2"
           }
@@ -90,21 +90,21 @@
           "formulas": [
             {
               "parts": [
-                { "text": "There is",  "color": "info" },
-                { "text": "+",         "color": "muted" },
-                { "text": "no",        "color": "bad" },
-                { "text": "+",         "color": "muted" },
-                { "text": "предмет",   "color": "example" }
+                { "text": "There is", "color": "info" },
+                { "text": "+",        "color": "muted" },
+                { "text": "no",       "color": "bad" },
+                { "text": "+",        "color": "muted" },
+                { "text": "предмет",  "color": "example" }
               ],
               "accentColor": "bad"
             },
             {
               "parts": [
-                { "text": "There isn't",  "color": "info" },
-                { "text": "+",            "color": "muted" },
-                { "text": "a / any",       "color": "term" },
-                { "text": "+",            "color": "muted" },
-                { "text": "предмет",       "color": "example" }
+                { "text": "There isn't", "color": "info" },
+                { "text": "+",           "color": "muted" },
+                { "text": "a / any",      "color": "term" },
+                { "text": "+",           "color": "muted" },
+                { "text": "предмет",      "color": "example" }
               ],
               "accentColor": "bad"
             }
@@ -121,19 +121,19 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Is / Are",  "color": "info" },
-              { "text": "+",         "color": "muted" },
-              { "text": "there",     "color": "term" },
-              { "text": "+",         "color": "muted" },
-              { "text": "предмет?",  "color": "example" }
+              { "text": "Is / Are", "color": "info" },
+              { "text": "+",        "color": "muted" },
+              { "text": "there",    "color": "term" },
+              { "text": "+",        "color": "muted" },
+              { "text": "предмет?", "color": "example" }
             ],
             "accentColor": "info"
           },
           "examples": [
             { "en": "Is there a bank near here?",       "ru": "Здесь рядом есть банк?" },
-            { "en": "Are there any questions?",           "ru": "Есть вопросы?" },
-            { "en": "How many books are there?",           "ru": "Сколько там книг?" },
-            { "en": "Is there any milk?",                  "ru": "Молоко есть?" }
+            { "en": "Are there any questions?",          "ru": "Есть вопросы?" },
+            { "en": "How many books are there?",          "ru": "Сколько там книг?" },
+            { "en": "Is there any milk?",                 "ru": "Молоко есть?" }
           ]
         },
         {
@@ -144,115 +144,7 @@
             "headerColors": ["info", "good", "bad"],
             "rows": [
               { "cells": ["Is there a bank?",   "Yes, there is.",    "No, there isn't."] },
-              { "cells": ["Are there chairs?",   "Yes, there are.",   "No, there aren't."] }
-            ],
-            "borderColor": "good"
-          }
-        }
-      ]
-    },
-
-    {
-      "label": "There was / There were",
-      "intro": {
-        "text": "Это то же самое, что There is / There are, только в прошлом. Говорим о том, что было раньше.",
-        "highlights": [
-          { "text": "There was / There were", "color": "term",    "style": "bold_underline" },
-          { "text": "в прошлом",                "color": "info",    "style": "bold" },
-          { "text": "было раньше",              "color": "example", "style": "bold" }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Формулы",
-          "borderColor": "term",
-          "formulas": [
-            {
-              "parts": [
-                { "text": "There was", "color": "info" },
-                { "text": "+",         "color": "muted" },
-                { "text": "один предмет", "color": "example" },
-                { "text": "(ед. ч.)",  "color": "term" }
-              ],
-              "accentColor": "info"
-            },
-            {
-              "parts": [
-                { "text": "There were", "color": "good" },
-                { "text": "+",          "color": "muted" },
-                { "text": "много предметов", "color": "example" },
-                { "text": "(мн. ч.)",   "color": "term" }
-              ],
-              "accentColor": "good"
-            }
-          ]
-        },
-        {
-          "title": "Сравнение с настоящим",
-          "borderColor": "info",
-          "table": {
-            "headers": ["Сейчас", "В прошлом", "Пример"],
-            "headerColors": ["info", "term", "example"],
-            "rows": [
-              { "cells": ["There is",  "There was",  "There was a cat in the garden."] },
-              { "cells": ["There are", "There were", "There were many people at the party."] },
-              { "cells": ["There is",  "There was",  "There was some milk in the fridge."] }
-            ],
-            "borderColor": "info"
-          }
-        },
-        {
-          "title": "Живые примеры",
-          "borderColor": "good",
-          "examples": [
-            { "en": "There was a party yesterday.",        "ru": "Вчера была вечеринка." },
-            { "en": "There were many guests.",              "ru": "Было много гостей." },
-            { "en": "There was a lot of snow last winter.", "ru": "Прошлой зимой было много снега." },
-            { "en": "There were two cats in the yard.",     "ru": "В саду были две кошки." }
-          ]
-        }
-      ]
-    },
-
-    {
-      "label": "Отрицание и вопрос (прошлое)",
-      "intro": {
-        "text": "Работает так же, как в настоящем — просто was / were вместо is / are.",
-        "highlights": [
-          { "text": "was / were",       "color": "info", "style": "bold" },
-          { "text": "wasn't / weren't",  "color": "bad",  "style": "bold" }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Отрицание",
-          "borderColor": "bad",
-          "rules": [
-            { "name": "There wasn't",  "suffix": "ед. ч. + any",  "example": "There wasn't any milk." },
-            { "name": "There weren't", "suffix": "мн. ч. + any",  "example": "There weren't any chairs." },
-            { "name": "There was no",   "suffix": "ед. ч. + no",   "example": "There was no milk." },
-            { "name": "There were no",  "suffix": "мн. ч. + no",   "example": "There were no chairs." }
-          ]
-        },
-        {
-          "title": "Вопрос",
-          "borderColor": "info",
-          "examples": [
-            { "en": "Was there a party yesterday?",      "ru": "Вчера была вечеринка?" },
-            { "en": "Were there many guests?",             "ru": "Было много гостей?" },
-            { "en": "How many people were there?",         "ru": "Сколько там было людей?" },
-            { "en": "Was there any milk in the fridge?",   "ru": "В холодильнике было молоко?" }
-          ]
-        },
-        {
-          "title": "Краткие ответы",
-          "borderColor": "good",
-          "table": {
-            "headers": ["Вопрос", "Да", "Нет"],
-            "headerColors": ["info", "good", "bad"],
-            "rows": [
-              { "cells": ["Was there a party?",   "Yes, there was.",    "No, there wasn't."] },
-              { "cells": ["Were there chairs?",    "Yes, there were.",   "No, there weren't."] }
+              { "cells": ["Are there chairs?",  "Yes, there are.",   "No, there aren't."] }
             ],
             "borderColor": "good"
           }
@@ -263,9 +155,9 @@
     {
       "label": "Ошибки",
       "intro": {
-        "text": "Семь самых частых ошибок в конструкции There is / There are — в настоящем и в прошлом.",
+        "text": "Три самые частые ошибки в конструкции There is / There are.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          { "text": "Три самые частые", "color": "bad", "style": "bold_underline" }
         ]
       },
       "sections": [
@@ -273,13 +165,10 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "It is a book on the table.",   "right": "There is a book on the table." },
-            { "wrong": "There is two cats.",            "right": "There are two cats." },
-            { "wrong": "There have a lot of people.",   "right": "There are a lot of people." },
-            { "wrong": "Do there is a bank?",           "right": "Is there a bank?" },
-            { "wrong": "There was many people.",         "right": "There were many people." },
-            { "wrong": "There were a cat.",               "right": "There was a cat." },
-            { "wrong": "It was a party yesterday.",       "right": "There was a party yesterday." }
+            { "wrong": "It is a book on the table.",  "right": "There is a book on the table." },
+            { "wrong": "There is two cats.",           "right": "There are two cats." },
+            { "wrong": "There have a lot of people.",  "right": "There are a lot of people." },
+            { "wrong": "Do there is a bank?",          "right": "Is there a bank?" }
           ]
         },
         {
@@ -288,12 +177,7 @@
           "callout": {
             "type": "tip",
             "title": "Простой тест",
-            "text": "Если по-русски предложение начинается с «есть / находится / имеется / было» — в английском почти всегда There is / There are / There was / There were."
-          },
-          "quote": {
-            "text": "Если в настоящем There is — в прошлом обязательно There was.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Если по-русски предложение начинается с «есть / находится / имеется» — в английском почти всегда There is / There are."
           }
         }
       ]
