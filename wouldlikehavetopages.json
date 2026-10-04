@@ -1,0 +1,225 @@
+{
+  "tenseName": "Would like & Have to",
+  "route": "cards_wouldlikehaveto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Would like — вежливая форма «хочу». Have to — обязанность по обстоятельствам. Обе конструкции очень частые и работают в разных жизненных ситуациях.",
+        "highlights": [
+          { "text": "Would like", "color": "info",    "style": "bold" },
+          { "text": "вежливая",    "color": "term",    "style": "bold" },
+          { "text": "Have to",     "color": "bad",     "style": "bold" },
+          { "text": "обстоятельства","color": "example", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Две формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                { "text": "would like", "color": "info" },
+                { "text": "+",          "color": "muted" },
+                { "text": "сущ. / to + гл.", "color": "example" }
+              ],
+              "accentColor": "info"
+            },
+            {
+              "parts": [
+                { "text": "have to", "color": "bad" },
+                { "text": "+",       "color": "muted" },
+                { "text": "глагол",  "color": "example" }
+              ],
+              "accentColor": "bad"
+            }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Что делает", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["would like",   "вежливое желание",       "I would like a coffee."] },
+              { "cells": ["have to",       "обязанность по обстоятельствам","I have to work on Sunday."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I would like a cup of tea.",           "ru": "Я бы хотел чашку чая." },
+            { "en": "I have to wear a uniform at work.",     "ru": "На работе я должен носить форму." },
+            { "en": "Would you like some coffee?",           "ru": "Хотите немного кофе?" },
+            { "en": "She has to study for the exam.",         "ru": "Она должна готовиться к экзамену." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Would like — детали",
+      "intro": {
+        "text": "Would like — это вежливая форма «хочу». Сокращается до 'd like. Используется в просьбах, заказах, приглашениях.",
+        "highlights": [
+          { "text": "Would like", "color": "term",    "style": "bold_underline" },
+          { "text": "'d like",     "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что после",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Что после", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["would like",     "существительное", "I would like a coffee."] },
+              { "cells": ["would like to",  "глагол",           "I would like to sleep."] },
+              { "cells": ["'d like",         "то же, короче",   "I'd like a coffee."] },
+              { "cells": ["Would you like", "вежливый вопрос",   "Would you like some tea?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I would like a cup of tea.",          "ru": "Я бы хотел чашку чая." },
+            { "en": "I'd like to book a table.",            "ru": "Я хотел бы забронировать столик." },
+            { "en": "Would you like some coffee?",          "ru": "Хотите немного кофе?" },
+            { "en": "We would like to see the menu.",       "ru": "Мы хотели бы посмотреть меню." }
+          ]
+        },
+        {
+          "title": "Отрицание и вопрос",
+          "borderColor": "term",
+          "examples": [
+            { "en": "I wouldn't like to live there.",       "ru": "Я бы не хотел там жить." },
+            { "en": "What would you like to drink?",          "ru": "Что бы вы хотели выпить?" },
+            { "en": "Would you like to come with us?",       "ru": "Хочешь пойти с нами?" },
+            { "en": "Where would you like to sit?",           "ru": "Где бы вы хотели сесть?" }
+          ]
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I want a coffee, please.",  "right": "I would like a coffee, please." },
+            { "wrong": "I would like go home.",       "right": "I would like to go home." },
+            { "wrong": "Do you would like tea?",      "right": "Would you like tea?" },
+            { "wrong": "I will like a coffee.",        "right": "I would like a coffee." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Have to — детали",
+      "intro": {
+        "text": "Have to выражает обязанность, которую накладывают обстоятельства: работа, закон, правила. Это не личное желание — это внешняя необходимость.",
+        "highlights": [
+          { "text": "Have to",             "color": "term",    "style": "bold_underline" },
+          { "text": "внешняя необходимость","color": "info",    "style": "bold" },
+          { "text": "обстоятельства",       "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "По временам",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Present",         "have to / has to", "I have to work. She has to work."] },
+              { "cells": ["Past",            "had to",            "I had to work yesterday."] },
+              { "cells": ["Future",          "will have to",      "I will have to work tomorrow."] },
+              { "cells": ["Present Perfect", "have / has had to","I have had to work hard."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Отрицание и вопрос",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "don't have to",   "suffix": "не обязательно",   "example": "You don't have to come." },
+            { "name": "doesn't have to", "suffix": "для he / she / it", "example": "He doesn't have to work today." },
+            { "name": "didn't have to",  "suffix": "в прошлом",         "example": "I didn't have to pay." },
+            { "name": "Do you have to…?", "suffix": "вопрос",            "example": "Do you have to work on Sunday?" }
+          ]
+        },
+        {
+          "title": "Have to vs must",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["have to",       "внешняя обязанность", "I have to wear a uniform."] },
+              { "cells": ["must",           "личное решение",      "I must call my mom."] },
+              { "cells": ["don't have to",  "не обязательно",      "You don't have to come."] },
+              { "cells": ["mustn't",        "запрещено",            "You mustn't smoke here."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I have to work yesterday.",   "right": "I had to work yesterday." },
+            { "wrong": "He have to go.",                "right": "He has to go." },
+            { "wrong": "Do you must work?",             "right": "Do you have to work?" },
+            { "wrong": "I don't must go.",               "right": "I don't have to go." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки обеих конструкций",
+      "intro": {
+        "text": "Самые частые ошибки в Would like и Have to — вместе в одной таблице.",
+        "highlights": [
+          { "text": "самые частые ошибки", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I would like go home.",          "right": "I would like to go home." },
+            { "wrong": "Do you would like tea?",         "right": "Would you like tea?" },
+            { "wrong": "I will like a coffee.",           "right": "I would like a coffee." },
+            { "wrong": "I have to work yesterday.",       "right": "I had to work yesterday." },
+            { "wrong": "He have to go.",                   "right": "He has to go." },
+            { "wrong": "I don't must go.",                 "right": "I don't have to go." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Если по-русски «хотел бы» — would like. Если «приходится / вынужден» — have to. Если «запрещено» — mustn't. Если «не обязательно» — don't have to."
+          },
+          "quote": {
+            "text": "Would like — это про желание. Have to — про долг. Не путай их — они идут рука об руку в разговоре.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
