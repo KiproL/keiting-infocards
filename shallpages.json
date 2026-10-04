@@ -1,0 +1,116 @@
+{
+  "tenseName": "Shall I / Shall we",
+  "route": "cards_shall",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Shall I / Shall we — это вежливое предложение что-то сделать. Мы не спрашиваем разрешения — мы предлагаем действие.",
+        "highlights": [
+          { "text": "Shall I / Shall we", "color": "term",    "style": "bold_underline" },
+          { "text": "вежливое предложение","color": "info",    "style": "bold" },
+          { "text": "предлагаем",           "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                { "text": "Shall I", "color": "info" },
+                { "text": "+",       "color": "muted" },
+                { "text": "глагол?", "color": "example" },
+                { "text": "→ я?",    "color": "term" }
+              ],
+              "accentColor": "info"
+            },
+            {
+              "parts": [
+                { "text": "Shall we", "color": "good" },
+                { "text": "+",        "color": "muted" },
+                { "text": "глагол?",  "color": "example" },
+                { "text": "→ мы?",    "color": "term" }
+              ],
+              "accentColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Значение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Кто действует", "Смысл"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Shall I…?",  "я",  "Предложить сделать что-то для кого-то"] },
+              { "cells": ["Shall we…?", "мы", "Предложить совместное действие"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Shall I open the window?",   "ru": "Мне открыть окно?" },
+            { "en": "Shall I help you?",           "ru": "Помочь тебе?" },
+            { "en": "Shall we go to the cinema?",  "ru": "Пойдём в кино?" },
+            { "en": "Shall we meet at 6?",          "ru": "Встретимся в 6?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки и отличия",
+      "intro": {
+        "text": "Shall часто путают с will и с should. У каждого своя задача.",
+        "highlights": [
+          { "text": "shall vs will",   "color": "info", "style": "bold" },
+          { "text": "shall vs should", "color": "bad",  "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Что делает", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Shall I / we", "предложение, помощь", "Shall I help you?"] },
+              { "cells": ["Will you",     "просьба",              "Will you help me?"] },
+              { "cells": ["Should",       "совет",                "You should rest."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "Shall I to help you?", "right": "Shall I help you?" },
+            { "wrong": "Do I shall open it?",   "right": "Shall I open it?" },
+            { "wrong": "Shall he come?",         "right": "Should he come?" }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Когда использовать",
+            "text": "Shall I / Shall we — только для предложений и вопросов о совместных действиях. Если хочешь дать совет — нужен should."
+          },
+          "quote": {
+            "text": "Shall — редкое слово, но именно оно делает предложение вежливым.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
