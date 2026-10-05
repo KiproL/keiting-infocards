@@ -1,0 +1,91 @@
+{
+  "tenseName": "Need to",
+  "route": "cards_needto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Need to говорит, что что-то нужно сделать. Это необходимость для себя — внутренняя потребность, а не внешняя обязанность.",
+        "highlights": [
+          { "text": "Need to",       "color": "term",    "style": "bold_underline" },
+          { "text": "нужно",          "color": "info",    "style": "bold" },
+          { "text": "внутренняя потребность", "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "need to", "color": "info" },
+              { "text": "+",       "color": "muted" },
+              { "text": "глагол",  "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "По временам",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Present", "need to / needs to", "I need to work. She needs to work."] },
+              { "cells": ["Past",    "needed to",            "I needed to work yesterday."] },
+              { "cells": ["Future",  "will need to",         "I will need to work tomorrow."] },
+              { "cells": ["Отрицание","don't need to",        "You don't need to come."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I need to call my mom.",           "ru": "Мне нужно позвонить маме." },
+            { "en": "She needs to study for the exam.",  "ru": "Ей нужно готовиться к экзамену." },
+            { "en": "We needed to leave early.",          "ru": "Нам нужно было уйти рано." },
+            { "en": "You don't need to bring anything.",  "ru": "Тебе не нужно ничего приносить." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в need to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I need go to the bank.",  "right": "I need to go to the bank." },
+            { "wrong": "He need to work.",         "right": "He needs to work." },
+            { "wrong": "I no need to pay.",        "right": "I don't need to pay." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Need to — сам чувствуешь потребность. Have to — обстоятельства заставляют."
+          },
+          "quote": {
+            "text": "Need to идёт изнутри, have to приходит снаружи.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
