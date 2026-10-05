@@ -1,0 +1,105 @@
+{
+  "tenseName": "No sooner … than",
+  "route": "cards_nosoonerthan",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "No sooner … than — едва что-то произошло, как сразу же случилось другое. Оба действия произошли почти одновременно, но с минимальным промежутком. Обязательна инверсия.",
+        "highlights": [
+          { "text": "No sooner … than", "color": "term",    "style": "bold_underline" },
+          { "text": "едва … как",         "color": "info",    "style": "bold" },
+          { "text": "инверсия",            "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "No sooner",   "color": "term" },
+              { "text": "had",         "color": "info" },
+              { "text": "S",           "color": "example" },
+              { "text": "V3",          "color": "info" },
+              { "text": "than",        "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение с обычным порядком",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Стиль", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["As soon as",       "обычный",     "As soon as I arrived, it started raining."] },
+              { "cells": ["No sooner…than",    "формальный",  "No sooner had I arrived than it started raining."] },
+              { "cells": ["Hardly…when",       "формальный",  "Hardly had I arrived when it started raining."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "С инверсией — обязательно",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Порядок слов",
+            "text": "После No sooner в начале предложения had выходит перед подлежащим: No sooner HAD I arrived. НЕ No sooner I had arrived."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "No sooner had I arrived than it started raining.",   "ru": "Не успел я прийти, как начался дождь." },
+            { "en": "No sooner had he sat down than he fell asleep.",     "ru": "Не успел он сесть, как заснул." },
+            { "en": "No sooner had she left than the phone rang.",         "ru": "Не успела она выйти, как зазвонил телефон." },
+            { "en": "No sooner had we started than the lights went out.",  "ru": "Не успели мы начать, как свет погас." }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "No sooner — это литературное «не успел». Используется в книгах и формальной речи.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в No sooner … than.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "No sooner I had arrived than…",       "right": "No sooner had I arrived than…" },
+            { "wrong": "No sooner had I arrived when…",        "right": "No sooner had I arrived than…" },
+            { "wrong": "No sooner I arrived than…",             "right": "No sooner had I arrived than…" }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как запомнить",
+            "text": "No sooner — than. Hardly — when. Всегда в паре, не перепутать."
+          }
+        }
+      ]
+    }
+  ]
+}
