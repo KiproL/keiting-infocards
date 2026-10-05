@@ -1,0 +1,154 @@
+{
+  "tenseName": "Too…to",
+  "route": "cards_tooto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Конструкция Too…to говорит, что что-то слишком какое-то, чтобы сделать что-то. Результат невозможен из-за избытка качества.",
+        "highlights": [
+          { "text": "Too…to",       "color": "term",    "style": "bold_underline" },
+          { "text": "слишком",       "color": "info",    "style": "bold" },
+          { "text": "невозможен",    "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "too",     "color": "info" },
+              { "text": "+",       "color": "muted" },
+              { "text": "прил.",   "color": "example" },
+              { "text": "+",       "color": "muted" },
+              { "text": "to",      "color": "term" },
+              { "text": "+",       "color": "muted" },
+              { "text": "глагол",  "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["too…to",       "слишком, невозможно", "He is too tired to walk."] },
+              { "cells": ["enough to",     "достаточно, возможно","He is strong enough to lift it."] },
+              { "cells": ["so…that",       "настолько, что",      "He was so tired that he fell asleep."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "He is too tired to walk.",              "ru": "Он слишком устал, чтобы идти." },
+            { "en": "This coffee is too hot to drink.",       "ru": "Кофе слишком горячий, чтобы пить." },
+            { "en": "She is too young to drive.",              "ru": "Она слишком маленькая, чтобы водить." },
+            { "en": "The box is too heavy to lift.",           "ru": "Коробка слишком тяжёлая, чтобы её поднять." }
+          ]
+        },
+        {
+          "title": "Отрицание и противоположность",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "Too…to — уже отрицательное",
+            "text": "Конструкция Too…to уже содержит идею невозможности. Нельзя сказать not too…to для «не слишком, чтобы». Для положительного смысла используется enough to."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Too vs Very",
+      "intro": {
+        "text": "Too и very легко перепутать. Very — просто усиление. Too — избыток, который мешает.",
+        "highlights": [
+          { "text": "Too",   "color": "bad",     "style": "bold" },
+          { "text": "Very",  "color": "info",    "style": "bold" },
+          { "text": "избыток", "color": "example", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разница",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Слово", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["very", "очень (просто усиление)", "The coffee is very hot."] },
+              { "cells": ["too",  "слишком (мешает)",          "The coffee is too hot to drink."] }
+            ],
+            "borderColor": "term"
+          },
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Если можно добавить «и поэтому невозможно…» — это too. Если просто усиление — very."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "The soup is very hot.",              "ru": "Суп очень горячий. (просто)" },
+            { "en": "The soup is too hot to eat.",         "ru": "Суп слишком горячий, чтобы есть." },
+            { "en": "She is very young.",                   "ru": "Она очень молодая." },
+            { "en": "She is too young to drive.",            "ru": "Она слишком маленькая, чтобы водить." }
+          ]
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "He is too tired for walk.",    "right": "He is too tired to walk." },
+            { "wrong": "He is too tired walking.",      "right": "He is too tired to walk." },
+            { "wrong": "It is too much hot.",            "right": "It is too hot." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в Too…to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "He is too tired for walk.",  "right": "He is too tired to walk." },
+            { "wrong": "He is too tired walking.",    "right": "He is too tired to walk." },
+            { "wrong": "I am too happy to not smile.","right": "I am too happy not to smile." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой тест",
+            "text": "Too + прилагательное + to + глагол. Порядок всегда такой. To не путать с for, глагол всегда в начальной форме."
+          },
+          "quote": {
+            "text": "Too — это «чересчур». Всегда мешает сделать что-то.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
