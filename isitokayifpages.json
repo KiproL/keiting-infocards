@@ -1,0 +1,142 @@
+{
+  "tenseName": "Is it okay if",
+  "route": "cards_isitokayif",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Is it okay if — простая вежливая просьба разрешения. Значит «ничего, если…?». Мягче, чем «Can I», но не такая формальная, как May I.",
+        "highlights": [
+          { "text": "Is it okay if",  "color": "term",    "style": "bold_underline" },
+          { "text": "вежливая просьба","color": "info",    "style": "bold" },
+          { "text": "ничего, если",    "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Is it okay if", "color": "info" },
+              { "text": "+",             "color": "muted" },
+              { "text": "подлежащее",    "color": "example" },
+              { "text": "+",             "color": "muted" },
+              { "text": "глагол",        "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение просьб",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Стиль", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Can I…?",           "просто",     "Can I open the window?"] },
+              { "cells": ["Is it okay if…?",    "вежливо",    "Is it okay if I open the window?"] },
+              { "cells": ["May I…?",            "формально",  "May I open the window?"] },
+              { "cells": ["Would you mind if…?", "очень вежливо","Would you mind if I opened the window?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Is it okay if I sit here?",           "ru": "Ничего, если я сяду здесь?" },
+            { "en": "Is it okay if I bring a friend?",      "ru": "Можно я приведу друга?" },
+            { "en": "Is it okay if we leave early?",         "ru": "Ничего, если мы уйдём раньше?" },
+            { "en": "Is it okay if I call you later?",        "ru": "Ничего, если я тебе позже позвоню?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ответы",
+      "intro": {
+        "text": "На Is it okay if…? отвечают коротко: Sure, Of course, Go ahead. Отказ — I'm afraid not, Sorry, no.",
+        "highlights": [
+          { "text": "Sure / Of course", "color": "good", "style": "bold" },
+          { "text": "I'm afraid not",    "color": "bad",  "style": "bold" },
+          { "text": "Go ahead",           "color": "info", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Да / Нет",
+          "borderColor": "good",
+          "table": {
+            "headers": ["Ответ", "Стиль", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Sure.",            "разговорно",   "Конечно."] },
+              { "cells": ["Of course.",        "вежливо",      "Разумеется."] },
+              { "cells": ["Go ahead.",          "разрешение",   "Давай, вперёд."] },
+              { "cells": ["I'm afraid not.",    "вежливый отказ","Боюсь, что нет."] },
+              { "cells": ["Sorry, but no.",      "прямо",        "Извини, но нет."] }
+            ],
+            "borderColor": "good"
+          }
+        },
+        {
+          "title": "Дружеская просьба",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Is it okay if I borrow your pen?",  "ru": "Ничего, если я одолжу твою ручку?" },
+            { "en": "Sure, no problem.",                  "ru": "Конечно, без проблем." },
+            { "en": "Is it okay if I'm a bit late?",       "ru": "Ничего, если я немного опоздаю?" },
+            { "en": "Of course, take your time.",          "ru": "Разумеется, не спеши." }
+          ]
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "Is it okay if I to sit here?",  "right": "Is it okay if I sit here?" },
+            { "wrong": "Is okay if I sit here?",          "right": "Is it okay if I sit here?" },
+            { "wrong": "Is it okay if I will sit here?",  "right": "Is it okay if I sit here?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в Is it okay if.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "Is it okay if I to sit here?",    "right": "Is it okay if I sit here?" },
+            { "wrong": "Is okay if I sit here?",            "right": "Is it okay if I sit here?" },
+            { "wrong": "Is it okay if I will sit here?",    "right": "Is it okay if I sit here?" }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "После if — обычное настоящее время, без will. Это стандартный приём для условных предложений."
+          },
+          "quote": {
+            "text": "Is it okay if — это вежливый вход в чужое пространство.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
