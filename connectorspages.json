@@ -1,0 +1,352 @@
+{
+  "tenseName": "Connectors",
+  "route": "cards_connectors",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Связки скрепляют слова и предложения. Предлоги связывают слова между собой, verb patterns определяют, что идёт после глагола, а relative clauses присоединяют придаточные.",
+        "highlights": [
+          { "text": "Связки",           "color": "term",    "style": "bold_underline" },
+          { "text": "скрепляют",         "color": "info",    "style": "bold" },
+          { "text": "присоединяют",       "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три подтемы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Подтема", "Что связывает", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Prepositions",     "слова и фразы",   "in the morning, on Monday, at 5"] },
+              { "cells": ["Verb patterns",     "глагол + форма",   "want to go, enjoy doing"] },
+              { "cells": ["Relative clauses",  "придаточные",      "the man who called"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Связки — то, что делает речь плавной, а не рубленой.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Prepositions of time",
+      "intro": {
+        "text": "Три предлога времени — in, on, at. Каждый используется со своим уровнем точности: от широкого периода к конкретной точке.",
+        "highlights": [
+          { "text": "in, on, at",        "color": "term",    "style": "bold_underline" },
+          { "text": "точности",           "color": "info",    "style": "bold" },
+          { "text": "от широкого",         "color": "example", "style": "bold" },
+          { "text": "к конкретной",        "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Логика",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "in", "color": "info" },
+              { "text": "→ широкое",   "color": "example" },
+              { "text": "·",  "color": "muted" },
+              { "text": "on", "color": "term" },
+              { "text": "→ точное",     "color": "example" },
+              { "text": "·",  "color": "muted" },
+              { "text": "at", "color": "bad" },
+              { "text": "→ точка",      "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Предлог", "Когда", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["in",  "месяц, год, время года, часть дня", "in May, in 2024, in summer, in the morning"] },
+              { "cells": ["on",  "день недели, дата, конкретный день","on Monday, on 5 May, on my birthday"] },
+              { "cells": ["at",  "время, момент, ночь, праздники",     "at 5 o'clock, at noon, at night, at Christmas"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Исключения",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "at night",         "suffix": "не in the night",     "example": "I work at night." },
+            { "name": "at the weekend",    "suffix": "BrE",                  "example": "See you at the weekend." },
+            { "name": "on the weekend",    "suffix": "AmE",                  "example": "See you on the weekend." },
+            { "name": "at Christmas",      "suffix": "праздник в целом",     "example": "We visit family at Christmas." },
+            { "name": "on Christmas Day",  "suffix": "конкретный день",      "example": "We meet on Christmas Day." },
+            { "name": "in the morning",    "suffix": "часть дня",            "example": "I run in the morning." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I was born in May.",            "ru": "Я родился в мае." },
+            { "en": "We meet on Mondays.",             "ru": "Мы встречаемся по понедельникам." },
+            { "en": "The film starts at 8 pm.",         "ru": "Фильм начинается в 8 вечера." },
+            { "en": "I work at night.",                  "ru": "Я работаю ночью." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Prepositions of place",
+      "intro": {
+        "text": "Те же три предлога — in, on, at — но для места. Логика похожа: от большого пространства к конкретной точке.",
+        "highlights": [
+          { "text": "in, on, at",       "color": "term",    "style": "bold_underline" },
+          { "text": "места",             "color": "info",    "style": "bold" },
+          { "text": "от большого",       "color": "example", "style": "bold" },
+          { "text": "к точке",            "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Логика",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "in", "color": "info" },
+              { "text": "→ внутри",     "color": "example" },
+              { "text": "·",  "color": "muted" },
+              { "text": "on", "color": "term" },
+              { "text": "→ на поверхности", "color": "example" },
+              { "text": "·",  "color": "muted" },
+              { "text": "at", "color": "bad" },
+              { "text": "→ точка",       "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Предлог", "Когда", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["in",  "внутри чего-то, города, страны",     "in the room, in London, in Spain"] },
+              { "cells": ["on",  "на поверхности, на транспорте",      "on the table, on the bus, on the wall"] },
+              { "cells": ["at",  "в точке, у места, у входа",           "at the bus stop, at the door, at school"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Ловушки: in vs at",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "at school",   "suffix": "в школе (учится)",     "example": "He is at school now." },
+            { "name": "in the school","suffix": "внутри здания",         "example": "There is a gym in the school." },
+            { "name": "at home",     "suffix": "дома",                   "example": "I am at home." },
+            { "name": "in the house","suffix": "внутри дома",             "example": "She is in the house." },
+            { "name": "at work",     "suffix": "на работе",               "example": "He is at work." },
+            { "name": "on the bus",  "suffix": "в автобусе (транспорт)",  "example": "I am on the bus." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "She lives in London.",            "ru": "Она живёт в Лондоне." },
+            { "en": "The book is on the table.",        "ru": "Книга на столе." },
+            { "en": "I will meet you at the station.",   "ru": "Я встречу тебя на вокзале." },
+            { "en": "He is at home now.",                 "ru": "Он сейчас дома." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Verb patterns",
+      "intro": {
+        "text": "Некоторые глаголы требуют после себя to + инфинитив, другие — -ing. Третьи допускают оба варианта со сменой смысла.",
+        "highlights": [
+          { "text": "Verb patterns",   "color": "term",    "style": "bold_underline" },
+          { "text": "to + инфинитив",   "color": "info",    "style": "bold" },
+          { "text": "-ing",             "color": "example", "style": "bold" },
+          { "text": "оба варианта",      "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три группы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Группа", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Только to",  "V + to + инфинитив", "want, decide, hope, plan, promise"] },
+              { "cells": ["Только -ing","V + -ing",             "enjoy, finish, mind, avoid, suggest"] },
+              { "cells": ["Оба",         "смысл меняется",       "stop, remember, forget, try, regret"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Только to + инфинитив",
+          "borderColor": "info",
+          "verbGrid": {
+            "accentColor": "info",
+            "verbs": ["want", "decide", "hope", "plan", "promise", "agree", "refuse", "learn", "manage", "offer", "expect", "afford", "arrange", "fail", "pretend", "seem", "tend"]
+          },
+          "examples": [
+            { "en": "I want to go home.",       "ru": "Я хочу пойти домой." },
+            { "en": "She decided to stay.",      "ru": "Она решила остаться." },
+            { "en": "They hope to win.",          "ru": "Они надеются победить." }
+          ]
+        },
+        {
+          "title": "Только -ing",
+          "borderColor": "good",
+          "verbGrid": {
+            "accentColor": "example",
+            "verbs": ["enjoy", "finish", "mind", "avoid", "suggest", "keep", "practise", "consider", "imagine", "miss", "risk", "deny", "admit", "postpone", "give up", "dislike", "fancy", "can't stand"]
+          },
+          "examples": [
+            { "en": "I enjoy reading.",          "ru": "Я люблю читать." },
+            { "en": "She finished cooking.",      "ru": "Она закончила готовить." },
+            { "en": "Would you mind waiting?",    "ru": "Вы не против подождать?" }
+          ]
+        },
+        {
+          "title": "Оба — смысл меняется",
+          "borderColor": "bad",
+          "transforms": [
+            { "from": "stop doing",     "to": "прекратить: He stopped smoking.",         "toColor": "good" },
+            { "from": "stop to do",     "to": "остановиться ради: He stopped to smoke.", "toColor": "info" },
+            { "from": "remember doing", "to": "помнить: I remember locking the door.",   "toColor": "good" },
+            { "from": "remember to do", "to": "не забыть: Remember to lock it!",         "toColor": "info" },
+            { "from": "try doing",      "to": "попробовать (эксперимент)",                "toColor": "good" },
+            { "from": "try to do",      "to": "стараться (усилие)",                      "toColor": "info" },
+            { "from": "regret doing",   "to": "жалеть о сделанном",                      "toColor": "good" },
+            { "from": "regret to do",   "to": "с сожалением сообщать",                   "toColor": "info" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Relative Clauses",
+      "intro": {
+        "text": "Относительные придаточные уточняют или описывают существительное. Присоединяются словами who, which, that, whose, where.",
+        "highlights": [
+          { "text": "Relative Clauses", "color": "term",    "style": "bold_underline" },
+          { "text": "уточняют",          "color": "info",    "style": "bold" },
+          { "text": "who, which, that",   "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Слово", "О ком / о чём", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["who",    "о людях",              "The man who called is my uncle."] },
+              { "cells": ["whom",    "о людях (формально)",  "The man whom I met was kind."] },
+              { "cells": ["whose",   "о принадлежности",      "The girl whose bag was lost is here."] },
+              { "cells": ["which",   "о вещах и животных",    "The book which I read was great."] },
+              { "cells": ["that",    "о людях и вещах",        "The film that we saw was boring."] },
+              { "cells": ["where",   "о месте",                "The city where I live is big."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Определяющие vs описательные",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "Запятая меняет смысл",
+            "text": "Без запятой — придаточное необходимо для смысла. С запятой — просто дополнительная информация."
+          },
+          "examples": [
+            { "en": "The students who studied passed.",         "ru": "Те студенты, которые учились, сдали. (только они)" },
+            { "en": "The students, who studied, passed.",        "ru": "Студенты, которые (все) учились, сдали. (доп. инфо)" }
+          ]
+        },
+        {
+          "title": "Когда можно опустить",
+          "borderColor": "good",
+          "rules": [
+            { "name": "who / which в функции объекта", "suffix": "можно опустить", "example": "The book (which) I read was great." },
+            { "name": "who / which в функции субъекта","suffix": "нельзя опустить","example": "The man who called is my uncle." },
+            { "name": "that в разговоре",                "suffix": "чаще в речи",     "example": "The film that I saw…" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "The man who called is my uncle.",         "ru": "Мужчина, который позвонил, — мой дядя." },
+            { "en": "The book which I read was great.",          "ru": "Книга, которую я прочитал, отличная." },
+            { "en": "The city where I live is big.",              "ru": "Город, где я живу, большой." },
+            { "en": "The girl whose bag was lost is here.",       "ru": "Девочка, чья сумка потерялась, здесь." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Десять самых частых ошибок в предлогах, verb patterns и relative clauses.",
+        "highlights": [
+          { "text": "Десять самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I was born on May.",                    "right": "I was born in May." },
+            { "wrong": "Let's meet in Monday.",                  "right": "Let's meet on Monday." },
+            { "wrong": "See you in 5 o'clock.",                   "right": "See you at 5 o'clock." },
+            { "wrong": "I live at London.",                        "right": "I live in London." },
+            { "wrong": "I enjoy to read.",                          "right": "I enjoy reading." },
+            { "wrong": "She wants going home.",                      "right": "She wants to go home." },
+            { "wrong": "I decided going home.",                       "right": "I decided to go home." },
+            { "wrong": "The book who I read…",                         "right": "The book which I read…" },
+            { "wrong": "The man which called…",                         "right": "The man who called…" },
+            { "wrong": "The city where I live in is big.",               "right": "The city where I live is big." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "in — широко, on — точно, at — точка. Verb patterns надо запоминать по группам. Relative: who о людях, which о вещах, where о местах."
+          },
+          "quote": {
+            "text": "Предлоги и формы после глагола — самое частое место ошибок у русскоговорящих.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
