@@ -1,0 +1,97 @@
+{
+  "tenseName": "Get someone to do",
+  "route": "cards_getsomeonetodo",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Get someone to do — убеждение сделать что-то. Кто-то согласился что-то сделать после просьбы или уговоров. Не принуждение и не разрешение, а именно уговоры.",
+        "highlights": [
+          { "text": "Get someone to do", "color": "term",    "style": "bold_underline" },
+          { "text": "убеждение",          "color": "info",    "style": "bold" },
+          { "text": "согласился",         "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "get",     "color": "info" },
+              { "text": "+",       "color": "muted" },
+              { "text": "someone", "color": "example" },
+              { "text": "+",       "color": "muted" },
+              { "text": "to + глагол", "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Get / Make / Let",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["get someone to do",  "убедил, согласился", "I got him to help me."] },
+              { "cells": ["make someone do",     "заставил",            "I made him help me."] },
+              { "cells": ["let someone do",      "разрешил",            "I let him help me."] }
+            ],
+            "borderColor": "info"
+          },
+          "callout": {
+            "type": "tip",
+            "title": "Ключевая разница",
+            "text": "Get — с to. Make — без to. Let — без to. Get звучит мягче, потому что подразумевает согласие."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I got my brother to fix my laptop.",       "ru": "Я уговорил брата починить мой ноутбук." },
+            { "en": "She got him to change his mind.",            "ru": "Она уговорила его передумать." },
+            { "en": "Can you get her to call me?",                "ru": "Можешь попросить её мне позвонить?" },
+            { "en": "We got the kids to go to bed early.",        "ru": "Мы уговорили детей лечь рано." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в get someone to do.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I got him help me.",         "right": "I got him to help me." },
+            { "wrong": "I got him helping me.",       "right": "I got him to help me." },
+            { "wrong": "I made him to help me.",      "right": "I made him help me." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Get — убедил, поэтому с to. Make — заставил, поэтому без to. Let — разрешил, поэтому без to. Одно правило: get с to, остальные без."
+          },
+          "quote": {
+            "text": "Make и let — жёсткие. Get — мягкий.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
