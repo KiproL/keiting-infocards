@@ -1,0 +1,114 @@
+{
+  "tenseName": "It is / was … that / who",
+  "route": "cards_cleftsentence",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Cleft sentence — конструкция выделения. Разбивает обычное предложение на две части, чтобы подчеркнуть конкретный элемент. Используется в письменной и формальной речи.",
+        "highlights": [
+          { "text": "It is / was … that / who", "color": "term",    "style": "bold_underline" },
+          { "text": "конструкция выделения",      "color": "info",    "style": "bold" },
+          { "text": "подчеркнуть",                 "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "It is / was", "color": "info" },
+              { "text": "+",           "color": "muted" },
+              { "text": "X",           "color": "example" },
+              { "text": "+",           "color": "muted" },
+              { "text": "that / who",  "color": "term" },
+              { "text": "+",           "color": "muted" },
+              { "text": "остальное",   "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Обычное предложение", "Cleft sentence", "Что выделяем"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Tom broke the window.",     "It was Tom who broke the window.",        "кто"] },
+              { "cells": ["I met her in Paris.",        "It was in Paris that I met her.",         "где"] },
+              { "cells": ["He left yesterday.",          "It was yesterday that he left.",          "когда"] },
+              { "cells": ["She wants a car.",             "It's a car that she wants.",               "что"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Who или that",
+          "borderColor": "term",
+          "rules": [
+            { "name": "О людях",       "suffix": "who / that",  "example": "It was Tom who called me." },
+            { "name": "О вещах",        "suffix": "that",        "example": "It's the money that matters." },
+            { "name": "О месте",        "suffix": "that",        "example": "It was in Paris that we met." },
+            { "name": "О времени",      "suffix": "that",        "example": "It was yesterday that she left." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "It was Tom who broke the window.",         "ru": "Именно Том разбил окно." },
+            { "en": "It was in Paris that I met her.",           "ru": "Именно в Париже я с ней познакомился." },
+            { "en": "It's the money that matters.",               "ru": "Дело именно в деньгах." },
+            { "en": "It was yesterday that he told me.",          "ru": "Именно вчера он мне сказал." }
+          ]
+        },
+        {
+          "title": "Зачем нужна",
+          "borderColor": "info",
+          "callout": {
+            "type": "tip",
+            "title": "Когда использовать",
+            "text": "Когда хочешь подчеркнуть, что именно этот элемент важен: не «Том разбил окно», а «именно Том разбил окно». Часто в ответах и уточнениях."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в конструкции выделения.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "It was Tom that broke the window. (если про человека предпочтительно who)", "right": "It was Tom who broke the window." },
+            { "wrong": "It is Tom who broke the window yesterday. (не то время)",                     "right": "It was Tom who broke the window." },
+            { "wrong": "It's in Paris where I met her.",                                              "right": "It was in Paris that I met her." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Для людей — who (реже that). Для всего остального — that. Глагол be согласуется по времени: It IS (сейчас) / It WAS (в прошлом)."
+          },
+          "quote": {
+            "text": "Cleft sentence — это рамка, которой ты обводишь главное слово.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
