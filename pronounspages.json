@@ -1,0 +1,496 @@
+{
+  "tenseName": "Pronouns",
+  "route": "cards_pronouns",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Местоимения заменяют существительные, чтобы не повторять их. В английском шесть основных типов — и каждый работает по своим правилам.",
+        "highlights": [
+          { "text": "заменяют существительные", "color": "term",    "style": "bold_underline" },
+          { "text": "не повторять",              "color": "info",    "style": "bold" },
+          { "text": "шесть",                      "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Шесть типов",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Тип", "Пример", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Personal",       "I, you, he, she",       "я, ты, он, она"] },
+              { "cells": ["Possessive",     "my, your, his",          "мой, твой, его"] },
+              { "cells": ["Reflexive",      "myself, yourself",       "себя, сам"] },
+              { "cells": ["Demonstrative",  "this, that, these",      "этот, тот, эти"] },
+              { "cells": ["Interrogative",  "who, what, which",       "кто, что, который"] },
+              { "cells": ["Relative",       "who, which, that",       "который"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Местоимение — это слово-заменитель. Оно работает, пока понятно, что именно заменяет.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Personal",
+      "intro": {
+        "text": "Личные местоимения — самые частые слова в английском. Делятся на субъектные (кто делает) и объектные (на кого направлено действие).",
+        "highlights": [
+          { "text": "Personal",       "color": "term",    "style": "bold_underline" },
+          { "text": "субъектные",      "color": "info",    "style": "bold" },
+          { "text": "объектные",       "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Лицо", "Субъект", "Объект", "Перевод"],
+            "headerColors": ["info", "example", "term", "text"],
+            "rows": [
+              { "cells": ["1 ед.",  "I",     "me",     "я / меня"] },
+              { "cells": ["2 ед.",  "you",   "you",    "ты / тебя"] },
+              { "cells": ["3 ед. м.","he",    "him",    "он / его"] },
+              { "cells": ["3 ед. ж.","she",   "her",    "она / её"] },
+              { "cells": ["3 ед. ср.","it",   "it",     "оно / его"] },
+              { "cells": ["1 мн.",   "we",    "us",     "мы / нас"] },
+              { "cells": ["2 мн.",   "you",   "you",    "вы / вас"] },
+              { "cells": ["3 мн.",   "they",  "them",   "они / их"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Когда что",
+          "borderColor": "term",
+          "rules": [
+            { "name": "Субъект",  "suffix": "перед глаголом",    "example": "I love you." },
+            { "name": "Объект",    "suffix": "после глагола",       "example": "She called me." },
+            { "name": "После предлога","suffix": "объект",         "example": "Give it to him." },
+            { "name": "it о времени/погоде","suffix": "it",         "example": "It's raining. It's 5 pm." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "She called me yesterday.",         "ru": "Она позвонила мне вчера." },
+            { "en": "Give it to him.",                    "ru": "Отдай это ему." },
+            { "en": "We will help you.",                   "ru": "Мы поможем тебе." },
+            { "en": "They invited us to dinner.",          "ru": "Они пригласили нас на ужин." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Possessive",
+      "intro": {
+        "text": "Притяжательные местоимения показывают принадлежность: чей предмет. Делятся на две формы — перед существительным (my) и самостоятельную (mine).",
+        "highlights": [
+          { "text": "Притяжательные",  "color": "term",    "style": "bold_underline" },
+          { "text": "принадлежность",   "color": "info",    "style": "bold" },
+          { "text": "самостоятельную",  "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Лицо", "+ сущ.", "Самост.", "Перевод"],
+            "headerColors": ["info", "example", "term", "text"],
+            "rows": [
+              { "cells": ["1 ед.",  "my",    "mine",    "мой"] },
+              { "cells": ["2 ед.",  "your",  "yours",   "твой"] },
+              { "cells": ["3 ед. м.","his",  "his",     "его"] },
+              { "cells": ["3 ед. ж.","her",  "hers",    "её"] },
+              { "cells": ["3 ед. ср.","its", "—",       "его (для предметов)"] },
+              { "cells": ["1 мн.",   "our",  "ours",    "наш"] },
+              { "cells": ["2 мн.",   "your", "yours",   "ваш"] },
+              { "cells": ["3 мн.",   "their","theirs",  "их"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Форма перед существительным и без",
+          "borderColor": "term",
+          "rules": [
+            { "name": "my + существительное",   "suffix": "перед сущ.",     "example": "This is my book." },
+            { "name": "mine",                     "suffix": "без сущ.",       "example": "This book is mine." },
+            { "name": "her + существительное",    "suffix": "перед сущ.",     "example": "Her car is red." },
+            { "name": "hers",                     "suffix": "без сущ.",       "example": "The red car is hers." },
+            { "name": "its — для предметов",       "suffix": "не путать с it's","example": "The cat licked its paw." }
+          ]
+        },
+        {
+          "title": "It's vs Its",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Самая частая ошибка",
+            "text": "It's = it is (это есть). Its = его (притяжательное). Апостроф меняет всё."
+          },
+          "examples": [
+            { "en": "It's a nice day.",         "ru": "Сегодня хороший день. (it is)" },
+            { "en": "The dog wagged its tail.",  "ru": "Собака вильнула хвостом. (его хвост)" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "This is my phone.",            "ru": "Это мой телефон." },
+            { "en": "This phone is mine.",           "ru": "Этот телефон мой." },
+            { "en": "Her car is red.",                "ru": "Её машина красная." },
+            { "en": "The red car is hers.",            "ru": "Красная машина — её." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Reflexive",
+      "intro": {
+        "text": "Возвратные местоимения показывают, что действие направлено на самого действующего: я делаю что-то с собой, для себя, о себе.",
+        "highlights": [
+          { "text": "Reflexive",   "color": "term",    "style": "bold_underline" },
+          { "text": "на самого себя","color": "info",    "style": "bold" },
+          { "text": "-self / -selves","color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Лицо", "Reflexive", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["1 ед.",  "myself",     "себя, сам"] },
+              { "cells": ["2 ед.",  "yourself",   "себя, сам"] },
+              { "cells": ["3 ед. м.","himself",   "себя, сам"] },
+              { "cells": ["3 ед. ж.","herself",   "себя, сама"] },
+              { "cells": ["3 ед. ср.","itself",   "себя, само"] },
+              { "cells": ["1 мн.",   "ourselves", "себя, сами"] },
+              { "cells": ["2 мн.",   "yourselves", "себя, сами"] },
+              { "cells": ["3 мн.",   "themselves", "себя, сами"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Когда использовать",
+          "borderColor": "term",
+          "rules": [
+            { "name": "Действие на себя",     "suffix": "объект = субъект", "example": "She hurt herself." },
+            { "name": "Для усиления",          "suffix": "сам, лично",        "example": "I did it myself." },
+            { "name": "После предлога",         "suffix": "by, for, to",       "example": "He made it by himself." }
+          ]
+        },
+        {
+          "title": "By myself = один / самостоятельно",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Устойчивые связки",
+            "text": "By myself — один, без помощи. Enjoy myself — весело проводить время. Help yourself — угощайся."
+          },
+          "examples": [
+            { "en": "I live by myself.",             "ru": "Я живу один." },
+            { "en": "I enjoyed myself at the party.", "ru": "Я хорошо провёл время на вечеринке." },
+            { "en": "Help yourself to some cake.",     "ru": "Угощайся тортом." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "She hurt herself.",          "ru": "Она поранилась." },
+            { "en": "I did it myself.",             "ru": "Я сделал это сам." },
+            { "en": "They enjoyed themselves.",      "ru": "Они хорошо провели время." },
+            { "en": "Look at yourself!",              "ru": "Посмотри на себя!" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Demonstrative",
+      "intro": {
+        "text": "Указательные местоимения указывают на предмет: этот или тот, близкий или далёкий. Работают и как прилагательные, и как самостоятельные слова.",
+        "highlights": [
+          { "text": "Demonstrative",   "color": "term",    "style": "bold_underline" },
+          { "text": "этот или тот",     "color": "info",    "style": "bold" },
+          { "text": "близкий / далёкий","color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Число", "Расстояние", "Перевод"],
+            "headerColors": ["info", "example", "term", "text"],
+            "rows": [
+              { "cells": ["this",   "ед.",  "близко",  "этот"] },
+              { "cells": ["that",   "ед.",  "далеко",   "тот"] },
+              { "cells": ["these",  "мн.",  "близко",   "эти"] },
+              { "cells": ["those",  "мн.",  "далеко",   "те"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "This vs That",
+          "borderColor": "term",
+          "rules": [
+            { "name": "this / these",  "suffix": "близко к говорящему",   "example": "This book is mine." },
+            { "name": "that / those",   "suffix": "далеко от говорящего", "example": "That house is old." },
+            { "name": "this — по телефону","suffix": "представляясь",     "example": "Hello, this is Anna." },
+            { "name": "that — про прошлое","suffix": "уже упомянуто",      "example": "That was a great day." }
+          ]
+        },
+        {
+          "title": "Как прилагательное и как слово",
+          "borderColor": "good",
+          "examples": [
+            { "en": "This book is mine.",        "ru": "Эта книга моя. (перед существительным)" },
+            { "en": "This is mine.",              "ru": "Это моё. (самостоятельно)" },
+            { "en": "Those are my friends.",       "ru": "Те — мои друзья." },
+            { "en": "I don't like that.",           "ru": "Мне это не нравится." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "This is my house.",           "ru": "Это мой дом." },
+            { "en": "These apples are sweet.",      "ru": "Эти яблоки сладкие." },
+            { "en": "That was a great idea.",        "ru": "Это была отличная идея." },
+            { "en": "Those people are waiting.",     "ru": "Те люди ждут." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Interrogative",
+      "intro": {
+        "text": "Вопросительные местоимения начинают специальные вопросы. Они заменяют неизвестное: кто, что, какой, чей.",
+        "highlights": [
+          { "text": "Interrogative",    "color": "term",    "style": "bold_underline" },
+          { "text": "кто, что, какой",   "color": "info",    "style": "bold" },
+          { "text": "неизвестное",        "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Слово", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["who",     "кто (о людях)",        "Who is that?"] },
+              { "cells": ["whom",     "кого (формально)",     "Whom did you see?"] },
+              { "cells": ["whose",    "чей",                   "Whose bag is this?"] },
+              { "cells": ["what",     "что, какой",            "What is your name?"] },
+              { "cells": ["which",    "который (из выбора)",   "Which one do you want?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Who vs Whom vs Whose",
+          "borderColor": "term",
+          "rules": [
+            { "name": "who",   "suffix": "субъект — кто делает",   "example": "Who called you?" },
+            { "name": "whom",  "suffix": "объект — на кого",        "example": "Whom did you call?" },
+            { "name": "whose", "suffix": "чей — принадлежность",    "example": "Whose phone is this?" }
+          ]
+        },
+        {
+          "title": "What vs Which",
+          "borderColor": "info",
+          "rules": [
+            { "name": "what",  "suffix": "широкий выбор",           "example": "What do you want?" },
+            { "name": "which", "suffix": "ограниченный выбор",      "example": "Which colour — red or blue?" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Who is that man?",              "ru": "Кто тот мужчина?" },
+            { "en": "Whose book is this?",            "ru": "Чья это книга?" },
+            { "en": "What are you doing?",             "ru": "Что ты делаешь?" },
+            { "en": "Which one do you prefer?",         "ru": "Какой ты предпочитаешь?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Relative",
+      "intro": {
+        "text": "Относительные местоимения связывают две части предложения: описывают или уточняют существительное. По-русски — «который».",
+        "highlights": [
+          { "text": "Relative",   "color": "term",    "style": "bold_underline" },
+          { "text": "который",     "color": "info",    "style": "bold" },
+          { "text": "уточняют",     "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная таблица",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Слово", "О ком / о чём", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["who",    "о людях",              "The man who called is my uncle."] },
+              { "cells": ["whom",    "о людях (формально)",  "The man whom I met was kind."] },
+              { "cells": ["whose",   "о принадлежности",      "The girl whose bag was lost is here."] },
+              { "cells": ["which",   "о вещах и животных",    "The book which I read was great."] },
+              { "cells": ["that",    "о людях и вещах",        "The film that we saw was boring."] },
+              { "cells": ["where",   "о месте",                "The city where I live is big."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Who / Which / That",
+          "borderColor": "term",
+          "rules": [
+            { "name": "who",   "suffix": "о людях",               "example": "The teacher who teaches us is nice." },
+            { "name": "which", "suffix": "о вещах",                "example": "The car which he bought is red." },
+            { "name": "that",  "suffix": "и то, и другое",         "example": "The man that called was my uncle." },
+            { "name": "that vs who/which","suffix": "that чаще в разговоре","example": "The film that I saw…" }
+          ]
+        },
+        {
+          "title": "Можно ли опустить",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Определяющие vs описательные",
+            "text": "Если без части смысл теряется — who / which обязательны. Если это доп. информация в запятых — можно опустить."
+          },
+          "examples": [
+            { "en": "The man who called is my uncle.",   "ru": "Мужчина, который позвонил, — мой дядя. (без него неясно, о ком речь)" },
+            { "en": "My uncle, who lives in Paris, called me.", "ru": "Мой дядя, который живёт в Париже, позвонил мне. (доп. инфо)" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "The man who called is my uncle.",         "ru": "Мужчина, который позвонил, — мой дядя." },
+            { "en": "The book which I read was great.",          "ru": "Книга, которую я прочитал, отличная." },
+            { "en": "The city where I live is big.",              "ru": "Город, где я живу, большой." },
+            { "en": "The girl whose bag was lost is here.",       "ru": "Девочка, чья сумка потерялась, здесь." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "One / Ones",
+      "intro": {
+        "text": "One и ones заменяют уже упомянутое существительное, чтобы не повторять его. One — для единственного числа, ones — для множественного.",
+        "highlights": [
+          { "text": "One / Ones",   "color": "term",    "style": "bold_underline" },
+          { "text": "заменяют",       "color": "info",    "style": "bold" },
+          { "text": "не повторять",    "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Правило",
+          "borderColor": "info",
+          "rules": [
+            { "name": "one",   "suffix": "заменяет ед. ч.", "example": "I like the red one." },
+            { "name": "ones",  "suffix": "заменяет мн. ч.", "example": "I like the red ones." },
+            { "name": "the one", "suffix": "конкретный",      "example": "The one on the left is mine." },
+            { "name": "a / an + прил. + one","suffix": "описание", "example": "I need a bigger one." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I like the red one.",            "ru": "Мне нравится красная (из них)." },
+            { "en": "I like the red ones.",            "ru": "Мне нравятся красные (из них)." },
+            { "en": "Which one do you want?",           "ru": "Какой (из них) ты хочешь?" },
+            { "en": "I need a bigger one.",              "ru": "Мне нужен побольше." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Когда использовать",
+            "text": "One и ones используются только когда понятно, о каком предмете речь. Иначе получается бессмыслица."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Десять самых частых ошибок в английских местоимениях.",
+        "highlights": [
+          { "text": "Десять самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "Me and him went home.",              "right": "He and I went home." },
+            { "wrong": "Between you and I…",                  "right": "Between you and me…" },
+            { "wrong": "Its raining.",                          "right": "It's raining." },
+            { "wrong": "The dog wagged it's tail.",             "right": "The dog wagged its tail." },
+            { "wrong": "This is my's book.",                     "right": "This is my book." },
+            { "wrong": "Everyone are here.",                      "right": "Everyone is here." },
+            { "wrong": "I did it by me.",                          "right": "I did it by myself." },
+            { "wrong": "Who's book is this?",                       "right": "Whose book is this?" },
+            { "wrong": "I don't have nothing.",                     "right": "I don't have anything. / I have nothing." },
+            { "wrong": "The book who I read…",                       "right": "The book which I read…" }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Три главных правила",
+            "text": "После предлога — объектная форма (to me, with him). It's = it is, its = принадлежность. Everyone, nothing, nobody — единственное число."
+          },
+          "quote": {
+            "text": "Местоимения — мелкие слова, но именно в них больше всего ошибок.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
