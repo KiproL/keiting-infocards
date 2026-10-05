@@ -1,0 +1,137 @@
+{
+  "tenseName": "I'd love to",
+  "route": "cards_idloveto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "I'd love to — это согласие с энтузиазмом. Сильнее, чем I'd like to. Показывает, что вы действительно рады предложению.",
+        "highlights": [
+          { "text": "I'd love to",       "color": "term",    "style": "bold_underline" },
+          { "text": "с энтузиазмом",      "color": "info",    "style": "bold" },
+          { "text": "действительно рады","color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "I'd love to", "color": "info" },
+              { "text": "+",           "color": "muted" },
+              { "text": "глагол",      "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["I'd like to",  "вежливо, спокойно",  "I'd like to come."] },
+              { "cells": ["I'd love to",  "с энтузиазмом",       "I'd love to come!"] },
+              { "cells": ["I'd hate to",  "не хотел бы",          "I'd hate to miss it."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I'd love to come to your party!",   "ru": "Я бы с радостью пришёл на твою вечеринку!" },
+            { "en": "I'd love to try that restaurant.",   "ru": "С удовольствием попробовал бы тот ресторан." },
+            { "en": "We'd love to visit Japan.",           "ru": "Мы бы с радостью поехали в Японию." },
+            { "en": "She'd love to meet you.",              "ru": "Она очень хотела бы с тобой познакомиться." }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "I'd like to — вежливо. I'd love to — от души.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ответ на приглашение",
+      "intro": {
+        "text": "I'd love to — стандартный вежливый ответ, когда тебя куда-то приглашают. Можно добавить but, если хочешь отказаться мягко.",
+        "highlights": [
+          { "text": "I'd love to",  "color": "good", "style": "bold" },
+          { "text": "но",            "color": "bad",  "style": "bold" },
+          { "text": "мягко",         "color": "info", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Согласие и отказ",
+          "borderColor": "info",
+          "rules": [
+            { "name": "Согласие",       "suffix": "просто",          "example": "I'd love to!" },
+            { "name": "Согласие + деталь","suffix": "радость",       "example": "I'd love to — thanks for inviting me!" },
+            { "name": "Вежливый отказ",  "suffix": "but…",           "example": "I'd love to, but I'm busy." },
+            { "name": "Отказ с причиной","suffix": "но объяснил",    "example": "I'd love to, but I have to work." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Would you like to join us? — I'd love to!",        "ru": "— Хочешь присоединиться? — С удовольствием!" },
+            { "en": "I'd love to, but I'm busy tonight.",                 "ru": "С удовольствием, но сегодня я занят." },
+            { "en": "I'd love to come, but I don't have a car.",          "ru": "Я бы с радостью приехал, но у меня нет машины." },
+            { "en": "Thanks! I'd love to come.",                          "ru": "Спасибо! С удовольствием приду." }
+          ]
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I'd love come.",              "right": "I'd love to come." },
+            { "wrong": "I love to would come.",        "right": "I'd love to come." },
+            { "wrong": "I'd love to coming.",           "right": "I'd love to come." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в I'd love to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I'd love come to your party.",   "right": "I'd love to come to your party." },
+            { "wrong": "I'd love to coming.",              "right": "I'd love to come." },
+            { "wrong": "I would love come.",                "right": "I would love to come." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "После I'd love всегда идёт TO + глагол. Частица to не исчезает, даже если рядом стоит would."
+          }
+        }
+      ]
+    }
+  ]
+}
