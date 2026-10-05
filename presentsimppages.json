@@ -3,124 +3,211 @@
   "route": "cards_presentsimp",
   "slides": [
     {
-      "label": "Формы",
+      "label": "Что это",
       "intro": {
         "text": "Present Simple показывает факты, привычки и то, что происходит регулярно — без привязки к конкретному моменту.",
-        "highlight": "регулярно",
-        "highlightColor": "term"
+        "highlights": [
+          { "text": "Present Simple",  "color": "term",    "style": "bold_underline" },
+          { "text": "факты",            "color": "info",    "style": "bold" },
+          { "text": "привычки",          "color": "example", "style": "bold" },
+          { "text": "регулярно",         "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "S",     "color": "info" },
+              { "text": "+",     "color": "muted" },
+              { "text": "V",     "color": "example" },
+              { "text": "·",     "color": "muted" },
+              { "text": "he/she/it → +s", "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Три функции",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Функция", "Пример", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Факт",             "Water boils at 100°C.",       "Вода кипит при 100°C."] },
+              { "cells": ["Привычка",          "I play football every day.",  "Я играю в футбол каждый день."] },
+              { "cells": ["Расписание",        "The train leaves at 6 pm.",   "Поезд уходит в 6 вечера."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Ключевые маркеры",
+          "borderColor": "good",
+          "verbGrid": {
+            "accentColor": "example",
+            "verbs": ["always", "usually", "often", "sometimes", "every day", "never", "on Mondays", "twice a week"]
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I play football every day.",       "ru": "Я играю в футбол каждый день." },
+            { "en": "He usually listens to music.",      "ru": "Он обычно слушает музыку." },
+            { "en": "The sun rises in the east.",         "ru": "Солнце встаёт на востоке." },
+            { "en": "They often go to the cinema.",       "ru": "Они часто ходят в кино." }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Present Simple — это «всегда так» или «обычно так».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Три формы",
+      "intro": {
+        "text": "После do / does глагол всегда в начальной форме. Do и does — универсальные помощники для вопросов и отрицаний.",
+        "highlights": [
+          { "text": "do / does",       "color": "term",    "style": "bold_underline" },
+          { "text": "начальной форме",  "color": "info",    "style": "bold" },
+          { "text": "универсальные",    "color": "example", "style": "bold" }
+        ]
       },
       "sections": [
         {
           "title": "Утверждение",
-          "keysValues": [
-            { "key": "I / You / We / They", "value": "+ V", "valueColor": "term" },
-            { "key": "He / She / It", "value": "+ V-s / -es", "valueColor": "term" }
-          ],
+          "borderColor": "good",
+          "formulaCard": {
+            "parts": [
+              { "text": "I / You / We / They", "color": "info" },
+              { "text": "+ V",                 "color": "example" },
+              { "text": "·",                    "color": "muted" },
+              { "text": "He / She / It",        "color": "info" },
+              { "text": "+ V-s / -es",          "color": "term" }
+            ],
+            "accentColor": "good"
+          },
           "examples": [
-            { "en": "I play football every day.", "ru": "Я играю в футбол каждый день." },
-            { "en": "He usually listens to music.", "ru": "Он обычно слушает музыку." }
+            { "en": "I play football every day.",   "ru": "Я играю в футбол каждый день." },
+            { "en": "He usually listens to music.",  "ru": "Он обычно слушает музыку." }
           ]
         },
         {
           "title": "Отрицание",
           "borderColor": "bad",
-          "keysValues": [
-            { "key": "don't / doesn't", "value": "+ V (начальная форма)", "valueColor": "bad" }
-          ],
+          "formulaCard": {
+            "parts": [
+              { "text": "do / does", "color": "info" },
+              { "text": "+",         "color": "muted" },
+              { "text": "not",       "color": "bad" },
+              { "text": "+",         "color": "muted" },
+              { "text": "V",         "color": "example" }
+            ],
+            "accentColor": "bad"
+          },
           "examples": [
-            { "en": "He doesn't play football.", "ru": "Он не играет в футбол." }
+            { "en": "He doesn't play football.",   "ru": "Он не играет в футбол." },
+            { "en": "They don't like coffee.",      "ru": "Они не любят кофе." }
           ]
         },
         {
           "title": "Вопрос",
+          "borderColor": "info",
+          "formulaCard": {
+            "parts": [
+              { "text": "Do / Does", "color": "info" },
+              { "text": "+",         "color": "muted" },
+              { "text": "S",         "color": "example" },
+              { "text": "+",         "color": "muted" },
+              { "text": "V?",        "color": "term" }
+            ],
+            "accentColor": "info"
+          },
+          "examples": [
+            { "en": "Do you play football?",       "ru": "Ты играешь в футбол?" },
+            { "en": "Does she like tea?",           "ru": "Она любит чай?" }
+          ]
+        },
+        {
+          "title": "Краткие ответы",
           "borderColor": "term",
-          "keysValues": [
-            { "key": "Do / Does + подлежащее", "value": "+ V?", "valueColor": "term" }
-          ],
-          "examples": [
-            { "en": "Do you play football?", "ru": "Ты играешь в футбол?" }
-          ]
+          "table": {
+            "headers": ["Вопрос", "Да", "Нет"],
+            "headerColors": ["info", "good", "bad"],
+            "rows": [
+              { "cells": ["Do you like tea?",   "Yes, I do.",    "No, I don't."] },
+              { "cells": ["Does he work here?",  "Yes, he does.",  "No, he doesn't."] }
+            ],
+            "borderColor": "term"
+          }
         }
       ]
     },
 
     {
-      "label": "Do / Does",
+      "label": "Окончания -s / -es",
       "intro": {
-        "text": "Do и does — вспомогательные глаголы Present Simple, употребляются в отрицательных и вопросительных предложениях.",
-        "highlight": "вспомогательные глаголы",
-        "highlightColor": "term"
-      },
-      "sections": [
-        {
-          "title": "Кто какой использует",
-          "keysValues": [
-            { "key": "do", "value": "I / you / we / they", "valueColor": "example" },
-            { "key": "does", "value": "he / she / it", "valueColor": "example" }
-          ]
-        },
-        {
-          "title": "Сокращения",
-          "keysValues": [
-            { "key": "do not", "value": "don't", "valueColor": "term" },
-            { "key": "does not", "value": "doesn't", "valueColor": "term" }
-          ]
-        },
-        {
-          "title": "Примеры",
-          "examples": [
-            { "en": "Do you like tea?", "ru": "Ты любишь чай?", "icon": "question", "iconColor": "bad" },
-            { "en": "She doesn't like coffee.", "ru": "Она не любит кофе.", "icon": "cross", "iconColor": "bad" }
-          ]
-        }
-      ]
-    },
-
-    {
-      "label": "Вспомогательные слова",
-      "chips": {
-        "intro": "Эти слова указывают, как часто происходит действие.",
-        "title": "Слова-маркеры",
-        "selectedTitle": "Выбранное слово",
-        "items": [
-          { "word": "always", "translation": "всегда", "example": "She always plays football on weekends.", "exampleTranslation": "Она всегда играет в футбол по выходным." },
-          { "word": "usually", "translation": "обычно", "example": "He usually listens to music in the evening.", "exampleTranslation": "Он обычно слушает музыку вечером." },
-          { "word": "often", "translation": "часто", "example": "They often go to the cinema.", "exampleTranslation": "Они часто ходят в кино." },
-          { "word": "every day", "translation": "каждый день", "example": "I drink coffee every day.", "exampleTranslation": "Я пью кофе каждый день." },
-          { "word": "sometimes", "translation": "иногда", "example": "We sometimes watch films together.", "exampleTranslation": "Мы иногда смотрим фильмы вместе." },
-          { "word": "never", "translation": "никогда", "example": "She never eats fast food.", "exampleTranslation": "Она никогда не ест фастфуд." }
+        "text": "Окончание добавляется только к глаголу после he / she / it. Написание зависит от последней буквы глагола.",
+        "highlights": [
+          { "text": "-s / -es",     "color": "term",    "style": "bold_underline" },
+          { "text": "he / she / it", "color": "info",    "style": "bold" },
+          { "text": "написание",     "color": "example", "style": "bold" }
         ]
-      }
-    },
-
-    {
-      "label": "Окончания -s/-es",
-      "intro": {
-        "text": "Окончание добавляется только к глаголу после he / she / it. Правило написания зависит от последней буквы глагола.",
-        "highlight": "he / she / it",
-        "highlightColor": "term"
       },
       "sections": [
         {
           "title": "Правила",
+          "borderColor": "info",
           "rules": [
-            { "name": "Большинство глаголов", "suffix": "+ s", "example": "work → works, play → plays" },
-            { "name": "На -s, -ss, -sh, -ch, -x, -o", "suffix": "+ es", "example": "watch → watches, go → goes" },
-            { "name": "Согласная + y", "suffix": "y → ies", "example": "study → studies" },
-            { "name": "Гласная + y", "suffix": "+ s", "example": "play → plays" }
+            { "name": "Большинство",                    "suffix": "+ s",   "example": "work → works, play → plays" },
+            { "name": "На -s, -ss, -sh, -ch, -x, -o",    "suffix": "+ es",  "example": "watch → watches, go → goes" },
+            { "name": "Согласная + y",                    "suffix": "y → ies","example": "study → studies, cry → cries" },
+            { "name": "Гласная + y",                      "suffix": "+ s",   "example": "play → plays, stay → stays" }
           ]
+        },
+        {
+          "title": "Произношение -s / -es",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Звук", "После чего", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["/s/",   "глухих согласных",  "works, likes, stops"] },
+              { "cells": ["/z/",   "звонких согласных и гласных", "plays, reads, goes"] },
+              { "cells": ["/ɪz/",  "после -s, -sh, -ch, -x",     "watches, washes, teaches"] }
+            ],
+            "borderColor": "term"
+          }
         },
         {
           "title": "Исключение",
-          "keysValues": [
-            { "key": "have", "value": "has", "valueColor": "term" }
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "have → has",
+            "text": "Единственный глагол, который не подчиняется правилам: have → has. У него своя форма в 3-м лице."
+          },
+          "examples": [
+            { "en": "I have a car.",        "ru": "У меня есть машина." },
+            { "en": "She has a car.",        "ru": "У неё есть машина." }
           ]
         },
         {
-          "title": "Примеры",
+          "title": "Живые примеры",
+          "borderColor": "good",
           "examples": [
-            { "en": "He watches TV every evening.", "ru": "Он смотрит телевизор каждый вечер." },
-            { "en": "She studies English on Fridays.", "ru": "Она изучает английский по пятницам." }
+            { "en": "He watches TV every evening.",     "ru": "Он смотрит телевизор каждый вечер." },
+            { "en": "She studies English on Fridays.",   "ru": "Она изучает английский по пятницам." },
+            { "en": "The shop opens at 9 am.",            "ru": "Магазин открывается в 9 утра." }
           ]
         }
       ]
@@ -130,25 +217,93 @@
       "label": "Глагол to be",
       "intro": {
         "text": "Если в предложении нет действия — описывается состояние, качество или личность — используется to be как основной глагол.",
-        "highlight": "to be",
-        "highlightColor": "term"
+        "highlights": [
+          { "text": "to be",       "color": "term",    "style": "bold_underline" },
+          { "text": "нет действия","color": "info",    "style": "bold" },
+          { "text": "состояние",   "color": "example", "style": "bold" }
+        ]
       },
       "sections": [
         {
           "title": "Формы",
-          "keysValues": [
-            { "key": "I", "value": "am", "valueColor": "example" },
-            { "key": "He / She / It", "value": "is", "valueColor": "example" },
-            { "key": "You / We / They", "value": "are", "valueColor": "example" }
+          "borderColor": "info",
+          "table": {
+            "headers": ["Местоимение", "Be", "Сокращение"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["I",              "am", "I'm"] },
+              { "cells": ["He / She / It",  "is", "he's / she's / it's"] },
+              { "cells": ["You / We / They","are","you're / we're / they're"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Отрицание и вопрос",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "Отрицание",      "suffix": "be + not",       "example": "I am not tired. She isn't here." },
+            { "name": "Вопрос",          "suffix": "be + S",          "example": "Are you ready? Is he at home?" },
+            { "name": "Краткий ответ",   "suffix": "Yes, I am. / No, I'm not.", "example": "Are you ready? — Yes, I am." }
           ]
         },
         {
-          "title": "Примеры",
+          "title": "Живые примеры",
+          "borderColor": "good",
           "examples": [
-            { "en": "I am a teacher.", "ru": "Я учитель." },
-            { "en": "She is not tired.", "ru": "Она не устала.", "icon": "cross", "iconColor": "bad" },
-            { "en": "Are you ready?", "ru": "Ты готов?", "icon": "question", "iconColor": "term" }
+            { "en": "I am a teacher.",       "ru": "Я учитель." },
+            { "en": "She is not tired.",      "ru": "Она не устала." },
+            { "en": "Are you ready?",          "ru": "Ты готов?" },
+            { "en": "They are from Spain.",    "ru": "Они из Испании." }
           ]
+        },
+        {
+          "title": "Жизненные случаи",
+          "borderColor": "term",
+          "callout": {
+            "type": "tip",
+            "title": "Когда to be",
+            "text": "Возраст, национальность, профессия, состояние, местонахождение — всё это через to be, а не через обычный глагол."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Семь самых частых ошибок в Present Simple.",
+        "highlights": [
+          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "He play football.",              "right": "He plays football." },
+            { "wrong": "She don't like tea.",             "right": "She doesn't like tea." },
+            { "wrong": "Does he plays football?",          "right": "Does he play football?" },
+            { "wrong": "He doesn't plays football.",        "right": "He doesn't play football." },
+            { "wrong": "I am play football.",                "right": "I play football." },
+            { "wrong": "He have a car.",                      "right": "He has a car." },
+            { "wrong": "She study English.",                   "right": "She studies English." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "Если есть does — глагол без -s. Если нет does и подлежащее he/she/it — глагол с -s. Никогда не бывает -s и does одновременно."
+          },
+          "quote": {
+            "text": "Простое время — простое правило: -s с he/she/it, но не рядом с does.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
         }
       ]
     }
