@@ -1,0 +1,99 @@
+{
+  "tenseName": "There will be",
+  "route": "cards_therewillbe",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "There will be — будущее время конструкции There is / There are. Говорим, что что-то появится или произойдёт в будущем.",
+        "highlights": [
+          { "text": "There will be", "color": "term",    "style": "bold_underline" },
+          { "text": "в будущем",      "color": "info",    "style": "bold" },
+          { "text": "появится",       "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "There will be", "color": "info" },
+              { "text": "+",             "color": "muted" },
+              { "text": "предмет",       "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение с настоящим",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Сейчас", "В будущем", "Пример"],
+            "headerColors": ["info", "term", "example"],
+            "rows": [
+              { "cells": ["There is",  "There will be", "There will be a party tomorrow."] },
+              { "cells": ["There are", "There will be", "There will be many people."] },
+              { "cells": ["There is",  "There will be", "There will be some rain."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Отрицание и вопрос",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "There won't be",   "suffix": "не будет",  "example": "There won't be any problems." },
+            { "name": "There will be no","suffix": "формально",  "example": "There will be no delays." },
+            { "name": "Will there be…?",  "suffix": "вопрос",     "example": "Will there be food at the party?" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "There will be a meeting tomorrow.",         "ru": "Завтра будет собрание." },
+            { "en": "There will be a lot of traffic tomorrow.",   "ru": "Завтра будет много машин." },
+            { "en": "There won't be any rain this weekend.",       "ru": "В эти выходные дождя не будет." },
+            { "en": "Will there be a test next week?",             "ru": "На следующей неделе будет тест?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в конструкции There will be.",
+        "highlights": [
+          { "text": "Три самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "There will a party.",          "right": "There will be a party." },
+            { "wrong": "There will be have a party.",   "right": "There will be a party." },
+            { "wrong": "Will there a meeting?",          "right": "Will there be a meeting?" }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "В будущем всегда There will BE — частица be обязательна, она не исчезает, как и в There is / There are."
+          },
+          "quote": {
+            "text": "There will be — про завтра. Про то, что ещё не случилось, но обязательно случится.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
