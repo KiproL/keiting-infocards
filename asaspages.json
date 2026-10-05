@@ -1,0 +1,92 @@
+{
+  "tenseName": "As…as",
+  "route": "cards_asas",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "As…as показывает равенство: она такая же высокая, как он. Между двумя as ставится прилагательное в начальной форме.",
+        "highlights": [
+          { "text": "as…as",          "color": "term",    "style": "bold_underline" },
+          { "text": "равенство",       "color": "info",    "style": "bold" },
+          { "text": "начальной форме", "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "as",    "color": "info" },
+              { "text": "+",     "color": "muted" },
+              { "text": "прил.", "color": "example" },
+              { "text": "+",     "color": "muted" },
+              { "text": "as",    "color": "info" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["as + прил. + as",      "такой же, как",  "She is as tall as me."] },
+              { "cells": ["not as + прил. + as",  "не такой, как",  "He is not as fast as you."] },
+              { "cells": ["as + наречие + as",     "с наречиями",    "He runs as fast as me."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "She is as clever as her sister.",       "ru": "Она такая же умная, как её сестра." },
+            { "en": "This film is not as good as the book.", "ru": "Фильм не такой хороший, как книга." },
+            { "en": "He runs as fast as me.",                "ru": "Он бегает так же быстро, как я." },
+            { "en": "It's as easy as ABC.",                   "ru": "Это проще простого." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в as…as.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "She is as taller as me.",   "right": "She is as tall as me." },
+            { "wrong": "She is so tall as me.",      "right": "She is as tall as me." },
+            { "wrong": "She is as tall than me.",     "right": "She is as tall as me." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "As…as — сравнение равных. Than — сравнение разных (taller than). Между двумя as всегда прилагательное в обычной форме, не в сравнительной."
+          },
+          "quote": {
+            "text": "As…as — про равенство. Than — про разницу.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
