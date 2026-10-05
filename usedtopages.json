@@ -1,0 +1,95 @@
+{
+  "tenseName": "Used to",
+  "route": "cards_usedto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Used to используется только для прошедших привычек и фактов. Значит: раньше было так, а сейчас уже нет.",
+        "highlights": [
+          { "text": "used to",     "color": "term",    "style": "bold_underline" },
+          { "text": "раньше было",  "color": "info",    "style": "bold" },
+          { "text": "уже нет",      "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "used to", "color": "info" },
+              { "text": "+",       "color": "muted" },
+              { "text": "глагол",  "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["used to + глагол", "раньше делал",     "I used to run every morning."] },
+              { "cells": ["didn't use to",     "раньше не делал", "I didn't use to like coffee."] },
+              { "cells": ["Did you use to…?",  "вопрос",           "Did you use to live here?"] }
+            ],
+            "borderColor": "info"
+          },
+          "callout": {
+            "type": "warning",
+            "title": "Used to vs be used to",
+            "text": "Used to + глагол — раньше делал. Be used to + -ing — привык к чему-то сейчас. Разные вещи!"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I used to have long hair.",       "ru": "Раньше у меня были длинные волосы." },
+            { "en": "She used to work in a bank.",      "ru": "Раньше она работала в банке." },
+            { "en": "We didn't use to have a car.",     "ru": "Раньше у нас не было машины." },
+            { "en": "Did you use to play football?",    "ru": "Ты раньше играл в футбол?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в used to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I use to live in Paris.",       "right": "I used to live in Paris." },
+            { "wrong": "I used to living in Paris.",     "right": "I used to live in Paris." },
+            { "wrong": "I didn't used to like coffee.",  "right": "I didn't use to like coffee." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Used to — было раньше и прошло. Be used to — уже привык сейчас. I used to wake up early (раньше) / I am used to waking up early (сейчас привык)."
+          },
+          "quote": {
+            "text": "Used to смотрит назад — на то, чего больше нет.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
