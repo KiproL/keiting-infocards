@@ -1,0 +1,103 @@
+{
+  "tenseName": "Be about to",
+  "route": "cards_beaboutto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Be about to — действие настолько близко, что произойдёт в течение нескольких секунд. На русский переводится как «вот-вот», «собираюсь прямо сейчас».",
+        "highlights": [
+          { "text": "be about to", "color": "term",    "style": "bold_underline" },
+          { "text": "вот-вот",      "color": "bad",     "style": "bold" },
+          { "text": "прямо сейчас", "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "be about to", "color": "info" },
+              { "text": "+",           "color": "muted" },
+              { "text": "глагол",      "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Форма be по лицам",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Лицо", "Be", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["I",              "am", "I am about to leave."] },
+              { "cells": ["He / She / It",  "is", "She is about to cry."] },
+              { "cells": ["You / We / They","are","We are about to start."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Be about to vs be going to",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["be about to", "вот-вот, прямо сейчас", "I am about to leave."] },
+              { "cells": ["be going to", "план на будущее",         "I am going to leave tomorrow."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I am about to call her.",       "ru": "Я вот-вот ей позвоню." },
+            { "en": "The film is about to start.",    "ru": "Фильм вот-вот начнётся." },
+            { "en": "She is about to cry.",           "ru": "Она вот-вот заплачет." },
+            { "en": "We are about to leave.",         "ru": "Мы вот-вот уйдём." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в be about to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I am about leave.",       "right": "I am about to leave." },
+            { "wrong": "I am about to leaving.",   "right": "I am about to leave." },
+            { "wrong": "I about to go.",            "right": "I am about to go." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Be about to — вот прямо сейчас, следующие три секунды. Be going to — план, время есть."
+          },
+          "quote": {
+            "text": "About to — про следующие секунды. Going to — про следующие дни.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
