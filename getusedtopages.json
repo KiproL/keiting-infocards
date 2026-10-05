@@ -1,0 +1,105 @@
+{
+  "tenseName": "Get used to",
+  "route": "cards_getusedto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Get used to — процесс привыкания. Это не состояние, а действие: ты постепенно привыкаешь к чему-то новому.",
+        "highlights": [
+          { "text": "Get used to",  "color": "term",    "style": "bold_underline" },
+          { "text": "процесс",       "color": "info",    "style": "bold" },
+          { "text": "постепенно",     "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "get used to", "color": "info" },
+              { "text": "+",           "color": "muted" },
+              { "text": "-ing / сущ.", "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "По временам",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Present",  "am / is / are getting used to", "I'm getting used to it."] },
+              { "cells": ["Past",     "got used to",                    "I got used to the noise."] },
+              { "cells": ["Future",   "will get used to",                "You'll get used to it."] },
+              { "cells": ["Perfect",  "have got used to",                "I have got used to living alone."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Get used to vs Be used to",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["be used to",  "уже привык (состояние)",  "I am used to living alone."] },
+              { "cells": ["get used to", "привыкаю (процесс)",       "I am getting used to living alone."] },
+              { "cells": ["will get used to", "привыкну (будущее)",  "I will get used to it."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I'm getting used to the new schedule.", "ru": "Я привыкаю к новому графику." },
+            { "en": "She got used to the cold quickly.",       "ru": "Она быстро привыкла к холоду." },
+            { "en": "You'll get used to it soon.",              "ru": "Ты скоро к этому привыкнешь." },
+            { "en": "He can't get used to waking up early.",    "ru": "Он не может привыкнуть рано вставать." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в get used to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I'm getting used to wake up early.", "right": "I'm getting used to waking up early." },
+            { "wrong": "I got used to live alone.",           "right": "I got used to living alone." },
+            { "wrong": "I get used to wake early.",            "right": "I get used to waking early." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Be used to — уже привык. Get used to — сейчас привыкаю. Процесс vs состояние."
+          },
+          "quote": {
+            "text": "Be used to — фотография. Get used to — фильм.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
