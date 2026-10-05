@@ -1,176 +1,172 @@
-{
-  "tenseName": "Future Simple",
-  "route": "cards_futuresimp",
-  "slides": [
-    {
-      "label": "Формы",
-      "intro": {
-        "text": "Future Simple описывает действие, которое произойдёт в будущем, а также решения в момент речи, обещания и предсказания.",
-        "highlight": "в будущем",
-        "highlightColor": "term"
-      },
-      "sections": [
-        {
-          "title": "Утверждение",
-          "keysValues": [
-            { "key": "I / You / He / She / It / We / They", "value": "+ will + V", "valueColor": "term" }
-          ],
-          "examples": [
-            { "en": "I will call you tomorrow.", "ru": "Я позвоню тебе завтра." },
-            { "en": "She will help us.", "ru": "Она поможет нам." },
-            { "en": "They will arrive soon.", "ru": "Они скоро приедут." }
-          ]
-        },
-        {
-          "title": "Отрицание",
-          "borderColor": "bad",
-          "keysValues": [
-            { "key": "will + not", "value": "+ V", "valueColor": "bad" }
-          ],
-          "examples": [
-            { "en": "She won't cook dinner tonight.", "ru": "Она не будет готовить ужин сегодня." }
-          ]
-        },
-        {
-          "title": "Вопрос",
-          "borderColor": "term",
-          "keysValues": [
-            { "key": "Will + подлежащее", "value": "+ V?", "valueColor": "term" }
-          ],
-          "examples": [
-            { "en": "Will they play football?", "ru": "Они будут играть в футбол?" }
-          ]
-        }
-      ]
-    },
-
-    {
-      "label": "Will",
-      "intro": {
-        "text": "В Future Simple вспомогательный глагол will — форма не меняется по лицам, в отличие от Present Simple и Continuous.",
-        "highlight": "will",
-        "highlightColor": "term"
-      },
-      "sections": [
-        {
-          "title": "Кто использует",
-          "keysValues": [
-            { "key": "will", "value": "I / you / he / she / it / we / they", "valueColor": "example" }
-          ]
-        },
-        {
-          "title": "Сокращения",
-          "keysValues": [
-            { "key": "I will", "value": "I'll", "valueColor": "term" },
-            { "key": "you will", "value": "you'll", "valueColor": "term" },
-            { "key": "he / she / it will", "value": "he'll / she'll / it'll", "valueColor": "term" },
-            { "key": "we / they will", "value": "we'll / they'll", "valueColor": "term" },
-            { "key": "will not", "value": "won't", "valueColor": "term" }
-          ]
-        },
-        {
-          "title": "Примеры",
-          "examples": [
-            { "en": "What will you do next?", "ru": "Что ты будешь делать дальше?", "icon": "question", "iconColor": "bad" },
-            { "en": "He won't be late.", "ru": "Он не опоздает.", "icon": "cross", "iconColor": "bad" }
-          ]
-        }
-      ]
-    },
-
-    {
-      "label": "Вспомогательные слова",
-      "chips": {
-        "intro": "Эти слова подсказывают, что речь идёт о будущем действии или предположении.",
-        "title": "Слова-маркеры",
-        "selectedTitle": "Выбранное слово",
-        "items": [
-          { "word": "tomorrow", "translation": "завтра", "example": "I will finish the report tomorrow.", "exampleTranslation": "Я закончу отчёт завтра." },
-          { "word": "next week", "translation": "на следующей неделе", "example": "We will meet next week.", "exampleTranslation": "Мы встретимся на следующей неделе." },
-          { "word": "soon", "translation": "скоро", "example": "The bus will arrive soon.", "exampleTranslation": "Автобус скоро приедет." },
-          { "word": "in a few days", "translation": "через несколько дней", "example": "She will call you in a few days.", "exampleTranslation": "Она позвонит тебе через несколько дней." },
-          { "word": "someday", "translation": "когда-нибудь", "example": "I will visit Japan someday.", "exampleTranslation": "Я когда-нибудь побываю в Японии." },
-          { "word": "I think / I'm sure", "translation": "я думаю / я уверен", "example": "I think it will rain tomorrow.", "exampleTranslation": "Я думаю, завтра будет дождь." }
-        ]
-      }
-    },
-
-    {
-      "label": "Сокращения и отрицание",
-      "intro": {
-        "text": "Will не меняется по лицам и не требует окончаний у глагола. Главное — правильные сокращения и отрицательная форма.",
-        "highlight": "не меняется по лицам",
-        "highlightColor": "term"
-      },
-      "sections": [
-        {
-          "title": "Правила",
-          "rules": [
-            { "name": "После любого подлежащего", "suffix": "+ will + V", "example": "he will go, they will go, it will go" },
-            { "name": "Отрицание", "suffix": "will not → won't", "example": "I won't go" },
-            { "name": "Краткий ответ", "suffix": "Yes, ... will. / No, ... won't.", "example": "Will you come? — Yes, I will." },
-            { "name": "Устная речь", "suffix": "will почти всегда сокращается", "example": "I'll help, we'll see, they'll know" }
-          ]
-        },
-        {
-          "title": "Исключение",
-          "keysValues": [
-            { "key": "shall", "value": "формальный вариант will для I / we", "valueColor": "term" }
-          ]
-        },
-        {
-          "title": "Примеры",
-          "examples": [
-            { "en": "I'll send you the file.", "ru": "Я отправлю тебе файл." },
-            { "en": "They won't be here on time.", "ru": "Они не будут здесь вовремя." }
-          ]
-        }
-      ]
-    },
-
-    {
-      "label": "Will vs Going to",
-      "intro": {
-        "text": "Will и going to оба говорят о будущем, но используются в разных ситуациях. Их легко перепутать.",
-        "highlight": "в разных ситуациях",
-        "highlightColor": "term"
-      },
-      "sections": [
-        {
-          "title": "Will используется для",
-          "borderColor": "good",
-          "keysValues": [
-            { "key": "Решение", "value": "принятое прямо сейчас", "valueColor": "example" },
-            { "key": "Обещание", "value": "promise, offer", "valueColor": "example" },
-            { "key": "Предсказание", "value": "без явных доказательств", "valueColor": "example" }
-          ]
-        },
-        {
-          "title": "Going to используется для",
-          "borderColor": "bad",
-          "keysValues": [
-            { "key": "План", "value": "заранее принятое решение", "valueColor": "bad" },
-            { "key": "Намерение", "value": "то, что уже решено", "valueColor": "bad" },
-            { "key": "Предсказание", "value": "по видимым признакам", "valueColor": "bad" }
-          ]
-        },
-        {
-          "title": "Сравнение — план",
-          "borderColor": "term",
-          "examples": [
-            { "en": "I'm going to study medicine.", "ru": "Я собираюсь изучать медицину (заранее)." },
-            { "en": "Okay, I'll study medicine then.", "ru": "Хорошо, тогда я буду изучать медицину (спонтанно)." }
-          ]
-        },
-        {
-          "title": "Сравнение — предсказание",
-          "borderColor": "term",
-          "examples": [
-            { "en": "Look at those clouds! It's going to rain.", "ru": "Посмотри на тучи! Будет дождь (по признакам)." },
-            { "en": "I think it will rain next week.", "ru": "Я думаю, на следующей неделе пойдёт дождь (без доказательств)." }
-          ]
-        }
-      ]
-    }
-  ]
-}
+futureSimpleCard = TenseCard(
+    tenseName = "Future Simple",
+    route = "cards_futuresimp",
+    slides = listOf(
+        TenseSlide(
+            label = "Формы",
+            intro = TenseIntro(
+                text = "Future Simple описывает действие, которое произойдёт в будущем, а также решения в момент речи, обещания и предсказания.",
+                highlight = "в будущем",
+                highlightColor = "term"
+            ),
+            sections = listOf(
+                TenseSection(
+                    title = "Утверждение",
+                    keysValues = listOf(
+                        KeyValue(key = "I / You / He / She / It / We / They", value = "+ will + V", valueColor = "term")
+                    ),
+                    examples = listOf(
+                        Example(en = "I will call you tomorrow.", ru = "Я позвоню тебе завтра."),
+                        Example(en = "She will help us.", ru = "Она поможет нам."),
+                        Example(en = "They will arrive soon.", ru = "Они скоро приедут.")
+                    )
+                ),
+                TenseSection(
+                    title = "Отрицание",
+                    borderColor = "bad",
+                    keysValues = listOf(
+                        KeyValue(key = "will + not", value = "+ V", valueColor = "bad")
+                    ),
+                    examples = listOf(
+                        Example(en = "She won't cook dinner tonight.", ru = "Она не будет готовить ужин сегодня.")
+                    )
+                ),
+                TenseSection(
+                    title = "Вопрос",
+                    borderColor = "term",
+                    keysValues = listOf(
+                        KeyValue(key = "Will + подлежащее", value = "+ V?", valueColor = "term")
+                    ),
+                    examples = listOf(
+                        Example(en = "Will they play football?", ru = "Они будут играть в футбол?")
+                    )
+                )
+            )
+        ),
+        TenseSlide(
+            label = "Will",
+            intro = TenseIntro(
+                text = "В Future Simple вспомогательный глагол will — форма не меняется по лицам, в отличие от Present Simple и Continuous.",
+                highlight = "will",
+                highlightColor = "term"
+            ),
+            sections = listOf(
+                TenseSection(
+                    title = "Кто использует",
+                    keysValues = listOf(
+                        KeyValue(key = "will", value = "I / you / he / she / it / we / they", valueColor = "example")
+                    )
+                ),
+                TenseSection(
+                    title = "Сокращения",
+                    keysValues = listOf(
+                        KeyValue(key = "I will", value = "I'll", valueColor = "term"),
+                        KeyValue(key = "you will", value = "you'll", valueColor = "term"),
+                        KeyValue(key = "he / she / it will", value = "he'll / she'll / it'll", valueColor = "term"),
+                        KeyValue(key = "we / they will", value = "we'll / they'll", valueColor = "term"),
+                        KeyValue(key = "will not", value = "won't", valueColor = "term")
+                    )
+                ),
+                TenseSection(
+                    title = "Примеры",
+                    examples = listOf(
+                        Example(en = "What will you do next?", ru = "Что ты будешь делать дальше?", icon = "question", iconColor = "bad"),
+                        Example(en = "He won't be late.", ru = "Он не опоздает.", icon = "cross", iconColor = "bad")
+                    )
+                )
+            )
+        ),
+        TenseSlide(
+            label = "Вспомогательные слова",
+            chips = TenseChips(
+                intro = "Эти слова подсказывают, что речь идёт о будущем действии или предположении.",
+                title = "Слова-маркеры",
+                selectedTitle = "Выбранное слово",
+                items = listOf(
+                    ChipItem(word = "tomorrow", translation = "завтра", example = "I will finish the report tomorrow.", exampleTranslation = "Я закончу отчёт завтра."),
+                    ChipItem(word = "next week", translation = "на следующей неделе", example = "We will meet next week.", exampleTranslation = "Мы встретимся на следующей неделе."),
+                    ChipItem(word = "soon", translation = "скоро", example = "The bus will arrive soon.", exampleTranslation = "Автобус скоро приедет."),
+                    ChipItem(word = "in a few days", translation = "через несколько дней", example = "She will call you in a few days.", exampleTranslation = "Она позвонит тебе через несколько дней."),
+                    ChipItem(word = "someday", translation = "когда-нибудь", example = "I will visit Japan someday.", exampleTranslation = "Я когда-нибудь побываю в Японии."),
+                    ChipItem(word = "I think / I'm sure", translation = "я думаю / я уверен", example = "I think it will rain tomorrow.", exampleTranslation = "Я думаю, завтра будет дождь.")
+                )
+            )
+        ),
+        TenseSlide(
+            label = "Сокращения и отрицание",
+            intro = TenseIntro(
+                text = "Will не меняется по лицам и не требует окончаний у глагола. Главное — правильные сокращения и отрицательная форма.",
+                highlight = "не меняется по лицам",
+                highlightColor = "term"
+            ),
+            sections = listOf(
+                TenseSection(
+                    title = "Правила",
+                    rules = listOf(
+                        Rule(name = "После любого подлежащего", suffix = "+ will + V", example = "he will go, they will go, it will go"),
+                        Rule(name = "Отрицание", suffix = "will not → won't", example = "I won't go"),
+                        Rule(name = "Краткий ответ", suffix = "Yes, ... will. / No, ... won't.", example = "Will you come? — Yes, I will."),
+                        Rule(name = "Устная речь", suffix = "will почти всегда сокращается", example = "I'll help, we'll see, they'll know")
+                    )
+                ),
+                TenseSection(
+                    title = "Исключение",
+                    keysValues = listOf(
+                        KeyValue(key = "shall", value = "формальный вариант will для I / we", valueColor = "term")
+                    )
+                ),
+                TenseSection(
+                    title = "Примеры",
+                    examples = listOf(
+                        Example(en = "I'll send you the file.", ru = "Я отправлю тебе файл."),
+                        Example(en = "They won't be here on time.", ru = "Они не будут здесь вовремя.")
+                    )
+                )
+            )
+        ),
+        TenseSlide(
+            label = "Will vs Going to",
+            intro = TenseIntro(
+                text = "Will и going to оба говорят о будущем, но используются в разных ситуациях. Их легко перепутать.",
+                highlight = "в разных ситуациях",
+                highlightColor = "term"
+            ),
+            sections = listOf(
+                TenseSection(
+                    title = "Will используется для",
+                    borderColor = "good",
+                    keysValues = listOf(
+                        KeyValue(key = "Решение", value = "принятое прямо сейчас", valueColor = "example"),
+                        KeyValue(key = "Обещание", value = "promise, offer", valueColor = "example"),
+                        KeyValue(key = "Предсказание", value = "без явных доказательств", valueColor = "example")
+                    )
+                ),
+                TenseSection(
+                    title = "Going to используется для",
+                    borderColor = "bad",
+                    keysValues = listOf(
+                        KeyValue(key = "План", value = "заранее принятое решение", valueColor = "bad"),
+                        KeyValue(key = "Намерение", value = "то, что уже решено", valueColor = "bad"),
+                        KeyValue(key = "Предсказание", value = "по видимым признакам", valueColor = "bad")
+                    )
+                ),
+                TenseSection(
+                    title = "Сравнение — план",
+                    borderColor = "term",
+                    examples = listOf(
+                        Example(en = "I'm going to study medicine.", ru = "Я собираюсь изучать медицину (заранее)."),
+                        Example(en = "Okay, I'll study medicine then.", ru = "Хорошо, тогда я буду изучать медицину (спонтанно).")
+                    )
+                ),
+                TenseSection(
+                    title = "Сравнение — предсказание",
+                    borderColor = "term",
+                    examples = listOf(
+                        Example(en = "Look at those clouds! It's going to rain.", ru = "Посмотри на тучи! Будет дождь (по признакам)."),
+                        Example(en = "I think it will rain next week.", ru = "Я думаю, на следующей неделе пойдёт дождь (без доказательств).")
+                    )
+                )
+            )
+        )
+    )
+)
