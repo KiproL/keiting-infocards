@@ -1,0 +1,327 @@
+{
+  "tenseName": "Descriptions",
+  "route": "cards_descriptions",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Описания строятся на двух китах: прилагательные и наречия говорят, какой предмет и как происходит действие. А притяжательный падеж показывает, чей это предмет.",
+        "highlights": [
+          { "text": "Описания",           "color": "term",    "style": "bold_underline" },
+          { "text": "прилагательные",      "color": "info",    "style": "bold" },
+          { "text": "наречия",              "color": "example", "style": "bold" },
+          { "text": "притяжательный",       "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Две подтемы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Подтема", "Что делает", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Adjectives vs Adverbs", "как описывать предмет и действие", "a quick runner / he runs quickly"] },
+              { "cells": ["Possessive Case",         "чей предмет",                       "Tom's car / the car of my friend"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Описывать — значит точно называть качества и принадлежность.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Adjectives",
+      "intro": {
+        "text": "Прилагательные описывают существительное: какой предмет. Они не меняются по числам и всегда стоят перед существительным или после to be.",
+        "highlights": [
+          { "text": "Adjectives",       "color": "term",    "style": "bold_underline" },
+          { "text": "какой предмет",     "color": "info",    "style": "bold" },
+          { "text": "не меняются",        "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Где стоят",
+          "borderColor": "term",
+          "rules": [
+            { "name": "Перед существительным",  "suffix": "определение",   "example": "a beautiful garden" },
+            { "name": "После to be",              "suffix": "предикатив",    "example": "The garden is beautiful." },
+            { "name": "После feel, look, taste, sound, smell","suffix": "ощущение","example": "The soup tastes delicious." },
+            { "name": "После make, keep",          "suffix": "результат",    "example": "The news made me happy." }
+          ]
+        },
+        {
+          "title": "Не меняются по числам",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Одна форма для всех",
+            "text": "В отличие от русского, английское прилагательное не меняется: a tall man / two tall men / tall women — форма одна."
+          },
+          "examples": [
+            { "en": "a tall man",         "ru": "высокий мужчина" },
+            { "en": "two tall men",        "ru": "два высоких мужчины" },
+            { "en": "tall women",           "ru": "высокие женщины" }
+          ]
+        },
+        {
+          "title": "Порядок прилагательных",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Порядок", "Тип", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["1", "Мнение",       "nice, beautiful, ugly"] },
+              { "cells": ["2", "Размер",        "big, small, tall"] },
+              { "cells": ["3", "Возраст",       "old, new, young"] },
+              { "cells": ["4", "Форма",         "round, square"] },
+              { "cells": ["5", "Цвет",          "red, blue, green"] },
+              { "cells": ["6", "Происхождение", "French, Chinese"] },
+              { "cells": ["7", "Материал",      "wooden, plastic"] }
+            ],
+            "borderColor": "info"
+          },
+          "examples": [
+            { "en": "a nice big old round red French wooden table", "ru": "полный порядок" },
+            { "en": "a beautiful small old house",                    "ru": "красивый маленький старый дом" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "She has long black hair.",           "ru": "У неё длинные чёрные волосы." },
+            { "en": "This coffee is too hot.",              "ru": "Этот кофе слишком горячий." },
+            { "en": "It was a nice sunny day.",              "ru": "Был хороший солнечный день." },
+            { "en": "I bought a new wooden table.",           "ru": "Я купил новый деревянный стол." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Adverbs",
+      "intro": {
+        "text": "Наречия описывают глагол: как происходит действие. Они отвечают на вопрос «как?» и часто образуются от прилагательных через -ly.",
+        "highlights": [
+          { "text": "Adverbs",       "color": "term",    "style": "bold_underline" },
+          { "text": "как происходит", "color": "info",    "style": "bold" },
+          { "text": "-ly",            "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как образуются",
+          "borderColor": "info",
+          "rules": [
+            { "name": "Большинство",           "suffix": "+ ly",            "example": "quick → quickly, slow → slowly" },
+            { "name": "На -y",                   "suffix": "y → ily",          "example": "happy → happily, easy → easily" },
+            { "name": "На -le",                  "suffix": "e → y",             "example": "simple → simply, gentle → gently" },
+            { "name": "На -ic",                  "suffix": "+ ally",           "example": "basic → basically, automatic → automatically" },
+            { "name": "Исключения",              "suffix": "особая форма",      "example": "good → well, fast → fast, hard → hard" }
+          ]
+        },
+        {
+          "title": "Где стоят",
+          "borderColor": "term",
+          "rules": [
+            { "name": "После глагола",           "suffix": "обычное место",   "example": "She speaks slowly." },
+            { "name": "Перед прилагательным",     "suffix": "усиление",         "example": "It's extremely cold." },
+            { "name": "Перед другим наречием",    "suffix": "усиление",         "example": "He runs very quickly." },
+            { "name": "В начале для акцента",     "suffix": "эмфаза",           "example": "Suddenly, it started raining." }
+          ]
+        },
+        {
+          "title": "Adjective vs Adverb",
+          "borderColor": "bad",
+          "table": {
+            "headers": ["Прилагательное", "Наречие", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["quick",    "quickly",   "a quick runner / he runs quickly"] },
+              { "cells": ["careful",  "carefully", "a careful driver / he drives carefully"] },
+              { "cells": ["good",     "well",       "a good singer / she sings well"] },
+              { "cells": ["fast",     "fast",        "a fast car / he drives fast"] },
+              { "cells": ["hard",     "hard",         "hard work / he works hard"] },
+              { "cells": ["late",     "late",          "a late arrival / he arrived late"] }
+            ],
+            "borderColor": "bad"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "She speaks English fluently.",       "ru": "Она говорит по-английски бегло." },
+            { "en": "He drives very carefully.",           "ru": "Он водит очень аккуратно." },
+            { "en": "They finished the work quickly.",      "ru": "Они быстро закончили работу." },
+            { "en": "The film was surprisingly good.",       "ru": "Фильм был на удивление хорош." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Good vs Well",
+      "intro": {
+        "text": "Good — прилагательное, well — наречие. Это самая частая пара ошибок у русскоговорящих, потому что в русском и то, и то — «хорошо».",
+        "highlights": [
+          { "text": "Good",   "color": "info",    "style": "bold" },
+          { "text": "Well",   "color": "term",    "style": "bold" },
+          { "text": "прилагательное", "color": "example", "style": "bold" },
+          { "text": "наречие",         "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Правило",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Что описывает", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["good",  "существительное",  "a good book, he is good at math"] },
+              { "cells": ["well",  "глагол (как)",       "he sings well, she plays well"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Особый случай: well = здоровье",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "I am well",
+            "text": "После to be well означает «здоров, в порядке». А good после to be означает «хороший (о человеке или вещи)»."
+          },
+          "examples": [
+            { "en": "I am well.",         "ru": "Я в порядке. (здоров)" },
+            { "en": "I am good.",          "ru": "Я хороший. / У меня всё ок." },
+            { "en": "I feel well.",         "ru": "Я хорошо себя чувствую." },
+            { "en": "I feel good.",          "ru": "Я хорошо себя чувствую. (неформально)" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "She is a good singer.",        "ru": "Она хорошая певица." },
+            { "en": "She sings well.",                "ru": "Она хорошо поёт." },
+            { "en": "He is good at math.",             "ru": "Он хорош в математике." },
+            { "en": "He did well in the exam.",          "ru": "Он хорошо сдал экзамен." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Possessive Case",
+      "intro": {
+        "text": "Притяжательный падеж показывает, чей предмет. Есть две формы: 's для людей и животных, и of для вещей и абстрактных понятий.",
+        "highlights": [
+          { "text": "Possessive Case",  "color": "term",    "style": "bold_underline" },
+          { "text": "'s",                "color": "info",    "style": "bold" },
+          { "text": "of",                "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Две формы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Когда", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["'s",  "люди, животные, время", "Tom's car, the dog's tail, today's news"] },
+              { "cells": ["of",  "вещи, абстрактные",      "the roof of the house, the end of the film"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Правила 's",
+          "borderColor": "term",
+          "rules": [
+            { "name": "Обычное сущ.",           "suffix": "+ 's",       "example": "Tom's book" },
+            { "name": "Оканчивается на -s",     "suffix": "+ '",         "example": "James' car (или James's)" },
+            { "name": "Множественное на -s",    "suffix": "+ '",         "example": "the students' books" },
+            { "name": "Множественное без -s",   "suffix": "+ 's",        "example": "the children's toys" },
+            { "name": "Два владельца (общий)",  "suffix": "второй + 's", "example": "Tom and Mary's house" }
+          ]
+        },
+        {
+          "title": "Особые случаи",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "Время и расстояние",   "suffix": "'s",   "example": "today's news, a week's holiday" },
+            { "name": "Страны и города",       "suffix": "'s",   "example": "Russia's capital, London's parks" },
+            { "name": "Организации",           "suffix": "'s",   "example": "the company's profit" },
+            { "name": "Место жительства",      "suffix": "'s",   "example": "at my friend's (у друга)" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "This is Tom's book.",               "ru": "Это книга Тома." },
+            { "en": "The roof of the house is red.",      "ru": "Крыша дома красная." },
+            { "en": "I am at my friend's.",                "ru": "Я у друга." },
+            { "en": "The children's toys are here.",        "ru": "Игрушки детей здесь." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Десять самых частых ошибок в описаниях.",
+        "highlights": [
+          { "text": "Десять самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "She sings good.",              "right": "She sings well." },
+            { "wrong": "He is a well singer.",           "right": "He is a good singer." },
+            { "wrong": "She speaks English good.",        "right": "She speaks English well." },
+            { "wrong": "I feel goodly.",                   "right": "I feel good." },
+            { "wrong": "It is a red big car.",              "right": "It is a big red car." },
+            { "wrong": "a wooden old table.",                "right": "an old wooden table." },
+            { "wrong": "The book's cover of…",                "right": "The cover of the book…" },
+            { "wrong": "The car of Tom is red.",               "right": "Tom's car is red." },
+            { "wrong": "The childrens' toys.",                  "right": "The children's toys." },
+            { "wrong": "James's and Mary's house. (общий дом)","right": "James and Mary's house." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "Good — перед существительным. Well — после глагола. 's — для людей. Of — для вещей. Порядок прилагательных: мнение → размер → возраст → форма → цвет → происхождение → материал."
+          },
+          "quote": {
+            "text": "Good и well — самая частая пара, где ошибаются даже опытные ученики.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
