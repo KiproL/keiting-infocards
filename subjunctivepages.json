@@ -1,0 +1,103 @@
+{
+  "tenseName": "Subjunctive",
+  "route": "cards_subjunctive",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Subjunctive — сослагательное наклонение. Используется после глаголов требования, предложения, совета и после безличных конструкций. Глагол остаётся в начальной форме, без -s в 3-м лице.",
+        "highlights": [
+          { "text": "Subjunctive",  "color": "term",    "style": "bold_underline" },
+          { "text": "требования",    "color": "info",    "style": "bold" },
+          { "text": "без -s",        "color": "example", "style": "bold" },
+          { "text": "начальной форме","color": "bad",   "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "suggest / demand / insist", "color": "info" },
+              { "text": "+",                          "color": "muted" },
+              { "text": "that + S",                    "color": "example" },
+              { "text": "+",                          "color": "muted" },
+              { "text": "глагол (без -s)",             "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "После чего используется",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Тип глагола", "Примеры", "Пример предложения"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Предложение",  "suggest, recommend, propose", "I suggest that he go."] },
+              { "cells": ["Требование",    "demand, insist, require",     "They demanded that she leave."] },
+              { "cells": ["Безличное",      "It's essential, important",   "It's important that he be there."] },
+              { "cells": ["Желание",         "wish, if only",               "I wish I were taller."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Главная особенность",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Без -s в 3-м лице",
+            "text": "I suggest that he GO — не goes. She be — не is. Это главное отличие subjunctive от обычного Present Simple."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I suggest that he go home.",            "ru": "Предлагаю ему пойти домой." },
+            { "en": "It's essential that she be on time.",   "ru": "Важно, чтобы она была вовремя." },
+            { "en": "They demanded that he leave.",           "ru": "Они потребовали, чтобы он ушёл." },
+            { "en": "I wish I were taller.",                   "ru": "Хотел бы я быть выше." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в subjunctive.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I suggest that he goes.",            "right": "I suggest that he go." },
+            { "wrong": "It's important that she is on time.", "right": "It's important that she be on time." },
+            { "wrong": "They demanded that he to leave.",     "right": "They demanded that he leave." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Где встречается",
+            "text": "Subjunctive чаще в формальной и академической речи. В разговорной часто заменяется на should: I suggest that he should go — тоже правильно."
+          },
+          "quote": {
+            "text": "Subjunctive — редкая, но элегантная форма для формальной речи.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
