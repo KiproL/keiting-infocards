@@ -3,124 +3,239 @@
   "route": "cards_futureperfcont",
   "slides": [
     {
-      "label": "Формы",
+      "label": "Что это",
       "intro": {
-        "text": "Future Perfect Continuous описывает действие, которое будет длиться вплоть до определённого момента в будущем — важна длительность к этому сроку.",
-        "highlight": "будет длиться вплоть до момента",
-        "highlightColor": "term"
+        "text": "Future Perfect Continuous описывает действие, которое будет длиться вплоть до определённого момента в будущем. Важна длительность к этому сроку, а не результат.",
+        "highlights": [
+          { "text": "Future Perfect Continuous", "color": "term",    "style": "bold_underline" },
+          { "text": "будет длиться",              "color": "info",    "style": "bold" },
+          { "text": "длительность к сроку",        "color": "example", "style": "bold" }
+        ]
       },
       "sections": [
         {
-          "title": "Утверждение",
-          "keysValues": [
-            { "key": "I / You / He / She / It / We / They", "value": "+ will have been + V-ing", "valueColor": "term" }
-          ],
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "S",             "color": "info" },
+              { "text": "+",             "color": "muted" },
+              { "text": "will have been", "color": "term" },
+              { "text": "+",             "color": "muted" },
+              { "text": "V-ing",          "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение с другими Perfect",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Future Perfect",             "will have + V3",          "I will have worked."] },
+              { "cells": ["Future Perfect Continuous",   "will have been + V-ing",   "I will have been working."] },
+              { "cells": ["Present Perfect Continuous",  "have been + V-ing",        "I have been working."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Ключевые маркеры",
+          "borderColor": "good",
+          "verbGrid": {
+            "accentColor": "example",
+            "verbs": ["for", "by", "by the time", "since", "by then", "how long"]
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
           "examples": [
             { "en": "By June, I will have been working here for five years.", "ru": "К июню я буду работать здесь уже пять лет." },
-            { "en": "She will have been studying for three hours by noon.", "ru": "К полудню она будет заниматься уже три часа." }
+            { "en": "She will have been studying for three hours by noon.",    "ru": "К полудню она будет заниматься уже три часа." },
+            { "en": "By next month, we will have been renovating the house for a year.", "ru": "К следующему месяцу мы будем ремонтировать дом уже год." },
+            { "en": "She will have been driving for six hours by then.",         "ru": "К тому времени она будет за рулём уже шесть часов." }
           ]
         },
         {
-          "title": "Отрицание",
-          "borderColor": "bad",
-          "keysValues": [
-            { "key": "will + not", "value": "+ have been + V-ing", "valueColor": "bad" }
-          ],
-          "examples": [
-            { "en": "They won't have been waiting long by then.", "ru": "Они не будут ждать долго к тому моменту." }
-          ]
-        },
-        {
-          "title": "Вопрос",
-          "borderColor": "term",
-          "keysValues": [
-            { "key": "Will + подлежащее", "value": "+ have been + V-ing?", "valueColor": "term" }
-          ],
-          "examples": [
-            { "en": "Will you have been living here for a year by March?", "ru": "К марту ты будешь жить здесь уже год?" }
-          ]
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Future Perfect Continuous — про то, как долго ты уже будешь что-то делать к определённой точке будущего.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
         }
       ]
     },
 
     {
-      "label": "Will have been",
+      "label": "Три формы",
       "intro": {
-        "text": "В Future Perfect Continuous используется will have been + глагол с окончанием -ing. Форма не меняется по лицам.",
-        "highlight": "will have been",
-        "highlightColor": "term"
+        "text": "Will have been не меняется по лицам. Одна форма для всех.",
+        "highlights": [
+          { "text": "will have been", "color": "term",    "style": "bold_underline" },
+          { "text": "не меняется",      "color": "info",    "style": "bold" }
+        ]
       },
       "sections": [
         {
-          "title": "Кто использует",
-          "keysValues": [
-            { "key": "will have been", "value": "I / you / he / she / it / we / they", "valueColor": "example" }
+          "title": "Утверждение",
+          "borderColor": "good",
+          "formulaCard": {
+            "parts": [
+              { "text": "I / You / He / She / It / We / They", "color": "info" },
+              { "text": "+",                                   "color": "muted" },
+              { "text": "will have been + V-ing",              "color": "example" }
+            ],
+            "accentColor": "good"
+          },
+          "examples": [
+            { "en": "I will have been working here for five years by June.", "ru": "К июню я буду работать здесь пять лет." },
+            { "en": "She will have been studying for three hours by noon.",   "ru": "К полудню она будет заниматься три часа." }
+          ]
+        },
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "formulaCard": {
+            "parts": [
+              { "text": "will",          "color": "info" },
+              { "text": "+",             "color": "muted" },
+              { "text": "not have been", "color": "bad" },
+              { "text": "+",             "color": "muted" },
+              { "text": "V-ing",         "color": "example" }
+            ],
+            "accentColor": "bad"
+          },
+          "examples": [
+            { "en": "They won't have been waiting long by then.", "ru": "Они не будут ждать долго к тому моменту." },
+            { "en": "I won't have been sleeping for long.",         "ru": "Я не буду спать долго." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "info",
+          "formulaCard": {
+            "parts": [
+              { "text": "Will", "color": "info" },
+              { "text": "+",    "color": "muted" },
+              { "text": "S",    "color": "example" },
+              { "text": "+",    "color": "muted" },
+              { "text": "have been + V-ing?", "color": "term" }
+            ],
+            "accentColor": "info"
+          },
+          "examples": [
+            { "en": "Will you have been living here for a year by March?",     "ru": "К марту ты будешь жить здесь уже год?" },
+            { "en": "How long will you have been working here by 2027?",        "ru": "Как долго ты будешь работать здесь к 2027 году?" }
           ]
         },
         {
           "title": "Сокращения",
-          "keysValues": [
-            { "key": "I will have been", "value": "I'll have been", "valueColor": "term" },
-            { "key": "you / we will have been", "value": "you'll / we'll have been", "valueColor": "term" },
-            { "key": "he / she will have been", "value": "he'll / she'll have been", "valueColor": "term" },
-            { "key": "will not have been", "value": "won't have been", "valueColor": "term" }
-          ]
-        },
-        {
-          "title": "Примеры",
-          "examples": [
-            { "en": "How long will you have been working here by 2027?", "ru": "Как долго ты будешь работать здесь к 2027 году?", "icon": "question", "iconColor": "bad" },
-            { "en": "He won't have been sleeping long when the alarm rings.", "ru": "Он поспит совсем недолго, когда прозвенит будильник.", "icon": "cross", "iconColor": "bad" }
-          ]
+          "borderColor": "term",
+          "table": {
+            "headers": ["Полная форма", "Сокращение"],
+            "headerColors": ["info", "example"],
+            "rows": [
+              { "cells": ["I will have been",   "I'll have been"] },
+              { "cells": ["you will have been", "you'll have been"] },
+              { "cells": ["he will have been",   "he'll have been"] },
+              { "cells": ["will not have been",  "won't have been"] }
+            ],
+            "borderColor": "term"
+          }
         }
       ]
     },
 
     {
       "label": "Слова-маркеры",
-      "chips": {
-        "intro": "Эти слова показывают длительность действия, которая накопится к определённому сроку в будущем.",
-        "title": "Слова-маркеры",
-        "selectedTitle": "Выбранное слово",
-        "items": [
-          { "word": "for", "translation": "в течение (периода)", "example": "By December, I will have been living here for ten years.", "exampleTranslation": "К декабрю я буду жить здесь уже десять лет." },
-          { "word": "by", "translation": "к (сроку)", "example": "By 6 pm, she will have been working for eight hours.", "exampleTranslation": "К 6 вечера она будет работать уже восемь часов." },
-          { "word": "by the time", "translation": "к тому времени как", "example": "By the time you arrive, I will have been cooking for an hour.", "exampleTranslation": "К тому времени, как ты приедешь, я буду готовить уже час." },
-          { "word": "since", "translation": "с (момента)", "example": "By next year, he will have been teaching since 2015.", "exampleTranslation": "К следующему году он будет преподавать с 2015 года." },
-          { "word": "by then", "translation": "к тому времени", "example": "By then, they will have been traveling for two months.", "exampleTranslation": "К тому времени они будут путешествовать уже два месяца." },
-          { "word": "how long", "translation": "как долго", "example": "How long will you have been studying by graduation?", "exampleTranslation": "Как долго ты будешь учиться к моменту выпуска?" }
+      "intro": {
+        "text": "Эти слова показывают длительность действия, которая накопится к определённому сроку в будущем.",
+        "highlights": [
+          { "text": "Слова-маркеры", "color": "term",    "style": "bold_underline" },
+          { "text": "длительность",   "color": "info",    "style": "bold" },
+          { "text": "накопится",       "color": "example", "style": "bold" }
         ]
-      }
+      },
+      "sections": [
+        {
+          "title": "Главные маркеры",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Маркер", "Перевод", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["for",          "в течение",           "By December, I'll have been living here for ten years."] },
+              { "cells": ["by",           "к (сроку)",            "By 6 pm, she'll have been working for eight hours."] },
+              { "cells": ["by the time",  "к тому времени как",   "By the time you arrive, I'll have been cooking for an hour."] },
+              { "cells": ["since",        "с (момента)",           "By next year, he'll have been teaching since 2015."] },
+              { "cells": ["by then",      "к тому времени",        "By then, they'll have been traveling for two months."] },
+              { "cells": ["how long",     "как долго",             "How long will you have been studying by graduation?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "For vs Since",
+          "borderColor": "term",
+          "rules": [
+            { "name": "for",  "suffix": "период (сколько)",       "example": "I'll have been working here for five years." },
+            { "name": "since", "suffix": "начало (с какого времени)","example": "He'll have been teaching since 2015." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "By December, I will have been living here for ten years.", "ru": "К декабрю я буду жить здесь уже десять лет." },
+            { "en": "By the time you arrive, I will have been cooking for an hour.", "ru": "К тому времени, как ты приедешь, я буду готовить уже час." },
+            { "en": "By then, they will have been traveling for two months.",  "ru": "К тому времени они будут путешествовать уже два месяца." }
+          ]
+        }
+      ]
     },
 
     {
       "label": "Окончание -ing",
       "intro": {
         "text": "После been глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
-        "highlight": "been",
-        "highlightColor": "term"
+        "highlights": [
+          { "text": "-ing",   "color": "term",    "style": "bold_underline" },
+          { "text": "been",    "color": "info",    "style": "bold" },
+          { "text": "написание","color": "example", "style": "bold" }
+        ]
       },
       "sections": [
         {
           "title": "Правила",
+          "borderColor": "info",
           "rules": [
-            { "name": "Большинство глаголов", "suffix": "+ ing", "example": "work → working, study → studying" },
-            { "name": "Немая -e", "suffix": "e убирается + ing", "example": "write → writing, live → living" },
-            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ing", "example": "run → running, sit → sitting" },
-            { "name": "Глаголы на -ie", "suffix": "ie → y + ing", "example": "lie → lying, die → dying" }
+            { "name": "Большинство глаголов",     "suffix": "+ ing",                "example": "work → working, study → studying" },
+            { "name": "Немая -e",                 "suffix": "e убирается + ing",     "example": "write → writing, live → living" },
+            { "name": "Гласная + согл. в конце",  "suffix": "удвоение + ing",         "example": "run → running, sit → sitting" },
+            { "name": "Глаголы на -ie",            "suffix": "ie → y + ing",           "example": "lie → lying, die → dying" }
           ]
         },
         {
-          "title": "Важно",
-          "keysValues": [
-            { "key": "been", "value": "не изменяется, стоит перед V-ing", "valueColor": "term" }
-          ]
+          "title": "Что не меняется",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "been фиксировано",
+            "text": "После will have всегда стоит been. Не be, не was — только been. И уже после been — глагол с -ing."
+          }
         },
         {
-          "title": "Примеры",
+          "title": "Живые примеры",
+          "borderColor": "good",
           "examples": [
             { "en": "By next month, we will have been renovating the house for a year.", "ru": "К следующему месяцу мы будем ремонтировать дом уже год." },
-            { "en": "She will have been driving for six hours by then.", "ru": "К тому времени она будет за рулём уже шесть часов." }
+            { "en": "She will have been driving for six hours by then.",                   "ru": "К тому времени она будет за рулём уже шесть часов." },
+            { "en": "By 9 pm, I will have been cooking for three hours.",                   "ru": "К 9 вечера я буду готовить уже три часа." }
           ]
         }
       ]
@@ -130,42 +245,95 @@
       "label": "Perfect Continuous vs Perfect",
       "intro": {
         "text": "Оба времени говорят о будущем сроке, но Future Perfect Continuous делает акцент на длительности процесса, а Future Perfect — на результате.",
-        "highlight": "на длительности",
-        "highlightColor": "term"
+        "highlights": [
+          { "text": "Perfect Continuous", "color": "info",    "style": "bold" },
+          { "text": "Perfect",            "color": "term",    "style": "bold" },
+          { "text": "длительности",        "color": "example", "style": "bold_underline" },
+          { "text": "результате",          "color": "bad",     "style": "bold" }
+        ]
       },
       "sections": [
         {
-          "title": "Future Perfect Continuous",
-          "borderColor": "good",
-          "keysValues": [
-            { "key": "Акцент", "value": "процесс, длительность", "valueColor": "example" },
-            { "key": "Форма", "value": "will have been + V-ing", "valueColor": "example" },
-            { "key": "Вопрос", "value": "как долго?", "valueColor": "example" }
-          ]
-        },
-        {
-          "title": "Future Perfect",
-          "borderColor": "bad",
-          "keysValues": [
-            { "key": "Акцент", "value": "результат, факт к сроку", "valueColor": "bad" },
-            { "key": "Форма", "value": "will have + V3", "valueColor": "bad" },
-            { "key": "Вопрос", "value": "сколько сделано?", "valueColor": "bad" }
-          ]
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Акцент", "Форма"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Future Perfect Continuous", "процесс, длительность",  "will have been + V-ing"] },
+              { "cells": ["Future Perfect",             "результат, факт к сроку","will have + V3"] }
+            ],
+            "borderColor": "info"
+          }
         },
         {
           "title": "Примеры",
+          "borderColor": "good",
           "examples": [
-            { "en": "By 9 pm, I will have been cooking for three hours.", "ru": "К 9 вечера я буду готовить уже три часа (процесс)." },
-            { "en": "By 9 pm, I will have cooked five dishes.", "ru": "К 9 вечера я приготовлю пять блюд (результат)." }
+            { "en": "By 9 pm, I will have been cooking for three hours.", "ru": "К 9 вечера я буду готовить уже три часа. (процесс)" },
+            { "en": "By 9 pm, I will have cooked five dishes.",            "ru": "К 9 вечера я приготовлю пять блюд. (результат)" }
           ]
         },
         {
-          "title": "Сравнение",
+          "title": "Ещё примеры",
           "borderColor": "term",
           "examples": [
-            { "en": "By June, she will have been working here for a year.", "ru": "К июню она будет работать здесь уже год (процесс)." },
-            { "en": "By June, she will have finished three projects.", "ru": "К июню она закончит три проекта (результат)." }
+            { "en": "By June, she will have been working here for a year.", "ru": "К июню она будет работать здесь уже год. (процесс)" },
+            { "en": "By June, she will have finished three projects.",       "ru": "К июню она закончит три проекта. (результат)" }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Если отвечаешь на вопрос «как долго?» — Future Perfect Continuous. Если на вопрос «что будет сделано к сроку?» — Future Perfect."
+          },
+          "quote": {
+            "text": "Perfect считает результат, Perfect Continuous измеряет время.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Семь самых частых ошибок в Future Perfect Continuous.",
+        "highlights": [
+          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I will have been work for five hours.",     "right": "I will have been working for five hours." },
+            { "wrong": "She will have been worked for a year.",      "right": "She will have been working for a year." },
+            { "wrong": "I will have been working since five years.",  "right": "I will have been working for five years." },
+            { "wrong": "By June, I will work here for five years.",   "right": "By June, I will have been working here for five years." },
+            { "wrong": "I will have been working since 5 hours.",      "right": "I will have been working for 5 hours." },
+            { "wrong": "We will have been lived here.",                "right": "We will have been living here." },
+            { "wrong": "I will have been be working.",                  "right": "I will have been working." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "Will have been + глагол с -ing. Been не меняется, V-ing не меняется. После for — период, после since — точка начала."
+          },
+          "quote": {
+            "text": "Future Perfect Continuous — редкое, но очень точное время.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
         }
       ]
     }
