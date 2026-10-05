@@ -1,0 +1,105 @@
+{
+  "tenseName": "Be used to",
+  "route": "cards_beusedto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Be used to — привычка к чему-то. Это состояние: ты уже привык, и это для тебя нормально. После него всегда -ing или существительное.",
+        "highlights": [
+          { "text": "Be used to",      "color": "term",    "style": "bold_underline" },
+          { "text": "привычка",         "color": "info",    "style": "bold" },
+          { "text": "уже привык",        "color": "example", "style": "bold" },
+          { "text": "-ing",              "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "be used to", "color": "info" },
+              { "text": "+",          "color": "muted" },
+              { "text": "-ing / сущ.", "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "По временам",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Present",  "am / is / are used to",  "I am used to waking up early."] },
+              { "cells": ["Past",     "was / were used to",      "I was used to cold weather."] },
+              { "cells": ["Future",   "will be used to",         "I will be used to it soon."] },
+              { "cells": ["Отрицание","not used to",             "I'm not used to spicy food."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Be used to vs Used to",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Разные конструкции",
+            "text": "Used to + глагол — раньше делал. Be used to + -ing — привык сейчас. Одна буква be меняет всё."
+          },
+          "examples": [
+            { "en": "I used to wake up early.",         "ru": "Раньше я вставал рано. (сейчас нет)" },
+            { "en": "I am used to waking up early.",     "ru": "Я привык вставать рано. (сейчас так)" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I'm used to living alone.",         "ru": "Я привык жить один." },
+            { "en": "She's used to cold weather.",        "ru": "Она привыкла к холодной погоде." },
+            { "en": "We weren't used to the noise.",       "ru": "Мы не привыкли к этому шуму." },
+            { "en": "He will be used to the new job soon.","ru": "Скоро он привыкнет к новой работе." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в be used to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I'm used to wake up early.",      "right": "I'm used to waking up early." },
+            { "wrong": "I'm used to wake early.",          "right": "I'm used to waking early." },
+            { "wrong": "I use to living alone.",            "right": "I'm used to living alone." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Be used to + -ing — привычка. Used to + глагол — прошлое, которого больше нет. Смотри на be в начале: если есть — это про привычку сейчас."
+          },
+          "quote": {
+            "text": "Be used to — про то, что уже стало нормой.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
