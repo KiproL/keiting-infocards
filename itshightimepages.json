@@ -1,0 +1,101 @@
+{
+  "tenseName": "It's (high) time",
+  "route": "cards_itshightime",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "It's time / It's high time — пора что-то сделать, причём давно. После этой конструкции используется Past Simple, хотя речь о настоящем или будущем. Это грамматический парадокс, который надо просто запомнить.",
+        "highlights": [
+          { "text": "It's high time",  "color": "term",    "style": "bold_underline" },
+          { "text": "давно пора",       "color": "info",    "style": "bold" },
+          { "text": "Past Simple",       "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "It's (high) time", "color": "info" },
+              { "text": "+",                "color": "muted" },
+              { "text": "подлежащее",        "color": "example" },
+              { "text": "+",                "color": "muted" },
+              { "text": "Past Simple",       "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["It's time to + глагол",   "пора сделать",         "It's time to go."] },
+              { "cells": ["It's time + Past Simple",  "пора бы уже (упрек)",  "It's time you went to bed."] },
+              { "cells": ["It's high time + Past Simple","давно пора (сильно)","It's high time you found a job."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "It's time you went to bed.",              "ru": "Пора бы тебе уже спать." },
+            { "en": "It's high time we left.",                 "ru": "Нам давно пора уходить." },
+            { "en": "It's time she started taking things seriously.", "ru": "Пора бы ей уже начать относиться серьёзно." },
+            { "en": "It's high time you told the truth.",       "ru": "Давно пора сказать правду." }
+          ]
+        },
+        {
+          "title": "Почему Past Simple",
+          "borderColor": "term",
+          "callout": {
+            "type": "info",
+            "title": "Логика конструкции",
+            "text": "Past Simple здесь — грамматическая условность. Он показывает, что действие откладывалось слишком долго, поэтому как будто уже должно было произойти."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в It's (high) time.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "It's high time you go to bed.",       "right": "It's high time you went to bed." },
+            { "wrong": "It's high time for you go to bed.",   "right": "It's high time you went to bed." },
+            { "wrong": "It's high time you will go to bed.",  "right": "It's high time you went to bed." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой тест",
+            "text": "После It's time + подлежащее всегда Past Simple. Даже если речь о настоящем или будущем."
+          },
+          "quote": {
+            "text": "It's high time — вежливый упрёк, замаскированный под грамматику.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
