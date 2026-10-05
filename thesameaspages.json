@@ -1,0 +1,137 @@
+{
+  "tenseName": "The same as",
+  "route": "cards_thesameas",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "The same as — указание на полное сходство. «Такой же, как». Используется для сравнения двух предметов, людей или явлений.",
+        "highlights": [
+          { "text": "The same as",  "color": "term",    "style": "bold_underline" },
+          { "text": "полное сходство","color": "info",    "style": "bold" },
+          { "text": "такой же, как",  "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "the same", "color": "info" },
+              { "text": "+",        "color": "muted" },
+              { "text": "сущ.",     "color": "example" },
+              { "text": "+",        "color": "muted" },
+              { "text": "as",       "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["the same as",       "такой же, как",         "My car is the same as yours."] },
+              { "cells": ["the same … as",      "тот же … что и",        "He has the same phone as me."] },
+              { "cells": ["not the same as",    "не такой, как",         "This is not the same as that."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "My phone is the same as yours.",       "ru": "Мой телефон такой же, как твой." },
+            { "en": "She has the same name as me.",           "ru": "У неё такое же имя, как у меня." },
+            { "en": "This is not the same as that.",           "ru": "Это не то же самое, что то." },
+            { "en": "We live in the same city as them.",       "ru": "Мы живём в том же городе, что и они." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "The same as vs As…as",
+      "intro": {
+        "text": "Оба про равенство, но по-разному. The same as — про идентичность предмета. As…as — про равенство качества.",
+        "highlights": [
+          { "text": "the same as", "color": "info", "style": "bold" },
+          { "text": "as…as",       "color": "term", "style": "bold" },
+          { "text": "идентичность", "color": "example", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разница",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["the same as", "тот же самый",        "My car is the same as yours."] },
+              { "cells": ["as…as",       "такой же по качеству","My car is as fast as yours."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "My car is same as yours.",       "right": "My car is the same as yours." },
+            { "wrong": "My car is the same than yours.", "right": "My car is the same as yours." },
+            { "wrong": "The same like yours.",            "right": "The same as yours." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "The same as — про предмет целиком. As…as — про одно качество предмета. The same car — та же машина. As fast as — такая же быстрая."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в the same as.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "My car is same as yours.",       "right": "My car is the same as yours." },
+            { "wrong": "My car is the same than yours.", "right": "My car is the same as yours." },
+            { "wrong": "The same like yours.",            "right": "The same as yours." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой тест",
+            "text": "После the same всегда идёт as, никогда than или like. Это железное правило."
+          },
+          "quote": {
+            "text": "The same as — это про идентичность, а не про похожесть.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
