@@ -1,0 +1,123 @@
+{
+  "tenseName": "Be able to",
+  "route": "cards_beableto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Be able to — способность сделать что-то. Это заменитель can, который работает во всех временах и формах. Используется, когда can не справляется.",
+        "highlights": [
+          { "text": "Be able to",  "color": "term",    "style": "bold_underline" },
+          { "text": "способность",  "color": "info",    "style": "bold" },
+          { "text": "заменитель can","color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "be able to", "color": "info" },
+              { "text": "+",          "color": "muted" },
+              { "text": "глагол",     "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Be able to по временам",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Present",         "am / is / are able to",  "I am able to swim."] },
+              { "cells": ["Past",            "was / were able to",      "I was able to win."] },
+              { "cells": ["Future",          "will be able to",         "I will be able to come."] },
+              { "cells": ["Present Perfect", "have / has been able to","I have been able to finish."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Когда нужен be able to",
+          "borderColor": "term",
+          "rules": [
+            { "name": "После will",       "suffix": "can нельзя",  "example": "I will be able to help." },
+            { "name": "После have",       "suffix": "can нельзя",  "example": "I have been able to do it." },
+            { "name": "После модальных",  "suffix": "can нельзя",  "example": "He might be able to come." },
+            { "name": "Для инфинитива",   "suffix": "can нельзя",  "example": "I would like to be able to ski." }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I will be able to help you tomorrow.",  "ru": "Завтра я смогу тебе помочь." },
+            { "en": "She has been able to swim since age 5.","ru": "Она умеет плавать с 5 лет." },
+            { "en": "We weren't able to finish in time.",     "ru": "Мы не смогли закончить вовремя." },
+            { "en": "He might be able to fix it.",             "ru": "Он, может, сможет это починить." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Be able to vs Can",
+      "intro": {
+        "text": "Can работает только в настоящем. Be able to работает везде — это его главное преимущество.",
+        "highlights": [
+          { "text": "Can",         "color": "info", "style": "bold" },
+          { "text": "Be able to",  "color": "term", "style": "bold" },
+          { "text": "во всех временах","color": "good", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Ситуация", "Can", "Be able to"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Настоящее",     "I can swim.",             "I am able to swim."] },
+              { "cells": ["Будущее",       "— нельзя",                 "I will be able to swim."] },
+              { "cells": ["Perfect",       "— нельзя",                 "I have been able to swim."] },
+              { "cells": ["Инфинитив",     "— нельзя",                 "I want to be able to swim."] }
+            ],
+            "borderColor": "term"
+          },
+          "callout": {
+            "type": "info",
+            "title": "Can и be able to — не всегда взаимозаменяемы",
+            "text": "В настоящем can и be able to почти равнозначны. Но can звучит естественнее. Be able to нужен там, где can не работает."
+          }
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I will can help you.",       "right": "I will be able to help you." },
+            { "wrong": "I have could finish.",        "right": "I have been able to finish." },
+            { "wrong": "I want to can swim.",          "right": "I want to be able to swim." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "Если can нельзя поставить — ставь be able to. Это универсальный заменитель для всех времён."
+          },
+          "quote": {
+            "text": "Can короткий, но бессилен в будущем. Be able to длинный, но работает везде.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
