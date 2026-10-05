@@ -1,0 +1,106 @@
+{
+  "tenseName": "May / Might as well",
+  "route": "cards_mightaswell",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "May / Might as well — «почему бы и не…», «раз уж так». Выражает решение сделать что-то, потому что нет причин этого не делать. Не энтузиазм, а скорее разумный выбор из имеющегося.",
+        "highlights": [
+          { "text": "May / Might as well", "color": "term",    "style": "bold_underline" },
+          { "text": "почему бы не",          "color": "info",    "style": "bold" },
+          { "text": "раз уж так",             "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "may / might", "color": "info" },
+              { "text": "+",           "color": "muted" },
+              { "text": "as well",     "color": "term" },
+              { "text": "+",           "color": "muted" },
+              { "text": "глагол",      "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Оттенки значения",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["may as well",   "решение «раз так»",   "We may as well stay."] },
+              { "cells": ["might as well",  "то же, чуть мягче",  "I might as well try."] },
+              { "cells": ["may as well not", "не стоит и",          "You may as well not bother."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Сравнение со смыслом",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Конструкция", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["might (просто)",   "возможно",              "I might go."] },
+              { "cells": ["might as well",     "почему бы и не",         "I might as well go."] },
+              { "cells": ["had better",        "лучше (с угрозой)",     "I'd better go."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "It's late — we might as well stay.",         "ru": "Поздно — можем и остаться." },
+            { "en": "The bus is gone. We may as well walk.",       "ru": "Автобус ушёл. Почему бы не пойти пешком." },
+            { "en": "I might as well try — I have nothing to lose.","ru": "Почему бы и не попробовать — терять нечего." },
+            { "en": "You may as well tell me the truth.",          "ru": "Можешь и правду сказать." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в May / Might as well.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I might as well to go.",      "right": "I might as well go." },
+            { "wrong": "I might as well going.",       "right": "I might as well go." },
+            { "wrong": "I might well as go.",           "right": "I might as well go." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "После as well — глагол без to. Порядок слов фиксированный: may / might as well + глагол."
+          },
+          "quote": {
+            "text": "May as well — это когда выбор уже сделан, просто нет причин отказываться.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
