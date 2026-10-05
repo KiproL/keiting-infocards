@@ -1,0 +1,481 @@
+{
+  "tenseName": "Questions",
+  "route": "cards_questions",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "В английском пять типов вопросов. Каждый начинается по-своему и служит своей цели. Плюс отдельный вид — Question Tags в конце утверждения.",
+        "highlights": [
+          { "text": "пять типов вопросов", "color": "term",    "style": "bold_underline" },
+          { "text": "Question Tags",        "color": "info",    "style": "bold" },
+          { "text": "утверждения",          "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пять типов",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Тип", "Пример", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Общий",         "Do you like tea?",          "Ты любишь чай?"] },
+              { "cells": ["Специальный",    "Where do you live?",        "Где ты живёшь?"] },
+              { "cells": ["К подлежащему",  "Who called you?",            "Кто тебе позвонил?"] },
+              { "cells": ["Альтернативный", "Tea or coffee?",             "Чай или кофе?"] },
+              { "cells": ["Разделительный", "You like tea, don't you?",   "Ты любишь чай, да?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Не бывает вопросов «наугад». У каждого своя конструкция.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Общий вопрос",
+      "intro": {
+        "text": "Общий вопрос — вопрос ко всему предложению. Ответ на него — да или нет. Начинается с вспомогательного глагола.",
+        "highlights": [
+          { "text": "Общий вопрос",       "color": "term",    "style": "bold_underline" },
+          { "text": "да или нет",          "color": "info",    "style": "bold" },
+          { "text": "вспомогательного",    "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Aux",  "color": "info" },
+              { "text": "+",    "color": "muted" },
+              { "text": "S",    "color": "example" },
+              { "text": "+",    "color": "muted" },
+              { "text": "V?",   "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Какой вспомогательный",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Время", "Aux", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Present Simple",     "do / does",        "Do you like tea?"] },
+              { "cells": ["Past Simple",         "did",              "Did you call him?"] },
+              { "cells": ["Present Continuous",  "am / is / are",    "Are you working?"] },
+              { "cells": ["Present Perfect",     "have / has",       "Have you finished?"] },
+              { "cells": ["Future",              "will",             "Will you come?"] },
+              { "cells": ["Modal",               "can / must / …",   "Can you swim?"] },
+              { "cells": ["to be",               "am / is / are",    "Is he at home?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Краткие ответы",
+          "borderColor": "good",
+          "table": {
+            "headers": ["Вопрос", "Да", "Нет"],
+            "headerColors": ["info", "good", "bad"],
+            "rows": [
+              { "cells": ["Do you like tea?",   "Yes, I do.",     "No, I don't."] },
+              { "cells": ["Did you call?",       "Yes, I did.",    "No, I didn't."] },
+              { "cells": ["Are you ready?",      "Yes, I am.",     "No, I'm not."] },
+              { "cells": ["Can you swim?",       "Yes, I can.",    "No, I can't."] }
+            ],
+            "borderColor": "good"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Do you speak English?",       "ru": "Ты говоришь по-английски?" },
+            { "en": "Did she call you?",            "ru": "Она тебе позвонила?" },
+            { "en": "Are you listening to me?",      "ru": "Ты меня слушаешь?" },
+            { "en": "Have you ever been to Paris?",  "ru": "Ты когда-нибудь был в Париже?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Специальный вопрос",
+      "intro": {
+        "text": "Специальный вопрос начинается с вопросительного слова: what, where, when, why, how. Ответ — не да/нет, а конкретная информация.",
+        "highlights": [
+          { "text": "Специальный",       "color": "term",    "style": "bold_underline" },
+          { "text": "вопросительного слова","color": "info",  "style": "bold" },
+          { "text": "конкретная информация","color": "example","style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Wh-", "color": "info" },
+              { "text": "+",   "color": "muted" },
+              { "text": "Aux", "color": "example" },
+              { "text": "+",   "color": "muted" },
+              { "text": "S",   "color": "term" },
+              { "text": "+",   "color": "muted" },
+              { "text": "V?",  "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Семь главных Wh-",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Wh-", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["What",  "что",          "What do you want?"] },
+              { "cells": ["Where", "где, куда",     "Where do you live?"] },
+              { "cells": ["When",  "когда",          "When did you call?"] },
+              { "cells": ["Why",   "почему",         "Why are you late?"] },
+              { "cells": ["Who",   "кто",            "Who is that?"] },
+              { "cells": ["Whom",  "кого (формально)","Whom did you see?"] },
+              { "cells": ["How",   "как",            "How do you know?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Where do you live?",            "ru": "Где ты живёшь?" },
+            { "en": "When did they arrive?",          "ru": "Когда они приехали?" },
+            { "en": "Why are you crying?",             "ru": "Почему ты плачешь?" },
+            { "en": "How do you spell your name?",     "ru": "Как пишется твоё имя?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Вопрос к подлежащему",
+      "intro": {
+        "text": "Вопрос к подлежащему — особый случай. Здесь не нужен вспомогательный глагол: who / what сразу становится подлежащим.",
+        "highlights": [
+          { "text": "к подлежащему",       "color": "term",    "style": "bold_underline" },
+          { "text": "не нужен aux",         "color": "bad",     "style": "bold" },
+          { "text": "сразу подлежащим",     "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Who / What", "color": "info" },
+              { "text": "+",          "color": "muted" },
+              { "text": "V",          "color": "example" },
+              { "text": "+",          "color": "muted" },
+              { "text": "…?",         "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение с обычным Wh-",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Тип вопроса", "Форма", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["К подлежащему",  "Who + V",          "Who called you?"] },
+              { "cells": ["Обычный Wh-",     "Wh- + aux + S + V", "Who did you call?"] }
+            ],
+            "borderColor": "info"
+          },
+          "callout": {
+            "type": "warning",
+            "title": "Разница",
+            "text": "Who called you? — кто позвонил (он был субъектом). Who did you call? — кому позвонил ты (он был объектом)."
+          }
+        },
+        {
+          "title": "Всегда 3-е лицо ед. ч.",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "Present Simple",     "suffix": "глагол с -s",   "example": "Who wants coffee?" },
+            { "name": "Past Simple",         "suffix": "V2",             "example": "Who called me?" },
+            { "name": "Present Continuous",  "suffix": "is + V-ing",     "example": "Who is knocking?" },
+            { "name": "Present Perfect",     "suffix": "has + V3",       "example": "Who has seen this film?" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Who called you last night?",        "ru": "Кто тебе звонил вчера?" },
+            { "en": "What happened here?",                "ru": "Что здесь случилось?" },
+            { "en": "Who wants some coffee?",              "ru": "Кто хочет кофе?" },
+            { "en": "How many people came to the party?",  "ru": "Сколько людей пришло на вечеринку?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Альтернативный вопрос",
+      "intro": {
+        "text": "Альтернативный вопрос предлагает выбор между двумя вариантами. Ответ — один из предложенных, а не да/нет.",
+        "highlights": [
+          { "text": "Альтернативный",  "color": "term",    "style": "bold_underline" },
+          { "text": "выбор",            "color": "info",    "style": "bold" },
+          { "text": "or",               "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Aux + S + V",  "color": "info" },
+              { "text": "·",             "color": "muted" },
+              { "text": "A",             "color": "example" },
+              { "text": "or",            "color": "term" },
+              { "text": "B?",            "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Что может быть вариантом",
+          "borderColor": "info",
+          "rules": [
+            { "name": "Предмет",   "suffix": "A or B",       "example": "Do you want tea or coffee?" },
+            { "name": "Место",      "suffix": "A or B",       "example": "Do you live in London or Paris?" },
+            { "name": "Время",      "suffix": "A or B",       "example": "Are you coming today or tomorrow?" },
+            { "name": "Действие",   "suffix": "V or V",       "example": "Do you want to stay or go?" },
+            { "name": "Человек",    "suffix": "A or B",       "example": "Did you call John or Mary?" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Do you want tea or coffee?",            "ru": "Ты хочешь чай или кофе?" },
+            { "en": "Are you coming today or tomorrow?",      "ru": "Ты придёшь сегодня или завтра?" },
+            { "en": "Do you live in London or Paris?",         "ru": "Ты живёшь в Лондоне или Париже?" },
+            { "en": "Will you drive or take the train?",        "ru": "Ты поедешь на машине или на поезде?" }
+          ]
+        },
+        {
+          "title": "Без or — не альтернативный",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Or обязателен",
+            "text": "Без or это уже обычный общий или специальный вопрос. Альтернативный именно потому и альтернативный, что предлагает выбор."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Question Tags",
+      "intro": {
+        "text": "Question Tag — короткий «хвостик» в конце утверждения. По-русски — «не так ли?», «да?», «правда?». Используется, чтобы подтвердить или опровергнуть.",
+        "highlights": [
+          { "text": "Question Tag",     "color": "term",    "style": "bold_underline" },
+          { "text": "хвостик",           "color": "info",    "style": "bold" },
+          { "text": "подтвердить",       "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Утверждение", "color": "info" },
+              { "text": ",",           "color": "muted" },
+              { "text": "aux + not + S?", "color": "term" },
+              { "text": "·",           "color": "muted" },
+              { "text": "Отрицание, aux + S?", "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Главное правило",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Зеркальность",
+            "text": "Если основная часть утвердительная — хвостик отрицательный. Если основная отрицательная — хвостик утвердительный."
+          },
+          "table": {
+            "headers": ["Основа", "Хвостик", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["+ Утверждение", "— Отрицание",  "You like tea, don't you?"] },
+              { "cells": ["— Отрицание",  "+ Утверждение", "You don't like tea, do you?"] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Полная таблица",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Основа", "Хвостик", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["am",        "aren't I",        "I am right, aren't I?"] },
+              { "cells": ["is",        "isn't it",         "It is cold, isn't it?"] },
+              { "cells": ["are",       "aren't you",       "You are ready, aren't you?"] },
+              { "cells": ["V (Present Simple)",  "don't / doesn't",  "She works here, doesn't she?"] },
+              { "cells": ["V2 (Past)",  "didn't",           "He called you, didn't he?"] },
+              { "cells": ["have / has", "haven't / hasn't",  "You have finished, haven't you?"] },
+              { "cells": ["will",       "won't",             "You will come, won't you?"] },
+              { "cells": ["can",        "can't",             "She can swim, can't she?"] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Интонация решает",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Два смысла",
+            "text": "Если интонация падает ↓ — говорящий уверен, ищет подтверждение. Если интонация растёт ↑ — говорящий действительно спрашивает."
+          },
+          "examples": [
+            { "en": "You like tea, don't you? ↓",  "ru": "Ты любишь чай, да? (уверен)" },
+            { "en": "You like tea, don't you? ↑",   "ru": "Ты любишь чай, да? (правда не знаю)" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "You are from Spain, aren't you?",        "ru": "Ты из Испании, да?" },
+            { "en": "She doesn't like coffee, does she?",      "ru": "Она не любит кофе, правда?" },
+            { "en": "We have met before, haven't we?",          "ru": "Мы раньше встречались, да?" },
+            { "en": "You will help me, won't you?",              "ru": "Ты мне поможешь, да?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Особые случаи Question Tags",
+      "intro": {
+        "text": "Есть слова, которые меняют хвостик: I am → aren't I, Let's → shall we, императив → will you.",
+        "highlights": [
+          { "text": "Особые случаи",  "color": "term",    "style": "bold_underline" },
+          { "text": "aren't I",        "color": "bad",     "style": "bold" },
+          { "text": "shall we",         "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Исключения",
+          "borderColor": "bad",
+          "table": {
+            "headers": ["Основа", "Хвостик", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["I am…",         "aren't I",     "I am late, aren't I?"] },
+              { "cells": ["Let's…",         "shall we",     "Let's go, shall we?"] },
+              { "cells": ["Императив (просьба)","will you", "Close the door, will you?"] },
+              { "cells": ["Императив (приказ)","won't you","Sit down, won't you?"] },
+              { "cells": ["Never…",         "will you",    "Never do that again, will you?"] }
+            ],
+            "borderColor": "bad"
+          }
+        },
+        {
+          "title": "Слова с отрицательным смыслом",
+          "borderColor": "term",
+          "callout": {
+            "type": "warning",
+            "title": "Never, hardly, no one",
+            "text": "Если в основной части есть never, hardly, no one, nothing — она считается отрицательной, а хвостик — утвердительным."
+          },
+          "examples": [
+            { "en": "She never calls, does she?",      "ru": "Она никогда не звонит, да?" },
+            { "en": "Nothing happened, did it?",         "ru": "Ничего не случилось, правда?" },
+            { "en": "Nobody came, did they?",             "ru": "Никто не пришёл, да?" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I am right, aren't I?",              "ru": "Я прав, да?" },
+            { "en": "Let's go home, shall we?",            "ru": "Пойдём домой, а?" },
+            { "en": "Close the window, will you?",          "ru": "Закрой окно, хорошо?" },
+            { "en": "She never eats meat, does she?",        "ru": "Она никогда не ест мясо, да?" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Десять самых частых ошибок в вопросах и Question Tags.",
+        "highlights": [
+          { "text": "Десять самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "Do you can swim?",                "right": "Can you swim?" },
+            { "wrong": "Where you live?",                  "right": "Where do you live?" },
+            { "wrong": "What means this word?",             "right": "What does this word mean?" },
+            { "wrong": "Who did call you?",                  "right": "Who called you?" },
+            { "wrong": "You like tea, isn't it?",             "right": "You like tea, don't you?" },
+            { "wrong": "She is here, isn't she? (для I am — исключение)", "right": "I am here, aren't I?" },
+            { "wrong": "You don't like tea, don't you?",       "right": "You don't like tea, do you?" },
+            { "wrong": "Let's go, don't we?",                   "right": "Let's go, shall we?" },
+            { "wrong": "Who you called?",                        "right": "Who did you call?" },
+            { "wrong": "How much costs it?",                     "right": "How much does it cost?" }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "Общий и специальный вопрос — нужен aux (do, does, did, is, are…). Вопрос к подлежащему — aux не нужен, who/what сразу становится подлежащим. Question Tag — зеркальный к основе: + → —, — → +."
+          },
+          "quote": {
+            "text": "Порядок слов в вопросе — важнее, чем сами слова.",
+            "author": "заметка на полях",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
