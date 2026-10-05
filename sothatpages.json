@@ -1,0 +1,102 @@
+{
+  "tenseName": "So that",
+  "route": "cards_sothat",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "So that — указание цели действия. Отвечает на вопрос «зачем?». После него часто используется модальный глагол (can, could, will, would).",
+        "highlights": [
+          { "text": "So that",  "color": "term",    "style": "bold_underline" },
+          { "text": "цели",      "color": "info",    "style": "bold" },
+          { "text": "зачем?",    "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "… so that", "color": "info" },
+              { "text": "+",         "color": "muted" },
+              { "text": "подлежащее", "color": "example" },
+              { "text": "+",         "color": "muted" },
+              { "text": "can / will", "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Примеры с модальными",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Модальный", "Пример", "Перевод"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["can",   "I study so that I can pass.",     "Учусь, чтобы сдать."] },
+              { "cells": ["could", "He ran so that he could catch it.","Он бежал, чтобы успеть."] },
+              { "cells": ["will",  "I'll leave early so that I will arrive on time.","Уйду рано, чтобы прийти вовремя."] },
+              { "cells": ["would", "She whispered so that nobody would hear.","Она шептала, чтобы никто не услышал."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "So that vs So",
+          "borderColor": "term",
+          "callout": {
+            "type": "warning",
+            "title": "Разные вещи",
+            "text": "So that — цель. So — результат. «Я учусь так, чтобы сдать» (so that) vs «Я учился, так что сдал» (so)."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I study every day so that I can pass the exam.", "ru": "Я учусь каждый день, чтобы сдать экзамен." },
+            { "en": "She left early so that she wouldn't be late.",    "ru": "Она ушла рано, чтобы не опоздать." },
+            { "en": "Speak louder so that everyone can hear you.",     "ru": "Говори громче, чтобы все тебя слышали." },
+            { "en": "I saved money so that I could travel.",             "ru": "Я копил деньги, чтобы путешествовать." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в so that.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I study so that pass the exam.",        "right": "I study so that I can pass the exam." },
+            { "wrong": "I study for that I can pass.",           "right": "I study so that I can pass." },
+            { "wrong": "I study so that I pass the exam can.",   "right": "I study so that I can pass the exam." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "После so that всегда идёт подлежащее + модальный или will/would. Без подлежащего — это уже не so that, а обычное so."
+          },
+          "quote": {
+            "text": "So that отвечает на вопрос «зачем». So — на вопрос «и что в итоге».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
