@@ -1,0 +1,91 @@
+{
+  "tenseName": "Would prefer",
+  "route": "cards_wouldprefer",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Would prefer — вежливая форма предпочтения. Сильнее, чем like, но мягче, чем want. Можно добавить rather than, чтобы подчеркнуть выбор из двух вариантов.",
+        "highlights": [
+          { "text": "would prefer", "color": "term",    "style": "bold_underline" },
+          { "text": "предпочтение", "color": "info",    "style": "bold" },
+          { "text": "rather than",  "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "would prefer", "color": "info" },
+              { "text": "+",            "color": "muted" },
+              { "text": "to + глагол",  "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Что после", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["would prefer",               "to + глагол",     "I would prefer to walk."] },
+              { "cells": ["would prefer",               "существительное", "I would prefer tea."] },
+              { "cells": ["would prefer … rather than", "выбор из двух",   "I'd prefer tea rather than coffee."] },
+              { "cells": ["'d prefer",                   "сокращённо",       "I'd prefer to stay."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I would prefer to travel by train.",  "ru": "Я предпочёл бы поехать на поезде." },
+            { "en": "She would prefer a smaller room.",     "ru": "Она предпочла бы комнату поменьше." },
+            { "en": "Would you prefer tea or coffee?",      "ru": "Вы предпочтёте чай или кофе?" },
+            { "en": "We'd prefer to meet in the morning.",  "ru": "Мы предпочли бы встретиться утром." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в would prefer.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I would prefer go home.",       "right": "I would prefer to go home." },
+            { "wrong": "I would prefer to going home.",  "right": "I would prefer to go home." },
+            { "wrong": "I prefer would tea.",             "right": "I would prefer tea." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Want — хочу (прямо). Would like — вежливое «хотел бы». Would prefer — вежливое «предпочёл бы». Каждый следующий уровень вежливее и мягче."
+          },
+          "quote": {
+            "text": "Would prefer — это выбор с уважением к собеседнику.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
