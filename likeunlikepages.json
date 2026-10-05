@@ -1,0 +1,119 @@
+{
+  "tenseName": "Like / Unlike",
+  "route": "cards_likeunlike",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Like — сравнение через сходство: «как», «похожий на». Unlike — сравнение через различие: «в отличие от». Это не глагол like «нравится».",
+        "highlights": [
+          { "text": "Like",     "color": "info",    "style": "bold" },
+          { "text": "Unlike",   "color": "bad",     "style": "bold" },
+          { "text": "сходство",  "color": "example", "style": "bold_underline" },
+          { "text": "различие",  "color": "term",    "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                { "text": "Like",   "color": "info" },
+                { "text": "+",      "color": "muted" },
+                { "text": "сущ.",   "color": "example" },
+                { "text": "= как",  "color": "term" }
+              ],
+              "accentColor": "info"
+            },
+            {
+              "parts": [
+                { "text": "Unlike",  "color": "bad" },
+                { "text": "+",       "color": "muted" },
+                { "text": "сущ.",    "color": "example" },
+                { "text": "= в отличие", "color": "term" }
+              ],
+              "accentColor": "bad"
+            }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["like",   "как, похожий на",  "He swims like a fish."] },
+              { "cells": ["unlike", "в отличие от",      "Unlike me, she loves mornings."] },
+              { "cells": ["like",   "похоже на",         "It looks like rain."] },
+              { "cells": ["unlike", "не так, как",        "Unlike you, I hate coffee."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "He swims like a fish.",                  "ru": "Он плавает как рыба." },
+            { "en": "Unlike me, she loves mornings.",          "ru": "В отличие от меня, она любит утро." },
+            { "en": "It looks like rain.",                      "ru": "Похоже на дождь." },
+            { "en": "Unlike you, I hate coffee.",                "ru": "В отличие от тебя, я не люблю кофе." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Like vs As",
+      "intro": {
+        "text": "Like и as часто путают. Like — сравнение, as — роль или функция. Два разных слова.",
+        "highlights": [
+          { "text": "Like", "color": "info", "style": "bold" },
+          { "text": "As",   "color": "term", "style": "bold" },
+          { "text": "роль",  "color": "example", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разница",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["like", "похожий на", "He works like a machine."] },
+              { "cells": ["as",   "в роли, в качестве", "He works as a doctor."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "He works like a doctor. (если он врач)", "right": "He works as a doctor." },
+            { "wrong": "Unlike to me, she loves mornings.",       "right": "Unlike me, she loves mornings." },
+            { "wrong": "Like me, she doesn't like coffee.",        "right": "Like me, she doesn't like coffee." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Like — похож. As — на самом деле в этой роли. Если человек и есть врач — as a doctor. Если только выглядит как врач — like a doctor."
+          },
+          "quote": {
+            "text": "Like — про сходство. Unlike — про разницу. As — про реальную роль.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
