@@ -1,0 +1,97 @@
+{
+  "tenseName": "Hardly … when",
+  "route": "cards_hardlywhen",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Hardly … when — едва что-то произошло, как сразу же случилось другое. Полный синоним No sooner … than, но с союзом when вместо than. Также требует инверсии.",
+        "highlights": [
+          { "text": "Hardly … when", "color": "term",    "style": "bold_underline" },
+          { "text": "едва … как",     "color": "info",    "style": "bold" },
+          { "text": "when",            "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "Hardly", "color": "term" },
+              { "text": "had",    "color": "info" },
+              { "text": "S",      "color": "example" },
+              { "text": "V3",     "color": "info" },
+              { "text": "when",   "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Три конструкции одного смысла",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Союз", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["No sooner …",  "than",  "No sooner had I arrived than…"] },
+              { "cells": ["Hardly …",      "when",  "Hardly had I arrived when…"] },
+              { "cells": ["Scarcely …",    "when",  "Scarcely had I arrived when…"] }
+            ],
+            "borderColor": "info"
+          },
+          "callout": {
+            "type": "tip",
+            "title": "Разницы в смысле нет",
+            "text": "Все три конструкции означают одно и то же — едва одно событие, как сразу другое. Hardly — самая частая из трёх."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Hardly had she left when the phone rang.",       "ru": "Едва она вышла, как зазвонил телефон." },
+            { "en": "Hardly had we started when the lights went out.","ru": "Едва мы начали, как свет погас." },
+            { "en": "Hardly had he finished when the bell rang.",      "ru": "Едва он закончил, как прозвенел звонок." },
+            { "en": "Hardly had I closed my eyes when I fell asleep.","ru": "Едва я закрыл глаза, как уснул." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в Hardly … when.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "Hardly I had arrived when…",         "right": "Hardly had I arrived when…" },
+            { "wrong": "Hardly had I arrived than…",          "right": "Hardly had I arrived when…" },
+            { "wrong": "Hardly I arrived when…",               "right": "Hardly had I arrived when…" }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "Hardly — always с when. No sooner — always с than. Никогда не наоборот."
+          },
+          "quote": {
+            "text": "Hardly — литературное «едва». Звучит поэтично и формально.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
