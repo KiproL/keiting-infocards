@@ -1,0 +1,152 @@
+{
+  "tenseName": "Would rather",
+  "route": "cards_wouldrather",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Would rather — выражение предпочтения. Означает «я бы лучше…». Это выбор одного варианта вместо другого.",
+        "highlights": [
+          { "text": "Would rather",  "color": "term",    "style": "bold_underline" },
+          { "text": "предпочтения",   "color": "info",    "style": "bold" },
+          { "text": "вместо другого", "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                { "text": "would rather", "color": "info" },
+                { "text": "+",            "color": "muted" },
+                { "text": "глагол (без to)", "color": "example" }
+              ],
+              "accentColor": "info"
+            },
+            {
+              "parts": [
+                { "text": "would rather", "color": "good" },
+                { "text": "+",            "color": "muted" },
+                { "text": "… than …",     "color": "example" }
+              ],
+              "accentColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Что после", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["would rather",         "глагол без to", "I would rather stay."] },
+              { "cells": ["'d rather",             "сокращённо",     "I'd rather stay."] },
+              { "cells": ["would rather … than",  "выбор из двух",  "I'd rather walk than drive."] },
+              { "cells": ["would rather not",      "отрицание",      "I'd rather not go."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I'd rather stay home tonight.",           "ru": "Я бы лучше остался дома сегодня." },
+            { "en": "She'd rather walk than take the bus.",     "ru": "Она предпочла бы пройтись, а не ехать." },
+            { "en": "Would you rather have tea or coffee?",     "ru": "Ты бы выбрал чай или кофе?" },
+            { "en": "I'd rather not talk about it.",             "ru": "Я бы предпочёл об этом не говорить." }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Would rather — это выбор с уважением к себе и собеседнику.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Would rather vs Would prefer",
+      "intro": {
+        "text": "Обе конструкции про предпочтение, но с разницей в построении.",
+        "highlights": [
+          { "text": "would rather",  "color": "info", "style": "bold" },
+          { "text": "would prefer",  "color": "term", "style": "bold" },
+          { "text": "без to",         "color": "bad",  "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разница в форме",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Что после", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["would rather",  "глагол БЕЗ to", "I'd rather go."] },
+              { "cells": ["would prefer",  "to + глагол",    "I'd prefer to go."] },
+              { "cells": ["would rather not", "not + глагол",  "I'd rather not go."] },
+              { "cells": ["would prefer not","not + to + глагол","I'd prefer not to go."] }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I'd rather to stay home.",     "right": "I'd rather stay home." },
+            { "wrong": "I'd rather staying home.",      "right": "I'd rather stay home." },
+            { "wrong": "I would rather I stay home.",   "right": "I'd rather stay home." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Would rather — без to. Would prefer — с to. Обе фразы вежливые, но would rather звучит более решительно."
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в would rather.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I'd rather to stay.",       "right": "I'd rather stay." },
+            { "wrong": "I'd rather staying home.",   "right": "I'd rather stay home." },
+            { "wrong": "I'd rather I go home.",       "right": "I'd rather go home." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой тест",
+            "text": "После would rather всегда чистый глагол без to и без -ing. То же правило, что и у модальных глаголов."
+          }
+        }
+      ]
+    }
+  ]
+}
