@@ -1,0 +1,167 @@
+{
+  "tenseName": "Must / Mustn't",
+  "route": "cards_mustmustnt",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Must выражает обязанность или личное решение. Mustn't — категорический запрет. Это самое сильное «нельзя» в английском.",
+        "highlights": [
+          { "text": "Must",       "color": "term",    "style": "bold" },
+          { "text": "Mustn't",    "color": "bad",     "style": "bold" },
+          { "text": "категорический запрет","color": "example", "style": "bold_underline" },
+          { "text": "нельзя",      "color": "info",    "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                { "text": "must", "color": "info" },
+                { "text": "+",    "color": "muted" },
+                { "text": "глагол (без to)", "color": "example" }
+              ],
+              "accentColor": "info"
+            },
+            {
+              "parts": [
+                { "text": "mustn't", "color": "bad" },
+                { "text": "+",       "color": "muted" },
+                { "text": "глагол",  "color": "example" }
+              ],
+              "accentColor": "bad"
+            }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["must",       "обязан, нужно",     "You must wear a seatbelt."] },
+              { "cells": ["mustn't",    "нельзя, запрещено", "You mustn't smoke here."] },
+              { "cells": ["don't have to", "не обязательно", "You don't have to come."] },
+              { "cells": ["don't must",   "— такой формы нет","— ошибка"] }
+            ],
+            "borderColor": "info"
+          },
+          "callout": {
+            "type": "warning",
+            "title": "Mustn't vs don't have to",
+            "text": "Mustn't — запрет. Don't have to — свобода (можешь, но не обязан). Это разные вещи."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "You must wear a seatbelt.",           "ru": "Ты должен быть пристёгнут." },
+            { "en": "I must call my mom tonight.",           "ru": "Мне нужно позвонить маме сегодня." },
+            { "en": "You mustn't smoke here.",                "ru": "Здесь нельзя курить." },
+            { "en": "We mustn't be late.",                    "ru": "Нам нельзя опаздывать." }
+          ]
+        },
+        {
+          "title": "Must без прошедшего",
+          "borderColor": "term",
+          "callout": {
+            "type": "tip",
+            "title": "У must нет прошедшего",
+            "text": "В прошлом вместо must используется had to. А вместо mustn't в прошлом — wasn't allowed to или couldn't."
+          },
+          "examples": [
+            { "en": "I had to work yesterday.",        "ru": "Вчера мне пришлось работать. (не must)" },
+            { "en": "I couldn't smoke there.",          "ru": "Там нельзя было курить." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Отрицание и вопрос",
+      "intro": {
+        "text": "Must — модальный глагол, работает без do. Отрицание — mustn't, вопрос — Must I…?",
+        "highlights": [
+          { "text": "без do",       "color": "bad",  "style": "bold_underline" },
+          { "text": "mustn't",       "color": "info", "style": "bold" },
+          { "text": "Must I…?",      "color": "term", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Отрицание",
+          "borderColor": "bad",
+          "rules": [
+            { "name": "mustn't",   "suffix": "нельзя",         "example": "You mustn't touch it." },
+            { "name": "must not",  "suffix": "полная форма",   "example": "You must not be late." }
+          ]
+        },
+        {
+          "title": "Вопрос",
+          "borderColor": "info",
+          "examples": [
+            { "en": "Must I finish it today?",    "ru": "Я должен закончить это сегодня?" },
+            { "en": "Must we leave now?",           "ru": "Нам обязательно уходить сейчас?" },
+            { "en": "Must she come too?",            "ru": "Ей тоже обязательно приходить?" }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["must",       "обязан (внутреннее)", "I must study."] },
+              { "cells": ["have to",    "обязан (внешнее)",     "I have to study."] },
+              { "cells": ["mustn't",    "нельзя",                "You mustn't smoke."] },
+              { "cells": ["don't have to","не обязательно",     "You don't have to come."] }
+            ],
+            "borderColor": "term"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Четыре самые частые ошибки в must и mustn't.",
+        "highlights": [
+          { "text": "Четыре самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I must to go.",           "right": "I must go." },
+            { "wrong": "I don't must go.",          "right": "I mustn't go. / I don't have to go." },
+            { "wrong": "Do you must work?",          "right": "Must you work? / Do you have to work?" },
+            { "wrong": "I musted go yesterday.",      "right": "I had to go yesterday." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Must — обязан сам или по правилу. Mustn't — нельзя. Have to — приходится по обстоятельствам. Don't have to — не обязательно."
+          },
+          "quote": {
+            "text": "Must — самое сильное слово долженствования. Используй его осторожно.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
