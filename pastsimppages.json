@@ -3,136 +3,184 @@
   "route": "cards_pastsimp",
   "slides": [
     {
-      "label": "Формы",
+      "label": "Что это",
       "intro": {
-        "text": "Past Simple описывает действие, которое произошло в прошлом и уже завершилось, часто с указанием времени.",
-        "highlight": "в прошлом",
-        "highlightColor": "term"
+        "text": "Past Simple описывает завершённое действие в прошлом, часто с указанием времени. Событие уже случилось и закончилось.",
+        "highlights": [
+          { "text": "Past Simple",   "color": "term",    "style": "bold_underline" },
+          { "text": "завершённое",    "color": "info",    "style": "bold" },
+          { "text": "в прошлом",      "color": "example", "style": "bold" },
+          { "text": "закончилось",     "color": "bad",     "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "S",    "color": "info" },
+              { "text": "+",    "color": "muted" },
+              { "text": "V2 / V-ed", "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Ключевые маркеры",
+          "borderColor": "good",
+          "verbGrid": {
+            "accentColor": "example",
+            "verbs": ["yesterday", "last week", "ago", "in 2010", "last night", "when I was a child", "two hours ago"]
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I watched a movie yesterday.",   "ru": "Я посмотрел фильм вчера." },
+            { "en": "She went to school.",              "ru": "Она пошла в школу." },
+            { "en": "They played football.",            "ru": "Они играли в футбол." },
+            { "en": "We met last week.",                 "ru": "Мы встретились на прошлой неделе." }
+          ]
+        },
+        {
+          "title": "Мысль напоследок",
+          "borderColor": "accent2",
+          "quote": {
+            "text": "Past Simple — это точка в прошлом: было, случилось, закончилось.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    },
+
+    {
+      "label": "Три формы",
+      "intro": {
+        "text": "После did глагол всегда в начальной форме. Did — универсальный помощник для отрицаний и вопросов.",
+        "highlights": [
+          { "text": "did",           "color": "term",    "style": "bold_underline" },
+          { "text": "начальной форме","color": "info",    "style": "bold" },
+          { "text": "универсальный",   "color": "example", "style": "bold" }
+        ]
       },
       "sections": [
         {
           "title": "Утверждение",
-          "keysValues": [
-            { "key": "I / You / He / She / It / We / They", "value": "+ V2 / V-ed", "valueColor": "term" }
-          ],
+          "borderColor": "good",
+          "formulaCard": {
+            "parts": [
+              { "text": "I / You / He / She / It / We / They", "color": "info" },
+              { "text": "+",                                   "color": "muted" },
+              { "text": "V2 / V-ed",                           "color": "example" }
+            ],
+            "accentColor": "good"
+          },
           "examples": [
-            { "en": "I watched a movie yesterday.", "ru": "Я посмотрел фильм вчера." },
-            { "en": "She went to school.", "ru": "Она пошла в школу." },
-            { "en": "They played football.", "ru": "Они играли в футбол." }
+            { "en": "I watched a movie yesterday.",   "ru": "Я посмотрел фильм вчера." },
+            { "en": "She went to school.",              "ru": "Она пошла в школу." }
           ]
         },
         {
           "title": "Отрицание",
           "borderColor": "bad",
-          "keysValues": [
-            { "key": "Did + not", "value": "+ V (начальная форма)", "valueColor": "bad" }
-          ],
+          "formulaCard": {
+            "parts": [
+              { "text": "did",        "color": "info" },
+              { "text": "+",          "color": "muted" },
+              { "text": "not + V",    "color": "bad" }
+            ],
+            "accentColor": "bad"
+          },
           "examples": [
-            { "en": "She didn't cook dinner.", "ru": "Она не готовила ужин." }
+            { "en": "She didn't cook dinner.",  "ru": "Она не готовила ужин." },
+            { "en": "He didn't call me.",        "ru": "Он мне не позвонил." }
           ]
         },
         {
           "title": "Вопрос",
-          "borderColor": "term",
-          "keysValues": [
-            { "key": "Did + подлежащее", "value": "+ V?", "valueColor": "term" }
-          ],
+          "borderColor": "info",
+          "formulaCard": {
+            "parts": [
+              { "text": "Did",  "color": "info" },
+              { "text": "+",    "color": "muted" },
+              { "text": "S",    "color": "example" },
+              { "text": "+",    "color": "muted" },
+              { "text": "V?",   "color": "term" }
+            ],
+            "accentColor": "info"
+          },
           "examples": [
-            { "en": "Did they play football?", "ru": "Они играли в футбол?" }
-          ]
-        }
-      ]
-    },
-
-    {
-      "label": "Did",
-      "intro": {
-        "text": "В Past Simple вспомогательный глагол did — одна форма для всех лиц. После did глагол всегда в начальной форме.",
-        "highlight": "did",
-        "highlightColor": "term"
-      },
-      "sections": [
-        {
-          "title": "Кто использует",
-          "keysValues": [
-            { "key": "did", "value": "I / you / he / she / it / we / they", "valueColor": "example" }
-          ]
-        },
-        {
-          "title": "Сокращения",
-          "keysValues": [
-            { "key": "did not", "value": "didn't", "valueColor": "term" }
+            { "en": "Did they play football?",        "ru": "Они играли в футбол?" },
+            { "en": "What did you do yesterday?",     "ru": "Что ты делал вчера?" }
           ]
         },
         {
           "title": "Особый случай: to be",
-          "keysValues": [
-            { "key": "was", "value": "I / he / she / it", "valueColor": "example" },
-            { "key": "were", "value": "you / we / they", "valueColor": "example" }
-          ],
-          "examples": [
-            { "en": "I was at home.", "ru": "Я был дома." },
-            { "en": "They were tired.", "ru": "Они устали." }
-          ]
-        },
-        {
-          "title": "Примеры",
-          "examples": [
-            { "en": "What did you do yesterday?", "ru": "Что ты делал вчера?", "icon": "question", "iconColor": "bad" },
-            { "en": "He didn't call me.", "ru": "Он мне не позвонил.", "icon": "cross", "iconColor": "bad" }
-          ]
+          "borderColor": "term",
+          "table": {
+            "headers": ["Форма", "Кому", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["was",   "I / he / she / it",   "I was at home."] },
+              { "cells": ["were",  "you / we / they",      "They were tired."] }
+            ],
+            "borderColor": "term"
+          },
+          "callout": {
+            "type": "tip",
+            "title": "Без did",
+            "text": "С to be вопрос и отрицание делаются без did: Was he at home? He wasn't at home."
+          }
         }
       ]
-    },
-
-    {
-      "label": "Вспомогательные слова",
-      "chips": {
-        "intro": "Эти слова подсказывают, что действие уже завершилось в прошлом.",
-        "title": "Слова-маркеры",
-        "selectedTitle": "Выбранное слово",
-        "items": [
-          { "word": "yesterday", "translation": "вчера", "example": "I finished my homework yesterday.", "exampleTranslation": "Я закончил домашнее задание вчера." },
-          { "word": "last week", "translation": "на прошлой неделе", "example": "We met last week.", "exampleTranslation": "Мы встретились на прошлой неделе." },
-          { "word": "ago", "translation": "назад", "example": "She called me two hours ago.", "exampleTranslation": "Она позвонила мне два часа назад." },
-          { "word": "in 2010", "translation": "в 2010 году", "example": "He moved to Berlin in 2010.", "exampleTranslation": "Он переехал в Берлин в 2010 году." },
-          { "word": "last night", "translation": "прошлой ночью", "example": "They arrived last night.", "exampleTranslation": "Они приехали прошлой ночью." },
-          { "word": "when I was a child", "translation": "когда я был ребёнком", "example": "I lived in Spain when I was a child.", "exampleTranslation": "Я жил в Испании, когда был ребёнком." }
-        ]
-      }
     },
 
     {
       "label": "Окончание -ed",
       "intro": {
         "text": "Окончание -ed добавляется к правильным глаголам. Написание зависит от последних букв глагола.",
-        "highlight": "-ed",
-        "highlightColor": "term"
+        "highlights": [
+          { "text": "-ed",         "color": "term",    "style": "bold_underline" },
+          { "text": "правильным",   "color": "info",    "style": "bold" },
+          { "text": "написание",     "color": "example", "style": "bold" }
+        ]
       },
       "sections": [
         {
-          "title": "Правила",
+          "title": "Правила написания",
+          "borderColor": "info",
           "rules": [
-            { "name": "Большинство глаголов", "suffix": "+ ed", "example": "play → played, watch → watched" },
-            { "name": "Немая -e", "suffix": "+ d", "example": "live → lived, like → liked" },
-            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ed", "example": "stop → stopped, plan → planned" },
-            { "name": "Согласная + y", "suffix": "y → ied", "example": "study → studied, cry → cried" },
-            { "name": "Гласная + y", "suffix": "+ ed", "example": "play → played, stay → stayed" }
+            { "name": "Большинство",          "suffix": "+ ed",             "example": "play → played, watch → watched" },
+            { "name": "Немая -e",              "suffix": "+ d",              "example": "live → lived, like → liked" },
+            { "name": "Гласная + согл. в конце","suffix": "удвоение + ed",    "example": "stop → stopped, plan → planned" },
+            { "name": "Согласная + y",          "suffix": "y → ied",           "example": "study → studied, cry → cried" },
+            { "name": "Гласная + y",            "suffix": "+ ed",              "example": "play → played, stay → stayed" }
           ]
         },
         {
-          "title": "Произношение -ed",
-          "keysValues": [
-            { "key": "/t/", "value": "после глухих: watch, wash, stop", "valueColor": "info" },
-            { "key": "/d/", "value": "после звонких: play, live, call", "valueColor": "example" },
-            { "key": "/ɪd/", "value": "после t/d: want, need, start", "valueColor": "term" }
-          ]
+          "title": "Три звука -ed",
+          "borderColor": "term",
+          "table": {
+            "headers": ["Звук", "После чего", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["/t/",    "глухих согласных",  "watched, washed, stopped"] },
+              { "cells": ["/d/",    "звонких согласных", "played, lived, called"] },
+              { "cells": ["/ɪd/",   "после t / d",        "wanted, needed, started"] }
+            ],
+            "borderColor": "term"
+          }
         },
         {
-          "title": "Примеры",
+          "title": "Живые примеры",
+          "borderColor": "good",
           "examples": [
-            { "en": "She stopped the car.", "ru": "Она остановила машину." },
-            { "en": "They studied English yesterday.", "ru": "Они изучали английский вчера." }
+            { "en": "She stopped the car.",             "ru": "Она остановила машину." },
+            { "en": "They studied English yesterday.",  "ru": "Они изучали английский вчера." },
+            { "en": "I played football last Sunday.",   "ru": "Я играл в футбол в прошлое воскресенье." }
           ]
         }
       ]
@@ -141,39 +189,93 @@
     {
       "label": "Правильные и неправильные",
       "intro": {
-        "text": "Глаголы делятся на правильные и неправильные. Правильные образуют прошедшее время по правилу -ed, неправильные — имеют особую форму.",
-        "highlight": "неправильные",
-        "highlightColor": "bad"
+        "text": "Глаголы делятся на правильные и неправильные. Правильные образуют прошедшее через -ed, неправильные — имеют особую форму.",
+        "highlights": [
+          { "text": "правильные",     "color": "good", "style": "bold" },
+          { "text": "неправильные",   "color": "bad",  "style": "bold" },
+          { "text": "особую форму",    "color": "example", "style": "bold_underline" }
+        ]
       },
       "sections": [
         {
-          "title": "Правильные (regular)",
-          "borderColor": "good",
-          "keysValues": [
-            { "key": "work", "value": "worked", "valueColor": "example" },
-            { "key": "play", "value": "played", "valueColor": "example" },
-            { "key": "want", "value": "wanted", "valueColor": "example" },
-            { "key": "study", "value": "studied", "valueColor": "example" }
-          ]
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Тип", "Как образуется", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Правильные",   "+ed",          "work → worked"] },
+              { "cells": ["Неправильные", "особая форма",  "go → went"] }
+            ],
+            "borderColor": "info"
+          }
         },
         {
-          "title": "Неправильные (irregular)",
+          "title": "Частые неправильные",
           "borderColor": "bad",
-          "keysValues": [
-            { "key": "go", "value": "went", "valueColor": "bad" },
-            { "key": "see", "value": "saw", "valueColor": "bad" },
-            { "key": "have", "value": "had", "valueColor": "bad" },
-            { "key": "take", "value": "took", "valueColor": "bad" },
-            { "key": "write", "value": "wrote", "valueColor": "bad" },
-            { "key": "be", "value": "was / were", "valueColor": "bad" }
+          "table": {
+            "headers": ["V1", "V2", "Перевод"],
+            "headerColors": ["info", "bad", "term"],
+            "rows": [
+              { "cells": ["go",    "went",   "идти"] },
+              { "cells": ["see",   "saw",    "видеть"] },
+              { "cells": ["have",  "had",    "иметь"] },
+              { "cells": ["take",  "took",   "брать"] },
+              { "cells": ["write", "wrote",  "писать"] },
+              { "cells": ["be",    "was / were", "быть"] },
+              { "cells": ["do",    "did",    "делать"] },
+              { "cells": ["make",  "made",   "делать (создавать)"] }
+            ],
+            "borderColor": "bad"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "I worked late yesterday.",   "ru": "Я вчера работал допоздна. (правильный)" },
+            { "en": "She went to the store.",       "ru": "Она пошла в магазин. (неправильный)" },
+            { "en": "They made a cake.",             "ru": "Они испекли торт." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Семь самых частых ошибок в Past Simple.",
+        "highlights": [
+          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "I did went to school.",          "right": "I went to school." },
+            { "wrong": "Did you went there?",             "right": "Did you go there?" },
+            { "wrong": "I didn't went there.",             "right": "I didn't go there." },
+            { "wrong": "She didn't cooked dinner.",         "right": "She didn't cook dinner." },
+            { "wrong": "I was go to school yesterday.",      "right": "I went to school yesterday." },
+            { "wrong": "He was went home.",                   "right": "He went home." },
+            { "wrong": "I have seen him yesterday.",           "right": "I saw him yesterday." }
           ]
         },
         {
-          "title": "Примеры",
-          "examples": [
-            { "en": "I worked late yesterday.", "ru": "Я вчера работал допоздна." },
-            { "en": "She went to the store.", "ru": "Она пошла в магазин." }
-          ]
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "Если есть did — глагол в начальной форме. Если нет did — глагол в V2 / V-ed. Двух времён в одном предложении быть не может."
+          },
+          "quote": {
+            "text": "Did и V2 не встречаются вместе — они несовместимы.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
         }
       ]
     }
