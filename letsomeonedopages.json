@@ -1,0 +1,109 @@
+{
+  "tenseName": "Let someone do",
+  "route": "cards_letsomeonedo",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Let someone do — разрешение на действие. Кто-то позволяет другому что-то сделать. После let — глагол без to.",
+        "highlights": [
+          { "text": "Let someone do", "color": "term",    "style": "bold_underline" },
+          { "text": "разрешение",      "color": "good",    "style": "bold" },
+          { "text": "без to",           "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "let",     "color": "info" },
+              { "text": "+",       "color": "muted" },
+              { "text": "someone", "color": "example" },
+              { "text": "+",       "color": "muted" },
+              { "text": "глагол (без to)", "color": "term" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["let someone do",   "разрешаем",  "She let me go."] },
+              { "cells": ["make someone do",  "заставляем", "She made me go."] },
+              { "cells": ["allow someone to",  "формально",  "She allowed me to go."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "Let me help you.",                   "ru": "Позволь мне помочь тебе." },
+            { "en": "My parents let me stay up late.",     "ru": "Родители разрешили мне не спать допоздна." },
+            { "en": "Let him speak.",                      "ru": "Дай ему сказать." },
+            { "en": "Please let me explain.",               "ru": "Пожалуйста, дай мне объяснить." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Let's",
+      "intro": {
+        "text": "Let's — короткая форма let us. Используется для предложения что-то сделать вместе.",
+        "highlights": [
+          { "text": "Let's",   "color": "term",    "style": "bold_underline" },
+          { "text": "вместе",   "color": "info",    "style": "bold" },
+          { "text": "предложение","color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["Let's go",         "пойдём",         "Let's go to the park."] },
+              { "cells": ["Let's not go",      "давай не пойдём", "Let's not argue."] },
+              { "cells": ["Let me",             "позволь мне",     "Let me try."] },
+              { "cells": ["Let him / her",      "пусть он / она",  "Let him speak."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Ошибки",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "Let me to help you.",       "right": "Let me help you." },
+            { "wrong": "Let me helping you.",        "right": "Let me help you." },
+            { "wrong": "Let's to go.",                "right": "Let's go." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "После let, make — глагол без to. После get, allow — с to. Это касается всех конструкций с объектом + инфинитив."
+          },
+          "quote": {
+            "text": "Let — это разрешение. Make — это приказ.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
