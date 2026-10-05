@@ -1,0 +1,109 @@
+{
+  "tenseName": "It's worth / no use / no point",
+  "route": "cards_itsworth",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Три конструкции про оценку действия: стоит ли его делать. It's worth — стоит. It's no use и There's no point in — бесполезно, не имеет смысла.",
+        "highlights": [
+          { "text": "It's worth",       "color": "good",    "style": "bold" },
+          { "text": "It's no use",       "color": "bad",     "style": "bold" },
+          { "text": "There's no point in","color": "info",    "style": "bold" },
+          { "text": "-ing",              "color": "example", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                { "text": "It's worth", "color": "good" },
+                { "text": "+",          "color": "muted" },
+                { "text": "-ing",       "color": "example" }
+              ],
+              "accentColor": "good"
+            },
+            {
+              "parts": [
+                { "text": "It's no use", "color": "bad" },
+                { "text": "+",           "color": "muted" },
+                { "text": "-ing",        "color": "example" }
+              ],
+              "accentColor": "bad"
+            },
+            {
+              "parts": [
+                { "text": "There's no point in", "color": "info" },
+                { "text": "+",                   "color": "muted" },
+                { "text": "-ing",                "color": "example" }
+              ],
+              "accentColor": "info"
+            }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Смысл", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["It's worth + -ing",        "стоит сделать",     "It's worth reading this book."] },
+              { "cells": ["It's no use + -ing",        "бесполезно",         "It's no use crying."] },
+              { "cells": ["There's no point in + -ing","нет смысла",         "There's no point in waiting."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "It's worth visiting the museum.",         "ru": "Стоит посетить этот музей." },
+            { "en": "It's worth trying again.",                 "ru": "Стоит попробовать ещё раз." },
+            { "en": "It's no use arguing with him.",            "ru": "Бесполезно с ним спорить." },
+            { "en": "There's no point in waiting any longer.",  "ru": "Нет смысла ждать дальше." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в этих конструкциях.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "It's worth to read this book.",         "right": "It's worth reading this book." },
+            { "wrong": "It's no use to cry.",                    "right": "It's no use crying." },
+            { "wrong": "There's no point to wait.",              "right": "There's no point in waiting." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило большого пальца",
+            "text": "После worth, no use, no point in — всегда -ing, никогда to + глагол."
+          },
+          "quote": {
+            "text": "Worth — стоит. No use — бесполезно. No point in — нет смысла.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
