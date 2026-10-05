@@ -1,0 +1,104 @@
+{
+  "tenseName": "Don't have to",
+  "route": "cards_donthaveto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Don't have to — отсутствие необходимости. Ты можешь что-то сделать, но не обязан. Это не запрет, а разрешение не делать.",
+        "highlights": [
+          { "text": "don't have to",   "color": "term",    "style": "bold_underline" },
+          { "text": "не обязательно",  "color": "info",    "style": "bold" },
+          { "text": "не запрет",        "color": "example", "style": "bold" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              { "text": "don't have to", "color": "info" },
+              { "text": "+",             "color": "muted" },
+              { "text": "глагол",        "color": "example" }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": ["Форма", "Кому", "Пример"],
+            "headerColors": ["info", "example", "term"],
+            "rows": [
+              { "cells": ["don't have to",   "I / you / we / they", "You don't have to come."] },
+              { "cells": ["doesn't have to", "he / she / it",        "He doesn't have to work."] },
+              { "cells": ["didn't have to",  "прошлое",              "I didn't have to pay."] },
+              { "cells": ["won't have to",   "будущее",              "You won't have to wait."] }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Don't have to vs mustn't",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Разные вещи",
+            "text": "Don't have to — можешь, но не обязан. Mustn't — нельзя, запрещено."
+          },
+          "examples": [
+            { "en": "You don't have to come.",  "ru": "Можешь не приходить. (разрешаю)" },
+            { "en": "You mustn't come.",         "ru": "Нельзя приходить. (запрещено)" }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            { "en": "You don't have to bring anything.",  "ru": "Тебе не обязательно что-то приносить." },
+            { "en": "She doesn't have to wake up early.",  "ru": "Ей не нужно рано вставать." },
+            { "en": "We didn't have to pay extra.",         "ru": "Нам не пришлось доплачивать." },
+            { "en": "You won't have to wait long.",          "ru": "Тебе не придётся долго ждать." }
+          ]
+        }
+      ]
+    },
+
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Три самые частые ошибки в don't have to.",
+        "highlights": [
+          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            { "wrong": "You don't must come.",        "right": "You don't have to come." },
+            { "wrong": "I no have to pay.",            "right": "I don't have to pay." },
+            { "wrong": "You don't have to not come.",   "right": "You don't have to come." }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как различить",
+            "text": "Don't have to — свободен. Mustn't — под запретом. Если сомневаешься, спроси: «могу ли я это сделать?» Если да — don't have to."
+          },
+          "quote": {
+            "text": "Не обязательно — не значит нельзя.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
