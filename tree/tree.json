@@ -1,0 +1,2853 @@
+{
+ "version": 1,
+ "levels": [
+  "A1"
+ ],
+ "nodes": [
+  {
+   "id": "root_sounds",
+   "side": "root",
+   "level": "A1",
+   "branch": "reading",
+   "title": "Звуки и чтение",
+   "subtitle": "Почему cat — не «цат»",
+   "icon": "sound",
+   "x": 0.0,
+   "y": 1.0,
+   "needs": [],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "Буква и звук — разные вещи",
+     "text": "В английском 26 букв, но около 44 звуков. Поэтому одна буква читается по-разному в зависимости от того, что стоит рядом. Именно из-за этого слово нельзя «прочитать по буквам» — его читают по образцу.",
+     "examples": [
+      {
+       "en": "cat",
+       "ru": "кот — буква a даёт короткий [æ]"
+      },
+      {
+       "en": "cake",
+       "ru": "торт — та же a, но уже [eɪ]"
+      },
+      {
+       "en": "car",
+       "ru": "машина — и снова a, теперь [ɑː]"
+      }
+     ],
+     "tip": "Не заучивай правила чтения списком. Запоминай слово вместе с его звучанием — так работает память на язык."
+    },
+    {
+     "heading": "Закрытый и открытый слог",
+     "text": "Если после гласной стоит согласная и слово на ней кончается — слог закрытый, гласная читается коротко. Если после согласной есть ещё и e на конце — слог открытый, гласная читается как её название в алфавите.",
+     "examples": [
+      {
+       "en": "hat → hate",
+       "ru": "шляпа → ненавидеть: [hæt] → [heɪt]"
+      },
+      {
+       "en": "kit → kite",
+       "ru": "набор → воздушный змей: [kɪt] → [kaɪt]"
+      },
+      {
+       "en": "not → note",
+       "ru": "не → заметка: [nɒt] → [nəʊt]"
+      }
+     ],
+     "tip": "Та самая e на конце не читается никогда — она только меняет гласную перед собой."
+    },
+    {
+     "heading": "Долгота гласной меняет смысл",
+     "text": "Для русского уха [ɪ] и [iː] звучат почти одинаково, но для англичанина это разные слова. Долготу приходится слышать и воспроизводить специально.",
+     "examples": [
+      {
+       "en": "ship — sheep",
+       "ru": "корабль — овца"
+      },
+      {
+       "en": "sit — seat",
+       "ru": "сидеть — место"
+      },
+      {
+       "en": "full — fool",
+       "ru": "полный — глупец"
+      }
+     ],
+     "tip": "Если не уверен в долготе — тяни звук чуть дольше, чем кажется нужным. Короткий там, где нужен долгий, слышнее как ошибка."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_sounds_c1",
+     "kind": "choice",
+     "title": "Как читается гласная",
+     "xp": 25,
+     "items": [
+      {
+       "q": "Какой звук даёт «a» в слове cat?",
+       "options": [
+        "[æ]",
+        "[eɪ]",
+        "[ɑː]"
+       ],
+       "answer": "[æ]",
+       "why": "Слог закрытый: после a идёт t, и слово на ней кончается. Гласная читается коротко.",
+       "theory": 1
+      },
+      {
+       "q": "Какой звук даёт «a» в слове cake?",
+       "options": [
+        "[eɪ]",
+        "[æ]",
+        "[ɑː]"
+       ],
+       "answer": "[eɪ]",
+       "why": "На конце стоит немая e — слог открытый, и a читается как в алфавите: [eɪ].",
+       "theory": 1
+      },
+      {
+       "q": "Какой звук даёт «i» в слове kite?",
+       "options": [
+        "[aɪ]",
+        "[ɪ]",
+        "[iː]"
+       ],
+       "answer": "[aɪ]",
+       "why": "Снова немая e на конце: открытый слог, i звучит как своё алфавитное имя [aɪ].",
+       "theory": 1
+      },
+      {
+       "q": "Какой звук даёт «o» в слове not?",
+       "options": [
+        "[ɒ]",
+        "[əʊ]",
+        "[uː]"
+       ],
+       "answer": "[ɒ]",
+       "why": "Закрытый слог — короткий [ɒ]. Сравни с note, где e на конце даёт [əʊ].",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "root_sounds_c2",
+     "kind": "choice",
+     "title": "Долгий или короткий",
+     "xp": 25,
+     "items": [
+      {
+       "q": "«Овца» — это…",
+       "options": [
+        "sheep",
+        "ship"
+       ],
+       "answer": "sheep",
+       "why": "Sheep — овца, долгий [iː]. Ship — корабль, короткий [ɪ]. Отличаются только долготой.",
+       "theory": 2
+      },
+      {
+       "q": "«Сидеть» — это…",
+       "options": [
+        "sit",
+        "seat"
+       ],
+       "answer": "sit",
+       "why": "Sit — сидеть, короткий [ɪ]. Seat — место (существительное), долгий [iː].",
+       "theory": 2
+      },
+      {
+       "q": "«Полный» — это…",
+       "options": [
+        "full",
+        "fool"
+       ],
+       "answer": "full",
+       "why": "Full — полный, короткий [ʊ]. Fool — глупец, долгий [uː].",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      2
+     ]
+    },
+    {
+     "id": "root_sounds_p1",
+     "kind": "practice",
+     "title": "Закрепить: слова A1 на слух",
+     "xp": 20,
+     "mode": "practice/words/en_ru",
+     "count": 10
+    }
+   ]
+  },
+  {
+   "id": "root_pronouns",
+   "side": "root",
+   "level": "A1",
+   "branch": "grammar",
+   "title": "Местоимения",
+   "subtitle": "Кто делает и кому делают",
+   "icon": "person",
+   "x": -0.95,
+   "y": 2.0,
+   "needs": [
+    {
+     "id": "root_sounds",
+     "xp": 50
+    }
+   ],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "Кто действует: I, you, he, she, it, we, they",
+     "text": "Эти местоимения стоят перед глаголом и отвечают на вопрос «кто?». В английском их нельзя выбросить: русское «Иду домой» по-английски обязательно I go home — без I предложение сломано.",
+     "examples": [
+      {
+       "en": "I work here.",
+       "ru": "Я работаю здесь."
+      },
+      {
+       "en": "She lives in Moscow.",
+       "ru": "Она живёт в Москве."
+      },
+      {
+       "en": "They are my friends.",
+       "ru": "Они мои друзья."
+      }
+     ],
+     "tip": "It — не только «это». Это ещё «он/она» для всего, что не человек: про кошку, город, погоду говорят it."
+    },
+    {
+     "heading": "Кому действуют: me, you, him, her, it, us, them",
+     "text": "Та же пара местоимений, но после глагола или предлога. По-русски это падежи («мне», «его», «нам»), по-английски — просто другая форма слова.",
+     "examples": [
+      {
+       "en": "Call me.",
+       "ru": "Позвони мне."
+      },
+      {
+       "en": "I know him.",
+       "ru": "Я знаю его."
+      },
+      {
+       "en": "Tell us about it.",
+       "ru": "Расскажи нам об этом."
+      }
+     ],
+     "tip": "Простое правило: до глагола — I/he/she, после глагола или предлога — me/him/her."
+    },
+    {
+     "heading": "Чьё: my, your, his, her, its, our, their",
+     "text": "Притяжательные ставятся перед существительным и заменяют русское «мой», «его», «наш». После них артикль не нужен — нельзя сказать the my book.",
+     "examples": [
+      {
+       "en": "my name",
+       "ru": "моё имя"
+      },
+      {
+       "en": "her brother",
+       "ru": "её брат"
+      },
+      {
+       "en": "our city",
+       "ru": "наш город"
+      }
+     ],
+     "tip": "Его = his, если это мужчина, и its, если это предмет. Its пишется без апострофа — it's это совсем другое, это it is."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_pronouns_c1",
+     "kind": "choice",
+     "title": "Кто действует",
+     "xp": 25,
+     "items": [
+      {
+       "q": "___ is my sister.",
+       "options": [
+        "She",
+        "Her",
+        "Hers"
+       ],
+       "answer": "She",
+       "why": "Перед глаголом is нужна форма «кто?» — she. Her ставится после глагола: I see her.",
+       "theory": 0
+      },
+      {
+       "q": "___ are students.",
+       "options": [
+        "We",
+        "Us",
+        "Our"
+       ],
+       "answer": "We",
+       "why": "Подлежащее перед are — we. Us было бы после глагола: he sees us.",
+       "theory": 0
+      },
+      {
+       "q": "Where is the cat? ___ is on the sofa.",
+       "options": [
+        "It",
+        "He",
+        "She"
+       ],
+       "answer": "It",
+       "why": "Про животное и любой предмет говорят it, даже если по-русски это «он» или «она».",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0
+     ]
+    },
+    {
+     "id": "root_pronouns_c2",
+     "kind": "choice",
+     "title": "Кому действуют и чьё",
+     "xp": 25,
+     "items": [
+      {
+       "q": "Can you help ___?",
+       "options": [
+        "me",
+        "I",
+        "my"
+       ],
+       "answer": "me",
+       "why": "После глагола help нужна форма «кому?» — me. I стоит только перед глаголом.",
+       "theory": 1
+      },
+      {
+       "q": "This is ___ book.",
+       "options": [
+        "my",
+        "me",
+        "mine"
+       ],
+       "answer": "my",
+       "why": "Перед существительным book нужна притяжательная форма my. Mine стоит без существительного: This is mine.",
+       "theory": 2
+      },
+      {
+       "q": "I live with ___.",
+       "options": [
+        "them",
+        "they",
+        "their"
+       ],
+       "answer": "them",
+       "why": "After предлога with — форма «кому?»: them.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      1,
+      2
+     ]
+    },
+    {
+     "id": "root_pronouns_b1",
+     "kind": "build",
+     "title": "Собери предложение",
+     "xp": 30,
+     "items": [
+      {
+       "words": [
+        "She",
+        "is",
+        "my",
+        "teacher"
+       ],
+       "ru": "Она моя учительница",
+       "why": "Порядок: кто (she) → глагол (is) → чьё (my) → кто/что (teacher).",
+       "theory": 2
+      },
+      {
+       "words": [
+        "I",
+        "know",
+        "him",
+        "well"
+       ],
+       "ru": "Я хорошо его знаю",
+       "why": "После глагола know идёт форма «кого?» — him, а не he.",
+       "theory": 1
+      },
+      {
+       "words": [
+        "They",
+        "live",
+        "with",
+        "us"
+       ],
+       "ru": "Они живут с нами",
+       "why": "После предлога with — форма us, не we.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "root_articles",
+   "side": "root",
+   "level": "A1",
+   "branch": "grammar",
+   "title": "Артикли a, an, the",
+   "subtitle": "Самое частое и самое незаметное",
+   "icon": "article",
+   "x": 0.95,
+   "y": 2.0,
+   "needs": [
+    {
+     "id": "root_sounds",
+     "xp": 50
+    }
+   ],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "a / an — «какой-то, один из многих»",
+     "text": "Ставится перед существительным в единственном числе, когда предмет упоминается впервые или не важно, какой именно. An — перед звуком гласной, a — перед звуком согласной.",
+     "examples": [
+      {
+       "en": "I have a dog.",
+       "ru": "У меня есть собака — какая-то, одна."
+      },
+      {
+       "en": "She is a doctor.",
+       "ru": "Она врач — одна из многих врачей."
+      },
+      {
+       "en": "an apple, an hour",
+       "ru": "яблоко, час — выбор по звуку, а не по букве: в hour h не читается"
+      }
+     ],
+     "tip": "Смотри не на букву, а на звук: a university (там звучит [juː]), но an umbrella."
+    },
+    {
+     "heading": "the — «тот самый»",
+     "text": "Ставится, когда понятно, о каком именно предмете речь: его уже упоминали, он единственный, или на него прямо указывают.",
+     "examples": [
+      {
+       "en": "I have a dog. The dog is black.",
+       "ru": "Второй раз — уже тот самый пёс."
+      },
+      {
+       "en": "the sun, the moon",
+       "ru": "солнце, луна — они единственные."
+      },
+      {
+       "en": "Close the door, please.",
+       "ru": "Закрой дверь — ту, что рядом."
+      }
+     ],
+     "tip": "Хорошая проверка: если по-русски хочется вставить «тот самый» и смысл не меняется — нужен the."
+    },
+    {
+     "heading": "Когда артикля нет вообще",
+     "text": "Артикль не ставится перед множественным числом в общем смысле, перед неисчисляемым, перед именами и большинством городов и стран, а также после притяжательных местоимений.",
+     "examples": [
+      {
+       "en": "I like dogs.",
+       "ru": "Я люблю собак — собак вообще."
+      },
+      {
+       "en": "I drink water.",
+       "ru": "Я пью воду — воду вообще."
+      },
+      {
+       "en": "my book, Anna, Moscow",
+       "ru": "моя книга, Анна, Москва"
+      }
+     ],
+     "tip": "Частая ошибка: the my friend. После my артикль уже не нужен — my сам указывает, чей."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_articles_c1",
+     "kind": "choice",
+     "title": "a или an",
+     "xp": 25,
+     "items": [
+      {
+       "q": "I want ___ apple.",
+       "options": [
+        "an",
+        "a"
+       ],
+       "answer": "an",
+       "why": "Apple начинается со звука гласной [æ] — нужен an.",
+       "theory": 0
+      },
+      {
+       "q": "She is ___ teacher.",
+       "options": [
+        "a",
+        "an"
+       ],
+       "answer": "a",
+       "why": "Teacher начинается со звука согласной [t] — a.",
+       "theory": 0
+      },
+      {
+       "q": "We waited ___ hour.",
+       "options": [
+        "an",
+        "a"
+       ],
+       "answer": "an",
+       "why": "В hour буква h не читается, слово начинается со звука [aʊ] — поэтому an, хотя буква согласная.",
+       "theory": 0
+      },
+      {
+       "q": "He studies at ___ university.",
+       "options": [
+        "a",
+        "an"
+       ],
+       "answer": "a",
+       "why": "University пишется с гласной, но читается [juːnɪ…] — звук согласный, значит a.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0
+     ]
+    },
+    {
+     "id": "root_articles_c2",
+     "kind": "choice",
+     "title": "a/an, the или ничего",
+     "xp": 30,
+     "items": [
+      {
+       "q": "I have a cat. ___ cat is white.",
+       "options": [
+        "The",
+        "A",
+        "—"
+       ],
+       "answer": "The",
+       "why": "Второе упоминание — кот уже тот самый, нужен the.",
+       "theory": 1
+      },
+      {
+       "q": "I like ___ music.",
+       "options": [
+        "—",
+        "a",
+        "the"
+       ],
+       "answer": "—",
+       "why": "Music здесь неисчисляемое и в общем смысле — артикля нет.",
+       "theory": 2
+      },
+      {
+       "q": "Look at ___ moon!",
+       "options": [
+        "the",
+        "a",
+        "—"
+       ],
+       "answer": "the",
+       "why": "Луна одна — the.",
+       "theory": 1
+      },
+      {
+       "q": "This is ___ my brother.",
+       "options": [
+        "—",
+        "the",
+        "a"
+       ],
+       "answer": "—",
+       "why": "После my артикль не ставится: my уже говорит, чей.",
+       "theory": 2
+      },
+      {
+       "q": "She works in ___ hospital.",
+       "options": [
+        "a",
+        "an",
+        "—"
+       ],
+       "answer": "a",
+       "why": "Какая-то больница, упоминается впервые — a.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "root_articles_p1",
+     "kind": "practice",
+     "title": "Закрепить: собери фразы",
+     "xp": 20,
+     "mode": "practice/puzzle",
+     "count": 8
+    }
+   ]
+  },
+  {
+   "id": "root_tobe",
+   "side": "root",
+   "level": "A1",
+   "branch": "grammar",
+   "title": "Глагол to be",
+   "subtitle": "Тот, которого нет в русском",
+   "icon": "equals",
+   "x": -1.35,
+   "y": 3.1,
+   "needs": [
+    {
+     "id": "root_pronouns",
+     "xp": 120
+    }
+   ],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "am, is, are — три формы одного глагола",
+     "text": "To be связывает «кто» и «какой/кто он есть». По-русски связки нет: «Я студент». По-английски она обязательна: I am a student.",
+     "examples": [
+      {
+       "en": "I am tired.",
+       "ru": "Я устал."
+      },
+      {
+       "en": "He is at home.",
+       "ru": "Он дома."
+      },
+      {
+       "en": "You are right.",
+       "ru": "Ты прав."
+      }
+     ],
+     "tip": "Запомни распределение: am только с I, is с he/she/it и любым одним человеком или предметом, are с you/we/they и любым множественным."
+    },
+    {
+     "heading": "Короткие формы — это норма речи",
+     "text": "В разговоре почти всегда говорят сокращённо. Полная форма звучит либо очень официально, либо как нажим на слово.",
+     "examples": [
+      {
+       "en": "I'm late.",
+       "ru": "Я опаздываю."
+      },
+      {
+       "en": "She's my friend.",
+       "ru": "Она моя подруга."
+      },
+      {
+       "en": "They're here.",
+       "ru": "Они здесь."
+      }
+     ],
+     "tip": "She's — это и she is, и she has. Что именно, подсказывает остальная часть предложения."
+    },
+    {
+     "heading": "Отрицание и вопрос без вспомогательных слов",
+     "text": "To be — особый глагол: для отрицания к нему просто добавляют not, а для вопроса его выносят вперёд. Никакое do здесь не нужно.",
+     "examples": [
+      {
+       "en": "I am not ready.",
+       "ru": "Я не готов."
+      },
+      {
+       "en": "Is she at work?",
+       "ru": "Она на работе?"
+      },
+      {
+       "en": "Are you from Russia?",
+       "ru": "Ты из России?"
+      }
+     ],
+     "tip": "Главная ошибка начинающих: Do you are a student? Если в предложении есть am/is/are — do не нужен."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_tobe_c1",
+     "kind": "choice",
+     "title": "Выбери форму",
+     "xp": 25,
+     "items": [
+      {
+       "q": "I ___ a student.",
+       "options": [
+        "am",
+        "is",
+        "are"
+       ],
+       "answer": "am",
+       "why": "С I всегда am — других вариантов нет.",
+       "theory": 0
+      },
+      {
+       "q": "My sister ___ a nurse.",
+       "options": [
+        "is",
+        "are",
+        "am"
+       ],
+       "answer": "is",
+       "why": "Одна сестра — это «он/она/оно», значит is.",
+       "theory": 0
+      },
+      {
+       "q": "We ___ at home.",
+       "options": [
+        "are",
+        "is",
+        "am"
+       ],
+       "answer": "are",
+       "why": "We — множественное, значит are.",
+       "theory": 0
+      },
+      {
+       "q": "The books ___ on the table.",
+       "options": [
+        "are",
+        "is"
+       ],
+       "answer": "are",
+       "why": "Books — множественное число, поэтому are, даже если по-русски «книги лежат».",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0
+     ]
+    },
+    {
+     "id": "root_tobe_c2",
+     "kind": "choice",
+     "title": "Вопрос и отрицание",
+     "xp": 30,
+     "items": [
+      {
+       "q": "___ you tired?",
+       "options": [
+        "Are",
+        "Do",
+        "Is"
+       ],
+       "answer": "Are",
+       "why": "В вопросе to be выходит вперёд: Are you…? Do здесь лишнее.",
+       "theory": 2
+      },
+      {
+       "q": "She ___ not at school today.",
+       "options": [
+        "is",
+        "does",
+        "are"
+       ],
+       "answer": "is",
+       "why": "Отрицание строится так: is + not. Does с to be не употребляется.",
+       "theory": 2
+      },
+      {
+       "q": "___ this your bag?",
+       "options": [
+        "Is",
+        "Does",
+        "Are"
+       ],
+       "answer": "Is",
+       "why": "This — один предмет, значит Is this…?",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      2
+     ]
+    },
+    {
+     "id": "root_tobe_b1",
+     "kind": "build",
+     "title": "Собери предложение",
+     "xp": 30,
+     "items": [
+      {
+       "words": [
+        "I",
+        "am",
+        "not",
+        "hungry"
+       ],
+       "ru": "Я не голоден",
+       "why": "Отрицание: am + not, без всякого do.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "Are",
+        "you",
+        "from",
+        "Spain"
+       ],
+       "ru": "Ты из Испании?",
+       "why": "В вопросе are встаёт перед you.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "My",
+        "parents",
+        "are",
+        "teachers"
+       ],
+       "ru": "Мои родители учителя",
+       "why": "Parents — множественное, связка are. И артикль перед teachers не нужен.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "root_plural",
+   "side": "root",
+   "level": "A1",
+   "branch": "grammar",
+   "title": "Множественное число",
+   "subtitle": "Одна -s и несколько исключений",
+   "icon": "plural",
+   "x": 1.35,
+   "y": 3.1,
+   "needs": [
+    {
+     "id": "root_articles",
+     "xp": 120
+    }
+   ],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "Обычный случай: добавь -s",
+     "text": "К подавляющему большинству существительных во множественном числе добавляется -s. Слово при этом не меняется больше никак.",
+     "examples": [
+      {
+       "en": "book → books",
+       "ru": "книга → книги"
+      },
+      {
+       "en": "friend → friends",
+       "ru": "друг → друзья"
+      },
+      {
+       "en": "day → days",
+       "ru": "день → дни"
+      }
+     ],
+     "tip": "Артикль a/an при этом исчезает: a book, но books — без артикля."
+    },
+    {
+     "heading": "Когда нужно -es",
+     "text": "Если слово кончается на -s, -ss, -sh, -ch, -x или -o, добавляют -es: иначе звук просто не выговорить. Если на согласную + y, то y меняется на i и добавляется -es.",
+     "examples": [
+      {
+       "en": "box → boxes",
+       "ru": "коробка → коробки"
+      },
+      {
+       "en": "watch → watches",
+       "ru": "часы (наручные)"
+      },
+      {
+       "en": "city → cities",
+       "ru": "город → города"
+      }
+     ],
+     "tip": "Если перед y стоит гласная, ничего не меняется: boy → boys, day → days."
+    },
+    {
+     "heading": "Слова, которые меняются целиком",
+     "text": "Небольшая группа слов образует множественное число по-своему. Их просто запоминают — и это как раз самые частые слова языка.",
+     "examples": [
+      {
+       "en": "man → men, woman → women",
+       "ru": "мужчина → мужчины, женщина → женщины"
+      },
+      {
+       "en": "child → children",
+       "ru": "ребёнок → дети"
+      },
+      {
+       "en": "foot → feet, tooth → teeth",
+       "ru": "ступня → ступни, зуб → зубы"
+      }
+     ],
+     "tip": "People — это уже множественное число: нельзя сказать peoples в смысле «люди». И глагол с ним — are, не is."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_plural_c1",
+     "kind": "choice",
+     "title": "Один — много",
+     "xp": 25,
+     "items": [
+      {
+       "q": "one city → two ___",
+       "options": [
+        "cities",
+        "citys",
+        "cityes"
+       ],
+       "answer": "cities",
+       "why": "Перед y стоит согласная t, поэтому y → i и добавляется -es.",
+       "theory": 1
+      },
+      {
+       "q": "one box → three ___",
+       "options": [
+        "boxes",
+        "boxs"
+       ],
+       "answer": "boxes",
+       "why": "Слово кончается на -x — нужно -es, иначе не выговорить.",
+       "theory": 1
+      },
+      {
+       "q": "one child → five ___",
+       "options": [
+        "children",
+        "childs",
+        "childes"
+       ],
+       "answer": "children",
+       "why": "Child — исключение, меняется целиком: children.",
+       "theory": 2
+      },
+      {
+       "q": "one boy → two ___",
+       "options": [
+        "boys",
+        "boies"
+       ],
+       "answer": "boys",
+       "why": "Перед y стоит гласная o, поэтому y не меняется: просто boys.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "root_plural_c2",
+     "kind": "choice",
+     "title": "Связка и число",
+     "xp": 25,
+     "items": [
+      {
+       "q": "There ___ many people here.",
+       "options": [
+        "are",
+        "is"
+       ],
+       "answer": "are",
+       "why": "People — уже множественное число, значит are.",
+       "theory": 2
+      },
+      {
+       "q": "My feet ___ cold.",
+       "options": [
+        "are",
+        "is"
+       ],
+       "answer": "are",
+       "why": "Feet — множественное от foot, поэтому are.",
+       "theory": 2
+      },
+      {
+       "q": "I like ___.",
+       "options": [
+        "dogs",
+        "a dogs"
+       ],
+       "answer": "dogs",
+       "why": "В общем смысле множественное идёт без артикля.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "root_wordorder",
+   "side": "root",
+   "level": "A1",
+   "branch": "grammar",
+   "title": "Порядок слов",
+   "subtitle": "Каркас любого предложения",
+   "icon": "order",
+   "x": -0.45,
+   "y": 3.9,
+   "needs": [
+    {
+     "id": "root_tobe",
+     "xp": 120
+    }
+   ],
+   "ranks": [
+    60,
+    140,
+    250
+   ],
+   "theory": [
+    {
+     "heading": "Кто → что делает → что",
+     "text": "В русском слова можно переставлять почти свободно, потому что падежи показывают роли. В английском падежей нет, и роль слова задаётся только местом. Поменял порядок — поменял смысл.",
+     "examples": [
+      {
+       "en": "I see the dog.",
+       "ru": "Я вижу собаку."
+      },
+      {
+       "en": "The dog sees me.",
+       "ru": "Собака видит меня."
+      },
+      {
+       "en": "Anna loves Tom.",
+       "ru": "Анна любит Тома — и никак иначе."
+      }
+     ],
+     "tip": "Это главное отличие от русского. «Собаку вижу я» по-английски сказать нельзя — выйдет другое предложение."
+    },
+    {
+     "heading": "Где стоят обстоятельства",
+     "text": "Место и время становятся в конец, причём обычно сначала место, потом время. Начало предложения занимает только подлежащее.",
+     "examples": [
+      {
+       "en": "I work in Moscow.",
+       "ru": "Я работаю в Москве."
+      },
+      {
+       "en": "She goes home at six.",
+       "ru": "Она идёт домой в шесть."
+      },
+      {
+       "en": "We study English every day.",
+       "ru": "Мы учим английский каждый день."
+      }
+     ],
+     "tip": "Время можно вынести и в самое начало — это допустимо: Every day I study English."
+    },
+    {
+     "heading": "Прилагательное — перед существительным",
+     "text": "Описание всегда стоит слева от того, что описывает, и никогда не меняет форму: ни по числу, ни по роду.",
+     "examples": [
+      {
+       "en": "a big house",
+       "ru": "большой дом"
+      },
+      {
+       "en": "big houses",
+       "ru": "большие дома — big не меняется"
+      },
+      {
+       "en": "an interesting book",
+       "ru": "интересная книга"
+      }
+     ],
+     "tip": "Если прилагательных несколько, сначала идёт оценка, потом размер, потом цвет: a nice big red car."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_wordorder_b1",
+     "kind": "build",
+     "title": "Собери предложение",
+     "xp": 35,
+     "items": [
+      {
+       "words": [
+        "I",
+        "read",
+        "books",
+        "every day"
+       ],
+       "ru": "Я читаю книги каждый день",
+       "why": "Кто → что делает → что → когда. Время уходит в конец.",
+       "theory": 1
+      },
+      {
+       "words": [
+        "She",
+        "works",
+        "in a bank"
+       ],
+       "ru": "Она работает в банке",
+       "why": "Место ставится после глагола, в конец предложения.",
+       "theory": 1
+      },
+      {
+       "words": [
+        "We",
+        "have",
+        "a big house"
+       ],
+       "ru": "У нас большой дом",
+       "why": "Прилагательное big стоит перед house, артикль — перед всей группой.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "Tom",
+        "sees",
+        "the dog"
+       ],
+       "ru": "Том видит собаку",
+       "why": "Первым идёт тот, кто действует. Переставишь — и собака начнёт видеть Тома.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "root_wordorder_c1",
+     "kind": "choice",
+     "title": "Что здесь не так",
+     "xp": 30,
+     "items": [
+      {
+       "q": "Как сказать «Я каждый день пью кофе»?",
+       "options": [
+        "I drink coffee every day.",
+        "I every day drink coffee."
+       ],
+       "answer": "I drink coffee every day.",
+       "why": "Между подлежащим и глаголом обстоятельство не вставляют: every day уходит в конец.",
+       "theory": 1
+      },
+      {
+       "q": "Как сказать «большие дома»?",
+       "options": [
+        "big houses",
+        "bigs houses"
+       ],
+       "answer": "big houses",
+       "why": "Прилагательное не получает -s: оно вообще не меняет форму.",
+       "theory": 2
+      },
+      {
+       "q": "Как сказать «Она любит Тома»?",
+       "options": [
+        "She loves Tom.",
+        "Tom loves she."
+       ],
+       "answer": "She loves Tom.",
+       "why": "Роль задаётся местом: первое слово — тот, кто действует.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0,
+      2
+     ]
+    },
+    {
+     "id": "root_wordorder_p1",
+     "kind": "practice",
+     "title": "Закрепить: собери фразы",
+     "xp": 20,
+     "mode": "practice/puzzle",
+     "count": 8
+    }
+   ]
+  },
+  {
+   "id": "root_present_simple",
+   "side": "root",
+   "level": "A1",
+   "branch": "grammar",
+   "title": "Present Simple",
+   "subtitle": "То, что происходит обычно",
+   "icon": "repeat",
+   "x": 0.35,
+   "y": 4.3,
+   "needs": [
+    {
+     "id": "root_wordorder",
+     "xp": 140
+    }
+   ],
+   "ranks": [
+    60,
+    140,
+    250
+   ],
+   "theory": [
+    {
+     "heading": "Для привычек, фактов и расписаний",
+     "text": "Present Simple описывает не «сейчас», а «вообще»: то, что повторяется, то, что всегда верно, и то, что стоит в расписании.",
+     "examples": [
+      {
+       "en": "I get up at seven.",
+       "ru": "Я встаю в семь — каждый день."
+      },
+      {
+       "en": "Water boils at 100 °C.",
+       "ru": "Вода кипит при 100 °C — всегда."
+      },
+      {
+       "en": "The train leaves at six.",
+       "ru": "Поезд уходит в шесть — по расписанию."
+      }
+     ],
+     "tip": "Если действие происходит буквально в эту секунду, нужно другое время: I am reading now."
+    },
+    {
+     "heading": "Третье лицо: та самая -s",
+     "text": "С he, she, it и любым одним человеком или предметом к глаголу добавляется -s. Со всеми остальными глагол остаётся как есть.",
+     "examples": [
+      {
+       "en": "I work / He works",
+       "ru": "Я работаю / Он работает"
+      },
+      {
+       "en": "They live / She lives",
+       "ru": "Они живут / Она живёт"
+      },
+      {
+       "en": "We go / It goes",
+       "ru": "Мы идём / Оно идёт — после o добавляется -es"
+      }
+     ],
+     "tip": "Это самая частая ошибка на A1 и A2. Проверяй: если подлежащее можно заменить на he/she/it — ставь -s."
+    },
+    {
+     "heading": "Слова-подсказки",
+     "text": "Рядом с Present Simple почти всегда стоят слова частоты. Они подсказывают время и ставятся перед обычным глаголом, но после to be.",
+     "examples": [
+      {
+       "en": "I always drink tea.",
+       "ru": "Я всегда пью чай."
+      },
+      {
+       "en": "She never eats meat.",
+       "ru": "Она никогда не ест мясо."
+      },
+      {
+       "en": "He is usually late.",
+       "ru": "Он обычно опаздывает — после is."
+      }
+     ],
+     "tip": "Порядок: usually, often, sometimes, always, never — все перед глаголом. Но every day и on Mondays уходят в конец."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_present_simple_c1",
+     "kind": "choice",
+     "title": "Форма глагола",
+     "xp": 30,
+     "items": [
+      {
+       "q": "She ___ in a hospital.",
+       "options": [
+        "works",
+        "work"
+       ],
+       "answer": "works",
+       "why": "She — третье лицо единственного числа, значит -s.",
+       "theory": 1
+      },
+      {
+       "q": "They ___ English every day.",
+       "options": [
+        "study",
+        "studies"
+       ],
+       "answer": "study",
+       "why": "They — множественное, глагол остаётся без -s.",
+       "theory": 1
+      },
+      {
+       "q": "My brother ___ football.",
+       "options": [
+        "plays",
+        "play"
+       ],
+       "answer": "plays",
+       "why": "Один брат = he, поэтому plays.",
+       "theory": 1
+      },
+      {
+       "q": "He ___ to school by bus.",
+       "options": [
+        "goes",
+        "gos",
+        "go"
+       ],
+       "answer": "goes",
+       "why": "После o добавляется -es: goes.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      1
+     ]
+    },
+    {
+     "id": "root_present_simple_c2",
+     "kind": "choice",
+     "title": "Где стоит слово частоты",
+     "xp": 25,
+     "items": [
+      {
+       "q": "Как сказать «Я часто читаю»?",
+       "options": [
+        "I often read.",
+        "I read often."
+       ],
+       "answer": "I often read.",
+       "why": "Слова частоты ставятся перед обычным глаголом.",
+       "theory": 2
+      },
+      {
+       "q": "Как сказать «Он обычно занят»?",
+       "options": [
+        "He is usually busy.",
+        "He usually is busy."
+       ],
+       "answer": "He is usually busy.",
+       "why": "С to be порядок обратный: слово частоты идёт после is.",
+       "theory": 2
+      },
+      {
+       "q": "Как сказать «Она никогда не опаздывает»?",
+       "options": [
+        "She is never late.",
+        "She never is late."
+       ],
+       "answer": "She is never late.",
+       "why": "Снова to be: never после is. И отдельного «не» не нужно — never уже отрицание.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      2
+     ]
+    },
+    {
+     "id": "root_present_simple_b1",
+     "kind": "build",
+     "title": "Собери предложение",
+     "xp": 30,
+     "items": [
+      {
+       "words": [
+        "He",
+        "works",
+        "in a shop"
+       ],
+       "ru": "Он работает в магазине",
+       "why": "He → глагол с -s → место в конце.",
+       "theory": 1
+      },
+      {
+       "words": [
+        "I",
+        "always",
+        "drink",
+        "tea"
+       ],
+       "ru": "Я всегда пью чай",
+       "why": "Always встаёт между подлежащим и глаголом.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "The train",
+        "leaves",
+        "at six"
+       ],
+       "ru": "Поезд уходит в шесть",
+       "why": "Расписание — это Present Simple, и train = it, поэтому leaves.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "root_questions",
+   "side": "root",
+   "level": "A1",
+   "branch": "grammar",
+   "title": "Вопросы и отрицания",
+   "subtitle": "do, does и слова на wh-",
+   "icon": "question",
+   "x": -1.25,
+   "y": 4.8,
+   "needs": [
+    {
+     "id": "root_present_simple",
+     "xp": 140
+    }
+   ],
+   "ranks": [
+    60,
+    140,
+    250
+   ],
+   "theory": [
+    {
+     "heading": "do и does — служебные слова",
+     "text": "В Present Simple вопрос и отрицание строятся с помощью do (с I, you, we, they) или does (с he, she, it). Сам глагол при этом остаётся в начальной форме — -s переезжает на does.",
+     "examples": [
+      {
+       "en": "Do you speak English?",
+       "ru": "Ты говоришь по-английски?"
+      },
+      {
+       "en": "Does she live here?",
+       "ru": "Она живёт здесь?"
+      },
+      {
+       "en": "I don't like coffee.",
+       "ru": "Я не люблю кофе."
+      }
+     ],
+     "tip": "Главная ошибка: Does she lives here? Если есть does, у глагола -s уже не бывает."
+    },
+    {
+     "heading": "Вопросительные слова впереди",
+     "text": "What, where, when, who, why, how ставятся перед do/does. Дальше порядок обычный: служебное слово → кто → глагол.",
+     "examples": [
+      {
+       "en": "Where do you live?",
+       "ru": "Где ты живёшь?"
+      },
+      {
+       "en": "What does he do?",
+       "ru": "Чем он занимается?"
+      },
+      {
+       "en": "Why do they go there?",
+       "ru": "Зачем они туда ходят?"
+      }
+     ],
+     "tip": "Who — исключение: если спрашиваешь о том, кто действует, do не нужно. Who lives here?"
+    },
+    {
+     "heading": "to be живёт по своим правилам",
+     "text": "Если в предложении am/is/are, никакого do не нужно: связка сама выходит вперёд в вопросе и сама берёт not в отрицании.",
+     "examples": [
+      {
+       "en": "Are you ready?",
+       "ru": "Ты готов?"
+      },
+      {
+       "en": "She isn't at home.",
+       "ru": "Её нет дома."
+      },
+      {
+       "en": "Where is the station?",
+       "ru": "Где вокзал?"
+      }
+     ],
+     "tip": "Проверка перед тем, как вставить do: есть ли уже am/is/are? Если да — do лишнее."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "root_questions_c1",
+     "kind": "choice",
+     "title": "do или does",
+     "xp": 30,
+     "items": [
+      {
+       "q": "___ you like music?",
+       "options": [
+        "Do",
+        "Does"
+       ],
+       "answer": "Do",
+       "why": "You всегда с do.",
+       "theory": 0
+      },
+      {
+       "q": "___ she work here?",
+       "options": [
+        "Does",
+        "Do"
+       ],
+       "answer": "Does",
+       "why": "She — третье лицо, значит does. И глагол остаётся work, без -s.",
+       "theory": 0
+      },
+      {
+       "q": "He ___ not speak Russian.",
+       "options": [
+        "does",
+        "do"
+       ],
+       "answer": "does",
+       "why": "Отрицание с he: does not (doesn't) + speak.",
+       "theory": 0
+      },
+      {
+       "q": "Какой вариант верный?",
+       "options": [
+        "Does she live here?",
+        "Does she lives here?"
+       ],
+       "answer": "Does she live here?",
+       "why": "Окончание -s уже ушло на does, поэтому сам глагол — в начальной форме.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0
+     ]
+    },
+    {
+     "id": "root_questions_c2",
+     "kind": "choice",
+     "title": "Вопрос со словом на wh-",
+     "xp": 30,
+     "items": [
+      {
+       "q": "Как спросить «Где ты живёшь?»",
+       "options": [
+        "Where do you live?",
+        "Where you live?"
+       ],
+       "answer": "Where do you live?",
+       "why": "После вопросительного слова всё равно нужно do.",
+       "theory": 1
+      },
+      {
+       "q": "Как спросить «Кто здесь живёт?»",
+       "options": [
+        "Who lives here?",
+        "Who does live here?"
+       ],
+       "answer": "Who lives here?",
+       "why": "Who спрашивает о действующем лице — do не нужно, а глагол берёт -s.",
+       "theory": 1
+      },
+      {
+       "q": "Как спросить «Ты готов?»",
+       "options": [
+        "Are you ready?",
+        "Do you ready?"
+       ],
+       "answer": "Are you ready?",
+       "why": "Здесь есть связка are — do не нужно.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      1,
+      2
+     ]
+    },
+    {
+     "id": "root_questions_b1",
+     "kind": "build",
+     "title": "Собери вопрос",
+     "xp": 35,
+     "items": [
+      {
+       "words": [
+        "Do",
+        "you",
+        "speak",
+        "English"
+       ],
+       "ru": "Ты говоришь по-английски?",
+       "why": "Служебное do → кто → глагол в начальной форме.",
+       "theory": 0
+      },
+      {
+       "words": [
+        "Where",
+        "does",
+        "he",
+        "work"
+       ],
+       "ru": "Где он работает?",
+       "why": "Вопросительное слово → does → кто → глагол без -s.",
+       "theory": 1
+      },
+      {
+       "words": [
+        "She",
+        "doesn't",
+        "like",
+        "coffee"
+       ],
+       "ru": "Она не любит кофе",
+       "why": "Отрицание: doesn't + начальная форма глагола.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crown_greetings",
+   "side": "crown",
+   "level": "A1",
+   "branch": "talk",
+   "title": "Знакомство",
+   "subtitle": "Первые тридцать секунд разговора",
+   "icon": "wave",
+   "x": 0.0,
+   "y": 1.2,
+   "needs": [
+    {
+     "id": "root_sounds",
+     "xp": 50
+    }
+   ],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "Приветствие по времени и по обстановке",
+     "text": "Hello подходит всегда. Hi — то же самое, но для своих. Good morning / afternoon / evening звучат вежливее и зависят от времени суток.",
+     "examples": [
+      {
+       "en": "Hi! How are you?",
+       "ru": "Привет! Как дела?"
+      },
+      {
+       "en": "Good morning!",
+       "ru": "Доброе утро — до полудня."
+      },
+      {
+       "en": "Good evening!",
+       "ru": "Добрый вечер — после пяти-шести."
+      }
+     ],
+     "tip": "Good night — это не приветствие, а прощание перед сном. Поздороваться им нельзя."
+    },
+    {
+     "heading": "«Как дела» — это ритуал, а не вопрос",
+     "text": "How are you? задают из вежливости и ждут короткого ответа, а не рассказа. Нормальный ответ — два слова и встречный вопрос.",
+     "examples": [
+      {
+       "en": "How are you? — Fine, thanks. And you?",
+       "ru": "Как дела? — Хорошо, спасибо. А у тебя?"
+      },
+      {
+       "en": "I'm good, thank you.",
+       "ru": "Всё хорошо, спасибо."
+      },
+      {
+       "en": "Not bad.",
+       "ru": "Неплохо."
+      }
+     ],
+     "tip": "Отвечать «I'm so-so» не стоит — так не говорят. Если дела средне, скажи Not bad или OK."
+    },
+    {
+     "heading": "Представиться и попрощаться",
+     "text": "Имя называют через I'm или My name is. При знакомстве отвечают Nice to meet you — это обязательная вежливая формула.",
+     "examples": [
+      {
+       "en": "I'm Anna. — Nice to meet you!",
+       "ru": "Я Анна. — Приятно познакомиться!"
+      },
+      {
+       "en": "What's your name?",
+       "ru": "Как тебя зовут?"
+      },
+      {
+       "en": "See you later! / Bye!",
+       "ru": "До встречи! / Пока!"
+      }
+     ],
+     "tip": "Nice to meet you говорят только при первом знакомстве. При второй встрече — Nice to see you again."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "crown_greetings_c1",
+     "kind": "choice",
+     "title": "Что здесь сказать",
+     "xp": 25,
+     "items": [
+      {
+       "q": "Ты встретил коллегу в девять утра. Что скажешь?",
+       "options": [
+        "Good morning!",
+        "Good night!",
+        "Good evening!"
+       ],
+       "answer": "Good morning!",
+       "why": "До полудня — Good morning. Good night говорят только уходя спать.",
+       "theory": 0
+      },
+      {
+       "q": "На «How are you?» лучше ответить…",
+       "options": [
+        "Fine, thanks. And you?",
+        "Yes, I am.",
+        "I am so-so."
+       ],
+       "answer": "Fine, thanks. And you?",
+       "why": "Это ритуал: короткий ответ плюс встречный вопрос. So-so по-английски не говорят.",
+       "theory": 1
+      },
+      {
+       "q": "Вас только что познакомили. Что скажешь?",
+       "options": [
+        "Nice to meet you!",
+        "Nice to see you again!"
+       ],
+       "answer": "Nice to meet you!",
+       "why": "Meet — про первое знакомство. See again — когда человека уже знаешь.",
+       "theory": 2
+      },
+      {
+       "q": "Как спросить имя?",
+       "options": [
+        "What's your name?",
+        "Who are you name?"
+       ],
+       "answer": "What's your name?",
+       "why": "What's = what is, дальше your name. Второй вариант просто не собирается.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "crown_greetings_b1",
+     "kind": "build",
+     "title": "Собери реплику",
+     "xp": 30,
+     "items": [
+      {
+       "words": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+       ],
+       "ru": "Приятно познакомиться",
+       "why": "Готовая формула, порядок слов в ней не меняют.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "My",
+        "name",
+        "is",
+        "Anna"
+       ],
+       "ru": "Меня зовут Анна",
+       "why": "Дословно «моё имя есть Анна» — связка is обязательна.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "How",
+        "are",
+        "you",
+        "today"
+       ],
+       "ru": "Как ты сегодня?",
+       "why": "Вопрос с to be: are выходит вперёд, today уходит в конец.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      2
+     ]
+    },
+    {
+     "id": "crown_greetings_p1",
+     "kind": "practice",
+     "title": "Закрепить: слова и фразы A1",
+     "xp": 20,
+     "mode": "practice/blitz",
+     "count": 10
+    }
+   ]
+  },
+  {
+   "id": "crown_numbers",
+   "side": "crown",
+   "level": "A1",
+   "branch": "life",
+   "title": "Числа, цены, время",
+   "subtitle": "Чтобы понимать на кассе",
+   "icon": "numbers",
+   "x": -1.05,
+   "y": 2.3,
+   "needs": [
+    {
+     "id": "crown_greetings",
+     "xp": 120
+    }
+   ],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "Десятки и подвохи",
+     "text": "Числа до двадцати запоминают целиком. Дальше работает дефис: twenty-one, thirty-five. Главная ловушка — пары вроде thirteen и thirty: они отличаются только ударением.",
+     "examples": [
+      {
+       "en": "thirteen — thirty",
+       "ru": "13 — 30: ударение на конец или на начало"
+      },
+      {
+       "en": "fifteen — fifty",
+       "ru": "15 — 50"
+      },
+      {
+       "en": "twenty-one, forty-three",
+       "ru": "21, 43 — через дефис"
+      }
+     ],
+     "tip": "Если не уверен, что услышал, переспроси: One-three or three-zero? Так делают и сами носители."
+    },
+    {
+     "heading": "Цены",
+     "text": "Сначала целая часть, потом монеты. В речи слово dollars часто опускают: five fifty значит 5,50.",
+     "examples": [
+      {
+       "en": "It's five dollars.",
+       "ru": "Это пять долларов."
+      },
+      {
+       "en": "Twelve ninety-nine.",
+       "ru": "12,99 — так говорят на кассе."
+      },
+      {
+       "en": "How much is it?",
+       "ru": "Сколько это стоит?"
+      }
+     ],
+     "tip": "How much — про цену и про неисчисляемое. How many — про количество штук: How many apples?"
+    },
+    {
+     "heading": "Время",
+     "text": "Простой и самый частый способ — назвать часы и минуты подряд: six thirty. Вежливое уточнение дня — a.m. до полудня и p.m. после.",
+     "examples": [
+      {
+       "en": "It's six thirty.",
+       "ru": "Половина седьмого."
+      },
+      {
+       "en": "at a quarter past seven",
+       "ru": "в четверть восьмого"
+      },
+      {
+       "en": "What time is it?",
+       "ru": "Который час?"
+      }
+     ],
+     "tip": "Past — это «после» (минуты прибавляем), to — «до» (минуты отнимаем): ten to eight — без десяти восемь."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "crown_numbers_c1",
+     "kind": "choice",
+     "title": "Услышать правильно",
+     "xp": 25,
+     "items": [
+      {
+       "q": "Как сказать 30?",
+       "options": [
+        "thirty",
+        "thirteen"
+       ],
+       "answer": "thirty",
+       "why": "Thirty — 30, thirteen — 13. Разница только в ударении, поэтому их путают чаще всего.",
+       "theory": 0
+      },
+      {
+       "q": "Как сказать 15?",
+       "options": [
+        "fifteen",
+        "fifty"
+       ],
+       "answer": "fifteen",
+       "why": "Fifteen — 15, fifty — 50.",
+       "theory": 0
+      },
+      {
+       "q": "Как сказать 42?",
+       "options": [
+        "forty-two",
+        "four-two",
+        "fourty-two"
+       ],
+       "answer": "forty-two",
+       "why": "Через дефис. И внимание к написанию: forty, а не fourty.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0
+     ]
+    },
+    {
+     "id": "crown_numbers_c2",
+     "kind": "choice",
+     "title": "Цена и время",
+     "xp": 30,
+     "items": [
+      {
+       "q": "Как спросить цену?",
+       "options": [
+        "How much is it?",
+        "How many is it?"
+       ],
+       "answer": "How much is it?",
+       "why": "How much — про цену. How many — про количество штук.",
+       "theory": 1
+      },
+      {
+       "q": "Сколько это: «twelve ninety-nine»?",
+       "options": [
+        "12,99",
+        "1299",
+        "12,09"
+       ],
+       "answer": "12,99",
+       "why": "Сначала целая часть, потом монеты: 12 и 99.",
+       "theory": 1
+      },
+      {
+       "q": "Как сказать «половина седьмого»?",
+       "options": [
+        "six thirty",
+        "seven thirty",
+        "half seven"
+       ],
+       "answer": "six thirty",
+       "why": "Проще всего назвать часы и минуты: шесть тридцать. По-русски «половина седьмого» — это 6:30.",
+       "theory": 2
+      },
+      {
+       "q": "Что значит «ten to eight»?",
+       "options": [
+        "7:50",
+        "8:10"
+       ],
+       "answer": "7:50",
+       "why": "To значит «до»: без десяти восемь.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crown_family",
+   "side": "crown",
+   "level": "A1",
+   "branch": "life",
+   "title": "Семья и люди",
+   "subtitle": "Рассказать о своих",
+   "icon": "family",
+   "x": 1.05,
+   "y": 2.3,
+   "needs": [
+    {
+     "id": "root_tobe",
+     "xp": 120
+    },
+    {
+     "id": "crown_greetings",
+     "xp": 50
+    }
+   ],
+   "ranks": [
+    50,
+    120,
+    220
+   ],
+   "theory": [
+    {
+     "heading": "Кто есть кто",
+     "text": "Базовый набор слов о семье невелик, и почти все они парные. Обрати внимание: brother и sister вместе — siblings, а parents это и мама, и папа.",
+     "examples": [
+      {
+       "en": "mother, father → parents",
+       "ru": "мама, папа → родители"
+      },
+      {
+       "en": "brother, sister",
+       "ru": "брат, сестра"
+      },
+      {
+       "en": "son, daughter → children",
+       "ru": "сын, дочь → дети"
+      }
+     ],
+     "tip": "Mum/Dad — так зовут своих. Mother/Father звучит официально, как в документах."
+    },
+    {
+     "heading": "Чей это родственник: 's",
+     "text": "Принадлежность показывают апострофом с s: Anna's brother — брат Анны. Это короче и естественнее, чем конструкция с of.",
+     "examples": [
+      {
+       "en": "my sister's name",
+       "ru": "имя моей сестры"
+      },
+      {
+       "en": "Tom's car",
+       "ru": "машина Тома"
+      },
+      {
+       "en": "my parents' house",
+       "ru": "дом моих родителей — апостроф после s"
+      }
+     ],
+     "tip": "Если слово уже кончается на -s (множественное число), второе s не добавляют: parents' , а не parents's."
+    },
+    {
+     "heading": "Возраст — через to be",
+     "text": "По-английски возраст не «имеют», а «являются»: I am twenty. Слово years old можно добавить, а можно опустить.",
+     "examples": [
+      {
+       "en": "I'm twenty years old.",
+       "ru": "Мне двадцать лет."
+      },
+      {
+       "en": "She is five.",
+       "ru": "Ей пять."
+      },
+      {
+       "en": "How old are you?",
+       "ru": "Сколько тебе лет?"
+      }
+     ],
+     "tip": "Сказать I have twenty years — типичная ошибка. Возраст всегда с am/is/are."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "crown_family_c1",
+     "kind": "choice",
+     "title": "Слова и связи",
+     "xp": 25,
+     "items": [
+      {
+       "q": "Mother и father вместе — это…",
+       "options": [
+        "parents",
+        "children",
+        "siblings"
+       ],
+       "answer": "parents",
+       "why": "Parents — родители. Siblings — братья и сёстры.",
+       "theory": 0
+      },
+      {
+       "q": "Как сказать «брат Анны»?",
+       "options": [
+        "Anna's brother",
+        "brother Anna",
+        "Anna brother"
+       ],
+       "answer": "Anna's brother",
+       "why": "Принадлежность показывает 's: Anna's brother.",
+       "theory": 1
+      },
+      {
+       "q": "Как сказать «дом моих родителей»?",
+       "options": [
+        "my parents' house",
+        "my parents's house"
+       ],
+       "answer": "my parents' house",
+       "why": "Parents уже кончается на -s, поэтому ставится только апостроф.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      0,
+      1
+     ]
+    },
+    {
+     "id": "crown_family_c2",
+     "kind": "choice",
+     "title": "Возраст",
+     "xp": 25,
+     "items": [
+      {
+       "q": "Как сказать «Мне двадцать»?",
+       "options": [
+        "I'm twenty.",
+        "I have twenty years."
+       ],
+       "answer": "I'm twenty.",
+       "why": "Возраст — через to be. Вариант с have — калька с русского, так не говорят.",
+       "theory": 2
+      },
+      {
+       "q": "Как спросить «Сколько ей лет?»",
+       "options": [
+        "How old is she?",
+        "How many years she has?"
+       ],
+       "answer": "How old is she?",
+       "why": "Готовая формула: How old + связка + кто.",
+       "theory": 2
+      },
+      {
+       "q": "My sister ___ ten.",
+       "options": [
+        "is",
+        "has"
+       ],
+       "answer": "is",
+       "why": "Снова to be: is ten.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      2
+     ]
+    },
+    {
+     "id": "crown_family_b1",
+     "kind": "build",
+     "title": "Расскажи о своих",
+     "xp": 30,
+     "items": [
+      {
+       "words": [
+        "I",
+        "have",
+        "two",
+        "sisters"
+       ],
+       "ru": "У меня две сестры",
+       "why": "«У меня есть» — это have, а не to be. И sisters во множественном числе.",
+       "theory": 0
+      },
+      {
+       "words": [
+        "My",
+        "brother",
+        "is",
+        "a student"
+       ],
+       "ru": "Мой брат студент",
+       "why": "Связка is обязательна, перед student нужен артикль a.",
+       "theory": 0
+      },
+      {
+       "words": [
+        "How",
+        "old",
+        "is",
+        "your father"
+       ],
+       "ru": "Сколько лет твоему отцу?",
+       "why": "Формула How old + is + кто.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crown_food",
+   "side": "crown",
+   "level": "A1",
+   "branch": "life",
+   "title": "Еда и кафе",
+   "subtitle": "Заказать и не остаться голодным",
+   "icon": "food",
+   "x": -1.55,
+   "y": 3.4,
+   "needs": [
+    {
+     "id": "crown_numbers",
+     "xp": 120
+    },
+    {
+     "id": "root_articles",
+     "xp": 120
+    }
+   ],
+   "ranks": [
+    60,
+    140,
+    250
+   ],
+   "theory": [
+    {
+     "heading": "Что считается, а что нет",
+     "text": "Еда делится на исчисляемую (яблоки, бутерброды) и неисчисляемую (вода, хлеб, сыр). От этого зависит, можно ли поставить число и артикль a.",
+     "examples": [
+      {
+       "en": "an apple, two apples",
+       "ru": "яблоко, два яблока — считаем"
+      },
+      {
+       "en": "water, bread, cheese",
+       "ru": "вода, хлеб, сыр — не считаем"
+      },
+      {
+       "en": "a glass of water, a piece of bread",
+       "ru": "стакан воды, кусок хлеба — считаем упаковку"
+      }
+     ],
+     "tip": "Нельзя сказать two breads. Говорят two pieces of bread или two loaves."
+    },
+    {
+     "heading": "Вежливый заказ",
+     "text": "Короткое I want звучит грубовато. Нормальные варианты — I'd like (это I would like) или Can I have.",
+     "examples": [
+      {
+       "en": "I'd like a coffee, please.",
+       "ru": "Мне, пожалуйста, кофе."
+      },
+      {
+       "en": "Can I have the menu?",
+       "ru": "Можно меню?"
+      },
+      {
+       "en": "Could I get a sandwich?",
+       "ru": "Можно бутерброд?"
+      }
+     ],
+     "tip": "Please в конце — не формальность, а норма. Без него просьба звучит как приказ."
+    },
+    {
+     "heading": "Some и any",
+     "text": "Для неопределённого количества используют some в утверждении и any в вопросе и отрицании.",
+     "examples": [
+      {
+       "en": "I'd like some water.",
+       "ru": "Мне немного воды."
+      },
+      {
+       "en": "Do you have any milk?",
+       "ru": "У вас есть молоко?"
+      },
+      {
+       "en": "We don't have any sugar.",
+       "ru": "У нас нет сахара."
+      }
+     ],
+     "tip": "В вежливом предложении some остаётся и в вопросе: Would you like some tea?"
+    }
+   ],
+   "tasks": [
+    {
+     "id": "crown_food_c1",
+     "kind": "choice",
+     "title": "Считаем или нет",
+     "xp": 30,
+     "items": [
+      {
+       "q": "Как сказать «два куска хлеба»?",
+       "options": [
+        "two pieces of bread",
+        "two breads"
+       ],
+       "answer": "two pieces of bread",
+       "why": "Bread неисчисляемое: считают не хлеб, а куски.",
+       "theory": 0
+      },
+      {
+       "q": "I'd like ___ apple.",
+       "options": [
+        "an",
+        "some"
+       ],
+       "answer": "an",
+       "why": "Apple исчисляемое и в единственном числе — нужен артикль an.",
+       "theory": 0
+      },
+      {
+       "q": "Can I have ___ water?",
+       "options": [
+        "some",
+        "a"
+       ],
+       "answer": "some",
+       "why": "Water неисчисляемое: a не ставится, зато подходит some.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      0,
+      2
+     ]
+    },
+    {
+     "id": "crown_food_c2",
+     "kind": "choice",
+     "title": "Заказ",
+     "xp": 30,
+     "items": [
+      {
+       "q": "Самый вежливый вариант:",
+       "options": [
+        "I'd like a tea, please.",
+        "I want tea.",
+        "Give me tea."
+       ],
+       "answer": "I'd like a tea, please.",
+       "why": "I'd like + please — обычная вежливая форма. I want звучит резко.",
+       "theory": 1
+      },
+      {
+       "q": "Do you have ___ milk?",
+       "options": [
+        "any",
+        "some"
+       ],
+       "answer": "any",
+       "why": "В вопросе о наличии — any.",
+       "theory": 2
+      },
+      {
+       "q": "We don't have ___ sugar.",
+       "options": [
+        "any",
+        "some"
+       ],
+       "answer": "any",
+       "why": "В отрицании тоже any.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      1,
+      2
+     ]
+    },
+    {
+     "id": "crown_food_b1",
+     "kind": "build",
+     "title": "Сделай заказ",
+     "xp": 35,
+     "items": [
+      {
+       "words": [
+        "I'd like",
+        "a coffee",
+        "please"
+       ],
+       "ru": "Мне, пожалуйста, кофе",
+       "why": "Формула заказа: I'd like → что → please в конце.",
+       "theory": 1
+      },
+      {
+       "words": [
+        "Can",
+        "I",
+        "have",
+        "the menu"
+       ],
+       "ru": "Можно меню?",
+       "why": "The menu — то самое меню этого кафе, поэтому the.",
+       "theory": 1
+      },
+      {
+       "words": [
+        "How",
+        "much",
+        "is",
+        "it"
+       ],
+       "ru": "Сколько это стоит?",
+       "why": "How much — про цену.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crown_city",
+   "side": "crown",
+   "level": "A1",
+   "branch": "life",
+   "title": "Город и дорога",
+   "subtitle": "Спросить и понять направление",
+   "icon": "map",
+   "x": 0.45,
+   "y": 3.5,
+   "needs": [
+    {
+     "id": "root_wordorder",
+     "xp": 140
+    },
+    {
+     "id": "crown_numbers",
+     "xp": 50
+    }
+   ],
+   "ranks": [
+    60,
+    140,
+    250
+   ],
+   "theory": [
+    {
+     "heading": "Где это: предлоги места",
+     "text": "Три главных предлога: in — внутри, on — на поверхности, at — в точке. С адресами и местами они закрепились по привычке, и их проще запоминать парами со словом.",
+     "examples": [
+      {
+       "en": "in the city, in Moscow",
+       "ru": "в городе, в Москве"
+      },
+      {
+       "en": "on the street, on the second floor",
+       "ru": "на улице, на втором этаже"
+      },
+      {
+       "en": "at the station, at home",
+       "ru": "на вокзале, дома"
+      }
+     ],
+     "tip": "At home, at work, at school — без артикля. Это застывшие выражения."
+    },
+    {
+     "heading": "Как спросить дорогу",
+     "text": "Вежливый вопрос начинают с Excuse me. Дальше два рабочих варианта: Where is…? и How do I get to…?",
+     "examples": [
+      {
+       "en": "Excuse me, where is the station?",
+       "ru": "Простите, где вокзал?"
+      },
+      {
+       "en": "How do I get to the centre?",
+       "ru": "Как добраться до центра?"
+      },
+      {
+       "en": "Is it far from here?",
+       "ru": "Это далеко отсюда?"
+      }
+     ],
+     "tip": "Excuse me — чтобы обратиться. Sorry — чтобы извиниться. Их часто путают."
+    },
+    {
+     "heading": "Как понять ответ",
+     "text": "В ответе почти всегда будет несколько готовых команд. Их достаточно узнавать на слух — отвечать ими не придётся.",
+     "examples": [
+      {
+       "en": "Go straight on.",
+       "ru": "Идите прямо."
+      },
+      {
+       "en": "Turn left / right.",
+       "ru": "Поверните налево / направо."
+      },
+      {
+       "en": "It's on your left, next to the bank.",
+       "ru": "Это слева, рядом с банком."
+      }
+     ],
+     "tip": "Next to — рядом с, opposite — напротив, between — между. Эти три слова выручают чаще всего."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "crown_city_c1",
+     "kind": "choice",
+     "title": "Предлог места",
+     "xp": 30,
+     "items": [
+      {
+       "q": "I live ___ Moscow.",
+       "options": [
+        "in",
+        "on",
+        "at"
+       ],
+       "answer": "in",
+       "why": "С городами и странами — in: внутри чего-то большого.",
+       "theory": 0
+      },
+      {
+       "q": "She is ___ home.",
+       "options": [
+        "at",
+        "in the",
+        "on"
+       ],
+       "answer": "at",
+       "why": "At home — застывшее выражение, артикля в нём нет.",
+       "theory": 0
+      },
+      {
+       "q": "My office is ___ the third floor.",
+       "options": [
+        "on",
+        "in",
+        "at"
+       ],
+       "answer": "on",
+       "why": "С этажами — on: как на поверхности.",
+       "theory": 0
+      },
+      {
+       "q": "Let's meet ___ the station.",
+       "options": [
+        "at",
+        "in",
+        "on"
+       ],
+       "answer": "at",
+       "why": "Вокзал здесь — точка встречи, поэтому at.",
+       "theory": 0
+      }
+     ],
+     "theory": [
+      0
+     ]
+    },
+    {
+     "id": "crown_city_c2",
+     "kind": "choice",
+     "title": "Спросить и понять",
+     "xp": 30,
+     "items": [
+      {
+       "q": "Как обратиться к прохожему?",
+       "options": [
+        "Excuse me, …",
+        "Sorry, …"
+       ],
+       "answer": "Excuse me, …",
+       "why": "Excuse me — чтобы обратиться. Sorry — когда уже виноват.",
+       "theory": 1
+      },
+      {
+       "q": "Что значит «Turn left»?",
+       "options": [
+        "Поверните налево",
+        "Идите прямо",
+        "Это слева"
+       ],
+       "answer": "Поверните налево",
+       "why": "Turn — поворот, left — налево.",
+       "theory": 2
+      },
+      {
+       "q": "Что значит «next to the bank»?",
+       "options": [
+        "рядом с банком",
+        "напротив банка",
+        "за банком"
+       ],
+       "answer": "рядом с банком",
+       "why": "Next to — рядом. Напротив — opposite.",
+       "theory": 2
+      }
+     ],
+     "theory": [
+      1,
+      2
+     ]
+    },
+    {
+     "id": "crown_city_p1",
+     "kind": "practice",
+     "title": "Закрепить: собери фразы",
+     "xp": 20,
+     "mode": "practice/puzzle",
+     "count": 8
+    }
+   ]
+  },
+  {
+   "id": "crown_day",
+   "side": "crown",
+   "level": "A1",
+   "branch": "talk",
+   "title": "Мой день",
+   "subtitle": "Рассказать о себе связно",
+   "icon": "day",
+   "x": 1.55,
+   "y": 4.3,
+   "needs": [
+    {
+     "id": "root_present_simple",
+     "xp": 140
+    },
+    {
+     "id": "crown_family",
+     "xp": 50
+    }
+   ],
+   "ranks": [
+    70,
+    160,
+    280
+   ],
+   "theory": [
+    {
+     "heading": "Глаголы распорядка",
+     "text": "Про день рассказывают десятком глаголов, и почти все они идут в паре с одним и тем же словом. Запоминать их по отдельности бессмысленно — только связкой.",
+     "examples": [
+      {
+       "en": "get up, have breakfast",
+       "ru": "вставать, завтракать"
+      },
+      {
+       "en": "go to work, come home",
+       "ru": "идти на работу, приходить домой"
+      },
+      {
+       "en": "go to bed",
+       "ru": "ложиться спать"
+      }
+     ],
+     "tip": "Have — универсальный глагол для еды: have breakfast, have lunch, have dinner. Eat breakfast тоже верно, но have звучит естественнее."
+    },
+    {
+     "heading": "Когда это происходит",
+     "text": "Время ставится в конец: at — с часами, in — с частями дня, on — с днями недели.",
+     "examples": [
+      {
+       "en": "at seven, at noon",
+       "ru": "в семь, в полдень"
+      },
+      {
+       "en": "in the morning, in the evening",
+       "ru": "утром, вечером"
+      },
+      {
+       "en": "on Monday, on Friday",
+       "ru": "в понедельник, в пятницу"
+      }
+     ],
+     "tip": "At night — исключение из логики in: не in the night, а at night."
+    },
+    {
+     "heading": "Связать всё в рассказ",
+     "text": "Чтобы речь перестала быть набором фраз, нужны три слова-сцепки: first, then, after that. С ними даже простые предложения звучат как рассказ.",
+     "examples": [
+      {
+       "en": "First I get up at seven.",
+       "ru": "Сначала я встаю в семь."
+      },
+      {
+       "en": "Then I have breakfast.",
+       "ru": "Потом я завтракаю."
+      },
+      {
+       "en": "After that I go to work.",
+       "ru": "После этого я иду на работу."
+      }
+     ],
+     "tip": "Эти же сцепки работают в любом рассказе — о поездке, о работе, о выходных. Это самый дешёвый способ звучать связно."
+    }
+   ],
+   "tasks": [
+    {
+     "id": "crown_day_c1",
+     "kind": "choice",
+     "title": "Предлог времени",
+     "xp": 30,
+     "items": [
+      {
+       "q": "I get up ___ seven.",
+       "options": [
+        "at",
+        "in",
+        "on"
+       ],
+       "answer": "at",
+       "why": "С точным временем — at.",
+       "theory": 1
+      },
+      {
+       "q": "She works ___ the morning.",
+       "options": [
+        "in",
+        "at",
+        "on"
+       ],
+       "answer": "in",
+       "why": "С частями дня — in the morning / afternoon / evening.",
+       "theory": 1
+      },
+      {
+       "q": "We meet ___ Monday.",
+       "options": [
+        "on",
+        "in",
+        "at"
+       ],
+       "answer": "on",
+       "why": "С днями недели — on.",
+       "theory": 1
+      },
+      {
+       "q": "He reads ___ night.",
+       "options": [
+        "at",
+        "in the"
+       ],
+       "answer": "at",
+       "why": "At night — исключение: in the night не говорят.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      1
+     ]
+    },
+    {
+     "id": "crown_day_b1",
+     "kind": "build",
+     "title": "Расскажи свой день",
+     "xp": 35,
+     "items": [
+      {
+       "words": [
+        "First",
+        "I",
+        "get up",
+        "at seven"
+       ],
+       "ru": "Сначала я встаю в семь",
+       "why": "Сцепка first → кто → глагол → время в конце.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "Then",
+        "I",
+        "have",
+        "breakfast"
+       ],
+       "ru": "Потом я завтракаю",
+       "why": "Завтракать — have breakfast, без артикля.",
+       "theory": 0
+      },
+      {
+       "words": [
+        "After that",
+        "I",
+        "go",
+        "to work"
+       ],
+       "ru": "После этого я иду на работу",
+       "why": "Go to work — застывшее выражение, артикля нет.",
+       "theory": 2
+      },
+      {
+       "words": [
+        "In the evening",
+        "I",
+        "watch",
+        "TV"
+       ],
+       "ru": "Вечером я смотрю телевизор",
+       "why": "Время можно вынести и в начало — это допустимо.",
+       "theory": 1
+      }
+     ],
+     "theory": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "crown_day_p1",
+     "kind": "practice",
+     "title": "Закрепить: проверь себя",
+     "xp": 20,
+     "mode": "quiz/words",
+     "count": 10
+    }
+   ]
+  }
+ ]
+}
