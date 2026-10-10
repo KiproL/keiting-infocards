@@ -1,0 +1,366 @@
+[
+  {
+    "id": "syn_a1_01",
+    "level": "A1",
+    "ru": "говорить, сказать",
+    "topic": "Общение",
+    "options": [
+      {
+        "word": "say",
+        "nuance": "Сказать сами слова. Адресат не нужен, а если нужен — через to.",
+        "example": "She said hello.",
+        "exampleRu": "Она сказала «привет»."
+      },
+      {
+        "word": "tell",
+        "nuance": "Сказать кому-то. Адресат обязателен и идёт сразу после глагола, без to.",
+        "example": "Tell me the truth.",
+        "exampleRu": "Скажи мне правду."
+      },
+      {
+        "word": "speak",
+        "nuance": "Говорить на языке или выступать перед кем-то.",
+        "example": "I speak English.",
+        "exampleRu": "Я говорю по-английски."
+      },
+      {
+        "word": "talk",
+        "nuance": "Разговаривать, болтать — это всегда разговор двоих.",
+        "example": "We talked all evening.",
+        "exampleRu": "Мы проговорили весь вечер."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "Can you ___ me your name?",
+        "answer": "tell",
+        "base": "tell",
+        "ru": "Можешь сказать мне своё имя?",
+        "why": "Есть адресат me — значит tell, а не say."
+      },
+      {
+        "sentence": "She ___ nothing about it.",
+        "answer": "said",
+        "base": "say",
+        "ru": "Она ничего об этом не сказала.",
+        "why": "Адресата нет, важны сами слова — say."
+      },
+      {
+        "sentence": "Do you ___ Spanish?",
+        "answer": "speak",
+        "base": "speak",
+        "ru": "Ты говоришь по-испански?",
+        "why": "О владении языком говорят speak."
+      }
+    ]
+  },
+  {
+    "id": "syn_a1_02",
+    "level": "A1",
+    "ru": "большой",
+    "topic": "Описание",
+    "options": [
+      {
+        "word": "big",
+        "nuance": "Общее слово для размера, самое разговорное.",
+        "example": "We live in a big house.",
+        "exampleRu": "Мы живём в большом доме."
+      },
+      {
+        "word": "large",
+        "nuance": "То же, но нейтральнее и чаще о размере и количестве: о напитках, одежде, суммах.",
+        "example": "A large coffee, please.",
+        "exampleRu": "Большой кофе, пожалуйста."
+      },
+      {
+        "word": "tall",
+        "nuance": "Высокий — о человеке, дереве, здании.",
+        "example": "My brother is very tall.",
+        "exampleRu": "Мой брат очень высокий."
+      },
+      {
+        "word": "high",
+        "nuance": "Высокий — о расстоянии от земли, горах, ценах, температуре.",
+        "example": "The mountain is very high.",
+        "exampleRu": "Гора очень высокая."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "He is the ___ boy in our class.",
+        "answer": "tall",
+        "base": "tall",
+        "ru": "Он самый высокий мальчик в нашем классе.",
+        "why": "О росте человека — tall, не high."
+      },
+      {
+        "sentence": "Prices are very ___ this year.",
+        "answer": "high",
+        "base": "high",
+        "ru": "В этом году очень высокие цены.",
+        "why": "О ценах говорят high."
+      },
+      {
+        "sentence": "I ordered a ___ pizza.",
+        "answer": "large",
+        "base": "large",
+        "ru": "Я заказал большую пиццу.",
+        "why": "Размер порции в кафе — large."
+      }
+    ]
+  },
+  {
+    "id": "syn_a1_03",
+    "level": "A1",
+    "ru": "смотреть, видеть",
+    "topic": "Восприятие",
+    "options": [
+      {
+        "word": "see",
+        "nuance": "Видеть — получается само, без усилия.",
+        "example": "I see a bird.",
+        "exampleRu": "Я вижу птицу."
+      },
+      {
+        "word": "look",
+        "nuance": "Смотреть на что-то специально. Всегда с предлогом at.",
+        "example": "Look at this photo!",
+        "exampleRu": "Посмотри на эту фотографию!"
+      },
+      {
+        "word": "watch",
+        "nuance": "Смотреть за тем, что движется или меняется: фильм, матч, ребёнка.",
+        "example": "We watch films every Friday.",
+        "exampleRu": "Мы смотрим фильмы каждую пятницу."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "___ at the board, please.",
+        "answer": "Look",
+        "base": "look",
+        "ru": "Посмотрите на доску, пожалуйста.",
+        "why": "Направить взгляд — look at."
+      },
+      {
+        "sentence": "I ___ a film yesterday.",
+        "answer": "watched",
+        "base": "watch",
+        "ru": "Вчера я смотрел фильм.",
+        "why": "Фильм длится и меняется — watch."
+      },
+      {
+        "sentence": "Can you ___ the sign over there?",
+        "answer": "see",
+        "base": "see",
+        "ru": "Ты видишь вон тот знак?",
+        "why": "Просто попадает в поле зрения — see."
+      }
+    ]
+  },
+  {
+    "id": "syn_a1_04",
+    "level": "A1",
+    "ru": "слушать, слышать",
+    "topic": "Восприятие",
+    "options": [
+      {
+        "word": "hear",
+        "nuance": "Слышать — звук доходит сам.",
+        "example": "I hear music.",
+        "exampleRu": "Я слышу музыку."
+      },
+      {
+        "word": "listen",
+        "nuance": "Слушать специально. Всегда с предлогом to.",
+        "example": "I listen to music every day.",
+        "exampleRu": "Я слушаю музыку каждый день."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "___ to me carefully.",
+        "answer": "Listen",
+        "base": "listen",
+        "ru": "Слушай меня внимательно.",
+        "why": "Осознанно слушать — listen to."
+      },
+      {
+        "sentence": "I can't ___ you, speak louder.",
+        "answer": "hear",
+        "base": "hear",
+        "ru": "Я тебя не слышу, говори громче.",
+        "why": "Звук не доходит — hear."
+      }
+    ]
+  },
+  {
+    "id": "syn_a1_05",
+    "level": "A1",
+    "ru": "делать",
+    "topic": "Действия",
+    "options": [
+      {
+        "word": "do",
+        "nuance": "Делать работу, задание, дела — то, что не создаёт новый предмет.",
+        "example": "I do my homework.",
+        "exampleRu": "Я делаю домашнюю работу."
+      },
+      {
+        "word": "make",
+        "nuance": "Делать что-то новое: еду, вещь, шум, ошибку.",
+        "example": "She makes great coffee.",
+        "exampleRu": "Она делает отличный кофе."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "Don't ___ noise, please.",
+        "answer": "make",
+        "base": "make",
+        "ru": "Не шуми, пожалуйста.",
+        "why": "Шум появляется — make noise."
+      },
+      {
+        "sentence": "I have to ___ the dishes.",
+        "answer": "do",
+        "base": "do",
+        "ru": "Мне нужно помыть посуду.",
+        "why": "Работа по дому — do the dishes."
+      },
+      {
+        "sentence": "He ___ a mistake in the test.",
+        "answer": "made",
+        "base": "make",
+        "ru": "Он сделал ошибку в тесте.",
+        "why": "Ошибка «создаётся» — make a mistake."
+      }
+    ]
+  },
+  {
+    "id": "syn_a1_06",
+    "level": "A1",
+    "ru": "дом",
+    "topic": "Дом",
+    "options": [
+      {
+        "word": "house",
+        "nuance": "Здание, постройка.",
+        "example": "They built a new house.",
+        "exampleRu": "Они построили новый дом."
+      },
+      {
+        "word": "home",
+        "nuance": "Место, где ты живёшь, с оттенком «родное». Часто без предлога: go home.",
+        "example": "I want to go home.",
+        "exampleRu": "Я хочу домой."
+      },
+      {
+        "word": "flat",
+        "nuance": "Квартира (британский вариант; в США — apartment).",
+        "example": "We rent a small flat.",
+        "exampleRu": "Мы снимаем маленькую квартиру."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "I'm going ___ after work.",
+        "answer": "home",
+        "base": "home",
+        "ru": "После работы я иду домой.",
+        "why": "go home — без предлога to."
+      },
+      {
+        "sentence": "Their ___ has a red roof.",
+        "answer": "house",
+        "base": "house",
+        "ru": "У их дома красная крыша.",
+        "why": "Речь о здании — house."
+      }
+    ]
+  },
+  {
+    "id": "syn_a1_07",
+    "level": "A1",
+    "ru": "хороший, приятный",
+    "topic": "Описание",
+    "options": [
+      {
+        "word": "good",
+        "nuance": "Хороший по качеству — самое общее слово.",
+        "example": "This is a good book.",
+        "exampleRu": "Это хорошая книга."
+      },
+      {
+        "word": "nice",
+        "nuance": "Приятный, милый — о впечатлении и о людях.",
+        "example": "She is a very nice person.",
+        "exampleRu": "Она очень приятный человек."
+      },
+      {
+        "word": "kind",
+        "nuance": "Добрый — о том, кто помогает другим.",
+        "example": "Thank you, you are so kind.",
+        "exampleRu": "Спасибо, ты очень добр."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "It was ___ of you to help.",
+        "answer": "kind",
+        "base": "kind",
+        "ru": "С твоей стороны было по-доброму помочь.",
+        "why": "О доброте поступка — kind."
+      },
+      {
+        "sentence": "He is a ___ teacher: students learn a lot.",
+        "answer": "good",
+        "base": "good",
+        "ru": "Он хороший учитель: ученики много узнают.",
+        "why": "О качестве работы — good."
+      }
+    ]
+  },
+  {
+    "id": "syn_a1_08",
+    "level": "A1",
+    "ru": "учить, учиться",
+    "topic": "Учёба",
+    "options": [
+      {
+        "word": "learn",
+        "nuance": "Учить самому, усваивать.",
+        "example": "I learn new words every day.",
+        "exampleRu": "Я учу новые слова каждый день."
+      },
+      {
+        "word": "study",
+        "nuance": "Заниматься, изучать предмет — о процессе.",
+        "example": "She studies medicine.",
+        "exampleRu": "Она изучает медицину."
+      },
+      {
+        "word": "teach",
+        "nuance": "Учить кого-то, преподавать.",
+        "example": "He teaches English at school.",
+        "exampleRu": "Он преподаёт английский в школе."
+      }
+    ],
+    "quiz": [
+      {
+        "sentence": "My mother ___ me to swim.",
+        "answer": "taught",
+        "base": "teach",
+        "ru": "Мама научила меня плавать.",
+        "why": "Учить кого-то другого — teach."
+      },
+      {
+        "sentence": "I need to ___ for the exam.",
+        "answer": "study",
+        "base": "study",
+        "ru": "Мне нужно готовиться к экзамену.",
+        "why": "Сидеть над предметом — study."
+      }
+    ]
+  }
+]
