@@ -106,6 +106,22 @@
     "exampleSentence": "Despite his fame, he stayed humble.",
     "exampleTranslation": "Несмотря на свою известность, он остался скромным."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "скромный",
+    "members": [
+     {
+      "word": "humble",
+      "ru": "скромный"
+     },
+     {
+      "word": "arrogant",
+      "ru": "высокомерный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -526,6 +542,22 @@
     "exampleSentence": "It sounds plausible, but I'm not convinced.",
     "exampleTranslation": "Звучит правдоподобно, но я не убеждён."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "правдоподобный",
+    "members": [
+     {
+      "word": "plausible",
+      "ru": "правдоподобный"
+     },
+     {
+      "word": "implausible",
+      "ru": "неправдоподобный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -545,6 +577,22 @@
     "exampleSentence": "We need a coherent plan.",
     "exampleTranslation": "Нам нужен связный план."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "связный",
+    "members": [
+     {
+      "word": "coherent",
+      "ru": "связный"
+     },
+     {
+      "word": "incoherent",
+      "ru": "бессвязный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -563,6 +611,63 @@
     "translation": "двусмысленный, неоднозначный",
     "exampleSentence": "His answer was deliberately ambiguous.",
     "exampleTranslation": "Его ответ был намеренно двусмысленным."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "неясный",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "ambiguous",
+      "note": "Двусмысленный — можно понять двумя способами.",
+      "example": "The wording is ambiguous.",
+      "exampleRu": "Формулировка двусмысленная."
+     },
+     {
+      "word": "vague",
+      "note": "Расплывчатый — слишком общий, без деталей.",
+      "example": "He gave a vague answer.",
+      "exampleRu": "Он ответил расплывчато."
+     },
+     {
+      "word": "obscure",
+      "note": "Малопонятный или малоизвестный.",
+      "example": "The reference is rather obscure.",
+      "exampleRu": "Отсылка довольно малопонятная."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The contract contains an ___ clause that both sides read differently.",
+      "answer": "ambiguous",
+      "base": "ambiguous",
+      "ru": "В договоре есть двусмысленный пункт, который стороны читают по-разному.",
+      "why": "Два прочтения — ambiguous."
+     },
+     {
+      "sentence": "Her plans for the summer are still ___.",
+      "answer": "vague",
+      "base": "vague",
+      "ru": "Её планы на лето пока расплывчаты.",
+      "why": "Не хватает конкретики — vague."
+     }
+    ]
+   },
+   {
+    "kind": "antonym",
+    "ru": "двусмысленный",
+    "members": [
+     {
+      "word": "ambiguous",
+      "ru": "двусмысленный"
+     },
+     {
+      "word": "unambiguous",
+      "ru": "однозначный"
+     }
+    ]
    }
   ]
  },
@@ -601,6 +706,49 @@
     "translation": "подразумевать, намекать",
     "exampleSentence": "Are you implying that I lied?",
     "exampleTranslation": "Ты намекаешь, что я солгал?"
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "подразумевать, делать вывод",
+    "topic": "Переговоры",
+    "members": [
+     {
+      "word": "imply",
+      "note": "Подразумевать — говорящий намекает.",
+      "example": "Are you implying that I lied?",
+      "exampleRu": "Ты намекаешь, что я соврал?"
+     },
+     {
+      "word": "infer",
+      "note": "Делать вывод — слушатель понимает.",
+      "example": "We can infer that costs will rise.",
+      "exampleRu": "Отсюда можно заключить, что расходы вырастут."
+     },
+     {
+      "word": "suggest",
+      "note": "Указывать на что-то — о данных и фактах.",
+      "example": "The data suggests a clear trend.",
+      "exampleRu": "Данные указывают на явную тенденцию."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "From his tone I ___ that he disagreed.",
+      "answer": "inferred",
+      "base": "infer",
+      "ru": "По его тону я понял, что он не согласен.",
+      "why": "Вывод делает слушатель — infer."
+     },
+     {
+      "sentence": "His silence ___ consent.",
+      "answer": "implied",
+      "base": "imply",
+      "ru": "Его молчание подразумевало согласие.",
+      "why": "Намекает источник — imply."
+     }
+    ]
    }
   ]
  },
@@ -733,6 +881,49 @@
     "exampleSentence": "He conceded that he had been wrong.",
     "exampleTranslation": "Он признал, что был неправ."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "признавать",
+    "topic": "Переговоры",
+    "members": [
+     {
+      "word": "admit",
+      "note": "Признать, что сделал — часто о вине.",
+      "example": "He admitted his mistake.",
+      "exampleRu": "Он признал свою ошибку."
+     },
+     {
+      "word": "acknowledge",
+      "note": "Признать факт или заслугу — нейтрально и вежливо.",
+      "example": "We acknowledge your concerns.",
+      "exampleRu": "Мы признаём обоснованность ваших опасений."
+     },
+     {
+      "word": "concede",
+      "note": "Уступить в споре, нехотя согласиться.",
+      "example": "She conceded that we were right.",
+      "exampleRu": "Она признала, что мы правы."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The minister ___ that mistakes had been made.",
+      "answer": "conceded",
+      "base": "concede",
+      "ru": "Министр нехотя признал, что были допущены ошибки.",
+      "why": "Уступка под давлением — concede."
+     },
+     {
+      "sentence": "We ___ receipt of your letter.",
+      "answer": "acknowledge",
+      "base": "acknowledge",
+      "ru": "Подтверждаем получение вашего письма.",
+      "why": "Официальное подтверждение — acknowledge."
+     }
+    ]
+   }
   ]
  },
  {
@@ -806,6 +997,22 @@
     "translation": "дотошный, скрупулёзный",
     "exampleSentence": "He keeps meticulous records.",
     "exampleTranslation": "Он ведёт скрупулёзные записи."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "дотошный",
+    "members": [
+     {
+      "word": "meticulous",
+      "ru": "дотошный"
+     },
+     {
+      "word": "careless",
+      "ru": "небрежный"
+     }
+    ]
    }
   ]
  },
@@ -1270,6 +1477,22 @@
     "exampleSentence": "The drug alleviates the pain.",
     "exampleTranslation": "Лекарство облегчает боль."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "облегчать",
+    "members": [
+     {
+      "word": "alleviate",
+      "ru": "облегчать"
+     },
+     {
+      "word": "exacerbate",
+      "ru": "усугублять"
+     }
+    ]
+   }
   ]
  },
  {
@@ -1288,6 +1511,49 @@
     "translation": "смягчать последствия, уменьшать",
     "exampleSentence": "Trees help mitigate flooding.",
     "exampleTranslation": "Деревья помогают смягчить последствия наводнений."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "смягчить",
+    "topic": "Бизнес",
+    "members": [
+     {
+      "word": "mitigate",
+      "note": "Смягчить риск или последствия — деловое слово.",
+      "example": "Steps to mitigate the risk.",
+      "exampleRu": "Меры по снижению риска."
+     },
+     {
+      "word": "alleviate",
+      "note": "Облегчить страдание, нагрузку, боль.",
+      "example": "The drug alleviates pain.",
+      "exampleRu": "Лекарство облегчает боль."
+     },
+     {
+      "word": "ease",
+      "note": "Ослабить напряжение, правила, боль — мягче и проще.",
+      "example": "They eased the restrictions.",
+      "exampleRu": "Они смягчили ограничения."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The plan aims to ___ financial risks.",
+      "answer": "mitigate",
+      "base": "mitigate",
+      "ru": "План призван снизить финансовые риски.",
+      "why": "О рисках — mitigate."
+     },
+     {
+      "sentence": "New roads should ___ traffic in the centre.",
+      "answer": "ease",
+      "base": "ease",
+      "ru": "Новые дороги должны разгрузить центр.",
+      "why": "Ослабить давление — ease."
+     }
+    ]
    }
   ]
  },
@@ -1324,6 +1590,22 @@
     "translation": "подрывать, исподволь ослаблять",
     "exampleSentence": "Constant criticism undermines confidence.",
     "exampleTranslation": "Постоянная критика подрывает уверенность."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "подрывать",
+    "members": [
+     {
+      "word": "undermine",
+      "ru": "подрывать"
+     },
+     {
+      "word": "reinforce",
+      "ru": "укреплять"
+     }
+    ]
    }
   ]
  },
@@ -1435,6 +1717,22 @@
     "translation": "уменьшаться, убывать",
     "exampleSentence": "Interest in the topic has diminished.",
     "exampleTranslation": "Интерес к теме угас."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "уменьшаться",
+    "members": [
+     {
+      "word": "diminish",
+      "ru": "уменьшаться"
+     },
+     {
+      "word": "surpass",
+      "ru": "превосходить"
+     }
+    ]
    }
   ]
  },
@@ -1598,6 +1896,22 @@
     "exampleSentence": "A delay now seems inevitable.",
     "exampleTranslation": "Задержка теперь кажется неизбежной."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "неизбежный",
+    "members": [
+     {
+      "word": "inevitable",
+      "ru": "неизбежный"
+     },
+     {
+      "word": "avoidable",
+      "ru": "предотвратимый"
+     }
+    ]
+   }
   ]
  },
  {
@@ -1671,6 +1985,22 @@
     "exampleSentence": "That format is obsolete now.",
     "exampleTranslation": "Этот формат сейчас устарел."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "устаревший",
+    "members": [
+     {
+      "word": "obsolete",
+      "ru": "устаревший"
+     },
+     {
+      "word": "cutting-edge",
+      "ru": "передовой"
+     }
+    ]
+   }
   ]
  },
  {
@@ -1707,6 +2037,22 @@
     "translation": "прибыльный, доходный",
     "exampleSentence": "It turned into a lucrative business.",
     "exampleTranslation": "Это превратилось в прибыльный бизнес."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "прибыльный",
+    "members": [
+     {
+      "word": "lucrative",
+      "ru": "прибыльный"
+     },
+     {
+      "word": "unprofitable",
+      "ru": "убыточный"
+     }
+    ]
    }
   ]
  },
@@ -1991,6 +2337,49 @@
     "exampleSentence": "The course comprises ten modules.",
     "exampleTranslation": "Курс состоит из десяти модулей."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "состоять из",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "consist of",
+      "note": "Состоять из — целое состоит из частей. Всегда с of.",
+      "example": "The team consists of five people.",
+      "exampleRu": "Команда состоит из пяти человек."
+     },
+     {
+      "word": "comprise",
+      "note": "Включать в себя — то же, но без предлога.",
+      "example": "The course comprises ten modules.",
+      "exampleRu": "Курс включает десять модулей."
+     },
+     {
+      "word": "be composed of",
+      "note": "Быть составленным из — чаще о веществах и формальных текстах.",
+      "example": "Water is composed of hydrogen and oxygen.",
+      "exampleRu": "Вода состоит из водорода и кислорода."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The committee ___ twelve members.",
+      "answer": "comprises",
+      "base": "comprise",
+      "ru": "В комитет входит двенадцать человек.",
+      "why": "comprise — без предлога of."
+     },
+     {
+      "sentence": "Our offer ___ three parts.",
+      "answer": "consists of",
+      "base": "consist of",
+      "ru": "Наше предложение состоит из трёх частей.",
+      "why": "consist всегда с of."
+     }
+    ]
+   }
   ]
  },
  {
@@ -2214,6 +2603,22 @@
     "exampleSentence": "Water scarcity is a growing problem.",
     "exampleTranslation": "Нехватка воды — растущая проблема."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "нехватка",
+    "members": [
+     {
+      "word": "scarcity",
+      "ru": "нехватка"
+     },
+     {
+      "word": "abundance",
+      "ru": "изобилие"
+     }
+    ]
+   }
   ]
  },
  {
@@ -2400,6 +2805,196 @@
     "translation": "веха, важный рубеж",
     "exampleSentence": "Her first novel was a milestone.",
     "exampleTranslation": "Её первый роман стал вехой."
+   }
+  ]
+ },
+ {
+  "id": "word_c1_discreet",
+  "english": "discreet",
+  "transcription": "[dɪˈskriːt]",
+  "level": "C1",
+  "tags": [
+   "характер и качества людей"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "тактичный",
+    "translation": "тактичный, умеющий молчать",
+    "exampleSentence": "He was discreet about the news.",
+    "exampleTranslation": "Он тактично промолчал о новости."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "осторожный, отдельный",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "discreet",
+      "note": "Тактичный, не привлекающий внимания.",
+      "example": "Please be discreet about this.",
+      "exampleRu": "Пожалуйста, не распространяйся об этом."
+     },
+     {
+      "word": "discrete",
+      "note": "Отдельный, дискретный — другое слово, его часто путают.",
+      "example": "The process has three discrete stages.",
+      "exampleRu": "Процесс состоит из трёх отдельных этапов."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He made a ___ phone call from the corridor.",
+      "answer": "discreet",
+      "base": "discreet",
+      "ru": "Он незаметно позвонил из коридора.",
+      "why": "Тактично и незаметно — discreet."
+     },
+     {
+      "sentence": "The data falls into ___ categories.",
+      "answer": "discrete",
+      "base": "discrete",
+      "ru": "Данные делятся на отдельные категории.",
+      "why": "Раздельные единицы — discrete."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_c1_discrete",
+  "english": "discrete",
+  "transcription": "[dɪˈskriːt]",
+  "level": "C1",
+  "tags": [
+   "наука и знания"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "отдельный",
+    "translation": "отдельный, дискретный",
+    "exampleSentence": "The course has five discrete stages.",
+    "exampleTranslation": "Курс состоит из пяти отдельных этапов."
+   }
+  ]
+ },
+ {
+  "id": "word_c1_pivotal",
+  "english": "pivotal",
+  "transcription": "[ˈpɪvətl]",
+  "level": "C1",
+  "tags": [
+   "оценки и описания"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "ключевой",
+    "translation": "ключевой, поворотный",
+    "exampleSentence": "She played a pivotal role.",
+    "exampleTranslation": "Она сыграла ключевую роль."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "ключевой",
+    "topic": "Мнение",
+    "members": [
+     {
+      "word": "crucial",
+      "note": "Решающий — без него не получится.",
+      "example": "Timing is crucial here.",
+      "exampleRu": "Здесь решают сроки."
+     },
+     {
+      "word": "pivotal",
+      "note": "Поворотный — то, вокруг чего всё меняется.",
+      "example": "He played a pivotal role.",
+      "exampleRu": "Он сыграл поворотную роль."
+     },
+     {
+      "word": "essential",
+      "note": "Необходимый — без этого нельзя обойтись.",
+      "example": "Water is essential for life.",
+      "exampleRu": "Вода необходима для жизни."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "That meeting was a ___ moment for the company.",
+      "answer": "pivotal",
+      "base": "pivotal",
+      "ru": "Та встреча стала поворотным моментом для компании.",
+      "why": "Точка поворота — pivotal."
+     },
+     {
+      "sentence": "Trust is ___ to any partnership.",
+      "answer": "essential",
+      "base": "essential",
+      "ru": "Доверие необходимо любому партнёрству.",
+      "why": "Без этого никак — essential."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_c1_principal",
+  "english": "principal",
+  "transcription": "[ˈprɪnsəpl]",
+  "level": "C1",
+  "tags": [
+   "оценки и описания",
+   "школа и образование"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "главный",
+    "translation": "главный, основной",
+    "exampleSentence": "That was the principal reason.",
+    "exampleTranslation": "Это была главная причина."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "главный, принцип",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "principal",
+      "note": "Главный, основной — прилагательное. Ещё «директор школы».",
+      "example": "The principal reason is cost.",
+      "exampleRu": "Главная причина — стоимость."
+     },
+     {
+      "word": "principle",
+      "note": "Принцип — существительное. Пишется через -le.",
+      "example": "It's a matter of principle.",
+      "exampleRu": "Это дело принципа."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Our ___ concern is safety.",
+      "answer": "principal",
+      "base": "principal",
+      "ru": "Наша главная забота — безопасность.",
+      "why": "Прилагательное «главный» — principal."
+     },
+     {
+      "sentence": "He refused on ___.",
+      "answer": "principle",
+      "base": "principle",
+      "ru": "Он отказался из принципа.",
+      "why": "Существительное «принцип» — principle."
+     }
+    ]
    }
   ]
  }

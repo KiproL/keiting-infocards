@@ -97,16 +97,21 @@
     "exampleTranslation": "Компания разрабатывает новые приложения."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "development",
-    "pos": "сущ.",
-    "ru": "развитие"
-   },
-   {
-    "word": "developer",
-    "pos": "сущ.",
-    "ru": "разработчик"
+    "kind": "family",
+    "members": [
+     {
+      "word": "development",
+      "pos": "сущ.",
+      "ru": "развитие"
+     },
+     {
+      "word": "developer",
+      "pos": "сущ.",
+      "ru": "разработчик"
+     }
+    ]
    }
   ]
  },
@@ -219,11 +224,16 @@
     "exampleTranslation": "Учёные открыли новую звезду."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "discovery",
-    "pos": "сущ.",
-    "ru": "открытие"
+    "kind": "family",
+    "members": [
+     {
+      "word": "discovery",
+      "pos": "сущ.",
+      "ru": "открытие"
+     }
+    ]
    }
   ]
  },
@@ -244,11 +254,16 @@
     "exampleTranslation": "Давай обсудим план."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "discussion",
-    "pos": "сущ.",
-    "ru": "обсуждение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "discussion",
+      "pos": "сущ.",
+      "ru": "обсуждение"
+     }
+    ]
    }
   ]
  },
@@ -596,6 +611,55 @@
     "exampleSentence": "I don't like coffee either.",
     "exampleTranslation": "Я тоже не люблю кофе."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "тоже",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "too",
+      "note": "«Тоже» в конце предложения, разговорное.",
+      "example": "I'm hungry too.",
+      "exampleRu": "Я тоже голоден."
+     },
+     {
+      "word": "also",
+      "note": "«Тоже» в середине, перед глаголом. Чуть официальнее.",
+      "example": "She also speaks French.",
+      "exampleRu": "Она ещё и по-французски говорит."
+     },
+     {
+      "word": "as well",
+      "note": "То же, что too, но мягче и чаще в британском.",
+      "example": "He came as well.",
+      "exampleRu": "Он тоже пришёл."
+     },
+     {
+      "word": "either",
+      "note": "«Тоже» в отрицании.",
+      "example": "I don't like it either.",
+      "exampleRu": "Мне это тоже не нравится."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I haven't seen it ___.",
+      "answer": "either",
+      "base": "either",
+      "ru": "Я этого тоже не видел.",
+      "why": "В отрицании — either, не too."
+     },
+     {
+      "sentence": "We ___ need more time.",
+      "answer": "also",
+      "base": "also",
+      "ru": "Нам тоже нужно больше времени.",
+      "why": "Перед глаголом в середине — also."
+     }
+    ]
+   }
   ]
  },
  {
@@ -688,26 +752,31 @@
     "exampleTranslation": "В компании работает пятьдесят человек."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "employer",
-    "pos": "сущ.",
-    "ru": "работодатель"
-   },
-   {
-    "word": "employee",
-    "pos": "сущ.",
-    "ru": "сотрудник"
-   },
-   {
-    "word": "employment",
-    "pos": "сущ.",
-    "ru": "занятость"
-   },
-   {
-    "word": "unemployed",
-    "pos": "прил.",
-    "ru": "безработный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "employer",
+      "pos": "сущ.",
+      "ru": "работодатель"
+     },
+     {
+      "word": "employee",
+      "pos": "сущ.",
+      "ru": "сотрудник"
+     },
+     {
+      "word": "employment",
+      "pos": "сущ.",
+      "ru": "занятость"
+     },
+     {
+      "word": "unemployed",
+      "pos": "прил.",
+      "ru": "безработный"
+     }
+    ]
    }
   ]
  },
@@ -745,6 +814,22 @@
     "translation": "поддерживать, поощрять, ободрять",
     "exampleSentence": "My parents encourage me to study hard.",
     "exampleTranslation": "Родители поощряют меня усердно учиться."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "поощрять",
+    "members": [
+     {
+      "word": "encourage",
+      "ru": "поощрять"
+     },
+     {
+      "word": "discourage",
+      "ru": "отговаривать"
+     }
+    ]
    }
   ]
  },
@@ -863,11 +948,16 @@
     "exampleTranslation": "Пожалуйста, входите в комнату тихо."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "entrance",
-    "pos": "сущ.",
-    "ru": "вход"
+    "kind": "family",
+    "members": [
+     {
+      "word": "entrance",
+      "pos": "сущ.",
+      "ru": "вход"
+     }
+    ]
    }
   ]
  },
@@ -887,6 +977,22 @@
     "translation": "вход, парадная дверь",
     "exampleSentence": "The entrance to the museum is here.",
     "exampleTranslation": "Вход в музей здесь."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "вход",
+    "members": [
+     {
+      "word": "entrance",
+      "ru": "вход"
+     },
+     {
+      "word": "exit",
+      "ru": "выход"
+     }
+    ]
    }
   ]
  },
@@ -945,16 +1051,21 @@
     "exampleTranslation": "Все люди равны."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "equally",
-    "pos": "нареч.",
-    "ru": "одинаково"
-   },
-   {
-    "word": "equality",
-    "pos": "сущ.",
-    "ru": "равенство"
+    "kind": "family",
+    "members": [
+     {
+      "word": "equally",
+      "pos": "нареч.",
+      "ru": "одинаково"
+     },
+     {
+      "word": "equality",
+      "pos": "сущ.",
+      "ru": "равенство"
+     }
+    ]
    }
   ]
  },
@@ -1109,11 +1220,16 @@
     "exampleTranslation": "Врач осмотрел пациента."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "examination",
-    "pos": "сущ.",
-    "ru": "осмотр, экзамен"
+    "kind": "family",
+    "members": [
+     {
+      "word": "examination",
+      "pos": "сущ.",
+      "ru": "осмотр, экзамен"
+     }
+    ]
    }
   ]
  },
@@ -1343,11 +1459,16 @@
     "exampleTranslation": "Мне трудно выразить свои чувства."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "expression",
-    "pos": "сущ.",
-    "ru": "выражение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "expression",
+      "pos": "сущ.",
+      "ru": "выражение"
+     }
+    ]
    }
   ]
  },
@@ -1426,11 +1547,16 @@
     "exampleTranslation": "Я не хочу провалить тест."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "failure",
-    "pos": "сущ.",
-    "ru": "неудача"
+    "kind": "family",
+    "members": [
+     {
+      "word": "failure",
+      "pos": "сущ.",
+      "ru": "неудача"
+     }
+    ]
    }
   ]
  },
@@ -1959,16 +2085,35 @@
     "exampleTranslation": "Озеро очень глубокое."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "deeply",
-    "pos": "нареч.",
-    "ru": "глубоко"
+    "kind": "family",
+    "members": [
+     {
+      "word": "deeply",
+      "pos": "нареч.",
+      "ru": "глубоко"
+     },
+     {
+      "word": "depth",
+      "pos": "сущ.",
+      "ru": "глубина"
+     }
+    ]
    },
    {
-    "word": "depth",
-    "pos": "сущ.",
-    "ru": "глубина"
+    "kind": "antonym",
+    "ru": "глубокий",
+    "members": [
+     {
+      "word": "deep",
+      "ru": "глубокий"
+     },
+     {
+      "word": "shallow",
+      "ru": "мелкий"
+     }
+    ]
    }
   ]
  },
@@ -2073,11 +2218,16 @@
     "exampleTranslation": "Можешь описать свой город?"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "description",
-    "pos": "сущ.",
-    "ru": "описание"
+    "kind": "family",
+    "members": [
+     {
+      "word": "description",
+      "pos": "сущ.",
+      "ru": "описание"
+     }
+    ]
    }
   ]
  },
@@ -2428,6 +2578,22 @@
     "translation": "щедрый, великодушный",
     "exampleSentence": "My grandfather is very generous.",
     "exampleTranslation": "Мой дедушка очень щедрый."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "щедрый",
+    "members": [
+     {
+      "word": "generous",
+      "ru": "щедрый"
+     },
+     {
+      "word": "mean",
+      "ru": "скупой"
+     }
+    ]
    }
   ]
  },
@@ -2978,7 +3144,23 @@
   "forms": {
    "past": "hid",
    "participle": "hidden"
-  }
+  },
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "прятать",
+    "members": [
+     {
+      "word": "hide",
+      "ru": "прятать"
+     },
+     {
+      "word": "reveal",
+      "ru": "раскрывать"
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_hire",
@@ -3059,21 +3241,40 @@
     "exampleTranslation": "Он всегда честен со мной."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "honestly",
-    "pos": "нареч.",
-    "ru": "честно"
+    "kind": "family",
+    "members": [
+     {
+      "word": "honestly",
+      "pos": "нареч.",
+      "ru": "честно"
+     },
+     {
+      "word": "honesty",
+      "pos": "сущ.",
+      "ru": "честность"
+     },
+     {
+      "word": "dishonest",
+      "pos": "прил.",
+      "ru": "нечестный"
+     }
+    ]
    },
    {
-    "word": "honesty",
-    "pos": "сущ.",
-    "ru": "честность"
-   },
-   {
-    "word": "dishonest",
-    "pos": "прил.",
-    "ru": "нечестный"
+    "kind": "antonym",
+    "ru": "честный",
+    "members": [
+     {
+      "word": "honest",
+      "ru": "честный"
+     },
+     {
+      "word": "dishonest",
+      "ru": "нечестный"
+     }
+    ]
    }
   ]
  },
@@ -3327,16 +3528,21 @@
     "exampleTranslation": "Представь себе мир без машин."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "imagination",
-    "pos": "сущ.",
-    "ru": "воображение"
-   },
-   {
-    "word": "imaginary",
-    "pos": "прил.",
-    "ru": "воображаемый"
+    "kind": "family",
+    "members": [
+     {
+      "word": "imagination",
+      "pos": "сущ.",
+      "ru": "воображение"
+     },
+     {
+      "word": "imaginary",
+      "pos": "прил.",
+      "ru": "воображаемый"
+     }
+    ]
    }
   ]
  },
@@ -3430,11 +3636,30 @@
     "exampleTranslation": "Я хочу улучшить свой английский."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "improvement",
-    "pos": "сущ.",
-    "ru": "улучшение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "improvement",
+      "pos": "сущ.",
+      "ru": "улучшение"
+     }
+    ]
+   },
+   {
+    "kind": "antonym",
+    "ru": "улучшать",
+    "members": [
+     {
+      "word": "improve",
+      "ru": "улучшать"
+     },
+     {
+      "word": "worsen",
+      "ru": "ухудшать"
+     }
+    ]
    }
   ]
  },
@@ -3472,6 +3697,22 @@
     "translation": "увеличивать(ся), возрастать",
     "exampleSentence": "Prices increased this month.",
     "exampleTranslation": "В этом месяце цены выросли."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "увеличивать",
+    "members": [
+     {
+      "word": "increase",
+      "ru": "увеличивать"
+     },
+     {
+      "word": "reduce",
+      "ru": "сокращать"
+     }
+    ]
    }
   ]
  },
@@ -3566,16 +3807,21 @@
     "exampleTranslation": "Пожалуйста, сообщайте нам о любых изменениях."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "information",
-    "pos": "сущ.",
-    "ru": "информация"
-   },
-   {
-    "word": "informal",
-    "pos": "прил.",
-    "ru": "неформальный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "information",
+      "pos": "сущ.",
+      "ru": "информация"
+     },
+     {
+      "word": "informal",
+      "pos": "прил.",
+      "ru": "неформальный"
+     }
+    ]
    }
   ]
  },
@@ -3649,6 +3895,22 @@
     "translation": "внутри, внутрь",
     "exampleSentence": "Let's go inside, it's cold.",
     "exampleTranslation": "Пойдём внутрь, холодно."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "внутри",
+    "members": [
+     {
+      "word": "inside",
+      "ru": "внутри"
+     },
+     {
+      "word": "outside",
+      "ru": "снаружи"
+     }
+    ]
    }
   ]
  },
@@ -3745,11 +4007,16 @@
     "exampleTranslation": "Я намерен изучать медицину."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "intention",
-    "pos": "сущ.",
-    "ru": "намерение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "intention",
+      "pos": "сущ.",
+      "ru": "намерение"
+     }
+    ]
    }
   ]
  },
@@ -3827,16 +4094,21 @@
     "exampleTranslation": "Кто изобрёл телефон?"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "invention",
-    "pos": "сущ.",
-    "ru": "изобретение"
-   },
-   {
-    "word": "inventor",
-    "pos": "сущ.",
-    "ru": "изобретатель"
+    "kind": "family",
+    "members": [
+     {
+      "word": "invention",
+      "pos": "сущ.",
+      "ru": "изобретение"
+     },
+     {
+      "word": "inventor",
+      "pos": "сущ.",
+      "ru": "изобретатель"
+     }
+    ]
    }
   ]
  },
@@ -3859,11 +4131,16 @@
     "exampleTranslation": "Мы пригласили соседей на вечеринку."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "invitation",
-    "pos": "сущ.",
-    "ru": "приглашение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "invitation",
+      "pos": "сущ.",
+      "ru": "приглашение"
+     }
+    ]
    }
   ]
  },
@@ -4383,16 +4660,21 @@
    "past": "led",
    "participle": "led"
   },
-  "family": [
+  "sets": [
    {
-    "word": "leader",
-    "pos": "сущ.",
-    "ru": "лидер"
-   },
-   {
-    "word": "leadership",
-    "pos": "сущ.",
-    "ru": "руководство"
+    "kind": "family",
+    "members": [
+     {
+      "word": "leader",
+      "pos": "сущ.",
+      "ru": "лидер"
+     },
+     {
+      "word": "leadership",
+      "pos": "сущ.",
+      "ru": "руководство"
+     }
+    ]
    }
   ]
  },
@@ -4715,21 +4997,26 @@
     "exampleTranslation": "Удачи на экзамене!"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "lucky",
-    "pos": "прил.",
-    "ru": "везучий"
-   },
-   {
-    "word": "luckily",
-    "pos": "нареч.",
-    "ru": "к счастью"
-   },
-   {
-    "word": "unlucky",
-    "pos": "прил.",
-    "ru": "невезучий"
+    "kind": "family",
+    "members": [
+     {
+      "word": "lucky",
+      "pos": "прил.",
+      "ru": "везучий"
+     },
+     {
+      "word": "luckily",
+      "pos": "нареч.",
+      "ru": "к счастью"
+     },
+     {
+      "word": "unlucky",
+      "pos": "прил.",
+      "ru": "невезучий"
+     }
+    ]
    }
   ]
  },
@@ -4842,6 +5129,22 @@
     "exampleSentence": "This is a major problem.",
     "exampleTranslation": "Это серьёзная проблема."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "главный",
+    "members": [
+     {
+      "word": "major",
+      "ru": "главный"
+     },
+     {
+      "word": "minor",
+      "ru": "второстепенный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -4861,16 +5164,21 @@
     "exampleTranslation": "Она управляет небольшим рестораном."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "manager",
-    "pos": "сущ.",
-    "ru": "руководитель"
-   },
-   {
-    "word": "management",
-    "pos": "сущ.",
-    "ru": "управление"
+    "kind": "family",
+    "members": [
+     {
+      "word": "manager",
+      "pos": "сущ.",
+      "ru": "руководитель"
+     },
+     {
+      "word": "management",
+      "pos": "сущ.",
+      "ru": "управление"
+     }
+    ]
    }
   ]
  },
@@ -4989,6 +5297,22 @@
     "translation": "максимум",
     "exampleSentence": "The maximum speed here is fifty.",
     "exampleTranslation": "Максимальная скорость здесь пятьдесят."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "максимум",
+    "members": [
+     {
+      "word": "maximum",
+      "ru": "максимум"
+     },
+     {
+      "word": "minimum",
+      "ru": "минимум"
+     }
+    ]
    }
   ]
  },
@@ -5340,21 +5664,26 @@
     "exampleTranslation": "Вся страна смотрела матч."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "national",
-    "pos": "прил.",
-    "ru": "национальный"
-   },
-   {
-    "word": "nationality",
-    "pos": "сущ.",
-    "ru": "гражданство"
-   },
-   {
-    "word": "international",
-    "pos": "прил.",
-    "ru": "международный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "national",
+      "pos": "прил.",
+      "ru": "национальный"
+     },
+     {
+      "word": "nationality",
+      "pos": "сущ.",
+      "ru": "гражданство"
+     },
+     {
+      "word": "international",
+      "pos": "прил.",
+      "ru": "международный"
+     }
+    ]
    }
   ]
  },
@@ -5414,16 +5743,21 @@
     "exampleTranslation": "Я люблю проводить время на природе."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "natural",
-    "pos": "прил.",
-    "ru": "естественный"
-   },
-   {
-    "word": "naturally",
-    "pos": "нареч.",
-    "ru": "естественно"
+    "kind": "family",
+    "members": [
+     {
+      "word": "natural",
+      "pos": "прил.",
+      "ru": "естественный"
+     },
+     {
+      "word": "naturally",
+      "pos": "нареч.",
+      "ru": "естественно"
+     }
+    ]
    }
   ]
  },
@@ -5554,11 +5888,16 @@
     "exampleTranslation": "Что это за странный звук?"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "noisy",
-    "pos": "прил.",
-    "ru": "шумный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "noisy",
+      "pos": "прил.",
+      "ru": "шумный"
+     }
+    ]
    }
   ]
  },
@@ -5752,11 +6091,16 @@
     "exampleTranslation": "Очевидно, что он устал."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "obviously",
-    "pos": "нареч.",
-    "ru": "очевидно"
+    "kind": "family",
+    "members": [
+     {
+      "word": "obviously",
+      "pos": "нареч.",
+      "ru": "очевидно"
+     }
+    ]
    }
   ]
  },
@@ -6104,16 +6448,21 @@
     "exampleTranslation": "У неё боль в спине."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "painful",
-    "pos": "прил.",
-    "ru": "болезненный"
-   },
-   {
-    "word": "painless",
-    "pos": "прил.",
-    "ru": "безболезненный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "painful",
+      "pos": "прил.",
+      "ru": "болезненный"
+     },
+     {
+      "word": "painless",
+      "pos": "прил.",
+      "ru": "безболезненный"
+     }
+    ]
    }
   ]
  },
@@ -6570,21 +6919,40 @@
     "exampleTranslation": "Будь вежлив с гостями."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "politely",
-    "pos": "нареч.",
-    "ru": "вежливо"
+    "kind": "family",
+    "members": [
+     {
+      "word": "politely",
+      "pos": "нареч.",
+      "ru": "вежливо"
+     },
+     {
+      "word": "politeness",
+      "pos": "сущ.",
+      "ru": "вежливость"
+     },
+     {
+      "word": "impolite",
+      "pos": "прил.",
+      "ru": "невежливый"
+     }
+    ]
    },
    {
-    "word": "politeness",
-    "pos": "сущ.",
-    "ru": "вежливость"
-   },
-   {
-    "word": "impolite",
-    "pos": "прил.",
-    "ru": "невежливый"
+    "kind": "antonym",
+    "ru": "вежливый",
+    "members": [
+     {
+      "word": "polite",
+      "ru": "вежливый"
+     },
+     {
+      "word": "rude",
+      "ru": "грубый"
+     }
+    ]
    }
   ]
  },
@@ -6755,16 +7123,21 @@
     "exampleTranslation": "Гроза отключила электричество."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "powerful",
-    "pos": "прил.",
-    "ru": "мощный"
-   },
-   {
-    "word": "powerless",
-    "pos": "прил.",
-    "ru": "бессильный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "powerful",
+      "pos": "прил.",
+      "ru": "мощный"
+     },
+     {
+      "word": "powerless",
+      "pos": "прил.",
+      "ru": "бессильный"
+     }
+    ]
    }
   ]
  },
@@ -6819,6 +7192,22 @@
     "translation": "хвалить",
     "exampleSentence": "The teacher praised her work.",
     "exampleTranslation": "Учитель похвалил её работу."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "хвалить",
+    "members": [
+     {
+      "word": "praise",
+      "ru": "хвалить"
+     },
+     {
+      "word": "criticise",
+      "ru": "критиковать"
+     }
+    ]
    }
   ]
  },
@@ -6898,11 +7287,16 @@
     "exampleTranslation": "Мы готовились к экзамену всю неделю."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "preparation",
-    "pos": "сущ.",
-    "ru": "подготовка"
+    "kind": "family",
+    "members": [
+     {
+      "word": "preparation",
+      "pos": "сущ.",
+      "ru": "подготовка"
+     }
+    ]
    }
   ]
  },
@@ -7091,21 +7485,26 @@
     "exampleTranslation": "Завод производит машины."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "product",
-    "pos": "сущ.",
-    "ru": "продукт"
-   },
-   {
-    "word": "production",
-    "pos": "сущ.",
-    "ru": "производство"
-   },
-   {
-    "word": "producer",
-    "pos": "сущ.",
-    "ru": "продюсер"
+    "kind": "family",
+    "members": [
+     {
+      "word": "product",
+      "pos": "сущ.",
+      "ru": "продукт"
+     },
+     {
+      "word": "production",
+      "pos": "сущ.",
+      "ru": "производство"
+     },
+     {
+      "word": "producer",
+      "pos": "сущ.",
+      "ru": "продюсер"
+     }
+    ]
    }
   ]
  },
@@ -7200,6 +7599,22 @@
     "translation": "прибыль, выгода",
     "exampleSentence": "The company made a big profit this year.",
     "exampleTranslation": "В этом году компания получила большую прибыль."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "прибыль",
+    "members": [
+     {
+      "word": "profit",
+      "ru": "прибыль"
+     },
+     {
+      "word": "loss",
+      "ru": "убыток"
+     }
+    ]
    }
   ]
  },
@@ -7311,16 +7726,21 @@
     "exampleTranslation": "Мы должны защищать наших детей."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "protection",
-    "pos": "сущ.",
-    "ru": "защита"
-   },
-   {
-    "word": "protective",
-    "pos": "прил.",
-    "ru": "защитный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "protection",
+      "pos": "сущ.",
+      "ru": "защита"
+     },
+     {
+      "word": "protective",
+      "pos": "прил.",
+      "ru": "защитный"
+     }
+    ]
    }
   ]
  },
@@ -7342,16 +7762,21 @@
     "exampleTranslation": "Я горжусь тобой."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "proudly",
-    "pos": "нареч.",
-    "ru": "гордо"
-   },
-   {
-    "word": "pride",
-    "pos": "сущ.",
-    "ru": "гордость"
+    "kind": "family",
+    "members": [
+     {
+      "word": "proudly",
+      "pos": "нареч.",
+      "ru": "гордо"
+     },
+     {
+      "word": "pride",
+      "pos": "сущ.",
+      "ru": "гордость"
+     }
+    ]
    }
   ]
  },
@@ -7409,6 +7834,22 @@
     "exampleSentence": "We use public transport every day.",
     "exampleTranslation": "Мы каждый день пользуемся общественным транспортом."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "общественный",
+    "members": [
+     {
+      "word": "public",
+      "ru": "общественный"
+     },
+     {
+      "word": "private",
+      "ru": "частный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -7430,16 +7871,21 @@
     "exampleTranslation": "В прошлом году она издала свой первый роман."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "publisher",
-    "pos": "сущ.",
-    "ru": "издатель"
-   },
-   {
-    "word": "publication",
-    "pos": "сущ.",
-    "ru": "публикация"
+    "kind": "family",
+    "members": [
+     {
+      "word": "publisher",
+      "pos": "сущ.",
+      "ru": "издатель"
+     },
+     {
+      "word": "publication",
+      "pos": "сущ.",
+      "ru": "публикация"
+     }
+    ]
    }
   ]
  },
@@ -7460,11 +7906,16 @@
     "exampleTranslation": "Родители не должны слишком строго наказывать детей."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "punishment",
-    "pos": "сущ.",
-    "ru": "наказание"
+    "kind": "family",
+    "members": [
+     {
+      "word": "punishment",
+      "pos": "сущ.",
+      "ru": "наказание"
+     }
+    ]
    }
   ]
  },
@@ -7685,11 +8136,16 @@
     "exampleTranslation": "Она спокойно отреагировала на новость."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "reaction",
-    "pos": "сущ.",
-    "ru": "реакция"
+    "kind": "family",
+    "members": [
+     {
+      "word": "reaction",
+      "pos": "сущ.",
+      "ru": "реакция"
+     }
+    ]
    }
   ]
  },
@@ -7746,16 +8202,21 @@
     "exampleTranslation": "Я получил твоё сообщение."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "receipt",
-    "pos": "сущ.",
-    "ru": "чек"
-   },
-   {
-    "word": "receiver",
-    "pos": "сущ.",
-    "ru": "получатель"
+    "kind": "family",
+    "members": [
+     {
+      "word": "receipt",
+      "pos": "сущ.",
+      "ru": "чек"
+     },
+     {
+      "word": "receiver",
+      "pos": "сущ.",
+      "ru": "получатель"
+     }
+    ]
    }
   ]
  },
@@ -8030,21 +8491,26 @@
     "exampleTranslation": "Эти две проблемы связаны."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "relation",
-    "pos": "сущ.",
-    "ru": "отношение"
-   },
-   {
-    "word": "relationship",
-    "pos": "сущ.",
-    "ru": "отношения"
-   },
-   {
-    "word": "relative",
-    "pos": "сущ.",
-    "ru": "родственник"
+    "kind": "family",
+    "members": [
+     {
+      "word": "relation",
+      "pos": "сущ.",
+      "ru": "отношение"
+     },
+     {
+      "word": "relationship",
+      "pos": "сущ.",
+      "ru": "отношения"
+     },
+     {
+      "word": "relative",
+      "pos": "сущ.",
+      "ru": "родственник"
+     }
+    ]
    }
   ]
  },
@@ -8119,11 +8585,16 @@
     "exampleTranslation": "Ты можешь на меня положиться."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "reliable",
-    "pos": "прил.",
-    "ru": "надёжный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "reliable",
+      "pos": "прил.",
+      "ru": "надёжный"
+     }
+    ]
    }
   ]
  },
@@ -8160,6 +8631,49 @@
     "translation": "напоминать",
     "exampleSentence": "Remind me to call her tomorrow.",
     "exampleTranslation": "Напомни мне позвонить ей завтра."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "помнить, напоминать",
+    "topic": "Память",
+    "members": [
+     {
+      "word": "remember",
+      "note": "Помнить или вспомнить самому.",
+      "example": "I remember your name.",
+      "exampleRu": "Я помню твоё имя."
+     },
+     {
+      "word": "remind",
+      "note": "Напомнить кому-то. Нужен адресат: remind somebody.",
+      "example": "Remind me to call her.",
+      "exampleRu": "Напомни мне ей позвонить."
+     },
+     {
+      "word": "forget",
+      "note": "Забыть — обратное к remember.",
+      "example": "Don't forget your keys.",
+      "exampleRu": "Не забудь ключи."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Please ___ me about the meeting.",
+      "answer": "remind",
+      "base": "remind",
+      "ru": "Пожалуйста, напомни мне о встрече.",
+      "why": "Напоминаешь кому-то — remind."
+     },
+     {
+      "sentence": "I don't ___ where I put it.",
+      "answer": "remember",
+      "base": "remember",
+      "ru": "Я не помню, куда это положил.",
+      "why": "Вспоминаешь сам — remember."
+     }
+    ]
    }
   ]
  },
@@ -8316,11 +8830,16 @@
     "exampleTranslation": "Относись ко всем с уважением."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "respectful",
-    "pos": "прил.",
-    "ru": "почтительный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "respectful",
+      "pos": "прил.",
+      "ru": "почтительный"
+     }
+    ]
    }
   ]
  },
@@ -9273,16 +9792,21 @@
     "exampleTranslation": "В ресторане завтрак подают до полудня."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "service",
-    "pos": "сущ.",
-    "ru": "обслуживание"
-   },
-   {
-    "word": "server",
-    "pos": "сущ.",
-    "ru": "сервер, официант"
+    "kind": "family",
+    "members": [
+     {
+      "word": "service",
+      "pos": "сущ.",
+      "ru": "обслуживание"
+     },
+     {
+      "word": "server",
+      "pos": "сущ.",
+      "ru": "сервер, официант"
+     }
+    ]
    }
   ]
  },
@@ -9489,6 +10013,22 @@
     "translation": "острый, резкий",
     "exampleSentence": "Be careful, the knife is sharp.",
     "exampleTranslation": "Осторожно, нож острый."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "острый",
+    "members": [
+     {
+      "word": "sharp",
+      "ru": "острый"
+     },
+     {
+      "word": "blunt",
+      "ru": "тупой"
+     }
+    ]
    }
   ]
  },
@@ -9711,6 +10251,22 @@
     "exampleSentence": "Our houses are similar.",
     "exampleTranslation": "Наши дома похожи."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "похожий",
+    "members": [
+     {
+      "word": "similar",
+      "ru": "похожий"
+     },
+     {
+      "word": "different",
+      "ru": "разный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -9728,6 +10284,22 @@
     "translation": "простой, несложный",
     "exampleSentence": "It's a simple recipe.",
     "exampleTranslation": "Это простой рецепт."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "простой",
+    "members": [
+     {
+      "word": "simple",
+      "ru": "простой"
+     },
+     {
+      "word": "complicated",
+      "ru": "сложный"
+     }
+    ]
    }
   ]
  },
@@ -10025,6 +10597,22 @@
     "exampleSentence": "This pillow is very soft.",
     "exampleTranslation": "Эта подушка очень мягкая."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "мягкий",
+    "members": [
+     {
+      "word": "soft",
+      "ru": "мягкий"
+     },
+     {
+      "word": "hard",
+      "ru": "твёрдый"
+     }
+    ]
+   }
   ]
  },
  {
@@ -10120,11 +10708,16 @@
     "exampleTranslation": "Ты можешь решить эту головоломку?"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "solution",
-    "pos": "сущ.",
-    "ru": "решение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "solution",
+      "pos": "сущ.",
+      "ru": "решение"
+     }
+    ]
    }
   ]
  },
@@ -10824,21 +11417,26 @@
     "exampleTranslation": "Тебе нужна сила, чтобы поднять эту коробку."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "strong",
-    "pos": "прил.",
-    "ru": "сильный"
-   },
-   {
-    "word": "strongly",
-    "pos": "нареч.",
-    "ru": "сильно"
-   },
-   {
-    "word": "strengthen",
-    "pos": "гл.",
-    "ru": "укреплять"
+    "kind": "family",
+    "members": [
+     {
+      "word": "strong",
+      "pos": "прил.",
+      "ru": "сильный"
+     },
+     {
+      "word": "strongly",
+      "pos": "нареч.",
+      "ru": "сильно"
+     },
+     {
+      "word": "strengthen",
+      "pos": "гл.",
+      "ru": "укреплять"
+     }
+    ]
    }
   ]
  },
@@ -11054,21 +11652,26 @@
     "exampleTranslation": "Она преуспела на экзаменах."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "success",
-    "pos": "сущ.",
-    "ru": "успех"
-   },
-   {
-    "word": "successful",
-    "pos": "прил.",
-    "ru": "успешный"
-   },
-   {
-    "word": "successfully",
-    "pos": "нареч.",
-    "ru": "успешно"
+    "kind": "family",
+    "members": [
+     {
+      "word": "success",
+      "pos": "сущ.",
+      "ru": "успех"
+     },
+     {
+      "word": "successful",
+      "pos": "прил.",
+      "ru": "успешный"
+     },
+     {
+      "word": "successfully",
+      "pos": "нареч.",
+      "ru": "успешно"
+     }
+    ]
    }
   ]
  },
@@ -11087,6 +11690,22 @@
     "translation": "успех, удача",
     "exampleSentence": "The film was a great success.",
     "exampleTranslation": "Фильм имел большой успех."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "успех",
+    "members": [
+     {
+      "word": "success",
+      "ru": "успех"
+     },
+     {
+      "word": "failure",
+      "ru": "неудача"
+     }
+    ]
    }
   ]
  },
@@ -11142,6 +11761,22 @@
     "exampleSentence": "We have sufficient time to finish.",
     "exampleTranslation": "У нас достаточно времени, чтобы закончить."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "достаточный",
+    "members": [
+     {
+      "word": "sufficient",
+      "ru": "достаточный"
+     },
+     {
+      "word": "insufficient",
+      "ru": "недостаточный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -11162,11 +11797,16 @@
     "exampleTranslation": "Я предлагаю выйти пораньше."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "suggestion",
-    "pos": "сущ.",
-    "ru": "предложение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "suggestion",
+      "pos": "сущ.",
+      "ru": "предложение"
+     }
+    ]
    }
   ]
  },
@@ -11286,16 +11926,21 @@
     "exampleTranslation": "Моя семья поддерживает меня во всём."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "supporter",
-    "pos": "сущ.",
-    "ru": "сторонник"
-   },
-   {
-    "word": "supportive",
-    "pos": "прил.",
-    "ru": "поддерживающий"
+    "kind": "family",
+    "members": [
+     {
+      "word": "supporter",
+      "pos": "сущ.",
+      "ru": "сторонник"
+     },
+     {
+      "word": "supportive",
+      "pos": "прил.",
+      "ru": "поддерживающий"
+     }
+    ]
    }
   ]
  },
@@ -11353,21 +11998,26 @@
     "exampleTranslation": "Мы устроили вечеринку-сюрприз."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "surprising",
-    "pos": "прил.",
-    "ru": "удивительный"
-   },
-   {
-    "word": "surprised",
-    "pos": "прил.",
-    "ru": "удивлённый"
-   },
-   {
-    "word": "surprisingly",
-    "pos": "нареч.",
-    "ru": "на удивление"
+    "kind": "family",
+    "members": [
+     {
+      "word": "surprising",
+      "pos": "прил.",
+      "ru": "удивительный"
+     },
+     {
+      "word": "surprised",
+      "pos": "прил.",
+      "ru": "удивлённый"
+     },
+     {
+      "word": "surprisingly",
+      "pos": "нареч.",
+      "ru": "на удивление"
+     }
+    ]
    }
   ]
  },
@@ -12057,6 +12707,22 @@
     "exampleSentence": "These shoes are too tight.",
     "exampleTranslation": "Эта обувь слишком тесная."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "тугой",
+    "members": [
+     {
+      "word": "tight",
+      "ru": "тугой"
+     },
+     {
+      "word": "loose",
+      "ru": "свободный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -12274,16 +12940,21 @@
     "exampleTranslation": "Можешь перевести это предложение?"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "translation",
-    "pos": "сущ.",
-    "ru": "перевод"
-   },
-   {
-    "word": "translator",
-    "pos": "сущ.",
-    "ru": "переводчик"
+    "kind": "family",
+    "members": [
+     {
+      "word": "translation",
+      "pos": "сущ.",
+      "ru": "перевод"
+     },
+     {
+      "word": "translator",
+      "pos": "сущ.",
+      "ru": "переводчик"
+     }
+    ]
    }
   ]
  },
@@ -12437,6 +13108,22 @@
     "exampleSentence": "Tell me the truth.",
     "exampleTranslation": "Скажи мне правду."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "правда",
+    "members": [
+     {
+      "word": "truth",
+      "ru": "правда"
+     },
+     {
+      "word": "lie",
+      "ru": "ложь"
+     }
+    ]
+   }
   ]
  },
  {
@@ -12549,6 +13236,22 @@
     "exampleSentence": "He has been unemployed for six months.",
     "exampleTranslation": "Он безработный уже шесть месяцев."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "работающий",
+    "members": [
+     {
+      "word": "employed",
+      "ru": "работающий"
+     },
+     {
+      "word": "unemployed",
+      "ru": "безработный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -12659,6 +13362,22 @@
     "translation": "объединять(ся)",
     "exampleSentence": "The two teams united for the final.",
     "exampleTranslation": "Две команды объединились для финала."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "объединять",
+    "members": [
+     {
+      "word": "unite",
+      "ru": "объединять"
+     },
+     {
+      "word": "divide",
+      "ru": "разделять"
+     }
+    ]
    }
   ]
  },
@@ -13355,6 +14074,22 @@
     "exampleSentence": "He accepted the invitation.",
     "exampleTranslation": "Он принял приглашение."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "принимать",
+    "members": [
+     {
+      "word": "accept",
+      "ru": "принимать"
+     },
+     {
+      "word": "refuse",
+      "ru": "отказывать"
+     }
+    ]
+   }
   ]
  },
  {
@@ -13411,26 +14146,31 @@
     "exampleTranslation": "Мы должны действовать сейчас."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "action",
-    "pos": "сущ.",
-    "ru": "действие"
-   },
-   {
-    "word": "active",
-    "pos": "прил.",
-    "ru": "активный"
-   },
-   {
-    "word": "actor",
-    "pos": "сущ.",
-    "ru": "актёр"
-   },
-   {
-    "word": "activity",
-    "pos": "сущ.",
-    "ru": "деятельность"
+    "kind": "family",
+    "members": [
+     {
+      "word": "action",
+      "pos": "сущ.",
+      "ru": "действие"
+     },
+     {
+      "word": "active",
+      "pos": "прил.",
+      "ru": "активный"
+     },
+     {
+      "word": "actor",
+      "pos": "сущ.",
+      "ru": "актёр"
+     },
+     {
+      "word": "activity",
+      "pos": "сущ.",
+      "ru": "деятельность"
+     }
+    ]
    }
   ]
  },
@@ -13637,6 +14377,22 @@
     "exampleSentence": "The fish is still alive.",
     "exampleTranslation": "Рыба всё ещё жива."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "живой",
+    "members": [
+     {
+      "word": "alive",
+      "ru": "живой"
+     },
+     {
+      "word": "dead",
+      "ru": "мёртвый"
+     }
+    ]
+   }
   ]
  },
  {
@@ -13654,6 +14410,22 @@
     "translation": "позволять, разрешать",
     "exampleSentence": "My parents allow me to go out.",
     "exampleTranslation": "Родители разрешают мне выходить."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "разрешать",
+    "members": [
+     {
+      "word": "allow",
+      "ru": "разрешать"
+     },
+     {
+      "word": "forbid",
+      "ru": "запрещать"
+     }
+    ]
    }
   ]
  },
@@ -13915,16 +14687,35 @@
     "exampleTranslation": "Солнце появилось из-за облаков."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "appearance",
-    "pos": "сущ.",
-    "ru": "внешность, появление"
+    "kind": "family",
+    "members": [
+     {
+      "word": "appearance",
+      "pos": "сущ.",
+      "ru": "внешность, появление"
+     },
+     {
+      "word": "disappear",
+      "pos": "гл.",
+      "ru": "исчезать"
+     }
+    ]
    },
    {
-    "word": "disappear",
-    "pos": "гл.",
-    "ru": "исчезать"
+    "kind": "antonym",
+    "ru": "появляться",
+    "members": [
+     {
+      "word": "appear",
+      "ru": "появляться"
+     },
+     {
+      "word": "disappear",
+      "ru": "исчезать"
+     }
+    ]
    }
   ]
  },
@@ -13964,11 +14755,16 @@
     "exampleTranslation": "Они часто спорят о деньгах."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "argument",
-    "pos": "сущ.",
-    "ru": "довод, спор"
+    "kind": "family",
+    "members": [
+     {
+      "word": "argument",
+      "pos": "сущ.",
+      "ru": "довод, спор"
+     }
+    ]
    }
   ]
  },
@@ -14117,6 +14913,22 @@
     "translation": "нападение, атака; нападать",
     "exampleSentence": "There was an attack in the city.",
     "exampleTranslation": "В городе произошло нападение."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "нападать",
+    "members": [
+     {
+      "word": "attack",
+      "ru": "нападать"
+     },
+     {
+      "word": "defend",
+      "ru": "защищать"
+     }
+    ]
    }
   ]
  },
@@ -14418,7 +15230,44 @@
   "forms": {
    "past": "beat",
    "participle": "beaten"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "выиграть, победить",
+    "topic": "Спорт",
+    "members": [
+     {
+      "word": "win",
+      "note": "Выиграть что-то: матч, приз, игру.",
+      "example": "We won the game.",
+      "exampleRu": "Мы выиграли матч."
+     },
+     {
+      "word": "beat",
+      "note": "Победить кого-то: соперника, команду.",
+      "example": "We beat them 3–0.",
+      "exampleRu": "Мы обыграли их 3:0."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Our team ___ the final match.",
+      "answer": "won",
+      "base": "win",
+      "ru": "Наша команда выиграла финальный матч.",
+      "why": "Выиграть событие — win."
+     },
+     {
+      "sentence": "She ___ me at chess again.",
+      "answer": "beat",
+      "base": "beat",
+      "ru": "Она снова обыграла меня в шахматы.",
+      "why": "Победить человека — beat."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_beef",
@@ -14714,6 +15563,57 @@
     "exampleSentence": "Can I borrow your pen?",
     "exampleTranslation": "Можно одолжить твою ручку?"
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "одолжить",
+    "topic": "Деньги",
+    "members": [
+     {
+      "word": "borrow",
+      "note": "Взять в долг у кого-то.",
+      "example": "Can I borrow your pen?",
+      "exampleRu": "Можно одолжить твою ручку?"
+     },
+     {
+      "word": "lend",
+      "note": "Дать в долг кому-то.",
+      "example": "He lent me his car.",
+      "exampleRu": "Он одолжил мне свою машину."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Could you ___ me ten pounds?",
+      "answer": "lend",
+      "base": "lend",
+      "ru": "Можешь одолжить мне десять фунтов?",
+      "why": "Ты даёшь — lend."
+     },
+     {
+      "sentence": "I want to ___ a book from the library.",
+      "answer": "borrow",
+      "base": "borrow",
+      "ru": "Я хочу взять книгу в библиотеке.",
+      "why": "Ты берёшь — borrow."
+     }
+    ]
+   },
+   {
+    "kind": "antonym",
+    "ru": "брать в долг",
+    "members": [
+     {
+      "word": "borrow",
+      "ru": "брать в долг"
+     },
+     {
+      "word": "lend",
+      "ru": "давать в долг"
+     }
+    ]
+   }
   ]
  },
  {
@@ -14945,21 +15845,26 @@
     "exampleTranslation": "Береги себя."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "careful",
-    "pos": "прил.",
-    "ru": "осторожный"
-   },
-   {
-    "word": "carefully",
-    "pos": "нареч.",
-    "ru": "осторожно"
-   },
-   {
-    "word": "careless",
-    "pos": "прил.",
-    "ru": "небрежный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "careful",
+      "pos": "прил.",
+      "ru": "осторожный"
+     },
+     {
+      "word": "carefully",
+      "pos": "нареч.",
+      "ru": "осторожно"
+     },
+     {
+      "word": "careless",
+      "pos": "прил.",
+      "ru": "небрежный"
+     }
+    ]
    }
   ]
  },
@@ -15148,11 +16053,16 @@
     "exampleTranslation": "Мы каждый год празднуем её день рождения."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "celebration",
-    "pos": "сущ.",
-    "ru": "празднование"
+    "kind": "family",
+    "members": [
+     {
+      "word": "celebration",
+      "pos": "сущ.",
+      "ru": "празднование"
+     }
+    ]
    }
   ]
  },
@@ -15461,16 +16371,21 @@
     "exampleTranslation": "Небо ясное."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "clearly",
-    "pos": "нареч.",
-    "ru": "ясно"
-   },
-   {
-    "word": "unclear",
-    "pos": "прил.",
-    "ru": "неясный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "clearly",
+      "pos": "нареч.",
+      "ru": "ясно"
+     },
+     {
+      "word": "unclear",
+      "pos": "прил.",
+      "ru": "неясный"
+     }
+    ]
    }
   ]
  },
@@ -15663,16 +16578,21 @@
     "exampleTranslation": "Он коллекционирует марки."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "collection",
-    "pos": "сущ.",
-    "ru": "коллекция"
-   },
-   {
-    "word": "collector",
-    "pos": "сущ.",
-    "ru": "коллекционер"
+    "kind": "family",
+    "members": [
+     {
+      "word": "collection",
+      "pos": "сущ.",
+      "ru": "коллекция"
+     },
+     {
+      "word": "collector",
+      "pos": "сущ.",
+      "ru": "коллекционер"
+     }
+    ]
    }
   ]
  },
@@ -15751,11 +16671,16 @@
     "exampleTranslation": "Мы общаемся по электронной почте."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "communication",
-    "pos": "сущ.",
-    "ru": "общение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "communication",
+      "pos": "сущ.",
+      "ru": "общение"
+     }
+    ]
    }
   ]
  },
@@ -15794,21 +16719,26 @@
     "exampleTranslation": "Они соревнуются за приз."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "competition",
-    "pos": "сущ.",
-    "ru": "соревнование"
-   },
-   {
-    "word": "competitor",
-    "pos": "сущ.",
-    "ru": "соперник"
-   },
-   {
-    "word": "competitive",
-    "pos": "прил.",
-    "ru": "конкурентный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "competition",
+      "pos": "сущ.",
+      "ru": "соревнование"
+     },
+     {
+      "word": "competitor",
+      "pos": "сущ.",
+      "ru": "соперник"
+     },
+     {
+      "word": "competitive",
+      "pos": "прил.",
+      "ru": "конкурентный"
+     }
+    ]
    }
   ]
  },
@@ -15920,11 +16850,16 @@
     "exampleTranslation": "Подключи принтер к компьютеру."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "connection",
-    "pos": "сущ.",
-    "ru": "связь"
+    "kind": "family",
+    "members": [
+     {
+      "word": "connection",
+      "pos": "сущ.",
+      "ru": "связь"
+     }
+    ]
    }
   ]
  },
@@ -15963,11 +16898,16 @@
     "exampleTranslation": "Пожалуйста, рассмотри моё предложение."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "consideration",
-    "pos": "сущ.",
-    "ru": "рассмотрение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "consideration",
+      "pos": "сущ.",
+      "ru": "рассмотрение"
+     }
+    ]
    }
   ]
  },
@@ -16042,16 +16982,21 @@
     "exampleTranslation": "Пожалуйста, продолжай читать."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "continuous",
-    "pos": "прил.",
-    "ru": "непрерывный"
-   },
-   {
-    "word": "continually",
-    "pos": "нареч.",
-    "ru": "непрерывно"
+    "kind": "family",
+    "members": [
+     {
+      "word": "continuous",
+      "pos": "прил.",
+      "ru": "непрерывный"
+     },
+     {
+      "word": "continually",
+      "pos": "нареч.",
+      "ru": "непрерывно"
+     }
+    ]
    }
   ]
  },
@@ -16412,11 +17357,16 @@
     "exampleTranslation": "Есть опасность пожара."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "dangerous",
-    "pos": "прил.",
-    "ru": "опасный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "dangerous",
+      "pos": "прил.",
+      "ru": "опасный"
+     }
+    ]
    }
   ]
  },
@@ -16535,21 +17485,26 @@
     "exampleTranslation": "Это зависит от погоды."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "dependent",
-    "pos": "прил.",
-    "ru": "зависимый"
-   },
-   {
-    "word": "independent",
-    "pos": "прил.",
-    "ru": "независимый"
-   },
-   {
-    "word": "independence",
-    "pos": "сущ.",
-    "ru": "независимость"
+    "kind": "family",
+    "members": [
+     {
+      "word": "dependent",
+      "pos": "прил.",
+      "ru": "зависимый"
+     },
+     {
+      "word": "independent",
+      "pos": "прил.",
+      "ru": "независимый"
+     },
+     {
+      "word": "independence",
+      "pos": "сущ.",
+      "ru": "независимость"
+     }
+    ]
    }
   ]
  },
@@ -17292,6 +18247,22 @@
     "exampleSentence": "This is a formal letter.",
     "exampleTranslation": "Это официальное письмо."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "формальный",
+    "members": [
+     {
+      "word": "formal",
+      "ru": "формальный"
+     },
+     {
+      "word": "informal",
+      "ru": "неформальный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -17515,6 +18486,22 @@
     "translation": "тяжёлый, увесистый",
     "exampleSentence": "This bag is too heavy.",
     "exampleTranslation": "Эта сумка слишком тяжёлая."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "тяжёлый",
+    "members": [
+     {
+      "word": "heavy",
+      "ru": "тяжёлый"
+     },
+     {
+      "word": "light",
+      "ru": "лёгкий"
+     }
+    ]
    }
   ]
  },
@@ -18054,11 +19041,16 @@
     "exampleTranslation": "Он слишком ленив, чтобы работать."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "laziness",
-    "pos": "сущ.",
-    "ru": "лень"
+    "kind": "family",
+    "members": [
+     {
+      "word": "laziness",
+      "pos": "сущ.",
+      "ru": "лень"
+     }
+    ]
    }
   ]
  },
@@ -18989,16 +19981,35 @@
     "exampleTranslation": "Врач принял сегодня десять пациентов."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "patience",
-    "pos": "сущ.",
-    "ru": "терпение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "patience",
+      "pos": "сущ.",
+      "ru": "терпение"
+     },
+     {
+      "word": "impatient",
+      "pos": "прил.",
+      "ru": "нетерпеливый"
+     }
+    ]
    },
    {
-    "word": "impatient",
-    "pos": "прил.",
-    "ru": "нетерпеливый"
+    "kind": "antonym",
+    "ru": "терпеливый",
+    "members": [
+     {
+      "word": "patient",
+      "ru": "терпеливый"
+     },
+     {
+      "word": "impatient",
+      "ru": "нетерпеливый"
+     }
+    ]
    }
   ]
  },
@@ -19017,6 +20028,22 @@
     "translation": "мир, покой, спокойствие",
     "exampleSentence": "They want peace, not war.",
     "exampleTranslation": "Они хотят мира, а не войны."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "мир",
+    "members": [
+     {
+      "word": "peace",
+      "ru": "мир"
+     },
+     {
+      "word": "war",
+      "ru": "война"
+     }
+    ]
    }
   ]
  },
@@ -19093,16 +20120,21 @@
     "exampleTranslation": "Группа выступала вчера вечером."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "performance",
-    "pos": "сущ.",
-    "ru": "выступление"
-   },
-   {
-    "word": "performer",
-    "pos": "сущ.",
-    "ru": "исполнитель"
+    "kind": "family",
+    "members": [
+     {
+      "word": "performance",
+      "pos": "сущ.",
+      "ru": "выступление"
+     },
+     {
+      "word": "performer",
+      "pos": "сущ.",
+      "ru": "исполнитель"
+     }
+    ]
    }
   ]
  },
@@ -19513,6 +20545,22 @@
     "exampleSentence": "Push the button to start.",
     "exampleTranslation": "Нажми кнопку, чтобы начать."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "толкать",
+    "members": [
+     {
+      "word": "push",
+      "ru": "толкать"
+     },
+     {
+      "word": "pull",
+      "ru": "тянуть"
+     }
+    ]
+   }
   ]
  },
  {
@@ -19585,6 +20633,22 @@
     "translation": "поднимать, повышать, воспитывать",
     "exampleSentence": "Raise your hand if you know.",
     "exampleTranslation": "Подними руку, если знаешь."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "поднимать",
+    "members": [
+     {
+      "word": "raise",
+      "ru": "поднимать"
+     },
+     {
+      "word": "lower",
+      "ru": "опускать"
+     }
+    ]
    }
   ]
  },
@@ -19884,21 +20948,40 @@
     "exampleTranslation": "Здесь безопасно плавать?"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "safety",
-    "pos": "сущ.",
-    "ru": "безопасность"
+    "kind": "family",
+    "members": [
+     {
+      "word": "safety",
+      "pos": "сущ.",
+      "ru": "безопасность"
+     },
+     {
+      "word": "safely",
+      "pos": "нареч.",
+      "ru": "благополучно"
+     },
+     {
+      "word": "unsafe",
+      "pos": "прил.",
+      "ru": "небезопасный"
+     }
+    ]
    },
    {
-    "word": "safely",
-    "pos": "нареч.",
-    "ru": "благополучно"
-   },
-   {
-    "word": "unsafe",
-    "pos": "прил.",
-    "ru": "небезопасный"
+    "kind": "antonym",
+    "ru": "безопасный",
+    "members": [
+     {
+      "word": "safe",
+      "ru": "безопасный"
+     },
+     {
+      "word": "dangerous",
+      "ru": "опасный"
+     }
+    ]
    }
   ]
  },
@@ -20198,16 +21281,21 @@
     "exampleTranslation": "Внимательно читай знаки."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "signature",
-    "pos": "сущ.",
-    "ru": "подпись"
-   },
-   {
-    "word": "significant",
-    "pos": "прил.",
-    "ru": "значительный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "signature",
+      "pos": "сущ.",
+      "ru": "подпись"
+     },
+     {
+      "word": "significant",
+      "pos": "прил.",
+      "ru": "значительный"
+     }
+    ]
    }
   ]
  },
@@ -21481,16 +22569,21 @@
     "exampleTranslation": "После болезни я чувствую слабость."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "weakness",
-    "pos": "сущ.",
-    "ru": "слабость"
-   },
-   {
-    "word": "weaken",
-    "pos": "гл.",
-    "ru": "ослаблять"
+    "kind": "family",
+    "members": [
+     {
+      "word": "weakness",
+      "pos": "сущ.",
+      "ru": "слабость"
+     },
+     {
+      "word": "weaken",
+      "pos": "гл.",
+      "ru": "ослаблять"
+     }
+    ]
    }
   ]
  },
@@ -21550,6 +22643,22 @@
     "exampleSentence": "My clothes are wet.",
     "exampleTranslation": "Моя одежда мокрая."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "мокрый",
+    "members": [
+     {
+      "word": "wet",
+      "ru": "мокрый"
+     },
+     {
+      "word": "dry",
+      "ru": "сухой"
+     }
+    ]
+   }
   ]
  },
  {
@@ -21588,21 +22697,40 @@
     "exampleTranslation": "Река очень широкая."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "widely",
-    "pos": "нареч.",
-    "ru": "широко"
+    "kind": "family",
+    "members": [
+     {
+      "word": "widely",
+      "pos": "нареч.",
+      "ru": "широко"
+     },
+     {
+      "word": "width",
+      "pos": "сущ.",
+      "ru": "ширина"
+     },
+     {
+      "word": "widen",
+      "pos": "гл.",
+      "ru": "расширять"
+     }
+    ]
    },
    {
-    "word": "width",
-    "pos": "сущ.",
-    "ru": "ширина"
-   },
-   {
-    "word": "widen",
-    "pos": "гл.",
-    "ru": "расширять"
+    "kind": "antonym",
+    "ru": "широкий",
+    "members": [
+     {
+      "word": "wide",
+      "ru": "широкий"
+     },
+     {
+      "word": "narrow",
+      "ru": "узкий"
+     }
+    ]
    }
   ]
  },
@@ -25867,16 +26995,21 @@
     "exampleTranslation": "Разогрей суп две минуты."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "heating",
-    "pos": "сущ.",
-    "ru": "отопление"
-   },
-   {
-    "word": "heater",
-    "pos": "сущ.",
-    "ru": "обогреватель"
+    "kind": "family",
+    "members": [
+     {
+      "word": "heating",
+      "pos": "сущ.",
+      "ru": "отопление"
+     },
+     {
+      "word": "heater",
+      "pos": "сущ.",
+      "ru": "обогреватель"
+     }
+    ]
    }
   ]
  },
@@ -25897,16 +27030,21 @@
     "exampleTranslation": "Повисло долгое молчание."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "silent",
-    "pos": "прил.",
-    "ru": "молчаливый"
-   },
-   {
-    "word": "silently",
-    "pos": "нареч.",
-    "ru": "молча"
+    "kind": "family",
+    "members": [
+     {
+      "word": "silent",
+      "pos": "прил.",
+      "ru": "молчаливый"
+     },
+     {
+      "word": "silently",
+      "pos": "нареч.",
+      "ru": "молча"
+     }
+    ]
    }
   ]
  },
@@ -25928,16 +27066,284 @@
     "exampleTranslation": "Она организовала всю поездку."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "organisation",
-    "pos": "сущ.",
-    "ru": "организация"
+    "kind": "family",
+    "members": [
+     {
+      "word": "organisation",
+      "pos": "сущ.",
+      "ru": "организация"
+     },
+     {
+      "word": "organiser",
+      "pos": "сущ.",
+      "ru": "организатор"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_a2_take",
+  "english": "take",
+  "transcription": "[teɪk]",
+  "level": "A2",
+  "tags": [
+   "глаголы и действия"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "брать",
+    "translation": "брать, взять, принимать, отвозить",
+    "exampleSentence": "Take an umbrella with you.",
+    "exampleTranslation": "Возьми с собой зонт."
    },
    {
-    "word": "organiser",
-    "pos": "сущ.",
-    "ru": "организатор"
+    "partOfSpeech": "гл.",
+    "translation1": "занимать",
+    "translation": "занимать (время)",
+    "exampleSentence": "The trip there takes an hour.",
+    "exampleTranslation": "Дорога туда занимает час."
+   }
+  ],
+  "forms": {
+   "past": "took",
+   "participle": "taken"
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "брать, приносить",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "take",
+      "note": "Взять и унести от говорящего.",
+      "example": "Take this book to the library.",
+      "exampleRu": "Отнеси эту книгу в библиотеку."
+     },
+     {
+      "word": "bring",
+      "note": "Принести к говорящему.",
+      "example": "Bring me a glass of water.",
+      "exampleRu": "Принеси мне стакан воды."
+     },
+     {
+      "word": "get",
+      "note": "Достать, получить, сходить за чем-то — самое разговорное.",
+      "example": "I'll get the tickets.",
+      "exampleRu": "Я возьму билеты."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Can you ___ me the salt?",
+      "answer": "bring",
+      "base": "bring",
+      "ru": "Можешь принести мне соль?",
+      "why": "Движение к говорящему — bring."
+     },
+     {
+      "sentence": "Don't forget to ___ your umbrella with you.",
+      "answer": "take",
+      "base": "take",
+      "ru": "Не забудь взять зонт с собой.",
+      "why": "Унести с собой — take."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_a2_job",
+  "english": "job",
+  "transcription": "[dʒɒb]",
+  "level": "A2",
+  "tags": [
+   "работа и бизнес",
+   "профессии"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "работа",
+    "translation": "работа (место), должность, занятие",
+    "exampleSentence": "She has a good job.",
+    "exampleTranslation": "У неё хорошая работа."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "работа",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "job",
+      "note": "Конкретная должность или место работы. Исчисляемое: a job.",
+      "example": "She found a new job.",
+      "exampleRu": "Она нашла новую работу."
+     },
+     {
+      "word": "work",
+      "note": "Работа как занятие и процесс. Неисчисляемое: без a.",
+      "example": "I have a lot of work today.",
+      "exampleRu": "У меня сегодня много работы."
+     },
+     {
+      "word": "career",
+      "note": "Карьера — весь путь в профессии.",
+      "example": "He built a career in design.",
+      "exampleRu": "Он построил карьеру в дизайне."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I go to ___ by bus.",
+      "answer": "work",
+      "base": "work",
+      "ru": "Я езжу на работу на автобусе.",
+      "why": "Место работы в этом выражении — work, без артикля."
+     },
+     {
+      "sentence": "He is looking for a ___ in marketing.",
+      "answer": "job",
+      "base": "job",
+      "ru": "Он ищет работу в маркетинге.",
+      "why": "Конкретная вакансия — a job."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_a2_trip",
+  "english": "trip",
+  "transcription": "[trɪp]",
+  "level": "A2",
+  "tags": [
+   "транспорт",
+   "путешествия и туризм"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "поездка",
+    "translation": "поездка, путешествие, экскурсия",
+    "exampleSentence": "We go on a trip to the mountains.",
+    "exampleTranslation": "Мы едем на экскурсию в горы."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "поездка, путешествие",
+    "topic": "Путешествия",
+    "members": [
+     {
+      "word": "trip",
+      "note": "Поездка целиком: туда и обратно, обычно недолгая.",
+      "example": "We went on a trip to Italy.",
+      "exampleRu": "Мы съездили в Италию."
+     },
+     {
+      "word": "travel",
+      "note": "Путешествие вообще, как занятие. Чаще глагол или неисчисляемое.",
+      "example": "I love travel.",
+      "exampleRu": "Я люблю путешествия."
+     },
+     {
+      "word": "journey",
+      "note": "Дорога из точки А в точку Б, сам путь.",
+      "example": "The journey takes six hours.",
+      "exampleRu": "Дорога занимает шесть часов."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "How was your ___ to Paris?",
+      "answer": "trip",
+      "base": "trip",
+      "ru": "Как съездил в Париж?",
+      "why": "Поездка туда и обратно — trip."
+     },
+     {
+      "sentence": "The train ___ was long but comfortable.",
+      "answer": "journey",
+      "base": "journey",
+      "ru": "Поездка на поезде была долгой, но удобной.",
+      "why": "Путь из А в Б — journey."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_a2_beautiful",
+  "english": "beautiful",
+  "transcription": "[ˈbjuːtɪfl]",
+  "level": "A2",
+  "tags": [
+   "тело и внешность"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "красивый",
+    "translation": "красивый, прекрасный, чудесный",
+    "exampleSentence": "What a beautiful garden!",
+    "exampleTranslation": "Какой красивый сад!"
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "красивый",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "beautiful",
+      "note": "Очень красивый — о женщинах, природе, музыке. Сильное слово.",
+      "example": "What a beautiful sunset!",
+      "exampleRu": "Какой красивый закат!"
+     },
+     {
+      "word": "pretty",
+      "note": "Симпатичный, миленький — мягче, чем beautiful.",
+      "example": "She has a pretty smile.",
+      "exampleRu": "У неё милая улыбка."
+     },
+     {
+      "word": "handsome",
+      "note": "Красивый о мужчине.",
+      "example": "He is tall and handsome.",
+      "exampleRu": "Он высокий и красивый."
+     },
+     {
+      "word": "cute",
+      "note": "Милый — о детях, животных и в разговорной речи.",
+      "example": "Your puppy is so cute!",
+      "exampleRu": "Твой щенок такой милый!"
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Look at that ___ view!",
+      "answer": "beautiful",
+      "base": "beautiful",
+      "ru": "Посмотри, какой красивый вид!",
+      "why": "О природе — beautiful."
+     },
+     {
+      "sentence": "Her brother is really ___.",
+      "answer": "handsome",
+      "base": "handsome",
+      "ru": "Её брат правда красивый.",
+      "why": "О внешности мужчины — handsome."
+     }
+    ]
    }
   ]
  }

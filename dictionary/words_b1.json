@@ -244,6 +244,49 @@
     "exampleSentence": "I advise you to see a doctor.",
     "exampleTranslation": "Советую тебе сходить к врачу."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "предлагать, советовать",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "offer",
+      "note": "Предложить что-то дать или сделать самому.",
+      "example": "He offered me a job.",
+      "exampleRu": "Он предложил мне работу."
+     },
+     {
+      "word": "suggest",
+      "note": "Предложить идею. Дальше -ing или that, но не to.",
+      "example": "I suggest going by train.",
+      "exampleRu": "Предлагаю поехать на поезде."
+     },
+     {
+      "word": "advise",
+      "note": "Посоветовать. Дальше somebody to do.",
+      "example": "She advised me to wait.",
+      "exampleRu": "Она посоветовала мне подождать."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He ___ to help us with the move.",
+      "answer": "offered",
+      "base": "offer",
+      "ru": "Он предложил помочь нам с переездом.",
+      "why": "Сам берётся сделать — offer to."
+     },
+     {
+      "sentence": "I ___ taking a break.",
+      "answer": "suggest",
+      "base": "suggest",
+      "ru": "Предлагаю сделать перерыв.",
+      "why": "После suggest — глагол с -ing."
+     }
+    ]
+   }
   ]
  },
  {
@@ -850,16 +893,21 @@
     "exampleTranslation": "Музей привлекает много туристов."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "attraction",
-    "pos": "сущ.",
-    "ru": "достопримечательность"
-   },
-   {
-    "word": "attractive",
-    "pos": "прил.",
-    "ru": "привлекательный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "attraction",
+      "pos": "сущ.",
+      "ru": "достопримечательность"
+     },
+     {
+      "word": "attractive",
+      "pos": "прил.",
+      "ru": "привлекательный"
+     }
+    ]
    }
   ]
  },
@@ -1125,16 +1173,21 @@
     "exampleTranslation": "Все восхищались красотой гор."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "beautiful",
-    "pos": "прил.",
-    "ru": "красивый"
-   },
-   {
-    "word": "beautifully",
-    "pos": "нареч.",
-    "ru": "красиво"
+    "kind": "family",
+    "members": [
+     {
+      "word": "beautiful",
+      "pos": "прил.",
+      "ru": "красивый"
+     },
+     {
+      "word": "beautifully",
+      "pos": "нареч.",
+      "ru": "красиво"
+     }
+    ]
    }
   ]
  },
@@ -1437,6 +1490,22 @@
     "translation": "храбрый, смелый",
     "exampleSentence": "It was a brave decision.",
     "exampleTranslation": "Это было смелое решение."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "смелый",
+    "members": [
+     {
+      "word": "brave",
+      "ru": "смелый"
+     },
+     {
+      "word": "afraid",
+      "ru": "испуганный"
+     }
+    ]
    }
   ]
  },
@@ -2458,6 +2527,22 @@
     "exampleSentence": "She feels confident about the exam.",
     "exampleTranslation": "Она уверена в успехе экзамена."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "уверенный",
+    "members": [
+     {
+      "word": "confident",
+      "ru": "уверенный"
+     },
+     {
+      "word": "insecure",
+      "ru": "неуверенный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -2829,21 +2914,40 @@
     "exampleTranslation": "Она создала прекрасную картину."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "creation",
-    "pos": "сущ.",
-    "ru": "создание"
+    "kind": "family",
+    "members": [
+     {
+      "word": "creation",
+      "pos": "сущ.",
+      "ru": "создание"
+     },
+     {
+      "word": "creative",
+      "pos": "прил.",
+      "ru": "творческий"
+     },
+     {
+      "word": "creativity",
+      "pos": "сущ.",
+      "ru": "креативность"
+     }
+    ]
    },
    {
-    "word": "creative",
-    "pos": "прил.",
-    "ru": "творческий"
-   },
-   {
-    "word": "creativity",
-    "pos": "сущ.",
-    "ru": "креативность"
+    "kind": "antonym",
+    "ru": "создавать",
+    "members": [
+     {
+      "word": "create",
+      "ru": "создавать"
+     },
+     {
+      "word": "destroy",
+      "ru": "разрушать"
+     }
+    ]
    }
   ]
  },
@@ -3311,21 +3415,26 @@
     "exampleTranslation": "В прошлом году он снял свой первый фильм."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "direction",
-    "pos": "сущ.",
-    "ru": "направление"
-   },
-   {
-    "word": "directly",
-    "pos": "нареч.",
-    "ru": "напрямую"
-   },
-   {
-    "word": "director",
-    "pos": "сущ.",
-    "ru": "директор"
+    "kind": "family",
+    "members": [
+     {
+      "word": "direction",
+      "pos": "сущ.",
+      "ru": "направление"
+     },
+     {
+      "word": "directly",
+      "pos": "нареч.",
+      "ru": "напрямую"
+     },
+     {
+      "word": "director",
+      "pos": "сущ.",
+      "ru": "директор"
+     }
+    ]
    }
   ]
  },
@@ -3798,6 +3907,22 @@
     "translation": "расширяться, увеличиваться",
     "exampleSentence": "The company plans to expand.",
     "exampleTranslation": "Компания планирует расширяться."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "расширяться",
+    "members": [
+     {
+      "word": "expand",
+      "ru": "расширяться"
+     },
+     {
+      "word": "shrink",
+      "ru": "сжиматься"
+     }
+    ]
    }
   ]
  },
@@ -4509,6 +4634,22 @@
     "translation": "виновный, испытывающий вину",
     "exampleSentence": "He felt guilty about lying.",
     "exampleTranslation": "Он чувствовал себя виноватым за ложь."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "виновный",
+    "members": [
+     {
+      "word": "guilty",
+      "ru": "виновный"
+     },
+     {
+      "word": "innocent",
+      "ru": "невиновный"
+     }
+    ]
    }
   ]
  },
@@ -5315,6 +5456,49 @@
     "exampleSentence": "This is an important issue.",
     "exampleTranslation": "Это важный вопрос."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "проблема",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "problem",
+      "note": "Проблема, которую нужно решать. Самое прямое слово.",
+      "example": "We have a serious problem.",
+      "exampleRu": "У нас серьёзная проблема."
+     },
+     {
+      "word": "issue",
+      "note": "Вопрос или затруднение — мягче и деловее, чем problem.",
+      "example": "Let's discuss this issue.",
+      "exampleRu": "Давайте обсудим этот вопрос."
+     },
+     {
+      "word": "trouble",
+      "note": "Неприятности, хлопоты. Неисчисляемое: без a.",
+      "example": "He is in trouble again.",
+      "exampleRu": "У него снова неприятности."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I had ___ finding your house.",
+      "answer": "trouble",
+      "base": "trouble",
+      "ru": "Мне было непросто найти твой дом.",
+      "why": "have trouble doing — устойчивое, без артикля."
+     },
+     {
+      "sentence": "The report raises an important ___.",
+      "answer": "issue",
+      "base": "issue",
+      "ru": "В отчёте поднимается важный вопрос.",
+      "why": "Деловой контекст — issue."
+     }
+    ]
+   }
   ]
  },
  {
@@ -5697,6 +5881,22 @@
     "translation": "законный, юридический",
     "exampleSentence": "This contract is legal.",
     "exampleTranslation": "Этот контракт законен."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "законный",
+    "members": [
+     {
+      "word": "legal",
+      "ru": "законный"
+     },
+     {
+      "word": "illegal",
+      "ru": "незаконный"
+     }
+    ]
    }
   ]
  },
@@ -6186,11 +6386,16 @@
     "exampleTranslation": "Измерь длину стола."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "measurement",
-    "pos": "сущ.",
-    "ru": "измерение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "measurement",
+      "pos": "сущ.",
+      "ru": "измерение"
+     }
+    ]
    }
   ]
  },
@@ -6933,6 +7138,49 @@
     "exampleSentence": "This is a great opportunity for you.",
     "exampleTranslation": "Это отличная возможность для тебя."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "возможность, шанс",
+    "topic": "Планы",
+    "members": [
+     {
+      "word": "chance",
+      "note": "Случай или вероятность — часто про удачу.",
+      "example": "There is a good chance of rain.",
+      "exampleRu": "Есть большая вероятность дождя."
+     },
+     {
+      "word": "opportunity",
+      "note": "Возможность что-то сделать, которой стоит воспользоваться.",
+      "example": "This is a great opportunity to learn.",
+      "exampleRu": "Это отличная возможность научиться."
+     },
+     {
+      "word": "possibility",
+      "note": "Возможность как вариант развития событий.",
+      "example": "We can't exclude this possibility.",
+      "exampleRu": "Мы не можем исключить такую возможность."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Don't miss this ___ to study abroad.",
+      "answer": "opportunity",
+      "base": "opportunity",
+      "ru": "Не упусти эту возможность поучиться за границей.",
+      "why": "Шанс, которым пользуются, — opportunity."
+     },
+     {
+      "sentence": "What are the ___ of winning?",
+      "answer": "chances",
+      "base": "chance",
+      "ru": "Каковы шансы на победу?",
+      "why": "Вероятность — chance."
+     }
+    ]
+   }
   ]
  },
  {
@@ -7375,6 +7623,22 @@
     "translation": "пессимистичный",
     "exampleSentence": "He is pessimistic about the future.",
     "exampleTranslation": "Он пессимистично настроен насчёт будущего."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "оптимистичный",
+    "members": [
+     {
+      "word": "optimistic",
+      "ru": "оптимистичный"
+     },
+     {
+      "word": "pessimistic",
+      "ru": "пессимистичный"
+     }
+    ]
    }
   ]
  },
@@ -9189,6 +9453,22 @@
     "exampleSentence": "He is a reliable friend.",
     "exampleTranslation": "Он надёжный друг."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "надёжный",
+    "members": [
+     {
+      "word": "reliable",
+      "ru": "надёжный"
+     },
+     {
+      "word": "unreliable",
+      "ru": "ненадёжный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -9465,16 +9745,21 @@
     "exampleTranslation": "Кто отвечает за этот проект?"
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "responsibility",
-    "pos": "сущ.",
-    "ru": "ответственность"
-   },
-   {
-    "word": "irresponsible",
-    "pos": "прил.",
-    "ru": "безответственный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "responsibility",
+      "pos": "сущ.",
+      "ru": "ответственность"
+     },
+     {
+      "word": "irresponsible",
+      "pos": "прил.",
+      "ru": "безответственный"
+     }
+    ]
    }
   ]
  },
@@ -10494,11 +10779,16 @@
     "exampleTranslation": "Подача воды была отключена."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "supplier",
-    "pos": "сущ.",
-    "ru": "поставщик"
+    "kind": "family",
+    "members": [
+     {
+      "word": "supplier",
+      "pos": "сущ.",
+      "ru": "поставщик"
+     }
+    ]
    }
   ]
  },
@@ -11426,11 +11716,16 @@
     "exampleTranslation": "Интересно, что с ним случилось."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "wonderful",
-    "pos": "прил.",
-    "ru": "замечательный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "wonderful",
+      "pos": "прил.",
+      "ru": "замечательный"
+     }
+    ]
    }
   ]
  },
@@ -11597,6 +11892,22 @@
     "translation": "точный, правильный",
     "exampleSentence": "His description was very accurate.",
     "exampleTranslation": "Его описание было очень точным."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "точный",
+    "members": [
+     {
+      "word": "accurate",
+      "ru": "точный"
+     },
+     {
+      "word": "inaccurate",
+      "ru": "неточный"
+     }
+    ]
    }
   ]
  },
@@ -11872,6 +12183,22 @@
     "exampleSentence": "Speaking two languages is an advantage.",
     "exampleTranslation": "Знание двух языков — это преимущество."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "преимущество",
+    "members": [
+     {
+      "word": "advantage",
+      "ru": "преимущество"
+     },
+     {
+      "word": "disadvantage",
+      "ru": "недостаток"
+     }
+    ]
+   }
   ]
  },
  {
@@ -12061,6 +12388,22 @@
     "translation": "древний, старинный",
     "exampleSentence": "We visited an ancient temple.",
     "exampleTranslation": "Мы посетили древний храм."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "древний",
+    "members": [
+     {
+      "word": "ancient",
+      "ru": "древний"
+     },
+     {
+      "word": "modern",
+      "ru": "современный"
+     }
+    ]
    }
   ]
  },
@@ -12321,6 +12664,22 @@
     "exampleSentence": "My parents approve of my choice.",
     "exampleTranslation": "Мои родители одобряют мой выбор."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "одобрять",
+    "members": [
+     {
+      "word": "approve",
+      "ru": "одобрять"
+     },
+     {
+      "word": "reject",
+      "ru": "отвергать"
+     }
+    ]
+   }
   ]
  },
  {
@@ -12394,6 +12753,22 @@
     "translation": "искусственный, ненастоящий",
     "exampleSentence": "This is artificial leather.",
     "exampleTranslation": "Это искусственная кожа."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "искусственный",
+    "members": [
+     {
+      "word": "artificial",
+      "ru": "искусственный"
+     },
+     {
+      "word": "natural",
+      "ru": "естественный"
+     }
+    ]
    }
   ]
  },
@@ -12702,6 +13077,22 @@
     "translation": "бодрствующий, не спящий",
     "exampleSentence": "I was awake all night.",
     "exampleTranslation": "Я не спал всю ночь."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "бодрствующий",
+    "members": [
+     {
+      "word": "awake",
+      "ru": "бодрствующий"
+     },
+     {
+      "word": "asleep",
+      "ru": "спящий"
+     }
+    ]
    }
   ]
  },
@@ -17339,16 +17730,21 @@
     "exampleTranslation": "Я подал заявку на эту работу."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "application",
-    "pos": "сущ.",
-    "ru": "заявка, приложение"
-   },
-   {
-    "word": "applicant",
-    "pos": "сущ.",
-    "ru": "кандидат"
+    "kind": "family",
+    "members": [
+     {
+      "word": "application",
+      "pos": "сущ.",
+      "ru": "заявка, приложение"
+     },
+     {
+      "word": "applicant",
+      "pos": "сущ.",
+      "ru": "кандидат"
+     }
+    ]
    }
   ]
  },
@@ -17369,21 +17765,26 @@
     "exampleTranslation": "Новость всех взбудоражила."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "excited",
-    "pos": "прил.",
-    "ru": "взволнованный"
-   },
-   {
-    "word": "exciting",
-    "pos": "прил.",
-    "ru": "увлекательный"
-   },
-   {
-    "word": "excitement",
-    "pos": "сущ.",
-    "ru": "волнение"
+    "kind": "family",
+    "members": [
+     {
+      "word": "excited",
+      "pos": "прил.",
+      "ru": "взволнованный"
+     },
+     {
+      "word": "exciting",
+      "pos": "прил.",
+      "ru": "увлекательный"
+     },
+     {
+      "word": "excitement",
+      "pos": "сущ.",
+      "ru": "волнение"
+     }
+    ]
    }
   ]
  },
@@ -17404,11 +17805,16 @@
     "exampleTranslation": "Слава его изменила."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "famous",
-    "pos": "прил.",
-    "ru": "знаменитый"
+    "kind": "family",
+    "members": [
+     {
+      "word": "famous",
+      "pos": "прил.",
+      "ru": "знаменитый"
+     }
+    ]
    }
   ]
  },
@@ -17430,16 +17836,21 @@
     "exampleTranslation": "Травма повредила нерв."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "nervous",
-    "pos": "прил.",
-    "ru": "нервный"
-   },
-   {
-    "word": "nervously",
-    "pos": "нареч.",
-    "ru": "нервно"
+    "kind": "family",
+    "members": [
+     {
+      "word": "nervous",
+      "pos": "прил.",
+      "ru": "нервный"
+     },
+     {
+      "word": "nervously",
+      "pos": "нареч.",
+      "ru": "нервно"
+     }
+    ]
    }
   ]
  },
@@ -17460,16 +17871,381 @@
     "exampleTranslation": "Ответ меня не устроил."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "satisfaction",
-    "pos": "сущ.",
-    "ru": "удовлетворение"
-   },
+    "kind": "family",
+    "members": [
+     {
+      "word": "satisfaction",
+      "pos": "сущ.",
+      "ru": "удовлетворение"
+     },
+     {
+      "word": "satisfied",
+      "pos": "прил.",
+      "ru": "довольный"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b1_handsome",
+  "english": "handsome",
+  "transcription": "[ˈhænsəm]",
+  "level": "B1",
+  "tags": [
+   "тело и внешность"
+  ],
+  "meanings": [
    {
-    "word": "satisfied",
-    "pos": "прил.",
-    "ru": "довольный"
+    "partOfSpeech": "прил.",
+    "translation1": "красивый",
+    "translation": "красивый (о мужчине)",
+    "exampleSentence": "He is a handsome man.",
+    "exampleTranslation": "Он красивый мужчина."
+   }
+  ]
+ },
+ {
+  "id": "word_b1_cute",
+  "english": "cute",
+  "transcription": "[kjuːt]",
+  "level": "B1",
+  "tags": [
+   "тело и внешность"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "милый",
+    "translation": "милый, симпатичный",
+    "exampleSentence": "What a cute puppy!",
+    "exampleTranslation": "Какой милый щенок!"
+   }
+  ]
+ },
+ {
+  "id": "word_b1_wait",
+  "english": "wait",
+  "transcription": "[weɪt]",
+  "level": "B1",
+  "tags": [
+   "глаголы и действия"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "ждать",
+    "translation": "ждать, ожидать",
+    "exampleSentence": "Wait for me, please.",
+    "exampleTranslation": "Подожди меня, пожалуйста."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "ждать, надеяться",
+    "topic": "Планы",
+    "members": [
+     {
+      "word": "wait",
+      "note": "Ждать — стоять и ничего не делать, пока что-то произойдёт. С предлогом for.",
+      "example": "I waited for an hour.",
+      "exampleRu": "Я ждал целый час."
+     },
+     {
+      "word": "expect",
+      "note": "Ожидать — считать, что это произойдёт.",
+      "example": "We expect good results.",
+      "exampleRu": "Мы ожидаем хороших результатов."
+     },
+     {
+      "word": "hope",
+      "note": "Надеяться — хотеть, чтобы произошло.",
+      "example": "I hope you feel better.",
+      "exampleRu": "Надеюсь, тебе лучше."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I'm ___ for the bus.",
+      "answer": "waiting",
+      "base": "wait",
+      "ru": "Я жду автобус.",
+      "why": "Физически ждать — wait for."
+     },
+     {
+      "sentence": "We ___ him to arrive at six.",
+      "answer": "expect",
+      "base": "expect",
+      "ru": "Мы ожидаем, что он приедет в шесть.",
+      "why": "Считаешь, что случится — expect."
+     },
+     {
+      "sentence": "I ___ it doesn't rain tomorrow.",
+      "answer": "hope",
+      "base": "hope",
+      "ru": "Надеюсь, завтра не будет дождя.",
+      "why": "Желание — hope."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b1_difficult",
+  "english": "difficult",
+  "transcription": "[ˈdɪfɪkəlt]",
+  "level": "B1",
+  "tags": [
+   "оценки и описания"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "трудный",
+    "translation": "трудный, сложный, тяжёлый",
+    "exampleSentence": "This question is difficult.",
+    "exampleTranslation": "Этот вопрос сложный."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "сложный",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "difficult",
+      "note": "Трудный — требует усилий или умения.",
+      "example": "This task is difficult.",
+      "exampleRu": "Эта задача трудная."
+     },
+     {
+      "word": "hard",
+      "note": "То же, что difficult, но разговорнее. Ещё значит «твёрдый».",
+      "example": "It's hard to say.",
+      "exampleRu": "Трудно сказать."
+     },
+     {
+      "word": "complicated",
+      "note": "Сложный — из многих частей, запутанный.",
+      "example": "The rules are complicated.",
+      "exampleRu": "Правила запутанные."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The instructions are too ___ to follow.",
+      "answer": "complicated",
+      "base": "complicated",
+      "ru": "Инструкции слишком запутанные.",
+      "why": "Много частей и связей — complicated."
+     },
+     {
+      "sentence": "Learning Chinese is ___ but interesting.",
+      "answer": "difficult",
+      "base": "difficult",
+      "ru": "Учить китайский трудно, но интересно.",
+      "why": "Требует усилий — difficult."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b1_finally",
+  "english": "finally",
+  "transcription": "[ˈfaɪnəli]",
+  "level": "B1",
+  "tags": [
+   "время и календарь"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "нареч.",
+    "translation1": "наконец",
+    "translation": "наконец, в конце концов",
+    "exampleSentence": "Finally, we arrived home.",
+    "exampleTranslation": "Наконец мы добрались домой."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "наконец, в конце",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "finally",
+      "note": "Наконец — после долгого ожидания.",
+      "example": "Finally, we arrived.",
+      "exampleRu": "Наконец мы приехали."
+     },
+     {
+      "word": "at last",
+      "note": "То же, но с облегчением и эмоцией.",
+      "example": "At last! I've been waiting for ages.",
+      "exampleRu": "Ну наконец-то! Я ждал целую вечность."
+     },
+     {
+      "word": "in the end",
+      "note": "В итоге — результат после всего.",
+      "example": "In the end, we decided to stay.",
+      "exampleRu": "В итоге мы решили остаться."
+     },
+     {
+      "word": "at the end",
+      "note": "В конце чего-то конкретного: фильма, улицы, месяца.",
+      "example": "At the end of the film he smiles.",
+      "exampleRu": "В конце фильма он улыбается."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "___ of the day we were exhausted.",
+      "answer": "At the end",
+      "base": "at the end",
+      "ru": "К концу дня мы вымотались.",
+      "why": "Конец конкретного отрезка — at the end of."
+     },
+     {
+      "sentence": "___, we chose the cheaper option.",
+      "answer": "In the end",
+      "base": "in the end",
+      "ru": "В итоге мы выбрали вариант подешевле.",
+      "why": "Результат всей истории — in the end."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b1_afraid",
+  "english": "afraid",
+  "transcription": "[əˈfreɪd]",
+  "level": "B1",
+  "tags": [
+   "эмоции и чувства"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "испуганный",
+    "translation": "испуганный, боящийся, напуганный",
+    "exampleSentence": "I'm afraid of dogs.",
+    "exampleTranslation": "Я боюсь собак."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "бояться",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "afraid",
+      "note": "Бояться — обычное слово, только после глагола: be afraid of.",
+      "example": "I'm afraid of spiders.",
+      "exampleRu": "Я боюсь пауков."
+     },
+     {
+      "word": "scared",
+      "note": "Испуганный — сильнее и разговорнее.",
+      "example": "The noise scared me.",
+      "exampleRu": "Шум меня напугал."
+     },
+     {
+      "word": "nervous",
+      "note": "Волнуешься перед чем-то важным, а не боишься по-настоящему.",
+      "example": "I'm nervous before exams.",
+      "exampleRu": "Я волнуюсь перед экзаменами."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She was ___ before the interview.",
+      "answer": "nervous",
+      "base": "nervous",
+      "ru": "Перед собеседованием она волновалась.",
+      "why": "Волнение, а не страх — nervous."
+     },
+     {
+      "sentence": "Don't be ___ to ask questions.",
+      "answer": "afraid",
+      "base": "afraid",
+      "ru": "Не бойся задавать вопросы.",
+      "why": "Устойчивое be afraid to do."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b1_quite",
+  "english": "quite",
+  "transcription": "[kwaɪt]",
+  "level": "B1",
+  "tags": [
+   "служебные слова и местоимения"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "нареч.",
+    "translation1": "довольно",
+    "translation": "довольно, весьма, вполне, совсем",
+    "exampleSentence": "The film was quite good.",
+    "exampleTranslation": "Фильм был довольно хорошим."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "довольно, весьма",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "quite",
+      "note": "Довольно — средняя степень; в британском может значить «весьма».",
+      "example": "The film was quite good.",
+      "exampleRu": "Фильм был довольно неплохой."
+     },
+     {
+      "word": "rather",
+      "note": "Довольно — часто о неожиданном или неприятном.",
+      "example": "It's rather cold today.",
+      "exampleRu": "Сегодня довольно холодно."
+     },
+     {
+      "word": "pretty",
+      "note": "Довольно — то же, что quite, но только в разговоре.",
+      "example": "I'm pretty tired.",
+      "exampleRu": "Я довольно устал."
+     },
+     {
+      "word": "very",
+      "note": "Очень — сильнее всех остальных.",
+      "example": "She is very talented.",
+      "exampleRu": "Она очень талантлива."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I'm ___ sure it will work.",
+      "answer": "pretty",
+      "base": "pretty",
+      "ru": "Я почти уверен, что сработает.",
+      "why": "Разговорное «довольно» — pretty."
+     },
+     {
+      "sentence": "It's ___ cold today, take a coat.",
+      "answer": "rather",
+      "base": "rather",
+      "ru": "Сегодня довольно холодно, возьми пальто.",
+      "why": "О неприятном — чаще rather."
+     }
+    ]
    }
   ]
  }

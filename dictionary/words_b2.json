@@ -293,16 +293,21 @@
     "exampleTranslation": "Он живёт в комфорте."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "comfortable",
-    "pos": "прил.",
-    "ru": "удобный"
-   },
-   {
-    "word": "uncomfortable",
-    "pos": "прил.",
-    "ru": "неудобный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "comfortable",
+      "pos": "прил.",
+      "ru": "удобный"
+     },
+     {
+      "word": "uncomfortable",
+      "pos": "прил.",
+      "ru": "неудобный"
+     }
+    ]
    }
   ]
  },
@@ -671,6 +676,49 @@
     "translation": "значительный, немалый",
     "exampleSentence": "She has considerable experience.",
     "exampleTranslation": "У неё значительный опыт."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "значительный",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "significant",
+      "note": "Значимый — важный по смыслу, а не только по размеру.",
+      "example": "This is a significant discovery.",
+      "exampleRu": "Это значимое открытие."
+     },
+     {
+      "word": "considerable",
+      "note": "Значительный по количеству или размеру.",
+      "example": "It took considerable effort.",
+      "exampleRu": "Это потребовало значительных усилий."
+     },
+     {
+      "word": "major",
+      "note": "Крупный, основной — из самых важных.",
+      "example": "We made major changes.",
+      "exampleRu": "Мы внесли серьёзные изменения."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The study found a ___ difference between the groups.",
+      "answer": "significant",
+      "base": "significant",
+      "ru": "Исследование нашло значимую разницу между группами.",
+      "why": "Важно по смыслу — significant."
+     },
+     {
+      "sentence": "They invested a ___ amount of money.",
+      "answer": "considerable",
+      "base": "considerable",
+      "ru": "Они вложили значительную сумму.",
+      "why": "О количестве — considerable."
+     }
+    ]
    }
   ]
  },
@@ -1516,6 +1564,49 @@
     "exampleSentence": "The population is decreasing.",
     "exampleTranslation": "Население уменьшается."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "уменьшать",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "reduce",
+      "note": "Уменьшить намеренно — самое частое слово.",
+      "example": "We must reduce costs.",
+      "exampleRu": "Мы должны сократить расходы."
+     },
+     {
+      "word": "decrease",
+      "note": "Уменьшаться или уменьшать — нейтрально, часто о числах.",
+      "example": "Sales decreased by 5%.",
+      "exampleRu": "Продажи снизились на 5%."
+     },
+     {
+      "word": "lower",
+      "note": "Понизить — о цене, уровне, голосе.",
+      "example": "They lowered the price.",
+      "exampleRu": "Они снизили цену."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The company plans to ___ waste by half.",
+      "answer": "reduce",
+      "base": "reduce",
+      "ru": "Компания планирует вдвое сократить отходы.",
+      "why": "Сознательное сокращение — reduce."
+     },
+     {
+      "sentence": "Temperatures ___ sharply at night.",
+      "answer": "decrease",
+      "base": "decrease",
+      "ru": "Ночью температура резко падает.",
+      "why": "Само снижается — decrease."
+     }
+    ]
+   }
   ]
  },
  {
@@ -1606,6 +1697,22 @@
     "exampleSentence": "It was a deliberate lie.",
     "exampleTranslation": "Это была намеренная ложь."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "намеренный",
+    "members": [
+     {
+      "word": "deliberate",
+      "ru": "намеренный"
+     },
+     {
+      "word": "accidental",
+      "ru": "случайный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -1661,6 +1768,22 @@
     "exampleSentence": "Customers demanded a refund.",
     "exampleTranslation": "Клиенты требовали возврата денег."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "спрос",
+    "members": [
+     {
+      "word": "demand",
+      "ru": "спрос"
+     },
+     {
+      "word": "supply",
+      "ru": "предложение"
+     }
+    ]
+   }
   ]
  },
  {
@@ -1715,6 +1838,49 @@
     "translation": "отрицать, отказывать",
     "exampleSentence": "He denied the accusation.",
     "exampleTranslation": "Он отрицал обвинение."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "отказать",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "refuse",
+      "note": "Отказаться делать или отказать в просьбе.",
+      "example": "He refused to help.",
+      "exampleRu": "Он отказался помочь."
+     },
+     {
+      "word": "deny",
+      "note": "Отрицать, что что-то было.",
+      "example": "She denied taking the money.",
+      "exampleRu": "Она отрицала, что брала деньги."
+     },
+     {
+      "word": "reject",
+      "note": "Отклонить предложение, заявку, идею.",
+      "example": "They rejected our offer.",
+      "exampleRu": "Они отклонили наше предложение."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The company ___ his application.",
+      "answer": "rejected",
+      "base": "reject",
+      "ru": "Компания отклонила его заявку.",
+      "why": "Отклонить документ — reject."
+     },
+     {
+      "sentence": "He ___ all the accusations.",
+      "answer": "denied",
+      "base": "deny",
+      "ru": "Он отрицал все обвинения.",
+      "why": "Отрицать факт — deny."
+     }
+    ]
    }
   ]
  },
@@ -1955,21 +2121,26 @@
     "exampleTranslation": "Мнения по этому вопросу различаются."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "difference",
-    "pos": "сущ.",
-    "ru": "различие"
-   },
-   {
-    "word": "different",
-    "pos": "прил.",
-    "ru": "разный"
-   },
-   {
-    "word": "differently",
-    "pos": "нареч.",
-    "ru": "по-другому"
+    "kind": "family",
+    "members": [
+     {
+      "word": "difference",
+      "pos": "сущ.",
+      "ru": "различие"
+     },
+     {
+      "word": "different",
+      "pos": "прил.",
+      "ru": "разный"
+     },
+     {
+      "word": "differently",
+      "pos": "нареч.",
+      "ru": "по-другому"
+     }
+    ]
    }
   ]
  },
@@ -2786,16 +2957,21 @@
     "exampleTranslation": "Родители должны обучать своих детей."
    }
   ],
-  "family": [
+  "sets": [
    {
-    "word": "education",
-    "pos": "сущ.",
-    "ru": "образование"
-   },
-   {
-    "word": "educational",
-    "pos": "прил.",
-    "ru": "учебный"
+    "kind": "family",
+    "members": [
+     {
+      "word": "education",
+      "pos": "сущ.",
+      "ru": "образование"
+     },
+     {
+      "word": "educational",
+      "pos": "прил.",
+      "ru": "учебный"
+     }
+    ]
    }
   ]
  },
@@ -3417,6 +3593,22 @@
     "exampleSentence": "That fact isn't relevant here.",
     "exampleTranslation": "Этот факт здесь ни при чём."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "уместный",
+    "members": [
+     {
+      "word": "relevant",
+      "ru": "уместный"
+     },
+     {
+      "word": "irrelevant",
+      "ru": "неуместный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -3453,6 +3645,22 @@
     "translation": "гибкий, подстраивающийся",
     "exampleSentence": "We have flexible working hours.",
     "exampleTranslation": "У нас гибкий график."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "гибкий",
+    "members": [
+     {
+      "word": "flexible",
+      "ru": "гибкий"
+     },
+     {
+      "word": "rigid",
+      "ru": "жёсткий"
+     }
+    ]
    }
   ]
  },
@@ -3509,6 +3717,22 @@
     "translation": "постоянный, бессрочный",
     "exampleSentence": "He found a permanent job.",
     "exampleTranslation": "Он нашёл постоянную работу."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "постоянный",
+    "members": [
+     {
+      "word": "permanent",
+      "ru": "постоянный"
+     },
+     {
+      "word": "temporary",
+      "ru": "временный"
+     }
+    ]
    }
   ]
  },
@@ -4390,6 +4614,22 @@
     "exampleSentence": "New evidence has emerged.",
     "exampleTranslation": "Появились новые улики."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "появляться",
+    "members": [
+     {
+      "word": "emerge",
+      "ru": "появляться"
+     },
+     {
+      "word": "vanish",
+      "ru": "исчезать"
+     }
+    ]
+   }
   ]
  },
  {
@@ -4536,6 +4776,22 @@
     "translation": "прямо высказанный, недвусмысленный",
     "exampleSentence": "He gave explicit instructions.",
     "exampleTranslation": "Он дал чёткие указания."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "прямой",
+    "members": [
+     {
+      "word": "explicit",
+      "ru": "прямой"
+     },
+     {
+      "word": "implicit",
+      "ru": "подразумеваемый"
+     }
+    ]
    }
   ]
  },
@@ -4684,6 +4940,22 @@
     "exampleSentence": "Handle it carefully, it's fragile.",
     "exampleTranslation": "Обращайся осторожно, это хрупкое."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "хрупкий",
+    "members": [
+     {
+      "word": "fragile",
+      "ru": "хрупкий"
+     },
+     {
+      "word": "robust",
+      "ru": "крепкий"
+     }
+    ]
+   }
   ]
  },
  {
@@ -4756,6 +5028,22 @@
     "translation": "суровый, резкий",
     "exampleSentence": "That seems a harsh punishment.",
     "exampleTranslation": "Это кажется суровым наказанием."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "суровый",
+    "members": [
+     {
+      "word": "harsh",
+      "ru": "суровый"
+     },
+     {
+      "word": "gentle",
+      "ru": "мягкий"
+     }
+    ]
    }
   ]
  },
@@ -5126,6 +5414,22 @@
     "translation": "малоизвестный; неясный",
     "exampleSentence": "He quoted an obscure poet.",
     "exampleTranslation": "Он процитировал малоизвестного поэта."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "малоизвестный",
+    "members": [
+     {
+      "word": "obscure",
+      "ru": "малоизвестный"
+     },
+     {
+      "word": "prominent",
+      "ru": "видный"
+     }
+    ]
    }
   ]
  },
@@ -6034,6 +6338,22 @@
     "exampleSentence": "He gave a vague answer.",
     "exampleTranslation": "Он дал расплывчатый ответ."
    }
+  ],
+  "sets": [
+   {
+    "kind": "antonym",
+    "ru": "расплывчатый",
+    "members": [
+     {
+      "word": "vague",
+      "ru": "расплывчатый"
+     },
+     {
+      "word": "precise",
+      "ru": "точный"
+     }
+    ]
+   }
   ]
  },
  {
@@ -6603,6 +6923,325 @@
     "translation": "исключительно, чисто",
     "exampleSentence": "It was purely a coincidence.",
     "exampleTranslation": "Это была чистая случайность."
+   }
+  ]
+ },
+ {
+  "id": "word_b2_affect",
+  "english": "affect",
+  "transcription": "[əˈfekt]",
+  "level": "B2",
+  "tags": [
+   "глаголы и действия"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "влиять",
+    "translation": "влиять, воздействовать",
+    "exampleSentence": "The weather affects my mood.",
+    "exampleTranslation": "Погода влияет на моё настроение."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "влиять",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "affect",
+      "note": "Влиять — глагол. На что-то: affect something.",
+      "example": "The news affected the price.",
+      "exampleRu": "Новость повлияла на цену."
+     },
+     {
+      "word": "effect",
+      "note": "Эффект, последствие — существительное. Частая ошибка: перепутать с affect.",
+      "example": "The effect was immediate.",
+      "exampleRu": "Эффект был мгновенным."
+     },
+     {
+      "word": "influence",
+      "note": "Влиять или влияние — о долгом, мягком воздействии.",
+      "example": "His books influenced a generation.",
+      "exampleRu": "Его книги повлияли на целое поколение."
+     },
+     {
+      "word": "impact",
+      "note": "Сильное воздействие, ощутимый результат.",
+      "example": "The law had a huge impact.",
+      "exampleRu": "Закон оказал огромное влияние."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "How will this ___ our plans?",
+      "answer": "affect",
+      "base": "affect",
+      "ru": "Как это повлияет на наши планы?",
+      "why": "Нужен глагол — affect."
+     },
+     {
+      "sentence": "The new rule had little ___.",
+      "answer": "effect",
+      "base": "effect",
+      "ru": "Новое правило почти не дало эффекта.",
+      "why": "Нужно существительное — effect."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b2_assume",
+  "english": "assume",
+  "transcription": "[əˈsjuːm]",
+  "level": "B2",
+  "tags": [
+   "мышление и знание"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "предполагать",
+    "translation": "предполагать, допускать",
+    "exampleSentence": "I assume you are hungry.",
+    "exampleTranslation": "Полагаю, ты голоден."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "предполагать",
+    "topic": "Мнение",
+    "members": [
+     {
+      "word": "assume",
+      "note": "Принять за данность без проверки.",
+      "example": "I assumed you knew.",
+      "exampleRu": "Я решил, что ты знаешь."
+     },
+     {
+      "word": "suppose",
+      "note": "Полагать — мягкое предположение, часто в речи.",
+      "example": "I suppose you're right.",
+      "exampleRu": "Пожалуй, ты прав."
+     },
+     {
+      "word": "guess",
+      "note": "Угадывать или предполагать наугад.",
+      "example": "Guess what happened!",
+      "exampleRu": "Угадай, что случилось!"
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Don't ___ that everyone agrees.",
+      "answer": "assume",
+      "base": "assume",
+      "ru": "Не считай, что все согласны.",
+      "why": "Принять без проверки — assume."
+     },
+     {
+      "sentence": "Can you ___ how old he is?",
+      "answer": "guess",
+      "base": "guess",
+      "ru": "Угадаешь, сколько ему лет?",
+      "why": "Наугад — guess."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b2_avoid",
+  "english": "avoid",
+  "transcription": "[əˈvɔɪd]",
+  "level": "B2",
+  "tags": [
+   "глаголы и действия"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "избегать",
+    "translation": "избегать, уклоняться",
+    "exampleSentence": "You should avoid sugar.",
+    "exampleTranslation": "Тебе следует избегать сахара."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "избегать, мешать",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "avoid",
+      "note": "Избегать — не делать и не сталкиваться. Дальше -ing.",
+      "example": "He avoids talking about it.",
+      "exampleRu": "Он избегает разговоров об этом."
+     },
+     {
+      "word": "prevent",
+      "note": "Не дать случиться. Дальше somebody from doing.",
+      "example": "Seat belts prevent injuries.",
+      "exampleRu": "Ремни безопасности предотвращают травмы."
+     },
+     {
+      "word": "escape",
+      "note": "Сбежать, ускользнуть от чего-то.",
+      "example": "They escaped the fire.",
+      "exampleRu": "Они спаслись от пожара."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Rain ___ us from finishing the work.",
+      "answer": "prevented",
+      "base": "prevent",
+      "ru": "Дождь помешал нам закончить работу.",
+      "why": "prevent somebody from doing."
+     },
+     {
+      "sentence": "She ___ answering the question.",
+      "answer": "avoided",
+      "base": "avoid",
+      "ru": "Она ушла от ответа.",
+      "why": "После avoid — глагол с -ing."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b2_notice",
+  "english": "notice",
+  "transcription": "[ˈnəʊtɪs]",
+  "level": "B2",
+  "tags": [
+   "мышление и знание"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "замечать",
+    "translation": "замечать",
+    "exampleSentence": "I noticed a new shop on the street.",
+    "exampleTranslation": "Я заметил новый магазин на улице."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "объявление",
+    "translation": "объявление, уведомление",
+    "exampleSentence": "There is a notice on the door.",
+    "exampleTranslation": "На двери есть объявление."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "заметить, понять",
+    "topic": "Восприятие",
+    "members": [
+     {
+      "word": "notice",
+      "note": "Заметить глазами или ухом.",
+      "example": "I noticed a mistake.",
+      "exampleRu": "Я заметил ошибку."
+     },
+     {
+      "word": "realize",
+      "note": "Осознать, дойти умом.",
+      "example": "I realized I was wrong.",
+      "exampleRu": "Я понял, что был неправ."
+     },
+     {
+      "word": "recognize",
+      "note": "Узнать знакомое.",
+      "example": "I didn't recognize you!",
+      "exampleRu": "Я тебя не узнал!"
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Suddenly I ___ that the door was open.",
+      "answer": "noticed",
+      "base": "notice",
+      "ru": "Вдруг я заметил, что дверь открыта.",
+      "why": "Увидел — notice."
+     },
+     {
+      "sentence": "It took me a while to ___ the problem.",
+      "answer": "realize",
+      "base": "realize",
+      "ru": "Мне не сразу стало понятно, в чём проблема.",
+      "why": "Дошло умом — realize."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "word_b2_confident",
+  "english": "confident",
+  "transcription": "[ˈkɒnfɪdənt]",
+  "level": "B2",
+  "tags": [
+   "эмоции и чувства",
+   "характер и качества людей"
+  ],
+  "meanings": [
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "уверенный",
+    "translation": "уверенный (в себе)",
+    "exampleSentence": "She feels confident about the exam.",
+    "exampleTranslation": "Она уверена в успехе экзамена."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "уверенный",
+    "topic": "Мнение",
+    "members": [
+     {
+      "word": "confident",
+      "note": "Уверенный в себе или в исходе.",
+      "example": "She is confident about the result.",
+      "exampleRu": "Она уверена в результате."
+     },
+     {
+      "word": "sure",
+      "note": "Уверен, что это так — разговорное.",
+      "example": "Are you sure?",
+      "exampleRu": "Ты уверен?"
+     },
+     {
+      "word": "certain",
+      "note": "То же, что sure, но строже и официальнее.",
+      "example": "We are certain of the facts.",
+      "exampleRu": "Мы уверены в фактах."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I'm not ___ I locked the door.",
+      "answer": "sure",
+      "base": "sure",
+      "ru": "Я не уверен, что запер дверь.",
+      "why": "Разговорная уверенность — sure."
+     },
+     {
+      "sentence": "He gave a ___ answer to every question.",
+      "answer": "confident",
+      "base": "confident",
+      "ru": "На каждый вопрос он отвечал уверенно.",
+      "why": "Уверенность в поведении — confident."
+     }
+    ]
    }
   ]
  }
