@@ -388,7 +388,7 @@
   "meanings": [
    {
     "partOfSpeech": "опред.",
-    "translation1": "весь (весь, все)",
+    "translation1": "весь (все)",
     "translation": "весь, все, всё",
     "exampleSentence": "All students are here.",
     "exampleTranslation": "Все студенты здесь."
@@ -938,7 +938,7 @@
   "meanings": [
    {
     "partOfSpeech": "предл.",
-    "translation1": "в (в точке, у)",
+    "translation1": "в (точке, у)",
     "translation": "в, у, на, при",
     "exampleSentence": "I'm at home.",
     "exampleTranslation": "Я дома."
@@ -1507,7 +1507,7 @@
   "meanings": [
    {
     "partOfSpeech": "сущ.",
-    "translation1": "начало (начало)",
+    "translation1": "начало (первый момент)",
     "translation": "начало, старт",
     "exampleSentence": "This is the beginning of the story.",
     "exampleTranslation": "Это начало истории."
@@ -2283,7 +2283,7 @@
   "meanings": [
    {
     "partOfSpeech": "гл.",
-    "translation1": "приносить (приносить с собой)",
+    "translation1": "приносить (с собой)",
     "translation": "приносить, приводить, привозить",
     "exampleSentence": "Please bring your book to class.",
     "exampleTranslation": "Пожалуйста, принеси свою книгу на урок."
@@ -2930,8 +2930,16 @@
     "translation": "проверять, сверять, осматривать",
     "exampleSentence": "Please check your answers.",
     "exampleTranslation": "Пожалуйста, проверьте свои ответы."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "проверка",
+    "translation": "проверка, а также счёт в кафе по-американски",
+    "exampleSentence": "The car needs a safety check.",
+    "exampleTranslation": "Машине нужна проверка безопасности."
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_cheese",
@@ -3128,6 +3136,13 @@
     "translation": "класс, урок, занятие",
     "exampleSentence": "Our class starts at nine.",
     "exampleTranslation": "Наш урок начинается в девять."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "занятие",
+    "translation": "занятие, урок",
+    "exampleSentence": "I have a class at nine.",
+    "exampleTranslation": "У меня занятие в девять."
    }
   ],
   "sets": [
@@ -3562,6 +3577,13 @@
     "translation": "готовить (еду), стряпать",
     "exampleSentence": "My mum cooks dinner every day.",
     "exampleTranslation": "Моя мама каждый день готовит ужин."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "повар",
+    "translation": "повар",
+    "exampleSentence": "He works as a cook.",
+    "exampleTranslation": "Он работает поваром."
    }
   ],
   "sets": [
@@ -3580,7 +3602,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_cooking",
@@ -3890,13 +3913,21 @@
     "translation": "резать, разрезать, отрезать",
     "exampleSentence": "Cut the bread, please.",
     "exampleTranslation": "Нарежь хлеб, пожалуйста."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "порез",
+    "translation": "порез, а также сокращение",
+    "exampleSentence": "He had a cut on his hand.",
+    "exampleTranslation": "У него был порез на руке."
    }
   ],
   "forms": {
    "past": "cut",
    "participle": "cut",
    "ing": "cutting"
-  }
+  },
+  "countable": "countable"
  },
  {
   "id": "word_dad",
@@ -4018,7 +4049,7 @@
   "meanings": [
    {
     "partOfSpeech": "прил.",
-    "translation1": "опасный (опасный)",
+    "translation1": "опасный (грозящий вредом)",
     "translation": "опасный, рискованный",
     "exampleSentence": "It is dangerous to swim here.",
     "exampleTranslation": "Здесь опасно плавать."
@@ -4650,7 +4681,7 @@
   "meanings": [
    {
     "partOfSpeech": "нареч.",
-    "translation1": "вниз (вниз)",
+    "translation1": "вниз (сверху вниз)",
     "translation": "вниз, внизу",
     "exampleSentence": "The ball rolled down the hill.",
     "exampleTranslation": "Мяч покатился вниз по склону."
@@ -4670,7 +4701,7 @@
   "meanings": [
    {
     "partOfSpeech": "нареч.",
-    "translation1": "вниз (вниз по лестнице)",
+    "translation1": "вниз (по лестнице)",
     "translation": "вниз (по лестнице), внизу, на нижнем этаже",
     "exampleSentence": "The kitchen is downstairs.",
     "exampleTranslation": "Кухня находится внизу."
@@ -4723,6 +4754,13 @@
     "translation": "платье, наряд",
     "exampleSentence": "She is in a red dress.",
     "exampleTranslation": "Она в красном платье."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "одеваться",
+    "translation": "одеваться или одевать",
+    "exampleSentence": "He dresses well.",
+    "exampleTranslation": "Он хорошо одевается."
    }
   ],
   "countable": "countable"
@@ -4775,6 +4813,13 @@
     "translation": "водить машину, ехать (на машине), везти",
     "exampleSentence": "My father drives to work.",
     "exampleTranslation": "Мой отец ездит на работу на машине."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "поездка",
+    "translation": "поездка на машине",
+    "exampleSentence": "It is a two-hour drive.",
+    "exampleTranslation": "Это два часа на машине."
    }
   ],
   "forms": {
@@ -4797,7 +4842,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_driver",
@@ -4909,7 +4955,7 @@
   "meanings": [
    {
     "partOfSpeech": "опред.",
-    "translation1": "каждый (каждый по отдельности)",
+    "translation1": "каждый (по отдельности)",
     "translation": "каждый, всякий, любой (из группы)",
     "exampleSentence": "Each student has a book.",
     "exampleTranslation": "У каждого ученика есть книга."
@@ -5229,6 +5275,13 @@
     "translation": "конец, окончание, финал",
     "exampleSentence": "The end of the film is sad.",
     "exampleTranslation": "Конец фильма грустный."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "заканчиваться",
+    "translation": "заканчивать или заканчиваться",
+    "exampleSentence": "The film ends badly.",
+    "exampleTranslation": "Фильм плохо заканчивается."
    }
   ],
   "countable": "countable"
@@ -5325,6 +5378,13 @@
     "translation": "даже, ещё, вовсе",
     "exampleSentence": "He can even swim in winter.",
     "exampleTranslation": "Он может даже плавать зимой."
+   },
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "ровный",
+    "translation": "ровный, а также чётный",
+    "exampleSentence": "The ground is not even here.",
+    "exampleTranslation": "Земля здесь неровная."
    }
   ]
  },
@@ -5398,7 +5458,7 @@
   "meanings": [
    {
     "partOfSpeech": "мест.",
-    "translation1": "все (все, разговорнее)",
+    "translation1": "все (разговорнее)",
     "translation": "все, каждый, все люди",
     "exampleSentence": "Everybody likes pizza.",
     "exampleTranslation": "Все любят пиццу."
@@ -5417,7 +5477,7 @@
   "meanings": [
    {
     "partOfSpeech": "мест.",
-    "translation1": "все (все)",
+    "translation1": "все (нейтрально)",
     "translation": "все, каждый",
     "exampleSentence": "Everyone is here.",
     "exampleTranslation": "Все здесь."
@@ -5666,6 +5726,13 @@
     "translation": "лицо, выражение лица",
     "exampleSentence": "Wash your face.",
     "exampleTranslation": "Умой лицо."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "сталкиваться",
+    "translation": "сталкиваться с чем-то трудным",
+    "exampleSentence": "We face a hard choice.",
+    "exampleTranslation": "Перед нами трудный выбор."
    }
   ],
   "countable": "countable"
@@ -6206,8 +6273,16 @@
     "translation": "хороший, отличный, прекрасный",
     "exampleSentence": "I'm fine, thank you.",
     "exampleTranslation": "У меня всё хорошо, спасибо."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "штраф",
+    "translation": "штраф",
+    "exampleSentence": "He paid a parking fine.",
+    "exampleTranslation": "Он заплатил штраф за парковку."
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_finish",
@@ -6245,6 +6320,13 @@
     "translation": "огонь, пожар, костёр",
     "exampleSentence": "Don't play with fire.",
     "exampleTranslation": "Не играй с огнём."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "увольнять",
+    "translation": "увольнять с работы",
+    "exampleSentence": "They fired him last week.",
+    "exampleTranslation": "Его уволили на прошлой неделе."
    }
   ],
   "countable": "both"
@@ -6311,6 +6393,13 @@
     "translation": "рыба",
     "exampleSentence": "We eat fish on Fridays.",
     "exampleTranslation": "По пятницам мы едим рыбу."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "ловить рыбу",
+    "translation": "ловить рыбу",
+    "exampleSentence": "We fished all morning.",
+    "exampleTranslation": "Мы рыбачили всё утро."
    }
   ],
   "forms": {
@@ -6482,6 +6571,13 @@
     "translation": "летать, лететь, перелетать",
     "exampleSentence": "Birds can fly.",
     "exampleTranslation": "Птицы умеют летать."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "муха",
+    "translation": "муха",
+    "exampleSentence": "There is a fly on the window.",
+    "exampleTranslation": "На окне муха."
    }
   ],
   "forms": {
@@ -6499,7 +6595,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_follow",
@@ -7281,7 +7378,7 @@
   "meanings": [
    {
     "partOfSpeech": "прил.",
-    "translation1": "хороший (хороший)",
+    "translation1": "хороший (нейтрально)",
     "translation": "хороший, добрый, славный",
     "exampleSentence": "She is a good teacher.",
     "exampleTranslation": "Она хороший учитель."
@@ -7668,6 +7765,13 @@
     "translation": "рука (кисть), ладонь",
     "exampleSentence": "Wash your hands before dinner.",
     "exampleTranslation": "Мой руки перед ужином."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "передавать",
+    "translation": "передавать из рук в руки",
+    "exampleSentence": "Hand me the salt, please.",
+    "exampleTranslation": "Передай мне соль, пожалуйста."
    }
   ],
   "countable": "countable"
@@ -8076,10 +8180,17 @@
   "meanings": [
    {
     "partOfSpeech": "гл.",
-    "translation1": "помогать (помогать)",
+    "translation1": "помогать (выручать)",
     "translation": "помогать, оказывать помощь",
     "exampleSentence": "Can you help me, please?",
     "exampleTranslation": "Можете мне помочь, пожалуйста?"
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "помощь",
+    "translation": "помощь, поддержка в деле",
+    "exampleSentence": "Thanks for your help.",
+    "exampleTranslation": "Спасибо за твою помощь."
    }
   ],
   "sets": [
@@ -8098,7 +8209,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "uncountable"
  },
  {
   "id": "word_her",
@@ -8379,6 +8491,13 @@
     "translation": "надеяться, рассчитывать",
     "exampleSentence": "I hope you like the gift.",
     "exampleTranslation": "Надеюсь, тебе понравится подарок."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "надежда",
+    "translation": "надежда",
+    "exampleSentence": "There is still hope.",
+    "exampleTranslation": "Надежда ещё есть."
    }
   ],
   "sets": [
@@ -8402,7 +8521,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "both"
  },
  {
   "id": "word_horse",
@@ -8994,7 +9114,7 @@
   "meanings": [
    {
     "partOfSpeech": "предл.",
-    "translation1": "внутрь (внутрь, с движением)",
+    "translation1": "внутрь (с движением)",
     "translation": "внутрь, в",
     "exampleSentence": "She put the book into her bag.",
     "exampleTranslation": "Она положила книгу в сумку."
@@ -9306,6 +9426,13 @@
     "translation": "хранить, держать, оставлять себе",
     "exampleSentence": "Keep your passport safe.",
     "exampleTranslation": "Храни свой паспорт в надёжном месте."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "продолжать",
+    "translation": "продолжать делать",
+    "exampleSentence": "Keep going, you are close.",
+    "exampleTranslation": "Продолжай, ты почти у цели."
    }
   ],
   "forms": {
@@ -9519,7 +9646,7 @@
   "meanings": [
    {
     "partOfSpeech": "прил.",
-    "translation1": "последний (последний по порядку)",
+    "translation1": "последний (по порядку)",
     "translation": "последний, заключительный",
     "exampleSentence": "This is the last bus.",
     "exampleTranslation": "Это последний автобус."
@@ -9604,6 +9731,13 @@
     "translation": "смеяться, хохотать",
     "exampleSentence": "The children laugh at the clown.",
     "exampleTranslation": "Дети смеются над клоуном."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "смех",
+    "translation": "смех, хохот",
+    "exampleSentence": "I heard a loud laugh.",
+    "exampleTranslation": "Я услышал громкий смех."
    }
   ],
   "sets": [
@@ -9617,7 +9751,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_learn",
@@ -9813,6 +9948,13 @@
     "translation": "позволять, разрешать, пускать",
     "exampleSentence": "Let me help you.",
     "exampleTranslation": "Позволь мне помочь тебе."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "сдавать",
+    "translation": "британское: сдавать жильё",
+    "exampleSentence": "They let the flat to students.",
+    "exampleTranslation": "Они сдают квартиру студентам."
    }
   ],
   "forms": {
@@ -10335,6 +10477,13 @@
     "translation": "любить, обожать, очень нравиться",
     "exampleSentence": "I love my family.",
     "exampleTranslation": "Я люблю свою семью."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "любовь",
+    "translation": "любовь",
+    "exampleSentence": "Her love for music is obvious.",
+    "exampleTranslation": "Её любовь к музыке очевидна."
    }
   ],
   "sets": [
@@ -10367,7 +10516,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "uncountable"
  },
  {
   "id": "word_lunch",
@@ -10721,6 +10871,13 @@
     "translation": "означать, значить, иметь в виду",
     "exampleSentence": "What does this word mean?",
     "exampleTranslation": "Что означает это слово?"
+   },
+   {
+    "partOfSpeech": "прил.",
+    "translation1": "подлый",
+    "translation": "подлый, недобрый",
+    "exampleSentence": "That was a mean thing to say.",
+    "exampleTranslation": "Это было подло сказано."
    }
   ],
   "forms": {
@@ -11368,6 +11525,13 @@
     "translation": "двигаться, переезжать, перемещать",
     "exampleSentence": "We move to a new flat next month.",
     "exampleTranslation": "В следующем месяце мы переезжаем в новую квартиру."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "ход",
+    "translation": "ход в игре, а также переезд",
+    "exampleSentence": "That was a smart move.",
+    "exampleTranslation": "Это был умный ход."
    }
   ],
   "sets": [
@@ -11386,7 +11550,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_movie",
@@ -11617,8 +11782,16 @@
     "translation": "нуждаться, быть нужным, требоваться",
     "exampleSentence": "I need your help.",
     "exampleTranslation": "Мне нужна твоя помощь."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "потребность",
+    "translation": "потребность, нужда",
+    "exampleSentence": "There is a need for change.",
+    "exampleTranslation": "Есть потребность в переменах."
    }
-  ]
+  ],
+  "countable": "both"
  },
  {
   "id": "word_neighbour",
@@ -11915,7 +12088,7 @@
   "meanings": [
    {
     "partOfSpeech": "мест.",
-    "translation1": "никто (никто)",
+    "translation1": "никто (нейтрально)",
     "translation": "никто, ни один человек",
     "exampleSentence": "No one is at home.",
     "exampleTranslation": "Дома никого нет."
@@ -11934,7 +12107,7 @@
   "meanings": [
    {
     "partOfSpeech": "мест.",
-    "translation1": "никто (никто, разговорнее)",
+    "translation1": "никто (разговорнее)",
     "translation": "никто, никого",
     "exampleSentence": "Nobody knows the answer.",
     "exampleTranslation": "Никто не знает ответа."
@@ -12197,7 +12370,7 @@
   "meanings": [
    {
     "partOfSpeech": "нареч./предл.",
-    "translation1": "прочь (прочь, а также выключено)",
+    "translation1": "прочь (а также выключено)",
     "translation": "прочь, выключено, с (поверхности)",
     "exampleSentence": "Turn off the light, please.",
     "exampleTranslation": "Выключи свет, пожалуйста."
@@ -12236,7 +12409,7 @@
   "meanings": [
    {
     "partOfSpeech": "нареч.",
-    "translation1": "часто (часто)",
+    "translation1": "часто (нейтрально)",
     "translation": "часто, много раз, нередко",
     "exampleSentence": "I often go to the cinema.",
     "exampleTranslation": "Я часто хожу в кино."
@@ -12338,7 +12511,7 @@
   "meanings": [
    {
     "partOfSpeech": "предл.",
-    "translation1": "на (на поверхности)",
+    "translation1": "на (поверхности)",
     "translation": "на (поверхности), в (день недели)",
     "exampleSentence": "The book is on the table.",
     "exampleTranslation": "Книга лежит на столе."
@@ -12576,8 +12749,16 @@
     "translation": "заказывать, приказывать",
     "exampleSentence": "I'd like to order a pizza.",
     "exampleTranslation": "Я бы хотел заказать пиццу."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "порядок",
+    "translation": "порядок, а также приказ",
+    "exampleSentence": "Put the words in the right order.",
+    "exampleTranslation": "Поставь слова в правильном порядке."
    }
-  ]
+  ],
+  "countable": "both"
  },
  {
   "id": "word_other",
@@ -12888,6 +13069,13 @@
     "translation": "парк, сквер",
     "exampleSentence": "We walk in the park on Sundays.",
     "exampleTranslation": "По воскресеньям мы гуляем в парке."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "парковать",
+    "translation": "ставить машину",
+    "exampleSentence": "You can park behind the house.",
+    "exampleTranslation": "Можешь припарковаться за домом."
    }
   ],
   "countable": "countable"
@@ -13042,12 +13230,20 @@
     "translation": "платить, оплачивать, расплачиваться",
     "exampleSentence": "Can I pay by card?",
     "exampleTranslation": "Можно оплатить картой?"
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "оплата",
+    "translation": "оплата труда",
+    "exampleSentence": "The pay is good here.",
+    "exampleTranslation": "Оплата здесь хорошая."
    }
   ],
   "forms": {
    "past": "paid",
    "participle": "paid"
-  }
+  },
+  "countable": "uncountable"
  },
  {
   "id": "word_pen",
@@ -13468,10 +13664,17 @@
   "meanings": [
    {
     "partOfSpeech": "сущ.",
-    "translation1": "место (место вообще)",
+    "translation1": "место (вообще)",
     "translation": "место, местность, помещение",
     "exampleSentence": "This is a nice place.",
     "exampleTranslation": "Это приятное место."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "помещать",
+    "translation": "помещать, располагать",
+    "exampleSentence": "Place the box on the table.",
+    "exampleTranslation": "Поставь коробку на стол."
    }
   ],
   "countable": "countable"
@@ -13492,6 +13695,13 @@
     "translation": "план, замысел, схема",
     "exampleSentence": "What's your plan for the weekend?",
     "exampleTranslation": "Какой у тебя план на выходные?"
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "планировать",
+    "translation": "планировать, собираться",
+    "exampleSentence": "We plan to leave early.",
+    "exampleTranslation": "Мы планируем уехать рано."
    }
   ],
   "countable": "countable"
@@ -13557,6 +13767,13 @@
     "translation": "играть, играть на инструменте",
     "exampleSentence": "The children play in the garden.",
     "exampleTranslation": "Дети играют в саду."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "пьеса",
+    "translation": "пьеса, спектакль",
+    "exampleSentence": "We saw a play at the theatre.",
+    "exampleTranslation": "Мы посмотрели пьесу в театре."
    }
   ],
   "sets": [
@@ -13575,7 +13792,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_player",
@@ -13968,7 +14186,7 @@
   "meanings": [
    {
     "partOfSpeech": "сущ.",
-    "translation1": "подарок (подарок, также настоящее время)",
+    "translation1": "подарок (также настоящее время)",
     "translation": "подарок, презент",
     "exampleSentence": "She gave me a nice present.",
     "exampleTranslation": "Она подарила мне хороший подарок."
@@ -14342,6 +14560,13 @@
     "translation": "дождь, ливень",
     "exampleSentence": "I don't like rain.",
     "exampleTranslation": "Я не люблю дождь."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "идти",
+    "translation": "идти о дождe",
+    "exampleSentence": "It rained all night.",
+    "exampleTranslation": "Дождь шёл всю ночь."
    }
   ],
   "countable": "uncountable"
@@ -14727,7 +14952,7 @@
   "meanings": [
    {
     "partOfSpeech": "прил.",
-    "translation1": "богатый (богатый)",
+    "translation1": "богатый (нейтрально)",
     "translation": "богатый, состоятельный",
     "exampleSentence": "He is a rich man.",
     "exampleTranslation": "Он богатый человек."
@@ -14766,12 +14991,20 @@
     "translation": "ездить верхом, кататься, ехать (на велосипеде)",
     "exampleSentence": "I ride my bike to school.",
     "exampleTranslation": "Я езжу в школу на велосипеде."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "поездка",
+    "translation": "поездка верхом или на транспорте",
+    "exampleSentence": "It was a long ride home.",
+    "exampleTranslation": "Дорога домой была долгой."
    }
   ],
   "forms": {
    "past": "rode",
    "participle": "ridden"
-  }
+  },
+  "countable": "countable"
  },
  {
   "id": "word_right",
@@ -14925,6 +15158,13 @@
     "translation": "правило, норма, закон",
     "exampleSentence": "Read the rules carefully.",
     "exampleTranslation": "Внимательно прочитай правила."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "править",
+    "translation": "править, управлять",
+    "exampleSentence": "The king ruled for thirty years.",
+    "exampleTranslation": "Король правил тридцать лет."
    }
   ],
   "countable": "countable"
@@ -14945,13 +15185,21 @@
     "translation": "бежать, бегать",
     "exampleSentence": "I run in the park every morning.",
     "exampleTranslation": "Я бегаю в парке каждое утро."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "пробежка",
+    "translation": "пробежка, забег",
+    "exampleSentence": "I go for a run every morning.",
+    "exampleTranslation": "Я бегаю каждое утро."
    }
   ],
   "forms": {
    "past": "ran",
    "participle": "run",
    "ing": "running"
-  }
+  },
+  "countable": "countable"
  },
  {
   "id": "word_sad",
@@ -15930,12 +16178,20 @@
     "translation": "спать, отдыхать",
     "exampleSentence": "I sleep eight hours a night.",
     "exampleTranslation": "Я сплю восемь часов за ночь."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "сон",
+    "translation": "сон как состояние",
+    "exampleSentence": "I need a good sleep.",
+    "exampleTranslation": "Мне нужно хорошо выспаться."
    }
   ],
   "forms": {
    "past": "slept",
    "participle": "slept"
-  }
+  },
+  "countable": "uncountable"
  },
  {
   "id": "word_slow",
@@ -16253,6 +16509,13 @@
     "translation": "звук, шум",
     "exampleSentence": "I can hear a strange sound.",
     "exampleTranslation": "Я слышу странный звук."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "звучать",
+    "translation": "звучать, казаться на слух",
+    "exampleSentence": "That sounds strange.",
+    "exampleTranslation": "Это звучит странно."
    }
   ],
   "countable": "both"
@@ -16489,6 +16752,13 @@
     "translation": "весна",
     "exampleSentence": "Flowers grow in spring.",
     "exampleTranslation": "Весной расцветают цветы."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "пружина",
+    "translation": "пружина, а также источник",
+    "exampleSentence": "The spring in the lock is broken.",
+    "exampleTranslation": "Пружина в замке сломана."
    }
   ],
   "countable": "countable"
@@ -16532,6 +16802,13 @@
     "translation": "начинать(ся), стартовать, приступать",
     "exampleSentence": "When does the film start?",
     "exampleTranslation": "Когда начинается фильм?"
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "начало",
+    "translation": "начало, старт",
+    "exampleSentence": "It was a good start.",
+    "exampleTranslation": "Это было хорошее начало."
    }
   ],
   "sets": [
@@ -16549,7 +16826,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_station",
@@ -16587,12 +16865,20 @@
     "translation": "останавливать(ся), прекращать, переставать",
     "exampleSentence": "The bus stops here.",
     "exampleTranslation": "Автобус останавливается здесь."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "остановка",
+    "translation": "остановка транспорта",
+    "exampleSentence": "Get off at the next stop.",
+    "exampleTranslation": "Выходи на следующей остановке."
    }
   ],
   "forms": {
    "past": "stopped",
    "ing": "stopping"
-  }
+  },
+  "countable": "countable"
  },
  {
   "id": "word_story",
@@ -16706,8 +16992,16 @@
     "translation": "учиться, изучать, заниматься",
     "exampleSentence": "I study English every evening.",
     "exampleTranslation": "Каждый вечер я занимаюсь английским."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "исследование",
+    "translation": "исследование, а также кабинет",
+    "exampleSentence": "A new study shows the opposite.",
+    "exampleTranslation": "Новое исследование показывает обратное."
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_style",
@@ -16977,8 +17271,16 @@
     "translation": "разговаривать, беседовать, говорить",
     "exampleSentence": "We talk on the phone every day.",
     "exampleTranslation": "Мы разговариваем по телефону каждый день."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "беседа",
+    "translation": "беседа, а также доклад",
+    "exampleSentence": "She gave a talk about climate.",
+    "exampleTranslation": "Она сделала доклад о климате."
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_tall",
@@ -18002,7 +18304,7 @@
   "meanings": [
    {
     "partOfSpeech": "нареч.",
-    "translation1": "тоже (тоже, в конце фразы)",
+    "translation1": "тоже (в конце фразы)",
     "translation": "тоже, также",
     "exampleSentence": "I like pizza too.",
     "exampleTranslation": "Я тоже люблю пиццу."
@@ -18136,6 +18438,13 @@
     "translation": "поезд",
     "exampleSentence": "The train leaves at six.",
     "exampleTranslation": "Поезд отправляется в шесть."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "тренировать",
+    "translation": "тренировать или тренироваться",
+    "exampleSentence": "She trains every day.",
+    "exampleTranslation": "Она тренируется каждый день."
    }
   ],
   "sets": [
@@ -18174,6 +18483,13 @@
     "translation": "путешествовать, ездить, ехать",
     "exampleSentence": "I love to travel.",
     "exampleTranslation": "Я люблю путешествовать."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "путешествия",
+    "translation": "путешествия как занятие",
+    "exampleSentence": "Travel broadens the mind.",
+    "exampleTranslation": "Путешествия расширяют взгляд на мир."
    }
   ],
   "forms": {
@@ -18191,7 +18507,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "uncountable"
  },
  {
   "id": "word_tree",
@@ -18360,8 +18677,16 @@
     "translation": "поворачивать(ся), переворачивать",
     "exampleSentence": "Turn the page, please.",
     "exampleTranslation": "Переверни страницу, пожалуйста."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "очередь",
+    "translation": "очередь, а также поворот",
+    "exampleSentence": "It is your turn.",
+    "exampleTranslation": "Твоя очередь."
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_tv",
@@ -18475,6 +18800,13 @@
     "translation": "тип, вид, сорт",
     "exampleSentence": "This type of bag is popular.",
     "exampleTranslation": "Этот тип сумок популярен."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "печатать",
+    "translation": "набирать на клавиатуре",
+    "exampleSentence": "She types very fast.",
+    "exampleTranslation": "Она печатает очень быстро."
    }
   ],
   "countable": "countable"
@@ -18531,7 +18863,7 @@
   "meanings": [
    {
     "partOfSpeech": "предл.",
-    "translation1": "под (под чем-то)",
+    "translation1": "под (чем-то)",
     "translation": "под, ниже, меньше",
     "exampleSentence": "The cat is under the table.",
     "exampleTranslation": "Кошка под столом."
@@ -18629,7 +18961,7 @@
   "meanings": [
    {
     "partOfSpeech": "нареч./предл.",
-    "translation1": "вверх (вверх)",
+    "translation1": "вверх (снизу вверх)",
     "translation": "вверх, наверх, вверху",
     "exampleSentence": "Look up at the sky.",
     "exampleTranslation": "Посмотри вверх, на небо."
@@ -18706,6 +19038,13 @@
     "translation": "использовать, пользоваться, применять",
     "exampleSentence": "Can I use your phone?",
     "exampleTranslation": "Можно воспользоваться твоим телефоном?"
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "применение",
+    "translation": "применение, польза",
+    "exampleSentence": "This tool has many uses.",
+    "exampleTranslation": "У этого инструмента много применений."
    }
   ],
   "sets": [
@@ -18734,7 +19073,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "both"
  },
  {
   "id": "word_usually",
@@ -18866,6 +19206,13 @@
     "translation": "посещать, навещать, бывать",
     "exampleSentence": "I visit my parents every weekend.",
     "exampleTranslation": "Я навещаю родителей каждые выходные."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "визит",
+    "translation": "визит, посещение",
+    "exampleSentence": "Her visit was short.",
+    "exampleTranslation": "Её визит был коротким."
    }
   ],
   "sets": [
@@ -18879,7 +19226,8 @@
      }
     ]
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_visitor",
@@ -18980,8 +19328,16 @@
     "translation": "гулять, ходить пешком, идти",
     "exampleSentence": "I walk to school.",
     "exampleTranslation": "Я хожу в школу пешком."
+   },
+   {
+    "partOfSpeech": "сущ.",
+    "translation1": "прогулка",
+    "translation": "прогулка пешком",
+    "exampleSentence": "Let's go for a walk.",
+    "exampleTranslation": "Давай пройдёмся."
    }
-  ]
+  ],
+  "countable": "countable"
  },
  {
   "id": "word_wall",
@@ -19014,7 +19370,7 @@
   "meanings": [
    {
     "partOfSpeech": "гл.",
-    "translation1": "хотеть (хотеть)",
+    "translation1": "хотеть (нейтрально)",
     "translation": "хотеть, желать",
     "exampleSentence": "I want a cup of coffee.",
     "exampleTranslation": "Я хочу чашку кофе."
@@ -19115,6 +19471,13 @@
     "translation": "вода",
     "exampleSentence": "Drink more water every day.",
     "exampleTranslation": "Пей больше воды каждый день."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "поливать",
+    "translation": "поливать растения",
+    "exampleSentence": "Water the plants twice a week.",
+    "exampleTranslation": "Поливай растения дважды в неделю."
    }
   ],
   "countable": "both"
@@ -19313,7 +19676,7 @@
   "meanings": [
    {
     "partOfSpeech": "нареч.",
-    "translation1": "хорошо (хорошо делать что-то)",
+    "translation1": "хорошо (делать что-то)",
     "translation": "хорошо, отлично, ладно",
     "exampleSentence": "She speaks English very well.",
     "exampleTranslation": "Она очень хорошо говорит по-английски."
@@ -20125,7 +20488,7 @@
   "meanings": [
    {
     "partOfSpeech": "сущ.",
-    "translation1": "совет (совет как рекомендация)",
+    "translation1": "совет (как рекомендация)",
     "translation": "совет, рекомендация",
     "exampleSentence": "She gave me good advice.",
     "exampleTranslation": "Она дала мне хороший совет."
@@ -20444,6 +20807,13 @@
     "translation": "звезда",
     "exampleSentence": "The stars are bright tonight.",
     "exampleTranslation": "Сегодня ночью яркие звёзды."
+   },
+   {
+    "partOfSpeech": "гл.",
+    "translation1": "играть главную роль",
+    "translation": "играть главную роль в фильме",
+    "exampleSentence": "She starred in two films.",
+    "exampleTranslation": "Она сыграла главную роль в двух фильмах."
    }
   ],
   "countable": "countable"
@@ -20460,7 +20830,7 @@
   "meanings": [
    {
     "partOfSpeech": "гл.",
-    "translation1": "оставаться (оставаться на месте)",
+    "translation1": "оставаться (на месте)",
     "translation": "оставаться, останавливаться",
     "exampleSentence": "We stayed at a small hotel.",
     "exampleTranslation": "Мы остановились в маленьком отеле."
@@ -22055,7 +22425,7 @@
   "meanings": [
    {
     "partOfSpeech": "сущ.",
-    "translation1": "жук (жук)",
+    "translation1": "жук (именно жук)",
     "translation": "жук",
     "exampleSentence": "A black beetle is on the leaf.",
     "exampleTranslation": "На листе чёрный жук."
