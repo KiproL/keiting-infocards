@@ -1,0 +1,249 @@
+{
+  "tenseName": "Приставки",
+  "route": "cards_prefixes",
+  "slides": [
+    {
+      "label": "Отрицание",
+      "intro": {
+        "text": "Отрицательных приставок несколько, и какая нужна — решает слово. Чаще всего un-, а in- меняется перед буквами: im- перед p, m, b; il- перед l; ir- перед r.",
+        "highlights": [
+          {
+            "text": "Отрицательных приставок",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "un-",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "in-",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Не-",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Приставка",
+              "Примеры"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "un-",
+                  "unhappy, unknown, unfair, untidy, unusual"
+                ]
+              },
+              {
+                "cells": [
+                  "in-",
+                  "incorrect, independent, informal"
+                ]
+              },
+              {
+                "cells": [
+                  "im- (перед p, m, b)",
+                  "impossible, impolite, immature"
+                ]
+              },
+              {
+                "cells": [
+                  "il- (перед l)",
+                  "illegal, illogical"
+                ]
+              },
+              {
+                "cells": [
+                  "ir- (перед r)",
+                  "irregular, irresponsible"
+                ]
+              },
+              {
+                "cells": [
+                  "dis-",
+                  "dislike, disagree, dishonest, disappear"
+                ]
+              },
+              {
+                "cells": [
+                  "non-",
+                  "non-stop, non-smoker"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Другие значения",
+      "intro": {
+        "text": "Остальные приставки добавляют свой смысл: re- — снова, mis- — неправильно, over- — слишком. Узнав приставку, понимаешь незнакомое слово.",
+        "highlights": [
+          {
+            "text": "re-",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "mis-",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "over-",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Значения",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Приставка",
+              "Смысл",
+              "Примеры"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "re-",
+                  "снова",
+                  "redo, rewrite, reuse"
+                ]
+              },
+              {
+                "cells": [
+                  "mis-",
+                  "неправильно",
+                  "misunderstand, misspell"
+                ]
+              },
+              {
+                "cells": [
+                  "over-",
+                  "слишком",
+                  "oversleep, overeat, overpriced"
+                ]
+              },
+              {
+                "cells": [
+                  "under-",
+                  "недостаточно",
+                  "underpaid, underestimate"
+                ]
+              },
+              {
+                "cells": [
+                  "pre-",
+                  "заранее, до",
+                  "preview, prepay"
+                ]
+              },
+              {
+                "cells": [
+                  "ex-",
+                  "бывший",
+                  "ex-wife, ex-boss"
+                ]
+              },
+              {
+                "cells": [
+                  "co-",
+                  "вместе",
+                  "co-worker, co-author"
+                ]
+              },
+              {
+                "cells": [
+                  "anti-",
+                  "против",
+                  "antivirus"
+                ]
+              },
+              {
+                "cells": [
+                  "inter-",
+                  "между",
+                  "international"
+                ]
+              },
+              {
+                "cells": [
+                  "multi-",
+                  "много",
+                  "multinational"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с приставками.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "unpossible",
+              "right": "impossible"
+            },
+            {
+              "wrong": "unlegal",
+              "right": "illegal"
+            },
+            {
+              "wrong": "inregular",
+              "right": "irregular"
+            },
+            {
+              "wrong": "unhonest",
+              "right": "dishonest"
+            },
+            {
+              "wrong": "inhappy",
+              "right": "unhappy"
+            },
+            {
+              "wrong": "rewrite it again",
+              "right": "rewrite it (re- уже значит «снова»)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

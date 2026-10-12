@@ -1,0 +1,227 @@
+{
+  "tenseName": "The police are",
+  "route": "cards_collectivenouns",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Есть существительные, которые означают группу. Одни всегда во множественном (police, people), другие всегда в единственном (news, advice), третьи — как посмотреть (family, team).",
+        "highlights": [
+          {
+            "text": "всегда во множественном",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "всегда в единственном",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "как посмотреть",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три группы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Всегда are",
+              "Всегда is",
+              "Is или are"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "police",
+                  "news",
+                  "family"
+                ]
+              },
+              {
+                "cells": [
+                  "people",
+                  "advice",
+                  "team"
+                ]
+              },
+              {
+                "cells": [
+                  "clothes",
+                  "information",
+                  "staff"
+                ]
+              },
+              {
+                "cells": [
+                  "jeans, trousers",
+                  "furniture",
+                  "government"
+                ]
+              },
+              {
+                "cells": [
+                  "glasses, scissors",
+                  "luggage",
+                  "class"
+                ]
+              },
+              {
+                "cells": [
+                  "cattle",
+                  "money, homework",
+                  "audience"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Family is или are",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Британцы и американцы",
+            "text": "Британец скажет my family are (все члены), американец — my family is (как одно целое). Ошибкой не будет ни то ни другое."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Как сказать «одна штука»",
+      "intro": {
+        "text": "К словам вроде advice нельзя добавить a и -s. Одну штуку называют через a piece of, пару — через a pair of.",
+        "highlights": [
+          {
+            "text": "a piece of",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "a pair of",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Одна штука",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Одна",
+              "Несколько"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "advice",
+                  "a piece of advice",
+                  "some advice"
+                ]
+              },
+              {
+                "cells": [
+                  "information",
+                  "a piece of information",
+                  "some information"
+                ]
+              },
+              {
+                "cells": [
+                  "furniture",
+                  "a piece of furniture",
+                  "some furniture"
+                ]
+              },
+              {
+                "cells": [
+                  "jeans",
+                  "a pair of jeans",
+                  "two pairs of jeans"
+                ]
+              },
+              {
+                "cells": [
+                  "police",
+                  "a police officer",
+                  "the police"
+                ]
+              },
+              {
+                "cells": [
+                  "people",
+                  "a person",
+                  "people"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с такими словами.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "The police is coming.",
+              "right": "The police are coming."
+            },
+            {
+              "wrong": "The news are good.",
+              "right": "The news is good."
+            },
+            {
+              "wrong": "She gave me good advices.",
+              "right": "She gave me some good advice."
+            },
+            {
+              "wrong": "I need an information.",
+              "right": "I need some information."
+            },
+            {
+              "wrong": "I bought a jeans.",
+              "right": "I bought a pair of jeans."
+            },
+            {
+              "wrong": "People is waiting.",
+              "right": "People are waiting."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

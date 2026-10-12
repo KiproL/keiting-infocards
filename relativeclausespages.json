@@ -1,0 +1,362 @@
+{
+  "tenseName": "Relative Clauses",
+  "route": "cards_relativeclauses",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Придаточное определительное уточняет, КАКОЙ именно человек или предмет. Стоит сразу после существительного и начинается со слова who, which, that, whose, where или when.",
+        "highlights": [
+          {
+            "text": "Придаточное определительное",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "КАКОЙ именно",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "сразу после существительного",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "существительное",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "who / which / that",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "часть с глаголом",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The man who lives next door is a pilot.",
+              "ru": "Мужчина, который живёт по соседству, — пилот."
+            },
+            {
+              "en": "I lost the book which you gave me.",
+              "ru": "Я потерял книгу, которую ты мне дал."
+            },
+            {
+              "en": "This is the café where we met.",
+              "ru": "Это кафе, где мы познакомились."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Какое слово",
+      "intro": {
+        "text": "Слово выбирают по тому, о ком или о чём речь: о людях — who, о вещах — which, that подходит к обоим.",
+        "highlights": [
+          {
+            "text": "who",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "which",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "that",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Кто, что, где",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "О чём",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "who",
+                  "люди",
+                  "the girl who sings"
+                ]
+              },
+              {
+                "cells": [
+                  "which",
+                  "вещи, животные",
+                  "the car which I bought"
+                ]
+              },
+              {
+                "cells": [
+                  "that",
+                  "люди и вещи (без запятых)",
+                  "the film that we saw"
+                ]
+              },
+              {
+                "cells": [
+                  "whose",
+                  "чей, чья",
+                  "the boy whose dog ran away"
+                ]
+              },
+              {
+                "cells": [
+                  "where",
+                  "место",
+                  "the city where I was born"
+                ]
+              },
+              {
+                "cells": [
+                  "when",
+                  "время",
+                  "the day when we met"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Whom",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Книжный вариант who",
+            "text": "The person whom I met — так пишут в официальном тексте. В разговоре — who или вовсе без слова."
+          }
+        }
+      ]
+    },
+    {
+      "label": "С запятыми и без",
+      "intro": {
+        "text": "Без запятых придаточное нужно, чтобы понять, о ком речь. С запятыми — это просто добавка: убери её, и смысл не сломается.",
+        "highlights": [
+          {
+            "text": "Без запятых",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "С запятыми",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "просто добавка",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Без запятых",
+              "С запятыми"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "My brother who lives in Paris is a cook.",
+                  "My brother, who lives in Paris, is a cook."
+                ]
+              },
+              {
+                "cells": [
+                  "У меня несколько братьев — говорю о том, что в Париже",
+                  "Брат один, а где живёт — лишь добавка"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        },
+        {
+          "title": "Запомни",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "That — только без запятых",
+            "text": "My mother, who is a doctor, … — здесь that нельзя."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Когда слово убрать",
+      "intro": {
+        "text": "Who, which, that можно опустить, если сразу за ними идёт другое подлежащее (I, you, she, Tom). Если за ними сразу глагол — оставляем.",
+        "highlights": [
+          {
+            "text": "можно опустить",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "другое подлежащее",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "сразу глагол",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Можно или нельзя",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Предложение",
+              "Убрать?"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "The book (that) I bought is great.",
+                  "Можно: дальше I"
+                ]
+              },
+              {
+                "cells": [
+                  "The girl (who) you met is my sister.",
+                  "Можно: дальше you"
+                ]
+              },
+              {
+                "cells": [
+                  "The man who called is my boss.",
+                  "Нельзя: дальше глагол called"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        },
+        {
+          "title": "Предлог — в конец",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "разговорно",
+              "suffix": "предлог в конце",
+              "example": "the house I live in"
+            },
+            {
+              "name": "разговорно",
+              "suffix": "предлог в конце",
+              "example": "the friend I talked to"
+            },
+            {
+              "name": "официально",
+              "suffix": "предлог + which / whom",
+              "example": "the house in which I live"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в придаточных.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "The man which called…",
+              "right": "The man who called…"
+            },
+            {
+              "wrong": "The book who I read…",
+              "right": "The book which / that I read…"
+            },
+            {
+              "wrong": "My mother, that is a doctor, …",
+              "right": "My mother, who is a doctor, …"
+            },
+            {
+              "wrong": "The film that I saw it was good.",
+              "right": "The film that I saw was good."
+            },
+            {
+              "wrong": "The city where I was born in…",
+              "right": "The city where I was born… / The city I was born in…"
+            },
+            {
+              "wrong": "The boy who's dog ran away…",
+              "right": "The boy whose dog ran away…"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

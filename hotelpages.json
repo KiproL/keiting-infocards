@@ -1,0 +1,197 @@
+{
+  "tenseName": "В отеле",
+  "route": "cards_hotel",
+  "slides": [
+    {
+      "label": "Заселение",
+      "intro": {
+        "text": "Номер в отеле — room, а не number. Double — одна большая кровать, twin — две отдельные, single — одноместный.",
+        "highlights": [
+          {
+            "text": "room",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Double",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "twin",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "single",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I have a reservation under Ivanov.",
+                  "У меня бронь на фамилию Иванов."
+                ]
+              },
+              {
+                "cells": [
+                  "I'd like to check in.",
+                  "Я хочу заселиться."
+                ]
+              },
+              {
+                "cells": [
+                  "Is breakfast included?",
+                  "Завтрак включён?"
+                ]
+              },
+              {
+                "cells": [
+                  "What time is check-out?",
+                  "Во сколько выезд?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could I have a late check-out?",
+                  "Можно выехать позже?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Просьбы",
+      "intro": {
+        "text": "Просьбы на ресепшен — через Could I have… и Could you…: так вежливо и коротко.",
+        "highlights": [
+          {
+            "text": "Could I have…",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Could you…",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Could I have an extra towel?",
+                  "Можно ещё одно полотенце?"
+                ]
+              },
+              {
+                "cells": [
+                  "The air conditioning doesn't work.",
+                  "Кондиционер не работает."
+                ]
+              },
+              {
+                "cells": [
+                  "What's the Wi-Fi password?",
+                  "Какой пароль от Wi-Fi?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I leave my luggage here?",
+                  "Можно оставить багаж?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could I have a wake-up call at seven?",
+                  "Разбудите меня в семь, пожалуйста."
+                ]
+              },
+              {
+                "cells": [
+                  "Could you call me a taxi?",
+                  "Вызовите мне такси?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I booked a number.",
+              "right": "I booked a room."
+            },
+            {
+              "wrong": "A room for two persons",
+              "right": "A double room / a twin room"
+            },
+            {
+              "wrong": "Is breakfast free?",
+              "right": "Is breakfast included?"
+            },
+            {
+              "wrong": "The towel is absent.",
+              "right": "There's no towel."
+            },
+            {
+              "wrong": "Wake me at seven.",
+              "right": "Could I have a wake-up call at seven?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

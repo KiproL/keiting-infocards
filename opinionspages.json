@@ -1,0 +1,187 @@
+{
+  "tenseName": "Мнение и спор",
+  "route": "cards_opinions",
+  "slides": [
+    {
+      "label": "Своё мнение",
+      "intro": {
+        "text": "Мнение вводят фразой-рамкой: I think, In my opinion. Смягчить помогает I might be wrong, but… — так спорить легче.",
+        "highlights": [
+          {
+            "text": "фразой-рамкой",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "I might be wrong, but…",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I think… / I believe…",
+                  "Я думаю… / Я считаю…"
+                ]
+              },
+              {
+                "cells": [
+                  "In my opinion,…",
+                  "По-моему,…"
+                ]
+              },
+              {
+                "cells": [
+                  "Personally, I…",
+                  "Лично я…"
+                ]
+              },
+              {
+                "cells": [
+                  "It seems to me that…",
+                  "Мне кажется, что…"
+                ]
+              },
+              {
+                "cells": [
+                  "As far as I'm concerned,…",
+                  "Что касается меня,…"
+                ]
+              },
+              {
+                "cells": [
+                  "I might be wrong, but…",
+                  "Может, я ошибаюсь, но…"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Согласиться и возразить",
+      "intro": {
+        "text": "Прямое You're wrong звучит грубо. Сначала признают чужую мысль — I see your point, — а потом возражают через but.",
+        "highlights": [
+          {
+            "text": "You're wrong",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "I see your point",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как ответить",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Согласен",
+              "Не согласен"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I agree.",
+                  "I'm not sure about that."
+                ]
+              },
+              {
+                "cells": [
+                  "Absolutely! / Exactly.",
+                  "I see your point, but…"
+                ]
+              },
+              {
+                "cells": [
+                  "That's true.",
+                  "I don't think so."
+                ]
+              },
+              {
+                "cells": [
+                  "Good point.",
+                  "I'm afraid I disagree."
+                ]
+              },
+              {
+                "cells": [
+                  "I couldn't agree more.",
+                  "That's not quite true."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "good",
+              "bad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I am agree.",
+              "right": "I agree."
+            },
+            {
+              "wrong": "I'm not agree.",
+              "right": "I don't agree."
+            },
+            {
+              "wrong": "In my opinion, I think…",
+              "right": "In my opinion,… / I think…"
+            },
+            {
+              "wrong": "According to me,…",
+              "right": "In my opinion,…"
+            },
+            {
+              "wrong": "You are not right.",
+              "right": "I'm not sure that's right."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

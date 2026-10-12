@@ -1,0 +1,186 @@
+{
+  "tenseName": "Окончания -s и -ed",
+  "route": "cards_endings",
+  "slides": [
+    {
+      "label": "-s и -es",
+      "intro": {
+        "text": "Окончание -s читается тремя способами — смотря на какой звук кончается слово. Правило одно для множественного числа (books), he/she (works) и чьего-то (Tom’s).",
+        "highlights": [
+          {
+            "text": "тремя способами",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "на какой звук",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как читать -s",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Звучит",
+              "После каких звуков",
+              "Примеры"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "[s]",
+                  "глухих: p, t, k, f, θ",
+                  "books, cats, stops, laughs"
+                ]
+              },
+              {
+                "cells": [
+                  "[z]",
+                  "звонких и гласных",
+                  "dogs, plays, bags, trees"
+                ]
+              },
+              {
+                "cells": [
+                  "[ɪz]",
+                  "шипящих и свистящих: s, z, ʃ, tʃ, dʒ",
+                  "buses, watches, oranges"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Как понять, звонкий ли звук",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Ладонь на горле",
+            "text": "Скажи звук и положи руку на горло: дрожит — звонкий ([b], [g], [z]), не дрожит — глухой ([p], [k], [s])."
+          }
+        }
+      ]
+    },
+    {
+      "label": "-ed",
+      "intro": {
+        "text": "С -ed то же самое: три варианта. Слог «ид» появляется ТОЛЬКО после t и d. Во всех остальных случаях -ed звучит одним звуком.",
+        "highlights": [
+          {
+            "text": "три варианта",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "ТОЛЬКО после t и d",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как читать -ed",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Звучит",
+              "После каких звуков",
+              "Примеры"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "[t]",
+                  "глухих: p, k, f, s, ʃ, tʃ",
+                  "stopped, looked, washed, watched"
+                ]
+              },
+              {
+                "cells": [
+                  "[d]",
+                  "звонких и гласных",
+                  "played, opened, lived, called"
+                ]
+              },
+              {
+                "cells": [
+                  "[ɪd]",
+                  "t и d",
+                  "wanted, needed, decided"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Сравни",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "worked [wɜːkt]",
+              "ru": "одним слогом — «уёркт»"
+            },
+            {
+              "en": "wanted [ˈwɒntɪd]",
+              "ru": "двумя слогами — «уонтид»"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с окончаниями.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так читают, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "watched — «вотчед»",
+              "right": "[wɒtʃt] — один слог"
+            },
+            {
+              "wrong": "played — «плэйед»",
+              "right": "[pleɪd] — один слог"
+            },
+            {
+              "wrong": "boxes — «бокс»",
+              "right": "[ˈbɒksɪz] — два слога"
+            },
+            {
+              "wrong": "dogs — «догс»",
+              "right": "[dɒɡz] — на конце [z]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

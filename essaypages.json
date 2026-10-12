@@ -1,0 +1,242 @@
+{
+  "tenseName": "Как писать эссе",
+  "route": "cards_essay",
+  "slides": [
+    {
+      "label": "Структура",
+      "intro": {
+        "text": "Эссе — это введение, два-три абзаца основной части и заключение. В каждом абзаце основной части — одна мысль.",
+        "highlights": [
+          {
+            "text": "введение",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "основной части",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "заключение",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "одна мысль",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "План",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Введение: тема своими словами и твоя позиция или план эссе.",
+              "Абзац 1: первая мысль + объяснение + пример.",
+              "Абзац 2: вторая мысль + объяснение + пример.",
+              "Абзац 3 (по желанию): другая сторона вопроса.",
+              "Заключение: итог и позиция, без новых доводов."
+            ],
+            "accentColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Абзац",
+      "intro": {
+        "text": "Абзац начинается с главной фразы — topic sentence: по ней сразу ясно, о чём он. Дальше — объяснение и пример.",
+        "highlights": [
+          {
+            "text": "topic sentence",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "объяснение и пример",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пример абзаца",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Firstly, working from home saves time.",
+              "ru": "Главная фраза: о чём абзац"
+            },
+            {
+              "en": "Employees do not need to travel to the office every day.",
+              "ru": "Объяснение"
+            },
+            {
+              "en": "For example, many people save up to two hours a day.",
+              "ru": "Пример"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Стиль",
+      "intro": {
+        "text": "Эссе пишут в нейтрально-официальном стиле: без сокращений, разговорных слов и обращений к читателю на «ты».",
+        "highlights": [
+          {
+            "text": "нейтрально-официальном стиле",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разговорно → в эссе",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Разговорно",
+              "В эссе"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "don't, can't, it's",
+                  "do not, cannot, it is"
+                ]
+              },
+              {
+                "cells": [
+                  "a lot of",
+                  "many, a great deal of"
+                ]
+              },
+              {
+                "cells": [
+                  "I think",
+                  "It can be argued that…"
+                ]
+              },
+              {
+                "cells": [
+                  "you can see that",
+                  "it is clear that"
+                ]
+              },
+              {
+                "cells": [
+                  "kids, stuff, get",
+                  "children, things, obtain"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "bad",
+              "good"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Типы эссе",
+      "intro": {
+        "text": "Тип эссе задаёт план. Чаще всего встречаются три.",
+        "highlights": [
+          {
+            "text": "Тип эссе",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три типа",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Тип",
+              "Задача",
+              "План"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Opinion",
+                  "доказать своё мнение",
+                  "мнение → 2–3 довода → вывод"
+                ]
+              },
+              {
+                "cells": [
+                  "For and against",
+                  "взвесить обе стороны",
+                  "за → против → твой вывод"
+                ]
+              },
+              {
+                "cells": [
+                  "Problem and solution",
+                  "разобрать проблему",
+                  "проблема → причины → решения"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в эссе.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — слабо, справа — сильнее",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "In this essay I will write about…",
+              "right": "This essay examines…"
+            },
+            {
+              "wrong": "It's very important.",
+              "right": "It is crucial."
+            },
+            {
+              "wrong": "A lot of people think…",
+              "right": "Many people believe…"
+            },
+            {
+              "wrong": "Новый довод в заключении",
+              "right": "Только итог того, что уже сказано"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

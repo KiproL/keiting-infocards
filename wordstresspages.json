@@ -1,0 +1,236 @@
+{
+  "tenseName": "Ударение",
+  "route": "cards_wordstress",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Ударный слог громче, длиннее и выше остальных, а безударные гласные часто сжимаются до слабого [ə]: banana — [bəˈnɑːnə]. Ошибку в ударении понимают хуже, чем неточный звук.",
+        "highlights": [
+          {
+            "text": "громче, длиннее и выше",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "[ə]",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "хуже, чем неточный звук",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Ударение — заглавными",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "TAble, WAter, HAPpy",
+              "ru": "на первый слог"
+            },
+            {
+              "en": "beGIN, reLAX, hoTEL",
+              "ru": "на второй слог"
+            },
+            {
+              "en": "inforMAtion, uniVERsity",
+              "ru": "дальше от начала"
+            }
+          ]
+        },
+        {
+          "title": "В словаре",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Знак ˈ",
+            "text": "В транскрипции ударный слог отмечен штрихом перед ним: [həʊˈtel]."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Подсказки",
+      "intro": {
+        "text": "Строгих правил нет, но есть надёжные подсказки: по части речи и по окончанию слова.",
+        "highlights": [
+          {
+            "text": "надёжные подсказки",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Куда падает ударение",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "сущ. и прил. из двух слогов",
+              "suffix": "чаще на первый",
+              "example": "TAble, HAPpy, MOther"
+            },
+            {
+              "name": "глагол из двух слогов",
+              "suffix": "чаще на второй",
+              "example": "deCIDE, beGIN, forGET"
+            },
+            {
+              "name": "-tion, -sion",
+              "suffix": "на слог перед",
+              "example": "inforMAtion, deCIsion"
+            },
+            {
+              "name": "-ic, -ical",
+              "suffix": "на слог перед",
+              "example": "draMAtic, poLItical"
+            },
+            {
+              "name": "-ity",
+              "suffix": "за два слога",
+              "example": "aBIlity, uniVERsity"
+            },
+            {
+              "name": "-ee, -eer, -ese",
+              "suffix": "на само окончание",
+              "example": "employEE, engiNEER, ChiNESE"
+            },
+            {
+              "name": "составное существительное",
+              "suffix": "на первую часть",
+              "example": "BEDroom, BLACKboard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Меняет смысл",
+      "intro": {
+        "text": "У пар «существительное — глагол» ударение делит слово надвое: существительное — на первый слог, глагол — на второй.",
+        "highlights": [
+          {
+            "text": "существительное — на первый",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "глагол — на второй",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Одно написание — два слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Существительное",
+              "Глагол"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "a REcord — запись",
+                  "to reCORD — записывать"
+                ]
+              },
+              {
+                "cells": [
+                  "a PREsent — подарок",
+                  "to preSENT — представлять"
+                ]
+              },
+              {
+                "cells": [
+                  "an OBject — предмет",
+                  "to obJECT — возражать"
+                ]
+              },
+              {
+                "cells": [
+                  "an INcrease — рост",
+                  "to inCREASE — расти"
+                ]
+              },
+              {
+                "cells": [
+                  "an EXport — экспорт",
+                  "to exPORT — вывозить"
+                ]
+              },
+              {
+                "cells": [
+                  "a PERmit — пропуск",
+                  "to perMIT — разрешать"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки: слова, в которых ударение ставят неверно.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — частая ошибка, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "comFORtable",
+              "right": "COMfortable"
+            },
+            {
+              "wrong": "inteRESTing",
+              "right": "INteresting"
+            },
+            {
+              "wrong": "veGEtable",
+              "right": "VEGetable"
+            },
+            {
+              "wrong": "choCOlate",
+              "right": "CHOColate"
+            },
+            {
+              "wrong": "photoGRAPH",
+              "right": "PHOtograph"
+            },
+            {
+              "wrong": "DEvelop",
+              "right": "deVELop"
+            },
+            {
+              "wrong": "HOtel",
+              "right": "hoTEL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

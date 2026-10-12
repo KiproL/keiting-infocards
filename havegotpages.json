@@ -1,0 +1,227 @@
+{
+  "tenseName": "Have got",
+  "route": "cards_havegot",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Have got — «у меня есть». Разговорный британский вариант have, только когда речь о том, что у тебя есть: вещи, родные, внешность, болезнь.",
+        "highlights": [
+          {
+            "text": "Have got",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "у меня есть",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "британский",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                {
+                  "text": "I / you / we / they",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "have got",
+                  "color": "term"
+                },
+                {
+                  "text": "(’ve got)",
+                  "color": "muted"
+                }
+              ],
+              "accentColor": "term"
+            },
+            {
+              "parts": [
+                {
+                  "text": "he / she / it",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "has got",
+                  "color": "info"
+                },
+                {
+                  "text": "(’s got)",
+                  "color": "muted"
+                }
+              ],
+              "accentColor": "info"
+            }
+          ]
+        },
+        {
+          "title": "Три формы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Форма",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "+",
+                  "I've got a car. She's got blue eyes."
+                ]
+              },
+              {
+                "cells": [
+                  "−",
+                  "I haven't got a car. She hasn't got time."
+                ]
+              },
+              {
+                "cells": [
+                  "?",
+                  "Have you got a car? — Yes, I have. / No, I haven't."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Have got или have",
+      "intro": {
+        "text": "Have got работает только в настоящем и только в значении «иметь». Во всём остальном — обычный have. Американцы чаще говорят Do you have…?",
+        "highlights": [
+          {
+            "text": "только в настоящем",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "только в значении «иметь»",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Do you have…?",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Где что",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Have got",
+              "Have"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I've got a sister.",
+                  "I have a sister. (тоже можно)"
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "I had a dog. (в прошлом — только had)"
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "I have breakfast at 8. (действие)"
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "Have a nice day! (устойчиво)"
+                ]
+              },
+              {
+                "cells": [
+                  "Have you got a pen?",
+                  "Do you have a pen?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с have got.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I have got breakfast at 8.",
+              "right": "I have breakfast at 8."
+            },
+            {
+              "wrong": "Do you have got a pen?",
+              "right": "Have you got a pen? / Do you have a pen?"
+            },
+            {
+              "wrong": "She have got a cat.",
+              "right": "She has got a cat."
+            },
+            {
+              "wrong": "I had got a dog when I was five.",
+              "right": "I had a dog when I was five."
+            },
+            {
+              "wrong": "I've got not time.",
+              "right": "I haven't got time."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

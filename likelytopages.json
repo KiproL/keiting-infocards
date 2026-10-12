@@ -1,0 +1,214 @@
+{
+  "tenseName": "Be likely / bound to",
+  "route": "cards_likelyto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Эти конструкции говорят, насколько что-то вероятно: be likely to — вероятно, be unlikely to — вряд ли, be bound to — наверняка, be due to — должно по плану.",
+        "highlights": [
+          {
+            "text": "be likely to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "be unlikely to",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "be bound to",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "be due to",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "подлежащее",
+                "color": "text"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "be",
+                "color": "muted"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "likely / bound / due",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "to + глагол",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Что значит",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Конструкция",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "be likely to",
+                  "вероятно",
+                  "It's likely to rain."
+                ]
+              },
+              {
+                "cells": [
+                  "be unlikely to",
+                  "вряд ли",
+                  "He's unlikely to come."
+                ]
+              },
+              {
+                "cells": [
+                  "be bound to",
+                  "наверняка, неизбежно",
+                  "You're bound to pass — you studied a lot."
+                ]
+              },
+              {
+                "cells": [
+                  "be sure / certain to",
+                  "точно",
+                  "She's sure to love it."
+                ]
+              },
+              {
+                "cells": [
+                  "be due to",
+                  "по плану, к сроку",
+                  "The train is due to arrive at 5."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Другие формы",
+      "intro": {
+        "text": "Likely — прилагательное, поэтому можно и через It is likely that. А due to бывает ещё и предлогом «из-за».",
+        "highlights": [
+          {
+            "text": "It is likely that",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "из-за",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "То же другими словами",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "It is likely to rain.",
+              "to": "It is likely that it will rain.",
+              "toColor": "info"
+            },
+            {
+              "from": "It is likely to rain.",
+              "to": "It will probably rain.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Due to = из-за",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The flight was cancelled due to fog.",
+              "ru": "Рейс отменили из-за тумана."
+            },
+            {
+              "en": "The baby is due in May.",
+              "ru": "Ребёнок должен родиться в мае."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с этими конструкциями.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "He is likely come.",
+              "right": "He is likely to come."
+            },
+            {
+              "wrong": "She is bound win.",
+              "right": "She is bound to win."
+            },
+            {
+              "wrong": "The plane is due arrive at 6.",
+              "right": "The plane is due to arrive at 6."
+            },
+            {
+              "wrong": "He likely will come.",
+              "right": "He is likely to come. / He will probably come."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

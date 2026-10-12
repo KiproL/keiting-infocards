@@ -1,0 +1,265 @@
+{
+  "tenseName": "В магазине",
+  "route": "cards_shopping",
+  "slides": [
+    {
+      "label": "Выбрать и примерить",
+      "intro": {
+        "text": "Продавец часто спрашивает Can I help you? Если помощь не нужна — I'm just looking, thanks. Примерить — try on, а подходит ли по размеру — fit.",
+        "highlights": [
+          {
+            "text": "I'm just looking, thanks",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "try on",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "fit",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Can I help you? — I'm just looking, thanks.",
+                  "Вам помочь? — Я просто смотрю, спасибо."
+                ]
+              },
+              {
+                "cells": [
+                  "Do you have this in a smaller size?",
+                  "Есть размер поменьше?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I try it on?",
+                  "Можно примерить?"
+                ]
+              },
+              {
+                "cells": [
+                  "Where are the fitting rooms?",
+                  "Где примерочные?"
+                ]
+              },
+              {
+                "cells": [
+                  "It doesn't fit. It's too tight.",
+                  "Не подходит. Слишком тесно."
+                ]
+              },
+              {
+                "cells": [
+                  "Do you have it in blue?",
+                  "Есть такое же синее?"
+                ]
+              },
+              {
+                "cells": [
+                  "I'll take it.",
+                  "Беру."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Оплатить",
+      "intro": {
+        "text": "На кассе спросят про способ оплаты, пакет и чек. Скидку обозначают словом off: 20% off — скидка 20%.",
+        "highlights": [
+          {
+            "text": "off",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "How much is this? / How much are these?",
+                  "Сколько это стоит? / Сколько стоят эти?"
+                ]
+              },
+              {
+                "cells": [
+                  "Cash or card?",
+                  "Наличными или картой?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I pay by card?",
+                  "Можно картой?"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you need a bag?",
+                  "Пакет нужен?"
+                ]
+              },
+              {
+                "cells": [
+                  "Would you like the receipt?",
+                  "Чек нужен?"
+                ]
+              },
+              {
+                "cells": [
+                  "It's on sale. 20% off.",
+                  "Это со скидкой. Минус 20%."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Вернуть",
+      "intro": {
+        "text": "Вернуть деньги — get a refund, обменять — exchange. Почти везде попросят чек.",
+        "highlights": [
+          {
+            "text": "get a refund",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "exchange",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "чек",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd like to return this.",
+                  "Я хочу это вернуть."
+                ]
+              },
+              {
+                "cells": [
+                  "Can I exchange it for a bigger size?",
+                  "Можно поменять на размер больше?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I get a refund?",
+                  "Можно вернуть деньги?"
+                ]
+              },
+              {
+                "cells": [
+                  "It's faulty. It doesn't work.",
+                  "Это бракованное. Не работает."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "How much costs it?",
+              "right": "How much is it? / How much does it cost?"
+            },
+            {
+              "wrong": "Can I measure it? (примерить)",
+              "right": "Can I try it on?"
+            },
+            {
+              "wrong": "It doesn't suit me. (о размере)",
+              "right": "It doesn't fit me. (suit — «идёт к лицу»)"
+            },
+            {
+              "wrong": "Give me this.",
+              "right": "I'll take this, please."
+            },
+            {
+              "wrong": "Do you have a packet?",
+              "right": "Can I have a bag?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

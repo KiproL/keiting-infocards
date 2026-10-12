@@ -1,0 +1,179 @@
+{
+  "tenseName": "Связки для текста",
+  "route": "cards_essaylinkers",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Связки показывают логику текста: добавляю мысль, противопоставляю, делаю вывод. Без них текст — просто список предложений.",
+        "highlights": [
+          {
+            "text": "Связки",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "логику текста",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "По задаче",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Задача",
+              "Связки"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "добавить",
+                  "also, moreover, in addition, furthermore, what is more"
+                ]
+              },
+              {
+                "cells": [
+                  "противопоставить",
+                  "however, on the other hand, although, whereas, nevertheless"
+                ]
+              },
+              {
+                "cells": [
+                  "причина и следствие",
+                  "because, since, therefore, as a result, consequently"
+                ]
+              },
+              {
+                "cells": [
+                  "пример",
+                  "for example, for instance, such as"
+                ]
+              },
+              {
+                "cells": [
+                  "порядок",
+                  "firstly, secondly, then, finally"
+                ]
+              },
+              {
+                "cells": [
+                  "вывод",
+                  "to sum up, in conclusion, overall"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Как ставить",
+      "intro": {
+        "text": "Одни связки начинают новое предложение и отделяются запятой: However, … Moreover, … Другие соединяют части внутри одного: although, whereas, because.",
+        "highlights": [
+          {
+            "text": "начинают новое предложение",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "внутри одного",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Место в предложении",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "However, Therefore, Moreover",
+              "suffix": "в начале + запятая",
+              "example": "It's cheap. However, it's slow."
+            },
+            {
+              "name": "although, whereas, because",
+              "suffix": "внутри предложения",
+              "example": "It's cheap, although it's slow."
+            },
+            {
+              "name": "In addition to, Despite",
+              "suffix": "+ существительное или -ing",
+              "example": "In addition to English, she speaks French."
+            },
+            {
+              "name": "such as",
+              "suffix": "+ примеры без запятой перед ними",
+              "example": "fruit such as apples"
+            }
+          ]
+        },
+        {
+          "title": "And и but",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "В официальном тексте",
+            "text": "Предложение с And или But обычно не начинают — лучше In addition или However."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки со связками.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "On the one side…",
+              "right": "On the one hand…"
+            },
+            {
+              "wrong": "However it is expensive.",
+              "right": "However, it is expensive."
+            },
+            {
+              "wrong": "Although it was late, but we stayed.",
+              "right": "Although it was late, we stayed."
+            },
+            {
+              "wrong": "Despite of the rain…",
+              "right": "Despite the rain…"
+            },
+            {
+              "wrong": "Moreover, it is also cheap.",
+              "right": "Moreover, it is cheap."
+            },
+            {
+              "wrong": "In conclusion, I want to conclude…",
+              "right": "In conclusion,…"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "tenseName": "Письма и сообщения",
+  "route": "cards_emails",
+  "slides": [
+    {
+      "label": "Официально или нет",
+      "intro": {
+        "text": "Сначала реши, кому пишешь: незнакомому человеку или по работе — официально, другу — просто. От этого зависят обращение, фразы и подпись.",
+        "highlights": [
+          {
+            "text": "официально",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "просто",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Части письма",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Часть",
+              "Официально",
+              "Неформально"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "обращение",
+                  "Dear Mr Smith, / Dear Sir or Madam,",
+                  "Hi Tom,"
+                ]
+              },
+              {
+                "cells": [
+                  "начало",
+                  "I am writing to ask about…",
+                  "Thanks for your message!"
+                ]
+              },
+              {
+                "cells": [
+                  "просьба",
+                  "I would be grateful if you could…",
+                  "Could you…?"
+                ]
+              },
+              {
+                "cells": [
+                  "в конце",
+                  "I look forward to hearing from you.",
+                  "Hope to hear from you soon!"
+                ]
+              },
+              {
+                "cells": [
+                  "подпись",
+                  "Kind regards, / Yours sincerely,",
+                  "Best, / Cheers, / Love,"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "info"
+            ]
+          }
+        },
+        {
+          "title": "Sincerely или faithfully",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Британское правило",
+            "text": "Знаешь имя (Dear Mr Smith) — Yours sincerely. Не знаешь (Dear Sir or Madam) — Yours faithfully. По работе чаще пишут просто Kind regards."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Структура",
+      "intro": {
+        "text": "Хорошее письмо читается за минуту: зачем пишешь — в первой фразе, суть — короткими абзацами, что нужно от адресата — отдельно и ясно.",
+        "highlights": [
+          {
+            "text": "в первой фразе",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "короткими абзацами",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Порядок",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Обращение: Dear Ms Brown,",
+              "Зачем пишешь: I am writing to confirm our meeting on Friday.",
+              "Суть: детали — по абзацу на мысль.",
+              "Что нужно: Could you let me know if 3 pm suits you?",
+              "Завершение: I look forward to hearing from you.",
+              "Подпись: Kind regards, Anna Ivanova"
+            ],
+            "accentColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Полезные фразы",
+      "intro": {
+        "text": "Эти фразы закрывают почти любое рабочее письмо.",
+        "highlights": [
+          {
+            "text": "почти любое",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Please find attached…",
+                  "Во вложении…"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you let me know…?",
+                  "Сообщите, пожалуйста…"
+                ]
+              },
+              {
+                "cells": [
+                  "Sorry for the late reply.",
+                  "Простите за поздний ответ."
+                ]
+              },
+              {
+                "cells": [
+                  "Just a quick reminder that…",
+                  "Небольшое напоминание…"
+                ]
+              },
+              {
+                "cells": [
+                  "Following our conversation,…",
+                  "По итогам нашего разговора…"
+                ]
+              },
+              {
+                "cells": [
+                  "Thank you for your help.",
+                  "Спасибо за помощь."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в письмах.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Dear Mr John,",
+              "right": "Dear Mr Smith, (Mr + фамилия)"
+            },
+            {
+              "wrong": "Hello dear Tom!",
+              "right": "Hi Tom,"
+            },
+            {
+              "wrong": "I write to you because…",
+              "right": "I am writing to…"
+            },
+            {
+              "wrong": "Waiting for your answer.",
+              "right": "I look forward to hearing from you."
+            },
+            {
+              "wrong": "I look forward to hear from you.",
+              "right": "I look forward to hearing from you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

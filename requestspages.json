@@ -1,0 +1,259 @@
+{
+  "tenseName": "Вежливые просьбы",
+  "route": "cards_requests",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "В английском прямая команда — Give me, Help me — звучит грубо даже с please. Просьбу смягчают вопросом и модальным глаголом: чем длиннее, тем вежливее.",
+        "highlights": [
+          {
+            "text": "звучит грубо",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "вопросом и модальным глаголом",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "чем длиннее, тем вежливее",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "От простого к самому вежливому",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Просьба",
+              "Когда"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Can you help me?",
+                  "друзьям, коллегам"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you help me?",
+                  "вежливо — универсально"
+                ]
+              },
+              {
+                "cells": [
+                  "Would you help me, please?",
+                  "вежливо"
+                ]
+              },
+              {
+                "cells": [
+                  "Would you mind helping me?",
+                  "очень вежливо"
+                ]
+              },
+              {
+                "cells": [
+                  "I was wondering if you could help me.",
+                  "официально, большая просьба"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Would you mind",
+      "intro": {
+        "text": "После would you mind — глагол с -ing. Mind значит «возражать», поэтому согласие звучит как отрицание: No, not at all — «нет, не возражаю», то есть «да, конечно».",
+        "highlights": [
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "«возражать»",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "No, not at all",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Would you mind opening the window? — No, not at all.",
+              "ru": "Не откроете окно? — Конечно."
+            },
+            {
+              "en": "Do you mind if I sit here? — No, go ahead.",
+              "ru": "Можно я тут сяду? — Да, садитесь."
+            },
+            {
+              "en": "Do you mind if I smoke? — Actually, I'd rather you didn't.",
+              "ru": "Можно закурю? — Лучше не надо."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Разрешение и ответы",
+      "intro": {
+        "text": "Спросить разрешения — Can I, Could I, May I (официальнее всех). Отказывают мягко: I'm afraid… или I'd love to, but…",
+        "highlights": [
+          {
+            "text": "Can I, Could I, May I",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "I'm afraid…",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "I'd love to, but…",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Попросить разрешения",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Can I use your phone?",
+                  "Можно твой телефон?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could I ask you something?",
+                  "Можно вас спросить?"
+                ]
+              },
+              {
+                "cells": [
+                  "May I come in?",
+                  "Разрешите войти?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is it OK if I leave early?",
+                  "Ничего, если я уйду пораньше?"
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Ответы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Да",
+              "Нет"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Sure. / Of course.",
+                  "I'm afraid I can't."
+                ]
+              },
+              {
+                "cells": [
+                  "No problem.",
+                  "Sorry, I'd rather not."
+                ]
+              },
+              {
+                "cells": [
+                  "Go ahead.",
+                  "I'd love to, but I'm busy."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "good",
+              "bad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Give me the salt.",
+              "right": "Could you pass the salt, please?"
+            },
+            {
+              "wrong": "Would you mind to open the door?",
+              "right": "Would you mind opening the door?"
+            },
+            {
+              "wrong": "Would you mind…? — Yes, of course! (имея в виду «да»)",
+              "right": "No, not at all."
+            },
+            {
+              "wrong": "Can you say me the time?",
+              "right": "Could you tell me the time?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

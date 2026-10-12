@@ -1,0 +1,254 @@
+{
+  "tenseName": "В кафе и ресторане",
+  "route": "cards_restaurant",
+  "slides": [
+    {
+      "label": "Прийти и сесть",
+      "intro": {
+        "text": "На входе называют, сколько вас, или говорят про бронь. Дальше официант сам проводит к столу.",
+        "highlights": [
+          {
+            "text": "сколько вас",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "бронь",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "A table for two, please.",
+                  "Столик на двоих, пожалуйста."
+                ]
+              },
+              {
+                "cells": [
+                  "I've booked a table for seven, under Ivanov.",
+                  "Я бронировал столик на семь, на фамилию Иванов."
+                ]
+              },
+              {
+                "cells": [
+                  "Can we sit by the window?",
+                  "Можно сесть у окна?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I see the menu, please?",
+                  "Можно меню?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Заказать",
+      "intro": {
+        "text": "Заказывают через I'd like или I'll have — это вежливо. I want звучит по-детски резко.",
+        "highlights": [
+          {
+            "text": "I'd like",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "I'll have",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "I want",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Заказ",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Are you ready to order? — Yes, I'll have the steak.",
+                  "Готовы заказать? — Да, мне стейк."
+                ]
+              },
+              {
+                "cells": [
+                  "What do you recommend?",
+                  "Что посоветуете?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is it spicy?",
+                  "Это острое?"
+                ]
+              },
+              {
+                "cells": [
+                  "I'm allergic to nuts.",
+                  "У меня аллергия на орехи."
+                ]
+              },
+              {
+                "cells": [
+                  "How would you like your steak? — Medium, please.",
+                  "Какой прожарки? — Средней."
+                ]
+              },
+              {
+                "cells": [
+                  "Still or sparkling water?",
+                  "Вода без газа или с газом?"
+                ]
+              },
+              {
+                "cells": [
+                  "For here or to go? / Eat in or take away?",
+                  "Здесь или с собой? (амер. / брит.)"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Счёт и чаевые",
+      "intro": {
+        "text": "Счёт в Британии — the bill, в США — the check. Чаевые в США ждут всегда — 15–20%, в Британии около 10%, если обслуживание не включено.",
+        "highlights": [
+          {
+            "text": "the bill",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "the check",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "15–20%",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Could we have the bill, please?",
+                  "Можно счёт?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can we pay separately?",
+                  "Можно заплатить раздельно?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is service included?",
+                  "Обслуживание включено?"
+                ]
+              },
+              {
+                "cells": [
+                  "Keep the change.",
+                  "Сдачи не надо."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Give me a coffee.",
+              "right": "Can I have a coffee, please?"
+            },
+            {
+              "wrong": "I want a steak.",
+              "right": "I'd like the steak, please."
+            },
+            {
+              "wrong": "Bring me the check!",
+              "right": "Could we have the check, please?"
+            },
+            {
+              "wrong": "Can I take the bill?",
+              "right": "Can I have the bill?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "tenseName": "По телефону",
+  "route": "cards_phonecalls",
+  "slides": [
+    {
+      "label": "Начать разговор",
+      "intro": {
+        "text": "По телефону представляются через This is, а не I am: Hello, this is Anna. Того, кого просят позвать, отвечает Speaking — «это я».",
+        "highlights": [
+          {
+            "text": "This is",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "I am",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "Speaking",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Hello, this is Anna (speaking).",
+                  "Здравствуйте, это Анна."
+                ]
+              },
+              {
+                "cells": [
+                  "Could I speak to Mr Smith, please?",
+                  "Можно поговорить с мистером Смитом?"
+                ]
+              },
+              {
+                "cells": [
+                  "Who's calling, please?",
+                  "Как вас представить?"
+                ]
+              },
+              {
+                "cells": [
+                  "Speaking.",
+                  "Это я. / Слушаю."
+                ]
+              },
+              {
+                "cells": [
+                  "Hold on, please. / One moment.",
+                  "Подождите минутку."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Если нет на месте",
+      "intro": {
+        "text": "Если человека нет, предлагают передать сообщение. Номер телефона диктуют по одной цифре; 0 читают как «oh», две одинаковые — double.",
+        "highlights": [
+          {
+            "text": "передать сообщение",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "«oh»",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "double",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'm afraid he's not available at the moment.",
+                  "Боюсь, сейчас его нет."
+                ]
+              },
+              {
+                "cells": [
+                  "Can I take a message?",
+                  "Что-нибудь передать?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you ask him to call me back?",
+                  "Попросите его перезвонить."
+                ]
+              },
+              {
+                "cells": [
+                  "My number is oh-seven-seven, double five…",
+                  "Мой номер: 0-7-7, 5-5…"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Записаться и связь",
+      "intro": {
+        "text": "Записаться — make an appointment, перенести — reschedule. Если плохо слышно — попроси говорить громче или повторить.",
+        "highlights": [
+          {
+            "text": "make an appointment",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "reschedule",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Запись",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd like to make an appointment.",
+                  "Я хочу записаться."
+                ]
+              },
+              {
+                "cells": [
+                  "Is Tuesday at three OK?",
+                  "Во вторник в три удобно?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could we reschedule?",
+                  "Можно перенести?"
+                ]
+              },
+              {
+                "cells": [
+                  "I need to cancel my appointment.",
+                  "Мне нужно отменить запись."
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Плохая связь",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Sorry, I can't hear you very well.",
+                  "Простите, плохо слышно."
+                ]
+              },
+              {
+                "cells": [
+                  "You're breaking up.",
+                  "Вы пропадаете."
+                ]
+              },
+              {
+                "cells": [
+                  "Could you speak up, please?",
+                  "Говорите, пожалуйста, громче."
+                ]
+              },
+              {
+                "cells": [
+                  "Could you spell that, please?",
+                  "Продиктуйте по буквам, пожалуйста."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Hello, I am Anna.",
+              "right": "Hello, this is Anna."
+            },
+            {
+              "wrong": "Who is it? (грубо)",
+              "right": "Who's calling, please?"
+            },
+            {
+              "wrong": "Call me again.",
+              "right": "Call me back."
+            },
+            {
+              "wrong": "Wait!",
+              "right": "Hold on, please."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

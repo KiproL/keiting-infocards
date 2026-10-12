@@ -1,0 +1,219 @@
+{
+  "tenseName": "У врача",
+  "route": "cards_doctor",
+  "slides": [
+    {
+      "label": "Что болит",
+      "intro": {
+        "text": "Боль в части тела часто одно слово с -ache: headache, toothache. Остальное — через hurts или sore.",
+        "highlights": [
+          {
+            "text": "-ache",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "hurts",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "sore",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Симптомы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "По-английски",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I have a headache.",
+                  "У меня болит голова."
+                ]
+              },
+              {
+                "cells": [
+                  "I have a stomachache / toothache.",
+                  "Болит живот / зуб."
+                ]
+              },
+              {
+                "cells": [
+                  "I have a sore throat.",
+                  "Болит горло."
+                ]
+              },
+              {
+                "cells": [
+                  "I have a cough / a cold.",
+                  "Кашель / простуда."
+                ]
+              },
+              {
+                "cells": [
+                  "I have a temperature.",
+                  "У меня температура."
+                ]
+              },
+              {
+                "cells": [
+                  "My back hurts.",
+                  "Болит спина."
+                ]
+              },
+              {
+                "cells": [
+                  "I feel sick. / I feel dizzy.",
+                  "Тошнит. / Кружится голова."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm allergic to penicillin.",
+                  "Аллергия на пенициллин."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "На приёме",
+      "intro": {
+        "text": "Врач спросит, что беспокоит и как давно. Отвечай сроком: for two days, since Monday.",
+        "highlights": [
+          {
+            "text": "как давно",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "for two days, since Monday",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd like to make an appointment with a doctor.",
+                  "Я хочу записаться к врачу."
+                ]
+              },
+              {
+                "cells": [
+                  "What seems to be the problem?",
+                  "Что вас беспокоит?"
+                ]
+              },
+              {
+                "cells": [
+                  "How long have you had it? — For two days.",
+                  "Как давно? — Два дня."
+                ]
+              },
+              {
+                "cells": [
+                  "Take one tablet twice a day after meals.",
+                  "По таблетке два раза в день после еды."
+                ]
+              },
+              {
+                "cells": [
+                  "You need a prescription for this.",
+                  "На это нужен рецепт."
+                ]
+              },
+              {
+                "cells": [
+                  "Are there any side effects?",
+                  "Есть побочные эффекты?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Экстренные номера",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Запомни",
+            "text": "Европа — 112, США — 911, Британия — 999. Аптека в США — pharmacy, в Британии — chemist's."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I have a pain in head.",
+              "right": "I have a headache."
+            },
+            {
+              "wrong": "I have temperature.",
+              "right": "I have a temperature."
+            },
+            {
+              "wrong": "Something from headache",
+              "right": "Something for a headache"
+            },
+            {
+              "wrong": "I need a recipe.",
+              "right": "I need a prescription."
+            },
+            {
+              "wrong": "I'm ill with a flu.",
+              "right": "I have (the) flu."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

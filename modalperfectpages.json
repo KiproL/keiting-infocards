@@ -1,0 +1,224 @@
+{
+  "tenseName": "Should have / Must have",
+  "route": "cards_modalperfect",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Модальный глагол + have + V3 говорит о прошлом: сожаление и упрёк (should have), упущенная возможность (could have) и догадки (must, might, can't have).",
+        "highlights": [
+          {
+            "text": "have + V3",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "сожаление и упрёк",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "догадки",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "модальный",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "have",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Что значит",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Конструкция",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "should have done",
+                  "надо было (а не сделал)",
+                  "You should have told me."
+                ]
+              },
+              {
+                "cells": [
+                  "shouldn't have done",
+                  "не надо было (а сделал)",
+                  "I shouldn't have eaten so much."
+                ]
+              },
+              {
+                "cells": [
+                  "could have done",
+                  "мог бы (но не сделал)",
+                  "We could have won."
+                ]
+              },
+              {
+                "cells": [
+                  "must have done",
+                  "наверняка сделал",
+                  "She must have forgotten."
+                ]
+              },
+              {
+                "cells": [
+                  "might have done",
+                  "возможно, сделал",
+                  "He might have missed the bus."
+                ]
+              },
+              {
+                "cells": [
+                  "can't have done",
+                  "не может быть, чтобы",
+                  "They can't have finished already."
+                ]
+              },
+              {
+                "cells": [
+                  "would have done",
+                  "сделал бы (если бы…)",
+                  "I would have helped."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Насколько уверен",
+      "intro": {
+        "text": "В догадках модальный глагол показывает уверенность: must — почти уверен, might — может быть, can't — точно нет.",
+        "highlights": [
+          {
+            "text": "must",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "might",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "can't",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Шкала",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "must have",
+              "suffix": "≈ 95% — да",
+              "example": "The lights are off. They must have left."
+            },
+            {
+              "name": "might / may have",
+              "suffix": "≈ 50%",
+              "example": "I can't find it. I might have left it at home."
+            },
+            {
+              "name": "can't / couldn't have",
+              "suffix": "≈ 0% — нет",
+              "example": "He can't have seen us — it was dark."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с модальными о прошлом.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "You should have came.",
+              "right": "You should have come."
+            },
+            {
+              "wrong": "He must went home.",
+              "right": "He must have gone home."
+            },
+            {
+              "wrong": "She can't have do it.",
+              "right": "She can't have done it."
+            },
+            {
+              "wrong": "I should of called.",
+              "right": "I should have called. (should’ve)"
+            },
+            {
+              "wrong": "He mustn't have known.",
+              "right": "He can't have known."
+            }
+          ]
+        },
+        {
+          "title": "Should of",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Ошибка на слух",
+            "text": "Should’ve звучит как «шудэв», и носители сами иногда пишут should of. Правильно — have."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "tenseName": "Какое время выбрать",
+  "route": "cards_tensechoice",
+  "slides": [
+    {
+      "label": "Два вопроса",
+      "intro": {
+        "text": "Время выбирают двумя вопросами. КОГДА: прошлое, настоящее или будущее. И КАК: просто факт, процесс в момент, результат к моменту или сколько длилось до момента.",
+        "highlights": [
+          {
+            "text": "КОГДА",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "КАК",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "просто факт",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "процесс в момент",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Двенадцать времён — одна сетка",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "",
+              "Прошлое",
+              "Настоящее",
+              "Будущее"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Simple — факт",
+                  "I worked",
+                  "I work",
+                  "I will work"
+                ]
+              },
+              {
+                "cells": [
+                  "Continuous — процесс",
+                  "I was working",
+                  "I am working",
+                  "I will be working"
+                ]
+              },
+              {
+                "cells": [
+                  "Perfect — результат",
+                  "I had worked",
+                  "I have worked",
+                  "I will have worked"
+                ]
+              },
+              {
+                "cells": [
+                  "Perfect Continuous — сколько длилось",
+                  "I had been working",
+                  "I have been working",
+                  "I will have been working"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "info",
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Хватит четырёх",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Для начала",
+            "text": "Present Simple, Present Continuous, Past Simple и Present Perfect закрывают большую часть разговора. Остальные — для точности."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Как: четыре вида",
+      "intro": {
+        "text": "Вид времени отвечает на вопрос, что важно в действии. По нему и выбирают, когда «когда» уже ясно.",
+        "highlights": [
+          {
+            "text": "что важно в действии",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что важно",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "Simple",
+              "suffix": "факт, привычка, события по порядку",
+              "example": "I get up at 7. I came, saw, left."
+            },
+            {
+              "name": "Continuous",
+              "suffix": "процесс в конкретный момент",
+              "example": "At 8 I was having dinner."
+            },
+            {
+              "name": "Perfect",
+              "suffix": "результат к моменту, опыт",
+              "example": "I have lost my keys. I've been to Rome."
+            },
+            {
+              "name": "Perfect Continuous",
+              "suffix": "как долго шло до момента",
+              "example": "I've been waiting for an hour."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Слова-подсказки",
+      "intro": {
+        "text": "Часто время подсказывают слова рядом. Увидел yesterday — почти наверняка Past Simple, увидел since — Present Perfect.",
+        "highlights": [
+          {
+            "text": "слова рядом",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слово → время",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слова",
+              "Время"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "every day, usually, often, never",
+                  "Present Simple"
+                ]
+              },
+              {
+                "cells": [
+                  "now, at the moment, Look!",
+                  "Present Continuous"
+                ]
+              },
+              {
+                "cells": [
+                  "yesterday, ago, last week, in 2010",
+                  "Past Simple"
+                ]
+              },
+              {
+                "cells": [
+                  "while, at 5 pm yesterday, when + действие",
+                  "Past Continuous"
+                ]
+              },
+              {
+                "cells": [
+                  "ever, never, just, already, yet, since, for",
+                  "Present Perfect"
+                ]
+              },
+              {
+                "cells": [
+                  "by the time, before (в прошлом)",
+                  "Past Perfect"
+                ]
+              },
+              {
+                "cells": [
+                  "tomorrow, next week, in a year",
+                  "Future: will / going to"
+                ]
+              },
+              {
+                "cells": [
+                  "for two hours (до сих пор), how long",
+                  "Present Perfect Continuous"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "example",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Частые пары",
+      "intro": {
+        "text": "Чаще всего путают три пары. У каждой — один вопрос, который решает выбор.",
+        "highlights": [
+          {
+            "text": "три пары",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "один вопрос",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как различить",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Пара",
+              "Вопрос",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Past Simple / Present Perfect",
+                  "Назван законченный момент?",
+                  "I saw him yesterday. / I've seen him."
+                ]
+              },
+              {
+                "cells": [
+                  "Present Simple / Continuous",
+                  "Обычно или прямо сейчас?",
+                  "I work in a bank. / I'm working now."
+                ]
+              },
+              {
+                "cells": [
+                  "will / going to",
+                  "Решил сейчас или уже план?",
+                  "I'll help you! / I'm going to move."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в выборе времени.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I live here since 2015.",
+              "right": "I have lived here since 2015."
+            },
+            {
+              "wrong": "I have seen him yesterday.",
+              "right": "I saw him yesterday."
+            },
+            {
+              "wrong": "I'm knowing the answer.",
+              "right": "I know the answer."
+            },
+            {
+              "wrong": "When I will come, I'll call.",
+              "right": "When I come, I'll call."
+            },
+            {
+              "wrong": "I didn't went there.",
+              "right": "I didn't go there."
+            },
+            {
+              "wrong": "Look! It rains.",
+              "right": "Look! It's raining."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

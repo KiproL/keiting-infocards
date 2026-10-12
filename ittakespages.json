@@ -1,0 +1,189 @@
+{
+  "tenseName": "It takes … to",
+  "route": "cards_ittakes",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "It takes … to — сколько времени нужно на дело. Подлежащее — It, а кому нужно, ставят сразу после takes.",
+        "highlights": [
+          {
+            "text": "It takes … to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "сколько времени нужно",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "кому нужно",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "It takes",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "(кому)",
+                "color": "muted"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "сколько",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "to + глагол",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "В разных временах",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Время",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "настоящее",
+                  "It takes me 20 minutes to get to work."
+                ]
+              },
+              {
+                "cells": [
+                  "прошедшее",
+                  "It took us two hours to find the hotel."
+                ]
+              },
+              {
+                "cells": [
+                  "будущее",
+                  "It will take a week to fix it."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "How long",
+      "intro": {
+        "text": "Вопрос строится через How long does it take. Ответ — тем же It takes. А spend говорит о том же, но подлежащим становится человек.",
+        "highlights": [
+          {
+            "text": "How long does it take",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "spend",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вопросы и ответы",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "How long does it take to get there?",
+              "ru": "Сколько туда добираться?"
+            },
+            {
+              "en": "How long did it take you to learn English?",
+              "ru": "Сколько у тебя ушло на английский?"
+            },
+            {
+              "en": "It won't take long.",
+              "ru": "Это недолго."
+            }
+          ]
+        },
+        {
+          "title": "То же через spend",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "It takes me an hour to cook dinner.",
+              "to": "I spend an hour cooking dinner.",
+              "toColor": "info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с it takes.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I take 20 minutes to get to work.",
+              "right": "It takes me 20 minutes to get to work."
+            },
+            {
+              "wrong": "It takes me 20 minutes for get there.",
+              "right": "It takes me 20 minutes to get there."
+            },
+            {
+              "wrong": "How long it takes?",
+              "right": "How long does it take?"
+            },
+            {
+              "wrong": "It took to me an hour.",
+              "right": "It took me an hour."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

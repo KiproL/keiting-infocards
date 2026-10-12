@@ -1,0 +1,274 @@
+{
+  "tenseName": "Пунктуация",
+  "route": "cards_punctuation",
+  "slides": [
+    {
+      "label": "Заглавные буквы",
+      "intro": {
+        "text": "Заглавных в английском больше, чем в русском: с большой буквы пишут I, дни недели, месяцы, языки и национальности. Времена года — с маленькой.",
+        "highlights": [
+          {
+            "text": "больше, чем в русском",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "с маленькой",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "С большой буквы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Что",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "местоимение I",
+                  "Tom and I"
+                ]
+              },
+              {
+                "cells": [
+                  "дни и месяцы",
+                  "Monday, May"
+                ]
+              },
+              {
+                "cells": [
+                  "языки и национальности",
+                  "English, Russian, a French car"
+                ]
+              },
+              {
+                "cells": [
+                  "имена, города, страны",
+                  "Anna, London, Spain"
+                ]
+              },
+              {
+                "cells": [
+                  "значимые слова в заголовке",
+                  "The Lord of the Rings"
+                ]
+              },
+              {
+                "cells": [
+                  "времена года — НЕТ",
+                  "summer, winter"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Запятая",
+      "intro": {
+        "text": "Запятых в английском меньше. Главное отличие: перед that запятую НЕ ставят — I think that he is right, хотя по-русски «думаю, что».",
+        "highlights": [
+          {
+            "text": "меньше",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "НЕ ставят",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Где запятая нужна",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "перечисление",
+              "suffix": "между пунктами",
+              "example": "apples, pears and plums"
+            },
+            {
+              "name": "вводное слово в начале",
+              "suffix": "после него",
+              "example": "However, it was late."
+            },
+            {
+              "name": "if-часть в начале",
+              "suffix": "после неё",
+              "example": "If you can, call me."
+            },
+            {
+              "name": "уточнение с which",
+              "suffix": "с двух сторон",
+              "example": "My car, which is old, broke."
+            },
+            {
+              "name": "два предложения через but / so",
+              "suffix": "перед союзом",
+              "example": "It was late, so we left."
+            }
+          ]
+        },
+        {
+          "title": "Где запятая не нужна",
+          "borderColor": "bad",
+          "rules": [
+            {
+              "name": "перед that",
+              "suffix": "никогда",
+              "example": "I know that you're busy."
+            },
+            {
+              "name": "if-часть в конце",
+              "suffix": "без запятой",
+              "example": "Call me if you can."
+            },
+            {
+              "name": "перед because",
+              "suffix": "обычно нет",
+              "example": "I stayed because it rained."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Апостроф",
+      "intro": {
+        "text": "Апостроф нужен в двух случаях: принадлежность (Tom’s car) и сокращение (it’s = it is). Во множественном числе апострофа нет.",
+        "highlights": [
+          {
+            "text": "принадлежность",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "сокращение",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "апострофа нет",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как ставить",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Случай",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "чьё (ед. число)",
+                  "Tom's car, my sister's room"
+                ]
+              },
+              {
+                "cells": [
+                  "чьё (мн. на -s)",
+                  "the boys' room"
+                ]
+              },
+              {
+                "cells": [
+                  "чьё (мн. не на -s)",
+                  "children's toys"
+                ]
+              },
+              {
+                "cells": [
+                  "сокращение",
+                  "it's = it is, don't = do not"
+                ]
+              },
+              {
+                "cells": [
+                  "its — «его, её» (о вещи)",
+                  "The dog wagged its tail."
+                ]
+              },
+              {
+                "cells": [
+                  "множественное",
+                  "CDs, the 1990s — без апострофа"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в пунктуации.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I think, that he is right.",
+              "right": "I think that he is right."
+            },
+            {
+              "wrong": "i am from russia.",
+              "right": "I am from Russia."
+            },
+            {
+              "wrong": "on monday in july",
+              "right": "on Monday in July"
+            },
+            {
+              "wrong": "Its a nice day.",
+              "right": "It's a nice day."
+            },
+            {
+              "wrong": "The dog wagged it's tail.",
+              "right": "The dog wagged its tail."
+            },
+            {
+              "wrong": "Apple's for sale",
+              "right": "Apples for sale"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

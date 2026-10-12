@@ -1,0 +1,380 @@
+{
+  "tenseName": "Трудные звуки",
+  "route": "cards_hardsounds",
+  "slides": [
+    {
+      "label": "th",
+      "intro": {
+        "text": "Звука th в русском нет. Кончик языка легко касается верхних зубов или чуть выглядывает между ними — и через эту щель выдыхаешь. θ — глухой, ð — звонкий.",
+        "highlights": [
+          {
+            "text": "th",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "между ними",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "θ",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "ð",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пары, где th меняет слово",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "th",
+              "Вместо th",
+              "Разница"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "think [θ]",
+                  "sink [s]",
+                  "думать — тонуть"
+                ]
+              },
+              {
+                "cells": [
+                  "three [θ]",
+                  "free [f]",
+                  "три — свободный"
+                ]
+              },
+              {
+                "cells": [
+                  "they [ð]",
+                  "day [d]",
+                  "они — день"
+                ]
+              },
+              {
+                "cells": [
+                  "mouth [θ]",
+                  "mouse [s]",
+                  "рот — мышь"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "bad",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Частая замена",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Не «с» и не «з»",
+            "text": "Русские часто говорят «синк» вместо think. Лучше уж «ф», как в Лондоне, но правильнее — язык к зубам."
+          }
+        }
+      ]
+    },
+    {
+      "label": "w и v",
+      "intro": {
+        "text": "W — губы трубочкой, как в начале «у», зубы не участвуют. V — верхние зубы касаются нижней губы, как русское «в». Спутаешь — получится другое слово.",
+        "highlights": [
+          {
+            "text": "W",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "V",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "другое слово",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пары w — v",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "w",
+              "v",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "wine",
+                  "vine",
+                  "вино — виноградная лоза"
+                ]
+              },
+              {
+                "cells": [
+                  "west",
+                  "vest",
+                  "запад — жилет"
+                ]
+              },
+              {
+                "cells": [
+                  "wet",
+                  "vet",
+                  "мокрый — ветеринар"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "r и h",
+      "intro": {
+        "text": "Английский r не дрожит: язык загнут назад и ничего не касается. В британском после гласной r вообще не звучит: car — [kɑː]. H — просто выдох, мягче русского «х».",
+        "highlights": [
+          {
+            "text": "не дрожит",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не звучит",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "просто выдох",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "H меняет слово",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "С h",
+              "Без h",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "hat",
+                  "at",
+                  "шляпа — у, в"
+                ]
+              },
+              {
+                "cells": [
+                  "heat",
+                  "eat",
+                  "жара — есть"
+                ]
+              },
+              {
+                "cells": [
+                  "hair",
+                  "air",
+                  "волосы — воздух"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Долгие и краткие",
+      "intro": {
+        "text": "Долгота гласной в английском различает слова. Долгий звук тянется в полтора-два раза дольше, краткий — резкий и короткий.",
+        "highlights": [
+          {
+            "text": "различает слова",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "Долгий",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "краткий",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пары, которые путают",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Долгий / один",
+              "Краткий / другой",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "sheep [iː]",
+                  "ship [ɪ]",
+                  "овца — корабль"
+                ]
+              },
+              {
+                "cells": [
+                  "leave [iː]",
+                  "live [ɪ]",
+                  "уходить — жить"
+                ]
+              },
+              {
+                "cells": [
+                  "seat [iː]",
+                  "sit [ɪ]",
+                  "сиденье — сидеть"
+                ]
+              },
+              {
+                "cells": [
+                  "fool [uː]",
+                  "full [ʊ]",
+                  "дурак — полный"
+                ]
+              },
+              {
+                "cells": [
+                  "bed [e]",
+                  "bad [æ]",
+                  "кровать — плохой"
+                ]
+              },
+              {
+                "cells": [
+                  "cat [æ]",
+                  "cut [ʌ]",
+                  "кошка — резать"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Звонкие на конце",
+      "intro": {
+        "text": "По-русски «дуб» звучит как «дуп». В английском звонкий на конце остаётся звонким — иначе выйдет другое слово. А гласная перед звонким чуть длиннее.",
+        "highlights": [
+          {
+            "text": "остаётся звонким",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "другое слово",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "чуть длиннее",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Не оглушай",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Звонкий",
+              "Глухой",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "bad",
+                  "bat",
+                  "плохой — летучая мышь"
+                ]
+              },
+              {
+                "cells": [
+                  "dog",
+                  "dock",
+                  "собака — док"
+                ]
+              },
+              {
+                "cells": [
+                  "eyes",
+                  "ice",
+                  "глаза — лёд"
+                ]
+              },
+              {
+                "cells": [
+                  "bag",
+                  "back",
+                  "сумка — спина"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "muted"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

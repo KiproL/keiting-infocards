@@ -1,0 +1,332 @@
+{
+  "tenseName": "Слитная речь",
+  "route": "cards_connectedspeech",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "В живой речи слова не произносят по одному: они сливаются, служебные слова сжимаются, отдельные звуки выпадают. Поэтому знакомые слова на слух не узнаются — дело не в словах, а в том, как они звучат вместе.",
+        "highlights": [
+          {
+            "text": "сливаются",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "сжимаются",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "выпадают",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как пишется → как звучит",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "What do you want?",
+              "ru": "[ˈwɒdʒə wɒnt] — «уоджа уонт»"
+            },
+            {
+              "en": "a cup of tea",
+              "ru": "[ə kʌp ə tiː] — «экапэти»"
+            },
+            {
+              "en": "I don't know.",
+              "ru": "[aɪ dʌnəʊ] — «ай даноу»"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Слабые формы",
+      "intro": {
+        "text": "Служебные слова без ударения теряют гласную и звучат как [ə]. Полную форму слышно, только когда на слове делают ударение.",
+        "highlights": [
+          {
+            "text": "Служебные слова",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "[ə]",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полная и слабая форма",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Полная",
+              "В речи",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "to",
+                  "[tuː]",
+                  "[tə]",
+                  "go to bed"
+                ]
+              },
+              {
+                "cells": [
+                  "for",
+                  "[fɔː]",
+                  "[fə]",
+                  "for you"
+                ]
+              },
+              {
+                "cells": [
+                  "of",
+                  "[ɒv]",
+                  "[əv] / [ə]",
+                  "a lot of"
+                ]
+              },
+              {
+                "cells": [
+                  "and",
+                  "[ænd]",
+                  "[ən] / [n]",
+                  "fish and chips"
+                ]
+              },
+              {
+                "cells": [
+                  "can",
+                  "[kæn]",
+                  "[kən]",
+                  "I can swim"
+                ]
+              },
+              {
+                "cells": [
+                  "was",
+                  "[wɒz]",
+                  "[wəz]",
+                  "it was late"
+                ]
+              },
+              {
+                "cells": [
+                  "them",
+                  "[ðem]",
+                  "[ðəm]",
+                  "tell them"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Связки",
+      "intro": {
+        "text": "Согласный на конце слова цепляется к гласному следующего: turn it off звучит как «тёрни тоф». Между двумя гласными вставляется лёгкий [j] или [w].",
+        "highlights": [
+          {
+            "text": "цепляется",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "[j] или [w]",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как слова соединяются",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "согласный + гласный",
+              "suffix": "сливаются",
+              "example": "an apple → «энэпл»"
+            },
+            {
+              "name": "i, e + гласный",
+              "suffix": "вставляется [j]",
+              "example": "I agree → «ай йэгри»"
+            },
+            {
+              "name": "u, o + гласный",
+              "suffix": "вставляется [w]",
+              "example": "go out → «гоу уаут»"
+            },
+            {
+              "name": "r на конце (брит.)",
+              "suffix": "звучит перед гласным",
+              "example": "far away → «фа рэуэй»"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Выпадение и слияние",
+      "intro": {
+        "text": "T и d между согласными выпадают, а с you сливаются: did you → «диджу». Отсюда и разговорные gonna, wanna.",
+        "highlights": [
+          {
+            "text": "выпадают",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "сливаются",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "gonna, wanna",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разговорные слияния",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Полностью",
+              "В речи",
+              "Значение"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "going to",
+                  "gonna",
+                  "собираюсь"
+                ]
+              },
+              {
+                "cells": [
+                  "want to",
+                  "wanna",
+                  "хочу"
+                ]
+              },
+              {
+                "cells": [
+                  "got to",
+                  "gotta",
+                  "надо"
+                ]
+              },
+              {
+                "cells": [
+                  "kind of",
+                  "kinda",
+                  "вроде"
+                ]
+              },
+              {
+                "cells": [
+                  "give me / let me",
+                  "gimme / lemme",
+                  "дай / дай-ка я"
+                ]
+              },
+              {
+                "cells": [
+                  "don't know",
+                  "dunno",
+                  "не знаю"
+                ]
+              },
+              {
+                "cells": [
+                  "did you / don't you",
+                  "«диджу» / «доунчу»",
+                  "d, t + you"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Только на слух",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Писать так не надо",
+            "text": "Gonna и wanna — это речь и переписка с друзьями. В письме и на экзамене — going to, want to."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Американское t",
+      "intro": {
+        "text": "В американском t между гласными звучит как быстрое мягкое «д»: water — «уóдэр», better — «бэдэр». А после n часто пропадает: twenty — «туэни».",
+        "highlights": [
+          {
+            "text": "между гласными",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "после n",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "water, better, city, party",
+              "ru": "t → быстрое «д»"
+            },
+            {
+              "en": "twenty, internet, center",
+              "ru": "t после n почти не слышно"
+            },
+            {
+              "en": "Got it!",
+              "ru": "«гáдит»"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

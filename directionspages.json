@@ -1,0 +1,229 @@
+{
+  "tenseName": "Как пройти",
+  "route": "cards_directions",
+  "slides": [
+    {
+      "label": "Спросить",
+      "intro": {
+        "text": "Начни с Excuse me — так привлекают внимание незнакомца. Дальше — простой вопрос, где находится место или как до него добраться.",
+        "highlights": [
+          {
+            "text": "Excuse me",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вопросы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Excuse me, how do I get to the station?",
+                  "Простите, как пройти к вокзалу?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is there a pharmacy near here?",
+                  "Здесь рядом есть аптека?"
+                ]
+              },
+              {
+                "cells": [
+                  "Where is the nearest bus stop?",
+                  "Где ближайшая остановка?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is it far? Can I walk there?",
+                  "Это далеко? Можно дойти пешком?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you show me on the map?",
+                  "Покажете на карте?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Объяснить",
+      "intro": {
+        "text": "Дорогу объясняют короткими командами: иди прямо, поверни, пройди мимо. Место описывают предлогами: on the left, opposite, next to.",
+        "highlights": [
+          {
+            "text": "короткими командами",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "предлогами",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как идти",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Go straight on.",
+                  "Идите прямо."
+                ]
+              },
+              {
+                "cells": [
+                  "Turn left / right.",
+                  "Поверните налево / направо."
+                ]
+              },
+              {
+                "cells": [
+                  "Take the second street on the left.",
+                  "Вторая улица налево."
+                ]
+              },
+              {
+                "cells": [
+                  "Go past the bank.",
+                  "Пройдите мимо банка."
+                ]
+              },
+              {
+                "cells": [
+                  "Cross the road at the traffic lights.",
+                  "Перейдите дорогу на светофоре."
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Где это",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "It's on your left.",
+                  "Это слева от вас."
+                ]
+              },
+              {
+                "cells": [
+                  "It's opposite the park.",
+                  "Это напротив парка."
+                ]
+              },
+              {
+                "cells": [
+                  "It's next to the café.",
+                  "Это рядом с кафе."
+                ]
+              },
+              {
+                "cells": [
+                  "It's on the corner.",
+                  "Это на углу."
+                ]
+              },
+              {
+                "cells": [
+                  "It's a five-minute walk.",
+                  "Пять минут пешком."
+                ]
+              },
+              {
+                "cells": [
+                  "You can't miss it.",
+                  "Не пропустите."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Say me the way to the station.",
+              "right": "Could you tell me the way to the station?"
+            },
+            {
+              "wrong": "Turn to left.",
+              "right": "Turn left."
+            },
+            {
+              "wrong": "It's in the left.",
+              "right": "It's on the left."
+            },
+            {
+              "wrong": "on the crossroads",
+              "right": "at the crossroads"
+            },
+            {
+              "wrong": "Go straight and after turn right.",
+              "right": "Go straight on, then turn right."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

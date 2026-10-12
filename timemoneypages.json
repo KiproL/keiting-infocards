@@ -1,0 +1,455 @@
+{
+  "tenseName": "Время, деньги, меры",
+  "route": "cards_timemoney",
+  "slides": [
+    {
+      "label": "Который час",
+      "intro": {
+        "text": "Время говорят двумя способами: цифрами, как на табло (seven fifteen), или по-старому — через past (после) и to (до). Past — первая половина часа, to — вторая.",
+        "highlights": [
+          {
+            "text": "цифрами",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "past",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "to",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как сказать",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Время",
+              "Через past / to",
+              "Цифрами"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "7:00",
+                  "seven o'clock",
+                  "seven"
+                ]
+              },
+              {
+                "cells": [
+                  "7:05",
+                  "five past seven",
+                  "seven oh five"
+                ]
+              },
+              {
+                "cells": [
+                  "7:15",
+                  "quarter past seven",
+                  "seven fifteen"
+                ]
+              },
+              {
+                "cells": [
+                  "7:30",
+                  "half past seven",
+                  "seven thirty"
+                ]
+              },
+              {
+                "cells": [
+                  "7:45",
+                  "quarter to eight",
+                  "seven forty-five"
+                ]
+              },
+              {
+                "cells": [
+                  "7:50",
+                  "ten to eight",
+                  "seven fifty"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Полезные слова",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "a.m. / p.m.",
+              "suffix": "до полудня / после",
+              "example": "8 a.m. — утра, 8 p.m. — вечера"
+            },
+            {
+              "name": "noon / midnight",
+              "suffix": "полдень / полночь",
+              "example": "at noon, at midnight"
+            },
+            {
+              "name": "What time is it?",
+              "suffix": "Который час?",
+              "example": "It's half past three."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Даты и годы",
+      "intro": {
+        "text": "Предлог зависит от того, что называешь: on — день и дата, in — месяц, год, время года, at — точное время. Годы читают парами цифр.",
+        "highlights": [
+          {
+            "text": "on",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "in",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "at",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "парами цифр",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Предлоги",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Предлог",
+              "С чем",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "on",
+                  "день недели, дата",
+                  "on Monday, on 5 May"
+                ]
+              },
+              {
+                "cells": [
+                  "in",
+                  "месяц, год, время года",
+                  "in May, in 2024, in summer"
+                ]
+              },
+              {
+                "cells": [
+                  "at",
+                  "точное время, праздники",
+                  "at 6 o'clock, at Christmas"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Как читать",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Пишется",
+              "Читается"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "5 May",
+                  "the fifth of May (брит.) / May fifth (амер.)"
+                ]
+              },
+              {
+                "cells": [
+                  "1999",
+                  "nineteen ninety-nine"
+                ]
+              },
+              {
+                "cells": [
+                  "2005",
+                  "two thousand and five"
+                ]
+              },
+              {
+                "cells": [
+                  "2024",
+                  "twenty twenty-four"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "5/12 — это когда?",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Британцы и американцы",
+            "text": "В Британии 5/12 — 5 декабря, в США — 12 мая: месяц пишут первым."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Деньги",
+      "intro": {
+        "text": "Цену читают коротко: £5.99 — five ninety-nine. Money — неисчисляемое: much money, а не many.",
+        "highlights": [
+          {
+            "text": "коротко",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "неисчисляемое",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Цены",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Пишется",
+              "Читается"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "£5.99",
+                  "five ninety-nine / five pounds ninety-nine"
+                ]
+              },
+              {
+                "cells": [
+                  "$1.50",
+                  "a dollar fifty / one fifty"
+                ]
+              },
+              {
+                "cells": [
+                  "€20",
+                  "twenty euros"
+                ]
+              },
+              {
+                "cells": [
+                  "50p",
+                  "fifty p / fifty pence"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Фразы",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "How much is it?",
+              "suffix": "сколько стоит?",
+              "example": "— It's ten pounds."
+            },
+            {
+              "name": "Keep the change.",
+              "suffix": "сдачи не надо",
+              "example": "чаевые таксисту"
+            },
+            {
+              "name": "Can I pay by card?",
+              "suffix": "можно картой?",
+              "example": "— Sure. / Cash only."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Меры",
+      "intro": {
+        "text": "В США и отчасти в Британии живут старые меры: дюймы, футы, мили, фунты. Хватит знать их примерно.",
+        "highlights": [
+          {
+            "text": "старые меры",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "примерно",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Перевод в привычное",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Мера",
+              "Примерно",
+              "Где"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "1 inch",
+                  "2,5 см",
+                  "экраны, рост"
+                ]
+              },
+              {
+                "cells": [
+                  "1 foot (12 inches)",
+                  "30 см",
+                  "рост: five foot nine ≈ 1,75 м"
+                ]
+              },
+              {
+                "cells": [
+                  "1 mile",
+                  "1,6 км",
+                  "дороги"
+                ]
+              },
+              {
+                "cells": [
+                  "1 pound (lb)",
+                  "450 г",
+                  "вес, продукты"
+                ]
+              },
+              {
+                "cells": [
+                  "1 stone",
+                  "6,35 кг",
+                  "вес человека (брит.)"
+                ]
+              },
+              {
+                "cells": [
+                  "1 pint",
+                  "0,5 л",
+                  "пиво, молоко (брит.)"
+                ]
+              },
+              {
+                "cells": [
+                  "1 gallon (US)",
+                  "3,8 л",
+                  "бензин"
+                ]
+              },
+              {
+                "cells": [
+                  "°F",
+                  "32°F = 0°C, 100°F ≈ 38°C",
+                  "погода в США"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки со временем и деньгами.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "«половина восьмого» — half past eight",
+              "right": "half past seven (7:30)"
+            },
+            {
+              "wrong": "a five minutes walk",
+              "right": "a five-minute walk"
+            },
+            {
+              "wrong": "How much it costs?",
+              "right": "How much does it cost?"
+            },
+            {
+              "wrong": "It costs five dollar.",
+              "right": "It costs five dollars."
+            },
+            {
+              "wrong": "in Monday / on May",
+              "right": "on Monday / in May"
+            },
+            {
+              "wrong": "I don't have many money.",
+              "right": "I don't have much money."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
