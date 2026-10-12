@@ -1,0 +1,247 @@
+{
+  "tenseName": "Резюме и сопроводительное письмо",
+  "route": "cards_cv",
+  "slides": [
+    {
+      "label": "Резюме",
+      "intro": {
+        "text": "Резюме — CV в Великобритании и resume в США. Коротко, одна-две страницы, опыт — от последнего места к первому.",
+        "highlights": [
+          {
+            "text": "CV",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "resume",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "от последнего места к первому",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разделы по порядку",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Contact details: имя, телефон, e-mail, город.",
+              "Profile: две-три строки о себе и о том, какую работу ищешь.",
+              "Work experience: должность, компания, годы и 2–4 достижения.",
+              "Education: вуз, специальность, годы.",
+              "Skills: языки, программы, навыки."
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Чего не писать",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "В Великобритании и США",
+            "text": "Фото, дату рождения и семейное положение обычно не указывают."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Сильные глаголы",
+      "intro": {
+        "text": "Опыт описывают глаголами в Past Simple без «я»: Managed a team of five, а не I was responsible for… Лучше с цифрами.",
+        "highlights": [
+          {
+            "text": "глаголами в Past Simple",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "с цифрами",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глаголы для резюме",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "managed",
+                  "Managed a team of five people."
+                ]
+              },
+              {
+                "cells": [
+                  "increased",
+                  "Increased sales by 20%."
+                ]
+              },
+              {
+                "cells": [
+                  "reduced",
+                  "Reduced costs by 15%."
+                ]
+              },
+              {
+                "cells": [
+                  "developed",
+                  "Developed a new mobile app."
+                ]
+              },
+              {
+                "cells": [
+                  "organised",
+                  "Organised events for 200 guests."
+                ]
+              },
+              {
+                "cells": [
+                  "improved",
+                  "Improved customer satisfaction."
+                ]
+              },
+              {
+                "cells": [
+                  "led",
+                  "Led a project from start to finish."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Сопроводительное письмо",
+      "intro": {
+        "text": "Cover letter — короткое письмо к резюме: почему ты хочешь эту работу и чем будешь полезен. Три-четыре абзаца, не больше страницы.",
+        "highlights": [
+          {
+            "text": "Cover letter",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "чем будешь полезен",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Часть",
+              "Фраза"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "начало",
+                  "I am writing to apply for the position of … advertised on…"
+                ]
+              },
+              {
+                "cells": [
+                  "опыт",
+                  "I have three years of experience in…"
+                ]
+              },
+              {
+                "cells": [
+                  "почему вы",
+                  "I am particularly interested in your company because…"
+                ]
+              },
+              {
+                "cells": [
+                  "польза",
+                  "I believe my skills in … would be valuable to your team."
+                ]
+              },
+              {
+                "cells": [
+                  "конец",
+                  "I would welcome the opportunity to discuss my application."
+                ]
+              },
+              {
+                "cells": [
+                  "подпись",
+                  "Yours sincerely, / Kind regards,"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в резюме и письме.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — слабо или неверно, справа — лучше",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I was responsible for managing a team.",
+              "right": "Managed a team of five."
+            },
+            {
+              "wrong": "Опыт: 2015 — школа, 2023 — работа",
+              "right": "От последнего места к первому"
+            },
+            {
+              "wrong": "Hobbies: sleeping, watching TV.",
+              "right": "Только то, что говорит о навыках, — или ничего"
+            },
+            {
+              "wrong": "I have big experience.",
+              "right": "I have extensive experience."
+            },
+            {
+              "wrong": "I want this work.",
+              "right": "I am writing to apply for this position."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

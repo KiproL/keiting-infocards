@@ -1,0 +1,226 @@
+{
+  "tenseName": "Already, yet, still, just",
+  "route": "cards_alreadyyet",
+  "slides": [
+    {
+      "label": "Что значат",
+      "intro": {
+        "text": "Четыре коротких слова показывают, случилось ли действие: already — уже, yet — уже? / ещё не, still — всё ещё, just — только что.",
+        "highlights": [
+          {
+            "text": "already",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "yet",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "still",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "just",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Значения",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "already",
+                  "уже, раньше, чем ждали",
+                  "I've already eaten."
+                ]
+              },
+              {
+                "cells": [
+                  "yet",
+                  "уже? / ещё не",
+                  "Have you finished yet? I haven't finished yet."
+                ]
+              },
+              {
+                "cells": [
+                  "still",
+                  "всё ещё, до сих пор",
+                  "She still lives here."
+                ]
+              },
+              {
+                "cells": [
+                  "just",
+                  "только что",
+                  "He's just left."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Где ставить",
+      "intro": {
+        "text": "Already, still и just стоят перед смысловым глаголом, а yet — в конце предложения.",
+        "highlights": [
+          {
+            "text": "перед смысловым глаголом",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "в конце",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Место",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "already",
+              "suffix": "между have и V3",
+              "example": "I have already seen it."
+            },
+            {
+              "name": "just",
+              "suffix": "между have и V3",
+              "example": "They have just arrived."
+            },
+            {
+              "name": "yet",
+              "suffix": "в конце: вопрос и отрицание",
+              "example": "Has he called yet?"
+            },
+            {
+              "name": "still",
+              "suffix": "перед глаголом, после be",
+              "example": "I still love it. He is still here."
+            },
+            {
+              "name": "still + отрицание",
+              "suffix": "перед haven't, don't",
+              "example": "I still haven't found it."
+            }
+          ]
+        },
+        {
+          "title": "Время",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Обычно Present Perfect",
+            "text": "С already, yet и just британцы ставят Present Perfect. Американцы часто говорят и Past Simple: Did you eat yet?"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Оттенки",
+      "intro": {
+        "text": "Yet и still not оба значат «ещё не», но still звучит с досадой: всё никак. А already в вопросе — удивление: уже? так быстро?",
+        "highlights": [
+          {
+            "text": "с досадой",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "удивление",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I haven't done it yet.",
+              "ru": "Я ещё не сделал (пока)."
+            },
+            {
+              "en": "I still haven't done it.",
+              "ru": "Я до сих пор не сделал (а пора бы)."
+            },
+            {
+              "en": "Have you finished yet?",
+              "ru": "Ты уже закончил? (обычный вопрос)"
+            },
+            {
+              "en": "Have you finished already?",
+              "ru": "Ты уже закончил?! (так быстро)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с already, yet, still, just.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I have finished it yet.",
+              "right": "I have already finished it."
+            },
+            {
+              "wrong": "I yet haven't called him.",
+              "right": "I haven't called him yet."
+            },
+            {
+              "wrong": "He has left just.",
+              "right": "He has just left."
+            },
+            {
+              "wrong": "She lives still here.",
+              "right": "She still lives here."
+            },
+            {
+              "wrong": "I just have arrived.",
+              "right": "I have just arrived."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

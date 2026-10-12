@@ -1,0 +1,251 @@
+{
+  "tenseName": "Приглашения",
+  "route": "cards_invitations",
+  "slides": [
+    {
+      "label": "Пригласить",
+      "intro": {
+        "text": "Приглашают вопросом: Would you like to…? — вежливо, Do you want to…? и How about…? — по-дружески.",
+        "highlights": [
+          {
+            "text": "Would you like to…?",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "по-дружески",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Would you like to come to my party?",
+                  "Придёшь на мою вечеринку?"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you want to grab a coffee?",
+                  "Хочешь выпить кофе?"
+                ]
+              },
+              {
+                "cells": [
+                  "How about going to the cinema?",
+                  "Как насчёт кино?"
+                ]
+              },
+              {
+                "cells": [
+                  "Are you free on Saturday?",
+                  "Ты свободен в субботу?"
+                ]
+              },
+              {
+                "cells": [
+                  "We're having a barbecue on Sunday. Can you make it?",
+                  "У нас в воскресенье барбекю. Сможешь прийти?"
+                ]
+              },
+              {
+                "cells": [
+                  "Let's meet up sometime!",
+                  "Давай как-нибудь встретимся!"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Согласиться",
+      "intro": {
+        "text": "Соглашаясь, показывают радость и уточняют детали.",
+        "highlights": [
+          {
+            "text": "уточняют детали",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd love to!",
+                  "С удовольствием!"
+                ]
+              },
+              {
+                "cells": [
+                  "Sounds great!",
+                  "Звучит отлично!"
+                ]
+              },
+              {
+                "cells": [
+                  "Sure, why not?",
+                  "Конечно, почему бы нет?"
+                ]
+              },
+              {
+                "cells": [
+                  "What time?",
+                  "Во сколько?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I bring anything?",
+                  "Что-нибудь принести?"
+                ]
+              }
+            ],
+            "borderColor": "good",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Отказаться",
+      "intro": {
+        "text": "Отказ смягчают: благодарят, извиняются, называют причину и предлагают другое время.",
+        "highlights": [
+          {
+            "text": "смягчают",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вежливый отказ",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Thanks for asking!",
+              "I'm afraid I can't.",
+              "I've got plans that day.",
+              "Maybe another time?"
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Ещё фразы",
+          "borderColor": "bad",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd love to, but I can't.",
+                  "С радостью бы, но не могу."
+                ]
+              },
+              {
+                "cells": [
+                  "Sorry, I'm busy that day.",
+                  "Извини, я занят в этот день."
+                ]
+              },
+              {
+                "cells": [
+                  "Can I take a rain check?",
+                  "Давай в другой раз? (разговорно)"
+                ]
+              },
+              {
+                "cells": [
+                  "Let me check and get back to you.",
+                  "Я проверю и отвечу."
+                ]
+              }
+            ],
+            "borderColor": "bad",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Do you want to go to the cinema? — I want.",
+              "right": "— Yes, I'd love to!"
+            },
+            {
+              "wrong": "I invite you to my birthday. (в разговоре)",
+              "right": "Would you like to come to my birthday party?"
+            },
+            {
+              "wrong": "No, I can't. (без объяснений)",
+              "right": "Sorry, I can't — I'm working. Maybe next time?"
+            },
+            {
+              "wrong": "How about go to the park?",
+              "right": "How about going to the park?"
+            },
+            {
+              "wrong": "Let's to meet.",
+              "right": "Let's meet."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "tenseName": "Если не понял",
+  "route": "cards_clarifying",
+  "slides": [
+    {
+      "label": "Переспросить",
+      "intro": {
+        "text": "Не понять с первого раза — нормально. Главное — переспросить вежливо, а не молчать. Голое What? звучит грубо.",
+        "highlights": [
+          {
+            "text": "переспросить вежливо",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "звучит грубо",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Попросить повторить",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Sorry? / Pardon?",
+                  "Простите? (не расслышал)"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you say that again, please?",
+                  "Повторите, пожалуйста."
+                ]
+              },
+              {
+                "cells": [
+                  "Could you speak more slowly, please?",
+                  "Говорите, пожалуйста, медленнее."
+                ]
+              },
+              {
+                "cells": [
+                  "Sorry, I didn't catch that.",
+                  "Простите, не расслышал."
+                ]
+              },
+              {
+                "cells": [
+                  "Could you speak up a bit?",
+                  "Можно чуть громче?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Уточнить смысл",
+      "intro": {
+        "text": "Если слова слышно, а смысл непонятен, уточни конкретное слово или перескажи своими словами — собеседник поправит.",
+        "highlights": [
+          {
+            "text": "конкретное слово",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "своими словами",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Уточнить",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "What does … mean?",
+                  "Что значит …?"
+                ]
+              },
+              {
+                "cells": [
+                  "How do you spell that?",
+                  "Как это пишется?"
+                ]
+              },
+              {
+                "cells": [
+                  "What do you mean by …?",
+                  "Что вы имеете в виду под …?"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you mean …?",
+                  "Вы имеете в виду …?"
+                ]
+              },
+              {
+                "cells": [
+                  "So, you're saying that…",
+                  "То есть вы говорите, что…"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you give me an example?",
+                  "Можете привести пример?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Забыл слово",
+      "intro": {
+        "text": "Не помнишь слово — опиши его. Так делают даже носители.",
+        "highlights": [
+          {
+            "text": "опиши его",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как выкрутиться",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "How do you say … in English?",
+                  "Как сказать … по-английски?"
+                ]
+              },
+              {
+                "cells": [
+                  "What's the word for…?",
+                  "Как называется…?"
+                ]
+              },
+              {
+                "cells": [
+                  "It's a kind of…",
+                  "Это такой вид…"
+                ]
+              },
+              {
+                "cells": [
+                  "It's something you use for…",
+                  "Это то, чем пользуются, чтобы…"
+                ]
+              },
+              {
+                "cells": [
+                  "It's like … but…",
+                  "Это как …, только…"
+                ]
+              },
+              {
+                "cells": [
+                  "I'm not sure how to say it, but…",
+                  "Не знаю, как сказать, но…"
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "What? (незнакомому человеку)",
+              "right": "Sorry? / Pardon?"
+            },
+            {
+              "wrong": "Repeat, please.",
+              "right": "Could you repeat that, please?"
+            },
+            {
+              "wrong": "I don't understand you. (резко)",
+              "right": "Sorry, I'm not sure I follow."
+            },
+            {
+              "wrong": "Speak slowly!",
+              "right": "Could you speak a bit more slowly?"
+            },
+            {
+              "wrong": "How it is in English?",
+              "right": "How do you say it in English?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

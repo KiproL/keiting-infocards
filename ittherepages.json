@@ -1,0 +1,222 @@
+{
+  "tenseName": "It или there",
+  "route": "cards_itthere",
+  "slides": [
+    {
+      "label": "Разница",
+      "intro": {
+        "text": "There is сообщает, что что-то есть или появилось: There is a cat in the garden. It — о том, что уже известно, а ещё о погоде, времени и расстоянии.",
+        "highlights": [
+          {
+            "text": "There is",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "It",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что выбрать",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Что сказать",
+              "Как",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "что-то где-то есть",
+                  "there is / are",
+                  "There's a café near here."
+                ]
+              },
+              {
+                "cells": [
+                  "о том, что уже назвали",
+                  "it",
+                  "It's very cosy."
+                ]
+              },
+              {
+                "cells": [
+                  "погода",
+                  "it",
+                  "It's raining. It's cold."
+                ]
+              },
+              {
+                "cells": [
+                  "время и дата",
+                  "it",
+                  "It's 5 o'clock. It's Monday."
+                ]
+              },
+              {
+                "cells": [
+                  "расстояние",
+                  "it",
+                  "It's 10 km to the city."
+                ]
+              },
+              {
+                "cells": [
+                  "оценка",
+                  "it",
+                  "It's hard to explain."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Вместе",
+      "intro": {
+        "text": "Часто они идут парой: there вводит новое, it продолжает рассказ о нём.",
+        "highlights": [
+          {
+            "text": "there вводит новое",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "it продолжает",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "There's a new shop on our street. It sells books.",
+              "ru": "На нашей улице новый магазин. Он продаёт книги."
+            },
+            {
+              "en": "There was a problem. It was easy to fix.",
+              "ru": "Была проблема. Её было легко решить."
+            },
+            {
+              "en": "Is there a bank near here? — Yes, it's next to the station.",
+              "ru": "Тут есть банк? — Да, он у вокзала."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Безличные фразы",
+      "intro": {
+        "text": "В русском подлежащего часто нет: «Холодно», «Поздно», «Далеко». В английском оно обязательно — эту роль играет it.",
+        "highlights": [
+          {
+            "text": "подлежащего часто нет",
+            "color": "muted",
+            "style": "bold"
+          },
+          {
+            "text": "обязательно",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "играет it",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "По-русски → по-английски",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "Холодно.",
+              "to": "It's cold.",
+              "toColor": "good"
+            },
+            {
+              "from": "Уже поздно.",
+              "to": "It's late.",
+              "toColor": "good"
+            },
+            {
+              "from": "Далеко отсюда?",
+              "to": "Is it far from here?",
+              "toColor": "good"
+            },
+            {
+              "from": "Приятно тебя видеть.",
+              "to": "It's nice to see you.",
+              "toColor": "good"
+            },
+            {
+              "from": "Здесь много людей.",
+              "to": "There are a lot of people here.",
+              "toColor": "info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с it и there.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Is cold today.",
+              "right": "It's cold today."
+            },
+            {
+              "wrong": "It is a lot of people here.",
+              "right": "There are a lot of people here."
+            },
+            {
+              "wrong": "There is very hot.",
+              "right": "It's very hot."
+            },
+            {
+              "wrong": "It has a park in my town.",
+              "right": "There is a park in my town."
+            },
+            {
+              "wrong": "There is 5 km to the station.",
+              "right": "It's 5 km to the station."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

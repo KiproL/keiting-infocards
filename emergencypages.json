@@ -1,0 +1,238 @@
+{
+  "tenseName": "Экстренные ситуации",
+  "route": "cards_emergency",
+  "slides": [
+    {
+      "label": "Позвать на помощь",
+      "intro": {
+        "text": "Экстренный номер — 112 в Европе, 911 в США и Канаде, 999 в Великобритании (112 там тоже работает). Говорят коротко: что случилось и где.",
+        "highlights": [
+          {
+            "text": "112",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "911",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "999",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "что случилось и где",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Главные фразы",
+          "borderColor": "bad",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Help!",
+                  "Помогите!"
+                ]
+              },
+              {
+                "cells": [
+                  "Call an ambulance!",
+                  "Вызовите скорую!"
+                ]
+              },
+              {
+                "cells": [
+                  "Call the police!",
+                  "Вызовите полицию!"
+                ]
+              },
+              {
+                "cells": [
+                  "Fire!",
+                  "Пожар!"
+                ]
+              },
+              {
+                "cells": [
+                  "There's been an accident.",
+                  "Произошла авария."
+                ]
+              },
+              {
+                "cells": [
+                  "Someone is hurt.",
+                  "Кто-то ранен."
+                ]
+              },
+              {
+                "cells": [
+                  "Is there a doctor here?",
+                  "Здесь есть врач?"
+                ]
+              }
+            ],
+            "borderColor": "bad",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Звонок в службу",
+      "intro": {
+        "text": "Оператор сначала спросит, какая служба нужна: Which service do you need? Дальше — адрес и что случилось.",
+        "highlights": [
+          {
+            "text": "какая служба нужна",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что сказать",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Which service? — Ambulance, please.",
+              "Where are you? — 15 Green Street, near the station.",
+              "What happened? — A man has fallen and he isn't breathing.",
+              "What's your number? — My number is…",
+              "Оператор: Stay on the line — не клади трубку."
+            ],
+            "accentColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Кража и потеря",
+      "intro": {
+        "text": "О краже или потере документов заявляют в полицию и, если ты за границей, — в посольство.",
+        "highlights": [
+          {
+            "text": "в полицию",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "в посольство",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "My wallet has been stolen.",
+                  "У меня украли кошелёк."
+                ]
+              },
+              {
+                "cells": [
+                  "I've lost my passport.",
+                  "Я потерял паспорт."
+                ]
+              },
+              {
+                "cells": [
+                  "I'd like to report a theft.",
+                  "Я хочу заявить о краже."
+                ]
+              },
+              {
+                "cells": [
+                  "Where's the nearest police station?",
+                  "Где ближайший полицейский участок?"
+                ]
+              },
+              {
+                "cells": [
+                  "I need to contact my embassy.",
+                  "Мне нужно связаться с посольством."
+                ]
+              },
+              {
+                "cells": [
+                  "Can I have a copy of the report?",
+                  "Можно копию протокола?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Call to the police!",
+              "right": "Call the police!"
+            },
+            {
+              "wrong": "Quick help! (о скорой)",
+              "right": "Call an ambulance!"
+            },
+            {
+              "wrong": "I was stolen.",
+              "right": "I was robbed. / My bag was stolen."
+            },
+            {
+              "wrong": "I am lost my passport.",
+              "right": "I've lost my passport."
+            },
+            {
+              "wrong": "Where is police?",
+              "right": "Where is the police station?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

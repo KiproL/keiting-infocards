@@ -1,0 +1,232 @@
+{
+  "tenseName": "Сообщения в мессенджерах",
+  "route": "cards_messaging",
+  "slides": [
+    {
+      "label": "Стиль",
+      "intro": {
+        "text": "В мессенджере пишут коротко: часто без подлежащего (Got it, On my way) и без точки в конце. Одинокое Ok. с точкой может звучать холодно.",
+        "highlights": [
+          {
+            "text": "коротко",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "без подлежащего",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "звучать холодно",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Короткие фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Пишут",
+              "Значит"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Got it.",
+                  "Понял."
+                ]
+              },
+              {
+                "cells": [
+                  "On my way!",
+                  "Уже еду!"
+                ]
+              },
+              {
+                "cells": [
+                  "Running late, sorry!",
+                  "Опаздываю, извини!"
+                ]
+              },
+              {
+                "cells": [
+                  "Sounds good!",
+                  "Отлично, договорились!"
+                ]
+              },
+              {
+                "cells": [
+                  "Can't make it today.",
+                  "Сегодня не получится."
+                ]
+              },
+              {
+                "cells": [
+                  "Talk later?",
+                  "Поговорим позже?"
+                ]
+              },
+              {
+                "cells": [
+                  "Let me know!",
+                  "Дай знать!"
+                ]
+              },
+              {
+                "cells": [
+                  "Just checking in.",
+                  "Просто узнаю, как дела."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Договориться",
+      "intro": {
+        "text": "Чтобы договориться о встрече, хватает нескольких фраз.",
+        "highlights": [
+          {
+            "text": "о встрече",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Are you free tonight?",
+              "ru": "Ты вечером свободен?"
+            },
+            {
+              "en": "What time works for you?",
+              "ru": "Во сколько тебе удобно?"
+            },
+            {
+              "en": "How about 7?",
+              "ru": "Может, в 7?"
+            },
+            {
+              "en": "Let's push it to Friday.",
+              "ru": "Давай перенесём на пятницу."
+            },
+            {
+              "en": "I'll text you when I'm there.",
+              "ru": "Напишу, когда буду на месте."
+            },
+            {
+              "en": "See you there!",
+              "ru": "Увидимся там!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Рабочий чат",
+      "intro": {
+        "text": "С коллегами — тоже коротко, но без сленга. Please, thanks и could you спасают от лишних обид.",
+        "highlights": [
+          {
+            "text": "без сленга",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Please, thanks и could you",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Quick question: …",
+              "ru": "Быстрый вопрос: …"
+            },
+            {
+              "en": "Could you take a look when you have a minute?",
+              "ru": "Посмотришь, когда будет минутка?"
+            },
+            {
+              "en": "Thanks, that's really helpful!",
+              "ru": "Спасибо, очень помогло!"
+            },
+            {
+              "en": "Sorry for the delay.",
+              "ru": "Прости за задержку."
+            },
+            {
+              "en": "I'll get back to you by the end of the day.",
+              "ru": "Отвечу до конца дня."
+            },
+            {
+              "en": "Noted, thanks.",
+              "ru": "Принял, спасибо."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в переписке.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — неудачно, справа — лучше",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I write you later.",
+              "right": "I'll text you later."
+            },
+            {
+              "wrong": "Wait me, I'm coming!",
+              "right": "Wait for me, I'm coming!"
+            },
+            {
+              "wrong": "Call me when you will be free.",
+              "right": "Call me when you're free."
+            },
+            {
+              "wrong": "Ok. (на длинное сообщение друга)",
+              "right": "Ok, sounds good! / Got it, thanks!"
+            },
+            {
+              "wrong": "Hello! / How are you? / I have a question… (три сообщения)",
+              "right": "Hi! Quick question: … (одним сообщением)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

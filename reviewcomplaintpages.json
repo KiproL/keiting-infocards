@@ -1,0 +1,234 @@
+{
+  "tenseName": "Отзыв и жалоба",
+  "route": "cards_reviewcomplaint",
+  "slides": [
+    {
+      "label": "Отзыв",
+      "intro": {
+        "text": "Отзыв о товаре, отеле или ресторане строят просто: что это было, что понравилось, что нет, и вывод — советуешь или нет.",
+        "highlights": [
+          {
+            "text": "что понравилось",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "что нет",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "вывод",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "План",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Что и когда: We stayed at this hotel for a week in July.",
+              "Плюсы: The staff were really friendly and the room was spotless.",
+              "Минусы: However, the wifi was very slow.",
+              "Вывод: Overall, I would definitely recommend it."
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Полезные слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Хорошо",
+              "Плохо"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "excellent, outstanding",
+                  "disappointing, poor"
+                ]
+              },
+              {
+                "cells": [
+                  "spotless, cosy",
+                  "dirty, noisy"
+                ]
+              },
+              {
+                "cells": [
+                  "good value for money",
+                  "overpriced"
+                ]
+              },
+              {
+                "cells": [
+                  "friendly, helpful staff",
+                  "rude, unhelpful staff"
+                ]
+              },
+              {
+                "cells": [
+                  "I'd highly recommend it.",
+                  "I wouldn't recommend it."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "good",
+              "bad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Жалоба",
+      "intro": {
+        "text": "Жалоба — официальное письмо. Тон вежливый, но твёрдый: факты без эмоций и ясно, чего ты хочешь — возврат, замену или извинение.",
+        "highlights": [
+          {
+            "text": "вежливый, но твёрдый",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "чего ты хочешь",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "План",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Зачем пишешь: I am writing to complain about…",
+              "Факты: On 5 May I ordered… The item arrived damaged.",
+              "Что уже сделал: I contacted your support twice, but…",
+              "Чего хочешь: I would like a full refund / a replacement.",
+              "Срок: I look forward to hearing from you within 14 days."
+            ],
+            "accentColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Фразы",
+      "intro": {
+        "text": "Эти фразы делают жалобу вежливой и серьёзной.",
+        "highlights": [
+          {
+            "text": "вежливой и серьёзной",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I am writing to complain about…",
+                  "Пишу, чтобы пожаловаться на…"
+                ]
+              },
+              {
+                "cells": [
+                  "I was very disappointed with…",
+                  "Я был очень разочарован…"
+                ]
+              },
+              {
+                "cells": [
+                  "Unfortunately, the product does not work.",
+                  "К сожалению, товар не работает."
+                ]
+              },
+              {
+                "cells": [
+                  "I would like a full refund.",
+                  "Прошу вернуть деньги полностью."
+                ]
+              },
+              {
+                "cells": [
+                  "Please find attached a copy of my receipt.",
+                  "Прилагаю копию чека."
+                ]
+              },
+              {
+                "cells": [
+                  "I expect this matter to be resolved quickly.",
+                  "Рассчитываю, что вопрос решат быстро."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в отзывах и жалобах.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Your hotel is the worst!!! Never again!!!",
+              "right": "I was disappointed with the quality of the service."
+            },
+            {
+              "wrong": "I want my money back now.",
+              "right": "I would like a full refund."
+            },
+            {
+              "wrong": "I write to complain…",
+              "right": "I am writing to complain…"
+            },
+            {
+              "wrong": "The waiter was rude with me.",
+              "right": "The waiter was rude to me."
+            },
+            {
+              "wrong": "I recommend to visit it.",
+              "right": "I recommend visiting it."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

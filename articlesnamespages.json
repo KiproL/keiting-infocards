@@ -1,0 +1,281 @@
+{
+  "tenseName": "Артикли с названиями",
+  "route": "cards_articlesnames",
+  "slides": [
+    {
+      "label": "Страны и города",
+      "intro": {
+        "text": "Имена, города и большинство стран — без артикля: Paris, Spain. The нужен, если в названии множественное число или слова republic, kingdom, states, union.",
+        "highlights": [
+          {
+            "text": "без артикля",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "The нужен",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Страны",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Без the",
+              "С the"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Russia, France, Japan",
+                  "the USA, the UK"
+                ]
+              },
+              {
+                "cells": [
+                  "China, Canada, Italy",
+                  "the Netherlands, the Philippines"
+                ]
+              },
+              {
+                "cells": [
+                  "Brazil, Spain",
+                  "the Czech Republic, the United Arab Emirates"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "good",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "География",
+      "intro": {
+        "text": "Вода и цепочки — реки, моря, горные хребты, группы островов — с the. Одиночные объекты (гора, озеро, остров) и континенты — без артикля.",
+        "highlights": [
+          {
+            "text": "с the",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Одиночные объекты",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что с артиклем",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Что",
+              "Артикль",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "реки",
+                  "the",
+                  "the Volga, the Thames"
+                ]
+              },
+              {
+                "cells": [
+                  "моря и океаны",
+                  "the",
+                  "the Black Sea, the Pacific"
+                ]
+              },
+              {
+                "cells": [
+                  "горные хребты",
+                  "the",
+                  "the Alps, the Urals"
+                ]
+              },
+              {
+                "cells": [
+                  "группы островов",
+                  "the",
+                  "the Canaries, the Maldives"
+                ]
+              },
+              {
+                "cells": [
+                  "пустыни",
+                  "the",
+                  "the Sahara"
+                ]
+              },
+              {
+                "cells": [
+                  "отдельная гора",
+                  "—",
+                  "Everest, Elbrus"
+                ]
+              },
+              {
+                "cells": [
+                  "озеро",
+                  "—",
+                  "Lake Baikal, Lake Geneva"
+                ]
+              },
+              {
+                "cells": [
+                  "остров",
+                  "—",
+                  "Cyprus, Sicily"
+                ]
+              },
+              {
+                "cells": [
+                  "континент",
+                  "—",
+                  "Europe, Asia"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "В городе",
+      "intro": {
+        "text": "Улицы, площади, парки, вокзалы и аэропорты — без артикля: Oxford Street, Red Square. Отели, театры, музеи и названия с of — с the: the Hilton, the Louvre, the Tower of London.",
+        "highlights": [
+          {
+            "text": "без артикля",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "с the",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Без the и с the",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Без the",
+              "С the"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "улицы: Baker Street",
+                  "отели: the Ritz"
+                ]
+              },
+              {
+                "cells": [
+                  "площади: Red Square",
+                  "музеи: the British Museum"
+                ]
+              },
+              {
+                "cells": [
+                  "парки: Central Park",
+                  "театры: the Bolshoi"
+                ]
+              },
+              {
+                "cells": [
+                  "вокзалы, аэропорты: Heathrow",
+                  "названия с of: the University of Oxford"
+                ]
+              },
+              {
+                "cells": [
+                  "вузы без of: Oxford University",
+                  "газеты: The Times"
+                ]
+              },
+              {
+                "cells": [
+                  "магазины и компании: Apple, McDonald's",
+                  "корабли: the Titanic"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "good",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с артиклями в названиях.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I live in the Moscow.",
+              "right": "I live in Moscow."
+            },
+            {
+              "wrong": "He works in USA.",
+              "right": "He works in the USA."
+            },
+            {
+              "wrong": "We swam in Black Sea.",
+              "right": "We swam in the Black Sea."
+            },
+            {
+              "wrong": "the Lake Baikal",
+              "right": "Lake Baikal"
+            },
+            {
+              "wrong": "I visited British Museum.",
+              "right": "I visited the British Museum."
+            },
+            {
+              "wrong": "the Red Square",
+              "right": "Red Square"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

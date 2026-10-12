@@ -1,0 +1,284 @@
+{
+  "tenseName": "Окончания -tion, -ture, -ous, -age",
+  "route": "cards_suffixsounds",
+  "slides": [
+    {
+      "label": "Как читать",
+      "intro": {
+        "text": "Окончания читаются не по буквам, а по устойчивым шаблонам — и почти всегда без ударения.",
+        "highlights": [
+          {
+            "text": "не по буквам",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "без ударения",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Шаблоны",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Окончание",
+              "Звучит",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "-tion",
+                  "[ʃən] «шн»",
+                  "station, nation"
+                ]
+              },
+              {
+                "cells": [
+                  "-sion",
+                  "[ʃən] после согласной, [ʒən] после гласной",
+                  "mission / television"
+                ]
+              },
+              {
+                "cells": [
+                  "-cian",
+                  "[ʃən]",
+                  "musician, politician"
+                ]
+              },
+              {
+                "cells": [
+                  "-ture",
+                  "[tʃə] «чэ»",
+                  "picture, future, nature"
+                ]
+              },
+              {
+                "cells": [
+                  "-sure",
+                  "[ʒə] или [ʃə]",
+                  "pleasure, measure / pressure"
+                ]
+              },
+              {
+                "cells": [
+                  "-ous",
+                  "[əs]",
+                  "famous, dangerous"
+                ]
+              },
+              {
+                "cells": [
+                  "-age",
+                  "[ɪdʒ] «идж»",
+                  "village, message, language"
+                ]
+              },
+              {
+                "cells": [
+                  "-able, -ible",
+                  "[əbl]",
+                  "comfortable, possible"
+                ]
+              },
+              {
+                "cells": [
+                  "-ate у глагола",
+                  "[eɪt] «эйт»",
+                  "create, celebrate"
+                ]
+              },
+              {
+                "cells": [
+                  "-ate у прилагательного",
+                  "[ət]",
+                  "private, chocolate"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ударение",
+      "intro": {
+        "text": "Перед -tion, -sion, -ic, -ical, -ity ударение падает на слог прямо перед окончанием. Поэтому в однокоренных словах оно «прыгает».",
+        "highlights": [
+          {
+            "text": "на слог прямо перед окончанием",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "«прыгает»",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Ударение перед окончанием",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "С окончанием"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "ˈeducate",
+                  "eduˈcation"
+                ]
+              },
+              {
+                "cells": [
+                  "deˈcide",
+                  "deˈcision"
+                ]
+              },
+              {
+                "cells": [
+                  "eˈconomy",
+                  "ecoˈnomic"
+                ]
+              },
+              {
+                "cells": [
+                  "ˈpolitics",
+                  "poˈlitical, poliˈtician"
+                ]
+              },
+              {
+                "cells": [
+                  "ˈpossible",
+                  "possiˈbility"
+                ]
+              },
+              {
+                "cells": [
+                  "ˈphotograph",
+                  "photoˈgraphic"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Слабые гласные",
+      "intro": {
+        "text": "Безударные окончания «съедаются» до звука [ə] или [ɪ]. Если прочитать их чётко по буквам, слово станет чужим.",
+        "highlights": [
+          {
+            "text": "«съедаются»",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "по буквам",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "По буквам → как говорят",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "comfortable — «комфортэйбл»",
+              "to": "[ˈkʌmftəbl]",
+              "toColor": "good"
+            },
+            {
+              "from": "vegetable — «веджетэйбл»",
+              "to": "[ˈvedʒtəbl]",
+              "toColor": "good"
+            },
+            {
+              "from": "chocolate — «чоколэйт»",
+              "to": "[ˈtʃɒklət]",
+              "toColor": "good"
+            },
+            {
+              "from": "famous — «фэймоус»",
+              "to": "[ˈfeɪməs]",
+              "toColor": "good"
+            },
+            {
+              "from": "message — «мессэйдж»",
+              "to": "[ˈmesɪdʒ]",
+              "toColor": "good"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в окончаниях.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — частая ошибка, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "picture — [ˈpɪktjuːr]",
+              "right": "[ˈpɪktʃə]"
+            },
+            {
+              "wrong": "station — [ˈsteɪtɪon]",
+              "right": "[ˈsteɪʃn]"
+            },
+            {
+              "wrong": "village — [ˈvɪleɪdʒ]",
+              "right": "[ˈvɪlɪdʒ]"
+            },
+            {
+              "wrong": "dangerous — [ˈdeɪndʒərəʊs]",
+              "right": "[ˈdeɪndʒərəs]"
+            },
+            {
+              "wrong": "private — [ˈpraɪveɪt]",
+              "right": "[ˈpraɪvət]"
+            },
+            {
+              "wrong": "education — ударение на e-",
+              "right": "eduˈcation — на -ca-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

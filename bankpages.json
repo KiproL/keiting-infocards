@@ -1,0 +1,219 @@
+{
+  "tenseName": "В банке",
+  "route": "cards_bank",
+  "slides": [
+    {
+      "label": "Счёт и карта",
+      "intro": {
+        "text": "В банке почти все просьбы начинаются с I'd like to… — так звучит вежливо и по делу.",
+        "highlights": [
+          {
+            "text": "I'd like to…",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd like to open an account.",
+                  "Я хочу открыть счёт."
+                ]
+              },
+              {
+                "cells": [
+                  "a current / savings account",
+                  "текущий / сберегательный счёт"
+                ]
+              },
+              {
+                "cells": [
+                  "I've lost my card. Can you block it?",
+                  "Я потерял карту. Можете заблокировать?"
+                ]
+              },
+              {
+                "cells": [
+                  "My card has been blocked.",
+                  "Мою карту заблокировали."
+                ]
+              },
+              {
+                "cells": [
+                  "What's my balance?",
+                  "Сколько у меня на счёте?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I order a new card?",
+                  "Можно заказать новую карту?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Деньги",
+      "intro": {
+        "text": "Слова, без которых не обойтись в банке и у банкомата.",
+        "highlights": [
+          {
+            "text": "у банкомата",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "withdraw cash",
+                  "снять наличные"
+                ]
+              },
+              {
+                "cells": [
+                  "pay in, deposit",
+                  "положить на счёт"
+                ]
+              },
+              {
+                "cells": [
+                  "transfer money",
+                  "перевести деньги"
+                ]
+              },
+              {
+                "cells": [
+                  "exchange rate",
+                  "курс обмена"
+                ]
+              },
+              {
+                "cells": [
+                  "fee",
+                  "комиссия"
+                ]
+              },
+              {
+                "cells": [
+                  "PIN",
+                  "пин-код"
+                ]
+              },
+              {
+                "cells": [
+                  "cash machine, ATM",
+                  "банкомат"
+                ]
+              },
+              {
+                "cells": [
+                  "loan / mortgage",
+                  "кредит / ипотека"
+                ]
+              },
+              {
+                "cells": [
+                  "interest rate",
+                  "процентная ставка"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I'd like to change 200 euros into dollars.",
+              "ru": "Я хочу поменять 200 евро на доллары."
+            },
+            {
+              "en": "Is there a fee for this?",
+              "ru": "За это есть комиссия?"
+            },
+            {
+              "en": "The cash machine kept my card.",
+              "ru": "Банкомат не вернул карту."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I want to take off money.",
+              "right": "I'd like to withdraw some money."
+            },
+            {
+              "wrong": "What is the course?",
+              "right": "What's the exchange rate?"
+            },
+            {
+              "wrong": "My credit is 1,000 dollars. (о долге)",
+              "right": "I have a loan of 1,000 dollars."
+            },
+            {
+              "wrong": "Give me money from my account.",
+              "right": "I'd like to withdraw money from my account."
+            },
+            {
+              "wrong": "The commission is big.",
+              "right": "The fee is high."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

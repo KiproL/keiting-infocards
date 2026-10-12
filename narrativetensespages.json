@@ -1,0 +1,282 @@
+{
+  "tenseName": "Как рассказывать историю",
+  "route": "cards_narrativetenses",
+  "slides": [
+    {
+      "label": "Четыре времени",
+      "intro": {
+        "text": "В рассказе о прошлом работают четыре времени: Past Simple двигает сюжет, Past Continuous рисует фон, Past Perfect возвращает ещё дальше в прошлое, Past Perfect Continuous — о том, что длилось до момента.",
+        "highlights": [
+          {
+            "text": "Past Simple",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Past Continuous",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Past Perfect",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Кто за что отвечает",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Время",
+              "Роль",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Past Simple",
+                  "события по порядку",
+                  "I opened the door and saw him."
+                ]
+              },
+              {
+                "cells": [
+                  "Past Continuous",
+                  "фон: что происходило",
+                  "It was raining and people were hurrying home."
+                ]
+              },
+              {
+                "cells": [
+                  "Past Perfect",
+                  "что случилось ещё раньше",
+                  "He had already left."
+                ]
+              },
+              {
+                "cells": [
+                  "Past Perfect Continuous",
+                  "что длилось до момента",
+                  "I had been waiting for an hour."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Все вместе",
+      "intro": {
+        "text": "В одной истории — все четыре времени. Посмотри, как каждое делает свою работу.",
+        "highlights": [
+          {
+            "text": "все четыре времени",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Маленький рассказ",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "It was a cold evening and snow was falling.",
+              "ru": "Фон — was falling (Past Continuous)"
+            },
+            {
+              "en": "I had been walking for hours",
+              "ru": "Длилось до момента — Past Perfect Continuous"
+            },
+            {
+              "en": "when I finally saw a small hotel.",
+              "ru": "Событие — Past Simple"
+            },
+            {
+              "en": "I knocked, and an old man opened the door.",
+              "ru": "События по порядку — Past Simple"
+            },
+            {
+              "en": "He said that the last guest had left a week before.",
+              "ru": "Ещё раньше — Past Perfect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Связки",
+      "intro": {
+        "text": "Связки держат порядок событий и подсказывают время.",
+        "highlights": [
+          {
+            "text": "порядок событий",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Связки",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Связка",
+              "Что после",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "while",
+                  "Past Continuous",
+                  "While I was cooking, the phone rang."
+                ]
+              },
+              {
+                "cells": [
+                  "when",
+                  "Past Simple",
+                  "When I got home, I called her."
+                ]
+              },
+              {
+                "cells": [
+                  "as soon as",
+                  "сразу после",
+                  "As soon as he saw me, he smiled."
+                ]
+              },
+              {
+                "cells": [
+                  "by the time",
+                  "Past Perfect в главной части",
+                  "By the time we arrived, the film had started."
+                ]
+              },
+              {
+                "cells": [
+                  "suddenly",
+                  "неожиданный поворот",
+                  "Suddenly, the lights went out."
+                ]
+              },
+              {
+                "cells": [
+                  "in the end",
+                  "развязка",
+                  "In the end, we found the way."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Бывало",
+      "intro": {
+        "text": "О том, что бывало регулярно, рассказывают через used to и would: When I was a kid, I used to play outside all day. Would — только о действиях, не о состояниях.",
+        "highlights": [
+          {
+            "text": "used to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "would",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "не о состояниях",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как сказать «бывало»",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "used to + глагол",
+              "suffix": "привычки и состояния",
+              "example": "I used to live in Kazan."
+            },
+            {
+              "name": "would + глагол",
+              "suffix": "только повторявшиеся действия",
+              "example": "Every summer we would go to the sea."
+            },
+            {
+              "name": "Past Simple",
+              "suffix": "тоже можно, если ясно из контекста",
+              "example": "We went to the sea every summer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в рассказах о прошлом.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "When I came, he already left.",
+              "right": "When I came, he had already left."
+            },
+            {
+              "wrong": "While I cooked, the phone was ringing.",
+              "right": "While I was cooking, the phone rang."
+            },
+            {
+              "wrong": "I was knowing him for years.",
+              "right": "I had known him for years."
+            },
+            {
+              "wrong": "I would live in Kazan as a child.",
+              "right": "I used to live in Kazan as a child."
+            },
+            {
+              "wrong": "At the end, we found the way.",
+              "right": "In the end, we found the way."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

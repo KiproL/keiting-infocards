@@ -1,0 +1,589 @@
+{
+  "tenseName": "Инфинитив",
+  "route": "cards_infinitive",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Инфинитив — начальная форма глагола. Он бывает с частицей to (to work) и без неё (work). Почти всегда нужен to; без него — после модальных глаголов и нескольких особых слов.",
+        "highlights": [
+          {
+            "text": "Инфинитив",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "с частицей to",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "без неё",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Две формы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                {
+                  "text": "to",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол",
+                  "color": "info"
+                }
+              ],
+              "accentColor": "term"
+            },
+            {
+              "parts": [
+                {
+                  "text": "can / must / make",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол",
+                  "color": "info"
+                }
+              ],
+              "accentColor": "example"
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I want to sleep.",
+              "ru": "Я хочу спать."
+            },
+            {
+              "en": "You must go.",
+              "ru": "Ты должен идти."
+            },
+            {
+              "en": "It's nice to see you.",
+              "ru": "Приятно тебя видеть."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "После глаголов",
+      "intro": {
+        "text": "После многих глаголов второй глагол идёт с to. Их проще выучить списком — это самые частые.",
+        "highlights": [
+          {
+            "text": "с to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "списком",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глагол + to do",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "want, would like",
+                  "I want to travel."
+                ]
+              },
+              {
+                "cells": [
+                  "decide",
+                  "We decided to stay."
+                ]
+              },
+              {
+                "cells": [
+                  "hope, plan",
+                  "I hope to see you soon."
+                ]
+              },
+              {
+                "cells": [
+                  "agree, refuse",
+                  "He refused to help."
+                ]
+              },
+              {
+                "cells": [
+                  "learn",
+                  "She's learning to drive."
+                ]
+              },
+              {
+                "cells": [
+                  "promise",
+                  "I promise to call."
+                ]
+              },
+              {
+                "cells": [
+                  "manage — суметь",
+                  "We managed to find it."
+                ]
+              },
+              {
+                "cells": [
+                  "forget, remember",
+                  "Don't forget to lock the door."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Смысл меняется",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Remember, forget, stop, try",
+            "text": "С -ing эти глаголы значат другое: remember to lock — не забыть запереть, remember locking — помнить, что запер. Подробнее — в карточке «Герундий»."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Без to",
+      "intro": {
+        "text": "Без to инфинитив стоит после модальных глаголов, после make и let и в нескольких устойчивых выражениях.",
+        "highlights": [
+          {
+            "text": "Без to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "make и let",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Где to не нужен",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "can, must, should, will, might",
+              "suffix": "модальные",
+              "example": "You should rest."
+            },
+            {
+              "name": "make + кто-то",
+              "suffix": "заставить",
+              "example": "She made me laugh."
+            },
+            {
+              "name": "let + кто-то",
+              "suffix": "позволить",
+              "example": "Let me help you."
+            },
+            {
+              "name": "had better",
+              "suffix": "лучше бы",
+              "example": "You'd better go."
+            },
+            {
+              "name": "would rather",
+              "suffix": "предпочёл бы",
+              "example": "I'd rather stay."
+            },
+            {
+              "name": "why not",
+              "suffix": "почему бы не",
+              "example": "Why not ask him?"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "И так, и так",
+            "text": "После help to можно ставить, а можно нет: Help me (to) carry this. Без to — чаще."
+          }
+        },
+        {
+          "title": "Пассив",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "To возвращается",
+            "text": "В пассиве после make to нужен: They made me wait → I was made to wait."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Цель: чтобы",
+      "intro": {
+        "text": "To сам по себе значит «чтобы»: I came to help — я пришёл, чтобы помочь. For здесь не ставят.",
+        "highlights": [
+          {
+            "text": "«чтобы»",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "For здесь не ставят",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I went to the shop to buy milk.",
+              "ru": "Я пошёл в магазин, чтобы купить молоко."
+            },
+            {
+              "en": "She's saving money to buy a car.",
+              "ru": "Она копит, чтобы купить машину."
+            },
+            {
+              "en": "I called to say thank you.",
+              "ru": "Я позвонил, чтобы сказать спасибо."
+            },
+            {
+              "en": "To be honest, I don't like it.",
+              "ru": "Честно говоря, мне не нравится."
+            }
+          ]
+        },
+        {
+          "title": "Чтобы не",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Отрицание цели",
+            "text": "«Чтобы не опоздать» — so as not to be late или in order not to be late: I left early so as not to be late."
+          }
+        }
+      ]
+    },
+    {
+      "label": "После прилагательных",
+      "intro": {
+        "text": "Инфинитив ставят после прилагательных (happy to help), после too и enough и после вопросительных слов (what to do).",
+        "highlights": [
+          {
+            "text": "после прилагательных",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "too и enough",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "вопросительных слов",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Конструкции",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Схема",
+              "Пример",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "прилагательное + to",
+                  "Nice to meet you.",
+                  "Приятно познакомиться."
+                ]
+              },
+              {
+                "cells": [
+                  "It's + прил. + to",
+                  "It's hard to say.",
+                  "Трудно сказать."
+                ]
+              },
+              {
+                "cells": [
+                  "too + прил. + to",
+                  "It's too cold to swim.",
+                  "Слишком холодно, чтобы купаться."
+                ]
+              },
+              {
+                "cells": [
+                  "прил. + enough + to",
+                  "He's old enough to drive.",
+                  "Он достаточно взрослый, чтобы водить."
+                ]
+              },
+              {
+                "cells": [
+                  "what / how / where + to",
+                  "I don't know what to do.",
+                  "Не знаю, что делать."
+                ]
+              },
+              {
+                "cells": [
+                  "the first / last + to",
+                  "She was the first to arrive.",
+                  "Она пришла первой."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Хочу, чтобы ты…",
+      "intro": {
+        "text": "«Хочу, чтобы ты пришёл» по-английски — без «что» и «чтобы»: I want you to come. Так же после ask, tell, expect, would like: объект + to do.",
+        "highlights": [
+          {
+            "text": "I want you to come",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "объект + to do",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Схема",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "want / ask / tell",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "you / him / her",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "to do",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I'd like you to meet my sister.",
+              "ru": "Я хочу познакомить тебя с сестрой."
+            },
+            {
+              "en": "He asked me to wait.",
+              "ru": "Он попросил меня подождать."
+            },
+            {
+              "en": "The doctor told her to rest.",
+              "ru": "Врач велел ей отдыхать."
+            },
+            {
+              "en": "Tell him not to be late.",
+              "ru": "Скажи ему не опаздывать. (not — перед to)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Формы инфинитива",
+      "intro": {
+        "text": "Кроме простого to do, у инфинитива есть формы для процесса, прошлого и пассива. Чаще всего они встречаются после seem, appear, be said и модальных глаголов.",
+        "highlights": [
+          {
+            "text": "процесса",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "прошлого",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "пассива",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Форма",
+              "Пример",
+              "Смысл"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "to do",
+                  "He seems to know her.",
+                  "сейчас, вообще"
+                ]
+              },
+              {
+                "cells": [
+                  "to be doing",
+                  "He seems to be sleeping.",
+                  "процесс прямо сейчас"
+                ]
+              },
+              {
+                "cells": [
+                  "to have done",
+                  "He seems to have left.",
+                  "уже случилось раньше"
+                ]
+              },
+              {
+                "cells": [
+                  "to be done",
+                  "It needs to be done today.",
+                  "пассив"
+                ]
+              },
+              {
+                "cells": [
+                  "to have been done",
+                  "It's said to have been built in 1500.",
+                  "пассив в прошлом"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с инфинитивом.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I want that you come.",
+              "right": "I want you to come."
+            },
+            {
+              "wrong": "I came for to help.",
+              "right": "I came to help."
+            },
+            {
+              "wrong": "You must to go.",
+              "right": "You must go."
+            },
+            {
+              "wrong": "She made me to laugh.",
+              "right": "She made me laugh."
+            },
+            {
+              "wrong": "I don't know what do.",
+              "right": "I don't know what to do."
+            },
+            {
+              "wrong": "He decided don't go.",
+              "right": "He decided not to go."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

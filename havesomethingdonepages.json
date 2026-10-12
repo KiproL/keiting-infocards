@@ -1,0 +1,245 @@
+{
+  "tenseName": "Have something done",
+  "route": "cards_havesomethingdone",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Have something done — когда работу делает кто-то другой для тебя: I had my hair cut — меня подстригли. Без этой конструкции выйдет, будто ты всё сделал сам.",
+        "highlights": [
+          {
+            "text": "Have something done",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "кто-то другой",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "сделал сам",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Схема",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "have",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "что",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сам или кто-то",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "I cut my hair. — подстригся сам",
+              "to": "I had my hair cut. — в парикмахерской",
+              "toColor": "good"
+            },
+            {
+              "from": "I'm repairing my car. — чиню сам",
+              "to": "I'm having my car repaired. — мне чинят",
+              "toColor": "good"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Во всех временах",
+      "intro": {
+        "text": "Время меняется только у have, а V3 остаётся: I have / had / will have / am having my car repaired.",
+        "highlights": [
+          {
+            "text": "только у have",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "V3 остаётся",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Время",
+              "Пример",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Present Simple",
+                  "I have my nails done every month.",
+                  "Мне делают маникюр каждый месяц."
+                ]
+              },
+              {
+                "cells": [
+                  "Present Continuous",
+                  "We're having the kitchen painted.",
+                  "Нам красят кухню."
+                ]
+              },
+              {
+                "cells": [
+                  "Past Simple",
+                  "She had her phone repaired.",
+                  "Ей починили телефон."
+                ]
+              },
+              {
+                "cells": [
+                  "Present Perfect",
+                  "I've just had my eyes tested.",
+                  "Мне только что проверили зрение."
+                ]
+              },
+              {
+                "cells": [
+                  "Future",
+                  "I'll have it delivered tomorrow.",
+                  "Мне это доставят завтра."
+                ]
+              },
+              {
+                "cells": [
+                  "с модальными",
+                  "You should have your teeth checked.",
+                  "Тебе стоит проверить зубы."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Get something done",
+      "intro": {
+        "text": "В разговоре вместо have часто говорят get: I need to get my hair cut. Смысл тот же, звучит чуть проще.",
+        "highlights": [
+          {
+            "text": "get",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Смысл тот же",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Where did you get your car fixed?",
+              "ru": "Где тебе чинили машину?"
+            },
+            {
+              "en": "I must get this dress cleaned.",
+              "ru": "Надо отдать платье в чистку."
+            },
+            {
+              "en": "We're getting the house painted.",
+              "ru": "Нам красят дом."
+            }
+          ]
+        },
+        {
+          "title": "Неприятность",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Не только услуги",
+            "text": "Конструкция бывает и о том, что случилось против твоей воли: She had her bag stolen — у неё украли сумку."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с have something done.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I cut my hair at the hairdresser's.",
+              "right": "I had my hair cut at the hairdresser's."
+            },
+            {
+              "wrong": "I had repaired my car. (мне починили)",
+              "right": "I had my car repaired."
+            },
+            {
+              "wrong": "I'm having repaired my car.",
+              "right": "I'm having my car repaired."
+            },
+            {
+              "wrong": "I had stolen my bag.",
+              "right": "I had my bag stolen."
+            },
+            {
+              "wrong": "I want to make my nails.",
+              "right": "I want to have my nails done."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

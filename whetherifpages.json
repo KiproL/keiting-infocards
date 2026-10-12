@@ -1,0 +1,208 @@
+{
+  "tenseName": "Whether или if",
+  "route": "cards_whetherif",
+  "slides": [
+    {
+      "label": "«Ли»",
+      "intro": {
+        "text": "Русское «ли» в косвенном вопросе — это if или whether: I don't know if he's coming — не знаю, придёт ли он. Порядок слов — как в утверждении.",
+        "highlights": [
+          {
+            "text": "«ли»",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "if или whether",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "как в утверждении",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Схема",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "I don't know / ask",
+                "color": "muted"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "if / whether",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "подлежащее + глагол",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Ask her if she needs help.",
+              "ru": "Спроси её, нужна ли ей помощь."
+            },
+            {
+              "en": "I'm not sure whether it's true.",
+              "ru": "Не уверен, правда ли это."
+            },
+            {
+              "en": "Do you know if the shop is open?",
+              "ru": "Не знаешь, открыт ли магазин?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Только whether",
+      "intro": {
+        "text": "Обычно if и whether взаимозаменяемы, но в нескольких местах подходит только whether.",
+        "highlights": [
+          {
+            "text": "только whether",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Где нужен whether",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "после предлога",
+              "suffix": "только whether",
+              "example": "It depends on whether it rains."
+            },
+            {
+              "name": "перед to do",
+              "suffix": "только whether",
+              "example": "I can't decide whether to go."
+            },
+            {
+              "name": "в начале предложения",
+              "suffix": "только whether",
+              "example": "Whether he comes isn't important."
+            },
+            {
+              "name": "сразу с or not",
+              "suffix": "только whether",
+              "example": "I don't know whether or not to stay."
+            },
+            {
+              "name": "or not в конце",
+              "suffix": "оба",
+              "example": "I don't know if he's coming or not."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "If: «если» или «ли»",
+      "intro": {
+        "text": "If бывает и «если», и «ли». После «если» будущее время не ставят, а после «ли» — можно: I don't know if he will come.",
+        "highlights": [
+          {
+            "text": "«если»",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "«ли»",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "If he comes, I'll tell him.",
+              "ru": "Если он придёт, я ему скажу. (условие — без will)"
+            },
+            {
+              "en": "I don't know if he'll come.",
+              "ru": "Не знаю, придёт ли он. (вопрос — will можно)"
+            }
+          ]
+        },
+        {
+          "title": "В письме",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Чтобы не спутать",
+            "text": "Если if можно понять и как «если», и как «ли», пиши whether — двусмысленности не будет."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с whether и if.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I don't know does he like it.",
+              "right": "I don't know if he likes it."
+            },
+            {
+              "wrong": "Ask him is he ready.",
+              "right": "Ask him if he's ready."
+            },
+            {
+              "wrong": "I'm not sure if to go.",
+              "right": "I'm not sure whether to go."
+            },
+            {
+              "wrong": "It depends on if we have time.",
+              "right": "It depends on whether we have time."
+            },
+            {
+              "wrong": "Tell me whether is it true.",
+              "right": "Tell me whether it is true."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

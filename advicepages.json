@@ -1,0 +1,252 @@
+{
+  "tenseName": "Как дать совет",
+  "route": "cards_advice",
+  "slides": [
+    {
+      "label": "От мягкого к строгому",
+      "intro": {
+        "text": "Совет в английском почти всегда смягчают. You must… звучит как приказ; обычный совет — You should… или Why don't you…?",
+        "highlights": [
+          {
+            "text": "как приказ",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "You should…",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сила совета",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Как звучит",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "You could…",
+                  "мягко, как вариант",
+                  "You could try yoga."
+                ]
+              },
+              {
+                "cells": [
+                  "Why don't you…?",
+                  "по-дружески",
+                  "Why don't you call her?"
+                ]
+              },
+              {
+                "cells": [
+                  "You should…",
+                  "обычный совет",
+                  "You should see a doctor."
+                ]
+              },
+              {
+                "cells": [
+                  "If I were you, I'd…",
+                  "на твоём месте",
+                  "If I were you, I'd take the job."
+                ]
+              },
+              {
+                "cells": [
+                  "You'd better…",
+                  "строго: иначе будет плохо",
+                  "You'd better hurry."
+                ]
+              },
+              {
+                "cells": [
+                  "You must…",
+                  "очень строго, почти приказ",
+                  "You must stop smoking."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Попросить совета",
+      "intro": {
+        "text": "Попросить совета можно прямо или через вопрос «а ты бы как поступил?».",
+        "highlights": [
+          {
+            "text": "прямо",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "What should I do?",
+                  "Что мне делать?"
+                ]
+              },
+              {
+                "cells": [
+                  "What would you do?",
+                  "А ты бы как поступил?"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you think I should…?",
+                  "Думаешь, мне стоит…?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I ask your advice?",
+                  "Можно с тобой посоветоваться?"
+                ]
+              },
+              {
+                "cells": [
+                  "Any ideas?",
+                  "Есть идеи?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ответить на совет",
+      "intro": {
+        "text": "На совет отвечают благодарностью — даже если не собираешься ему следовать.",
+        "highlights": [
+          {
+            "text": "благодарностью",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Принять или отказаться",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "That's a good idea, thanks.",
+                  "Хорошая идея, спасибо."
+                ]
+              },
+              {
+                "cells": [
+                  "I'll give it a try.",
+                  "Попробую."
+                ]
+              },
+              {
+                "cells": [
+                  "Thanks, I'll think about it.",
+                  "Спасибо, подумаю."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm not sure that would work.",
+                  "Не уверен, что это сработает."
+                ]
+              },
+              {
+                "cells": [
+                  "I've already tried that.",
+                  "Я уже пробовал."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Can you give me an advice?",
+              "right": "Can you give me some advice? (advice — неисчисляемое)"
+            },
+            {
+              "wrong": "You should to rest.",
+              "right": "You should rest."
+            },
+            {
+              "wrong": "Why you don't call her?",
+              "right": "Why don't you call her?"
+            },
+            {
+              "wrong": "I advise you go.",
+              "right": "I advise you to go."
+            },
+            {
+              "wrong": "You had better to go.",
+              "right": "You'd better go."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
