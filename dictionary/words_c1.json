@@ -460,7 +460,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "арендаторы"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "жилец, хозяин",
+    "topic": "Дом",
+    "members": [
+     {
+      "word": "tenant",
+      "note": "Тот, кто снимает жильё.",
+      "example": "The tenants pay rent every month.",
+      "exampleRu": "Жильцы платят аренду каждый месяц.",
+      "ru": "арендатор, жилец",
+      "pos": "сущ."
+     },
+     {
+      "word": "landlord",
+      "note": "Тот, кто сдаёт жильё (женщина — landlady).",
+      "example": "Our landlord raised the rent.",
+      "exampleRu": "Хозяин квартиры поднял плату.",
+      "ru": "арендодатель",
+      "pos": "сущ."
+     },
+     {
+      "word": "owner",
+      "note": "Владелец вообще — чего угодно.",
+      "example": "Who is the owner of this car?",
+      "exampleRu": "Чья это машина?",
+      "ru": "владелец",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I rent a flat, and my ___ lives upstairs.",
+      "answer": "landlord",
+      "base": "landlord",
+      "ru": "Я снимаю квартиру, а хозяин живёт этажом выше.",
+      "why": "Тот, кто сдаёт, — landlord."
+     },
+     {
+      "sentence": "The new ___ moves in next week.",
+      "answer": "tenant",
+      "base": "tenant",
+      "ru": "Новый жилец въезжает на следующей неделе.",
+      "why": "Тот, кто снимает, — tenant."
+     },
+     {
+      "sentence": "The ___ of the dog must clean up after it.",
+      "answer": "owner",
+      "base": "owner",
+      "ru": "Хозяин собаки обязан за ней убирать.",
+      "why": "Владелец — owner."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_thrilled",
@@ -544,7 +600,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "вердикты"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "приговор, решение",
+    "topic": "Право",
+    "members": [
+     {
+      "word": "verdict",
+      "note": "Решение присяжных: виновен или нет.",
+      "example": "The jury reached a verdict of guilty.",
+      "exampleRu": "Присяжные вынесли вердикт «виновен».",
+      "ru": "вердикт",
+      "pos": "сущ."
+     },
+     {
+      "word": "sentence",
+      "note": "Наказание, которое назначил судья.",
+      "example": "He got a ten-year sentence.",
+      "exampleRu": "Ему дали десять лет.",
+      "ru": "приговор, срок",
+      "pos": "сущ."
+     },
+     {
+      "word": "judgement",
+      "note": "Суждение, умение оценивать; ещё решение суда.",
+      "example": "I trust your judgement.",
+      "exampleRu": "Я доверяю твоему мнению.",
+      "ru": "суждение",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The judge gave him a ___ of five years in prison.",
+      "answer": "sentence",
+      "base": "sentence",
+      "ru": "Судья приговорил его к пяти годам тюрьмы.",
+      "why": "Срок наказания — sentence."
+     },
+     {
+      "sentence": "After two days, the jury returned a ___ of \"not guilty\".",
+      "answer": "verdict",
+      "base": "verdict",
+      "ru": "Через два дня присяжные вынесли вердикт «невиновен».",
+      "why": "Решение присяжных — verdict."
+     },
+     {
+      "sentence": "Use your own ___ — I can't decide for you.",
+      "answer": "judgement",
+      "base": "judgement",
+      "ru": "Решай сам — я не могу решить за тебя.",
+      "why": "Собственное суждение — judgement."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_advocate",
@@ -1214,6 +1326,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "тщательный",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "careful",
+      "note": "Осторожный, внимательный — обычное слово.",
+      "example": "Be careful with that knife.",
+      "exampleRu": "Осторожно с ножом.",
+      "ru": "осторожный, аккуратный",
+      "pos": "прил."
+     },
+     {
+      "word": "thorough",
+      "note": "Ничего не пропускает, доводит до конца.",
+      "example": "The police made a thorough search.",
+      "exampleRu": "Полиция провела тщательный обыск.",
+      "ru": "основательный",
+      "pos": "прил."
+     },
+     {
+      "word": "meticulous",
+      "note": "Внимателен к каждой мелочи.",
+      "example": "She keeps meticulous records.",
+      "exampleRu": "Она ведёт записи с дотошной точностью.",
+      "ru": "дотошный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Be ___ — the floor is wet.",
+      "answer": "careful",
+      "base": "careful",
+      "ru": "Осторожно — пол мокрый.",
+      "why": "«Осторожно» — careful."
+     },
+     {
+      "sentence": "He's ___ about details: every comma must be in its place.",
+      "answer": "meticulous",
+      "base": "meticulous",
+      "ru": "Он дотошен в мелочах: каждая запятая на своём месте.",
+      "why": "Каждая мелочь — meticulous."
+     },
+     {
+      "sentence": "The doctor gave me a ___ examination.",
+      "answer": "thorough",
+      "base": "thorough",
+      "ru": "Врач тщательно меня осмотрел.",
+      "why": "Полностью, ничего не пропуская, — thorough."
+     }
+    ]
+   },
+   {
     "kind": "antonym",
     "ru": "дотошный",
     "members": [
@@ -1363,6 +1529,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "неохотный",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "reluctant",
+      "note": "Не хочет, но может всё-таки сделать: reluctant to do.",
+      "example": "He was reluctant to admit his mistake.",
+      "exampleRu": "Ему не хотелось признавать ошибку.",
+      "ru": "неохотный",
+      "pos": "прил."
+     },
+     {
+      "word": "unwilling",
+      "note": "Не хочет и не собирается.",
+      "example": "She's unwilling to change her mind.",
+      "exampleRu": "Она не желает передумать.",
+      "ru": "не желающий",
+      "pos": "прил."
+     },
+     {
+      "word": "reticent",
+      "note": "Не любит рассказывать о себе — не путай с reluctant!",
+      "example": "He's reticent about his private life.",
+      "exampleRu": "Он не распространяется о личной жизни.",
+      "ru": "сдержанный, скрытный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She's very ___ about her past — she never talks about it.",
+      "answer": "reticent",
+      "base": "reticent",
+      "ru": "Она очень скрытна насчёт прошлого — никогда о нём не говорит.",
+      "why": "Не рассказывает о себе — reticent."
+     },
+     {
+      "sentence": "I was ___ to lend him money, but in the end I did.",
+      "answer": "reluctant",
+      "base": "reluctant",
+      "ru": "Мне не хотелось давать ему в долг, но в итоге я дал.",
+      "why": "Неохотно, но сделал — reluctant."
+     },
+     {
+      "sentence": "He is completely ___ to compromise, so the talks failed.",
+      "answer": "unwilling",
+      "base": "unwilling",
+      "ru": "Он наотрез не готов к компромиссу, поэтому переговоры провалились.",
+      "why": "Не желает вовсе — unwilling."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -1439,7 +1659,63 @@
    }
   ],
   "countable": "uncountable",
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "сочувствие",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "sympathy",
+      "note": "Жалеешь человека; соболезнования.",
+      "example": "You have my sympathy.",
+      "exampleRu": "Я вам сочувствую.",
+      "ru": "сочувствие, соболезнование",
+      "pos": "сущ."
+     },
+     {
+      "word": "empathy",
+      "note": "Умеешь почувствовать то же, что другой.",
+      "example": "Good doctors need empathy.",
+      "exampleRu": "Хорошим врачам нужна эмпатия.",
+      "ru": "эмпатия",
+      "pos": "сущ."
+     },
+     {
+      "word": "compassion",
+      "note": "Сострадание и желание помочь.",
+      "example": "She showed great compassion for the poor.",
+      "exampleRu": "Она проявила большое сострадание к бедным.",
+      "ru": "сострадание",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Please accept our deepest ___ on the loss of your father.",
+      "answer": "sympathy",
+      "base": "sympathy",
+      "ru": "Примите наши глубочайшие соболезнования в связи с утратой отца.",
+      "why": "Соболезнования — sympathy."
+     },
+     {
+      "sentence": "Having been through it herself, she feels real ___ for other young mothers.",
+      "answer": "empathy",
+      "base": "empathy",
+      "ru": "Сама через это пройдя, она по-настоящему понимает других молодых мам.",
+      "why": "Чувствует то же — empathy."
+     },
+     {
+      "sentence": "The nurses treated the refugees with great ___.",
+      "answer": "compassion",
+      "base": "compassion",
+      "ru": "Медсёстры относились к беженцам с огромным состраданием.",
+      "why": "Сострадание и помощь — compassion."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_endeavour",
@@ -1533,7 +1809,63 @@
   "formsRu": {
    "comparative": "более осуществимый",
    "superlative": "самый осуществимый"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "осуществимый",
+    "topic": "Планы",
+    "members": [
+     {
+      "word": "possible",
+      "note": "Возможный вообще.",
+      "example": "Is it possible to change the date?",
+      "exampleRu": "Можно поменять дату?",
+      "ru": "возможный",
+      "pos": "прил."
+     },
+     {
+      "word": "feasible",
+      "note": "Реально выполнить с тем, что есть: временем, людьми, деньгами.",
+      "example": "The plan is not feasible without more money.",
+      "exampleRu": "Без денег план неосуществим.",
+      "ru": "осуществимый",
+      "pos": "прил."
+     },
+     {
+      "word": "viable",
+      "note": "Будет работать и окупаться долго.",
+      "example": "Is the business commercially viable?",
+      "exampleRu": "Бизнес коммерчески жизнеспособен?",
+      "ru": "жизнеспособный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "With only three people, it's not ___ to finish the project in two weeks.",
+      "answer": "feasible",
+      "base": "feasible",
+      "ru": "Втроём закончить проект за две недели нереально.",
+      "why": "Выполнимо ли с ресурсами — feasible."
+     },
+     {
+      "sentence": "Small shops are no longer economically ___ in this area.",
+      "answer": "viable",
+      "base": "viable",
+      "ru": "Маленькие магазины в этом районе больше не окупаются.",
+      "why": "Экономически жизнеспособный — viable."
+     },
+     {
+      "sentence": "Come as soon as ___.",
+      "answer": "possible",
+      "base": "possible",
+      "ru": "Приходи как можно скорее.",
+      "why": "Устойчивое as soon as possible."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_viable",
@@ -1775,7 +2107,63 @@
    "past": "ухудшался, ухудшился",
    "participle": "ухудшившийся · perfect: ухудшился",
    "ing": "ухудшение; ухудшающийся"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "ухудшаться",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "get worse",
+      "note": "Разговорно — становиться хуже.",
+      "example": "The weather is getting worse.",
+      "exampleRu": "Погода портится.",
+      "ru": "ухудшаться",
+      "pos": "гл."
+     },
+     {
+      "word": "deteriorate",
+      "note": "Официально, постепенно: здоровье, отношения, качество.",
+      "example": "His health deteriorated quickly.",
+      "exampleRu": "Его здоровье быстро ухудшилось.",
+      "ru": "ухудшаться",
+      "pos": "гл."
+     },
+     {
+      "word": "worsen",
+      "note": "Бывает с дополнением: worsen the situation.",
+      "example": "The new rules will worsen the problem.",
+      "exampleRu": "Новые правила усугубят проблему.",
+      "ru": "ухудшать(ся)",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Relations between the two countries have ___ since the war.",
+      "answer": "deteriorated",
+      "base": "deteriorate",
+      "ru": "Отношения между странами ухудшились после войны.",
+      "why": "Официально, о постепенном — deteriorate."
+     },
+     {
+      "sentence": "My headache is ___ — I'll take a pill.",
+      "answer": "getting worse",
+      "base": "get worse",
+      "ru": "Голова болит всё сильнее — выпью таблетку.",
+      "why": "Разговорно — get worse."
+     },
+     {
+      "sentence": "Strong coffee can ___ the symptoms.",
+      "answer": "worsen",
+      "base": "worsen",
+      "ru": "Крепкий кофе может усилить симптомы.",
+      "why": "С дополнением — worsen."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_alleviate",
@@ -2434,6 +2822,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "устаревший",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "old-fashioned",
+      "note": "Немодный, из прошлого — о вещах и взглядах.",
+      "example": "My grandpa has old-fashioned ideas.",
+      "exampleRu": "У дедушки старомодные взгляды.",
+      "ru": "старомодный",
+      "pos": "прил."
+     },
+     {
+      "word": "outdated",
+      "note": "Уже не актуальный, хотя иногда ещё используется.",
+      "example": "The information on this website is outdated.",
+      "exampleRu": "Информация на сайте устарела.",
+      "ru": "устаревший",
+      "pos": "прил."
+     },
+     {
+      "word": "obsolete",
+      "note": "Совсем вышел из употребления — замену уже нашли.",
+      "example": "Typewriters are obsolete now.",
+      "exampleRu": "Пишущие машинки теперь никому не нужны.",
+      "ru": "вышедший из употребления",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She wears ___ clothes, like in the 1950s.",
+      "answer": "old-fashioned",
+      "base": "old-fashioned",
+      "ru": "Она носит старомодную одежду, как в 1950-х.",
+      "why": "Немодный — old-fashioned."
+     },
+     {
+      "sentence": "Floppy disks became ___ years ago.",
+      "answer": "obsolete",
+      "base": "obsolete",
+      "ru": "Дискеты давно вышли из употребления.",
+      "why": "Полностью исчезли — obsolete."
+     },
+     {
+      "sentence": "This map is ___ — some streets have new names.",
+      "answer": "outdated",
+      "base": "outdated",
+      "ru": "Эта карта устарела — у некоторых улиц новые названия.",
+      "why": "Не актуальна — outdated."
+     }
+    ]
+   },
+   {
     "kind": "antonym",
     "ru": "устаревший",
     "members": [
@@ -2528,7 +2970,63 @@
     "exampleTranslation": "Шёл дождь; тем не менее мы вышли."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "однако, тем не менее",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "however",
+      "note": "Однако — самое частое. Противопоставляет; стоит в начале фразы или в середине с запятыми.",
+      "example": "However, there is a problem.",
+      "exampleRu": "Однако есть проблема.",
+      "ru": "однако",
+      "pos": "нареч."
+     },
+     {
+      "word": "nevertheless",
+      "note": "Несмотря на сказанное — всё равно. Формальнее.",
+      "example": "It was raining. Nevertheless, we went out.",
+      "exampleRu": "Шёл дождь. Тем не менее мы вышли.",
+      "ru": "тем не менее",
+      "pos": "нареч."
+     },
+     {
+      "word": "although",
+      "note": "Соединяет две части одной фразы.",
+      "example": "Although it was late, he called.",
+      "exampleRu": "Хотя было поздно, он позвонил.",
+      "ru": "хотя",
+      "pos": "союз"
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "___ she was tired, she kept working.",
+      "answer": "Although",
+      "base": "although",
+      "ru": "Хотя она устала, она продолжила работать.",
+      "why": "Союз внутри одной фразы — although."
+     },
+     {
+      "sentence": "Most of the plan is good. ___, the budget is too small.",
+      "answer": "However",
+      "base": "however",
+      "ru": "В целом план хороший. Однако бюджет слишком мал.",
+      "why": "Просто противопоставление — however."
+     },
+     {
+      "sentence": "He knew the trip was dangerous; ___, he decided to go.",
+      "answer": "nevertheless",
+      "base": "nevertheless",
+      "ru": "Он знал, что поездка опасна, и тем не менее решил ехать.",
+      "why": "«Несмотря на это» — nevertheless."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_albeit",
@@ -3035,7 +3533,63 @@
    "past": "откладывал на потом, тянул",
    "participle": "perfect: протянул (с делом)",
    "ing": "откладывание на потом"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "откладывать",
+    "topic": "Планы",
+    "members": [
+     {
+      "word": "postpone",
+      "note": "Официально перенести на другую дату.",
+      "example": "The match was postponed.",
+      "exampleRu": "Матч перенесли.",
+      "ru": "переносить",
+      "pos": "гл."
+     },
+     {
+      "word": "put off",
+      "note": "Разговорно: откладывать неприятное. Дальше -ing.",
+      "example": "Stop putting off your homework!",
+      "exampleRu": "Хватит откладывать домашку!",
+      "ru": "откладывать",
+      "pos": "гл."
+     },
+     {
+      "word": "procrastinate",
+      "note": "Тянуть вместо дела — без дополнения.",
+      "example": "I always procrastinate before exams.",
+      "exampleRu": "Перед экзаменами я всегда тяну до последнего.",
+      "ru": "тянуть время",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Stop ___ and start writing your essay!",
+      "answer": "procrastinating",
+      "base": "procrastinate",
+      "ru": "Хватит тянуть время, садись писать эссе!",
+      "why": "Тянуть, без дополнения, — procrastinate."
+     },
+     {
+      "sentence": "The conference has been ___ until May.",
+      "answer": "postponed",
+      "base": "postpone",
+      "ru": "Конференцию перенесли на май.",
+      "why": "Официальный перенос — postpone."
+     },
+     {
+      "sentence": "I keep ___ going to the dentist.",
+      "answer": "putting off",
+      "base": "put off",
+      "ru": "Я всё откладываю поход к стоматологу.",
+      "why": "Откладывать неприятное, дальше -ing, — put off."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_backlog",
@@ -3079,7 +3633,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "беглые взгляды"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "взгляд",
+    "topic": "Восприятие",
+    "members": [
+     {
+      "word": "glance",
+      "note": "Быстро посмотреть самому, нарочно: glance at.",
+      "example": "She glanced at her watch.",
+      "exampleRu": "Она взглянула на часы.",
+      "ru": "взглянуть",
+      "pos": "гл."
+     },
+     {
+      "word": "glimpse",
+      "note": "Увидеть мельком, на миг: catch a glimpse of.",
+      "example": "I caught a glimpse of the star.",
+      "exampleRu": "Я мельком увидел звезду.",
+      "ru": "мимолётный взгляд",
+      "pos": "сущ."
+     },
+     {
+      "word": "stare",
+      "note": "Пялиться, смотреть долго.",
+      "example": "Don't stare at people!",
+      "exampleRu": "Не пялься на людей!",
+      "ru": "пристально смотреть",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He ___ at the clock and hurried out.",
+      "answer": "glanced",
+      "base": "glance",
+      "ru": "Он бросил взгляд на часы и поспешил выйти.",
+      "why": "Нарочно взглянуть — glance at."
+     },
+     {
+      "sentence": "We only caught a ___ of the president's car.",
+      "answer": "glimpse",
+      "base": "glimpse",
+      "ru": "Мы лишь мельком увидели машину президента.",
+      "why": "Мельком увидеть — catch a glimpse."
+     },
+     {
+      "sentence": "It's rude to ___ at strangers.",
+      "answer": "stare",
+      "base": "stare",
+      "ru": "Пялиться на незнакомцев невежливо.",
+      "why": "Долго смотреть — stare."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_verge",
@@ -4763,7 +5373,63 @@
     "exampleTranslation": "Шторм вот-вот начнётся."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "неизбежный, надвигающийся",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "inevitable",
+      "note": "Не избежать — рано или поздно случится.",
+      "example": "Change is inevitable.",
+      "exampleRu": "Перемены неизбежны.",
+      "ru": "неизбежный",
+      "pos": "прил."
+     },
+     {
+      "word": "imminent",
+      "note": "Вот-вот случится, очень скоро.",
+      "example": "The storm is imminent.",
+      "exampleRu": "Шторм вот-вот начнётся.",
+      "ru": "неминуемый, близкий",
+      "pos": "прил."
+     },
+     {
+      "word": "eminent",
+      "note": "Выдающийся, известный — пишется почти так же, как imminent!",
+      "example": "An eminent scientist gave the lecture.",
+      "exampleRu": "Лекцию читал выдающийся учёный.",
+      "ru": "выдающийся",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Look at those black clouds — a storm is ___.",
+      "answer": "imminent",
+      "base": "imminent",
+      "ru": "Посмотри на эти чёрные тучи — вот-вот начнётся гроза.",
+      "why": "Вот-вот — imminent."
+     },
+     {
+      "sentence": "Getting older is ___.",
+      "answer": "inevitable",
+      "base": "inevitable",
+      "ru": "Старение неизбежно.",
+      "why": "Рано или поздно — inevitable."
+     },
+     {
+      "sentence": "She is an ___ professor of law.",
+      "answer": "eminent",
+      "base": "eminent",
+      "ru": "Она выдающийся профессор права.",
+      "why": "Выдающийся — eminent."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_innocuous",
@@ -4851,7 +5517,63 @@
   "formsRu": {
    "comparative": "более ничтожный",
    "superlative": "самый ничтожный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "незначительный",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "negligible",
+      "note": "Так мал, что не важен.",
+      "example": "The difference is negligible.",
+      "exampleRu": "Разница ничтожна.",
+      "ru": "ничтожный",
+      "pos": "прил."
+     },
+     {
+      "word": "negligent",
+      "note": "Небрежный к обязанностям — пишется похоже!",
+      "example": "The doctor was negligent.",
+      "exampleRu": "Врач проявил халатность.",
+      "ru": "халатный",
+      "pos": "прил."
+     },
+     {
+      "word": "minor",
+      "note": "Небольшой, второстепенный.",
+      "example": "It's just a minor problem.",
+      "exampleRu": "Это просто мелкая проблема.",
+      "ru": "незначительный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The cost of the change is ___ — just a few cents.",
+      "answer": "negligible",
+      "base": "negligible",
+      "ru": "Стоимость изменения ничтожна — несколько центов.",
+      "why": "Не стоит внимания — negligible."
+     },
+     {
+      "sentence": "The company was ___ — they ignored the safety rules.",
+      "answer": "negligent",
+      "base": "negligent",
+      "ru": "Компания проявила халатность — игнорировала правила безопасности.",
+      "why": "Халатный — negligent."
+     },
+     {
+      "sentence": "He had a ___ operation on his knee.",
+      "answer": "minor",
+      "base": "minor",
+      "ru": "Ему сделали небольшую операцию на колене.",
+      "why": "Несложная, второстепенная — minor."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c1_paramount",

@@ -182,7 +182,62 @@
   "formsRu": {
    "comparative": "более классический",
    "superlative": "самый классический"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "классический",
+    "topic": "Искусство",
+    "members": [
+     {
+      "word": "classic",
+      "note": "Признанный образец или типичный пример: a classic film, a classic mistake. Бывает и существительным.",
+      "example": "That's a classic mistake.",
+      "exampleRu": "Это типичная ошибка.",
+      "ru": "классический, типичный",
+      "pos": "прил."
+     },
+     {
+      "word": "classical",
+      "note": "Об античности и академической традиции: classical music, classical Greek.",
+      "example": "She plays classical music.",
+      "exampleRu": "Она играет классическую музыку.",
+      "ru": "классический (античный, академический)",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I love Mozart and other ___ music.",
+      "answer": "classical",
+      "base": "classical",
+      "ru": "Я люблю Моцарта и другую классическую музыку.",
+      "why": "Академическая музыка — classical."
+     },
+     {
+      "sentence": "Forgetting your passport is a ___ travel mistake.",
+      "answer": "classic",
+      "base": "classic",
+      "ru": "Забыть паспорт — типичная ошибка путешественника.",
+      "why": "Типичный пример — classic."
+     },
+     {
+      "sentence": "\"Casablanca\" is a ___ of world cinema.",
+      "answer": "classic",
+      "base": "classic",
+      "ru": "«Касабланка» — классика мирового кино.",
+      "why": "Признанный образец, существительное — classic."
+     },
+     {
+      "sentence": "He studied ___ Greek at university.",
+      "answer": "classical",
+      "base": "classical",
+      "ru": "Он изучал в университете древнегреческий.",
+      "why": "Античность — classical."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_classify",
@@ -1515,6 +1570,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "критик, критика",
+    "topic": "Искусство",
+    "members": [
+     {
+      "word": "critic",
+      "note": "Человек, который оценивает фильмы, книги, спектакли.",
+      "example": "The critics loved the film.",
+      "exampleRu": "Критикам фильм понравился.",
+      "ru": "критик",
+      "pos": "сущ."
+     },
+     {
+      "word": "criticism",
+      "note": "Критика, замечания.",
+      "example": "She doesn't take criticism well.",
+      "exampleRu": "Она плохо воспринимает критику.",
+      "ru": "критика",
+      "pos": "сущ."
+     },
+     {
+      "word": "review",
+      "note": "Рецензия на фильм, книгу или отзыв о товаре.",
+      "example": "The book got great reviews.",
+      "exampleRu": "Книга получила отличные отзывы.",
+      "ru": "рецензия, отзыв",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He's a famous film ___ for a big newspaper.",
+      "answer": "critic",
+      "base": "critic",
+      "ru": "Он известный кинокритик крупной газеты.",
+      "why": "Человек — critic."
+     },
+     {
+      "sentence": "Thank you for your ___ — I'll try to do better.",
+      "answer": "criticism",
+      "base": "criticism",
+      "ru": "Спасибо за критику — постараюсь сделать лучше.",
+      "why": "Замечания — criticism."
+     },
+     {
+      "sentence": "I always read online ___ before I buy something.",
+      "answer": "reviews",
+      "base": "review",
+      "ru": "Я всегда читаю отзывы в интернете перед покупкой.",
+      "why": "Отзывы — reviews."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -1762,7 +1871,63 @@
   "formsRu": {
    "comparative": "влажнее",
    "superlative": "самый влажный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "влажный, мокрый",
+    "topic": "Погода",
+    "members": [
+     {
+      "word": "wet",
+      "note": "Мокрый, промокший.",
+      "example": "My hair is wet.",
+      "exampleRu": "У меня мокрые волосы.",
+      "ru": "мокрый",
+      "pos": "прил."
+     },
+     {
+      "word": "damp",
+      "note": "Слегка влажный и неприятный: сырой подвал, одежда.",
+      "example": "The walls are damp.",
+      "exampleRu": "Стены сырые.",
+      "ru": "сырой",
+      "pos": "прил."
+     },
+     {
+      "word": "humid",
+      "note": "Влажный и душный воздух, погода.",
+      "example": "It's very humid in Singapore.",
+      "exampleRu": "В Сингапуре очень влажно.",
+      "ru": "влажный (о воздухе)",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "It's hot and ___ today — I can hardly breathe.",
+      "answer": "humid",
+      "base": "humid",
+      "ru": "Сегодня жарко и влажно — нечем дышать.",
+      "why": "Влажный воздух — humid."
+     },
+     {
+      "sentence": "I got caught in the rain and now I'm completely ___.",
+      "answer": "wet",
+      "base": "wet",
+      "ru": "Я попал под дождь и весь промок.",
+      "why": "Совсем мокрый — wet."
+     },
+     {
+      "sentence": "The basement smells ___.",
+      "answer": "damp",
+      "base": "damp",
+      "ru": "В подвале пахнет сыростью.",
+      "why": "Сырость — damp."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_dare",
@@ -2231,6 +2396,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "требовать, просить",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "ask for",
+      "note": "Обычное нейтральное «просить».",
+      "example": "He asked for a glass of water.",
+      "exampleRu": "Он попросил стакан воды.",
+      "ru": "просить",
+      "pos": "гл."
+     },
+     {
+      "word": "demand",
+      "note": "Требовать решительно, иногда грубо.",
+      "example": "The workers demanded higher pay.",
+      "exampleRu": "Рабочие потребовали повысить зарплату.",
+      "ru": "требовать",
+      "pos": "гл."
+     },
+     {
+      "word": "require",
+      "note": "Официально: «требуется», «необходимо», «обязаны».",
+      "example": "This job requires experience.",
+      "exampleRu": "Для этой работы требуется опыт.",
+      "ru": "требоваться",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The angry customer ___ to speak to the manager.",
+      "answer": "demanded",
+      "base": "demand",
+      "ru": "Разгневанный клиент потребовал позвать менеджера.",
+      "why": "Требовать решительно — demand."
+     },
+     {
+      "sentence": "She politely ___ some help with her bags.",
+      "answer": "asked for",
+      "base": "ask for",
+      "ru": "Она вежливо попросила помочь с сумками.",
+      "why": "Вежливо попросить — ask for."
+     },
+     {
+      "sentence": "All passengers are ___ to show their passports.",
+      "answer": "required",
+      "base": "require",
+      "ru": "Все пассажиры обязаны показать паспорт.",
+      "why": "Официальное «обязаны» — be required to."
+     }
+    ]
+   },
    {
     "kind": "antonym",
     "ru": "спрос",
@@ -3496,7 +3715,55 @@
    "past": "тонул, утонул; топил, утопил",
    "participle": "утонувший, затопленный · perfect: утонул",
    "ing": "утопление; тонущий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "тонуть",
+    "topic": "Происшествия",
+    "members": [
+     {
+      "word": "sink",
+      "note": "О кораблях и предметах. Неправильный: sank — sunk.",
+      "example": "The ship sank in ten minutes.",
+      "exampleRu": "Корабль затонул за десять минут.",
+      "ru": "тонуть, идти ко дну",
+      "pos": "гл."
+     },
+     {
+      "word": "drown",
+      "note": "Погибнуть в воде — о людях и животных.",
+      "example": "He nearly drowned in the lake.",
+      "exampleRu": "Он чуть не утонул в озере.",
+      "ru": "тонуть, утонуть",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The Titanic ___ in 1912.",
+      "answer": "sank",
+      "base": "sink",
+      "ru": "«Титаник» затонул в 1912 году.",
+      "why": "Корабль идёт ко дну — sink."
+     },
+     {
+      "sentence": "Can't swim? Wear a life jacket so you don't ___.",
+      "answer": "drown",
+      "base": "drown",
+      "ru": "Не умеешь плавать? Надень жилет, чтобы не утонуть.",
+      "why": "Человек тонет — drown."
+     },
+     {
+      "sentence": "The stone ___ to the bottom of the river.",
+      "answer": "sank",
+      "base": "sink",
+      "ru": "Камень пошёл ко дну реки.",
+      "why": "Предмет — sink."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_dull",
@@ -3607,6 +3874,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "стремящийся",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "eager",
+      "note": "Очень хочет, нетерпеливо ждёт: eager to learn.",
+      "example": "The kids were eager to open their presents.",
+      "exampleRu": "Детям не терпелось открыть подарки.",
+      "ru": "жаждущий",
+      "pos": "прил."
+     },
+     {
+      "word": "keen",
+      "note": "Увлечён чем-то (британский): keen on football.",
+      "example": "He's keen on cooking.",
+      "exampleRu": "Он увлекается кулинарией.",
+      "ru": "увлечённый",
+      "pos": "прил."
+     },
+     {
+      "word": "willing",
+      "note": "Готов сделать, если нужно, — без особого желания.",
+      "example": "I'm willing to help if you need me.",
+      "exampleRu": "Я готов помочь, если нужно.",
+      "ru": "готовый",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She's very ___ on horse riding.",
+      "answer": "keen",
+      "base": "keen",
+      "ru": "Она очень увлекается верховой ездой.",
+      "why": "Увлекаться — keen on."
+     },
+     {
+      "sentence": "Are you ___ to work at weekends if necessary?",
+      "answer": "willing",
+      "base": "willing",
+      "ru": "Вы готовы работать по выходным, если понадобится?",
+      "why": "Готов, если нужно, — willing."
+     },
+     {
+      "sentence": "The new students were ___ to start — they couldn't wait.",
+      "answer": "eager",
+      "base": "eager",
+      "ru": "Новым студентам не терпелось начать.",
+      "why": "Нетерпеливое желание — eager."
+     }
+    ]
+   },
    {
     "kind": "family",
     "members": [
@@ -4054,7 +4375,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "займы"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "кредит, долг",
+    "topic": "Деньги",
+    "members": [
+     {
+      "word": "loan",
+      "note": "Деньги, взятые в долг, обычно в банке.",
+      "example": "We took out a loan to buy a car.",
+      "exampleRu": "Мы взяли кредит на машину.",
+      "ru": "заём, кредит",
+      "pos": "сущ."
+     },
+     {
+      "word": "credit",
+      "note": "Покупка в долг или доверие банка: buy on credit, credit card.",
+      "example": "We bought the sofa on credit.",
+      "exampleRu": "Мы купили диван в кредит.",
+      "ru": "кредит, рассрочка",
+      "pos": "сущ."
+     },
+     {
+      "word": "debt",
+      "note": "Сколько ты должен. Be in debt — «быть в долгах». Буква b не читается.",
+      "example": "He has a lot of debt.",
+      "exampleRu": "У него большие долги.",
+      "ru": "долг",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The bank gave us a ___ to buy a house.",
+      "answer": "loan",
+      "base": "loan",
+      "ru": "Банк дал нам кредит на покупку дома.",
+      "why": "Конкретная сумма в долг — loan."
+     },
+     {
+      "sentence": "After he lost his job, he got into ___.",
+      "answer": "debt",
+      "base": "debt",
+      "ru": "Потеряв работу, он влез в долги.",
+      "why": "Влезть в долги — get into debt."
+     },
+     {
+      "sentence": "We bought the TV on ___.",
+      "answer": "credit",
+      "base": "credit",
+      "ru": "Мы купили телевизор в кредит.",
+      "why": "Купить в кредит — on credit."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_lung",
@@ -4555,7 +4932,55 @@
   "formsRu": {
    "comparative": "более эффективный",
    "superlative": "самый эффективный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "эффективный",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "effective",
+      "note": "Даёт нужный результат.",
+      "example": "This medicine is very effective.",
+      "exampleRu": "Это лекарство очень эффективно.",
+      "ru": "действенный",
+      "pos": "прил."
+     },
+     {
+      "word": "efficient",
+      "note": "Работает без потерь времени, сил, энергии.",
+      "example": "An efficient engine uses less fuel.",
+      "exampleRu": "Экономичный двигатель тратит меньше топлива.",
+      "ru": "производительный, экономичный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The new heater is more ___ — it uses less electricity.",
+      "answer": "efficient",
+      "base": "efficient",
+      "ru": "Новый обогреватель экономичнее — тратит меньше электричества.",
+      "why": "Без лишних затрат — efficient."
+     },
+     {
+      "sentence": "Is there an ___ cure for this disease?",
+      "answer": "effective",
+      "base": "effective",
+      "ru": "Есть ли действенное лекарство от этой болезни?",
+      "why": "Даёт результат — effective."
+     },
+     {
+      "sentence": "She's a very ___ manager — she never wastes time.",
+      "answer": "efficient",
+      "base": "efficient",
+      "ru": "Она очень толковый менеджер — никогда не теряет время.",
+      "why": "Без потерь времени — efficient."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_relevant",
@@ -4575,6 +5000,75 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "актуальный",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "relevant",
+      "note": "Важный для темы, по делу.",
+      "example": "That question is not relevant.",
+      "exampleRu": "Этот вопрос не по делу.",
+      "ru": "относящийся к делу",
+      "pos": "прил."
+     },
+     {
+      "word": "current",
+      "note": "Текущий, нынешний.",
+      "example": "What is your current address?",
+      "exampleRu": "Ваш текущий адрес?",
+      "ru": "текущий, нынешний",
+      "pos": "прил."
+     },
+     {
+      "word": "actual",
+      "note": "Реальный, фактический — ложный друг «актуального»!",
+      "example": "The actual price was higher.",
+      "exampleRu": "Фактическая цена оказалась выше.",
+      "ru": "настоящий, фактический",
+      "pos": "прил."
+     },
+     {
+      "word": "up-to-date",
+      "note": "Свежий, обновлённый — вот это «актуальная информация».",
+      "example": "This map is not up-to-date.",
+      "exampleRu": "Эта карта неактуальна.",
+      "ru": "актуальный, свежий",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Always keep your antivirus ___.",
+      "answer": "up-to-date",
+      "base": "up-to-date",
+      "ru": "Всегда держи антивирус обновлённым.",
+      "why": "Свежий, обновлённый — up-to-date."
+     },
+     {
+      "sentence": "The ___ cost was much higher than we planned.",
+      "answer": "actual",
+      "base": "actual",
+      "ru": "Фактическая стоимость оказалась намного выше запланированной.",
+      "why": "Фактический — actual."
+     },
+     {
+      "sentence": "Your experience is very ___ to this job.",
+      "answer": "relevant",
+      "base": "relevant",
+      "ru": "Ваш опыт очень подходит для этой работы.",
+      "why": "Имеет отношение к делу — relevant to."
+     },
+     {
+      "sentence": "Who is the ___ president of the club?",
+      "answer": "current",
+      "base": "current",
+      "ru": "Кто нынешний президент клуба?",
+      "why": "Нынешний — current."
+     }
+    ]
+   },
    {
     "kind": "antonym",
     "ru": "уместный",
@@ -4694,7 +5188,63 @@
     "exampleTranslation": "После поездки я был совершенно без сил."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "уставший",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "tired",
+      "note": "Устал — обычное слово.",
+      "example": "I'm tired after work.",
+      "exampleRu": "Я устал после работы.",
+      "ru": "уставший",
+      "pos": "прил."
+     },
+     {
+      "word": "exhausted",
+      "note": "Совсем без сил. Не говорят very exhausted — только completely.",
+      "example": "After the marathon I was exhausted.",
+      "exampleRu": "После марафона я был выжат как лимон.",
+      "ru": "измотанный",
+      "pos": "прил."
+     },
+     {
+      "word": "sleepy",
+      "note": "Хочется спать.",
+      "example": "The warm room made me sleepy.",
+      "exampleRu": "В тёплой комнате меня клонило в сон.",
+      "ru": "сонный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I'm completely ___ — I worked for 16 hours.",
+      "answer": "exhausted",
+      "base": "exhausted",
+      "ru": "Я совершенно вымотан — работал 16 часов.",
+      "why": "С completely и «без сил» — exhausted."
+     },
+     {
+      "sentence": "The baby is ___ — it's time for her nap.",
+      "answer": "sleepy",
+      "base": "sleepy",
+      "ru": "Малышка сонная — пора на дневной сон.",
+      "why": "Хочется спать — sleepy."
+     },
+     {
+      "sentence": "I'm a bit ___ after the walk.",
+      "answer": "tired",
+      "base": "tired",
+      "ru": "Я немного устал после прогулки.",
+      "why": "С a bit — tired: exhausted «немного» не бывает."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_cautious",
@@ -4737,6 +5287,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "постоянный",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "permanent",
+      "note": "Навсегда или надолго, не временный.",
+      "example": "She got a permanent job.",
+      "exampleRu": "Она получила постоянную работу.",
+      "ru": "постоянный, бессрочный",
+      "pos": "прил."
+     },
+     {
+      "word": "constant",
+      "note": "Не прекращается, всё время: constant noise.",
+      "example": "I can't sleep with this constant noise.",
+      "exampleRu": "Не могу спать от этого постоянного шума.",
+      "ru": "непрерывный",
+      "pos": "прил."
+     },
+     {
+      "word": "regular",
+      "note": "Повторяется по расписанию; постоянный клиент.",
+      "example": "He's one of our regular customers.",
+      "exampleRu": "Он один из наших постоянных клиентов.",
+      "ru": "регулярный, постоянный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He's a ___ customer — he comes every Friday.",
+      "answer": "regular",
+      "base": "regular",
+      "ru": "Он постоянный клиент — приходит каждую пятницу.",
+      "why": "По расписанию — regular."
+     },
+     {
+      "sentence": "After two years, my contract became ___.",
+      "answer": "permanent",
+      "base": "permanent",
+      "ru": "Через два года мой контракт стал бессрочным.",
+      "why": "Не временный — permanent."
+     },
+     {
+      "sentence": "A newborn baby needs ___ attention.",
+      "answer": "constant",
+      "base": "constant",
+      "ru": "Новорождённому нужно постоянное внимание.",
+      "why": "Без перерыва — constant."
+     }
+    ]
+   },
    {
     "kind": "antonym",
     "ru": "постоянный",
@@ -7895,7 +8499,63 @@
    "past": "брался, взялся (за)",
    "participle": "perfect: взялся (за), разобрался",
    "ing": "захват (в спорте); решение"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "справляться",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "deal with",
+      "note": "Разбираться с проблемой, людьми, задачей.",
+      "example": "I'll deal with it tomorrow.",
+      "exampleRu": "Я разберусь с этим завтра.",
+      "ru": "заниматься, разбираться",
+      "pos": "гл."
+     },
+     {
+      "word": "cope with",
+      "note": "Выдерживать трудное: стресс, нагрузку.",
+      "example": "She can't cope with the stress.",
+      "exampleRu": "Она не справляется со стрессом.",
+      "ru": "справляться",
+      "pos": "гл."
+     },
+     {
+      "word": "tackle",
+      "note": "Решительно взяться за проблему. В футболе — отобрать мяч.",
+      "example": "The government must tackle unemployment.",
+      "exampleRu": "Правительство должно взяться за безработицу.",
+      "ru": "браться за",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "How do you ___ so much work and three kids?",
+      "answer": "cope with",
+      "base": "cope with",
+      "ru": "Как ты справляешься с такой работой и тремя детьми?",
+      "why": "Выдерживать нагрузку — cope with."
+     },
+     {
+      "sentence": "The police promised to ___ street crime.",
+      "answer": "tackle",
+      "base": "tackle",
+      "ru": "Полиция пообещала взяться за уличную преступность.",
+      "why": "Решительно взяться — tackle."
+     },
+     {
+      "sentence": "Don't worry about the complaint, I'll ___ it.",
+      "answer": "deal with",
+      "base": "deal with",
+      "ru": "Не волнуйся из-за жалобы, я с ней разберусь.",
+      "why": "Разобраться с делом — deal with."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_tangible",
@@ -7989,7 +8649,63 @@
    "past": "терпел, вытерпел",
    "participle": "терпимый · perfect: стерпел",
    "ing": "терпение"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "терпеть",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "stand",
+      "note": "В отрицаниях и вопросах: I can't stand him.",
+      "example": "I can't stand this music.",
+      "exampleRu": "Терпеть не могу эту музыку.",
+      "ru": "выносить",
+      "pos": "гл."
+     },
+     {
+      "word": "tolerate",
+      "note": "Официально: допускать, мириться.",
+      "example": "We will not tolerate bullying.",
+      "exampleRu": "Мы не потерпим травли.",
+      "ru": "терпеть, допускать",
+      "pos": "гл."
+     },
+     {
+      "word": "put up with",
+      "note": "Терпеть неприятное, в разговоре.",
+      "example": "I put up with the noise for years.",
+      "exampleRu": "Я годами мирился с шумом.",
+      "ru": "мириться",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I can't ___ people who are always late.",
+      "answer": "stand",
+      "base": "stand",
+      "ru": "Терпеть не могу людей, которые вечно опаздывают.",
+      "why": "«Терпеть не могу» — can't stand."
+     },
+     {
+      "sentence": "The school does not ___ cheating.",
+      "answer": "tolerate",
+      "base": "tolerate",
+      "ru": "Школа не допускает списывания.",
+      "why": "Официальное «не допускать» — tolerate."
+     },
+     {
+      "sentence": "Why do you ___ his rude jokes?",
+      "answer": "put up with",
+      "base": "put up with",
+      "ru": "Почему ты миришься с его грубыми шутками?",
+      "why": "Разговорное «мириться» — put up with."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_trace",
@@ -8427,7 +9143,55 @@
     "exampleTranslation": "Телефон звонил не переставая."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "постоянно",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "continually",
+      "note": "Снова и снова, с перерывами — часто с раздражением.",
+      "example": "He is continually asking stupid questions.",
+      "exampleRu": "Он то и дело задаёт глупые вопросы.",
+      "ru": "то и дело",
+      "pos": "нареч."
+     },
+     {
+      "word": "continuously",
+      "note": "Без единой паузы.",
+      "example": "It rained continuously for three days.",
+      "exampleRu": "Три дня непрерывно шёл дождь.",
+      "ru": "непрерывно",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The machine works ___, 24 hours a day.",
+      "answer": "continuously",
+      "base": "continuously",
+      "ru": "Машина работает непрерывно, 24 часа в сутки.",
+      "why": "Без паузы — continuously."
+     },
+     {
+      "sentence": "My phone ___ beeps with new messages — it's so annoying.",
+      "answer": "continually",
+      "base": "continually",
+      "ru": "Мой телефон то и дело пищит от сообщений — так раздражает.",
+      "why": "Снова и снова — continually."
+     },
+     {
+      "sentence": "The river flows ___ to the sea.",
+      "answer": "continuously",
+      "base": "continuously",
+      "ru": "Река непрерывно течёт к морю.",
+      "why": "Без остановки — continuously."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_formerly",
@@ -9333,7 +10097,63 @@
    }
   ],
   "countable": "uncountable",
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "совесть, сознание",
+    "topic": "Мнение",
+    "members": [
+     {
+      "word": "conscience",
+      "note": "Совесть.",
+      "example": "I have a clear conscience.",
+      "exampleRu": "Моя совесть чиста.",
+      "ru": "совесть",
+      "pos": "сущ."
+     },
+     {
+      "word": "conscious",
+      "note": "В сознании — или понимающий что-то: be conscious of.",
+      "example": "The patient is conscious.",
+      "exampleRu": "Пациент в сознании.",
+      "ru": "в сознании; осознающий",
+      "pos": "прил."
+     },
+     {
+      "word": "consciousness",
+      "note": "Сознание как состояние. Lose consciousness — «потерять сознание».",
+      "example": "He lost consciousness after the fall.",
+      "exampleRu": "После падения он потерял сознание.",
+      "ru": "сознание",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He felt bad about lying — his ___ didn't let him sleep.",
+      "answer": "conscience",
+      "base": "conscience",
+      "ru": "Ему было плохо из-за лжи — совесть не давала спать.",
+      "why": "Совесть — conscience."
+     },
+     {
+      "sentence": "She fainted and lost ___.",
+      "answer": "consciousness",
+      "base": "consciousness",
+      "ru": "Ей стало плохо, и она потеряла сознание.",
+      "why": "Сознание (сущ.) — consciousness."
+     },
+     {
+      "sentence": "I'm ___ that I talk too much.",
+      "answer": "conscious",
+      "base": "conscious",
+      "ru": "Я понимаю, что слишком много говорю.",
+      "why": "Осознавать — be conscious that/of."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_controversy",
@@ -9555,7 +10375,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "происшествия"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "случай, происшествие",
+    "topic": "Происшествия",
+    "members": [
+     {
+      "word": "accident",
+      "note": "Неприятность по случайности: авария, травма. By accident — «случайно».",
+      "example": "He had a car accident.",
+      "exampleRu": "Он попал в аварию.",
+      "ru": "несчастный случай, авария",
+      "pos": "сущ."
+     },
+     {
+      "word": "incident",
+      "note": "Происшествие, о котором сообщают: драка, нарушение.",
+      "example": "The police are investigating the incident.",
+      "exampleRu": "Полиция расследует происшествие.",
+      "ru": "инцидент, происшествие",
+      "pos": "сущ."
+     },
+     {
+      "word": "event",
+      "note": "Событие или мероприятие.",
+      "example": "The concert was the biggest event of the year.",
+      "exampleRu": "Концерт стал главным событием года.",
+      "ru": "событие, мероприятие",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Sorry, I deleted your file by ___.",
+      "answer": "accident",
+      "base": "accident",
+      "ru": "Прости, я случайно удалил твой файл.",
+      "why": "«Случайно» — by accident."
+     },
+     {
+      "sentence": "The festival is the main ___ in our town this summer.",
+      "answer": "event",
+      "base": "event",
+      "ru": "Фестиваль — главное мероприятие нашего города этим летом.",
+      "why": "Мероприятие — event."
+     },
+     {
+      "sentence": "There was a violent ___ outside the bar last night.",
+      "answer": "incident",
+      "base": "incident",
+      "ru": "Прошлой ночью у бара произошла драка.",
+      "why": "Происшествие для полиции — incident."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_initiative",
@@ -9665,7 +10541,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "результаты"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "результат, последствие",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "result",
+      "note": "Результат вообще: экзамена, работы, анализов.",
+      "example": "The exam results come out in July.",
+      "exampleRu": "Результаты экзамена выйдут в июле.",
+      "ru": "результат",
+      "pos": "сущ."
+     },
+     {
+      "word": "outcome",
+      "note": "Чем закончилось: исход выборов, переговоров, суда.",
+      "example": "Nobody knows the outcome of the election.",
+      "exampleRu": "Никто не знает исхода выборов.",
+      "ru": "исход",
+      "pos": "сущ."
+     },
+     {
+      "word": "consequence",
+      "note": "Последствие, часто неприятное.",
+      "example": "You must accept the consequences.",
+      "exampleRu": "Ты должен принять последствия.",
+      "ru": "последствие",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "If you lie, there will be ___.",
+      "answer": "consequences",
+      "base": "consequence",
+      "ru": "Если соврёшь, будут последствия.",
+      "why": "Неприятные последствия — consequences."
+     },
+     {
+      "sentence": "I got my test ___ today — I passed!",
+      "answer": "results",
+      "base": "result",
+      "ru": "Сегодня я получил результаты теста — сдал!",
+      "why": "Результаты теста — results."
+     },
+     {
+      "sentence": "We are waiting for the ___ of the negotiations.",
+      "answer": "outcome",
+      "base": "outcome",
+      "ru": "Мы ждём исхода переговоров.",
+      "why": "Чем закончатся — outcome."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_perspective",
@@ -10073,7 +11005,63 @@
     "exampleTranslation": "Магазин практически пуст."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "практически",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "virtually",
+      "note": "Практически, почти полностью — не «виртуально»!",
+      "example": "The town was virtually empty.",
+      "exampleRu": "Город был практически пуст.",
+      "ru": "практически",
+      "pos": "нареч."
+     },
+     {
+      "word": "almost",
+      "note": "Почти — обычное слово, особенно о времени и количестве.",
+      "example": "It's almost ten o'clock.",
+      "exampleRu": "Уже почти десять.",
+      "ru": "почти",
+      "pos": "нареч."
+     },
+     {
+      "word": "online",
+      "note": "В интернете — вот оно, «виртуально».",
+      "example": "We met online.",
+      "exampleRu": "Мы познакомились в интернете.",
+      "ru": "онлайн",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "It's ___ impossible to find a taxi here at night.",
+      "answer": "virtually",
+      "base": "virtually",
+      "ru": "Ночью здесь практически невозможно поймать такси.",
+      "why": "«Практически невозможно» — virtually impossible."
+     },
+     {
+      "sentence": "We've never met in person, only ___.",
+      "answer": "online",
+      "base": "online",
+      "ru": "Мы ни разу не виделись вживую, только в сети.",
+      "why": "В интернете — online."
+     },
+     {
+      "sentence": "Hurry up, it's ___ eight!",
+      "answer": "almost",
+      "base": "almost",
+      "ru": "Скорее, уже почти восемь!",
+      "why": "О времени — almost."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b2_increasingly",

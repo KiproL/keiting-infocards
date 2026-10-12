@@ -19,7 +19,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "повреждения"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "вред, повреждение",
+    "topic": "Происшествия",
+    "members": [
+     {
+      "word": "damage",
+      "note": "Ущерб вещам: машине, дому, природе. Неисчисляемое.",
+      "example": "The storm caused a lot of damage.",
+      "exampleRu": "Шторм причинил большой ущерб.",
+      "ru": "повреждение, ущерб",
+      "pos": "сущ."
+     },
+     {
+      "word": "harm",
+      "note": "Вред вообще — людям, здоровью, репутации. No harm done — «ничего страшного».",
+      "example": "Smoking does you harm.",
+      "exampleRu": "Курение вредит.",
+      "ru": "вред",
+      "pos": "сущ."
+     },
+     {
+      "word": "injury",
+      "note": "Повреждение тела.",
+      "example": "He has a knee injury.",
+      "exampleRu": "У него травма колена.",
+      "ru": "травма",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The fire did a lot of ___ to the building.",
+      "answer": "damage",
+      "base": "damage",
+      "ru": "Пожар сильно повредил здание.",
+      "why": "Ущерб вещам и зданиям — damage."
+     },
+     {
+      "sentence": "He missed the match because of a back ___.",
+      "answer": "injury",
+      "base": "injury",
+      "ru": "Он пропустил матч из-за травмы спины.",
+      "why": "Травма тела — injury."
+     },
+     {
+      "sentence": "A little coffee won't do you any ___.",
+      "answer": "harm",
+      "base": "harm",
+      "ru": "Немного кофе тебе не навредит.",
+      "why": "Вред здоровью вообще — harm."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_deal",
@@ -623,7 +679,63 @@
    "past": "зарабатывал, заработал",
    "participle": "заработанный · perfect: заработал",
    "ing": "заработок; зарабатывающий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "получать, зарабатывать",
+    "topic": "Деньги",
+    "members": [
+     {
+      "word": "earn",
+      "note": "Получить деньги или уважение своим трудом.",
+      "example": "She earns a lot of money.",
+      "exampleRu": "Она хорошо зарабатывает.",
+      "ru": "зарабатывать",
+      "pos": "гл."
+     },
+     {
+      "word": "win",
+      "note": "Получить приз или деньги в игре, удачей. Неправильный: won — won.",
+      "example": "He won a car in the lottery.",
+      "exampleRu": "Он выиграл машину в лотерею.",
+      "ru": "выигрывать",
+      "pos": "гл."
+     },
+     {
+      "word": "gain",
+      "note": "Постепенно получить больше: опыт, вес, время.",
+      "example": "I gained three kilos on holiday.",
+      "exampleRu": "Я набрал три килограмма в отпуске.",
+      "ru": "набирать, приобретать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "How much do you ___ a month?",
+      "answer": "earn",
+      "base": "earn",
+      "ru": "Сколько ты зарабатываешь в месяц?",
+      "why": "Деньги за работу — earn."
+     },
+     {
+      "sentence": "She ___ the first prize in the competition.",
+      "answer": "won",
+      "base": "win",
+      "ru": "Она выиграла первый приз в конкурсе.",
+      "why": "Приз в соревновании — win."
+     },
+     {
+      "sentence": "You will ___ a lot of experience in this job.",
+      "answer": "gain",
+      "base": "gain",
+      "ru": "На этой работе ты наберёшься опыта.",
+      "why": "Приобрести опыт постепенно — gain."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_earth",
@@ -1403,7 +1515,55 @@
     "exampleTranslation": "Я люблю фрукты, особенно яблоки."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "особенно, специально",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "especially",
+      "note": "Особенно, больше всего.",
+      "example": "I love fruit, especially apples.",
+      "exampleRu": "Я люблю фрукты, особенно яблоки.",
+      "ru": "особенно",
+      "pos": "нареч."
+     },
+     {
+      "word": "specially",
+      "note": "Специально для какой-то цели.",
+      "example": "I made this cake specially for you.",
+      "exampleRu": "Я испекла этот торт специально для тебя.",
+      "ru": "специально",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "It's cold here, ___ in January.",
+      "answer": "especially",
+      "base": "especially",
+      "ru": "Здесь холодно, особенно в январе.",
+      "why": "Больше всего — especially."
+     },
+     {
+      "sentence": "This room was ___ built for the children.",
+      "answer": "specially",
+      "base": "specially",
+      "ru": "Эту комнату построили специально для детей.",
+      "why": "Для определённой цели — specially."
+     },
+     {
+      "sentence": "I like all sports, ___ football.",
+      "answer": "especially",
+      "base": "especially",
+      "ru": "Я люблю все виды спорта, особенно футбол.",
+      "why": "Выделяем из ряда — especially."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_event",
@@ -1578,6 +1738,54 @@
     "translation": "кроме, за исключением",
     "exampleSentence": "Everyone came except Tom.",
     "exampleTranslation": "Пришли все, кроме Тома."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "кроме, принимать",
+    "topic": "Грамматика",
+    "members": [
+     {
+      "word": "except",
+      "note": "Кроме, за исключением.",
+      "example": "Everyone came except Tom.",
+      "exampleRu": "Пришли все, кроме Тома.",
+      "ru": "кроме",
+      "pos": "предл."
+     },
+     {
+      "word": "accept",
+      "note": "Принять подарок, приглашение, извинения. Звучит почти так же!",
+      "example": "Please accept my apologies.",
+      "exampleRu": "Пожалуйста, примите мои извинения.",
+      "ru": "принимать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The shop is open every day ___ Sunday.",
+      "answer": "except",
+      "base": "except",
+      "ru": "Магазин открыт каждый день, кроме воскресенья.",
+      "why": "«Кроме» — except."
+     },
+     {
+      "sentence": "She ___ our invitation to the party.",
+      "answer": "accepted",
+      "base": "accept",
+      "ru": "Она приняла наше приглашение на вечеринку.",
+      "why": "Принять — accept."
+     },
+     {
+      "sentence": "Do you ___ credit cards?",
+      "answer": "accept",
+      "base": "accept",
+      "ru": "Вы принимаете кредитные карты?",
+      "why": "Принимать оплату — accept."
+     }
+    ]
    }
   ]
  },
@@ -2456,7 +2664,63 @@
    "ing": "примерка; подходящий, уместный",
    "comparative": "в лучшей форме",
    "superlative": "в самой лучшей форме"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "подходить",
+    "topic": "Одежда",
+    "members": [
+     {
+      "word": "fit",
+      "note": "Подходит по размеру.",
+      "example": "These shoes don't fit me.",
+      "exampleRu": "Эти туфли мне не по размеру.",
+      "ru": "подходить по размеру",
+      "pos": "гл."
+     },
+     {
+      "word": "suit",
+      "note": "Идёт, к лицу; ещё «устраивать»: Does Monday suit you?",
+      "example": "Red really suits you.",
+      "exampleRu": "Красный тебе очень идёт.",
+      "ru": "идти, быть к лицу",
+      "pos": "гл."
+     },
+     {
+      "word": "match",
+      "note": "Сочетаться с другой вещью.",
+      "example": "Your bag matches your shoes.",
+      "exampleRu": "Сумка подходит к туфлям.",
+      "ru": "сочетаться",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "These jeans are too small, they don't ___ me.",
+      "answer": "fit",
+      "base": "fit",
+      "ru": "Эти джинсы маловаты, они мне не по размеру.",
+      "why": "По размеру — fit."
+     },
+     {
+      "sentence": "Short hair really ___ you.",
+      "answer": "suits",
+      "base": "suit",
+      "ru": "Тебе очень идёт короткая стрижка.",
+      "why": "К лицу — suit."
+     },
+     {
+      "sentence": "Does this tie ___ my shirt?",
+      "answer": "match",
+      "base": "match",
+      "ru": "Этот галстук подходит к рубашке?",
+      "why": "Сочетание двух вещей — match."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_flag",
@@ -3739,7 +4003,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "привычки"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "привычка, обычай",
+    "topic": "Общество",
+    "members": [
+     {
+      "word": "habit",
+      "note": "Личная привычка одного человека.",
+      "example": "Smoking is a bad habit.",
+      "exampleRu": "Курение — вредная привычка.",
+      "ru": "привычка",
+      "pos": "сущ."
+     },
+     {
+      "word": "custom",
+      "note": "Обычай народа или места.",
+      "example": "It's a local custom to give flowers.",
+      "exampleRu": "Дарить цветы — местный обычай.",
+      "ru": "обычай",
+      "pos": "сущ."
+     },
+     {
+      "word": "tradition",
+      "note": "Традиция, которую передают из поколения в поколение.",
+      "example": "Christmas dinner is a family tradition.",
+      "exampleRu": "Рождественский ужин — семейная традиция.",
+      "ru": "традиция",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I have a ___ of biting my nails.",
+      "answer": "habit",
+      "base": "habit",
+      "ru": "У меня привычка грызть ногти.",
+      "why": "Личная привычка — habit."
+     },
+     {
+      "sentence": "In Japan it's the ___ to take off your shoes indoors.",
+      "answer": "custom",
+      "base": "custom",
+      "ru": "В Японии принято снимать обувь в доме.",
+      "why": "Местный обычай — custom."
+     },
+     {
+      "sentence": "Our family has a ___: every summer we go to the sea together.",
+      "answer": "tradition",
+      "base": "tradition",
+      "ru": "У нашей семьи есть традиция: каждое лето мы вместе едем на море.",
+      "why": "Повторяется из года в год — tradition."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_handle",
@@ -4009,7 +4329,63 @@
    "past": "нанимал, нанял; брал напрокат",
    "participle": "нанятый, взятый напрокат · perfect: нанял",
    "ing": "найм; нанимающий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "нанимать, арендовать",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "hire",
+      "note": "Нанять человека на работу. В британском — ещё взять напрокат ненадолго: машину, лодку.",
+      "example": "We hired a car for the weekend.",
+      "exampleRu": "Мы взяли машину напрокат на выходные.",
+      "ru": "нанимать; брать напрокат",
+      "pos": "гл."
+     },
+     {
+      "word": "rent",
+      "note": "Снимать надолго — квартиру, дом; в американском и машину.",
+      "example": "They rent a flat in the centre.",
+      "exampleRu": "Они снимают квартиру в центре.",
+      "ru": "снимать, арендовать",
+      "pos": "гл."
+     },
+     {
+      "word": "let",
+      "note": "Сдавать своё жильё (британский). Табличка To let — «Сдаётся».",
+      "example": "We let our flat to students.",
+      "exampleRu": "Мы сдаём квартиру студентам.",
+      "ru": "сдавать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The company is going to ___ ten new workers.",
+      "answer": "hire",
+      "base": "hire",
+      "ru": "Компания собирается нанять десять новых работников.",
+      "why": "Нанять людей — hire."
+     },
+     {
+      "sentence": "I ___ a small room near the university.",
+      "answer": "rent",
+      "base": "rent",
+      "ru": "Я снимаю комнату рядом с университетом.",
+      "why": "Снимать жильё — rent."
+     },
+     {
+      "sentence": "There was a sign on the house: \"To ___\".",
+      "answer": "let",
+      "base": "let",
+      "ru": "На доме была табличка: «Сдаётся».",
+      "why": "«Сдаётся» о жилье — to let."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_historic",
@@ -4378,7 +4754,55 @@
     "exampleTranslation": "Моя бабушка очень больна."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "больной",
+    "topic": "Здоровье",
+    "members": [
+     {
+      "word": "ill",
+      "note": "Болеть (британский); обычно после глагола: I'm ill. Seriously ill — «тяжело болен».",
+      "example": "She is ill and can't come.",
+      "exampleRu": "Она болеет и не сможет прийти.",
+      "ru": "больной",
+      "pos": "прил."
+     },
+     {
+      "word": "sick",
+      "note": "Больной (американский) и перед существительным: a sick child. Feel sick — «тошнит».",
+      "example": "I feel sick — I ate too much.",
+      "exampleRu": "Меня тошнит — я переел.",
+      "ru": "больной; тошнит",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The boat was moving a lot and I felt ___.",
+      "answer": "sick",
+      "base": "sick",
+      "ru": "Лодку сильно качало, и меня тошнило.",
+      "why": "«Тошнит» — feel sick."
+     },
+     {
+      "sentence": "She works in a hospital for ___ animals.",
+      "answer": "sick",
+      "base": "sick",
+      "ru": "Она работает в лечебнице для больных животных.",
+      "why": "Перед существительным — sick."
+     },
+     {
+      "sentence": "He has been seriously ___ for a month.",
+      "answer": "ill",
+      "base": "ill",
+      "ru": "Он уже месяц тяжело болен.",
+      "why": "Устойчивое seriously ill."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_image",
@@ -4834,6 +5258,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "ранить, ушибить",
+    "topic": "Здоровье",
+    "members": [
+     {
+      "word": "hurt",
+      "note": "Сделать больно; ещё «болит»: My leg hurts. Неправильный: hurt — hurt.",
+      "example": "My back hurts.",
+      "exampleRu": "У меня болит спина.",
+      "ru": "ушибить; болеть",
+      "pos": "гл."
+     },
+     {
+      "word": "injure",
+      "note": "Получить травму — в аварии, в спорте.",
+      "example": "He was injured in a car accident.",
+      "exampleRu": "Он пострадал в автокатастрофе.",
+      "ru": "травмировать",
+      "pos": "гл."
+     },
+     {
+      "word": "wound",
+      "note": "Ранить оружием — ножом, пулей.",
+      "example": "The soldier was wounded in the arm.",
+      "exampleRu": "Солдата ранило в руку.",
+      "ru": "ранить",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "My head ___. Do you have an aspirin?",
+      "answer": "hurts",
+      "base": "hurt",
+      "ru": "У меня болит голова. У тебя есть аспирин?",
+      "why": "«Болит» — hurt."
+     },
+     {
+      "sentence": "Two people were ___ in the crash.",
+      "answer": "injured",
+      "base": "injure",
+      "ru": "В аварии пострадали два человека.",
+      "why": "Травма в аварии — injure."
+     },
+     {
+      "sentence": "He was ___ by a bullet.",
+      "answer": "wounded",
+      "base": "wound",
+      "ru": "Его ранило пулей.",
+      "why": "Оружием — wound."
+     }
+    ]
+   },
    {
     "kind": "family",
     "members": [
@@ -5829,6 +6307,54 @@
     "base": "lie",
     "kind": "past"
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "лежать, класть",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "lie",
+      "note": "Лежать самому, без дополнения. Неправильный: lay — lain. Не путай: «лёг» — lay!",
+      "example": "I lay on the beach all day.",
+      "exampleRu": "Я весь день пролежал на пляже.",
+      "ru": "лежать",
+      "pos": "гл."
+     },
+     {
+      "word": "lay",
+      "note": "Класть что-то. Lay the table — «накрыть на стол». Формы: laid — laid.",
+      "example": "Please lay the table.",
+      "exampleRu": "Накрой, пожалуйста, на стол.",
+      "ru": "класть",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Can you ___ the table for dinner?",
+      "answer": "lay",
+      "base": "lay",
+      "ru": "Накроешь на стол к ужину?",
+      "why": "Класть, накрывать — lay."
+     },
+     {
+      "sentence": "I want to ___ down for an hour.",
+      "answer": "lie",
+      "base": "lie",
+      "ru": "Хочу полежать часок.",
+      "why": "Лечь самому — lie down."
+     },
+     {
+      "sentence": "Hens ___ eggs.",
+      "answer": "lay",
+      "base": "lay",
+      "ru": "Куры несут яйца.",
+      "why": "Нести яйца — lay eggs."
+     }
+    ]
+   }
   ]
  },
  {
@@ -6221,7 +6747,55 @@
   "formsRu": {
    "comparative": "более одинокий",
    "superlative": "самый одинокий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "один, одинокий",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "alone",
+      "note": "Один, без других людей — просто факт, бывает и приятным. Только после глагола.",
+      "example": "I live alone.",
+      "exampleRu": "Я живу один.",
+      "ru": "один",
+      "pos": "прил."
+     },
+     {
+      "word": "lonely",
+      "note": "Грустно оттого, что ты один.",
+      "example": "She felt lonely in the big city.",
+      "exampleRu": "Ей было одиноко в большом городе.",
+      "ru": "одинокий",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I like to be ___ sometimes — I can read in peace.",
+      "answer": "alone",
+      "base": "alone",
+      "ru": "Иногда я люблю побыть один — можно спокойно почитать.",
+      "why": "Один, и это хорошо, — alone."
+     },
+     {
+      "sentence": "He has no friends here and feels very ___.",
+      "answer": "lonely",
+      "base": "lonely",
+      "ru": "У него здесь нет друзей, и ему очень одиноко.",
+      "why": "Грусть от одиночества — lonely."
+     },
+     {
+      "sentence": "Don't leave the child ___ at home.",
+      "answer": "alone",
+      "base": "alone",
+      "ru": "Не оставляй ребёнка дома одного.",
+      "why": "Без взрослых — alone."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_loud",
@@ -10159,7 +10733,63 @@
    "past": "достигал, достиг; дотянулся",
    "participle": "достигнутый · perfect: достиг, дотянулся",
    "ing": "далеко идущий; достигающий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "добираться",
+    "topic": "Путешествия",
+    "members": [
+     {
+      "word": "arrive",
+      "note": "Прибыть: arrive at — в здание, на станцию; arrive in — в город, страну.",
+      "example": "We arrived in Paris at night.",
+      "exampleRu": "Мы прибыли в Париж ночью.",
+      "ru": "прибывать",
+      "pos": "гл."
+     },
+     {
+      "word": "reach",
+      "note": "Без предлога: reach the city, reach the top. Ещё «дотянуться».",
+      "example": "We reached the top of the mountain.",
+      "exampleRu": "Мы добрались до вершины горы.",
+      "ru": "достигать; дотягиваться",
+      "pos": "гл."
+     },
+     {
+      "word": "get to",
+      "note": "Разговорное «доехать, добраться».",
+      "example": "How do I get to the bank?",
+      "exampleRu": "Как мне добраться до банка?",
+      "ru": "добираться",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I can't ___ the top shelf. Can you help me?",
+      "answer": "reach",
+      "base": "reach",
+      "ru": "Я не могу дотянуться до верхней полки. Поможешь?",
+      "why": "Дотянуться — только reach."
+     },
+     {
+      "sentence": "Our plane ___ in Rome at 6 pm.",
+      "answer": "arrived",
+      "base": "arrive",
+      "ru": "Наш самолёт прилетел в Рим в шесть вечера.",
+      "why": "Прибыть в город — arrive in."
+     },
+     {
+      "sentence": "It takes me twenty minutes to ___ work.",
+      "answer": "get to",
+      "base": "get to",
+      "ru": "Мне двадцать минут добираться до работы.",
+      "why": "Каждодневная дорога — разговорное get to."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_react",
@@ -11429,7 +12059,55 @@
    "past": "грабил, ограбил",
    "participle": "ограбленный · perfect: ограбил",
    "ing": "грабёж"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "грабить, красть",
+    "topic": "Происшествия",
+    "members": [
+     {
+      "word": "steal",
+      "note": "Красть вещь: steal something (from someone). Неправильный: stole — stolen.",
+      "example": "Someone stole my phone.",
+      "exampleRu": "Кто-то украл мой телефон.",
+      "ru": "красть",
+      "pos": "гл."
+     },
+     {
+      "word": "rob",
+      "note": "Грабить человека или место: rob a bank, rob someone.",
+      "example": "They robbed a bank.",
+      "exampleRu": "Они ограбили банк.",
+      "ru": "грабить",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Someone has ___ my bike!",
+      "answer": "stolen",
+      "base": "steal",
+      "ru": "Кто-то украл мой велосипед!",
+      "why": "Украсть вещь — steal."
+     },
+     {
+      "sentence": "Two men ___ the bank last night.",
+      "answer": "robbed",
+      "base": "rob",
+      "ru": "Двое мужчин ограбили банк прошлой ночью.",
+      "why": "Грабят место — rob."
+     },
+     {
+      "sentence": "I was ___ on my way home — they took my wallet.",
+      "answer": "robbed",
+      "base": "rob",
+      "ru": "Меня ограбили по дороге домой — забрали кошелёк.",
+      "why": "Пострадал человек — rob someone."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_role",
@@ -12135,7 +12813,63 @@
    "past": "казался, показался",
    "participle": "perfect: показался",
    "ing": "кажущийся, видимый"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "казаться, выглядеть",
+    "topic": "Восприятие",
+    "members": [
+     {
+      "word": "seem",
+      "note": "Создаётся впечатление — по любым признакам.",
+      "example": "She seems tired today.",
+      "exampleRu": "Она сегодня кажется уставшей.",
+      "ru": "казаться",
+      "pos": "гл."
+     },
+     {
+      "word": "look",
+      "note": "Судим по внешнему виду; дальше прилагательное.",
+      "example": "You look great!",
+      "exampleRu": "Ты отлично выглядишь!",
+      "ru": "выглядеть",
+      "pos": "гл."
+     },
+     {
+      "word": "look like",
+      "note": "Похож на кого-то; дальше существительное.",
+      "example": "He looks like his father.",
+      "exampleRu": "Он похож на отца.",
+      "ru": "быть похожим",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She ___ her mother — the same eyes and hair.",
+      "answer": "looks like",
+      "base": "look like",
+      "ru": "Она похожа на маму — те же глаза и волосы.",
+      "why": "Похож на человека — look like."
+     },
+     {
+      "sentence": "You ___ beautiful in this dress!",
+      "answer": "look",
+      "base": "look",
+      "ru": "Ты прекрасно выглядишь в этом платье!",
+      "why": "Внешний вид, дальше прилагательное — look."
+     },
+     {
+      "sentence": "He ___ to know the answer, but he didn't say anything.",
+      "answer": "seemed",
+      "base": "seem",
+      "ru": "Казалось, он знает ответ, но ничего не сказал.",
+      "why": "Seem to + глагол — «похоже, что»."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_select",
@@ -12238,7 +12972,55 @@
   "formsRu": {
    "comparative": "более разумный",
    "superlative": "самый разумный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "разумный, чувствительный",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "sensible",
+      "note": "Разумный, здравомыслящий — ложный друг «сенсибельного».",
+      "example": "That's a sensible idea.",
+      "exampleRu": "Это разумная мысль.",
+      "ru": "разумный, практичный",
+      "pos": "прил."
+     },
+     {
+      "word": "sensitive",
+      "note": "Чувствительный, ранимый, деликатный.",
+      "example": "She is very sensitive to criticism.",
+      "exampleRu": "Она очень болезненно воспринимает критику.",
+      "ru": "чувствительный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I have ___ skin, so I use special cream.",
+      "answer": "sensitive",
+      "base": "sensitive",
+      "ru": "У меня чувствительная кожа, поэтому я пользуюсь особым кремом.",
+      "why": "Чувствительный — sensitive."
+     },
+     {
+      "sentence": "Wear ___ shoes — we're going to walk a lot.",
+      "answer": "sensible",
+      "base": "sensible",
+      "ru": "Надень практичную обувь — будем много ходить.",
+      "why": "Разумный, практичный — sensible."
+     },
+     {
+      "sentence": "It's a ___ topic, so be careful what you say.",
+      "answer": "sensitive",
+      "base": "sensitive",
+      "ru": "Тема деликатная, так что следи за словами.",
+      "why": "Деликатная тема — sensitive."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_sensitive",
@@ -14306,6 +15088,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "странный, чужой",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "strange",
+      "note": "Странный, непонятный; иногда — незнакомый: a strange town.",
+      "example": "I heard a strange noise.",
+      "exampleRu": "Я услышал странный шум.",
+      "ru": "странный; незнакомый",
+      "pos": "прил."
+     },
+     {
+      "word": "foreign",
+      "note": "Из другой страны.",
+      "example": "Do you speak any foreign languages?",
+      "exampleRu": "Ты говоришь на иностранных языках?",
+      "ru": "иностранный",
+      "pos": "прил."
+     },
+     {
+      "word": "unusual",
+      "note": "Необычный, редкий — часто в хорошем смысле.",
+      "example": "What an unusual dress!",
+      "exampleRu": "Какое необычное платье!",
+      "ru": "необычный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "English is the most popular ___ language at our school.",
+      "answer": "foreign",
+      "base": "foreign",
+      "ru": "Английский — самый популярный иностранный язык в нашей школе.",
+      "why": "Из другой страны — foreign."
+     },
+     {
+      "sentence": "There's a ___ man outside our house. Who is he?",
+      "answer": "strange",
+      "base": "strange",
+      "ru": "У нашего дома стоит какой-то странный человек. Кто он?",
+      "why": "Странный и тревожный — strange."
+     },
+     {
+      "sentence": "What an ___ name! I've never heard it before.",
+      "answer": "unusual",
+      "base": "unusual",
+      "ru": "Какое необычное имя! Никогда такого не слышал.",
+      "why": "Редкий, интересный — unusual."
+     }
+    ]
+   },
    {
     "kind": "family",
     "members": [
@@ -17707,6 +18543,62 @@
     "exampleSentence": "She reads while eating breakfast.",
     "exampleTranslation": "Она читает, пока завтракает."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "во время, пока",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "during",
+      "note": "Перед существительным: during the film.",
+      "example": "Don't talk during the lesson.",
+      "exampleRu": "Не разговаривай во время урока.",
+      "ru": "во время",
+      "pos": "предл."
+     },
+     {
+      "word": "while",
+      "note": "Перед целой фразой с глаголом: while I was cooking.",
+      "example": "He called while I was in the shower.",
+      "exampleRu": "Он позвонил, пока я был в душе.",
+      "ru": "пока",
+      "pos": "союз"
+     },
+     {
+      "word": "for",
+      "note": "Сколько длилось: for two hours.",
+      "example": "I waited for an hour.",
+      "exampleRu": "Я ждал час.",
+      "ru": "в течение",
+      "pos": "предл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Someone stole my bag ___ I was asleep.",
+      "answer": "while",
+      "base": "while",
+      "ru": "Кто-то украл мою сумку, пока я спал.",
+      "why": "Дальше целая фраза с глаголом — while."
+     },
+     {
+      "sentence": "I fell asleep ___ the film.",
+      "answer": "during",
+      "base": "during",
+      "ru": "Я уснул во время фильма.",
+      "why": "Перед существительным — during."
+     },
+     {
+      "sentence": "We lived in Spain ___ three years.",
+      "answer": "for",
+      "base": "for",
+      "ru": "Мы жили в Испании три года.",
+      "why": "Сколько длилось — for."
+     }
+    ]
+   }
   ]
  },
  {
@@ -18277,6 +19169,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "разрешать",
+    "topic": "Правила",
+    "members": [
+     {
+      "word": "allow",
+      "note": "Нейтрально, часто в пассиве: You are not allowed to… Дальше to + глагол.",
+      "example": "My parents allow me to stay up late.",
+      "exampleRu": "Родители разрешают мне ложиться поздно.",
+      "ru": "разрешать",
+      "pos": "гл."
+     },
+     {
+      "word": "let",
+      "note": "Разговорно; дальше глагол без to: let me go.",
+      "example": "Let me help you.",
+      "exampleRu": "Давай я помогу.",
+      "ru": "позволять",
+      "pos": "гл."
+     },
+     {
+      "word": "permit",
+      "note": "Официально: в правилах и объявлениях.",
+      "example": "Photography is not permitted.",
+      "exampleRu": "Фотосъёмка запрещена.",
+      "ru": "разрешать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "___ me carry your bag.",
+      "answer": "Let",
+      "base": "let",
+      "ru": "Давай я понесу твою сумку.",
+      "why": "Глагол без to сразу после — let."
+     },
+     {
+      "sentence": "Dad doesn't ___ us to play games after ten.",
+      "answer": "allow",
+      "base": "allow",
+      "ru": "Папа не разрешает нам играть после десяти.",
+      "why": "Дома, обычно, с to — allow."
+     },
+     {
+      "sentence": "Notice: Smoking is not ___ anywhere on these premises.",
+      "answer": "permitted",
+      "base": "permit",
+      "ru": "Объявление: курение запрещено на всей территории.",
+      "why": "Язык официальных объявлений — permitted."
+     }
+    ]
+   },
+   {
     "kind": "antonym",
     "ru": "разрешать",
     "members": [
@@ -18409,6 +19355,54 @@
     "translation": "среди, между",
     "exampleSentence": "She was among the best students.",
     "exampleTranslation": "Она была среди лучших студентов."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "между, среди",
+    "topic": "Грамматика",
+    "members": [
+     {
+      "word": "between",
+      "note": "Между двумя или между чётко названными.",
+      "example": "The shop is between the bank and the café.",
+      "exampleRu": "Магазин между банком и кафе.",
+      "ru": "между",
+      "pos": "предл."
+     },
+     {
+      "word": "among",
+      "note": "Среди многих, в толпе, в группе.",
+      "example": "She was among the best students.",
+      "exampleRu": "Она была среди лучших студентов.",
+      "ru": "среди",
+      "pos": "предл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Sit ___ me and your brother.",
+      "answer": "between",
+      "base": "between",
+      "ru": "Сядь между мной и братом.",
+      "why": "Двое — between."
+     },
+     {
+      "sentence": "I found my keys ___ the papers on my desk.",
+      "answer": "among",
+      "base": "among",
+      "ru": "Я нашёл ключи среди бумаг на столе.",
+      "why": "Среди многих — among."
+     },
+     {
+      "sentence": "This song is popular ___ teenagers.",
+      "answer": "among",
+      "base": "among",
+      "ru": "Эта песня популярна среди подростков.",
+      "why": "В группе людей — among."
+     }
+    ]
    }
   ]
  },
@@ -18692,7 +19686,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "споры"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "спор, обсуждение",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "argument",
+      "note": "Ссора с эмоциями — или довод в споре.",
+      "example": "They had an argument about money.",
+      "exampleRu": "Они поссорились из-за денег.",
+      "ru": "ссора; довод",
+      "pos": "сущ."
+     },
+     {
+      "word": "discussion",
+      "note": "Спокойное обсуждение, обмен мнениями.",
+      "example": "We had a long discussion about the plan.",
+      "exampleRu": "Мы долго обсуждали план.",
+      "ru": "обсуждение",
+      "pos": "сущ."
+     },
+     {
+      "word": "quarrel",
+      "note": "Ссора, обычно между близкими; звучит книжнее.",
+      "example": "It was just a lovers' quarrel.",
+      "exampleRu": "Это была просто ссора влюблённых.",
+      "ru": "ссора",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "After a calm ___ we agreed on a plan.",
+      "answer": "discussion",
+      "base": "discussion",
+      "ru": "После спокойного обсуждения мы договорились о плане.",
+      "why": "Спокойно, без ссоры — discussion."
+     },
+     {
+      "sentence": "That's a good ___. You've convinced me.",
+      "answer": "argument",
+      "base": "argument",
+      "ru": "Хороший довод. Ты меня убедил.",
+      "why": "«Довод» — только argument."
+     },
+     {
+      "sentence": "My parents had an ___ and didn't speak all evening.",
+      "answer": "argument",
+      "base": "argument",
+      "ru": "Родители поссорились и весь вечер не разговаривали.",
+      "why": "Перед an подходит argument; это самое частое «ссора»."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_army",
@@ -21498,7 +22548,55 @@
    "participle": "управляемый, контролируемый · perfect: проконтролировал",
    "ing": "управление, контроль; контролирующий",
    "plural": "элементы управления"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "контролировать, проверять",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "check",
+      "note": "Проверить, всё ли в порядке. Русское «контролировать» часто значит именно это.",
+      "example": "Please check your answers.",
+      "exampleRu": "Пожалуйста, проверьте ответы.",
+      "ru": "проверять",
+      "pos": "гл."
+     },
+     {
+      "word": "control",
+      "note": "Управлять и держать в руках: машину, страну, эмоции.",
+      "example": "He couldn't control his anger.",
+      "exampleRu": "Он не смог сдержать гнев.",
+      "ru": "управлять, сдерживать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Always ___ the doors before you go to bed.",
+      "answer": "check",
+      "base": "check",
+      "ru": "Всегда проверяй двери перед сном.",
+      "why": "Убедиться, что всё в порядке, — check."
+     },
+     {
+      "sentence": "She can't ___ her dog — it runs everywhere.",
+      "answer": "control",
+      "base": "control",
+      "ru": "Она не может справиться с собакой — та носится повсюду.",
+      "why": "Держать под властью — control."
+     },
+     {
+      "sentence": "The officer ___ our passports at the border.",
+      "answer": "checked",
+      "base": "check",
+      "ru": "Офицер проверил наши паспорта на границе.",
+      "why": "«Паспортный контроль» — это проверка: check."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_cooker",
@@ -24149,7 +25247,55 @@
     "exampleTranslation": "Сегодня у меня меньше времени."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "меньше",
+    "topic": "Количество",
+    "members": [
+     {
+      "word": "less",
+      "note": "Меньше того, что не считают: less time, less money.",
+      "example": "I drink less coffee now.",
+      "exampleRu": "Теперь я пью меньше кофе.",
+      "ru": "меньше",
+      "pos": "опред."
+     },
+     {
+      "word": "fewer",
+      "note": "Меньше того, что можно посчитать: fewer people, fewer cars.",
+      "example": "There are fewer cars on Sundays.",
+      "exampleRu": "По воскресеньям меньше машин.",
+      "ru": "меньше",
+      "pos": "опред."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I want to spend ___ time on my phone.",
+      "answer": "less",
+      "base": "less",
+      "ru": "Хочу проводить меньше времени в телефоне.",
+      "why": "Время не считают поштучно — less."
+     },
+     {
+      "sentence": "___ people came this year than last year.",
+      "answer": "Fewer",
+      "base": "fewer",
+      "ru": "В этом году пришло меньше людей, чем в прошлом.",
+      "why": "Людей можно посчитать — fewer."
+     },
+     {
+      "sentence": "You should eat ___ sugar.",
+      "answer": "less",
+      "base": "less",
+      "ru": "Тебе стоит есть меньше сахара.",
+      "why": "Сахар не считают — less."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_lifestyle",
@@ -25966,6 +27112,52 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "поднимать(ся)",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "rise",
+      "note": "Подниматься самому, без дополнения: солнце, цены. Неправильный: rose — risen.",
+      "example": "The sun rises in the east.",
+      "exampleRu": "Солнце встаёт на востоке.",
+      "ru": "подниматься",
+      "pos": "гл."
+     },
+     {
+      "word": "raise",
+      "note": "Поднимать что-то: руку, цены, вопрос. Правильный глагол.",
+      "example": "Raise your hand if you know.",
+      "exampleRu": "Подними руку, если знаешь.",
+      "ru": "поднимать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Prices ___ every year.",
+      "answer": "rise",
+      "base": "rise",
+      "ru": "Цены растут каждый год.",
+      "why": "Растут сами — rise."
+     },
+     {
+      "sentence": "The shop ___ its prices again.",
+      "answer": "raised",
+      "base": "raise",
+      "ru": "Магазин опять поднял цены.",
+      "why": "Кто-то поднял — raise."
+     },
+     {
+      "sentence": "Please ___ your hand before you speak.",
+      "answer": "raise",
+      "base": "raise",
+      "ru": "Пожалуйста, поднимай руку, прежде чем говорить.",
+      "why": "Поднять что-то — raise."
+     }
+    ]
+   },
+   {
     "kind": "antonym",
     "ru": "поднимать",
     "members": [
@@ -26133,7 +27325,63 @@
    "past": "ремонтировал, отремонтировал",
    "participle": "отремонтированный · perfect: отремонтировал",
    "ing": "ремонт; ремонтирующий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "чинить",
+    "topic": "Дом",
+    "members": [
+     {
+      "word": "fix",
+      "note": "Разговорное, подходит почти ко всему. Ещё «назначить»: fix a date.",
+      "example": "Can you fix my bike?",
+      "exampleRu": "Можешь починить мой велосипед?",
+      "ru": "чинить; назначать",
+      "pos": "гл."
+     },
+     {
+      "word": "repair",
+      "note": "Чинить сложное — машину, дорогу, крышу; чуть официальнее. Есть существительное repairs — «ремонт».",
+      "example": "The road is closed for repairs.",
+      "exampleRu": "Дорогу закрыли на ремонт.",
+      "ru": "ремонтировать",
+      "pos": "гл."
+     },
+     {
+      "word": "mend",
+      "note": "Чинить простое руками: одежду, обувь, забор (британский).",
+      "example": "Grandma mended my jeans.",
+      "exampleRu": "Бабушка зашила мне джинсы.",
+      "ru": "чинить, штопать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The bridge is closed for ___.",
+      "answer": "repairs",
+      "base": "repair",
+      "ru": "Мост закрыт на ремонт.",
+      "why": "Существительное «ремонт» — repairs."
+     },
+     {
+      "sentence": "Can you ___ a hole in my sock?",
+      "answer": "mend",
+      "base": "mend",
+      "ru": "Можешь зашить дырку на моём носке?",
+      "why": "Одежду штопают — mend."
+     },
+     {
+      "sentence": "Let's ___ a date for the meeting.",
+      "answer": "fix",
+      "base": "fix",
+      "ru": "Давай назначим дату встречи.",
+      "why": "Назначить дату — fix, другие так не умеют."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_reporter",
@@ -26466,7 +27714,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "зарплаты"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "зарплата, доход",
+    "topic": "Деньги",
+    "members": [
+     {
+      "word": "salary",
+      "note": "Твёрдый оклад за месяц или год, обычно в офисе.",
+      "example": "She gets a good salary.",
+      "exampleRu": "У неё хорошая зарплата.",
+      "ru": "зарплата, оклад",
+      "pos": "сущ."
+     },
+     {
+      "word": "wage",
+      "note": "Оплата за час, день или неделю — часто у рабочих.",
+      "example": "The minimum wage is going up.",
+      "exampleRu": "Минимальная оплата труда растёт.",
+      "ru": "зарплата, ставка",
+      "pos": "сущ."
+     },
+     {
+      "word": "income",
+      "note": "Все деньги, что ты получаешь, — не только от работы.",
+      "example": "Rent is our main income.",
+      "exampleRu": "Аренда — наш основной доход.",
+      "ru": "доход",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He works in a factory and gets a weekly ___.",
+      "answer": "wage",
+      "base": "wage",
+      "ru": "Он работает на заводе и получает зарплату раз в неделю.",
+      "why": "Понедельная оплата рабочим — wage."
+     },
+     {
+      "sentence": "Her annual ___ is fifty thousand dollars.",
+      "answer": "salary",
+      "base": "salary",
+      "ru": "Её годовой оклад — пятьдесят тысяч долларов.",
+      "why": "Годовой оклад — salary."
+     },
+     {
+      "sentence": "Her ___ comes from her job and from renting out a flat.",
+      "answer": "income",
+      "base": "income",
+      "ru": "Её доход — это работа и сдача квартиры.",
+      "why": "Все поступления вместе — income."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_sale",
@@ -26849,6 +28153,62 @@
     "translation": "с (какого-то момента); так как",
     "exampleSentence": "I've lived here since 2010.",
     "exampleTranslation": "Я живу здесь с 2010 года."
+   }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "с, назад",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "since",
+      "note": "С точки во времени до сейчас: since 2015, since Monday. Обычно с Present Perfect.",
+      "example": "I have lived here since 2015.",
+      "exampleRu": "Я живу здесь с 2015 года.",
+      "ru": "с (какого-то момента)",
+      "pos": "предл."
+     },
+     {
+      "word": "for",
+      "note": "Отрезок времени: for ten years.",
+      "example": "I have lived here for ten years.",
+      "exampleRu": "Я живу здесь десять лет.",
+      "ru": "в течение",
+      "pos": "предл."
+     },
+     {
+      "word": "ago",
+      "note": "Сколько времени прошло. Стоит после срока, глагол в прошедшем.",
+      "example": "I moved here ten years ago.",
+      "exampleRu": "Я переехал сюда десять лет назад.",
+      "ru": "назад",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I have known her ___ we were children.",
+      "answer": "since",
+      "base": "since",
+      "ru": "Я знаю её с детства.",
+      "why": "С какого момента — since."
+     },
+     {
+      "sentence": "She left the company two months ___.",
+      "answer": "ago",
+      "base": "ago",
+      "ru": "Она ушла из компании два месяца назад.",
+      "why": "«Назад», после срока — ago."
+     },
+     {
+      "sentence": "They have been married ___ twenty years.",
+      "answer": "for",
+      "base": "for",
+      "ru": "Они женаты двадцать лет.",
+      "why": "Длительность — for."
+     }
+    ]
    }
   ]
  },
@@ -29027,7 +30387,63 @@
     "exampleTranslation": "Я ещё не закончил."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "уже, ещё",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "already",
+      "note": "Уже — раньше, чем ждали. В утверждениях.",
+      "example": "I have already eaten.",
+      "exampleRu": "Я уже поел.",
+      "ru": "уже",
+      "pos": "нареч."
+     },
+     {
+      "word": "yet",
+      "note": "В отрицаниях — «ещё не», в вопросах — «уже?». Стоит в конце.",
+      "example": "Have you finished yet?",
+      "exampleRu": "Ты уже закончил?",
+      "ru": "ещё (не); уже?",
+      "pos": "нареч."
+     },
+     {
+      "word": "still",
+      "note": "Действие продолжается до сих пор.",
+      "example": "He is still sleeping.",
+      "exampleRu": "Он всё ещё спит.",
+      "ru": "всё ещё",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "It's ten o'clock and she is ___ in bed.",
+      "answer": "still",
+      "base": "still",
+      "ru": "Уже десять, а она всё ещё в постели.",
+      "why": "Продолжается до сих пор — still."
+     },
+     {
+      "sentence": "I haven't done my homework ___.",
+      "answer": "yet",
+      "base": "yet",
+      "ru": "Я ещё не сделал домашку.",
+      "why": "«Ещё не» в конце отрицания — yet."
+     },
+     {
+      "sentence": "You're too late, the train has ___ left.",
+      "answer": "already",
+      "base": "already",
+      "ru": "Вы опоздали, поезд уже ушёл.",
+      "why": "«Уже» в утверждении — already."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_a2_yours",
@@ -35793,6 +37209,52 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "свободный, терять",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "loose",
+      "note": "Не тугой: свободная одежда, шатающийся зуб. Читается [luːs].",
+      "example": "These trousers are too loose.",
+      "exampleRu": "Эти брюки слишком свободные.",
+      "ru": "свободный, шатающийся",
+      "pos": "прил."
+     },
+     {
+      "word": "lose",
+      "note": "Терять, проигрывать. Читается [luːz], одна o.",
+      "example": "Don't lose your ticket.",
+      "exampleRu": "Не потеряй билет.",
+      "ru": "терять",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I have a ___ tooth.",
+      "answer": "loose",
+      "base": "loose",
+      "ru": "У меня шатается зуб.",
+      "why": "Шатающийся, не тугой — loose."
+     },
+     {
+      "sentence": "If you don't hurry, you'll ___ your chance.",
+      "answer": "lose",
+      "base": "lose",
+      "ru": "Не поторопишься — упустишь шанс.",
+      "why": "Глагол «терять» — lose."
+     },
+     {
+      "sentence": "I like ___ clothes in summer.",
+      "answer": "loose",
+      "base": "loose",
+      "ru": "Летом я люблю свободную одежду.",
+      "why": "Свободный, не облегающий — loose."
+     }
+    ]
+   },
    {
     "kind": "family",
     "members": [

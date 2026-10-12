@@ -523,7 +523,78 @@
    "participle": "нацеленный · perfect: нацелился",
    "ing": "прицеливание; нацеливающийся",
    "plural": "цели"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "цель",
+    "topic": "Планы",
+    "members": [
+     {
+      "word": "goal",
+      "note": "Цель, к которой долго идёшь; ещё гол в футболе.",
+      "example": "My goal is to learn English.",
+      "exampleRu": "Моя цель — выучить английский.",
+      "ru": "цель; гол",
+      "pos": "сущ."
+     },
+     {
+      "word": "aim",
+      "note": "Чего хочешь добиться конкретным действием.",
+      "example": "The aim of this lesson is to practise speaking.",
+      "exampleRu": "Цель урока — потренировать речь.",
+      "ru": "цель, замысел",
+      "pos": "сущ."
+     },
+     {
+      "word": "purpose",
+      "note": "Зачем что-то существует или делается. On purpose — «нарочно».",
+      "example": "What is the purpose of your visit?",
+      "exampleRu": "Какова цель вашего визита?",
+      "ru": "назначение, цель",
+      "pos": "сущ."
+     },
+     {
+      "word": "target",
+      "note": "Конкретная цифра или мишень.",
+      "example": "Our sales target is 100 cars a month.",
+      "exampleRu": "Наш план продаж — 100 машин в месяц.",
+      "ru": "план, мишень",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "\"What is the ___ of your visit?\" — \"Tourism.\"",
+      "answer": "purpose",
+      "base": "purpose",
+      "ru": "«Какова цель вашего визита?» — «Туризм».",
+      "why": "Вопрос на границе — purpose."
+     },
+     {
+      "sentence": "He scored a ___ in the last minute.",
+      "answer": "goal",
+      "base": "goal",
+      "ru": "Он забил гол на последней минуте.",
+      "why": "Гол — goal."
+     },
+     {
+      "sentence": "We hit our ___ of 500 new users.",
+      "answer": "target",
+      "base": "target",
+      "ru": "Мы выполнили план — 500 новых пользователей.",
+      "why": "Конкретная цифра — target."
+     },
+     {
+      "sentence": "She broke the glass on ___.",
+      "answer": "purpose",
+      "base": "purpose",
+      "ru": "Она разбила стакан нарочно.",
+      "why": "«Нарочно» — on purpose."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_alarm",
@@ -1304,7 +1375,63 @@
    "participle": "награждённый, присуждённый · perfect: наградил",
    "ing": "награждение; награждающий",
    "plural": "награды"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "награда, приз",
+    "topic": "Успех",
+    "members": [
+     {
+      "word": "prize",
+      "note": "Приз за победу в конкурсе или лотерее.",
+      "example": "She won first prize.",
+      "exampleRu": "Она выиграла первый приз.",
+      "ru": "приз",
+      "pos": "сущ."
+     },
+     {
+      "word": "award",
+      "note": "Официальная награда за достижения.",
+      "example": "He got an award for best actor.",
+      "exampleRu": "Он получил премию как лучший актёр.",
+      "ru": "награда, премия",
+      "pos": "сущ."
+     },
+     {
+      "word": "reward",
+      "note": "Вознаграждение за помощь или труд.",
+      "example": "They offered a reward for the lost dog.",
+      "exampleRu": "Они предложили вознаграждение за потерявшуюся собаку.",
+      "ru": "вознаграждение",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "There is a ___ of $500 for any information about the thief.",
+      "answer": "reward",
+      "base": "reward",
+      "ru": "За любую информацию о воре — вознаграждение 500 долларов.",
+      "why": "Деньги за помощь — reward."
+     },
+     {
+      "sentence": "The film won three ___ at the festival.",
+      "answer": "awards",
+      "base": "award",
+      "ru": "Фильм получил на фестивале три премии.",
+      "why": "Официальные награды — awards."
+     },
+     {
+      "sentence": "Everyone who buys a ticket can win a ___.",
+      "answer": "prize",
+      "base": "prize",
+      "ru": "Каждый, кто купит билет, может выиграть приз.",
+      "why": "Приз в лотерее — prize."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_aware",
@@ -1381,7 +1508,78 @@
    "past": "пёк, испёк",
    "participle": "печёный, испечённый · perfect: испёк",
    "ing": "выпечка; пекущий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "готовить",
+    "topic": "Еда",
+    "members": [
+     {
+      "word": "cook",
+      "note": "Готовить еду вообще.",
+      "example": "My dad cooks dinner every day.",
+      "exampleRu": "Папа каждый день готовит ужин.",
+      "ru": "готовить",
+      "pos": "гл."
+     },
+     {
+      "word": "bake",
+      "note": "Печь в духовке: хлеб, торт, пироги.",
+      "example": "Grandma bakes amazing pies.",
+      "exampleRu": "Бабушка печёт потрясающие пироги.",
+      "ru": "печь",
+      "pos": "гл."
+     },
+     {
+      "word": "fry",
+      "note": "Жарить на сковороде в масле.",
+      "example": "Fry the onions for five minutes.",
+      "exampleRu": "Обжарьте лук пять минут.",
+      "ru": "жарить",
+      "pos": "гл."
+     },
+     {
+      "word": "boil",
+      "note": "Варить в воде, кипятить.",
+      "example": "Boil the eggs for ten minutes.",
+      "exampleRu": "Варите яйца десять минут.",
+      "ru": "варить, кипятить",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I ___ a chocolate cake for her birthday.",
+      "answer": "baked",
+      "base": "bake",
+      "ru": "Я испекла шоколадный торт ей на день рождения.",
+      "why": "Торт в духовке — bake."
+     },
+     {
+      "sentence": "___ the water before you drink it.",
+      "answer": "Boil",
+      "base": "boil",
+      "ru": "Вскипяти воду, прежде чем пить.",
+      "why": "Кипятить — boil."
+     },
+     {
+      "sentence": "He ___ some eggs and bacon for breakfast.",
+      "answer": "fried",
+      "base": "fry",
+      "ru": "Он пожарил яичницу с беконом на завтрак.",
+      "why": "На сковороде — fry."
+     },
+     {
+      "sentence": "Who ___ in your family?",
+      "answer": "cooks",
+      "base": "cook",
+      "ru": "Кто у вас в семье готовит?",
+      "why": "Готовить вообще — cook."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_balance",
@@ -1913,7 +2111,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "границы"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "граница, край",
+    "topic": "Путешествия",
+    "members": [
+     {
+      "word": "border",
+      "note": "Граница между странами.",
+      "example": "We crossed the border at night.",
+      "exampleRu": "Мы пересекли границу ночью.",
+      "ru": "граница",
+      "pos": "сущ."
+     },
+     {
+      "word": "boundary",
+      "note": "Граница участка, поля; ещё границы дозволенного.",
+      "example": "The river is the boundary of our farm.",
+      "exampleRu": "Река — граница нашей фермы.",
+      "ru": "граница, рубеж",
+      "pos": "сущ."
+     },
+     {
+      "word": "edge",
+      "note": "Край предмета или места.",
+      "example": "Don't stand near the edge of the cliff.",
+      "exampleRu": "Не стой у края обрыва.",
+      "ru": "край",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "You need a passport to cross the ___.",
+      "answer": "border",
+      "base": "border",
+      "ru": "Чтобы пересечь границу, нужен паспорт.",
+      "why": "Граница стран — border."
+     },
+     {
+      "sentence": "The glass fell off the ___ of the table.",
+      "answer": "edge",
+      "base": "edge",
+      "ru": "Стакан упал с края стола.",
+      "why": "Край предмета — edge."
+     },
+     {
+      "sentence": "Children need clear ___ — they need to know the rules.",
+      "answer": "boundaries",
+      "base": "boundary",
+      "ru": "Детям нужны чёткие границы — им надо знать правила.",
+      "why": "Границы дозволенного — boundaries."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_bother",
@@ -1937,7 +2191,63 @@
    "past": "беспокоил, побеспокоил",
    "participle": "обеспокоенный · perfect: побеспокоил",
    "ing": "беспокойство; беспокоящий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "беспокоить, раздражать",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "bother",
+      "note": "Беспокоить, отвлекать; вежливое Sorry to bother you.",
+      "example": "Sorry to bother you, but where is the bank?",
+      "exampleRu": "Простите за беспокойство, где банк?",
+      "ru": "беспокоить",
+      "pos": "гл."
+     },
+     {
+      "word": "annoy",
+      "note": "Раздражать, злить понемногу.",
+      "example": "His loud music annoys me.",
+      "exampleRu": "Его громкая музыка меня раздражает.",
+      "ru": "раздражать",
+      "pos": "гл."
+     },
+     {
+      "word": "disturb",
+      "note": "Мешать, прерывать: сон, работу. Табличка Do not disturb.",
+      "example": "Please do not disturb.",
+      "exampleRu": "Пожалуйста, не беспокоить.",
+      "ru": "мешать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "There was a sign on the hotel door: \"Do not ___\".",
+      "answer": "disturb",
+      "base": "disturb",
+      "ru": "На двери номера табличка: «Не беспокоить».",
+      "why": "Табличка — Do not disturb."
+     },
+     {
+      "sentence": "Sorry to ___ you, but could you help me with my bag?",
+      "answer": "bother",
+      "base": "bother",
+      "ru": "Простите за беспокойство, не поможете с сумкой?",
+      "why": "Вежливое обращение — Sorry to bother you."
+     },
+     {
+      "sentence": "It really ___ me when people talk on the phone in the cinema.",
+      "answer": "annoys",
+      "base": "annoy",
+      "ru": "Меня очень раздражает, когда в кино говорят по телефону.",
+      "why": "Раздражать — annoy."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_branch",
@@ -2241,6 +2551,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "спокойный, тихий",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "calm",
+      "note": "Спокойный, без волнения: человек, море, голос.",
+      "example": "Stay calm and listen.",
+      "exampleRu": "Сохраняй спокойствие и слушай.",
+      "ru": "спокойный",
+      "pos": "прил."
+     },
+     {
+      "word": "quiet",
+      "note": "Тихий, без шума.",
+      "example": "It's a quiet street.",
+      "exampleRu": "Это тихая улица.",
+      "ru": "тихий",
+      "pos": "прил."
+     },
+     {
+      "word": "silent",
+      "note": "Совсем без звука, молчащий.",
+      "example": "He was silent for a minute.",
+      "exampleRu": "Он минуту молчал.",
+      "ru": "безмолвный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Be ___, please, the baby is sleeping.",
+      "answer": "quiet",
+      "base": "quiet",
+      "ru": "Потише, пожалуйста, малыш спит.",
+      "why": "Без шума — quiet."
+     },
+     {
+      "sentence": "The sea was ___ and we went swimming.",
+      "answer": "calm",
+      "base": "calm",
+      "ru": "Море было спокойным, и мы пошли купаться.",
+      "why": "Без волн — calm."
+     },
+     {
+      "sentence": "Put your phone on ___ mode.",
+      "answer": "silent",
+      "base": "silent",
+      "ru": "Включи на телефоне беззвучный режим.",
+      "why": "Совсем без звука — silent."
+     }
+    ]
+   },
    {
     "kind": "family",
     "members": [
@@ -2719,7 +3083,63 @@
    "past": "обманывал, обманул",
    "participle": "обманутый · perfect: обманул",
    "ing": "обман, жульничество; обманывающий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "обманывать",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "cheat",
+      "note": "Нечестно играть, списывать; изменять партнёру — cheat on.",
+      "example": "He cheated in the exam.",
+      "exampleRu": "Он списал на экзамене.",
+      "ru": "жульничать, списывать",
+      "pos": "гл."
+     },
+     {
+      "word": "lie",
+      "note": "Говорить неправду. В этом значении правильный: lied — lied.",
+      "example": "Don't lie to me!",
+      "exampleRu": "Не ври мне!",
+      "ru": "лгать",
+      "pos": "гл."
+     },
+     {
+      "word": "trick",
+      "note": "Обмануть хитростью, разыграть.",
+      "example": "They tricked me into paying.",
+      "exampleRu": "Они обманом заставили меня заплатить.",
+      "ru": "обхитрить, разыграть",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He ___ to his parents about his grades.",
+      "answer": "lied",
+      "base": "lie",
+      "ru": "Он соврал родителям про оценки.",
+      "why": "Сказать неправду — lie."
+     },
+     {
+      "sentence": "If you ___ in the game, I won't play with you.",
+      "answer": "cheat",
+      "base": "cheat",
+      "ru": "Если будешь жульничать, я не буду с тобой играть.",
+      "why": "Нечестно играть — cheat."
+     },
+     {
+      "sentence": "The kids ___ their teacher with a toy spider.",
+      "answer": "tricked",
+      "base": "trick",
+      "ru": "Дети разыграли учителя игрушечным пауком.",
+      "why": "Разыграть, обхитрить — trick."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_cheerful",
@@ -2883,7 +3303,78 @@
   "countable": "countable",
   "formsRu": {
    "plural": "клиенты"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "клиент, гость",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "customer",
+      "note": "Тот, кто покупает в магазине, кафе, у компании.",
+      "example": "The shop has many customers.",
+      "exampleRu": "У магазина много покупателей.",
+      "ru": "покупатель",
+      "pos": "сущ."
+     },
+     {
+      "word": "client",
+      "note": "Клиент юриста, банка, агентства — тот, кому оказывают услугу.",
+      "example": "The lawyer is meeting a client.",
+      "exampleRu": "Юрист встречается с клиентом.",
+      "ru": "клиент",
+      "pos": "сущ."
+     },
+     {
+      "word": "guest",
+      "note": "Гость дома, отеля, праздника.",
+      "example": "The hotel has 200 guests.",
+      "exampleRu": "В отеле 200 гостей.",
+      "ru": "гость",
+      "pos": "сущ."
+     },
+     {
+      "word": "visitor",
+      "note": "Тот, кто пришёл посмотреть: в музей, город, на сайт.",
+      "example": "The museum gets a million visitors a year.",
+      "exampleRu": "Музей посещает миллион человек в год.",
+      "ru": "посетитель",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The supermarket is full of ___ on Saturdays.",
+      "answer": "customers",
+      "base": "customer",
+      "ru": "По субботам в супермаркете полно покупателей.",
+      "why": "Покупают в магазине — customers."
+     },
+     {
+      "sentence": "Our agency works with ___ from all over the world.",
+      "answer": "clients",
+      "base": "client",
+      "ru": "Наше агентство работает с клиентами со всего мира.",
+      "why": "Услуги агентства — clients."
+     },
+     {
+      "sentence": "Hotel ___ can use the pool for free.",
+      "answer": "guests",
+      "base": "guest",
+      "ru": "Гости отеля пользуются бассейном бесплатно.",
+      "why": "В отеле живут guests."
+     },
+     {
+      "sentence": "The castle attracts thousands of ___ every summer.",
+      "answer": "visitors",
+      "base": "visitor",
+      "ru": "Замок каждое лето привлекает тысячи посетителей.",
+      "why": "Пришли посмотреть — visitors."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_close",
@@ -3606,7 +4097,55 @@
   "formsRu": {
    "comparative": "более удобный",
    "superlative": "самый удобный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "удобный",
+    "topic": "Дом",
+    "members": [
+     {
+      "word": "convenient",
+      "note": "Удобно по времени, месту, способу.",
+      "example": "Is 3 pm convenient for you?",
+      "exampleRu": "Вам удобно в три?",
+      "ru": "удобный (по ситуации)",
+      "pos": "прил."
+     },
+     {
+      "word": "comfortable",
+      "note": "Удобно телу: кресло, обувь; ещё «комфортно».",
+      "example": "This sofa is very comfortable.",
+      "exampleRu": "Этот диван очень удобный.",
+      "ru": "удобный (для тела)",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "These shoes are ___ — I can walk all day in them.",
+      "answer": "comfortable",
+      "base": "comfortable",
+      "ru": "Эти туфли удобные — могу ходить в них весь день.",
+      "why": "Удобно ногам — comfortable."
+     },
+     {
+      "sentence": "The hotel is ___ — it's next to the station.",
+      "answer": "convenient",
+      "base": "convenient",
+      "ru": "Отель удобно расположен — рядом с вокзалом.",
+      "why": "Удобное место — convenient."
+     },
+     {
+      "sentence": "When is it ___ for you to meet?",
+      "answer": "convenient",
+      "base": "convenient",
+      "ru": "Когда вам удобно встретиться?",
+      "why": "Удобное время — convenient."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_convince",
@@ -3630,7 +4169,55 @@
    "past": "убеждал, убедил",
    "participle": "убеждённый · perfect: убедил",
    "ing": "убеждение; убедительный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "убеждать",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "persuade",
+      "note": "Уговорить сделать что-то: persuade someone to do.",
+      "example": "She persuaded me to go to the party.",
+      "exampleRu": "Она уговорила меня пойти на вечеринку.",
+      "ru": "уговаривать",
+      "pos": "гл."
+     },
+     {
+      "word": "convince",
+      "note": "Убедить, что что-то правда: convince someone that…",
+      "example": "He convinced me that he was right.",
+      "exampleRu": "Он убедил меня, что прав.",
+      "ru": "убеждать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I finally ___ my dad to buy me a dog.",
+      "answer": "persuaded",
+      "base": "persuade",
+      "ru": "Я наконец уговорил папу купить мне собаку.",
+      "why": "Уговорить сделать — persuade (to do)."
+     },
+     {
+      "sentence": "Her story didn't ___ the police.",
+      "answer": "convince",
+      "base": "convince",
+      "ru": "Её рассказ не убедил полицию.",
+      "why": "Убедить, что это правда, — convince."
+     },
+     {
+      "sentence": "I'm ___ that he is lying.",
+      "answer": "convinced",
+      "base": "convince",
+      "ru": "Я убеждён, что он лжёт.",
+      "why": "«Убеждён» — be convinced."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_copper",
@@ -4065,7 +4652,63 @@
     "exampleTranslation": "В настоящее время она работает за границей."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "на самом деле, сейчас",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "actually",
+      "note": "На самом деле, вообще-то. Не «актуально»!",
+      "example": "Actually, I'm not from London.",
+      "exampleRu": "Вообще-то я не из Лондона.",
+      "ru": "на самом деле",
+      "pos": "нареч."
+     },
+     {
+      "word": "currently",
+      "note": "Сейчас, в данный момент.",
+      "example": "She is currently working in Paris.",
+      "exampleRu": "Сейчас она работает в Париже.",
+      "ru": "в настоящее время",
+      "pos": "нареч."
+     },
+     {
+      "word": "really",
+      "note": "Действительно; усиливает прилагательное: really good.",
+      "example": "Is it really true?",
+      "exampleRu": "Это правда так?",
+      "ru": "действительно; очень",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He looks young, but ___ he's fifty.",
+      "answer": "actually",
+      "base": "actually",
+      "ru": "Он выглядит молодо, но на самом деле ему пятьдесят.",
+      "why": "«На самом деле» — actually."
+     },
+     {
+      "sentence": "The museum is ___ closed for repairs, but it opens again in May.",
+      "answer": "currently",
+      "base": "currently",
+      "ru": "Сейчас музей закрыт на ремонт, но в мае откроется.",
+      "why": "«В данный момент» — currently."
+     },
+     {
+      "sentence": "This cake is ___ delicious!",
+      "answer": "really",
+      "base": "really",
+      "ru": "Этот торт очень вкусный!",
+      "why": "Усилить прилагательное — really."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_curtain",
@@ -5097,7 +5740,63 @@
     "exampleTranslation": "В конце концов она нашла новую работу."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "в конце концов",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "eventually",
+      "note": "В итоге, после долгого времени. Не «эвентуально»!",
+      "example": "We eventually found the hotel.",
+      "exampleRu": "В конце концов мы нашли отель.",
+      "ru": "в итоге",
+      "pos": "нареч."
+     },
+     {
+      "word": "after all",
+      "note": "«Всё-таки» — вопреки ожиданиям, или «ведь» — как довод.",
+      "example": "Don't be angry with him — he's only a child, after all.",
+      "exampleRu": "Не сердись на него — он ведь всего лишь ребёнок.",
+      "ru": "всё-таки; ведь",
+      "pos": "нареч."
+     },
+     {
+      "word": "possibly",
+      "note": "«Возможно» — а этого смысла у eventually как раз нет.",
+      "example": "It will possibly rain.",
+      "exampleRu": "Возможно, пойдёт дождь.",
+      "ru": "возможно",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "We waited for hours, and ___ the bus came.",
+      "answer": "eventually",
+      "base": "eventually",
+      "ru": "Мы ждали несколько часов, и в итоге автобус пришёл.",
+      "why": "В итоге, после долгого ожидания, — eventually."
+     },
+     {
+      "sentence": "I thought I'd fail, but I passed the exam ___.",
+      "answer": "after all",
+      "base": "after all",
+      "ru": "Я думал, что провалюсь, но всё-таки сдал экзамен.",
+      "why": "«Всё-таки», вопреки ожиданиям, — after all."
+     },
+     {
+      "sentence": "\"Will you come?\" — \"___. I'm not sure yet.\"",
+      "answer": "Possibly",
+      "base": "possibly",
+      "ru": "«Ты придёшь?» — «Возможно. Пока не уверен».",
+      "why": "«Возможно» — possibly, не eventually."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_excitement",
@@ -6156,7 +6855,55 @@
     "exampleTranslation": "Я его почти не знаю."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "усердно, едва",
+    "topic": "Грамматика",
+    "members": [
+     {
+      "word": "hard",
+      "note": "Наречие без -ly: work hard — «усердно работать».",
+      "example": "She works very hard.",
+      "exampleRu": "Она очень усердно работает.",
+      "ru": "усердно, сильно",
+      "pos": "нареч."
+     },
+     {
+      "word": "hardly",
+      "note": "«Почти не» — совсем другое значение!",
+      "example": "I can hardly hear you.",
+      "exampleRu": "Я тебя почти не слышу.",
+      "ru": "едва, почти не",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He studied ___ and passed all his exams.",
+      "answer": "hard",
+      "base": "hard",
+      "ru": "Он усердно учился и сдал все экзамены.",
+      "why": "Усердно — hard."
+     },
+     {
+      "sentence": "I ___ know him — we met only once.",
+      "answer": "hardly",
+      "base": "hardly",
+      "ru": "Я его почти не знаю — мы виделись один раз.",
+      "why": "«Почти не» — hardly."
+     },
+     {
+      "sentence": "It was raining ___ all night.",
+      "answer": "hard",
+      "base": "hard",
+      "ru": "Всю ночь шёл сильный дождь.",
+      "why": "«Сильно» — hard."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_heating",
@@ -6273,7 +7020,55 @@
     "exampleTranslation": "Она высококвалифицированный работник."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "высоко, очень",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "high",
+      "note": "Высоко в пространстве: fly high, jump high.",
+      "example": "The bird flew high in the sky.",
+      "exampleRu": "Птица летела высоко в небе.",
+      "ru": "высоко",
+      "pos": "нареч."
+     },
+     {
+      "word": "highly",
+      "note": "Очень, в высшей степени: highly recommended.",
+      "example": "I highly recommend this book.",
+      "exampleRu": "Очень советую эту книгу.",
+      "ru": "очень, высоко (о мнении)",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He jumped very ___.",
+      "answer": "high",
+      "base": "high",
+      "ru": "Он прыгнул очень высоко.",
+      "why": "Высоко в пространстве — high."
+     },
+     {
+      "sentence": "This restaurant is ___ recommended.",
+      "answer": "highly",
+      "base": "highly",
+      "ru": "Этот ресторан очень рекомендуют.",
+      "why": "«Очень» — highly."
+     },
+     {
+      "sentence": "Everyone thinks ___ of her.",
+      "answer": "highly",
+      "base": "highly",
+      "ru": "Все о ней высокого мнения.",
+      "why": "Высокое мнение — think highly of."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_hint",
@@ -6314,7 +7109,55 @@
     "exampleTranslation": "Это исторический роман."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "исторический",
+    "topic": "Учёба",
+    "members": [
+     {
+      "word": "historic",
+      "note": "Важный для истории: a historic day, a historic building.",
+      "example": "It was a historic moment.",
+      "exampleRu": "Это был исторический момент.",
+      "ru": "исторический, знаменательный",
+      "pos": "прил."
+     },
+     {
+      "word": "historical",
+      "note": "Связанный с прошлым, с историей как наукой: a historical novel.",
+      "example": "I like historical films.",
+      "exampleRu": "Я люблю исторические фильмы.",
+      "ru": "исторический",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The first flight to the Moon was a ___ event.",
+      "answer": "historic",
+      "base": "historic",
+      "ru": "Первый полёт на Луну был историческим событием.",
+      "why": "Знаменательное — historic."
+     },
+     {
+      "sentence": "She writes ___ novels about ancient Rome.",
+      "answer": "historical",
+      "base": "historical",
+      "ru": "Она пишет исторические романы о Древнем Риме.",
+      "why": "Жанр о прошлом — historical."
+     },
+     {
+      "sentence": "The museum keeps ___ documents from the 17th century.",
+      "answer": "historical",
+      "base": "historical",
+      "ru": "Музей хранит исторические документы XVII века.",
+      "why": "Документы о прошлом — historical."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_honey",
@@ -7197,6 +8040,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "журнал, дневник",
+    "topic": "Учёба",
+    "members": [
+     {
+      "word": "magazine",
+      "note": "Журнал с картинками: о моде, спорте, путешествиях.",
+      "example": "I read a fashion magazine.",
+      "exampleRu": "Я читаю модный журнал.",
+      "ru": "журнал",
+      "pos": "сущ."
+     },
+     {
+      "word": "journal",
+      "note": "Научный или профессиональный журнал; ещё личный дневник.",
+      "example": "He published an article in a medical journal.",
+      "exampleRu": "Он опубликовал статью в медицинском журнале.",
+      "ru": "научный журнал; дневник",
+      "pos": "сущ."
+     },
+     {
+      "word": "diary",
+      "note": "Личный дневник или ежедневник с планами.",
+      "example": "I wrote it in my diary.",
+      "exampleRu": "Я записал это в ежедневник.",
+      "ru": "дневник; ежедневник",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She buys a cooking ___ every month.",
+      "answer": "magazine",
+      "base": "magazine",
+      "ru": "Она каждый месяц покупает кулинарный журнал.",
+      "why": "Журнал для всех — magazine."
+     },
+     {
+      "sentence": "The study was published in a scientific ___.",
+      "answer": "journal",
+      "base": "journal",
+      "ru": "Исследование опубликовали в научном журнале.",
+      "why": "Научный журнал — journal."
+     },
+     {
+      "sentence": "Let me check my ___ — am I free on Friday?",
+      "answer": "diary",
+      "base": "diary",
+      "ru": "Сейчас посмотрю в ежедневник — я свободен в пятницу?",
+      "why": "Ежедневник с планами — diary."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -7482,7 +8379,62 @@
     "exampleTranslation": "Ты видел последний фильм?"
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "последний",
+    "topic": "Время",
+    "members": [
+     {
+      "word": "last",
+      "note": "Последний по порядку (больше не будет) или прошлый: last week.",
+      "example": "This is the last bus tonight.",
+      "exampleRu": "Это последний автобус сегодня.",
+      "ru": "последний; прошлый",
+      "pos": "прил."
+     },
+     {
+      "word": "latest",
+      "note": "Самый новый, свежий — будут и другие.",
+      "example": "Have you seen her latest film?",
+      "exampleRu": "Ты видел её последний фильм?",
+      "ru": "последний, новейший",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Have you heard the ___ news?",
+      "answer": "latest",
+      "base": "latest",
+      "ru": "Ты слышал последние новости?",
+      "why": "Самые свежие — latest."
+     },
+     {
+      "sentence": "We went to Spain ___ summer.",
+      "answer": "last",
+      "base": "last",
+      "ru": "Прошлым летом мы ездили в Испанию.",
+      "why": "«Прошлый» — last."
+     },
+     {
+      "sentence": "December is the ___ month of the year.",
+      "answer": "last",
+      "base": "last",
+      "ru": "Декабрь — последний месяц года.",
+      "why": "Последний по порядку — last."
+     },
+     {
+      "sentence": "This phone is the ___ model — it came out a week ago.",
+      "answer": "latest",
+      "base": "latest",
+      "ru": "Этот телефон — новейшая модель, вышел неделю назад.",
+      "why": "Новейший — latest."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_lay",
@@ -11524,7 +12476,78 @@
    "past": "бросал, бросил; уволился",
    "participle": "брошенный · perfect: бросил, уволился",
    "ing": "бросающий; уход"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "бросать",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "quit",
+      "note": "Бросить работу или привычку, особенно в разговоре. Формы: quit — quit.",
+      "example": "I quit my job last year.",
+      "exampleRu": "Я уволился в прошлом году.",
+      "ru": "бросить, уволиться",
+      "pos": "гл."
+     },
+     {
+      "word": "give up",
+      "note": "Сдаться или отказаться от привычки.",
+      "example": "Don't give up!",
+      "exampleRu": "Не сдавайся!",
+      "ru": "сдаться, бросить",
+      "pos": "гл."
+     },
+     {
+      "word": "leave",
+      "note": "Уйти откуда-то или от кого-то, оставить.",
+      "example": "She left her husband.",
+      "exampleRu": "Она ушла от мужа.",
+      "ru": "уйти, оставить",
+      "pos": "гл."
+     },
+     {
+      "word": "throw",
+      "note": "Бросить предмет рукой. Неправильный: threw — thrown.",
+      "example": "Throw me the ball!",
+      "exampleRu": "Кинь мне мяч!",
+      "ru": "бросать, кидать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "It's hard, but don't ___ — you're almost there!",
+      "answer": "give up",
+      "base": "give up",
+      "ru": "Трудно, но не сдавайся — ты почти у цели!",
+      "why": "Сдаться — give up."
+     },
+     {
+      "sentence": "He ___ the stone into the river.",
+      "answer": "threw",
+      "base": "throw",
+      "ru": "Он бросил камень в реку.",
+      "why": "Бросить предмет — throw."
+     },
+     {
+      "sentence": "___ me alone, please!",
+      "answer": "Leave",
+      "base": "leave",
+      "ru": "Оставь меня в покое, пожалуйста!",
+      "why": "«Оставить в покое» — leave alone."
+     },
+     {
+      "sentence": "\"You're fired!\" — \"Too late — I ___!\"",
+      "answer": "quit",
+      "base": "quit",
+      "ru": "«Вы уволены!» — «Поздно — я сам ухожу!»",
+      "why": "Уволиться самому — quit; форма не меняется."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_quotation",
@@ -11764,7 +12787,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "чеки, квитанции"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "рецепт, чек",
+    "topic": "Покупки",
+    "members": [
+     {
+      "word": "recipe",
+      "note": "Рецепт блюда.",
+      "example": "Can you give me the recipe for this soup?",
+      "exampleRu": "Дашь рецепт этого супа?",
+      "ru": "рецепт (блюда)",
+      "pos": "сущ."
+     },
+     {
+      "word": "receipt",
+      "note": "Чек, квитанция. Буква p не читается.",
+      "example": "Keep the receipt in case you want to return it.",
+      "exampleRu": "Сохраните чек на случай возврата.",
+      "ru": "чек",
+      "pos": "сущ."
+     },
+     {
+      "word": "prescription",
+      "note": "Рецепт от врача на лекарство.",
+      "example": "You need a prescription for this medicine.",
+      "exampleRu": "На это лекарство нужен рецепт.",
+      "ru": "рецепт (врача)",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "You can't buy these pills without a ___.",
+      "answer": "prescription",
+      "base": "prescription",
+      "ru": "Эти таблетки без рецепта не продаются.",
+      "why": "Рецепт врача — prescription."
+     },
+     {
+      "sentence": "My grandmother's ___ for apple pie is the best.",
+      "answer": "recipe",
+      "base": "recipe",
+      "ru": "У бабушки лучший рецепт яблочного пирога.",
+      "why": "Рецепт блюда — recipe."
+     },
+     {
+      "sentence": "Can I have a ___, please? I need it for work.",
+      "answer": "receipt",
+      "base": "receipt",
+      "ru": "Можно чек? Он нужен мне для работы.",
+      "why": "Чек — receipt."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_recommendation",
@@ -11975,7 +13054,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "родственники"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "родственник, отношения",
+    "topic": "Люди",
+    "members": [
+     {
+      "word": "relative",
+      "note": "Родственник.",
+      "example": "All our relatives came to the wedding.",
+      "exampleRu": "На свадьбу приехали все родственники.",
+      "ru": "родственник",
+      "pos": "сущ."
+     },
+     {
+      "word": "relation",
+      "note": "Связь между вещами; отношения между странами. В британском — ещё родственник.",
+      "example": "There's no relation between the two events.",
+      "exampleRu": "Между событиями нет связи.",
+      "ru": "связь; отношения",
+      "pos": "сущ."
+     },
+     {
+      "word": "relationship",
+      "note": "Отношения между людьми.",
+      "example": "They have a good relationship.",
+      "exampleRu": "У них хорошие отношения.",
+      "ru": "отношения",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She's in a ___ with a guy from work.",
+      "answer": "relationship",
+      "base": "relationship",
+      "ru": "Она встречается с парнем с работы.",
+      "why": "Отношения пары — relationship."
+     },
+     {
+      "sentence": "I spent Christmas with my ___ in Canada.",
+      "answer": "relatives",
+      "base": "relative",
+      "ru": "Я провёл Рождество у родственников в Канаде.",
+      "why": "Родственники — relatives."
+     },
+     {
+      "sentence": "He studies international ___ at university.",
+      "answer": "relations",
+      "base": "relation",
+      "ru": "Он изучает в университете международные отношения.",
+      "why": "Международные отношения — international relations."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_relaxed",
@@ -13255,7 +14390,63 @@
   "formsRu": {
    "comparative": "глупее",
    "superlative": "самый глупый"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "глупый",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "stupid",
+      "note": "Резко: глупый, тупой. Может обидеть.",
+      "example": "That was a stupid mistake.",
+      "exampleRu": "Это была глупая ошибка.",
+      "ru": "глупый, тупой",
+      "pos": "прил."
+     },
+     {
+      "word": "silly",
+      "note": "Мягко, по-доброму: глупенький, смешной.",
+      "example": "Don't be silly!",
+      "exampleRu": "Не говори глупостей!",
+      "ru": "глупенький, дурацкий",
+      "pos": "прил."
+     },
+     {
+      "word": "foolish",
+      "note": "Неразумный, опрометчивый — книжнее.",
+      "example": "It was foolish to drive so fast.",
+      "exampleRu": "Было неразумно так быстро ехать.",
+      "ru": "неразумный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Don't be ___ — of course you can stay with us!",
+      "answer": "silly",
+      "base": "silly",
+      "ru": "Не глупи — конечно, оставайся у нас!",
+      "why": "Мягко, по-доброму — silly."
+     },
+     {
+      "sentence": "It would be ___ to spend all your savings on a car.",
+      "answer": "foolish",
+      "base": "foolish",
+      "ru": "Было бы неразумно тратить все сбережения на машину.",
+      "why": "Неразумно, книжно — foolish."
+     },
+     {
+      "sentence": "He called me ___ and I was really offended.",
+      "answer": "stupid",
+      "base": "stupid",
+      "ru": "Он назвал меня тупым, и я очень обиделся.",
+      "why": "Резкое, обидное слово — stupid."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_similarity",
@@ -13813,7 +15004,63 @@
     "exampleTranslation": "Неужели ты серьёзно."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "конечно",
+    "topic": "Мнение",
+    "members": [
+     {
+      "word": "certainly",
+      "note": "Уверенное «конечно» и вежливое согласие.",
+      "example": "\"Can you help me?\" — \"Certainly.\"",
+      "exampleRu": "«Поможете?» — «Конечно».",
+      "ru": "конечно, безусловно",
+      "pos": "нареч."
+     },
+     {
+      "word": "definitely",
+      "note": "Точно, без сомнений.",
+      "example": "I will definitely come.",
+      "exampleRu": "Я обязательно приду.",
+      "ru": "определённо",
+      "pos": "нареч."
+     },
+     {
+      "word": "surely",
+      "note": "Удивление или надежда, что собеседник согласится: «Ну наверняка же…».",
+      "example": "Surely you don't believe him?",
+      "exampleRu": "Неужели ты ему веришь?",
+      "ru": "неужели; наверняка",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "___ you don't want to go out in this rain?",
+      "answer": "Surely",
+      "base": "surely",
+      "ru": "Неужели ты хочешь выйти под такой дождь?",
+      "why": "Удивление «неужели» — surely."
+     },
+     {
+      "sentence": "This is ___ the best pizza I've ever had.",
+      "answer": "definitely",
+      "base": "definitely",
+      "ru": "Это определённо лучшая пицца в моей жизни.",
+      "why": "Точно, без сомнений — definitely."
+     },
+     {
+      "sentence": "\"May I see the manager?\" — \"___, sir. One moment.\"",
+      "answer": "Certainly",
+      "base": "certainly",
+      "ru": "«Можно увидеть менеджера?» — «Разумеется, сэр. Минуту».",
+      "why": "Вежливое согласие в сервисе — certainly."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_symptom",
@@ -13942,7 +15189,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "техники, приёмы"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "техника, технологии",
+    "topic": "Работа",
+    "members": [
+     {
+      "word": "technique",
+      "note": "Способ, метод, мастерство: техника игры, приём.",
+      "example": "She has a good piano technique.",
+      "exampleRu": "У неё хорошая техника игры на фортепиано.",
+      "ru": "техника, приём",
+      "pos": "сущ."
+     },
+     {
+      "word": "technology",
+      "note": "Технологии вообще: компьютеры, интернет.",
+      "example": "Modern technology changes fast.",
+      "exampleRu": "Современные технологии быстро меняются.",
+      "ru": "технологии",
+      "pos": "сущ."
+     },
+     {
+      "word": "equipment",
+      "note": "Оборудование, аппаратура — то, что по-русски часто зовут «техникой». Неисчисляемое.",
+      "example": "The gym has new equipment.",
+      "exampleRu": "В спортзале новое оборудование.",
+      "ru": "оборудование, техника",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "We need new computer ___ for the office.",
+      "answer": "equipment",
+      "base": "equipment",
+      "ru": "Нам нужна новая компьютерная техника для офиса.",
+      "why": "Аппаратура — equipment."
+     },
+     {
+      "sentence": "Learn this breathing ___ — it helps you relax.",
+      "answer": "technique",
+      "base": "technique",
+      "ru": "Выучи эту дыхательную технику — она помогает расслабиться.",
+      "why": "Способ, приём — technique."
+     },
+     {
+      "sentence": "___ is developing very fast these days.",
+      "answer": "Technology",
+      "base": "technology",
+      "ru": "В наши дни технологии развиваются очень быстро.",
+      "why": "Технологии вообще — technology."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_tent",
@@ -15092,6 +16395,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "точный",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "accurate",
+      "note": "Верный, без ошибок: точные данные, перевод, прогноз.",
+      "example": "The report is accurate.",
+      "exampleRu": "Отчёт точный.",
+      "ru": "точный, верный",
+      "pos": "прил."
+     },
+     {
+      "word": "exact",
+      "note": "Ровно, до мелочи: the exact time, the exact words.",
+      "example": "What is the exact time?",
+      "exampleRu": "Сколько точно времени?",
+      "ru": "точный, ровно",
+      "pos": "прил."
+     },
+     {
+      "word": "precise",
+      "note": "Чёткий, конкретный, с деталями.",
+      "example": "Can you be more precise?",
+      "exampleRu": "Можете сказать конкретнее?",
+      "ru": "чёткий, конкретный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I don't remember his ___ words.",
+      "answer": "exact",
+      "base": "exact",
+      "ru": "Я не помню его слов дословно.",
+      "why": "Ровно те же слова — exact."
+     },
+     {
+      "sentence": "Can you be more ___, please? Where exactly?",
+      "answer": "precise",
+      "base": "precise",
+      "ru": "Можно поконкретнее? Где именно?",
+      "why": "Чётче, конкретнее — precise."
+     },
+     {
+      "sentence": "The weather forecast is not always ___.",
+      "answer": "accurate",
+      "base": "accurate",
+      "ru": "Прогноз погоды не всегда верен.",
+      "why": "Верный, без ошибок, — accurate."
+     }
+    ]
+   },
    {
     "kind": "antonym",
     "ru": "точный",
@@ -16633,7 +17990,63 @@
   "formsRu": {
    "comparative": "более неловкий",
    "superlative": "самый неловкий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "неловкий",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "awkward",
+      "note": "Неловкая ситуация или неуклюжий человек.",
+      "example": "There was an awkward silence.",
+      "exampleRu": "Повисла неловкая пауза.",
+      "ru": "неловкий",
+      "pos": "прил."
+     },
+     {
+      "word": "embarrassed",
+      "note": "Тебе неловко, стыдно за промах.",
+      "example": "I was so embarrassed when I fell.",
+      "exampleRu": "Мне было так неловко, когда я упал.",
+      "ru": "смущённый",
+      "pos": "прил."
+     },
+     {
+      "word": "uncomfortable",
+      "note": "Неудобный стул или «не по себе» рядом с кем-то.",
+      "example": "This chair is uncomfortable.",
+      "exampleRu": "Этот стул неудобный.",
+      "ru": "неудобный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I forgot his name while I was talking to him — it was really ___.",
+      "answer": "awkward",
+      "base": "awkward",
+      "ru": "Я забыл его имя прямо посреди разговора — вышло очень неловко.",
+      "why": "Неловкая ситуация — awkward."
+     },
+     {
+      "sentence": "She was ___ when everyone laughed at her mistake.",
+      "answer": "embarrassed",
+      "base": "embarrassed",
+      "ru": "Ей было стыдно, когда все засмеялись над её ошибкой.",
+      "why": "Чувство человека — embarrassed."
+     },
+     {
+      "sentence": "These shoes are ___ — my feet hurt.",
+      "answer": "uncomfortable",
+      "base": "uncomfortable",
+      "ru": "Эти туфли неудобные — ноги болят.",
+      "why": "Неудобная вещь — uncomfortable."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_bacteria",
@@ -18052,7 +19465,63 @@
    "past": "отменял, отменил",
    "participle": "отменённый · perfect: отменил",
    "ing": "отмена; отменяющий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "отменять, откладывать",
+    "topic": "Планы",
+    "members": [
+     {
+      "word": "cancel",
+      "note": "Отменить совсем.",
+      "example": "The flight was cancelled.",
+      "exampleRu": "Рейс отменили.",
+      "ru": "отменять",
+      "pos": "гл."
+     },
+     {
+      "word": "postpone",
+      "note": "Перенести на потом, на другую дату.",
+      "example": "We postponed the meeting until Friday.",
+      "exampleRu": "Мы перенесли встречу на пятницу.",
+      "ru": "переносить",
+      "pos": "гл."
+     },
+     {
+      "word": "delay",
+      "note": "Задержать, отложить начало.",
+      "example": "The train was delayed by an hour.",
+      "exampleRu": "Поезд задержали на час.",
+      "ru": "задерживать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I want to ___ my order — I don't need it anymore.",
+      "answer": "cancel",
+      "base": "cancel",
+      "ru": "Хочу отменить заказ — он мне больше не нужен.",
+      "why": "Отменить совсем — cancel."
+     },
+     {
+      "sentence": "We ___ the wedding until next summer.",
+      "answer": "postponed",
+      "base": "postpone",
+      "ru": "Мы перенесли свадьбу на следующее лето.",
+      "why": "Перенести на дату — postpone."
+     },
+     {
+      "sentence": "Our flight was ___ by two hours because of the fog.",
+      "answer": "delayed",
+      "base": "delay",
+      "ru": "Наш рейс задержали на два часа из-за тумана.",
+      "why": "Задержать — delay."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_b1_cancer",
@@ -22795,8 +24264,8 @@
       "note": "Довольно — то же, что quite, но только в разговоре.",
       "example": "I'm pretty tired.",
       "exampleRu": "Я довольно устал.",
-      "ru": "красивый",
-      "pos": "прил."
+      "ru": "довольно",
+      "pos": "нареч."
      },
      {
       "word": "very",

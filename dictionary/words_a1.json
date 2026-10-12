@@ -547,6 +547,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "сердитый",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "angry",
+      "note": "Обычное «злой, сердитый»: angry with someone, about something.",
+      "example": "Dad was angry with me.",
+      "exampleRu": "Папа на меня рассердился.",
+      "ru": "сердитый",
+      "pos": "прил."
+     },
+     {
+      "word": "mad",
+      "note": "В разговоре «злой» (особенно в американском) и «сумасшедший».",
+      "example": "Are you mad? It's minus twenty outside!",
+      "exampleRu": "Ты с ума сошёл? На улице минус двадцать!",
+      "ru": "злой; сумасшедший",
+      "pos": "прил."
+     },
+     {
+      "word": "upset",
+      "note": "Расстроен, обижен — грусть, а не злость.",
+      "example": "She was upset because she lost her phone.",
+      "exampleRu": "Она расстроилась, потому что потеряла телефон.",
+      "ru": "расстроенный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She cried because she was ___ about the bad news.",
+      "answer": "upset",
+      "base": "upset",
+      "ru": "Она плакала, потому что расстроилась из-за плохих новостей.",
+      "why": "Грусть и обида, а не злость — upset."
+     },
+     {
+      "sentence": "You want to swim in winter? Are you ___?",
+      "answer": "mad",
+      "base": "mad",
+      "ru": "Хочешь плавать зимой? Ты с ума сошёл?",
+      "why": "«Сумасшедший» — mad."
+     },
+     {
+      "sentence": "The teacher was very ___ with us because we were late.",
+      "answer": "angry",
+      "base": "angry",
+      "ru": "Учитель очень рассердился на нас, потому что мы опоздали.",
+      "why": "Сердиться на кого-то — be angry with."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -634,7 +688,63 @@
    "participle": "отвеченный · perfect: ответил",
    "ing": "ответ; отвечающий",
    "plural": "ответы"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "отвечать",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "answer",
+      "note": "Ответить на вопрос, звонок, письмо — без предлога.",
+      "example": "Please answer the question.",
+      "exampleRu": "Пожалуйста, ответь на вопрос.",
+      "ru": "отвечать",
+      "pos": "гл."
+     },
+     {
+      "word": "reply",
+      "note": "Ответить на письмо или сообщение — с предлогом to.",
+      "example": "She didn't reply to my email.",
+      "exampleRu": "Она не ответила на моё письмо.",
+      "ru": "отвечать",
+      "pos": "гл."
+     },
+     {
+      "word": "respond",
+      "note": "Официально: отреагировать на что-то, часто действием.",
+      "example": "The company responded quickly.",
+      "exampleRu": "Компания быстро отреагировала.",
+      "ru": "реагировать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Can you ___ the phone, please?",
+      "answer": "answer",
+      "base": "answer",
+      "ru": "Можешь взять трубку?",
+      "why": "Ответить на звонок — answer the phone."
+     },
+     {
+      "sentence": "He never ___ to my messages.",
+      "answer": "replies",
+      "base": "reply",
+      "ru": "Он никогда не отвечает на мои сообщения.",
+      "why": "С предлогом to — reply to."
+     },
+     {
+      "sentence": "The doctors ___ quickly to the emergency.",
+      "answer": "responded",
+      "base": "respond",
+      "ru": "Врачи быстро отреагировали на происшествие.",
+      "why": "Отреагировать действием — respond."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_any",
@@ -1938,10 +2048,10 @@
     "quiz": [
      {
       "sentence": "He is the ___ boy in our class.",
-      "answer": "tall",
+      "answer": "tallest",
       "base": "tall",
       "ru": "Он самый высокий мальчик в нашем классе.",
-      "why": "О росте человека — tall, не high."
+      "why": "О росте человека — tall, не high: the tallest."
      },
      {
       "sentence": "Prices are very ___ this year.",
@@ -2309,7 +2419,55 @@
     "kind": "past"
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "скучно, скучный",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "bored",
+      "note": "Что чувствуешь ты: «мне скучно».",
+      "example": "I'm bored. Let's go out.",
+      "exampleRu": "Мне скучно. Пойдём погуляем.",
+      "ru": "скучающий",
+      "pos": "прил."
+     },
+     {
+      "word": "boring",
+      "note": "Каков предмет или человек: «скучный фильм».",
+      "example": "This book is boring.",
+      "exampleRu": "Эта книга скучная.",
+      "ru": "скучный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The lesson was so ___ that I fell asleep.",
+      "answer": "boring",
+      "base": "boring",
+      "ru": "Урок был таким скучным, что я уснул.",
+      "why": "Урок сам по себе скучный — boring."
+     },
+     {
+      "sentence": "There is nothing to do here. I'm ___.",
+      "answer": "bored",
+      "base": "bored",
+      "ru": "Тут нечего делать. Мне скучно.",
+      "why": "Чувство человека — bored."
+     },
+     {
+      "sentence": "He talks only about his car. He's so ___!",
+      "answer": "boring",
+      "base": "boring",
+      "ru": "Он говорит только о своей машине. Какой же он зануда!",
+      "why": "С ним скучно — boring. «He's bored» значило бы, что скучно ему."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_boring",
@@ -3436,6 +3594,60 @@
   },
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "ребёнок",
+    "topic": "Люди",
+    "members": [
+     {
+      "word": "child",
+      "note": "Нейтральное слово. Множественное — children.",
+      "example": "They have two children.",
+      "exampleRu": "У них двое детей.",
+      "ru": "ребёнок",
+      "pos": "сущ."
+     },
+     {
+      "word": "kid",
+      "note": "То же, но разговорно.",
+      "example": "The kids are playing outside.",
+      "exampleRu": "Дети играют на улице.",
+      "ru": "ребёнок",
+      "pos": "сущ."
+     },
+     {
+      "word": "baby",
+      "note": "Совсем маленький ребёнок.",
+      "example": "The baby is sleeping.",
+      "exampleRu": "Малыш спит.",
+      "ru": "малыш, младенец",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The ___ is only two months old.",
+      "answer": "baby",
+      "base": "baby",
+      "ru": "Малышу всего два месяца.",
+      "why": "Двухмесячный — baby."
+     },
+     {
+      "sentence": "Hey ___, dinner is ready!",
+      "answer": "kids",
+      "base": "kid",
+      "ru": "Эй, ребята, ужин готов!",
+      "why": "По-домашнему, разговорно — kids."
+     },
+     {
+      "sentence": "This film is not suitable for ___ under 12.",
+      "answer": "children",
+      "base": "child",
+      "ru": "Этот фильм не подходит детям до 12 лет.",
+      "why": "В официальных текстах — children."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -3755,6 +3967,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "закрывать",
+    "topic": "Дом",
+    "members": [
+     {
+      "word": "close",
+      "note": "Обычное слово: дверь, магазин, глаза, счёт в банке.",
+      "example": "Please close the window.",
+      "exampleRu": "Пожалуйста, закрой окно.",
+      "ru": "закрывать",
+      "pos": "гл."
+     },
+     {
+      "word": "shut",
+      "note": "То же, но резче и разговорнее. Shut up — «замолчи».",
+      "example": "Shut the door, it's cold!",
+      "exampleRu": "Закрой дверь, холодно!",
+      "ru": "закрывать",
+      "pos": "гл."
+     },
+     {
+      "word": "lock",
+      "note": "Закрыть на ключ.",
+      "example": "Don't forget to lock the door.",
+      "exampleRu": "Не забудь запереть дверь.",
+      "ru": "запирать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Don't forget to ___ the door — here is the key.",
+      "answer": "lock",
+      "base": "lock",
+      "ru": "Не забудь запереть дверь — вот ключ.",
+      "why": "С ключом — lock."
+     },
+     {
+      "sentence": "Can you ___ up for a minute? I'm trying to listen.",
+      "answer": "shut",
+      "base": "shut",
+      "ru": "Можешь помолчать минутку? Я пытаюсь слушать.",
+      "why": "«Замолчи» — только shut up."
+     },
+     {
+      "sentence": "I want to ___ my bank account.",
+      "answer": "close",
+      "base": "close",
+      "ru": "Я хочу закрыть счёт в банке.",
+      "why": "Закрыть счёт, встречу, сделку — close."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -3949,6 +4215,60 @@
    "participle": "come"
   },
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "идти, приходить",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "go",
+      "note": "Движение отсюда — туда.",
+      "example": "Let's go to the park.",
+      "exampleRu": "Пойдём в парк.",
+      "ru": "идти, ехать",
+      "pos": "гл."
+     },
+     {
+      "word": "come",
+      "note": "Движение сюда — к говорящему или к тому, с кем говоришь.",
+      "example": "Come here, please!",
+      "exampleRu": "Иди сюда, пожалуйста!",
+      "ru": "приходить",
+      "pos": "гл."
+     },
+     {
+      "word": "get",
+      "note": "Добраться до места — важен путь: get to.",
+      "example": "How do I get to the station?",
+      "exampleRu": "Как мне добраться до вокзала?",
+      "ru": "добираться",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Please ___ here, I want to show you something.",
+      "answer": "come",
+      "base": "come",
+      "ru": "Иди сюда, хочу тебе кое-что показать.",
+      "why": "К говорящему — come, хотя по-русски «иди»."
+     },
+     {
+      "sentence": "I'm tired. I want to ___ home.",
+      "answer": "go",
+      "base": "go",
+      "ru": "Я устал. Хочу пойти домой.",
+      "why": "Отсюда туда — go."
+     },
+     {
+      "sentence": "How long does it take to ___ to the airport?",
+      "answer": "get",
+      "base": "get",
+      "ru": "Сколько времени добираться до аэропорта?",
+      "why": "«Добираться, сколько ехать» — get to."
+     }
+    ]
+   },
    {
     "kind": "antonym",
     "ru": "приходить",
@@ -6280,6 +6600,62 @@
     "exampleSentence": "I walk every morning.",
     "exampleTranslation": "Я гуляю каждое утро."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "каждый, все",
+    "topic": "Грамматика",
+    "members": [
+     {
+      "word": "every",
+      "note": "Каждый — все без исключения. Дальше единственное число.",
+      "example": "I go running every morning.",
+      "exampleRu": "Я бегаю каждое утро.",
+      "ru": "каждый",
+      "pos": "опред."
+     },
+     {
+      "word": "each",
+      "note": "Каждый по отдельности; часто о небольшом числе. Бывает и без существительного: each of them.",
+      "example": "Each student got a book.",
+      "exampleRu": "Каждый ученик получил книгу.",
+      "ru": "каждый",
+      "pos": "опред."
+     },
+     {
+      "word": "all",
+      "note": "Все — дальше множественное число.",
+      "example": "All my friends like football.",
+      "exampleRu": "Все мои друзья любят футбол.",
+      "ru": "все",
+      "pos": "опред."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "She has two sons. ___ of them plays the guitar.",
+      "answer": "Each",
+      "base": "each",
+      "ru": "У неё двое сыновей. Каждый из них играет на гитаре.",
+      "why": "О двоих и с of — только each."
+     },
+     {
+      "sentence": "We go to the sea ___ summer.",
+      "answer": "every",
+      "base": "every",
+      "ru": "Мы ездим на море каждое лето.",
+      "why": "Регулярно, каждый раз — every."
+     },
+     {
+      "sentence": "___ the students passed the exam.",
+      "answer": "All",
+      "base": "all",
+      "ru": "Все студенты сдали экзамен.",
+      "why": "С множественным числом и the — all."
+     }
+    ]
+   }
   ]
  },
  {
@@ -6853,6 +7229,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "быстрый",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "fast",
+      "note": "О скорости движения: быстрая машина. Наречие такое же — без -ly: run fast.",
+      "example": "He runs very fast.",
+      "exampleRu": "Он бегает очень быстро.",
+      "ru": "быстрый",
+      "pos": "прил."
+     },
+     {
+      "word": "quick",
+      "note": "О времени: короткий, недолгий — быстрый вопрос, перекус.",
+      "example": "Can I ask a quick question?",
+      "exampleRu": "Можно быстрый вопрос?",
+      "ru": "быстрый, недолгий",
+      "pos": "прил."
+     },
+     {
+      "word": "soon",
+      "note": "Скоро — через небольшое время, а не «с большой скоростью».",
+      "example": "See you soon!",
+      "exampleRu": "До скорой встречи!",
+      "ru": "скоро",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Can I ask you a ___ question?",
+      "answer": "quick",
+      "base": "quick",
+      "ru": "Можно быстрый вопрос?",
+      "why": "Недолгий, короткий — quick."
+     },
+     {
+      "sentence": "This car is very ___.",
+      "answer": "fast",
+      "base": "fast",
+      "ru": "Эта машина очень быстрая.",
+      "why": "Скорость движения — fast."
+     },
+     {
+      "sentence": "Don't worry, she will be here ___.",
+      "answer": "soon",
+      "base": "soon",
+      "ru": "Не волнуйся, она скоро будет здесь.",
+      "why": "«Скоро» по времени — soon."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -7152,7 +7582,56 @@
   "countable": "countable",
   "formsRu": {
    "plural": "фильмы"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "фильм, кино",
+    "topic": "Досуг",
+    "members": [
+     {
+      "word": "film",
+      "note": "Фильм в британском английском.",
+      "example": "We watched a good film yesterday.",
+      "exampleRu": "Вчера мы посмотрели хороший фильм.",
+      "ru": "фильм",
+      "pos": "сущ."
+     },
+     {
+      "word": "movie",
+      "note": "Фильм в американском; в Британии тоже понимают.",
+      "example": "Let's watch a movie tonight.",
+      "exampleRu": "Давай посмотрим кино вечером.",
+      "ru": "фильм",
+      "pos": "сущ."
+     },
+     {
+      "word": "cinema",
+      "note": "Кинотеатр — здание. Американцы говорят the movies.",
+      "example": "Let's go to the cinema.",
+      "exampleRu": "Пойдём в кино.",
+      "ru": "кинотеатр",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "There is a new ___ near my house with ten screens.",
+      "answer": "cinema",
+      "base": "cinema",
+      "ru": "Рядом с моим домом открылся кинотеатр на десять залов.",
+      "why": "Здание с залами — cinema."
+     },
+     {
+      "sentence": "Hollywood makes hundreds of ___ every year.",
+      "answer": "movies",
+      "base": "movie",
+      "ru": "Голливуд снимает сотни фильмов каждый год.",
+      "why": "Голливуд — американский английский: movie."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_final",
@@ -7269,7 +7748,63 @@
    "past": "заканчивал, закончил",
    "participle": "законченный, готовый · perfect: закончил",
    "ing": "отделка, финиш; завершающий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "заканчивать",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "finish",
+      "note": "Доделать до конца: работу, еду, книгу. Дальше глагол с -ing.",
+      "example": "I finished my homework.",
+      "exampleRu": "Я закончил домашнее задание.",
+      "ru": "заканчивать",
+      "pos": "гл."
+     },
+     {
+      "word": "end",
+      "note": "Подойти к концу — о фильме, истории, войне. Обычно без дополнения.",
+      "example": "The film ends at ten.",
+      "exampleRu": "Фильм заканчивается в десять.",
+      "ru": "заканчиваться",
+      "pos": "гл."
+     },
+     {
+      "word": "stop",
+      "note": "Перестать, даже если не доделал.",
+      "example": "Stop talking, please.",
+      "exampleRu": "Перестаньте разговаривать, пожалуйста.",
+      "ru": "прекращать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Did you ___ your soup? You can have dessert now.",
+      "answer": "finish",
+      "base": "finish",
+      "ru": "Ты доел суп? Теперь можно десерт.",
+      "why": "Доделать до конца (доесть) — finish."
+     },
+     {
+      "sentence": "How does the story ___?",
+      "answer": "end",
+      "base": "end",
+      "ru": "Чем заканчивается история?",
+      "why": "«Чем кончится» сюжет — end."
+     },
+     {
+      "sentence": "The rain ___ and we went outside.",
+      "answer": "stopped",
+      "base": "stop",
+      "ru": "Дождь перестал, и мы вышли на улицу.",
+      "why": "Прекратился, а не «довёлся до конца» — stop."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_fire",
@@ -8203,7 +8738,55 @@
   "formsRu": {
    "comparative": "смешнее",
    "superlative": "самый смешной"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "смешной, весёлый",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "funny",
+      "note": "То, над чем смеёшься: шутка, фильм, человек. Иногда — «странный».",
+      "example": "That joke was really funny.",
+      "exampleRu": "Эта шутка была очень смешной.",
+      "ru": "смешной; странный",
+      "pos": "прил."
+     },
+     {
+      "word": "fun",
+      "note": "Приятно провести время, не обязательно смешно.",
+      "example": "The party was a lot of fun.",
+      "exampleRu": "На вечеринке было очень весело.",
+      "ru": "веселье, весело",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "We played games all evening. It was great ___!",
+      "answer": "fun",
+      "base": "fun",
+      "ru": "Мы весь вечер играли. Было здорово!",
+      "why": "Приятное время — fun."
+     },
+     {
+      "sentence": "He told a ___ story and we all laughed.",
+      "answer": "funny",
+      "base": "funny",
+      "ru": "Он рассказал смешную историю, и мы все смеялись.",
+      "why": "Вызывает смех — funny."
+     },
+     {
+      "sentence": "This milk tastes ___. Is it old?",
+      "answer": "funny",
+      "base": "funny",
+      "ru": "У этого молока странный вкус. Оно не испортилось?",
+      "why": "Funny бывает и «странный»."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_future",
@@ -9010,6 +9593,60 @@
    }
   ],
   "sets": [
+   {
+    "kind": "synonym",
+    "ru": "радостный, довольный",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "happy",
+      "note": "Счастливый, радостный — о настроении и в поздравлениях: Happy birthday!",
+      "example": "She looks very happy today.",
+      "exampleRu": "Она сегодня выглядит очень счастливой.",
+      "ru": "счастливый",
+      "pos": "прил."
+     },
+     {
+      "word": "glad",
+      "note": "Рад чему-то конкретному. Только после глагола: I'm glad, а не «a glad girl».",
+      "example": "I'm glad you came.",
+      "exampleRu": "Я рад, что ты пришёл.",
+      "ru": "рад",
+      "pos": "прил."
+     },
+     {
+      "word": "pleased",
+      "note": "Доволен результатом или чьей-то работой; звучит вежливо.",
+      "example": "The boss was pleased with our work.",
+      "exampleRu": "Начальник был доволен нашей работой.",
+      "ru": "довольный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "___ New Year, everyone!",
+      "answer": "Happy",
+      "base": "happy",
+      "ru": "С Новым годом всех!",
+      "why": "В поздравлениях — только happy."
+     },
+     {
+      "sentence": "Mum was ___ with my exam results.",
+      "answer": "pleased",
+      "base": "pleased",
+      "ru": "Мама была довольна моими оценками за экзамен.",
+      "why": "Доволен результатом — pleased with."
+     },
+     {
+      "sentence": "She is a ___ child — she smiles all the time.",
+      "answer": "happy",
+      "base": "happy",
+      "ru": "Она счастливый ребёнок — всё время улыбается.",
+      "why": "Перед существительным glad не ставят — happy."
+     }
+    ]
+   },
    {
     "kind": "family",
     "members": [
@@ -11623,6 +12260,60 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "нравиться, любить",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "like",
+      "note": "Нравится — спокойно, без сильных чувств.",
+      "example": "I like coffee.",
+      "exampleRu": "Я люблю кофе.",
+      "ru": "нравиться",
+      "pos": "гл."
+     },
+     {
+      "word": "love",
+      "note": "Сильнее, чем like: любить человека или обожать что-то.",
+      "example": "I love you, Mum.",
+      "exampleRu": "Я люблю тебя, мама.",
+      "ru": "любить, обожать",
+      "pos": "гл."
+     },
+     {
+      "word": "enjoy",
+      "note": "Наслаждаться процессом. Дальше -ing или существительное.",
+      "example": "I enjoy swimming.",
+      "exampleRu": "Мне нравится плавать.",
+      "ru": "получать удовольствие",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "___ your meal!",
+      "answer": "Enjoy",
+      "base": "enjoy",
+      "ru": "Приятного аппетита!",
+      "why": "Пожелание удовольствия — enjoy."
+     },
+     {
+      "sentence": "I ___ my family more than anything.",
+      "answer": "love",
+      "base": "love",
+      "ru": "Я люблю свою семью больше всего на свете.",
+      "why": "Сильное чувство к людям — love."
+     },
+     {
+      "sentence": "I ___ tea, but coffee is OK too.",
+      "answer": "like",
+      "base": "like",
+      "ru": "Чай мне нравится, но и кофе пойдёт.",
+      "why": "Спокойное «нравится» — like."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -11939,6 +12630,59 @@
   },
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "терять, упускать",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "lose",
+      "note": "Потерять вещь или проиграть игру. Неправильный: lost — lost.",
+      "example": "I lost my keys.",
+      "exampleRu": "Я потерял ключи.",
+      "ru": "терять; проигрывать",
+      "pos": "гл."
+     },
+     {
+      "word": "miss",
+      "note": "Не успеть на транспорт, пропустить урок, упустить шанс — и скучать по кому-то.",
+      "example": "I missed the bus.",
+      "exampleRu": "Я опоздал на автобус.",
+      "ru": "пропустить; скучать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Hurry up or we'll ___ the train!",
+      "answer": "miss",
+      "base": "miss",
+      "ru": "Поторопись, а то опоздаем на поезд!",
+      "why": "Не успеть на транспорт — miss."
+     },
+     {
+      "sentence": "Our team ___ the match 0:3.",
+      "answer": "lost",
+      "base": "lose",
+      "ru": "Наша команда проиграла матч 0:3.",
+      "why": "Проиграть игру — lose."
+     },
+     {
+      "sentence": "I ___ you so much! When are you coming back?",
+      "answer": "miss",
+      "base": "miss",
+      "ru": "Я так по тебе скучаю! Когда ты вернёшься?",
+      "why": "Скучать по человеку — miss."
+     },
+     {
+      "sentence": "I can't find my phone. I think I ___ it.",
+      "answer": "lost",
+      "base": "lose",
+      "ru": "Не могу найти телефон. Кажется, я его потерял.",
+      "why": "Потерять вещь — lose."
+     }
+    ]
+   },
+   {
     "kind": "family",
     "members": [
      {
@@ -12215,6 +12959,62 @@
     "exampleSentence": "I don't have many friends here.",
     "exampleTranslation": "У меня здесь мало друзей."
    }
+  ],
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "много",
+    "topic": "Количество",
+    "members": [
+     {
+      "word": "many",
+      "note": "Много того, что можно посчитать: many books, many people.",
+      "example": "There are many people here.",
+      "exampleRu": "Здесь много людей.",
+      "ru": "много",
+      "pos": "опред."
+     },
+     {
+      "word": "much",
+      "note": "Много того, что не считают: much time, much money. Чаще в вопросах и отрицаниях.",
+      "example": "I don't have much time.",
+      "exampleRu": "У меня не так много времени.",
+      "ru": "много",
+      "pos": "опред."
+     },
+     {
+      "word": "a lot of",
+      "note": "Подходит ко всему и звучит разговорно; в утверждениях — лучший выбор.",
+      "example": "We have a lot of homework.",
+      "exampleRu": "Нам задали много домашки.",
+      "ru": "много",
+      "pos": "опред."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "How ___ money do you need?",
+      "answer": "much",
+      "base": "much",
+      "ru": "Сколько денег тебе нужно?",
+      "why": "Деньги не считают поштучно — much."
+     },
+     {
+      "sentence": "How ___ brothers do you have?",
+      "answer": "many",
+      "base": "many",
+      "ru": "Сколько у тебя братьев?",
+      "why": "Братьев можно посчитать — many."
+     },
+     {
+      "sentence": "There was ___ snow last winter.",
+      "answer": "a lot of",
+      "base": "a lot of",
+      "ru": "Прошлой зимой было много снега.",
+      "why": "В утвердительном предложении естественнее a lot of."
+     }
+    ]
+   }
   ]
  },
  {
@@ -12384,7 +13184,63 @@
     "exampleTranslation": "Может быть, мы сможем пойти завтра."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "может быть",
+    "topic": "Мнение",
+    "members": [
+     {
+      "word": "maybe",
+      "note": "Разговорное «может быть»; обычно в начале фразы или отдельным ответом.",
+      "example": "Maybe it will rain.",
+      "exampleRu": "Может, пойдёт дождь.",
+      "ru": "может быть",
+      "pos": "нареч."
+     },
+     {
+      "word": "perhaps",
+      "note": "То же, но вежливее и книжнее.",
+      "example": "Perhaps you are right.",
+      "exampleRu": "Возможно, вы правы.",
+      "ru": "возможно",
+      "pos": "нареч."
+     },
+     {
+      "word": "probably",
+      "note": "Скорее всего — шансы выше, чем у maybe. Встаёт перед смысловым глаголом.",
+      "example": "He will probably be late.",
+      "exampleRu": "Он, скорее всего, опоздает.",
+      "ru": "вероятно",
+      "pos": "нареч."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He's always late, so he will ___ be late today too.",
+      "answer": "probably",
+      "base": "probably",
+      "ru": "Он всегда опаздывает, так что, скорее всего, опоздает и сегодня.",
+      "why": "Почти уверен — probably; оно встаёт внутрь фразы."
+     },
+     {
+      "sentence": "\"Are you coming tonight?\" — \"___. I don't know yet.\"",
+      "answer": "Maybe",
+      "base": "maybe",
+      "ru": "«Придёшь вечером?» — «Может быть. Пока не знаю».",
+      "why": "Короткий разговорный ответ — maybe."
+     },
+     {
+      "sentence": "___ you would like to sit down, madam?",
+      "answer": "Perhaps",
+      "base": "perhaps",
+      "ru": "Может быть, вы присядете, мадам?",
+      "why": "Вежливое предложение — perhaps."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_me",
@@ -18109,7 +18965,71 @@
   "countable": "countable",
   "formsRu": {
    "plural": "магазины"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "магазин",
+    "topic": "Покупки",
+    "members": [
+     {
+      "word": "shop",
+      "note": "Магазин в британском английском, обычно небольшой.",
+      "example": "There is a small shop on the corner.",
+      "exampleRu": "На углу есть маленький магазин.",
+      "ru": "магазин",
+      "pos": "сущ."
+     },
+     {
+      "word": "store",
+      "note": "Магазин в американском. В Британии — большой универмаг: department store.",
+      "example": "I work in a big department store.",
+      "exampleRu": "Я работаю в большом универмаге.",
+      "ru": "магазин",
+      "pos": "сущ."
+     },
+     {
+      "word": "market",
+      "note": "Рынок с прилавками, часто под открытым небом.",
+      "example": "We buy fruit at the market.",
+      "exampleRu": "Мы покупаем фрукты на рынке.",
+      "ru": "рынок",
+      "pos": "сущ."
+     },
+     {
+      "word": "supermarket",
+      "note": "Большой магазин самообслуживания с едой.",
+      "example": "I buy milk at the supermarket.",
+      "exampleRu": "Я покупаю молоко в супермаркете.",
+      "ru": "супермаркет",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "On Sundays farmers sell vegetables at the ___ in the square.",
+      "answer": "market",
+      "base": "market",
+      "ru": "По воскресеньям фермеры продают овощи на рынке на площади.",
+      "why": "Прилавки на площади — market."
+     },
+     {
+      "sentence": "In New York we went to a huge department ___.",
+      "answer": "store",
+      "base": "store",
+      "ru": "В Нью-Йорке мы зашли в огромный универмаг.",
+      "why": "Универмаг — department store."
+     },
+     {
+      "sentence": "Let's go to the ___ and buy food for the whole week.",
+      "answer": "supermarket",
+      "base": "supermarket",
+      "ru": "Пойдём в супермаркет и купим еды на всю неделю.",
+      "why": "Много еды сразу — supermarket."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_shopping",
@@ -18558,7 +19478,63 @@
   "formsRu": {
    "comparative": "меньше",
    "superlative": "самый маленький, наименьший"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "маленький",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "small",
+      "note": "Нейтрально о размере. Сравнивают именно его: smaller, the smallest.",
+      "example": "They live in a small flat.",
+      "exampleRu": "Они живут в маленькой квартире.",
+      "ru": "маленький",
+      "pos": "прил."
+     },
+     {
+      "word": "little",
+      "note": "С чувством: «маленький, милый». Обычно стоит перед существительным и не сравнивается.",
+      "example": "What a sweet little dog!",
+      "exampleRu": "Какая милая маленькая собачка!",
+      "ru": "маленький",
+      "pos": "прил."
+     },
+     {
+      "word": "tiny",
+      "note": "Очень маленький — сильнее, чем small.",
+      "example": "The baby has tiny fingers.",
+      "exampleRu": "У малыша крошечные пальчики.",
+      "ru": "крошечный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Look at that cute ___ kitten!",
+      "answer": "little",
+      "base": "little",
+      "ru": "Посмотри на этого милого котёнка!",
+      "why": "С нежностью, «маленький, милый» — little."
+     },
+     {
+      "sentence": "My room is ___ than yours.",
+      "answer": "smaller",
+      "base": "small",
+      "ru": "Моя комната меньше твоей.",
+      "why": "Сравнивают small: smaller, the smallest."
+     },
+     {
+      "sentence": "The ant was so ___ that I could hardly see it.",
+      "answer": "tiny",
+      "base": "tiny",
+      "ru": "Муравей был таким крошечным, что я его еле разглядел.",
+      "why": "Совсем-совсем маленький — tiny."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_snake",
@@ -19215,6 +20191,52 @@
   ],
   "sets": [
    {
+    "kind": "synonym",
+    "ru": "начинать",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "start",
+      "note": "Самое частое «начинать». Ещё заводить машину и открывать своё дело.",
+      "example": "The lesson starts at nine.",
+      "exampleRu": "Урок начинается в девять.",
+      "ru": "начинать; заводить",
+      "pos": "гл."
+     },
+     {
+      "word": "begin",
+      "note": "То же «начинать», но книжнее и торжественнее. Машину так не заводят. Неправильный: began — begun.",
+      "example": "Let us begin.",
+      "exampleRu": "Давайте начнём.",
+      "ru": "начинать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "My car won't ___ in the cold.",
+      "answer": "start",
+      "base": "start",
+      "ru": "Моя машина не заводится в холод.",
+      "why": "Завести машину — только start."
+     },
+     {
+      "sentence": "She wants to ___ her own business.",
+      "answer": "start",
+      "base": "start",
+      "ru": "Она хочет открыть своё дело.",
+      "why": "Открыть бизнес — start a business."
+     },
+     {
+      "sentence": "Ladies and gentlemen, let the show ___!",
+      "answer": "begin",
+      "base": "begin",
+      "ru": "Дамы и господа, начинаем шоу!",
+      "why": "В торжественной речи — begin."
+     }
+    ]
+   },
+   {
     "kind": "antonym",
     "ru": "начинать",
     "members": [
@@ -19341,7 +20363,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "улицы"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "улица, дорога",
+    "topic": "Город",
+    "members": [
+     {
+      "word": "street",
+      "note": "Улица в городе — с домами и магазинами по сторонам.",
+      "example": "I live on Green Street.",
+      "exampleRu": "Я живу на Грин-стрит.",
+      "ru": "улица",
+      "pos": "сущ."
+     },
+     {
+      "word": "road",
+      "note": "Дорога для машин, в том числе между городами.",
+      "example": "This road goes to London.",
+      "exampleRu": "Эта дорога ведёт в Лондон.",
+      "ru": "дорога",
+      "pos": "сущ."
+     },
+     {
+      "word": "way",
+      "note": "Путь, как добраться, — а не сама дорога.",
+      "example": "Can you tell me the way to the station?",
+      "exampleRu": "Подскажите, как пройти к вокзалу?",
+      "ru": "путь",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Excuse me, is this the ___ to the museum?",
+      "answer": "way",
+      "base": "way",
+      "ru": "Простите, так можно пройти к музею?",
+      "why": "«Как пройти» — the way to."
+     },
+     {
+      "sentence": "There are lots of cafés in this ___.",
+      "answer": "street",
+      "base": "street",
+      "ru": "На этой улице много кафе.",
+      "why": "Городская улица с кафе — street."
+     },
+     {
+      "sentence": "We drove along a country ___ for two hours.",
+      "answer": "road",
+      "base": "road",
+      "ru": "Мы два часа ехали по просёлочной дороге.",
+      "why": "Дорога за городом — road."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_strong",
@@ -20987,7 +22065,63 @@
   "countable": "countable",
   "formsRu": {
    "plural": "города"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "город, деревня",
+    "topic": "Город",
+    "members": [
+     {
+      "word": "city",
+      "note": "Большой город.",
+      "example": "Tokyo is a huge city.",
+      "exampleRu": "Токио — огромный город.",
+      "ru": "город",
+      "pos": "сущ."
+     },
+     {
+      "word": "town",
+      "note": "Небольшой город. Go to town — «съездить в центр».",
+      "example": "I grew up in a small town.",
+      "exampleRu": "Я вырос в маленьком городке.",
+      "ru": "городок",
+      "pos": "сущ."
+     },
+     {
+      "word": "village",
+      "note": "Деревня, село.",
+      "example": "My grandma lives in a village.",
+      "exampleRu": "Моя бабушка живёт в деревне.",
+      "ru": "деревня",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "London is the biggest ___ in the UK.",
+      "answer": "city",
+      "base": "city",
+      "ru": "Лондон — крупнейший город Великобритании.",
+      "why": "Крупный город — city."
+     },
+     {
+      "sentence": "There are only twenty houses in our ___.",
+      "answer": "village",
+      "base": "village",
+      "ru": "В нашей деревне всего двадцать домов.",
+      "why": "Двадцать домов — village."
+     },
+     {
+      "sentence": "It's a quiet little ___ with one school and a few shops.",
+      "answer": "town",
+      "base": "town",
+      "ru": "Это тихий городок с одной школой и парой магазинов.",
+      "why": "Небольшой город — town."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_traffic",
@@ -22305,7 +23439,63 @@
    "past": "носил; изнашивал, износил",
    "participle": "изношенный, поношенный · perfect: надел, износил",
    "ing": "утомительный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "носить, надевать",
+    "topic": "Одежда",
+    "members": [
+     {
+      "word": "wear",
+      "note": "Быть в одежде — состояние.",
+      "example": "She always wears jeans.",
+      "exampleRu": "Она всегда носит джинсы.",
+      "ru": "носить, быть одетым",
+      "pos": "гл."
+     },
+     {
+      "word": "put on",
+      "note": "Надеть — действие.",
+      "example": "Put on your coat, it's cold.",
+      "exampleRu": "Надень пальто, холодно.",
+      "ru": "надевать",
+      "pos": "гл."
+     },
+     {
+      "word": "dress",
+      "note": "Одеть кого-то или одеться целиком: get dressed.",
+      "example": "I dressed the baby.",
+      "exampleRu": "Я одела малыша.",
+      "ru": "одевать(ся)",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "It's cold outside, ___ your hat!",
+      "answer": "put on",
+      "base": "put on",
+      "ru": "На улице холодно, надень шапку!",
+      "why": "Действие «надеть» — put on."
+     },
+     {
+      "sentence": "He usually ___ a suit to work.",
+      "answer": "wears",
+      "base": "wear",
+      "ru": "Обычно он ходит на работу в костюме.",
+      "why": "Регулярно носить — wear."
+     },
+     {
+      "sentence": "Hurry up and get ___, we're late!",
+      "answer": "dressed",
+      "base": "dress",
+      "ru": "Скорее одевайся, мы опаздываем!",
+      "why": "Одеться полностью — get dressed."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_weather",

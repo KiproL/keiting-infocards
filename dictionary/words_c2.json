@@ -656,7 +656,63 @@
    "past": "размышлял, обдумал",
    "participle": "обдуманный · perfect: обдумал",
    "ing": "размышление; размышляющий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "размышлять",
+    "topic": "Мнение",
+    "members": [
+     {
+      "word": "think",
+      "note": "Обычное «думать», «считать».",
+      "example": "Let me think.",
+      "exampleRu": "Дай подумать.",
+      "ru": "думать",
+      "pos": "гл."
+     },
+     {
+      "word": "ponder",
+      "note": "Долго и серьёзно обдумывать.",
+      "example": "She pondered the question for a long time.",
+      "exampleRu": "Она долго обдумывала вопрос.",
+      "ru": "обдумывать",
+      "pos": "гл."
+     },
+     {
+      "word": "wonder",
+      "note": "«Интересно…», задаваться вопросом.",
+      "example": "I wonder what time it is.",
+      "exampleRu": "Интересно, который час.",
+      "ru": "задаваться вопросом",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I ___ if she will call.",
+      "answer": "wonder",
+      "base": "wonder",
+      "ru": "Интересно, позвонит ли она.",
+      "why": "«Интересно, …» — wonder if."
+     },
+     {
+      "sentence": "He sat by the window, ___ the meaning of life.",
+      "answer": "pondering",
+      "base": "ponder",
+      "ru": "Он сидел у окна, размышляя о смысле жизни.",
+      "why": "Долго и глубоко — ponder."
+     },
+     {
+      "sentence": "What do you ___ of my new haircut?",
+      "answer": "think",
+      "base": "think",
+      "ru": "Как тебе моя новая стрижка?",
+      "why": "Мнение — think of."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_discourse",
@@ -1163,7 +1219,63 @@
   "formsRu": {
    "comparative": "более откровенный",
    "superlative": "самый откровенный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "откровенный",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "honest",
+      "note": "Не врёт и не обманывает.",
+      "example": "He's an honest man.",
+      "exampleRu": "Он честный человек.",
+      "ru": "честный",
+      "pos": "прил."
+     },
+     {
+      "word": "frank",
+      "note": "Говорит прямо, даже неприятное. Frank exchange of views — «откровенный обмен мнениями».",
+      "example": "To be frank, I don't like your idea.",
+      "exampleRu": "Скажу прямо: мне не нравится твоя идея.",
+      "ru": "откровенный, прямой",
+      "pos": "прил."
+     },
+     {
+      "word": "candid",
+      "note": "Открыто говорит о личном или неудобном. Candid photo — снимок, сделанный врасплох.",
+      "example": "She gave a candid interview about her illness.",
+      "exampleRu": "Она дала откровенное интервью о своей болезни.",
+      "ru": "откровенный, искренний",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "He found my wallet and returned it — he's very ___.",
+      "answer": "honest",
+      "base": "honest",
+      "ru": "Он нашёл мой кошелёк и вернул — очень честный человек.",
+      "why": "Честный поступок — honest."
+     },
+     {
+      "sentence": "The photographer took ___ shots of the guests while they were dancing.",
+      "answer": "candid",
+      "base": "candid",
+      "ru": "Фотограф снимал гостей врасплох, пока они танцевали.",
+      "why": "Снимки врасплох — candid shots."
+     },
+     {
+      "sentence": "The two leaders had a ___ exchange of views.",
+      "answer": "frank",
+      "base": "frank",
+      "ru": "Лидеры откровенно обменялись мнениями.",
+      "why": "Дипломатическое клише — frank exchange of views."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_obstinate",
@@ -1186,7 +1298,63 @@
   "formsRu": {
    "comparative": "более упрямый",
    "superlative": "самый упрямый"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "упрямый",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "stubborn",
+      "note": "Обычное «упрямый». Stubborn stain — «въевшееся пятно».",
+      "example": "He's as stubborn as a mule.",
+      "exampleRu": "Он упрям как осёл.",
+      "ru": "упрямый",
+      "pos": "прил."
+     },
+     {
+      "word": "obstinate",
+      "note": "Упрям без причины; книжно и с осуждением.",
+      "example": "Her obstinate refusal annoyed everyone.",
+      "exampleRu": "Её упорный отказ всех раздражал.",
+      "ru": "упорный, неуступчивый",
+      "pos": "прил."
+     },
+     {
+      "word": "tenacious",
+      "note": "Не сдаётся — и это похвала.",
+      "example": "She's a tenacious lawyer.",
+      "exampleRu": "Она настойчивый юрист.",
+      "ru": "цепкий, настойчивый",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "This ___ stain won't come out of my shirt.",
+      "answer": "stubborn",
+      "base": "stubborn",
+      "ru": "Это въевшееся пятно никак не отстирывается.",
+      "why": "О пятне — stubborn."
+     },
+     {
+      "sentence": "Only a ___ player could come back from 0:5.",
+      "answer": "tenacious",
+      "base": "tenacious",
+      "ru": "Только очень цепкий игрок мог отыграться с 0:5.",
+      "why": "Похвала за упорство — tenacious."
+     },
+     {
+      "sentence": "His ___ refusal to listen to anyone ruined the project.",
+      "answer": "obstinate",
+      "base": "obstinate",
+      "ru": "Его упорное нежелание кого-либо слушать погубило проект.",
+      "why": "Книжное упрямство с осуждением — obstinate."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_fastidious",
@@ -1232,7 +1400,63 @@
   "formsRu": {
    "comparative": "более общительный",
    "superlative": "самый общительный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "общительный",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "friendly",
+      "note": "Дружелюбный, приветливый.",
+      "example": "The locals are very friendly.",
+      "exampleRu": "Местные очень дружелюбные.",
+      "ru": "дружелюбный",
+      "pos": "прил."
+     },
+     {
+      "word": "sociable",
+      "note": "Любит компанию и разговоры.",
+      "example": "She's sociable and has many friends.",
+      "exampleRu": "Она общительная, у неё много друзей.",
+      "ru": "общительный",
+      "pos": "прил."
+     },
+     {
+      "word": "gregarious",
+      "note": "Книжно: компанейский; о животных — живущий стаями.",
+      "example": "Sheep are gregarious animals.",
+      "exampleRu": "Овцы — стадные животные.",
+      "ru": "стадный; компанейский",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Wolves are ___ — they live in packs.",
+      "answer": "gregarious",
+      "base": "gregarious",
+      "ru": "Волки — стадные животные, живут стаями.",
+      "why": "О животных — gregarious."
+     },
+     {
+      "sentence": "The waiter was very ___ and smiled at us.",
+      "answer": "friendly",
+      "base": "friendly",
+      "ru": "Официант был очень приветлив и улыбался нам.",
+      "why": "Приветливый — friendly."
+     },
+     {
+      "sentence": "Tom is ___ — he loves parties and meeting new people.",
+      "answer": "sociable",
+      "base": "sociable",
+      "ru": "Том общительный — обожает вечеринки и новые знакомства.",
+      "why": "Любит компанию — sociable; gregarious — книжнее."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_aloof",
@@ -1255,7 +1479,63 @@
   "formsRu": {
    "comparative": "более отчуждённый",
    "superlative": "самый отчуждённый"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "отстранённый",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "distant",
+      "note": "Холодный, далёкий в отношениях — или далёкий в пространстве.",
+      "example": "She has been distant since our argument.",
+      "exampleRu": "После ссоры она отдалилась.",
+      "ru": "отстранённый, далёкий",
+      "pos": "прил."
+     },
+     {
+      "word": "aloof",
+      "note": "Держится в стороне, будто выше других.",
+      "example": "He seems aloof, but he's just shy.",
+      "exampleRu": "Он кажется высокомерным, но он просто стеснительный.",
+      "ru": "надменно отчуждённый",
+      "pos": "прил."
+     },
+     {
+      "word": "detached",
+      "note": "Без эмоций, со стороны — иногда это плюс.",
+      "example": "A judge must remain detached.",
+      "exampleRu": "Судья должен оставаться беспристрастным.",
+      "ru": "беспристрастный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The journalist tried to stay ___ and not take sides.",
+      "answer": "detached",
+      "base": "detached",
+      "ru": "Журналист старался оставаться беспристрастным и не принимать ничью сторону.",
+      "why": "Без эмоций, со стороны, — detached."
+     },
+     {
+      "sentence": "Since he moved away, he has become ___ — he rarely calls.",
+      "answer": "distant",
+      "base": "distant",
+      "ru": "После переезда он отдалился — редко звонит.",
+      "why": "Отдалиться — become distant."
+     },
+     {
+      "sentence": "She stood ___ from the other guests, as if they were beneath her.",
+      "answer": "aloof",
+      "base": "aloof",
+      "ru": "Она держалась в стороне от гостей, будто они ей не ровня.",
+      "why": "Надменная отстранённость — aloof."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_reticent",
@@ -1597,7 +1877,63 @@
     "exampleTranslation": "Она раздражённо вздохнула."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "раздражённый",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "annoyed",
+      "note": "Раздражён — обычное слово.",
+      "example": "I'm annoyed with you.",
+      "exampleRu": "Я на тебя злюсь.",
+      "ru": "раздражённый",
+      "pos": "прил."
+     },
+     {
+      "word": "frustrated",
+      "note": "Досада, что не получается.",
+      "example": "I'm frustrated — the app keeps crashing.",
+      "exampleRu": "Меня бесит — приложение всё время вылетает.",
+      "ru": "раздосадованный",
+      "pos": "прил."
+     },
+     {
+      "word": "exasperated",
+      "note": "Терпение лопнуло после многих попыток.",
+      "example": "\"For the last time, no!\" she said, exasperated.",
+      "exampleRu": "«В последний раз — нет!» — сказала она, потеряв терпение.",
+      "ru": "выведенный из себя",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I'm ___ because I can't solve this puzzle.",
+      "answer": "frustrated",
+      "base": "frustrated",
+      "ru": "Меня злит, что не могу решить эту головоломку.",
+      "why": "Досада от неудачи — frustrated."
+     },
+     {
+      "sentence": "After explaining it for the tenth time, the teacher was ___.",
+      "answer": "exasperated",
+      "base": "exasperated",
+      "ru": "Объяснив в десятый раз, учитель вышел из себя.",
+      "why": "Терпение лопнуло — exasperated."
+     },
+     {
+      "sentence": "She was a bit ___ when he came late.",
+      "answer": "annoyed",
+      "base": "annoyed",
+      "ru": "Она немного рассердилась, когда он опоздал.",
+      "why": "Слегка — annoyed."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_elated",
@@ -1640,7 +1976,63 @@
   "formsRu": {
    "comparative": "более унылый",
    "superlative": "самый унылый"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "подавленный",
+    "topic": "Эмоции",
+    "members": [
+     {
+      "word": "sad",
+      "note": "Обычное «грустный».",
+      "example": "I feel sad today.",
+      "exampleRu": "Мне сегодня грустно.",
+      "ru": "грустный",
+      "pos": "прил."
+     },
+     {
+      "word": "gloomy",
+      "note": "Мрачный — о настроении, погоде, прогнозе.",
+      "example": "The forecast is gloomy.",
+      "exampleRu": "Прогноз мрачный.",
+      "ru": "мрачный",
+      "pos": "прил."
+     },
+     {
+      "word": "despondent",
+      "note": "Отчаялся и потерял надежду.",
+      "example": "After months without work he grew despondent.",
+      "exampleRu": "После месяцев без работы он совсем пал духом.",
+      "ru": "подавленный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "It's a ___ day — dark clouds and no sun.",
+      "answer": "gloomy",
+      "base": "gloomy",
+      "ru": "Пасмурный, мрачный день — тучи и ни лучика солнца.",
+      "why": "Мрачная погода — gloomy."
+     },
+     {
+      "sentence": "After the tenth rejection, she became ___ and stopped applying.",
+      "answer": "despondent",
+      "base": "despondent",
+      "ru": "После десятого отказа она пала духом и перестала подавать заявки.",
+      "why": "Потеряла надежду — despondent."
+     },
+     {
+      "sentence": "The film has a ___ ending — I cried.",
+      "answer": "sad",
+      "base": "sad",
+      "ru": "У фильма грустный конец — я плакал.",
+      "why": "Просто грустно — sad."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_wistful",
@@ -2049,7 +2441,63 @@
    "past": "избегал, сторонился",
    "participle": "отвергнутый · perfect: отверг",
    "ing": "избегание"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "избегать",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "avoid",
+      "note": "Общее слово.",
+      "example": "Avoid fatty food.",
+      "exampleRu": "Избегайте жирной пищи.",
+      "ru": "избегать",
+      "pos": "гл."
+     },
+     {
+      "word": "shun",
+      "note": "Сторониться человека, демонстративно отвергать.",
+      "example": "After the scandal his friends shunned him.",
+      "exampleRu": "После скандала друзья от него отвернулись.",
+      "ru": "сторониться",
+      "pos": "гл."
+     },
+     {
+      "word": "eschew",
+      "note": "Книжно: сознательно отказываться от чего-то.",
+      "example": "The author eschews long words.",
+      "exampleRu": "Автор сознательно избегает длинных слов.",
+      "ru": "воздерживаться",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Try to ___ the city centre at rush hour.",
+      "answer": "avoid",
+      "base": "avoid",
+      "ru": "Старайся не ездить в центр в час пик.",
+      "why": "Обычное «избегать» — avoid."
+     },
+     {
+      "sentence": "The village ___ the family after the crime.",
+      "answer": "shunned",
+      "base": "shun",
+      "ru": "После преступления деревня отвернулась от семьи.",
+      "why": "Сторониться людей — shun."
+     },
+     {
+      "sentence": "The architect ___ decoration in favour of simple lines.",
+      "answer": "eschewed",
+      "base": "eschew",
+      "ru": "Архитектор сознательно отказался от декора ради простых линий.",
+      "why": "Книжный сознательный отказ — eschew."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_nurture",
@@ -2099,7 +2547,63 @@
    "past": "насмехался, высмеял",
    "participle": "высмеянный · perfect: высмеял",
    "ing": "насмешка; насмешливый"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "насмехаться",
+    "topic": "Общение",
+    "members": [
+     {
+      "word": "laugh at",
+      "note": "Смеяться над кем-то или чем-то.",
+      "example": "Don't laugh at me!",
+      "exampleRu": "Не смейся надо мной!",
+      "ru": "смеяться над",
+      "pos": "гл."
+     },
+     {
+      "word": "tease",
+      "note": "Дразнить — часто по-дружески.",
+      "example": "My brother always teases me.",
+      "exampleRu": "Брат вечно меня дразнит.",
+      "ru": "дразнить",
+      "pos": "гл."
+     },
+     {
+      "word": "mock",
+      "note": "Зло высмеивать, передразнивать.",
+      "example": "They mocked his accent.",
+      "exampleRu": "Они передразнивали его акцент.",
+      "ru": "высмеивать, передразнивать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Stop ___ me about my new haircut — it's not that bad!",
+      "answer": "teasing",
+      "base": "tease",
+      "ru": "Хватит меня подкалывать из-за стрижки — она не так уж плоха!",
+      "why": "Дразнить по-дружески — tease."
+     },
+     {
+      "sentence": "The comedian ___ the politicians in his show.",
+      "answer": "mocked",
+      "base": "mock",
+      "ru": "Комик высмеивал политиков в своём шоу.",
+      "why": "Высмеивать — mock."
+     },
+     {
+      "sentence": "Everyone ___ my joke — it was a success!",
+      "answer": "laughed at",
+      "base": "laugh at",
+      "ru": "Все смеялись над моей шуткой — успех!",
+      "why": "Смеяться над шуткой — laugh at."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_mar",
@@ -2336,7 +2840,63 @@
    }
   ],
   "countable": "uncountable",
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "нехватка",
+    "topic": "Аналитика",
+    "members": [
+     {
+      "word": "lack",
+      "note": "Общее слово. Lack of — без артикля.",
+      "example": "The plants died from lack of water.",
+      "exampleRu": "Растения погибли от нехватки воды.",
+      "ru": "нехватка, отсутствие",
+      "pos": "сущ."
+     },
+     {
+      "word": "shortage",
+      "note": "Дефицит товара или людей.",
+      "example": "There is a shortage of nurses.",
+      "exampleRu": "Не хватает медсестёр.",
+      "ru": "дефицит",
+      "pos": "сущ."
+     },
+     {
+      "word": "dearth",
+      "note": "Книжно: почти полное отсутствие.",
+      "example": "There is a dearth of reliable data.",
+      "exampleRu": "Надёжных данных почти нет.",
+      "ru": "острая нехватка",
+      "pos": "сущ."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "I failed the test because of ___ of sleep.",
+      "answer": "lack",
+      "base": "lack",
+      "ru": "Я завалил тест из-за недосыпа.",
+      "why": "Нехватка, без артикля, — lack of."
+     },
+     {
+      "sentence": "A petrol ___ led to long queues.",
+      "answer": "shortage",
+      "base": "shortage",
+      "ru": "Дефицит бензина вызвал длинные очереди.",
+      "why": "Дефицит товара — shortage."
+     },
+     {
+      "sentence": "Critics noted a ___ of fresh ideas in the novel.",
+      "answer": "dearth",
+      "base": "dearth",
+      "ru": "Критики отметили почти полное отсутствие свежих идей в романе.",
+      "why": "Книжно — dearth."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_surfeit",
@@ -3574,7 +4134,63 @@
   "formsRu": {
    "comparative": "более ненадёжный",
    "superlative": "самый ненадёжный"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "шаткий, опасный",
+    "topic": "Описание",
+    "members": [
+     {
+      "word": "dangerous",
+      "note": "Опасный вообще.",
+      "example": "It's dangerous to swim here.",
+      "exampleRu": "Здесь опасно плавать.",
+      "ru": "опасный",
+      "pos": "прил."
+     },
+     {
+      "word": "risky",
+      "note": "Есть риск, но можно и выиграть.",
+      "example": "Investing in shares is risky.",
+      "exampleRu": "Вкладываться в акции рискованно.",
+      "ru": "рискованный",
+      "pos": "прил."
+     },
+     {
+      "word": "precarious",
+      "note": "Неустойчивый, может рухнуть в любой момент.",
+      "example": "He has a precarious job.",
+      "exampleRu": "У него ненадёжная работа.",
+      "ru": "шаткий, ненадёжный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "The vase stood in a ___ position on the edge of the shelf.",
+      "answer": "precarious",
+      "base": "precarious",
+      "ru": "Ваза шатко стояла на краю полки.",
+      "why": "Неустойчиво — precarious."
+     },
+     {
+      "sentence": "Starting a business is ___, but it can pay off.",
+      "answer": "risky",
+      "base": "risky",
+      "ru": "Открыть бизнес рискованно, но это может окупиться.",
+      "why": "Риск ради выигрыша — risky."
+     },
+     {
+      "sentence": "Some snakes are very ___.",
+      "answer": "dangerous",
+      "base": "dangerous",
+      "ru": "Некоторые змеи очень опасны.",
+      "why": "Просто опасный — dangerous."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_perilous",
@@ -3809,7 +4425,63 @@
     "exampleTranslation": "Он владеет французским лишь на самом начальном уровне."
    }
   ],
-  "formsRu": {}
+  "formsRu": {},
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "базовый",
+    "topic": "Учёба",
+    "members": [
+     {
+      "word": "basic",
+      "note": "Основной, простейший.",
+      "example": "I have basic computer skills.",
+      "exampleRu": "У меня базовые навыки работы на компьютере.",
+      "ru": "базовый, основной",
+      "pos": "прил."
+     },
+     {
+      "word": "elementary",
+      "note": "Начальный уровень (elementary school) или «элементарно».",
+      "example": "It's elementary, my dear Watson.",
+      "exampleRu": "Элементарно, мой дорогой Ватсон.",
+      "ru": "начальный, элементарный",
+      "pos": "прил."
+     },
+     {
+      "word": "rudimentary",
+      "note": "Самый примитивный, неразвитый.",
+      "example": "The tools were rudimentary.",
+      "exampleRu": "Инструменты были примитивными.",
+      "ru": "зачаточный, примитивный",
+      "pos": "прил."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "My son goes to ___ school.",
+      "answer": "elementary",
+      "base": "elementary",
+      "ru": "Мой сын ходит в начальную школу.",
+      "why": "Начальная школа (США) — elementary school."
+     },
+     {
+      "sentence": "They lived in ___ huts without water or electricity.",
+      "answer": "rudimentary",
+      "base": "rudimentary",
+      "ru": "Они жили в примитивных хижинах без воды и света.",
+      "why": "Примитивный — rudimentary."
+     },
+     {
+      "sentence": "Water and food are ___ human needs.",
+      "answer": "basic",
+      "base": "basic",
+      "ru": "Вода и еда — базовые потребности человека.",
+      "why": "Основные — basic."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_nominal",
@@ -4204,7 +4876,63 @@
    "past": "срывал, сорвал (план)",
    "participle": "сорванный · perfect: сорвал",
    "ing": "срывающий"
-  }
+  },
+  "sets": [
+   {
+    "kind": "synonym",
+    "ru": "помешать",
+    "topic": "Действия",
+    "members": [
+     {
+      "word": "prevent",
+      "note": "Не дать случиться: prevent something from happening.",
+      "example": "Wash your hands to prevent infection.",
+      "exampleRu": "Мойте руки, чтобы не заразиться.",
+      "ru": "предотвратить",
+      "pos": "гл."
+     },
+     {
+      "word": "stop",
+      "note": "Остановить, помешать — разговорно.",
+      "example": "Nobody can stop me.",
+      "exampleRu": "Никто меня не остановит.",
+      "ru": "остановить",
+      "pos": "гл."
+     },
+     {
+      "word": "thwart",
+      "note": "Сорвать чьи-то планы или попытку.",
+      "example": "Police thwarted the robbery.",
+      "exampleRu": "Полиция сорвала ограбление.",
+      "ru": "сорвать",
+      "pos": "гл."
+     }
+    ],
+    "quiz": [
+     {
+      "sentence": "Their plans to escape were ___ by the guards.",
+      "answer": "thwarted",
+      "base": "thwart",
+      "ru": "Охрана сорвала их план побега.",
+      "why": "Сорвать планы — thwart."
+     },
+     {
+      "sentence": "Vaccines help ___ disease.",
+      "answer": "prevent",
+      "base": "prevent",
+      "ru": "Вакцины помогают предотвращать болезни.",
+      "why": "Предотвратить — prevent."
+     },
+     {
+      "sentence": "___ the car! I want to get out.",
+      "answer": "Stop",
+      "base": "stop",
+      "ru": "Останови машину! Я хочу выйти.",
+      "why": "Остановить — stop."
+     }
+    ]
+   }
+  ]
  },
  {
   "id": "word_c2_latitude",
