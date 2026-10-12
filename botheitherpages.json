@@ -1,0 +1,429 @@
+{
+  "tenseName": "Both / Either / Neither",
+  "route": "cards_botheither",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Три слова о двух предметах или людях. Both — «оба», either — «любой из двух» (а с not — «ни один»), neither — «ни один из двух».",
+        "highlights": [
+          {
+            "text": "Both",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "either",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "neither",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "о двух",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "both",
+                  "оба, и тот и другой",
+                  "Both answers are correct."
+                ]
+              },
+              {
+                "cells": [
+                  "either",
+                  "любой из двух",
+                  "You can take either bus."
+                ]
+              },
+              {
+                "cells": [
+                  "not … either",
+                  "ни тот, ни другой",
+                  "I don't like either of them."
+                ]
+              },
+              {
+                "cells": [
+                  "neither",
+                  "ни один из двух",
+                  "Neither answer is correct."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "С of",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "both of",
+              "suffix": "+ мн. число",
+              "example": "Both of my brothers are tall."
+            },
+            {
+              "name": "either of",
+              "suffix": "+ мн. число",
+              "example": "Either of the days is fine."
+            },
+            {
+              "name": "neither of",
+              "suffix": "+ мн. число",
+              "example": "Neither of them called."
+            }
+          ]
+        },
+        {
+          "title": "Только о двух",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Если больше — другие слова",
+            "text": "О трёх и больше: all (все), any (любой), none (ни один)."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Both … and",
+      "intro": {
+        "text": "Парные союзы связывают два варианта: both … and — «и…, и…», either … or — «или…, или…», neither … nor — «ни…, ни…».",
+        "highlights": [
+          {
+            "text": "both … and",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "either … or",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "neither … nor",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                {
+                  "text": "both",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "A",
+                  "color": "text"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "and",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "B",
+                  "color": "text"
+                }
+              ],
+              "accentColor": "term"
+            },
+            {
+              "parts": [
+                {
+                  "text": "either",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "A",
+                  "color": "text"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "or",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "B",
+                  "color": "text"
+                }
+              ],
+              "accentColor": "info"
+            },
+            {
+              "parts": [
+                {
+                  "text": "neither",
+                  "color": "bad"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "A",
+                  "color": "text"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "nor",
+                  "color": "bad"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "B",
+                  "color": "text"
+                }
+              ],
+              "accentColor": "bad"
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "She speaks both English and French.",
+              "ru": "Она говорит и по-английски, и по-французски."
+            },
+            {
+              "en": "We can either walk or take a taxi.",
+              "ru": "Мы можем либо пойти пешком, либо взять такси."
+            },
+            {
+              "en": "Neither Tom nor Anna was at home.",
+              "ru": "Ни Тома, ни Анны не было дома."
+            }
+          ]
+        },
+        {
+          "title": "Neither уже отрицание",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Второе not не нужно",
+            "text": "Neither … nor сами по себе «ни…, ни…». Нельзя: I don't like neither tea nor coffee. Правильно: I like neither tea nor coffee."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Я тоже",
+      "intro": {
+        "text": "Чтобы согласиться, говорят «я тоже» — и тут важно, было ли отрицание. На утверждение — So do I или Me too, на отрицание — Neither do I или Me neither.",
+        "highlights": [
+          {
+            "text": "So do I",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Me too",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Neither do I",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Me neither",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как ответить",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Собеседник",
+              "Я тоже",
+              "Разговорно"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I like jazz.",
+                  "So do I.",
+                  "Me too."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm tired.",
+                  "So am I.",
+                  "Me too."
+                ]
+              },
+              {
+                "cells": [
+                  "I can swim.",
+                  "So can I.",
+                  "Me too."
+                ]
+              },
+              {
+                "cells": [
+                  "I don't like jazz.",
+                  "Neither do I.",
+                  "Me neither."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm not hungry.",
+                  "Neither am I.",
+                  "Me neither."
+                ]
+              },
+              {
+                "cells": [
+                  "I can't drive.",
+                  "Neither can I.",
+                  "Me neither."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Глагол — как у собеседника",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Do, am, can, have…",
+            "text": "Повторяем его вспомогательный глагол: I've finished → So have I. I went → So did I. Подробнее — в карточке Ellipsis."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с both, either и neither.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "The both girls are here.",
+              "right": "Both girls are here. / Both the girls are here."
+            },
+            {
+              "wrong": "Neither of them don't know.",
+              "right": "Neither of them knows."
+            },
+            {
+              "wrong": "I don't like neither of them.",
+              "right": "I don't like either of them. / I like neither of them."
+            },
+            {
+              "wrong": "I don't like coffee. — Me too.",
+              "right": "I don't like coffee. — Me neither."
+            },
+            {
+              "wrong": "I like it. — So I do.",
+              "right": "I like it. — So do I."
+            },
+            {
+              "wrong": "Both of three students passed.",
+              "right": "All three students passed."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Где отрицание",
+            "text": "Одно отрицание на фразу: либо not + either, либо neither без not."
+          },
+          "quote": {
+            "text": "Either и neither — только о паре. Больше двух — any и none.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

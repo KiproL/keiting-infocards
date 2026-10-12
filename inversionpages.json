@@ -1,0 +1,345 @@
+{
+  "tenseName": "Inversion",
+  "route": "cards_inversion",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Инверсия — порядок слов как в вопросе, но в утверждении: Never have I seen… Так говорят, когда в начало вынесено отрицательное или ограничивающее слово. Звучит сильно и книжно.",
+        "highlights": [
+          {
+            "text": "Инверсия",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "как в вопросе",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Never have I seen",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "сильно и книжно",
+            "color": "accent2",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "отрицательное слово",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "вспомогательный глагол",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "подлежащее",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "text"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Обычный порядок → инверсия",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "I have never seen such a mess.",
+              "to": "Never have I seen such a mess.",
+              "toColor": "good"
+            },
+            {
+              "from": "I rarely go out.",
+              "to": "Rarely do I go out.",
+              "toColor": "good"
+            },
+            {
+              "from": "She didn't say a word.",
+              "to": "Not a word did she say.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Вспомогательный — обязательно",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Как в вопросе",
+            "text": "Нет вспомогательного — добавь do, does, did: Rarely does he call. Little did they know."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Слова-сигналы",
+      "intro": {
+        "text": "Инверсию включают слова со смыслом «никогда», «редко», «только», «ни за что». Каждое — со своим оттенком.",
+        "highlights": [
+          {
+            "text": "включают",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "«никогда», «редко», «только», «ни за что»",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сигналы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Начало",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Never / Never before",
+                  "никогда",
+                  "Never have I felt so happy."
+                ]
+              },
+              {
+                "cells": [
+                  "Rarely / Seldom",
+                  "редко",
+                  "Seldom do we see such talent."
+                ]
+              },
+              {
+                "cells": [
+                  "Not only … but also",
+                  "не только…, но и",
+                  "Not only is she smart, but she's also kind."
+                ]
+              },
+              {
+                "cells": [
+                  "Little",
+                  "совсем не (знать, подозревать)",
+                  "Little did he know the truth."
+                ]
+              },
+              {
+                "cells": [
+                  "Only then / Only when",
+                  "только тогда / только когда",
+                  "Only then did I understand."
+                ]
+              },
+              {
+                "cells": [
+                  "Not until",
+                  "только когда, не раньше",
+                  "Not until he left did I relax."
+                ]
+              },
+              {
+                "cells": [
+                  "Under no circumstances",
+                  "ни при каких условиях",
+                  "Under no circumstances should you open it."
+                ]
+              },
+              {
+                "cells": [
+                  "At no time",
+                  "ни разу, никогда",
+                  "At no time was he in danger."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Родственники",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Тоже инверсия",
+            "text": "Hardly … when и No sooner … than — у них свои карточки."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Условия без if",
+      "intro": {
+        "text": "В книжной речи if можно убрать, переставив глагол вперёд: Had I known… — «Если бы я знал…». Так работает с had, were и should.",
+        "highlights": [
+          {
+            "text": "if можно убрать",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Had I known",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "had, were и should",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Без if",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "С if",
+              "Инверсия",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "If I had known…",
+                  "Had I known…",
+                  "Если бы я знал…"
+                ]
+              },
+              {
+                "cells": [
+                  "If I were you…",
+                  "Were I you…",
+                  "На твоём месте…"
+                ]
+              },
+              {
+                "cells": [
+                  "If you should need help…",
+                  "Should you need help…",
+                  "Если вдруг понадобится помощь…"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Had I known, I would have come earlier.",
+              "ru": "Если бы я знал, пришёл бы раньше."
+            },
+            {
+              "en": "Should you have any questions, please call us.",
+              "ru": "Если у вас появятся вопросы, звоните."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в инверсии.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Never I have seen it.",
+              "right": "Never have I seen it."
+            },
+            {
+              "wrong": "Rarely he calls me.",
+              "right": "Rarely does he call me."
+            },
+            {
+              "wrong": "Not only she is smart, but…",
+              "right": "Not only is she smart, but…"
+            },
+            {
+              "wrong": "Little he knew…",
+              "right": "Little did he know…"
+            },
+            {
+              "wrong": "Only then I understood.",
+              "right": "Only then did I understand."
+            },
+            {
+              "wrong": "Had I know, I'd have come.",
+              "right": "Had I known, I'd have come."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Не переборщи",
+            "text": "Инверсия — приём для эссе, речи и сильного акцента. В обычном разговоре хватает прямого порядка: I've never seen it."
+          },
+          "quote": {
+            "text": "Отрицание впереди — порядок как в вопросе.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

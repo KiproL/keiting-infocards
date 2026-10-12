@@ -1,0 +1,594 @@
+{
+  "tenseName": "Word Order",
+  "route": "cards_wordorder",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "В русском слова можно переставлять почти как угодно, в английском — нет: порядок держит смысл. «Собака укусила кота» и «Кота укусила собака» — одно и то же, а The dog bit the cat и The cat bit the dog — разные истории.",
+        "highlights": [
+          {
+            "text": "порядок держит смысл",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "The dog bit the cat",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "The cat bit the dog",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Основная схема",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "Кто",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "делает",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "что / кого",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "где",
+                "color": "muted"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "когда",
+                "color": "muted"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Разбор",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Кто",
+              "Делает",
+              "Что",
+              "Где, когда"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I",
+                  "met",
+                  "Anna",
+                  "at the station yesterday."
+                ]
+              },
+              {
+                "cells": [
+                  "She",
+                  "plays",
+                  "tennis",
+                  "in the park every Sunday."
+                ]
+              },
+              {
+                "cells": [
+                  "We",
+                  "watched",
+                  "a film",
+                  "at home last night."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "example",
+              "term",
+              "info",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Подлежащее обязательно",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Даже если оно пустое",
+            "text": "«Холодно» — It's cold. «Идёт дождь» — It's raining. Без подлежащего английское предложение не живёт."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Наречия частоты",
+      "intro": {
+        "text": "Always, usually, often, sometimes, rarely, never ставят перед смысловым глаголом. Но после глагола to be и после вспомогательного: I am always late, I have never seen it.",
+        "highlights": [
+          {
+            "text": "перед смысловым глаголом",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "после глагола to be",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "после вспомогательного",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Где стоит",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Обычный глагол",
+              "suffix": "наречие перед ним",
+              "example": "I often drink coffee."
+            },
+            {
+              "name": "Глагол to be",
+              "suffix": "наречие после него",
+              "example": "She is never late."
+            },
+            {
+              "name": "Вспомогательный",
+              "suffix": "между ним и глаголом",
+              "example": "I have always wanted a dog."
+            },
+            {
+              "name": "Модальный",
+              "suffix": "после модального",
+              "example": "You should always check it."
+            },
+            {
+              "name": "Вопрос",
+              "suffix": "после подлежащего",
+              "example": "Do you usually walk to work?"
+            }
+          ]
+        },
+        {
+          "title": "Sometimes и usually",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Им можно и в начало",
+            "text": "Sometimes I cook dinner. Usually we go by bus. Always и never в начало не ставят."
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "We usually have lunch at one.",
+              "ru": "Мы обычно обедаем в час."
+            },
+            {
+              "en": "He is always busy.",
+              "ru": "Он всегда занят."
+            },
+            {
+              "en": "I have never been to Japan.",
+              "ru": "Я никогда не был в Японии."
+            },
+            {
+              "en": "They don't often go out.",
+              "ru": "Они нечасто выходят из дома."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Как, где, когда",
+      "intro": {
+        "text": "Если в конце несколько уточнений, их порядок такой: как → где → когда. Время можно вынести в начало, если оно важно или фраза длинная.",
+        "highlights": [
+          {
+            "text": "как → где → когда",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "в начало",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Хвост предложения",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "как",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "где",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "когда",
+                "color": "term"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Разбор",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Предложение",
+              "Как",
+              "Где",
+              "Когда"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "She sang",
+                  "beautifully",
+                  "at the concert",
+                  "last night."
+                ]
+              },
+              {
+                "cells": [
+                  "He worked",
+                  "hard",
+                  "in the garden",
+                  "all day."
+                ]
+              },
+              {
+                "cells": [
+                  "We arrived",
+                  "safely",
+                  "at the hotel",
+                  "at midnight."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "text",
+              "example",
+              "info",
+              "term"
+            ]
+          }
+        },
+        {
+          "title": "Время в начале",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Last summer we went to Italy.",
+              "ru": "Прошлым летом мы ездили в Италию."
+            },
+            {
+              "en": "Every morning I go for a run.",
+              "ru": "Каждое утро я бегаю."
+            }
+          ]
+        },
+        {
+          "title": "Между глаголом и дополнением — ничего",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Главное правило",
+            "text": "Нельзя: I like very much coffee. Правильно: I like coffee very much. Наречие не встаёт между глаголом и тем, что он делает."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Порядок прилагательных",
+      "intro": {
+        "text": "Если перед существительным несколько прилагательных, у них свой порядок: сначала мнение, потом размер, возраст, форма, цвет, откуда, из чего и для чего. По-русски тоже есть порядок — просто мы его не замечаем.",
+        "highlights": [
+          {
+            "text": "свой порядок",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "мнение",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "для чего",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Порядок",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "№",
+              "Что",
+              "Примеры"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "мнение",
+                  "nice, beautiful, boring"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "размер",
+                  "big, small, tall"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "возраст",
+                  "old, new, young"
+                ]
+              },
+              {
+                "cells": [
+                  "4",
+                  "форма",
+                  "round, square, long"
+                ]
+              },
+              {
+                "cells": [
+                  "5",
+                  "цвет",
+                  "red, blue, black"
+                ]
+              },
+              {
+                "cells": [
+                  "6",
+                  "откуда",
+                  "Italian, Chinese, French"
+                ]
+              },
+              {
+                "cells": [
+                  "7",
+                  "из чего",
+                  "wooden, leather, cotton"
+                ]
+              },
+              {
+                "cells": [
+                  "8",
+                  "для чего",
+                  "running (shoes), dining (table)"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "a lovely little cottage",
+              "ru": "милый маленький домик"
+            },
+            {
+              "en": "a big old wooden table",
+              "ru": "большой старый деревянный стол"
+            },
+            {
+              "en": "a beautiful red Italian car",
+              "ru": "красивая красная итальянская машина"
+            },
+            {
+              "en": "black leather running shoes",
+              "ru": "чёрные кожаные кроссовки для бега"
+            }
+          ]
+        },
+        {
+          "title": "На практике",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Больше двух-трёх — редкость",
+            "text": "Обычно ставят одно-два прилагательных. Запомни главное: мнение — первым, «из чего» и «для чего» — ближе всех к существительному."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Also, only, enough",
+      "intro": {
+        "text": "Несколько маленьких слов со своим местом. Also стоит как наречия частоты, а enough — после прилагательного, но перед существительным.",
+        "highlights": [
+          {
+            "text": "Also",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "enough",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "после прилагательного",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "перед существительным",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Где стоят",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "also",
+              "suffix": "перед глаголом, после be",
+              "example": "I also like jazz. She is also a teacher."
+            },
+            {
+              "name": "too / as well",
+              "suffix": "в конце",
+              "example": "I like jazz too."
+            },
+            {
+              "name": "only",
+              "suffix": "перед тем, что ограничивает",
+              "example": "I only drink tea. Only Tom knows."
+            },
+            {
+              "name": "enough + прилагательное",
+              "suffix": "после",
+              "example": "He isn't old enough."
+            },
+            {
+              "name": "enough + существительное",
+              "suffix": "перед",
+              "example": "We have enough time."
+            },
+            {
+              "name": "still",
+              "suffix": "как also",
+              "example": "She still lives here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в порядке слов.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I like very much coffee.",
+              "right": "I like coffee very much."
+            },
+            {
+              "wrong": "I go always to the gym.",
+              "right": "I always go to the gym."
+            },
+            {
+              "wrong": "She always is late.",
+              "right": "She is always late."
+            },
+            {
+              "wrong": "Yesterday I met at the café Tom.",
+              "right": "Yesterday I met Tom at the café."
+            },
+            {
+              "wrong": "Is raining.",
+              "right": "It's raining."
+            },
+            {
+              "wrong": "a red big car",
+              "right": "a big red car"
+            },
+            {
+              "wrong": "He is enough old.",
+              "right": "He is old enough."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Проверяй по схеме",
+            "text": "Кто → делает → что → как → где → когда. Наречия частоты — перед глаголом, но после be."
+          },
+          "quote": {
+            "text": "Английское предложение — поезд: вагоны можно добавлять, но не менять местами.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

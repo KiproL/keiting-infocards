@@ -1,0 +1,167 @@
+{
+  "tenseName": "Each Other",
+  "route": "cards_eachother",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Each other — «друг друга»: действие идёт в обе стороны. Не путай с themselves — «себя»: там каждый делает что-то сам с собой.",
+        "highlights": [
+          {
+            "text": "Each other",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "в обе стороны",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "themselves",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Друг друга или себя",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Значение"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "They looked at each other.",
+                  "Они посмотрели друг на друга."
+                ]
+              },
+              {
+                "cells": [
+                  "They looked at themselves.",
+                  "Каждый посмотрел на себя (в зеркало)."
+                ]
+              },
+              {
+                "cells": [
+                  "We help each other.",
+                  "Мы помогаем друг другу."
+                ]
+              },
+              {
+                "cells": [
+                  "We help ourselves.",
+                  "Мы помогаем себе сами."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        },
+        {
+          "title": "Формы",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "each other",
+              "suffix": "друг друга",
+              "example": "They love each other."
+            },
+            {
+              "name": "each other's",
+              "suffix": "друг друга (чей)",
+              "example": "We know each other's names."
+            },
+            {
+              "name": "one another",
+              "suffix": "то же, чуть книжнее",
+              "example": "The students helped one another."
+            },
+            {
+              "name": "с предлогом",
+              "suffix": "предлог — перед",
+              "example": "They talk to each other every day."
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "We've known each other for years.",
+              "ru": "Мы знаем друг друга много лет."
+            },
+            {
+              "en": "They never speak to each other.",
+              "ru": "Они никогда не разговаривают друг с другом."
+            },
+            {
+              "en": "Tom and Anna text each other every day.",
+              "ru": "Том и Анна переписываются каждый день."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с each other.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "They love themselves. (друг друга)",
+              "right": "They love each other."
+            },
+            {
+              "wrong": "We meet each other's.",
+              "right": "We meet each other."
+            },
+            {
+              "wrong": "They talked each other.",
+              "right": "They talked to each other."
+            },
+            {
+              "wrong": "We see us every day.",
+              "right": "We see each other every day."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Meet и marry — без each other",
+            "text": "Meet, marry, kiss и hug уже значат «друг с другом»: They met in 2010. They got married last year. Each other здесь обычно не нужно."
+          },
+          "quote": {
+            "text": "Each other — двустороннее, -selves — на себя.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

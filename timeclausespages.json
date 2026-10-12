@@ -1,0 +1,241 @@
+{
+  "tenseName": "When / As soon as",
+  "route": "cards_timeclauses",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "После when, as soon as, before, after, until и once о будущем говорят настоящим временем. По-русски «когда приду», а по-английски when I come — без will.",
+        "highlights": [
+          {
+            "text": "настоящим временем",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "when I come",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "без will",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "will + глагол",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "when / as soon as",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "Present Simple",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Слова-сигналы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "when",
+                  "когда",
+                  "I'll call you when I get home."
+                ]
+              },
+              {
+                "cells": [
+                  "as soon as",
+                  "как только",
+                  "As soon as she arrives, we'll start."
+                ]
+              },
+              {
+                "cells": [
+                  "before",
+                  "перед тем как",
+                  "Finish it before you leave."
+                ]
+              },
+              {
+                "cells": [
+                  "after",
+                  "после того как",
+                  "We'll eat after the film ends."
+                ]
+              },
+              {
+                "cells": [
+                  "until / till",
+                  "пока не, до тех пор пока",
+                  "Wait here until I come back."
+                ]
+              },
+              {
+                "cells": [
+                  "once",
+                  "как только, когда уже",
+                  "Once you try it, you'll love it."
+                ]
+              },
+              {
+                "cells": [
+                  "by the time",
+                  "к тому времени как",
+                  "By the time you wake up, I'll be gone."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Present Perfect — если важно «уже»",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Когда закончу",
+            "text": "I'll call you when I've finished. = Позвоню, когда (уже) закончу. Тоже без will."
+          }
+        }
+      ]
+    },
+    {
+      "label": "When или if",
+      "intro": {
+        "text": "When — «когда»: точно случится. If — «если»: может, и не случится. Правило без will одно на обоих.",
+        "highlights": [
+          {
+            "text": "When",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "If",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "точно случится",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "может, и не случится",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I'll call you when I get home.",
+              "ru": "Позвоню, когда приду домой. (точно приду)"
+            },
+            {
+              "en": "I'll call you if I have time.",
+              "ru": "Позвоню, если будет время. (не факт)"
+            }
+          ]
+        },
+        {
+          "title": "Вопрос When — с will",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Это не придаточное",
+            "text": "Если when — вопрос «когда?», will нужен: When will you be home? А в придаточном — нет: Call me when you are home."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки после when и as soon as.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I'll call you when I will get home.",
+              "right": "I'll call you when I get home."
+            },
+            {
+              "wrong": "As soon as he will arrive, we'll start.",
+              "right": "As soon as he arrives, we'll start."
+            },
+            {
+              "wrong": "Wait until I will come back.",
+              "right": "Wait until I come back."
+            },
+            {
+              "wrong": "Before you will leave, close the window.",
+              "right": "Before you leave, close the window."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Will — только в главной части",
+            "text": "В предложении из двух частей will живёт в главной, а в части с when, as soon as, until его нет."
+          },
+          "quote": {
+            "text": "После «когда» и «как только» — настоящее, даже о будущем.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

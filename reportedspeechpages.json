@@ -1,0 +1,858 @@
+{
+  "tenseName": "Reported Speech",
+  "route": "cards_reportedspeech",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Косвенная речь — когда пересказываешь чужие слова без кавычек. В русском время почти не меняется, а в английском делает шаг назад в прошлое: «am» становится «was».",
+        "highlights": [
+          {
+            "text": "Косвенная речь",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "без кавычек",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "шаг назад",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "said",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "(that)",
+                "color": "muted"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "подлежащее",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол на шаг в прошлое",
+                "color": "term"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Прямая → косвенная",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "\"I am tired.\"",
+              "to": "He said (that) he was tired.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"I like pizza.\"",
+              "to": "She said she liked pizza.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"We will help.\"",
+              "to": "They said they would help.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "That можно опустить",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "В разговоре — почти всегда",
+            "text": "He said that he was tired = He said he was tired. That нужен только в официальном тексте или для ясности."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Tom said he was hungry.",
+              "ru": "Том сказал, что голоден."
+            },
+            {
+              "en": "She told me she lived in Paris.",
+              "ru": "Она сказала мне, что живёт в Париже."
+            },
+            {
+              "en": "They said the film was boring.",
+              "ru": "Они сказали, что фильм скучный."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Сдвиг времён",
+      "intro": {
+        "text": "Если глагол-пересказ в прошлом (said, told), время в пересказе сдвигается на шаг назад. По-русски «сказал, что живёт», а по-английски «said he lived».",
+        "highlights": [
+          {
+            "text": "на шаг назад",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "said, told",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "said he lived",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Таблица сдвига",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Прямая речь",
+              "Косвенная речь",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Present Simple",
+                  "Past Simple",
+                  "I work → he worked"
+                ]
+              },
+              {
+                "cells": [
+                  "Present Continuous",
+                  "Past Continuous",
+                  "I'm working → he was working"
+                ]
+              },
+              {
+                "cells": [
+                  "Present Perfect",
+                  "Past Perfect",
+                  "I've finished → he had finished"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Simple",
+                  "Past Perfect",
+                  "I saw it → he had seen it"
+                ]
+              },
+              {
+                "cells": [
+                  "will",
+                  "would",
+                  "I'll call → he would call"
+                ]
+              },
+              {
+                "cells": [
+                  "can",
+                  "could",
+                  "I can swim → he could swim"
+                ]
+              },
+              {
+                "cells": [
+                  "may",
+                  "might",
+                  "I may come → he might come"
+                ]
+              },
+              {
+                "cells": [
+                  "must",
+                  "had to",
+                  "I must go → he had to go"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Не сдвигаются",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Уже «прошлые» модальные",
+            "text": "Could, would, should, might и ought to остаются как есть: \"I should go\" → He said he should go."
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "\"I'm reading.\" → She said she was reading.",
+              "ru": "Она сказала, что читает."
+            },
+            {
+              "en": "\"I've lost my keys.\" → He said he had lost his keys.",
+              "ru": "Он сказал, что потерял ключи."
+            },
+            {
+              "en": "\"I can't come.\" → Anna said she couldn't come.",
+              "ru": "Анна сказала, что не сможет прийти."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Said или told",
+      "intro": {
+        "text": "Оба значат «сказал», но told требует, КОМУ сказали: told me, told Anna. Said обходится без этого, а если нужно «кому» — said to me.",
+        "highlights": [
+          {
+            "text": "told",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "said",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "КОМУ",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "said to me",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как сочетаются",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "say",
+              "suffix": "что-то",
+              "example": "He said (that) he was busy."
+            },
+            {
+              "name": "say to",
+              "suffix": "кому-то, редко",
+              "example": "He said to me that he was busy."
+            },
+            {
+              "name": "tell",
+              "suffix": "кому + что",
+              "example": "He told me (that) he was busy."
+            },
+            {
+              "name": "tell",
+              "suffix": "устойчиво",
+              "example": "tell the truth, tell a lie, tell a story, tell the time"
+            }
+          ]
+        },
+        {
+          "title": "Проверка",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Есть «кому» — бери told",
+            "text": "Told me, told her, told the teacher. Said me — так нельзя никогда."
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "She said she was sorry.",
+              "ru": "Она сказала, что ей жаль."
+            },
+            {
+              "en": "She told me she was sorry.",
+              "ru": "Она сказала мне, что ей жаль."
+            },
+            {
+              "en": "Don't tell lies!",
+              "ru": "Не ври!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Время и место",
+      "intro": {
+        "text": "Вместе со временем сдвигаются слова «сейчас», «здесь», «завтра»: пересказываешь в другой день и в другом месте, и «завтра» уже стало «на следующий день».",
+        "highlights": [
+          {
+            "text": "сдвигаются",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "на следующий день",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что на что меняется",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Прямая речь",
+              "Косвенная речь"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "now",
+                  "then / at that moment"
+                ]
+              },
+              {
+                "cells": [
+                  "today",
+                  "that day"
+                ]
+              },
+              {
+                "cells": [
+                  "tonight",
+                  "that night"
+                ]
+              },
+              {
+                "cells": [
+                  "yesterday",
+                  "the day before / the previous day"
+                ]
+              },
+              {
+                "cells": [
+                  "tomorrow",
+                  "the next day / the following day"
+                ]
+              },
+              {
+                "cells": [
+                  "last week",
+                  "the week before"
+                ]
+              },
+              {
+                "cells": [
+                  "next week",
+                  "the following week"
+                ]
+              },
+              {
+                "cells": [
+                  "ago",
+                  "before"
+                ]
+              },
+              {
+                "cells": [
+                  "here",
+                  "there"
+                ]
+              },
+              {
+                "cells": [
+                  "this / these",
+                  "that / those"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "\"I'm busy today.\" → He said he was busy that day.",
+              "ru": "Он сказал, что в тот день занят."
+            },
+            {
+              "en": "\"I'll come tomorrow.\" → She said she would come the next day.",
+              "ru": "Она сказала, что придёт на следующий день."
+            },
+            {
+              "en": "\"I met her two years ago.\" → He said he had met her two years before.",
+              "ru": "Он сказал, что встретил её двумя годами раньше."
+            }
+          ]
+        },
+        {
+          "title": "Смотри по смыслу",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Если день тот же",
+            "text": "Пересказываешь в тот же день — today так и остаётся: \"I'm busy today,\" she said this morning → She said she was busy today."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Вопросы",
+      "intro": {
+        "text": "В пересказанном вопросе порядок слов как в обычном утверждении: без do, does, did и без вопросительного знака. Вместо «ли» — if или whether.",
+        "highlights": [
+          {
+            "text": "как в обычном утверждении",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "без do, does, did",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "if",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "whether",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Две формулы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                {
+                  "text": "asked",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "if / whether",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "подлежащее",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол",
+                  "color": "text"
+                }
+              ],
+              "accentColor": "term"
+            },
+            {
+              "parts": [
+                {
+                  "text": "asked",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "what / where / why…",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "подлежащее",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол",
+                  "color": "text"
+                }
+              ],
+              "accentColor": "info"
+            }
+          ]
+        },
+        {
+          "title": "Как превращается",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "\"Do you like coffee?\"",
+              "to": "She asked if I liked coffee.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"Are you ready?\"",
+              "to": "He asked whether I was ready.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"Where do you live?\"",
+              "to": "She asked where I lived.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"What time is it?\"",
+              "to": "He asked what time it was.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Ещё примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I asked him why he was late.",
+              "ru": "Я спросил его, почему он опоздал."
+            },
+            {
+              "en": "They wanted to know if we had a car.",
+              "ru": "Они хотели знать, есть ли у нас машина."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Просьбы и советы",
+      "intro": {
+        "text": "Просьбу или приказ пересказывают через to + глагол: «Сядь!» → He told me to sit down. Отказ — not to. А кроме said и told есть глаголы точнее: advised, warned, promised.",
+        "highlights": [
+          {
+            "text": "to + глагол",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "not to",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "advised, warned, promised",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "told / asked",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "кого",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "(not) to",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "text"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Как превращается",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "\"Sit down.\"",
+              "to": "He told me to sit down.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"Please help me.\"",
+              "to": "She asked me to help her.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"Don't be late.\"",
+              "to": "Mum told us not to be late.",
+              "toColor": "bad"
+            }
+          ]
+        },
+        {
+          "title": "Глаголы точнее, чем said",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "advise",
+              "suffix": "посоветовать",
+              "example": "The doctor advised me to rest."
+            },
+            {
+              "name": "warn",
+              "suffix": "предупредить",
+              "example": "He warned us not to swim there."
+            },
+            {
+              "name": "remind",
+              "suffix": "напомнить",
+              "example": "She reminded me to buy milk."
+            },
+            {
+              "name": "promise",
+              "suffix": "пообещать",
+              "example": "He promised to call."
+            },
+            {
+              "name": "offer",
+              "suffix": "предложить сделать",
+              "example": "She offered to help."
+            },
+            {
+              "name": "refuse",
+              "suffix": "отказаться",
+              "example": "He refused to answer."
+            },
+            {
+              "name": "suggest",
+              "suffix": "предложить: + -ing",
+              "example": "Tom suggested going to the cinema."
+            },
+            {
+              "name": "explain",
+              "suffix": "объяснить: + that",
+              "example": "She explained that the shop was closed."
+            }
+          ]
+        },
+        {
+          "title": "Suggest — особый",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "После него не to",
+            "text": "Suggest + -ing или suggest that…: He suggested going home. Нельзя: He suggested me to go."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Когда не сдвигаем",
+      "intro": {
+        "text": "Сдвиг не обязателен, если пересказ в настоящем (says, tells) или слова до сих пор правда. Земля как вращалась, так и вращается.",
+        "highlights": [
+          {
+            "text": "не обязателен",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "says, tells",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "до сих пор правда",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Можно оставить время",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "Глагол-пересказ в настоящем",
+              "suffix": "says / has said",
+              "example": "She says she is tired."
+            },
+            {
+              "name": "Общая истина",
+              "suffix": "факт навсегда",
+              "example": "The teacher said the Earth goes round the Sun."
+            },
+            {
+              "name": "Всё ещё правда",
+              "suffix": "ничего не изменилось",
+              "example": "He said he lives in London. (и живёт там до сих пор)"
+            },
+            {
+              "name": "Сразу пересказываем",
+              "suffix": "только что прозвучало",
+              "example": "\"What did he say?\" — \"He said he's coming.\""
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "My mum says dinner is ready.",
+              "ru": "Мама говорит, что ужин готов."
+            },
+            {
+              "en": "He told me he's from Spain.",
+              "ru": "Он сказал мне, что он из Испании."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в косвенной речи.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "He said me that he was busy.",
+              "right": "He told me that he was busy."
+            },
+            {
+              "wrong": "She told that she was tired.",
+              "right": "She said that she was tired."
+            },
+            {
+              "wrong": "He said he is tired yesterday.",
+              "right": "He said he was tired yesterday."
+            },
+            {
+              "wrong": "She asked where did I live.",
+              "right": "She asked where I lived."
+            },
+            {
+              "wrong": "He asked me do I like jazz.",
+              "right": "He asked me if I liked jazz."
+            },
+            {
+              "wrong": "She told me don't go.",
+              "right": "She told me not to go."
+            },
+            {
+              "wrong": "He suggested me to rest.",
+              "right": "He suggested resting. / He suggested that I rest."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Как не запутаться",
+            "text": "Сначала реши, что пересказываешь: утверждение (said/told + that), вопрос (asked + if/what, прямой порядок) или просьбу (told/asked + to). Потом сдвинь время на шаг назад."
+          },
+          "quote": {
+            "text": "В пересказе всё уезжает на шаг в прошлое: время, «сегодня» и «здесь».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

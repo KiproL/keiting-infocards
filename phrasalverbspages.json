@@ -1,0 +1,726 @@
+{
+  "tenseName": "Phrasal Verbs",
+  "route": "cards_phrasalverbs",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Фразовый глагол — глагол плюс маленькое слово: up, down, on, off, out. Вместе они значат новое, и часто смысл не сложить из частей: give — «давать», а give up — «бросить».",
+        "highlights": [
+          {
+            "text": "Фразовый глагол",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "up, down, on, off, out",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "новое",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "give up",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "глагол",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "частица",
+                "color": "term"
+              },
+              {
+                "text": "=",
+                "color": "muted"
+              },
+              {
+                "text": "новое значение",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Один глагол — разные значения",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "look",
+              "to": "смотреть",
+              "toColor": "text"
+            },
+            {
+              "from": "look for",
+              "to": "искать: I'm looking for my keys.",
+              "toColor": "good"
+            },
+            {
+              "from": "look after",
+              "to": "присматривать: She looks after her sister.",
+              "toColor": "good"
+            },
+            {
+              "from": "look up",
+              "to": "найти в словаре: Look up this word.",
+              "toColor": "good"
+            },
+            {
+              "from": "look forward to",
+              "to": "ждать с нетерпением: I look forward to the trip.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Зачем их учить",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Без них не понять живую речь",
+            "text": "В разговоре англичане скажут find out, а не discover, и put off, а не postpone. Книжное слово поймут, но сами говорят фразовым."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Разделяемые",
+      "intro": {
+        "text": "У одних фразовых глаголов дополнение можно поставить в середину, у других — нельзя. А местоимение (it, him, them) у разделяемых встаёт только в середину.",
+        "highlights": [
+          {
+            "text": "в середину",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "только в середину",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "it, him, them",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три вида",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Разделяемые",
+              "suffix": "дополнение где угодно",
+              "example": "Turn on the light. = Turn the light on."
+            },
+            {
+              "name": "…но местоимение",
+              "suffix": "только в середине",
+              "example": "Turn it on. (не turn on it)"
+            },
+            {
+              "name": "Неразделяемые",
+              "suffix": "дополнение только после",
+              "example": "Look after the kids. → Look after them."
+            },
+            {
+              "name": "Без дополнения",
+              "suffix": "некуда разделять",
+              "example": "I get up at seven. The plane took off."
+            }
+          ]
+        },
+        {
+          "title": "Частые разделяемые",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Значение",
+              "С местоимением"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "turn on / off",
+                  "включить / выключить",
+                  "turn it off"
+                ]
+              },
+              {
+                "cells": [
+                  "put on / take off",
+                  "надеть / снять",
+                  "put them on"
+                ]
+              },
+              {
+                "cells": [
+                  "pick up",
+                  "поднять; забрать",
+                  "pick her up"
+                ]
+              },
+              {
+                "cells": [
+                  "give back",
+                  "вернуть",
+                  "give it back"
+                ]
+              },
+              {
+                "cells": [
+                  "throw away",
+                  "выбросить",
+                  "throw it away"
+                ]
+              },
+              {
+                "cells": [
+                  "fill in",
+                  "заполнить",
+                  "fill it in"
+                ]
+              },
+              {
+                "cells": [
+                  "wake up",
+                  "разбудить",
+                  "wake me up"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ]
+          }
+        },
+        {
+          "title": "Как понять, какой глагол",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Словарь подскажет",
+            "text": "В словаре разделяемый пишут как turn sth on — sth стоит посередине. Неразделяемый: look after sb."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Смысл частиц",
+      "intro": {
+        "text": "У частиц есть любимые значения. Не правило, а подсказка: up часто значит «до конца», off — «прочь, выключить», out — «наружу, до конца».",
+        "highlights": [
+          {
+            "text": "любимые значения",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "до конца",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "прочь, выключить",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Частица → смысл",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Частица",
+              "Чаще всего",
+              "Примеры"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "up",
+                  "вверх; до конца",
+                  "stand up, eat up, use up"
+                ]
+              },
+              {
+                "cells": [
+                  "down",
+                  "вниз; меньше",
+                  "sit down, slow down, calm down"
+                ]
+              },
+              {
+                "cells": [
+                  "on",
+                  "включить; дальше",
+                  "turn on, go on, carry on"
+                ]
+              },
+              {
+                "cells": [
+                  "off",
+                  "выключить; прочь",
+                  "turn off, take off, set off"
+                ]
+              },
+              {
+                "cells": [
+                  "out",
+                  "наружу; до конца; узнать",
+                  "go out, run out, find out"
+                ]
+              },
+              {
+                "cells": [
+                  "back",
+                  "назад, обратно",
+                  "come back, call back, give back"
+                ]
+              },
+              {
+                "cells": [
+                  "away",
+                  "прочь, подальше",
+                  "go away, throw away, run away"
+                ]
+              },
+              {
+                "cells": [
+                  "over",
+                  "заново; обдумать",
+                  "think over, start over"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Eat up your vegetables!",
+              "ru": "Доедай овощи!"
+            },
+            {
+              "en": "We've run out of milk.",
+              "ru": "У нас кончилось молоко."
+            },
+            {
+              "en": "Calm down, everything is fine.",
+              "ru": "Успокойся, всё в порядке."
+            },
+            {
+              "en": "Let me think it over.",
+              "ru": "Дай мне это обдумать."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Самые нужные",
+      "intro": {
+        "text": "Двадцать фразовых глаголов, которые встречаются каждый день. Нажимай на глагол — внизу появится перевод и пример.",
+        "highlights": [
+          {
+            "text": "каждый день",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Нажимай",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [],
+      "chips": {
+        "title": "Нажми на глагол",
+        "items": [
+          {
+            "word": "get up",
+            "translation": "вставать",
+            "example": "I get up at seven.",
+            "exampleTranslation": "Я встаю в семь."
+          },
+          {
+            "word": "wake up",
+            "translation": "просыпаться",
+            "example": "I woke up late today.",
+            "exampleTranslation": "Сегодня я поздно проснулся."
+          },
+          {
+            "word": "look for",
+            "translation": "искать",
+            "example": "I'm looking for my phone.",
+            "exampleTranslation": "Я ищу свой телефон."
+          },
+          {
+            "word": "look after",
+            "translation": "присматривать",
+            "example": "Can you look after my cat?",
+            "exampleTranslation": "Присмотришь за моей кошкой?"
+          },
+          {
+            "word": "find out",
+            "translation": "узнать",
+            "example": "I found out the truth.",
+            "exampleTranslation": "Я узнал правду."
+          },
+          {
+            "word": "give up",
+            "translation": "сдаться; бросить",
+            "example": "Don't give up!",
+            "exampleTranslation": "Не сдавайся!"
+          },
+          {
+            "word": "turn on",
+            "translation": "включить",
+            "example": "Turn on the TV, please.",
+            "exampleTranslation": "Включи телевизор, пожалуйста."
+          },
+          {
+            "word": "turn off",
+            "translation": "выключить",
+            "example": "Turn off the lights.",
+            "exampleTranslation": "Выключи свет."
+          },
+          {
+            "word": "put on",
+            "translation": "надеть",
+            "example": "Put on your coat.",
+            "exampleTranslation": "Надень пальто."
+          },
+          {
+            "word": "take off",
+            "translation": "снять; взлететь",
+            "example": "The plane took off.",
+            "exampleTranslation": "Самолёт взлетел."
+          },
+          {
+            "word": "pick up",
+            "translation": "забрать; поднять",
+            "example": "I'll pick you up at six.",
+            "exampleTranslation": "Я заберу тебя в шесть."
+          },
+          {
+            "word": "go on",
+            "translation": "продолжать",
+            "example": "Go on, I'm listening.",
+            "exampleTranslation": "Продолжай, я слушаю."
+          },
+          {
+            "word": "come back",
+            "translation": "вернуться",
+            "example": "Come back soon!",
+            "exampleTranslation": "Возвращайся скорее!"
+          },
+          {
+            "word": "run out of",
+            "translation": "закончиться",
+            "example": "We ran out of time.",
+            "exampleTranslation": "У нас закончилось время."
+          },
+          {
+            "word": "figure out",
+            "translation": "разобраться, понять",
+            "example": "I can't figure out this app.",
+            "exampleTranslation": "Не могу разобраться в этом приложении."
+          },
+          {
+            "word": "check in",
+            "translation": "зарегистрироваться",
+            "example": "We checked in at the hotel.",
+            "exampleTranslation": "Мы заселились в отель."
+          },
+          {
+            "word": "set up",
+            "translation": "настроить; основать",
+            "example": "He set up his own company.",
+            "exampleTranslation": "Он основал свою компанию."
+          },
+          {
+            "word": "put off",
+            "translation": "откладывать",
+            "example": "Don't put it off until tomorrow.",
+            "exampleTranslation": "Не откладывай на завтра."
+          },
+          {
+            "word": "break down",
+            "translation": "сломаться",
+            "example": "Our car broke down.",
+            "exampleTranslation": "Наша машина сломалась."
+          },
+          {
+            "word": "get on with",
+            "translation": "ладить",
+            "example": "I get on well with my sister.",
+            "exampleTranslation": "Я хорошо лажу с сестрой."
+          }
+        ]
+      }
+    },
+    {
+      "label": "Get, take, put",
+      "intro": {
+        "text": "Три глагола дают больше всего фразовых. Выучи их группами — так запоминается легче, чем по одному.",
+        "highlights": [
+          {
+            "text": "больше всего",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "группами",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Get",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "get up",
+                  "вставать",
+                  "I get up early."
+                ]
+              },
+              {
+                "cells": [
+                  "get on / off",
+                  "сесть / выйти (транспорт)",
+                  "Get off at the next stop."
+                ]
+              },
+              {
+                "cells": [
+                  "get over",
+                  "оправиться",
+                  "She got over the flu."
+                ]
+              },
+              {
+                "cells": [
+                  "get along with",
+                  "ладить",
+                  "We get along with our neighbours."
+                ]
+              },
+              {
+                "cells": [
+                  "get back",
+                  "вернуться",
+                  "When did you get back?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Take",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "take off",
+                  "снять; взлететь",
+                  "Take off your shoes."
+                ]
+              },
+              {
+                "cells": [
+                  "take up",
+                  "начать заниматься",
+                  "I took up yoga."
+                ]
+              },
+              {
+                "cells": [
+                  "take after",
+                  "быть похожим (на родню)",
+                  "He takes after his dad."
+                ]
+              },
+              {
+                "cells": [
+                  "take care of",
+                  "заботиться",
+                  "Take care of yourself."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Put",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "put on",
+                  "надеть",
+                  "Put on a hat."
+                ]
+              },
+              {
+                "cells": [
+                  "put off",
+                  "отложить",
+                  "They put off the meeting."
+                ]
+              },
+              {
+                "cells": [
+                  "put away",
+                  "убрать на место",
+                  "Put your toys away."
+                ]
+              },
+              {
+                "cells": [
+                  "put up with",
+                  "терпеть",
+                  "I can't put up with this noise."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с фразовыми глаголами.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Turn off it, please.",
+              "right": "Turn it off, please."
+            },
+            {
+              "wrong": "Look the children after.",
+              "right": "Look after the children."
+            },
+            {
+              "wrong": "I'm looking my keys.",
+              "right": "I'm looking for my keys."
+            },
+            {
+              "wrong": "I look forward to see you.",
+              "right": "I look forward to seeing you."
+            },
+            {
+              "wrong": "We run out milk.",
+              "right": "We've run out of milk."
+            },
+            {
+              "wrong": "She gave up to smoke.",
+              "right": "She gave up smoking."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Учи целиком, с примером",
+            "text": "Запоминай не «up = вверх», а целую фразу: give up smoking, run out of time. Фразовый глагол — это одно слово из нескольких частей."
+          },
+          "quote": {
+            "text": "Частица меняет смысл глагола, как приставка в русском: ходить — уходить — находить.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

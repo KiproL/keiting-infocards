@@ -1,0 +1,225 @@
+{
+  "tenseName": "Whoever / Whatever",
+  "route": "cards_whoever",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Слова на -ever значат «кто бы ни», «что бы ни», «где бы ни». А ещё — просто «любой, кто» и «всё, что».",
+        "highlights": [
+          {
+            "text": "-ever",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "кто бы ни",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "любой, кто",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Семья -ever",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "whoever",
+                  "кто бы ни; любой, кто",
+                  "Whoever calls, I'm not at home."
+                ]
+              },
+              {
+                "cells": [
+                  "whatever",
+                  "что бы ни; всё, что",
+                  "Take whatever you want."
+                ]
+              },
+              {
+                "cells": [
+                  "whichever",
+                  "какой бы ни (из выбора)",
+                  "Choose whichever colour you like."
+                ]
+              },
+              {
+                "cells": [
+                  "wherever",
+                  "где бы ни; куда угодно",
+                  "I'll follow you wherever you go."
+                ]
+              },
+              {
+                "cells": [
+                  "whenever",
+                  "когда бы ни; каждый раз, когда",
+                  "Call me whenever you need help."
+                ]
+              },
+              {
+                "cells": [
+                  "however",
+                  "как бы ни",
+                  "However hard I try, I can't do it."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "However — двойная жизнь",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Не путай",
+            "text": "However, … с запятой — «однако». However + прилагательное — «как бы ни»: However tired you are, finish the work."
+          }
+        }
+      ]
+    },
+    {
+      "label": "No matter",
+      "intro": {
+        "text": "No matter who / what / where — то же «кто бы ни», но разговорнее. А whatever в ответ — «как скажешь» или «да всё равно», и звучит небрежно.",
+        "highlights": [
+          {
+            "text": "No matter",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "разговорнее",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "whatever",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Одно и то же",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "Whatever happens…",
+              "to": "No matter what happens…",
+              "toColor": "good"
+            },
+            {
+              "from": "Wherever you go…",
+              "to": "No matter where you go…",
+              "toColor": "good"
+            },
+            {
+              "from": "However hard it is…",
+              "to": "No matter how hard it is…",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "No matter what you say, I won't change my mind.",
+              "ru": "Что бы ты ни говорил, я не передумаю."
+            },
+            {
+              "en": "Whoever finishes first wins a prize.",
+              "ru": "Кто закончит первым, получит приз."
+            },
+            {
+              "en": "Whenever I see him, he's smiling.",
+              "ru": "Каждый раз, когда я его вижу, он улыбается."
+            }
+          ]
+        },
+        {
+          "title": "Whatever.",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Осторожно",
+            "text": "Одно слово Whatever. в ответ звучит как «отстань» — с друзьями можно, с начальником не стоит."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки со словами на -ever.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Whatever you will do, I'll help.",
+              "right": "Whatever you do, I'll help."
+            },
+            {
+              "wrong": "No matter you say, I won't go.",
+              "right": "No matter what you say, I won't go."
+            },
+            {
+              "wrong": "However I am tired, I'll finish.",
+              "right": "However tired I am, I'll finish."
+            },
+            {
+              "wrong": "Who ever calls, tell them I'm out.",
+              "right": "Whoever calls, tell them I'm out."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Без will после -ever",
+            "text": "Как после when и if: whatever happens, whoever comes — настоящее время даже о будущем."
+          },
+          "quote": {
+            "text": "-ever — это «бы ни» и «любой».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

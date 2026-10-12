@@ -1,0 +1,327 @@
+{
+  "tenseName": "Ellipsis",
+  "route": "cards_ellipsis",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Эллипсис — пропуск того, что и так понятно. Англичане не повторяют глагол целиком, а оставляют от него вспомогательный: Can you swim? — Yes, I can.",
+        "highlights": [
+          {
+            "text": "Эллипсис",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не повторяют",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Yes, I can",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что остаётся вместо глагола",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "краткий ответ",
+              "suffix": "вспомогательный",
+              "example": "Do you like it? — Yes, I do."
+            },
+            {
+              "name": "согласие",
+              "suffix": "so / neither + вспомогательный",
+              "example": "I'm tired. — So am I."
+            },
+            {
+              "name": "противопоставление",
+              "suffix": "только вспомогательный",
+              "example": "I don't smoke, but my brother does."
+            },
+            {
+              "name": "после to",
+              "suffix": "одно to",
+              "example": "Do you want to come? — I'd love to."
+            },
+            {
+              "name": "so / not",
+              "suffix": "вместо целой фразы",
+              "example": "Is it raining? — I think so."
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "She can't swim, but I can.",
+              "ru": "Она не умеет плавать, а я умею."
+            },
+            {
+              "en": "Have you finished? — Not yet.",
+              "ru": "Ты закончил? — Ещё нет."
+            },
+            {
+              "en": "He said he'd call, and he did.",
+              "ru": "Он сказал, что позвонит, и позвонил."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "So do I",
+      "intro": {
+        "text": "«И я тоже» — So + вспомогательный + подлежащее. «И я тоже нет» — Neither (или Nor) + вспомогательный + подлежащее. Вспомогательный берём из фразы собеседника.",
+        "highlights": [
+          {
+            "text": "So",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Neither",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Nor",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "из фразы собеседника",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "По временам",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Собеседник",
+              "Я тоже",
+              "Я тоже нет"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I like / don't like it.",
+                  "So do I.",
+                  "Neither do I."
+                ]
+              },
+              {
+                "cells": [
+                  "She went / didn't go.",
+                  "So did I.",
+                  "Neither did I."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm / I'm not ready.",
+                  "So am I.",
+                  "Neither am I."
+                ]
+              },
+              {
+                "cells": [
+                  "I've / haven't seen it.",
+                  "So have I.",
+                  "Neither have I."
+                ]
+              },
+              {
+                "cells": [
+                  "I can / can't drive.",
+                  "So can I.",
+                  "Neither can I."
+                ]
+              },
+              {
+                "cells": [
+                  "I'll / won't go.",
+                  "So will I.",
+                  "Neither will I."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term",
+              "bad"
+            ]
+          }
+        },
+        {
+          "title": "Не согласен",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Тоже коротко",
+            "text": "I like it. — Oh, I don't. I can't drive. — Really? I can. Вспомогательный тот же, только наоборот."
+          }
+        }
+      ]
+    },
+    {
+      "label": "I think so",
+      "intro": {
+        "text": "So и not заменяют целую фразу после think, hope, guess, be afraid: I think so — «думаю, да», I hope not — «надеюсь, что нет».",
+        "highlights": [
+          {
+            "text": "So",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "not",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "think, hope, guess, be afraid",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Да и нет",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Да",
+              "Нет"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "think",
+                  "I think so.",
+                  "I don't think so."
+                ]
+              },
+              {
+                "cells": [
+                  "hope",
+                  "I hope so.",
+                  "I hope not."
+                ]
+              },
+              {
+                "cells": [
+                  "guess",
+                  "I guess so.",
+                  "I guess not."
+                ]
+              },
+              {
+                "cells": [
+                  "be afraid",
+                  "I'm afraid so.",
+                  "I'm afraid not."
+                ]
+              },
+              {
+                "cells": [
+                  "suppose",
+                  "I suppose so.",
+                  "I suppose not."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term",
+              "bad"
+            ]
+          }
+        },
+        {
+          "title": "Think — отрицание впереди",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Так естественнее",
+            "text": "Говорят I don't think so, а не I think not — последнее звучит старомодно. А с hope — наоборот: I hope not, а не I don't hope so."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в эллипсисе.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Do you like tea? — Yes, I like.",
+              "right": "Do you like tea? — Yes, I do."
+            },
+            {
+              "wrong": "I'm hungry. — So I am.",
+              "right": "I'm hungry. — So am I."
+            },
+            {
+              "wrong": "I went there. — So do I.",
+              "right": "I went there. — So did I."
+            },
+            {
+              "wrong": "I don't like it. — So don't I.",
+              "right": "I don't like it. — Neither do I."
+            },
+            {
+              "wrong": "Will it rain? — I don't hope.",
+              "right": "Will it rain? — I hope not."
+            },
+            {
+              "wrong": "Do you want to come? — I'd love.",
+              "right": "Do you want to come? — I'd love to."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Смотри на глагол собеседника",
+            "text": "Отвечаешь коротко — бери его вспомогательный: do, did, am, have, can, will. Нет его во фразе — подставь do или did."
+          },
+          "quote": {
+            "text": "Повтори вспомогательный — и глагол не нужен.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

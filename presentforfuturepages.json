@@ -1,0 +1,175 @@
+{
+  "tenseName": "Present for Future",
+  "route": "cards_presentforfuture",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "О будущем можно говорить настоящим временем. Present Continuous — про то, о чём уже договорились, Present Simple — про расписание и графики.",
+        "highlights": [
+          {
+            "text": "настоящим временем",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Present Continuous",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Present Simple",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "уже договорились",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "расписание",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Какое время выбрать",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Время",
+              "Когда",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Present Continuous",
+                  "договорились, есть время и место",
+                  "I'm meeting Tom at six."
+                ]
+              },
+              {
+                "cells": [
+                  "Present Simple",
+                  "расписание, программа",
+                  "The train leaves at 7:15."
+                ]
+              },
+              {
+                "cells": [
+                  "be going to",
+                  "решил, намерение",
+                  "I'm going to call him."
+                ]
+              },
+              {
+                "cells": [
+                  "will",
+                  "решаю сейчас, обещаю, предполагаю",
+                  "I'll call him now."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Present Continuous: договорились",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "We're flying to Rome on Friday.",
+              "ru": "В пятницу мы летим в Рим."
+            },
+            {
+              "en": "I'm seeing the doctor tomorrow.",
+              "ru": "Завтра я иду к врачу."
+            },
+            {
+              "en": "What are you doing this weekend?",
+              "ru": "Что делаешь на выходных?"
+            }
+          ]
+        },
+        {
+          "title": "Present Simple: расписание",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The film starts at eight.",
+              "ru": "Фильм начинается в восемь."
+            },
+            {
+              "en": "Our flight lands at 10 pm.",
+              "ru": "Наш рейс приземляется в 22:00."
+            },
+            {
+              "en": "The shop opens at nine tomorrow.",
+              "ru": "Завтра магазин открывается в девять."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки, когда о будущем говорят настоящим.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I meet Tom tomorrow at six. (договорились)",
+              "right": "I'm meeting Tom tomorrow at six."
+            },
+            {
+              "wrong": "The train is leaving at 7:15 every day.",
+              "right": "The train leaves at 7:15 every day."
+            },
+            {
+              "wrong": "What do you do tonight?",
+              "right": "What are you doing tonight?"
+            },
+            {
+              "wrong": "It rains tomorrow.",
+              "right": "It's going to rain tomorrow. / It will rain tomorrow."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Спроси себя",
+            "text": "Это записано в ежедневнике — Present Continuous. Это напечатано в расписании — Present Simple. Погода и прогнозы — will или going to."
+          },
+          "quote": {
+            "text": "Ежедневник — Continuous, расписание — Simple.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

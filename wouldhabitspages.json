@@ -1,0 +1,178 @@
+{
+  "tenseName": "Would (прошлые привычки)",
+  "route": "cards_wouldhabits",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Would + глагол рассказывает о том, что повторялось в прошлом: «бывало, мы ходили…». Это как used to, но только о действиях — о состояниях would не говорит.",
+        "highlights": [
+          {
+            "text": "Would + глагол",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "повторялось в прошлом",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "только о действиях",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "подлежащее",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "would",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Would или used to",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "",
+              "used to",
+              "would"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Повторялись действия",
+                  "✓ We used to play.",
+                  "✓ We would play."
+                ]
+              },
+              {
+                "cells": [
+                  "Состояние, привычка быть",
+                  "✓ I used to be shy.",
+                  "✗ I would be shy."
+                ]
+              },
+              {
+                "cells": [
+                  "Было, а теперь нет",
+                  "✓ He used to live here.",
+                  "✗ He would live here."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "info"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Every summer we would go to the sea.",
+              "ru": "Каждое лето мы ездили на море."
+            },
+            {
+              "en": "My grandma would tell us stories.",
+              "ru": "Бабушка, бывало, рассказывала нам сказки."
+            },
+            {
+              "en": "He would always bring flowers.",
+              "ru": "Он всегда приносил цветы."
+            }
+          ]
+        },
+        {
+          "title": "Сначала used to",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Так звучит естественно",
+            "text": "Обычно рассказ начинают с used to, а дальше — would: When I was a child, I used to live in a village. We would swim in the river…"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с would о прошлом.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I would have a dog when I was a child.",
+              "right": "I used to have a dog when I was a child."
+            },
+            {
+              "wrong": "She would be very shy.",
+              "right": "She used to be very shy."
+            },
+            {
+              "wrong": "We would to play football.",
+              "right": "We would play football."
+            },
+            {
+              "wrong": "He would lived in Paris.",
+              "right": "He used to live in Paris."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Действие или состояние",
+            "text": "Представь кадр из фильма: если видно действие (играли, ходили) — можно would. Если это состояние (был, жил, имел) — только used to."
+          },
+          "quote": {
+            "text": "Would — для действий, used to — для всего.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "tenseName": "Few / Little",
+  "route": "cards_fewlittle",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Few и little значат «мало», но few — о том, что считают (people, books), а little — о том, что не считают (time, money). Маленький артикль a меняет настроение: a few — «немного, но хватает».",
+        "highlights": [
+          {
+            "text": "Few",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "little",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "считают",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не считают",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "a few",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Четыре слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "",
+              "Исчисляемые",
+              "Неисчисляемые"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "мало (плохо)",
+                  "few friends",
+                  "little time"
+                ]
+              },
+              {
+                "cells": [
+                  "немного (хватает)",
+                  "a few friends",
+                  "a little time"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "info"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "He has few friends. He's lonely.",
+              "ru": "У него мало друзей. Ему одиноко."
+            },
+            {
+              "en": "I have a few friends here. It's nice.",
+              "ru": "У меня здесь есть несколько друзей. Это приятно."
+            },
+            {
+              "en": "There's little milk. Buy some.",
+              "ru": "Молока мало. Купи."
+            },
+            {
+              "en": "There's a little milk for your coffee.",
+              "ru": "Есть немного молока для твоего кофе."
+            }
+          ]
+        },
+        {
+          "title": "Как почувствовать разницу",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Стакан наполовину пуст или полон",
+            "text": "Few, little — «почти нет», жалуемся. A few, a little — «есть немного», и этого достаточно."
+          }
+        }
+      ]
+    },
+    {
+      "label": "В разговоре",
+      "intro": {
+        "text": "Без a — слова книжные. В разговоре «мало» чаще говорят через not many и not much, а few и little оставляют для устойчивых сочетаний.",
+        "highlights": [
+          {
+            "text": "not many",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "not much",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "устойчивых сочетаний",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как это звучит в жизни",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "not many",
+              "suffix": "вместо few",
+              "example": "There aren't many people here."
+            },
+            {
+              "name": "not much",
+              "suffix": "вместо little",
+              "example": "I don't have much time."
+            },
+            {
+              "name": "quite a few",
+              "suffix": "довольно много!",
+              "example": "Quite a few people came."
+            },
+            {
+              "name": "only a few / only a little",
+              "suffix": "совсем немного",
+              "example": "Only a few seats are left."
+            },
+            {
+              "name": "very few / very little",
+              "suffix": "очень мало",
+              "example": "Very little is known about it."
+            }
+          ]
+        },
+        {
+          "title": "Quite a few",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Ловушка",
+            "text": "Quite a few значит не «совсем мало», а наоборот — «довольно много»."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с few и little.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I have a little friends.",
+              "right": "I have a few friends."
+            },
+            {
+              "wrong": "There is few water.",
+              "right": "There is little water."
+            },
+            {
+              "wrong": "I need a few money.",
+              "right": "I need a little money."
+            },
+            {
+              "wrong": "Only few people came.",
+              "right": "Only a few people came."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Два вопроса",
+            "text": "Можно посчитать? Да — few, нет — little. Хватает? Да — с a, нет — без a."
+          },
+          "quote": {
+            "text": "A — это «чуть-чуть есть». Без a — «почти нет».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

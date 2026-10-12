@@ -1,0 +1,230 @@
+{
+  "tenseName": "Be supposed to",
+  "route": "cards_besupposedto",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Be supposed to — «должен», но не по своей воле, а по правилам, договорённости или чужим ожиданиям. А was supposed to — «должен был, но…».",
+        "highlights": [
+          {
+            "text": "Be supposed to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "по правилам, договорённости",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "was supposed to",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "am / is / are",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "supposed to",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Три смысла",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "правило, обязанность",
+              "suffix": "так положено",
+              "example": "You're supposed to wear a helmet."
+            },
+            {
+              "name": "ожидание, план",
+              "suffix": "так задумано",
+              "example": "The train is supposed to arrive at six."
+            },
+            {
+              "name": "молва",
+              "suffix": "говорят, что",
+              "example": "This film is supposed to be great."
+            }
+          ]
+        },
+        {
+          "title": "Was supposed to — но не вышло",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I was supposed to call her, but I forgot.",
+              "ru": "Я должен был ей позвонить, но забыл."
+            },
+            {
+              "en": "We were supposed to meet at five.",
+              "ru": "Мы должны были встретиться в пять."
+            }
+          ]
+        },
+        {
+          "title": "Not supposed to",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Вежливое «нельзя»",
+            "text": "You're not supposed to park here. Мягче, чем You mustn't park here, но смысл тот же."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Be to",
+      "intro": {
+        "text": "Be to + глагол — официальная форма: планы, указания, приказы. Её слышно в новостях и инструкциях: The President is to visit Paris.",
+        "highlights": [
+          {
+            "text": "Be to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "официальная",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "The President is to visit Paris",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "am / is / are",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "to",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Где встречается",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "официальный план",
+              "suffix": "новости",
+              "example": "The Prime Minister is to meet the press."
+            },
+            {
+              "name": "указание, приказ",
+              "suffix": "инструкции, родители",
+              "example": "You are to stay here until I return."
+            },
+            {
+              "name": "в прошлом",
+              "suffix": "было суждено",
+              "example": "They were to meet again years later."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с be supposed to.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "You supposed to wear a helmet.",
+              "right": "You're supposed to wear a helmet."
+            },
+            {
+              "wrong": "I am suppose to call her.",
+              "right": "I am supposed to call her."
+            },
+            {
+              "wrong": "We were supposed meet at five.",
+              "right": "We were supposed to meet at five."
+            },
+            {
+              "wrong": "We supposed to leave at eight, but we were late.",
+              "right": "We were supposed to leave at eight, but we were late."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Supposed — с -d",
+            "text": "На слух -d почти пропадает, но пишется всегда: supposed to."
+          },
+          "quote": {
+            "text": "Be supposed to — «так положено», а не «я так хочу».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

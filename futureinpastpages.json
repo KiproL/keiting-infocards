@@ -1,0 +1,151 @@
+{
+  "tenseName": "Future in the Past",
+  "route": "cards_futureinpast",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "«Собирался», «должен был», «вот-вот» — это будущее, но увиденное из прошлого. Чаще всего так говорят о планах, которые не сбылись.",
+        "highlights": [
+          {
+            "text": "увиденное из прошлого",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не сбылись",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Четыре способа",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Форма",
+              "Значение",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "was going to",
+                  "собирался",
+                  "I was going to call you, but I forgot."
+                ]
+              },
+              {
+                "cells": [
+                  "would",
+                  "что будет потом (рассказ, косвенная речь)",
+                  "I knew she would win."
+                ]
+              },
+              {
+                "cells": [
+                  "was about to",
+                  "вот-вот, уже почти",
+                  "I was about to leave when he came."
+                ]
+              },
+              {
+                "cells": [
+                  "was meeting / leaving",
+                  "договорился (Past Continuous)",
+                  "We were meeting at six, so I hurried."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "We were going to go out, but it started to rain.",
+              "ru": "Мы собирались выйти, но пошёл дождь."
+            },
+            {
+              "en": "He said he would help me.",
+              "ru": "Он сказал, что поможет мне."
+            },
+            {
+              "en": "The film was about to start.",
+              "ru": "Фильм вот-вот должен был начаться."
+            }
+          ]
+        },
+        {
+          "title": "Was going to — отговорка",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Самая частая фраза",
+            "text": "I was going to tell you! — «Я как раз собирался тебе сказать!» Обычно значит, что не сказал."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки, когда говорят о будущем из прошлого.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I am going to call you yesterday.",
+              "right": "I was going to call you yesterday."
+            },
+            {
+              "wrong": "I knew she will win.",
+              "right": "I knew she would win."
+            },
+            {
+              "wrong": "I was about leaving.",
+              "right": "I was about to leave."
+            },
+            {
+              "wrong": "He said he will come.",
+              "right": "He said he would come."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Сдвигай вместе с рассказом",
+            "text": "Рассказ в прошлом — и будущее тоже уходит в прошлое: will → would, am going to → was going to."
+          },
+          "quote": {
+            "text": "Из прошлого будущее видно через would и was going to.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "tenseName": "Emphatic do",
+  "route": "cards_emphaticdo",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Do, does и did в утверждении усиливают глагол: I do like it! — «Мне правда нравится!». Так спорят, настаивают и подчёркивают контраст. Голосом это слово выделяют.",
+        "highlights": [
+          {
+            "text": "усиливают глагол",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "I do like it!",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "выделяют",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "подлежащее",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "do / does / did",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол без -s и -ed",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Когда говорят",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "возражение",
+              "suffix": "«да нет же, правда»",
+              "example": "I did lock the door! I'm sure."
+            },
+            {
+              "name": "контраст",
+              "suffix": "«зато»",
+              "example": "I don't eat meat, but I do eat fish."
+            },
+            {
+              "name": "искренность",
+              "suffix": "«очень, правда»",
+              "example": "I do hope you'll come."
+            },
+            {
+              "name": "вежливое приглашение",
+              "suffix": "в повелительном",
+              "example": "Do come in! Do sit down."
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "She does look tired today.",
+              "ru": "Она и правда сегодня выглядит уставшей."
+            },
+            {
+              "en": "I did tell you about it!",
+              "ru": "Я же тебе говорил!"
+            },
+            {
+              "en": "We do need a new car.",
+              "ru": "Нам действительно нужна новая машина."
+            },
+            {
+              "en": "Do be careful!",
+              "ru": "Будь, пожалуйста, осторожен!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с усилительным do.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "She does looks tired.",
+              "right": "She does look tired."
+            },
+            {
+              "wrong": "I did told you!",
+              "right": "I did tell you!"
+            },
+            {
+              "wrong": "I do am happy.",
+              "right": "I am happy! / I really am happy."
+            },
+            {
+              "wrong": "He do likes it.",
+              "right": "He does like it."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "С to be не работает",
+            "text": "У be своя форма усиления — голосом: I AM happy! Do к нему не добавляют."
+          },
+          "quote": {
+            "text": "Do в утверждении — это «правда», «очень», «же».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
