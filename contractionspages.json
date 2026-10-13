@@ -1,0 +1,271 @@
+{
+  "tenseName": "Сокращённые формы",
+  "route": "cards_contractions",
+  "slides": [
+    {
+      "label": "Главные",
+      "intro": {
+        "text": "В речи и переписке вспомогательные глаголы и not почти всегда сокращают: I'm, don't, won't. Апостроф стоит на месте выпавших букв.",
+        "highlights": [
+          {
+            "text": "почти всегда сокращают",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "на месте выпавших букв",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Полностью → коротко",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Полностью",
+              "Коротко"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I am",
+                  "I'm"
+                ]
+              },
+              {
+                "cells": [
+                  "you / we / they are",
+                  "you're, we're, they're"
+                ]
+              },
+              {
+                "cells": [
+                  "he / she / it is или has",
+                  "he's, she's, it's"
+                ]
+              },
+              {
+                "cells": [
+                  "I have",
+                  "I've"
+                ]
+              },
+              {
+                "cells": [
+                  "I will",
+                  "I'll"
+                ]
+              },
+              {
+                "cells": [
+                  "I would или I had",
+                  "I'd"
+                ]
+              },
+              {
+                "cells": [
+                  "is not / are not",
+                  "isn't, aren't"
+                ]
+              },
+              {
+                "cells": [
+                  "do not / does not / did not",
+                  "don't, doesn't, didn't"
+                ]
+              },
+              {
+                "cells": [
+                  "have not / has not",
+                  "haven't, hasn't"
+                ]
+              },
+              {
+                "cells": [
+                  "will not",
+                  "won't"
+                ]
+              },
+              {
+                "cells": [
+                  "cannot",
+                  "can't"
+                ]
+              },
+              {
+                "cells": [
+                  "let us",
+                  "let's"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Два значения",
+      "intro": {
+        "text": "'s и 'd бывают разными словами — смысл подсказывает то, что идёт дальше.",
+        "highlights": [
+          {
+            "text": "'s и 'd",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "что идёт дальше",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как понять",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Пример",
+              "Значит",
+              "Подсказка"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "He's working.",
+                  "he is",
+                  "дальше -ing или прилагательное"
+                ]
+              },
+              {
+                "cells": [
+                  "He's finished.",
+                  "he has",
+                  "дальше V3"
+                ]
+              },
+              {
+                "cells": [
+                  "Tom's car",
+                  "чей",
+                  "дальше существительное"
+                ]
+              },
+              {
+                "cells": [
+                  "I'd like…",
+                  "I would",
+                  "дальше глагол без to"
+                ]
+              },
+              {
+                "cells": [
+                  "I'd left.",
+                  "I had",
+                  "дальше V3"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "example",
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Где нельзя",
+      "intro": {
+        "text": "Сокращения — норма в разговоре и сообщениях. В официальных письмах и эссе пишут полностью.",
+        "highlights": [
+          {
+            "text": "норма",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "пишут полностью",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Особые случаи",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "короткий ответ «да»",
+              "suffix": "без сокращения",
+              "example": "Yes, I am. (не Yes, I'm.)"
+            },
+            {
+              "name": "am not",
+              "suffix": "сокращения нет",
+              "example": "I'm not. Вопрос: Aren't I?"
+            },
+            {
+              "name": "ain't",
+              "suffix": "просторечие, в учёбе не нужно",
+              "example": "= am not, isn't, haven't"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с сокращениями.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Yes, I'm.",
+              "right": "Yes, I am."
+            },
+            {
+              "wrong": "Its raining.",
+              "right": "It's raining."
+            },
+            {
+              "wrong": "He don't know.",
+              "right": "He doesn't know."
+            },
+            {
+              "wrong": "I willn't go.",
+              "right": "I won't go."
+            },
+            {
+              "wrong": "I amn't ready.",
+              "right": "I'm not ready."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "tenseName": "Как написать рассказ",
+  "route": "cards_story",
+  "slides": [
+    {
+      "label": "План",
+      "intro": {
+        "text": "Рассказ держится на простом плане из пяти шагов — от обстановки до развязки.",
+        "highlights": [
+          {
+            "text": "пяти шагов",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пять шагов",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Начало — где, когда, кто: It was a cold morning in December.",
+              "Завязка — что пошло не так: Suddenly, I realised my bag was gone.",
+              "Развитие — что ты делал: I ran back to the station…",
+              "Кульминация — самый напряжённый момент: Just as the train was leaving, I saw it.",
+              "Развязка — чем кончилось: In the end, I got my bag back."
+            ],
+            "accentColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Времена и связки",
+      "intro": {
+        "text": "Сюжет — в Past Simple, фон — в Past Continuous, то, что было ещё раньше, — в Past Perfect. Подробнее — в карточке «Как рассказывать историю».",
+        "highlights": [
+          {
+            "text": "Past Simple",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Past Continuous",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Past Perfect",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Связки",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Задача",
+              "Связки"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "начать",
+                  "One day…, It all started when…"
+                ]
+              },
+              {
+                "cells": [
+                  "порядок",
+                  "First, Then, After that, Later"
+                ]
+              },
+              {
+                "cells": [
+                  "одновременно",
+                  "While, As, Meanwhile"
+                ]
+              },
+              {
+                "cells": [
+                  "неожиданно",
+                  "Suddenly, All of a sudden, To my surprise"
+                ]
+              },
+              {
+                "cells": [
+                  "закончить",
+                  "In the end, Finally, Eventually"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Сделать живым",
+      "intro": {
+        "text": "Читатель должен видеть картинку: помогают сильные глаголы, чувства и короткая прямая речь.",
+        "highlights": [
+          {
+            "text": "видеть картинку",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Скучно → живо",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "I was scared.",
+              "to": "My heart was pounding.",
+              "toColor": "good"
+            },
+            {
+              "from": "It was a nice day.",
+              "to": "The sun was shining and the sky was clear.",
+              "toColor": "good"
+            },
+            {
+              "from": "He said he was sorry.",
+              "to": "\"I'm so sorry,\" he whispered.",
+              "toColor": "good"
+            },
+            {
+              "from": "She walked quickly.",
+              "to": "She rushed down the street.",
+              "toColor": "good"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в рассказах.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — слабо или неверно, справа — лучше",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I go, I see, I run… (весь рассказ в настоящем)",
+              "right": "I went, I saw, I ran…"
+            },
+            {
+              "wrong": "Then… then… then…",
+              "right": "First…, After that…, Suddenly…"
+            },
+            {
+              "wrong": "When I came, the train already left.",
+              "right": "When I came, the train had already left."
+            },
+            {
+              "wrong": "Рассказ без развязки",
+              "right": "In the end… — чем всё закончилось"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "tenseName": "A piece of, a cup of",
+  "route": "cards_partitives",
+  "slides": [
+    {
+      "label": "Зачем",
+      "intro": {
+        "text": "Неисчисляемое — water, bread, advice — напрямую не считают: an advice и two breads — ошибки. Считают порциями: a glass of water, a piece of advice.",
+        "highlights": [
+          {
+            "text": "напрямую не считают",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "порциями",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Еда и напитки",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Порция",
+              "С чем"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "a cup of",
+                  "tea, coffee"
+                ]
+              },
+              {
+                "cells": [
+                  "a glass of",
+                  "water, juice, wine"
+                ]
+              },
+              {
+                "cells": [
+                  "a bottle of",
+                  "water, milk"
+                ]
+              },
+              {
+                "cells": [
+                  "a slice of",
+                  "bread, cake, pizza"
+                ]
+              },
+              {
+                "cells": [
+                  "a loaf of",
+                  "bread"
+                ]
+              },
+              {
+                "cells": [
+                  "a bar of",
+                  "chocolate, soap"
+                ]
+              },
+              {
+                "cells": [
+                  "a kilo of",
+                  "apples, meat"
+                ]
+              },
+              {
+                "cells": [
+                  "a can / tin of",
+                  "cola, beans"
+                ]
+              },
+              {
+                "cells": [
+                  "a packet of",
+                  "crisps, biscuits"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "В кафе",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Можно проще",
+            "text": "Заказывая, говорят и так: Two coffees, please — две чашки кофе."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Не только еда",
+      "intro": {
+        "text": "Так же считают советы, новости, мебель, одежду и парные предметы.",
+        "highlights": [
+          {
+            "text": "парные предметы",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Порции",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Порция",
+              "С чем"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "a piece of",
+                  "advice, information, news, furniture, paper"
+                ]
+              },
+              {
+                "cells": [
+                  "a bit of",
+                  "luck, help, time"
+                ]
+              },
+              {
+                "cells": [
+                  "an item of",
+                  "clothing, news"
+                ]
+              },
+              {
+                "cells": [
+                  "a sheet of",
+                  "paper"
+                ]
+              },
+              {
+                "cells": [
+                  "a drop of",
+                  "rain, water"
+                ]
+              },
+              {
+                "cells": [
+                  "a pair of",
+                  "jeans, shoes, glasses, scissors"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "A pair of",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Парные вещи",
+            "text": "Jeans, trousers, glasses, scissors — всегда во множественном: My jeans are new. Одна вещь — a pair of jeans."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с неисчисляемыми.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "an advice",
+              "right": "a piece of advice / some advice"
+            },
+            {
+              "wrong": "two breads",
+              "right": "two loaves of bread"
+            },
+            {
+              "wrong": "informations",
+              "right": "information / pieces of information"
+            },
+            {
+              "wrong": "a furniture",
+              "right": "a piece of furniture"
+            },
+            {
+              "wrong": "a jeans",
+              "right": "a pair of jeans"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "tenseName": "Машина: аренда и дорога",
+  "route": "cards_car",
+  "slides": [
+    {
+      "label": "Аренда",
+      "intro": {
+        "text": "При аренде уточни страховку, коробку передач, топливо и пробег.",
+        "highlights": [
+          {
+            "text": "страховку",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd like to rent a car for three days.",
+                  "Хочу взять машину на три дня."
+                ]
+              },
+              {
+                "cells": [
+                  "Is insurance included?",
+                  "Страховка включена?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is it manual or automatic?",
+                  "Механика или автомат?"
+                ]
+              },
+              {
+                "cells": [
+                  "Do I return it with a full tank?",
+                  "Вернуть с полным баком?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is there a mileage limit?",
+                  "Есть ограничение по пробегу?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "В дороге",
+      "intro": {
+        "text": "Заправка, парковка и поломки.",
+        "highlights": [
+          {
+            "text": "Заправка",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Fill it up, please.",
+                  "Полный бак, пожалуйста."
+                ]
+              },
+              {
+                "cells": [
+                  "Pump number four.",
+                  "Колонка номер четыре."
+                ]
+              },
+              {
+                "cells": [
+                  "Where can I park?",
+                  "Где можно припарковаться?"
+                ]
+              },
+              {
+                "cells": [
+                  "How much is it per hour?",
+                  "Сколько стоит час?"
+                ]
+              },
+              {
+                "cells": [
+                  "My car has broken down.",
+                  "У меня сломалась машина."
+                ]
+              },
+              {
+                "cells": [
+                  "I've got a flat tyre.",
+                  "У меня спустило колесо."
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Слова",
+      "intro": {
+        "text": "Здесь британский и американский расходятся особенно сильно.",
+        "highlights": [
+          {
+            "text": "особенно сильно",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "petrol (UK) / gas (US)",
+                  "бензин"
+                ]
+              },
+              {
+                "cells": [
+                  "petrol station / gas station",
+                  "заправка"
+                ]
+              },
+              {
+                "cells": [
+                  "driving licence (UK) / driver's license (US)",
+                  "водительские права"
+                ]
+              },
+              {
+                "cells": [
+                  "car park (UK) / parking lot (US)",
+                  "парковка"
+                ]
+              },
+              {
+                "cells": [
+                  "motorway (UK) / highway (US)",
+                  "автострада"
+                ]
+              },
+              {
+                "cells": [
+                  "traffic jam",
+                  "пробка"
+                ]
+              },
+              {
+                "cells": [
+                  "speed limit",
+                  "ограничение скорости"
+                ]
+              },
+              {
+                "cells": [
+                  "roundabout",
+                  "круговое движение"
+                ]
+              },
+              {
+                "cells": [
+                  "fine",
+                  "штраф"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "benzine",
+              "right": "petrol / gas"
+            },
+            {
+              "wrong": "driver rights",
+              "right": "driving licence"
+            },
+            {
+              "wrong": "I'm in a jam.",
+              "right": "I'm stuck in traffic."
+            },
+            {
+              "wrong": "The car is broken. (встала в дороге)",
+              "right": "The car has broken down."
+            },
+            {
+              "wrong": "Fill full, please.",
+              "right": "Fill it up, please."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

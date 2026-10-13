@@ -1,0 +1,215 @@
+{
+  "tenseName": "Ударение во фразе",
+  "route": "cards_sentencestress",
+  "slides": [
+    {
+      "label": "Что выделяют",
+      "intro": {
+        "text": "Во фразе голосом выделяют смысловые слова, а служебные проговаривают быстро и слабо. Отсюда ритм английской речи: та-та-ТА-та-ТА.",
+        "highlights": [
+          {
+            "text": "смысловые слова",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "служебные",
+            "color": "muted",
+            "style": "bold"
+          },
+          {
+            "text": "ритм",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Ударные и безударные",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Ударные",
+              "Безударные"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "существительные: book, Anna",
+                  "артикли: a, the"
+                ]
+              },
+              {
+                "cells": [
+                  "смысловые глаголы: go, read",
+                  "предлоги: to, at, of"
+                ]
+              },
+              {
+                "cells": [
+                  "прилагательные: big, red",
+                  "местоимения: he, it, them"
+                ]
+              },
+              {
+                "cells": [
+                  "наречия: quickly, never",
+                  "вспомогательные: do, is, have"
+                ]
+              },
+              {
+                "cells": [
+                  "вопросительные слова: where, why",
+                  "союзы: and, but"
+                ]
+              },
+              {
+                "cells": [
+                  "отрицания: not, can't",
+                  "can в утверждении"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ритм",
+      "intro": {
+        "text": "Ударные слоги идут примерно через равные промежутки, а безударные между ними сжимаются. Поэтому длинная фраза звучит почти так же быстро, как короткая.",
+        "highlights": [
+          {
+            "text": "через равные промежутки",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "сжимаются",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни (заглавными — ударные)",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "CATS EAT FISH.",
+              "ru": "Три ударения"
+            },
+            {
+              "en": "The CATS have EATen the FISH.",
+              "ru": "Тоже три — звучит почти так же долго"
+            },
+            {
+              "en": "I WANT to GO to the SHOP.",
+              "ru": "to и to the проглатываются: [tə]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Смысловое ударение",
+      "intro": {
+        "text": "Выделив другое слово, меняешь смысл: так подчёркивают главное или поправляют собеседника.",
+        "highlights": [
+          {
+            "text": "меняешь смысл",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Одна фраза — разный смысл",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Как сказать",
+              "Что значит"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I didn't take your PEN.",
+                  "взял, но не ручку"
+                ]
+              },
+              {
+                "cells": [
+                  "I didn't take YOUR pen.",
+                  "взял, но чужую"
+                ]
+              },
+              {
+                "cells": [
+                  "I DIDN'T take your pen.",
+                  "не брал — и всё"
+                ]
+              },
+              {
+                "cells": [
+                  "I didn't TAKE your pen.",
+                  "не брал, а, скажем, нашёл"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в ударении.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так звучит русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Каждое слово с ударением: I — WANT — TO — GO",
+              "right": "I WANT to GO"
+            },
+            {
+              "wrong": "Чёткое [tuː] в to the shop",
+              "right": "слабое [tə]"
+            },
+            {
+              "wrong": "I CAN swim — ударное can",
+              "right": "I can [kən] SWIM; ударное — только can't"
+            },
+            {
+              "wrong": "Ровная речь без выделения",
+              "right": "главное слово — голосом"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

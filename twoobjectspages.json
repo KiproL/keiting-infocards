@@ -1,0 +1,241 @@
+{
+  "tenseName": "Два дополнения",
+  "route": "cards_twoobjects",
+  "slides": [
+    {
+      "label": "Два порядка",
+      "intro": {
+        "text": "После give, send, show, tell бывает два дополнения: кому и что. Порядок — «кому + что» (give her the book) или «что + to + кому» (give the book to her).",
+        "highlights": [
+          {
+            "text": "кому",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "что",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Схемы",
+          "borderColor": "term",
+          "formulas": [
+            {
+              "parts": [
+                {
+                  "text": "give",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "кому",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "что",
+                  "color": "example"
+                }
+              ],
+              "accentColor": "term"
+            },
+            {
+              "parts": [
+                {
+                  "text": "give",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "что",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "to + кому",
+                  "color": "info"
+                }
+              ],
+              "accentColor": "info"
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I sent my mum a postcard.",
+              "ru": "Я отправил маме открытку."
+            },
+            {
+              "en": "I sent a postcard to my mum.",
+              "ru": "То же — с акцентом на маме."
+            },
+            {
+              "en": "Can you show me the photos?",
+              "ru": "Покажешь мне фото?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "It и them",
+      "intro": {
+        "text": "Если «что» — местоимение it или them, оно идёт сразу после глагола, а «кому» — с to: give it to me.",
+        "highlights": [
+          {
+            "text": "сразу после глагола",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "give it to me",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Неестественно → как надо",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "Give me it.",
+              "to": "Give it to me.",
+              "toColor": "good"
+            },
+            {
+              "from": "I'll send you them.",
+              "to": "I'll send them to you.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Только с to",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "explain, describe, say, suggest",
+            "text": "У этих глаголов «кому» всегда с to и после «что»: Explain the rule to me. Describe it to me."
+          }
+        }
+      ]
+    },
+    {
+      "label": "To или for",
+      "intro": {
+        "text": "Обычно ставят to, но после buy, make, get, cook, find, book — for: I bought a present for her.",
+        "highlights": [
+          {
+            "text": "to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "for",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Какой предлог",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "To",
+              "For"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "give, send, show",
+                  "buy, get, find"
+                ]
+              },
+              {
+                "cells": [
+                  "tell, lend, offer",
+                  "make, cook, book"
+                ]
+              },
+              {
+                "cells": [
+                  "pay, bring, sell",
+                  "keep, save"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с двумя дополнениями.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Explain me the rule.",
+              "right": "Explain the rule to me."
+            },
+            {
+              "wrong": "Say me the truth.",
+              "right": "Tell me the truth."
+            },
+            {
+              "wrong": "Describe me your house.",
+              "right": "Describe your house to me."
+            },
+            {
+              "wrong": "Give me it.",
+              "right": "Give it to me."
+            },
+            {
+              "wrong": "I bought a gift to her.",
+              "right": "I bought a gift for her."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

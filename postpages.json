@@ -1,0 +1,253 @@
+{
+  "tenseName": "Почта и доставка",
+  "route": "cards_post",
+  "slides": [
+    {
+      "label": "Отправить",
+      "intro": {
+        "text": "На почте спрашивают о цене, сроке и о том, можно ли отследить отправление.",
+        "highlights": [
+          {
+            "text": "отследить",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd like to send this parcel to…",
+                  "Хочу отправить эту посылку в…"
+                ]
+              },
+              {
+                "cells": [
+                  "How much is it to send it by air?",
+                  "Сколько стоит авиапочтой?"
+                ]
+              },
+              {
+                "cells": [
+                  "How long will it take?",
+                  "Сколько она будет идти?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I track it?",
+                  "Её можно отследить?"
+                ]
+              },
+              {
+                "cells": [
+                  "I need a stamp for this letter.",
+                  "Нужна марка для этого письма."
+                ]
+              },
+              {
+                "cells": [
+                  "Do I need to fill in a customs form?",
+                  "Нужно заполнить таможенную декларацию?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Получить",
+      "intro": {
+        "text": "Если заказ не пришёл или пришёл не таким — эти фразы.",
+        "highlights": [
+          {
+            "text": "не пришёл",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'm here to collect a parcel.",
+                  "Я пришёл забрать посылку."
+                ]
+              },
+              {
+                "cells": [
+                  "My order still hasn't arrived.",
+                  "Мой заказ до сих пор не пришёл."
+                ]
+              },
+              {
+                "cells": [
+                  "The parcel was damaged.",
+                  "Посылка повреждена."
+                ]
+              },
+              {
+                "cells": [
+                  "What's the tracking number?",
+                  "Какой трек-номер?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you leave it with my neighbour?",
+                  "Можно оставить у соседа?"
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Слова",
+      "intro": {
+        "text": "Британские и американские слова для почты.",
+        "highlights": [
+          {
+            "text": "Британские и американские",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "parcel (UK) / package (US)",
+                  "посылка"
+                ]
+              },
+              {
+                "cells": [
+                  "post (UK) / mail (US)",
+                  "почта"
+                ]
+              },
+              {
+                "cells": [
+                  "postcode (UK) / zip code (US)",
+                  "индекс"
+                ]
+              },
+              {
+                "cells": [
+                  "envelope / stamp",
+                  "конверт / марка"
+                ]
+              },
+              {
+                "cells": [
+                  "courier",
+                  "курьер"
+                ]
+              },
+              {
+                "cells": [
+                  "tracking number",
+                  "трек-номер"
+                ]
+              },
+              {
+                "cells": [
+                  "sender / recipient",
+                  "отправитель / получатель"
+                ]
+              },
+              {
+                "cells": [
+                  "pick-up point",
+                  "пункт выдачи"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "index (почтовый)",
+              "right": "postcode / zip code"
+            },
+            {
+              "wrong": "My order didn't come still.",
+              "right": "My order still hasn't arrived."
+            },
+            {
+              "wrong": "track-number",
+              "right": "tracking number"
+            },
+            {
+              "wrong": "Where can I take my parcel? (забрать)",
+              "right": "Where can I pick up my parcel?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

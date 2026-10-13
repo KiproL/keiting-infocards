@@ -1,0 +1,226 @@
+{
+  "tenseName": "Составные существительные",
+  "route": "cards_compoundnouns",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Два существительных подряд работают как одно слово: bus stop — автобусная остановка. Главное слово — второе, первое уточняет его, как прилагательное.",
+        "highlights": [
+          {
+            "text": "как одно слово",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Главное слово — второе",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "bus stop",
+              "ru": "автобусная остановка"
+            },
+            {
+              "en": "toothbrush",
+              "ru": "зубная щётка"
+            },
+            {
+              "en": "phone number",
+              "ru": "номер телефона"
+            },
+            {
+              "en": "car park",
+              "ru": "парковка"
+            },
+            {
+              "en": "coffee cup",
+              "ru": "кофейная чашка"
+            }
+          ]
+        },
+        {
+          "title": "Как пишутся",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Как",
+              "Примеры"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "слитно",
+                  "toothbrush, bedroom, haircut"
+                ]
+              },
+              {
+                "cells": [
+                  "раздельно",
+                  "bus stop, phone number, credit card"
+                ]
+              },
+              {
+                "cells": [
+                  "через дефис",
+                  "mother-in-law, check-in"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Первое — без -s",
+      "intro": {
+        "text": "Первое слово почти всегда в единственном числе, даже если по смыслу их много: a shoe shop, a ten-minute walk.",
+        "highlights": [
+          {
+            "text": "в единственном числе",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "a shoe shop",
+              "ru": "обувной магазин"
+            },
+            {
+              "en": "a ten-minute walk",
+              "ru": "десять минут пешком"
+            },
+            {
+              "en": "a five-star hotel",
+              "ru": "пятизвёздочный отель"
+            },
+            {
+              "en": "a two-hour meeting",
+              "ru": "двухчасовая встреча"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Составное или of",
+      "intro": {
+        "text": "Составное слово — для типа предмета: a coffee cup — чашка для кофе. Of — для содержимого и части: a cup of coffee — чашка с кофе, the end of the film.",
+        "highlights": [
+          {
+            "text": "для типа предмета",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "для содержимого и части",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Составное",
+              "С of"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "a coffee cup — чашка для кофе",
+                  "a cup of coffee — чашка с кофе"
+                ]
+              },
+              {
+                "cells": [
+                  "a wine glass — бокал для вина",
+                  "a glass of wine — бокал вина"
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "the end of the film"
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "the top of the page"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в составных словах.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "a shoes shop",
+              "right": "a shoe shop"
+            },
+            {
+              "wrong": "a ten-minutes walk",
+              "right": "a ten-minute walk"
+            },
+            {
+              "wrong": "a stop of bus",
+              "right": "a bus stop"
+            },
+            {
+              "wrong": "number of phone",
+              "right": "phone number"
+            },
+            {
+              "wrong": "the film's end",
+              "right": "the end of the film"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "tenseName": "Орфография",
+  "route": "cards_spelling",
+  "slides": [
+    {
+      "label": "Удвоение согласной",
+      "intro": {
+        "text": "Если слово кончается на ударную гласную + одну согласную, перед -ed, -ing, -er согласную удваивают: stop → stopped. Если ударение не на последнем слоге — не удваивают: visit → visited.",
+        "highlights": [
+          {
+            "text": "удваивают",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не удваивают",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "С окончанием"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "stop",
+                  "stopped, stopping"
+                ]
+              },
+              {
+                "cells": [
+                  "big",
+                  "bigger, biggest"
+                ]
+              },
+              {
+                "cells": [
+                  "run",
+                  "running, runner"
+                ]
+              },
+              {
+                "cells": [
+                  "begin — ударение на -gin",
+                  "beginning, beginner"
+                ]
+              },
+              {
+                "cells": [
+                  "visit — ударение на vi-",
+                  "visited, visiting"
+                ]
+              },
+              {
+                "cells": [
+                  "rain — две гласные",
+                  "rained, raining"
+                ]
+              },
+              {
+                "cells": [
+                  "help — две согласные",
+                  "helped, helping"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term"
+            ]
+          }
+        },
+        {
+          "title": "Британский и американский",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Travel",
+            "text": "В британском конечную l после одной гласной удваивают даже без ударения: travelled, cancelled. В американском — нет: traveled, canceled."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Немая e",
+      "intro": {
+        "text": "Немую e на конце отбрасывают перед окончанием на гласную: make → making. Перед окончанием на согласную её оставляют: hope → hopeful.",
+        "highlights": [
+          {
+            "text": "отбрасывают",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "оставляют",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "С окончанием"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "make",
+                  "making"
+                ]
+              },
+              {
+                "cells": [
+                  "hope",
+                  "hoped, hoping, hopeful"
+                ]
+              },
+              {
+                "cells": [
+                  "nice",
+                  "nicer, nicely"
+                ]
+              },
+              {
+                "cells": [
+                  "use",
+                  "using, useful"
+                ]
+              },
+              {
+                "cells": [
+                  "see — ee",
+                  "seeing (не трогаем)"
+                ]
+              },
+              {
+                "cells": [
+                  "die, lie — ie",
+                  "dying, lying (ie → y)"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Y → i",
+      "intro": {
+        "text": "После согласной y меняют на i: study → studied, happy → happier. После гласной — не меняют: play → played. Перед -ing y остаётся всегда: studying.",
+        "highlights": [
+          {
+            "text": "меняют на i",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не меняют",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "остаётся всегда",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "С окончанием"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "study",
+                  "studies, studied, studying"
+                ]
+              },
+              {
+                "cells": [
+                  "happy",
+                  "happier, happiest, happily"
+                ]
+              },
+              {
+                "cells": [
+                  "city",
+                  "cities"
+                ]
+              },
+              {
+                "cells": [
+                  "play",
+                  "plays, played"
+                ]
+              },
+              {
+                "cells": [
+                  "day",
+                  "days"
+                ]
+              },
+              {
+                "cells": [
+                  "say, pay",
+                  "said, paid — исключения"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в написании.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "stoped",
+              "right": "stopped"
+            },
+            {
+              "wrong": "makeing",
+              "right": "making"
+            },
+            {
+              "wrong": "studyed",
+              "right": "studied"
+            },
+            {
+              "wrong": "happyer",
+              "right": "happier"
+            },
+            {
+              "wrong": "plaied",
+              "right": "played"
+            },
+            {
+              "wrong": "beginer",
+              "right": "beginner"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

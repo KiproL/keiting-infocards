@@ -1,0 +1,283 @@
+{
+  "tenseName": "Коллокации",
+  "route": "cards_collocations",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Коллокации — слова, которые носители ставят вместе по привычке: heavy rain, а не strong rain. Логикой их не вывести — только запомнить.",
+        "highlights": [
+          {
+            "text": "Коллокации",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "по привычке",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "только запомнить",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Так говорят и так нет",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Так говорят",
+              "Так не говорят"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "heavy rain",
+                  "strong rain"
+                ]
+              },
+              {
+                "cells": [
+                  "strong coffee",
+                  "powerful coffee"
+                ]
+              },
+              {
+                "cells": [
+                  "make a decision",
+                  "do a decision"
+                ]
+              },
+              {
+                "cells": [
+                  "take a photo",
+                  "make a photo"
+                ]
+              },
+              {
+                "cells": [
+                  "a high price",
+                  "an expensive price"
+                ]
+              },
+              {
+                "cells": [
+                  "do homework",
+                  "make homework"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "good",
+              "bad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Глагол + существительное",
+      "intro": {
+        "text": "Больше всего коллокаций — у коротких глаголов.",
+        "highlights": [
+          {
+            "text": "у коротких глаголов",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глаголы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "С чем"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "make",
+                  "a mistake, a decision, money, a noise, friends"
+                ]
+              },
+              {
+                "cells": [
+                  "do",
+                  "homework, business, the dishes, sport, your best"
+                ]
+              },
+              {
+                "cells": [
+                  "take",
+                  "a photo, a break, a shower, a risk, part"
+                ]
+              },
+              {
+                "cells": [
+                  "have",
+                  "breakfast, a party, fun, a look"
+                ]
+              },
+              {
+                "cells": [
+                  "pay",
+                  "attention, a visit, a compliment"
+                ]
+              },
+              {
+                "cells": [
+                  "keep",
+                  "a secret, a promise, calm"
+                ]
+              },
+              {
+                "cells": [
+                  "catch",
+                  "a cold, a bus"
+                ]
+              },
+              {
+                "cells": [
+                  "break",
+                  "a promise, the law, a record"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Прилагательное + существительное",
+      "intro": {
+        "text": "У прилагательных свои «пары», и по-русски они часто другие.",
+        "highlights": [
+          {
+            "text": "свои «пары»",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пары",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Прилагательное",
+              "С чем"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "heavy",
+                  "rain, traffic, smoker"
+                ]
+              },
+              {
+                "cells": [
+                  "strong",
+                  "wind, coffee, accent"
+                ]
+              },
+              {
+                "cells": [
+                  "high",
+                  "price, temperature, speed"
+                ]
+              },
+              {
+                "cells": [
+                  "deep",
+                  "sleep, voice, respect"
+                ]
+              },
+              {
+                "cells": [
+                  "serious",
+                  "problem, illness, mistake"
+                ]
+              },
+              {
+                "cells": [
+                  "light",
+                  "rain, meal, sleeper"
+                ]
+              },
+              {
+                "cells": [
+                  "close",
+                  "friend, relative"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в сочетаниях слов.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I did a mistake.",
+              "right": "I made a mistake."
+            },
+            {
+              "wrong": "Let's make a photo.",
+              "right": "Let's take a photo."
+            },
+            {
+              "wrong": "strong rain",
+              "right": "heavy rain"
+            },
+            {
+              "wrong": "The price is expensive.",
+              "right": "The price is high."
+            },
+            {
+              "wrong": "He has a big experience.",
+              "right": "He has a lot of experience."
+            },
+            {
+              "wrong": "Open the light.",
+              "right": "Turn on the light."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

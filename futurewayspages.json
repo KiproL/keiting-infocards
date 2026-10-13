@@ -1,0 +1,192 @@
+{
+  "tenseName": "Как говорить о будущем",
+  "route": "cards_futureways",
+  "slides": [
+    {
+      "label": "Пять способов",
+      "intro": {
+        "text": "Одного «будущего времени» в английском нет: выбор зависит от того, решение это, план, договорённость или расписание.",
+        "highlights": [
+          {
+            "text": "решение",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "план",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "договорённость",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "расписание",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Способы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Способ",
+              "Когда",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "will",
+                  "решил сейчас, обещание, мнение о будущем",
+                  "I'll help you. I think it'll rain."
+                ]
+              },
+              {
+                "cells": [
+                  "be going to",
+                  "план заранее; видно по признакам",
+                  "I'm going to buy a car. Look, it's going to rain."
+                ]
+              },
+              {
+                "cells": [
+                  "Present Continuous",
+                  "договорённость: время, место, люди",
+                  "I'm meeting Anna at 6."
+                ]
+              },
+              {
+                "cells": [
+                  "Present Simple",
+                  "расписание",
+                  "The train leaves at 8."
+                ]
+              },
+              {
+                "cells": [
+                  "Future Continuous",
+                  "процесс в момент в будущем",
+                  "This time tomorrow I'll be flying."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Как выбрать",
+      "intro": {
+        "text": "Задай себе вопросы по порядку — первый «да» и даёт ответ.",
+        "highlights": [
+          {
+            "text": "первый «да»",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вопросы",
+          "borderColor": "term",
+          "steps": {
+            "items": [
+              "Расписание, транспорт, сеанс? → Present Simple.",
+              "Уже договорился с кем-то о времени? → Present Continuous.",
+              "Решил заранее, но без договорённости? → be going to.",
+              "Решаешь прямо сейчас, обещаешь, предполагаешь? → will."
+            ],
+            "accentColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Сравни",
+      "intro": {
+        "text": "Одна ситуация — разные смыслы.",
+        "highlights": [
+          {
+            "text": "разные смыслы",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "— The phone's ringing. — I'll get it.",
+              "ru": "Решил сейчас — will"
+            },
+            {
+              "en": "I'm going to call her tonight.",
+              "ru": "Решил заранее — going to"
+            },
+            {
+              "en": "I'm calling her at 8 — we agreed.",
+              "ru": "Договорились — Present Continuous"
+            },
+            {
+              "en": "The film starts at 8.",
+              "ru": "Расписание — Present Simple"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с будущим.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — неестественно или неверно, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I will meet Anna at 6. (уже договорились)",
+              "right": "I'm meeting Anna at 6."
+            },
+            {
+              "wrong": "The train will leave at 8. (по расписанию)",
+              "right": "The train leaves at 8."
+            },
+            {
+              "wrong": "When I will come, I'll call.",
+              "right": "When I come, I'll call."
+            },
+            {
+              "wrong": "— It's cold. — I'm going to close the window. (решил сейчас)",
+              "right": "— I'll close the window."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "tenseName": "Видеозвонки",
+  "route": "cards_videocalls",
+  "slides": [
+    {
+      "label": "Связь",
+      "intro": {
+        "text": "Половина любого созвона — про связь: слышно ли, видно ли экран, не завис ли кто-то.",
+        "highlights": [
+          {
+            "text": "про связь",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Can you hear me?",
+                  "Меня слышно?"
+                ]
+              },
+              {
+                "cells": [
+                  "You're on mute.",
+                  "У тебя выключен микрофон."
+                ]
+              },
+              {
+                "cells": [
+                  "You're breaking up.",
+                  "Ты пропадаешь."
+                ]
+              },
+              {
+                "cells": [
+                  "Your screen is frozen.",
+                  "У тебя завис экран."
+                ]
+              },
+              {
+                "cells": [
+                  "I'll share my screen.",
+                  "Сейчас покажу экран."
+                ]
+              },
+              {
+                "cells": [
+                  "Can you see my screen?",
+                  "Видно мой экран?"
+                ]
+              },
+              {
+                "cells": [
+                  "Sorry, my connection is bad.",
+                  "Извините, плохая связь."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ведение встречи",
+      "intro": {
+        "text": "Фразы для начала, середины и конца онлайн-встречи.",
+        "highlights": [
+          {
+            "text": "онлайн-встречи",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Shall we wait a couple of minutes for the others?",
+                  "Подождём пару минут остальных?"
+                ]
+              },
+              {
+                "cells": [
+                  "Sorry, go ahead.",
+                  "Простите, говорите. (если перебили друг друга)"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you put the link in the chat?",
+                  "Скинешь ссылку в чат?"
+                ]
+              },
+              {
+                "cells": [
+                  "I have to drop off in five minutes.",
+                  "Через пять минут мне нужно отключиться."
+                ]
+              },
+              {
+                "cells": [
+                  "I'll send a follow-up email.",
+                  "Пришлю письмо по итогам."
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Do you hear me?",
+              "right": "Can you hear me?"
+            },
+            {
+              "wrong": "You are not heard.",
+              "right": "We can't hear you."
+            },
+            {
+              "wrong": "Turn on your micro.",
+              "right": "Unmute yourself. / Turn your mic on."
+            },
+            {
+              "wrong": "I will demonstrate my screen.",
+              "right": "I'll share my screen."
+            },
+            {
+              "wrong": "My internet is falling.",
+              "right": "My connection keeps dropping."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

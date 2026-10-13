@@ -1,0 +1,245 @@
+{
+  "tenseName": "Аптека",
+  "route": "cards_pharmacy",
+  "slides": [
+    {
+      "label": "Попросить",
+      "intro": {
+        "text": "Аптека — pharmacy, в Великобритании ещё chemist's, в США — drugstore. Просят лекарство «от чего-то» через for.",
+        "highlights": [
+          {
+            "text": "pharmacy",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "for",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Have you got something for a headache?",
+                  "У вас есть что-нибудь от головной боли?"
+                ]
+              },
+              {
+                "cells": [
+                  "I need something for a cold.",
+                  "Мне нужно что-то от простуды."
+                ]
+              },
+              {
+                "cells": [
+                  "Do I need a prescription?",
+                  "Нужен рецепт?"
+                ]
+              },
+              {
+                "cells": [
+                  "How often should I take it?",
+                  "Как часто принимать?"
+                ]
+              },
+              {
+                "cells": [
+                  "Does it have any side effects?",
+                  "Есть побочные эффекты?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is it suitable for children?",
+                  "Это можно детям?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Слова",
+      "intro": {
+        "text": "Главные слова на полках и в инструкциях.",
+        "highlights": [
+          {
+            "text": "в инструкциях",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "painkillers",
+                  "обезболивающее"
+                ]
+              },
+              {
+                "cells": [
+                  "tablets, pills",
+                  "таблетки"
+                ]
+              },
+              {
+                "cells": [
+                  "cough syrup",
+                  "сироп от кашля"
+                ]
+              },
+              {
+                "cells": [
+                  "drops",
+                  "капли"
+                ]
+              },
+              {
+                "cells": [
+                  "ointment, cream",
+                  "мазь, крем"
+                ]
+              },
+              {
+                "cells": [
+                  "plaster (UK) / Band-Aid (US)",
+                  "пластырь"
+                ]
+              },
+              {
+                "cells": [
+                  "prescription",
+                  "рецепт"
+                ]
+              },
+              {
+                "cells": [
+                  "dose",
+                  "дозировка"
+                ]
+              },
+              {
+                "cells": [
+                  "twice a day",
+                  "два раза в день"
+                ]
+              },
+              {
+                "cells": [
+                  "before / after meals",
+                  "до / после еды"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Инструкция",
+      "intro": {
+        "text": "Фразы, которые пишут на упаковке.",
+        "highlights": [
+          {
+            "text": "на упаковке",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что написано",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Take one tablet three times a day.",
+              "ru": "Принимать по одной таблетке три раза в день."
+            },
+            {
+              "en": "Do not exceed the stated dose.",
+              "ru": "Не превышать указанную дозу."
+            },
+            {
+              "en": "Keep out of the reach of children.",
+              "ru": "Хранить в недоступном для детей месте."
+            },
+            {
+              "en": "May cause drowsiness.",
+              "ru": "Может вызывать сонливость."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Give me a medicine from head.",
+              "right": "Have you got something for a headache?"
+            },
+            {
+              "wrong": "I need a recipe.",
+              "right": "I need a prescription. (recipe — рецепт блюда)"
+            },
+            {
+              "wrong": "drink a pill",
+              "right": "take a pill"
+            },
+            {
+              "wrong": "a medicament",
+              "right": "medicine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

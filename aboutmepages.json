@@ -1,0 +1,214 @@
+{
+  "tenseName": "Рассказать о себе",
+  "route": "cards_aboutme",
+  "slides": [
+    {
+      "label": "Основное",
+      "intro": {
+        "text": "Рассказ о себе строится по простой схеме: имя, откуда ты, чем занимаешься, что любишь.",
+        "highlights": [
+          {
+            "text": "по простой схеме",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "My name is… / I'm…",
+                  "Меня зовут…"
+                ]
+              },
+              {
+                "cells": [
+                  "I'm 25.",
+                  "Мне 25 лет."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm from Russia. I live in Kazan.",
+                  "Я из России. Живу в Казани."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm a student. / I work as a designer.",
+                  "Я студент. / Работаю дизайнером."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm married. / I'm single.",
+                  "Я женат (замужем). / Я не в отношениях."
+                ]
+              },
+              {
+                "cells": [
+                  "I've got a brother and a sister.",
+                  "У меня есть брат и сестра."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Интересы",
+      "intro": {
+        "text": "Об увлечениях говорят через like, love и разговорное be into.",
+        "highlights": [
+          {
+            "text": "be into",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "In my free time I…",
+                  "В свободное время я…"
+                ]
+              },
+              {
+                "cells": [
+                  "I'm really into music.",
+                  "Я очень увлекаюсь музыкой."
+                ]
+              },
+              {
+                "cells": [
+                  "I'm a big fan of…",
+                  "Я большой фанат…"
+                ]
+              },
+              {
+                "cells": [
+                  "I'm learning English because…",
+                  "Учу английский, потому что…"
+                ]
+              },
+              {
+                "cells": [
+                  "I'd love to… one day.",
+                  "Когда-нибудь хочу…"
+                ]
+              }
+            ],
+            "borderColor": "good",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Пример",
+      "intro": {
+        "text": "Пять фраз — и рассказ готов.",
+        "highlights": [
+          {
+            "text": "Пять фраз",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Рассказ",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Hi, I'm Anna. I'm from Kazan, but now I live in Moscow.",
+              "ru": "Привет, я Анна. Я из Казани, сейчас живу в Москве."
+            },
+            {
+              "en": "I work as a designer at a small company.",
+              "ru": "Работаю дизайнером в небольшой компании."
+            },
+            {
+              "en": "In my free time I go swimming and read a lot.",
+              "ru": "В свободное время плаваю и много читаю."
+            },
+            {
+              "en": "I'm learning English because I want to travel.",
+              "ru": "Учу английский, потому что хочу путешествовать."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I have 25 years.",
+              "right": "I'm 25."
+            },
+            {
+              "wrong": "I am student.",
+              "right": "I'm a student."
+            },
+            {
+              "wrong": "I am work as a designer.",
+              "right": "I work as a designer."
+            },
+            {
+              "wrong": "I like very much music.",
+              "right": "I like music very much."
+            },
+            {
+              "wrong": "I live in Moscow since 2020.",
+              "right": "I've lived in Moscow since 2020."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

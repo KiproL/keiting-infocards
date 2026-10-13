@@ -1,0 +1,257 @@
+{
+  "tenseName": "Кино, театр, билеты",
+  "route": "cards_tickets",
+  "slides": [
+    {
+      "label": "Купить билет",
+      "intro": {
+        "text": "Билет на что-то — ticket for: two tickets for the 7 o'clock show.",
+        "highlights": [
+          {
+            "text": "ticket for",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Two tickets for the 7 o'clock show, please.",
+                  "Два билета на сеанс в семь."
+                ]
+              },
+              {
+                "cells": [
+                  "Are there any seats left?",
+                  "Места ещё остались?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can we sit together?",
+                  "Можно сесть вместе?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is there a student discount?",
+                  "Есть скидка для студентов?"
+                ]
+              },
+              {
+                "cells": [
+                  "What time does it start?",
+                  "Во сколько начало?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is it sold out?",
+                  "Все билеты проданы?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Слова",
+      "intro": {
+        "text": "Слова для кассы и зала.",
+        "highlights": [
+          {
+            "text": "кассы и зала",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "screening, showing",
+                  "сеанс"
+                ]
+              },
+              {
+                "cells": [
+                  "row / seat",
+                  "ряд / место"
+                ]
+              },
+              {
+                "cells": [
+                  "box office",
+                  "касса"
+                ]
+              },
+              {
+                "cells": [
+                  "the stalls (UK)",
+                  "партер"
+                ]
+              },
+              {
+                "cells": [
+                  "interval (UK) / intermission (US)",
+                  "антракт"
+                ]
+              },
+              {
+                "cells": [
+                  "subtitles / dubbed",
+                  "с субтитрами / с дубляжом"
+                ]
+              },
+              {
+                "cells": [
+                  "trailer",
+                  "трейлер"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Обсудить",
+      "intro": {
+        "text": "До и после фильма — короткие вопросы и оценки.",
+        "highlights": [
+          {
+            "text": "оценки",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "What's on?",
+                  "Что сейчас идёт?"
+                ]
+              },
+              {
+                "cells": [
+                  "What's it about?",
+                  "О чём он?"
+                ]
+              },
+              {
+                "cells": [
+                  "Who's in it?",
+                  "Кто играет?"
+                ]
+              },
+              {
+                "cells": [
+                  "It's worth seeing.",
+                  "Стоит посмотреть."
+                ]
+              },
+              {
+                "cells": [
+                  "It was a bit slow.",
+                  "Был немного затянут."
+                ]
+              },
+              {
+                "cells": [
+                  "No spoilers, please!",
+                  "Только без спойлеров!"
+                ]
+              }
+            ],
+            "borderColor": "good",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Чего не говорить",
+      "intro": {
+        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "highlights": [
+          {
+            "text": "Чего не говорить",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Two tickets on the film.",
+              "right": "Two tickets for the film."
+            },
+            {
+              "wrong": "What goes in the cinema?",
+              "right": "What's on at the cinema?"
+            },
+            {
+              "wrong": "The film was very interested.",
+              "right": "The film was very interesting."
+            },
+            {
+              "wrong": "Where is the cassa?",
+              "right": "Where's the box office?"
+            },
+            {
+              "wrong": "seance",
+              "right": "screening, showing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

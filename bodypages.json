@@ -1,0 +1,270 @@
+{
+  "tenseName": "Тело и здоровье",
+  "route": "cards_body",
+  "slides": [
+    {
+      "label": "Тело",
+      "intro": {
+        "text": "Рука и нога — по два слова: arm — вся рука, hand — кисть; leg — нога, foot — ступня. Пальцы рук — fingers, ног — toes.",
+        "highlights": [
+          {
+            "text": "arm",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "hand",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "toes",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Части тела",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "head / face / neck",
+                  "голова / лицо / шея"
+                ]
+              },
+              {
+                "cells": [
+                  "eye / ear / nose / mouth",
+                  "глаз / ухо / нос / рот"
+                ]
+              },
+              {
+                "cells": [
+                  "tooth — teeth",
+                  "зуб — зубы"
+                ]
+              },
+              {
+                "cells": [
+                  "shoulder / back / chest",
+                  "плечо / спина / грудь"
+                ]
+              },
+              {
+                "cells": [
+                  "arm / hand / finger",
+                  "рука / кисть / палец"
+                ]
+              },
+              {
+                "cells": [
+                  "leg / knee / foot — feet / toe",
+                  "нога / колено / ступня / палец ноги"
+                ]
+              },
+              {
+                "cells": [
+                  "stomach",
+                  "живот, желудок"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Самочувствие",
+      "intro": {
+        "text": "Что болит: -ache для головы, зуба, живота, спины; sore — для горла и мышц; hurts — для любой части тела.",
+        "highlights": [
+          {
+            "text": "-ache",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "sore",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "hurts",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I've got a headache / toothache.",
+              "ru": "Болит голова / зуб."
+            },
+            {
+              "en": "I've got a sore throat.",
+              "ru": "Болит горло."
+            },
+            {
+              "en": "My knee hurts.",
+              "ru": "Болит колено."
+            },
+            {
+              "en": "I've got a temperature.",
+              "ru": "У меня температура."
+            },
+            {
+              "en": "I've caught a cold.",
+              "ru": "Я простудился."
+            },
+            {
+              "en": "I feel sick.",
+              "ru": "Меня тошнит."
+            },
+            {
+              "en": "I feel dizzy.",
+              "ru": "Кружится голова."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Здоровый образ жизни",
+      "intro": {
+        "text": "Сочетания о форме, сне и привычках.",
+        "highlights": [
+          {
+            "text": "о форме",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сочетания",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "keep fit",
+                  "поддерживать форму"
+                ]
+              },
+              {
+                "cells": [
+                  "work out",
+                  "тренироваться"
+                ]
+              },
+              {
+                "cells": [
+                  "eat healthily",
+                  "правильно питаться"
+                ]
+              },
+              {
+                "cells": [
+                  "get enough sleep",
+                  "высыпаться"
+                ]
+              },
+              {
+                "cells": [
+                  "give up smoking",
+                  "бросить курить"
+                ]
+              },
+              {
+                "cells": [
+                  "put on / lose weight",
+                  "набрать / сбросить вес"
+                ]
+              },
+              {
+                "cells": [
+                  "have a check-up",
+                  "пройти обследование"
+                ]
+              },
+              {
+                "cells": [
+                  "get better, recover",
+                  "поправиться"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в словах о здоровье.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "My head is ill.",
+              "right": "I've got a headache."
+            },
+            {
+              "wrong": "I have temperature.",
+              "right": "I've got a temperature."
+            },
+            {
+              "wrong": "my leg finger",
+              "right": "my toe"
+            },
+            {
+              "wrong": "I broke my hand. (выше кисти)",
+              "right": "I broke my arm."
+            },
+            {
+              "wrong": "Be healthy! (когда чихнули)",
+              "right": "Bless you!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

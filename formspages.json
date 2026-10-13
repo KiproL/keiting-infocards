@@ -1,0 +1,244 @@
+{
+  "tenseName": "Анкеты и формы",
+  "route": "cards_forms",
+  "slides": [
+    {
+      "label": "Поля",
+      "intro": {
+        "text": "Анкеты везде похожи: отель, виза, банк, сайт. Главное — не перепутать имя с фамилией и формат даты.",
+        "highlights": [
+          {
+            "text": "имя с фамилией",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "формат даты",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что писать",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Поле",
+              "Что это"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "First name",
+                  "имя"
+                ]
+              },
+              {
+                "cells": [
+                  "Surname / Last name",
+                  "фамилия"
+                ]
+              },
+              {
+                "cells": [
+                  "Date of birth (DOB)",
+                  "дата рождения"
+                ]
+              },
+              {
+                "cells": [
+                  "Place of birth",
+                  "место рождения"
+                ]
+              },
+              {
+                "cells": [
+                  "Nationality",
+                  "гражданство"
+                ]
+              },
+              {
+                "cells": [
+                  "Marital status",
+                  "семейное положение: single, married, divorced"
+                ]
+              },
+              {
+                "cells": [
+                  "Occupation",
+                  "род занятий"
+                ]
+              },
+              {
+                "cells": [
+                  "Postcode / ZIP code",
+                  "индекс"
+                ]
+              },
+              {
+                "cells": [
+                  "Signature",
+                  "подпись"
+                ]
+              },
+              {
+                "cells": [
+                  "BLOCK CAPITALS",
+                  "печатными заглавными"
+                ]
+              },
+              {
+                "cells": [
+                  "N/A",
+                  "не относится ко мне"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Даты",
+      "intro": {
+        "text": "В Британии сначала день, в США — месяц: 05/04/2026 — это 5 апреля в Лондоне и 4 мая в Нью-Йорке. Чтобы не спутать, пиши месяц словом.",
+        "highlights": [
+          {
+            "text": "сначала день",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "месяц",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "месяц словом",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Форматы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Где",
+              "Порядок",
+              "5 апреля 2026"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Великобритания",
+                  "день / месяц / год",
+                  "05/04/2026"
+                ]
+              },
+              {
+                "cells": [
+                  "США",
+                  "месяц / день / год",
+                  "04/05/2026"
+                ]
+              },
+              {
+                "cells": [
+                  "надёжно везде",
+                  "месяц словом",
+                  "5 April 2026, April 5, 2026"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Адрес",
+      "intro": {
+        "text": "Адрес пишут от малого к большому: квартира и дом, улица, город и индекс, страна.",
+        "highlights": [
+          {
+            "text": "от малого к большому",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пример",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Apt 5, 10 Lenina Street",
+              "ru": "кв. 5, ул. Ленина, д. 10"
+            },
+            {
+              "en": "Kazan 420111",
+              "ru": "город и индекс"
+            },
+            {
+              "en": "Russia",
+              "ru": "страна — последней"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в анкетах.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Surname: Anna",
+              "right": "First name: Anna, Surname: Ivanova"
+            },
+            {
+              "wrong": "05/04 (американцу про 5 апреля)",
+              "right": "April 5"
+            },
+            {
+              "wrong": "Russia, Kazan, Lenina St 10, apt 5",
+              "right": "Apt 5, 10 Lenina St, Kazan, Russia"
+            },
+            {
+              "wrong": "Occupation: work",
+              "right": "Occupation: engineer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

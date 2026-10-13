@@ -1,0 +1,261 @@
+{
+  "tenseName": "Обращения и имена",
+  "route": "cards_addressing",
+  "slides": [
+    {
+      "label": "Mr, Mrs, Ms",
+      "intro": {
+        "text": "Mr, Mrs и Ms ставят только перед фамилией: Mr Smith, а не Mr John. Если не знаешь, замужем ли женщина, — Ms.",
+        "highlights": [
+          {
+            "text": "только перед фамилией",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Ms",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как обратиться",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Кому",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Mr [ˈmɪstə]",
+                  "мужчине",
+                  "Mr Smith"
+                ]
+              },
+              {
+                "cells": [
+                  "Mrs [ˈmɪsɪz]",
+                  "замужней женщине",
+                  "Mrs Brown"
+                ]
+              },
+              {
+                "cells": [
+                  "Ms [mɪz]",
+                  "женщине — по умолчанию",
+                  "Ms Taylor"
+                ]
+              },
+              {
+                "cells": [
+                  "Miss",
+                  "девушке; в британской школе — учительнице",
+                  "Miss Jones"
+                ]
+              },
+              {
+                "cells": [
+                  "Dr",
+                  "врачу, доктору наук",
+                  "Dr Lee"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Без фамилии",
+      "intro": {
+        "text": "Если имени не знаешь, обращаются через Excuse me… или sir и madam. В английском по имени зовут даже начальника — если так принято в компании.",
+        "highlights": [
+          {
+            "text": "Excuse me…",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "sir и madam",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как и когда",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Как",
+              "Когда"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Excuse me…",
+                  "привлечь внимание кого угодно"
+                ]
+              },
+              {
+                "cells": [
+                  "sir / madam",
+                  "незнакомому человеку, в сервисе"
+                ]
+              },
+              {
+                "cells": [
+                  "по имени",
+                  "коллегам, друзьям, часто и начальнику"
+                ]
+              },
+              {
+                "cells": [
+                  "guys",
+                  "компании друзей — и женщинам тоже"
+                ]
+              },
+              {
+                "cells": [
+                  "mate",
+                  "приятелю (Великобритания, Австралия)"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Имя и фамилия",
+      "intro": {
+        "text": "Отчества в английском нет. В анкетах его можно не писать или вписать в поле middle name.",
+        "highlights": [
+          {
+            "text": "Отчества в английском нет",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "middle name",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "first name, given name",
+                  "имя"
+                ]
+              },
+              {
+                "cells": [
+                  "surname, last name, family name",
+                  "фамилия"
+                ]
+              },
+              {
+                "cells": [
+                  "middle name",
+                  "второе имя"
+                ]
+              },
+              {
+                "cells": [
+                  "full name",
+                  "полное имя"
+                ]
+              },
+              {
+                "cells": [
+                  "nickname",
+                  "прозвище, ник"
+                ]
+              },
+              {
+                "cells": [
+                  "maiden name",
+                  "девичья фамилия"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в обращениях.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Mister Ivan!",
+              "right": "Ivan! / Mr Petrov"
+            },
+            {
+              "wrong": "Dear Mr Ivan,",
+              "right": "Dear Mr Petrov,"
+            },
+            {
+              "wrong": "Mrs (незнакомой женщине)",
+              "right": "Ms или madam"
+            },
+            {
+              "wrong": "Girl! (официантке)",
+              "right": "Excuse me!"
+            },
+            {
+              "wrong": "Teacher! (учителю)",
+              "right": "Mr Smith / Ms Smith"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

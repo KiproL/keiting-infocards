@@ -1,0 +1,269 @@
+{
+  "tenseName": "Технологии и интернет",
+  "route": "cards_technology",
+  "slides": [
+    {
+      "label": "Слова",
+      "intro": {
+        "text": "Слова для телефона, компьютера и приложений.",
+        "highlights": [
+          {
+            "text": "приложений",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "device",
+                  "устройство"
+                ]
+              },
+              {
+                "cells": [
+                  "laptop",
+                  "ноутбук"
+                ]
+              },
+              {
+                "cells": [
+                  "screen / keyboard",
+                  "экран / клавиатура"
+                ]
+              },
+              {
+                "cells": [
+                  "charger / battery",
+                  "зарядка / батарея"
+                ]
+              },
+              {
+                "cells": [
+                  "app / website",
+                  "приложение / сайт"
+                ]
+              },
+              {
+                "cells": [
+                  "account / password",
+                  "аккаунт / пароль"
+                ]
+              },
+              {
+                "cells": [
+                  "update",
+                  "обновление"
+                ]
+              },
+              {
+                "cells": [
+                  "file / folder",
+                  "файл / папка"
+                ]
+              },
+              {
+                "cells": [
+                  "settings",
+                  "настройки"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Глаголы",
+      "intro": {
+        "text": "Download — скачать к себе, upload — загрузить в сеть.",
+        "highlights": [
+          {
+            "text": "Download",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "upload",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глаголы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "download / upload",
+                  "скачать / загрузить в сеть"
+                ]
+              },
+              {
+                "cells": [
+                  "install / delete",
+                  "установить / удалить"
+                ]
+              },
+              {
+                "cells": [
+                  "log in / log out",
+                  "войти / выйти"
+                ]
+              },
+              {
+                "cells": [
+                  "sign up",
+                  "зарегистрироваться"
+                ]
+              },
+              {
+                "cells": [
+                  "click / tap / swipe",
+                  "кликнуть / нажать пальцем / смахнуть"
+                ]
+              },
+              {
+                "cells": [
+                  "save / back up",
+                  "сохранить / сделать резервную копию"
+                ]
+              },
+              {
+                "cells": [
+                  "charge",
+                  "заряжать"
+                ]
+              },
+              {
+                "cells": [
+                  "restart / turn off",
+                  "перезагрузить / выключить"
+                ]
+              },
+              {
+                "cells": [
+                  "share / post",
+                  "поделиться / опубликовать"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Если не работает",
+      "intro": {
+        "text": "Как описать проблему с техникой.",
+        "highlights": [
+          {
+            "text": "проблему",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "My phone is dead.",
+              "ru": "Телефон сел."
+            },
+            {
+              "en": "The app keeps crashing.",
+              "ru": "Приложение постоянно вылетает."
+            },
+            {
+              "en": "I can't connect to the Wi-Fi.",
+              "ru": "Не могу подключиться к вай-фаю."
+            },
+            {
+              "en": "I forgot my password.",
+              "ru": "Я забыл пароль."
+            },
+            {
+              "en": "The screen is frozen.",
+              "ru": "Экран завис."
+            },
+            {
+              "en": "Have you tried turning it off and on again?",
+              "ru": "Пробовал выключить и включить?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в словах о технике.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — так скажет русский, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "notebook (компьютер)",
+              "right": "laptop — notebook это блокнот"
+            },
+            {
+              "wrong": "My phone is discharged.",
+              "right": "My phone is dead."
+            },
+            {
+              "wrong": "Download the photo to Instagram.",
+              "right": "Upload the photo to Instagram."
+            },
+            {
+              "wrong": "Enter in the account.",
+              "right": "Log in to your account."
+            },
+            {
+              "wrong": "password from Wi-Fi",
+              "right": "the Wi-Fi password"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

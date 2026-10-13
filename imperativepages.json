@@ -1,0 +1,176 @@
+{
+  "tenseName": "Повелительное наклонение",
+  "route": "cards_imperative",
+  "slides": [
+    {
+      "label": "Как строится",
+      "intro": {
+        "text": "Просьбу, команду или совет дают глаголом без подлежащего: Sit down. Отрицание — Don't + глагол: Don't worry. Предложить сделать вместе — Let's.",
+        "highlights": [
+          {
+            "text": "без подлежащего",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Don't + глагол",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "Let's",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Форма",
+              "Пример",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "глагол",
+                  "Open the window.",
+                  "Открой окно."
+                ]
+              },
+              {
+                "cells": [
+                  "Don't + глагол",
+                  "Don't be late.",
+                  "Не опаздывай."
+                ]
+              },
+              {
+                "cells": [
+                  "Let's + глагол",
+                  "Let's go!",
+                  "Пойдём!"
+                ]
+              },
+              {
+                "cells": [
+                  "Let's not + глагол",
+                  "Let's not argue.",
+                  "Давай не будем спорить."
+                ]
+              },
+              {
+                "cells": [
+                  "Always / Never + глагол",
+                  "Never give up.",
+                  "Никогда не сдавайся."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Вежливо",
+      "intro": {
+        "text": "Голое повелительное звучит резко. Его смягчают: please, just, could you или вопрос вместо приказа.",
+        "highlights": [
+          {
+            "text": "звучит резко",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "смягчают",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Резко → вежливо",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "Close the door.",
+              "to": "Could you close the door, please?",
+              "toColor": "good"
+            },
+            {
+              "from": "Wait.",
+              "to": "Just a moment, please.",
+              "toColor": "good"
+            },
+            {
+              "from": "Give me the menu.",
+              "to": "Can I have the menu, please?",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Где можно прямо",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Инструкции и указатели",
+            "text": "В рецептах, инструкциях и на табличках повелительное звучит нейтрально: Add salt. Press the button. Turn left."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки с повелительным наклонением.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Not be late!",
+              "right": "Don't be late!"
+            },
+            {
+              "wrong": "Don't to worry.",
+              "right": "Don't worry."
+            },
+            {
+              "wrong": "Be not afraid.",
+              "right": "Don't be afraid."
+            },
+            {
+              "wrong": "Let's to go.",
+              "right": "Let's go."
+            },
+            {
+              "wrong": "Let's don't argue.",
+              "right": "Let's not argue."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

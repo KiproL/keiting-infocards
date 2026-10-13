@@ -1,0 +1,306 @@
+{
+  "tenseName": "Правила чтения",
+  "route": "cards_readingrules",
+  "slides": [
+    {
+      "label": "Открытый и закрытый слог",
+      "intro": {
+        "text": "Одна и та же гласная читается по-разному. В открытом слоге (на конце или перед немой e) — как в алфавите: name, nine. В закрытом (после неё согласная) — коротко: cat, sit.",
+        "highlights": [
+          {
+            "text": "открытом слоге",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "закрытом",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Гласные",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Буква",
+              "Открытый слог",
+              "Закрытый слог"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "a",
+                  "[eɪ] — name, lake",
+                  "[æ] — cat, man"
+                ]
+              },
+              {
+                "cells": [
+                  "e",
+                  "[iː] — he, Pete",
+                  "[e] — bed, pen"
+                ]
+              },
+              {
+                "cells": [
+                  "i",
+                  "[aɪ] — nine, bike",
+                  "[ɪ] — sit, big"
+                ]
+              },
+              {
+                "cells": [
+                  "o",
+                  "[əʊ] — no, home",
+                  "[ɒ] — hot, dog"
+                ]
+              },
+              {
+                "cells": [
+                  "u",
+                  "[juː] — cute, tube",
+                  "[ʌ] — cup, bus"
+                ]
+              },
+              {
+                "cells": [
+                  "y",
+                  "[aɪ] — my, type",
+                  "[ɪ] — gym, myth"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "muted",
+              "term",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Гласная + r",
+      "intro": {
+        "text": "R после гласной в британском варианте не читается, а гласную делает долгой: car [kɑː], bird [bɜːd].",
+        "highlights": [
+          {
+            "text": "не читается",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "делает долгой",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сочетания",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Буквы",
+              "Звук",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "ar",
+                  "[ɑː]",
+                  "car, park"
+                ]
+              },
+              {
+                "cells": [
+                  "or",
+                  "[ɔː]",
+                  "for, short"
+                ]
+              },
+              {
+                "cells": [
+                  "er, ir, ur",
+                  "[ɜː]",
+                  "her, bird, turn"
+                ]
+              },
+              {
+                "cells": [
+                  "are",
+                  "[eə]",
+                  "care, share"
+                ]
+              },
+              {
+                "cells": [
+                  "ire",
+                  "[aɪə]",
+                  "fire, tired"
+                ]
+              },
+              {
+                "cells": [
+                  "ore",
+                  "[ɔː]",
+                  "more, store"
+                ]
+              },
+              {
+                "cells": [
+                  "ure",
+                  "[jʊə]",
+                  "pure, cure"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Согласные",
+      "intro": {
+        "text": "Большинство согласных читаются одинаково всегда, но у c и g два звука — выбор зависит от следующей буквы.",
+        "highlights": [
+          {
+            "text": "два звука",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "от следующей буквы",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "С двумя звуками",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Буква",
+              "Правило",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "c",
+                  "[s] перед e, i, y; иначе [k]",
+                  "city, cent / cat, cup"
+                ]
+              },
+              {
+                "cells": [
+                  "g",
+                  "часто [dʒ] перед e, i, y; иначе [g]",
+                  "gym, page / go, big"
+                ]
+              },
+              {
+                "cells": [
+                  "s",
+                  "между гласными часто [z]",
+                  "rose, music"
+                ]
+              },
+              {
+                "cells": [
+                  "x",
+                  "[ks]",
+                  "box, six"
+                ]
+              },
+              {
+                "cells": [
+                  "qu",
+                  "[kw]",
+                  "queen, quick"
+                ]
+              },
+              {
+                "cells": [
+                  "y в начале",
+                  "[j]",
+                  "yes, you"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Исключения",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Правила — опора, а не закон",
+            "text": "get, give, girl — g твёрдая. Если сомневаешься, смотри транскрипцию."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в чтении.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — прочитали по буквам, справа — как надо",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "name — «наме»",
+              "right": "[neɪm]"
+            },
+            {
+              "wrong": "city — «кити»",
+              "right": "[ˈsɪti]"
+            },
+            {
+              "wrong": "cute — «кут»",
+              "right": "[kjuːt]"
+            },
+            {
+              "wrong": "bird — «бирд»",
+              "right": "[bɜːd]"
+            },
+            {
+              "wrong": "hope — «хопе»",
+              "right": "[həʊp]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

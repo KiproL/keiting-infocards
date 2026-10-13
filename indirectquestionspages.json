@@ -1,0 +1,192 @@
+{
+  "tenseName": "Косвенные вопросы",
+  "route": "cards_indirectquestions",
+  "slides": [
+    {
+      "label": "Вежливый вопрос",
+      "intro": {
+        "text": "Чтобы спросить вежливо, вопрос прячут после Can you tell me…? или Do you know…? Порядок слов в нём — как в утверждении.",
+        "highlights": [
+          {
+            "text": "вежливо",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "как в утверждении",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Прямой → косвенный",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "Where is the station?",
+              "to": "Can you tell me where the station is?",
+              "toColor": "good"
+            },
+            {
+              "from": "What time does it open?",
+              "to": "Do you know what time it opens?",
+              "toColor": "good"
+            },
+            {
+              "from": "Is he at home?",
+              "to": "Do you know if he's at home?",
+              "toColor": "good"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Как строится",
+      "intro": {
+        "text": "Вопросительное слово остаётся, а за ним — обычный порядок: подлежащее, потом глагол. Do, does, did исчезают.",
+        "highlights": [
+          {
+            "text": "обычный порядок",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "исчезают",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Правила",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "вопросительное слово",
+              "suffix": "+ подлежащее + глагол",
+              "example": "…where she lives."
+            },
+            {
+              "name": "нет вопросительного слова",
+              "suffix": "+ if / whether",
+              "example": "…if the shop is open."
+            },
+            {
+              "name": "do / does / did",
+              "suffix": "убираем, время — в глаголе",
+              "example": "What did he say? → …what he said."
+            },
+            {
+              "name": "вопрос к подлежащему",
+              "suffix": "порядок не меняется",
+              "example": "Who called? → …who called."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Начала",
+      "intro": {
+        "text": "Эти начала делают любой вопрос вежливым.",
+        "highlights": [
+          {
+            "text": "вежливым",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Can you tell me…? / Could you tell me…?",
+                  "Не подскажете…?"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you know…?",
+                  "Вы не знаете…?"
+                ]
+              },
+              {
+                "cells": [
+                  "Do you have any idea…?",
+                  "Вы не в курсе…?"
+                ]
+              },
+              {
+                "cells": [
+                  "I was wondering…",
+                  "Я хотел узнать…"
+                ]
+              },
+              {
+                "cells": [
+                  "I'd like to know…",
+                  "Я бы хотел знать…"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в косвенных вопросах.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Can you tell me where is the station?",
+              "right": "Can you tell me where the station is?"
+            },
+            {
+              "wrong": "Do you know what time does it open?",
+              "right": "Do you know what time it opens?"
+            },
+            {
+              "wrong": "I wonder where does she live.",
+              "right": "I wonder where she lives."
+            },
+            {
+              "wrong": "Do you know is he here?",
+              "right": "Do you know if he's here?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

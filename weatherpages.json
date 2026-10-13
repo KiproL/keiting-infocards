@@ -1,0 +1,258 @@
+{
+  "tenseName": "Погода и природа",
+  "route": "cards_weather",
+  "slides": [
+    {
+      "label": "Погода",
+      "intro": {
+        "text": "О погоде говорят через it: It's sunny. It's raining. Без it фраза не работает.",
+        "highlights": [
+          {
+            "text": "через it",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "sunny / cloudy",
+                  "солнечно / облачно"
+                ]
+              },
+              {
+                "cells": [
+                  "rainy / windy / foggy",
+                  "дождливо / ветрено / туманно"
+                ]
+              },
+              {
+                "cells": [
+                  "It's raining / snowing.",
+                  "Идёт дождь / снег."
+                ]
+              },
+              {
+                "cells": [
+                  "shower / drizzle",
+                  "кратковременный дождь / морось"
+                ]
+              },
+              {
+                "cells": [
+                  "storm / thunder / lightning",
+                  "буря / гром / молния"
+                ]
+              },
+              {
+                "cells": [
+                  "heatwave",
+                  "сильная жара"
+                ]
+              },
+              {
+                "cells": [
+                  "frost",
+                  "мороз, иней"
+                ]
+              },
+              {
+                "cells": [
+                  "humid / mild",
+                  "влажно / мягко, тепло"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Как сказать",
+      "intro": {
+        "text": "Фразы о погоде — любимая тема для small talk.",
+        "highlights": [
+          {
+            "text": "small talk",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "What's the weather like?",
+              "ru": "Какая погода?"
+            },
+            {
+              "en": "It's 20 degrees.",
+              "ru": "20 градусов."
+            },
+            {
+              "en": "It's below zero.",
+              "ru": "Ниже нуля."
+            },
+            {
+              "en": "It's pouring.",
+              "ru": "Льёт как из ведра."
+            },
+            {
+              "en": "It looks like rain.",
+              "ru": "Похоже, будет дождь."
+            },
+            {
+              "en": "What's the forecast for tomorrow?",
+              "ru": "Какой прогноз на завтра?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Природа",
+      "intro": {
+        "text": "Пейзаж и места на природе.",
+        "highlights": [
+          {
+            "text": "Пейзаж",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "mountain / hill",
+                  "гора / холм"
+                ]
+              },
+              {
+                "cells": [
+                  "river / lake",
+                  "река / озеро"
+                ]
+              },
+              {
+                "cells": [
+                  "sea / ocean",
+                  "море / океан"
+                ]
+              },
+              {
+                "cells": [
+                  "coast / beach",
+                  "побережье / пляж"
+                ]
+              },
+              {
+                "cells": [
+                  "forest, woods",
+                  "лес"
+                ]
+              },
+              {
+                "cells": [
+                  "field / valley",
+                  "поле / долина"
+                ]
+              },
+              {
+                "cells": [
+                  "island / desert",
+                  "остров / пустыня"
+                ]
+              },
+              {
+                "cells": [
+                  "waterfall",
+                  "водопад"
+                ]
+              },
+              {
+                "cells": [
+                  "sunrise / sunset",
+                  "рассвет / закат"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки в словах о погоде.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Today is sun.",
+              "right": "It's sunny today."
+            },
+            {
+              "wrong": "It's rain.",
+              "right": "It's raining."
+            },
+            {
+              "wrong": "There is cold.",
+              "right": "It's cold."
+            },
+            {
+              "wrong": "What a nice weather!",
+              "right": "What nice weather! (weather — без a)"
+            },
+            {
+              "wrong": "strong rain",
+              "right": "heavy rain"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
