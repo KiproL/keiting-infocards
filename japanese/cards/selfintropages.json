@@ -1,0 +1,147 @@
+{
+  "tenseName": "Знакомство",
+  "route": "cards_ja_selfintro",
+  "slides": [
+    {
+      "label": "Представиться",
+      "intro": {
+        "text": "Знакомство в Японии идёт по схеме: はじめまして → имя → откуда → よろしく おねがいします. Эти четыре фразы стоит выучить целиком.",
+        "highlights": [
+          {
+            "text": "はじめまして",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "よろしく おねがいします",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Четыре фразы",
+          "examples": [
+            {
+              "en": "はじめまして。",
+              "reading": "hajimemashite",
+              "ru": "Приятно познакомиться (при первой встрече)"
+            },
+            {
+              "en": "わたしは アンナです。",
+              "reading": "watashi wa anna desu",
+              "ru": "Меня зовут Анна."
+            },
+            {
+              "en": "ロシアから きました。",
+              "reading": "roshia kara kimashita",
+              "ru": "Я из России."
+            },
+            {
+              "en": "よろしく おねがいします。",
+              "reading": "yoroshiku onegai shimasu",
+              "ru": "Рада знакомству (прошу любить и жаловать)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "О себе",
+      "intro": {
+        "text": "Кто ты, сколько лет, где живёшь — всё по одной схеме: …は …です.",
+        "highlights": [
+          {
+            "text": "…は …です",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Рассказ о себе",
+          "examples": [
+            {
+              "en": "がくせいです。",
+              "reading": "gakusei desu",
+              "ru": "Я студент."
+            },
+            {
+              "en": "かいしゃいんです。",
+              "reading": "kaishain desu",
+              "ru": "Я работаю в компании."
+            },
+            {
+              "en": "にじゅうさいです。",
+              "reading": "nijussai desu",
+              "ru": "Мне 20 лет."
+            },
+            {
+              "en": "モスクワに すんでいます。",
+              "reading": "mosukuwa ni sunde imasu",
+              "ru": "Я живу в Москве."
+            }
+          ]
+        },
+        {
+          "title": "わたしは можно опустить",
+          "callout": {
+            "type": "tip",
+            "text": "Если и так ясно, что говоришь о себе, わたしは пропускают: がくせいです — «(я) студент»."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Спросить",
+      "intro": {
+        "text": "Чтобы спросить, добавь в конце か. К имени собеседника добавляют さん — «господин / госпожа».",
+        "highlights": [
+          {
+            "text": "か",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "さん",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вопросы",
+          "examples": [
+            {
+              "en": "おなまえは？",
+              "reading": "onamae wa?",
+              "ru": "Как вас зовут?"
+            },
+            {
+              "en": "おくには どちらですか。",
+              "reading": "okuni wa dochira desu ka",
+              "ru": "Из какой вы страны?"
+            },
+            {
+              "en": "アンナさんは がくせいですか。",
+              "reading": "anna-san wa gakusei desu ka",
+              "ru": "Анна, вы студентка?"
+            }
+          ]
+        },
+        {
+          "title": "О себе さん не говорят",
+          "errors": [
+            {
+              "wrong": "わたしは アンナさんです。",
+              "right": "わたしは アンナです。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

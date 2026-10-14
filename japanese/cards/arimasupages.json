@@ -1,0 +1,171 @@
+{
+  "tenseName": "Есть: あります и います",
+  "route": "cards_ja_arimasu",
+  "slides": [
+    {
+      "label": "Живое и неживое",
+      "intro": {
+        "text": "«Есть, находится» по-японски два глагола: あります — для вещей и растений, います — для людей и животных.",
+        "highlights": [
+          {
+            "text": "あります",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "います",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "examples": [
+            {
+              "en": "つくえの うえに ほんが あります。",
+              "reading": "tsukue no ue ni hon ga arimasu",
+              "ru": "На столе лежит книга."
+            },
+            {
+              "en": "こうえんに こどもが います。",
+              "reading": "kōen ni kodomo ga imasu",
+              "ru": "В парке дети."
+            },
+            {
+              "en": "ねこが いますか。",
+              "reading": "neko ga imasu ka",
+              "ru": "У вас есть кошка?"
+            },
+            {
+              "en": "へやに テレビが ありません。",
+              "reading": "heya ni terebi ga arimasen",
+              "ru": "В комнате нет телевизора."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Где что",
+      "intro": {
+        "text": "Схема: место に предмет が あります / います. Место уточняют словами «на, под, в»: つくえの うえ — «на столе», дословно «стола верх».",
+        "highlights": [
+          {
+            "text": "место に предмет が",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как строится",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "место",
+                "color": "info"
+              },
+              {
+                "text": "に",
+                "color": "term"
+              },
+              {
+                "text": "предмет",
+                "color": "example"
+              },
+              {
+                "text": "が",
+                "color": "term"
+              },
+              {
+                "text": "あります / います",
+                "color": "term"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Слова места",
+          "verbGrid": {
+            "verbs": [
+              "うえ — на, сверху",
+              "した — под",
+              "なか — внутри",
+              "まえ — перед",
+              "うしろ — сзади",
+              "となり — рядом",
+              "よこ — сбоку",
+              "ちかく — поблизости"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "examples": [
+            {
+              "en": "はこの なかに ねこが います。",
+              "reading": "hako no naka ni neko ga imasu",
+              "ru": "В коробке кошка."
+            },
+            {
+              "en": "えきの まえに コンビニが あります。",
+              "reading": "eki no mae ni konbini ga arimasu",
+              "ru": "Перед станцией есть магазин."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "У меня есть",
+      "intro": {
+        "text": "«У меня есть» тоже говорят через あります / います: わたしは くるまが あります — «у меня есть машина».",
+        "highlights": [
+          {
+            "text": "あります / います",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "examples": [
+            {
+              "en": "わたしは くるまが あります。",
+              "reading": "watashi wa kuruma ga arimasu",
+              "ru": "У меня есть машина."
+            },
+            {
+              "en": "あには いますか。",
+              "reading": "ani wa imasu ka",
+              "ru": "У тебя есть старший брат?"
+            },
+            {
+              "en": "じかんが ありません。",
+              "reading": "jikan ga arimasen",
+              "ru": "Нет времени."
+            }
+          ]
+        },
+        {
+          "title": "Живое или нет",
+          "errors": [
+            {
+              "wrong": "ねこが あります。",
+              "right": "ねこが います。"
+            },
+            {
+              "wrong": "ほんが います。",
+              "right": "ほんが あります。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
