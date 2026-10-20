@@ -1,0 +1,6079 @@
+{
+ "version": 1,
+ "levels": [
+  {
+   "id": "beginner",
+   "variants": [
+    {
+     "id": "beginner_1",
+     "questions": [
+      {
+       "id": "beginner_1_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ a student.",
+       "options": [
+        "am",
+        "are",
+        "be",
+        "is"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_1_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She ___ my sister.",
+       "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_1_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "This is ___ apple.",
+       "options": [
+        "—",
+        "two",
+        "a",
+        "an"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "They ___ happy.",
+       "options": [
+        "are",
+        "be",
+        "is",
+        "am"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_1_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ name is Anna.",
+       "options": [
+        "Mine",
+        "I",
+        "My",
+        "Me"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_1_q6",
+       "skill": "vocabulary",
+       "prompt": "Какое из этих слов — цвет?",
+       "options": [
+        "run",
+        "big",
+        "cat",
+        "red"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q7",
+       "skill": "vocabulary",
+       "prompt": "Какое число пропущено?",
+       "text": "1, 2, ___",
+       "options": [
+        "one",
+        "ten",
+        "four",
+        "three"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q8",
+       "skill": "vocabulary",
+       "prompt": "Какой день идёт дальше?",
+       "text": "Monday, Tuesday, ___",
+       "options": [
+        "Sunday",
+        "Friday",
+        "Wednesday",
+        "January"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_1_q9",
+       "skill": "vocabulary",
+       "prompt": "Какое слово подходит к этой группе?",
+       "text": "mother, father, ___",
+       "options": [
+        "water",
+        "green",
+        "table",
+        "brother"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что ты услышал?",
+       "audio": "Hello! My name is Tom.",
+       "options": [
+        "Hello! My name is Tom.",
+        "Hello! My name is Tim.",
+        "Hi! His name is Tom.",
+        "Hello! Your name is Tom."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_1_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что ты услышал?",
+       "audio": "I have a dog.",
+       "options": [
+        "I have a cat.",
+        "I am a dog.",
+        "I had a dog.",
+        "I have a dog."
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q12",
+       "skill": "listening",
+       "prompt": "🎧 Какое время прозвучало?",
+       "audio": "It is five o'clock.",
+       "options": [
+        "4:00",
+        "5:00",
+        "5:30",
+        "9:00"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_1_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "cat",
+       "options": [
+        "собака",
+        "мышь",
+        "кошка",
+        "птица"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_1_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "house",
+       "options": [
+        "лошадь",
+        "сад",
+        "дом",
+        "улица"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_1_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "книга",
+       "options": [
+        "pen",
+        "look",
+        "cook",
+        "book"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "вода",
+       "options": [
+        "winter",
+        "wind",
+        "water",
+        "milk"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_1_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Good morning!",
+       "options": [
+        "Спокойной ночи!",
+        "До свидания!",
+        "Добрый вечер!",
+        "Доброе утро!"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Thank you!",
+       "options": [
+        "Пожалуйста!",
+        "Извините!",
+        "Привет!",
+        "Спасибо!"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_1_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Как дела?",
+       "options": [
+        "How old are you?",
+        "Who are you?",
+        "How are you?",
+        "Where are you?"
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "id": "beginner_2",
+     "questions": [
+      {
+       "id": "beginner_2_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He ___ a doctor.",
+       "options": [
+        "am",
+        "are",
+        "is",
+        "be"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_2_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "We ___ friends.",
+       "options": [
+        "be",
+        "are",
+        "am",
+        "is"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_2_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I have ___ orange.",
+       "options": [
+        "two",
+        "an",
+        "a",
+        "—"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_2_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "It ___ a big dog.",
+       "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_2_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ is your name?",
+       "options": [
+        "Who",
+        "How",
+        "What",
+        "Where"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_2_q6",
+       "skill": "vocabulary",
+       "prompt": "Какое из этих слов — животное?",
+       "options": [
+        "dog",
+        "chair",
+        "blue",
+        "eat"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_2_q7",
+       "skill": "vocabulary",
+       "prompt": "Какое число пропущено?",
+       "text": "7, 8, ___",
+       "options": [
+        "eleven",
+        "five",
+        "six",
+        "nine"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_2_q8",
+       "skill": "vocabulary",
+       "prompt": "Какое слово подходит к этой группе?",
+       "text": "red, green, ___",
+       "options": [
+        "yellow",
+        "apple",
+        "door",
+        "small"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_2_q9",
+       "skill": "vocabulary",
+       "prompt": "Какое время года идёт дальше?",
+       "text": "winter, spring, ___",
+       "options": [
+        "week",
+        "summer",
+        "snow",
+        "sun"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_2_q10",
+       "skill": "listening",
+       "prompt": "🎧 Сколько лет говорящему?",
+       "audio": "I am ten years old.",
+       "options": [
+        "2",
+        "7",
+        "12",
+        "10"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_2_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что ты услышал?",
+       "audio": "This is my mother.",
+       "options": [
+        "This is my brother.",
+        "That is your mother.",
+        "This is my mother.",
+        "This is my father."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_2_q12",
+       "skill": "listening",
+       "prompt": "🎧 Какого цвета мяч?",
+       "audio": "The ball is red.",
+       "options": [
+        "Зелёный",
+        "Синий",
+        "Красный",
+        "Белый"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_2_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "milk",
+       "options": [
+        "молоко",
+        "сок",
+        "мёд",
+        "хлеб"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_2_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "big",
+       "options": [
+        "новый",
+        "большой",
+        "быстрый",
+        "маленький"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_2_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "стол",
+       "options": [
+        "table",
+        "cable",
+        "chair",
+        "bed"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_2_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "солнце",
+       "options": [
+        "moon",
+        "sun",
+        "sky",
+        "son"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_2_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Goodbye!",
+       "options": [
+        "До свидания!",
+        "Доброе утро!",
+        "Спасибо!",
+        "Здравствуйте!"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_2_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Nice to meet you!",
+       "options": [
+        "Приятного аппетита!",
+        "Хорошего дня!",
+        "Рад тебя видеть снова!",
+        "Приятно познакомиться!"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_2_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Меня зовут Анна.",
+       "options": [
+        "Her name is Anna.",
+        "Name me Anna.",
+        "I call Anna.",
+        "My name is Anna."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "id": "beginner_3",
+     "questions": [
+      {
+       "id": "beginner_3_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "You ___ my friend.",
+       "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_3_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "The cat ___ black.",
+       "options": [
+        "is",
+        "be",
+        "am",
+        "are"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_3_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I see ___ bird.",
+       "options": [
+        "an",
+        "—",
+        "a",
+        "two"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_3_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ you a teacher?",
+       "options": [
+        "Do",
+        "Is",
+        "Are",
+        "Am"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_3_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "This is ___ book. It's mine.",
+       "options": [
+        "you",
+        "my",
+        "me",
+        "I"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_3_q6",
+       "skill": "vocabulary",
+       "prompt": "Какое из этих слов — еда?",
+       "options": [
+        "white",
+        "bread",
+        "pen",
+        "sleep"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_3_q7",
+       "skill": "vocabulary",
+       "prompt": "Какое число пропущено?",
+       "text": "4, 5, ___",
+       "options": [
+        "three",
+        "two",
+        "six",
+        "eight"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_3_q8",
+       "skill": "vocabulary",
+       "prompt": "Какое слово подходит к этой группе?",
+       "text": "eye, nose, ___",
+       "options": [
+        "shoe",
+        "milk",
+        "mouth",
+        "mouse"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_3_q9",
+       "skill": "vocabulary",
+       "prompt": "Какое слово противоположно «hot» (горячий)?",
+       "text": "Opposite of «hot»",
+       "options": [
+        "cold",
+        "big",
+        "old",
+        "warm"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_3_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что любит говорящий?",
+       "audio": "I like apples.",
+       "options": [
+        "Апельсины",
+        "Яблоки",
+        "Груши",
+        "Бананы"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_3_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что ты услышал?",
+       "audio": "My car is blue.",
+       "options": [
+        "My cat is blue.",
+        "My car is blue.",
+        "My car is new.",
+        "Your car is blue."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_3_q12",
+       "skill": "listening",
+       "prompt": "🎧 Сколько братьев у говорящего?",
+       "audio": "I have two brothers.",
+       "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_3_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "dog",
+       "options": [
+        "корова",
+        "утка",
+        "собака",
+        "кошка"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_3_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "small",
+       "options": [
+        "маленький",
+        "умный",
+        "старый",
+        "большой"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_3_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "окно",
+       "options": [
+        "door",
+        "winter",
+        "window",
+        "wind"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_3_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "красный",
+       "options": [
+        "green",
+        "bed",
+        "read",
+        "red"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_3_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Good night!",
+       "options": [
+        "С днём рождения!",
+        "Спокойной ночи!",
+        "Доброе утро!",
+        "Добрый день!"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_3_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Sorry!",
+       "options": [
+        "Ура!",
+        "Извини!",
+        "Пожалуйста!",
+        "Спасибо!"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_3_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Сколько тебе лет?",
+       "options": [
+        "How old are you?",
+        "How old is you?",
+        "What old are you?",
+        "How are you?"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "beginner_4",
+     "questions": [
+      {
+       "id": "beginner_4_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ from Russia.",
+       "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_4_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "My parents ___ at home.",
+       "options": [
+        "is",
+        "be",
+        "am",
+        "are"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_4_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She has ___ umbrella.",
+       "options": [
+        "an",
+        "—",
+        "a",
+        "two"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_4_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ she your sister?",
+       "options": [
+        "Is",
+        "Are",
+        "Am",
+        "Do"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_4_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "These ___ my pens.",
+       "options": [
+        "are",
+        "am",
+        "is",
+        "be"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_4_q6",
+       "skill": "vocabulary",
+       "prompt": "Какое из этих слов — одежда?",
+       "options": [
+        "shirt",
+        "rain",
+        "short",
+        "fish"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_4_q7",
+       "skill": "vocabulary",
+       "prompt": "Какое число пропущено?",
+       "text": "9, 10, ___",
+       "options": [
+        "eight",
+        "eleven",
+        "seven",
+        "twelve"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_4_q8",
+       "skill": "vocabulary",
+       "prompt": "Какое слово подходит к этой группе?",
+       "text": "apple, banana, ___",
+       "options": [
+        "orange",
+        "doctor",
+        "table",
+        "Monday"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "beginner_4_q9",
+       "skill": "vocabulary",
+       "prompt": "Какое слово противоположно «yes» (да)?",
+       "text": "Opposite of «yes»",
+       "options": [
+        "now",
+        "not",
+        "no",
+        "know"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_4_q10",
+       "skill": "listening",
+       "prompt": "🎧 О чём спрашивает говорящий?",
+       "audio": "Where is my bag?",
+       "options": [
+        "Чья это сумка",
+        "Где его сумка",
+        "Где его книга",
+        "Сколько стоит сумка"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_4_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что ты услышал?",
+       "audio": "I live in a big city.",
+       "options": [
+        "I love a big city.",
+        "I live in a big village.",
+        "I live in a big city.",
+        "I live in a small city."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_4_q12",
+       "skill": "listening",
+       "prompt": "🎧 Какой сегодня день?",
+       "audio": "Today is Sunday.",
+       "options": [
+        "Понедельник",
+        "Воскресенье",
+        "Пятница",
+        "Суббота"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_4_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "girl",
+       "options": [
+        "мальчик",
+        "девочка",
+        "друг",
+        "мама"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_4_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "happy",
+       "options": [
+        "сонный",
+        "голодный",
+        "грустный",
+        "счастливый"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_4_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "школа",
+       "options": [
+        "cool",
+        "school",
+        "pool",
+        "shop"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "beginner_4_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "друг",
+       "options": [
+        "front",
+        "free",
+        "friend",
+        "family"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_4_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Please.",
+       "options": [
+        "Спасибо.",
+        "Привет.",
+        "Пожалуйста.",
+        "Извините."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "beginner_4_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "See you later!",
+       "options": [
+        "Я тебя вижу!",
+        "Подожди меня!",
+        "Посмотри сюда!",
+        "Увидимся позже!"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "beginner_4_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Я не знаю.",
+       "options": [
+        "I am not know.",
+        "I not know.",
+        "I no know.",
+        "I don't know."
+       ],
+       "answer": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "elementary",
+   "variants": [
+    {
+     "id": "elementary_1",
+     "questions": [
+      {
+       "id": "elementary_1_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She ___ to school every day.",
+       "options": [
+        "goes",
+        "go",
+        "is go",
+        "going"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_1_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ there a park near your house?",
+       "options": [
+        "Is",
+        "Do",
+        "Are",
+        "Has"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_1_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ swim very well.",
+       "options": [
+        "can to",
+        "can",
+        "cans",
+        "am can"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_1_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Yesterday I ___ at home.",
+       "options": [
+        "am",
+        "were",
+        "was",
+        "be"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_1_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He doesn't ___ coffee.",
+       "options": [
+        "like",
+        "likes",
+        "liked",
+        "liking"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_1_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I brush my teeth in the ___.",
+       "options": [
+        "garage",
+        "bathroom",
+        "garden",
+        "kitchen"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_1_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "My father's sister is my ___.",
+       "options": [
+        "aunt",
+        "niece",
+        "cousin",
+        "uncle"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_1_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "We eat soup with a ___.",
+       "options": [
+        "plate",
+        "cup",
+        "knife",
+        "spoon"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_1_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "It's very cold. Put on your ___.",
+       "options": [
+        "coat",
+        "T-shirt",
+        "sandals",
+        "shorts"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_1_q10",
+       "skill": "listening",
+       "prompt": "🎧 Во сколько встаёт говорящий?",
+       "audio": "I get up at seven o'clock every morning.",
+       "options": [
+        "В 6:00",
+        "В 7:30",
+        "В 11:00",
+        "В 7:00"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_1_q11",
+       "skill": "listening",
+       "prompt": "🎧 Сколько спален в квартире?",
+       "audio": "There are three bedrooms in my flat.",
+       "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_1_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что умеет сестра говорящего?",
+       "audio": "My sister can play the piano.",
+       "options": [
+        "Играть на гитаре",
+        "Петь",
+        "Танцевать",
+        "Играть на пианино"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_1_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "kitchen",
+       "options": [
+        "ключ",
+        "курица",
+        "кухня",
+        "спальня"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_1_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "weekend",
+       "options": [
+        "среда",
+        "неделя",
+        "будни",
+        "выходные"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_1_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "покупать",
+       "options": [
+        "buy",
+        "bye",
+        "pay",
+        "sell"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_1_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "часто",
+       "options": [
+        "after",
+        "often",
+        "soft",
+        "always"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_1_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "What time is it?",
+       "options": [
+        "Сколько у тебя времени?",
+        "Который час?",
+        "Какая погода?",
+        "Когда это было?"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_1_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "I'm hungry.",
+       "options": [
+        "Я голоден.",
+        "Я устал.",
+        "Я спешу.",
+        "Я злой."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_1_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Можно мне воды?",
+       "options": [
+        "Can I have some water?",
+        "May I water?",
+        "Do I have some water?",
+        "Can I has some water?"
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "elementary_2",
+     "questions": [
+      {
+       "id": "elementary_2_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "My brother ___ in a bank.",
+       "options": [
+        "is work",
+        "working",
+        "work",
+        "works"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_2_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "There ___ two cats in the garden.",
+       "options": [
+        "has",
+        "is",
+        "are",
+        "be"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_2_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ you speak English?",
+       "options": [
+        "Are",
+        "Is",
+        "Does",
+        "Can"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_2_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "They ___ in Moscow last week.",
+       "options": [
+        "was",
+        "is",
+        "were",
+        "are"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_2_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ she live in London?",
+       "options": [
+        "Is",
+        "Has",
+        "Do",
+        "Does"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_2_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "A doctor works in a ___.",
+       "options": [
+        "hospital",
+        "library",
+        "theatre",
+        "station"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_2_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I read a ___ every evening.",
+       "options": [
+        "spoon",
+        "bed",
+        "book",
+        "song"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_2_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The opposite of «expensive» is ___.",
+       "options": [
+        "cheap",
+        "short",
+        "easy",
+        "rich"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_2_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "We sleep in the ___.",
+       "options": [
+        "kitchen",
+        "living room",
+        "bedroom",
+        "hall"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_2_q10",
+       "skill": "listening",
+       "prompt": "🎧 Когда закрывается магазин?",
+       "audio": "The shop opens at nine and closes at six.",
+       "options": [
+        "В 6",
+        "В 9",
+        "В 7",
+        "В 5"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_2_q11",
+       "skill": "listening",
+       "prompt": "🎧 Как говорящий добирается на работу?",
+       "audio": "I usually go to work by bus.",
+       "options": [
+        "На машине",
+        "На автобусе",
+        "Пешком",
+        "На метро"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_2_q12",
+       "skill": "listening",
+       "prompt": "🎧 Когда день рождения говорящего?",
+       "audio": "My birthday is in May.",
+       "options": [
+        "В июне",
+        "В марте",
+        "В мае",
+        "В апреле"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_2_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "tomorrow",
+       "options": [
+        "сегодня",
+        "завтра",
+        "утро",
+        "вчера"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_2_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "busy",
+       "options": [
+        "занятой",
+        "свободный",
+        "весёлый",
+        "больной"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_2_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "дешёвый",
+       "options": [
+        "chip",
+        "cheap",
+        "short",
+        "sheep"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_2_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "ждать",
+       "options": [
+        "wait",
+        "watch",
+        "walk",
+        "want"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_2_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "How much is it?",
+       "options": [
+        "Как часто это?",
+        "Сколько времени?",
+        "Сколько это стоит?",
+        "Сколько их?"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_2_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Excuse me!",
+       "options": [
+        "Извините! (чтобы обратиться)",
+        "Не за что!",
+        "Подождите меня!",
+        "Повторите!"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_2_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Я живу в Москве.",
+       "options": [
+        "I live in Moscow.",
+        "I am live in Moscow.",
+        "I living in Moscow.",
+        "I lives in Moscow."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "elementary_3",
+     "questions": [
+      {
+       "id": "elementary_3_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "We ___ TV in the evening.",
+       "options": [
+        "are watch",
+        "watching",
+        "watch",
+        "watches"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_3_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "There ___ a book on the table.",
+       "options": [
+        "are",
+        "have",
+        "is",
+        "be"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_3_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He can ___ a car.",
+       "options": [
+        "drives",
+        "driving",
+        "to drive",
+        "drive"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_3_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ you at the party yesterday?",
+       "options": [
+        "Did",
+        "Are",
+        "Were",
+        "Was"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_3_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "These are the ___ toys.",
+       "options": [
+        "children",
+        "children's",
+        "childs'",
+        "childrens'"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_3_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "We buy bread at the ___.",
+       "options": [
+        "post office",
+        "pharmacy",
+        "bakery",
+        "bank"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_3_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "My mother's father is my ___.",
+       "options": [
+        "uncle",
+        "son",
+        "brother",
+        "grandfather"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_3_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Please ___ the door, it's cold.",
+       "options": [
+        "wash",
+        "open",
+        "draw",
+        "close"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_3_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I drink tea from a ___.",
+       "options": [
+        "fork",
+        "plate",
+        "cup",
+        "pan"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_3_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что любит говорящий?",
+       "audio": "I don't like milk, but I love juice.",
+       "options": [
+        "Кофе",
+        "Молоко",
+        "Сок",
+        "Чай"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_3_q11",
+       "skill": "listening",
+       "prompt": "🎧 Когда у них английский?",
+       "audio": "We have English on Monday and Thursday.",
+       "options": [
+        "В понедельник и пятницу",
+        "В понедельник и четверг",
+        "Во вторник и четверг",
+        "В среду и четверг"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_3_q12",
+       "skill": "listening",
+       "prompt": "🎧 Где нужно повернуть налево?",
+       "audio": "Turn left at the bank.",
+       "options": [
+        "У больницы",
+        "У парка",
+        "У школы",
+        "У банка"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_3_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "always",
+       "options": [
+        "всегда",
+        "никогда",
+        "уже",
+        "иногда"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_3_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "ticket",
+       "options": [
+        "куртка",
+        "билет",
+        "карта",
+        "кухня"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_3_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "дождь",
+       "options": [
+        "snow",
+        "run",
+        "rain",
+        "train"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_3_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "пятница",
+       "options": [
+        "Thursday",
+        "Friday",
+        "Tuesday",
+        "Sunday"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_3_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Where are you from?",
+       "options": [
+        "Куда ты идёшь?",
+        "Откуда ты?",
+        "Где ты сейчас?",
+        "Где ты живёшь?"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_3_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Have a nice day!",
+       "options": [
+        "Хорошего дня!",
+        "Удачной поездки!",
+        "С праздником!",
+        "У тебя хороший день?"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_3_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Я люблю читать.",
+       "options": [
+        "I likes to read.",
+        "I like read.",
+        "I like reading.",
+        "I am like reading."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "id": "elementary_4",
+     "questions": [
+      {
+       "id": "elementary_4_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "The train ___ at 8 a.m.",
+       "options": [
+        "leave",
+        "leaves",
+        "leaving",
+        "is leave"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "How many students ___ there in your class?",
+       "options": [
+        "do",
+        "are",
+        "have",
+        "is"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ ride a bike when I was five.",
+       "options": [
+        "can",
+        "could",
+        "can't to",
+        "cans"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Where ___ your parents born?",
+       "options": [
+        "are",
+        "was",
+        "did",
+        "were"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_4_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I have two ___.",
+       "options": [
+        "boxs",
+        "box",
+        "boxes",
+        "boxies"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_4_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "You can borrow books from a ___.",
+       "options": [
+        "bookshop",
+        "cinema",
+        "museum",
+        "library"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_4_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "It's raining. Take an ___.",
+       "options": [
+        "elephant",
+        "apple",
+        "envelope",
+        "umbrella"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "elementary_4_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Twelve months make one ___.",
+       "options": [
+        "year",
+        "week",
+        "hour",
+        "day"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_4_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The opposite of «young» is ___.",
+       "options": [
+        "small",
+        "old",
+        "new",
+        "tall"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q10",
+       "skill": "listening",
+       "prompt": "🎧 Какой любимый предмет говорящего?",
+       "audio": "My favourite subject is history.",
+       "options": [
+        "Химия",
+        "История",
+        "География",
+        "Математика"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что говорящий делает сначала?",
+       "audio": "I have a shower and then I have breakfast.",
+       "options": [
+        "Чистит зубы",
+        "Завтракает",
+        "Принимает душ",
+        "Одевается"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_4_q12",
+       "skill": "listening",
+       "prompt": "🎧 Сколько стоят билеты?",
+       "audio": "The tickets cost twenty pounds.",
+       "options": [
+        "12 фунтов",
+        "20 фунтов",
+        "30 фунтов",
+        "25 фунтов"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "ugly",
+       "options": [
+        "удобный",
+        "некрасивый",
+        "уставший",
+        "умный"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "never",
+       "options": [
+        "никогда",
+        "всегда",
+        "сейчас",
+        "снова"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_4_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "улица",
+       "options": [
+        "street",
+        "straight",
+        "strong",
+        "sweet"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_4_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "смеяться",
+       "options": [
+        "laugh",
+        "leave",
+        "learn",
+        "love"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "elementary_4_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "I'm sorry, I'm late.",
+       "options": [
+        "Извините, я устал.",
+        "Извините, я опоздал.",
+        "Простите, я занят.",
+        "Извините, мне пора."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "elementary_4_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Let's go!",
+       "options": [
+        "Отпусти!",
+        "Подожди!",
+        "Пойдём!",
+        "Иди один!"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "elementary_4_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Ты можешь мне помочь?",
+       "options": [
+        "Can you help me?",
+        "Can you to help me?",
+        "Can you helping me?",
+        "Do you can help me?"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intermediate",
+   "variants": [
+    {
+     "id": "intermediate_1",
+     "questions": [
+      {
+       "id": "intermediate_1_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ my keys yesterday.",
+       "options": [
+        "lose",
+        "lost",
+        "losed",
+        "have lost yesterday"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_1_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Look! It ___.",
+       "options": [
+        "is snowing",
+        "snows",
+        "snow",
+        "snowed"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_1_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "This film is ___ than the book.",
+       "options": [
+        "more interestinger",
+        "more interesting",
+        "most interesting",
+        "interestinger"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_1_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "We ___ visit our grandma next weekend.",
+       "options": [
+        "going to",
+        "are go to",
+        "will to",
+        "are going to"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_1_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Have you ever ___ to Paris?",
+       "options": [
+        "be",
+        "went",
+        "been",
+        "was"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_1_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I'm not ___ in football. I prefer tennis.",
+       "options": [
+        "interested",
+        "boring",
+        "excited about",
+        "interesting"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_1_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Can you ___ me your pen, please?",
+       "options": [
+        "take",
+        "lend",
+        "rent",
+        "borrow"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_1_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "She ___ a mistake in the test.",
+       "options": [
+        "did",
+        "made",
+        "got",
+        "took"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_1_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The meeting is ___ Monday.",
+       "options": [
+        "by",
+        "at",
+        "on",
+        "in"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_1_q10",
+       "skill": "listening",
+       "prompt": "🎧 Почему говорящий не придёт?",
+       "audio": "I'm sorry, I can't come tonight. I have to finish my project.",
+       "options": [
+        "У него нет денег",
+        "Он уже занят с друзьями",
+        "Нужно закончить проект",
+        "Он заболел"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_1_q11",
+       "skill": "listening",
+       "prompt": "🎧 Когда отправляется поезд?",
+       "audio": "The train to Manchester leaves from platform four at half past ten.",
+       "options": [
+        "В 10:00",
+        "В 10:30",
+        "В 4:30",
+        "В 10:15"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_1_q12",
+       "skill": "listening",
+       "prompt": "🎧 Где говорящий живёт сейчас?",
+       "audio": "I used to live in a village, but now I live in the city.",
+       "options": [
+        "За границей",
+        "У моря",
+        "В деревне",
+        "В городе"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_1_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "journey",
+       "options": [
+        "новости",
+        "радость",
+        "журнал",
+        "поездка"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_1_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "borrow",
+       "options": [
+        "давать взаймы",
+        "покупать",
+        "прятать",
+        "брать взаймы"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_1_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "путешествовать",
+       "options": [
+        "trade",
+        "train",
+        "trouble",
+        "travel"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_1_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "сосед",
+       "options": [
+        "nephew",
+        "nature",
+        "neighbour",
+        "number"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_1_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "It's up to you.",
+       "options": [
+        "Ты должен это сделать.",
+        "Решать тебе.",
+        "Это до тебя не касается.",
+        "Это наверху у тебя."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_1_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Never mind.",
+       "options": [
+        "Ни за что.",
+        "Никогда не думай.",
+        "Ничего страшного.",
+        "Не забывай."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_1_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Я здесь уже два года.",
+       "options": [
+        "I have been here since two years.",
+        "I am here for two years.",
+        "I have been here for two years.",
+        "I was here since two years."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "id": "intermediate_2",
+     "questions": [
+      {
+       "id": "intermediate_2_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "When I was a child, I ___ cartoons every day.",
+       "options": [
+        "watch",
+        "was watch",
+        "watched",
+        "have watched"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_2_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "What ___ you doing now?",
+       "options": [
+        "do",
+        "are",
+        "did",
+        "is"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_2_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "This is the ___ day of my life!",
+       "options": [
+        "best",
+        "most good",
+        "goodest",
+        "better"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_2_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I think it ___ rain tomorrow.",
+       "options": [
+        "is",
+        "does",
+        "going",
+        "will"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_2_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She has ___ finished her homework.",
+       "options": [
+        "still",
+        "ever",
+        "already",
+        "yet"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_2_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I'm very ___. I didn't sleep last night.",
+       "options": [
+        "tired",
+        "tiring",
+        "bored",
+        "boring"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_2_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Don't forget to ___ the lights when you leave.",
+       "options": [
+        "turn up",
+        "turn off",
+        "take off",
+        "turn on"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_2_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He ___ his homework every evening.",
+       "options": [
+        "takes",
+        "gets",
+        "does",
+        "makes"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_2_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I was born ___ 2005.",
+       "options": [
+        "since",
+        "in",
+        "at",
+        "on"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_2_q10",
+       "skill": "listening",
+       "prompt": "🎧 О чём просит говорящий?",
+       "audio": "Could you speak more slowly, please?",
+       "options": [
+        "Говорить медленнее",
+        "Говорить по-русски",
+        "Говорить громче",
+        "Повторить ещё раз"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_2_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что предлагает говорящий?",
+       "audio": "We're going to the cinema tonight. Do you want to join us?",
+       "options": [
+        "Встретиться завтра",
+        "Пойти с ними в кино",
+        "Пойти в театр",
+        "Посмотреть фильм дома"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_2_q12",
+       "skill": "listening",
+       "prompt": "🎧 Сколько стоила куртка?",
+       "audio": "I bought this jacket for thirty-five dollars.",
+       "options": [
+        "$45",
+        "$35",
+        "$53",
+        "$25"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_2_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "expensive",
+       "options": [
+        "дорогой",
+        "лишний",
+        "дешёвый",
+        "опасный"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_2_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "weather",
+       "options": [
+        "вода",
+        "или",
+        "ветер",
+        "погода"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_2_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "опаздывать",
+       "options": [
+        "be late",
+        "lately",
+        "be lately",
+        "be later"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_2_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "лекарство",
+       "options": [
+        "medicine",
+        "machine",
+        "medium",
+        "meeting"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_2_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Take care!",
+       "options": [
+        "Береги себя!",
+        "Возьми это!",
+        "Позаботься о нём!",
+        "Будь осторожен с ценой!"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_2_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "I'm looking forward to it.",
+       "options": [
+        "Я пойду первым.",
+        "Я ищу это.",
+        "Я жду этого с нетерпением.",
+        "Я смотрю вперёд."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_2_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Как добраться до вокзала?",
+       "options": [
+        "Where is getting to the station?",
+        "How do I go the station?",
+        "How I get to the station?",
+        "How do I get to the station?"
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "id": "intermediate_3",
+     "questions": [
+      {
+       "id": "intermediate_3_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ you see that film last night?",
+       "options": [
+        "Have",
+        "Do",
+        "Were",
+        "Did"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_3_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Listen! The baby ___.",
+       "options": [
+        "is crying",
+        "cries",
+        "cry",
+        "cried"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_3_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "My bag is ___ than yours.",
+       "options": [
+        "more heavy",
+        "heaviest",
+        "heavyer",
+        "heavier"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_3_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "You ___ wear a uniform at our school. It's a rule.",
+       "options": [
+        "can",
+        "must",
+        "might",
+        "mustn't"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_3_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I haven't seen him ___ Monday.",
+       "options": [
+        "ago",
+        "from",
+        "since",
+        "for"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_3_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I need to ___ some money from the cash machine.",
+       "options": [
+        "take off",
+        "take out",
+        "put on",
+        "give up"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_3_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Could you ___ an eye on my bag?",
+       "options": [
+        "look",
+        "keep",
+        "save",
+        "hold"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_3_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Let's meet ___ the bus stop.",
+       "options": [
+        "in",
+        "to",
+        "at",
+        "on"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_3_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Our flight was ___ because of the storm.",
+       "options": [
+        "stopped up",
+        "cancelled",
+        "closed",
+        "cancelling"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_3_q10",
+       "skill": "listening",
+       "prompt": "🎧 Где находится аптека?",
+       "audio": "Excuse me, is there a pharmacy near here? — Yes, it's opposite the supermarket.",
+       "options": [
+        "Напротив супермаркета",
+        "Внутри супермаркета",
+        "За супермаркетом",
+        "Рядом с супермаркетом"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_3_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что мы узнаём о говорящем?",
+       "audio": "I've never been abroad, but I'd love to visit Japan.",
+       "options": [
+        "Он живёт в Японии",
+        "Он уже был в Японии",
+        "Он никогда не был за границей",
+        "Он не любит путешествовать"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_3_q12",
+       "skill": "listening",
+       "prompt": "🎧 Почему они остались дома?",
+       "audio": "The weather was terrible, so we stayed at home.",
+       "options": [
+        "Не было транспорта",
+        "Они заболели",
+        "Была плохая погода",
+        "Пришли гости"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_3_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "health",
+       "options": [
+        "здоровье",
+        "помощь",
+        "тепло",
+        "сердце"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_3_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "arrive",
+       "options": [
+        "отвечать",
+        "спрашивать",
+        "прибывать",
+        "уезжать"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_3_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "вместе",
+       "options": [
+        "however",
+        "other",
+        "together",
+        "forever"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_3_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "бесплатный",
+       "options": [
+        "fair",
+        "free",
+        "friendly",
+        "fresh"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_3_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "What's the matter?",
+       "options": [
+        "Что случилось?",
+        "Что это за материал?",
+        "Какая разница?",
+        "Что ты имеешь в виду?"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_3_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Make yourself at home.",
+       "options": [
+        "Сделай себе дом.",
+        "Чувствуй себя как дома.",
+        "Иди домой.",
+        "Убери у себя дома."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_3_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Мне нравится этот, но тот дешевле.",
+       "options": [
+        "I like this one, but that one is cheaper.",
+        "I like this, but that is cheapest.",
+        "I like this one, but that one is more cheap.",
+        "I like this one, but that one cheaper."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "intermediate_4",
+     "questions": [
+      {
+       "id": "intermediate_4_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She ___ TV when I called her.",
+       "options": [
+        "watch",
+        "watches",
+        "is watching",
+        "was watching"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_4_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ do you go to the gym? — Twice a week.",
+       "options": [
+        "How much",
+        "How many",
+        "How often",
+        "How long"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_4_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "It's the ___ building in the city.",
+       "options": [
+        "most tall",
+        "taller",
+        "tallest",
+        "tall"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_4_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "You ___ smoke here. It's not allowed.",
+       "options": [
+        "needn't",
+        "must",
+        "mustn't",
+        "don't have to"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_4_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ here since 2020.",
+       "options": [
+        "am living",
+        "live",
+        "lived",
+        "have lived"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_4_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Can you ___ me up from the airport?",
+       "options": [
+        "bring",
+        "get",
+        "take",
+        "pick"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_4_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I'm afraid ___ spiders.",
+       "options": [
+        "at",
+        "of",
+        "from",
+        "with"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_4_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Please ___ attention to the board.",
+       "options": [
+        "make",
+        "do",
+        "give",
+        "pay"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_4_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The film was so ___ that I fell asleep.",
+       "options": [
+        "exciting",
+        "boring",
+        "bored",
+        "funny"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_4_q10",
+       "skill": "listening",
+       "prompt": "🎧 Во сколько встреча?",
+       "audio": "Let's meet in front of the museum at quarter to three.",
+       "options": [
+        "В 14:15",
+        "В 15:15",
+        "В 14:45",
+        "В 15:45"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_4_q11",
+       "skill": "listening",
+       "prompt": "🎧 Сколько лет говорящему?",
+       "audio": "My brother is two years older than me. He's twenty.",
+       "options": [
+        "12",
+        "22",
+        "18",
+        "20"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_4_q12",
+       "skill": "listening",
+       "prompt": "🎧 Как можно заплатить?",
+       "audio": "Can I pay by card? — Sorry, cash only.",
+       "options": [
+        "Картой или наличными",
+        "Только наличными",
+        "Переводом",
+        "Только картой"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "intermediate_4_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "decide",
+       "options": [
+        "делить",
+        "спорить",
+        "описывать",
+        "решать"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "intermediate_4_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "enough",
+       "options": [
+        "достаточно",
+        "очень",
+        "снова",
+        "рано"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_4_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "забывать",
+       "options": [
+        "forget",
+        "foreign",
+        "for get",
+        "forgive"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_4_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "обычно",
+       "options": [
+        "really",
+        "early",
+        "usually",
+        "easily"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_4_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Hurry up!",
+       "options": [
+        "Поторопись!",
+        "Поднимайся!",
+        "Не торопись!",
+        "Помоги!"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "intermediate_4_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "It doesn't matter.",
+       "options": [
+        "Это не работает.",
+        "Это не подходит.",
+        "Это не важно.",
+        "Это не материально."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "intermediate_4_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Я собираюсь купить новый телефон.",
+       "options": [
+        "I go to buy a new phone.",
+        "I'm going to buy a new phone.",
+        "I'm going to buying a new phone.",
+        "I'm going buy a new phone."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "upper",
+   "variants": [
+    {
+     "id": "upper_1",
+     "questions": [
+      {
+       "id": "upper_1_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "If it rains tomorrow, we ___ at home.",
+       "options": [
+        "stay",
+        "will stay",
+        "would stay",
+        "stayed"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_1_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "This bridge ___ in 1890.",
+       "options": [
+        "is built",
+        "built",
+        "was built",
+        "has built"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_1_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ him since we were at school.",
+       "options": [
+        "knew",
+        "am knowing",
+        "know",
+        "have known"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_1_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She's used to ___ up early.",
+       "options": [
+        "got",
+        "getting",
+        "be getting",
+        "get"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_1_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "The man ___ lives next door is a pilot.",
+       "options": [
+        "whose",
+        "which",
+        "what",
+        "who"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_1_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I can't ___ this noise any longer!",
+       "options": [
+        "keep",
+        "stand",
+        "hold on",
+        "bear with"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_1_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Could you ___ the children while I'm out?",
+       "options": [
+        "look after",
+        "look for",
+        "look up",
+        "look into"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_1_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He ___ his driving test on the first try.",
+       "options": [
+        "passed",
+        "succeeded",
+        "won",
+        "past"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_1_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "We need to ___ a decision by Friday.",
+       "options": [
+        "take up",
+        "do",
+        "make",
+        "get"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_1_q10",
+       "skill": "listening",
+       "prompt": "🎧 Почему говорящий не позвонил?",
+       "audio": "I was going to call you, but my phone ran out of battery.",
+       "options": [
+        "Разрядился телефон",
+        "Не было связи",
+        "Он забыл",
+        "Он потерял телефон"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_1_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что мы узнаём о говорящем?",
+       "audio": "If I had more free time, I'd learn to play the guitar.",
+       "options": [
+        "Он уже играет на гитаре",
+        "Он учится играть на гитаре",
+        "У него мало свободного времени",
+        "Он не любит музыку"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_1_q12",
+       "skill": "listening",
+       "prompt": "🎧 Когда они пойдут в музей?",
+       "audio": "The museum is closed on Mondays, so let's go on Tuesday instead.",
+       "options": [
+        "Во вторник",
+        "В среду",
+        "В понедельник",
+        "В выходные"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_1_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "advice",
+       "options": [
+        "преимущество",
+        "совет",
+        "реклама",
+        "приключение"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_1_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "reliable",
+       "options": [
+        "родственный",
+        "доступный",
+        "расслабленный",
+        "надёжный"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_1_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "избегать",
+       "options": [
+        "allow",
+        "afford",
+        "avoid",
+        "void"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_1_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "окружающая среда",
+       "options": [
+        "environment",
+        "equipment",
+        "improvement",
+        "entertainment"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_1_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "I'm fed up with it.",
+       "options": [
+        "Я этим доволен.",
+        "Я этим наелся досыта.",
+        "Мне это надоело.",
+        "Я этим занят."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_1_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "It's not my cup of tea.",
+       "options": [
+        "Это не моё дело.",
+        "Это не по мне.",
+        "Это не мой чай.",
+        "Это не моя вина."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_1_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Мне пришлось уйти пораньше.",
+       "options": [
+        "I had to leave early.",
+        "I had leave early.",
+        "I have to left early.",
+        "I must leave early yesterday."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "upper_2",
+     "questions": [
+      {
+       "id": "upper_2_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "If I ___ you, I would apologise.",
+       "options": [
+        "am",
+        "had",
+        "will be",
+        "were"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_2_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "English ___ in many countries.",
+       "options": [
+        "speaks",
+        "spoken",
+        "is speaking",
+        "is spoken"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_2_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "How long ___ you known each other?",
+       "options": [
+        "have",
+        "are",
+        "did",
+        "do"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_2_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ play football a lot when I was a kid.",
+       "options": [
+        "am used to",
+        "use to",
+        "was used to",
+        "used to"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_2_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I enjoy ___ new places.",
+       "options": [
+        "visiting",
+        "visit",
+        "to visit",
+        "visited"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_2_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Prices have ___ by 10% this year.",
+       "options": [
+        "raised",
+        "risen",
+        "rose",
+        "grown up"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_2_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Please ___ in this form.",
+       "options": [
+        "fill",
+        "feel",
+        "full",
+        "fit"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_2_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I'm looking ___ a new job.",
+       "options": [
+        "for",
+        "up",
+        "at",
+        "after"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_2_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Her new film was a huge ___.",
+       "options": [
+        "succeed",
+        "process",
+        "success",
+        "access"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_2_q10",
+       "skill": "listening",
+       "prompt": "🎧 Когда теперь отправится поезд?",
+       "audio": "Sorry, the 8:15 train has been delayed by twenty minutes.",
+       "options": [
+        "В 8:15",
+        "В 8:55",
+        "В 8:35",
+        "В 8:20"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_2_q11",
+       "skill": "listening",
+       "prompt": "🎧 При каком условии говорящий согласен работать допоздна?",
+       "audio": "I don't mind working late, as long as I get the weekend off.",
+       "options": [
+        "Если ему доплатят",
+        "Если выходные будут свободны",
+        "Если работа интересная",
+        "Если его подвезут"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_2_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что произошло?",
+       "audio": "We were about to leave when it started to pour with rain.",
+       "options": [
+        "Они не хотели уходить",
+        "Дождь закончился, и они ушли",
+        "Начался сильный дождь, когда они собирались уходить",
+        "Они ушли до дождя"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_2_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "achieve",
+       "options": [
+        "соглашаться",
+        "прибывать",
+        "достигать",
+        "обвинять"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_2_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "disappointed",
+       "options": [
+        "назначенный",
+        "неодобрительный",
+        "разочарованный",
+        "исчезнувший"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_2_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "убеждать",
+       "options": [
+        "propose",
+        "pursue",
+        "pretend",
+        "persuade"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_2_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "очередь",
+       "options": [
+        "cue ball",
+        "quiz",
+        "queue",
+        "quote"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_2_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Break a leg!",
+       "options": [
+        "Будь осторожен!",
+        "Беги быстрее!",
+        "Сломай ногу!",
+        "Ни пуха ни пера!"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_2_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "I'll keep my fingers crossed.",
+       "options": [
+        "Я скрещу пальцы от страха.",
+        "Буду держать за тебя кулачки.",
+        "Я буду молчать.",
+        "Я подумаю об этом."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_2_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Если бы я знал, я бы тебе сказал.",
+       "options": [
+        "If I would know, I told you.",
+        "If I knew, I will tell you.",
+        "If I had known, I would have told you.",
+        "If I know, I would tell you."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "id": "upper_3",
+     "questions": [
+      {
+       "id": "upper_3_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Unless you hurry, you ___ the bus.",
+       "options": [
+        "won't miss",
+        "would miss",
+        "will miss",
+        "miss"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_3_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "The letters ___ every morning.",
+       "options": [
+        "delivered",
+        "are delivered",
+        "deliver",
+        "are delivering"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_3_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ my homework yet.",
+       "options": [
+        "haven't done",
+        "didn't",
+        "haven't did",
+        "don't do"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_3_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He promised ___ me on Sunday.",
+       "options": [
+        "calling",
+        "call",
+        "to calling",
+        "to call"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_3_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "That's the girl ___ brother is a famous singer.",
+       "options": [
+        "whose",
+        "which",
+        "who",
+        "who's"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_3_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The concert was ___ off because of the rain.",
+       "options": [
+        "called",
+        "put",
+        "taken",
+        "turned"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_3_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I have to ___ up with my noisy neighbours.",
+       "options": [
+        "put",
+        "get",
+        "keep",
+        "make"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_3_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He's very ___ — he never lies.",
+       "options": [
+        "honest",
+        "honourable",
+        "humble",
+        "hungry"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_3_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I ___ him to be on time, but he was late.",
+       "options": [
+        "waited",
+        "looked forward",
+        "hoped",
+        "expected"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_3_q10",
+       "skill": "listening",
+       "prompt": "🎧 Почему говорящий хочет остаться дома?",
+       "audio": "I'd rather stay in tonight — I've got an early start tomorrow.",
+       "options": [
+        "Он устал после работы",
+        "Идёт дождь",
+        "У него нет денег",
+        "Завтра рано вставать"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_3_q11",
+       "skill": "listening",
+       "prompt": "🎧 Когда откроется торговый центр?",
+       "audio": "The new shopping centre will open next month, if everything goes to plan.",
+       "options": [
+        "Через год",
+        "Открытие отменили",
+        "В следующем месяце, если всё пойдёт по плану",
+        "Он уже открылся"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_3_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что случилось с телефоном?",
+       "audio": "My phone was stolen while I was on the train.",
+       "options": [
+        "Его забыли в поезде",
+        "Его нашли в поезде",
+        "Его украли в поезде",
+        "Он сломался в поезде"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_3_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "opportunity",
+       "options": [
+        "операция",
+        "мнение",
+        "возможность",
+        "противник"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_3_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "complain",
+       "options": [
+        "сравнивать",
+        "объяснять",
+        "жаловаться",
+        "завершать"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_3_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "вести себя",
+       "options": [
+        "become",
+        "behave",
+        "behind",
+        "believe"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_3_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "улучшать",
+       "options": [
+        "prove",
+        "approve",
+        "improve",
+        "impress"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_3_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "It's a piece of cake.",
+       "options": [
+        "Это кусок торта.",
+        "Это проще простого.",
+        "Это очень вкусно.",
+        "Это мелочь, не стоит благодарности."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_3_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "I'm all ears.",
+       "options": [
+        "Я всё слышал.",
+        "Мне всё равно.",
+        "Я весь внимание.",
+        "У меня болят уши."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_3_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Я не привык к такой погоде.",
+       "options": [
+        "I didn't use to this kind of weather.",
+        "I'm not use to this weather.",
+        "I don't used to this weather.",
+        "I'm not used to this kind of weather."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "id": "upper_4",
+     "questions": [
+      {
+       "id": "upper_4_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "What would you do if you ___ the lottery?",
+       "options": [
+        "will win",
+        "won",
+        "win",
+        "had won"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_4_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "My car ___ at the moment.",
+       "options": [
+        "is repaired now",
+        "repairs",
+        "is being repaired",
+        "is repairing"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_4_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I ___ in this company since I graduated.",
+       "options": [
+        "work",
+        "am working",
+        "have worked",
+        "worked"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "upper_4_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Would you mind ___ the window?",
+       "options": [
+        "opening",
+        "open",
+        "opened",
+        "to open"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_4_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "The book ___ I bought yesterday is great.",
+       "options": [
+        "whose",
+        "what",
+        "who",
+        "that"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_4_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "She ___ up smoking last year.",
+       "options": [
+        "took",
+        "gave",
+        "put",
+        "got"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_4_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I can't ___ to buy a new car.",
+       "options": [
+        "afford",
+        "offer",
+        "allow",
+        "effort"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_4_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He ___ me of my grandfather.",
+       "options": [
+        "recalls",
+        "memorises",
+        "remembers",
+        "reminds"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_4_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "We ___ out of milk. Can you buy some?",
+       "options": [
+        "have run",
+        "have got",
+        "have gone",
+        "are run"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_4_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что ищет говорящий?",
+       "audio": "Could you tell me where the nearest cash machine is?",
+       "options": [
+        "Кассу в магазине",
+        "Остановку",
+        "Обменный пункт",
+        "Банкомат"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_4_q11",
+       "skill": "listening",
+       "prompt": "🎧 Как долго ждёт говорящий?",
+       "audio": "I've been waiting for over an hour, and the doctor still hasn't seen me.",
+       "options": [
+        "Несколько минут",
+        "Полчаса",
+        "Ровно час",
+        "Больше часа"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_4_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что с билетами на субботу?",
+       "audio": "Unfortunately, all the tickets for Saturday have sold out.",
+       "options": [
+        "Осталось несколько",
+        "Их все раскупили",
+        "Они подешевели",
+        "Их ещё не продают"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_4_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "respect",
+       "options": [
+        "отвечать",
+        "уважать",
+        "отдыхать",
+        "сожалеть"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "upper_4_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "ancient",
+       "options": [
+        "внезапный",
+        "искренний",
+        "тревожный",
+        "древний"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_4_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "заслуживать",
+       "options": [
+        "reserve",
+        "desert",
+        "observe",
+        "deserve"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_4_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "предлагать (идею)",
+       "options": [
+        "suggest",
+        "support",
+        "suppose",
+        "subject"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_4_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Better late than never.",
+       "options": [
+        "Позже будет лучше.",
+        "Поздно — значит никогда.",
+        "Никогда не опаздывай.",
+        "Лучше поздно, чем никогда."
+       ],
+       "answer": 3
+      },
+      {
+       "id": "upper_4_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Let's call it a day.",
+       "options": [
+        "На сегодня хватит.",
+        "Давай назовём этот день.",
+        "Давай начнём день.",
+        "Давай позвоним днём."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "upper_4_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Я бы хотел, чтобы ты пришёл.",
+       "options": [
+        "I'd like you to come.",
+        "I'd like you come.",
+        "I'd like you coming.",
+        "I'd like that you come."
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "advanced",
+   "variants": [
+    {
+     "id": "advanced_1",
+     "questions": [
+      {
+       "id": "advanced_1_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "If I had left earlier, I ___ the train.",
+       "options": [
+        "didn't miss",
+        "wouldn't have missed",
+        "wouldn't miss",
+        "hadn't missed"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_1_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He said that he ___ the report the day before.",
+       "options": [
+        "will finish",
+        "had finished",
+        "finishes",
+        "has finished"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_1_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I wish I ___ more time to travel.",
+       "options": [
+        "had",
+        "have",
+        "will have",
+        "would have had"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_1_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She ___ be at home — her car is outside.",
+       "options": [
+        "should to",
+        "can't",
+        "must",
+        "mustn't"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_1_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "The suspect is believed ___ the country.",
+       "options": [
+        "that he left",
+        "to leaving",
+        "to have left",
+        "leaving"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_1_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The company had to ___ 200 workers.",
+       "options": [
+        "lay off",
+        "make up",
+        "lay down",
+        "take on"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_1_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I'm not sure I can ___ with the workload.",
+       "options": [
+        "manage up",
+        "handle",
+        "stand",
+        "cope"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_1_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Her argument doesn't ___ water.",
+       "options": [
+        "take",
+        "carry",
+        "keep",
+        "hold"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_1_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The new law will come into ___ next year.",
+       "options": [
+        "effect on",
+        "force",
+        "action",
+        "power"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_1_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что произошло?",
+       "audio": "Had I known the meeting was cancelled, I wouldn't have driven all the way into town.",
+       "options": [
+        "Он опоздал на встречу",
+        "Он знал об отмене и остался дома",
+        "Он приехал в город, не зная об отмене встречи",
+        "Встречу перенесли на другой день"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_1_q11",
+       "skill": "listening",
+       "prompt": "🎧 Как говорящий оценивает фильм?",
+       "audio": "To be honest, the film didn't live up to my expectations.",
+       "options": [
+        "Хуже, чем он ожидал",
+        "Он его не досмотрел",
+        "Лучше, чем он ожидал",
+        "Именно таким, как ожидал"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_1_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что предлагает говорящий?",
+       "audio": "We're running short of time, so let's skip the questions and move on to the next point.",
+       "options": [
+        "Пропустить вопросы из-за нехватки времени",
+        "Задать больше вопросов",
+        "Закончить встречу",
+        "Сделать перерыв"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_1_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "reluctant",
+       "options": [
+        "неохотный",
+        "расслабленный",
+        "надёжный",
+        "уместный"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_1_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "thorough",
+       "options": [
+        "тщательный",
+        "сквозной",
+        "задумчивый",
+        "жёсткий"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_1_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "пренебрегать",
+       "options": [
+        "select",
+        "elect",
+        "neglect",
+        "reject"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_1_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "преувеличивать",
+       "options": [
+        "examine",
+        "exaggerate",
+        "excavate",
+        "exasperate"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_1_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "It's on the tip of my tongue.",
+       "options": [
+        "Это у меня на кончике языка болит.",
+        "Вертится на языке.",
+        "Я сейчас это скажу.",
+        "Я не хочу об этом говорить."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_1_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "He's sitting on the fence.",
+       "options": [
+        "Он в выигрышном положении.",
+        "Он сидит без дела.",
+        "Он охраняет вход.",
+        "Он не может определиться."
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_1_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Тебе не нужно было приходить так рано.",
+       "options": [
+        "You mustn't have come so early.",
+        "You didn't need come so early.",
+        "You needn't have come so early.",
+        "You needn't to come so early."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "id": "advanced_2",
+     "questions": [
+      {
+       "id": "advanced_2_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "If she hadn't been so tired, she ___ to the party yesterday.",
+       "options": [
+        "had gone",
+        "would have gone",
+        "would go",
+        "will go"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_2_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She asked me where I ___.",
+       "options": [
+        "do live",
+        "did I live",
+        "lived",
+        "am living"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_2_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I wish you ___ making that noise!",
+       "options": [
+        "stopped making",
+        "stop",
+        "would stop",
+        "will stop"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_2_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He ___ have taken the money — he wasn't even there.",
+       "options": [
+        "must",
+        "should",
+        "might not to",
+        "can't"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_2_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I'd rather you ___ anyone about this.",
+       "options": [
+        "not to tell",
+        "won't tell",
+        "didn't tell",
+        "don't tell"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_2_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "We need to ___ the problem before it gets worse.",
+       "options": [
+        "adhere",
+        "adopt",
+        "address",
+        "admit"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_2_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Let's ___ the details later.",
+       "options": [
+        "work up",
+        "iron out",
+        "iron up",
+        "pull out"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_2_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Her performance was ___ — absolutely flawless.",
+       "options": [
+        "outstanding",
+        "outgoing",
+        "outdated",
+        "outspoken"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_2_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He ___ the blame for the mistake.",
+       "options": [
+        "made",
+        "took",
+        "did",
+        "got on"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_2_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что сообщает говорящий?",
+       "audio": "I'm afraid we'll have to put off the launch until the beginning of next quarter.",
+       "options": [
+        "Запуск переносится",
+        "Запуск отменён",
+        "Запуск уже прошёл",
+        "Запуск будет раньше"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_2_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что сделал «он»?",
+       "audio": "Not only did he forget my birthday, but he also forgot our anniversary.",
+       "options": [
+        "Забыл только про годовщину",
+        "Не забыл ничего",
+        "Забыл только про день рождения",
+        "Забыл и про день рождения, и про годовщину"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_2_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что советует говорящий?",
+       "audio": "You'd better back up your files — the system update might wipe everything.",
+       "options": [
+        "Сделать резервную копию файлов",
+        "Отменить обновление",
+        "Перезагрузить компьютер",
+        "Удалить старые файлы"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_2_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "ambiguous",
+       "options": [
+        "окружающий",
+        "обильный",
+        "двусмысленный",
+        "амбициозный"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_2_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "tremendous",
+       "options": [
+        "трепетный",
+        "ужасный на вид",
+        "дрожащий",
+        "огромный"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_2_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "сомневаться",
+       "options": [
+        "doubt",
+        "dough",
+        "debt",
+        "deduct"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_2_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "достижение",
+       "options": [
+        "agreement",
+        "achievement",
+        "attachment",
+        "advertisement"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_2_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Let's not beat around the bush.",
+       "options": [
+        "Давай не будем драться в кустах.",
+        "Давай не будем ходить вокруг да около.",
+        "Давай не будем спешить.",
+        "Давай не будем ссориться."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_2_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "That rings a bell.",
+       "options": [
+        "Это звучит тревожно.",
+        "Это мне что-то напоминает.",
+        "Пора начинать.",
+        "Звонят в дверь."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_2_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Его дом сейчас ремонтируют.",
+       "options": [
+        "He has his house repairing.",
+        "He is repairing his house by someone.",
+        "He is having his house repaired.",
+        "He is having repaired his house."
+       ],
+       "answer": 2
+      }
+     ]
+    },
+    {
+     "id": "advanced_3",
+     "questions": [
+      {
+       "id": "advanced_3_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "If I had studied medicine, I ___ a doctor now.",
+       "options": [
+        "will be",
+        "would have been",
+        "had been",
+        "would be"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_3_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He told me ___ late again.",
+       "options": [
+        "to not being",
+        "don't be",
+        "not be",
+        "not to be"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_3_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "If only I ___ that email!",
+       "options": [
+        "haven't sent",
+        "wouldn't send",
+        "hadn't sent",
+        "didn't send"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_3_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "They ___ have got lost — they should be here by now.",
+       "options": [
+        "can",
+        "might",
+        "ought",
+        "must not"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_3_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "By the time we arrived, the film ___.",
+       "options": [
+        "was already starting",
+        "has already started",
+        "already started",
+        "had already started"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_3_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "I ran ___ an old friend at the station.",
+       "options": [
+        "over",
+        "into",
+        "across with",
+        "out"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_3_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The negotiations ___ down after three days.",
+       "options": [
+        "came",
+        "broke",
+        "fell",
+        "went"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_3_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "She has a ___ for languages.",
+       "options": [
+        "flare",
+        "flavour",
+        "flash",
+        "flair"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_3_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "This decision will have a huge ___ on our business.",
+       "options": [
+        "impact",
+        "input",
+        "effort",
+        "affect"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_3_q10",
+       "skill": "listening",
+       "prompt": "🎧 Как говорящий относится к идее?",
+       "audio": "Don't get me wrong — I'm not against the idea, I just think the timing is off.",
+       "options": [
+        "Против идеи",
+        "Не понял идею",
+        "Не против идеи, но время неподходящее",
+        "Полностью поддерживает и хочет начать сейчас"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_3_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что предложили пассажирам?",
+       "audio": "The flight was overbooked, so they offered us a free upgrade to business class.",
+       "options": [
+        "Бесплатно пересесть в бизнес-класс",
+        "Бесплатную гостиницу",
+        "Другой рейс",
+        "Деньги за билет"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_3_q12",
+       "skill": "listening",
+       "prompt": "🎧 Когда говорящий НЕ может встретиться?",
+       "audio": "I can't make it on Friday, but any other day next week would suit me.",
+       "options": [
+        "В пятницу",
+        "На следующей неделе",
+        "В выходные",
+        "В понедельник"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_3_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "inevitable",
+       "options": [
+        "невидимый",
+        "незаметный",
+        "неоценимый",
+        "неизбежный"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_3_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "cautious",
+       "options": [
+        "причинный",
+        "любопытный",
+        "осторожный",
+        "сознательный"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_3_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "откладывать (на потом)",
+       "options": [
+        "propose",
+        "possess",
+        "postpone",
+        "postage"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_3_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "равнодушный",
+       "options": [
+        "indignant",
+        "independent",
+        "indifferent",
+        "insistent"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_3_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "I'm under the weather.",
+       "options": [
+        "Я не в курсе событий.",
+        "Мне всё равно.",
+        "Мне нездоровится.",
+        "Я попал под дождь."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_3_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Don't cry over spilt milk.",
+       "options": [
+        "Что сделано, то сделано.",
+        "Не плачь из-за пустяков в магазине.",
+        "Не трать деньги зря.",
+        "Береги то, что имеешь."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_3_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Говорят, что он очень богат.",
+       "options": [
+        "He is said to be very rich.",
+        "He said to be very rich.",
+        "He is saying to be very rich.",
+        "It says he very rich."
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "advanced_4",
+     "questions": [
+      {
+       "id": "advanced_4_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I'd have called you if I ___ your number.",
+       "options": [
+        "would have",
+        "had had",
+        "have had",
+        "have"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_4_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She wondered whether he ___ the truth.",
+       "options": [
+        "tells",
+        "was telling",
+        "is telling",
+        "has told now"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_4_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "It's high time we ___ home.",
+       "options": [
+        "go",
+        "have gone",
+        "went",
+        "will go"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "advanced_4_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "You ___ have told me earlier! I could have helped.",
+       "options": [
+        "should",
+        "can",
+        "would rather",
+        "need"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_4_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Hardly ___ home when the phone rang.",
+       "options": [
+        "had I got",
+        "I had got",
+        "did I got",
+        "I got"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_4_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Could you ___ out what's wrong with the printer?",
+       "options": [
+        "carry",
+        "figure",
+        "take",
+        "look"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_4_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The price ___ delivery and installation.",
+       "options": [
+        "involves in",
+        "contains",
+        "consists",
+        "includes"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_4_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He was ___ of stealing the car.",
+       "options": [
+        "blamed",
+        "suspected for",
+        "charged with",
+        "accused"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_4_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Let's ___ a compromise.",
+       "options": [
+        "arrive",
+        "make up",
+        "get to agree",
+        "reach"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_4_q10",
+       "skill": "listening",
+       "prompt": "🎧 О чём нельзя говорить?",
+       "audio": "Whatever you do, don't mention the merger — it's still confidential.",
+       "options": [
+        "О слиянии компаний",
+        "О зарплате",
+        "О новом сотруднике",
+        "Об увольнениях"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_4_q11",
+       "skill": "listening",
+       "prompt": "🎧 Почему говорящий опоздал?",
+       "audio": "I'd have been here sooner, but there was a huge traffic jam on the motorway.",
+       "options": [
+        "Он заблудился",
+        "Сломалась машина",
+        "Он проспал",
+        "Была огромная пробка"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "advanced_4_q12",
+       "skill": "listening",
+       "prompt": "🎧 Какими были результаты?",
+       "audio": "The results were far better than we had anticipated.",
+       "options": [
+        "Хуже, чем ожидали",
+        "Намного лучше, чем ожидали",
+        "Как и ожидали",
+        "Их ещё нет"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_4_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "overwhelming",
+       "options": [
+        "заросший",
+        "подавляющий",
+        "переоценённый",
+        "сверхурочный"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_4_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "genuine",
+       "options": [
+        "щедрый",
+        "подлинный",
+        "общий",
+        "гениальный"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_4_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "предотвращать",
+       "options": [
+        "prevent",
+        "prevail",
+        "pretend",
+        "present"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_4_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "последствия",
+       "options": [
+        "conferences",
+        "consequences",
+        "conveniences",
+        "confidences"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "advanced_4_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "It costs an arm and a leg.",
+       "options": [
+        "Это стоит целое состояние.",
+        "Это опасно.",
+        "За это можно лишиться руки.",
+        "Это стоит копейки."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_4_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Keep me posted.",
+       "options": [
+        "Держи меня в курсе.",
+        "Не забывай про меня.",
+        "Отправь мне письмо по почте.",
+        "Повесь объявление."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "advanced_4_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Жаль, что я не пошёл с вами.",
+       "options": [
+        "I'm sorry I don't go with you.",
+        "I wish I would go with you.",
+        "I wish I had gone with you.",
+        "I wish I went with you."
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "master",
+   "variants": [
+    {
+     "id": "master_1",
+     "questions": [
+      {
+       "id": "master_1_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Not until the results came out ___ how serious the problem was.",
+       "options": [
+        "did we realise",
+        "had we realise",
+        "we realised",
+        "we did realise"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_1_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "It is essential that every employee ___ the safety rules.",
+       "options": [
+        "is following",
+        "follow",
+        "follows",
+        "will follow"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_1_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ I known about the delay, I would have taken a later flight.",
+       "options": [
+        "Should",
+        "Were",
+        "Had",
+        "If"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_1_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "What I need ___ a long holiday.",
+       "options": [
+        "are",
+        "is",
+        "be",
+        "it is"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_1_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "She denied ___ the documents.",
+       "options": [
+        "to see",
+        "have seen",
+        "to have seen",
+        "having seen"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_1_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The government has pledged to ___ down on tax evasion.",
+       "options": [
+        "crack",
+        "clamp up",
+        "break",
+        "knock"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_1_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "His explanation was so ___ that nobody understood it.",
+       "options": [
+        "convoluted",
+        "conclusive",
+        "concise",
+        "coherent"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_1_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The scandal ___ his reputation beyond repair.",
+       "options": [
+        "garnished",
+        "varnished",
+        "polished",
+        "tarnished"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_1_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "We should ___ the opportunity while we can.",
+       "options": [
+        "size",
+        "siege",
+        "seize",
+        "cease"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_1_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что произошло со сделкой?",
+       "audio": "Little did they know that the deal they had celebrated would fall through within a week.",
+       "options": [
+        "Она сорвалась через неделю",
+        "Её никто не праздновал",
+        "Её отложили на неделю",
+        "Её успешно завершили"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_1_q11",
+       "skill": "listening",
+       "prompt": "🎧 Какой вывод делает говорящий?",
+       "audio": "Granted, the proposal has its merits, but the costs far outweigh the benefits.",
+       "options": [
+        "Выгода больше затрат",
+        "Затраты и польза равны",
+        "Затраты намного превышают пользу",
+        "Предложение идеально"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_1_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что повлияло на решение говорящего?",
+       "audio": "I'd have thought twice about it, had it not been for your encouragement.",
+       "options": [
+        "Совет начальника",
+        "Поддержка собеседника",
+        "Нехватка времени",
+        "Сомнения собеседника"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_1_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "ubiquitous",
+       "options": [
+        "неуловимый",
+        "единичный",
+        "вездесущий",
+        "двусмысленный"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_1_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "meticulous",
+       "options": [
+        "мимолётный",
+        "небрежный",
+        "чудесный",
+        "дотошный"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_1_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "смягчать (последствия)",
+       "options": [
+        "militate",
+        "imitate",
+        "migrate",
+        "mitigate"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_1_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "вопиющий",
+       "options": [
+        "blissful",
+        "balanced",
+        "blatant",
+        "latent"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_1_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "He bit off more than he could chew.",
+       "options": [
+        "Он слишком много съел.",
+        "Он откусил кусок побольше.",
+        "Он сказал лишнее.",
+        "Он взялся за непосильное."
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_1_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "It's a double-edged sword.",
+       "options": [
+        "У этого есть и плюсы, и минусы.",
+        "Это нечестная игра.",
+        "Это двойная выгода.",
+        "Это очень опасное оружие."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_1_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Ни при каких обстоятельствах не открывайте эту дверь.",
+       "options": [
+        "In no circumstances you open this door.",
+        "Under any circumstances don't you open this door.",
+        "Under no circumstances you should open this door.",
+        "Under no circumstances should you open this door."
+       ],
+       "answer": 3
+      }
+     ]
+    },
+    {
+     "id": "master_2",
+     "questions": [
+      {
+       "id": "master_2_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Only after the meeting ___ the truth.",
+       "options": [
+        "she did reveal",
+        "revealed she",
+        "she revealed",
+        "did she reveal"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_2_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I'd sooner you ___ the car tonight.",
+       "options": [
+        "won't take",
+        "not take",
+        "don't take",
+        "didn't take"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_2_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ the weather be bad, the event will be moved indoors.",
+       "options": [
+        "If",
+        "Unless",
+        "Would",
+        "Should"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_2_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "It was John ___ broke the window, not Mark.",
+       "options": [
+        "which",
+        "what",
+        "whom",
+        "who"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_2_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "No sooner had he sat down ___ the phone rang.",
+       "options": [
+        "when",
+        "then",
+        "that",
+        "than"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_2_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The new policy has ___ a lot of criticism.",
+       "options": [
+        "drawn",
+        "pulled",
+        "dragged",
+        "taken up"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_2_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Her speech struck a ___ with the audience.",
+       "options": [
+        "note down",
+        "cord",
+        "chord",
+        "tone"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_2_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The evidence is purely ___; nothing proves he was there.",
+       "options": [
+        "conclusive",
+        "substantial",
+        "circumspect",
+        "circumstantial"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_2_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He's always trying to ___ favour with the boss.",
+       "options": [
+        "win over",
+        "curry",
+        "earn up",
+        "carry"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_2_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что мы узнаём о фестивале?",
+       "audio": "Were it not for the volunteers, the festival simply couldn't go ahead.",
+       "options": [
+        "Волонтёры мешают проведению",
+        "Он возможен только благодаря волонтёрам",
+        "Его отменили",
+        "Волонтёров не хватает, но он пройдёт"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_2_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что сделал генеральный директор?",
+       "audio": "The CEO stepped down amid allegations of financial misconduct.",
+       "options": [
+        "Опроверг обвинения и остался",
+        "Ушёл в отставку на фоне обвинений",
+        "Получил повышение",
+        "Выдвинул обвинения против других"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_2_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что беспокоит говорящего?",
+       "audio": "It's not so much the money that bothers me as the principle of the thing.",
+       "options": [
+        "Именно деньги",
+        "И деньги, и принцип одинаково",
+        "Сам принцип, а не деньги",
+        "Ничего не беспокоит"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_2_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "scrutinise",
+       "options": [
+        "поверхностно просматривать",
+        "скрывать",
+        "тщательно изучать",
+        "критиковать публично"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_2_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "elusive",
+       "options": [
+        "исключительный",
+        "неуловимый",
+        "красноречивый",
+        "иллюзорный"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_2_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "отговаривать",
+       "options": [
+        "dissuade",
+        "distract",
+        "disguise",
+        "persuade"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_2_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "непреднамеренный",
+       "options": [
+        "intermittent",
+        "inadvertent",
+        "inadequate",
+        "indifferent"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_2_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "Let sleeping dogs lie.",
+       "options": [
+        "Не мешай собакам спать.",
+        "Отдыхай, пока можешь.",
+        "Не лги о спящих.",
+        "Не буди лихо, пока оно тихо."
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_2_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "She's got a chip on her shoulder.",
+       "options": [
+        "Она получила травму.",
+        "Она устала от работы.",
+        "Она затаила обиду.",
+        "Она гордится собой."
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_2_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Как бы я ни старался, у меня не получилось.",
+       "options": [
+        "However I might try, I didn't could do it.",
+        "Try as I might, I couldn't do it.",
+        "Trying as I might, I couldn't to do it.",
+        "As I tried, I couldn't do it."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "id": "master_3",
+     "questions": [
+      {
+       "id": "master_3_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Rarely ___ such a beautiful sunset.",
+       "options": [
+        "I have seen",
+        "I saw",
+        "have I seen",
+        "seen I have"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_3_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "The committee recommended that the plan ___ postponed.",
+       "options": [
+        "will be",
+        "was",
+        "be",
+        "is"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_3_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "___ it not been for her help, I would have failed.",
+       "options": [
+        "Had",
+        "Should",
+        "If",
+        "Were"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_3_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "All I did ___ ask a question.",
+       "options": [
+        "is",
+        "was",
+        "were",
+        "did"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_3_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "He is thought ___ the money years ago.",
+       "options": [
+        "to hide",
+        "to have hidden",
+        "hiding",
+        "that he hid"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_3_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The negotiations reached a ___ and were suspended.",
+       "options": [
+        "headlock",
+        "deadline",
+        "padlock",
+        "deadlock"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_3_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Rising costs are ___ into our profits.",
+       "options": [
+        "swallowing",
+        "chewing up",
+        "biting off",
+        "eating"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_3_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "He gave a ___ account of events, leaving nothing out.",
+       "options": [
+        "comprehensible",
+        "compulsive",
+        "comprehensive",
+        "competitive"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_3_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The report ___ light on several key issues.",
+       "options": [
+        "lit",
+        "threw out",
+        "shed",
+        "cast up"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_3_q10",
+       "skill": "listening",
+       "prompt": "🎧 Как говорящий относится к «нему»?",
+       "audio": "Much as I admire his work, I find him rather difficult to work with.",
+       "options": [
+        "Восхищается работой, но с ним трудно работать",
+        "Не ценит его работу",
+        "Не знаком с его работой",
+        "Легко с ним работает"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_3_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что говорится о результатах?",
+       "audio": "The findings, though preliminary, suggest a strong link between diet and memory.",
+       "options": [
+        "Они предварительные, но указывают на связь",
+        "Исследование ещё не начато",
+        "Связи не обнаружено",
+        "Они окончательно доказывают связь"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_3_q12",
+       "skill": "listening",
+       "prompt": "🎧 Что обещает говорящий?",
+       "audio": "Come what may, we'll see this project through to the end.",
+       "options": [
+        "Начать новый проект",
+        "Передать проект другим",
+        "Закрыть проект, если будут трудности",
+        "Довести проект до конца при любых обстоятельствах"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_3_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "candid",
+       "options": [
+        "откровенный",
+        "осторожный",
+        "яркий",
+        "сладкий"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_3_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "detrimental",
+       "options": [
+        "пагубный",
+        "детальный",
+        "решающий",
+        "незначительный"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_3_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "подрывать (авторитет)",
+       "options": [
+        "undergo",
+        "underline",
+        "undertake",
+        "undermine"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_3_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "устойчивый (к трудностям)",
+       "options": [
+        "resentful",
+        "resident",
+        "resilient",
+        "reluctant"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_3_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "The ball is in your court.",
+       "options": [
+        "Ты судья в этом деле.",
+        "Теперь ход за тобой.",
+        "Мяч на твоей половине поля.",
+        "Ты проиграл."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_3_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "He's a dark horse.",
+       "options": [
+        "Он плохо выглядит.",
+        "Он всегда грустит.",
+        "Он опасный человек.",
+        "Он тёмная лошадка."
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_3_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Лишь бы ты был счастлив.",
+       "options": [
+        "As far as you're happy.",
+        "As long as you're happy.",
+        "Only as you be happy.",
+        "So long you are happy."
+       ],
+       "answer": 1
+      }
+     ]
+    },
+    {
+     "id": "master_4",
+     "questions": [
+      {
+       "id": "master_4_q1",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Seldom ___ such dedication in a new employee.",
+       "options": [
+        "we do see",
+        "we see",
+        "do we see",
+        "see we"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_4_q2",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "If he ___ to apologise now, I might forgive him.",
+       "options": [
+        "is going",
+        "was being",
+        "will",
+        "were"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q3",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "So ___ was the storm that all flights were cancelled.",
+       "options": [
+        "severely",
+        "severe",
+        "severity",
+        "much severe"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_4_q4",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "Not only ___ late, but he also forgot the tickets.",
+       "options": [
+        "he did",
+        "did he be",
+        "was he",
+        "he was"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_4_q5",
+       "skill": "grammar",
+       "prompt": "Выбери правильный вариант",
+       "text": "I'd rather ___ the truth than live a lie.",
+       "options": [
+        "to know",
+        "know",
+        "known",
+        "knowing"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_4_q6",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The minister was forced to ___ his remarks.",
+       "options": [
+        "retreat",
+        "retract",
+        "extract",
+        "detract"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_4_q7",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Her success was ___ to years of hard work.",
+       "options": [
+        "contributable",
+        "attributable",
+        "accountable for",
+        "attentive"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_4_q8",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "Let's not ___ hairs — the main point is clear.",
+       "options": [
+        "divide",
+        "split",
+        "pull",
+        "cut"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "master_4_q9",
+       "skill": "vocabulary",
+       "prompt": "Выбери подходящее слово",
+       "text": "The film received ___ acclaim from critics.",
+       "options": [
+        "critical",
+        "critic",
+        "crucial",
+        "criticised"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_4_q10",
+       "skill": "listening",
+       "prompt": "🎧 Что утверждает говорящий?",
+       "audio": "Contrary to popular belief, the city is remarkably safe after dark.",
+       "options": [
+        "Все считают город безопасным",
+        "Город опасен ночью",
+        "Ночью город закрыт",
+        "Город безопасен ночью, вопреки мнению"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q11",
+       "skill": "listening",
+       "prompt": "🎧 Что сообщает говорящий?",
+       "audio": "It goes without saying that all applications must be submitted by the deadline.",
+       "options": [
+        "Срок можно продлить",
+        "Заявки принимаются в любое время",
+        "Подавать заявку необязательно",
+        "Заявки обязательно подать до срока"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q12",
+       "skill": "listening",
+       "prompt": "🎧 Как оценивают продолжение?",
+       "audio": "The sequel, while entertaining, lacks the originality of the first film.",
+       "options": [
+        "Оригинальнее первого фильма",
+        "Лучше первого во всём",
+        "Скучное и неоригинальное",
+        "Развлекательное, но менее оригинальное"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q13",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "ostensibly",
+       "options": [
+        "очевидно",
+        "показательно",
+        "нарочно",
+        "якобы"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q14",
+       "skill": "words",
+       "prompt": "Как переводится слово?",
+       "text": "benevolent",
+       "options": [
+        "выгодный",
+        "жестокий",
+        "доброжелательный",
+        "благородного происхождения"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "master_4_q15",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "оправдывать (вину)",
+       "options": [
+        "exhilarate",
+        "exaggerate",
+        "exasperate",
+        "exonerate"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q16",
+       "skill": "words",
+       "prompt": "Как сказать по-английски?",
+       "text": "прагматичный",
+       "options": [
+        "dogmatic",
+        "problematic",
+        "dramatic",
+        "pragmatic"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q17",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "He's barking up the wrong tree.",
+       "options": [
+        "Он ищет не там.",
+        "Он лает на дерево.",
+        "Он злится на всех.",
+        "Он не прав в споре с другом."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "master_4_q18",
+       "skill": "phrases",
+       "prompt": "Что означает фраза?",
+       "text": "To cut a long story short...",
+       "options": [
+        "Если начать сначала...",
+        "Если честно...",
+        "Чтобы перебить рассказ...",
+        "Короче говоря..."
+       ],
+       "answer": 3
+      },
+      {
+       "id": "master_4_q19",
+       "skill": "phrases",
+       "prompt": "Как сказать по-английски?",
+       "text": "Стоит ему только позвонить — и я приеду.",
+       "options": [
+        "Only he calls, and I come.",
+        "He has only to call, and I'll come.",
+        "He has to only call, I'm coming.",
+        "He only has calling, and I'll come."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
