@@ -1,0 +1,470 @@
+{
+ "version": 1,
+ "exams": [
+  {
+   "id": "oge",
+   "title": "ОГЭ",
+   "fullTitle": "ОСНОВНОЙ ГОСУДАРСТВЕННЫЙ ЭКЗАМЕН",
+   "subject": "АНГЛИЙСКИЙ ЯЗЫК",
+   "variants": [
+    {
+     "id": "oge_1",
+     "title": "Тренировочный вариант № 1",
+     "minutes": 120,
+     "sections": [
+      {
+       "id": "listening",
+       "kind": "listening",
+       "title": "Раздел 1. Задания по аудированию",
+       "instruction": "Вы услышите диалог. Ответьте на вопросы 1–4, выбрав номер правильного ответа (1, 2 или 3). Запишите номер в поле ответа. Запись можно прослушать два раза.",
+       "audio": "Anna: Hi, Tom! Are you coming to the school concert on Friday? Tom: I'd love to, but I have a football match on Friday afternoon. What time does it start? Anna: At six o'clock in the school hall. Tom: Then I can come! The match finishes at four. Are you performing? Anna: Yes, I'm playing the piano with my friend Kate. She plays the violin. Tom: Great! Should I buy a ticket? Anna: No, it's free for students, but you can bring your parents. Their tickets cost three pounds. Tom: OK, I'll ask my mum. She loves classical music.",
+       "tasks": [
+        {
+         "n": 1,
+         "prompt": "Why can't Tom come to the concert in the afternoon?",
+         "answers": [
+          "2"
+         ],
+         "options": [
+          "1) He has a music lesson.",
+          "2) He has a football match.",
+          "3) He has to help his mum."
+         ]
+        },
+        {
+         "n": 2,
+         "prompt": "Where will the concert take place?",
+         "answers": [
+          "3"
+         ],
+         "options": [
+          "1) In the city park.",
+          "2) In the theatre.",
+          "3) In the school hall."
+         ]
+        },
+        {
+         "n": 3,
+         "prompt": "What instrument does Kate play?",
+         "answers": [
+          "1"
+         ],
+         "options": [
+          "1) The violin.",
+          "2) The piano.",
+          "3) The guitar."
+         ]
+        },
+        {
+         "n": 4,
+         "prompt": "How much is a ticket for parents?",
+         "answers": [
+          "2"
+         ],
+         "options": [
+          "1) It's free.",
+          "2) Three pounds.",
+          "3) Six pounds."
+         ]
+        }
+       ]
+      },
+      {
+       "id": "reading",
+       "kind": "reading",
+       "title": "Раздел 2. Задания по чтению",
+       "instruction": "Прочитайте текст. Определите, какие из утверждений 5–10 соответствуют содержанию текста (1 — True), какие не соответствуют (2 — False) и о чём в тексте не сказано (3 — Not stated). Запишите номер ответа.",
+       "text": "The Library in the Old Station\n\nIn a small town in the north of England, an old railway station was closed twenty years ago. For a long time the building stood empty, and the windows were broken. Then a group of local teenagers had an idea: why not turn it into a library?\n\nThey wrote letters to the town council and collected money at school fairs. It took them three years, but in the end the council agreed to help. Volunteers painted the walls, repaired the roof and built shelves. People from all over the town gave away books they no longer needed.\n\nToday the library is one of the most popular places in town. It has more than ten thousand books and a small café on the old platform. Every Saturday there is a reading club for children, and in summer the teenagers who started the project organise film nights outside.",
+       "tasks": [
+        {
+         "n": 5,
+         "prompt": "The station was closed two decades ago.",
+         "answers": [
+          "1"
+         ]
+        },
+        {
+         "n": 6,
+         "prompt": "The idea of the library came from the town council.",
+         "answers": [
+          "2"
+         ]
+        },
+        {
+         "n": 7,
+         "prompt": "The teenagers needed three years to get help from the council.",
+         "answers": [
+          "1"
+         ]
+        },
+        {
+         "n": 8,
+         "prompt": "All the books were bought in a big city shop.",
+         "answers": [
+          "2"
+         ]
+        },
+        {
+         "n": 9,
+         "prompt": "The café serves only drinks, not food.",
+         "answers": [
+          "3"
+         ]
+        },
+        {
+         "n": 10,
+         "prompt": "Film nights take place in the summer.",
+         "answers": [
+          "1"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grammar",
+       "kind": "grammar",
+       "title": "Раздел 3. Задания по грамматике и лексике",
+       "instruction": "Прочитайте текст. Преобразуйте слова, напечатанные заглавными буквами, так, чтобы они грамматически соответствовали содержанию текста. Впишите получившееся слово в поле ответа.",
+       "text": "My First Trip Abroad\n\nLast summer my family and I (11) ___ to Spain for the first time. It was the (12) ___ holiday of my life. We stayed in a hotel near the sea, and every morning I (13) ___ in the warm water before breakfast. My little sister was afraid of the waves, so she (14) ___ near the beach with our parents. In the evenings we walked around the old town, which (15) ___ in the twelfth century. Next year we (16) ___ to visit Italy.",
+       "tasks": [
+        {
+         "n": 11,
+         "prompt": "GO",
+         "answers": [
+          "went"
+         ]
+        },
+        {
+         "n": 12,
+         "prompt": "GOOD",
+         "answers": [
+          "best"
+         ]
+        },
+        {
+         "n": 13,
+         "prompt": "SWIM",
+         "answers": [
+          "swam"
+         ]
+        },
+        {
+         "n": 14,
+         "prompt": "PLAY",
+         "answers": [
+          "played"
+         ]
+        },
+        {
+         "n": 15,
+         "prompt": "BUILD",
+         "answers": [
+          "was built"
+         ]
+        },
+        {
+         "n": 16,
+         "prompt": "HOPE",
+         "answers": [
+          "hope",
+          "are hoping"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "vocab",
+       "kind": "grammar",
+       "title": "Словообразование",
+       "instruction": "Образуйте от слов, напечатанных заглавными буквами, однокоренные слова так, чтобы они грамматически и лексически соответствовали содержанию текста.",
+       "text": "Our school organises a (17) ___ every spring. Last year it was very (18) ___, and more than two hundred people came. The (19) ___ of the best poster got a big box of chocolates. Everyone agreed that the evening was (20) ___.",
+       "tasks": [
+        {
+         "n": 17,
+         "prompt": "COMPETE",
+         "answers": [
+          "competition"
+         ]
+        },
+        {
+         "n": 18,
+         "prompt": "SUCCESS",
+         "answers": [
+          "successful"
+         ]
+        },
+        {
+         "n": 19,
+         "prompt": "WIN",
+         "answers": [
+          "winner"
+         ]
+        },
+        {
+         "n": 20,
+         "prompt": "FORGET",
+         "answers": [
+          "unforgettable"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "writing",
+       "kind": "writing",
+       "title": "Раздел 4. Задание по письменной речи",
+       "instruction": "Вы получили письмо от вашего англоязычного друга Сэма. Напишите ему ответ (100–120 слов): ответьте на его вопросы.",
+       "text": "…My parents want me to choose a summer camp, but I can't decide. What kind of summer holidays do you prefer? Have you ever been to a summer camp? What do you usually do with your friends in summer?…",
+       "tasks": [],
+       "inDevelopment": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ege",
+   "title": "ЕГЭ",
+   "fullTitle": "ЕДИНЫЙ ГОСУДАРСТВЕННЫЙ ЭКЗАМЕН",
+   "subject": "АНГЛИЙСКИЙ ЯЗЫК",
+   "variants": [
+    {
+     "id": "ege_1",
+     "title": "Тренировочный вариант № 1",
+     "minutes": 190,
+     "sections": [
+      {
+       "id": "listening",
+       "kind": "listening",
+       "title": "Раздел 1. Аудирование",
+       "instruction": "Вы услышите интервью. Определите, какие из утверждений 1–6 соответствуют содержанию (1 — True), какие не соответствуют (2 — False) и о чём не сказано (3 — Not stated). Запишите номер ответа. Запись можно прослушать два раза.",
+       "audio": "Presenter: Today our guest is Laura Mills, a marine biologist who has spent the last five years studying whales near Iceland. Laura, how did it all start? Laura: Well, I grew up by the sea, but honestly, I wanted to be a doctor at first. It was only at university that I took a course in ocean science and completely changed my mind. Presenter: What is a typical working day like? Laura: There's no typical day, really. When the weather is good, we go out in a small boat at dawn and stay out for up to ten hours. When it's stormy, we work in the lab and analyse recordings of whale songs. Presenter: Whale songs? Laura: Yes. Humpback whales sing complex songs, and the songs change every year. We're trying to understand how the changes spread from one group to another. Presenter: Is the job dangerous? Laura: Not really, as long as you respect the sea. The hardest part is actually the cold. Presenter: And what's next for you? Laura: I'm writing a book for teenagers about the ocean. I hope it will inspire some of them to become scientists.",
+       "tasks": [
+        {
+         "n": 1,
+         "prompt": "Laura has studied whales for half a decade.",
+         "answers": [
+          "1"
+         ]
+        },
+        {
+         "n": 2,
+         "prompt": "Laura always knew she wanted to work with sea animals.",
+         "answers": [
+          "2"
+         ]
+        },
+        {
+         "n": 3,
+         "prompt": "Laura's team goes out to sea every single day.",
+         "answers": [
+          "2"
+         ]
+        },
+        {
+         "n": 4,
+         "prompt": "Humpback whale songs stay the same over the years.",
+         "answers": [
+          "2"
+         ]
+        },
+        {
+         "n": 5,
+         "prompt": "Laura was once injured during an expedition.",
+         "answers": [
+          "3"
+         ]
+        },
+        {
+         "n": 6,
+         "prompt": "Laura is working on a book for young readers.",
+         "answers": [
+          "1"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "reading",
+       "kind": "reading",
+       "title": "Раздел 2. Чтение",
+       "instruction": "Прочитайте текст и выполните задания 7–11. В каждом задании запишите номер выбранного вами варианта ответа (1, 2, 3 или 4).",
+       "text": "The Quiet Revolution of Repair Cafés\n\nThe first repair café opened in Amsterdam in 2009. The idea was simple: once a month, people could bring broken things — a toaster, a bicycle, a torn jacket — and volunteers with practical skills would help them fix them for free. Its founder, a former journalist, had noticed that her neighbours threw away objects that needed only a small repair.\n\nToday there are thousands of repair cafés around the world. Visitors are not just customers: they are expected to stay and take part in the repair, so that next time they might be able to do it themselves. 'We don't fix things for you, we fix them with you,' is a popular saying among volunteers.\n\nSupporters say the cafés reduce waste and help people save money. But many regular visitors mention something else: the social side. In an age when neighbours rarely talk to each other, a repair café is a place where a retired engineer can chat with a student while they try to bring an old radio back to life.\n\nNot everyone is enthusiastic, however. Some manufacturers argue that amateur repairs can be unsafe, especially with electrical goods. Volunteers answer that they follow strict safety rules and refuse to repair anything they consider dangerous.",
+       "tasks": [
+        {
+         "n": 7,
+         "prompt": "Why did the founder start the first repair café?",
+         "answers": [
+          "3"
+         ],
+         "options": [
+          "1) She wanted to earn extra money.",
+          "2) She was asked to by local shops.",
+          "3) She saw people throwing away items that were easy to repair.",
+          "4) She had worked as an engineer."
+         ]
+        },
+        {
+         "n": 8,
+         "prompt": "What is expected from visitors?",
+         "answers": [
+          "2"
+         ],
+         "options": [
+          "1) To pay a small fee.",
+          "2) To help with the repair.",
+          "3) To bring their own tools.",
+          "4) To become volunteers."
+         ]
+        },
+        {
+         "n": 9,
+         "prompt": "The saying 'We fix them with you' shows that the cafés…",
+         "answers": [
+          "4"
+         ],
+         "options": [
+          "1) are short of volunteers.",
+          "2) only repair simple objects.",
+          "3) prefer young visitors.",
+          "4) want people to learn new skills."
+         ]
+        },
+        {
+         "n": 10,
+         "prompt": "According to regular visitors, an important advantage of repair cafés is…",
+         "answers": [
+          "1"
+         ],
+         "options": [
+          "1) meeting and talking to other people.",
+          "2) getting new things for free.",
+          "3) learning about the history of objects.",
+          "4) finding a job."
+         ]
+        },
+        {
+         "n": 11,
+         "prompt": "How do volunteers respond to criticism from manufacturers?",
+         "answers": [
+          "3"
+         ],
+         "options": [
+          "1) They stop repairing electrical goods.",
+          "2) They ask manufacturers for help.",
+          "3) They say they follow safety rules.",
+          "4) They ignore it completely."
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grammar",
+       "kind": "grammar",
+       "title": "Раздел 3. Грамматика и лексика",
+       "instruction": "Преобразуйте слова, напечатанные заглавными буквами, так, чтобы они грамматически соответствовали содержанию текста.",
+       "text": "An Unexpected Discovery\n\nIn 1940 four teenagers (12) ___ through a forest in the south of France when their dog fell into a hole. When the boys climbed down to rescue it, they found a cave whose walls (13) ___ with hundreds of ancient paintings. The paintings, which (14) ___ more than seventeen thousand years ago, showed horses, deer and bulls. Scientists say it is one of the (15) ___ examples of prehistoric art. Today the original cave is closed, because visitors' breath was damaging the paintings. If it (16) ___ open, the art (17) ___ by now.",
+       "tasks": [
+        {
+         "n": 12,
+         "prompt": "WALK",
+         "answers": [
+          "were walking"
+         ]
+        },
+        {
+         "n": 13,
+         "prompt": "COVER",
+         "answers": [
+          "were covered"
+         ]
+        },
+        {
+         "n": 14,
+         "prompt": "CREATE",
+         "answers": [
+          "were created"
+         ]
+        },
+        {
+         "n": 15,
+         "prompt": "FINE",
+         "answers": [
+          "finest"
+         ]
+        },
+        {
+         "n": 16,
+         "prompt": "STAY",
+         "answers": [
+          "had stayed"
+         ]
+        },
+        {
+         "n": 17,
+         "prompt": "DISAPPEAR",
+         "answers": [
+          "would have disappeared"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "vocab",
+       "kind": "grammar",
+       "title": "Словообразование",
+       "instruction": "Образуйте от слов, напечатанных заглавными буквами, однокоренные слова так, чтобы они грамматически и лексически соответствовали содержанию текста.",
+       "text": "Working from home has become (18) ___ popular in recent years. For many people it offers more (19) ___ and saves hours of travelling. However, some employees complain of (20) ___ and miss their colleagues. Experts say that clear rules and regular breaks make remote work far more (21) ___. Without them, it can be almost (22) ___ to separate work from free time.",
+       "tasks": [
+        {
+         "n": 18,
+         "prompt": "INCREASE",
+         "answers": [
+          "increasingly"
+         ]
+        },
+        {
+         "n": 19,
+         "prompt": "FREE",
+         "answers": [
+          "freedom"
+         ]
+        },
+        {
+         "n": 20,
+         "prompt": "LONELY",
+         "answers": [
+          "loneliness"
+         ]
+        },
+        {
+         "n": 21,
+         "prompt": "EFFECT",
+         "answers": [
+          "effective"
+         ]
+        },
+        {
+         "n": 22,
+         "prompt": "POSSIBLE",
+         "answers": [
+          "impossible"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "writing",
+       "kind": "writing",
+       "title": "Раздел 4. Письменная речь",
+       "instruction": "Напишите развёрнутое письменное высказывание (200–250 слов) на тему проекта «Online learning: advantages and disadvantages» по плану: вступление, результаты опроса, сравнение, проблемы и их решение, вывод.",
+       "text": "",
+       "tasks": [],
+       "inDevelopment": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
