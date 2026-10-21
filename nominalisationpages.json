@@ -1,0 +1,332 @@
+{
+  "tenseName": "Номинализация",
+  "route": "cards_nominalisation",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Номинализация — когда вместо глагола или прилагательного ставят существительное: prices increased → an increase in prices. Так пишут в отчётах и эссе: текст звучит строже и плотнее.",
+        "highlights": [
+          {
+            "text": "Номинализация",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "существительное",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "в отчётах и эссе",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глагол → существительное",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Существительное",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "decide",
+                  "decision",
+                  "the decision to close"
+                ]
+              },
+              {
+                "cells": [
+                  "fail",
+                  "failure",
+                  "the failure of the plan"
+                ]
+              },
+              {
+                "cells": [
+                  "analyse",
+                  "analysis",
+                  "an analysis of the data"
+                ]
+              },
+              {
+                "cells": [
+                  "refuse",
+                  "refusal",
+                  "his refusal to help"
+                ]
+              },
+              {
+                "cells": [
+                  "arrive",
+                  "arrival",
+                  "the arrival of the train"
+                ]
+              },
+              {
+                "cells": [
+                  "develop",
+                  "development",
+                  "the development of AI"
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Прилагательное → существительное",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Прилагательное",
+              "Существительное",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "important",
+                  "importance",
+                  "the importance of sleep"
+                ]
+              },
+              {
+                "cells": [
+                  "able",
+                  "ability",
+                  "the ability to learn"
+                ]
+              },
+              {
+                "cells": [
+                  "difficult",
+                  "difficulty",
+                  "difficulties with grammar"
+                ]
+              },
+              {
+                "cells": [
+                  "long",
+                  "length",
+                  "the length of the course"
+                ]
+              }
+            ],
+            "borderColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Как переписать",
+      "intro": {
+        "text": "При номинализации наречие становится прилагательным, а подлежащее уходит в of или в притяжательную форму: the company grew rapidly → the rapid growth of the company.",
+        "highlights": [
+          {
+            "text": "наречие становится прилагательным",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "of",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разговорно → книжно",
+          "borderColor": "term",
+          "transforms": [
+            {
+              "from": "Prices rose sharply.",
+              "to": "There was a sharp rise in prices.",
+              "toColor": "good"
+            },
+            {
+              "from": "Because the company grew quickly…",
+              "to": "Due to the rapid growth of the company…",
+              "toColor": "good"
+            },
+            {
+              "from": "They decided to close the factory.",
+              "to": "The decision to close the factory was made.",
+              "toColor": "good"
+            },
+            {
+              "from": "If you don't sleep enough, you can't focus.",
+              "to": "Lack of sleep reduces concentration.",
+              "toColor": "good"
+            },
+            {
+              "from": "The government responded slowly.",
+              "to": "The government's slow response…",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Предлоги",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "text": "Запомни пары: an increase in, a decrease in, a rise in, a reduction in, an effect on, a demand for, a solution to.",
+            "title": "Существительное + предлог"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Глагол + существительное",
+      "intro": {
+        "text": "Часто номинализация живёт в устойчивых парах глагол + существительное: make a decision, carry out research, give an explanation, reach an agreement.",
+        "highlights": [
+          {
+            "text": "устойчивых парах",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Пары",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Книжно",
+              "Вместо",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "make a decision",
+                  "decide",
+                  "принять решение"
+                ]
+              },
+              {
+                "cells": [
+                  "carry out an investigation",
+                  "investigate",
+                  "провести расследование"
+                ]
+              },
+              {
+                "cells": [
+                  "give an explanation",
+                  "explain",
+                  "дать объяснение"
+                ]
+              },
+              {
+                "cells": [
+                  "reach an agreement",
+                  "agree",
+                  "прийти к соглашению"
+                ]
+              },
+              {
+                "cells": [
+                  "make an improvement",
+                  "improve",
+                  "внести улучшение"
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Не перегружай",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "text": "Три существительных подряд с of читать тяжело: the analysis of the results of the study of… Одна-две номинализации на предложение — достаточно.",
+            "title": "Мера"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Вот самые частые ошибки в номинализации.",
+        "highlights": [
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "The decide of the board surprised us.",
+              "right": "The decision of the board surprised us."
+            },
+            {
+              "wrong": "There was a sharp increase of prices.",
+              "right": "There was a sharp increase in prices."
+            },
+            {
+              "wrong": "The analyse showed a problem.",
+              "right": "The analysis showed a problem."
+            },
+            {
+              "wrong": "Due to the company grew, we hired staff.",
+              "right": "Due to the company's growth, we hired staff."
+            },
+            {
+              "wrong": "the rapidly growth of cities",
+              "right": "the rapid growth of cities"
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Проверь себя",
+            "text": "После номинализации проверь три вещи: правильный суффикс, прилагательное вместо наречия и предлог после существительного."
+          },
+          "quote": {
+            "text": "Глагол рассказывает, существительное докладывает.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "tenseName": "Relative clauses: продвинутый уровень",
+  "route": "cards_advrelative",
+  "slides": [
+    {
+      "label": "Предлог + which / whom",
+      "intro": {
+        "text": "В разговоре предлог ставят в конец: the person I spoke to. В книжной речи он встаёт перед which или whom: the person to whom I spoke. После предлога нельзя that и who.",
+        "highlights": [
+          {
+            "text": "в конец",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "перед which или whom",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "нельзя that и who",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "сущ.",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "предлог",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "which / whom",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S + V",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Разговорно → книжно",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Разговорно",
+              "Книжно",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "the man I work with",
+                  "the man with whom I work",
+                  "человек, с которым я работаю"
+                ]
+              },
+              {
+                "cells": [
+                  "the town she lives in",
+                  "the town in which she lives",
+                  "город, в котором она живёт"
+                ]
+              },
+              {
+                "cells": [
+                  "the job I applied for",
+                  "the job for which I applied",
+                  "работа, на которую я подавал"
+                ]
+              },
+              {
+                "cells": [
+                  "the reason it failed",
+                  "the reason for which it failed",
+                  "причина, по которой не вышло"
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "This is the colleague with whom I share an office.",
+              "ru": "Это коллега, с которым я делю кабинет."
+            },
+            {
+              "en": "The house in which he was born is now a museum.",
+              "ru": "Дом, в котором он родился, теперь музей."
+            },
+            {
+              "en": "She is someone on whom you can always rely.",
+              "ru": "На неё всегда можно положиться."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Most of which, all of whom",
+      "intro": {
+        "text": "Чтобы сказать «большинство из которых», «двое из них», ставят слово количества + of whom (о людях) или of which (о вещах). Такие придаточные всегда отделяются запятой.",
+        "highlights": [
+          {
+            "text": "of whom",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "of which",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "запятой",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": ", количество",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "of whom / of which",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Количество",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Начало",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "most of which",
+                  "He wrote ten books, most of which are novels.",
+                  "Он написал десять книг, большинство из них — романы."
+                ]
+              },
+              {
+                "cells": [
+                  "all of whom",
+                  "I have three sisters, all of whom live abroad.",
+                  "У меня три сестры, и все живут за границей."
+                ]
+              },
+              {
+                "cells": [
+                  "none of which",
+                  "We had five offers, none of which was good.",
+                  "У нас было пять предложений, и ни одно не было хорошим."
+                ]
+              },
+              {
+                "cells": [
+                  "two of whom",
+                  "Ten people came, two of whom I knew.",
+                  "Пришли десять человек, двоих из них я знал."
+                ]
+              },
+              {
+                "cells": [
+                  "some of which",
+                  "She gave me advice, some of which helped.",
+                  "Она дала мне советы, часть из них помогла."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Which, whereby, whose",
+      "intro": {
+        "text": "Which может относиться ко всему предложению: He was late, which annoyed me — «что меня разозлило». Whereby — «по которому, при котором» о правилах и системах. Whose подходит и для вещей.",
+        "highlights": [
+          {
+            "text": "ко всему предложению",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Whereby",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Whose",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "which (всё)",
+                  "She passed, which surprised us.",
+                  "Она сдала, чем нас удивила."
+                ]
+              },
+              {
+                "cells": [
+                  "whereby",
+                  "a system whereby users pay monthly",
+                  "система, при которой пользователи платят помесячно"
+                ]
+              },
+              {
+                "cells": [
+                  "whose (вещи)",
+                  "a house whose roof leaks",
+                  "дом, у которого течёт крыша"
+                ]
+              },
+              {
+                "cells": [
+                  "in which case",
+                  "It may rain, in which case we'll stay.",
+                  "Может пойти дождь — тогда мы останемся."
+                ]
+              },
+              {
+                "cells": [
+                  "at which point",
+                  "He shouted, at which point I left.",
+                  "Он закричал, и тут я ушёл."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The train was cancelled, which meant we had to take a taxi.",
+              "ru": "Поезд отменили, из-за чего пришлось брать такси."
+            },
+            {
+              "en": "They signed an agreement whereby both sides share the profit.",
+              "ru": "Они подписали соглашение, по которому обе стороны делят прибыль."
+            },
+            {
+              "en": "It's a country whose economy depends on tourism.",
+              "ru": "Это страна, экономика которой зависит от туризма."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Вот самые частые ошибки в сложных придаточных.",
+        "highlights": [
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I have two brothers, both of them live in Paris.",
+              "right": "I have two brothers, both of whom live in Paris."
+            },
+            {
+              "wrong": "He passed the exam, that surprised everyone.",
+              "right": "He passed the exam, which surprised everyone."
+            },
+            {
+              "wrong": "The woman to who I spoke was kind.",
+              "right": "The woman to whom I spoke was kind."
+            },
+            {
+              "wrong": "The man with that I work is Italian.",
+              "right": "The man with whom I work is Italian."
+            },
+            {
+              "wrong": "a house which roof leaks",
+              "right": "a house whose roof leaks"
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Правило запятой",
+            "text": "Of whom / of which, which «про всё предложение» — только после запятой. That после запятой не ставят никогда."
+          },
+          "quote": {
+            "text": "Предлог впереди — значит whom или which, и больше ничего.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

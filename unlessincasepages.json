@@ -1,0 +1,288 @@
+{
+  "tenseName": "Unless, as long as, provided",
+  "route": "cards_unlessincase",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Вместо if есть слова с точным оттенком: unless — «если не», as long as и provided (that) — «при условии, что», even if — «даже если». После всех них — настоящее время, не will.",
+        "highlights": [
+          {
+            "text": "unless",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "as long as",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "provided (that)",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "even if",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не will",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Союзы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Союз",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "unless",
+                  "если не",
+                  "You'll fail unless you study."
+                ]
+              },
+              {
+                "cells": [
+                  "as long as",
+                  "при условии, что",
+                  "You can go as long as you're back by ten."
+                ]
+              },
+              {
+                "cells": [
+                  "provided (that)",
+                  "при условии (официальнее)",
+                  "Provided you pay now, we'll deliver tomorrow."
+                ]
+              },
+              {
+                "cells": [
+                  "even if",
+                  "даже если",
+                  "I'll go even if it rains."
+                ]
+              },
+              {
+                "cells": [
+                  "in case",
+                  "на случай, если",
+                  "Take a coat in case it gets cold."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Unless you hurry, you'll miss the bus.",
+              "ru": "Если не поторопишься, опоздаешь на автобус."
+            },
+            {
+              "en": "You can borrow my car as long as you drive carefully.",
+              "ru": "Можешь взять мою машину, если будешь ездить аккуратно."
+            },
+            {
+              "en": "Even if he apologises, I won't forgive him.",
+              "ru": "Даже если он извинится, я его не прощу."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Unless и if not",
+      "intro": {
+        "text": "Unless = if … not, но не всегда. Если смысл «я расстроюсь, если этого не будет», unless не подходит: I'll be upset if you don't come, а не unless you come.",
+        "highlights": [
+          {
+            "text": "Unless = if … not",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не всегда",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "If … not → unless",
+          "borderColor": "term",
+          "transforms": [
+            {
+              "from": "If you don't hurry, you'll be late.",
+              "to": "Unless you hurry, you'll be late.",
+              "toColor": "good"
+            },
+            {
+              "from": "I won't go if you don't come with me.",
+              "to": "I won't go unless you come with me.",
+              "toColor": "good"
+            },
+            {
+              "from": "If it doesn't rain, we'll have a picnic.",
+              "to": "Unless it rains, we'll have a picnic.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Без двойного «не»",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "text": "Unless уже содержит «не». Unless you don't hurry — ошибка: нужно Unless you hurry.",
+            "title": "Ловушка"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Even if и even though",
+      "intro": {
+        "text": "Even if — «даже если» о возможном: Even if it rains, we'll go. Even though — «хотя, несмотря на то что» о реальном факте: Even though it was raining, we went.",
+        "highlights": [
+          {
+            "text": "Even if",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "возможном",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Even though",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "реальном факте",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравнение",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Союз",
+              "О чём",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "even if",
+                  "возможное",
+                  "Even if I'm tired, I'll come."
+                ]
+              },
+              {
+                "cells": [
+                  "even though",
+                  "факт",
+                  "Even though I was tired, I came."
+                ]
+              },
+              {
+                "cells": [
+                  "in case",
+                  "подстраховка",
+                  "I'll take cash in case the card doesn't work."
+                ]
+              }
+            ],
+            "borderColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Вот самые частые ошибки с условными союзами.",
+        "highlights": [
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Unless you don't hurry, you'll be late.",
+              "right": "Unless you hurry, you'll be late."
+            },
+            {
+              "wrong": "You can go as long as you will be back by ten.",
+              "right": "You can go as long as you are back by ten."
+            },
+            {
+              "wrong": "Provided you will pay now, we'll deliver.",
+              "right": "Provided you pay now, we'll deliver."
+            },
+            {
+              "wrong": "Even though it rains tomorrow, we'll go.",
+              "right": "Even if it rains tomorrow, we'll go."
+            },
+            {
+              "wrong": "In case of you need help, call me.",
+              "right": "In case you need help, call me."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Проверь себя",
+            "text": "После unless, as long as, provided, even if и in case — настоящее время. Отрицание unless уже содержит."
+          },
+          "quote": {
+            "text": "Unless — это if и not в одном слове.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

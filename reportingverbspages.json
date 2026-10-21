@@ -1,0 +1,335 @@
+{
+  "tenseName": "Reporting verbs: admit, deny, accuse",
+  "route": "cards_reportingverbs",
+  "slides": [
+    {
+      "label": "Глагол + to",
+      "intro": {
+        "text": "Вместо скучного said в пересказе берут глагол, который сразу передаёт смысл: He offered to help — «Он предложил помочь». У каждого глагола своя схема: после одних — to + глагол, после других — человек + to.",
+        "highlights": [
+          {
+            "text": "said",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "сразу передаёт смысл",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "своя схема",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глагол + to + V",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "agree",
+                  "She agreed to help.",
+                  "Она согласилась помочь."
+                ]
+              },
+              {
+                "cells": [
+                  "refuse",
+                  "He refused to pay.",
+                  "Он отказался платить."
+                ]
+              },
+              {
+                "cells": [
+                  "offer",
+                  "They offered to drive us.",
+                  "Они предложили нас подвезти."
+                ]
+              },
+              {
+                "cells": [
+                  "promise",
+                  "I promised to call.",
+                  "Я пообещал позвонить."
+                ]
+              },
+              {
+                "cells": [
+                  "threaten",
+                  "He threatened to leave.",
+                  "Он пригрозил уйти."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Глагол + человек + to + V",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "advise",
+                  "She advised me to rest.",
+                  "Она посоветовала мне отдохнуть."
+                ]
+              },
+              {
+                "cells": [
+                  "warn",
+                  "He warned us not to go.",
+                  "Он предупредил нас не ходить."
+                ]
+              },
+              {
+                "cells": [
+                  "remind",
+                  "Remind me to buy milk.",
+                  "Напомни мне купить молоко."
+                ]
+              },
+              {
+                "cells": [
+                  "persuade",
+                  "I persuaded him to stay.",
+                  "Я уговорил его остаться."
+                ]
+              },
+              {
+                "cells": [
+                  "encourage",
+                  "They encouraged her to apply.",
+                  "Они уговаривали её подать заявку."
+                ]
+              }
+            ],
+            "borderColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Глагол + -ing",
+      "intro": {
+        "text": "После deny, admit, suggest и recommend идёт -ing. Глаголы с предлогом — accuse of, blame for, apologise for, insist on — тоже требуют -ing.",
+        "highlights": [
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "accuse of",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "insist on",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глагол + -ing",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "deny",
+                  "He denied stealing the money.",
+                  "Он отрицал, что украл деньги."
+                ]
+              },
+              {
+                "cells": [
+                  "admit",
+                  "She admitted making a mistake.",
+                  "Она признала, что ошиблась."
+                ]
+              },
+              {
+                "cells": [
+                  "suggest",
+                  "I suggested taking a taxi.",
+                  "Я предложил поехать на такси."
+                ]
+              },
+              {
+                "cells": [
+                  "accuse of",
+                  "They accused him of lying.",
+                  "Его обвинили во лжи."
+                ]
+              },
+              {
+                "cells": [
+                  "apologise for",
+                  "He apologised for being late.",
+                  "Он извинился за опоздание."
+                ]
+              },
+              {
+                "cells": [
+                  "insist on",
+                  "She insisted on paying.",
+                  "Она настояла на том, чтобы заплатить."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Как пересказать",
+      "intro": {
+        "text": "Сначала пойми, что человек сделал словами: предложил, отказался, признал. Потом подставь нужный глагол и его схему.",
+        "highlights": [
+          {
+            "text": "что человек сделал словами",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Прямая речь → пересказ",
+          "borderColor": "term",
+          "transforms": [
+            {
+              "from": "\"I'll help you,\" he said.",
+              "to": "He offered to help me.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"I didn't take it,\" she said.",
+              "to": "She denied taking it.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"Let's go to the cinema,\" Tom said.",
+              "to": "Tom suggested going to the cinema.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"You lied to me!\" she said to him.",
+              "to": "She accused him of lying to her.",
+              "toColor": "good"
+            },
+            {
+              "from": "\"Don't touch the wire,\" he told us.",
+              "to": "He warned us not to touch the wire.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Suggest",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "text": "После suggest нельзя человек + to. Говорят suggested going или suggested that we (should) go.",
+            "title": "Ловушка"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Вот самые частые ошибки с глаголами пересказа.",
+        "highlights": [
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "She suggested me to go home.",
+              "right": "She suggested that I go home."
+            },
+            {
+              "wrong": "He denied to steal the money.",
+              "right": "He denied stealing the money."
+            },
+            {
+              "wrong": "They accused him for lying.",
+              "right": "They accused him of lying."
+            },
+            {
+              "wrong": "He apologised for be late.",
+              "right": "He apologised for being late."
+            },
+            {
+              "wrong": "She insisted to pay.",
+              "right": "She insisted on paying."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Учи схемой",
+            "text": "Запоминай не просто deny, а deny doing; не accuse, а accuse someone of doing. Тогда пересказ строится сам."
+          },
+          "quote": {
+            "text": "Глагол пересказа — это сразу и «сказал», и «что именно сделал».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

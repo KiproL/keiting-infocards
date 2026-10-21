@@ -1,0 +1,363 @@
+{
+  "tenseName": "As if / As though",
+  "route": "cards_asifthough",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "As if и as though значат «как будто», «словно». Если сравнение похоже на правду — время обычное. Если оно нереальное — время сдвигается в прошлое, как после wish.",
+        "highlights": [
+          {
+            "text": "As if",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "as though",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "похоже на правду",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "нереальное",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "S + глагол",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "as if / as though",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S + глагол",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Реально или нет",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Смысл",
+              "Форма",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "похоже на правду",
+                  "обычное время",
+                  "It looks as if it is going to rain."
+                ]
+              },
+              {
+                "cells": [
+                  "нереально сейчас",
+                  "Past Simple",
+                  "He talks as if he knew everything."
+                ]
+              },
+              {
+                "cells": [
+                  "нереально в прошлом",
+                  "Past Perfect",
+                  "She looked as if she had seen a ghost."
+                ]
+              },
+              {
+                "cells": [
+                  "книжный вариант",
+                  "were для всех",
+                  "He acts as if he were the boss."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "You look as if you haven't slept.",
+              "ru": "Ты выглядишь так, будто не спал."
+            },
+            {
+              "en": "He spends money as if he were a millionaire.",
+              "ru": "Он тратит деньги, словно миллионер."
+            },
+            {
+              "en": "She spoke as though nothing had happened.",
+              "ru": "Она говорила так, будто ничего не случилось."
+            },
+            {
+              "en": "It feels as if we've known each other for years.",
+              "ru": "Такое чувство, будто мы знакомы много лет."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "С глаголами чувств",
+      "intro": {
+        "text": "Чаще всего as if стоит после look, seem, sound, feel, smell и taste: «выглядит так, будто…», «звучит так, словно…».",
+        "highlights": [
+          {
+            "text": "look, seem, sound, feel, smell",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "taste",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Глаголы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "look",
+                  "It looks as if he's lost.",
+                  "Похоже, он заблудился."
+                ]
+              },
+              {
+                "cells": [
+                  "sound",
+                  "You sound as if you've got a cold.",
+                  "По голосу ты простужен."
+                ]
+              },
+              {
+                "cells": [
+                  "feel",
+                  "I feel as if I'm flying.",
+                  "Я будто лечу."
+                ]
+              },
+              {
+                "cells": [
+                  "seem",
+                  "It seems as if nobody cares.",
+                  "Кажется, всем всё равно."
+                ]
+              },
+              {
+                "cells": [
+                  "smell",
+                  "It smells as if something is burning.",
+                  "Пахнет, будто что-то горит."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Like вместо as if",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "text": "В разговоре вместо as if часто говорят like: It looks like it's going to rain. В письменной и официальной речи надёжнее as if.",
+            "title": "Разговорный вариант"
+          }
+        },
+        {
+          "title": "Ещё два оборота",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Оборот",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "it's not as if",
+                  "не то чтобы",
+                  "It's not as if we're in a hurry."
+                ]
+              },
+              {
+                "cells": [
+                  "as if!",
+                  "ещё чего!",
+                  "Will he say sorry? As if!"
+                ]
+              },
+              {
+                "cells": [
+                  "as though",
+                  "то же, книжнее",
+                  "It seems as though he's right."
+                ]
+              }
+            ],
+            "borderColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Какое время выбрать",
+      "intro": {
+        "text": "Главный вопрос — верит ли говорящий в сравнение. Сравните: He looks as if he is ill (возможно, он и правда болен) и He behaves as if he were ill (он здоров, только притворяется).",
+        "highlights": [
+          {
+            "text": "верит ли говорящий",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "возможно",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "притворяется",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Реальное → нереальное",
+          "borderColor": "term",
+          "transforms": [
+            {
+              "from": "He looks as if he is tired. (может, устал)",
+              "to": "He acts as if he were tired. (не устал)",
+              "toColor": "good"
+            },
+            {
+              "from": "It sounds as if she knows. (может, знает)",
+              "to": "She talks as if she knew. (не знает)",
+              "toColor": "good"
+            },
+            {
+              "from": "It looks as if they have left. (похоже, ушли)",
+              "to": "They behaved as if they had never met. (встречались)",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Сдвиг времени",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "text": "Нереальное «сейчас» → Past Simple (were). Нереальное «раньше» → Past Perfect. Главный глагол при этом может стоять в любом времени: He talks / talked as if he knew.",
+            "title": "Как после wish"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Вот самые частые ошибки с as if и as though.",
+        "highlights": [
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "She looked as if she has seen a ghost.",
+              "right": "She looked as if she had seen a ghost."
+            },
+            {
+              "wrong": "He talks as though he was knowing everything.",
+              "right": "He talks as though he knew everything."
+            },
+            {
+              "wrong": "It looks as it is going to rain.",
+              "right": "It looks as if it is going to rain."
+            },
+            {
+              "wrong": "It feels as if we know each other for years.",
+              "right": "It feels as if we've known each other for years."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Проверь себя",
+            "text": "Спроси: «это правда или только кажется?» Если только кажется и точно неправда — сдвигай время назад: knows → knew, saw → had seen."
+          },
+          "quote": {
+            "text": "As if + прошедшее время = «на самом деле нет».",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

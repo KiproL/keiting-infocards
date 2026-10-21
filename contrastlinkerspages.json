@@ -1,0 +1,339 @@
+{
+  "tenseName": "Whereas, albeit, notwithstanding",
+  "route": "cards_contrastlinkers",
+  "slides": [
+    {
+      "label": "Whereas и while",
+      "intro": {
+        "text": "Whereas и while сравнивают два факта, которые противоречат друг другу: «тогда как», «в то время как». Это не время, а контраст.",
+        "highlights": [
+          {
+            "text": "Whereas",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "while",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "тогда как",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "контраст",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "факт 1",
+                "color": "info"
+              },
+              {
+                "text": ",",
+                "color": "muted"
+              },
+              {
+                "text": "whereas / while",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "факт 2",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Варианты",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Стиль",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "whereas",
+                  "нейтрально-книжно",
+                  "I like tea, whereas she prefers coffee."
+                ]
+              },
+              {
+                "cells": [
+                  "while",
+                  "нейтрально",
+                  "While he is shy, his brother is loud."
+                ]
+              },
+              {
+                "cells": [
+                  "whilst",
+                  "британское, книжное",
+                  "Some agreed, whilst others refused."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The north is rainy, whereas the south is dry.",
+              "ru": "На севере дождливо, тогда как на юге сухо."
+            },
+            {
+              "en": "While I understand your point, I disagree.",
+              "ru": "Хотя я понимаю вашу мысль, я не согласен."
+            },
+            {
+              "en": "Cats are independent, whereas dogs need attention.",
+              "ru": "Кошки независимы, а собакам нужно внимание."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Albeit",
+      "intro": {
+        "text": "Albeit — книжное «хотя и», «пусть и». После него идёт не целое предложение, а слово или короткая группа: a small, albeit important, change.",
+        "highlights": [
+          {
+            "text": "Albeit",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "хотя и",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "не целое предложение",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "После albeit",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Что идёт",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "прилагательное",
+                  "a slow, albeit steady, recovery",
+                  "медленное, хотя и стабильное восстановление"
+                ]
+              },
+              {
+                "cells": [
+                  "наречие",
+                  "He agreed, albeit reluctantly.",
+                  "Он согласился, пусть и неохотно."
+                ]
+              },
+              {
+                "cells": [
+                  "группа с предлогом",
+                  "It worked, albeit with some delay.",
+                  "Сработало, хотя и с задержкой."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Целое предложение",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "text": "Если дальше подлежащее и глагол, albeit не подходит: нужен although. Although he was tired, he worked.",
+            "title": "Albeit ≠ although"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Notwithstanding и другие",
+      "intro": {
+        "text": "Для официальных текстов есть notwithstanding — «несмотря на», и связки nonetheless, even so, be that as it may — «тем не менее», «как бы то ни было».",
+        "highlights": [
+          {
+            "text": "notwithstanding",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "nonetheless",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "even so",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "be that as it may",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Связки",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Связка",
+              "Как стоит",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "notwithstanding",
+                  "+ сущ.",
+                  "Notwithstanding the costs, we went ahead."
+                ]
+              },
+              {
+                "cells": [
+                  "nonetheless",
+                  "начало или конец",
+                  "It was risky. Nonetheless, it worked."
+                ]
+              },
+              {
+                "cells": [
+                  "even so",
+                  "начало фразы",
+                  "The hotel was cheap. Even so, it was clean."
+                ]
+              },
+              {
+                "cells": [
+                  "be that as it may",
+                  "начало фразы",
+                  "Be that as it may, the rules are clear."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Notwithstanding his age, he runs every morning.",
+              "ru": "Несмотря на возраст, он бегает каждое утро."
+            },
+            {
+              "en": "The plan is ambitious. Nonetheless, it is realistic.",
+              "ru": "План смелый. Тем не менее он реалистичен."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Вот самые частые ошибки в книжных связках.",
+        "highlights": [
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Albeit he was tired, he kept working.",
+              "right": "Although he was tired, he kept working."
+            },
+            {
+              "wrong": "Whereas I like tea, but she likes coffee.",
+              "right": "Whereas I like tea, she likes coffee."
+            },
+            {
+              "wrong": "Notwithstanding of the rain, we went out.",
+              "right": "Notwithstanding the rain, we went out."
+            },
+            {
+              "wrong": "He agreed, albeit he was reluctant.",
+              "right": "He agreed, albeit reluctantly."
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Не путай",
+            "text": "Whereas и while соединяют два предложения. Albeit и notwithstanding требуют слова или группы, а не целого предложения. Два союза подряд (whereas … but) не ставят."
+          },
+          "quote": {
+            "text": "Одна мысль — одна связка: although или but, но не оба сразу.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}

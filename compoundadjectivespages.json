@@ -1,0 +1,304 @@
+{
+  "tenseName": "Составные прилагательные",
+  "route": "cards_compoundadjectives",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Составное прилагательное — два слова через дефис, которые вместе описывают существительное: a well-known writer, a five-minute walk, an open-minded person.",
+        "highlights": [
+          {
+            "text": "два слова через дефис",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "a well-known writer",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "a five-minute walk",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "an open-minded person",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Как строятся",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Схема",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "число + сущ.",
+                  "a ten-year-old boy",
+                  "десятилетний мальчик"
+                ]
+              },
+              {
+                "cells": [
+                  "наречие + V3",
+                  "a well-paid job",
+                  "хорошо оплачиваемая работа"
+                ]
+              },
+              {
+                "cells": [
+                  "прил. + -ing",
+                  "a good-looking man",
+                  "привлекательный мужчина"
+                ]
+              },
+              {
+                "cells": [
+                  "прил. + сущ. + -ed",
+                  "a blue-eyed girl",
+                  "голубоглазая девочка"
+                ]
+              },
+              {
+                "cells": [
+                  "сущ. + прил.",
+                  "a world-famous singer",
+                  "всемирно известный певец"
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "It's a two-hour flight.",
+              "ru": "Это двухчасовой перелёт."
+            },
+            {
+              "en": "She has a well-paid job.",
+              "ru": "У неё хорошо оплачиваемая работа."
+            },
+            {
+              "en": "We bought some duty-free perfume.",
+              "ru": "Мы купили духи в дьюти-фри."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Число + существительное",
+      "intro": {
+        "text": "Если впереди число, существительное остаётся в единственном числе: a five-minute walk, а не five-minutes. Но без дефиса, после глагола — обычное множественное: The walk takes five minutes.",
+        "highlights": [
+          {
+            "text": "единственном числе",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "five-minutes",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "обычное множественное",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Описание → прилагательное",
+          "borderColor": "term",
+          "transforms": [
+            {
+              "from": "The walk takes five minutes.",
+              "to": "It's a five-minute walk.",
+              "toColor": "good"
+            },
+            {
+              "from": "The boy is ten years old.",
+              "to": "He's a ten-year-old boy.",
+              "toColor": "good"
+            },
+            {
+              "from": "The note is worth twenty pounds.",
+              "to": "It's a twenty-pound note.",
+              "toColor": "good"
+            },
+            {
+              "from": "The course lasts three weeks.",
+              "to": "It's a three-week course.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Дефис",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "text": "Дефис ставят, когда прилагательное стоит перед существительным: a well-known actor. После глагола его часто опускают: The actor is well known.",
+            "title": "Где дефис"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Характер",
+      "intro": {
+        "text": "Многие составные прилагательные описывают характер. Их удобно учить парами противоположностей.",
+        "highlights": [
+          {
+            "text": "характер",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "парами противоположностей",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Черты характера",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод",
+              "Противоположность"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "open-minded",
+                  "непредвзятый",
+                  "narrow-minded"
+                ]
+              },
+              {
+                "cells": [
+                  "easy-going",
+                  "покладистый",
+                  "bad-tempered"
+                ]
+              },
+              {
+                "cells": [
+                  "hard-working",
+                  "трудолюбивый",
+                  "lazy"
+                ]
+              },
+              {
+                "cells": [
+                  "self-confident",
+                  "уверенный в себе",
+                  "shy"
+                ]
+              },
+              {
+                "cells": [
+                  "kind-hearted",
+                  "добросердечный",
+                  "cold-hearted"
+                ]
+              },
+              {
+                "cells": [
+                  "absent-minded",
+                  "рассеянный",
+                  "focused"
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Вот самые частые ошибки в составных прилагательных.",
+        "highlights": [
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "It's a five-minutes walk.",
+              "right": "It's a five-minute walk."
+            },
+            {
+              "wrong": "He's a ten-years-old boy.",
+              "right": "He's a ten-year-old boy."
+            },
+            {
+              "wrong": "She is an open-mind person.",
+              "right": "She is an open-minded person."
+            },
+            {
+              "wrong": "He's a hard-worked student.",
+              "right": "He's a hard-working student."
+            },
+            {
+              "wrong": "a blue-eye girl",
+              "right": "a blue-eyed girl"
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Проверь себя",
+            "text": "Число + существительное — без -s. Части тела и черты — с окончанием -ed: blue-eyed, open-minded. Действие — с -ing: hard-working, good-looking."
+          },
+          "quote": {
+            "text": "Дефис превращает два слова в одно прилагательное — значит, у него нет множественного числа.",
+            "author": "правило большого пальца",
+            "accentColor": "accent2"
+          }
+        }
+      ]
+    }
+  ]
+}
