@@ -1,0 +1,6516 @@
+{
+ "version": 2,
+ "language": "en",
+ "tree": "oak",
+ "chapters": [
+  {
+   "id": "istoki",
+   "level": "A1",
+   "title": "Истоки",
+   "subtitle": "Семя пускает первые корни",
+   "intro": "Здесь всё начинается. Желудь ложится в землю: первые корни — звуки, слова и простые правила, первые ветки — живая речь. Иди по одной ветви, дай древу впитать знание — и оно вырастет.",
+   "outro": "Росток окреп: у него есть корни и первая крона. Ты умеешь поздороваться, рассказать о себе, спросить дорогу и заказать кофе. Впереди — Формирование.",
+   "branches": [
+    {
+     "id": "a1_sound",
+     "side": "root",
+     "title": "Первый звук",
+     "subtitle": "Буквы, звуки и как читать слово",
+     "emoji": "🔤",
+     "cards": [
+      "cards_alphabet",
+      "cards_readingrules",
+      "cards_transcription"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_sound_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "26 букв — 44 звука",
+         "text": "В английском алфавите 26 букв, а звуков около 44. Поэтому одна и та же буква читается по-разному: всё решают соседи. Слово не «читают по буквам», его узнают по образцу — как лицо знакомого человека.",
+         "examples": [
+          {
+           "en": "cat",
+           "ru": "кот — a звучит как [æ]"
+          },
+          {
+           "en": "cake",
+           "ru": "торт — та же a, но [eɪ]"
+          },
+          {
+           "en": "car",
+           "ru": "машина — и снова a, теперь [ɑː]"
+          }
+         ],
+         "tip": "Запоминай слово сразу со звучанием — нажимай на динамик у каждого примера."
+        },
+        {
+         "heading": "Немая e на конце",
+         "text": "Если слово кончается на согласную + e, то e не читается, зато «будит» гласную перед собой: она звучит как в алфавите. Без e гласная короткая.",
+         "examples": [
+          {
+           "en": "hat → hate",
+           "ru": "шляпа → ненавидеть"
+          },
+          {
+           "en": "kit → kite",
+           "ru": "набор → воздушный змей"
+          },
+          {
+           "en": "not → note",
+           "ru": "не → записка"
+          }
+         ],
+         "tip": "Немую e в конце слова не произносят никогда."
+        },
+        {
+         "heading": "Буквосочетания",
+         "text": "Две буквы часто дают один звук: sh — [ʃ] как «ш», ch — [tʃ] как «ч», th — особый звук: кончик языка между зубами. ee и ea обычно читаются долгим [iː].",
+         "examples": [
+          {
+           "en": "ship",
+           "ru": "корабль — [ʃɪp]"
+          },
+          {
+           "en": "chair",
+           "ru": "стул — [tʃeə]"
+          },
+          {
+           "en": "think",
+           "ru": "думать — [θɪŋk]"
+          },
+          {
+           "en": "green",
+           "ru": "зелёный — [ɡriːn]"
+          }
+         ]
+        },
+        {
+         "heading": "Скажи по буквам",
+         "text": "Имена и адреса в Англии часто диктуют по буквам: How do you spell it? — «Как это пишется?». Названия букв: A [eɪ], E [iː], I [aɪ], O [əʊ], U [juː], R [ɑː], H [eɪtʃ], W [ˈdʌbljuː].",
+         "examples": [
+          {
+           "en": "How do you spell your name?",
+           "ru": "Как пишется твоё имя?"
+          },
+          {
+           "en": "It's A-N-N-A.",
+           "ru": "Эй-эн-эн-эй."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Почему в слове note буква o читается [əʊ]?",
+         "options": [
+          "На конце немая e",
+          "Так читается любая o",
+          "Из-за буквы t"
+         ],
+         "answer": "На конце немая e",
+         "why": "Немая e делает гласную «длинной», как в алфавите."
+        },
+        {
+         "type": "choice",
+         "q": "Как читается sh в слове ship?",
+         "options": [
+          "[ʃ] — как «ш»",
+          "[s] — как «с»",
+          "[tʃ] — как «ч»"
+         ],
+         "answer": "[ʃ] — как «ш»",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какое слово читается с долгим [iː]?",
+         "options": [
+          "green",
+          "bed",
+          "kit"
+         ],
+         "answer": "green",
+         "why": "ee почти всегда даёт долгий [iː]."
+        },
+        {
+         "type": "choice",
+         "q": "Как спросить, как пишется слово?",
+         "options": [
+          "How do you spell it?",
+          "How do you say it?",
+          "How are you?"
+         ],
+         "answer": "How do you spell it?",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_sound_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "letter",
+         "ru": "буква; письмо"
+        },
+        {
+         "en": "sound",
+         "ru": "звук"
+        },
+        {
+         "en": "word",
+         "ru": "слово"
+        },
+        {
+         "en": "name",
+         "ru": "имя"
+        },
+        {
+         "en": "read",
+         "ru": "читать"
+        },
+        {
+         "en": "write",
+         "ru": "писать"
+        },
+        {
+         "en": "spell",
+         "ru": "произносить по буквам"
+        },
+        {
+         "en": "say",
+         "ru": "сказать"
+        },
+        {
+         "en": "listen",
+         "ru": "слушать"
+        },
+        {
+         "en": "repeat",
+         "ru": "повторять"
+        }
+       ]
+      },
+      {
+       "id": "a1_sound_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Kite: the letter i [sounds] like its name.",
+         "options": [
+          "sounds",
+          "looks",
+          "goes"
+         ],
+         "ru": "В kite буква i звучит как её название.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "В каком слове a читается [æ], коротко?",
+         "options": [
+          "cat",
+          "cake",
+          "name"
+         ],
+         "answer": "cat",
+         "why": "Слог закрытый, немой e нет — гласная короткая."
+        },
+        {
+         "type": "choice",
+         "q": "Какая пара показывает работу немой e?",
+         "options": [
+          "hat — hate",
+          "cat — car",
+          "red — bed"
+         ],
+         "answer": "hat — hate",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как звучит th в слове think?",
+         "options": [
+          "Язык между зубами, глухо",
+          "Как русское «т»",
+          "Как «з»"
+         ],
+         "answer": "Язык между зубами, глухо",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какое слово начинается со звука [tʃ]?",
+         "options": [
+          "chair",
+          "ship",
+          "think"
+         ],
+         "answer": "chair",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "How do you [spell] your name?",
+         "options": [
+          "spell",
+          "read",
+          "say"
+         ],
+         "ru": "Как пишется твоё имя?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "How",
+          "do you",
+          "spell",
+          "it?"
+         ],
+         "ru": "Как это пишется?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Can you",
+          "repeat",
+          "that,",
+          "please?"
+         ],
+         "ru": "Можешь повторить, пожалуйста?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Буква, которая читается [eɪtʃ]:",
+         "options": [
+          "H",
+          "A",
+          "E"
+         ],
+         "answer": "H",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Алфавит и диктовка по буквам",
+         "Правила чтения",
+         "Транскрипция"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_sound_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "How do you spell it?",
+         "ru": "Как это пишется?"
+        },
+        {
+         "en": "Can you repeat that, please?",
+         "ru": "Можешь повторить, пожалуйста?"
+        },
+        {
+         "en": "Sorry, I don't understand.",
+         "ru": "Извини, я не понимаю."
+        },
+        {
+         "en": "Slowly, please.",
+         "ru": "Медленнее, пожалуйста."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "ship",
+         "options": [
+          "корабль",
+          "овца",
+          "сыр"
+         ],
+         "answer": "корабль",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "note",
+         "options": [
+          "записка",
+          "не",
+          "нос"
+         ],
+         "answer": "записка",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Can you repeat that, please?",
+         "options": [
+          "Можешь повторить, пожалуйста?",
+          "Как это пишется?",
+          "Медленнее, пожалуйста."
+         ],
+         "answer": "Можешь повторить, пожалуйста?",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "слово",
+         "en": "word",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "читать",
+         "en": "read",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Медленнее, пожалуйста.",
+         "en": "Slowly, please.",
+         "alts": [
+          "Slowly please",
+          "More slowly, please."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_sound_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Алфавит и диктовка по буквам",
+         "Правила чтения",
+         "Транскрипция"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_hello",
+     "side": "crown",
+     "title": "Первое слово",
+     "subtitle": "Поздороваться, представиться, попрощаться",
+     "emoji": "👋",
+     "cards": [
+      "cards_greetings",
+      "cards_aboutme"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_hello_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Hi и Hello",
+         "text": "Hello — нейтральное «здравствуйте», подходит всегда. Hi — дружеское «привет». Утром говорят Good morning, днём — Good afternoon, вечером — Good evening. Good night — только «спокойной ночи» перед сном.",
+         "examples": [
+          {
+           "en": "Hi, Tom!",
+           "ru": "Привет, Том!"
+          },
+          {
+           "en": "Good morning, Mrs Smith.",
+           "ru": "Доброе утро, миссис Смит."
+          },
+          {
+           "en": "Good night, Mum.",
+           "ru": "Спокойной ночи, мама."
+          }
+         ],
+         "tip": "Good night — не приветствие. Вечером здороваются Good evening."
+        },
+        {
+         "heading": "Как дела?",
+         "text": "How are you? — почти всегда просто вежливость, а не вопрос о жизни. Отвечают коротко и спрашивают в ответ: I'm fine, thanks. And you? Разговорный вариант — How's it going?",
+         "examples": [
+          {
+           "en": "How are you? — I'm fine, thanks. And you?",
+           "ru": "Как дела? — Хорошо, спасибо. А у тебя?"
+          },
+          {
+           "en": "How's it going? — Not bad.",
+           "ru": "Как оно? — Неплохо."
+          }
+         ]
+        },
+        {
+         "heading": "Представиться",
+         "text": "My name is… или проще I'm… — «меня зовут…». После знакомства говорят Nice to meet you — «приятно познакомиться», а в ответ — Nice to meet you too.",
+         "examples": [
+          {
+           "en": "I'm Anna. I'm from Kazan.",
+           "ru": "Я Анна. Я из Казани."
+          },
+          {
+           "en": "Nice to meet you. — Nice to meet you too.",
+           "ru": "Приятно познакомиться. — Мне тоже."
+          }
+         ]
+        },
+        {
+         "heading": "Попрощаться",
+         "text": "Goodbye — «до свидания», Bye — «пока». See you! или See you later! — «увидимся». Have a nice day! — «хорошего дня».",
+         "examples": [
+          {
+           "en": "Bye! See you tomorrow.",
+           "ru": "Пока! Увидимся завтра."
+          },
+          {
+           "en": "Have a nice day!",
+           "ru": "Хорошего дня!"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Вечером ты пришёл в гости. Как поздороваться?",
+         "options": [
+          "Good evening!",
+          "Good night!",
+          "Good morning!"
+         ],
+         "answer": "Good evening!",
+         "why": "Good night — только перед сном."
+        },
+        {
+         "type": "choice",
+         "q": "Тебя спросили How are you?. Самый обычный ответ:",
+         "options": [
+          "I'm fine, thanks. And you?",
+          "I'm Anna.",
+          "Goodbye!"
+         ],
+         "answer": "I'm fine, thanks. And you?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Что ответить на Nice to meet you?",
+         "options": [
+          "Nice to meet you too.",
+          "Me too nice.",
+          "You're welcome."
+         ],
+         "answer": "Nice to meet you too.",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_hello_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "hello",
+         "ru": "здравствуйте"
+        },
+        {
+         "en": "goodbye",
+         "ru": "до свидания"
+        },
+        {
+         "en": "morning",
+         "ru": "утро"
+        },
+        {
+         "en": "evening",
+         "ru": "вечер"
+        },
+        {
+         "en": "night",
+         "ru": "ночь"
+        },
+        {
+         "en": "friend",
+         "ru": "друг"
+        },
+        {
+         "en": "please",
+         "ru": "пожалуйста (просьба)"
+        },
+        {
+         "en": "thanks",
+         "ru": "спасибо"
+        },
+        {
+         "en": "sorry",
+         "ru": "извини(те)"
+        },
+        {
+         "en": "meet",
+         "ru": "встречать, знакомиться"
+        }
+       ]
+      },
+      {
+       "id": "a1_hello_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Hello! My [name] is Max.",
+         "options": [
+          "name",
+          "names",
+          "is"
+         ],
+         "ru": "Привет! Меня зовут Макс.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Nice to [meet] you.",
+         "options": [
+          "meet",
+          "see",
+          "know"
+         ],
+         "ru": "Приятно познакомиться.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'm fine, [thanks]. And you?",
+         "options": [
+          "thanks",
+          "please",
+          "sorry"
+         ],
+         "ru": "Хорошо, спасибо. А у тебя?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как сказать «увидимся завтра»?",
+         "options": [
+          "See you tomorrow!",
+          "Meet you tomorrow!",
+          "Look you tomorrow!"
+         ],
+         "answer": "See you tomorrow!",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Ты случайно толкнул человека. Что сказать?",
+         "options": [
+          "Sorry!",
+          "Please!",
+          "Thanks!"
+         ],
+         "answer": "Sorry!",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Nice",
+          "to meet",
+          "you",
+          "too."
+         ],
+         "ru": "Мне тоже приятно познакомиться.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'm",
+          "from",
+          "Russia."
+         ],
+         "ru": "Я из России.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "How",
+          "are",
+          "you",
+          "today?"
+         ],
+         "ru": "Как ты сегодня?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как дружески сказать «привет»?",
+         "options": [
+          "Hi!",
+          "Good night!",
+          "Goodbye!"
+         ],
+         "answer": "Hi!",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Приветствия и small talk",
+         "Рассказать о себе"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_hello_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "How are you?",
+         "ru": "Как дела?"
+        },
+        {
+         "en": "Nice to meet you.",
+         "ru": "Приятно познакомиться."
+        },
+        {
+         "en": "See you later!",
+         "ru": "Увидимся!"
+        },
+        {
+         "en": "Have a nice day!",
+         "ru": "Хорошего дня!"
+        },
+        {
+         "en": "Where are you from?",
+         "ru": "Откуда ты?"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Where are you from?",
+         "options": [
+          "Откуда ты?",
+          "Как дела?",
+          "Как тебя зовут?"
+         ],
+         "answer": "Откуда ты?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Have a nice day!",
+         "options": [
+          "Хорошего дня!",
+          "Спокойной ночи!",
+          "Доброе утро!"
+         ],
+         "answer": "Хорошего дня!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Good evening!",
+         "options": [
+          "Добрый вечер!",
+          "Спокойной ночи!",
+          "До свидания!"
+         ],
+         "answer": "Добрый вечер!",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Привет!",
+         "en": "Hi!",
+         "alts": [
+          "Hello!",
+          "Hi",
+          "Hello"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Меня зовут Анна.",
+         "en": "My name is Anna.",
+         "alts": [
+          "I'm Anna.",
+          "I am Anna."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Приятно познакомиться.",
+         "en": "Nice to meet you.",
+         "alts": [
+          "Nice to meet you"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_hello_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Приветствия и small talk",
+         "Рассказать о себе"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_be",
+     "side": "root",
+     "title": "Я есть",
+     "subtitle": "To be: am, is, are — кто ты и какой",
+     "emoji": "🪞",
+     "cards": [
+      "cards_pronouns",
+      "cards_contractions"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_be_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Глагол, которого нет в русском",
+         "text": "По-русски говорят «я студент», без глагола. В английском глагол обязателен: I am a student. Это глагол be — «быть». У него три формы в настоящем: am, is, are.",
+         "examples": [
+          {
+           "en": "I am a student.",
+           "ru": "Я студент."
+          },
+          {
+           "en": "She is happy.",
+           "ru": "Она счастлива."
+          },
+          {
+           "en": "We are friends.",
+           "ru": "Мы друзья."
+          }
+         ],
+         "tip": "Нет глагола — нет предложения. «Я дома» = I am at home."
+        },
+        {
+         "heading": "Кто с какой формой",
+         "text": "I — am. He, she, it — is. You, we, they — are. Запомни тройку: I am · he is · they are.",
+         "examples": [
+          {
+           "en": "I am tired.",
+           "ru": "Я устал."
+          },
+          {
+           "en": "It is cold.",
+           "ru": "Холодно."
+          },
+          {
+           "en": "You are right.",
+           "ru": "Ты прав."
+          },
+          {
+           "en": "They are at school.",
+           "ru": "Они в школе."
+          }
+         ]
+        },
+        {
+         "heading": "Коротко: I'm, she's, we're",
+         "text": "В речи формы сливаются: I am → I'm, he is → he's, you are → you're, it is → it's. Так говорят почти всегда, полная форма звучит подчёркнуто.",
+         "examples": [
+          {
+           "en": "I'm Tom.",
+           "ru": "Я Том."
+          },
+          {
+           "en": "It's late.",
+           "ru": "Поздно."
+          },
+          {
+           "en": "We're ready.",
+           "ru": "Мы готовы."
+          }
+         ]
+        },
+        {
+         "heading": "Не и вопрос",
+         "text": "Отрицание — not после be: I'm not, he isn't, they aren't. Вопрос — be выходит вперёд: Are you OK? Is he a doctor?",
+         "examples": [
+          {
+           "en": "I'm not hungry.",
+           "ru": "Я не голоден."
+          },
+          {
+           "en": "Is she your sister? — Yes, she is.",
+           "ru": "Она твоя сестра? — Да."
+          },
+          {
+           "en": "Are they at home? — No, they aren't.",
+           "ru": "Они дома? — Нет."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "I ___ a teacher.",
+         "options": [
+          "am",
+          "is",
+          "are"
+         ],
+         "answer": "am",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "They ___ my friends.",
+         "options": [
+          "are",
+          "is",
+          "am"
+         ],
+         "answer": "are",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как спросить «Ты готов?»",
+         "options": [
+          "Are you ready?",
+          "You are ready?",
+          "Is you ready?"
+         ],
+         "answer": "Are you ready?",
+         "why": "В вопросе be ставят перед подлежащим."
+        }
+       ]
+      },
+      {
+       "id": "a1_be_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "I",
+         "ru": "я"
+        },
+        {
+         "en": "you",
+         "ru": "ты, вы"
+        },
+        {
+         "en": "he",
+         "ru": "он"
+        },
+        {
+         "en": "she",
+         "ru": "она"
+        },
+        {
+         "en": "it",
+         "ru": "оно, это"
+        },
+        {
+         "en": "we",
+         "ru": "мы"
+        },
+        {
+         "en": "they",
+         "ru": "они"
+        },
+        {
+         "en": "student",
+         "ru": "студент, ученик"
+        },
+        {
+         "en": "teacher",
+         "ru": "учитель"
+        },
+        {
+         "en": "happy",
+         "ru": "счастливый"
+        },
+        {
+         "en": "tired",
+         "ru": "уставший"
+        },
+        {
+         "en": "ready",
+         "ru": "готовый"
+        }
+       ]
+      },
+      {
+       "id": "a1_be_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "She [is] a doctor.",
+         "options": [
+          "is",
+          "am",
+          "are"
+         ],
+         "ru": "Она врач.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We [are] at home.",
+         "options": [
+          "are",
+          "is",
+          "am"
+         ],
+         "ru": "Мы дома.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I [am] not hungry.",
+         "options": [
+          "am",
+          "is",
+          "are"
+         ],
+         "ru": "Я не голоден.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Is] he your brother?",
+         "options": [
+          "Is",
+          "Are",
+          "Am"
+         ],
+         "ru": "Он твой брат?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какая форма — сокращение от they are?",
+         "options": [
+          "they're",
+          "their",
+          "there"
+         ],
+         "answer": "they're",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как сказать «Это не мой телефон»?",
+         "options": [
+          "It isn't my phone.",
+          "It not my phone.",
+          "It aren't my phone."
+         ],
+         "answer": "It isn't my phone.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'm",
+          "not",
+          "tired."
+         ],
+         "ru": "Я не устал.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Are",
+          "you",
+          "a student?"
+         ],
+         "ru": "Ты студент?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "My sister",
+          "is",
+          "a teacher."
+         ],
+         "ru": "Моя сестра — учитель.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Pronouns",
+         "Сокращённые формы"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_be_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "I'm fine.",
+         "ru": "У меня всё хорошо."
+        },
+        {
+         "en": "Are you OK?",
+         "ru": "Ты в порядке?"
+        },
+        {
+         "en": "You're right.",
+         "ru": "Ты прав."
+        },
+        {
+         "en": "It's OK.",
+         "ru": "Всё нормально."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Are you OK?",
+         "options": [
+          "Ты в порядке?",
+          "Ты готов?",
+          "Ты дома?"
+         ],
+         "answer": "Ты в порядке?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "They aren't at home.",
+         "options": [
+          "Их нет дома.",
+          "Они дома.",
+          "Они в школе."
+         ],
+         "answer": "Их нет дома.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "She's my sister.",
+         "options": [
+          "Она моя сестра.",
+          "Он мой брат.",
+          "Это моя мама."
+         ],
+         "answer": "Она моя сестра.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я студент.",
+         "en": "I am a student.",
+         "alts": [
+          "I'm a student.",
+          "I'm a student",
+          "I am a student"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мы друзья.",
+         "en": "We are friends.",
+         "alts": [
+          "We're friends.",
+          "We are friends"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Ты прав.",
+         "en": "You are right.",
+         "alts": [
+          "You're right.",
+          "You're right"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_be_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Pronouns",
+         "Сокращённые формы"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_family",
+     "side": "crown",
+     "title": "Родные корни",
+     "subtitle": "Семья, «у меня есть» и «мой, твой»",
+     "emoji": "👪",
+     "cards": [
+      "cards_family",
+      "cards_havegot"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_family_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Моя семья",
+         "text": "mother и father — мама и папа (в речи mum и dad), parents — родители. sister — сестра, brother — брат, son — сын, daughter — дочь. Бабушка и дедушка — grandmother и grandfather.",
+         "examples": [
+          {
+           "en": "This is my mum.",
+           "ru": "Это моя мама."
+          },
+          {
+           "en": "I have two brothers.",
+           "ru": "У меня два брата."
+          },
+          {
+           "en": "My parents live in Omsk.",
+           "ru": "Мои родители живут в Омске."
+          }
+         ]
+        },
+        {
+         "heading": "Мой, твой, его",
+         "text": "Чьё — говорят словами my, your, his, her, our, their. Они стоят перед словом и не меняются: my brother, my sisters.",
+         "examples": [
+          {
+           "en": "Her name is Kate.",
+           "ru": "Её зовут Кейт."
+          },
+          {
+           "en": "His son is ten.",
+           "ru": "Его сыну десять."
+          },
+          {
+           "en": "Our house is small.",
+           "ru": "Наш дом маленький."
+          }
+         ],
+         "tip": "his — его (о мужчине), her — её (о женщине)."
+        },
+        {
+         "heading": "У меня есть: have",
+         "text": "«У меня есть» по-английски звучит «я имею»: I have a sister. Для he, she, it — has: She has a cat. В британской речи часто I've got / She's got — то же самое.",
+         "examples": [
+          {
+           "en": "I have a brother.",
+           "ru": "У меня есть брат."
+          },
+          {
+           "en": "He has two children.",
+           "ru": "У него двое детей."
+          },
+          {
+           "en": "We've got a dog.",
+           "ru": "У нас есть собака."
+          }
+         ]
+        },
+        {
+         "heading": "Чьё это: 's",
+         "text": "Принадлежность человеку — через 's: Anna's phone — телефон Анны, my dad's car — машина моего папы.",
+         "examples": [
+          {
+           "en": "This is Tom's bag.",
+           "ru": "Это сумка Тома."
+          },
+          {
+           "en": "My sister's name is Lena.",
+           "ru": "Мою сестру зовут Лена."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "She ___ a son.",
+         "options": [
+          "has",
+          "have",
+          "is"
+         ],
+         "answer": "has",
+         "why": "he, she, it — has."
+        },
+        {
+         "type": "choice",
+         "q": "«Её брат» — это…",
+         "options": [
+          "her brother",
+          "his brother",
+          "she brother"
+         ],
+         "answer": "her brother",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как сказать «машина папы»?",
+         "options": [
+          "dad's car",
+          "car dad",
+          "dad car's"
+         ],
+         "answer": "dad's car",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_family_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "mother",
+         "ru": "мать"
+        },
+        {
+         "en": "father",
+         "ru": "отец"
+        },
+        {
+         "en": "parents",
+         "ru": "родители"
+        },
+        {
+         "en": "sister",
+         "ru": "сестра"
+        },
+        {
+         "en": "brother",
+         "ru": "брат"
+        },
+        {
+         "en": "son",
+         "ru": "сын"
+        },
+        {
+         "en": "daughter",
+         "ru": "дочь"
+        },
+        {
+         "en": "family",
+         "ru": "семья"
+        },
+        {
+         "en": "child",
+         "ru": "ребёнок"
+        },
+        {
+         "en": "husband",
+         "ru": "муж"
+        },
+        {
+         "en": "wife",
+         "ru": "жена"
+        }
+       ]
+      },
+      {
+       "id": "a1_family_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I [have] two sisters.",
+         "options": [
+          "have",
+          "has",
+          "am"
+         ],
+         "ru": "У меня две сестры.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "My brother [has] a new phone.",
+         "options": [
+          "has",
+          "have",
+          "is"
+         ],
+         "ru": "У моего брата новый телефон.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "This is [her] husband.",
+         "options": [
+          "her",
+          "his",
+          "she"
+         ],
+         "ru": "Это её муж.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Our] parents are teachers.",
+         "options": [
+          "Our",
+          "We",
+          "Us"
+         ],
+         "ru": "Наши родители — учителя.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Кто такая daughter?",
+         "options": [
+          "дочь",
+          "сестра",
+          "мама"
+         ],
+         "answer": "дочь",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Мама моей мамы — это моя…",
+         "options": [
+          "grandmother",
+          "mother",
+          "sister"
+         ],
+         "answer": "grandmother",
+         "why": "grandmother — бабушка, grandfather — дедушка."
+        },
+        {
+         "type": "build",
+         "words": [
+          "This is",
+          "my",
+          "grandmother."
+         ],
+         "ru": "Это моя бабушка.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Have you got",
+          "any",
+          "brothers?"
+         ],
+         "ru": "У тебя есть братья?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "My dad's",
+          "name",
+          "is Oleg."
+         ],
+         "ru": "Моего папу зовут Олег.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Семья и отношения",
+         "Have got"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_family_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "This is my family.",
+         "ru": "Это моя семья."
+        },
+        {
+         "en": "Have you got any brothers or sisters?",
+         "ru": "У тебя есть братья или сёстры?"
+        },
+        {
+         "en": "I'm an only child.",
+         "ru": "Я единственный ребёнок."
+        },
+        {
+         "en": "We are a big family.",
+         "ru": "У нас большая семья."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "I'm an only child.",
+         "options": [
+          "Я единственный ребёнок.",
+          "У меня есть брат.",
+          "У нас большая семья."
+         ],
+         "answer": "Я единственный ребёнок.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "His wife is a doctor.",
+         "options": [
+          "Его жена — врач.",
+          "Её муж — врач.",
+          "Его сестра — врач."
+         ],
+         "answer": "Его жена — врач.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "We've got a dog.",
+         "options": [
+          "У нас есть собака.",
+          "У нас нет собаки.",
+          "Мы любим собак."
+         ],
+         "answer": "У нас есть собака.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "У меня есть брат.",
+         "en": "I have a brother.",
+         "alts": [
+          "I've got a brother.",
+          "I have got a brother."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Это моя мама.",
+         "en": "This is my mum.",
+         "alts": [
+          "This is my mother.",
+          "This is my mom."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Её зовут Кейт.",
+         "en": "Her name is Kate.",
+         "alts": [
+          "Her name's Kate."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_family_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Семья и отношения",
+         "Have got"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_many",
+     "side": "root",
+     "title": "Один и много",
+     "subtitle": "a, an, the и как сказать «много»",
+     "emoji": "🍎",
+     "cards": [
+      "cards_determinants",
+      "cards_pluralnouns"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_many_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "a и an — «один, какой-то»",
+         "text": "Перед предметом, который можно посчитать, в единственном числе ставят a или an. an — если слово начинается с гласного звука: an apple, an hour. Это «какой-то один».",
+         "examples": [
+          {
+           "en": "a book",
+           "ru": "(одна) книга"
+          },
+          {
+           "en": "an egg",
+           "ru": "яйцо"
+          },
+          {
+           "en": "an hour",
+           "ru": "час — h немая, звук гласный"
+          }
+         ],
+         "tip": "Решает звук, а не буква: a university [juː], но an hour."
+        },
+        {
+         "heading": "the — «тот самый»",
+         "text": "the — когда понятно, о чём речь: уже говорили или он один такой. I have a cat. The cat is black. — «У меня есть кот. (Этот) кот чёрный».",
+         "examples": [
+          {
+           "en": "Close the door, please.",
+           "ru": "Закрой дверь, пожалуйста."
+          },
+          {
+           "en": "The sun is hot.",
+           "ru": "Солнце горячее."
+          }
+         ]
+        },
+        {
+         "heading": "Много: -s и -es",
+         "text": "Множественное число — окончание -s: book → books. После s, sh, ch, x — -es: box → boxes. Согласная + y → -ies: city → cities.",
+         "examples": [
+          {
+           "en": "two cats",
+           "ru": "две кошки"
+          },
+          {
+           "en": "three boxes",
+           "ru": "три коробки"
+          },
+          {
+           "en": "many cities",
+           "ru": "много городов"
+          }
+         ]
+        },
+        {
+         "heading": "Особые слова",
+         "text": "Несколько важных слов меняются целиком: man → men, woman → women, child → children, person → people, tooth → teeth, foot → feet.",
+         "examples": [
+          {
+           "en": "two men",
+           "ru": "двое мужчин"
+          },
+          {
+           "en": "three children",
+           "ru": "трое детей"
+          },
+          {
+           "en": "many people",
+           "ru": "много людей"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "___ orange",
+         "options": [
+          "an",
+          "a",
+          "the"
+         ],
+         "answer": "an",
+         "why": "orange начинается с гласного звука."
+        },
+        {
+         "type": "choice",
+         "q": "Множественное от child:",
+         "options": [
+          "children",
+          "childs",
+          "childes"
+         ],
+         "answer": "children",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "I have a dog. ___ dog is big.",
+         "options": [
+          "The",
+          "A",
+          "An"
+         ],
+         "answer": "The",
+         "why": "Про эту собаку уже сказали — значит, the."
+        }
+       ]
+      },
+      {
+       "id": "a1_many_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "apple",
+         "ru": "яблоко"
+        },
+        {
+         "en": "egg",
+         "ru": "яйцо"
+        },
+        {
+         "en": "book",
+         "ru": "книга"
+        },
+        {
+         "en": "box",
+         "ru": "коробка"
+        },
+        {
+         "en": "man",
+         "ru": "мужчина"
+        },
+        {
+         "en": "woman",
+         "ru": "женщина"
+        },
+        {
+         "en": "people",
+         "ru": "люди"
+        },
+        {
+         "en": "boy",
+         "ru": "мальчик"
+        },
+        {
+         "en": "girl",
+         "ru": "девочка"
+        },
+        {
+         "en": "city",
+         "ru": "город"
+        }
+       ]
+      },
+      {
+       "id": "a1_many_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I eat [an] apple every day.",
+         "options": [
+          "an",
+          "a",
+          "the"
+         ],
+         "ru": "Я ем яблоко каждый день.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She's [a] good teacher.",
+         "options": [
+          "a",
+          "an",
+          "the"
+         ],
+         "ru": "Она хороший учитель.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Open [the] window, please.",
+         "options": [
+          "the",
+          "a",
+          "an"
+         ],
+         "ru": "Открой окно, пожалуйста.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "There are two [women] in the car.",
+         "options": [
+          "women",
+          "womans",
+          "woman"
+         ],
+         "ru": "В машине две женщины.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как правильно?",
+         "options": [
+          "three boxes",
+          "three boxs",
+          "three box"
+         ],
+         "answer": "three boxes",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какое слово с an?",
+         "options": [
+          "hour",
+          "house",
+          "university"
+         ],
+         "answer": "hour",
+         "why": "В hour буква h не читается."
+        },
+        {
+         "type": "build",
+         "words": [
+          "I have",
+          "a cat",
+          "and",
+          "two dogs."
+         ],
+         "ru": "У меня кошка и две собаки.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "The children",
+          "are",
+          "in the park."
+         ],
+         "ru": "Дети в парке.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Many people",
+          "live",
+          "in big cities."
+         ],
+         "ru": "Много людей живёт в больших городах.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Articles & Quantifiers",
+         "Plural Nouns"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_many_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "an hour ago",
+         "ru": "час назад"
+        },
+        {
+         "en": "a lot of people",
+         "ru": "много людей"
+        },
+        {
+         "en": "the same",
+         "ru": "то же самое"
+        },
+        {
+         "en": "one more, please",
+         "ru": "ещё один, пожалуйста"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "three children",
+         "options": [
+          "трое детей",
+          "третий ребёнок",
+          "трое мужчин"
+         ],
+         "answer": "трое детей",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Close the door, please.",
+         "options": [
+          "Закрой дверь, пожалуйста.",
+          "Открой окно, пожалуйста.",
+          "Это дверь."
+         ],
+         "answer": "Закрой дверь, пожалуйста.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "a lot of people",
+         "options": [
+          "много людей",
+          "один человек",
+          "люди говорят"
+         ],
+         "answer": "много людей",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "яйцо",
+         "en": "an egg",
+         "alts": [
+          "egg"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "две коробки",
+         "en": "two boxes",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "много людей",
+         "en": "many people",
+         "alts": [
+          "a lot of people",
+          "lots of people"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_many_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Articles & Quantifiers",
+         "Plural Nouns"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_count",
+     "side": "crown",
+     "title": "Счёт времени",
+     "subtitle": "Числа, часы и цены",
+     "emoji": "🕒",
+     "cards": [
+      "cards_numbers",
+      "cards_timemoney"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_count_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "От 1 до 20",
+         "text": "one, two, three… ten. Дальше eleven, twelve и -teen: thirteen, fourteen… nineteen. Десятки — на -ty: twenty, thirty, forty. Не путай: fifteen [ˌfɪfˈtiːn] и fifty [ˈfɪfti] — ударение разное.",
+         "examples": [
+          {
+           "en": "thirteen — thirty",
+           "ru": "13 — 30"
+          },
+          {
+           "en": "twenty-one",
+           "ru": "21"
+          },
+          {
+           "en": "a hundred",
+           "ru": "100"
+          }
+         ],
+         "tip": "В -teen ударение на конце, в -ty — в начале."
+        },
+        {
+         "heading": "Сколько времени?",
+         "text": "What time is it? — Который час? Ровно — o'clock: It's five o'clock. Половина — half past: half past six = 6:30. Четверть — quarter: quarter past/to. Проще всего называть цифрами: It's six thirty.",
+         "examples": [
+          {
+           "en": "It's seven o'clock.",
+           "ru": "Семь часов."
+          },
+          {
+           "en": "It's half past nine.",
+           "ru": "Половина десятого."
+          },
+          {
+           "en": "It's ten fifteen.",
+           "ru": "Десять пятнадцать."
+          }
+         ]
+        },
+        {
+         "heading": "Сколько стоит?",
+         "text": "How much is it? — Сколько стоит? Цену называют так: It's five pounds / ten dollars / two hundred roubles. cheap — дешёвый, expensive — дорогой.",
+         "examples": [
+          {
+           "en": "How much is this coffee?",
+           "ru": "Сколько стоит этот кофе?"
+          },
+          {
+           "en": "It's three pounds fifty.",
+           "ru": "Три фунта пятьдесят."
+          },
+          {
+           "en": "It's too expensive.",
+           "ru": "Слишком дорого."
+          }
+         ]
+        },
+        {
+         "heading": "Дни недели",
+         "text": "Дни пишут с большой буквы: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. «В понедельник» — on Monday.",
+         "examples": [
+          {
+           "en": "See you on Friday!",
+           "ru": "Увидимся в пятницу!"
+          },
+          {
+           "en": "I work on Saturday.",
+           "ru": "Я работаю в субботу."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Как пишется 15?",
+         "options": [
+          "fifteen",
+          "fifty",
+          "fiveteen"
+         ],
+         "answer": "fifteen",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "It's half past eight — это…",
+         "options": [
+          "8:30",
+          "7:30",
+          "8:15"
+         ],
+         "answer": "8:30",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как спросить цену?",
+         "options": [
+          "How much is it?",
+          "How many is it?",
+          "What price you?"
+         ],
+         "answer": "How much is it?",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_count_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "one",
+         "ru": "один"
+        },
+        {
+         "en": "ten",
+         "ru": "десять"
+        },
+        {
+         "en": "twenty",
+         "ru": "двадцать"
+        },
+        {
+         "en": "hundred",
+         "ru": "сто"
+        },
+        {
+         "en": "time",
+         "ru": "время"
+        },
+        {
+         "en": "hour",
+         "ru": "час"
+        },
+        {
+         "en": "minute",
+         "ru": "минута"
+        },
+        {
+         "en": "price",
+         "ru": "цена"
+        },
+        {
+         "en": "money",
+         "ru": "деньги"
+        },
+        {
+         "en": "cheap",
+         "ru": "дешёвый"
+        },
+        {
+         "en": "expensive",
+         "ru": "дорогой"
+        }
+       ]
+      },
+      {
+       "id": "a1_count_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "It's six [o'clock].",
+         "options": [
+          "o'clock",
+          "hours",
+          "time"
+         ],
+         "ru": "Шесть часов.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "What [time] is it?",
+         "options": [
+          "time",
+          "hour",
+          "clock"
+         ],
+         "ru": "Который час?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "How [much] is this bag?",
+         "options": [
+          "much",
+          "many",
+          "more"
+         ],
+         "ru": "Сколько стоит эта сумка?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "See you [on] Monday.",
+         "options": [
+          "on",
+          "in",
+          "at"
+         ],
+         "ru": "Увидимся в понедельник.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "40 — это…",
+         "options": [
+          "forty",
+          "fourty",
+          "fourteen"
+         ],
+         "answer": "forty",
+         "why": "Пишется без u: forty."
+        },
+        {
+         "type": "choice",
+         "q": "«Это слишком дорого» —",
+         "options": [
+          "It's too expensive.",
+          "It's very cheap.",
+          "It's too much cheap."
+         ],
+         "answer": "It's too expensive.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "It's",
+          "half past",
+          "seven."
+         ],
+         "ru": "Половина восьмого.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "The coffee",
+          "is",
+          "two pounds."
+         ],
+         "ru": "Кофе стоит два фунта.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "have",
+          "ten minutes."
+         ],
+         "ru": "У меня десять минут.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Numbers",
+         "Время, деньги, меры"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_count_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "What time is it?",
+         "ru": "Который час?"
+        },
+        {
+         "en": "How much is it?",
+         "ru": "Сколько стоит?"
+        },
+        {
+         "en": "Just a minute.",
+         "ru": "Минутку."
+        },
+        {
+         "en": "It's on Friday.",
+         "ru": "Это в пятницу."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "thirteen",
+         "options": [
+          "13",
+          "30",
+          "3"
+         ],
+         "answer": "13",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "fifty",
+         "options": [
+          "50",
+          "15",
+          "5"
+         ],
+         "answer": "50",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It's quarter past ten.",
+         "options": [
+          "10:15",
+          "9:45",
+          "10:30"
+         ],
+         "answer": "10:15",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "двадцать один",
+         "en": "twenty-one",
+         "alts": [
+          "twenty one"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Который час?",
+         "en": "What time is it?",
+         "alts": [
+          "What's the time?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Сколько стоит?",
+         "en": "How much is it?",
+         "alts": [
+          "How much is this?"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_count_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Numbers",
+         "Время, деньги, меры"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_here",
+     "side": "root",
+     "title": "Здесь есть",
+     "subtitle": "There is, this и that — что и где",
+     "emoji": "📍",
+     "cards": [
+      "cards_thereisare"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_here_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "There is — «есть, имеется»",
+         "text": "Когда сообщаем, что где-то что-то есть, начинаем с there is (одно) или there are (много). There is a bank near here. — Рядом есть банк.",
+         "examples": [
+          {
+           "en": "There is a cat in the garden.",
+           "ru": "В саду кошка."
+          },
+          {
+           "en": "There are two cafés here.",
+           "ru": "Здесь два кафе."
+          }
+         ],
+         "tip": "Русское «в комнате есть стол» = There is a table in the room."
+        },
+        {
+         "heading": "Нет и есть ли?",
+         "text": "Отрицание — there isn't / there aren't. Вопрос — Is there…? / Are there…? Ответ: Yes, there is. / No, there aren't.",
+         "examples": [
+          {
+           "en": "There isn't a lift.",
+           "ru": "Лифта нет."
+          },
+          {
+           "en": "Is there a shop near here?",
+           "ru": "Здесь рядом есть магазин?"
+          },
+          {
+           "en": "Are there any eggs? — No, there aren't.",
+           "ru": "Яйца есть? — Нет."
+          }
+         ]
+        },
+        {
+         "heading": "Это и то",
+         "text": "this — это (рядом), that — то (далеко). Много: these — эти, those — те.",
+         "examples": [
+          {
+           "en": "This is my bag.",
+           "ru": "Это моя сумка."
+          },
+          {
+           "en": "Look at that bird!",
+           "ru": "Посмотри на ту птицу!"
+          },
+          {
+           "en": "These shoes are new.",
+           "ru": "Эти туфли новые."
+          }
+         ]
+        },
+        {
+         "heading": "Где именно: in, on, under",
+         "text": "in — в, внутри; on — на поверхности; under — под; near — рядом; next to — возле, сбоку.",
+         "examples": [
+          {
+           "en": "The keys are on the table.",
+           "ru": "Ключи на столе."
+          },
+          {
+           "en": "The cat is under the bed.",
+           "ru": "Кошка под кроватью."
+          },
+          {
+           "en": "The bank is next to the park.",
+           "ru": "Банк возле парка."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "___ two windows in the room.",
+         "options": [
+          "There are",
+          "There is",
+          "It is"
+         ],
+         "answer": "There are",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как спросить «Здесь есть кафе?»",
+         "options": [
+          "Is there a café here?",
+          "There is a café here?",
+          "Are there a café here?"
+         ],
+         "answer": "Is there a café here?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Книга лежит НА столе:",
+         "options": [
+          "on the table",
+          "in the table",
+          "under the table"
+         ],
+         "answer": "on the table",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_here_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "here",
+         "ru": "здесь"
+        },
+        {
+         "en": "there",
+         "ru": "там"
+        },
+        {
+         "en": "table",
+         "ru": "стол"
+        },
+        {
+         "en": "chair",
+         "ru": "стул"
+        },
+        {
+         "en": "window",
+         "ru": "окно"
+        },
+        {
+         "en": "door",
+         "ru": "дверь"
+        },
+        {
+         "en": "bag",
+         "ru": "сумка"
+        },
+        {
+         "en": "phone",
+         "ru": "телефон"
+        },
+        {
+         "en": "key",
+         "ru": "ключ"
+        },
+        {
+         "en": "near",
+         "ru": "рядом"
+        }
+       ]
+      },
+      {
+       "id": "a1_here_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "There [is] a park near my house.",
+         "options": [
+          "is",
+          "are",
+          "am"
+         ],
+         "ru": "Рядом с моим домом есть парк.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "There [are] three chairs in the kitchen.",
+         "options": [
+          "are",
+          "is",
+          "be"
+         ],
+         "ru": "На кухне три стула.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Is] there a bus stop here?",
+         "options": [
+          "Is",
+          "Are",
+          "Do"
+         ],
+         "ru": "Здесь есть остановка?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "The phone is [on] the sofa.",
+         "options": [
+          "on",
+          "in",
+          "at"
+         ],
+         "ru": "Телефон на диване.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[These] apples are very sweet.",
+         "options": [
+          "These",
+          "This",
+          "That"
+         ],
+         "ru": "Эти яблоки очень сладкие.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Ключи в сумке:",
+         "options": [
+          "The keys are in the bag.",
+          "The keys are on the bag.",
+          "There keys in bag."
+         ],
+         "answer": "The keys are in the bag.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "There",
+          "isn't",
+          "a lift",
+          "in the building."
+         ],
+         "ru": "В здании нет лифта.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Is there",
+          "a bank",
+          "near here?"
+         ],
+         "ru": "Здесь рядом есть банк?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "That",
+          "is",
+          "my car."
+         ],
+         "ru": "Вон та машина — моя.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "There is / There are"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_here_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "Is there a toilet here?",
+         "ru": "Здесь есть туалет?"
+        },
+        {
+         "en": "Over there.",
+         "ru": "Вон там."
+        },
+        {
+         "en": "Right here.",
+         "ru": "Прямо здесь."
+        },
+        {
+         "en": "What's this?",
+         "ru": "Что это?"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Over there.",
+         "options": [
+          "Вон там.",
+          "Прямо здесь.",
+          "Наверху."
+         ],
+         "answer": "Вон там.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "There aren't any chairs.",
+         "options": [
+          "Стульев нет.",
+          "Там два стула.",
+          "Это стул?"
+         ],
+         "answer": "Стульев нет.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "The cat is under the table.",
+         "options": [
+          "Кошка под столом.",
+          "Кошка на столе.",
+          "Кошка у стола."
+         ],
+         "answer": "Кошка под столом.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Здесь есть кафе?",
+         "en": "Is there a café here?",
+         "alts": [
+          "Is there a cafe here?",
+          "Is there a café near here?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Это моя сумка.",
+         "en": "This is my bag.",
+         "alts": [
+          "This is my bag"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Ключи на столе.",
+         "en": "The keys are on the table.",
+         "alts": [],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_here_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "There is / There are"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_home",
+     "side": "crown",
+     "title": "Мой дом",
+     "subtitle": "Комнаты, вещи и где что стоит",
+     "emoji": "🏠",
+     "cards": [
+      "cards_home"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_home_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Дом и квартира",
+         "text": "house — дом (отдельный), flat — квартира (в Америке apartment). home — «дом» как место, где живёшь: at home — дома, go home — идти домой (без to!).",
+         "examples": [
+          {
+           "en": "I live in a flat.",
+           "ru": "Я живу в квартире."
+          },
+          {
+           "en": "I'm at home.",
+           "ru": "Я дома."
+          },
+          {
+           "en": "Let's go home.",
+           "ru": "Пойдём домой."
+          }
+         ],
+         "tip": "go home — без to и без the."
+        },
+        {
+         "heading": "Комнаты",
+         "text": "kitchen — кухня, living room — гостиная, bedroom — спальня, bathroom — ванная, hall — прихожая. Комнаты считают: a two-room flat — двухкомнатная квартира.",
+         "examples": [
+          {
+           "en": "The kitchen is big.",
+           "ru": "Кухня большая."
+          },
+          {
+           "en": "My bedroom is upstairs.",
+           "ru": "Моя спальня наверху."
+          }
+         ]
+        },
+        {
+         "heading": "Вещи вокруг",
+         "text": "sofa — диван, bed — кровать, wardrobe — шкаф для одежды, fridge — холодильник, cooker — плита, shower — душ, lamp — лампа.",
+         "examples": [
+          {
+           "en": "The milk is in the fridge.",
+           "ru": "Молоко в холодильнике."
+          },
+          {
+           "en": "There's a lamp next to the bed.",
+           "ru": "Рядом с кроватью лампа."
+          }
+         ]
+        },
+        {
+         "heading": "Какой дом",
+         "text": "Описываем прилагательными перед словом: a small flat, a big kitchen, a new sofa, an old house. Удобный — comfortable, светлый — light, уютный — cosy.",
+         "examples": [
+          {
+           "en": "It's a small but cosy flat.",
+           "ru": "Это маленькая, но уютная квартира."
+          },
+          {
+           "en": "We have a new fridge.",
+           "ru": "У нас новый холодильник."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "«Я дома» —",
+         "options": [
+          "I'm at home.",
+          "I'm in home.",
+          "I'm at the house."
+         ],
+         "answer": "I'm at home.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Где обычно стоит fridge?",
+         "options": [
+          "в kitchen",
+          "в bedroom",
+          "в bathroom"
+         ],
+         "answer": "в kitchen",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как правильно?",
+         "options": [
+          "a big kitchen",
+          "a kitchen big",
+          "big a kitchen"
+         ],
+         "answer": "a big kitchen",
+         "why": "Прилагательное стоит перед словом."
+        }
+       ]
+      },
+      {
+       "id": "a1_home_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "house",
+         "ru": "дом"
+        },
+        {
+         "en": "flat",
+         "ru": "квартира"
+        },
+        {
+         "en": "room",
+         "ru": "комната"
+        },
+        {
+         "en": "kitchen",
+         "ru": "кухня"
+        },
+        {
+         "en": "bedroom",
+         "ru": "спальня"
+        },
+        {
+         "en": "bathroom",
+         "ru": "ванная"
+        },
+        {
+         "en": "sofa",
+         "ru": "диван"
+        },
+        {
+         "en": "bed",
+         "ru": "кровать"
+        },
+        {
+         "en": "fridge",
+         "ru": "холодильник"
+        },
+        {
+         "en": "lamp",
+         "ru": "лампа"
+        },
+        {
+         "en": "cosy",
+         "ru": "уютный"
+        }
+       ]
+      },
+      {
+       "id": "a1_home_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "We live [in] a big flat.",
+         "options": [
+          "in",
+          "on",
+          "at"
+         ],
+         "ru": "Мы живём в большой квартире.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Let's go [home].",
+         "options": [
+          "home",
+          "to home",
+          "the home"
+         ],
+         "ru": "Пойдём домой.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "There's a sofa in the [living room].",
+         "options": [
+          "living room",
+          "bathroom",
+          "fridge"
+         ],
+         "ru": "В гостиной диван.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "The milk is in the [fridge].",
+         "options": [
+          "fridge",
+          "bed",
+          "lamp"
+         ],
+         "ru": "Молоко в холодильнике.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Двухкомнатная квартира —",
+         "options": [
+          "a two-room flat",
+          "a flat of two rooms big",
+          "a two-rooms flat"
+         ],
+         "answer": "a two-room flat",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Где принимают душ?",
+         "options": [
+          "in the bathroom",
+          "in the kitchen",
+          "in the hall"
+         ],
+         "answer": "in the bathroom",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "My flat",
+          "is",
+          "small",
+          "but cosy."
+         ],
+         "ru": "Моя квартира маленькая, но уютная.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "There are",
+          "two bedrooms",
+          "in our house."
+         ],
+         "ru": "В нашем доме две спальни.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'm",
+          "at home",
+          "now."
+         ],
+         "ru": "Я сейчас дома.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Дом и квартира"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_home_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "Make yourself at home.",
+         "ru": "Чувствуй себя как дома."
+        },
+        {
+         "en": "Come in!",
+         "ru": "Заходи!"
+        },
+        {
+         "en": "Where's the bathroom?",
+         "ru": "Где ванная?"
+        },
+        {
+         "en": "Welcome home!",
+         "ru": "С возвращением домой!"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Come in!",
+         "options": [
+          "Заходи!",
+          "Выходи!",
+          "Садись!"
+         ],
+         "answer": "Заходи!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Make yourself at home.",
+         "options": [
+          "Чувствуй себя как дома.",
+          "Иди домой.",
+          "Сделай дом."
+         ],
+         "answer": "Чувствуй себя как дома.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "The kitchen is upstairs.",
+         "options": [
+          "Кухня наверху.",
+          "Кухня внизу.",
+          "Кухня большая."
+         ],
+         "answer": "Кухня наверху.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я живу в квартире.",
+         "en": "I live in a flat.",
+         "alts": [
+          "I live in an apartment."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Пойдём домой.",
+         "en": "Let's go home.",
+         "alts": [
+          "Let's go home"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "уютная комната",
+         "en": "a cosy room",
+         "alts": [
+          "cosy room",
+          "a cozy room"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_home_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Дом и квартира"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_daily",
+     "side": "root",
+     "title": "Каждый день",
+     "subtitle": "Present Simple: привычки и факты",
+     "emoji": "🔁",
+     "cards": [
+      "cards_presentsimp",
+      "cards_endings"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_daily_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "То, что бывает всегда",
+         "text": "Present Simple — для привычек, расписаний и фактов: что ты делаешь обычно, каждый день, по выходным. Форма простая: I work, you work, we work, they work.",
+         "examples": [
+          {
+           "en": "I drink coffee every morning.",
+           "ru": "Я пью кофе каждое утро."
+          },
+          {
+           "en": "We live in Moscow.",
+           "ru": "Мы живём в Москве."
+          }
+         ]
+        },
+        {
+         "heading": "Он, она: + s",
+         "text": "Для he, she, it к глаголу добавляют -s: she works, he plays. После s, sh, ch, o — -es: watches, goes. Согласная + y → -ies: study → studies. have → has.",
+         "examples": [
+          {
+           "en": "She works in a bank.",
+           "ru": "Она работает в банке."
+          },
+          {
+           "en": "He watches TV.",
+           "ru": "Он смотрит телевизор."
+          },
+          {
+           "en": "My son goes to school.",
+           "ru": "Мой сын ходит в школу."
+          }
+         ],
+         "tip": "Самая частая ошибка — забыть -s: «He work» звучит как сломанное."
+        },
+        {
+         "heading": "Не делаю: don't / doesn't",
+         "text": "Отрицание — don't (I, you, we, they) или doesn't (he, she, it). После doesn't -s уже не нужно: She doesn't work.",
+         "examples": [
+          {
+           "en": "I don't eat meat.",
+           "ru": "Я не ем мясо."
+          },
+          {
+           "en": "He doesn't like tea.",
+           "ru": "Он не любит чай."
+          }
+         ]
+        },
+        {
+         "heading": "Как часто",
+         "text": "always — всегда, usually — обычно, often — часто, sometimes — иногда, never — никогда. Стоят перед глаголом: I usually get up at seven. Но после am/is/are: She is always late.",
+         "examples": [
+          {
+           "en": "I never drink cola.",
+           "ru": "Я никогда не пью колу."
+          },
+          {
+           "en": "We often walk in the park.",
+           "ru": "Мы часто гуляем в парке."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "She ___ in a hospital.",
+         "options": [
+          "works",
+          "work",
+          "working"
+         ],
+         "answer": "works",
+         "why": "she → глагол с -s."
+        },
+        {
+         "type": "choice",
+         "q": "They ___ like fish.",
+         "options": [
+          "don't",
+          "doesn't",
+          "isn't"
+         ],
+         "answer": "don't",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Где правильный порядок?",
+         "options": [
+          "I usually get up at 7.",
+          "I get usually up at 7.",
+          "Usually I get at 7 up."
+         ],
+         "answer": "I usually get up at 7.",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_daily_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "work",
+         "ru": "работать"
+        },
+        {
+         "en": "live",
+         "ru": "жить"
+        },
+        {
+         "en": "drink",
+         "ru": "пить"
+        },
+        {
+         "en": "eat",
+         "ru": "есть"
+        },
+        {
+         "en": "play",
+         "ru": "играть"
+        },
+        {
+         "en": "watch",
+         "ru": "смотреть"
+        },
+        {
+         "en": "go",
+         "ru": "идти, ехать"
+        },
+        {
+         "en": "usually",
+         "ru": "обычно"
+        },
+        {
+         "en": "always",
+         "ru": "всегда"
+        },
+        {
+         "en": "never",
+         "ru": "никогда"
+        },
+        {
+         "en": "sometimes",
+         "ru": "иногда"
+        }
+       ]
+      },
+      {
+       "id": "a1_daily_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "My mum [works] at a school.",
+         "options": [
+          "works",
+          "work",
+          "working"
+         ],
+         "ru": "Моя мама работает в школе.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "He [doesn't] eat meat.",
+         "options": [
+          "doesn't",
+          "don't",
+          "isn't"
+         ],
+         "ru": "Он не ест мясо.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We [usually] have lunch at one.",
+         "options": [
+          "usually",
+          "never",
+          "yesterday"
+         ],
+         "ru": "Мы обычно обедаем в час.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She [watches] TV in the evening.",
+         "options": [
+          "watches",
+          "watchs",
+          "watch"
+         ],
+         "ru": "Она смотрит телевизор вечером.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как правильно: «Он учится в Лондоне»?",
+         "options": [
+          "He studies in London.",
+          "He studys in London.",
+          "He study in London."
+         ],
+         "answer": "He studies in London.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Я никогда не опаздываю» —",
+         "options": [
+          "I am never late.",
+          "I never am late.",
+          "I don't never late."
+         ],
+         "answer": "I am never late.",
+         "why": "never ставят после am/is/are."
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "get up",
+          "at seven",
+          "every day."
+         ],
+         "ru": "Я встаю в семь каждый день.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "My brother",
+          "doesn't",
+          "like",
+          "coffee."
+         ],
+         "ru": "Мой брат не любит кофе.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "They",
+          "often",
+          "play",
+          "football."
+         ],
+         "ru": "Они часто играют в футбол.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Present Simple",
+         "Окончания -s и -ed"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_daily_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "every day",
+         "ru": "каждый день"
+        },
+        {
+         "en": "at the weekend",
+         "ru": "на выходных"
+        },
+        {
+         "en": "in the morning",
+         "ru": "утром"
+        },
+        {
+         "en": "I don't think so.",
+         "ru": "Не думаю."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "She doesn't drink coffee.",
+         "options": [
+          "Она не пьёт кофе.",
+          "Она пьёт кофе.",
+          "Она любит кофе."
+         ],
+         "answer": "Она не пьёт кофе.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "We often walk in the park.",
+         "options": [
+          "Мы часто гуляем в парке.",
+          "Мы никогда не гуляем.",
+          "Мы идём в парк сейчас."
+         ],
+         "answer": "Мы часто гуляем в парке.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "at the weekend",
+         "options": [
+          "на выходных",
+          "в будни",
+          "каждый день"
+         ],
+         "answer": "на выходных",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я работаю в офисе.",
+         "en": "I work in an office.",
+         "alts": [
+          "I work in the office."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Он живёт в Лондоне.",
+         "en": "He lives in London.",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я не ем мясо.",
+         "en": "I don't eat meat.",
+         "alts": [
+          "I do not eat meat."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_daily_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Present Simple",
+         "Окончания -s и -ed"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_table",
+     "side": "crown",
+     "title": "За столом",
+     "subtitle": "Еда, напитки и заказ в кафе",
+     "emoji": "🍲",
+     "cards": [
+      "cards_food",
+      "cards_restaurant",
+      "cards_wouldlike"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_table_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Что на столе",
+         "text": "bread — хлеб, milk — молоко, cheese — сыр, chicken — курица, soup — суп, salad — салат, water — вода, tea — чай, coffee — кофе. Завтрак — breakfast, обед — lunch, ужин — dinner.",
+         "examples": [
+          {
+           "en": "I have breakfast at eight.",
+           "ru": "Я завтракаю в восемь."
+          },
+          {
+           "en": "What's for dinner?",
+           "ru": "Что на ужин?"
+          }
+         ]
+        },
+        {
+         "heading": "Вежливо: I'd like",
+         "text": "I'd like (= I would like) — «я бы хотел». Это вежливее, чем I want. Can I have…? — «Можно мне…?» Не забывай please.",
+         "examples": [
+          {
+           "en": "I'd like a cup of tea, please.",
+           "ru": "Мне, пожалуйста, чашку чая."
+          },
+          {
+           "en": "Can I have the menu, please?",
+           "ru": "Можно меню, пожалуйста?"
+          }
+         ],
+         "tip": "I want в кафе звучит грубовато — говори I'd like."
+        },
+        {
+         "heading": "Счётное и несчётное",
+         "text": "Яблоки можно посчитать — an apple, two apples. Воду, молоко, хлеб — нет: water, bread без a. Когда нужна порция — a glass of water, a cup of coffee, a piece of cake.",
+         "examples": [
+          {
+           "en": "a glass of water",
+           "ru": "стакан воды"
+          },
+          {
+           "en": "a piece of cake",
+           "ru": "кусок торта"
+          },
+          {
+           "en": "some bread",
+           "ru": "немного хлеба"
+          }
+         ]
+        },
+        {
+         "heading": "Счёт и чаевые",
+         "text": "В конце просят счёт: Can I have the bill, please? (в Америке — the check). Can I pay by card? — Можно картой?",
+         "examples": [
+          {
+           "en": "Can I have the bill, please?",
+           "ru": "Можно счёт, пожалуйста?"
+          },
+          {
+           "en": "Can I pay by card?",
+           "ru": "Можно оплатить картой?"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Вежливая просьба в кафе:",
+         "options": [
+          "I'd like a coffee, please.",
+          "Give coffee.",
+          "I want coffee now."
+         ],
+         "answer": "I'd like a coffee, please.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как попросить счёт?",
+         "options": [
+          "Can I have the bill, please?",
+          "Can I have the money?",
+          "Where is the price?"
+         ],
+         "answer": "Can I have the bill, please?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Стакан воды» —",
+         "options": [
+          "a glass of water",
+          "a water",
+          "a glass water"
+         ],
+         "answer": "a glass of water",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_table_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "bread",
+         "ru": "хлеб"
+        },
+        {
+         "en": "milk",
+         "ru": "молоко"
+        },
+        {
+         "en": "water",
+         "ru": "вода"
+        },
+        {
+         "en": "tea",
+         "ru": "чай"
+        },
+        {
+         "en": "coffee",
+         "ru": "кофе"
+        },
+        {
+         "en": "cheese",
+         "ru": "сыр"
+        },
+        {
+         "en": "chicken",
+         "ru": "курица"
+        },
+        {
+         "en": "soup",
+         "ru": "суп"
+        },
+        {
+         "en": "breakfast",
+         "ru": "завтрак"
+        },
+        {
+         "en": "dinner",
+         "ru": "ужин"
+        },
+        {
+         "en": "menu",
+         "ru": "меню"
+        },
+        {
+         "en": "bill",
+         "ru": "счёт"
+        }
+       ]
+      },
+      {
+       "id": "a1_table_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I'd [like] a cup of tea, please.",
+         "options": [
+          "like",
+          "want",
+          "love"
+         ],
+         "ru": "Мне, пожалуйста, чашку чая.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Can I [have] the menu, please?",
+         "options": [
+          "have",
+          "take",
+          "give"
+         ],
+         "ru": "Можно меню, пожалуйста?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "A [glass] of water, please.",
+         "options": [
+          "glass",
+          "piece",
+          "cup of"
+         ],
+         "ru": "Стакан воды, пожалуйста.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Can I pay [by] card?",
+         "options": [
+          "by",
+          "with",
+          "on"
+         ],
+         "ru": "Можно оплатить картой?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какое слово несчётное?",
+         "options": [
+          "milk",
+          "apple",
+          "egg"
+         ],
+         "answer": "milk",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "lunch — это…",
+         "options": [
+          "обед",
+          "ужин",
+          "завтрак"
+         ],
+         "answer": "обед",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'd like",
+          "the soup",
+          "and",
+          "a salad."
+         ],
+         "ru": "Мне суп и салат.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Can I",
+          "have",
+          "the bill,",
+          "please?"
+         ],
+         "ru": "Можно счёт, пожалуйста?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "We",
+          "have dinner",
+          "at seven."
+         ],
+         "ru": "Мы ужинаем в семь.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Еда и напитки",
+         "В кафе и ресторане",
+         "Would like"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_table_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "A table for two, please.",
+         "ru": "Столик на двоих, пожалуйста."
+        },
+        {
+         "en": "What do you recommend?",
+         "ru": "Что вы посоветуете?"
+        },
+        {
+         "en": "It's delicious!",
+         "ru": "Очень вкусно!"
+        },
+        {
+         "en": "Anything else?",
+         "ru": "Что-нибудь ещё?"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Anything else?",
+         "options": [
+          "Что-нибудь ещё?",
+          "Что-нибудь выпить?",
+          "Всё хорошо?"
+         ],
+         "answer": "Что-нибудь ещё?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "A table for two, please.",
+         "options": [
+          "Столик на двоих, пожалуйста.",
+          "Два чая, пожалуйста.",
+          "Счёт на двоих."
+         ],
+         "answer": "Столик на двоих, пожалуйста.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It's delicious!",
+         "options": [
+          "Очень вкусно!",
+          "Очень дорого!",
+          "Очень горячо!"
+         ],
+         "answer": "Очень вкусно!",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мне, пожалуйста, кофе.",
+         "en": "I'd like a coffee, please.",
+         "alts": [
+          "I would like a coffee, please.",
+          "A coffee, please."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Можно меню?",
+         "en": "Can I have the menu?",
+         "alts": [
+          "Can I have the menu, please?",
+          "Could I have the menu?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "стакан воды",
+         "en": "a glass of water",
+         "alts": [
+          "glass of water"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_table_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Еда и напитки",
+         "В кафе и ресторане",
+         "Would like"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_ask",
+     "side": "root",
+     "title": "Спроси меня",
+     "subtitle": "Do, does и вопросительные слова",
+     "emoji": "❓",
+     "cards": [
+      "cards_questions"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_ask_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Вопрос с do",
+         "text": "В Present Simple вопрос строят с помощником do (does для he, she, it): Do you like music? Does she work here? Глагол после does — без -s.",
+         "examples": [
+          {
+           "en": "Do you speak English?",
+           "ru": "Ты говоришь по-английски?"
+          },
+          {
+           "en": "Does he live here?",
+           "ru": "Он живёт здесь?"
+          }
+         ],
+         "tip": "Does she work? — правильно. Does she works? — ошибка."
+        },
+        {
+         "heading": "Короткий ответ",
+         "text": "Отвечают не просто Yes, а Yes, I do / No, I don't, Yes, she does / No, she doesn't. С be — Yes, I am / No, it isn't.",
+         "examples": [
+          {
+           "en": "Do you like cats? — Yes, I do.",
+           "ru": "Ты любишь кошек? — Да."
+          },
+          {
+           "en": "Is it far? — No, it isn't.",
+           "ru": "Это далеко? — Нет."
+          }
+         ]
+        },
+        {
+         "heading": "Вопросительные слова",
+         "text": "what — что, where — где, when — когда, who — кто, why — почему, how — как, how many — сколько (штук), how much — сколько (денег, воды). Слово стоит первым: Where do you live?",
+         "examples": [
+          {
+           "en": "What do you do?",
+           "ru": "Чем ты занимаешься?"
+          },
+          {
+           "en": "Where is the station?",
+           "ru": "Где вокзал?"
+          },
+          {
+           "en": "Why are you late?",
+           "ru": "Почему ты опоздал?"
+          }
+         ]
+        },
+        {
+         "heading": "Если не понял",
+         "text": "Не бойся переспросить: Sorry? / Pardon? — «Простите?», What does it mean? — «Что это значит?», Could you speak slowly, please? — «Не могли бы вы говорить медленнее?»",
+         "examples": [
+          {
+           "en": "What does «cosy» mean?",
+           "ru": "Что значит «cosy»?"
+          },
+          {
+           "en": "Could you say it again?",
+           "ru": "Можете повторить?"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "___ you like tea?",
+         "options": [
+          "Do",
+          "Does",
+          "Are"
+         ],
+         "answer": "Do",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Does she ___ in a bank?",
+         "options": [
+          "work",
+          "works",
+          "working"
+         ],
+         "answer": "work",
+         "why": "После does глагол без -s."
+        },
+        {
+         "type": "choice",
+         "q": "Спроси «Где ты живёшь?»",
+         "options": [
+          "Where do you live?",
+          "Where you live?",
+          "Where are you live?"
+         ],
+         "answer": "Where do you live?",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_ask_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "question",
+         "ru": "вопрос"
+        },
+        {
+         "en": "answer",
+         "ru": "ответ"
+        },
+        {
+         "en": "what",
+         "ru": "что"
+        },
+        {
+         "en": "where",
+         "ru": "где"
+        },
+        {
+         "en": "when",
+         "ru": "когда"
+        },
+        {
+         "en": "who",
+         "ru": "кто"
+        },
+        {
+         "en": "why",
+         "ru": "почему"
+        },
+        {
+         "en": "how",
+         "ru": "как"
+        },
+        {
+         "en": "mean",
+         "ru": "значить"
+        },
+        {
+         "en": "understand",
+         "ru": "понимать"
+        }
+       ]
+      },
+      {
+       "id": "a1_ask_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "[Do] you speak English?",
+         "options": [
+          "Do",
+          "Does",
+          "Are"
+         ],
+         "ru": "Ты говоришь по-английски?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Does] your brother play tennis?",
+         "options": [
+          "Does",
+          "Do",
+          "Is"
+         ],
+         "ru": "Твой брат играет в теннис?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Where] is the toilet, please?",
+         "options": [
+          "Where",
+          "What",
+          "Who"
+         ],
+         "ru": "Где туалет, пожалуйста?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Why] are you sad?",
+         "options": [
+          "Why",
+          "When",
+          "How"
+         ],
+         "ru": "Почему ты грустишь?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "How [many] brothers have you got?",
+         "options": [
+          "many",
+          "much",
+          "more"
+         ],
+         "ru": "Сколько у тебя братьев?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Ответ на Does she like pizza?",
+         "options": [
+          "Yes, she does.",
+          "Yes, she likes.",
+          "Yes, she is."
+         ],
+         "answer": "Yes, she does.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "What",
+          "do you",
+          "do",
+          "at the weekend?"
+         ],
+         "ru": "Что ты делаешь на выходных?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "When",
+          "does",
+          "the film",
+          "start?"
+         ],
+         "ru": "Когда начинается фильм?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "What",
+          "does",
+          "this word",
+          "mean?"
+         ],
+         "ru": "Что значит это слово?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Questions",
+         "Если не понял"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_ask_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "Sorry?",
+         "ru": "Простите? (не расслышал)"
+        },
+        {
+         "en": "What does it mean?",
+         "ru": "Что это значит?"
+        },
+        {
+         "en": "Could you speak more slowly, please?",
+         "ru": "Не могли бы вы говорить медленнее?"
+        },
+        {
+         "en": "I see.",
+         "ru": "Понятно."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "What do you do?",
+         "options": [
+          "Чем ты занимаешься?",
+          "Что ты делаешь сейчас?",
+          "Как дела?"
+         ],
+         "answer": "Чем ты занимаешься?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Where do you live?",
+         "options": [
+          "Где ты живёшь?",
+          "Когда ты живёшь?",
+          "Как ты живёшь?"
+         ],
+         "answer": "Где ты живёшь?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I see.",
+         "options": [
+          "Понятно.",
+          "Я вижу тебя.",
+          "Посмотри."
+         ],
+         "answer": "Понятно.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Ты любишь музыку?",
+         "en": "Do you like music?",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Что это значит?",
+         "en": "What does it mean?",
+         "alts": [
+          "What does this mean?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Где вокзал?",
+         "en": "Where is the station?",
+         "alts": [
+          "Where's the station?"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_ask_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Questions",
+         "Если не понял"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_city",
+     "side": "crown",
+     "title": "Город и путь",
+     "subtitle": "Места, дорога и просьбы",
+     "emoji": "🧭",
+     "cards": [
+      "cards_city",
+      "cards_directions",
+      "cards_imperative"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_city_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Места в городе",
+         "text": "street — улица, square — площадь, station — вокзал/станция, bus stop — остановка, bank — банк, shop — магазин, chemist's — аптека, park — парк, museum — музей.",
+         "examples": [
+          {
+           "en": "The museum is in the main square.",
+           "ru": "Музей на главной площади."
+          },
+          {
+           "en": "Is there a chemist's near here?",
+           "ru": "Здесь есть аптека?"
+          }
+         ]
+        },
+        {
+         "heading": "Как пройти",
+         "text": "Спросить: Excuse me, how do I get to the station? Ответы: go straight on — идите прямо, turn left/right — поверните налево/направо, it's on the left — это слева, it's next to the bank — рядом с банком.",
+         "examples": [
+          {
+           "en": "Go straight on and turn left.",
+           "ru": "Идите прямо и поверните налево."
+          },
+          {
+           "en": "It's opposite the park.",
+           "ru": "Это напротив парка."
+          }
+         ],
+         "tip": "Excuse me — чтобы обратиться к незнакомому человеку."
+        },
+        {
+         "heading": "Команды и просьбы",
+         "text": "Повелительное наклонение — просто глагол: Stop! Wait! Look! Вежливо — с please: Sit down, please. Запрет — Don't: Don't run! Предложить вместе — Let's: Let's go!",
+         "examples": [
+          {
+           "en": "Take the first left.",
+           "ru": "Первый поворот налево."
+          },
+          {
+           "en": "Don't worry.",
+           "ru": "Не волнуйся."
+          },
+          {
+           "en": "Let's take a taxi.",
+           "ru": "Давай возьмём такси."
+          }
+         ]
+        },
+        {
+         "heading": "Транспорт",
+         "text": "by bus — на автобусе, by taxi, by train, on foot — пешком. Take the bus — сесть на автобус. Билет — ticket.",
+         "examples": [
+          {
+           "en": "I go to work by bus.",
+           "ru": "Я езжу на работу на автобусе."
+          },
+          {
+           "en": "It's ten minutes on foot.",
+           "ru": "Это десять минут пешком."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Как обратиться к прохожему?",
+         "options": [
+          "Excuse me…",
+          "Sorry me…",
+          "Hey you!"
+         ],
+         "answer": "Excuse me…",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "turn right —",
+         "options": [
+          "поверните направо",
+          "идите прямо",
+          "поверните налево"
+         ],
+         "answer": "поверните направо",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Не беги!» —",
+         "options": [
+          "Don't run!",
+          "No run!",
+          "Not run!"
+         ],
+         "answer": "Don't run!",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_city_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "street",
+         "ru": "улица"
+        },
+        {
+         "en": "station",
+         "ru": "вокзал, станция"
+        },
+        {
+         "en": "park",
+         "ru": "парк"
+        },
+        {
+         "en": "shop",
+         "ru": "магазин"
+        },
+        {
+         "en": "bank",
+         "ru": "банк"
+        },
+        {
+         "en": "bus",
+         "ru": "автобус"
+        },
+        {
+         "en": "taxi",
+         "ru": "такси"
+        },
+        {
+         "en": "left",
+         "ru": "лево, налево"
+        },
+        {
+         "en": "right",
+         "ru": "право, направо"
+        },
+        {
+         "en": "ticket",
+         "ru": "билет"
+        },
+        {
+         "en": "map",
+         "ru": "карта"
+        }
+       ]
+      },
+      {
+       "id": "a1_city_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Go straight [on] and turn left.",
+         "options": [
+          "on",
+          "in",
+          "at"
+         ],
+         "ru": "Идите прямо и поверните налево.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "The bank is [next] to the café.",
+         "options": [
+          "next",
+          "near to",
+          "opposite to"
+         ],
+         "ru": "Банк рядом с кафе.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "How do I [get] to the station?",
+         "options": [
+          "get",
+          "go to",
+          "come"
+         ],
+         "ru": "Как добраться до вокзала?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Don't] cross the road here.",
+         "options": [
+          "Don't",
+          "Not",
+          "No"
+         ],
+         "ru": "Не переходите дорогу здесь.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I go to work [by] bus.",
+         "options": [
+          "by",
+          "on",
+          "with"
+         ],
+         "ru": "Я езжу на работу на автобусе.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«пешком» —",
+         "options": [
+          "on foot",
+          "by foot",
+          "with feet"
+         ],
+         "answer": "on foot",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Excuse me,",
+          "where is",
+          "the bus stop?"
+         ],
+         "ru": "Простите, где остановка?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Turn",
+          "right",
+          "at the bank."
+         ],
+         "ru": "Поверните направо у банка.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Let's",
+          "take",
+          "a taxi."
+         ],
+         "ru": "Давай возьмём такси.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Как пройти",
+         "Город и места",
+         "Повелительное наклонение"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_city_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "Excuse me!",
+         "ru": "Простите! (обратиться)"
+        },
+        {
+         "en": "Is it far?",
+         "ru": "Это далеко?"
+        },
+        {
+         "en": "It's on the left.",
+         "ru": "Это слева."
+        },
+        {
+         "en": "Take the first right.",
+         "ru": "Первый поворот направо."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "It's on the left.",
+         "options": [
+          "Это слева.",
+          "Это справа.",
+          "Это прямо."
+         ],
+         "answer": "Это слева.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Is it far?",
+         "options": [
+          "Это далеко?",
+          "Это рядом?",
+          "Это быстро?"
+         ],
+         "answer": "Это далеко?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Go straight on.",
+         "options": [
+          "Идите прямо.",
+          "Поверните налево.",
+          "Остановитесь."
+         ],
+         "answer": "Идите прямо.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Это далеко?",
+         "en": "Is it far?",
+         "alts": [
+          "Is it far from here?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Поверните налево.",
+         "en": "Turn left.",
+         "alts": [
+          "Turn left"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Где вокзал?",
+         "en": "Where is the station?",
+         "alts": [
+          "Where's the station?"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_city_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Как пройти",
+         "Город и места",
+         "Повелительное наклонение"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_now",
+     "side": "root",
+     "title": "Прямо сейчас",
+     "subtitle": "Present Continuous: что происходит в эту минуту",
+     "emoji": "⏳",
+     "cards": [
+      "cards_presentcont",
+      "cards_tensechoice"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_now_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Сейчас, в процессе",
+         "text": "Когда действие идёт прямо сейчас, говорят am/is/are + глагол с -ing: I am reading. She is cooking. They are playing.",
+         "examples": [
+          {
+           "en": "I'm reading a book.",
+           "ru": "Я читаю книгу (сейчас)."
+          },
+          {
+           "en": "Look! It's raining.",
+           "ru": "Смотри! Идёт дождь."
+          }
+         ]
+        },
+        {
+         "heading": "Как прибавить -ing",
+         "text": "Обычно просто -ing: work → working. Немая e уходит: make → making. Короткий слог с одной гласной — удвоение согласной: run → running, swim → swimming, sit → sitting.",
+         "examples": [
+          {
+           "en": "She's making tea.",
+           "ru": "Она заваривает чай."
+          },
+          {
+           "en": "The kids are swimming.",
+           "ru": "Дети плавают."
+          }
+         ]
+        },
+        {
+         "heading": "Не делаю и делаешь ли",
+         "text": "Отрицание — not после be: I'm not working. Вопрос — be вперёд: Are you listening? What are you doing?",
+         "examples": [
+          {
+           "en": "He isn't sleeping.",
+           "ru": "Он не спит."
+          },
+          {
+           "en": "What are you doing? — I'm cooking.",
+           "ru": "Что делаешь? — Готовлю."
+          }
+         ]
+        },
+        {
+         "heading": "Всегда или сейчас?",
+         "text": "Present Simple — обычно, всегда, каждый день. Present Continuous — сейчас, в этот момент. Сравни: I work in a bank (это моя работа). — I'm working now (занят прямо сейчас).",
+         "examples": [
+          {
+           "en": "I usually walk, but today I'm taking a taxi.",
+           "ru": "Обычно я хожу пешком, но сегодня еду на такси."
+          }
+         ],
+         "tip": "Слова-подсказки: now, at the moment, look!, listen! — Continuous. every day, usually — Simple."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Look! She ___.",
+         "options": [
+          "is dancing",
+          "dances",
+          "dance"
+         ],
+         "answer": "is dancing",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "-ing от swim:",
+         "options": [
+          "swimming",
+          "swiming",
+          "swimmeing"
+         ],
+         "answer": "swimming",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "I usually ___ tea, but now I'm drinking coffee.",
+         "options": [
+          "drink",
+          "am drinking",
+          "drinking"
+         ],
+         "answer": "drink",
+         "why": "usually — привычка, Present Simple."
+        }
+       ]
+      },
+      {
+       "id": "a1_now_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "now",
+         "ru": "сейчас"
+        },
+        {
+         "en": "today",
+         "ru": "сегодня"
+        },
+        {
+         "en": "walk",
+         "ru": "гулять, идти пешком"
+        },
+        {
+         "en": "run",
+         "ru": "бежать"
+        },
+        {
+         "en": "swim",
+         "ru": "плавать"
+        },
+        {
+         "en": "cook",
+         "ru": "готовить"
+        },
+        {
+         "en": "sleep",
+         "ru": "спать"
+        },
+        {
+         "en": "wait",
+         "ru": "ждать"
+        },
+        {
+         "en": "rain",
+         "ru": "дождь; идти (о дожде)"
+        },
+        {
+         "en": "moment",
+         "ru": "момент"
+        }
+       ]
+      },
+      {
+       "id": "a1_now_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Be quiet! The baby [is sleeping].",
+         "options": [
+          "is sleeping",
+          "sleeps",
+          "sleep"
+         ],
+         "ru": "Тише! Малыш спит.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "What [are] you doing?",
+         "options": [
+          "are",
+          "do",
+          "is"
+         ],
+         "ru": "Что ты делаешь?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I [am not] working today.",
+         "options": [
+          "am not",
+          "don't",
+          "isn't"
+         ],
+         "ru": "Я сегодня не работаю.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "They are [running] in the park.",
+         "options": [
+          "running",
+          "runing",
+          "run"
+         ],
+         "ru": "Они бегают в парке.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "He [plays] football every Sunday.",
+         "options": [
+          "plays",
+          "is playing",
+          "playing"
+         ],
+         "ru": "Он играет в футбол каждое воскресенье.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Подожди, я разговариваю по телефону» —",
+         "options": [
+          "Wait, I'm talking on the phone.",
+          "Wait, I talk on the phone.",
+          "Wait, I talking on the phone."
+         ],
+         "answer": "Wait, I'm talking on the phone.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'm",
+          "waiting",
+          "for the bus."
+         ],
+         "ru": "Я жду автобус.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Are",
+          "you",
+          "listening",
+          "to me?"
+         ],
+         "ru": "Ты меня слушаешь?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "It's",
+          "raining",
+          "again."
+         ],
+         "ru": "Опять идёт дождь.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Present Continuous",
+         "Какое время выбрать"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_now_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "What are you doing?",
+         "ru": "Что ты делаешь?"
+        },
+        {
+         "en": "I'm on my way.",
+         "ru": "Я уже в пути."
+        },
+        {
+         "en": "I'm just looking.",
+         "ru": "Я просто смотрю."
+        },
+        {
+         "en": "Hold on!",
+         "ru": "Подожди!"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "I'm on my way.",
+         "options": [
+          "Я уже в пути.",
+          "Я на месте.",
+          "Я иду домой."
+         ],
+         "answer": "Я уже в пути.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "She's cooking dinner.",
+         "options": [
+          "Она готовит ужин.",
+          "Она ест ужин.",
+          "Она любит готовить."
+         ],
+         "answer": "Она готовит ужин.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I'm just looking.",
+         "options": [
+          "Я просто смотрю.",
+          "Я ищу.",
+          "Я только пришёл."
+         ],
+         "answer": "Я просто смотрю.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Что ты делаешь?",
+         "en": "What are you doing?",
+         "alts": [
+          "What are you doing"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Идёт дождь.",
+         "en": "It's raining.",
+         "alts": [
+          "It is raining."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я жду автобус.",
+         "en": "I'm waiting for the bus.",
+         "alts": [
+          "I am waiting for the bus."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_now_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Present Continuous",
+         "Какое время выбрать"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_likes",
+     "side": "crown",
+     "title": "Вкусы и дела",
+     "subtitle": "Хобби, «люблю» и «умею»",
+     "emoji": "🎨",
+     "cards": [
+      "cards_hobbies"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_likes_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Люблю и не люблю",
+         "text": "like — нравится, love — очень люблю, hate — терпеть не могу, don't mind — не против. После них действие — с -ing: I love swimming. I hate waiting.",
+         "examples": [
+          {
+           "en": "I like reading.",
+           "ru": "Мне нравится читать."
+          },
+          {
+           "en": "She loves dancing.",
+           "ru": "Она обожает танцевать."
+          }
+         ]
+        },
+        {
+         "heading": "Умею: can",
+         "text": "can — «могу, умею». После can глагол без to и без -s: She can swim. Нет — can't: I can't drive. Вопрос — Can you…?",
+         "examples": [
+          {
+           "en": "I can play the guitar.",
+           "ru": "Я умею играть на гитаре."
+          },
+          {
+           "en": "Can you cook? — Yes, I can.",
+           "ru": "Ты умеешь готовить? — Да."
+          }
+         ],
+         "tip": "He can swim — без -s. «He cans» не бывает."
+        },
+        {
+         "heading": "play, go, do",
+         "text": "Игры с мячом — play: play football, play tennis. Занятия на -ing — go: go swimming, go running. Остальное — do: do yoga, do sport.",
+         "examples": [
+          {
+           "en": "We play chess on Fridays.",
+           "ru": "Мы играем в шахматы по пятницам."
+          },
+          {
+           "en": "Let's go skiing!",
+           "ru": "Поехали кататься на лыжах!"
+          }
+         ]
+        },
+        {
+         "heading": "Свободное время",
+         "text": "free time — свободное время. What do you do in your free time? — Чем занимаешься в свободное время? Ответ: I usually… / I like…",
+         "examples": [
+          {
+           "en": "In my free time I draw.",
+           "ru": "В свободное время я рисую."
+          },
+          {
+           "en": "I'm into music.",
+           "ru": "Я увлекаюсь музыкой."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "I love ___.",
+         "options": [
+          "dancing",
+          "dance to",
+          "to dancing"
+         ],
+         "answer": "dancing",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "She ___ drive.",
+         "options": [
+          "can't",
+          "doesn't can",
+          "not can"
+         ],
+         "answer": "can't",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "___ tennis",
+         "options": [
+          "play",
+          "go",
+          "do"
+         ],
+         "answer": "play",
+         "why": "Игры с мячом — play."
+        }
+       ]
+      },
+      {
+       "id": "a1_likes_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "hobby",
+         "ru": "хобби"
+        },
+        {
+         "en": "music",
+         "ru": "музыка"
+        },
+        {
+         "en": "film",
+         "ru": "фильм"
+        },
+        {
+         "en": "game",
+         "ru": "игра"
+        },
+        {
+         "en": "sport",
+         "ru": "спорт"
+        },
+        {
+         "en": "dance",
+         "ru": "танцевать"
+        },
+        {
+         "en": "sing",
+         "ru": "петь"
+        },
+        {
+         "en": "draw",
+         "ru": "рисовать"
+        },
+        {
+         "en": "swim",
+         "ru": "плавать"
+        },
+        {
+         "en": "free",
+         "ru": "свободный"
+        }
+       ]
+      },
+      {
+       "id": "a1_likes_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I [like] reading books.",
+         "options": [
+          "like",
+          "can",
+          "am"
+         ],
+         "ru": "Мне нравится читать книги.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "He can [play] the piano.",
+         "options": [
+          "play",
+          "plays",
+          "to play"
+         ],
+         "ru": "Он умеет играть на пианино.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Let's go [swimming] on Saturday.",
+         "options": [
+          "swimming",
+          "swim",
+          "to swim"
+         ],
+         "ru": "Пойдём плавать в субботу.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She [does] yoga every morning.",
+         "options": [
+          "does",
+          "plays",
+          "goes"
+         ],
+         "ru": "Она делает йогу каждое утро.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Can] you sing?",
+         "options": [
+          "Can",
+          "Do",
+          "Are"
+         ],
+         "ru": "Ты умеешь петь?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Терпеть не могу ждать» —",
+         "options": [
+          "I hate waiting.",
+          "I hate wait.",
+          "I hating waiting."
+         ],
+         "answer": "I hate waiting.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "What",
+          "do you do",
+          "in your",
+          "free time?"
+         ],
+         "ru": "Чем ты занимаешься в свободное время?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "can't",
+          "swim",
+          "very well."
+         ],
+         "ru": "Я не очень хорошо плаваю.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "We",
+          "play",
+          "football",
+          "on Sundays."
+         ],
+         "ru": "Мы играем в футбол по воскресеньям.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Хобби и спорт"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_likes_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "I'm into music.",
+         "ru": "Я увлекаюсь музыкой."
+        },
+        {
+         "en": "Me too!",
+         "ru": "Я тоже!"
+        },
+        {
+         "en": "Not really.",
+         "ru": "Не особо."
+        },
+        {
+         "en": "Sounds great!",
+         "ru": "Звучит здорово!"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Me too!",
+         "options": [
+          "Я тоже!",
+          "Мне тоже нет.",
+          "Только я!"
+         ],
+         "answer": "Я тоже!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Sounds great!",
+         "options": [
+          "Звучит здорово!",
+          "Очень громко!",
+          "Отличный звук!"
+         ],
+         "answer": "Звучит здорово!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Can you dance?",
+         "options": [
+          "Ты умеешь танцевать?",
+          "Ты любишь танцевать?",
+          "Давай танцевать?"
+         ],
+         "answer": "Ты умеешь танцевать?",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я люблю музыку.",
+         "en": "I love music.",
+         "alts": [
+          "I like music."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я умею плавать.",
+         "en": "I can swim.",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я тоже!",
+         "en": "Me too!",
+         "alts": [
+          "Me too"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_likes_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Хобби и спорт"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_past",
+     "side": "root",
+     "title": "Вчерашний день",
+     "subtitle": "Past Simple: was, were и -ed",
+     "emoji": "📜",
+     "cards": [
+      "cards_pastsimp",
+      "cards_therewaswere"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_past_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Был, были: was, were",
+         "text": "Прошедшее от be: I, he, she, it — was; you, we, they — were. Yesterday I was at home. They were happy.",
+         "examples": [
+          {
+           "en": "I was tired yesterday.",
+           "ru": "Вчера я устал."
+          },
+          {
+           "en": "We were in Paris last year.",
+           "ru": "В прошлом году мы были в Париже."
+          }
+         ]
+        },
+        {
+         "heading": "Правильные глаголы: -ed",
+         "text": "У большинства глаголов прошедшее — с -ed, одинаково для всех: work → worked, play → played, watch → watched. Немая e: live → lived.",
+         "examples": [
+          {
+           "en": "I watched a film last night.",
+           "ru": "Вчера вечером я смотрел фильм."
+          },
+          {
+           "en": "She called me.",
+           "ru": "Она мне позвонила."
+          }
+         ]
+        },
+        {
+         "heading": "Неправильные — наизусть",
+         "text": "Самые нужные: go → went, have → had, see → saw, do → did, get → got, buy → bought, eat → ate, come → came. Их нет смысла выводить — их запоминают.",
+         "examples": [
+          {
+           "en": "We went to the sea.",
+           "ru": "Мы ездили на море."
+          },
+          {
+           "en": "I saw Tom yesterday.",
+           "ru": "Я вчера видел Тома."
+          },
+          {
+           "en": "She bought a dress.",
+           "ru": "Она купила платье."
+          }
+         ],
+         "tip": "Учи по три формы сразу, когда встречаешь: go — went — gone."
+        },
+        {
+         "heading": "Не и разве: did",
+         "text": "Отрицание и вопрос в прошлом — с did, а глагол возвращается в начальную форму: I didn't go. Did you see it? — Yes, I did.",
+         "examples": [
+          {
+           "en": "I didn't sleep well.",
+           "ru": "Я плохо спал."
+          },
+          {
+           "en": "Did you have a good time?",
+           "ru": "Ты хорошо провёл время?"
+          }
+         ],
+         "tip": "Did you went? — ошибка: после did глагол без -ed и без особой формы."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "They ___ at school yesterday.",
+         "options": [
+          "were",
+          "was",
+          "are"
+         ],
+         "answer": "were",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Прошедшее от go:",
+         "options": [
+          "went",
+          "goed",
+          "gone"
+         ],
+         "answer": "went",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Did you ___ the film?",
+         "options": [
+          "see",
+          "saw",
+          "seen"
+         ],
+         "answer": "see",
+         "why": "После did — начальная форма."
+        }
+       ]
+      },
+      {
+       "id": "a1_past_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "yesterday",
+         "ru": "вчера"
+        },
+        {
+         "en": "last",
+         "ru": "прошлый"
+        },
+        {
+         "en": "ago",
+         "ru": "тому назад"
+        },
+        {
+         "en": "week",
+         "ru": "неделя"
+        },
+        {
+         "en": "year",
+         "ru": "год"
+        },
+        {
+         "en": "visit",
+         "ru": "посещать"
+        },
+        {
+         "en": "buy",
+         "ru": "покупать"
+        },
+        {
+         "en": "see",
+         "ru": "видеть"
+        },
+        {
+         "en": "come",
+         "ru": "приходить"
+        },
+        {
+         "en": "travel",
+         "ru": "путешествовать"
+        }
+       ]
+      },
+      {
+       "id": "a1_past_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I [was] at the cinema last night.",
+         "options": [
+          "was",
+          "were",
+          "am"
+         ],
+         "ru": "Вчера вечером я был в кино.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We [visited] our grandma on Sunday.",
+         "options": [
+          "visited",
+          "visit",
+          "visiting"
+         ],
+         "ru": "В воскресенье мы навестили бабушку.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She [didn't] come to the party.",
+         "options": [
+          "didn't",
+          "doesn't",
+          "wasn't"
+         ],
+         "ru": "Она не пришла на вечеринку.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[Did] you have breakfast?",
+         "options": [
+          "Did",
+          "Do",
+          "Were"
+         ],
+         "ru": "Ты завтракал?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "There [were] a lot of people in the park.",
+         "options": [
+          "were",
+          "was",
+          "are"
+         ],
+         "ru": "В парке было много людей.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Прошедшее от buy:",
+         "options": [
+          "bought",
+          "buyed",
+          "brought"
+         ],
+         "answer": "bought",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "saw",
+          "a great film",
+          "yesterday."
+         ],
+         "ru": "Вчера я посмотрел отличный фильм.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "We",
+          "went",
+          "to the sea",
+          "last summer."
+         ],
+         "ru": "Прошлым летом мы ездили на море.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Did",
+          "you",
+          "sleep",
+          "well?"
+         ],
+         "ru": "Ты хорошо спал?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Past Simple",
+         "There was / There were"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_past_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "How was your day?",
+         "ru": "Как прошёл день?"
+        },
+        {
+         "en": "Long time no see!",
+         "ru": "Сто лет не виделись!"
+        },
+        {
+         "en": "It was fun.",
+         "ru": "Было весело."
+        },
+        {
+         "en": "What happened?",
+         "ru": "Что случилось?"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "How was your day?",
+         "options": [
+          "Как прошёл день?",
+          "Какой сегодня день?",
+          "Как твои дела?"
+         ],
+         "answer": "Как прошёл день?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "What happened?",
+         "options": [
+          "Что случилось?",
+          "Что происходит?",
+          "Что будет?"
+         ],
+         "answer": "Что случилось?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I didn't sleep well.",
+         "options": [
+          "Я плохо спал.",
+          "Я хорошо спал.",
+          "Я не хочу спать."
+         ],
+         "answer": "Я плохо спал.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Вчера я был дома.",
+         "en": "I was at home yesterday.",
+         "alts": [
+          "Yesterday I was at home.",
+          "I was home yesterday."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мы ездили в Лондон.",
+         "en": "We went to London.",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Было весело.",
+         "en": "It was fun.",
+         "alts": [
+          "It was fun"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_past_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Past Simple",
+         "There was / There were"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "a1_crown",
+     "side": "crown",
+     "title": "Первая крона",
+     "subtitle": "Погода, одежда и рассказ о себе",
+     "emoji": "🌳",
+     "cards": [
+      "cards_weather",
+      "cards_clothes",
+      "cards_aboutme"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a1_crown_sprout",
+       "kind": "theory",
+       "xp": 40,
+       "blocks": [
+        {
+         "heading": "Какая погода",
+         "text": "Погода — через It's: It's sunny, it's cloudy, it's windy, it's cold, it's hot. Идёт дождь — It's raining, идёт снег — It's snowing. Спросить: What's the weather like?",
+         "examples": [
+          {
+           "en": "What's the weather like today? — It's sunny and warm.",
+           "ru": "Какая сегодня погода? — Солнечно и тепло."
+          },
+          {
+           "en": "It's snowing!",
+           "ru": "Идёт снег!"
+          }
+         ],
+         "tip": "Англичане говорят о погоде постоянно — это лучший способ начать разговор."
+        },
+        {
+         "heading": "Что надеть",
+         "text": "coat — пальто, jacket — куртка, jumper — свитер, shirt — рубашка, T-shirt — футболка, trousers — брюки, jeans — джинсы, dress — платье, shoes — туфли, boots — ботинки. «Надевать» — put on, «быть в» — wear.",
+         "examples": [
+          {
+           "en": "Put on your coat, it's cold.",
+           "ru": "Надень пальто, холодно."
+          },
+          {
+           "en": "She's wearing a red dress.",
+           "ru": "На ней красное платье."
+          }
+         ]
+        },
+        {
+         "heading": "Расскажи о себе",
+         "text": "Всё, что ты уже умеешь, складывается в рассказ: имя и откуда ты (I'm… from…), семья (I have…), работа и день (I work… I usually…), что любишь (I love…), что делал (Last weekend I…).",
+         "examples": [
+          {
+           "en": "I'm Ivan. I'm from Samara.",
+           "ru": "Я Иван, я из Самары."
+          },
+          {
+           "en": "I work as a designer and I love travelling.",
+           "ru": "Я работаю дизайнером и обожаю путешествовать."
+          },
+          {
+           "en": "Last summer I went to Turkey.",
+           "ru": "Прошлым летом я ездил в Турцию."
+          }
+         ],
+         "tip": "Это и есть первая крона: корни грамматики и ветви слов растут в одну речь."
+        },
+        {
+         "heading": "Связать мысли",
+         "text": "and — и, but — но, so — поэтому, because — потому что. Они делают из коротких фраз живую речь.",
+         "examples": [
+          {
+           "en": "It's cold, so I'm wearing a jumper.",
+           "ru": "Холодно, поэтому я в свитере."
+          },
+          {
+           "en": "I like London because it's beautiful.",
+           "ru": "Мне нравится Лондон, потому что он красивый."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Как спросить о погоде?",
+         "options": [
+          "What's the weather like?",
+          "How is weather?",
+          "What weather is?"
+         ],
+         "answer": "What's the weather like?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Идёт снег» —",
+         "options": [
+          "It's snowing.",
+          "It snows now.",
+          "Snow is going."
+         ],
+         "answer": "It's snowing.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "It's cold, ___ I'm wearing a coat.",
+         "options": [
+          "so",
+          "because",
+          "but"
+         ],
+         "answer": "so",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_crown_leaves",
+       "kind": "words",
+       "xp": 70,
+       "words": [
+        {
+         "en": "weather",
+         "ru": "погода"
+        },
+        {
+         "en": "sun",
+         "ru": "солнце"
+        },
+        {
+         "en": "cold",
+         "ru": "холодный"
+        },
+        {
+         "en": "hot",
+         "ru": "жаркий"
+        },
+        {
+         "en": "warm",
+         "ru": "тёплый"
+        },
+        {
+         "en": "coat",
+         "ru": "пальто"
+        },
+        {
+         "en": "jacket",
+         "ru": "куртка"
+        },
+        {
+         "en": "dress",
+         "ru": "платье"
+        },
+        {
+         "en": "shoes",
+         "ru": "туфли, обувь"
+        },
+        {
+         "en": "wear",
+         "ru": "носить (одежду)"
+        },
+        {
+         "en": "because",
+         "ru": "потому что"
+        }
+       ]
+      },
+      {
+       "id": "a1_crown_boughs",
+       "kind": "practice",
+       "xp": 90,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "It's [sunny] today, let's go to the park.",
+         "options": [
+          "sunny",
+          "sun",
+          "snowing"
+         ],
+         "ru": "Сегодня солнечно, пойдём в парк.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Put [on] your jacket.",
+         "options": [
+          "on",
+          "in",
+          "up"
+         ],
+         "ru": "Надень куртку.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She is [wearing] a blue dress.",
+         "options": [
+          "wearing",
+          "putting",
+          "dressing"
+         ],
+         "ru": "На ней голубое платье.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I love summer [because] it's warm.",
+         "options": [
+          "because",
+          "so",
+          "but"
+         ],
+         "ru": "Я люблю лето, потому что тепло.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Last weekend I [went] to the mountains.",
+         "options": [
+          "went",
+          "go",
+          "goes"
+         ],
+         "ru": "В прошлые выходные я ездил в горы.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какой рассказ о себе правильный?",
+         "options": [
+          "I'm Olga and I live in Perm.",
+          "I Olga and I living in Perm.",
+          "Me is Olga, live Perm."
+         ],
+         "answer": "I'm Olga and I live in Perm.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "It's",
+          "cold",
+          "and windy",
+          "today."
+         ],
+         "ru": "Сегодня холодно и ветрено.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "usually",
+          "wear",
+          "jeans."
+         ],
+         "ru": "Я обычно ношу джинсы.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'm",
+          "from Russia",
+          "and I",
+          "love travelling."
+         ],
+         "ru": "Я из России и обожаю путешествовать.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Погода и природа",
+         "Одежда",
+         "Рассказать о себе"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a1_crown_voice",
+       "kind": "speech",
+       "xp": 60,
+       "phrases": [
+        {
+         "en": "What's the weather like?",
+         "ru": "Какая погода?"
+        },
+        {
+         "en": "Lovely day, isn't it?",
+         "ru": "Прекрасный день, правда?"
+        },
+        {
+         "en": "Let me tell you about myself.",
+         "ru": "Позволь рассказать о себе."
+        },
+        {
+         "en": "That's all for now.",
+         "ru": "Пока всё."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Lovely day, isn't it?",
+         "options": [
+          "Прекрасный день, правда?",
+          "Какой сегодня день?",
+          "Хорошего дня!"
+         ],
+         "answer": "Прекрасный день, правда?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It's windy today.",
+         "options": [
+          "Сегодня ветрено.",
+          "Сегодня солнечно.",
+          "Сегодня холодно."
+         ],
+         "answer": "Сегодня ветрено.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Put on your coat.",
+         "options": [
+          "Надень пальто.",
+          "Сними пальто.",
+          "Купи пальто."
+         ],
+         "answer": "Надень пальто.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Какая сегодня погода?",
+         "en": "What's the weather like today?",
+         "alts": [
+          "What is the weather like today?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Холодно.",
+         "en": "It's cold.",
+         "alts": [
+          "It is cold."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я из России.",
+         "en": "I'm from Russia.",
+         "alts": [
+          "I am from Russia."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a1_crown_bind",
+       "kind": "review",
+       "xp": 70,
+       "sentences": {
+        "topics": [
+         "Погода и природа",
+         "Одежда",
+         "Рассказать о себе"
+        ],
+        "count": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "formirovanie",
+   "level": "A2",
+   "title": "Формирование",
+   "subtitle": "Ствол набирает силу",
+   "intro": "Древо выпрямляется и крепнет: прошлое и будущее, сравнения, обязанности, поездки и покупки.",
+   "planned": [
+    {
+     "side": "root",
+     "emoji": "🕰",
+     "title": "Две стороны прошлого",
+     "subtitle": "Past Simple и Past Continuous"
+    },
+    {
+     "side": "crown",
+     "emoji": "🧳",
+     "title": "Дорога зовёт",
+     "subtitle": "Вокзал, аэропорт, отель"
+    },
+    {
+     "side": "root",
+     "emoji": "🌟",
+     "title": "Опыт жизни",
+     "subtitle": "Present Perfect: ever, never, already"
+    },
+    {
+     "side": "crown",
+     "emoji": "🛍",
+     "title": "Примерочная",
+     "subtitle": "Покупки, размеры, возврат"
+    },
+    {
+     "side": "root",
+     "emoji": "🔮",
+     "title": "Завтрашний день",
+     "subtitle": "going to, will и планы"
+    },
+    {
+     "side": "crown",
+     "emoji": "🩺",
+     "title": "У врача",
+     "subtitle": "Самочувствие и советы"
+    },
+    {
+     "side": "root",
+     "emoji": "⚖️",
+     "title": "Больше и лучше",
+     "subtitle": "Сравнения: -er, the most"
+    },
+    {
+     "side": "crown",
+     "emoji": "💼",
+     "title": "Дело и учёба",
+     "subtitle": "Профессии, учёба, расписание"
+    },
+    {
+     "side": "root",
+     "emoji": "📦",
+     "title": "Сколько всего",
+     "subtitle": "some, any, much, many, a few"
+    },
+    {
+     "side": "crown",
+     "emoji": "🧑‍🤝‍🧑",
+     "title": "Люди вокруг",
+     "subtitle": "Внешность и характер"
+    },
+    {
+     "side": "root",
+     "emoji": "🚦",
+     "title": "Надо и можно",
+     "subtitle": "must, have to, should, may"
+    },
+    {
+     "side": "crown",
+     "emoji": "🎉",
+     "title": "Праздник",
+     "subtitle": "Приглашения и планы"
+    },
+    {
+     "side": "root",
+     "emoji": "🔗",
+     "title": "Если завтра",
+     "subtitle": "First Conditional"
+    },
+    {
+     "side": "crown",
+     "emoji": "🗺",
+     "title": "История поездки",
+     "subtitle": "Рассказ о путешествии"
+    }
+   ]
+  },
+  {
+   "id": "evolyuciya",
+   "level": "B1",
+   "title": "Эволюция",
+   "subtitle": "Крона раскидывается вширь",
+   "intro": "Речь становится гибкой: длинные рассказы, мнения, чужие слова и «если бы».",
+   "planned": [
+    {
+     "side": "root",
+     "emoji": "⏱",
+     "title": "Долгий путь",
+     "subtitle": "Present Perfect Continuous"
+    },
+    {
+     "side": "crown",
+     "emoji": "📰",
+     "title": "Новости дня",
+     "subtitle": "Медиа и события"
+    },
+    {
+     "side": "root",
+     "emoji": "🧩",
+     "title": "Раньше раньшего",
+     "subtitle": "Past Perfect"
+    },
+    {
+     "side": "crown",
+     "emoji": "💬",
+     "title": "Моё мнение",
+     "subtitle": "Согласиться и поспорить"
+    },
+    {
+     "side": "root",
+     "emoji": "💭",
+     "title": "Если бы",
+     "subtitle": "Second Conditional"
+    },
+    {
+     "side": "crown",
+     "emoji": "✉️",
+     "title": "Письмо",
+     "subtitle": "Email и сообщения"
+    },
+    {
+     "side": "root",
+     "emoji": "🏗",
+     "title": "Сделано кем-то",
+     "subtitle": "Passive Voice"
+    },
+    {
+     "side": "crown",
+     "emoji": "🌍",
+     "title": "Природа и город",
+     "subtitle": "Экология и жизнь в городе"
+    },
+    {
+     "side": "root",
+     "emoji": "🗣",
+     "title": "Он сказал, что…",
+     "subtitle": "Reported Speech"
+    },
+    {
+     "side": "crown",
+     "emoji": "🎬",
+     "title": "Искусство",
+     "subtitle": "Кино, книги, музыка"
+    },
+    {
+     "side": "root",
+     "emoji": "🪢",
+     "title": "Тот, который",
+     "subtitle": "Relative Clauses"
+    },
+    {
+     "side": "crown",
+     "emoji": "🧠",
+     "title": "Привычки прошлого",
+     "subtitle": "used to и would"
+    },
+    {
+     "side": "root",
+     "emoji": "🔧",
+     "title": "Фразовые глаголы",
+     "subtitle": "get up, look after, give up"
+    },
+    {
+     "side": "crown",
+     "emoji": "🎤",
+     "title": "Рассказчик",
+     "subtitle": "Длинный устный рассказ"
+    }
+   ]
+  },
+  {
+   "id": "adaptaciya",
+   "level": "B2",
+   "title": "Адаптация",
+   "subtitle": "Древо выдерживает любой ветер",
+   "intro": "Язык под любую ситуацию: работа, споры, тонкие оттенки смысла.",
+   "planned": [
+    {
+     "side": "root",
+     "emoji": "⏪",
+     "title": "Если бы тогда",
+     "subtitle": "Third и смешанные условия"
+    },
+    {
+     "side": "crown",
+     "emoji": "🤝",
+     "title": "Деловой разговор",
+     "subtitle": "Встречи и переговоры"
+    },
+    {
+     "side": "root",
+     "emoji": "🌧",
+     "title": "Сожаления",
+     "subtitle": "wish и if only"
+    },
+    {
+     "side": "crown",
+     "emoji": "📊",
+     "title": "Аргументы",
+     "subtitle": "Эссе и доводы"
+    },
+    {
+     "side": "root",
+     "emoji": "🔍",
+     "title": "Догадки о прошлом",
+     "subtitle": "must have, might have"
+    },
+    {
+     "side": "crown",
+     "emoji": "🌐",
+     "title": "Разные культуры",
+     "subtitle": "Этикет и различия"
+    },
+    {
+     "side": "root",
+     "emoji": "🏛",
+     "title": "Сложный пассив",
+     "subtitle": "It is said that…"
+    },
+    {
+     "side": "crown",
+     "emoji": "🔬",
+     "title": "Наука и техника",
+     "subtitle": "Открытия и технологии"
+    },
+    {
+     "side": "root",
+     "emoji": "✂️",
+     "title": "Сделали за меня",
+     "subtitle": "have something done"
+    },
+    {
+     "side": "crown",
+     "emoji": "🎭",
+     "title": "Идиомы",
+     "subtitle": "Живые выражения"
+    },
+    {
+     "side": "root",
+     "emoji": "🌀",
+     "title": "Обороты",
+     "subtitle": "Причастные обороты"
+    },
+    {
+     "side": "crown",
+     "emoji": "🪶",
+     "title": "Мягкая речь",
+     "subtitle": "Hedging: вежливо и осторожно"
+    },
+    {
+     "side": "root",
+     "emoji": "🔁",
+     "title": "Инверсия",
+     "subtitle": "Never have I…"
+    },
+    {
+     "side": "crown",
+     "emoji": "⚔️",
+     "title": "Дебаты",
+     "subtitle": "Выступить и убедить"
+    }
+   ]
+  },
+  {
+   "id": "transformaciya",
+   "level": "C1",
+   "title": "Трансформация",
+   "subtitle": "Древо меняет лес вокруг",
+   "intro": "Стиль, регистр и подтекст: говорить так, чтобы слушали.",
+   "planned": [
+    {
+     "side": "root",
+     "emoji": "🧬",
+     "title": "Тонкие времена",
+     "subtitle": "Оттенки будущего и прошлого"
+    },
+    {
+     "side": "crown",
+     "emoji": "🎓",
+     "title": "Академический стиль",
+     "subtitle": "Статьи и доклады"
+    },
+    {
+     "side": "root",
+     "emoji": "🧱",
+     "title": "Существительное вместо глагола",
+     "subtitle": "Номинализация"
+    },
+    {
+     "side": "crown",
+     "emoji": "😏",
+     "title": "Ирония и подтекст",
+     "subtitle": "Что сказали на самом деле"
+    },
+    {
+     "side": "root",
+     "emoji": "🔦",
+     "title": "Акцент в предложении",
+     "subtitle": "Cleft sentences"
+    },
+    {
+     "side": "crown",
+     "emoji": "🤲",
+     "title": "Переговоры",
+     "subtitle": "Компромисс и давление"
+    },
+    {
+     "side": "root",
+     "emoji": "🪞",
+     "title": "Регистр",
+     "subtitle": "Формально и разговорно"
+    },
+    {
+     "side": "crown",
+     "emoji": "📚",
+     "title": "Литература",
+     "subtitle": "Чтение больших текстов"
+    },
+    {
+     "side": "root",
+     "emoji": "🧲",
+     "title": "Коллокации",
+     "subtitle": "Слова, которые дружат"
+    },
+    {
+     "side": "crown",
+     "emoji": "📡",
+     "title": "Медиаграмотность",
+     "subtitle": "Факты, мнения, манипуляции"
+    },
+    {
+     "side": "root",
+     "emoji": "🎼",
+     "title": "Ритм речи",
+     "subtitle": "Ударение и интонация"
+    },
+    {
+     "side": "crown",
+     "emoji": "🎙",
+     "title": "Выступление",
+     "subtitle": "Речь перед аудиторией"
+    }
+   ]
+  },
+  {
+   "id": "sovershenstvo",
+   "level": "C2",
+   "title": "Совершенство",
+   "subtitle": "Вековой дуб",
+   "intro": "Свобода языка: нюансы, игра слов и собственный стиль.",
+   "planned": [
+    {
+     "side": "root",
+     "emoji": "🔬",
+     "title": "Оттенки синонимов",
+     "subtitle": "Почти одно и то же"
+    },
+    {
+     "side": "crown",
+     "emoji": "🃏",
+     "title": "Игра слов",
+     "subtitle": "Юмор и каламбуры"
+    },
+    {
+     "side": "root",
+     "emoji": "🗝",
+     "title": "Редкие конструкции",
+     "subtitle": "Книжные обороты"
+    },
+    {
+     "side": "crown",
+     "emoji": "🗺",
+     "title": "Диалекты",
+     "subtitle": "Английский разных стран"
+    },
+    {
+     "side": "root",
+     "emoji": "🖋",
+     "title": "Стилистика",
+     "subtitle": "Свой голос в тексте"
+    },
+    {
+     "side": "crown",
+     "emoji": "⚖️",
+     "title": "Профессиональный язык",
+     "subtitle": "Право, медицина, финансы"
+    },
+    {
+     "side": "root",
+     "emoji": "🔄",
+     "title": "Перевод смысла",
+     "subtitle": "Не слова, а мысль"
+    },
+    {
+     "side": "crown",
+     "emoji": "🎨",
+     "title": "Поэтика",
+     "subtitle": "Метафоры и образы"
+    },
+    {
+     "side": "root",
+     "emoji": "🧘",
+     "title": "Импровизация",
+     "subtitle": "Говорить без подготовки"
+    },
+    {
+     "side": "crown",
+     "emoji": "👑",
+     "title": "Мастерство",
+     "subtitle": "Всё древо в одной речи"
+    }
+   ]
+  }
+ ]
+}
