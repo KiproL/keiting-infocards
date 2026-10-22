@@ -6088,91 +6088,5709 @@
    "level": "A2",
    "title": "Формирование",
    "subtitle": "Ствол набирает силу",
-   "intro": "Древо выпрямляется и крепнет: прошлое и будущее, сравнения, обязанности, поездки и покупки.",
-   "planned": [
+   "intro": "Росток становится деревом: ствол крепнет, корни уходят глубже. Здесь прошлое обретает две стороны, появляется будущее и опыт, а речь выходит в дорогу — в магазины, к врачу, на праздники.",
+   "outro": "Ствол окреп. Ты рассказываешь о поездках и о том, что уже успел в жизни, строишь планы, сравниваешь, советуешь и договариваешься. Древо готово раскинуть крону — впереди Эволюция.",
+   "branches": [
     {
+     "id": "a2_past",
      "side": "root",
-     "emoji": "🕰",
      "title": "Две стороны прошлого",
-     "subtitle": "Past Simple и Past Continuous"
+     "subtitle": "Past Simple и Past Continuous",
+     "emoji": "🕰",
+     "cards": [
+      "cards_pastsimp",
+      "cards_pastcont",
+      "cards_irregularverbs"
+     ],
+     "minutes": 45,
+     "stages": [
+      {
+       "id": "a2_past_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Событие и фон",
+         "text": "Past Simple — то, что случилось и закончилось: I called, she left. Past Continuous — что длилось в какой-то момент прошлого, «фон»: I was reading, they were sleeping.",
+         "examples": [
+          {
+           "en": "I called you at six.",
+           "ru": "Я позвонил тебе в шесть."
+          },
+          {
+           "en": "At six I was cooking dinner.",
+           "ru": "В шесть я готовил ужин."
+          }
+         ]
+        },
+        {
+         "heading": "Как строится Continuous",
+         "text": "was / were + глагол с -ing. I, he, she, it — was; you, we, they — were. Отрицание — wasn't / weren't, вопрос — Was she working?",
+         "examples": [
+          {
+           "en": "We were watching a film.",
+           "ru": "Мы смотрели фильм."
+          },
+          {
+           "en": "Was it raining?",
+           "ru": "Шёл дождь?"
+          }
+         ]
+        },
+        {
+         "heading": "Когда одно прервало другое",
+         "text": "Длинное действие — Continuous, короткое, которое его прервало, — Simple. Связки: when — когда, while — пока.",
+         "examples": [
+          {
+           "en": "I was walking home when it started to rain.",
+           "ru": "Я шёл домой, когда начался дождь."
+          },
+          {
+           "en": "While she was sleeping, the phone rang.",
+           "ru": "Пока она спала, зазвонил телефон."
+          }
+         ],
+         "tip": "После while обычно длинное действие (Continuous), после when — короткое (Simple)."
+        },
+        {
+         "heading": "Неправильные глаголы",
+         "text": "У многих частых глаголов своя форма прошедшего: go → went, see → saw, buy → bought, take → took, come → came, eat → ate. Их учат наизусть — они встречаются в каждом рассказе.",
+         "examples": [
+          {
+           "en": "We went to the sea.",
+           "ru": "Мы ездили на море."
+          },
+          {
+           "en": "I saw her yesterday.",
+           "ru": "Я видел её вчера."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "At 8 pm I ___ TV.",
+         "options": [
+          "was watching",
+          "watched",
+          "were watching"
+         ],
+         "answer": "was watching",
+         "why": "Момент в прошлом и длительность → was + -ing."
+        },
+        {
+         "type": "choice",
+         "q": "She ___ the door and went out.",
+         "options": [
+          "opened",
+          "was opening",
+          "opens"
+         ],
+         "answer": "opened",
+         "why": "Цепочка коротких событий → Past Simple."
+        },
+        {
+         "type": "choice",
+         "q": "Прошедшее от buy —",
+         "options": [
+          "bought",
+          "buyed",
+          "brought"
+         ],
+         "answer": "bought",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "While we ___ dinner, the lights went out.",
+         "options": [
+          "were having",
+          "had",
+          "was having"
+         ],
+         "answer": "were having",
+         "why": "we → were, длинное действие после while."
+        }
+       ]
+      },
+      {
+       "id": "a2_past_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "yesterday",
+         "ru": "вчера"
+        },
+        {
+         "en": "last week",
+         "ru": "на прошлой неделе"
+        },
+        {
+         "en": "ago",
+         "ru": "тому назад"
+        },
+        {
+         "en": "while",
+         "ru": "пока, в то время как"
+        },
+        {
+         "en": "suddenly",
+         "ru": "вдруг"
+        },
+        {
+         "en": "went",
+         "ru": "пошёл, поехал (go)"
+        },
+        {
+         "en": "saw",
+         "ru": "увидел (see)"
+        },
+        {
+         "en": "took",
+         "ru": "взял (take)"
+        },
+        {
+         "en": "bought",
+         "ru": "купил (buy)"
+        },
+        {
+         "en": "came",
+         "ru": "пришёл (come)"
+        },
+        {
+         "en": "met",
+         "ru": "встретил (meet)"
+        },
+        {
+         "en": "lost",
+         "ru": "потерял (lose)"
+        }
+       ]
+      },
+      {
+       "id": "a2_past_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I [was sleeping] when you called.",
+         "options": [
+          "was sleeping",
+          "slept",
+          "were sleeping"
+         ],
+         "ru": "Я спал, когда ты позвонил.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "They [were playing] football at five.",
+         "options": [
+          "were playing",
+          "was playing",
+          "played"
+         ],
+         "ru": "В пять они играли в футбол.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We [met] in 2019.",
+         "options": [
+          "met",
+          "meeted",
+          "were meeting"
+         ],
+         "ru": "Мы познакомились в 2019 году.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She [lost] her keys yesterday.",
+         "options": [
+          "lost",
+          "losed",
+          "was losing"
+         ],
+         "ru": "Вчера она потеряла ключи.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "What [were] you doing at ten?",
+         "options": [
+          "were",
+          "was",
+          "did"
+         ],
+         "ru": "Что ты делал в десять?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Где правильно?",
+         "options": [
+          "I was reading when he came in.",
+          "I read when he was coming in.",
+          "I was read when he came in."
+         ],
+         "answer": "I was reading when he came in.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Два года назад» —",
+         "options": [
+          "two years ago",
+          "ago two years",
+          "before two years"
+         ],
+         "answer": "two years ago",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "It",
+          "was raining",
+          "when",
+          "we left."
+         ],
+         "ru": "Шёл дождь, когда мы уходили.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "didn't see",
+          "him",
+          "yesterday."
+         ],
+         "ru": "Я не видел его вчера.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "While",
+          "I was cooking,",
+          "she",
+          "called."
+         ],
+         "ru": "Пока я готовил, она позвонила.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Past Continuous",
+         "Past Simple",
+         "Irregular Verbs"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_past_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "What happened?",
+         "ru": "Что случилось?"
+        },
+        {
+         "en": "It was a long time ago.",
+         "ru": "Это было давно."
+        },
+        {
+         "en": "I was just about to call you.",
+         "ru": "Я как раз собирался тебе позвонить."
+        },
+        {
+         "en": "Guess what happened!",
+         "ru": "Угадай, что случилось!"
+        },
+        {
+         "en": "By the way, …",
+         "ru": "Кстати, …"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "What happened?",
+         "options": [
+          "Что случилось?",
+          "Что происходит?",
+          "Что будет?"
+         ],
+         "answer": "Что случилось?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I was walking home when I saw him.",
+         "options": [
+          "Я шёл домой, когда увидел его.",
+          "Я пошёл домой и увидел его.",
+          "Я иду домой и вижу его."
+         ],
+         "answer": "Я шёл домой, когда увидел его.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It was a long time ago.",
+         "options": [
+          "Это было давно.",
+          "Это было недавно.",
+          "Это будет нескоро."
+         ],
+         "answer": "Это было давно.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Вчера я ходил в кино.",
+         "en": "I went to the cinema yesterday.",
+         "alts": [
+          "Yesterday I went to the cinema.",
+          "I went to the cinema yesterday"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Что ты делал в восемь?",
+         "en": "What were you doing at eight?",
+         "alts": [
+          "What were you doing at 8?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мы спали.",
+         "en": "We were sleeping.",
+         "alts": [
+          "We were asleep."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_past_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Past Continuous",
+         "Past Simple",
+         "Irregular Verbs"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_road",
      "side": "crown",
-     "emoji": "🧳",
      "title": "Дорога зовёт",
-     "subtitle": "Вокзал, аэропорт, отель"
+     "subtitle": "Вокзал, аэропорт и отель",
+     "emoji": "🧳",
+     "cards": [
+      "cards_travel",
+      "cards_hotel",
+      "cards_tickets",
+      "cards_transport"
+     ],
+     "minutes": 45,
+     "stages": [
+      {
+       "id": "a2_road_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "В аэропорту",
+         "text": "check in — зарегистрироваться, boarding pass — посадочный, gate — выход на посадку, luggage / baggage — багаж, hand luggage — ручная кладь. Рейс задержан — The flight is delayed.",
+         "examples": [
+          {
+           "en": "Where can I check in?",
+           "ru": "Где можно зарегистрироваться?"
+          },
+          {
+           "en": "Our flight is delayed.",
+           "ru": "Наш рейс задерживается."
+          }
+         ]
+        },
+        {
+         "heading": "Билеты",
+         "text": "a single (one-way) ticket — в одну сторону, a return (round-trip) ticket — туда и обратно. Спрашивают: How much is a ticket to…? What time does the train leave?",
+         "examples": [
+          {
+           "en": "A return ticket to York, please.",
+           "ru": "Билет до Йорка туда и обратно, пожалуйста."
+          },
+          {
+           "en": "What time does the train leave?",
+           "ru": "Во сколько отходит поезд?"
+          }
+         ]
+        },
+        {
+         "heading": "В отеле",
+         "text": "I have a reservation — у меня бронь. Бронь на имя — under the name… Спрашивают о завтраке, Wi-Fi и времени выезда: What time is check-out?",
+         "examples": [
+          {
+           "en": "I have a reservation under the name Ivanov.",
+           "ru": "У меня бронь на фамилию Иванов."
+          },
+          {
+           "en": "Is breakfast included?",
+           "ru": "Завтрак включён?"
+          }
+         ],
+         "tip": "Слово «бронь» по-английски — reservation или booking, не bron."
+        },
+        {
+         "heading": "Если что-то не так",
+         "text": "Вежливая жалоба начинается с I'm afraid… или Excuse me, there's a problem with… The air conditioning doesn't work. Could you help me?",
+         "examples": [
+          {
+           "en": "I'm afraid I've lost my ticket.",
+           "ru": "Боюсь, я потерял билет."
+          },
+          {
+           "en": "There's a problem with my room.",
+           "ru": "С моим номером проблема."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Билет «туда и обратно» —",
+         "options": [
+          "a return ticket",
+          "a single ticket",
+          "a back ticket"
+         ],
+         "answer": "a return ticket",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Рейс задерживается» —",
+         "options": [
+          "The flight is delayed.",
+          "The flight is late on.",
+          "The flight is waiting."
+         ],
+         "answer": "The flight is delayed.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как сказать, что у тебя бронь?",
+         "options": [
+          "I have a reservation.",
+          "I have a reserve.",
+          "I am booked."
+         ],
+         "answer": "I have a reservation.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "gate в аэропорту —",
+         "options": [
+          "выход на посадку",
+          "багаж",
+          "паспортный контроль"
+         ],
+         "answer": "выход на посадку",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_road_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "luggage",
+         "ru": "багаж"
+        },
+        {
+         "en": "passport",
+         "ru": "паспорт"
+        },
+        {
+         "en": "flight",
+         "ru": "рейс, перелёт"
+        },
+        {
+         "en": "platform",
+         "ru": "платформа"
+        },
+        {
+         "en": "departure",
+         "ru": "отправление"
+        },
+        {
+         "en": "arrival",
+         "ru": "прибытие"
+        },
+        {
+         "en": "reservation",
+         "ru": "бронь"
+        },
+        {
+         "en": "single room",
+         "ru": "одноместный номер"
+        },
+        {
+         "en": "receipt",
+         "ru": "чек, квитанция"
+        },
+        {
+         "en": "delay",
+         "ru": "задержка"
+        },
+        {
+         "en": "journey",
+         "ru": "поездка, путь"
+        },
+        {
+         "en": "key card",
+         "ru": "ключ-карта"
+        }
+       ]
+      },
+      {
+       "id": "a2_road_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Where can I [check in]?",
+         "options": [
+          "check in",
+          "check up",
+          "sign"
+         ],
+         "ru": "Где можно зарегистрироваться?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "A [single] ticket to Leeds, please.",
+         "options": [
+          "single",
+          "one",
+          "alone"
+         ],
+         "ru": "Билет до Лидса в одну сторону, пожалуйста.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Is breakfast [included]?",
+         "options": [
+          "included",
+          "inside",
+          "including"
+         ],
+         "ru": "Завтрак включён?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "What time does the train [leave]?",
+         "options": [
+          "leave",
+          "leaves",
+          "go away"
+         ],
+         "ru": "Во сколько отходит поезд?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "The flight is [delayed] by two hours.",
+         "options": [
+          "delayed",
+          "late",
+          "slow"
+         ],
+         "ru": "Рейс задерживается на два часа.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Посадочный талон» —",
+         "options": [
+          "boarding pass",
+          "board ticket",
+          "entry card"
+         ],
+         "answer": "boarding pass",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как вежливо пожаловаться?",
+         "options": [
+          "I'm afraid there's a problem with my room.",
+          "Your room is bad.",
+          "Room problem now."
+         ],
+         "answer": "I'm afraid there's a problem with my room.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I have",
+          "a reservation",
+          "under the name",
+          "Petrov."
+         ],
+         "ru": "У меня бронь на фамилию Петров.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Could you",
+          "call",
+          "a taxi",
+          "for me?"
+         ],
+         "ru": "Не могли бы вы вызвать мне такси?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Which platform",
+          "does the train",
+          "leave",
+          "from?"
+         ],
+         "ru": "С какой платформы отходит поезд?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "В аэропорту и в дороге",
+         "В отеле",
+         "Такси и транспорт"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_road_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "Have a nice trip!",
+         "ru": "Хорошей поездки!"
+        },
+        {
+         "en": "Is this seat free?",
+         "ru": "Это место свободно?"
+        },
+        {
+         "en": "How long does it take?",
+         "ru": "Сколько времени это займёт?"
+        },
+        {
+         "en": "I'd like to check out.",
+         "ru": "Я бы хотел выехать (из отеля)."
+        },
+        {
+         "en": "Keep the change.",
+         "ru": "Сдачи не надо."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Is this seat free?",
+         "options": [
+          "Это место свободно?",
+          "Это место платное?",
+          "Это моё место?"
+         ],
+         "answer": "Это место свободно?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Keep the change.",
+         "options": [
+          "Сдачи не надо.",
+          "Дайте сдачу.",
+          "Поменяйте деньги."
+         ],
+         "answer": "Сдачи не надо.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "How long does it take?",
+         "options": [
+          "Сколько времени это займёт?",
+          "Как далеко это?",
+          "Сколько это стоит?"
+         ],
+         "answer": "Сколько времени это займёт?",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Хорошей поездки!",
+         "en": "Have a nice trip!",
+         "alts": [
+          "Have a good trip!"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Завтрак включён?",
+         "en": "Is breakfast included?",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мой рейс задерживается.",
+         "en": "My flight is delayed.",
+         "alts": [],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_road_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "В аэропорту и в дороге",
+         "В отеле",
+         "Такси и транспорт"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_perfect",
      "side": "root",
-     "emoji": "🌟",
      "title": "Опыт жизни",
-     "subtitle": "Present Perfect: ever, never, already"
+     "subtitle": "Present Perfect: ever, never, already",
+     "emoji": "🌟",
+     "cards": [
+      "cards_presentperf",
+      "cards_alreadyyet"
+     ],
+     "minutes": 50,
+     "stages": [
+      {
+       "id": "a2_perfect_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Было когда-нибудь",
+         "text": "Present Perfect говорит об опыте и о результате к настоящему моменту, когда неважно, когда именно: I have been to Paris — я бывал в Париже. Форма: have / has + третья форма глагола.",
+         "examples": [
+          {
+           "en": "I have seen this film.",
+           "ru": "Я смотрел этот фильм."
+          },
+          {
+           "en": "She has lost her phone.",
+           "ru": "Она потеряла телефон (и его сейчас нет)."
+          }
+         ]
+        },
+        {
+         "heading": "ever и never",
+         "text": "Have you ever…? — Ты когда-нибудь…? Ответ: Yes, I have. / No, I haven't. never — никогда (уже с отрицательным смыслом, not не нужно).",
+         "examples": [
+          {
+           "en": "Have you ever been to London?",
+           "ru": "Ты когда-нибудь был в Лондоне?"
+          },
+          {
+           "en": "I have never tried sushi.",
+           "ru": "Я никогда не пробовал суши."
+          }
+         ]
+        },
+        {
+         "heading": "already, yet, just",
+         "text": "already — уже (в утверждении), yet — уже? / ещё не (в вопросе и отрицании, в конце), just — только что.",
+         "examples": [
+          {
+           "en": "I've already finished.",
+           "ru": "Я уже закончил."
+          },
+          {
+           "en": "Have you finished yet?",
+           "ru": "Ты уже закончил?"
+          },
+          {
+           "en": "She's just left.",
+           "ru": "Она только что ушла."
+          }
+         ]
+        },
+        {
+         "heading": "Perfect или Past Simple",
+         "text": "Если названо время в прошлом (yesterday, in 2010, last week) — только Past Simple. Нет времени, важен опыт или результат — Present Perfect.",
+         "examples": [
+          {
+           "en": "I lost my keys yesterday.",
+           "ru": "Я потерял ключи вчера."
+          },
+          {
+           "en": "I've lost my keys.",
+           "ru": "Я потерял ключи (их нет)."
+          }
+         ],
+         "tip": "«I have seen him yesterday» — ошибка: yesterday требует Past Simple."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "___ you ever been to Spain?",
+         "options": [
+          "Have",
+          "Did",
+          "Are"
+         ],
+         "answer": "Have",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "I ___ seen this film yesterday.",
+         "options": [
+          "saw",
+          "have seen",
+          "has seen"
+         ],
+         "answer": "saw",
+         "why": "yesterday → Past Simple."
+        },
+        {
+         "type": "choice",
+         "q": "She has ___ arrived.",
+         "options": [
+          "just",
+          "yet",
+          "ago"
+         ],
+         "answer": "just",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Где правильно?",
+         "options": [
+          "I haven't done it yet.",
+          "I haven't done it already.",
+          "I didn't done it yet."
+         ],
+         "answer": "I haven't done it yet.",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_perfect_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "ever",
+         "ru": "когда-нибудь"
+        },
+        {
+         "en": "never",
+         "ru": "никогда"
+        },
+        {
+         "en": "already",
+         "ru": "уже"
+        },
+        {
+         "en": "yet",
+         "ru": "уже? / ещё (не)"
+        },
+        {
+         "en": "just",
+         "ru": "только что"
+        },
+        {
+         "en": "been",
+         "ru": "побывал (be)"
+        },
+        {
+         "en": "done",
+         "ru": "сделал (do)"
+        },
+        {
+         "en": "seen",
+         "ru": "видел (see)"
+        },
+        {
+         "en": "eaten",
+         "ru": "ел (eat)"
+        },
+        {
+         "en": "written",
+         "ru": "написал (write)"
+        },
+        {
+         "en": "tried",
+         "ru": "попробовал (try)"
+        },
+        {
+         "en": "experience",
+         "ru": "опыт"
+        }
+       ]
+      },
+      {
+       "id": "a2_perfect_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I have [never] been to Japan.",
+         "options": [
+          "never",
+          "ever",
+          "yet"
+         ],
+         "ru": "Я никогда не был в Японии.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Have you [ever] tried Thai food?",
+         "options": [
+          "ever",
+          "never",
+          "already"
+         ],
+         "ru": "Ты когда-нибудь пробовал тайскую еду?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She [has] already gone.",
+         "options": [
+          "has",
+          "have",
+          "is"
+         ],
+         "ru": "Она уже ушла.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We haven't decided [yet].",
+         "options": [
+          "yet",
+          "already",
+          "just"
+         ],
+         "ru": "Мы ещё не решили.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I've [written] three letters today.",
+         "options": [
+          "written",
+          "wrote",
+          "writed"
+         ],
+         "ru": "Сегодня я написал три письма.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Я только что поел» —",
+         "options": [
+          "I've just eaten.",
+          "I just have eat.",
+          "I've eaten just."
+         ],
+         "answer": "I've just eaten.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какое время: «Мы встретились в 2015 году»?",
+         "options": [
+          "We met in 2015.",
+          "We have met in 2015.",
+          "We have meet in 2015."
+         ],
+         "answer": "We met in 2015.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Have you",
+          "ever",
+          "been",
+          "to Rome?"
+         ],
+         "ru": "Ты когда-нибудь был в Риме?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "have already",
+          "done",
+          "my homework."
+         ],
+         "ru": "Я уже сделал домашнее задание.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "He",
+          "hasn't",
+          "called",
+          "yet."
+         ],
+         "ru": "Он ещё не позвонил.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Present Perfect",
+         "Already, yet, still, just"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_perfect_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "I've never done that before.",
+         "ru": "Я никогда раньше этого не делал."
+        },
+        {
+         "en": "Have you been here before?",
+         "ru": "Ты бывал здесь раньше?"
+        },
+        {
+         "en": "Not yet.",
+         "ru": "Ещё нет."
+        },
+        {
+         "en": "I've heard a lot about you.",
+         "ru": "Я много о тебе слышал."
+        },
+        {
+         "en": "Long time no see!",
+         "ru": "Сто лет не виделись!"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Not yet.",
+         "options": [
+          "Ещё нет.",
+          "Уже да.",
+          "Никогда."
+         ],
+         "answer": "Ещё нет.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Have you been here before?",
+         "options": [
+          "Ты бывал здесь раньше?",
+          "Ты здесь давно?",
+          "Ты придёшь сюда?"
+         ],
+         "answer": "Ты бывал здесь раньше?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Long time no see!",
+         "options": [
+          "Сто лет не виделись!",
+          "Давно не спал!",
+          "Увидимся нескоро!"
+         ],
+         "answer": "Сто лет не виделись!",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я никогда не был в Париже.",
+         "en": "I have never been to Paris.",
+         "alts": [
+          "I've never been to Paris."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Ты уже поел?",
+         "en": "Have you eaten yet?",
+         "alts": [
+          "Have you already eaten?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Она только что пришла.",
+         "en": "She has just come.",
+         "alts": [
+          "She's just come.",
+          "She has just arrived.",
+          "She's just arrived."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_perfect_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Present Perfect",
+         "Already, yet, still, just"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_shop",
      "side": "crown",
-     "emoji": "🛍",
      "title": "Примерочная",
-     "subtitle": "Покупки, размеры, возврат"
+     "subtitle": "Покупки, размеры и возврат",
+     "emoji": "🛍",
+     "cards": [
+      "cards_shopping",
+      "cards_clothes"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a2_shop_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Спросить и примерить",
+         "text": "Can I try it on? — Можно примерить? Where are the fitting rooms? — Где примерочные? Размер — size: Do you have it in a smaller size?",
+         "examples": [
+          {
+           "en": "Can I try this on?",
+           "ru": "Можно это примерить?"
+          },
+          {
+           "en": "Do you have it in blue?",
+           "ru": "У вас есть такое синего цвета?"
+          }
+         ]
+        },
+        {
+         "heading": "Сидит или нет",
+         "text": "It fits — по размеру. It suits you — тебе идёт (по стилю). too big / too small / too tight — слишком большой, маленький, тесный.",
+         "examples": [
+          {
+           "en": "These jeans don't fit me.",
+           "ru": "Эти джинсы мне не по размеру."
+          },
+          {
+           "en": "That colour really suits you.",
+           "ru": "Этот цвет тебе очень идёт."
+          }
+         ],
+         "tip": "fit — про размер, suit — про то, к лицу ли вещь."
+        },
+        {
+         "heading": "Цена и оплата",
+         "text": "How much is it? / How much are they? — Сколько стоит? It's on sale — со скидкой. Can I pay by card? — Можно картой?",
+         "examples": [
+          {
+           "en": "How much are these shoes?",
+           "ru": "Сколько стоят эти туфли?"
+          },
+          {
+           "en": "Is it on sale?",
+           "ru": "Это со скидкой?"
+          }
+         ]
+        },
+        {
+         "heading": "Вернуть и обменять",
+         "text": "I'd like to return this — хочу вернуть. exchange — обменять, refund — возврат денег. Почти всегда нужен чек — receipt.",
+         "examples": [
+          {
+           "en": "I'd like to return this jacket.",
+           "ru": "Я хотел бы вернуть эту куртку."
+          },
+          {
+           "en": "Can I get a refund?",
+           "ru": "Можно вернуть деньги?"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "«Можно примерить?» —",
+         "options": [
+          "Can I try it on?",
+          "Can I put it?",
+          "Can I wear it in?"
+         ],
+         "answer": "Can I try it on?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Вещь тебе к лицу:",
+         "options": [
+          "It suits you.",
+          "It fits you.",
+          "It sits you."
+         ],
+         "answer": "It suits you.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Возврат денег» —",
+         "options": [
+          "refund",
+          "receipt",
+          "change"
+         ],
+         "answer": "refund",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "How much ___ these socks?",
+         "options": [
+          "are",
+          "is",
+          "does"
+         ],
+         "answer": "are",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_shop_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "size",
+         "ru": "размер"
+        },
+        {
+         "en": "fitting room",
+         "ru": "примерочная"
+        },
+        {
+         "en": "try on",
+         "ru": "примерить"
+        },
+        {
+         "en": "fit",
+         "ru": "подходить по размеру"
+        },
+        {
+         "en": "suit",
+         "ru": "идти, быть к лицу"
+        },
+        {
+         "en": "tight",
+         "ru": "тесный"
+        },
+        {
+         "en": "loose",
+         "ru": "свободный"
+        },
+        {
+         "en": "sale",
+         "ru": "распродажа"
+        },
+        {
+         "en": "discount",
+         "ru": "скидка"
+        },
+        {
+         "en": "refund",
+         "ru": "возврат денег"
+        },
+        {
+         "en": "exchange",
+         "ru": "обменять"
+        },
+        {
+         "en": "cash",
+         "ru": "наличные"
+        }
+       ]
+      },
+      {
+       "id": "a2_shop_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Can I [try] these jeans on?",
+         "options": [
+          "try",
+          "put",
+          "wear"
+         ],
+         "ru": "Можно примерить эти джинсы?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "This shirt is too [tight].",
+         "options": [
+          "tight",
+          "loose",
+          "suit"
+         ],
+         "ru": "Эта рубашка слишком тесная.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Do you have it in a [bigger] size?",
+         "options": [
+          "bigger",
+          "more big",
+          "biggest"
+         ],
+         "ru": "У вас есть на размер больше?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'd like to [return] this dress.",
+         "options": [
+          "return",
+          "turn",
+          "give back to"
+         ],
+         "ru": "Я хотел бы вернуть это платье.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Can I pay [in] cash?",
+         "options": [
+          "in",
+          "by",
+          "with"
+         ],
+         "ru": "Можно оплатить наличными?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Эти туфли мне малы» —",
+         "options": [
+          "These shoes are too small for me.",
+          "These shoes are small too me.",
+          "These shoes is too small."
+         ],
+         "answer": "These shoes are too small for me.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Что нужно для возврата?",
+         "options": [
+          "receipt",
+          "recipe",
+          "reception"
+         ],
+         "answer": "receipt",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Where",
+          "are",
+          "the fitting",
+          "rooms?"
+         ],
+         "ru": "Где примерочные?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "That colour",
+          "really",
+          "suits",
+          "you."
+         ],
+         "ru": "Этот цвет тебе очень идёт.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Is this",
+          "jacket",
+          "on",
+          "sale?"
+         ],
+         "ru": "Эта куртка со скидкой?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "В магазине",
+         "Одежда"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_shop_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "I'm just looking, thanks.",
+         "ru": "Я просто смотрю, спасибо."
+        },
+        {
+         "en": "Can I help you?",
+         "ru": "Вам помочь?"
+        },
+        {
+         "en": "I'll take it.",
+         "ru": "Я возьму это."
+        },
+        {
+         "en": "It's a bargain!",
+         "ru": "Это очень выгодно!"
+        },
+        {
+         "en": "Do you need a bag?",
+         "ru": "Вам нужен пакет?"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "I'm just looking, thanks.",
+         "options": [
+          "Я просто смотрю, спасибо.",
+          "Я ищу примерочную.",
+          "Я возьму это, спасибо."
+         ],
+         "answer": "Я просто смотрю, спасибо.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I'll take it.",
+         "options": [
+          "Я возьму это.",
+          "Я примерю это.",
+          "Я верну это."
+         ],
+         "answer": "Я возьму это.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It's a bargain!",
+         "options": [
+          "Это очень выгодно!",
+          "Это слишком дорого!",
+          "Это подарок!"
+         ],
+         "answer": "Это очень выгодно!",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Сколько это стоит?",
+         "en": "How much is it?",
+         "alts": [
+          "How much is this?",
+          "How much does it cost?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Можно это примерить?",
+         "en": "Can I try it on?",
+         "alts": [
+          "Can I try this on?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Можно оплатить картой?",
+         "en": "Can I pay by card?",
+         "alts": [],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_shop_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "В магазине",
+         "Одежда"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_future",
      "side": "root",
-     "emoji": "🔮",
      "title": "Завтрашний день",
-     "subtitle": "going to, will и планы"
+     "subtitle": "going to, will и планы",
+     "emoji": "🔮",
+     "cards": [
+      "cards_begoingto",
+      "cards_futuresimp",
+      "cards_futureways",
+      "cards_presentforfuture"
+     ],
+     "minutes": 45,
+     "stages": [
+      {
+       "id": "a2_future_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Решено заранее: going to",
+         "text": "be going to + глагол — план или намерение, о котором уже думали: I'm going to learn to drive. Ещё так говорят, когда что-то вот-вот случится по признакам: Look at the clouds — it's going to rain.",
+         "examples": [
+          {
+           "en": "We're going to buy a car.",
+           "ru": "Мы собираемся купить машину."
+          },
+          {
+           "en": "It's going to rain.",
+           "ru": "Сейчас пойдёт дождь."
+          }
+         ]
+        },
+        {
+         "heading": "Решаю сейчас: will",
+         "text": "will + глагол — решение в момент речи, обещание, предсказание-мнение: I'll help you. I think she'll like it. Отрицание — won't.",
+         "examples": [
+          {
+           "en": "I'll call you later.",
+           "ru": "Я позвоню тебе позже."
+          },
+          {
+           "en": "I think it will be fine.",
+           "ru": "Думаю, всё будет хорошо."
+          }
+         ],
+         "tip": "Телефон звонит — «I'll get it!» (решил только что), а не «I'm going to get it»."
+        },
+        {
+         "heading": "Договорились: Present Continuous",
+         "text": "Встреча уже назначена, есть время и место — Present Continuous: I'm meeting Anna tomorrow. Расписания (поезда, фильмы) — Present Simple: The train leaves at 7.",
+         "examples": [
+          {
+           "en": "I'm seeing the dentist on Friday.",
+           "ru": "В пятницу я иду к стоматологу."
+          },
+          {
+           "en": "The film starts at eight.",
+           "ru": "Фильм начинается в восемь."
+          }
+         ]
+        },
+        {
+         "heading": "Слова будущего",
+         "text": "tomorrow — завтра, next week — на следующей неделе, soon — скоро, in two days — через два дня, the day after tomorrow — послезавтра.",
+         "examples": [
+          {
+           "en": "I'll be back in ten minutes.",
+           "ru": "Я вернусь через десять минут."
+          },
+          {
+           "en": "See you the day after tomorrow!",
+           "ru": "Увидимся послезавтра!"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Телефон звонит: «Я возьму!» —",
+         "options": [
+          "I'll get it!",
+          "I'm going to get it!",
+          "I get it!"
+         ],
+         "answer": "I'll get it!",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Тучи! It ___ rain.",
+         "options": [
+          "is going to",
+          "will to",
+          "goes"
+         ],
+         "answer": "is going to",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Через час» —",
+         "options": [
+          "in an hour",
+          "after an hour",
+          "through an hour"
+         ],
+         "answer": "in an hour",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Встреча назначена: «Завтра я встречаюсь с Томом» —",
+         "options": [
+          "I'm meeting Tom tomorrow.",
+          "I meet Tom tomorrow.",
+          "I will to meet Tom tomorrow."
+         ],
+         "answer": "I'm meeting Tom tomorrow.",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_future_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "tomorrow",
+         "ru": "завтра"
+        },
+        {
+         "en": "next week",
+         "ru": "на следующей неделе"
+        },
+        {
+         "en": "soon",
+         "ru": "скоро"
+        },
+        {
+         "en": "later",
+         "ru": "позже"
+        },
+        {
+         "en": "plan",
+         "ru": "план"
+        },
+        {
+         "en": "promise",
+         "ru": "обещать"
+        },
+        {
+         "en": "probably",
+         "ru": "вероятно"
+        },
+        {
+         "en": "decide",
+         "ru": "решить"
+        },
+        {
+         "en": "the day after tomorrow",
+         "ru": "послезавтра"
+        },
+        {
+         "en": "hope",
+         "ru": "надеяться"
+        },
+        {
+         "en": "future",
+         "ru": "будущее"
+        },
+        {
+         "en": "weekend",
+         "ru": "выходные"
+        }
+       ]
+      },
+      {
+       "id": "a2_future_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I'm [going] to visit my parents.",
+         "options": [
+          "going",
+          "go",
+          "will"
+         ],
+         "ru": "Я собираюсь навестить родителей.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Don't worry, I [will] help you.",
+         "options": [
+          "will",
+          "am going",
+          "going"
+         ],
+         "ru": "Не волнуйся, я тебе помогу.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She [won't] be late, I promise.",
+         "options": [
+          "won't",
+          "willn't",
+          "doesn't"
+         ],
+         "ru": "Она не опоздает, обещаю.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "The bus [leaves] at 7:15.",
+         "options": [
+          "leaves",
+          "is leaving to",
+          "will leaving"
+         ],
+         "ru": "Автобус отходит в 7:15.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'll be back [in] five minutes.",
+         "options": [
+          "in",
+          "after",
+          "through"
+         ],
+         "ru": "Я вернусь через пять минут.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Мнение о будущем:",
+         "options": [
+          "I think you'll love it.",
+          "I think you love it tomorrow.",
+          "I think you going to love."
+         ],
+         "answer": "I think you'll love it.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Что ты будешь делать на выходных?» (планы)",
+         "options": [
+          "What are you doing at the weekend?",
+          "What do you do at the weekend?",
+          "What you will do at weekend?"
+         ],
+         "answer": "What are you doing at the weekend?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "We",
+          "are going to",
+          "move",
+          "next year."
+         ],
+         "ru": "Мы собираемся переехать в следующем году.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I",
+          "promise",
+          "I'll",
+          "call you."
+         ],
+         "ru": "Обещаю, я позвоню тебе.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Are you",
+          "doing",
+          "anything",
+          "tonight?"
+         ],
+         "ru": "Ты что-то делаешь сегодня вечером?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Be going to",
+         "Future Simple",
+         "Как говорить о будущем",
+         "Present for Future"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_future_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "See you soon!",
+         "ru": "До скорого!"
+        },
+        {
+         "en": "I'll think about it.",
+         "ru": "Я подумаю."
+        },
+        {
+         "en": "Maybe next time.",
+         "ru": "Может, в следующий раз."
+        },
+        {
+         "en": "What are your plans?",
+         "ru": "Какие у тебя планы?"
+        },
+        {
+         "en": "I can't wait!",
+         "ru": "Не могу дождаться!"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "I'll think about it.",
+         "options": [
+          "Я подумаю.",
+          "Я уже подумал.",
+          "Я не думаю."
+         ],
+         "answer": "Я подумаю.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Maybe next time.",
+         "options": [
+          "Может, в следующий раз.",
+          "Может быть, сейчас.",
+          "Только не сегодня."
+         ],
+         "answer": "Может, в следующий раз.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I can't wait!",
+         "options": [
+          "Не могу дождаться!",
+          "Я не могу ждать здесь!",
+          "Подожди меня!"
+         ],
+         "answer": "Не могу дождаться!",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я позвоню тебе завтра.",
+         "en": "I'll call you tomorrow.",
+         "alts": [
+          "I will call you tomorrow."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мы собираемся купить дом.",
+         "en": "We are going to buy a house.",
+         "alts": [
+          "We're going to buy a house."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Какие у тебя планы?",
+         "en": "What are your plans?",
+         "alts": [],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_future_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Be going to",
+         "Future Simple",
+         "Как говорить о будущем",
+         "Present for Future"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_doctor",
      "side": "crown",
-     "emoji": "🩺",
      "title": "У врача",
-     "subtitle": "Самочувствие и советы"
+     "subtitle": "Самочувствие, аптека и советы",
+     "emoji": "🩺",
+     "cards": [
+      "cards_doctor",
+      "cards_pharmacy",
+      "cards_body"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a2_doctor_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Что болит",
+         "text": "I have a headache / a sore throat / a cough / a temperature — у меня болит голова / горло, кашель, температура. My back hurts — у меня болит спина.",
+         "examples": [
+          {
+           "en": "I have a terrible headache.",
+           "ru": "У меня ужасно болит голова."
+          },
+          {
+           "en": "My leg hurts.",
+           "ru": "У меня болит нога."
+          }
+         ]
+        },
+        {
+         "heading": "Как ты?",
+         "text": "What's the matter? / What's wrong? — Что случилось? I feel sick — меня тошнит / мне плохо. I don't feel well — я плохо себя чувствую.",
+         "examples": [
+          {
+           "en": "What's the matter?",
+           "ru": "Что случилось?"
+          },
+          {
+           "en": "I don't feel very well.",
+           "ru": "Я не очень хорошо себя чувствую."
+          }
+         ]
+        },
+        {
+         "heading": "В аптеке",
+         "text": "Do you have something for a cold? — У вас есть что-нибудь от простуды? Спрашивают, как принимать: How often should I take it? — Twice a day after meals.",
+         "examples": [
+          {
+           "en": "Do you have anything for a sore throat?",
+           "ru": "У вас есть что-нибудь от боли в горле?"
+          },
+          {
+           "en": "Take two tablets a day.",
+           "ru": "Принимайте по две таблетки в день."
+          }
+         ],
+         "tip": "«От» простуды — for a cold, а не from a cold."
+        },
+        {
+         "heading": "Совет: should",
+         "text": "should + глагол — «следует, стоит»: You should rest. You shouldn't go to work. Так говорят и врачи, и друзья.",
+         "examples": [
+          {
+           "en": "You should drink more water.",
+           "ru": "Тебе стоит пить больше воды."
+          },
+          {
+           "en": "You shouldn't eat so late.",
+           "ru": "Тебе не стоит есть так поздно."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "«У меня болит горло» —",
+         "options": [
+          "I have a sore throat.",
+          "I have a pain throat.",
+          "My throat is sick."
+         ],
+         "answer": "I have a sore throat.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Совет врача:",
+         "options": [
+          "You should rest.",
+          "You should to rest.",
+          "You should resting."
+         ],
+         "answer": "You should rest.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Something ___ a headache, please.",
+         "options": [
+          "for",
+          "from",
+          "against of"
+         ],
+         "answer": "for",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "What's the ___?",
+         "options": [
+          "matter",
+          "problem with",
+          "wrong thing"
+         ],
+         "answer": "matter",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_doctor_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "headache",
+         "ru": "головная боль"
+        },
+        {
+         "en": "cough",
+         "ru": "кашель"
+        },
+        {
+         "en": "cold",
+         "ru": "простуда"
+        },
+        {
+         "en": "temperature",
+         "ru": "температура"
+        },
+        {
+         "en": "hurt",
+         "ru": "болеть"
+        },
+        {
+         "en": "medicine",
+         "ru": "лекарство"
+        },
+        {
+         "en": "tablet",
+         "ru": "таблетка"
+        },
+        {
+         "en": "prescription",
+         "ru": "рецепт"
+        },
+        {
+         "en": "appointment",
+         "ru": "запись (к врачу)"
+        },
+        {
+         "en": "rest",
+         "ru": "отдыхать"
+        },
+        {
+         "en": "throat",
+         "ru": "горло"
+        },
+        {
+         "en": "stomach",
+         "ru": "живот, желудок"
+        }
+       ]
+      },
+      {
+       "id": "a2_doctor_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I have a [temperature].",
+         "options": [
+          "temperature",
+          "temper",
+          "hot"
+         ],
+         "ru": "У меня температура.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "My back [hurts].",
+         "options": [
+          "hurts",
+          "hurt",
+          "pains"
+         ],
+         "ru": "У меня болит спина.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "You [should] see a doctor.",
+         "options": [
+          "should",
+          "should to",
+          "must to"
+         ],
+         "ru": "Тебе стоит сходить к врачу.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'd like to make an [appointment].",
+         "options": [
+          "appointment",
+          "meeting",
+          "date"
+         ],
+         "ru": "Я хотел бы записаться на приём.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Take this medicine [twice] a day.",
+         "options": [
+          "twice",
+          "two",
+          "double"
+         ],
+         "ru": "Принимайте это лекарство два раза в день.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Мне плохо» —",
+         "options": [
+          "I don't feel well.",
+          "I don't feel good me.",
+          "I am not feel well."
+         ],
+         "answer": "I don't feel well.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Рецепт врача —",
+         "options": [
+          "prescription",
+          "recipe",
+          "receipt"
+         ],
+         "answer": "prescription",
+         "why": "recipe — рецепт блюда."
+        },
+        {
+         "type": "build",
+         "words": [
+          "Do you have",
+          "anything",
+          "for",
+          "a cold?"
+         ],
+         "ru": "У вас есть что-нибудь от простуды?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "You",
+          "shouldn't",
+          "go",
+          "to work."
+         ],
+         "ru": "Тебе не стоит идти на работу.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "How often",
+          "should I",
+          "take",
+          "it?"
+         ],
+         "ru": "Как часто мне это принимать?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "У врача",
+         "Аптека",
+         "Тело и здоровье"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_doctor_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "Get well soon!",
+         "ru": "Выздоравливай!"
+        },
+        {
+         "en": "Bless you!",
+         "ru": "Будь здоров! (после чиха)"
+        },
+        {
+         "en": "I need to see a doctor.",
+         "ru": "Мне нужно к врачу."
+        },
+        {
+         "en": "Take care!",
+         "ru": "Береги себя!"
+        },
+        {
+         "en": "It's nothing serious.",
+         "ru": "Ничего серьёзного."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Get well soon!",
+         "options": [
+          "Выздоравливай!",
+          "Скорее приходи!",
+          "Хорошо отдохни!"
+         ],
+         "answer": "Выздоравливай!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It's nothing serious.",
+         "options": [
+          "Ничего серьёзного.",
+          "Это очень серьёзно.",
+          "Ничего не болит."
+         ],
+         "answer": "Ничего серьёзного.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "What's the matter?",
+         "options": [
+          "Что случилось?",
+          "Что это за материал?",
+          "В чём дело с тобой завтра?"
+         ],
+         "answer": "Что случилось?",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "У меня болит голова.",
+         "en": "I have a headache.",
+         "alts": [
+          "I've got a headache."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Тебе стоит отдохнуть.",
+         "en": "You should rest.",
+         "alts": [
+          "You should have a rest."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Береги себя!",
+         "en": "Take care!",
+         "alts": [
+          "Take care of yourself!"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_doctor_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "У врача",
+         "Аптека",
+         "Тело и здоровье"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_compare",
      "side": "root",
-     "emoji": "⚖️",
      "title": "Больше и лучше",
-     "subtitle": "Сравнения: -er, the most"
+     "subtitle": "Сравнения: -er, more, the most",
+     "emoji": "⚖️",
+     "cards": [
+      "cards_comparisons",
+      "cards_asas"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a2_compare_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Короткие слова: -er",
+         "text": "Короткие прилагательные получают -er: cheap → cheaper, tall → taller. После них — than: My brother is taller than me. Удвоение: big → bigger; y → ier: easy → easier.",
+         "examples": [
+          {
+           "en": "London is bigger than Oxford.",
+           "ru": "Лондон больше Оксфорда."
+          },
+          {
+           "en": "This test is easier than the last one.",
+           "ru": "Этот тест легче прошлого."
+          }
+         ]
+        },
+        {
+         "heading": "Длинные слова: more",
+         "text": "Длинные прилагательные — с more: expensive → more expensive, interesting → more interesting.",
+         "examples": [
+          {
+           "en": "Gold is more expensive than silver.",
+           "ru": "Золото дороже серебра."
+          },
+          {
+           "en": "This book is more interesting.",
+           "ru": "Эта книга интереснее."
+          }
+         ]
+        },
+        {
+         "heading": "Самый: the -est / the most",
+         "text": "Превосходная степень — с the: the tallest, the cheapest, the most beautiful. Исключения: good → better → the best, bad → worse → the worst, far → further → the furthest.",
+         "examples": [
+          {
+           "en": "It's the best day of my life!",
+           "ru": "Это лучший день в моей жизни!"
+          },
+          {
+           "en": "This is the most beautiful place.",
+           "ru": "Это самое красивое место."
+          }
+         ],
+         "tip": "«More better» — ошибка: better уже значит «лучше»."
+        },
+        {
+         "heading": "Такой же: as … as",
+         "text": "as + прилагательное + as — такой же, как: She is as tall as her mum. not as … as — не такой, как: It's not as cold as yesterday.",
+         "examples": [
+          {
+           "en": "He's as old as me.",
+           "ru": "Он такого же возраста, как я."
+          },
+          {
+           "en": "The film wasn't as good as the book.",
+           "ru": "Фильм был не так хорош, как книга."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "My car is ___ than yours.",
+         "options": [
+          "faster",
+          "more fast",
+          "fastest"
+         ],
+         "answer": "faster",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Это самое дорогое кафе:",
+         "options": [
+          "the most expensive",
+          "the expensivest",
+          "the more expensive"
+         ],
+         "answer": "the most expensive",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "good → ___",
+         "options": [
+          "better",
+          "gooder",
+          "more good"
+         ],
+         "answer": "better",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "She is as clever ___ her sister.",
+         "options": [
+          "as",
+          "than",
+          "like"
+         ],
+         "answer": "as",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_compare_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "cheap",
+         "ru": "дешёвый"
+        },
+        {
+         "en": "expensive",
+         "ru": "дорогой"
+        },
+        {
+         "en": "better",
+         "ru": "лучше"
+        },
+        {
+         "en": "worse",
+         "ru": "хуже"
+        },
+        {
+         "en": "the best",
+         "ru": "лучший"
+        },
+        {
+         "en": "the worst",
+         "ru": "худший"
+        },
+        {
+         "en": "than",
+         "ru": "чем"
+        },
+        {
+         "en": "heavy",
+         "ru": "тяжёлый"
+        },
+        {
+         "en": "comfortable",
+         "ru": "удобный"
+        },
+        {
+         "en": "dangerous",
+         "ru": "опасный"
+        },
+        {
+         "en": "modern",
+         "ru": "современный"
+        },
+        {
+         "en": "crowded",
+         "ru": "многолюдный"
+        }
+       ]
+      },
+      {
+       "id": "a2_compare_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Today is [hotter] than yesterday.",
+         "options": [
+          "hotter",
+          "hoter",
+          "more hot"
+         ],
+         "ru": "Сегодня жарче, чем вчера.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "This is the [worst] film I've ever seen.",
+         "options": [
+          "worst",
+          "baddest",
+          "most bad"
+         ],
+         "ru": "Это худший фильм, что я видел.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Planes are [safer] than cars.",
+         "options": [
+          "safer",
+          "more safe",
+          "safest"
+         ],
+         "ru": "Самолёты безопаснее машин.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "It's not as cold [as] in Moscow.",
+         "options": [
+          "as",
+          "than",
+          "so"
+         ],
+         "ru": "Здесь не так холодно, как в Москве.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She's the [most] talented student.",
+         "options": [
+          "most",
+          "more",
+          "much"
+         ],
+         "ru": "Она самая талантливая студентка.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Чем больше, тем лучше» —",
+         "options": [
+          "The more, the better.",
+          "More, better.",
+          "The most, the best."
+         ],
+         "answer": "The more, the better.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "easy → сравнительная степень:",
+         "options": [
+          "easier",
+          "easyer",
+          "more easy"
+         ],
+         "answer": "easier",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "My flat",
+          "is",
+          "smaller",
+          "than yours."
+         ],
+         "ru": "Моя квартира меньше твоей.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "It's",
+          "the best",
+          "pizza",
+          "in town."
+         ],
+         "ru": "Это лучшая пицца в городе.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "He isn't",
+          "as tall",
+          "as",
+          "his brother."
+         ],
+         "ru": "Он не такой высокий, как его брат.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Comparisons",
+         "As…as"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_compare_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "It's much better.",
+         "ru": "Так гораздо лучше."
+        },
+        {
+         "en": "Even better!",
+         "ru": "Ещё лучше!"
+        },
+        {
+         "en": "It's not the end of the world.",
+         "ru": "Это не конец света."
+        },
+        {
+         "en": "The sooner, the better.",
+         "ru": "Чем скорее, тем лучше."
+        },
+        {
+         "en": "More or less.",
+         "ru": "Более или менее."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Even better!",
+         "options": [
+          "Ещё лучше!",
+          "Всё хуже!",
+          "Так же хорошо!"
+         ],
+         "answer": "Ещё лучше!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "The sooner, the better.",
+         "options": [
+          "Чем скорее, тем лучше.",
+          "Лучше позже, чем никогда.",
+          "Скоро будет лучше."
+         ],
+         "answer": "Чем скорее, тем лучше.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "More or less.",
+         "options": [
+          "Более или менее.",
+          "Больше не надо.",
+          "Меньше, чем раньше."
+         ],
+         "answer": "Более или менее.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Это лучший день!",
+         "en": "It's the best day!",
+         "alts": [
+          "This is the best day!",
+          "It is the best day!"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Он выше меня.",
+         "en": "He is taller than me.",
+         "alts": [
+          "He's taller than me.",
+          "He is taller than I am."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Так гораздо лучше.",
+         "en": "It's much better.",
+         "alts": [
+          "It is much better.",
+          "That's much better."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_compare_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Comparisons",
+         "As…as"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_work",
      "side": "crown",
-     "emoji": "💼",
      "title": "Дело и учёба",
-     "subtitle": "Профессии, учёба, расписание"
+     "subtitle": "Профессии, учёба и расписание",
+     "emoji": "💼",
+     "cards": [
+      "cards_jobs",
+      "cards_study"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a2_work_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Кем ты работаешь",
+         "text": "What do you do? — Чем занимаешься? Ответ: I'm a nurse / I work as a nurse / I work in IT / I work for a big company. Перед профессией нужен a / an.",
+         "examples": [
+          {
+           "en": "I'm an engineer.",
+           "ru": "Я инженер."
+          },
+          {
+           "en": "She works for a bank.",
+           "ru": "Она работает в банке."
+          }
+         ],
+         "tip": "«I am engineer» без an — частая ошибка русскоговорящих."
+        },
+        {
+         "heading": "Рабочий день",
+         "text": "work full-time / part-time — на полную ставку / неполный день, a day off — выходной, a meeting — совещание, a deadline — срок сдачи, a colleague — коллега.",
+         "examples": [
+          {
+           "en": "I have a meeting at ten.",
+           "ru": "У меня совещание в десять."
+          },
+          {
+           "en": "Tomorrow is my day off.",
+           "ru": "Завтра у меня выходной."
+          }
+         ]
+        },
+        {
+         "heading": "Учёба",
+         "text": "study — учиться (чему-то), learn — узнавать, выучить. a lesson / a lecture — урок / лекция, an exam — экзамен: take an exam — сдавать, pass — сдать, fail — провалить.",
+         "examples": [
+          {
+           "en": "I'm studying economics.",
+           "ru": "Я изучаю экономику."
+          },
+          {
+           "en": "She passed all her exams.",
+           "ru": "Она сдала все экзамены."
+          }
+         ]
+        },
+        {
+         "heading": "Как давно",
+         "text": "How long have you worked here? — Как долго ты здесь работаешь? for — в течение (for two years), since — с какого-то момента (since 2020).",
+         "examples": [
+          {
+           "en": "I've worked here for three years.",
+           "ru": "Я работаю здесь три года."
+          },
+          {
+           "en": "He's lived here since 2018.",
+           "ru": "Он живёт здесь с 2018 года."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "«Я учитель» —",
+         "options": [
+          "I'm a teacher.",
+          "I'm teacher.",
+          "I teacher."
+         ],
+         "answer": "I'm a teacher.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Сдать экзамен» (успешно) —",
+         "options": [
+          "pass an exam",
+          "give an exam",
+          "take off an exam"
+         ],
+         "answer": "pass an exam",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "I've worked here ___ 2021.",
+         "options": [
+          "since",
+          "for",
+          "from"
+         ],
+         "answer": "since",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Чем ты занимаешься?» —",
+         "options": [
+          "What do you do?",
+          "What are you doing?",
+          "What do you work?"
+         ],
+         "answer": "What do you do?",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_work_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "job",
+         "ru": "работа"
+        },
+        {
+         "en": "colleague",
+         "ru": "коллега"
+        },
+        {
+         "en": "boss",
+         "ru": "начальник"
+        },
+        {
+         "en": "salary",
+         "ru": "зарплата"
+        },
+        {
+         "en": "meeting",
+         "ru": "совещание"
+        },
+        {
+         "en": "deadline",
+         "ru": "срок сдачи"
+        },
+        {
+         "en": "day off",
+         "ru": "выходной"
+        },
+        {
+         "en": "exam",
+         "ru": "экзамен"
+        },
+        {
+         "en": "lecture",
+         "ru": "лекция"
+        },
+        {
+         "en": "university",
+         "ru": "университет"
+        },
+        {
+         "en": "homework",
+         "ru": "домашнее задание"
+        },
+        {
+         "en": "experience",
+         "ru": "опыт"
+        }
+       ]
+      },
+      {
+       "id": "a2_work_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "She works [as] a designer.",
+         "options": [
+          "as",
+          "like",
+          "how"
+         ],
+         "ru": "Она работает дизайнером.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'm [an] architect.",
+         "options": [
+          "an",
+          "a",
+          "the"
+         ],
+         "ru": "Я архитектор.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "He [failed] his driving test.",
+         "options": [
+          "failed",
+          "lost",
+          "passed down"
+         ],
+         "ru": "Он провалил экзамен по вождению.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We've known each other [for] ten years.",
+         "options": [
+          "for",
+          "since",
+          "during"
+         ],
+         "ru": "Мы знакомы десять лет.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "The [deadline] is on Friday.",
+         "options": [
+          "deadline",
+          "dead day",
+          "end line"
+         ],
+         "ru": "Срок сдачи — в пятницу.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Я работаю неполный день» —",
+         "options": [
+          "I work part-time.",
+          "I work half-day time.",
+          "I work part of time."
+         ],
+         "answer": "I work part-time.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "study или learn: «Я выучил новое слово»",
+         "options": [
+          "I learned a new word.",
+          "I studied a new word.",
+          "I teached a new word."
+         ],
+         "answer": "I learned a new word.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "What",
+          "do you",
+          "do",
+          "for a living?"
+         ],
+         "ru": "Чем ты зарабатываешь на жизнь?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I've",
+          "worked here",
+          "since",
+          "last May."
+         ],
+         "ru": "Я работаю здесь с прошлого мая.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I have",
+          "an exam",
+          "on",
+          "Monday."
+         ],
+         "ru": "У меня экзамен в понедельник.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Работа и профессии",
+         "Учёба"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_work_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "I'm on holiday.",
+         "ru": "Я в отпуске."
+        },
+        {
+         "en": "I'm really busy right now.",
+         "ru": "Я сейчас очень занят."
+        },
+        {
+         "en": "Good luck with your exam!",
+         "ru": "Удачи на экзамене!"
+        },
+        {
+         "en": "I'm working from home today.",
+         "ru": "Сегодня я работаю из дома."
+        },
+        {
+         "en": "Let's call it a day.",
+         "ru": "На сегодня хватит."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Let's call it a day.",
+         "options": [
+          "На сегодня хватит.",
+          "Давай позвоним днём.",
+          "Давай назовём этот день."
+         ],
+         "answer": "На сегодня хватит.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I'm working from home today.",
+         "options": [
+          "Сегодня я работаю из дома.",
+          "Сегодня я иду домой с работы.",
+          "Я дома весь день."
+         ],
+         "answer": "Сегодня я работаю из дома.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Good luck with your exam!",
+         "options": [
+          "Удачи на экзамене!",
+          "Поздравляю с экзаменом!",
+          "Как прошёл экзамен?"
+         ],
+         "answer": "Удачи на экзамене!",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я врач.",
+         "en": "I'm a doctor.",
+         "alts": [
+          "I am a doctor."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я сейчас очень занят.",
+         "en": "I'm very busy now.",
+         "alts": [
+          "I'm really busy right now.",
+          "I am very busy now.",
+          "I'm very busy right now."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я в отпуске.",
+         "en": "I'm on holiday.",
+         "alts": [
+          "I am on holiday.",
+          "I'm on vacation."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_work_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Работа и профессии",
+         "Учёба"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_amount",
      "side": "root",
-     "emoji": "📦",
      "title": "Сколько всего",
-     "subtitle": "some, any, much, many, a few"
+     "subtitle": "some, any, much, many, a few",
+     "emoji": "📦",
+     "cards": [
+      "cards_quantifiers",
+      "cards_fewlittle",
+      "cards_partitives"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a2_amount_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "some и any",
+         "text": "some — немного, несколько (в утверждении и в просьбах): I need some milk. Can I have some water? any — в вопросах и отрицаниях: Do you have any questions? There isn't any sugar.",
+         "examples": [
+          {
+           "en": "There are some apples.",
+           "ru": "Есть несколько яблок."
+          },
+          {
+           "en": "I don't have any money.",
+           "ru": "У меня совсем нет денег."
+          }
+         ]
+        },
+        {
+         "heading": "much и many",
+         "text": "many — со счётными (many books), much — с несчётными (much time). В утверждениях чаще говорят a lot of — подходит к обоим: a lot of friends, a lot of work.",
+         "examples": [
+          {
+           "en": "How many people were there?",
+           "ru": "Сколько там было людей?"
+          },
+          {
+           "en": "I don't have much time.",
+           "ru": "У меня мало времени."
+          }
+         ]
+        },
+        {
+         "heading": "a few и a little",
+         "text": "a few — несколько (счётные): a few days. a little — немного (несчётные): a little milk. Без a — few, little — «мало», с оттенком «недостаточно».",
+         "examples": [
+          {
+           "en": "I have a few friends here.",
+           "ru": "У меня здесь есть несколько друзей."
+          },
+          {
+           "en": "Just a little sugar, please.",
+           "ru": "Совсем немного сахара, пожалуйста."
+          }
+         ],
+         "tip": "a few friends — «есть пара друзей» (хорошо); few friends — «мало друзей» (грустно)."
+        },
+        {
+         "heading": "Порции",
+         "text": "Несчётное считают порциями: a cup of tea, a glass of juice, a piece of cake, a bottle of water, a slice of bread, a kilo of apples.",
+         "examples": [
+          {
+           "en": "Two cups of coffee, please.",
+           "ru": "Две чашки кофе, пожалуйста."
+          },
+          {
+           "en": "a piece of advice",
+           "ru": "совет (один)"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Is there ___ milk in the fridge?",
+         "options": [
+          "any",
+          "some",
+          "many"
+         ],
+         "answer": "any",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "How ___ money do you need?",
+         "options": [
+          "much",
+          "many",
+          "few"
+         ],
+         "answer": "much",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Несколько дней» —",
+         "options": [
+          "a few days",
+          "a little days",
+          "much days"
+         ],
+         "answer": "a few days",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Кусок торта» —",
+         "options": [
+          "a piece of cake",
+          "a cup of cake",
+          "a cake piece of"
+         ],
+         "answer": "a piece of cake",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_amount_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "some",
+         "ru": "немного, несколько"
+        },
+        {
+         "en": "any",
+         "ru": "сколько-нибудь, любой"
+        },
+        {
+         "en": "much",
+         "ru": "много (несчётное)"
+        },
+        {
+         "en": "many",
+         "ru": "много (счётное)"
+        },
+        {
+         "en": "a lot of",
+         "ru": "много"
+        },
+        {
+         "en": "a few",
+         "ru": "несколько"
+        },
+        {
+         "en": "a little",
+         "ru": "немного"
+        },
+        {
+         "en": "enough",
+         "ru": "достаточно"
+        },
+        {
+         "en": "bottle",
+         "ru": "бутылка"
+        },
+        {
+         "en": "slice",
+         "ru": "ломтик"
+        },
+        {
+         "en": "piece",
+         "ru": "кусок"
+        },
+        {
+         "en": "plenty of",
+         "ru": "полно, вдоволь"
+        }
+       ]
+      },
+      {
+       "id": "a2_amount_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I'd like [some] tea, please.",
+         "options": [
+          "some",
+          "any",
+          "many"
+         ],
+         "ru": "Мне, пожалуйста, чаю.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "There aren't [any] chairs.",
+         "options": [
+          "any",
+          "some",
+          "no"
+         ],
+         "ru": "Здесь нет стульев.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "How [many] children do you have?",
+         "options": [
+          "many",
+          "much",
+          "lot"
+         ],
+         "ru": "Сколько у вас детей?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We have [a little] time.",
+         "options": [
+          "a little",
+          "a few",
+          "many"
+         ],
+         "ru": "У нас есть немного времени.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Can I have a [glass] of water?",
+         "options": [
+          "glass",
+          "piece",
+          "slice"
+         ],
+         "ru": "Можно стакан воды?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Где ошибка нет?",
+         "options": [
+          "I don't have much work.",
+          "I don't have many work.",
+          "I don't have a few work."
+         ],
+         "answer": "I don't have much work.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Хватит ли у нас еды?» —",
+         "options": [
+          "Do we have enough food?",
+          "Do we have food enough of?",
+          "Have we much enough food?"
+         ],
+         "answer": "Do we have enough food?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "There are",
+          "a few",
+          "shops",
+          "nearby."
+         ],
+         "ru": "Рядом есть несколько магазинов.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I need",
+          "a lot of",
+          "help",
+          "today."
+         ],
+         "ru": "Сегодня мне нужно много помощи.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Would you like",
+          "a slice",
+          "of",
+          "pizza?"
+         ],
+         "ru": "Хочешь кусочек пиццы?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Articles & Quantifiers",
+         "Few / Little",
+         "A piece of, a cup of"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_amount_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "That's enough, thanks.",
+         "ru": "Достаточно, спасибо."
+        },
+        {
+         "en": "Just a little.",
+         "ru": "Совсем чуть-чуть."
+        },
+        {
+         "en": "There's plenty of time.",
+         "ru": "Времени полно."
+        },
+        {
+         "en": "Any questions?",
+         "ru": "Есть вопросы?"
+        },
+        {
+         "en": "Not much.",
+         "ru": "Немного. / Ничего особенного."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "There's plenty of time.",
+         "options": [
+          "Времени полно.",
+          "Времени мало.",
+          "Сейчас самое время."
+         ],
+         "answer": "Времени полно.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Any questions?",
+         "options": [
+          "Есть вопросы?",
+          "Какие-то проблемы?",
+          "Любой вопрос?"
+         ],
+         "answer": "Есть вопросы?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "That's enough, thanks.",
+         "options": [
+          "Достаточно, спасибо.",
+          "Ещё немного, спасибо.",
+          "Это всё твоё, спасибо."
+         ],
+         "answer": "Достаточно, спасибо.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "У меня нет денег.",
+         "en": "I don't have any money.",
+         "alts": [
+          "I have no money.",
+          "I haven't got any money."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Сколько это стоит? (сколько денег)",
+         "en": "How much money is it?",
+         "alts": [
+          "How much is it?",
+          "How much does it cost?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Чашку кофе, пожалуйста.",
+         "en": "A cup of coffee, please.",
+         "alts": [
+          "A cup of coffee please"
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_amount_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Articles & Quantifiers",
+         "Few / Little",
+         "A piece of, a cup of"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_people",
      "side": "crown",
-     "emoji": "🧑‍🤝‍🧑",
      "title": "Люди вокруг",
-     "subtitle": "Внешность и характер"
+     "subtitle": "Внешность, характер и чувства",
+     "emoji": "🧑‍🤝‍🧑",
+     "cards": [
+      "cards_appearance",
+      "cards_descriptions",
+      "cards_emotions"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a2_people_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Как выглядит",
+         "text": "What does she look like? — Как она выглядит? She's tall / short, slim, with long dark hair and blue eyes. He has a beard — у него борода.",
+         "examples": [
+          {
+           "en": "He's tall with short hair.",
+           "ru": "Он высокий, с короткими волосами."
+          },
+          {
+           "en": "She has curly red hair.",
+           "ru": "У неё кудрявые рыжие волосы."
+          }
+         ]
+        },
+        {
+         "heading": "Какой человек",
+         "text": "What is he like? — Какой он (по характеру)? kind — добрый, friendly — дружелюбный, shy — застенчивый, funny — смешной, lazy — ленивый, hard-working — трудолюбивый.",
+         "examples": [
+          {
+           "en": "My boss is very friendly.",
+           "ru": "Мой начальник очень дружелюбный."
+          },
+          {
+           "en": "What's your brother like?",
+           "ru": "Какой у тебя брат?"
+          }
+         ],
+         "tip": "What does he look like? — про внешность; What is he like? — про характер."
+        },
+        {
+         "heading": "Чувства",
+         "text": "I'm happy / sad / tired / angry / nervous / bored. Причина — because of или about: I'm nervous about the exam. I'm angry with him.",
+         "examples": [
+          {
+           "en": "I'm so tired today.",
+           "ru": "Я сегодня так устал."
+          },
+          {
+           "en": "She's worried about her son.",
+           "ru": "Она волнуется за сына."
+          }
+         ]
+        },
+        {
+         "heading": "-ed или -ing",
+         "text": "-ed — что я чувствую: I'm bored, I'm interested. -ing — какой предмет: The film is boring, the book is interesting.",
+         "examples": [
+          {
+           "en": "I'm bored.",
+           "ru": "Мне скучно."
+          },
+          {
+           "en": "This lesson is boring.",
+           "ru": "Этот урок скучный."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "«Какая она по характеру?» —",
+         "options": [
+          "What is she like?",
+          "What does she look like?",
+          "How is she look?"
+         ],
+         "answer": "What is she like?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Мне скучно:",
+         "options": [
+          "I'm bored.",
+          "I'm boring.",
+          "I bore."
+         ],
+         "answer": "I'm bored.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "He has a ___ (борода).",
+         "options": [
+          "beard",
+          "bird",
+          "beer"
+         ],
+         "answer": "beard",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "She's nervous ___ the interview.",
+         "options": [
+          "about",
+          "for",
+          "of"
+         ],
+         "answer": "about",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_people_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "tall",
+         "ru": "высокий"
+        },
+        {
+         "en": "slim",
+         "ru": "стройный"
+        },
+        {
+         "en": "curly",
+         "ru": "кудрявый"
+        },
+        {
+         "en": "beard",
+         "ru": "борода"
+        },
+        {
+         "en": "kind",
+         "ru": "добрый"
+        },
+        {
+         "en": "shy",
+         "ru": "застенчивый"
+        },
+        {
+         "en": "lazy",
+         "ru": "ленивый"
+        },
+        {
+         "en": "hard-working",
+         "ru": "трудолюбивый"
+        },
+        {
+         "en": "worried",
+         "ru": "обеспокоенный"
+        },
+        {
+         "en": "proud",
+         "ru": "гордый"
+        },
+        {
+         "en": "angry",
+         "ru": "сердитый"
+        },
+        {
+         "en": "calm",
+         "ru": "спокойный"
+        }
+       ]
+      },
+      {
+       "id": "a2_people_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "What does your sister [look] like?",
+         "options": [
+          "look",
+          "looks",
+          "seem"
+         ],
+         "ru": "Как выглядит твоя сестра?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "He's very [shy] with new people.",
+         "options": [
+          "shy",
+          "shine",
+          "short"
+         ],
+         "ru": "Он очень стеснительный с новыми людьми.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "This film is really [interesting].",
+         "options": [
+          "interesting",
+          "interested",
+          "interest"
+         ],
+         "ru": "Этот фильм очень интересный.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'm [proud] of you!",
+         "options": [
+          "proud",
+          "pride",
+          "prouding"
+         ],
+         "ru": "Я горжусь тобой!",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She has long [straight] hair.",
+         "options": [
+          "straight",
+          "strait",
+          "strong"
+         ],
+         "ru": "У неё длинные прямые волосы.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Он трудолюбивый» —",
+         "options": [
+          "He's hard-working.",
+          "He's hardly working.",
+          "He works hardly."
+         ],
+         "answer": "He's hard-working.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Мне интересно:",
+         "options": [
+          "I'm interested.",
+          "I'm interesting.",
+          "I interest."
+         ],
+         "answer": "I'm interested.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "My dad",
+          "is tall",
+          "with",
+          "grey hair."
+         ],
+         "ru": "Мой папа высокий, с седыми волосами.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Why",
+          "are you",
+          "so",
+          "upset?"
+         ],
+         "ru": "Почему ты так расстроен?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "She's",
+          "kind",
+          "and",
+          "funny."
+         ],
+         "ru": "Она добрая и весёлая.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Внешность и характер",
+         "Descriptions",
+         "Эмоции и чувства"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_people_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "You look great!",
+         "ru": "Отлично выглядишь!"
+        },
+        {
+         "en": "Calm down.",
+         "ru": "Успокойся."
+        },
+        {
+         "en": "Don't worry about it.",
+         "ru": "Не переживай об этом."
+        },
+        {
+         "en": "You remind me of my sister.",
+         "ru": "Ты напоминаешь мне мою сестру."
+        },
+        {
+         "en": "I'm in a good mood.",
+         "ru": "У меня хорошее настроение."
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Calm down.",
+         "options": [
+          "Успокойся.",
+          "Садись.",
+          "Тише иди."
+         ],
+         "answer": "Успокойся.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "I'm in a good mood.",
+         "options": [
+          "У меня хорошее настроение.",
+          "Я в хорошей форме.",
+          "Я в хорошем месте."
+         ],
+         "answer": "У меня хорошее настроение.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "You look great!",
+         "options": [
+          "Отлично выглядишь!",
+          "Ты много видишь!",
+          "Посмотри, как здорово!"
+         ],
+         "answer": "Отлично выглядишь!",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Как он выглядит?",
+         "en": "What does he look like?",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мне скучно.",
+         "en": "I'm bored.",
+         "alts": [
+          "I am bored."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Не переживай.",
+         "en": "Don't worry.",
+         "alts": [
+          "Don't worry about it.",
+          "Do not worry."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_people_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Внешность и характер",
+         "Descriptions",
+         "Эмоции и чувства"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_modals",
      "side": "root",
-     "emoji": "🚦",
      "title": "Надо и можно",
-     "subtitle": "must, have to, should, may"
+     "subtitle": "must, have to, should, can, may",
+     "emoji": "🚦",
+     "cards": [
+      "cards_modalverbs",
+      "cards_haveto",
+      "cards_mustnt",
+      "cards_advice"
+     ],
+     "minutes": 45,
+     "stages": [
+      {
+       "id": "a2_modals_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Надо: must и have to",
+         "text": "must — «я считаю, что надо» (внутреннее решение, правила): I must call mum. have to — «так сложилось, обязан» (обстоятельства): I have to work on Saturday. В прошлом — только had to.",
+         "examples": [
+          {
+           "en": "I have to get up at six.",
+           "ru": "Мне приходится вставать в шесть."
+          },
+          {
+           "en": "We had to wait an hour.",
+           "ru": "Нам пришлось ждать час."
+          }
+         ]
+        },
+        {
+         "heading": "Нельзя и не нужно",
+         "text": "mustn't — нельзя, запрещено: You mustn't smoke here. don't have to — не обязательно: You don't have to come — можешь не приходить.",
+         "examples": [
+          {
+           "en": "You mustn't park here.",
+           "ru": "Здесь нельзя парковаться."
+          },
+          {
+           "en": "You don't have to pay.",
+           "ru": "Платить не нужно."
+          }
+         ],
+         "tip": "mustn't и don't have to — совсем разные: «нельзя» и «не нужно»."
+        },
+        {
+         "heading": "Можно: can, may, could",
+         "text": "can — могу, умею, можно (Can I sit here?). may — вежливее (May I come in?). could — «не могли бы вы» и «мог» в прошлом.",
+         "examples": [
+          {
+           "en": "Can I use your phone?",
+           "ru": "Можно воспользоваться твоим телефоном?"
+          },
+          {
+           "en": "Could you help me, please?",
+           "ru": "Не могли бы вы мне помочь?"
+          }
+         ]
+        },
+        {
+         "heading": "Совет: should",
+         "text": "should / shouldn't — стоит / не стоит. Мягче, чем must: You should try it! Вопрос-совет: What should I do?",
+         "examples": [
+          {
+           "en": "You should see this film.",
+           "ru": "Тебе стоит посмотреть этот фильм."
+          },
+          {
+           "en": "What should I wear?",
+           "ru": "Что мне надеть?"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "«Здесь нельзя курить» —",
+         "options": [
+          "You mustn't smoke here.",
+          "You don't have to smoke here.",
+          "You haven't smoke here."
+         ],
+         "answer": "You mustn't smoke here.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Вчера мне пришлось работать:",
+         "options": [
+          "I had to work yesterday.",
+          "I must work yesterday.",
+          "I have to worked yesterday."
+         ],
+         "answer": "I had to work yesterday.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Вежливая просьба:",
+         "options": [
+          "Could you open the window?",
+          "You open the window.",
+          "Must you open the window?"
+         ],
+         "answer": "Could you open the window?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "She ___ to wear a uniform at work.",
+         "options": [
+          "has",
+          "must",
+          "should"
+         ],
+         "answer": "has",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_modals_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "must",
+         "ru": "должен"
+        },
+        {
+         "en": "have to",
+         "ru": "приходится, надо"
+        },
+        {
+         "en": "mustn't",
+         "ru": "нельзя"
+        },
+        {
+         "en": "should",
+         "ru": "следует"
+        },
+        {
+         "en": "may",
+         "ru": "можно (вежливо)"
+        },
+        {
+         "en": "could",
+         "ru": "мог бы, не могли бы"
+        },
+        {
+         "en": "allowed",
+         "ru": "разрешено"
+        },
+        {
+         "en": "rule",
+         "ru": "правило"
+        },
+        {
+         "en": "forbidden",
+         "ru": "запрещено"
+        },
+        {
+         "en": "advice",
+         "ru": "совет"
+        },
+        {
+         "en": "necessary",
+         "ru": "необходимый"
+        },
+        {
+         "en": "permission",
+         "ru": "разрешение"
+        }
+       ]
+      },
+      {
+       "id": "a2_modals_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "I [have] to finish this today.",
+         "options": [
+          "have",
+          "must",
+          "should"
+         ],
+         "ru": "Мне надо закончить это сегодня.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "You [mustn't] touch it, it's hot!",
+         "options": [
+          "mustn't",
+          "don't have to",
+          "shouldn't to"
+         ],
+         "ru": "Это нельзя трогать, горячо!",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "You [don't have to] bring anything.",
+         "options": [
+          "don't have to",
+          "mustn't",
+          "can't"
+         ],
+         "ru": "Ничего приносить не нужно.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[May] I ask a question?",
+         "options": [
+          "May",
+          "Must",
+          "Should"
+         ],
+         "ru": "Можно задать вопрос?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "You [should] sleep more.",
+         "options": [
+          "should",
+          "have",
+          "may to"
+         ],
+         "ru": "Тебе стоит больше спать.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Нам пришлось уйти» —",
+         "options": [
+          "We had to leave.",
+          "We must leave.",
+          "We have to left."
+         ],
+         "answer": "We had to leave.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Здесь разрешено фотографировать?",
+         "options": [
+          "Are we allowed to take photos here?",
+          "Do we allow take photos here?",
+          "Must we take photos here?"
+         ],
+         "answer": "Are we allowed to take photos here?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Do I",
+          "have to",
+          "fill in",
+          "this form?"
+         ],
+         "ru": "Мне нужно заполнить эту форму?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "You",
+          "shouldn't",
+          "work",
+          "so much."
+         ],
+         "ru": "Тебе не стоит так много работать.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Could you",
+          "speak",
+          "more",
+          "slowly?"
+         ],
+         "ru": "Не могли бы вы говорить медленнее?",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Modal Verbs",
+         "Have to",
+         "Must / Mustn't",
+         "Как дать совет"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_modals_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "You don't have to.",
+         "ru": "Не обязательно."
+        },
+        {
+         "en": "I must admit…",
+         "ru": "Должен признать…"
+        },
+        {
+         "en": "Is it allowed?",
+         "ru": "Это разрешено?"
+        },
+        {
+         "en": "What should I do?",
+         "ru": "Что мне делать?"
+        },
+        {
+         "en": "Do I have to?",
+         "ru": "Мне обязательно?"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Do I have to?",
+         "options": [
+          "Мне обязательно?",
+          "Мне можно?",
+          "У меня есть?"
+         ],
+         "answer": "Мне обязательно?",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "You don't have to.",
+         "options": [
+          "Не обязательно.",
+          "Тебе нельзя.",
+          "У тебя нет."
+         ],
+         "answer": "Не обязательно.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "What should I do?",
+         "options": [
+          "Что мне делать?",
+          "Что я сделал?",
+          "Что мне нельзя?"
+         ],
+         "answer": "Что мне делать?",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мне надо идти.",
+         "en": "I have to go.",
+         "alts": [
+          "I must go.",
+          "I've got to go."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Здесь нельзя парковаться.",
+         "en": "You mustn't park here.",
+         "alts": [
+          "You can't park here."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Тебе стоит попробовать.",
+         "en": "You should try.",
+         "alts": [
+          "You should try it."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_modals_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Modal Verbs",
+         "Have to",
+         "Must / Mustn't",
+         "Как дать совет"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_party",
      "side": "crown",
-     "emoji": "🎉",
      "title": "Праздник",
-     "subtitle": "Приглашения и планы"
+     "subtitle": "Приглашения, поздравления и планы",
+     "emoji": "🎉",
+     "cards": [
+      "cards_invitations",
+      "cards_congratulations",
+      "cards_idloveto"
+     ],
+     "minutes": 40,
+     "stages": [
+      {
+       "id": "a2_party_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Пригласить",
+         "text": "Would you like to come to my party? — Хочешь прийти ко мне на праздник? Неформально: Do you fancy…? / How about…? / Why don't we…?",
+         "examples": [
+          {
+           "en": "Would you like to have dinner with us?",
+           "ru": "Хочешь поужинать с нами?"
+          },
+          {
+           "en": "How about going to the cinema?",
+           "ru": "Как насчёт кино?"
+          }
+         ]
+        },
+        {
+         "heading": "Согласиться и отказаться",
+         "text": "Да: I'd love to! / Sounds great! Нет — вежливо, с причиной: I'm sorry, I can't. I'm busy on Saturday. Maybe another time?",
+         "examples": [
+          {
+           "en": "I'd love to, thanks!",
+           "ru": "С удовольствием, спасибо!"
+          },
+          {
+           "en": "I'm afraid I can't make it.",
+           "ru": "Боюсь, я не смогу."
+          }
+         ],
+         "tip": "После I'd love — to: I'd love to come. Без to звучит оборванно."
+        },
+        {
+         "heading": "Поздравить",
+         "text": "Happy birthday! — С днём рождения! Congratulations! — Поздравляю! (с успехом). Merry Christmas! Happy New Year! Пожелания: I wish you all the best.",
+         "examples": [
+          {
+           "en": "Congratulations on your new job!",
+           "ru": "Поздравляю с новой работой!"
+          },
+          {
+           "en": "All the best!",
+           "ru": "Всего наилучшего!"
+          }
+         ]
+        },
+        {
+         "heading": "Посочувствовать",
+         "text": "I'm sorry to hear that. — Мне жаль это слышать. That's a shame. — Как жаль. Поддержать: I'm here if you need me.",
+         "examples": [
+          {
+           "en": "I'm so sorry to hear that.",
+           "ru": "Мне так жаль это слышать."
+          },
+          {
+           "en": "What a shame!",
+           "ru": "Как жаль!"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Вежливо согласиться:",
+         "options": [
+          "I'd love to!",
+          "I love!",
+          "I'd love go!"
+         ],
+         "answer": "I'd love to!",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Congratulations ___ your wedding!",
+         "options": [
+          "on",
+          "with",
+          "for"
+         ],
+         "answer": "on",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Вежливо отказаться:",
+         "options": [
+          "I'm afraid I can't make it.",
+          "No, I don't want.",
+          "I can't, bye."
+         ],
+         "answer": "I'm afraid I can't make it.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Как насчёт пиццы?» —",
+         "options": [
+          "How about pizza?",
+          "What about of pizza?",
+          "How pizza?"
+         ],
+         "answer": "How about pizza?",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_party_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "invite",
+         "ru": "приглашать"
+        },
+        {
+         "en": "invitation",
+         "ru": "приглашение"
+        },
+        {
+         "en": "party",
+         "ru": "праздник, вечеринка"
+        },
+        {
+         "en": "guest",
+         "ru": "гость"
+        },
+        {
+         "en": "present",
+         "ru": "подарок"
+        },
+        {
+         "en": "celebrate",
+         "ru": "праздновать"
+        },
+        {
+         "en": "anniversary",
+         "ru": "годовщина"
+        },
+        {
+         "en": "wedding",
+         "ru": "свадьба"
+        },
+        {
+         "en": "congratulate",
+         "ru": "поздравлять"
+        },
+        {
+         "en": "wish",
+         "ru": "желать"
+        },
+        {
+         "en": "surprise",
+         "ru": "сюрприз"
+        },
+        {
+         "en": "toast",
+         "ru": "тост"
+        }
+       ]
+      },
+      {
+       "id": "a2_party_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Would you like [to] come?",
+         "options": [
+          "to",
+          "for",
+          "-"
+         ],
+         "ru": "Хочешь прийти?",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Congratulations [on] passing your exam!",
+         "options": [
+          "on",
+          "with",
+          "for"
+         ],
+         "ru": "Поздравляю со сдачей экзамена!",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We're [celebrating] our anniversary.",
+         "options": [
+          "celebrating",
+          "congratulating",
+          "wishing"
+         ],
+         "ru": "Мы празднуем годовщину.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'm sorry to [hear] that.",
+         "options": [
+          "hear",
+          "listen",
+          "say"
+         ],
+         "ru": "Мне жаль это слышать.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I [wish] you a happy birthday!",
+         "options": [
+          "wish",
+          "want",
+          "hope"
+         ],
+         "ru": "Желаю тебе счастливого дня рождения!",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Почему бы нам не устроить вечеринку?» —",
+         "options": [
+          "Why don't we have a party?",
+          "Why we don't have a party?",
+          "Why not we have party?"
+         ],
+         "answer": "Why don't we have a party?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Ответ на «Thanks for inviting me!»",
+         "options": [
+          "You're welcome! Glad you came.",
+          "Yes, I invited.",
+          "No problem, bye."
+         ],
+         "answer": "You're welcome! Glad you came.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Thank you",
+          "for",
+          "the lovely",
+          "present!"
+         ],
+         "ru": "Спасибо за чудесный подарок!",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Do you",
+          "fancy",
+          "going",
+          "out tonight?"
+         ],
+         "ru": "Не хочешь сходить куда-нибудь вечером?",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'm sorry,",
+          "I'm busy",
+          "on",
+          "Saturday."
+         ],
+         "ru": "Извини, я занят в субботу.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Приглашения",
+         "Поздравления и сочувствие",
+         "I'd love to"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_party_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "Sounds great!",
+         "ru": "Звучит отлично!"
+        },
+        {
+         "en": "Cheers!",
+         "ru": "Будем здоровы! (тост)"
+        },
+        {
+         "en": "Make a wish!",
+         "ru": "Загадай желание!"
+        },
+        {
+         "en": "Thanks for having me.",
+         "ru": "Спасибо, что пригласили."
+        },
+        {
+         "en": "Help yourself!",
+         "ru": "Угощайся!"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Help yourself!",
+         "options": [
+          "Угощайся!",
+          "Помоги себе сам!",
+          "Позови на помощь!"
+         ],
+         "answer": "Угощайся!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Make a wish!",
+         "options": [
+          "Загадай желание!",
+          "Сделай подарок!",
+          "Скажи тост!"
+         ],
+         "answer": "Загадай желание!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "Thanks for having me.",
+         "options": [
+          "Спасибо, что пригласили.",
+          "Спасибо, что ты у меня есть.",
+          "Спасибо за угощение."
+         ],
+         "answer": "Спасибо, что пригласили.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "С днём рождения!",
+         "en": "Happy birthday!",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "С удовольствием!",
+         "en": "I'd love to!",
+         "alts": [
+          "I would love to!",
+          "With pleasure!"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Поздравляю!",
+         "en": "Congratulations!",
+         "alts": [],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_party_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Приглашения",
+         "Поздравления и сочувствие",
+         "I'd love to"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_if",
      "side": "root",
-     "emoji": "🔗",
      "title": "Если завтра",
-     "subtitle": "First Conditional"
+     "subtitle": "First Conditional и when",
+     "emoji": "🔗",
+     "cards": [
+      "cards_conditionals",
+      "cards_timeclauses",
+      "cards_unlessincase"
+     ],
+     "minutes": 45,
+     "stages": [
+      {
+       "id": "a2_if_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Реальное условие",
+         "text": "If + Present Simple, will + глагол — реальное условие в будущем: If it rains, we will stay at home. После if — настоящее время, хотя смысл будущий.",
+         "examples": [
+          {
+           "en": "If you hurry, you'll catch the bus.",
+           "ru": "Если поторопишься, успеешь на автобус."
+          },
+          {
+           "en": "If I have time, I'll call you.",
+           "ru": "Если будет время, я позвоню."
+          }
+         ],
+         "tip": "«If it will rain» — ошибка: после if не ставят will."
+        },
+        {
+         "heading": "Части местами",
+         "text": "Части можно менять местами. Если if в начале — между частями запятая, если в середине — без неё: We'll stay at home if it rains.",
+         "examples": [
+          {
+           "en": "I'll be happy if you come.",
+           "ru": "Я буду рад, если ты придёшь."
+          },
+          {
+           "en": "If she calls, tell her I'm out.",
+           "ru": "Если она позвонит, скажи, что меня нет."
+          }
+         ]
+        },
+        {
+         "heading": "when и as soon as",
+         "text": "Так же работают when (когда), as soon as (как только), before, after, until: When I get home, I'll text you. — тоже Present Simple после связки.",
+         "examples": [
+          {
+           "en": "I'll text you when I get home.",
+           "ru": "Напишу, когда доберусь домой."
+          },
+          {
+           "en": "As soon as I know, I'll tell you.",
+           "ru": "Как только узнаю — скажу."
+          }
+         ]
+        },
+        {
+         "heading": "unless",
+         "text": "unless = if not, «если не»: I won't go unless you come with me. — Я не пойду, если ты не пойдёшь со мной.",
+         "examples": [
+          {
+           "en": "We'll be late unless we leave now.",
+           "ru": "Мы опоздаем, если не выйдем сейчас."
+          },
+          {
+           "en": "Don't call unless it's urgent.",
+           "ru": "Не звони, если не срочно."
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "If it ___ tomorrow, we'll go to the beach.",
+         "options": [
+          "is sunny",
+          "will be sunny",
+          "sunny"
+         ],
+         "answer": "is sunny",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "I'll call you when I ___.",
+         "options": [
+          "arrive",
+          "will arrive",
+          "arrived"
+         ],
+         "answer": "arrive",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "unless =",
+         "options": [
+          "if not",
+          "only if",
+          "even if"
+         ],
+         "answer": "if not",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Где правильно?",
+         "options": [
+          "If you study, you will pass.",
+          "If you will study, you pass.",
+          "If you study, you pass will."
+         ],
+         "answer": "If you study, you will pass.",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_if_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "if",
+         "ru": "если"
+        },
+        {
+         "en": "unless",
+         "ru": "если не"
+        },
+        {
+         "en": "as soon as",
+         "ru": "как только"
+        },
+        {
+         "en": "until",
+         "ru": "пока не, до"
+        },
+        {
+         "en": "in case",
+         "ru": "на случай, если"
+        },
+        {
+         "en": "otherwise",
+         "ru": "иначе"
+        },
+        {
+         "en": "hurry",
+         "ru": "спешить"
+        },
+        {
+         "en": "miss",
+         "ru": "опоздать на, пропустить"
+        },
+        {
+         "en": "catch",
+         "ru": "успеть на, поймать"
+        },
+        {
+         "en": "result",
+         "ru": "результат"
+        },
+        {
+         "en": "chance",
+         "ru": "шанс"
+        },
+        {
+         "en": "condition",
+         "ru": "условие"
+        }
+       ]
+      },
+      {
+       "id": "a2_if_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "If you [heat] ice, it melts.",
+         "options": [
+          "heat",
+          "will heat",
+          "heated"
+         ],
+         "ru": "Если нагреть лёд, он тает.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "If we leave now, we [will] catch the train.",
+         "options": [
+          "will",
+          "would",
+          "are"
+         ],
+         "ru": "Если выйдем сейчас, успеем на поезд.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "I'll wait [until] you come back.",
+         "options": [
+          "until",
+          "unless",
+          "while"
+         ],
+         "ru": "Я подожду, пока ты не вернёшься.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Take an umbrella [in case] it rains.",
+         "options": [
+          "in case",
+          "unless",
+          "if not"
+         ],
+         "ru": "Возьми зонт на случай дождя.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "She won't come [unless] you ask her.",
+         "options": [
+          "unless",
+          "if",
+          "when"
+         ],
+         "ru": "Она не придёт, если ты не попросишь.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Как только я закончу, я позвоню» —",
+         "options": [
+          "As soon as I finish, I'll call.",
+          "As soon as I will finish, I call.",
+          "As soon I finish, I'll call."
+         ],
+         "answer": "As soon as I finish, I'll call.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Хорошо ли: «If it will rain, we stay home»?",
+         "options": [
+          "Нет: If it rains, we'll stay home.",
+          "Да, всё верно.",
+          "Нет: If it rain, we stay home."
+         ],
+         "answer": "Нет: If it rains, we'll stay home.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "If",
+          "you need help,",
+          "I'll",
+          "be here."
+         ],
+         "ru": "Если нужна помощь — я буду рядом.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Hurry up,",
+          "otherwise",
+          "we'll",
+          "be late."
+         ],
+         "ru": "Поторопись, иначе опоздаем.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "I'll tell you",
+          "as soon as",
+          "I",
+          "know."
+         ],
+         "ru": "Я скажу тебе, как только узнаю.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "First Conditional",
+         "When / As soon as",
+         "Future Simple"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_if_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "If I were you…",
+         "ru": "На твоём месте…"
+        },
+        {
+         "en": "Just in case.",
+         "ru": "На всякий случай."
+        },
+        {
+         "en": "It depends.",
+         "ru": "Смотря как. / Зависит."
+        },
+        {
+         "en": "We'll see.",
+         "ru": "Посмотрим."
+        },
+        {
+         "en": "Let me know if…",
+         "ru": "Дай знать, если…"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "Just in case.",
+         "options": [
+          "На всякий случай.",
+          "Только в этом случае.",
+          "Просто так."
+         ],
+         "answer": "На всякий случай.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It depends.",
+         "options": [
+          "Смотря как.",
+          "Это зависимость.",
+          "Это неважно."
+         ],
+         "answer": "Смотря как.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "We'll see.",
+         "options": [
+          "Посмотрим.",
+          "Мы увидимся.",
+          "Мы видели."
+         ],
+         "answer": "Посмотрим.",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Если пойдёт дождь, мы останемся дома.",
+         "en": "If it rains, we will stay at home.",
+         "alts": [
+          "If it rains, we'll stay at home.",
+          "If it rains, we will stay home.",
+          "If it rains, we'll stay home."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Дай знать, если что-то нужно.",
+         "en": "Let me know if you need anything.",
+         "alts": [
+          "Let me know if you need something."
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Я позвоню, когда приеду.",
+         "en": "I'll call when I arrive.",
+         "alts": [
+          "I will call when I arrive.",
+          "I'll call you when I arrive.",
+          "I'll call when I get there."
+         ],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_if_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "First Conditional",
+         "When / As soon as",
+         "Future Simple"
+        ],
+        "count": 4
+       }
+      }
+     ]
     },
     {
+     "id": "a2_story",
      "side": "crown",
-     "emoji": "🗺",
      "title": "История поездки",
-     "subtitle": "Рассказ о путешествии"
+     "subtitle": "Рассказ о путешествии",
+     "emoji": "🗺",
+     "cards": [
+      "cards_story",
+      "cards_narrativetenses",
+      "cards_travel"
+     ],
+     "minutes": 50,
+     "stages": [
+      {
+       "id": "a2_story_sprout",
+       "kind": "theory",
+       "xp": 136,
+       "blocks": [
+        {
+         "heading": "Начать рассказ",
+         "text": "Рассказ задаёт сцену: Last summer we went to… It was a hot day and the sun was shining. Фон — Past Continuous, события — Past Simple.",
+         "examples": [
+          {
+           "en": "Last summer we went to Italy.",
+           "ru": "Прошлым летом мы ездили в Италию."
+          },
+          {
+           "en": "It was raining when we arrived.",
+           "ru": "Когда мы приехали, шёл дождь."
+          }
+         ]
+        },
+        {
+         "heading": "Связать события",
+         "text": "Порядок держат слова first — сначала, then — потом, after that — после этого, later — позже, finally / in the end — в итоге. Неожиданное — suddenly.",
+         "examples": [
+          {
+           "en": "First we visited the old town.",
+           "ru": "Сначала мы посетили старый город."
+          },
+          {
+           "en": "In the end we missed the flight.",
+           "ru": "В итоге мы опоздали на рейс."
+          }
+         ]
+        },
+        {
+         "heading": "Впечатления",
+         "text": "It was amazing / awful / unforgettable. The best part was… What I liked most was… — так рассказ становится живым.",
+         "examples": [
+          {
+           "en": "The best part was the food.",
+           "ru": "Лучше всего была еда."
+          },
+          {
+           "en": "It was an unforgettable trip.",
+           "ru": "Это была незабываемая поездка."
+          }
+         ],
+         "tip": "Сильные слова: amazing, terrible, huge — их не ставят после very: «very amazing» звучит странно."
+        },
+        {
+         "heading": "Спросить о поездке",
+         "text": "How was your trip? — Как съездил? Where did you stay? What did you see? Did you have a good time?",
+         "examples": [
+          {
+           "en": "How was your holiday?",
+           "ru": "Как прошёл отпуск?"
+          },
+          {
+           "en": "Did you have a good time?",
+           "ru": "Хорошо провёл время?"
+          }
+         ]
+        }
+       ],
+       "tasks": [
+        {
+         "type": "choice",
+         "q": "Фон рассказа: «Светило солнце» —",
+         "options": [
+          "The sun was shining.",
+          "The sun shone up.",
+          "The sun is shining."
+         ],
+         "answer": "The sun was shining.",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«В итоге» —",
+         "options": [
+          "in the end",
+          "at the end of",
+          "in end"
+         ],
+         "answer": "in the end",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Как съездил?» —",
+         "options": [
+          "How was your trip?",
+          "How is your trip was?",
+          "How did your trip?"
+         ],
+         "answer": "How was your trip?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Какое слово НЕ ставят после very?",
+         "options": [
+          "amazing",
+          "good",
+          "tired"
+         ],
+         "answer": "amazing",
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_story_leaves",
+       "kind": "words",
+       "xp": 239,
+       "words": [
+        {
+         "en": "trip",
+         "ru": "поездка"
+        },
+        {
+         "en": "holiday",
+         "ru": "отпуск"
+        },
+        {
+         "en": "sightseeing",
+         "ru": "осмотр достопримечательностей"
+        },
+        {
+         "en": "abroad",
+         "ru": "за границей"
+        },
+        {
+         "en": "guide",
+         "ru": "гид"
+        },
+        {
+         "en": "view",
+         "ru": "вид"
+        },
+        {
+         "en": "souvenir",
+         "ru": "сувенир"
+        },
+        {
+         "en": "amazing",
+         "ru": "потрясающий"
+        },
+        {
+         "en": "unforgettable",
+         "ru": "незабываемый"
+        },
+        {
+         "en": "suddenly",
+         "ru": "вдруг"
+        },
+        {
+         "en": "finally",
+         "ru": "наконец"
+        },
+        {
+         "en": "stay",
+         "ru": "останавливаться"
+        }
+       ]
+      },
+      {
+       "id": "a2_story_boughs",
+       "kind": "practice",
+       "xp": 307,
+       "tasks": [
+        {
+         "type": "gap",
+         "text": "Last year we [went] abroad.",
+         "options": [
+          "went",
+          "were going",
+          "go"
+         ],
+         "ru": "В прошлом году мы ездили за границу.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "We were walking along the beach when it [started] to rain.",
+         "options": [
+          "started",
+          "was starting",
+          "starts"
+         ],
+         "ru": "Мы гуляли по пляжу, когда начался дождь.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "[After] that, we had lunch.",
+         "options": [
+          "After",
+          "Before",
+          "Since"
+         ],
+         "ru": "После этого мы пообедали.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "The [view] from the hotel was amazing.",
+         "options": [
+          "view",
+          "look",
+          "sight of"
+         ],
+         "ru": "Вид из отеля был потрясающим.",
+         "why": ""
+        },
+        {
+         "type": "gap",
+         "text": "Where did you [stay]?",
+         "options": [
+          "stay",
+          "live",
+          "sleep in"
+         ],
+         "ru": "Где вы останавливались?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "Как спросить: «Хорошо провёл время?»",
+         "options": [
+          "Did you have a good time?",
+          "Did you good time?",
+          "Were you a good time?"
+         ],
+         "answer": "Did you have a good time?",
+         "why": ""
+        },
+        {
+         "type": "choice",
+         "q": "«Лучше всего была еда» —",
+         "options": [
+          "The best part was the food.",
+          "The better was food.",
+          "Food was the most best."
+         ],
+         "answer": "The best part was the food.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "First",
+          "we visited",
+          "the old",
+          "town."
+         ],
+         "ru": "Сначала мы посетили старый город.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "Suddenly",
+          "someone",
+          "called",
+          "my name."
+         ],
+         "ru": "Вдруг кто-то назвал моё имя.",
+         "why": ""
+        },
+        {
+         "type": "build",
+         "words": [
+          "It was",
+          "an unforgettable",
+          "trip",
+          "for us."
+         ],
+         "ru": "Это была незабываемая поездка для нас.",
+         "why": ""
+        }
+       ],
+       "sentences": {
+        "topics": [
+         "Как рассказывать историю",
+         "Past Continuous",
+         "Past Simple",
+         "В аэропорту и в дороге"
+        ],
+        "count": 5
+       }
+      },
+      {
+       "id": "a2_story_voice",
+       "kind": "speech",
+       "xp": 205,
+       "phrases": [
+        {
+         "en": "You won't believe it!",
+         "ru": "Ты не поверишь!"
+        },
+        {
+         "en": "To cut a long story short…",
+         "ru": "Короче говоря…"
+        },
+        {
+         "en": "It was worth it.",
+         "ru": "Оно того стоило."
+        },
+        {
+         "en": "I'll never forget it.",
+         "ru": "Я никогда этого не забуду."
+        },
+        {
+         "en": "Anyway, …",
+         "ru": "В общем, …"
+        }
+       ],
+       "tasks": [
+        {
+         "type": "listen",
+         "en": "You won't believe it!",
+         "options": [
+          "Ты не поверишь!",
+          "Ты не веришь мне!",
+          "Не верь этому!"
+         ],
+         "answer": "Ты не поверишь!",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "It was worth it.",
+         "options": [
+          "Оно того стоило.",
+          "Это было дорого.",
+          "Это было неважно."
+         ],
+         "answer": "Оно того стоило.",
+         "why": ""
+        },
+        {
+         "type": "listen",
+         "en": "To cut a long story short…",
+         "options": [
+          "Короче говоря…",
+          "Это длинная история…",
+          "Разрежь историю…"
+         ],
+         "answer": "Короче говоря…",
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Как прошёл отпуск?",
+         "en": "How was your holiday?",
+         "alts": [
+          "How was your vacation?",
+          "How was your trip?"
+         ],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Мы ездили в Италию.",
+         "en": "We went to Italy.",
+         "alts": [],
+         "why": ""
+        },
+        {
+         "type": "type",
+         "ru": "Это была незабываемая поездка.",
+         "en": "It was an unforgettable trip.",
+         "alts": [],
+         "why": ""
+        }
+       ]
+      },
+      {
+       "id": "a2_story_bind",
+       "kind": "review",
+       "xp": 239,
+       "sentences": {
+        "topics": [
+         "Как рассказывать историю",
+         "Past Continuous",
+         "Past Simple",
+         "В аэропорту и в дороге"
+        ],
+        "count": 4
+       }
+      }
+     ]
     }
    ]
   },
