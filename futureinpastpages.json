@@ -1,5 +1,5 @@
 {
-  "tenseName": "Future in the Past",
+  "tenseName": "Будущее в прошлом: would",
   "route": "cards_futureinpast",
   "slides": [
     {
@@ -92,6 +92,211 @@
             "type": "tip",
             "title": "Самая частая фраза",
             "text": "I was going to tell you! — «Я как раз собирался тебе сказать!» Обычно значит, что не сказал."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Would",
+      "intro": {
+        "text": "Would — это will, сдвинутое в прошлое. Так говорят, когда рассказывают о прошлом и о том, что тогда ещё было впереди: I knew she would win.",
+        "highlights": [
+          {
+            "text": "will, сдвинутое в прошлое",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "ещё было впереди",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Will → would",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "I think she will win.",
+              "to": "I thought she would win."
+            },
+            {
+              "from": "He says he will call.",
+              "to": "He said he would call."
+            },
+            {
+              "from": "I hope it won't rain.",
+              "to": "I hoped it wouldn't rain."
+            },
+            {
+              "from": "I'm sure you will like it.",
+              "to": "I was sure you would like it."
+            }
+          ]
+        },
+        {
+          "title": "В рассказе",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Ten years later, they would meet again in Paris.",
+              "ru": "Через десять лет им предстояло снова встретиться в Париже."
+            },
+            {
+              "en": "Nobody guessed that the town would become famous.",
+              "ru": "Никто не догадывался, что городок станет знаменитым."
+            },
+            {
+              "en": "She promised she would never tell anyone.",
+              "ru": "Она обещала, что никому не расскажет."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Was going to и was about to",
+      "intro": {
+        "text": "Was going to — план или намерение в прошлом (часто несбывшееся). Was about to — «вот-вот должен был», действие было совсем близко.",
+        "highlights": [
+          {
+            "text": "Was going to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "несбывшееся",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "Was about to",
+            "color": "info",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Что выбрать",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "was / were going to",
+              "suffix": "план, намерение",
+              "example": "We were going to buy a car, but prices went up."
+            },
+            {
+              "name": "was / were about to",
+              "suffix": "вот-вот, через секунду",
+              "example": "I was about to call you when you texted."
+            },
+            {
+              "name": "was / were to + глагол",
+              "suffix": "так было суждено (книжно)",
+              "example": "It was the last time I was to see him."
+            },
+            {
+              "name": "was / were to have + V3",
+              "suffix": "должно было, но не случилось",
+              "example": "The concert was to have taken place in May."
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I was just about to leave.",
+              "ru": "Я как раз собирался уходить."
+            },
+            {
+              "en": "They were going to get married in June.",
+              "ru": "Они собирались пожениться в июне."
+            },
+            {
+              "en": "Little did he know that he was to become president.",
+              "ru": "Он и не подозревал, что ему суждено стать президентом."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Время в договорённости",
+      "intro": {
+        "text": "Договорённость в прошлом — Past Continuous, как и в настоящем Present Continuous: I'm meeting him at six → I was meeting him at six.",
+        "highlights": [
+          {
+            "text": "Past Continuous",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Договорённость",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сейчас → в рассказе о прошлом",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Сейчас",
+              "В прошлом",
+              "Смысл"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'm leaving tomorrow.",
+                  "I was leaving the next day.",
+                  "договорились"
+                ]
+              },
+              {
+                "cells": [
+                  "The train leaves at 8.",
+                  "The train left at 8.",
+                  "по расписанию"
+                ]
+              },
+              {
+                "cells": [
+                  "I'm going to quit.",
+                  "I was going to quit.",
+                  "намерение"
+                ]
+              },
+              {
+                "cells": [
+                  "It's about to start.",
+                  "It was about to start.",
+                  "вот-вот"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Совет",
+            "text": "В рассказе о прошлом сдвигай и будущее: tomorrow → the next day, next week → the following week."
           }
         }
       ]

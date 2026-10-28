@@ -171,6 +171,84 @@
       ]
     },
     {
+      "label": "Needn't have и didn't need to",
+      "intro": {
+        "text": "Needn't have done — сделал, но зря: это было не нужно. Didn't need to do — не нужно было, и (обычно) не делал.",
+        "highlights": [
+          {
+            "text": "сделал, но зря",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "и (обычно) не делал",
+            "color": "good",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разница",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Форма",
+              "Сделал?",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "needn't have + V3",
+                  "да, но зря",
+                  "You needn't have bought flowers. (купил)"
+                ]
+              },
+              {
+                "cells": [
+                  "didn't need to + глагол",
+                  "обычно нет",
+                  "I didn't need to buy flowers. (не покупал)"
+                ]
+              },
+              {
+                "cells": [
+                  "didn't have to + глагол",
+                  "не обязан был",
+                  "We didn't have to wait long."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "You needn't have cooked — we've already eaten.",
+              "ru": "Зря ты готовил — мы уже поели."
+            },
+            {
+              "en": "I needn't have worried. Everything was fine.",
+              "ru": "Зря я волновался. Всё было хорошо."
+            },
+            {
+              "en": "We didn't need to take a taxi, so we walked.",
+              "ru": "Такси было не нужно, и мы пошли пешком."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "Ошибки",
       "intro": {
         "text": "Самые частые ошибки с модальными о прошлом.",
@@ -206,6 +284,14 @@
             {
               "wrong": "He mustn't have known.",
               "right": "He can't have known."
+            },
+            {
+              "wrong": "You needn't to have come.",
+              "right": "You needn't have come."
+            },
+            {
+              "wrong": "I needn't have taken a taxi, so I walked.",
+              "right": "I didn't need to take a taxi, so I walked."
             }
           ]
         },

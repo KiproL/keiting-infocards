@@ -1,0 +1,227 @@
+{
+  "tenseName": "Must have been doing",
+  "route": "cards_modalperfectcont",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Модальный + have been + -ing — догадка или сожаление о процессе в прошлом: He must have been waiting for hours — «он, должно быть, ждал часами».",
+        "highlights": [
+          {
+            "text": "have been + -ing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "о процессе в прошлом",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "модальный",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "have been",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "-ing",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Значения",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Форма",
+              "Значит",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "must have been doing",
+                  "наверняка делал (долго)",
+                  "She must have been crying."
+                ]
+              },
+              {
+                "cells": [
+                  "might / could have been doing",
+                  "возможно, делал",
+                  "He might have been joking."
+                ]
+              },
+              {
+                "cells": [
+                  "can't have been doing",
+                  "не может быть, что делал",
+                  "You can't have been listening."
+                ]
+              },
+              {
+                "cells": [
+                  "should have been doing",
+                  "надо было делать (а не делал)",
+                  "You should have been studying."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Простая или длительная",
+      "intro": {
+        "text": "Must have done — о результате или факте. Must have been doing — о процессе, который шёл какое-то время, часто со следами: глаза красные, всё мокрое.",
+        "highlights": [
+          {
+            "text": "о результате",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "о процессе",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The ground is wet. It must have rained.",
+              "ru": "Земля мокрая. Наверное, прошёл дождь. (факт)"
+            },
+            {
+              "en": "Her eyes are red. She must have been crying.",
+              "ru": "Глаза красные. Наверное, плакала. (процесс)"
+            },
+            {
+              "en": "He must have left early.",
+              "ru": "Он, наверное, ушёл рано."
+            },
+            {
+              "en": "He must have been working all night.",
+              "ru": "Он, наверное, всю ночь работал."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Упрёки и сожаления",
+      "intro": {
+        "text": "Should have been doing — «надо было делать, а ты…». Wouldn't have been doing — «не стал бы делать», если бы знал.",
+        "highlights": [
+          {
+            "text": "Should have been doing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Wouldn't have been doing",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "You should have been paying attention.",
+              "ru": "Тебе надо было слушать внимательно."
+            },
+            {
+              "en": "I shouldn't have been driving so fast.",
+              "ru": "Не стоило мне ехать так быстро."
+            },
+            {
+              "en": "If I'd known, I wouldn't have been waiting outside.",
+              "ru": "Если бы я знал, я бы не ждал на улице."
+            },
+            {
+              "en": "You can't have been listening to me.",
+              "ru": "Ты меня, похоже, совсем не слушал."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки — и как сказать правильно.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "She must have been cry.",
+              "right": "She must have been crying."
+            },
+            {
+              "wrong": "He must been working.",
+              "right": "He must have been working."
+            },
+            {
+              "wrong": "You should have be studying.",
+              "right": "You should have been studying."
+            },
+            {
+              "wrong": "They might have been wait.",
+              "right": "They might have been waiting."
+            },
+            {
+              "wrong": "He mustn't have been sleeping.",
+              "right": "He can't have been sleeping."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -93,106 +93,18 @@
       ]
     },
     {
-      "label": "Need и get",
+      "label": "После предлогов и союзов",
       "intro": {
-        "text": "Need + -ing — пассив без be: The car needs washing = The car needs to be washed. Get + V3 — разговорный пассив для неожиданного или неприятного: He got fired.",
+        "text": "После предлогов (after, without, before, on) и в оборотах ставят being + V3 или having been + V3: without being seen — «так, чтобы его не увидели».",
         "highlights": [
           {
-            "text": "Need + -ing",
+            "text": "being + V3",
             "color": "term",
             "style": "bold_underline"
           },
           {
-            "text": "Get + V3",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "неожиданного или неприятного",
-            "color": "bad",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Варианты",
-          "borderColor": "info",
-          "table": {
-            "headers": [
-              "Форма",
-              "Пример",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "need + -ing",
-                  "The windows need cleaning.",
-                  "Окна надо помыть."
-                ]
-              },
-              {
-                "cells": [
-                  "need to be + V3",
-                  "The windows need to be cleaned.",
-                  "Окна надо помыть."
-                ]
-              },
-              {
-                "cells": [
-                  "get + V3",
-                  "He got fired last week.",
-                  "Его уволили на прошлой неделе."
-                ]
-              },
-              {
-                "cells": [
-                  "get + V3",
-                  "We got stuck in traffic.",
-                  "Мы застряли в пробке."
-                ]
-              },
-              {
-                "cells": [
-                  "get + V3",
-                  "Did you get paid?",
-                  "Тебе заплатили?"
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
-        },
-        {
-          "title": "Get или be",
-          "borderColor": "info",
-          "callout": {
-            "type": "info",
-            "text": "Be-пассив нейтрален. Get-пассив — разговорный и про события: get married, get lost, get hurt, get invited.",
-            "title": "Разница"
-          }
-        }
-      ]
-    },
-    {
-      "label": "Кому и о ком",
-      "intro": {
-        "text": "Если у глагола два дополнения, подлежащим обычно делают человека: I was given a book. А у глаголов с предлогом предлог остаётся на месте: She was looked after.",
-        "highlights": [
-          {
-            "text": "человека",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "предлог остаётся",
-            "color": "bad",
+            "text": "having been + V3",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -200,56 +112,33 @@
       "sections": [
         {
           "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "He left without being noticed.",
+              "ru": "Он ушёл незамеченным."
+            },
+            {
+              "en": "After being told the news, she called her mum.",
+              "ru": "Узнав новость, она позвонила маме."
+            },
+            {
+              "en": "Having been invited, we couldn't refuse.",
+              "ru": "Раз нас пригласили, отказаться мы не могли."
+            },
+            {
+              "en": "I'm tired of being treated like a child.",
+              "ru": "Я устал от того, что со мной обращаются как с ребёнком."
+            }
+          ]
+        },
+        {
+          "title": "Get-пассив и два дополнения",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Пассив",
-              "Актив",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "I was given a book.",
-                  "They gave me a book.",
-                  "Мне дали книгу."
-                ]
-              },
-              {
-                "cells": [
-                  "She was offered a job.",
-                  "They offered her a job.",
-                  "Ей предложили работу."
-                ]
-              },
-              {
-                "cells": [
-                  "He was looked after.",
-                  "Nurses looked after him.",
-                  "О нём заботились."
-                ]
-              },
-              {
-                "cells": [
-                  "He was laughed at.",
-                  "Everyone laughed at him.",
-                  "Над ним смеялись."
-                ]
-              },
-              {
-                "cells": [
-                  "It is being dealt with.",
-                  "They are dealing with it.",
-                  "Этим уже занимаются."
-                ]
-              }
-            ],
-            "borderColor": "info"
+          "callout": {
+            "type": "info",
+            "title": "Get-пассив и два дополнения",
+            "text": "Это уже карточка уровня B2 — «Пассив: get и два дополнения»."
           }
         }
       ]

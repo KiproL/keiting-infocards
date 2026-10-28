@@ -1,103 +1,229 @@
 {
-  "version": 1,
-  "cards": [
-    {
-      "id": "cards_emphasis",
-      "folder": "constructions",
-      "name": "Усиление: the very, at all, by far",
-      "description": "the very best, not at all",
-      "level": "C1"
-    },
-    {
-      "id": "cards_discoursemarkers",
-      "folder": "vocabulary",
-      "name": "Связки разговора: mind you, admittedly",
-      "description": "Слова, которые ведут разговор",
-      "level": "C1"
-    },
-    {
-      "id": "cards_contrastlinkers",
-      "folder": "writing",
-      "name": "Тогда как, хотя и: whereas, albeit",
-      "description": "Противопоставление в книжной речи",
-      "level": "C1"
-    },
-    {
-      "id": "cards_butforotherwise",
-      "folder": "constructions",
-      "name": "Если бы не: but for, otherwise",
-      "description": "Условие без if",
-      "level": "C1"
-    },
-    {
-      "id": "cards_betoinfinitive",
-      "folder": "constructions",
-      "name": "Предстоит, должен: be to do",
-      "description": "The president is to visit…",
-      "level": "C1"
-    },
-    {
-      "id": "cards_nominalisation",
-      "folder": "writing",
-      "name": "Глагол → существительное: decide → decision",
-      "description": "Академический стиль",
-      "level": "C1"
-    },
-    {
-      "id": "cards_lestforfear",
-      "folder": "constructions",
-      "name": "Чтобы не: lest, for fear that",
-      "description": "Цель «чтобы не случилось»",
-      "level": "C1"
-    },
-    {
-      "id": "cards_advancedpassive",
-      "folder": "constructions",
-      "name": "Пассив: to be told, being watched",
-      "description": "Пассив с инфинитивом и -ing",
-      "level": "C1"
-    },
-    {
-      "id": "cards_concessive",
-      "folder": "constructions",
-      "name": "Как бы ни: much as, try as I might",
-      "description": "Уступка: хотя и, как ни старался",
-      "level": "C1"
-    },
-    {
-      "id": "cards_quiterather",
-      "folder": "vocabulary",
-      "name": "Довольно, вполне: quite, rather, fairly",
-      "description": "Насколько сильно",
-      "level": "B2"
-    },
-    {
-      "id": "cards_reportingverbs",
-      "folder": "constructions",
-      "name": "Глаголы пересказа: admit, deny, offer",
-      "description": "Пересказ без said",
-      "level": "B2"
-    },
-    {
-      "id": "cards_quantifiers",
-      "folder": "constructions",
-      "name": "Сколько: a great deal, plenty, most",
-      "description": "Много, большинство, почти нет",
-      "level": "B2"
-    },
-    {
-      "id": "cards_annoyinghabits",
-      "folder": "constructions",
-      "name": "Вечно он…: always + -ing",
-      "description": "Привычки, которые раздражают",
-      "level": "B2"
-    },
-    {
-      "id": "cards_unlessincase",
-      "folder": "constructions",
-      "name": "Если не, при условии: unless, provided",
-      "description": "unless, as long as, provided",
-      "level": "B2"
-    }
-  ]
+ "version": 2,
+ "cards": [
+  {
+   "id": "cards_emphasis",
+   "folder": "constructions",
+   "name": "Усиление: the very, at all, by far",
+   "description": "the very best, not at all",
+   "level": "C1"
+  },
+  {
+   "id": "cards_discoursemarkers",
+   "folder": "vocabulary",
+   "name": "Связки разговора: mind you, admittedly",
+   "description": "Слова, которые ведут разговор",
+   "level": "C1"
+  },
+  {
+   "id": "cards_contrastlinkers",
+   "folder": "writing",
+   "name": "Тогда как, хотя и: whereas, albeit",
+   "description": "Противопоставление в книжной речи",
+   "level": "C1"
+  },
+  {
+   "id": "cards_butforotherwise",
+   "folder": "constructions",
+   "name": "Если бы не: but for, otherwise",
+   "description": "Условие без if",
+   "level": "C1"
+  },
+  {
+   "id": "cards_betoinfinitive",
+   "folder": "constructions",
+   "name": "Предстоит, должен: be to do",
+   "description": "The president is to visit…",
+   "level": "C1"
+  },
+  {
+   "id": "cards_nominalisation",
+   "folder": "writing",
+   "name": "Глагол → существительное: decide → decision",
+   "description": "Академический стиль",
+   "level": "C1"
+  },
+  {
+   "id": "cards_lestforfear",
+   "folder": "constructions",
+   "name": "Чтобы не: lest, for fear that",
+   "description": "Цель «чтобы не случилось»",
+   "level": "C1"
+  },
+  {
+   "id": "cards_advancedpassive",
+   "folder": "constructions",
+   "name": "Пассив: to be told, being watched",
+   "description": "Пассив с инфинитивом и -ing",
+   "level": "C1"
+  },
+  {
+   "id": "cards_concessive",
+   "folder": "constructions",
+   "name": "Как бы ни: much as, try as I might",
+   "description": "Уступка: хотя и, как ни старался",
+   "level": "C1"
+  },
+  {
+   "id": "cards_quiterather",
+   "folder": "vocabulary",
+   "name": "Довольно, вполне: quite, rather, fairly",
+   "description": "Насколько сильно",
+   "level": "B2"
+  },
+  {
+   "id": "cards_reportingverbs",
+   "folder": "constructions",
+   "name": "Глаголы пересказа: admit, deny, offer",
+   "description": "Пересказ без said",
+   "level": "B2"
+  },
+  {
+   "id": "cards_quantifiers",
+   "folder": "constructions",
+   "name": "Сколько: a great deal, plenty, most",
+   "description": "Много, большинство, почти нет",
+   "level": "B2"
+  },
+  {
+   "id": "cards_annoyinghabits",
+   "folder": "constructions",
+   "name": "Вечно он…: always + -ing",
+   "description": "Привычки, которые раздражают",
+   "level": "B2"
+  },
+  {
+   "id": "cards_unlessincase",
+   "folder": "constructions",
+   "name": "Если не, при условии: unless, provided",
+   "description": "unless, as long as, provided",
+   "level": "B2"
+  },
+  {
+   "id": "cards_futureinpast",
+   "folder": "times",
+   "name": "Будущее в прошлом: would",
+   "description": "I knew he would come, was going to",
+   "level": "B2"
+  },
+  {
+   "id": "cards_comparativesadv",
+   "folder": "constructions",
+   "name": "Сравнения: the more…, the better",
+   "description": "much better, colder and colder",
+   "level": "B2"
+  },
+  {
+   "id": "cards_deduction",
+   "folder": "constructions",
+   "name": "Must be, can't be — догадки",
+   "description": "Насколько ты уверен: must, might, can't",
+   "level": "B2"
+  },
+  {
+   "id": "cards_passiveget",
+   "folder": "constructions",
+   "name": "Пассив: get и два дополнения",
+   "description": "He got fired; I was given a book",
+   "level": "B2"
+  },
+  {
+   "id": "cards_businesscollocations",
+   "folder": "vocabulary",
+   "name": "Коллокации: работа и бизнес",
+   "description": "make a decision, meet a deadline",
+   "level": "B2"
+  },
+  {
+   "id": "cards_threepartphrasal",
+   "folder": "vocabulary",
+   "name": "Фразовые из трёх частей",
+   "description": "put up with, get away with",
+   "level": "C1"
+  },
+  {
+   "id": "cards_businessidioms",
+   "folder": "vocabulary",
+   "name": "Бизнес-идиомы",
+   "description": "think outside the box, on the same page",
+   "level": "C1"
+  },
+  {
+   "id": "cards_adverbcollocations",
+   "folder": "vocabulary",
+   "name": "Коллокации: deeply, highly",
+   "description": "deeply concerned, highly unlikely",
+   "level": "C1"
+  },
+  {
+   "id": "cards_subjunctiveadv",
+   "folder": "constructions",
+   "name": "Сослагательное: Were I to…",
+   "description": "Were I to…, I insist that he be",
+   "level": "C2"
+  },
+  {
+   "id": "cards_pseudocleft",
+   "folder": "constructions",
+   "name": "Выделение: All I need is…",
+   "description": "What I need is…, The reason why…",
+   "level": "C2"
+  },
+  {
+   "id": "cards_fronting",
+   "folder": "constructions",
+   "name": "Вынос вперёд: Tired as I was",
+   "description": "Beautiful as it was, I didn't buy it",
+   "level": "C2"
+  },
+  {
+   "id": "cards_modalperfectcont",
+   "folder": "constructions",
+   "name": "Must have been doing",
+   "description": "Догадки о процессе в прошлом",
+   "level": "C2"
+  },
+  {
+   "id": "cards_passivemodals",
+   "folder": "constructions",
+   "name": "Пассив с модальными",
+   "description": "It must have been stolen",
+   "level": "C2"
+  },
+  {
+   "id": "cards_articlesadv",
+   "folder": "constructions",
+   "name": "Артикли: сложные случаи",
+   "description": "the rich, the Alps, Lake Baikal",
+   "level": "C2"
+  },
+  {
+   "id": "cards_advancedidioms",
+   "folder": "vocabulary",
+   "name": "Продвинутые идиомы",
+   "description": "bite the bullet, the elephant in the room",
+   "level": "C2"
+  },
+  {
+   "id": "cards_synonyms",
+   "folder": "vocabulary",
+   "name": "Нюансы синонимов",
+   "description": "big / large / great, say / tell",
+   "level": "C2"
+  },
+  {
+   "id": "cards_punctuationadv",
+   "folder": "writing",
+   "name": "Пунктуация в эссе",
+   "description": "Точка с запятой, двоеточие, запятые",
+   "level": "C2"
+  },
+  {
+   "id": "cards_wordstressshift",
+   "folder": "vocabulary",
+   "name": "Ударение: photograph → photographer",
+   "description": "Как ударение «переезжает» в семействе слов",
+   "level": "C2"
+  }
+ ]
 }

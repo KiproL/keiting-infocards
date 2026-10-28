@@ -186,6 +186,120 @@
       ]
     },
     {
+      "label": "Продвинутый уровень",
+      "intro": {
+        "text": "На высоком уровне коварнее всего «умные» слова: comprehensive — не «компрехенсивный», а «всесторонний», eventually — не «эвентуально», а «в конце концов».",
+        "highlights": [
+          {
+            "text": "«умные» слова",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "comprehensive",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "eventually",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Значит",
+              "А «наше» слово —"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "comprehensive",
+                  "всесторонний, полный",
+                  "понятный — comprehensible"
+                ]
+              },
+              {
+                "cells": [
+                  "eventually",
+                  "в конце концов",
+                  "возможно — possibly"
+                ]
+              },
+              {
+                "cells": [
+                  "sensible",
+                  "разумный, здравый",
+                  "чувствительный — sensitive"
+                ]
+              },
+              {
+                "cells": [
+                  "sympathy",
+                  "сочувствие",
+                  "симпатия — liking"
+                ]
+              },
+              {
+                "cells": [
+                  "genial",
+                  "добродушный",
+                  "гениальный — brilliant"
+                ]
+              },
+              {
+                "cells": [
+                  "pathetic",
+                  "жалкий",
+                  "патетический — emotional"
+                ]
+              },
+              {
+                "cells": [
+                  "realise",
+                  "понять, осознать",
+                  "реализовать — implement, carry out"
+                ]
+              },
+              {
+                "cells": [
+                  "conductor",
+                  "дирижёр; кондуктор",
+                  "проводник — guide, attendant"
+                ]
+              },
+              {
+                "cells": [
+                  "resin",
+                  "смола",
+                  "резина — rubber"
+                ]
+              },
+              {
+                "cells": [
+                  "mayor",
+                  "мэр",
+                  "майор — major"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "label": "Ошибки",
       "intro": {
         "text": "Самые частые ошибки из-за ложных друзей.",
@@ -225,6 +339,18 @@
             {
               "wrong": "He is very accurate. (аккуратный)",
               "right": "He is very tidy."
+            },
+            {
+              "wrong": "It's a very comprehensive explanation. (понятное)",
+              "right": "It's a very clear / comprehensible explanation."
+            },
+            {
+              "wrong": "Eventually he will come. (возможно)",
+              "right": "Perhaps he will come."
+            },
+            {
+              "wrong": "He is a very sensible boy. (чувствительный)",
+              "right": "He is a very sensitive boy."
             }
           ]
         }

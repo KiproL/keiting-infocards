@@ -131,6 +131,91 @@
       ]
     },
     {
+      "label": "Продвинутые связки",
+      "intro": {
+        "text": "В эссе высокого уровня вместо however и so используют более точные связки: nonetheless, consequently, in light of, notwithstanding.",
+        "highlights": [
+          {
+            "text": "более точные",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "По задаче",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Задача",
+              "Связки",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "противопоставить",
+                  "nonetheless, nevertheless, that said",
+                  "It was risky. Nonetheless, we went ahead."
+                ]
+              },
+              {
+                "cells": [
+                  "уступка",
+                  "admittedly, granted, notwithstanding",
+                  "Admittedly, the plan has flaws."
+                ]
+              },
+              {
+                "cells": [
+                  "следствие",
+                  "consequently, hence, thus",
+                  "Costs rose; hence the new prices."
+                ]
+              },
+              {
+                "cells": [
+                  "учитывая",
+                  "in light of, given (that), in view of",
+                  "In light of recent events, we cancelled."
+                ]
+              },
+              {
+                "cells": [
+                  "усилить",
+                  "furthermore, moreover, not to mention",
+                  "Furthermore, it saves time."
+                ]
+              },
+              {
+                "cells": [
+                  "уточнить",
+                  "namely, that is to say, in other words",
+                  "Two countries, namely Spain and Italy."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Hence и thus",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Hence и thus",
+            "text": "Hence часто стоит перед существительным без глагола: hence the name. Thus — «таким образом», в начале или середине предложения."
+          }
+        }
+      ]
+    },
+    {
       "label": "Ошибки",
       "intro": {
         "text": "Самые частые ошибки со связками.",
@@ -170,6 +255,14 @@
             {
               "wrong": "In conclusion, I want to conclude…",
               "right": "In conclusion,…"
+            },
+            {
+              "wrong": "In light of the recent events we cancelled.",
+              "right": "In light of recent events, we cancelled."
+            },
+            {
+              "wrong": "Nonetheless it was risky, we went.",
+              "right": "It was risky. Nonetheless, we went."
             }
           ]
         }

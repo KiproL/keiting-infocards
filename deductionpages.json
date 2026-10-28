@@ -1,0 +1,313 @@
+{
+  "tenseName": "Must be, can't be — догадки",
+  "route": "cards_deduction",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Когда мы не знаем точно, а делаем вывод, модальный глагол показывает, насколько мы уверены: must — почти уверен, might / may / could — возможно, can't — точно нет.",
+        "highlights": [
+          {
+            "text": "делаем вывод",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "must",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "might / may / could",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "can't",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Шкала уверенности",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Глагол",
+              "Уверенность",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "must",
+                  "≈ 95% — наверняка",
+                  "She must be at home."
+                ]
+              },
+              {
+                "cells": [
+                  "may / might / could",
+                  "≈ 50% — возможно",
+                  "He might be busy."
+                ]
+              },
+              {
+                "cells": [
+                  "can't / couldn't",
+                  "≈ 0% — не может быть",
+                  "That can't be true."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        },
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "must / might / can't",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "be / глагол",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Must и can't",
+      "intro": {
+        "text": "Must и can't — пара противоположностей. Must = «наверняка да», can't = «наверняка нет». Mustn't для догадок не используют — он значит «нельзя».",
+        "highlights": [
+          {
+            "text": "Must",
+            "color": "good",
+            "style": "bold_underline"
+          },
+          {
+            "text": "can't",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Mustn't",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вывод по признакам",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The lights are on. They must be home.",
+              "ru": "Свет горит. Они наверняка дома."
+            },
+            {
+              "en": "You've been working all day. You must be tired.",
+              "ru": "Ты весь день работал. Наверное, устал."
+            },
+            {
+              "en": "He can't be hungry — he's just eaten.",
+              "ru": "Он не может быть голоден — он только что поел."
+            },
+            {
+              "en": "That can't be Tom. Tom's in Spain.",
+              "ru": "Это не может быть Том. Том в Испании."
+            }
+          ]
+        },
+        {
+          "title": "Mustn't — не догадка",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Mustn't — не догадка",
+            "text": "He mustn't be at work значит «ему нельзя быть на работе». «Не может быть, что он на работе» — He can't be at work."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Might, may, could",
+      "intro": {
+        "text": "Might, may и could — «возможно», 50 на 50. Отрицание — might not / may not («возможно, нет»). Couldn't в догадке значит «никак не может», почти как can't.",
+        "highlights": [
+          {
+            "text": "50 на 50",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "might not / may not",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Couldn't",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Оттенки",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "might / may",
+              "suffix": "возможно, да",
+              "example": "Take an umbrella — it might rain."
+            },
+            {
+              "name": "could",
+              "suffix": "вполне возможно",
+              "example": "Ask Anna. She could know."
+            },
+            {
+              "name": "might not / may not",
+              "suffix": "возможно, нет",
+              "example": "He may not know about it."
+            },
+            {
+              "name": "couldn't",
+              "suffix": "никак не может",
+              "example": "She couldn't be more than twenty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Прямо сейчас",
+      "intro": {
+        "text": "Если догадка о том, что происходит в этот момент, после модального ставят be + -ing: She must be sleeping — «она, наверное, спит».",
+        "highlights": [
+          {
+            "text": "be + -ing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "в этот момент",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "must / might / can't",
+                "color": "term"
+              },
+              {
+                "text": "+ be",
+                "color": "muted"
+              },
+              {
+                "text": "+ -ing",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "He isn't answering. He must be driving.",
+              "ru": "Он не отвечает. Наверное, за рулём."
+            },
+            {
+              "en": "You can't be serious!",
+              "ru": "Ты не можешь говорить это всерьёз!"
+            },
+            {
+              "en": "They might be waiting for us outside.",
+              "ru": "Возможно, они ждут нас на улице."
+            }
+          ]
+        },
+        {
+          "title": "А о прошлом?",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "А о прошлом?",
+            "text": "Догадки о прошлом — must have done, can't have done. Это карточка «Should have — следовало»."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки — и как сказать правильно.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "He mustn't be at home — the car is gone.",
+              "right": "He can't be at home — the car is gone."
+            },
+            {
+              "wrong": "She must to be tired.",
+              "right": "She must be tired."
+            },
+            {
+              "wrong": "It can be true. (догадка «возможно»)",
+              "right": "It might be true. / It could be true."
+            },
+            {
+              "wrong": "They must be sleep.",
+              "right": "They must be sleeping."
+            },
+            {
+              "wrong": "Maybe he must be busy.",
+              "right": "He must be busy. / Maybe he's busy."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

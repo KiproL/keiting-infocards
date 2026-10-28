@@ -265,6 +265,84 @@
       ]
     },
     {
+      "label": "Do so и one / ones",
+      "intro": {
+        "text": "Чтобы не повторять, используют замены: do so — вместо действия, one / ones — вместо исчисляемого существительного, that / those — в сравнениях.",
+        "highlights": [
+          {
+            "text": "do so",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "one / ones",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "that / those",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Замены",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "do so",
+              "suffix": "вместо действия (книжно)",
+              "example": "He promised to call, and he did so."
+            },
+            {
+              "name": "one / ones",
+              "suffix": "вместо существительного",
+              "example": "I don't like the red shirt — I'll take the blue one."
+            },
+            {
+              "name": "that / those",
+              "suffix": "в сравнениях",
+              "example": "Prices here are higher than those in Spain."
+            },
+            {
+              "name": "so / not",
+              "suffix": "вместо придаточного",
+              "example": "Will it rain? — I hope not."
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Which cake do you want? — The big one.",
+              "ru": "Какой торт хочешь? — Большой."
+            },
+            {
+              "en": "If you want to leave early, you may do so.",
+              "ru": "Если хотите уйти раньше, можете так и сделать."
+            },
+            {
+              "en": "The climate here is milder than that of the north.",
+              "ru": "Климат здесь мягче, чем на севере."
+            }
+          ]
+        },
+        {
+          "title": "One — только для исчисляемых",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "One — только для исчисляемых",
+            "text": "С неисчисляемыми one не ставят: I like white wine more than red (а не red one)."
+          }
+        }
+      ]
+    },
+    {
       "label": "Ошибки",
       "intro": {
         "text": "Самые частые ошибки в эллипсисе.",
@@ -304,6 +382,14 @@
             {
               "wrong": "Do you want to come? — I'd love.",
               "right": "Do you want to come? — I'd love to."
+            },
+            {
+              "wrong": "I like white wine more than red one.",
+              "right": "I like white wine more than red."
+            },
+            {
+              "wrong": "Prices here are higher than in Spain's.",
+              "right": "Prices here are higher than those in Spain."
             }
           ]
         },

@@ -1,0 +1,245 @@
+{
+  "tenseName": "Пунктуация в эссе",
+  "route": "cards_punctuationadv",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "В академических текстах пунктуация — часть грамматики. Точка с запятой, двоеточие и запятые в придаточных меняют смысл и показывают, насколько ты владеешь языком.",
+        "highlights": [
+          {
+            "text": "часть грамматики",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Знаки",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Знак",
+              "Для чего",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "; точка с запятой",
+                  "две связанные мысли",
+                  "It was late; we went home."
+                ]
+              },
+              {
+                "cells": [
+                  ": двоеточие",
+                  "объяснение, список",
+                  "One thing matters: time."
+                ]
+              },
+              {
+                "cells": [
+                  ", запятая",
+                  "вводные, придаточные",
+                  "However, it failed."
+                ]
+              },
+              {
+                "cells": [
+                  "— тире",
+                  "резкий поворот, пояснение",
+                  "It was cheap — too cheap."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Точка с запятой",
+      "intro": {
+        "text": "Точка с запятой соединяет два законченных предложения, тесно связанных по смыслу. Перед however, therefore, moreover в середине — тоже она, а после — запятая.",
+        "highlights": [
+          {
+            "text": "два законченных предложения",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "however, therefore, moreover",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Some people love cities; others prefer the countryside.",
+              "ru": "Одни любят города, другие предпочитают деревню."
+            },
+            {
+              "en": "The plan was risky; however, it worked.",
+              "ru": "План был рискованным, однако сработал."
+            },
+            {
+              "en": "Prices rose; therefore, demand fell.",
+              "ru": "Цены выросли, поэтому спрос упал."
+            }
+          ]
+        },
+        {
+          "title": "Запятая — мало",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Запятая — мало",
+            "text": "Два предложения нельзя склеить одной запятой (comma splice): It was late, we went home — ошибка."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Двоеточие",
+      "intro": {
+        "text": "Двоеточие ставят после законченного предложения перед объяснением, выводом или списком. Перед двоеточием — целое предложение, а не обрывок.",
+        "highlights": [
+          {
+            "text": "после законченного предложения",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "There is only one solution: we must cut costs.",
+              "ru": "Решение только одно: нужно сократить расходы."
+            },
+            {
+              "en": "You will need three things: a passport, a visa and money.",
+              "ru": "Понадобятся три вещи: паспорт, виза и деньги."
+            },
+            {
+              "en": "The result was clear: the policy had failed.",
+              "ru": "Итог был ясен: политика провалилась."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Запятые в придаточных",
+      "intro": {
+        "text": "Запятая нужна, если придаточное идёт первым (If it rains, …) и вокруг уточняющих придаточных (My brother, who lives in Rome, …). Определяющее придаточное запятыми не выделяют.",
+        "highlights": [
+          {
+            "text": "придаточное идёт первым",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "уточняющих",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Определяющее",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Правила",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "придаточное в начале",
+              "suffix": "запятая",
+              "example": "When I arrived, everyone had left."
+            },
+            {
+              "name": "придаточное в конце",
+              "suffix": "без запятой",
+              "example": "Everyone had left when I arrived."
+            },
+            {
+              "name": "non-defining (доп. сведения)",
+              "suffix": "запятые с двух сторон",
+              "example": "Paris, which I love, is expensive."
+            },
+            {
+              "name": "defining (какой именно)",
+              "suffix": "без запятых",
+              "example": "The city that I love is Paris."
+            },
+            {
+              "name": "вводные слова",
+              "suffix": "запятая после",
+              "example": "Interestingly, nobody noticed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки — и как сказать правильно.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "It was late, we went home.",
+              "right": "It was late; we went home. / It was late, so we went home."
+            },
+            {
+              "wrong": "The plan was risky, however it worked.",
+              "right": "The plan was risky; however, it worked."
+            },
+            {
+              "wrong": "You need: a passport and a visa.",
+              "right": "You need a passport and a visa."
+            },
+            {
+              "wrong": "The city, that I love, is Paris.",
+              "right": "The city that I love is Paris."
+            },
+            {
+              "wrong": "When I arrived everyone, had left.",
+              "right": "When I arrived, everyone had left."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

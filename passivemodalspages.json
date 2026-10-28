@@ -1,0 +1,190 @@
+{
+  "tenseName": "Пассив с модальными",
+  "route": "cards_passivemodals",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Пассив соединяется с модальными: can be done (можно сделать), must have been given (наверняка дали). Модальный не меняется, меняется только «хвост».",
+        "highlights": [
+          {
+            "text": "Модальный не меняется",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "«хвост»",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Форма",
+              "Пример",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "модальный + be + V3",
+                  "It must be done today.",
+                  "Это нужно сделать сегодня."
+                ]
+              },
+              {
+                "cells": [
+                  "модальный + have been + V3",
+                  "It must have been stolen.",
+                  "Наверняка украли."
+                ]
+              },
+              {
+                "cells": [
+                  "модальный + be being + V3",
+                  "We might be being watched.",
+                  "Возможно, за нами следят."
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "О настоящем и будущем",
+      "intro": {
+        "text": "Модальный + be + V3 — что можно, нужно или должно быть сделано.",
+        "highlights": [
+          {
+            "text": "be + V3",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "This form must be signed by a parent.",
+              "ru": "Эту форму должен подписать родитель."
+            },
+            {
+              "en": "Phones should be switched off.",
+              "ru": "Телефоны следует выключить."
+            },
+            {
+              "en": "The problem can't be solved quickly.",
+              "ru": "Проблему не решить быстро."
+            },
+            {
+              "en": "Tickets may be bought online.",
+              "ru": "Билеты можно купить онлайн."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "О прошлом",
+      "intro": {
+        "text": "Модальный + have been + V3 — догадки, упрёки и упущенное о прошлом: He must have been given the wrong address.",
+        "highlights": [
+          {
+            "text": "have been + V3",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Значения",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "must have been + V3",
+              "suffix": "наверняка (сделали)",
+              "example": "The window must have been left open."
+            },
+            {
+              "name": "can't have been + V3",
+              "suffix": "не может быть, что",
+              "example": "It can't have been written by a child."
+            },
+            {
+              "name": "should have been + V3",
+              "suffix": "надо было (а не сделали)",
+              "example": "This should have been done years ago."
+            },
+            {
+              "name": "could have been + V3",
+              "suffix": "могли бы (но не сделали)",
+              "example": "The accident could have been avoided."
+            },
+            {
+              "name": "would have been + V3",
+              "suffix": "было бы (если бы)",
+              "example": "He would have been fired if they'd known."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Самые частые ошибки — и как сказать правильно.",
+        "highlights": [
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "It must be did today.",
+              "right": "It must be done today."
+            },
+            {
+              "wrong": "The letter must have sent yesterday.",
+              "right": "The letter must have been sent yesterday."
+            },
+            {
+              "wrong": "It should been done.",
+              "right": "It should have been done."
+            },
+            {
+              "wrong": "The accident could avoided.",
+              "right": "The accident could have been avoided."
+            },
+            {
+              "wrong": "This can be fix easily.",
+              "right": "This can be fixed easily."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
