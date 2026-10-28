@@ -1,227 +1,64 @@
 {
-  "tenseName": "Prepositions",
+  "tenseName": "Предлоги: место, время, направление",
   "route": "cards_prepositions",
   "slides": [
     {
       "label": "Что это",
       "intro": {
-        "text": "После многих слов в английском стоит свой предлог, и он часто не совпадает с русским: «зависеть ОТ» — depend ON, «жениться НА» — get married TO. Их учат вместе со словом, как одно целое.",
+        "text": "Предлог показывает, где что-то находится, когда что-то происходит и куда движется. В начале хватит трёх групп: место, время и направление.",
         "highlights": [
           {
-            "text": "свой предлог",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "depend ON",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "get married TO",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "как одно целое",
+            "text": "где",
             "color": "info",
             "style": "bold"
+          },
+          {
+            "text": "когда",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "куда",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "трёх групп",
+            "color": "good",
+            "style": "bold_underline"
           }
         ]
       },
       "sections": [
         {
-          "title": "Русский предлог ≠ английский",
+          "title": "Три группы",
           "borderColor": "info",
           "table": {
             "headers": [
-              "По-русски",
-              "По-английски"
+              "Группа",
+              "Вопрос",
+              "Примеры"
             ],
             "rows": [
               {
                 "cells": [
-                  "зависеть от",
-                  "depend on"
+                  "Место",
+                  "Where?",
+                  "in, on, at, under, next to"
                 ]
               },
               {
                 "cells": [
-                  "смеяться над",
-                  "laugh at"
+                  "Время",
+                  "When?",
+                  "at, on, in, before, after"
                 ]
               },
               {
                 "cells": [
-                  "гордиться (чем)",
-                  "be proud of"
-                ]
-              },
-              {
-                "cells": [
-                  "жениться на",
-                  "get married to"
-                ]
-              },
-              {
-                "cells": [
-                  "платить за",
-                  "pay for — но pay the bill"
-                ]
-              },
-              {
-                "cells": [
-                  "слушать (что)",
-                  "listen to"
-                ]
-              },
-              {
-                "cells": [
-                  "ждать (кого)",
-                  "wait for"
-                ]
-              }
-            ],
-            "borderColor": "info",
-            "headerColors": [
-              "info",
-              "term"
-            ]
-          }
-        },
-        {
-          "title": "Без предлога",
-          "borderColor": "bad",
-          "callout": {
-            "type": "warning",
-            "title": "А бывает и наоборот",
-            "text": "Где по-русски предлог есть, в английском его может не быть: «войти в комнату» — enter the room, «позвонить другу» — call a friend, «ответить на вопрос» — answer a question."
-          }
-        }
-      ]
-    },
-    {
-      "label": "После прилагательных",
-      "intro": {
-        "text": "Прилагательные о чувствах и умениях почти всегда тянут за собой предлог: interested in, good at, afraid of. После предлога глагол идёт с -ing.",
-        "highlights": [
-          {
-            "text": "тянут за собой предлог",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "interested in, good at, afraid of",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "-ing",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Прилагательное + предлог",
-          "borderColor": "info",
-          "table": {
-            "headers": [
-              "Сочетание",
-              "Значение",
-              "Пример"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "interested in",
-                  "интересоваться",
-                  "I'm interested in art."
-                ]
-              },
-              {
-                "cells": [
-                  "good at / bad at",
-                  "хорошо / плохо уметь",
-                  "She's good at maths."
-                ]
-              },
-              {
-                "cells": [
-                  "afraid of",
-                  "бояться",
-                  "He's afraid of dogs."
-                ]
-              },
-              {
-                "cells": [
-                  "proud of",
-                  "гордиться",
-                  "We're proud of you."
-                ]
-              },
-              {
-                "cells": [
-                  "tired of",
-                  "устать от",
-                  "I'm tired of waiting."
-                ]
-              },
-              {
-                "cells": [
-                  "keen on / fond of",
-                  "увлекаться, любить",
-                  "He's keen on football."
-                ]
-              },
-              {
-                "cells": [
-                  "famous for",
-                  "знаменит",
-                  "Paris is famous for its food."
-                ]
-              },
-              {
-                "cells": [
-                  "responsible for",
-                  "отвечать за",
-                  "Who is responsible for this?"
-                ]
-              },
-              {
-                "cells": [
-                  "similar to",
-                  "похож на",
-                  "Your bag is similar to mine."
-                ]
-              },
-              {
-                "cells": [
-                  "different from",
-                  "отличаться от",
-                  "It's different from the old one."
-                ]
-              },
-              {
-                "cells": [
-                  "married to",
-                  "женат на / замужем за",
-                  "She's married to a doctor."
-                ]
-              },
-              {
-                "cells": [
-                  "full of",
-                  "полон",
-                  "The room was full of people."
-                ]
-              },
-              {
-                "cells": [
-                  "angry with / about",
-                  "злиться на кого / из-за чего",
-                  "I'm angry with him about the car."
+                  "Направление",
+                  "Where to?",
+                  "to, from, into, out of, across"
                 ]
               }
             ],
@@ -232,308 +69,294 @@
               "example"
             ]
           }
+        }
+      ]
+    },
+    {
+      "label": "In, on, at — место",
+      "intro": {
+        "text": "In — внутри чего-то, on — на поверхности, at — в точке, у места.",
+        "highlights": [
+          {
+            "text": "In",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "on",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "at",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Главное",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Предлог",
+              "Когда",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "in",
+                  "внутри: комната, город, страна",
+                  "in the box, in Paris"
+                ]
+              },
+              {
+                "cells": [
+                  "on",
+                  "на поверхности, на улице, на этаже",
+                  "on the table, on the wall"
+                ]
+              },
+              {
+                "cells": [
+                  "at",
+                  "точка, адрес, событие",
+                  "at the door, at school, at a party"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example",
+              "info"
+            ]
+          }
         },
         {
-          "title": "С -ing после предлога",
+          "title": "Примеры",
           "borderColor": "good",
           "examples": [
             {
-              "en": "I'm good at cooking.",
-              "ru": "Я хорошо готовлю."
+              "en": "The keys are in my bag.",
+              "ru": "Ключи в моей сумке."
             },
             {
-              "en": "She's afraid of flying.",
-              "ru": "Она боится летать."
+              "en": "Your phone is on the table.",
+              "ru": "Твой телефон на столе."
             },
             {
-              "en": "We're tired of waiting.",
-              "ru": "Мы устали ждать."
+              "en": "I'm at home.",
+              "ru": "Я дома."
+            },
+            {
+              "en": "She lives in Madrid.",
+              "ru": "Она живёт в Мадриде."
             }
           ]
         }
       ]
     },
     {
-      "label": "После глаголов",
+      "label": "Где именно",
       "intro": {
-        "text": "У глаголов предлог стоит сразу после них, перед тем, к кому или к чему действие: wait FOR the bus, listen TO music. Без предлога смысл ломается.",
+        "text": "Ещё несколько предлогов, чтобы точно сказать, где что стоит.",
         "highlights": [
           {
-            "text": "сразу после них",
+            "text": "точно",
             "color": "term",
             "style": "bold_underline"
-          },
-          {
-            "text": "wait FOR the bus",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "listen TO music",
-            "color": "example",
-            "style": "bold"
           }
         ]
       },
       "sections": [
         {
-          "title": "Глагол + предлог",
+          "title": "Расположение",
           "borderColor": "info",
           "table": {
             "headers": [
-              "Сочетание",
-              "Значение",
+              "Предлог",
+              "Перевод",
               "Пример"
             ],
             "rows": [
               {
                 "cells": [
-                  "depend on",
-                  "зависеть от",
-                  "It depends on the weather."
+                  "under",
+                  "под",
+                  "The cat is under the bed."
                 ]
               },
               {
                 "cells": [
-                  "listen to",
-                  "слушать",
-                  "Listen to me!"
+                  "above / over",
+                  "над",
+                  "The lamp is above the table."
                 ]
               },
               {
                 "cells": [
-                  "wait for",
-                  "ждать",
-                  "I'm waiting for the bus."
+                  "next to",
+                  "рядом с",
+                  "The bank is next to the café."
                 ]
               },
               {
                 "cells": [
-                  "look at",
-                  "смотреть на",
-                  "Look at this photo."
+                  "between",
+                  "между",
+                  "I sit between Anna and Tom."
                 ]
               },
               {
                 "cells": [
-                  "belong to",
-                  "принадлежать",
-                  "This book belongs to Tom."
+                  "behind",
+                  "позади, за",
+                  "The car is behind the house."
                 ]
               },
               {
                 "cells": [
-                  "agree with",
-                  "соглашаться с",
-                  "I agree with you."
+                  "in front of",
+                  "перед",
+                  "Wait in front of the cinema."
                 ]
               },
               {
                 "cells": [
-                  "apologise for",
-                  "извиняться за",
-                  "He apologised for being late."
+                  "opposite",
+                  "напротив",
+                  "The shop is opposite the park."
                 ]
               },
               {
                 "cells": [
-                  "believe in",
-                  "верить в",
-                  "Do you believe in luck?"
-                ]
-              },
-              {
-                "cells": [
-                  "pay for",
-                  "платить за",
-                  "I'll pay for the tickets."
-                ]
-              },
-              {
-                "cells": [
-                  "rely on",
-                  "полагаться на",
-                  "You can rely on me."
-                ]
-              },
-              {
-                "cells": [
-                  "dream of / about",
-                  "мечтать о",
-                  "She dreams of becoming a pilot."
-                ]
-              },
-              {
-                "cells": [
-                  "think of / about",
-                  "думать о",
-                  "What do you think of it?"
-                ]
-              },
-              {
-                "cells": [
-                  "worry about",
-                  "волноваться о",
-                  "Don't worry about it."
-                ]
-              },
-              {
-                "cells": [
-                  "laugh at",
-                  "смеяться над",
-                  "Everyone laughed at the joke."
-                ]
-              },
-              {
-                "cells": [
-                  "succeed in",
-                  "преуспеть в",
-                  "He succeeded in finding a job."
+                  "near",
+                  "недалеко от",
+                  "We live near the sea."
                 ]
               }
             ],
             "borderColor": "info",
             "headerColors": [
               "term",
-              "info",
-              "example"
+              "example",
+              "info"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "At, on, in — время",
+      "intro": {
+        "text": "At — точное время, on — дни и даты, in — части дня, месяцы, годы и сезоны.",
+        "highlights": [
+          {
+            "text": "At",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "on",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "in",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Время",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Предлог",
+              "С чем",
+              "Пример"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "at",
+                  "часы, at night, at the weekend",
+                  "at 7 o'clock, at noon"
+                ]
+              },
+              {
+                "cells": [
+                  "on",
+                  "дни недели, даты",
+                  "on Monday, on 5 May"
+                ]
+              },
+              {
+                "cells": [
+                  "in",
+                  "части дня, месяцы, годы, сезоны",
+                  "in the morning, in June, in 2024"
+                ]
+              },
+              {
+                "cells": [
+                  "before / after",
+                  "до / после",
+                  "before lunch, after work"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "example",
+              "info"
             ]
           }
         },
         {
-          "title": "В вопросе предлог уходит в конец",
+          "title": "Примеры",
           "borderColor": "good",
-          "callout": {
-            "type": "tip",
-            "title": "Как в разговоре",
-            "text": "What are you looking at? Who are you waiting for? What does it depend on? По-русски предлог впереди, по-английски — в самом конце."
-          }
+          "examples": [
+            {
+              "en": "The film starts at eight.",
+              "ru": "Фильм начинается в восемь."
+            },
+            {
+              "en": "I'll call you on Friday.",
+              "ru": "Я позвоню тебе в пятницу."
+            },
+            {
+              "en": "We go skiing in winter.",
+              "ru": "Зимой мы катаемся на лыжах."
+            },
+            {
+              "en": "Let's meet after work.",
+              "ru": "Давай встретимся после работы."
+            }
+          ]
         }
       ]
     },
     {
-      "label": "После существительных",
+      "label": "Направление",
       "intro": {
-        "text": "Существительные тоже дружат со своими предлогами. Особенно те, что значат причину, рост или ответ: reason for, increase in, answer to.",
+        "text": "Куда движемся: to — к месту, from — откуда, into / out of — внутрь и наружу, across и through — через.",
         "highlights": [
           {
-            "text": "дружат со своими предлогами",
+            "text": "to",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
-            "text": "reason for, increase in, answer to",
-            "color": "example",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Существительное + предлог",
-          "borderColor": "info",
-          "table": {
-            "headers": [
-              "Сочетание",
-              "Значение",
-              "Пример"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "reason for",
-                  "причина (чего)",
-                  "What's the reason for the delay?"
-                ]
-              },
-              {
-                "cells": [
-                  "cause of",
-                  "причина, источник",
-                  "The cause of the fire is unknown."
-                ]
-              },
-              {
-                "cells": [
-                  "increase / rise in",
-                  "рост (чего)",
-                  "an increase in prices"
-                ]
-              },
-              {
-                "cells": [
-                  "solution to",
-                  "решение (проблемы)",
-                  "a solution to the problem"
-                ]
-              },
-              {
-                "cells": [
-                  "answer to",
-                  "ответ на",
-                  "the answer to my question"
-                ]
-              },
-              {
-                "cells": [
-                  "interest in",
-                  "интерес к",
-                  "his interest in music"
-                ]
-              },
-              {
-                "cells": [
-                  "effect on",
-                  "влияние на",
-                  "the effect on children"
-                ]
-              },
-              {
-                "cells": [
-                  "relationship with",
-                  "отношения с",
-                  "my relationship with my boss"
-                ]
-              },
-              {
-                "cells": [
-                  "damage to",
-                  "ущерб (чему)",
-                  "damage to the car"
-                ]
-              },
-              {
-                "cells": [
-                  "advantage of",
-                  "преимущество (чего)",
-                  "the advantage of living here"
-                ]
-              }
-            ],
-            "borderColor": "info",
-            "headerColors": [
-              "term",
-              "info",
-              "example"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "label": "Предлоги движения",
-      "intro": {
-        "text": "Есть предлоги места (где?) и предлоги движения (куда?). In — «в», а into — «внутрь, в», когда движешься туда. Так же on и onto.",
-        "highlights": [
-          {
-            "text": "места",
+            "text": "from",
             "color": "info",
             "style": "bold"
-          },
-          {
-            "text": "движения",
-            "color": "term",
-            "style": "bold_underline"
           },
           {
             "text": "into",
@@ -541,124 +364,87 @@
             "style": "bold"
           },
           {
-            "text": "onto",
-            "color": "example",
+            "text": "across",
+            "color": "good",
             "style": "bold"
           }
         ]
       },
       "sections": [
         {
-          "title": "Куда движемся",
+          "title": "Движение",
           "borderColor": "info",
           "table": {
             "headers": [
               "Предлог",
-              "Значение",
+              "Перевод",
               "Пример"
             ],
             "rows": [
               {
                 "cells": [
+                  "to",
+                  "к, в (куда)",
+                  "I go to work by bus."
+                ]
+              },
+              {
+                "cells": [
+                  "from",
+                  "из, от",
+                  "She's from Italy."
+                ]
+              },
+              {
+                "cells": [
                   "into",
-                  "в, внутрь",
-                  "She walked into the room."
+                  "внутрь",
+                  "He walked into the room."
                 ]
               },
               {
                 "cells": [
                   "out of",
-                  "из, наружу",
-                  "He ran out of the house."
-                ]
-              },
-              {
-                "cells": [
-                  "onto",
-                  "на (поверхность)",
-                  "The cat jumped onto the table."
-                ]
-              },
-              {
-                "cells": [
-                  "off",
-                  "с (поверхности)",
-                  "He fell off his bike."
-                ]
-              },
-              {
-                "cells": [
-                  "through",
-                  "сквозь, через (внутри)",
-                  "We drove through the tunnel."
+                  "наружу, из",
+                  "Get out of the car."
                 ]
               },
               {
                 "cells": [
                   "across",
-                  "через (поперёк)",
-                  "Walk across the bridge."
+                  "через (по поверхности)",
+                  "Walk across the street."
                 ]
               },
               {
                 "cells": [
-                  "along",
-                  "вдоль, по",
-                  "We walked along the river."
-                ]
-              },
-              {
-                "cells": [
-                  "past",
-                  "мимо",
-                  "The bus went past our house."
-                ]
-              },
-              {
-                "cells": [
-                  "towards",
-                  "по направлению к",
-                  "He came towards me."
+                  "through",
+                  "сквозь, через",
+                  "We drove through the tunnel."
                 ]
               },
               {
                 "cells": [
                   "up / down",
-                  "вверх / вниз по",
-                  "She ran up the stairs."
+                  "вверх / вниз",
+                  "Go up the stairs."
                 ]
               },
               {
                 "cells": [
-                  "around",
-                  "вокруг",
-                  "We walked around the lake."
+                  "along",
+                  "вдоль",
+                  "Walk along the river."
                 ]
               }
             ],
             "borderColor": "info",
             "headerColors": [
               "term",
-              "info",
-              "example"
+              "example",
+              "info"
             ]
           }
-        },
-        {
-          "title": "Through или across",
-          "borderColor": "term",
-          "rules": [
-            {
-              "name": "through",
-              "suffix": "внутри чего-то объёмного",
-              "example": "through the forest, through the window"
-            },
-            {
-              "name": "across",
-              "suffix": "с одной стороны на другую по поверхности",
-              "example": "across the road, across the river"
-            }
-          ]
         }
       ]
     },
@@ -680,52 +466,30 @@
           "borderColor": "bad",
           "errors": [
             {
-              "wrong": "It depends from the weather.",
-              "right": "It depends on the weather."
+              "wrong": "I live on Moscow.",
+              "right": "I live in Moscow."
             },
             {
-              "wrong": "I'm waiting you.",
-              "right": "I'm waiting for you."
+              "wrong": "See you in Monday.",
+              "right": "See you on Monday."
             },
             {
-              "wrong": "Listen me, please.",
-              "right": "Listen to me, please."
+              "wrong": "at the morning",
+              "right": "in the morning"
             },
             {
-              "wrong": "She's married with a doctor.",
-              "right": "She's married to a doctor."
+              "wrong": "in night",
+              "right": "at night"
             },
             {
-              "wrong": "I'm good in maths.",
-              "right": "I'm good at maths."
+              "wrong": "I go to home.",
+              "right": "I go home."
             },
             {
-              "wrong": "He entered into the room.",
-              "right": "He entered the room."
-            },
-            {
-              "wrong": "I'm interested to learn French.",
-              "right": "I'm interested in learning French."
-            },
-            {
-              "wrong": "He got off from the bus.",
-              "right": "He got off the bus."
+              "wrong": "He came in the room.",
+              "right": "He came into the room."
             }
           ]
-        },
-        {
-          "title": "Совет",
-          "borderColor": "good",
-          "callout": {
-            "type": "tip",
-            "title": "Учи слово сразу с предлогом",
-            "text": "Не «depend — зависеть», а «depend on — зависеть от». В словаре приложения такие сочетания часто есть прямо в примерах."
-          },
-          "quote": {
-            "text": "Предлог — часть слова, а не отдельное слово.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ]
     }

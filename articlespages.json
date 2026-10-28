@@ -1,0 +1,632 @@
+{
+  "tenseName": "Артикли",
+  "route": "cards_articles",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Артикль стоит перед существительным и показывает, о чём речь: о чём-то новом (a / an), об уже известном (the) или о чём-то вообще (без артикля).",
+        "highlights": [
+          {
+            "text": "a / an",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "the",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "без артикля",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три случая",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "a / an",
+                "color": "info"
+              },
+              {
+                "text": "=",
+                "color": "muted"
+              },
+              {
+                "text": "один из многих",
+                "color": "example"
+              },
+              {
+                "text": "·",
+                "color": "muted"
+              },
+              {
+                "text": "the",
+                "color": "term"
+              },
+              {
+                "text": "=",
+                "color": "muted"
+              },
+              {
+                "text": "тот самый",
+                "color": "example"
+              },
+              {
+                "text": "·",
+                "color": "muted"
+              },
+              {
+                "text": "—",
+                "color": "bad"
+              },
+              {
+                "text": "=",
+                "color": "muted"
+              },
+              {
+                "text": "вообще",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Сразу на примере",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I have a dog.",
+              "ru": "У меня есть собака. (какая-то, впервые говорю)"
+            },
+            {
+              "en": "The dog is very friendly.",
+              "ru": "Собака (эта) очень дружелюбная."
+            },
+            {
+              "en": "Dogs are clever animals.",
+              "ru": "Собаки — умные животные. (вообще)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Неопределённый артикль a / an",
+      "intro": {
+        "text": "A и an значат «один из многих» — предмет упоминается впервые, слушатель о нём ещё не знает. A перед согласным звуком, an — перед гласным.",
+        "highlights": [
+          {
+            "text": "один из многих",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "впервые",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "перед гласным",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "перед согласным",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "info",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "a",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "согласный звук",
+                "color": "info"
+              },
+              {
+                "text": "·",
+                "color": "muted"
+              },
+              {
+                "text": "an",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "гласный звук",
+                "color": "term"
+              }
+            ],
+            "accentColor": "info"
+          }
+        },
+        {
+          "title": "Когда используем a / an",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Первое упоминание",
+              "suffix": "новое для слушателя",
+              "example": "I saw a cat on the street."
+            },
+            {
+              "name": "Один из многих",
+              "suffix": "любой представитель",
+              "example": "Give me a pen, please."
+            },
+            {
+              "name": "Профессия / род",
+              "suffix": "кто он / что оно",
+              "example": "She is a doctor. It's a table."
+            },
+            {
+              "name": "Со скоростью / частотой",
+              "suffix": "за единицу",
+              "example": "60 km an hour, twice a week."
+            }
+          ]
+        },
+        {
+          "title": "A или an — правило",
+          "borderColor": "bad",
+          "table": {
+            "headers": [
+              "Артикль",
+              "Перед чем",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "a",
+                  "согласный ЗВУК",
+                  "a book, a university, a European"
+                ]
+              },
+              {
+                "cells": [
+                  "an",
+                  "гласный ЗВУК",
+                  "an apple, an hour, an honest man"
+                ]
+              }
+            ],
+            "borderColor": "bad"
+          },
+          "callout": {
+            "type": "warning",
+            "title": "Смотрим на звук, а не на букву",
+            "text": "University начинается с буквы u, но звук [juː] — согласный, поэтому a university. Hour начинается с h, но h не читается, поэтому an hour."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I need a new phone.",
+              "ru": "Мне нужен новый телефон. (какой-то)"
+            },
+            {
+              "en": "She is an engineer.",
+              "ru": "Она инженер."
+            },
+            {
+              "en": "He is a European writer.",
+              "ru": "Он европейский писатель. (звук [j])"
+            },
+            {
+              "en": "Wait an hour, please.",
+              "ru": "Подожди час. (h не читается)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Определённый артикль the",
+      "intro": {
+        "text": "The значит «тот самый» — предмет уже известен, о нём говорили раньше, или он единственный в своём роде.",
+        "highlights": [
+          {
+            "text": "тот самый",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "уже известен",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "единственный",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Когда используем the",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Повторное упоминание",
+              "suffix": "уже говорили",
+              "example": "I saw a cat. The cat was black."
+            },
+            {
+              "name": "Единственный в мире",
+              "suffix": "один такой",
+              "example": "the sun, the moon, the sky"
+            },
+            {
+              "name": "Превосходная степень",
+              "suffix": "the + -est",
+              "example": "the best, the tallest"
+            },
+            {
+              "name": "Порядковое число",
+              "suffix": "the + first/…",
+              "example": "the first of May"
+            },
+            {
+              "name": "Уточнение после сущ.",
+              "suffix": "какое именно",
+              "example": "the book on the table"
+            }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The sun is bright today.",
+              "ru": "Солнце сегодня яркое. (единственное)"
+            },
+            {
+              "en": "This is the best coffee in town.",
+              "ru": "Это лучший кофе в городе."
+            },
+            {
+              "en": "Open the door, please.",
+              "ru": "Открой дверь. (ту самую)"
+            },
+            {
+              "en": "She is the tallest girl in the class.",
+              "ru": "Она самая высокая в классе."
+            }
+          ]
+        },
+        {
+          "title": "A / an vs the",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Ситуация",
+              "Артикль",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Первое упоминание",
+                  "a / an",
+                  "I saw a cat."
+                ]
+              },
+              {
+                "cells": [
+                  "Повторное упоминание",
+                  "the",
+                  "The cat was black."
+                ]
+              },
+              {
+                "cells": [
+                  "Какой-то один",
+                  "a / an",
+                  "Give me a pen."
+                ]
+              },
+              {
+                "cells": [
+                  "Тот самый",
+                  "the",
+                  "Give me the pen on the desk."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Нулевой артикль",
+      "intro": {
+        "text": "Иногда артикль не нужен вообще — это называется нулевым артиклем. Особенно часто это происходит с множественным числом и неисчисляемыми.",
+        "highlights": [
+          {
+            "text": "не нужен вообще",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "множественным",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "неисчисляемыми",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Когда артикль НЕ нужен",
+          "borderColor": "bad",
+          "rules": [
+            {
+              "name": "Множественное в общем",
+              "suffix": "без the",
+              "example": "Cats are cute. (кошки вообще)"
+            },
+            {
+              "name": "Неисчисляемые в общем",
+              "suffix": "без the",
+              "example": "Water is important."
+            },
+            {
+              "name": "Имена и города",
+              "suffix": "без the",
+              "example": "Anna, London, Russia"
+            },
+            {
+              "name": "Приёмы пищи",
+              "suffix": "без the",
+              "example": "I have breakfast at 8."
+            },
+            {
+              "name": "Языки и предметы",
+              "suffix": "без the",
+              "example": "She speaks English. I study math."
+            }
+          ]
+        },
+        {
+          "title": "Когда the точно нужен",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Страны с of / plural",
+              "suffix": "the",
+              "example": "the USA, the Netherlands"
+            },
+            {
+              "name": "Реки, моря, океаны",
+              "suffix": "the",
+              "example": "the Volga, the Black Sea"
+            },
+            {
+              "name": "Уникальные объекты",
+              "suffix": "the",
+              "example": "the sun, the moon, the Earth"
+            },
+            {
+              "name": "Группы людей",
+              "suffix": "the",
+              "example": "the rich, the young"
+            }
+          ]
+        },
+        {
+          "title": "Сравнение",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Ситуация",
+              "Артикль",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Кошки вообще",
+                  "— (нулевой)",
+                  "Cats are cute."
+                ]
+              },
+              {
+                "cells": [
+                  "Эти конкретные кошки",
+                  "the",
+                  "The cats in the yard are mine."
+                ]
+              },
+              {
+                "cells": [
+                  "Вода вообще",
+                  "— (нулевой)",
+                  "Water is important."
+                ]
+              },
+              {
+                "cells": [
+                  "Эта вода",
+                  "the",
+                  "The water in the glass is cold."
+                ]
+              }
+            ],
+            "borderColor": "info"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Артикли — сводка",
+      "intro": {
+        "text": "Три артикля в одной таблице: a / an для нового, the для известного, нулевой — для общего и имён.",
+        "highlights": [
+          {
+            "text": "a / an",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "the",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "нулевой",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Главная таблица",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Артикль",
+              "Когда",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "a / an",
+                  "первое упоминание, один из многих",
+                  "I saw a cat."
+                ]
+              },
+              {
+                "cells": [
+                  "the",
+                  "тот самый, уже известный",
+                  "The cat was black."
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "мн. ч. вообще, неисчисл., имена",
+                  "Cats are cute."
+                ]
+              },
+              {
+                "cells": [
+                  "the",
+                  "единственный, превосходный",
+                  "the sun, the best"
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "языки, приёмы пищи, города",
+                  "English, breakfast, London"
+                ]
+              }
+            ],
+            "borderColor": "term"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I bought a book yesterday.",
+              "ru": "Я вчера купил книгу. (какую-то)"
+            },
+            {
+              "en": "The book was very interesting.",
+              "ru": "Книга (эта) была очень интересной."
+            },
+            {
+              "en": "Books are useful.",
+              "ru": "Книги полезны. (вообще)"
+            },
+            {
+              "en": "The book on the table is mine.",
+              "ru": "Книга на столе — моя. (уточнение)"
+            }
+          ]
+        },
+        {
+          "title": "Типичные ошибки",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I am student.",
+              "right": "I am a student."
+            },
+            {
+              "wrong": "The cats are cute. (вообще)",
+              "right": "Cats are cute."
+            },
+            {
+              "wrong": "I speak the English.",
+              "right": "I speak English."
+            },
+            {
+              "wrong": "Sun is bright.",
+              "right": "The sun is bright."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

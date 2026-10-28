@@ -1,7 +1,250 @@
 {
-  "tenseName": "Парикмахерская и спортзал",
+  "tenseName": "Аренда, парикмахерская, почта",
   "route": "cards_services",
   "slides": [
+    {
+      "label": "Аренда: слова",
+      "intro": {
+        "text": "Без этих слов не прочитать ни объявление, ни договор.",
+        "highlights": [
+          {
+            "text": "ни договор",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "rent",
+                  "аренда; снимать"
+                ]
+              },
+              {
+                "cells": [
+                  "landlord / landlady",
+                  "арендодатель, хозяин"
+                ]
+              },
+              {
+                "cells": [
+                  "tenant",
+                  "жилец, арендатор"
+                ]
+              },
+              {
+                "cells": [
+                  "flat (UK) / apartment (US)",
+                  "квартира"
+                ]
+              },
+              {
+                "cells": [
+                  "deposit",
+                  "залог"
+                ]
+              },
+              {
+                "cells": [
+                  "bills, utilities",
+                  "коммунальные платежи"
+                ]
+              },
+              {
+                "cells": [
+                  "furnished / unfurnished",
+                  "с мебелью / без мебели"
+                ]
+              },
+              {
+                "cells": [
+                  "tenancy agreement, lease",
+                  "договор аренды"
+                ]
+              },
+              {
+                "cells": [
+                  "studio",
+                  "студия"
+                ]
+              },
+              {
+                "cells": [
+                  "one-bedroom flat",
+                  "квартира с одной спальней"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        },
+        {
+          "title": "Комнаты",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Считают спальни",
+            "text": "Русская «двушка» — обычно one-bedroom flat: гостиная плюс одна спальня. Two-bedroom — это уже две спальни и гостиная."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Аренда: вопросы хозяину",
+      "intro": {
+        "text": "Перед тем как снять жильё, уточни деньги, сроки и правила.",
+        "highlights": [
+          {
+            "text": "деньги, сроки и правила",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вопросы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "How much is the rent per month?",
+                  "Сколько стоит аренда в месяц?"
+                ]
+              },
+              {
+                "cells": [
+                  "Are bills included?",
+                  "Коммуналка включена?"
+                ]
+              },
+              {
+                "cells": [
+                  "How much is the deposit?",
+                  "Какой залог?"
+                ]
+              },
+              {
+                "cells": [
+                  "Is it furnished?",
+                  "Квартира с мебелью?"
+                ]
+              },
+              {
+                "cells": [
+                  "Are pets allowed?",
+                  "Можно с животными?"
+                ]
+              },
+              {
+                "cells": [
+                  "When can I move in?",
+                  "Когда можно заехать?"
+                ]
+              },
+              {
+                "cells": [
+                  "What's the minimum contract?",
+                  "Какой минимальный срок договора?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Аренда: если что-то сломалось",
+      "intro": {
+        "text": "О поломках сообщают хозяину — ремонт обычно за его счёт.",
+        "highlights": [
+          {
+            "text": "хозяину",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "The heating isn't working.",
+                  "Отопление не работает."
+                ]
+              },
+              {
+                "cells": [
+                  "There's a leak in the bathroom.",
+                  "В ванной течёт."
+                ]
+              },
+              {
+                "cells": [
+                  "The washing machine is broken.",
+                  "Сломалась стиральная машина."
+                ]
+              },
+              {
+                "cells": [
+                  "Could you send someone to fix it?",
+                  "Можете прислать кого-нибудь починить?"
+                ]
+              },
+              {
+                "cells": [
+                  "I'd like to give notice.",
+                  "Хочу предупредить, что съезжаю."
+                ]
+              },
+              {
+                "cells": [
+                  "When will I get my deposit back?",
+                  "Когда мне вернут залог?"
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
     {
       "label": "Парикмахерская",
       "intro": {
@@ -143,7 +386,7 @@
       ]
     },
     {
-      "label": "Слова",
+      "label": "Услуги: слова",
       "intro": {
         "text": "Слова, которые пригодятся и там, и там.",
         "highlights": [
@@ -235,6 +478,216 @@
       ]
     },
     {
+      "label": "Почта: отправить",
+      "intro": {
+        "text": "На почте спрашивают о цене, сроке и о том, можно ли отследить отправление.",
+        "highlights": [
+          {
+            "text": "отследить",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'd like to send this parcel to…",
+                  "Хочу отправить эту посылку в…"
+                ]
+              },
+              {
+                "cells": [
+                  "How much is it to send it by air?",
+                  "Сколько стоит авиапочтой?"
+                ]
+              },
+              {
+                "cells": [
+                  "How long will it take?",
+                  "Сколько она будет идти?"
+                ]
+              },
+              {
+                "cells": [
+                  "Can I track it?",
+                  "Её можно отследить?"
+                ]
+              },
+              {
+                "cells": [
+                  "I need a stamp for this letter.",
+                  "Нужна марка для этого письма."
+                ]
+              },
+              {
+                "cells": [
+                  "Do I need to fill in a customs form?",
+                  "Нужно заполнить таможенную декларацию?"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Почта: получить",
+      "intro": {
+        "text": "Если заказ не пришёл или пришёл не таким — эти фразы.",
+        "highlights": [
+          {
+            "text": "не пришёл",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Фразы",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Фраза",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "I'm here to collect a parcel.",
+                  "Я пришёл забрать посылку."
+                ]
+              },
+              {
+                "cells": [
+                  "My order still hasn't arrived.",
+                  "Мой заказ до сих пор не пришёл."
+                ]
+              },
+              {
+                "cells": [
+                  "The parcel was damaged.",
+                  "Посылка повреждена."
+                ]
+              },
+              {
+                "cells": [
+                  "What's the tracking number?",
+                  "Какой трек-номер?"
+                ]
+              },
+              {
+                "cells": [
+                  "Could you leave it with my neighbour?",
+                  "Можно оставить у соседа?"
+                ]
+              }
+            ],
+            "borderColor": "term",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Почта: слова",
+      "intro": {
+        "text": "Британские и американские слова для почты.",
+        "highlights": [
+          {
+            "text": "Британские и американские",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слова",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Слово",
+              "Перевод"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "parcel (UK) / package (US)",
+                  "посылка"
+                ]
+              },
+              {
+                "cells": [
+                  "post (UK) / mail (US)",
+                  "почта"
+                ]
+              },
+              {
+                "cells": [
+                  "postcode (UK) / zip code (US)",
+                  "индекс"
+                ]
+              },
+              {
+                "cells": [
+                  "envelope / stamp",
+                  "конверт / марка"
+                ]
+              },
+              {
+                "cells": [
+                  "courier",
+                  "курьер"
+                ]
+              },
+              {
+                "cells": [
+                  "tracking number",
+                  "трек-номер"
+                ]
+              },
+              {
+                "cells": [
+                  "sender / recipient",
+                  "отправитель / получатель"
+                ]
+              },
+              {
+                "cells": [
+                  "pick-up point",
+                  "пункт выдачи"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "term",
+              "muted"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "label": "Чего не говорить",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
@@ -266,6 +719,42 @@
             {
               "wrong": "I go to the gym to do sport.",
               "right": "I go to the gym to work out."
+            },
+            {
+              "wrong": "How much costs the flat?",
+              "right": "How much is the rent?"
+            },
+            {
+              "wrong": "Is the flat with furniture?",
+              "right": "Is the flat furnished?"
+            },
+            {
+              "wrong": "two-room flat (гостиная и спальня)",
+              "right": "one-bedroom flat"
+            },
+            {
+              "wrong": "communal payments",
+              "right": "bills, utilities"
+            },
+            {
+              "wrong": "my owner",
+              "right": "my landlord"
+            },
+            {
+              "wrong": "index (почтовый)",
+              "right": "postcode / zip code"
+            },
+            {
+              "wrong": "My order didn't come still.",
+              "right": "My order still hasn't arrived."
+            },
+            {
+              "wrong": "track-number",
+              "right": "tracking number"
+            },
+            {
+              "wrong": "Where can I take my parcel? (забрать)",
+              "right": "Where can I pick up my parcel?"
             }
           ]
         }

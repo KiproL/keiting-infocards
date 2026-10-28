@@ -1,0 +1,239 @@
+{
+  "tenseName": "Mixed Conditionals",
+  "route": "cards_mixedconditionals",
+  "slides": [
+    {
+      "label": "Что это",
+      "intro": {
+        "text": "Смешанные условные предложения соединяют два времени: условие из одного времени, а результат — из другого. Например, прошлое решение влияет на настоящее.",
+        "highlights": [
+          {
+            "text": "два времени",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "прошлое",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "настоящее",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Два вида",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Смешение",
+              "Условие",
+              "Результат"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "прошлое → настоящее",
+                  "If + Past Perfect",
+                  "would + глагол"
+                ]
+              },
+              {
+                "cells": [
+                  "настоящее → прошлое",
+                  "If + Past Simple",
+                  "would have + V3"
+                ]
+              }
+            ],
+            "borderColor": "info",
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Прошлое → настоящее",
+      "intro": {
+        "text": "Что-то было (или не было) в прошлом — и из-за этого сейчас всё иначе.",
+        "highlights": [
+          {
+            "text": "в прошлом",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "сейчас",
+            "color": "example",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "If",
+                "color": "muted"
+              },
+              {
+                "text": "+ Past Perfect",
+                "color": "info"
+              },
+              {
+                "text": ",",
+                "color": "muted"
+              },
+              {
+                "text": "would",
+                "color": "term"
+              },
+              {
+                "text": "+ глагол",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "If I had taken the job, I would live in London now.",
+              "ru": "Если бы я тогда согласился на работу, сейчас жил бы в Лондоне."
+            },
+            {
+              "en": "If she hadn't missed the train, she would be here.",
+              "ru": "Если бы она не опоздала на поезд, она была бы здесь."
+            },
+            {
+              "en": "If we had saved money, we wouldn't be broke now.",
+              "ru": "Если бы мы копили деньги, сейчас не сидели бы без гроша."
+            },
+            {
+              "en": "If I had studied medicine, I would be a doctor.",
+              "ru": "Если бы я учился на врача, я был бы врачом."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Настоящее → прошлое",
+      "intro": {
+        "text": "Постоянная черта или факт сейчас объясняет, что случилось (или не случилось) в прошлом.",
+        "highlights": [
+          {
+            "text": "сейчас",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "в прошлом",
+            "color": "info",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "If",
+                "color": "muted"
+              },
+              {
+                "text": "+ Past Simple",
+                "color": "example"
+              },
+              {
+                "text": ",",
+                "color": "muted"
+              },
+              {
+                "text": "would have",
+                "color": "term"
+              },
+              {
+                "text": "+ V3",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "If I weren't afraid of heights, I would have climbed the tower.",
+              "ru": "Если бы я не боялся высоты, я бы поднялся на башню."
+            },
+            {
+              "en": "If he spoke French, he would have got the job.",
+              "ru": "Если бы он говорил по-французски, его бы взяли на работу."
+            },
+            {
+              "en": "If you were more careful, you wouldn't have lost your keys.",
+              "ru": "Будь ты внимательнее, ты бы не потерял ключи."
+            },
+            {
+              "en": "If I didn't love you, I wouldn't have come.",
+              "ru": "Если бы я тебя не любил, я бы не пришёл."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ошибки",
+      "intro": {
+        "text": "Частые ошибки в смешанных условных.",
+        "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "If I would have studied, I would be a doctor.",
+              "right": "If I had studied, I would be a doctor."
+            },
+            {
+              "wrong": "If I had taken the job, I would have lived in London now.",
+              "right": "If I had taken the job, I would live in London now."
+            },
+            {
+              "wrong": "If he would speak French, he would have got the job.",
+              "right": "If he spoke French, he would have got the job."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
