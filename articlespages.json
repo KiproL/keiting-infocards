@@ -5,8 +5,13 @@
     {
       "label": "a / an, the или ничего",
       "intro": {
-        "text": "Артикль стоит перед существительным и показывает, о чём речь: о чём-то новом (a / an), об уже известном (the) или о чём-то вообще (без артикля).",
+        "text": "В русском артиклей нет, поэтому кажется, что они лишние. На деле артикль отвечает на один вопрос: понимает ли слушатель, о каком именно предмете речь? Не понимает — a / an. Понимает — the. Речь о таких предметах вообще — артикля нет.",
         "highlights": [
+          {
+            "text": "понимает ли слушатель",
+            "color": "term",
+            "style": "bold_underline"
+          },
           {
             "text": "a / an",
             "color": "info",
@@ -18,9 +23,9 @@
             "style": "bold"
           },
           {
-            "text": "без артикля",
+            "text": "артикля нет",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
           }
         ]
       },
@@ -79,6 +84,18 @@
           }
         },
         {
+          "title": "Как выбрать за три шага",
+          "borderColor": "info",
+          "steps": {
+            "accentColor": "term",
+            "items": [
+              "Слушатель знает, о каком именно предмете речь? Да — the: the door (вот эта дверь).",
+              "Нет, и предмет один, его можно посчитать? — a / an: a dog (какая-то собака).",
+              "Предметов много или их не посчитать, и речь о них вообще? — без артикля: dogs, water, music."
+            ]
+          }
+        },
+        {
           "title": "Сразу на примере",
           "borderColor": "good",
           "examples": [
@@ -96,17 +113,46 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I bought a new phone. The phone is great.", "ru": "Я купил новый телефон. Телефон отличный. (сначала новый — a, потом уже известный — the)"}, {"en": "Can you open the door, please?", "ru": "Открой, пожалуйста, дверь. (понятно, какую — the)"}, {"en": "She is a doctor.", "ru": "Она врач. (одна из многих — a)"}, {"en": "I like music and books.", "ru": "Я люблю музыку и книги. (вообще — без артикля)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I bought a new phone. The phone is great.",
+                "ru": "Я купил новый телефон. Телефон отличный. (сначала новый — a, потом уже известный — the)"
+              },
+              {
+                "en": "Can you open the door, please?",
+                "ru": "Открой, пожалуйста, дверь. (понятно, какую — the)"
+              },
+              {
+                "en": "She is a doctor.",
+                "ru": "Она врач. (одна из многих — a)"
+              },
+              {
+                "en": "I like music and books.",
+                "ru": "Я люблю музыку и книги. (вообще — без артикля)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Неопределённый артикль a / an",
+      "label": "a / an: какой-то один",
       "intro": {
-        "text": "A и an значат «один из многих» — предмет упоминается впервые, слушатель о нём ещё не знает. A перед согласным звуком, an — перед гласным.",
+        "text": "A и an значат «один, какой-то». Ставим, когда называем предмет впервые или когда неважно, какой именно. Только с тем, что можно посчитать, и только в единственном числе: a book, но не a books и не a water.",
         "highlights": [
           {
-            "text": "один из многих",
+            "text": "«один, какой-то»",
             "color": "info",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "впервые",
@@ -114,12 +160,7 @@
             "style": "bold"
           },
           {
-            "text": "перед гласным",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "перед согласным",
+            "text": "только в единственном числе",
             "color": "bad",
             "style": "bold"
           }
@@ -168,24 +209,24 @@
           "borderColor": "term",
           "rules": [
             {
-              "name": "Первое упоминание",
-              "suffix": "новое для слушателя",
+              "name": "Называем впервые",
+              "suffix": "слушатель о нём ещё не знает",
               "example": "I saw a cat on the street."
             },
             {
-              "name": "Один из многих",
-              "suffix": "любой представитель",
-              "example": "Give me a pen, please."
+              "name": "Какой угодно из многих",
+              "suffix": "неважно, какой именно",
+              "example": "Can I have a pen, please?"
             },
             {
-              "name": "Профессия / род",
-              "suffix": "кто он / что оно",
+              "name": "Кто это / что это",
+              "suffix": "профессия, что за предмет",
               "example": "She is a doctor. It's a table."
             },
             {
-              "name": "Со скоростью / частотой",
-              "suffix": "за единицу",
-              "example": "60 km an hour, twice a week."
+              "name": "«В» в значении «за»",
+              "suffix": "сколько раз за неделю, км за час",
+              "example": "twice a week, 60 km an hour"
             }
           ]
         },
@@ -249,26 +290,50 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I need an umbrella.",
+                "ru": "Мне нужен зонт. (гласный звук — an)"
+              },
+              {
+                "en": "She wears a uniform at work.",
+                "ru": "На работе она носит форму. (звук [j] — a)"
+              },
+              {
+                "en": "It was an easy question.",
+                "ru": "Это был лёгкий вопрос."
+              },
+              {
+                "en": "He is an honest man.",
+                "ru": "Он честный человек. (h не читается — an)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Определённый артикль the",
+      "label": "the: тот самый",
       "intro": {
-        "text": "The значит «тот самый» — предмет уже известен, о нём говорили раньше, или он единственный в своём роде.",
+        "text": "The значит «тот самый». Ставим, когда слушатель понимает, о каком предмете речь: о нём уже говорили, он один такой на свете или его уточнили словами рядом.",
         "highlights": [
           {
-            "text": "тот самый",
+            "text": "«тот самый»",
             "color": "term",
             "style": "bold_underline"
           },
           {
-            "text": "уже известен",
+            "text": "понимает, о каком предмете речь",
             "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "единственный",
-            "color": "example",
             "style": "bold"
           }
         ]
@@ -279,31 +344,40 @@
           "borderColor": "term",
           "rules": [
             {
-              "name": "Повторное упоминание",
-              "suffix": "уже говорили",
+              "name": "Уже говорили",
+              "suffix": "второй раз о том же",
               "example": "I saw a cat. The cat was black."
             },
             {
-              "name": "Единственный в мире",
-              "suffix": "один такой",
+              "name": "Один на свете",
+              "suffix": "другого такого нет",
               "example": "the sun, the moon, the sky"
             },
             {
-              "name": "Превосходная степень",
-              "suffix": "the + -est",
+              "name": "Понятно из обстановки",
+              "suffix": "все видят, какой",
+              "example": "Close the window, please."
+            },
+            {
+              "name": "Самый-самый",
+              "suffix": "the + -est / most",
               "example": "the best, the tallest"
             },
             {
-              "name": "Порядковое число",
-              "suffix": "the + first/…",
-              "example": "the first of May"
-            },
-            {
-              "name": "Уточнение после сущ.",
-              "suffix": "какое именно",
+              "name": "Уточнили, какой именно",
+              "suffix": "слова после сущ.",
               "example": "the book on the table"
             }
           ]
+        },
+        {
+          "title": "Проверка",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Можно сказать «тот самый»?",
+            "text": "Если по-русски можно добавить «этот», «тот самый», «тот, что…» — скорее всего, нужен the."
+          }
         },
         {
           "title": "Живые примеры",
@@ -374,25 +448,49 @@
             "borderColor": "info"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Where is the remote? It was on the sofa.",
+                "ru": "Где пульт? Он был на диване. (все знают, какой)"
+              },
+              {
+                "en": "The moon is beautiful tonight.",
+                "ru": "Луна сегодня красивая."
+              },
+              {
+                "en": "This is the first time I'm here.",
+                "ru": "Я здесь впервые."
+              },
+              {
+                "en": "The man in the blue jacket is my uncle.",
+                "ru": "Мужчина в синей куртке — мой дядя."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Нулевой артикль",
+      "label": "Когда артикль не нужен",
       "intro": {
-        "text": "Иногда артикль не нужен вообще — это называется нулевым артиклем. Особенно часто это происходит с множественным числом и неисчисляемыми.",
+        "text": "Артикля нет, когда говорим о предметах вообще во множественном числе (cats — кошки вообще) или о том, что нельзя посчитать штуками: water, money, music. Ещё без артикля — имена, города, языки и приёмы пищи.",
         "highlights": [
           {
-            "text": "не нужен вообще",
-            "color": "bad",
-            "style": "bold_underline"
-          },
-          {
-            "text": "множественным",
+            "text": "вообще",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "неисчисляемыми",
+            "text": "нельзя посчитать штуками",
             "color": "term",
             "style": "bold"
           }
@@ -435,9 +533,9 @@
           "borderColor": "term",
           "rules": [
             {
-              "name": "Страны с of / plural",
+              "name": "Страны со словами States, Kingdom или во мн. числе",
               "suffix": "the",
-              "example": "the USA, the Netherlands"
+              "example": "the USA, the UK, the Netherlands"
             },
             {
               "name": "Реки, моря, океаны",
@@ -445,14 +543,14 @@
               "example": "the Volga, the Black Sea"
             },
             {
-              "name": "Уникальные объекты",
+              "name": "Один на свете",
               "suffix": "the",
               "example": "the sun, the moon, the Earth"
             },
             {
-              "name": "Группы людей",
-              "suffix": "the",
-              "example": "the rich, the young"
+              "name": "Группа людей по признаку",
+              "suffix": "the + прилагательное",
+              "example": "the rich — богатые, the young — молодёжь"
             }
           ]
         },
@@ -503,10 +601,63 @@
             "borderColor": "info"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Дом, школа, работа — без артикля",
+          "preview": "go to school, at home, by bus",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Выражение",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "muted"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "go to school / work / bed",
+                    "идти в школу / на работу / спать"
+                  ]
+                },
+                {
+                  "cells": [
+                    "at home, at work, at school",
+                    "дома, на работе, в школе"
+                  ]
+                },
+                {
+                  "cells": [
+                    "by bus, by car, by train",
+                    "на автобусе, на машине, на поезде"
+                  ]
+                },
+                {
+                  "cells": [
+                    "on Monday, in May, at night",
+                    "в понедельник, в мае, ночью"
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "tip",
+              "title": "Почему так",
+              "text": "Здесь важно не здание, а его назначение: go to school — учиться. Если идёшь в само здание по делу, артикль появляется: Mum went to the school to talk to the teacher."
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Артикли — сводка",
+      "label": "Артикли: всё на одной странице",
       "intro": {
         "text": "Три артикля в одной таблице: a / an для нового, the для известного, нулевой — для общего и имён.",
         "highlights": [
@@ -610,19 +761,23 @@
           "errors": [
             {
               "wrong": "I am student.",
-              "right": "I am a student."
+              "right": "I am a student. (кто ты — a)"
             },
             {
               "wrong": "The cats are cute. (вообще)",
-              "right": "Cats are cute."
+              "right": "Cats are cute. (вообще — без артикля)"
             },
             {
               "wrong": "I speak the English.",
-              "right": "I speak English."
+              "right": "I speak English. (языки — без артикля)"
             },
             {
               "wrong": "Sun is bright.",
-              "right": "The sun is bright."
+              "right": "The sun is bright. (одно на свете — the)"
+            },
+            {
+              "wrong": "I have a breakfast at 8.",
+              "right": "I have breakfast at 8. (приёмы пищи — без артикля)"
             }
           ]
         }

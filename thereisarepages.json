@@ -5,11 +5,23 @@
     {
       "label": "There is / are: что где есть",
       "intro": {
-        "text": "Конструкция There is / There are говорит, что что-то где-то есть. В русском мы часто говорим «На столе книга», а в английском обязательно нужен There is.",
+        "text": "Когда сообщаем, что где-то что-то есть, по-английски начинаем с There is / There are, а место ставим в конец: «В саду кошка» — There is a cat in the garden. Слово there здесь не переводится и не значит «там».",
         "highlights": [
-          { "text": "There is / There are", "color": "term",    "style": "bold_underline" },
-          { "text": "что-то где-то есть",    "color": "info",    "style": "bold" },
-          { "text": "обязательно",           "color": "bad",     "style": "bold" }
+          {
+            "text": "There is / There are",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "место ставим в конец",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "не переводится",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,19 +31,43 @@
           "formulas": [
             {
               "parts": [
-                { "text": "There is", "color": "info" },
-                { "text": "+",        "color": "muted" },
-                { "text": "один предмет", "color": "example" },
-                { "text": "(ед. ч.)",  "color": "term" }
+                {
+                  "text": "There is",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "один предмет",
+                  "color": "example"
+                },
+                {
+                  "text": "(ед. ч.)",
+                  "color": "term"
+                }
               ],
               "accentColor": "info"
             },
             {
               "parts": [
-                { "text": "There are", "color": "good" },
-                { "text": "+",         "color": "muted" },
-                { "text": "много предметов", "color": "example" },
-                { "text": "(мн. ч.)",  "color": "term" }
+                {
+                  "text": "There are",
+                  "color": "good"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "много предметов",
+                  "color": "example"
+                },
+                {
+                  "text": "(мн. ч.)",
+                  "color": "term"
+                }
               ],
               "accentColor": "good"
             }
@@ -41,24 +77,118 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Когда", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Когда",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["There is",  "один предмет",   "There is a book on the table."] },
-              { "cells": ["There are", "два и больше",   "There are two books on the table."] },
-              { "cells": ["There is",  "неисчисляемое",  "There is some milk in the fridge."] }
+              {
+                "cells": [
+                  "There is",
+                  "один предмет",
+                  "There is a book on the table."
+                ]
+              },
+              {
+                "cells": [
+                  "There are",
+                  "два и больше",
+                  "There are two books on the table."
+                ]
+              },
+              {
+                "cells": [
+                  "There is",
+                  "неисчисляемое",
+                  "There is some milk in the fridge."
+                ]
+              }
             ],
             "borderColor": "info"
+          }
+        },
+        {
+          "title": "Порядок слов: с русского",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "На столе книга.",
+              "to": "There is a book on the table.",
+              "toColor": "good"
+            },
+            {
+              "from": "В городе много парков.",
+              "to": "There are many parks in the city.",
+              "toColor": "good"
+            },
+            {
+              "from": "В холодильнике есть молоко.",
+              "to": "There is some milk in the fridge.",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Is или are, если предметов несколько",
+          "borderColor": "term",
+          "text": "Смотри на первый предмет после there: There is a pen and two books on the desk. В разговоре так и говорят.",
+          "textColor": "text"
+        },
+        {
+          "title": "There is или It is",
+          "borderColor": "bad",
+          "table": {
+            "headers": [
+              "There is — что-то есть",
+              "It is — это что-то / оно какое-то"
+            ],
+            "headerColors": [
+              "term",
+              "info"
+            ],
+            "borderColor": "bad",
+            "rows": [
+              {
+                "cells": [
+                  "There is a book on the table.",
+                  "It is a book. It is interesting."
+                ]
+              },
+              {
+                "cells": [
+                  "There is a café near here.",
+                  "It is very cosy."
+                ]
+              }
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "There is a cat in the garden.",       "ru": "В саду кошка." },
-            { "en": "There are many people at the party.",  "ru": "На вечеринке много людей." },
-            { "en": "There is some water in the glass.",    "ru": "В стакане есть вода." },
-            { "en": "There is a problem with my phone.",    "ru": "С моим телефоном проблема." }
+            {
+              "en": "There is a cat in the garden.",
+              "ru": "В саду кошка."
+            },
+            {
+              "en": "There are many people at the party.",
+              "ru": "На вечеринке много людей."
+            },
+            {
+              "en": "There is some water in the glass.",
+              "ru": "В стакане есть вода."
+            },
+            {
+              "en": "There is a problem with my phone.",
+              "ru": "С моим телефоном проблема."
+            }
           ]
         },
         {
@@ -70,17 +200,51 @@
             "accentColor": "accent2"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "some, many, a lot of после There is / are",
+          "preview": "сколько чего-то есть",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "rules": [
+              {
+                "name": "some",
+                "suffix": "немного, сколько-то",
+                "example": "There is some bread. There are some eggs."
+              },
+              {
+                "name": "a lot of",
+                "suffix": "много — подходит ко всему",
+                "example": "There is a lot of snow. There are a lot of cars."
+              },
+              {
+                "name": "many",
+                "suffix": "много — то, что считаем",
+                "example": "There are many shops here."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
-
     {
       "label": "Отрицание и вопрос",
       "intro": {
-        "text": "Отрицание и вопрос образуются без do / does — просто переставляем или добавляем not.",
+        "text": "Do и does здесь не нужны. В отрицании добавляем not или no, в вопросе меняем местами: there is → is there?",
         "highlights": [
-          { "text": "без do / does", "color": "bad",  "style": "bold_underline" },
-          { "text": "not",            "color": "info", "style": "bold" },
-          { "text": "переставляем",   "color": "term", "style": "bold" }
+          {
+            "text": "Do и does здесь не нужны",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "is there?",
+            "color": "term",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -90,74 +254,430 @@
           "formulas": [
             {
               "parts": [
-                { "text": "There is", "color": "info" },
-                { "text": "+",        "color": "muted" },
-                { "text": "no",       "color": "bad" },
-                { "text": "+",        "color": "muted" },
-                { "text": "предмет",  "color": "example" }
+                {
+                  "text": "There is",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "no",
+                  "color": "bad"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "предмет",
+                  "color": "example"
+                }
               ],
-              "accentColor": "bad", "drill": {"slots": ["There is", "no", "предмет"], "decoys": ["not", "any"], "examples": [{"en": "There is no milk in the fridge.", "ru": "В холодильнике нет молока.", "parts": [["There is", "There is"], ["no", "no"], ["milk", "предмет"], ["in the fridge.", ""]]}, {"en": "There is no time to lose.", "ru": "Нельзя терять время.", "parts": [["There is", "There is"], ["no", "no"], ["time", "предмет"], ["to lose.", ""]]}, {"en": "There is no lift in this building.", "ru": "В этом здании нет лифта.", "parts": [["There is", "There is"], ["no", "no"], ["lift", "предмет"], ["in this building.", ""]]}]}
+              "accentColor": "bad",
+              "drill": {
+                "slots": [
+                  "There is",
+                  "no",
+                  "предмет"
+                ],
+                "decoys": [
+                  "not",
+                  "any"
+                ],
+                "examples": [
+                  {
+                    "en": "There is no milk in the fridge.",
+                    "ru": "В холодильнике нет молока.",
+                    "parts": [
+                      [
+                        "There is",
+                        "There is"
+                      ],
+                      [
+                        "no",
+                        "no"
+                      ],
+                      [
+                        "milk",
+                        "предмет"
+                      ],
+                      [
+                        "in the fridge.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "There is no time to lose.",
+                    "ru": "Нельзя терять время.",
+                    "parts": [
+                      [
+                        "There is",
+                        "There is"
+                      ],
+                      [
+                        "no",
+                        "no"
+                      ],
+                      [
+                        "time",
+                        "предмет"
+                      ],
+                      [
+                        "to lose.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "There is no lift in this building.",
+                    "ru": "В этом здании нет лифта.",
+                    "parts": [
+                      [
+                        "There is",
+                        "There is"
+                      ],
+                      [
+                        "no",
+                        "no"
+                      ],
+                      [
+                        "lift",
+                        "предмет"
+                      ],
+                      [
+                        "in this building.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
-                { "text": "There isn't", "color": "info" },
-                { "text": "+",           "color": "muted" },
-                { "text": "a / any",      "color": "term" },
-                { "text": "+",           "color": "muted" },
-                { "text": "предмет",      "color": "example" }
+                {
+                  "text": "There isn't",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "a / any",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "предмет",
+                  "color": "example"
+                }
               ],
-              "accentColor": "bad", "drill": {"slots": ["There isn't", "a / any", "предмет"], "decoys": ["no", "some"], "examples": [{"en": "There isn't a bank near here.", "ru": "Здесь рядом нет банка.", "parts": [["There isn't", "There isn't"], ["a", "a / any"], ["bank", "предмет"], ["near here.", ""]]}, {"en": "There isn't any sugar.", "ru": "Сахара нет.", "parts": [["There isn't", "There isn't"], ["any", "a / any"], ["sugar.", "предмет"]]}, {"en": "There isn't a lift here.", "ru": "Здесь нет лифта.", "parts": [["There isn't", "There isn't"], ["a", "a / any"], ["lift", "предмет"], ["here.", ""]]}]}
+              "accentColor": "bad",
+              "drill": {
+                "slots": [
+                  "There isn't",
+                  "a / any",
+                  "предмет"
+                ],
+                "decoys": [
+                  "no",
+                  "some"
+                ],
+                "examples": [
+                  {
+                    "en": "There isn't a bank near here.",
+                    "ru": "Здесь рядом нет банка.",
+                    "parts": [
+                      [
+                        "There isn't",
+                        "There isn't"
+                      ],
+                      [
+                        "a",
+                        "a / any"
+                      ],
+                      [
+                        "bank",
+                        "предмет"
+                      ],
+                      [
+                        "near here.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "There isn't any sugar.",
+                    "ru": "Сахара нет.",
+                    "parts": [
+                      [
+                        "There isn't",
+                        "There isn't"
+                      ],
+                      [
+                        "any",
+                        "a / any"
+                      ],
+                      [
+                        "sugar.",
+                        "предмет"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "There isn't a lift here.",
+                    "ru": "Здесь нет лифта.",
+                    "parts": [
+                      [
+                        "There isn't",
+                        "There isn't"
+                      ],
+                      [
+                        "a",
+                        "a / any"
+                      ],
+                      [
+                        "lift",
+                        "предмет"
+                      ],
+                      [
+                        "here.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ],
           "examples": [
-            { "en": "There is no milk in the fridge.",       "ru": "В холодильнике нет молока." },
-            { "en": "There isn't any milk in the fridge.",    "ru": "В холодильнике нет молока." },
-            { "en": "There are no chairs in the room.",       "ru": "В комнате нет стульев." },
-            { "en": "There aren't any chairs in the room.",   "ru": "В комнате нет стульев." }
-          ]
+            {
+              "en": "There is no milk in the fridge.",
+              "ru": "В холодильнике нет молока."
+            },
+            {
+              "en": "There isn't any milk in the fridge.",
+              "ru": "В холодильнике нет молока."
+            },
+            {
+              "en": "There are no chairs in the room.",
+              "ru": "В комнате нет стульев."
+            },
+            {
+              "en": "There aren't any chairs in the room.",
+              "ru": "В комнате нет стульев."
+            }
+          ],
+          "callout": {
+            "type": "info",
+            "title": "no или not any",
+            "text": "There is no milk = There isn't any milk — смысл один. No — короче и чуть категоричнее."
+          }
         },
         {
           "title": "Вопрос",
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Is / Are", "color": "info" },
-              { "text": "+",        "color": "muted" },
-              { "text": "there",    "color": "term" },
-              { "text": "+",        "color": "muted" },
-              { "text": "предмет?", "color": "example" }
+              {
+                "text": "Is / Are",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "there",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "предмет?",
+                "color": "example"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Is / Are", "there", "предмет?"], "decoys": ["it", "Do"], "examples": [{"en": "Is there a bank near here?", "ru": "Здесь рядом есть банк?", "parts": [["Is", "Is / Are"], ["there", "there"], ["a bank", "предмет?"], ["near here?", ""]]}, {"en": "Are there any eggs?", "ru": "Яйца есть?", "parts": [["Are", "Is / Are"], ["there", "there"], ["any eggs?", "предмет?"]]}, {"en": "Is there a lift?", "ru": "Здесь есть лифт?", "parts": [["Is", "Is / Are"], ["there", "there"], ["a lift?", "предмет?"]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Is / Are",
+                "there",
+                "предмет?"
+              ],
+              "decoys": [
+                "it",
+                "Do"
+              ],
+              "examples": [
+                {
+                  "en": "Is there a bank near here?",
+                  "ru": "Здесь рядом есть банк?",
+                  "parts": [
+                    [
+                      "Is",
+                      "Is / Are"
+                    ],
+                    [
+                      "there",
+                      "there"
+                    ],
+                    [
+                      "a bank",
+                      "предмет?"
+                    ],
+                    [
+                      "near here?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Are there any eggs?",
+                  "ru": "Яйца есть?",
+                  "parts": [
+                    [
+                      "Are",
+                      "Is / Are"
+                    ],
+                    [
+                      "there",
+                      "there"
+                    ],
+                    [
+                      "any eggs?",
+                      "предмет?"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Is there a lift?",
+                  "ru": "Здесь есть лифт?",
+                  "parts": [
+                    [
+                      "Is",
+                      "Is / Are"
+                    ],
+                    [
+                      "there",
+                      "there"
+                    ],
+                    [
+                      "a lift?",
+                      "предмет?"
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Is there a bank near here?",       "ru": "Здесь рядом есть банк?" },
-            { "en": "Are there any questions?",          "ru": "Есть вопросы?" },
-            { "en": "How many books are there?",          "ru": "Сколько там книг?" },
-            { "en": "Is there any milk?",                 "ru": "Молоко есть?" }
-          ]
+            {
+              "en": "Is there a bank near here?",
+              "ru": "Здесь рядом есть банк?"
+            },
+            {
+              "en": "Are there any questions?",
+              "ru": "Есть вопросы?"
+            },
+            {
+              "en": "How many books are there?",
+              "ru": "Сколько там книг?"
+            },
+            {
+              "en": "Is there any milk?",
+              "ru": "Молоко есть?"
+            }
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "Сколько?",
+            "text": "How many + мн. ч. + are there? — How many students are there? С тем, что не посчитать, — How much … is there? — How much milk is there?"
+          }
         },
         {
           "title": "Краткие ответы",
           "borderColor": "good",
           "table": {
-            "headers": ["Вопрос", "Да", "Нет"],
-            "headerColors": ["info", "good", "bad"],
+            "headers": [
+              "Вопрос",
+              "Да",
+              "Нет"
+            ],
+            "headerColors": [
+              "info",
+              "good",
+              "bad"
+            ],
             "rows": [
-              { "cells": ["Is there a bank?",   "Yes, there is.",    "No, there isn't."] },
-              { "cells": ["Are there chairs?",  "Yes, there are.",   "No, there aren't."] }
+              {
+                "cells": [
+                  "Is there a bank?",
+                  "Yes, there is.",
+                  "No, there isn't."
+                ]
+              },
+              {
+                "cells": [
+                  "Are there chairs?",
+                  "Yes, there are.",
+                  "No, there aren't."
+                ]
+              }
             ],
             "borderColor": "good"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Is there a pharmacy near here? — Yes, there is.",
+                "ru": "Здесь рядом есть аптека? — Да."
+              },
+              {
+                "en": "Are there any free seats? — No, there aren't.",
+                "ru": "Есть свободные места? — Нет."
+              },
+              {
+                "en": "How much milk is there?",
+                "ru": "Сколько там молока?"
+              },
+              {
+                "en": "There aren't any buses after midnight.",
+                "ru": "После полуночи автобусов нет."
+              }
+            ]
+          }
+        }
       ]
     },
-
     {
-      "label": "Частые ошибки: There is / There are",
+      "label": "Частые ошибки: It is вместо There is",
       "intro": {
-        "text": "Четыре самые частые ошибки в конструкции There is / There are.",
+        "text": "Самые частые ошибки с There is / There are. Справа — правильно и почему.",
         "highlights": [
-          { "text": "Четыре самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Самые частые",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -165,10 +685,30 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "It is a book on the table.",  "right": "There is a book on the table." },
-            { "wrong": "There is two cats.",           "right": "There are two cats." },
-            { "wrong": "There have a lot of people.",  "right": "There are a lot of people." },
-            { "wrong": "Do there is a bank?",          "right": "Is there a bank?" }
+            {
+              "wrong": "It is a book on the table.",
+              "right": "There is a book on the table. (что-то есть — there is)"
+            },
+            {
+              "wrong": "There is two cats.",
+              "right": "There are two cats. (много — are)"
+            },
+            {
+              "wrong": "There have a lot of people.",
+              "right": "There are a lot of people. (не have)"
+            },
+            {
+              "wrong": "Do there is a bank?",
+              "right": "Is there a bank? (без do)"
+            },
+            {
+              "wrong": "On the table is a book.",
+              "right": "There is a book on the table. (место — в конец)"
+            },
+            {
+              "wrong": "There isn't no milk.",
+              "right": "There isn't any milk. / There is no milk. (одно отрицание)"
+            }
           ]
         },
         {

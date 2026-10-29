@@ -3,18 +3,23 @@
   "route": "cards_clarifying",
   "slides": [
     {
-      "label": "Переспросить",
+      "label": "Попросить повторить",
       "intro": {
-        "text": "Не понять с первого раза — нормально. Главное — переспросить вежливо, а не молчать. Голое What? звучит грубо.",
+        "text": "Не понять с первого раза — нормально, даже носители переспрашивают. Главное — вежливо: голое What? звучит грубо, а Sorry? — нормально.",
         "highlights": [
           {
-            "text": "переспросить вежливо",
+            "text": "нормально",
             "color": "good",
             "style": "bold"
           },
           {
             "text": "звучит грубо",
             "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "Sorry?",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -67,15 +72,44 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Sorry, could you say that again?",
+                "ru": "Простите, можете повторить?"
+              },
+              {
+                "en": "Sorry, I didn't catch your name.",
+                "ru": "Простите, я не расслышал ваше имя."
+              },
+              {
+                "en": "Could you speak a bit more slowly, please?",
+                "ru": "Можно чуть помедленнее?"
+              },
+              {
+                "en": "Pardon? It's very noisy here.",
+                "ru": "Простите? Здесь очень шумно."
+              }
+            ]
+          }
+        }
       ]
     },
     {
       "label": "Уточнить смысл",
       "intro": {
-        "text": "Если слова слышно, а смысл непонятен, уточни конкретное слово или перескажи своими словами — собеседник поправит.",
+        "text": "Если слова слышно, а смысл непонятен, спроси про конкретное слово или перескажи своими словами — собеседник подтвердит или поправит.",
         "highlights": [
           {
-            "text": "конкретное слово",
+            "text": "про конкретное слово",
             "color": "term",
             "style": "bold"
           },
@@ -143,13 +177,18 @@
       ]
     },
     {
-      "label": "Забыл слово",
+      "label": "Забыл слово: как описать",
       "intro": {
-        "text": "Не помнишь слово — опиши его. Так делают даже носители.",
+        "text": "Не помнишь слово — опиши его: что это, для чего, на что похоже. Так делают даже носители, и тебя поймут.",
         "highlights": [
           {
             "text": "опиши его",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "что это, для чего, на что похоже",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -208,6 +247,31 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Пример: забыл слово «штопор»",
+          "preview": "описываем по шагам",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It's a thing you use for wine bottles.",
+                "ru": "Это штука для винных бутылок. (для чего)"
+              },
+              {
+                "en": "It's made of metal and it twists.",
+                "ru": "Она металлическая и закручивается. (какая)"
+              },
+              {
+                "en": "— Oh, you mean a corkscrew!",
+                "ru": "— А, ты про штопор!"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
@@ -229,23 +293,23 @@
           "errors": [
             {
               "wrong": "What? (незнакомому человеку)",
-              "right": "Sorry? / Pardon?"
+              "right": "Sorry? / Pardon? (What? звучит грубо)"
             },
             {
               "wrong": "Repeat, please.",
-              "right": "Could you repeat that, please?"
+              "right": "Could you repeat that, please? (просьба — вопросом)"
             },
             {
               "wrong": "I don't understand you. (резко)",
-              "right": "Sorry, I'm not sure I follow."
+              "right": "Sorry, I'm not sure I follow. (мягче)"
             },
             {
               "wrong": "Speak slowly!",
-              "right": "Could you speak a bit more slowly?"
+              "right": "Could you speak a bit more slowly? (без приказа)"
             },
             {
               "wrong": "How it is in English?",
-              "right": "How do you say it in English?"
+              "right": "How do you say it in English? (вопрос — с do)"
             }
           ]
         }

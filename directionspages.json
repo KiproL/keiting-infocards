@@ -3,13 +3,18 @@
   "route": "cards_directions",
   "slides": [
     {
-      "label": "Спросить",
+      "label": "Как спросить дорогу",
       "intro": {
-        "text": "Начни с Excuse me — так привлекают внимание незнакомца. Дальше — простой вопрос, где находится место или как до него добраться.",
+        "text": "Начни с Excuse me — так вежливо привлекают внимание незнакомца. Дальше — простой вопрос: где находится место или как до него добраться (how do I get to…).",
         "highlights": [
           {
             "text": "Excuse me",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "how do I get to…",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -62,16 +67,50 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Если не понял ответ",
+          "preview": "переспросить и уточнить",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Sorry, left or right?",
+                "ru": "Простите, налево или направо?"
+              },
+              {
+                "en": "Could you say that again, please?",
+                "ru": "Повторите, пожалуйста."
+              },
+              {
+                "en": "So, the second street on the left?",
+                "ru": "То есть вторая улица налево?"
+              },
+              {
+                "en": "How long does it take on foot?",
+                "ru": "Сколько идти пешком?"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Объяснить",
+      "label": "Как объяснить дорогу",
       "intro": {
-        "text": "Дорогу объясняют короткими командами: иди прямо, поверни, пройди мимо. Место описывают предлогами: on the left, opposite, next to.",
+        "text": "Дорогу объясняют короткими командами: иди прямо, поверни, пройди мимо — глагол без you в начале. Место описывают предлогами: on the left, opposite, next to.",
         "highlights": [
           {
             "text": "короткими командами",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "без you",
+            "color": "example",
             "style": "bold"
           },
           {
@@ -182,10 +221,64 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "На транспорте",
+          "preview": "автобус, метро, остановки",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Фраза",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Take the number 5 bus.",
+                    "Садитесь на пятый автобус."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Get off at the third stop.",
+                    "Выходите на третьей остановке."
+                  ]
+                },
+                {
+                  "cells": [
+                    "It's two stops from here.",
+                    "Отсюда две остановки."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Change at Central Station.",
+                    "Пересадка на Центральной."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Which line goes to the airport?",
+                    "Какая ветка идёт в аэропорт?"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: как пройти",
+      "label": "Дорога в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -230,7 +323,7 @@
       ]
     },
     {
-      "label": "Диалог: как пройти",
+      "label": "Диалог: где аптека",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -275,14 +368,19 @@
       ]
     },
     {
-      "label": "Чего не говорить: как пройти",
+      "label": "Чего не говорить: turn to left, in the left",
       "intro": {
-        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "text": "Чего не говорить: частые ошибки русскоговорящих — лишние предлоги и «скажи мне».",
         "highlights": [
           {
             "text": "Чего не говорить",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "лишние предлоги",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -293,23 +391,23 @@
           "errors": [
             {
               "wrong": "Say me the way to the station.",
-              "right": "Could you tell me the way to the station?"
+              "right": "Could you tell me the way to the station? (tell, и вежливо)"
             },
             {
               "wrong": "Turn to left.",
-              "right": "Turn left."
+              "right": "Turn left. (без to)"
             },
             {
               "wrong": "It's in the left.",
-              "right": "It's on the left."
+              "right": "It's on the left. (слева — on)"
             },
             {
               "wrong": "on the crossroads",
-              "right": "at the crossroads"
+              "right": "at the crossroads (в точке — at)"
             },
             {
               "wrong": "Go straight and after turn right.",
-              "right": "Go straight on, then turn right."
+              "right": "Go straight on, then turn right. (потом — then)"
             }
           ]
         }

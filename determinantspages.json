@@ -82,12 +82,41 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "There are some apples in the fridge.", "ru": "В холодильнике есть немного яблок."}, {"en": "Is there any milk left?", "ru": "Молоко ещё осталось?"}, {"en": "I have no time today.", "ru": "Сегодня у меня совсем нет времени."}, {"en": "Every student has a book.", "ru": "У каждого ученика есть книга."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "There are some apples in the fridge.",
+                "ru": "В холодильнике есть немного яблок."
+              },
+              {
+                "en": "Is there any milk left?",
+                "ru": "Молоко ещё осталось?"
+              },
+              {
+                "en": "I have no time today.",
+                "ru": "Сегодня у меня совсем нет времени."
+              },
+              {
+                "en": "Every student has a book.",
+                "ru": "У каждого ученика есть книга."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Some / any",
+      "label": "Some или any",
       "intro": {
-        "text": "Some используется в утверждениях, any — в вопросах и отрицаниях. Оба значат «сколько-то, немного», но в разных типах предложений.",
+        "text": "Some и any оба значат «немного, сколько-то». Some — в утверждениях, any — в вопросах и отрицаниях.",
         "highlights": [
           {
             "text": "Some",
@@ -102,12 +131,12 @@
           {
             "text": "утверждениях",
             "color": "example",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "отрицаниях",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
           }
         ]
       },
@@ -237,9 +266,9 @@
       ]
     },
     {
-      "label": "No / none / not any",
+      "label": "No, none и not any",
       "intro": {
-        "text": "Отрицание количества можно выразить тремя способами: no, none, not any. Все три значат «нисколько», но используются по-разному.",
+        "text": "«Нисколько» можно сказать тремя способами: no, none, not any. Смысл один, а место в предложении разное.",
         "highlights": [
           {
             "text": "no",
@@ -259,7 +288,7 @@
           {
             "text": "нисколько",
             "color": "example",
-            "style": "bold_underline"
+            "style": "bold"
           }
         ]
       },
@@ -497,10 +526,39 @@
             "text": "В английском отрицание одно: I don't know anything / I know nothing. «I don't know nothing» — ошибка."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I want to tell you something.",
+                "ru": "Хочу тебе кое-что сказать."
+              },
+              {
+                "en": "I can't find my keys anywhere.",
+                "ru": "Нигде не могу найти ключи."
+              },
+              {
+                "en": "Nobody knows the answer.",
+                "ru": "Никто не знает ответа."
+              },
+              {
+                "en": "Everything is OK.",
+                "ru": "Всё в порядке."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Every / each / all",
+      "label": "Every, each и all",
       "intro": {
         "text": "Every и each значат «каждый», но every — про группу в целом, а each — про каждого по отдельности. All — «все вместе».",
         "highlights": [
@@ -649,7 +707,7 @@
       ]
     },
     {
-      "label": "Many / much / a lot of",
+      "label": "Many, much и a lot of",
       "intro": {
         "text": "Many — с исчисляемыми во множественном числе, much — с неисчисляемыми. A lot of работает и там, и там, и звучит естественнее в утверждениях.",
         "highlights": [
@@ -860,21 +918,80 @@
           "errors": [
             {
               "wrong": "many money",
-              "right": "much money / a lot of money"
+              "right": "much money / a lot of money (money — неисчисляемое)"
             },
             {
               "wrong": "much books",
-              "right": "many books / a lot of books"
+              "right": "many books / a lot of books (books — исчисляемые)"
             },
             {
               "wrong": "How much books?",
-              "right": "How many books?"
+              "right": "How many books? (книги можно посчитать)"
             },
             {
               "wrong": "How many water?",
-              "right": "How much water?"
+              "right": "How much water? (воду не считают штуками)"
             }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "А если мало: few и little",
+          "preview": "a few, a little — «немного»",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "С чем",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "a few",
+                    "исчисляемые",
+                    "I have a few friends here. — Есть несколько друзей."
+                  ]
+                },
+                {
+                  "cells": [
+                    "a little",
+                    "неисчисляемые",
+                    "Add a little salt. — Добавь немного соли."
+                  ]
+                },
+                {
+                  "cells": [
+                    "few",
+                    "исчисляемые, «мало»",
+                    "Few people came. — Пришло мало людей."
+                  ]
+                },
+                {
+                  "cells": [
+                    "little",
+                    "неисчисляемые, «мало»",
+                    "We have little time. — У нас мало времени."
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "tip",
+              "title": "Разница в одной букве",
+              "text": "С a — «немного, и это хорошо». Без a — «мало, почти нет»."
+            },
+            "title": ""
+          }
         }
       ]
     },
@@ -984,31 +1101,31 @@
           "errors": [
             {
               "wrong": "I don't have no money.",
-              "right": "I have no money. / I don't have any money."
+              "right": "I have no money. / I don't have any money. (одно отрицание)"
             },
             {
               "wrong": "many money",
-              "right": "much money / a lot of money"
+              "right": "much money / a lot of money (неисчисляемое)"
             },
             {
               "wrong": "much books",
-              "right": "many books / a lot of books"
+              "right": "many books / a lot of books (исчисляемые)"
             },
             {
               "wrong": "How much books?",
-              "right": "How many books?"
+              "right": "How many books? (исчисляемые)"
             },
             {
               "wrong": "Somebody didn't come.",
-              "right": "Nobody came."
+              "right": "Nobody came. (отрицание — в nobody)"
             },
             {
               "wrong": "I don't know nothing.",
-              "right": "I don't know anything. / I know nothing."
+              "right": "I don't know anything. / I know nothing. (одно отрицание)"
             },
             {
               "wrong": "Everybody are here.",
-              "right": "Everybody is here."
+              "right": "Everybody is here. (everybody — ед. число)"
             }
           ]
         },

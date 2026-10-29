@@ -5,12 +5,23 @@
     {
       "label": "be going to: планы и намерения",
       "intro": {
-        "text": "Be going to говорит о планах и намерениях на будущее. Это не спонтанное решение, а то, что вы уже решили заранее.",
+        "text": "Be going to — «собираюсь». Так говорят о том, что уже решили заранее: планы и намерения. Be меняется по лицам (am, is, are), а going to и глагол остаются как есть.",
         "highlights": [
-          { "text": "Be going to", "color": "term",    "style": "bold_underline" },
-          { "text": "планах",       "color": "info",    "style": "bold" },
-          { "text": "уже решили",   "color": "example", "style": "bold" },
-          { "text": "заранее",      "color": "bad",     "style": "bold" }
+          {
+            "text": "Be going to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "уже решили заранее",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "am, is, are",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,25 +30,167 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "be",       "color": "info" },
-              { "text": "+",        "color": "muted" },
-              { "text": "going to", "color": "term" },
-              { "text": "+",        "color": "muted" },
-              { "text": "глагол",   "color": "example" }
+              {
+                "text": "be",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "going to",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["be", "going to", "глагол"], "decoys": ["will", "V-ing"], "examples": [{"en": "I am going to visit my grandma.", "ru": "Я собираюсь навестить бабушку.", "parts": [["I", ""], ["am", "be"], ["going to", "going to"], ["visit", "глагол"], ["my grandma.", ""]]}, {"en": "They are going to buy a new car.", "ru": "Они собираются купить новую машину.", "parts": [["They", ""], ["are", "be"], ["going to", "going to"], ["buy", "глагол"], ["a new car.", ""]]}, {"en": "It is going to rain.", "ru": "Сейчас пойдёт дождь.", "parts": [["It", ""], ["is", "be"], ["going to", "going to"], ["rain.", "глагол"]]}]}
-          }
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "be",
+                "going to",
+                "глагол"
+              ],
+              "decoys": [
+                "will",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "I am going to visit my grandma.",
+                  "ru": "Я собираюсь навестить бабушку.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "am",
+                      "be"
+                    ],
+                    [
+                      "going to",
+                      "going to"
+                    ],
+                    [
+                      "visit",
+                      "глагол"
+                    ],
+                    [
+                      "my grandma.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They are going to buy a new car.",
+                  "ru": "Они собираются купить новую машину.",
+                  "parts": [
+                    [
+                      "They",
+                      ""
+                    ],
+                    [
+                      "are",
+                      "be"
+                    ],
+                    [
+                      "going to",
+                      "going to"
+                    ],
+                    [
+                      "buy",
+                      "глагол"
+                    ],
+                    [
+                      "a new car.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "It is going to rain.",
+                  "ru": "Сейчас пойдёт дождь.",
+                  "parts": [
+                    [
+                      "It",
+                      ""
+                    ],
+                    [
+                      "is",
+                      "be"
+                    ],
+                    [
+                      "going to",
+                      "going to"
+                    ],
+                    [
+                      "rain.",
+                      "глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
+          },
+          "bullets": [
+            {
+              "text": "be — am, is или are, смотря кто: I am, she is, they are",
+              "color": "info"
+            },
+            {
+              "text": "going to — не меняется",
+              "color": "term"
+            },
+            {
+              "text": "глагол — в начальной форме: go, buy, visit",
+              "color": "example"
+            }
+          ]
         },
         {
           "title": "Форма be по лицам",
           "borderColor": "info",
           "table": {
-            "headers": ["Лицо", "Be", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Лицо",
+              "Be",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["I",              "am", "I am going to travel."] },
-              { "cells": ["He / She / It",  "is", "He is going to study."] },
-              { "cells": ["You / We / They","are","They are going to move."] }
+              {
+                "cells": [
+                  "I",
+                  "am",
+                  "I am going to travel."
+                ]
+              },
+              {
+                "cells": [
+                  "He / She / It",
+                  "is",
+                  "He is going to study."
+                ]
+              },
+              {
+                "cells": [
+                  "You / We / They",
+                  "are",
+                  "They are going to move."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -46,23 +199,41 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I am going to visit my grandmother.",  "ru": "Я собираюсь навестить бабушку." },
-            { "en": "She is going to buy a new car.",        "ru": "Она собирается купить новую машину." },
-            { "en": "We are going to move to Berlin.",        "ru": "Мы собираемся переехать в Берлин." },
-            { "en": "It is going to rain.",                    "ru": "Собирается дождь. (по приметам)" }
+            {
+              "en": "I am going to visit my grandmother.",
+              "ru": "Я собираюсь навестить бабушку."
+            },
+            {
+              "en": "She is going to buy a new car.",
+              "ru": "Она собирается купить новую машину."
+            },
+            {
+              "en": "We are going to move to Berlin.",
+              "ru": "Мы собираемся переехать в Берлин."
+            },
+            {
+              "en": "It is going to rain.",
+              "ru": "Собирается дождь. (по приметам)"
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Когда используем",
+      "label": "Планы и прогнозы по приметам",
       "intro": {
-        "text": "Be going to — это про заранее принятое решение. И ещё один важный случай — предсказание на основе того, что видим сейчас.",
+        "text": "Два случая. Первый — план, который уже есть: I'm going to visit her. Второй — прогноз по тому, что видно сейчас: тучи на небе — It's going to rain.",
         "highlights": [
-          { "text": "заранее принятое", "color": "info",    "style": "bold" },
-          { "text": "предсказание",       "color": "term",    "style": "bold" },
-          { "text": "видим сейчас",        "color": "example", "style": "bold_underline" }
+          {
+            "text": "план, который уже есть",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "прогноз по тому, что видно сейчас",
+            "color": "term",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -70,21 +241,61 @@
           "title": "Два случая",
           "borderColor": "info",
           "rules": [
-            { "name": "План или намерение", "suffix": "уже решил",   "example": "I am going to visit her tomorrow." },
-            { "name": "Предсказание",        "suffix": "вижу сейчас", "example": "Look at the clouds! It is going to rain." }
+            {
+              "name": "План или намерение",
+              "suffix": "уже решил",
+              "example": "I am going to visit her tomorrow."
+            },
+            {
+              "name": "Предсказание",
+              "suffix": "вижу сейчас",
+              "example": "Look at the clouds! It is going to rain."
+            }
           ]
         },
         {
           "title": "Be going to vs will",
           "borderColor": "term",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["be going to", "план заранее",        "I am going to visit her."] },
-              { "cells": ["will",         "спонтанное решение",  "I will visit her. (только что решил)"] },
-              { "cells": ["be going to", "предсказание по факту","It is going to rain. (тучи)"] },
-              { "cells": ["will",         "мнение / обещание",   "I think it will rain."] }
+              {
+                "cells": [
+                  "be going to",
+                  "план заранее",
+                  "I am going to visit her."
+                ]
+              },
+              {
+                "cells": [
+                  "will",
+                  "спонтанное решение",
+                  "I will visit her. (только что решил)"
+                ]
+              },
+              {
+                "cells": [
+                  "be going to",
+                  "предсказание по факту",
+                  "It is going to rain. (тучи)"
+                ]
+              },
+              {
+                "cells": [
+                  "will",
+                  "мнение / обещание",
+                  "I think it will rain."
+                ]
+              }
             ],
             "borderColor": "term"
           }
@@ -93,21 +304,89 @@
           "title": "Отрицание и вопрос",
           "borderColor": "good",
           "examples": [
-            { "en": "I am not going to argue with you.",   "ru": "Я не собираюсь с тобой спорить." },
-            { "en": "Are you going to come?",                "ru": "Ты собираешься прийти?" },
-            { "en": "What are you going to do?",             "ru": "Что ты собираешься делать?" },
-            { "en": "Is she going to call?",                 "ru": "Она собирается позвонить?" }
+            {
+              "en": "I am not going to argue with you.",
+              "ru": "Я не собираюсь с тобой спорить."
+            },
+            {
+              "en": "Are you going to come?",
+              "ru": "Ты собираешься прийти?"
+            },
+            {
+              "en": "What are you going to do?",
+              "ru": "Что ты собираешься делать?"
+            },
+            {
+              "en": "Is she going to call?",
+              "ru": "Она собирается позвонить?"
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Going to или will: как выбрать",
+          "preview": "решил заранее или прямо сейчас",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Ситуация",
+                "Говорим"
+              ],
+              "headerColors": [
+                "muted",
+                "term"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Билеты уже куплены",
+                    "We're going to fly to Rome."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Решил прямо сейчас",
+                    "Oh, it's cold. I'll close the window."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Вижу признаки",
+                    "Look out! You're going to fall!"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Просто думаю, мнение",
+                    "I think she'll like it."
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "info",
+              "title": "В разговоре",
+              "text": "Going to часто звучит как gonna: I'm gonna call her. Так говорят, но в письме лучше полностью."
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
       "label": "Частые ошибки: Be going to",
       "intro": {
         "text": "Четыре самые частые ошибки с be going to.",
         "highlights": [
-          { "text": "Четыре самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Четыре самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -115,10 +394,22 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I going to travel.",              "right": "I am going to travel." },
-            { "wrong": "He going to study.",                "right": "He is going to study." },
-            { "wrong": "I am going to travel yesterday.",  "right": "I was going to travel yesterday." },
-            { "wrong": "I will going to call.",              "right": "I am going to call." }
+            {
+              "wrong": "I going to travel.",
+              "right": "I am going to travel. (без am нельзя)"
+            },
+            {
+              "wrong": "He going to study.",
+              "right": "He is going to study. (he → is)"
+            },
+            {
+              "wrong": "I am going to travel yesterday.",
+              "right": "I was going to travel yesterday. (о прошлом — was)"
+            },
+            {
+              "wrong": "I will going to call.",
+              "right": "I am going to call. (will и going to вместе не ставят)"
+            }
           ]
         },
         {

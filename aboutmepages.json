@@ -3,14 +3,19 @@
   "route": "cards_aboutme",
   "slides": [
     {
-      "label": "Основное",
+      "label": "Кто я: имя, откуда, чем занимаюсь",
       "intro": {
-        "text": "Рассказ о себе строится по простой схеме: имя, откуда ты, чем занимаешься, что любишь.",
+        "text": "Рассказ о себе идёт по простой схеме: имя → откуда ты → чем занимаешься → семья. Почти везде нужен глагол: I'm (= I am) — «я есть», даже если по-русски его нет.",
         "highlights": [
           {
             "text": "по простой схеме",
             "color": "term",
             "style": "bold"
+          },
+          {
+            "text": "I'm (= I am)",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -68,17 +73,81 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Почему I'm, а не I have",
+          "preview": "возраст, профессия, семейное положение",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "По-русски",
+                "По-английски",
+                "Почему"
+              ],
+              "headerColors": [
+                "muted",
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Мне 25 лет.",
+                    "I'm 25.",
+                    "возраст — через be, не have"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Я студент.",
+                    "I'm a student.",
+                    "профессия — с a"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Я замужем.",
+                    "I'm married.",
+                    "состояние — через be"
+                  ]
+                },
+                {
+                  "cells": [
+                    "У меня есть сестра.",
+                    "I've got a sister.",
+                    "а вот «у меня есть» — have got"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Интересы",
+      "label": "Интересы: like, love, be into",
       "intro": {
-        "text": "Об увлечениях говорят через like, love и разговорное be into.",
+        "text": "Об увлечениях говорят через like и love (люблю), а в разговоре часто be into — «увлекаюсь». После них занятие — с -ing: I like reading.",
         "highlights": [
+          {
+            "text": "like и love",
+            "color": "info",
+            "style": "bold"
+          },
           {
             "text": "be into",
             "color": "term",
             "style": "bold"
+          },
+          {
+            "text": "с -ing",
+            "color": "example",
+            "style": "bold_underline"
           }
         ]
       },
@@ -130,16 +199,50 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I love cooking for my friends.",
+                "ru": "Обожаю готовить для друзей."
+              },
+              {
+                "en": "I'm really into football.",
+                "ru": "Я очень увлекаюсь футболом."
+              },
+              {
+                "en": "I'm a big fan of old films.",
+                "ru": "Я большой фанат старых фильмов."
+              },
+              {
+                "en": "One day I'd love to visit Japan.",
+                "ru": "Когда-нибудь хочу побывать в Японии."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Пример",
+      "label": "Готовый рассказ из пяти фраз",
       "intro": {
-        "text": "Пять фраз — и рассказ готов.",
+        "text": "Пять фраз по схеме — и рассказ готов. Возьми за образец и поменяй на своё.",
         "highlights": [
           {
             "text": "Пять фраз",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "поменяй на своё",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -188,23 +291,23 @@
           "errors": [
             {
               "wrong": "I have 25 years.",
-              "right": "I'm 25."
+              "right": "I'm 25. (возраст — через be)"
             },
             {
               "wrong": "I am student.",
-              "right": "I'm a student."
+              "right": "I'm a student. (профессия — с a)"
             },
             {
               "wrong": "I am work as a designer.",
-              "right": "I work as a designer."
+              "right": "I work as a designer. (am с действием не нужен)"
             },
             {
               "wrong": "I like very much music.",
-              "right": "I like music very much."
+              "right": "I like music very much. (very much — в конце)"
             },
             {
               "wrong": "I live in Moscow since 2020.",
-              "right": "I've lived in Moscow since 2020."
+              "right": "I've lived in Moscow since 2020. (since — с have lived)"
             }
           ]
         }

@@ -3,13 +3,18 @@
   "route": "cards_city",
   "slides": [
     {
-      "label": "Места",
+      "label": "Места в городе",
       "intro": {
-        "text": "Места в городе. Многие названия в Британии и США разные.",
+        "text": "Главные места в городе. Часть слов в Британии и США разные: cinema и movie theater, pavement и sidewalk — понимают оба варианта.",
         "highlights": [
           {
-            "text": "Места в городе",
+            "text": "Главные места",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "в Британии и США разные",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -98,16 +103,50 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Is there a pharmacy near here?",
+                "ru": "Здесь рядом есть аптека?"
+              },
+              {
+                "en": "Cross the road at the traffic lights.",
+                "ru": "Переходи дорогу на светофоре."
+              },
+              {
+                "en": "The post office is closed on Sundays.",
+                "ru": "По воскресеньям почта закрыта."
+              },
+              {
+                "en": "Let's meet at the shopping centre.",
+                "ru": "Давай встретимся в торговом центре."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Где что",
+      "label": "Где что: next to, opposite…",
       "intro": {
-        "text": "Чтобы объяснить, где что находится, нужны предлоги места.",
+        "text": "Чтобы объяснить, где что находится, нужны предлоги места. Многие из них по-русски — два слова, а по-английски одно: opposite — «напротив», между ним и словом ничего не ставят.",
         "highlights": [
           {
             "text": "предлоги места",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "opposite",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -151,15 +190,43 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "in, on или at",
+          "preview": "внутри, на поверхности, в точке",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "rules": [
+              {
+                "name": "in",
+                "suffix": "внутри, в районе, в городе",
+                "example": "in the park, in the city centre, in London"
+              },
+              {
+                "name": "on",
+                "suffix": "на улице, на углу",
+                "example": "on Green Street, on the corner"
+              },
+              {
+                "name": "at",
+                "suffix": "в точке, у места",
+                "example": "at the bus stop, at the end of the street, at 10 Green Street"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "О городе",
+      "label": "Какой город: busy, quiet…",
       "intro": {
-        "text": "Слова, чтобы описать город или район.",
+        "text": "Слова, чтобы описать город или район: шумный или тихий, старый или современный, чистый или нет.",
         "highlights": [
           {
-            "text": "описать город",
+            "text": "описать город или район",
             "color": "term",
             "style": "bold"
           }
@@ -225,17 +292,51 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Our neighbourhood is quiet and green.", "ru": "Наш район тихий и зелёный."}, {"en": "The centre is always busy and crowded.", "ru": "В центре всегда оживлённо и многолюдно."}, {"en": "It is a historic city with lots of old buildings.", "ru": "Это исторический город с множеством старых зданий."}, {"en": "We moved to the suburbs because the air is cleaner.", "ru": "Мы переехали в пригород, потому что там воздух чище."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Our neighbourhood is quiet and green.",
+                "ru": "Наш район тихий и зелёный."
+              },
+              {
+                "en": "The centre is always busy and crowded.",
+                "ru": "В центре всегда оживлённо и многолюдно."
+              },
+              {
+                "en": "It is a historic city with lots of old buildings.",
+                "ru": "Это исторический город с множеством старых зданий."
+              },
+              {
+                "en": "We moved to the suburbs because the air is cleaner.",
+                "ru": "Мы переехали в пригород, потому что там воздух чище."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "label": "Примеры: город и места",
       "intro": {
-        "text": "Слова темы в живых предложениях — прочитай вслух.",
+        "text": "Слова темы в живых предложениях. Прочитай вслух и обрати внимание на предлоги.",
         "highlights": [
           {
             "text": "в живых предложениях",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "на предлоги",
+            "color": "info",
+            "style": "bold"
           }
         ]
       },
@@ -344,23 +445,23 @@
           "errors": [
             {
               "wrong": "I live in centre.",
-              "right": "I live in the city centre."
+              "right": "I live in the city centre. (centre — с the)"
             },
             {
               "wrong": "near of the bank",
-              "right": "near the bank"
+              "right": "near the bank (после near — без of)"
             },
             {
               "wrong": "opposite to the park",
-              "right": "opposite the park"
+              "right": "opposite the park (после opposite — без to)"
             },
             {
               "wrong": "Where is here a bank?",
-              "right": "Is there a bank near here?"
+              "right": "Is there a bank near here? (есть ли — Is there)"
             },
             {
               "wrong": "a light-signal",
-              "right": "traffic lights"
+              "right": "traffic lights (светофор — всегда lights)"
             }
           ]
         }

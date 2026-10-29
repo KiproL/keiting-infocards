@@ -3,13 +3,18 @@
   "route": "cards_clothes",
   "slides": [
     {
-      "label": "Одежда",
+      "label": "Одежда: основные слова",
       "intro": {
-        "text": "Брюки, джинсы, шорты и пижама — всегда во множественном числе: my jeans are…",
+        "text": "Основные слова об одежде. Брюки, джинсы, шорты и пижама в английском всегда во множественном числе: my jeans are new. Если нужна одна вещь — a pair of: a pair of jeans.",
         "highlights": [
           {
             "text": "всегда во множественном числе",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "a pair of",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -92,16 +97,199 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Британский и американский",
+          "preview": "одна вещь — два слова",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Что это",
+                "В Британии",
+                "В США"
+              ],
+              "headerColors": [
+                "muted",
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "брюки",
+                    "trousers",
+                    "pants"
+                  ]
+                },
+                {
+                  "cells": [
+                    "свитер",
+                    "jumper",
+                    "sweater"
+                  ]
+                },
+                {
+                  "cells": [
+                    "кроссовки",
+                    "trainers",
+                    "sneakers"
+                  ]
+                },
+                {
+                  "cells": [
+                    "трусы",
+                    "pants",
+                    "underwear"
+                  ]
+                },
+                {
+                  "cells": [
+                    "жилет",
+                    "waistcoat",
+                    "vest"
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "warning",
+              "title": "Осторожно с pants",
+              "text": "В Британии pants — это трусы. Скажешь в Лондоне «nice pants» про брюки — тебя поймут не так."
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "Ещё примеры",
+          "preview": "8 примеров в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My jeans are too long.",
+                "ru": "Мои джинсы слишком длинные. (jeans — are)"
+              },
+              {
+                "en": "I bought a pair of shorts.",
+                "ru": "Я купил шорты. (одна вещь — a pair of)"
+              },
+              {
+                "en": "She's got a new dress for the party.",
+                "ru": "У неё новое платье для вечеринки."
+              },
+              {
+                "en": "Where are my socks?",
+                "ru": "Где мои носки?"
+              },
+              {
+                "en": "My jeans are too long.",
+                "ru": "Мои джинсы слишком длинные. (jeans — are)"
+              },
+              {
+                "en": "I bought a pair of shorts.",
+                "ru": "Я купил шорты. (одна вещь — a pair of)"
+              },
+              {
+                "en": "She's got a new dress for the party.",
+                "ru": "У неё новое платье для вечеринки."
+              },
+              {
+                "en": "Where are my socks?",
+                "ru": "Где мои носки?"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Британский и американский",
+          "preview": "одна вещь — два слова",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Что это",
+                "В Британии",
+                "В США"
+              ],
+              "headerColors": [
+                "muted",
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "брюки",
+                    "trousers",
+                    "pants"
+                  ]
+                },
+                {
+                  "cells": [
+                    "свитер",
+                    "jumper",
+                    "sweater"
+                  ]
+                },
+                {
+                  "cells": [
+                    "кроссовки",
+                    "trainers",
+                    "sneakers"
+                  ]
+                },
+                {
+                  "cells": [
+                    "трусы",
+                    "pants",
+                    "underwear"
+                  ]
+                },
+                {
+                  "cells": [
+                    "жилет",
+                    "waistcoat",
+                    "vest"
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "warning",
+              "title": "Осторожно с pants",
+              "text": "В Британии pants — это трусы. Скажешь в Лондоне «nice pants» про брюки — тебя поймут не так."
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
       "label": "Обувь и аксессуары",
       "intro": {
-        "text": "Обувь и то, что носят вместе с одеждой.",
+        "text": "Обувь и вещи, которые носят вместе с одеждой. Обувь, как и брюки, обычно во множественном числе: shoes, boots — это пара. Glasses (очки) — тоже всегда are.",
         "highlights": [
           {
             "text": "Обувь",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "во множественном числе",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "всегда are",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -172,12 +360,41 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Take your gloves — it is cold outside.", "ru": "Возьми перчатки — на улице холодно."}, {"en": "I need new trainers for running.", "ru": "Мне нужны новые кроссовки для бега."}, {"en": "He always wears a cap in summer.", "ru": "Летом он всегда носит кепку."}, {"en": "Where are my glasses? I can't read without them.", "ru": "Где мои очки? Без них я не могу читать."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Take your gloves — it is cold outside.",
+                "ru": "Возьми перчатки — на улице холодно."
+              },
+              {
+                "en": "I need new trainers for running.",
+                "ru": "Мне нужны новые кроссовки для бега."
+              },
+              {
+                "en": "He always wears a cap in summer.",
+                "ru": "Летом он всегда носит кепку."
+              },
+              {
+                "en": "Where are my glasses? I can't read without them.",
+                "ru": "Где мои очки? Без них я не могу читать."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Глаголы",
+      "label": "Глаголы: put on, wear, fit, suit",
       "intro": {
-        "text": "Put on — надеть (действие), wear — быть одетым (состояние): Put on your coat. She's wearing a red coat.",
+        "text": "Put on — надеть (одно действие), wear — быть в чём-то, носить (состояние). Fit — подходит по размеру, suit — идёт, к лицу.",
         "highlights": [
           {
             "text": "Put on",
@@ -187,6 +404,16 @@
           {
             "text": "wear",
             "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Fit",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "suit",
+            "color": "good",
             "style": "bold"
           }
         ]
@@ -257,10 +484,133 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "5 примеров в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Put on your coat — we are leaving.", "ru": "Надень пальто — мы выходим. (действие — put on)"}, {"en": "She is wearing a black dress today.", "ru": "Сегодня она в чёрном платье. (состояние — wear)"}, {"en": "Can I try on these jeans?", "ru": "Можно примерить эти джинсы?"}, {"en": "This jacket doesn't fit me — it is too small.", "ru": "Эта куртка мне не подходит — она слишком маленькая."}, {"en": "Red really suits you.", "ru": "Красный тебе очень идёт."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "5 примеров в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Put on your coat — we are leaving.",
+                "ru": "Надень пальто — мы выходим. (действие — put on)"
+              },
+              {
+                "en": "She is wearing a black dress today.",
+                "ru": "Сегодня она в чёрном платье. (состояние — wear)"
+              },
+              {
+                "en": "Can I try on these jeans?",
+                "ru": "Можно примерить эти джинсы?"
+              },
+              {
+                "en": "This jacket doesn't fit me — it is too small.",
+                "ru": "Эта куртка мне не подходит — она слишком маленькая."
+              },
+              {
+                "en": "Red really suits you.",
+                "ru": "Красный тебе очень идёт."
+              }
+            ]
+          }
+        },
+        {
+          "label": "fit, suit или go with",
+          "preview": "три разных «подходит»",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Что значит",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "fit",
+                    "по размеру",
+                    "These shoes fit me perfectly."
+                  ]
+                },
+                {
+                  "cells": [
+                    "suit",
+                    "к лицу, идёт",
+                    "Blue suits you."
+                  ]
+                },
+                {
+                  "cells": [
+                    "go with",
+                    "сочетается с другой вещью",
+                    "This bag goes with my coat."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "fit, suit или go with",
+          "preview": "три разных «подходит»",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Что значит",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "fit",
+                    "по размеру",
+                    "These shoes fit me perfectly."
+                  ]
+                },
+                {
+                  "cells": [
+                    "suit",
+                    "к лицу, идёт",
+                    "Blue suits you."
+                  ]
+                },
+                {
+                  "cells": [
+                    "go with",
+                    "сочетается с другой вещью",
+                    "This bag goes with my coat."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "Примеры: одежда",
+      "label": "Одежда в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -310,10 +660,130 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Какая одежда: описание",
+          "preview": "tight, loose, comfortable…",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Перевод",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "tight / loose",
+                    "тесный / свободный",
+                    "These jeans are too tight."
+                  ]
+                },
+                {
+                  "cells": [
+                    "comfortable",
+                    "удобный",
+                    "I wear comfortable shoes for walking."
+                  ]
+                },
+                {
+                  "cells": [
+                    "warm / light",
+                    "тёплый / лёгкий",
+                    "Take a warm coat."
+                  ]
+                },
+                {
+                  "cells": [
+                    "smart / casual",
+                    "нарядный / повседневный",
+                    "It's a casual party."
+                  ]
+                },
+                {
+                  "cells": [
+                    "striped / plain",
+                    "в полоску / однотонный",
+                    "a striped T-shirt"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "Какая одежда: описание",
+          "preview": "tight, loose, comfortable…",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Перевод",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "tight / loose",
+                    "тесный / свободный",
+                    "These jeans are too tight."
+                  ]
+                },
+                {
+                  "cells": [
+                    "comfortable",
+                    "удобный",
+                    "I wear comfortable shoes for walking."
+                  ]
+                },
+                {
+                  "cells": [
+                    "warm / light",
+                    "тёплый / лёгкий",
+                    "Take a warm coat."
+                  ]
+                },
+                {
+                  "cells": [
+                    "smart / casual",
+                    "нарядный / повседневный",
+                    "It's a casual party."
+                  ]
+                },
+                {
+                  "cells": [
+                    "striped / plain",
+                    "в полоску / однотонный",
+                    "a striped T-shirt"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Диалог: одежда",
+      "label": "Диалог: в магазине одежды",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -355,17 +825,94 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Полезные фразы в магазине",
+          "preview": "размер, примерочная, другой цвет",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "What size are you?",
+                "ru": "Какой у вас размер?"
+              },
+              {
+                "en": "Where are the changing rooms?",
+                "ru": "Где примерочные?"
+              },
+              {
+                "en": "It's too big. Do you have a smaller one?",
+                "ru": "Великовато. Есть поменьше?"
+              },
+              {
+                "en": "Do you have it in black?",
+                "ru": "А есть такое в чёрном?"
+              },
+              {
+                "en": "I'll take it.",
+                "ru": "Беру."
+              },
+              {
+                "en": "I'm just looking, thanks.",
+                "ru": "Я просто смотрю, спасибо."
+              }
+            ],
+            "title": ""
+          }
+        },
+        {
+          "label": "Полезные фразы в магазине",
+          "preview": "размер, примерочная, другой цвет",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "What size are you?",
+                "ru": "Какой у вас размер?"
+              },
+              {
+                "en": "Where are the changing rooms?",
+                "ru": "Где примерочные?"
+              },
+              {
+                "en": "It's too big. Do you have a smaller one?",
+                "ru": "Великовато. Есть поменьше?"
+              },
+              {
+                "en": "Do you have it in black?",
+                "ru": "А есть такое в чёрном?"
+              },
+              {
+                "en": "I'll take it.",
+                "ru": "Беру."
+              },
+              {
+                "en": "I'm just looking, thanks.",
+                "ru": "Я просто смотрю, спасибо."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Одежда",
+      "label": "Частые ошибки: put on, wear, fit",
       "intro": {
-        "text": "Самые частые ошибки в словах об одежде.",
+        "text": "Чаще всего путают put on и wear, fit и suit — и забывают, что брюки во множественном числе.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "put on и wear",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "fit и suit",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -376,23 +923,27 @@
           "errors": [
             {
               "wrong": "I'm dressing my coat.",
-              "right": "I'm putting on my coat."
+              "right": "I'm putting on my coat. (надеваю — put on)"
             },
             {
               "wrong": "Wear your jacket! (надень)",
-              "right": "Put on your jacket!"
+              "right": "Put on your jacket! (надеть — действие)"
             },
             {
               "wrong": "This dress goes you.",
-              "right": "This dress suits you."
+              "right": "This dress suits you. (к лицу — suit)"
             },
             {
               "wrong": "The shoes don't suit me — too small.",
-              "right": "The shoes don't fit me."
+              "right": "The shoes don't fit me. (по размеру — fit)"
             },
             {
               "wrong": "a trouser",
-              "right": "trousers / a pair of trousers"
+              "right": "trousers / a pair of trousers (всегда мн. число)"
+            },
+            {
+              "wrong": "My jeans is new.",
+              "right": "My jeans are new. (jeans — are)"
             }
           ]
         }

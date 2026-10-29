@@ -3,9 +3,9 @@
   "route": "cards_alphabet",
   "slides": [
     {
-      "label": "Буквы",
+      "label": "Как называются буквы",
       "intro": {
-        "text": "В английском 26 букв. Их названия нужны, чтобы продиктовать имя, e-mail или номер брони — без этого не обойтись ни в отеле, ни по телефону.",
+        "text": "В английском 26 букв. Их названия нужны, чтобы продиктовать по буквам имя, e-mail или номер брони — в отеле, по телефону, в банке. Звучат они не так, как в русском алфавите.",
         "highlights": [
           {
             "text": "26 букв",
@@ -13,8 +13,13 @@
             "style": "bold"
           },
           {
-            "text": "продиктовать",
+            "text": "продиктовать по буквам",
             "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "не так, как в русском",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -221,12 +226,78 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Буквы по звучанию",
+          "preview": "запоминать проще группами",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Звук в названии",
+                "Буквы"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "[eɪ] «эй»",
+                    "A, H, J, K"
+                  ]
+                },
+                {
+                  "cells": [
+                    "[iː] «и»",
+                    "B, C, D, E, G, P, T, V"
+                  ]
+                },
+                {
+                  "cells": [
+                    "[e] «э»",
+                    "F, L, M, N, S, X, Z"
+                  ]
+                },
+                {
+                  "cells": [
+                    "[aɪ] «ай»",
+                    "I, Y"
+                  ]
+                },
+                {
+                  "cells": [
+                    "[uː] «ю»",
+                    "Q, U, W"
+                  ]
+                },
+                {
+                  "cells": [
+                    "[əʊ] «оу»",
+                    "O"
+                  ]
+                },
+                {
+                  "cells": [
+                    "[ɑː] «а»",
+                    "R"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Что путают",
+      "label": "Пары-ловушки: E и I, G и J",
       "intro": {
-        "text": "Чаще всего путают буквы, которые по-русски называют иначе: E и I, G и J, A и R.",
+        "text": "Чаще всего путают буквы, которые в русском алфавите называются иначе: E и I, G и J, A и R. Английская E звучит как русская «и», а I — как «ай».",
         "highlights": [
           {
             "text": "E и I",
@@ -296,9 +367,9 @@
       ]
     },
     {
-      "label": "Диктовка",
+      "label": "Диктуем e-mail и номер",
       "intro": {
-        "text": "По буквам диктуют медленно, а знаки e-mail называют словами: @ — at, точка — dot.",
+        "text": "По буквам диктуют медленно, группами по 3–4. Знаки e-mail называют словами: @ — at, точка — dot. Две одинаковые буквы или цифры — double: double L, double five.",
         "highlights": [
           {
             "text": "at",
@@ -308,6 +379,11 @@
           {
             "text": "dot",
             "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "double",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -392,6 +468,35 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My surname is Ivanov — I-V-A-N-O-V.",
+                "ru": "Моя фамилия Иванов — по буквам I-V-A-N-O-V."
+              },
+              {
+                "en": "That's double S, not one.",
+                "ru": "Там две S, а не одна."
+              },
+              {
+                "en": "My number is oh-seven-nine, double three…",
+                "ru": "Мой номер: 0-7-9, 3-3…"
+              },
+              {
+                "en": "Is that B for Bravo or D for Delta?",
+                "ru": "Это B как Bravo или D как Delta?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
@@ -413,11 +518,11 @@
           "errors": [
             {
               "wrong": "H — «аш»",
-              "right": "H — [eɪtʃ]"
+              "right": "H — [eɪtʃ] «эйч»"
             },
             {
               "wrong": "Y — «игрек»",
-              "right": "Y — [waɪ]"
+              "right": "Y — [waɪ] «уай»"
             },
             {
               "wrong": "@ — «собака»",
@@ -425,11 +530,11 @@
             },
             {
               "wrong": "I — «и»",
-              "right": "I — [aɪ]"
+              "right": "I — [aɪ] «ай»"
             },
             {
               "wrong": "E — «е»",
-              "right": "E — [iː]"
+              "right": "E — [iː] «и»"
             }
           ]
         }
