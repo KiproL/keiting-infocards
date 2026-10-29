@@ -3,7 +3,7 @@
   "route": "cards_pharmacy",
   "slides": [
     {
-      "label": "Попросить",
+      "label": "Попросить лекарство: something for a cold",
       "intro": {
         "text": "Аптека — pharmacy, в Великобритании ещё chemist's, в США — drugstore. Просят лекарство «от чего-то» через for.",
         "highlights": [
@@ -73,10 +73,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Have you got anything for a sore throat?",
+                "ru": "У вас есть что-нибудь от боли в горле?"
+              },
+              {
+                "en": "What do you recommend for a cough?",
+                "ru": "Что посоветуете от кашля?"
+              },
+              {
+                "en": "Can I take it with other medicine?",
+                "ru": "Можно принимать с другими лекарствами?"
+              },
+              {
+                "en": "Is this one cheaper?",
+                "ru": "А вот это дешевле?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Слова: аптека",
+      "label": "Слова на полках: painkillers, drops",
       "intro": {
         "text": "Главные слова на полках и в инструкциях.",
         "highlights": [
@@ -165,10 +194,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Have you got anything for a headache?", "ru": "У вас есть что-нибудь от головной боли?"}, {"en": "I'd like some cough syrup, please.", "ru": "Мне, пожалуйста, сироп от кашля."}, {"en": "You need a prescription for these tablets.", "ru": "На эти таблетки нужен рецепт."}, {"en": "Use two drops in each eye.", "ru": "Закапывайте по две капли в каждый глаз."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Have you got anything for a headache?",
+                "ru": "У вас есть что-нибудь от головной боли?"
+              },
+              {
+                "en": "I'd like some cough syrup, please.",
+                "ru": "Мне, пожалуйста, сироп от кашля."
+              },
+              {
+                "en": "You need a prescription for these tablets.",
+                "ru": "На эти таблетки нужен рецепт."
+              },
+              {
+                "en": "Use two drops in each eye.",
+                "ru": "Закапывайте по две капли в каждый глаз."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Инструкция",
+      "label": "Что написано на упаковке",
       "intro": {
         "text": "Фразы, которые пишут на упаковке.",
         "highlights": [
@@ -202,10 +260,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Take with food.", "ru": "Принимать во время еды."}, {"en": "Do not drive after taking this medicine.", "ru": "Не садиться за руль после приёма."}, {"en": "For external use only.", "ru": "Только для наружного применения."}, {"en": "If symptoms continue, consult your doctor.", "ru": "Если симптомы не проходят, обратитесь к врачу."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Take with food.",
+                "ru": "Принимать во время еды."
+              },
+              {
+                "en": "Do not drive after taking this medicine.",
+                "ru": "Не садиться за руль после приёма."
+              },
+              {
+                "en": "For external use only.",
+                "ru": "Только для наружного применения."
+              },
+              {
+                "en": "If symptoms continue, consult your doctor.",
+                "ru": "Если симптомы не проходят, обратитесь к врачу."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Чего не говорить: аптека",
+      "label": "Чего не говорить: recipe, drink a pill",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -223,7 +310,7 @@
           "errors": [
             {
               "wrong": "Give me a medicine from head.",
-              "right": "Have you got something for a headache?"
+              "right": "Have you got something for a headache? (от чего — for, вежливо)"
             },
             {
               "wrong": "I need a recipe.",
@@ -231,11 +318,11 @@
             },
             {
               "wrong": "drink a pill",
-              "right": "take a pill"
+              "right": "take a pill (лекарство — take)"
             },
             {
               "wrong": "a medicament",
-              "right": "medicine"
+              "right": "medicine (так говорят в жизни)"
             }
           ]
         }

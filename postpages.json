@@ -3,10 +3,15 @@
   "route": "cards_post",
   "slides": [
     {
-      "label": "Отправить",
+      "label": "Отправить посылку",
       "intro": {
-        "text": "На почте спрашивают о цене, сроке и о том, можно ли отследить отправление.",
+        "text": "На почте спрашивают о цене, сроке доставки и о том, можно ли отследить отправление (track).",
         "highlights": [
+          {
+            "text": "о цене, сроке доставки",
+            "color": "info",
+            "style": "bold"
+          },
           {
             "text": "отследить",
             "color": "term",
@@ -71,13 +76,18 @@
       ]
     },
     {
-      "label": "Получить",
+      "label": "Получить заказ или пожаловаться",
       "intro": {
-        "text": "Если заказ не пришёл или пришёл не таким — эти фразы.",
+        "text": "Если заказ не пришёл или пришёл не таким — эти фразы. Главное — назвать трек-номер (tracking number).",
         "highlights": [
           {
             "text": "не пришёл",
             "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "tracking number",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -130,10 +140,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My parcel says \"delivered\", but I didn't get it.",
+                "ru": "Посылка «доставлена», но я её не получил."
+              },
+              {
+                "en": "Can I change the delivery address?",
+                "ru": "Можно изменить адрес доставки?"
+              },
+              {
+                "en": "I'd like to return this item.",
+                "ru": "Я хочу вернуть этот товар."
+              },
+              {
+                "en": "When will it be delivered?",
+                "ru": "Когда её доставят?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Слова: почта и доставка",
+      "label": "Слова: parcel, postcode, tracking number",
       "intro": {
         "text": "Британские и американские слова для почты.",
         "highlights": [
@@ -213,7 +252,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: почта и доставка",
+      "label": "Чего не говорить: index, track-number",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -231,19 +270,19 @@
           "errors": [
             {
               "wrong": "index (почтовый)",
-              "right": "postcode / zip code"
+              "right": "postcode / zip code (index — указатель)"
             },
             {
               "wrong": "My order didn't come still.",
-              "right": "My order still hasn't arrived."
+              "right": "My order still hasn't arrived. (still — перед глаголом, Present Perfect)"
             },
             {
               "wrong": "track-number",
-              "right": "tracking number"
+              "right": "tracking number (так называется)"
             },
             {
               "wrong": "Where can I take my parcel? (забрать)",
-              "right": "Where can I pick up my parcel?"
+              "right": "Where can I pick up my parcel? (забрать — pick up)"
             }
           ]
         }

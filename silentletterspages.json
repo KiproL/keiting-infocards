@@ -3,7 +3,7 @@
   "route": "cards_silentletters",
   "slides": [
     {
-      "label": "Какие молчат",
+      "label": "Какие буквы молчат: know, write, climb",
       "intro": {
         "text": "Многие буквы пишутся, но не читаются — это следы старого произношения. Типов немного, и каждый работает почти без исключений.",
         "highlights": [
@@ -118,10 +118,43 @@
             "text": "В конце некоторых слов gh читается как [f]: laugh, enough, cough, tough."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Скажи вслух",
+          "preview": "5 фраз для тренировки",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I know a good knife shop.",
+                "ru": "Я знаю хороший магазин ножей. (k молчит)"
+              },
+              {
+                "en": "Write the wrong answer.",
+                "ru": "Напиши неправильный ответ. (w молчит)"
+              },
+              {
+                "en": "Let's climb that tree.",
+                "ru": "Давай залезем на то дерево. (b молчит)"
+              },
+              {
+                "en": "Listen to the castle bells.",
+                "ru": "Послушай колокола замка. (t молчит)"
+              },
+              {
+                "en": "Walk calmly.",
+                "ru": "Иди спокойно. (l молчит)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Немая h и артикль",
+      "label": "Немая h и артикль: an hour",
       "intro": {
         "text": "Если h в начале не читается, слово начинается с гласного звука — поэтому an hour, an honest man. А в house и hotel h звучит: a house.",
         "highlights": [
@@ -163,7 +196,7 @@
       ]
     },
     {
-      "label": "Немая e",
+      "label": "Немая e: hat и hate",
       "intro": {
         "text": "E в конце слова не читается, но работает: гласная перед согласной звучит «как в алфавите». Сравни: hat — hate, kit — kite, hop — hope.",
         "highlights": [
@@ -230,7 +263,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Немые буквы",
+      "label": "Частые ошибки: читаем все буквы",
       "intro": {
         "text": "Самые частые ошибки с немыми буквами.",
         "highlights": [
@@ -248,27 +281,27 @@
           "errors": [
             {
               "wrong": "know — [knəʊ]",
-              "right": "[nəʊ]"
+              "right": "[nəʊ] (kn- — k молчит)"
             },
             {
               "wrong": "walk — [wɔːlk]",
-              "right": "[wɔːk]"
+              "right": "[wɔːk] (-alk — l молчит)"
             },
             {
               "wrong": "listen — [ˈlɪstən]",
-              "right": "[ˈlɪsn]"
+              "right": "[ˈlɪsn] (-sten — t молчит)"
             },
             {
               "wrong": "climb — [klaɪmb]",
-              "right": "[klaɪm]"
+              "right": "[klaɪm] (-mb — b молчит)"
             },
             {
               "wrong": "Wednesday — [ˈwednesdeɪ]",
-              "right": "[ˈwenzdeɪ]"
+              "right": "[ˈwenzdeɪ] (d и e не читаются)"
             },
             {
               "wrong": "a hour",
-              "right": "an hour"
+              "right": "an hour (h молчит, слово начинается с гласного)"
             }
           ]
         }

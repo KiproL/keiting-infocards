@@ -3,7 +3,7 @@
   "route": "cards_textabbreviations",
   "slides": [
     {
-      "label": "Самые частые",
+      "label": "Самые частые: thx, btw, idk",
       "intro": {
         "text": "В чатах слова сокращают до букв. Знать их нужно, чтобы понимать собеседника, а писать — только в неформальной переписке.",
         "highlights": [
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "label": "Как говорят",
+      "label": "Как слышится: gonna, wanna, gotta",
       "intro": {
         "text": "В переписке и песнях часто пишут так, как произносят.",
         "highlights": [
@@ -224,10 +224,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'm gonna be late, sorry!", "ru": "Опоздаю, извини! (gonna = going to)"}, {"en": "Wanna grab a coffee?", "ru": "Хочешь сходить за кофе? (wanna = want to)"}, {"en": "I gotta go, see ya!", "ru": "Мне пора, пока! (gotta = have got to)"}, {"en": "Dunno, maybe tomorrow.", "ru": "Не знаю, может, завтра. (dunno = don't know)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm gonna be late, sorry!",
+                "ru": "Опоздаю, извини! (gonna = going to)"
+              },
+              {
+                "en": "Wanna grab a coffee?",
+                "ru": "Хочешь сходить за кофе? (wanna = want to)"
+              },
+              {
+                "en": "I gotta go, see ya!",
+                "ru": "Мне пора, пока! (gotta = have got to)"
+              },
+              {
+                "en": "Dunno, maybe tomorrow.",
+                "ru": "Не знаю, может, завтра. (dunno = don't know)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Где можно",
+      "label": "Где можно, а где нельзя",
       "intro": {
         "text": "Сокращения — для друзей. В рабочем письме они выглядят небрежно; исключение — asap, fyi и btw в быстрой переписке с коллегами.",
         "highlights": [
@@ -280,10 +309,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "btw, the party is at 8 :)", "ru": "кстати, вечеринка в 8 :) (другу — можно)"}, {"en": "FYI, the meeting moved to Tuesday.", "ru": "К сведению: встреча перенесена на вторник. (коллеге в чате — можно)"}, {"en": "Please send the report as soon as possible.", "ru": "Пришлите, пожалуйста, отчёт как можно скорее. (клиенту — полностью)"}, {"en": "Thank you for your reply.", "ru": "Спасибо за ответ. (в официальном письме — без сокращений)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "btw, the party is at 8 :)",
+                "ru": "кстати, вечеринка в 8 :) (другу — можно)"
+              },
+              {
+                "en": "FYI, the meeting moved to Tuesday.",
+                "ru": "К сведению: встреча перенесена на вторник. (коллеге в чате — можно)"
+              },
+              {
+                "en": "Please send the report as soon as possible.",
+                "ru": "Пришлите, пожалуйста, отчёт как можно скорее. (клиенту — полностью)"
+              },
+              {
+                "en": "Thank you for your reply.",
+                "ru": "Спасибо за ответ. (в официальном письме — без сокращений)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Сокращения в переписке",
+      "label": "Частые ошибки: thx в письме, I gonna",
       "intro": {
         "text": "Самые частые ошибки с сокращениями.",
         "highlights": [
@@ -301,19 +359,19 @@
           "errors": [
             {
               "wrong": "Thx 4 ur reply. (письмо в компанию)",
-              "right": "Thank you for your reply."
+              "right": "Thank you for your reply. (официально — полностью)"
             },
             {
               "wrong": "I gonna go.",
-              "right": "I'm gonna go. / I'm going to go."
+              "right": "I'm gonna go. / I'm going to go. (gonna = going to, нужен am)"
             },
             {
               "wrong": "I wanna you to come.",
-              "right": "I want you to come."
+              "right": "I want you to come. (wanna — только want to)"
             },
             {
               "wrong": "lol (в ответ на грустную новость)",
-              "right": "Oh no, I'm so sorry!"
+              "right": "Oh no, I'm so sorry! (lol — смех)"
             }
           ]
         }

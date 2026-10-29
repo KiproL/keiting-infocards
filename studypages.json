@@ -3,7 +3,7 @@
   "route": "cards_study",
   "slides": [
     {
-      "label": "Слова: учёба",
+      "label": "Учёба: subject, mark, timetable",
       "intro": {
         "text": "Слова о школе и университете. Оценка — mark в Британии и grade в США.",
         "highlights": [
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "label": "Глаголы",
+      "label": "Глаголы: take или pass, study или learn",
       "intro": {
         "text": "Сдать экзамен — pass, а take — просто сдавать, без результата: I took the exam, but I didn't pass.",
         "highlights": [
@@ -194,10 +194,57 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Study или learn",
+          "preview": "учиться или выучить",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Смысл",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "study",
+                    "учиться, заниматься (процесс)",
+                    "I study law at university."
+                  ]
+                },
+                {
+                  "cells": [
+                    "learn",
+                    "выучить, научиться (результат)",
+                    "I learnt 20 new words today."
+                  ]
+                },
+                {
+                  "cells": [
+                    "learn to",
+                    "научиться делать",
+                    "She's learning to drive."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "На занятии",
+      "label": "На занятии: Can I ask a question?",
       "intro": {
         "text": "Фразы, которые нужны на любом уроке.",
         "highlights": [
@@ -242,7 +289,7 @@
       ]
     },
     {
-      "label": "Примеры: учёба",
+      "label": "Учёба в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -295,7 +342,7 @@
       ]
     },
     {
-      "label": "Диалог: учёба",
+      "label": "Диалог: готовимся к экзамену",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -336,7 +383,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Учёба",
+      "label": "Частые ошибки: passed вместо took, finished university",
       "intro": {
         "text": "Самые частые ошибки в словах об учёбе.",
         "highlights": [
@@ -354,23 +401,23 @@
           "errors": [
             {
               "wrong": "I passed the exam. (сдавал, но не сдал)",
-              "right": "I took the exam."
+              "right": "I took the exam. (pass — сдать успешно)"
             },
             {
               "wrong": "I learn at university.",
-              "right": "I study at university."
+              "right": "I study at university. (учусь — study)"
             },
             {
               "wrong": "I finished the university in 2020.",
-              "right": "I graduated from university in 2020."
+              "right": "I graduated from university in 2020. (окончить вуз — graduate)"
             },
             {
               "wrong": "I made my homework.",
-              "right": "I did my homework."
+              "right": "I did my homework. (домашку — do)"
             },
             {
               "wrong": "I got a five.",
-              "right": "I got an A. / I got top marks."
+              "right": "I got an A. / I got top marks. (оценки — буквами)"
             }
           ]
         }

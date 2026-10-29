@@ -3,7 +3,7 @@
   "route": "cards_requests",
   "slides": [
     {
-      "label": "Как просить вежливо",
+      "label": "Как просить вежливо: Can you, Could you",
       "intro": {
         "text": "В английском прямая команда — Give me, Help me — звучит грубо даже с please. Просьбу смягчают вопросом и модальным глаголом: чем длиннее, тем вежливее.",
         "highlights": [
@@ -72,10 +72,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Can you pass me the salt?",
+                "ru": "Передашь соль? (друзьям)"
+              },
+              {
+                "en": "Could you send me the file, please?",
+                "ru": "Можешь прислать мне файл? (универсально)"
+              },
+              {
+                "en": "Would you mind closing the window?",
+                "ru": "Не закроете окно? (очень вежливо)"
+              },
+              {
+                "en": "I was wondering if you could give me a lift.",
+                "ru": "Не могли бы вы меня подвезти? (большая просьба)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Would you mind",
+      "label": "Would you mind + -ing",
       "intro": {
         "text": "После would you mind — глагол с -ing. Mind значит «возражать», поэтому согласие звучит как отрицание: No, not at all — «нет, не возражаю», то есть «да, конечно».",
         "highlights": [
@@ -115,10 +144,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Would you mind waiting a moment?", "ru": "Вы не могли бы немного подождать?"}, {"en": "Would you mind closing the door? — Not at all.", "ru": "Не закроешь дверь? — Конечно. (not at all = да, пожалуйста)"}, {"en": "Do you mind if I open the window? — Go ahead.", "ru": "Ничего, если я открою окно? — Открывай."}, {"en": "Would you mind not talking during the film?", "ru": "Не могли бы вы не разговаривать во время фильма?"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Would you mind waiting a moment?",
+                "ru": "Вы не могли бы немного подождать?"
+              },
+              {
+                "en": "Would you mind closing the door? — Not at all.",
+                "ru": "Не закроешь дверь? — Конечно. (not at all = да, пожалуйста)"
+              },
+              {
+                "en": "Do you mind if I open the window? — Go ahead.",
+                "ru": "Ничего, если я открою окно? — Открывай."
+              },
+              {
+                "en": "Would you mind not talking during the film?",
+                "ru": "Не могли бы вы не разговаривать во время фильма?"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Разрешение и ответы",
+      "label": "Попросить разрешения и ответить",
       "intro": {
         "text": "Спросить разрешения — Can I, Could I, May I (официальнее всех). Отказывают мягко: I'm afraid… или I'd love to, but…",
         "highlights": [
@@ -219,7 +277,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: вежливые просьбы",
+      "label": "Чего не говорить: Give me, mind to open",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -237,19 +295,19 @@
           "errors": [
             {
               "wrong": "Give me the salt.",
-              "right": "Could you pass the salt, please?"
+              "right": "Could you pass the salt, please? (просьба — вопросом)"
             },
             {
               "wrong": "Would you mind to open the door?",
-              "right": "Would you mind opening the door?"
+              "right": "Would you mind opening the door? (после mind — -ing)"
             },
             {
               "wrong": "Would you mind…? — Yes, of course! (имея в виду «да»)",
-              "right": "No, not at all."
+              "right": "No, not at all. (mind — «возражать»)"
             },
             {
               "wrong": "Can you say me the time?",
-              "right": "Could you tell me the time?"
+              "right": "Could you tell me the time? (кому — tell)"
             }
           ]
         }

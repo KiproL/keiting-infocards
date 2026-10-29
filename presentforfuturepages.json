@@ -3,14 +3,14 @@
   "route": "cards_presentforfuture",
   "slides": [
     {
-      "label": "Будущее настоящим временем",
+      "label": "Будущее настоящим: договорились или по расписанию",
       "intro": {
-        "text": "О будущем можно говорить настоящим временем. Present Continuous — про то, о чём уже договорились, Present Simple — про расписание и графики.",
+        "text": "О будущем можно говорить настоящим временем. Present Continuous — то, о чём уже договорились (I'm meeting Tom), Present Simple — расписание и графики (The train leaves at 7).",
         "highlights": [
           {
             "text": "настоящим временем",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "Present Continuous",
@@ -118,10 +118,29 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Как понять, что подходит",
+          "preview": "ежедневник или расписание",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "steps": {
+              "items": [
+                "Это есть в расписании, программе, на табло? → Present Simple",
+                "Ты уже договорился с кем-то о времени и месте? → Present Continuous",
+                "Просто решил или собираешься? → be going to",
+                "Решаешь прямо сейчас или предполагаешь? → will"
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Present for Future",
+      "label": "Частые ошибки: I meet Tom tomorrow, It rains tomorrow",
       "intro": {
         "text": "Самые частые ошибки, когда о будущем говорят настоящим.",
         "highlights": [
@@ -139,19 +158,19 @@
           "errors": [
             {
               "wrong": "I meet Tom tomorrow at six. (договорились)",
-              "right": "I'm meeting Tom tomorrow at six."
+              "right": "I'm meeting Tom tomorrow at six. (договорённость — Continuous)"
             },
             {
               "wrong": "The train is leaving at 7:15 every day.",
-              "right": "The train leaves at 7:15 every day."
+              "right": "The train leaves at 7:15 every day. (расписание — Simple)"
             },
             {
               "wrong": "What do you do tonight?",
-              "right": "What are you doing tonight?"
+              "right": "What are you doing tonight? (планы — Continuous)"
             },
             {
               "wrong": "It rains tomorrow.",
-              "right": "It's going to rain tomorrow. / It will rain tomorrow."
+              "right": "It's going to rain tomorrow. / It will rain tomorrow. (погода — не расписание)"
             }
           ]
         },

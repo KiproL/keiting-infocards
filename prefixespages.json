@@ -3,7 +3,7 @@
   "route": "cards_prefixes",
   "slides": [
     {
-      "label": "Отрицание",
+      "label": "Приставки «не-»: un-, im-, dis-",
       "intro": {
         "text": "Отрицательных приставок несколько, и какая нужна — решает слово. Чаще всего un-, а in- меняется перед буквами: im- перед p, m, b; il- перед l; ir- перед r.",
         "highlights": [
@@ -84,10 +84,96 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It's impossible to finish this today.", "ru": "Закончить это сегодня невозможно."}, {"en": "I disagree with you.", "ru": "Я с тобой не согласен."}, {"en": "Parking here is illegal.", "ru": "Парковаться здесь незаконно."}, {"en": "That was a very unusual day.", "ru": "Это был очень необычный день."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It's impossible to finish this today.",
+                "ru": "Закончить это сегодня невозможно."
+              },
+              {
+                "en": "I disagree with you.",
+                "ru": "Я с тобой не согласен."
+              },
+              {
+                "en": "Parking here is illegal.",
+                "ru": "Парковаться здесь незаконно."
+              },
+              {
+                "en": "That was a very unusual day.",
+                "ru": "Это был очень необычный день."
+              }
+            ]
+          }
+        },
+        {
+          "label": "Как выбрать in-, im-, il-, ir-",
+          "preview": "по первой букве слова",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово начинается на",
+                "Приставка",
+                "Пример"
+              ],
+              "headerColors": [
+                "muted",
+                "term",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "p, m, b",
+                    "im-",
+                    "possible → impossible"
+                  ]
+                },
+                {
+                  "cells": [
+                    "l",
+                    "il-",
+                    "legal → illegal"
+                  ]
+                },
+                {
+                  "cells": [
+                    "r",
+                    "ir-",
+                    "regular → irregular"
+                  ]
+                },
+                {
+                  "cells": [
+                    "другие буквы",
+                    "in-",
+                    "correct → incorrect"
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "info",
+              "title": "А un-?",
+              "text": "Un- — самая частая. Её ставят перед любой буквой: unhappy, unreal, unlucky. Какая приставка нужна — смотри по словарю."
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "Другие значения",
+      "label": "Другие приставки: re-, mis-, over-",
       "intro": {
         "text": "Остальные приставки добавляют свой смысл: re- — снова, mis- — неправильно, over- — слишком. Узнав приставку, понимаешь незнакомое слово.",
         "highlights": [
@@ -198,10 +284,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Please rewrite this paragraph.", "ru": "Пожалуйста, перепишите этот абзац."}, {"en": "I overslept and missed the bus.", "ru": "Я проспал и опоздал на автобус."}, {"en": "Sorry, I misunderstood you.", "ru": "Извини, я тебя неправильно понял."}, {"en": "He's having lunch with his ex-boss.", "ru": "Он обедает со своим бывшим начальником."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Please rewrite this paragraph.",
+                "ru": "Пожалуйста, перепишите этот абзац."
+              },
+              {
+                "en": "I overslept and missed the bus.",
+                "ru": "Я проспал и опоздал на автобус."
+              },
+              {
+                "en": "Sorry, I misunderstood you.",
+                "ru": "Извини, я тебя неправильно понял."
+              },
+              {
+                "en": "He's having lunch with his ex-boss.",
+                "ru": "Он обедает со своим бывшим начальником."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Приставки",
+      "label": "Частые ошибки: unpossible, unhonest",
       "intro": {
         "text": "Самые частые ошибки с приставками.",
         "highlights": [
@@ -219,23 +334,23 @@
           "errors": [
             {
               "wrong": "unpossible",
-              "right": "impossible"
+              "right": "impossible (перед p — im-)"
             },
             {
               "wrong": "unlegal",
-              "right": "illegal"
+              "right": "illegal (перед l — il-)"
             },
             {
               "wrong": "inregular",
-              "right": "irregular"
+              "right": "irregular (перед r — ir-)"
             },
             {
               "wrong": "unhonest",
-              "right": "dishonest"
+              "right": "dishonest (у honest — dis-)"
             },
             {
               "wrong": "inhappy",
-              "right": "unhappy"
+              "right": "unhappy (у happy — un-)"
             },
             {
               "wrong": "rewrite it again",

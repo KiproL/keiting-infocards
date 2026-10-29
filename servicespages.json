@@ -3,13 +3,23 @@
   "route": "cards_services",
   "slides": [
     {
-      "label": "Аренда: слова",
+      "label": "Аренда: rent, deposit, bills",
       "intro": {
-        "text": "Без этих слов не прочитать ни объявление, ни договор.",
+        "text": "Без этих слов не прочитать ни объявление, ни договор. Хозяин — landlord, жилец — tenant, залог — deposit.",
         "highlights": [
           {
             "text": "ни договор",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "landlord",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "tenant",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -101,7 +111,36 @@
             "text": "Русская «двушка» — обычно one-bedroom flat: гостиная плюс одна спальня. Two-bedroom — это уже две спальни и гостиная."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "We're looking for a two-bedroom flat to rent.", "ru": "Мы ищем двухкомнатную квартиру в аренду (две спальни)."}, {"en": "Are bills included in the rent?", "ru": "Коммунальные платежи входят в аренду?"}, {"en": "The tenant must give one month's notice.", "ru": "Жилец должен предупредить за месяц."}, {"en": "The deposit will be returned at the end of the lease.", "ru": "Залог вернут в конце срока аренды."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "We're looking for a two-bedroom flat to rent.",
+                "ru": "Мы ищем двухкомнатную квартиру в аренду (две спальни)."
+              },
+              {
+                "en": "Are bills included in the rent?",
+                "ru": "Коммунальные платежи входят в аренду?"
+              },
+              {
+                "en": "The tenant must give one month's notice.",
+                "ru": "Жилец должен предупредить за месяц."
+              },
+              {
+                "en": "The deposit will be returned at the end of the lease.",
+                "ru": "Залог вернут в конце срока аренды."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "label": "Аренда: вопросы хозяину",
@@ -246,7 +285,7 @@
       ]
     },
     {
-      "label": "Парикмахерская",
+      "label": "Парикмахерская: a trim, not too short",
       "intro": {
         "text": "В парикмахерской помогает конструкция have something done: I'd like to have my hair cut. Проще — I'd like a haircut.",
         "highlights": [
@@ -313,7 +352,7 @@
       ]
     },
     {
-      "label": "Спортзал",
+      "label": "Спортзал: membership, work out",
       "intro": {
         "text": "В спортзале говорят work out — тренироваться, а абонемент — membership.",
         "highlights": [
@@ -386,12 +425,12 @@
       ]
     },
     {
-      "label": "Услуги: слова",
+      "label": "Слова для салона и спортзала",
       "intro": {
-        "text": "Слова, которые пригодятся и там, и там.",
+        "text": "Слова, которые пригодятся и в парикмахерской, и в спортзале.",
         "highlights": [
           {
-            "text": "и там, и там",
+            "text": "и в парикмахерской, и в спортзале",
             "color": "term",
             "style": "bold"
           }
@@ -475,10 +514,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Just a trim, please.", "ru": "Только подровнять, пожалуйста."}, {"en": "Could you cut my fringe a bit shorter?", "ru": "Можно чёлку чуть короче?"}, {"en": "How much is a monthly membership?", "ru": "Сколько стоит абонемент на месяц?"}, {"en": "The lockers are in the changing room.", "ru": "Шкафчики в раздевалке."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Just a trim, please.",
+                "ru": "Только подровнять, пожалуйста."
+              },
+              {
+                "en": "Could you cut my fringe a bit shorter?",
+                "ru": "Можно чёлку чуть короче?"
+              },
+              {
+                "en": "How much is a monthly membership?",
+                "ru": "Сколько стоит абонемент на месяц?"
+              },
+              {
+                "en": "The lockers are in the changing room.",
+                "ru": "Шкафчики в раздевалке."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Почта: отправить",
+      "label": "Почта: отправить посылку",
       "intro": {
         "text": "На почте спрашивают о цене, сроке и о том, можно ли отследить отправление.",
         "highlights": [
@@ -546,7 +614,7 @@
       ]
     },
     {
-      "label": "Почта: получить",
+      "label": "Почта: получить заказ",
       "intro": {
         "text": "Если заказ не пришёл или пришёл не таким — эти фразы.",
         "highlights": [
@@ -688,7 +756,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: аренда, парикмахерская, почта",
+      "label": "Чего не говорить: abonement, two-room flat",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -706,55 +774,55 @@
           "errors": [
             {
               "wrong": "I want to cut my hair. (в салоне)",
-              "right": "I'd like a haircut. / I'd like to have my hair cut."
+              "right": "I'd like a haircut. / I'd like to have my hair cut. (стрижёт мастер)"
             },
             {
               "wrong": "Make me a short haircut.",
-              "right": "Can I have a short haircut, please?"
+              "right": "Can I have a short haircut, please? (без приказа)"
             },
             {
               "wrong": "I want to buy an abonement.",
-              "right": "I'd like a membership."
+              "right": "I'd like a membership. (абонемент — membership)"
             },
             {
               "wrong": "I go to the gym to do sport.",
-              "right": "I go to the gym to work out."
+              "right": "I go to the gym to work out. (в зале — work out)"
             },
             {
               "wrong": "How much costs the flat?",
-              "right": "How much is the rent?"
+              "right": "How much is the rent? (снимаем — rent)"
             },
             {
               "wrong": "Is the flat with furniture?",
-              "right": "Is the flat furnished?"
+              "right": "Is the flat furnished? (с мебелью — furnished)"
             },
             {
               "wrong": "two-room flat (гостиная и спальня)",
-              "right": "one-bedroom flat"
+              "right": "one-bedroom flat (считают спальни)"
             },
             {
               "wrong": "communal payments",
-              "right": "bills, utilities"
+              "right": "bills, utilities (коммуналка)"
             },
             {
               "wrong": "my owner",
-              "right": "my landlord"
+              "right": "my landlord (хозяин жилья)"
             },
             {
               "wrong": "index (почтовый)",
-              "right": "postcode / zip code"
+              "right": "postcode / zip code (индекс)"
             },
             {
               "wrong": "My order didn't come still.",
-              "right": "My order still hasn't arrived."
+              "right": "My order still hasn't arrived. (still — перед глаголом)"
             },
             {
               "wrong": "track-number",
-              "right": "tracking number"
+              "right": "tracking number (так называется)"
             },
             {
               "wrong": "Where can I take my parcel? (забрать)",
-              "right": "Where can I pick up my parcel?"
+              "right": "Where can I pick up my parcel? (забрать — pick up)"
             }
           ]
         }

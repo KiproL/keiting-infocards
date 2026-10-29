@@ -3,7 +3,7 @@
   "route": "cards_transport",
   "slides": [
     {
-      "label": "Автобус и метро",
+      "label": "Автобус и метро: куда идёт, где выходить",
       "intro": {
         "text": "В городском транспорте чаще всего спрашивают, куда идёт автобус, где купить билет и где выходить.",
         "highlights": [
@@ -74,10 +74,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Excuse me, does this bus go to the airport?",
+                "ru": "Простите, этот автобус идёт в аэропорт?"
+              },
+              {
+                "en": "Could you tell me when to get off?",
+                "ru": "Подскажете, где мне выходить?"
+              },
+              {
+                "en": "Is this the right platform for Oxford?",
+                "ru": "Это правильная платформа до Оксфорда?"
+              },
+              {
+                "en": "The next stop is mine.",
+                "ru": "Мне выходить на следующей."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Такси",
+      "label": "Такси: адрес, цена, остановите",
       "intro": {
         "text": "В такси назови адрес, спроси цену и попроси остановить.",
         "highlights": [
@@ -145,7 +174,7 @@
       ]
     },
     {
-      "label": "Слова: такси и транспорт",
+      "label": "Слова: Tube, fare, rush hour",
       "intro": {
         "text": "В британском и американском названия часто разные.",
         "highlights": [
@@ -222,10 +251,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Take the Tube to King's Cross.", "ru": "Поезжай на метро до Кингс-Кросс."}, {"en": "A return ticket to Oxford, please.", "ru": "Билет до Оксфорда туда и обратно, пожалуйста."}, {"en": "Which platform does the train leave from?", "ru": "С какой платформы отходит поезд?"}, {"en": "Avoid the bus at rush hour.", "ru": "В час пик лучше не ездить на автобусе."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Take the Tube to King's Cross.",
+                "ru": "Поезжай на метро до Кингс-Кросс."
+              },
+              {
+                "en": "A return ticket to Oxford, please.",
+                "ru": "Билет до Оксфорда туда и обратно, пожалуйста."
+              },
+              {
+                "en": "Which platform does the train leave from?",
+                "ru": "С какой платформы отходит поезд?"
+              },
+              {
+                "en": "Avoid the bus at rush hour.",
+                "ru": "В час пик лучше не ездить на автобусе."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Чего не говорить: такси и транспорт",
+      "label": "Чего не говорить: go out on the stop, sit in the bus",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -243,23 +301,23 @@
           "errors": [
             {
               "wrong": "Which bus goes to centre?",
-              "right": "Which bus goes to the city centre?"
+              "right": "Which bus goes to the city centre? (с the)"
             },
             {
               "wrong": "I go out on the next stop.",
-              "right": "I'm getting off at the next stop."
+              "right": "I'm getting off at the next stop. (выйти из транспорта — get off at)"
             },
             {
               "wrong": "One ticket there and back.",
-              "right": "A return ticket, please."
+              "right": "A return ticket, please. (туда-обратно — return)"
             },
             {
               "wrong": "Where is metro?",
-              "right": "Where's the underground station?"
+              "right": "Where's the underground station? (метро — underground / subway)"
             },
             {
               "wrong": "Sit in the bus.",
-              "right": "Get on the bus."
+              "right": "Get on the bus. (сесть в автобус — get on)"
             }
           ]
         }

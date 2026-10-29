@@ -3,9 +3,9 @@
   "route": "cards_spelling",
   "slides": [
     {
-      "label": "Удвоение согласной",
+      "label": "Удвоение: stop → stopped",
       "intro": {
-        "text": "Если слово кончается на ударную гласную + одну согласную, перед -ed, -ing, -er согласную удваивают: stop → stopped. Если ударение не на последнем слоге — не удваивают: visit → visited.",
+        "text": "Если слово кончается на ударную гласную + одну согласную, перед -ed, -ing, -er согласную удваивают: stop → stopped. Иначе краткий звук «растянется». Если ударение не на последнем слоге — не удваивают: visit → visited.",
         "highlights": [
           {
             "text": "удваивают",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "label": "Немая e",
+      "label": "Немая e: make → making",
       "intro": {
         "text": "Немую e на конце отбрасывают перед окончанием на гласную: make → making. Перед окончанием на согласную её оставляют: hope → hopeful.",
         "highlights": [
@@ -161,10 +161,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm making dinner.",
+                "ru": "Я готовлю ужин. (make → making)"
+              },
+              {
+                "en": "She's hoping to win.",
+                "ru": "Она надеется победить. (hope → hoping)"
+              },
+              {
+                "en": "This app is really useful.",
+                "ru": "Это приложение очень полезное. (use → useful, e остаётся)"
+              },
+              {
+                "en": "He drives safely.",
+                "ru": "Он водит аккуратно. (safe → safely)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Y → i",
+      "label": "Y → i: study → studied",
       "intro": {
         "text": "После согласной y меняют на i: study → studied, happy → happier. После гласной — не меняют: play → played. Перед -ing y остаётся всегда: studying.",
         "highlights": [
@@ -242,7 +271,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Орфография",
+      "label": "Частые ошибки: stoped, makeing, studyed",
       "intro": {
         "text": "Самые частые ошибки в написании.",
         "highlights": [
@@ -260,27 +289,27 @@
           "errors": [
             {
               "wrong": "stoped",
-              "right": "stopped"
+              "right": "stopped (ударный слог + одна согласная — удваиваем)"
             },
             {
               "wrong": "makeing",
-              "right": "making"
+              "right": "making (немая e уходит перед -ing)"
             },
             {
               "wrong": "studyed",
-              "right": "studied"
+              "right": "studied (согласная + y → ied)"
             },
             {
               "wrong": "happyer",
-              "right": "happier"
+              "right": "happier (согласная + y → ier)"
             },
             {
               "wrong": "plaied",
-              "right": "played"
+              "right": "played (гласная + y — без изменений)"
             },
             {
               "wrong": "beginer",
-              "right": "beginner"
+              "right": "beginner (ударение на -gin — удваиваем)"
             }
           ]
         }

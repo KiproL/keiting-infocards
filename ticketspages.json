@@ -3,7 +3,7 @@
   "route": "cards_tickets",
   "slides": [
     {
-      "label": "Купить билет",
+      "label": "Купить билет: two tickets for",
       "intro": {
         "text": "Билет на что-то — ticket for: two tickets for the 7 o'clock show.",
         "highlights": [
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "label": "Слова: кино, театр, билеты",
+      "label": "Слова: row, seat, box office",
       "intro": {
         "text": "Слова для кассы и зала.",
         "highlights": [
@@ -142,10 +142,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Two tickets for the 7 o'clock showing, please.", "ru": "Два билета на сеанс в семь, пожалуйста."}, {"en": "Can we sit in row F?", "ru": "Можно сесть в ряду F?"}, {"en": "Is the film dubbed or with subtitles?", "ru": "Фильм с дубляжом или с субтитрами?"}, {"en": "We'll get drinks during the interval.", "ru": "В антракте возьмём что-нибудь попить."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Two tickets for the 7 o'clock showing, please.",
+                "ru": "Два билета на сеанс в семь, пожалуйста."
+              },
+              {
+                "en": "Can we sit in row F?",
+                "ru": "Можно сесть в ряду F?"
+              },
+              {
+                "en": "Is the film dubbed or with subtitles?",
+                "ru": "Фильм с дубляжом или с субтитрами?"
+              },
+              {
+                "en": "We'll get drinks during the interval.",
+                "ru": "В антракте возьмём что-нибудь попить."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Обсудить",
+      "label": "Обсудить фильм: What's it about?",
       "intro": {
         "text": "До и после фильма — короткие вопросы и оценки.",
         "highlights": [
@@ -210,10 +239,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "What's on at the cinema tonight?",
+                "ru": "Что сегодня идёт в кино?"
+              },
+              {
+                "en": "It's a comedy with Tom Hanks.",
+                "ru": "Это комедия с Томом Хэнксом."
+              },
+              {
+                "en": "The ending was amazing!",
+                "ru": "Концовка была потрясающая!"
+              },
+              {
+                "en": "I didn't like it much — it was too long.",
+                "ru": "Мне не очень понравилось — слишком длинный."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: кино, театр, билеты",
+      "label": "Чего не говорить: tickets on, cassa, seance",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -231,23 +289,23 @@
           "errors": [
             {
               "wrong": "Two tickets on the film.",
-              "right": "Two tickets for the film."
+              "right": "Two tickets for the film. (билет на — for)"
             },
             {
               "wrong": "What goes in the cinema?",
-              "right": "What's on at the cinema?"
+              "right": "What's on at the cinema? (что идёт — what's on)"
             },
             {
               "wrong": "The film was very interested.",
-              "right": "The film was very interesting."
+              "right": "The film was very interesting. (фильм вызывает интерес — -ing)"
             },
             {
               "wrong": "Where is the cassa?",
-              "right": "Where's the box office?"
+              "right": "Where's the box office? (касса — box office)"
             },
             {
               "wrong": "seance",
-              "right": "screening, showing"
+              "right": "screening, showing (сеанс)"
             }
           ]
         }

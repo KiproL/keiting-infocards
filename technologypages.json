@@ -3,13 +3,23 @@
   "route": "cards_technology",
   "slides": [
     {
-      "label": "Слова: технологии и интернет",
+      "label": "Слова: device, charger, account",
       "intro": {
-        "text": "Слова для телефона, компьютера и приложений.",
+        "text": "Слова для телефона, компьютера и приложений. Многие пришли в русский из английского, но часть — ложные друзья: ноутбук — laptop, а notebook — блокнот.",
         "highlights": [
           {
             "text": "приложений",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "ложные друзья",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "laptop",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -89,7 +99,7 @@
       ]
     },
     {
-      "label": "Глаголы",
+      "label": "Глаголы: download и upload, log in",
       "intro": {
         "text": "Download — скачать к себе, upload — загрузить в сеть.",
         "highlights": [
@@ -177,10 +187,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I can't log in to my account.",
+                "ru": "Не могу войти в аккаунт."
+              },
+              {
+                "en": "Tap here to sign up.",
+                "ru": "Нажми здесь, чтобы зарегистрироваться."
+              },
+              {
+                "en": "Don't forget to back up your photos.",
+                "ru": "Не забудь сделать копию фотографий."
+              },
+              {
+                "en": "I uploaded the video yesterday.",
+                "ru": "Я выложил видео вчера."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Если не работает",
+      "label": "Если не работает: The app keeps crashing",
       "intro": {
         "text": "Как описать проблему с техникой.",
         "highlights": [
@@ -225,7 +264,7 @@
       ]
     },
     {
-      "label": "Примеры: технологии и интернет",
+      "label": "Технологии в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -278,7 +317,7 @@
       ]
     },
     {
-      "label": "Диалог: технологии и интернет",
+      "label": "Диалог: тормозит ноутбук",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -323,7 +362,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Технологии и интернет",
+      "label": "Частые ошибки: notebook, discharged",
       "intro": {
         "text": "Самые частые ошибки в словах о технике.",
         "highlights": [
@@ -341,23 +380,23 @@
           "errors": [
             {
               "wrong": "notebook (компьютер)",
-              "right": "laptop — notebook это блокнот"
+              "right": "laptop (notebook — блокнот)"
             },
             {
               "wrong": "My phone is discharged.",
-              "right": "My phone is dead."
+              "right": "My phone is dead. (сел — dead)"
             },
             {
               "wrong": "Download the photo to Instagram.",
-              "right": "Upload the photo to Instagram."
+              "right": "Upload the photo to Instagram. (в сеть — upload)"
             },
             {
               "wrong": "Enter in the account.",
-              "right": "Log in to your account."
+              "right": "Log in to your account. (войти — log in)"
             },
             {
               "wrong": "password from Wi-Fi",
-              "right": "the Wi-Fi password"
+              "right": "the Wi-Fi password (без from)"
             }
           ]
         }

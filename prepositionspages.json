@@ -3,7 +3,7 @@
   "route": "cards_prepositions",
   "slides": [
     {
-      "label": "Где, когда и куда",
+      "label": "Предлоги: где, когда и куда",
       "intro": {
         "text": "Предлог показывает, где что-то находится, когда что-то происходит и куда движется. В начале хватит трёх групп: место, время и направление.",
         "highlights": [
@@ -70,10 +70,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The keys are on the table, next to the lamp.", "ru": "Ключи на столе, рядом с лампой. (место)"}, {"en": "Let's meet at seven on Friday.", "ru": "Давай встретимся в пятницу в семь. (время)"}, {"en": "She walked into the room.", "ru": "Она вошла в комнату. (направление)"}, {"en": "We drove from Moscow to Kazan.", "ru": "Мы ехали из Москвы в Казань."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The keys are on the table, next to the lamp.",
+                "ru": "Ключи на столе, рядом с лампой. (место)"
+              },
+              {
+                "en": "Let's meet at seven on Friday.",
+                "ru": "Давай встретимся в пятницу в семь. (время)"
+              },
+              {
+                "en": "She walked into the room.",
+                "ru": "Она вошла в комнату. (направление)"
+              },
+              {
+                "en": "We drove from Moscow to Kazan.",
+                "ru": "Мы ехали из Москвы в Казань."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "In, on, at — место",
+      "label": "Место: in, on, at",
       "intro": {
         "text": "In — внутри чего-то, on — на поверхности, at — в точке, у места.",
         "highlights": [
@@ -157,10 +186,70 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ловушки: at home, on the bus",
+          "preview": "где по-русски «в», а по-английски нет",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "По-русски",
+                "По-английски"
+              ],
+              "headerColors": [
+                "muted",
+                "term"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "дома",
+                    "at home"
+                  ]
+                },
+                {
+                  "cells": [
+                    "на работе",
+                    "at work"
+                  ]
+                },
+                {
+                  "cells": [
+                    "в автобусе",
+                    "on the bus"
+                  ]
+                },
+                {
+                  "cells": [
+                    "на фото",
+                    "in the photo"
+                  ]
+                },
+                {
+                  "cells": [
+                    "на улице (снаружи)",
+                    "outside"
+                  ]
+                },
+                {
+                  "cells": [
+                    "в небе",
+                    "in the sky"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Где именно",
+      "label": "Где именно: under, between, opposite",
       "intro": {
         "text": "Ещё несколько предлогов, чтобы точно сказать, где что стоит.",
         "highlights": [
@@ -247,10 +336,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My bag is under the table.",
+                "ru": "Моя сумка под столом."
+              },
+              {
+                "en": "Park the car in front of the house.",
+                "ru": "Поставь машину перед домом."
+              },
+              {
+                "en": "The café is between the bank and the post office.",
+                "ru": "Кафе между банком и почтой."
+              },
+              {
+                "en": "Who's that behind you?",
+                "ru": "Кто это за тобой?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "At, on, in — время",
+      "label": "Время: at, on, in",
       "intro": {
         "text": "At — точное время, on — дни и даты, in — части дня, месяцы, годы и сезоны.",
         "highlights": [
@@ -344,7 +462,7 @@
       ]
     },
     {
-      "label": "Направление",
+      "label": "Направление: to, into, across",
       "intro": {
         "text": "Куда движемся: to — к месту, from — откуда, into / out of — внутрь и наружу, across и through — через.",
         "highlights": [
@@ -446,10 +564,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I walked across the bridge.",
+                "ru": "Я перешёл через мост."
+              },
+              {
+                "en": "The cat jumped out of the window.",
+                "ru": "Кот выпрыгнул из окна."
+              },
+              {
+                "en": "Go along this street.",
+                "ru": "Идите вдоль этой улицы."
+              },
+              {
+                "en": "She ran up the stairs.",
+                "ru": "Она взбежала по лестнице."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Предлоги: место, время, направление",
+      "label": "Частые ошибки: on Moscow, to home",
       "intro": {
         "text": "Самые частые ошибки с предлогами.",
         "highlights": [
@@ -467,27 +614,27 @@
           "errors": [
             {
               "wrong": "I live on Moscow.",
-              "right": "I live in Moscow."
+              "right": "I live in Moscow. (город — in)"
             },
             {
               "wrong": "See you in Monday.",
-              "right": "See you on Monday."
+              "right": "See you on Monday. (день — on)"
             },
             {
               "wrong": "at the morning",
-              "right": "in the morning"
+              "right": "in the morning (часть дня — in)"
             },
             {
               "wrong": "in night",
-              "right": "at night"
+              "right": "at night (исключение — at)"
             },
             {
               "wrong": "I go to home.",
-              "right": "I go home."
+              "right": "I go home. (с home — без to)"
             },
             {
               "wrong": "He came in the room.",
-              "right": "He came into the room."
+              "right": "He came into the room. (движение внутрь — into)"
             }
           ]
         }

@@ -55,7 +55,7 @@
       ]
     },
     {
-      "label": "Подсказки",
+      "label": "Подсказки: куда падает ударение",
       "intro": {
         "text": "Строгих правил нет, но есть надёжные подсказки: по части речи и по окончанию слова.",
         "highlights": [
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "label": "Меняет смысл",
+      "label": "Ударение меняет смысл: REcord и reCORD",
       "intro": {
         "text": "У пар «существительное — глагол» ударение делит слово надвое: существительное — на первый слог, глагол — на второй.",
         "highlights": [
@@ -181,10 +181,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I bought you a PREsent.",
+                "ru": "Я купил тебе подарок. (сущ. — PREsent)"
+              },
+              {
+                "en": "She will preSENT the project.",
+                "ru": "Она представит проект. (глагол — preSENT)"
+              },
+              {
+                "en": "Let's reCORD a new song.",
+                "ru": "Давай запишем новую песню. (глагол — reCORD)"
+              },
+              {
+                "en": "He holds the world REcord.",
+                "ru": "Он держит мировой рекорд. (сущ. — REcord)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Ударение",
+      "label": "Частые ошибки: comFORtable, inteRESTing",
       "intro": {
         "text": "Самые частые ошибки: слова, в которых ударение ставят неверно.",
         "highlights": [
@@ -202,31 +231,31 @@
           "errors": [
             {
               "wrong": "comFORtable",
-              "right": "COMfortable"
+              "right": "COMfortable (произносят в три слога: COMF-ta-ble)"
             },
             {
               "wrong": "inteRESTing",
-              "right": "INteresting"
+              "right": "INteresting (ударение на первый слог)"
             },
             {
               "wrong": "veGEtable",
-              "right": "VEGetable"
+              "right": "VEGetable (в три слога: VEJ-ta-ble)"
             },
             {
               "wrong": "choCOlate",
-              "right": "CHOColate"
+              "right": "CHOColate (в два слога: CHOK-lat)"
             },
             {
               "wrong": "photoGRAPH",
-              "right": "PHOtograph"
+              "right": "PHOtograph (а photographer — phoTOgrapher)"
             },
             {
               "wrong": "DEvelop",
-              "right": "deVELop"
+              "right": "deVELop (глагол — ударение на второй)"
             },
             {
               "wrong": "HOtel",
-              "right": "hoTEL"
+              "right": "hoTEL (одно из исключений)"
             }
           ]
         }

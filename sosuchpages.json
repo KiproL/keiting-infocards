@@ -3,7 +3,7 @@
   "route": "cards_sosuch",
   "slides": [
     {
-      "label": "so, such, enough: такой и достаточно",
+      "label": "So и such: «такой», «так»",
       "intro": {
         "text": "So и such усиливают: «такой», «так». So ставят перед прилагательным или наречием, such — перед существительным (часто с прилагательным).",
         "highlights": [
@@ -49,7 +49,73 @@
                   "color": "example"
                 }
               ],
-              "accentColor": "term", "drill": {"slots": ["so", "прилагательное / наречие"], "decoys": ["V-ing", "V3"], "examples": [{"en": "The film was so boring!", "ru": "Фильм был такой скучный!", "parts": [["The film was", ""], ["so", "so"], ["boring!", "прилагательное / наречие"]]}, {"en": "She speaks so fast!", "ru": "Она так быстро говорит!", "parts": [["She speaks", ""], ["so", "so"], ["fast!", "прилагательное / наречие"]]}, {"en": "I am so tired.", "ru": "Я так устал.", "parts": [["I am", ""], ["so", "so"], ["tired.", "прилагательное / наречие"]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "so",
+                  "прилагательное / наречие"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "The film was so boring!",
+                    "ru": "Фильм был такой скучный!",
+                    "parts": [
+                      [
+                        "The film was",
+                        ""
+                      ],
+                      [
+                        "so",
+                        "so"
+                      ],
+                      [
+                        "boring!",
+                        "прилагательное / наречие"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She speaks so fast!",
+                    "ru": "Она так быстро говорит!",
+                    "parts": [
+                      [
+                        "She speaks",
+                        ""
+                      ],
+                      [
+                        "so",
+                        "so"
+                      ],
+                      [
+                        "fast!",
+                        "прилагательное / наречие"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "I am so tired.",
+                    "ru": "Я так устал.",
+                    "parts": [
+                      [
+                        "I am",
+                        ""
+                      ],
+                      [
+                        "so",
+                        "so"
+                      ],
+                      [
+                        "tired.",
+                        "прилагательное / наречие"
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
@@ -82,7 +148,99 @@
                   "color": "example"
                 }
               ],
-              "accentColor": "info", "drill": {"slots": ["such", "(a / an)", "(прилагательное)", "существительное"], "decoys": ["so", "the"], "examples": [{"en": "It was such a boring film!", "ru": "Это был такой скучный фильм!", "parts": [["It was", ""], ["such", "such"], ["a", "(a / an)"], ["boring", "(прилагательное)"], ["film!", "существительное"]]}, {"en": "She is such a kind person.", "ru": "Она такой добрый человек.", "parts": [["She is", ""], ["such", "such"], ["a", "(a / an)"], ["kind", "(прилагательное)"], ["person.", "существительное"]]}, {"en": "He told such an interesting story.", "ru": "Он рассказал такую интересную историю.", "parts": [["He told", ""], ["such", "such"], ["an", "(a / an)"], ["interesting", "(прилагательное)"], ["story.", "существительное"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "such",
+                  "(a / an)",
+                  "(прилагательное)",
+                  "существительное"
+                ],
+                "decoys": [
+                  "so",
+                  "the"
+                ],
+                "examples": [
+                  {
+                    "en": "It was such a boring film!",
+                    "ru": "Это был такой скучный фильм!",
+                    "parts": [
+                      [
+                        "It was",
+                        ""
+                      ],
+                      [
+                        "such",
+                        "such"
+                      ],
+                      [
+                        "a",
+                        "(a / an)"
+                      ],
+                      [
+                        "boring",
+                        "(прилагательное)"
+                      ],
+                      [
+                        "film!",
+                        "существительное"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She is such a kind person.",
+                    "ru": "Она такой добрый человек.",
+                    "parts": [
+                      [
+                        "She is",
+                        ""
+                      ],
+                      [
+                        "such",
+                        "such"
+                      ],
+                      [
+                        "a",
+                        "(a / an)"
+                      ],
+                      [
+                        "kind",
+                        "(прилагательное)"
+                      ],
+                      [
+                        "person.",
+                        "существительное"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "He told such an interesting story.",
+                    "ru": "Он рассказал такую интересную историю.",
+                    "parts": [
+                      [
+                        "He told",
+                        ""
+                      ],
+                      [
+                        "such",
+                        "such"
+                      ],
+                      [
+                        "an",
+                        "(a / an)"
+                      ],
+                      [
+                        "interesting",
+                        "(прилагательное)"
+                      ],
+                      [
+                        "story.",
+                        "существительное"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -163,7 +321,7 @@
       ]
     },
     {
-      "label": "So … that",
+      "label": "So … that: настолько, что",
       "intro": {
         "text": "So … that и such … that показывают следствие: «настолько…, что…». Первая часть — причина, вторая — что из неё вышло.",
         "highlights": [
@@ -220,7 +378,99 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "term", "drill": {"slots": ["so", "прилагательное", "that", "следствие"], "decoys": ["such", "as"], "examples": [{"en": "It was so cold that we stayed home.", "ru": "Было так холодно, что мы остались дома.", "parts": [["It was", ""], ["so", "so"], ["cold", "прилагательное"], ["that", "that"], ["we stayed home.", "следствие"]]}, {"en": "He was so tired that he fell asleep.", "ru": "Он так устал, что уснул.", "parts": [["He was", ""], ["so", "so"], ["tired", "прилагательное"], ["that", "that"], ["he fell asleep.", "следствие"]]}, {"en": "The test was so easy that everyone passed.", "ru": "Тест был таким лёгким, что все сдали.", "parts": [["The test was", ""], ["so", "so"], ["easy", "прилагательное"], ["that", "that"], ["everyone passed.", "следствие"]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "so",
+                  "прилагательное",
+                  "that",
+                  "следствие"
+                ],
+                "decoys": [
+                  "such",
+                  "as"
+                ],
+                "examples": [
+                  {
+                    "en": "It was so cold that we stayed home.",
+                    "ru": "Было так холодно, что мы остались дома.",
+                    "parts": [
+                      [
+                        "It was",
+                        ""
+                      ],
+                      [
+                        "so",
+                        "so"
+                      ],
+                      [
+                        "cold",
+                        "прилагательное"
+                      ],
+                      [
+                        "that",
+                        "that"
+                      ],
+                      [
+                        "we stayed home.",
+                        "следствие"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "He was so tired that he fell asleep.",
+                    "ru": "Он так устал, что уснул.",
+                    "parts": [
+                      [
+                        "He was",
+                        ""
+                      ],
+                      [
+                        "so",
+                        "so"
+                      ],
+                      [
+                        "tired",
+                        "прилагательное"
+                      ],
+                      [
+                        "that",
+                        "that"
+                      ],
+                      [
+                        "he fell asleep.",
+                        "следствие"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "The test was so easy that everyone passed.",
+                    "ru": "Тест был таким лёгким, что все сдали.",
+                    "parts": [
+                      [
+                        "The test was",
+                        ""
+                      ],
+                      [
+                        "so",
+                        "so"
+                      ],
+                      [
+                        "easy",
+                        "прилагательное"
+                      ],
+                      [
+                        "that",
+                        "that"
+                      ],
+                      [
+                        "everyone passed.",
+                        "следствие"
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
@@ -253,7 +503,99 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "info", "drill": {"slots": ["such", "a + прилагательное + сущ.", "that", "следствие"], "decoys": ["so", "as"], "examples": [{"en": "It was such a cold day that we stayed home.", "ru": "Был такой холодный день, что мы остались дома.", "parts": [["It was", ""], ["such", "such"], ["a cold day", "a + прилагательное + сущ."], ["that", "that"], ["we stayed home.", "следствие"]]}, {"en": "She is such a good cook that everyone loves her food.", "ru": "Она так хорошо готовит, что все обожают её еду.", "parts": [["She is", ""], ["such", "such"], ["a good cook", "a + прилагательное + сущ."], ["that", "that"], ["everyone loves her food.", "следствие"]]}, {"en": "It was such a long film that I fell asleep.", "ru": "Фильм был такой длинный, что я уснул.", "parts": [["It was", ""], ["such", "such"], ["a long film", "a + прилагательное + сущ."], ["that", "that"], ["I fell asleep.", "следствие"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "such",
+                  "a + прилагательное + сущ.",
+                  "that",
+                  "следствие"
+                ],
+                "decoys": [
+                  "so",
+                  "as"
+                ],
+                "examples": [
+                  {
+                    "en": "It was such a cold day that we stayed home.",
+                    "ru": "Был такой холодный день, что мы остались дома.",
+                    "parts": [
+                      [
+                        "It was",
+                        ""
+                      ],
+                      [
+                        "such",
+                        "such"
+                      ],
+                      [
+                        "a cold day",
+                        "a + прилагательное + сущ."
+                      ],
+                      [
+                        "that",
+                        "that"
+                      ],
+                      [
+                        "we stayed home.",
+                        "следствие"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She is such a good cook that everyone loves her food.",
+                    "ru": "Она так хорошо готовит, что все обожают её еду.",
+                    "parts": [
+                      [
+                        "She is",
+                        ""
+                      ],
+                      [
+                        "such",
+                        "such"
+                      ],
+                      [
+                        "a good cook",
+                        "a + прилагательное + сущ."
+                      ],
+                      [
+                        "that",
+                        "that"
+                      ],
+                      [
+                        "everyone loves her food.",
+                        "следствие"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "It was such a long film that I fell asleep.",
+                    "ru": "Фильм был такой длинный, что я уснул.",
+                    "parts": [
+                      [
+                        "It was",
+                        ""
+                      ],
+                      [
+                        "such",
+                        "such"
+                      ],
+                      [
+                        "a long film",
+                        "a + прилагательное + сущ."
+                      ],
+                      [
+                        "that",
+                        "that"
+                      ],
+                      [
+                        "I fell asleep.",
+                        "следствие"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -284,10 +626,39 @@
             "text": "It was so cold we stayed at home. Смысл тот же."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The soup was so hot that I burnt my tongue.", "ru": "Суп был такой горячий, что я обжёг язык."}, {"en": "She was so tired that she fell asleep on the sofa.", "ru": "Она так устала, что уснула на диване."}, {"en": "It was such a nice day that we went to the beach.", "ru": "Был такой хороший день, что мы пошли на пляж."}, {"en": "They are such good friends that they talk every day.", "ru": "Они такие близкие друзья, что болтают каждый день."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The soup was so hot that I burnt my tongue.",
+                "ru": "Суп был такой горячий, что я обжёг язык."
+              },
+              {
+                "en": "She was so tired that she fell asleep on the sofa.",
+                "ru": "Она так устала, что уснула на диване."
+              },
+              {
+                "en": "It was such a nice day that we went to the beach.",
+                "ru": "Был такой хороший день, что мы пошли на пляж."
+              },
+              {
+                "en": "They are such good friends that they talk every day.",
+                "ru": "Они такие близкие друзья, что болтают каждый день."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Enough",
+      "label": "Enough: где ставить",
       "intro": {
         "text": "Enough — «достаточно». Его место зависит от соседа: ПОСЛЕ прилагательного и наречия, но ПЕРЕД существительным.",
         "highlights": [
@@ -336,7 +707,86 @@
                   "color": "muted"
                 }
               ],
-              "accentColor": "term", "drill": {"slots": ["прилагательное", "enough", "(to + глагол)"], "decoys": ["too", "so"], "examples": [{"en": "He is not old enough to drive.", "ru": "Он ещё недостаточно взрослый, чтобы водить.", "parts": [["He is not", ""], ["old", "прилагательное"], ["enough", "enough"], ["to drive.", "(to + глагол)"]]}, {"en": "The water is warm enough to swim.", "ru": "Вода достаточно тёплая, чтобы плавать.", "parts": [["The water is", ""], ["warm", "прилагательное"], ["enough", "enough"], ["to swim.", "(to + глагол)"]]}, {"en": "She is tall enough to reach the shelf.", "ru": "Она достаточно высокая, чтобы дотянуться до полки.", "parts": [["She is", ""], ["tall", "прилагательное"], ["enough", "enough"], ["to reach the shelf.", "(to + глагол)"]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "прилагательное",
+                  "enough",
+                  "(to + глагол)"
+                ],
+                "decoys": [
+                  "too",
+                  "so"
+                ],
+                "examples": [
+                  {
+                    "en": "He is not old enough to drive.",
+                    "ru": "Он ещё недостаточно взрослый, чтобы водить.",
+                    "parts": [
+                      [
+                        "He is not",
+                        ""
+                      ],
+                      [
+                        "old",
+                        "прилагательное"
+                      ],
+                      [
+                        "enough",
+                        "enough"
+                      ],
+                      [
+                        "to drive.",
+                        "(to + глагол)"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "The water is warm enough to swim.",
+                    "ru": "Вода достаточно тёплая, чтобы плавать.",
+                    "parts": [
+                      [
+                        "The water is",
+                        ""
+                      ],
+                      [
+                        "warm",
+                        "прилагательное"
+                      ],
+                      [
+                        "enough",
+                        "enough"
+                      ],
+                      [
+                        "to swim.",
+                        "(to + глагол)"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She is tall enough to reach the shelf.",
+                    "ru": "Она достаточно высокая, чтобы дотянуться до полки.",
+                    "parts": [
+                      [
+                        "She is",
+                        ""
+                      ],
+                      [
+                        "tall",
+                        "прилагательное"
+                      ],
+                      [
+                        "enough",
+                        "enough"
+                      ],
+                      [
+                        "to reach the shelf.",
+                        "(to + глагол)"
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
@@ -361,7 +811,86 @@
                   "color": "muted"
                 }
               ],
-              "accentColor": "info", "drill": {"slots": ["enough", "существительное", "(to + глагол)"], "decoys": ["too", "much"], "examples": [{"en": "We have enough money to buy a car.", "ru": "У нас достаточно денег, чтобы купить машину.", "parts": [["We have", ""], ["enough", "enough"], ["money", "существительное"], ["to buy a car.", "(to + глагол)"]]}, {"en": "There is not enough time to finish.", "ru": "Не хватает времени, чтобы закончить.", "parts": [["There is not", ""], ["enough", "enough"], ["time", "существительное"], ["to finish.", "(to + глагол)"]]}, {"en": "Do you have enough chairs for everyone?", "ru": "У тебя хватит стульев на всех?", "parts": [["Do you have", ""], ["enough", "enough"], ["chairs", "существительное"], ["for everyone?", ""]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "enough",
+                  "существительное",
+                  "(to + глагол)"
+                ],
+                "decoys": [
+                  "too",
+                  "much"
+                ],
+                "examples": [
+                  {
+                    "en": "We have enough money to buy a car.",
+                    "ru": "У нас достаточно денег, чтобы купить машину.",
+                    "parts": [
+                      [
+                        "We have",
+                        ""
+                      ],
+                      [
+                        "enough",
+                        "enough"
+                      ],
+                      [
+                        "money",
+                        "существительное"
+                      ],
+                      [
+                        "to buy a car.",
+                        "(to + глагол)"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "There is not enough time to finish.",
+                    "ru": "Не хватает времени, чтобы закончить.",
+                    "parts": [
+                      [
+                        "There is not",
+                        ""
+                      ],
+                      [
+                        "enough",
+                        "enough"
+                      ],
+                      [
+                        "time",
+                        "существительное"
+                      ],
+                      [
+                        "to finish.",
+                        "(to + глагол)"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Do you have enough chairs for everyone?",
+                    "ru": "У тебя хватит стульев на всех?",
+                    "parts": [
+                      [
+                        "Do you have",
+                        ""
+                      ],
+                      [
+                        "enough",
+                        "enough"
+                      ],
+                      [
+                        "chairs",
+                        "существительное"
+                      ],
+                      [
+                        "for everyone?",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -396,10 +925,39 @@
             "text": "Not old enough = too young: «недостаточно взрослый» = «слишком молодой». Про too — в карточке Too…to."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Is the water warm enough to swim?", "ru": "Вода достаточно тёплая, чтобы плавать?"}, {"en": "She didn't study hard enough.", "ru": "Она недостаточно усердно занималась."}, {"en": "Have we got enough chairs for everyone?", "ru": "Нам хватит стульев на всех?"}, {"en": "There isn't enough room in the car.", "ru": "В машине не хватает места."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Is the water warm enough to swim?",
+                "ru": "Вода достаточно тёплая, чтобы плавать?"
+              },
+              {
+                "en": "She didn't study hard enough.",
+                "ru": "Она недостаточно усердно занималась."
+              },
+              {
+                "en": "Have we got enough chairs for everyone?",
+                "ru": "Нам хватит стульев на всех?"
+              },
+              {
+                "en": "There isn't enough room in the car.",
+                "ru": "В машине не хватает места."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: So / Such / Enough",
+      "label": "Частые ошибки: so a beautiful, enough old",
       "intro": {
         "text": "Самые частые ошибки с so, such и enough.",
         "highlights": [
@@ -417,27 +975,27 @@
           "errors": [
             {
               "wrong": "It's so a beautiful day!",
-              "right": "It's such a beautiful day!"
+              "right": "It's such a beautiful day! (есть существительное — such)"
             },
             {
               "wrong": "She is such kind.",
-              "right": "She is so kind."
+              "right": "She is so kind. (нет существительного — so)"
             },
             {
               "wrong": "They are such a good players.",
-              "right": "They are such good players."
+              "right": "They are such good players. (мн. число — без a)"
             },
             {
               "wrong": "There were such many people.",
-              "right": "There were so many people."
+              "right": "There were so many people. (many — с so)"
             },
             {
               "wrong": "He isn't enough old.",
-              "right": "He isn't old enough."
+              "right": "He isn't old enough. (enough — после прилагательного)"
             },
             {
               "wrong": "We have time enough.",
-              "right": "We have enough time."
+              "right": "We have enough time. (enough — перед существительным)"
             }
           ]
         },

@@ -5,11 +5,23 @@
     {
       "label": "too … to: слишком, чтобы",
       "intro": {
-        "text": "Конструкция Too…to говорит, что что-то слишком какое-то, чтобы сделать что-то. Результат невозможен из-за избытка качества.",
+        "text": "Too … to — «слишком…, чтобы»: The coffee is too hot to drink — кофе слишком горячий, чтобы пить. Качества так много, что сделать что-то нельзя.",
         "highlights": [
-          { "text": "Too…to",       "color": "term",    "style": "bold_underline" },
-          { "text": "слишком",       "color": "info",    "style": "bold" },
-          { "text": "невозможен",    "color": "bad",     "style": "bold" }
+          {
+            "text": "Too … to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "слишком…, чтобы",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "сделать что-то нельзя",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,27 +30,166 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "too",     "color": "info" },
-              { "text": "+",       "color": "muted" },
-              { "text": "прил.",   "color": "example" },
-              { "text": "+",       "color": "muted" },
-              { "text": "to",      "color": "term" },
-              { "text": "+",       "color": "muted" },
-              { "text": "глагол",  "color": "example" }
+              {
+                "text": "too",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "прил.",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "to",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["too", "прил.", "to", "глагол"], "decoys": ["enough", "very"], "examples": [{"en": "It is too cold to swim.", "ru": "Слишком холодно, чтобы плавать.", "parts": [["It is", ""], ["too", "too"], ["cold", "прил."], ["to", "to"], ["swim.", "глагол"]]}, {"en": "He is too young to drive.", "ru": "Он слишком молод, чтобы водить.", "parts": [["He is", ""], ["too", "too"], ["young", "прил."], ["to", "to"], ["drive.", "глагол"]]}, {"en": "The box is too heavy to lift.", "ru": "Коробка слишком тяжёлая, чтобы её поднять.", "parts": [["The box is", ""], ["too", "too"], ["heavy", "прил."], ["to", "to"], ["lift.", "глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "too",
+                "прил.",
+                "to",
+                "глагол"
+              ],
+              "decoys": [
+                "enough",
+                "very"
+              ],
+              "examples": [
+                {
+                  "en": "It is too cold to swim.",
+                  "ru": "Слишком холодно, чтобы плавать.",
+                  "parts": [
+                    [
+                      "It is",
+                      ""
+                    ],
+                    [
+                      "too",
+                      "too"
+                    ],
+                    [
+                      "cold",
+                      "прил."
+                    ],
+                    [
+                      "to",
+                      "to"
+                    ],
+                    [
+                      "swim.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He is too young to drive.",
+                  "ru": "Он слишком молод, чтобы водить.",
+                  "parts": [
+                    [
+                      "He is",
+                      ""
+                    ],
+                    [
+                      "too",
+                      "too"
+                    ],
+                    [
+                      "young",
+                      "прил."
+                    ],
+                    [
+                      "to",
+                      "to"
+                    ],
+                    [
+                      "drive.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "The box is too heavy to lift.",
+                  "ru": "Коробка слишком тяжёлая, чтобы её поднять.",
+                  "parts": [
+                    [
+                      "The box is",
+                      ""
+                    ],
+                    [
+                      "too",
+                      "too"
+                    ],
+                    [
+                      "heavy",
+                      "прил."
+                    ],
+                    [
+                      "to",
+                      "to"
+                    ],
+                    [
+                      "lift.",
+                      "глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["too…to",       "слишком, невозможно", "He is too tired to walk."] },
-              { "cells": ["enough to",     "достаточно, возможно","He is strong enough to lift it."] },
-              { "cells": ["so…that",       "настолько, что",      "He was so tired that he fell asleep."] }
+              {
+                "cells": [
+                  "too…to",
+                  "слишком, невозможно",
+                  "He is too tired to walk."
+                ]
+              },
+              {
+                "cells": [
+                  "enough to",
+                  "достаточно, возможно",
+                  "He is strong enough to lift it."
+                ]
+              },
+              {
+                "cells": [
+                  "so…that",
+                  "настолько, что",
+                  "He was so tired that he fell asleep."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -47,10 +198,22 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "He is too tired to walk.",              "ru": "Он слишком устал, чтобы идти." },
-            { "en": "This coffee is too hot to drink.",       "ru": "Кофе слишком горячий, чтобы пить." },
-            { "en": "She is too young to drive.",              "ru": "Она слишком маленькая, чтобы водить." },
-            { "en": "The box is too heavy to lift.",           "ru": "Коробка слишком тяжёлая, чтобы её поднять." }
+            {
+              "en": "He is too tired to walk.",
+              "ru": "Он слишком устал, чтобы идти."
+            },
+            {
+              "en": "This coffee is too hot to drink.",
+              "ru": "Кофе слишком горячий, чтобы пить."
+            },
+            {
+              "en": "She is too young to drive.",
+              "ru": "Она слишком маленькая, чтобы водить."
+            },
+            {
+              "en": "The box is too heavy to lift.",
+              "ru": "Коробка слишком тяжёлая, чтобы её поднять."
+            }
           ]
         },
         {
@@ -62,17 +225,58 @@
             "text": "Конструкция Too…to уже содержит идею невозможности. Нельзя сказать not too…to для «не слишком, чтобы». Для положительного смысла используется enough to."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Too … for someone to do",
+          "preview": "кому слишком",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "This book is too difficult for me to read.",
+                "ru": "Эта книга для меня слишком сложная."
+              },
+              {
+                "en": "The box is too heavy for her to carry.",
+                "ru": "Коробка слишком тяжёлая для неё."
+              },
+              {
+                "en": "It's too late for us to go out.",
+                "ru": "Нам уже слишком поздно куда-то идти."
+              }
+            ],
+            "callout": {
+              "type": "tip",
+              "title": "Кому — через for",
+              "text": "Если нужно сказать, для кого слишком: too + прил. + for + кто + to + глагол."
+            },
+            "title": ""
+          }
+        }
       ]
     },
-
     {
-      "label": "Too vs Very",
+      "label": "Too или very",
       "intro": {
         "text": "Too и very легко перепутать. Very — просто усиление. Too — избыток, который мешает.",
         "highlights": [
-          { "text": "Too",   "color": "bad",     "style": "bold" },
-          { "text": "Very",  "color": "info",    "style": "bold" },
-          { "text": "избыток", "color": "example", "style": "bold_underline" }
+          {
+            "text": "Too",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "Very",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "избыток",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -80,11 +284,31 @@
           "title": "Разница",
           "borderColor": "term",
           "table": {
-            "headers": ["Слово", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Слово",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["very", "очень (просто усиление)", "The coffee is very hot."] },
-              { "cells": ["too",  "слишком (мешает)",          "The coffee is too hot to drink."] }
+              {
+                "cells": [
+                  "very",
+                  "очень (просто усиление)",
+                  "The coffee is very hot."
+                ]
+              },
+              {
+                "cells": [
+                  "too",
+                  "слишком (мешает)",
+                  "The coffee is too hot to drink."
+                ]
+              }
             ],
             "borderColor": "term"
           },
@@ -98,30 +322,54 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "The soup is very hot.",              "ru": "Суп очень горячий. (просто)" },
-            { "en": "The soup is too hot to eat.",         "ru": "Суп слишком горячий, чтобы есть." },
-            { "en": "She is very young.",                   "ru": "Она очень молодая." },
-            { "en": "She is too young to drive.",            "ru": "Она слишком маленькая, чтобы водить." }
+            {
+              "en": "The soup is very hot.",
+              "ru": "Суп очень горячий. (просто)"
+            },
+            {
+              "en": "The soup is too hot to eat.",
+              "ru": "Суп слишком горячий, чтобы есть."
+            },
+            {
+              "en": "She is very young.",
+              "ru": "Она очень молодая."
+            },
+            {
+              "en": "She is too young to drive.",
+              "ru": "Она слишком маленькая, чтобы водить."
+            }
           ]
         },
         {
-          "title": "Ошибки",
-          "borderColor": "bad",
-          "errors": [
-            { "wrong": "He is too tired for walk.",    "right": "He is too tired to walk." },
-            { "wrong": "He is too tired walking.",      "right": "He is too tired to walk." },
-            { "wrong": "It is too much hot.",            "right": "It is too hot." }
+          "title": "Too much и too many",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "There's too much noise here.",
+              "ru": "Здесь слишком шумно. (much — неисчисляемое)"
+            },
+            {
+              "en": "There are too many people on the bus.",
+              "ru": "В автобусе слишком много людей. (many — исчисляемые)"
+            },
+            {
+              "en": "You work too much.",
+              "ru": "Ты слишком много работаешь. (после глагола — too much)"
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Too…to",
+      "label": "Частые ошибки: too tired for walk",
       "intro": {
         "text": "Три самые частые ошибки в Too…to.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -129,9 +377,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "He is too tired for walk.",  "right": "He is too tired to walk." },
-            { "wrong": "He is too tired walking.",    "right": "He is too tired to walk." },
-            { "wrong": "I am too happy to not smile.","right": "I am too happy not to smile." }
+            {
+              "wrong": "He is too tired for walk.",
+              "right": "He is too tired to walk. (перед глаголом — to)"
+            },
+            {
+              "wrong": "He is too tired walking.",
+              "right": "He is too tired to walk. (после too … — to + глагол)"
+            },
+            {
+              "wrong": "It is too much hot.",
+              "right": "It is too hot. (перед прилагательным — просто too)"
+            }
           ]
         },
         {

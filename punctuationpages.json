@@ -3,7 +3,7 @@
   "route": "cards_punctuation",
   "slides": [
     {
-      "label": "Заглавные буквы",
+      "label": "Заглавные буквы: I, Monday, English",
       "intro": {
         "text": "Заглавных в английском больше, чем в русском: с большой буквы пишут I, дни недели, месяцы, языки и национальности. Времена года — с маленькой.",
         "highlights": [
@@ -73,10 +73,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My friend and I speak English and French.", "ru": "Мы с другом говорим по-английски и по-французски."}, {"en": "The course starts on Monday, 3 September.", "ru": "Курс начинается в понедельник, 3 сентября."}, {"en": "I love the summer in Spain.", "ru": "Я люблю лето в Испании. (summer — с маленькой)"}, {"en": "She drives a German car.", "ru": "Она ездит на немецкой машине."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My friend and I speak English and French.",
+                "ru": "Мы с другом говорим по-английски и по-французски."
+              },
+              {
+                "en": "The course starts on Monday, 3 September.",
+                "ru": "Курс начинается в понедельник, 3 сентября."
+              },
+              {
+                "en": "I love the summer in Spain.",
+                "ru": "Я люблю лето в Испании. (summer — с маленькой)"
+              },
+              {
+                "en": "She drives a German car.",
+                "ru": "Она ездит на немецкой машине."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Запятая",
+      "label": "Запятая: где ставить и где нет",
       "intro": {
         "text": "Запятых в английском меньше. Главное отличие: перед that запятую НЕ ставят — I think that he is right, хотя по-русски «думаю, что».",
         "highlights": [
@@ -145,10 +174,39 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I think that you're right.",
+                "ru": "Думаю, что ты прав. (перед that — без запятой)"
+              },
+              {
+                "en": "If it rains, we'll stay home.",
+                "ru": "Если пойдёт дождь, останемся дома. (if-часть в начале — запятая)"
+              },
+              {
+                "en": "We'll stay home if it rains.",
+                "ru": "Останемся дома, если пойдёт дождь. (if-часть в конце — без запятой)"
+              },
+              {
+                "en": "By the way, did you call her?",
+                "ru": "Кстати, ты ей звонил? (вводное — запятая)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Апостроф",
+      "label": "Апостроф: Tom's и it's",
       "intro": {
         "text": "Апостроф нужен в двух случаях: принадлежность (Tom’s car) и сокращение (it’s = it is). Во множественном числе апострофа нет.",
         "highlights": [
@@ -223,10 +281,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "This is my brother's bike.", "ru": "Это велосипед моего брата."}, {"en": "The girls' bags are in the hall.", "ru": "Сумки девочек в прихожей."}, {"en": "It's raining, and the cat wants its dinner.", "ru": "Идёт дождь, а кошка хочет ужинать. (it's = it is; its — её)"}, {"en": "I have three brothers. (не brother's)", "ru": "У меня три брата."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "This is my brother's bike.",
+                "ru": "Это велосипед моего брата."
+              },
+              {
+                "en": "The girls' bags are in the hall.",
+                "ru": "Сумки девочек в прихожей."
+              },
+              {
+                "en": "It's raining, and the cat wants its dinner.",
+                "ru": "Идёт дождь, а кошка хочет ужинать. (it's = it is; its — её)"
+              },
+              {
+                "en": "I have three brothers. (не brother's)",
+                "ru": "У меня три брата."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Пунктуация",
+      "label": "Частые ошибки: запятая перед that, it's и its",
       "intro": {
         "text": "Самые частые ошибки в пунктуации.",
         "highlights": [
@@ -244,27 +331,27 @@
           "errors": [
             {
               "wrong": "I think, that he is right.",
-              "right": "I think that he is right."
+              "right": "I think that he is right. (перед that — без запятой)"
             },
             {
               "wrong": "i am from russia.",
-              "right": "I am from Russia."
+              "right": "I am from Russia. (I и страны — с большой)"
             },
             {
               "wrong": "on monday in july",
-              "right": "on Monday in July"
+              "right": "on Monday in July (дни и месяцы — с большой)"
             },
             {
               "wrong": "Its a nice day.",
-              "right": "It's a nice day."
+              "right": "It's a nice day. (it's = it is)"
             },
             {
               "wrong": "The dog wagged it's tail.",
-              "right": "The dog wagged its tail."
+              "right": "The dog wagged its tail. (its — «свой»)"
             },
             {
               "wrong": "Apple's for sale",
-              "right": "Apples for sale"
+              "right": "Apples for sale (во мн. числе апострофа нет)"
             }
           ]
         }

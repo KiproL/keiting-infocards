@@ -67,7 +67,100 @@
                 "color": "muted"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["Кто", "делает", "что / кого", "где", "когда"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I read books in the park on Sundays.", "ru": "По воскресеньям я читаю книги в парке.", "parts": [["I", "Кто"], ["read", "делает"], ["books", "что / кого"], ["in the park", "где"], ["on Sundays.", "когда"]]}, {"en": "She met Tom at the station yesterday.", "ru": "Вчера она встретила Тома на вокзале.", "parts": [["She", "Кто"], ["met", "делает"], ["Tom", "что / кого"], ["at the station", "где"], ["yesterday.", "когда"]]}, {"en": "We play football in the yard every evening.", "ru": "Каждый вечер мы играем в футбол во дворе.", "parts": [["We", "Кто"], ["play", "делает"], ["football", "что / кого"], ["in the yard", "где"], ["every evening.", "когда"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "Кто",
+                "делает",
+                "что / кого",
+                "где",
+                "когда"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I read books in the park on Sundays.",
+                  "ru": "По воскресеньям я читаю книги в парке.",
+                  "parts": [
+                    [
+                      "I",
+                      "Кто"
+                    ],
+                    [
+                      "read",
+                      "делает"
+                    ],
+                    [
+                      "books",
+                      "что / кого"
+                    ],
+                    [
+                      "in the park",
+                      "где"
+                    ],
+                    [
+                      "on Sundays.",
+                      "когда"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She met Tom at the station yesterday.",
+                  "ru": "Вчера она встретила Тома на вокзале.",
+                  "parts": [
+                    [
+                      "She",
+                      "Кто"
+                    ],
+                    [
+                      "met",
+                      "делает"
+                    ],
+                    [
+                      "Tom",
+                      "что / кого"
+                    ],
+                    [
+                      "at the station",
+                      "где"
+                    ],
+                    [
+                      "yesterday.",
+                      "когда"
+                    ]
+                  ]
+                },
+                {
+                  "en": "We play football in the yard every evening.",
+                  "ru": "Каждый вечер мы играем в футбол во дворе.",
+                  "parts": [
+                    [
+                      "We",
+                      "Кто"
+                    ],
+                    [
+                      "play",
+                      "делает"
+                    ],
+                    [
+                      "football",
+                      "что / кого"
+                    ],
+                    [
+                      "in the yard",
+                      "где"
+                    ],
+                    [
+                      "every evening.",
+                      "когда"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -124,10 +217,39 @@
             "text": "«Холодно» — It's cold. «Идёт дождь» — It's raining. Без подлежащего английское предложение не живёт."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Tom loves Anna. / Anna loves Tom.", "ru": "Том любит Анну. / Анна любит Тома. (порядок меняет смысл)"}, {"en": "I drink coffee every morning.", "ru": "Я пью кофе каждое утро."}, {"en": "It's getting dark.", "ru": "Темнеет. (подлежащее it обязательно)"}, {"en": "We saw a great film at the cinema yesterday.", "ru": "Вчера мы посмотрели в кино отличный фильм."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Tom loves Anna. / Anna loves Tom.",
+                "ru": "Том любит Анну. / Анна любит Тома. (порядок меняет смысл)"
+              },
+              {
+                "en": "I drink coffee every morning.",
+                "ru": "Я пью кофе каждое утро."
+              },
+              {
+                "en": "It's getting dark.",
+                "ru": "Темнеет. (подлежащее it обязательно)"
+              },
+              {
+                "en": "We saw a great film at the cinema yesterday.",
+                "ru": "Вчера мы посмотрели в кино отличный фильм."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Наречия частоты",
+      "label": "Always, usually, never: где ставить",
       "intro": {
         "text": "Always, usually, often, sometimes, rarely, never ставят перед смысловым глаголом. Но после глагола to be и после вспомогательного: I am always late, I have never seen it.",
         "highlights": [
@@ -214,7 +336,7 @@
       ]
     },
     {
-      "label": "Как, где, когда",
+      "label": "Как, где, когда: хвост предложения",
       "intro": {
         "text": "Если в конце несколько уточнений, их порядок такой: как → где → когда. Время можно вынести в начало, если оно важно или фраза длинная.",
         "highlights": [
@@ -257,7 +379,86 @@
                 "color": "term"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["как", "где", "когда"], "decoys": ["V-ing", "V3"], "examples": [{"en": "She sang beautifully at the concert last night.", "ru": "Вчера вечером она прекрасно пела на концерте.", "parts": [["She sang", ""], ["beautifully", "как"], ["at the concert", "где"], ["last night.", "когда"]]}, {"en": "He worked hard in the garden all day.", "ru": "Он весь день усердно работал в саду.", "parts": [["He worked", ""], ["hard", "как"], ["in the garden", "где"], ["all day.", "когда"]]}, {"en": "They waited patiently at the door until noon.", "ru": "Они терпеливо ждали у двери до полудня.", "parts": [["They waited", ""], ["patiently", "как"], ["at the door", "где"], ["until noon.", "когда"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "как",
+                "где",
+                "когда"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "She sang beautifully at the concert last night.",
+                  "ru": "Вчера вечером она прекрасно пела на концерте.",
+                  "parts": [
+                    [
+                      "She sang",
+                      ""
+                    ],
+                    [
+                      "beautifully",
+                      "как"
+                    ],
+                    [
+                      "at the concert",
+                      "где"
+                    ],
+                    [
+                      "last night.",
+                      "когда"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He worked hard in the garden all day.",
+                  "ru": "Он весь день усердно работал в саду.",
+                  "parts": [
+                    [
+                      "He worked",
+                      ""
+                    ],
+                    [
+                      "hard",
+                      "как"
+                    ],
+                    [
+                      "in the garden",
+                      "где"
+                    ],
+                    [
+                      "all day.",
+                      "когда"
+                    ]
+                  ]
+                },
+                {
+                  "en": "They waited patiently at the door until noon.",
+                  "ru": "Они терпеливо ждали у двери до полудня.",
+                  "parts": [
+                    [
+                      "They waited",
+                      ""
+                    ],
+                    [
+                      "patiently",
+                      "как"
+                    ],
+                    [
+                      "at the door",
+                      "где"
+                    ],
+                    [
+                      "until noon.",
+                      "когда"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -462,7 +663,7 @@
       ]
     },
     {
-      "label": "Also, only, enough",
+      "label": "Also, only, enough: своё место",
       "intro": {
         "text": "Несколько маленьких слов со своим местом. Also стоит как наречия частоты, а enough — после прилагательного, но перед существительным.",
         "highlights": [
@@ -525,10 +726,39 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I also speak French.",
+                "ru": "Я ещё говорю по-французски. (also — перед глаголом)"
+              },
+              {
+                "en": "She speaks French too.",
+                "ru": "Она тоже говорит по-французски. (too — в конце)"
+              },
+              {
+                "en": "I only have ten minutes.",
+                "ru": "У меня всего десять минут."
+              },
+              {
+                "en": "Is it warm enough?",
+                "ru": "Достаточно тепло?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Word Order",
+      "label": "Частые ошибки: like very much coffee, go always",
       "intro": {
         "text": "Самые частые ошибки в порядке слов.",
         "highlights": [
@@ -546,31 +776,31 @@
           "errors": [
             {
               "wrong": "I like very much coffee.",
-              "right": "I like coffee very much."
+              "right": "I like coffee very much. (между глаголом и дополнением — ничего)"
             },
             {
               "wrong": "I go always to the gym.",
-              "right": "I always go to the gym."
+              "right": "I always go to the gym. (always — перед глаголом)"
             },
             {
               "wrong": "She always is late.",
-              "right": "She is always late."
+              "right": "She is always late. (после be)"
             },
             {
               "wrong": "Yesterday I met at the café Tom.",
-              "right": "Yesterday I met Tom at the café."
+              "right": "Yesterday I met Tom at the café. (кого — сразу после глагола)"
             },
             {
               "wrong": "Is raining.",
-              "right": "It's raining."
+              "right": "It's raining. (подлежащее обязательно)"
             },
             {
               "wrong": "a red big car",
-              "right": "a big red car"
+              "right": "a big red car (размер — раньше цвета)"
             },
             {
               "wrong": "He is enough old.",
-              "right": "He is old enough."
+              "right": "He is old enough. (enough — после прилагательного)"
             }
           ]
         },

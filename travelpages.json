@@ -3,7 +3,7 @@
   "route": "cards_travel",
   "slides": [
     {
-      "label": "Регистрация",
+      "label": "Регистрация: boarding pass, gate",
       "intro": {
         "text": "На регистрации спросят паспорт, багаж и место. Посадочный — boarding pass, выход на посадку — gate, задерживается — delayed.",
         "highlights": [
@@ -72,10 +72,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Can I take this bag on board?",
+                "ru": "Можно взять эту сумку в салон?"
+              },
+              {
+                "en": "I'd like a window seat, please.",
+                "ru": "Мне место у окна, пожалуйста."
+              },
+              {
+                "en": "Which gate is it?",
+                "ru": "Какой выход?"
+              },
+              {
+                "en": "My flight has been cancelled.",
+                "ru": "Мой рейс отменили."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Контроль",
+      "label": "Паспортный контроль: цель и срок",
       "intro": {
         "text": "На паспортном контроле спрашивают цель поездки и срок. Отвечают коротко и прямо.",
         "highlights": [
@@ -133,7 +162,36 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'm here on business for three days.", "ru": "Я здесь по работе на три дня."}, {"en": "I'm visiting my sister.", "ru": "Я в гостях у сестры."}, {"en": "I'm staying with friends in Brighton.", "ru": "Я остановлюсь у друзей в Брайтоне."}, {"en": "Here is my return ticket.", "ru": "Вот мой обратный билет."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm here on business for three days.",
+                "ru": "Я здесь по работе на три дня."
+              },
+              {
+                "en": "I'm visiting my sister.",
+                "ru": "Я в гостях у сестры."
+              },
+              {
+                "en": "I'm staying with friends in Brighton.",
+                "ru": "Я остановлюсь у друзей в Брайтоне."
+              },
+              {
+                "en": "Here is my return ticket.",
+                "ru": "Вот мой обратный билет."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "label": "Багаж и транспорт",
@@ -234,10 +292,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Если потерялся багаж",
+          "preview": "что сказать на стойке",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "My suitcase didn't arrive.",
+                "ru": "Мой чемодан не прилетел."
+              },
+              {
+                "en": "It's a large black suitcase with a red tag.",
+                "ru": "Большой чёрный чемодан с красной биркой."
+              },
+              {
+                "en": "Here's my baggage tag.",
+                "ru": "Вот моя багажная бирка."
+              },
+              {
+                "en": "Can you deliver it to my hotel?",
+                "ru": "Можете доставить его в отель?"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: В аэропорту и в дороге",
+      "label": "Чего не говорить: register, two luggages",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -255,19 +342,19 @@
           "errors": [
             {
               "wrong": "I want to register. (на рейс)",
-              "right": "I'd like to check in."
+              "right": "I'd like to check in. (регистрация — check in)"
             },
             {
               "wrong": "I have two luggages.",
-              "right": "I have two bags / two pieces of luggage."
+              "right": "I have two bags / two pieces of luggage. (luggage — без -s)"
             },
             {
               "wrong": "a back ticket",
-              "right": "a return ticket"
+              "right": "a return ticket (обратный — return)"
             },
             {
               "wrong": "I'm here for a rest.",
-              "right": "I'm here on holiday."
+              "right": "I'm here on holiday. (отпуск — holiday)"
             }
           ]
         }
