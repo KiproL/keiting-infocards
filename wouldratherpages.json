@@ -23,7 +23,7 @@
                 { "text": "+",            "color": "muted" },
                 { "text": "глагол (без to)", "color": "example" }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["would rather", "глагол (без to)"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I would rather stay at home.", "ru": "Я бы лучше остался дома.", "parts": [["I", ""], ["would rather", "would rather"], ["stay", "глагол (без to)"], ["at home.", ""]]}, {"en": "She would rather walk.", "ru": "Она лучше пойдёт пешком.", "parts": [["She", ""], ["would rather", "would rather"], ["walk.", "глагол (без to)"]]}, {"en": "We would rather not go out tonight.", "ru": "Мы бы лучше не выходили сегодня вечером.", "parts": [["We", ""], ["would rather", "would rather"], ["not go", "глагол (без to)"], ["out tonight.", ""]]}]}
             },
             {
               "parts": [
@@ -31,7 +31,7 @@
                 { "text": "+",            "color": "muted" },
                 { "text": "… than …",     "color": "example" }
               ],
-              "accentColor": "good"
+              "accentColor": "good", "drill": {"slots": ["would rather", "… than …"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I would rather walk than take the bus.", "ru": "Я лучше пройдусь пешком, чем поеду на автобусе.", "parts": [["I", ""], ["would rather", "would rather"], ["walk than take the bus.", "… than …"]]}, {"en": "She would rather read than watch TV.", "ru": "Она лучше почитает, чем будет смотреть телевизор.", "parts": [["She", ""], ["would rather", "would rather"], ["read than watch TV.", "… than …"]]}, {"en": "We would rather stay in than go out.", "ru": "Мы лучше посидим дома, чем пойдём куда-то.", "parts": [["We", ""], ["would rather", "would rather"], ["stay in than go out.", "… than …"]]}]}
             }
           ]
         },

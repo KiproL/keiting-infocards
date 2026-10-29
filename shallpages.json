@@ -24,7 +24,7 @@
                 { "text": "глагол?", "color": "example" },
                 { "text": "→ я?",    "color": "term" }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["Shall I", "глагол?"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Shall I open the window?", "ru": "Открыть окно?", "parts": [["Shall I", "Shall I"], ["open", "глагол?"], ["the window?", ""]]}, {"en": "Shall I help you?", "ru": "Тебе помочь?", "parts": [["Shall I", "Shall I"], ["help", "глагол?"], ["you?", ""]]}, {"en": "Shall I call a taxi?", "ru": "Вызвать такси?", "parts": [["Shall I", "Shall I"], ["call", "глагол?"], ["a taxi?", ""]]}]}
             },
             {
               "parts": [
@@ -33,7 +33,7 @@
                 { "text": "глагол?",  "color": "example" },
                 { "text": "→ мы?",    "color": "term" }
               ],
-              "accentColor": "good"
+              "accentColor": "good", "drill": {"slots": ["Shall we", "глагол?"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Shall we go for a walk?", "ru": "Пойдём прогуляемся?", "parts": [["Shall we", "Shall we"], ["go", "глагол?"], ["for a walk?", ""]]}, {"en": "Shall we start?", "ru": "Начнём?", "parts": [["Shall we", "Shall we"], ["start?", "глагол?"]]}, {"en": "Shall we order pizza?", "ru": "Закажем пиццу?", "parts": [["Shall we", "Shall we"], ["order", "глагол?"], ["pizza?", ""]]}]}
             }
           ]
         },

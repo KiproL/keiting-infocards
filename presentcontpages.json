@@ -24,7 +24,7 @@
               { "text": "+",              "color": "muted" },
               { "text": "V-ing",          "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "am / is / are", "V-ing"], "decoys": ["V3", "do / does"], "examples": [{"en": "I am reading a book.", "ru": "Я читаю книгу.", "parts": [["I", "S"], ["am", "am / is / are"], ["reading", "V-ing"], ["a book.", ""]]}, {"en": "She is talking on the phone.", "ru": "Она разговаривает по телефону.", "parts": [["She", "S"], ["is", "am / is / are"], ["talking", "V-ing"], ["on the phone.", ""]]}, {"en": "They are playing outside.", "ru": "Они играют на улице.", "parts": [["They", "S"], ["are", "am / is / are"], ["playing", "V-ing"], ["outside.", ""]]}]}
           }
         },
         {
@@ -115,7 +115,7 @@
               { "text": "+",             "color": "muted" },
               { "text": "V-ing",         "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["am / is / are", "not", "V-ing"], "decoys": ["V3", "do"], "examples": [{"en": "I am not sleeping.", "ru": "Я не сплю.", "parts": [["I", ""], ["am", "am / is / are"], ["not", "not"], ["sleeping.", "V-ing"]]}, {"en": "He is not working today.", "ru": "Он сегодня не работает.", "parts": [["He", ""], ["is", "am / is / are"], ["not", "not"], ["working", "V-ing"], ["today.", ""]]}, {"en": "We are not watching TV.", "ru": "Мы не смотрим телевизор.", "parts": [["We", ""], ["are", "am / is / are"], ["not", "not"], ["watching", "V-ing"], ["TV.", ""]]}]}
           },
           "examples": [
             { "en": "She is not cooking dinner.",   "ru": "Она не готовит ужин." },
@@ -133,7 +133,7 @@
               { "text": "+",             "color": "muted" },
               { "text": "V-ing?",        "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Am / Is / Are", "S", "V-ing?"], "decoys": ["Do", "V3"], "examples": [{"en": "Are you listening?", "ru": "Ты слушаешь?", "parts": [["Are", "Am / Is / Are"], ["you", "S"], ["listening?", "V-ing?"]]}, {"en": "Is she coming?", "ru": "Она идёт?", "parts": [["Is", "Am / Is / Are"], ["she", "S"], ["coming?", "V-ing?"]]}, {"en": "Are they waiting for us?", "ru": "Они нас ждут?", "parts": [["Are", "Am / Is / Are"], ["they", "S"], ["waiting", "V-ing?"], ["for us?", ""]]}]}
           },
           "examples": [
             { "en": "Are they playing football?",     "ru": "Они играют в футбол?" },

@@ -23,7 +23,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "V2 / V-ed", "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "V2 / V-ed"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I watched a film yesterday.", "ru": "Вчера я посмотрел фильм.", "parts": [["I", "S"], ["watched", "V2 / V-ed"], ["a film yesterday.", ""]]}, {"en": "She went to Rome last year.", "ru": "В прошлом году она ездила в Рим.", "parts": [["She", "S"], ["went", "V2 / V-ed"], ["to Rome last year.", ""]]}, {"en": "We bought a new sofa.", "ru": "Мы купили новый диван.", "parts": [["We", "S"], ["bought", "V2 / V-ed"], ["a new sofa.", ""]]}]}
           }
         },
         {
@@ -92,7 +92,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "not + V",    "color": "bad" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["did", "not + V"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I did not go out.", "ru": "Я не выходил из дома.", "parts": [["I", ""], ["did", "did"], ["not go", "not + V"], ["out.", ""]]}, {"en": "She did not call me.", "ru": "Она мне не позвонила.", "parts": [["She", ""], ["did", "did"], ["not call", "not + V"], ["me.", ""]]}, {"en": "We did not see the film.", "ru": "Мы не видели этот фильм.", "parts": [["We", ""], ["did", "did"], ["not see", "not + V"], ["the film.", ""]]}]}
           },
           "examples": [
             { "en": "She didn't cook dinner.",  "ru": "Она не готовила ужин." },
@@ -110,7 +110,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "V?",   "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Did", "S", "V?"], "decoys": ["V2 / V-ed", "Do"], "examples": [{"en": "Did you see the match?", "ru": "Ты видел матч?", "parts": [["Did", "Did"], ["you", "S"], ["see", "V?"], ["the match?", ""]]}, {"en": "Did she call?", "ru": "Она звонила?", "parts": [["Did", "Did"], ["she", "S"], ["call?", "V?"]]}, {"en": "Did they win?", "ru": "Они выиграли?", "parts": [["Did", "Did"], ["they", "S"], ["win?", "V?"]]}]}
           },
           "examples": [
             { "en": "Did they play football?",        "ru": "Они играли в футбол?" },

@@ -24,7 +24,7 @@
               { "text": "+",                "color": "muted" },
               { "text": "V-ing",            "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "have / has been", "V-ing"], "decoys": ["V3", "had been"], "examples": [{"en": "I have been learning English for two years.", "ru": "Я учу английский два года.", "parts": [["I", "S"], ["have been", "have / has been"], ["learning", "V-ing"], ["English for two years.", ""]]}, {"en": "She has been working here since May.", "ru": "Она работает здесь с мая.", "parts": [["She", "S"], ["has been", "have / has been"], ["working", "V-ing"], ["here since May.", ""]]}, {"en": "We have been waiting for an hour.", "ru": "Мы ждём уже час.", "parts": [["We", "S"], ["have been", "have / has been"], ["waiting", "V-ing"], ["for an hour.", ""]]}]}
           }
         },
         {
@@ -110,7 +110,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "V-ing",      "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["have / has", "not been", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I have not been sleeping well.", "ru": "Я плохо сплю в последнее время.", "parts": [["I", ""], ["have", "have / has"], ["not been", "not been"], ["sleeping", "V-ing"], ["well.", ""]]}, {"en": "She has not been feeling well lately.", "ru": "Она в последнее время плохо себя чувствует.", "parts": [["She", ""], ["has", "have / has"], ["not been", "not been"], ["feeling", "V-ing"], ["well lately.", ""]]}, {"en": "We have not been waiting long.", "ru": "Мы ждём недолго.", "parts": [["We", ""], ["have", "have / has"], ["not been", "not been"], ["waiting", "V-ing"], ["long.", ""]]}]}
           },
           "examples": [
             { "en": "She hasn't been sleeping well.",   "ru": "Она плохо спит последнее время." },
@@ -128,7 +128,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "been + V-ing?", "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Have / Has", "S", "been + V-ing?"], "decoys": ["Did", "V3"], "examples": [{"en": "Have you been waiting long?", "ru": "Ты давно ждёшь?", "parts": [["Have", "Have / Has"], ["you", "S"], ["been waiting", "been + V-ing?"], ["long?", ""]]}, {"en": "Has she been crying?", "ru": "Она плакала?", "parts": [["Has", "Have / Has"], ["she", "S"], ["been crying?", "been + V-ing?"]]}, {"en": "Have they been working all day?", "ru": "Они работают весь день?", "parts": [["Have", "Have / Has"], ["they", "S"], ["been working", "been + V-ing?"], ["all day?", ""]]}]}
           },
           "examples": [
             { "en": "Have you been studying English long?",  "ru": "Ты давно учишь английский?" },

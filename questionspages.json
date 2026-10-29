@@ -63,7 +63,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "V?",   "color": "term" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["Aux", "S", "V?"], "decoys": ["Wh-", "V-ing"], "examples": [{"en": "Do you know him?", "ru": "Ты его знаешь?", "parts": [["Do", "Aux"], ["you", "S"], ["know", "V?"], ["him?", ""]]}, {"en": "Can she swim?", "ru": "Она умеет плавать?", "parts": [["Can", "Aux"], ["she", "S"], ["swim?", "V?"]]}, {"en": "Did they go home?", "ru": "Они пошли домой?", "parts": [["Did", "Aux"], ["they", "S"], ["go", "V?"], ["home?", ""]]}]}
           }
         },
         {
@@ -136,7 +136,7 @@
               { "text": "+",   "color": "muted" },
               { "text": "V?",  "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["Wh-", "Aux", "S", "V?"], "decoys": ["not", "V-ing"], "examples": [{"en": "Where do you live?", "ru": "Где ты живёшь?", "parts": [["Where", "Wh-"], ["do", "Aux"], ["you", "S"], ["live?", "V?"]]}, {"en": "What did she say?", "ru": "Что она сказала?", "parts": [["What", "Wh-"], ["did", "Aux"], ["she", "S"], ["say?", "V?"]]}, {"en": "When will they arrive?", "ru": "Когда они приедут?", "parts": [["When", "Wh-"], ["will", "Aux"], ["they", "S"], ["arrive?", "V?"]]}]}
           }
         },
         {
@@ -192,7 +192,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "…?",         "color": "term" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["Who / What", "V", "…?"], "decoys": ["Aux", "did"], "examples": [{"en": "Who called you?", "ru": "Кто тебе звонил?", "parts": [["Who", "Who / What"], ["called", "V"], ["you?", "…?"]]}, {"en": "What happened yesterday?", "ru": "Что случилось вчера?", "parts": [["What", "Who / What"], ["happened", "V"], ["yesterday?", "…?"]]}, {"en": "Who lives here?", "ru": "Кто здесь живёт?", "parts": [["Who", "Who / What"], ["lives", "V"], ["here?", "…?"]]}]}
           }
         },
         {
@@ -258,7 +258,7 @@
               { "text": "or",            "color": "term" },
               { "text": "B?",            "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["Aux + S + V", "A", "or", "B?"], "decoys": ["and", "Wh-"], "examples": [{"en": "Do you want tea or coffee?", "ru": "Ты хочешь чай или кофе?", "parts": [["Do you want", "Aux + S + V"], ["tea", "A"], ["or", "or"], ["coffee?", "B?"]]}, {"en": "Are you going by bus or by train?", "ru": "Ты поедешь на автобусе или на поезде?", "parts": [["Are you going", "Aux + S + V"], ["by bus", "A"], ["or", "or"], ["by train?", "B?"]]}, {"en": "Did she buy the red one or the blue one?", "ru": "Она купила красный или синий?", "parts": [["Did she buy", "Aux + S + V"], ["the red one", "A"], ["or", "or"], ["the blue one?", "B?"]]}]}
           }
         },
         {

@@ -25,7 +25,7 @@
               { "text": "·",     "color": "muted" },
               { "text": "he/she/it → +s", "color": "term" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "V"], "decoys": ["V-ing", "V3"], "examples": [{"en": "She plays tennis every Sunday.", "ru": "Она играет в теннис каждое воскресенье.", "parts": [["She", "S"], ["plays", "V"], ["tennis every Sunday.", ""]]}, {"en": "I drink coffee in the morning.", "ru": "По утрам я пью кофе.", "parts": [["I", "S"], ["drink", "V"], ["coffee in the morning.", ""]]}, {"en": "Water boils at 100 degrees.", "ru": "Вода кипит при 100 градусах.", "parts": [["Water", "S"], ["boils", "V"], ["at 100 degrees.", ""]]}]}
           }
         },
         {
@@ -112,7 +112,7 @@
               { "text": "+",         "color": "muted" },
               { "text": "V",         "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["do / does", "not", "V"], "decoys": ["V-ing", "am / is / are"], "examples": [{"en": "I do not like fish.", "ru": "Я не люблю рыбу.", "parts": [["I", ""], ["do", "do / does"], ["not", "not"], ["like", "V"], ["fish.", ""]]}, {"en": "She does not eat meat.", "ru": "Она не ест мясо.", "parts": [["She", ""], ["does", "do / does"], ["not", "not"], ["eat", "V"], ["meat.", ""]]}, {"en": "They do not live here.", "ru": "Они здесь не живут.", "parts": [["They", ""], ["do", "do / does"], ["not", "not"], ["live", "V"], ["here.", ""]]}]}
           },
           "examples": [
             { "en": "He doesn't play football.",   "ru": "Он не играет в футбол." },
@@ -130,7 +130,7 @@
               { "text": "+",         "color": "muted" },
               { "text": "V?",        "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Do / Does", "S", "V?"], "decoys": ["V-ing", "not"], "examples": [{"en": "Do you like coffee?", "ru": "Ты любишь кофе?", "parts": [["Do", "Do / Does"], ["you", "S"], ["like", "V?"], ["coffee?", ""]]}, {"en": "Does he work here?", "ru": "Он здесь работает?", "parts": [["Does", "Do / Does"], ["he", "S"], ["work", "V?"], ["here?", ""]]}, {"en": "Do they speak English?", "ru": "Они говорят по-английски?", "parts": [["Do", "Do / Does"], ["they", "S"], ["speak", "V?"], ["English?", ""]]}]}
           },
           "examples": [
             { "en": "Do you play football?",       "ru": "Ты играешь в футбол?" },

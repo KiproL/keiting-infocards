@@ -96,7 +96,7 @@
                 { "text": "+",        "color": "muted" },
                 { "text": "предмет",  "color": "example" }
               ],
-              "accentColor": "bad"
+              "accentColor": "bad", "drill": {"slots": ["There is", "no", "предмет"], "decoys": ["not", "any"], "examples": [{"en": "There is no milk in the fridge.", "ru": "В холодильнике нет молока.", "parts": [["There is", "There is"], ["no", "no"], ["milk", "предмет"], ["in the fridge.", ""]]}, {"en": "There is no time to lose.", "ru": "Нельзя терять время.", "parts": [["There is", "There is"], ["no", "no"], ["time", "предмет"], ["to lose.", ""]]}, {"en": "There is no lift in this building.", "ru": "В этом здании нет лифта.", "parts": [["There is", "There is"], ["no", "no"], ["lift", "предмет"], ["in this building.", ""]]}]}
             },
             {
               "parts": [
@@ -106,7 +106,7 @@
                 { "text": "+",           "color": "muted" },
                 { "text": "предмет",      "color": "example" }
               ],
-              "accentColor": "bad"
+              "accentColor": "bad", "drill": {"slots": ["There isn't", "a / any", "предмет"], "decoys": ["no", "some"], "examples": [{"en": "There isn't a bank near here.", "ru": "Здесь рядом нет банка.", "parts": [["There isn't", "There isn't"], ["a", "a / any"], ["bank", "предмет"], ["near here.", ""]]}, {"en": "There isn't any sugar.", "ru": "Сахара нет.", "parts": [["There isn't", "There isn't"], ["any", "a / any"], ["sugar.", "предмет"]]}, {"en": "There isn't a lift here.", "ru": "Здесь нет лифта.", "parts": [["There isn't", "There isn't"], ["a", "a / any"], ["lift", "предмет"], ["here.", ""]]}]}
             }
           ],
           "examples": [
@@ -127,7 +127,7 @@
               { "text": "+",        "color": "muted" },
               { "text": "предмет?", "color": "example" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Is / Are", "there", "предмет?"], "decoys": ["it", "Do"], "examples": [{"en": "Is there a bank near here?", "ru": "Здесь рядом есть банк?", "parts": [["Is", "Is / Are"], ["there", "there"], ["a bank", "предмет?"], ["near here?", ""]]}, {"en": "Are there any eggs?", "ru": "Яйца есть?", "parts": [["Are", "Is / Are"], ["there", "there"], ["any eggs?", "предмет?"]]}, {"en": "Is there a lift?", "ru": "Здесь есть лифт?", "parts": [["Is", "Is / Are"], ["there", "there"], ["a lift?", "предмет?"]]}]}
           },
           "examples": [
             { "en": "Is there a bank near here?",       "ru": "Здесь рядом есть банк?" },

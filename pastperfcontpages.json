@@ -24,7 +24,7 @@
               { "text": "+",              "color": "muted" },
               { "text": "V-ing",          "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "had been", "V-ing"], "decoys": ["V3", "have been"], "examples": [{"en": "I had been waiting for an hour when he came.", "ru": "Я ждал уже час, когда он пришёл.", "parts": [["I", "S"], ["had been", "had been"], ["waiting", "V-ing"], ["for an hour when he came.", ""]]}, {"en": "She had been crying before we arrived.", "ru": "До нашего прихода она плакала.", "parts": [["She", "S"], ["had been", "had been"], ["crying", "V-ing"], ["before we arrived.", ""]]}, {"en": "They had been living there for years.", "ru": "Они прожили там много лет.", "parts": [["They", "S"], ["had been", "had been"], ["living", "V-ing"], ["there for years.", ""]]}]}
           }
         },
         {
@@ -107,7 +107,7 @@
               { "text": "+",            "color": "muted" },
               { "text": "V-ing",        "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["had", "not been", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I had not been sleeping well.", "ru": "Я тогда плохо спал.", "parts": [["I", ""], ["had", "had"], ["not been", "not been"], ["sleeping", "V-ing"], ["well.", ""]]}, {"en": "She had not been working there long.", "ru": "Она проработала там недолго.", "parts": [["She", ""], ["had", "had"], ["not been", "not been"], ["working", "V-ing"], ["there long.", ""]]}, {"en": "We had not been waiting long when the bus came.", "ru": "Мы ждали недолго, когда пришёл автобус.", "parts": [["We", ""], ["had", "had"], ["not been", "not been"], ["waiting", "V-ing"], ["long when the bus came.", ""]]}]}
           },
           "examples": [
             { "en": "She hadn't been sleeping well before the trip.",  "ru": "Она плохо спала перед поездкой." },
@@ -125,7 +125,7 @@
               { "text": "+",   "color": "muted" },
               { "text": "been + V-ing?", "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Had", "S", "been + V-ing?"], "decoys": ["Did", "V3"], "examples": [{"en": "Had you been waiting long?", "ru": "Ты долго ждал?", "parts": [["Had", "Had"], ["you", "S"], ["been waiting", "been + V-ing?"], ["long?", ""]]}, {"en": "Had she been crying?", "ru": "Она плакала?", "parts": [["Had", "Had"], ["she", "S"], ["been crying?", "been + V-ing?"]]}, {"en": "Had they been working all day?", "ru": "Они работали весь день?", "parts": [["Had", "Had"], ["they", "S"], ["been working", "been + V-ing?"], ["all day?", ""]]}]}
           },
           "examples": [
             { "en": "Had they been waiting long before you arrived?",  "ru": "Они долго ждали до того, как ты приехал?" },

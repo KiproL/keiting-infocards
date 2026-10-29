@@ -24,7 +24,7 @@
               { "text": "+",         "color": "muted" },
               { "text": "V3",        "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "will have", "V3"], "decoys": ["V-ing", "will be"], "examples": [{"en": "I will have finished by Monday.", "ru": "Я закончу к понедельнику.", "parts": [["I", "S"], ["will have", "will have"], ["finished", "V3"], ["by Monday.", ""]]}, {"en": "She will have left by noon.", "ru": "К полудню она уже уйдёт.", "parts": [["She", "S"], ["will have", "will have"], ["left", "V3"], ["by noon.", ""]]}, {"en": "They will have built the bridge by 2030.", "ru": "К 2030 году они построят мост.", "parts": [["They", "S"], ["will have", "will have"], ["built", "V3"], ["the bridge by 2030.", ""]]}]}
           }
         },
         {
@@ -109,7 +109,7 @@
               { "text": "+",        "color": "muted" },
               { "text": "V3",       "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["will", "not have", "V3"], "decoys": ["V-ing", "be"], "examples": [{"en": "I will not have finished by then.", "ru": "К тому времени я ещё не закончу.", "parts": [["I", ""], ["will", "will"], ["not have", "not have"], ["finished", "V3"], ["by then.", ""]]}, {"en": "She will not have arrived by six.", "ru": "К шести она ещё не приедет.", "parts": [["She", ""], ["will", "will"], ["not have", "not have"], ["arrived", "V3"], ["by six.", ""]]}, {"en": "We will not have eaten before the show.", "ru": "До спектакля мы ещё не успеем поесть.", "parts": [["We", ""], ["will", "will"], ["not have", "not have"], ["eaten", "V3"], ["before the show.", ""]]}]}
           },
           "examples": [
             { "en": "They won't have finished by then.",  "ru": "Они не закончат к тому времени." },
@@ -127,7 +127,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "have + V3?", "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Will", "S", "have + V3?"], "decoys": ["Have", "be + V-ing?"], "examples": [{"en": "Will you have finished by Friday?", "ru": "Ты закончишь к пятнице?", "parts": [["Will", "Will"], ["you", "S"], ["have finished", "have + V3?"], ["by Friday?", ""]]}, {"en": "Will they have arrived by noon?", "ru": "Они приедут к полудню?", "parts": [["Will", "Will"], ["they", "S"], ["have arrived", "have + V3?"], ["by noon?", ""]]}, {"en": "Will she have read the book by then?", "ru": "Она прочитает книгу к тому времени?", "parts": [["Will", "Will"], ["she", "S"], ["have read", "have + V3?"], ["the book by then?", ""]]}]}
           },
           "examples": [
             { "en": "Will you have finished by 6 pm?",           "ru": "Ты закончишь к 6 вечера?" },

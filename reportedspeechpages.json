@@ -59,7 +59,7 @@
                 "color": "term"
               }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["said", "(that)", "подлежащее", "глагол на шаг в прошлое"], "decoys": ["told", "if"], "examples": [{"en": "He said that he was tired.", "ru": "Он сказал, что устал.", "parts": [["He", ""], ["said", "said"], ["that", "(that)"], ["he", "подлежащее"], ["was", "глагол на шаг в прошлое"], ["tired.", ""]]}, {"en": "She said that she liked the film.", "ru": "Она сказала, что ей понравился фильм.", "parts": [["She", ""], ["said", "said"], ["that", "(that)"], ["she", "подлежащее"], ["liked", "глагол на шаг в прошлое"], ["the film.", ""]]}, {"en": "Tom said that they were leaving.", "ru": "Том сказал, что они уезжают.", "parts": [["Tom", ""], ["said", "said"], ["that", "(that)"], ["they", "подлежащее"], ["were leaving.", "глагол на шаг в прошлое"]]}]}
           }
         },
         {
@@ -509,7 +509,7 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "term"
+              "accentColor": "term", "drill": {"slots": ["asked", "if / whether", "подлежащее", "глагол"], "decoys": ["that", "did"], "examples": [{"en": "She asked if I was hungry.", "ru": "Она спросила, голоден ли я.", "parts": [["She", ""], ["asked", "asked"], ["if", "if / whether"], ["I", "подлежащее"], ["was", "глагол"], ["hungry.", ""]]}, {"en": "He asked whether we had a car.", "ru": "Он спросил, есть ли у нас машина.", "parts": [["He", ""], ["asked", "asked"], ["whether", "if / whether"], ["we", "подлежащее"], ["had", "глагол"], ["a car.", ""]]}, {"en": "Tom asked if she could swim.", "ru": "Том спросил, умеет ли она плавать.", "parts": [["Tom", ""], ["asked", "asked"], ["if", "if / whether"], ["she", "подлежащее"], ["could", "глагол"], ["swim.", ""]]}]}
             },
             {
               "parts": [
@@ -542,7 +542,7 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["asked", "what / where / why…", "подлежащее", "глагол"], "decoys": ["did", "that"], "examples": [{"en": "She asked where I lived.", "ru": "Она спросила, где я живу.", "parts": [["She", ""], ["asked", "asked"], ["where", "what / where / why…"], ["I", "подлежащее"], ["lived.", "глагол"]]}, {"en": "He asked what we wanted.", "ru": "Он спросил, чего мы хотим.", "parts": [["He", ""], ["asked", "asked"], ["what", "what / where / why…"], ["we", "подлежащее"], ["wanted.", "глагол"]]}, {"en": "Tom asked why she was sad.", "ru": "Том спросил, почему ей грустно.", "parts": [["Tom", ""], ["asked", "asked"], ["why", "what / where / why…"], ["she", "подлежащее"], ["was", "глагол"], ["sad.", ""]]}]}
             }
           ]
         },
@@ -645,7 +645,7 @@
                 "color": "text"
               }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["told / asked", "кого", "(not) to", "глагол"], "decoys": ["that", "V-ing"], "examples": [{"en": "She told me to wait.", "ru": "Она велела мне подождать.", "parts": [["She", ""], ["told", "told / asked"], ["me", "кого"], ["to", "(not) to"], ["wait.", "глагол"]]}, {"en": "He asked us not to shout.", "ru": "Он попросил нас не кричать.", "parts": [["He", ""], ["asked", "told / asked"], ["us", "кого"], ["not to", "(not) to"], ["shout.", "глагол"]]}, {"en": "The doctor told him to rest.", "ru": "Врач велел ему отдыхать.", "parts": [["The doctor", ""], ["told", "told / asked"], ["him", "кого"], ["to", "(not) to"], ["rest.", "глагол"]]}]}
           }
         },
         {

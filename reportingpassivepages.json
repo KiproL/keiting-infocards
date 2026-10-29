@@ -25,7 +25,7 @@
                 { "text": "+",     "color": "muted" },
                 { "text": "that…", "color": "term" }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["It is", "said / believed", "that…"], "decoys": ["V-ing", "V3"], "examples": [{"en": "It is said that he lives abroad.", "ru": "Говорят, что он живёт за границей.", "parts": [["It is", "It is"], ["said", "said / believed"], ["that he lives abroad.", "that…"]]}, {"en": "It is believed that the castle is 800 years old.", "ru": "Считается, что замку 800 лет.", "parts": [["It is", "It is"], ["believed", "said / believed"], ["that the castle is 800 years old.", "that…"]]}, {"en": "It is said that the film is brilliant.", "ru": "Говорят, что фильм отличный.", "parts": [["It is", "It is"], ["said", "said / believed"], ["that the film is brilliant.", "that…"]]}]}
             },
             {
               "parts": [
@@ -35,7 +35,7 @@
                 { "text": "+",     "color": "muted" },
                 { "text": "to…",   "color": "term" }
               ],
-              "accentColor": "term"
+              "accentColor": "term", "drill": {"slots": ["S", "is said", "to…"], "decoys": ["V-ing", "V3"], "examples": [{"en": "He is said to be very rich.", "ru": "Говорят, что он очень богат.", "parts": [["He", "S"], ["is said", "is said"], ["to be very rich.", "to…"]]}, {"en": "The castle is said to be haunted.", "ru": "Говорят, что в замке водятся привидения.", "parts": [["The castle", "S"], ["is said", "is said"], ["to be haunted.", "to…"]]}, {"en": "She is said to speak five languages.", "ru": "Говорят, что она знает пять языков.", "parts": [["She", "S"], ["is said", "is said"], ["to speak five languages.", "to…"]]}]}
             }
           ]
         },

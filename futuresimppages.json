@@ -25,7 +25,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "V",    "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "will", "V"], "decoys": ["to", "V-ing"], "examples": [{"en": "I will call you tomorrow.", "ru": "Я позвоню тебе завтра.", "parts": [["I", "S"], ["will", "will"], ["call", "V"], ["you tomorrow.", ""]]}, {"en": "She will help us.", "ru": "Она нам поможет.", "parts": [["She", "S"], ["will", "will"], ["help", "V"], ["us.", ""]]}, {"en": "It will rain tonight.", "ru": "Сегодня ночью пойдёт дождь.", "parts": [["It", "S"], ["will", "will"], ["rain", "V"], ["tonight.", ""]]}]}
           }
         },
         {
@@ -112,7 +112,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "V",    "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["will", "not", "V"], "decoys": ["to", "V-ing"], "examples": [{"en": "I will not tell anyone.", "ru": "Я никому не скажу.", "parts": [["I", ""], ["will", "will"], ["not", "not"], ["tell", "V"], ["anyone.", ""]]}, {"en": "They will not come today.", "ru": "Они сегодня не придут.", "parts": [["They", ""], ["will", "will"], ["not", "not"], ["come", "V"], ["today.", ""]]}, {"en": "It will not take long.", "ru": "Это не займёт много времени.", "parts": [["It", ""], ["will", "will"], ["not", "not"], ["take", "V"], ["long.", ""]]}]}
           },
           "examples": [
             { "en": "She won't cook dinner tonight.",   "ru": "Она не будет готовить ужин сегодня." },
@@ -131,7 +131,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "V?",   "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Will", "S", "V?"], "decoys": ["to", "V-ing"], "examples": [{"en": "Will you help me?", "ru": "Ты мне поможешь?", "parts": [["Will", "Will"], ["you", "S"], ["help", "V?"], ["me?", ""]]}, {"en": "Will she come to the party?", "ru": "Она придёт на вечеринку?", "parts": [["Will", "Will"], ["she", "S"], ["come", "V?"], ["to the party?", ""]]}, {"en": "Will it rain tomorrow?", "ru": "Завтра будет дождь?", "parts": [["Will", "Will"], ["it", "S"], ["rain", "V?"], ["tomorrow?", ""]]}]}
           },
           "examples": [
             { "en": "Will they play football?",   "ru": "Они будут играть в футбол?" },

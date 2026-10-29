@@ -24,7 +24,7 @@
               { "text": "+",             "color": "muted" },
               { "text": "V-ing",          "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "will have been", "V-ing"], "decoys": ["V3", "will be"], "examples": [{"en": "I will have been working here for ten years by June.", "ru": "К июню я буду работать здесь уже десять лет.", "parts": [["I", "S"], ["will have been", "will have been"], ["working", "V-ing"], ["here for ten years by June.", ""]]}, {"en": "She will have been studying for five hours by then.", "ru": "К тому времени она будет заниматься уже пять часов.", "parts": [["She", "S"], ["will have been", "will have been"], ["studying", "V-ing"], ["for five hours by then.", ""]]}, {"en": "They will have been travelling for a month.", "ru": "Они будут путешествовать уже месяц.", "parts": [["They", "S"], ["will have been", "will have been"], ["travelling", "V-ing"], ["for a month.", ""]]}]}
           }
         },
         {
@@ -108,7 +108,7 @@
               { "text": "+",             "color": "muted" },
               { "text": "V-ing",         "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["will", "not have been", "V-ing"], "decoys": ["V3", "be"], "examples": [{"en": "By May, I will not have been living here for a year.", "ru": "К маю я ещё не проживу здесь год.", "parts": [["By May, I", ""], ["will", "will"], ["not have been", "not have been"], ["living", "V-ing"], ["here for a year.", ""]]}, {"en": "He will not have been working long by then.", "ru": "К тому времени он будет работать совсем недолго.", "parts": [["He", ""], ["will", "will"], ["not have been", "not have been"], ["working", "V-ing"], ["long by then.", ""]]}, {"en": "She will not have been studying long enough.", "ru": "Она будет заниматься недостаточно долго.", "parts": [["She", ""], ["will", "will"], ["not have been", "not have been"], ["studying", "V-ing"], ["long enough.", ""]]}]}
           },
           "examples": [
             { "en": "They won't have been waiting long by then.", "ru": "Они не будут ждать долго к тому моменту." },
@@ -126,7 +126,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "have been + V-ing?", "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Will", "S", "have been + V-ing?"], "decoys": ["Have", "be + V-ing?"], "examples": [{"en": "Will you have been working here for a year by May?", "ru": "К маю ты будешь работать здесь уже год?", "parts": [["Will", "Will"], ["you", "S"], ["have been working", "have been + V-ing?"], ["here for a year by May?", ""]]}, {"en": "Will she have been studying for long?", "ru": "Она будет заниматься уже долго?", "parts": [["Will", "Will"], ["she", "S"], ["have been studying", "have been + V-ing?"], ["for long?", ""]]}, {"en": "Will they have been waiting for hours?", "ru": "Они будут ждать уже несколько часов?", "parts": [["Will", "Will"], ["they", "S"], ["have been waiting", "have been + V-ing?"], ["for hours?", ""]]}]}
           },
           "examples": [
             { "en": "Will you have been living here for a year by March?",     "ru": "К марту ты будешь жить здесь уже год?" },

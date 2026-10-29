@@ -67,7 +67,7 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "term"
+              "accentColor": "term", "drill": {"slots": ["although / even though", "подлежащее", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Although it was raining, we went out.", "ru": "Хотя шёл дождь, мы пошли гулять.", "parts": [["Although", "although / even though"], ["it", "подлежащее"], ["was raining,", "глагол"], ["we went out.", ""]]}, {"en": "We stayed even though we were tired.", "ru": "Мы остались, хотя и устали.", "parts": [["We stayed", ""], ["even though", "although / even though"], ["we", "подлежащее"], ["were tired.", "глагол"]]}, {"en": "Although she is rich, she is not happy.", "ru": "Хотя она богата, она несчастлива.", "parts": [["Although", "although / even though"], ["she", "подлежащее"], ["is rich,", "глагол"], ["she is not happy.", ""]]}]}
             },
             {
               "parts": [
@@ -84,7 +84,7 @@
                   "color": "example"
                 }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["despite / in spite of", "существительное или -ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "We went out despite the rain.", "ru": "Мы пошли гулять, несмотря на дождь.", "parts": [["We went out", ""], ["despite", "despite / in spite of"], ["the rain.", "существительное или -ing"]]}, {"en": "In spite of being tired, she kept working.", "ru": "Несмотря на усталость, она продолжала работать.", "parts": [["In spite of", "despite / in spite of"], ["being tired,", "существительное или -ing"], ["she kept working.", ""]]}, {"en": "He passed despite his nerves.", "ru": "Он сдал, несмотря на волнение.", "parts": [["He passed", ""], ["despite", "despite / in spite of"], ["his nerves.", "существительное или -ing"]]}]}
             }
           ]
         },

@@ -24,7 +24,7 @@
               { "text": "+",     "color": "muted" },
               { "text": "V-ing", "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "will be", "V-ing"], "decoys": ["V3", "will have"], "examples": [{"en": "I will be working at six tomorrow.", "ru": "Завтра в шесть я буду работать.", "parts": [["I", "S"], ["will be", "will be"], ["working", "V-ing"], ["at six tomorrow.", ""]]}, {"en": "They will be travelling all next week.", "ru": "Всю следующую неделю они будут путешествовать.", "parts": [["They", "S"], ["will be", "will be"], ["travelling", "V-ing"], ["all next week.", ""]]}, {"en": "She will be waiting for you.", "ru": "Она будет тебя ждать.", "parts": [["She", "S"], ["will be", "will be"], ["waiting", "V-ing"], ["for you.", ""]]}]}
           }
         },
         {
@@ -108,7 +108,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "V-ing", "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["will", "not be", "V-ing"], "decoys": ["V3", "have"], "examples": [{"en": "I will not be working tomorrow.", "ru": "Завтра я не буду работать.", "parts": [["I", ""], ["will", "will"], ["not be", "not be"], ["working", "V-ing"], ["tomorrow.", ""]]}, {"en": "She will not be using the car tonight.", "ru": "Сегодня вечером она не будет пользоваться машиной.", "parts": [["She", ""], ["will", "will"], ["not be", "not be"], ["using", "V-ing"], ["the car tonight.", ""]]}, {"en": "We will not be staying at home.", "ru": "Мы не будем сидеть дома.", "parts": [["We", ""], ["will", "will"], ["not be", "not be"], ["staying", "V-ing"], ["at home.", ""]]}]}
           },
           "examples": [
             { "en": "She won't be working tomorrow evening.", "ru": "Она не будет работать завтра вечером." },
@@ -126,7 +126,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "be + V-ing?", "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Will", "S", "be + V-ing?"], "decoys": ["Do", "have + V3?"], "examples": [{"en": "Will you be using the car tonight?", "ru": "Ты будешь пользоваться машиной сегодня вечером?", "parts": [["Will", "Will"], ["you", "S"], ["be using", "be + V-ing?"], ["the car tonight?", ""]]}, {"en": "Will she be working tomorrow?", "ru": "Она завтра будет работать?", "parts": [["Will", "Will"], ["she", "S"], ["be working", "be + V-ing?"], ["tomorrow?", ""]]}, {"en": "Will they be staying at the hotel?", "ru": "Они будут жить в гостинице?", "parts": [["Will", "Will"], ["they", "S"], ["be staying", "be + V-ing?"], ["at the hotel?", ""]]}]}
           },
           "examples": [
             { "en": "Will you be using the car tonight?",         "ru": "Ты будешь пользоваться машиной сегодня вечером?" },

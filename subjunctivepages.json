@@ -25,7 +25,7 @@
               { "text": "+",                          "color": "muted" },
               { "text": "глагол (без -s)",             "color": "term" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["suggest / demand / insist", "that + S", "глагол (без -s)"], "decoys": ["to", "will"], "examples": [{"en": "I suggest that he see a doctor.", "ru": "Я предлагаю, чтобы он сходил к врачу.", "parts": [["I", ""], ["suggest", "suggest / demand / insist"], ["that he", "that + S"], ["see", "глагол (без -s)"], ["a doctor.", ""]]}, {"en": "They demanded that she leave.", "ru": "Они потребовали, чтобы она ушла.", "parts": [["They", ""], ["demanded", "suggest / demand / insist"], ["that she", "that + S"], ["leave.", "глагол (без -s)"]]}, {"en": "He insists that everyone arrive on time.", "ru": "Он настаивает, чтобы все приходили вовремя.", "parts": [["He", ""], ["insists", "suggest / demand / insist"], ["that everyone", "that + S"], ["arrive", "глагол (без -s)"], ["on time.", ""]]}]}
           }
         },
         {

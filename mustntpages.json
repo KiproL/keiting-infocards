@@ -24,7 +24,7 @@
                 { "text": "+",    "color": "muted" },
                 { "text": "глагол (без to)", "color": "example" }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["must", "глагол (без to)"], "decoys": ["V-ing", "V3"], "examples": [{"en": "You must wear a seat belt.", "ru": "Ты должен пристегнуться.", "parts": [["You", ""], ["must", "must"], ["wear", "глагол (без to)"], ["a seat belt.", ""]]}, {"en": "I must call my mum.", "ru": "Мне надо позвонить маме.", "parts": [["I", ""], ["must", "must"], ["call", "глагол (без to)"], ["my mum.", ""]]}, {"en": "We must leave now.", "ru": "Нам пора уходить.", "parts": [["We", ""], ["must", "must"], ["leave", "глагол (без to)"], ["now.", ""]]}]}
             },
             {
               "parts": [
@@ -32,7 +32,7 @@
                 { "text": "+",       "color": "muted" },
                 { "text": "глагол",  "color": "example" }
               ],
-              "accentColor": "bad"
+              "accentColor": "bad", "drill": {"slots": ["mustn't", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "You mustn't smoke here.", "ru": "Здесь нельзя курить.", "parts": [["You", ""], ["mustn't", "mustn't"], ["smoke", "глагол"], ["here.", ""]]}, {"en": "We mustn't be late.", "ru": "Нам нельзя опаздывать.", "parts": [["We", ""], ["mustn't", "mustn't"], ["be", "глагол"], ["late.", ""]]}, {"en": "You mustn't tell anyone.", "ru": "Никому нельзя говорить.", "parts": [["You", ""], ["mustn't", "mustn't"], ["tell", "глагол"], ["anyone.", ""]]}]}
             }
           ]
         },

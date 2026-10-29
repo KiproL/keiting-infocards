@@ -23,7 +23,7 @@
               { "text": "+",     "color": "muted" },
               { "text": "V",       "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["Subject", "Modal", "V"], "decoys": ["to", "V-ing"], "examples": [{"en": "You must wear a helmet.", "ru": "Ты должен надеть шлем.", "parts": [["You", "Subject"], ["must", "Modal"], ["wear", "V"], ["a helmet.", ""]]}, {"en": "She can swim very well.", "ru": "Она очень хорошо плавает.", "parts": [["She", "Subject"], ["can", "Modal"], ["swim", "V"], ["very well.", ""]]}, {"en": "We should leave now.", "ru": "Нам стоит уйти сейчас.", "parts": [["We", "Subject"], ["should", "Modal"], ["leave", "V"], ["now.", ""]]}]}
           },
           "callout": {
             "type": "warning",

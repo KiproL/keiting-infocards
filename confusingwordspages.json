@@ -133,7 +133,7 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "term"
+              "accentColor": "term", "drill": {"slots": ["borrow", "что", "from someone"], "decoys": ["lend", "to someone"], "examples": [{"en": "Can I borrow your pen?", "ru": "Можно взять твою ручку?", "parts": [["Can I", ""], ["borrow", "borrow"], ["your pen?", "что"]]}, {"en": "I borrowed some money from my brother.", "ru": "Я занял немного денег у брата.", "parts": [["I", ""], ["borrowed", "borrow"], ["some money", "что"], ["from my brother.", "from someone"]]}, {"en": "She borrowed a book from the library.", "ru": "Она взяла книгу в библиотеке.", "parts": [["She", ""], ["borrowed", "borrow"], ["a book", "что"], ["from the library.", "from someone"]]}]}
             },
             {
               "parts": [
@@ -158,7 +158,7 @@
                   "color": "muted"
                 }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["lend", "someone", "что"], "decoys": ["borrow", "from"], "examples": [{"en": "Can you lend me your pen?", "ru": "Можешь одолжить мне ручку?", "parts": [["Can you", ""], ["lend", "lend"], ["me", "someone"], ["your pen?", "что"]]}, {"en": "I lent my brother some money.", "ru": "Я одолжил брату немного денег.", "parts": [["I", ""], ["lent", "lend"], ["my brother", "someone"], ["some money.", "что"]]}, {"en": "She lent him her car.", "ru": "Она одолжила ему свою машину.", "parts": [["She", ""], ["lent", "lend"], ["him", "someone"], ["her car.", "что"]]}]}
             }
           ]
         },

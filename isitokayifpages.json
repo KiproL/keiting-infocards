@@ -24,7 +24,7 @@
               { "text": "+",             "color": "muted" },
               { "text": "глагол",        "color": "term" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["Is it okay if", "подлежащее", "глагол"], "decoys": ["to", "will"], "examples": [{"en": "Is it okay if I open the window?", "ru": "Ничего, если я открою окно?", "parts": [["Is it okay if", "Is it okay if"], ["I", "подлежащее"], ["open", "глагол"], ["the window?", ""]]}, {"en": "Is it okay if we leave early?", "ru": "Ничего, если мы уйдём пораньше?", "parts": [["Is it okay if", "Is it okay if"], ["we", "подлежащее"], ["leave", "глагол"], ["early?", ""]]}, {"en": "Is it okay if my friend comes too?", "ru": "Ничего, если мой друг тоже придёт?", "parts": [["Is it okay if", "Is it okay if"], ["my friend", "подлежащее"], ["comes", "глагол"], ["too?", ""]]}]}
           }
         },
         {

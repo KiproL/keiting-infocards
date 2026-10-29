@@ -24,7 +24,7 @@
               { "text": "+",   "color": "muted" },
               { "text": "V3",  "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "had", "V3"], "decoys": ["V-ing", "have"], "examples": [{"en": "I had finished before he came.", "ru": "Я закончил до того, как он пришёл.", "parts": [["I", "S"], ["had", "had"], ["finished", "V3"], ["before he came.", ""]]}, {"en": "She had left when we arrived.", "ru": "Когда мы пришли, она уже ушла.", "parts": [["She", "S"], ["had", "had"], ["left", "V3"], ["when we arrived.", ""]]}, {"en": "They had eaten before the film.", "ru": "Они поели до фильма.", "parts": [["They", "S"], ["had", "had"], ["eaten", "V3"], ["before the film.", ""]]}]}
           }
         },
         {
@@ -100,7 +100,7 @@
               { "text": "+",    "color": "muted" },
               { "text": "not + V3", "color": "bad" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["had", "not + V3"], "decoys": ["V-ing", "will"], "examples": [{"en": "I had not seen him before.", "ru": "Раньше я его не видел.", "parts": [["I", ""], ["had", "had"], ["not seen", "not + V3"], ["him before.", ""]]}, {"en": "She had not finished yet.", "ru": "Она ещё не закончила.", "parts": [["She", ""], ["had", "had"], ["not finished", "not + V3"], ["yet.", ""]]}, {"en": "We had not met before the party.", "ru": "До вечеринки мы не были знакомы.", "parts": [["We", ""], ["had", "had"], ["not met", "not + V3"], ["before the party.", ""]]}]}
           },
           "examples": [
             { "en": "She hadn't cooked dinner when we came.",  "ru": "Она не приготовила ужин, когда мы пришли." },
@@ -118,7 +118,7 @@
               { "text": "+",   "color": "muted" },
               { "text": "V3?", "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Had", "S", "V3?"], "decoys": ["Did", "V-ing"], "examples": [{"en": "Had you finished before he came?", "ru": "Ты закончил до того, как он пришёл?", "parts": [["Had", "Had"], ["you", "S"], ["finished", "V3?"], ["before he came?", ""]]}, {"en": "Had she left?", "ru": "Она уже ушла?", "parts": [["Had", "Had"], ["she", "S"], ["left?", "V3?"]]}, {"en": "Had they met before?", "ru": "Они были знакомы раньше?", "parts": [["Had", "Had"], ["they", "S"], ["met", "V3?"], ["before?", ""]]}]}
           },
           "examples": [
             { "en": "Had they left before you called?",         "ru": "Они ушли до того, как ты позвонил?" },

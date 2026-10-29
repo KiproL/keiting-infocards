@@ -44,7 +44,7 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "term"
+              "accentColor": "term", "drill": {"slots": ["to", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I want to travel.", "ru": "Я хочу путешествовать.", "parts": [["I want", ""], ["to", "to"], ["travel.", "глагол"]]}, {"en": "She decided to stay.", "ru": "Она решила остаться.", "parts": [["She decided", ""], ["to", "to"], ["stay.", "глагол"]]}, {"en": "We hope to see you soon.", "ru": "Надеемся скоро тебя увидеть.", "parts": [["We hope", ""], ["to", "to"], ["see", "глагол"], ["you soon.", ""]]}]}
             },
             {
               "parts": [
@@ -61,7 +61,7 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "example"
+              "accentColor": "example", "drill": {"slots": ["can / must / make", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I can swim.", "ru": "Я умею плавать.", "parts": [["I", ""], ["can", "can / must / make"], ["swim.", "глагол"]]}, {"en": "You must try this cake.", "ru": "Ты обязательно должен попробовать этот торт.", "parts": [["You", ""], ["must", "can / must / make"], ["try", "глагол"], ["this cake.", ""]]}, {"en": "She made me laugh.", "ru": "Она меня рассмешила.", "parts": [["She", ""], ["made", "can / must / make"], ["me", ""], ["laugh.", "глагол"]]}]}
             }
           ]
         },
@@ -434,7 +434,7 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["want / ask / tell", "you / him / her", "to do"], "decoys": ["that", "V-ing"], "examples": [{"en": "I want you to stay.", "ru": "Я хочу, чтобы ты остался.", "parts": [["I", ""], ["want", "want / ask / tell"], ["you", "you / him / her"], ["to stay.", "to do"]]}, {"en": "She asked him to help.", "ru": "Она попросила его помочь.", "parts": [["She", ""], ["asked", "want / ask / tell"], ["him", "you / him / her"], ["to help.", "to do"]]}, {"en": "Mum told me to clean my room.", "ru": "Мама велела мне убрать комнату.", "parts": [["Mum", ""], ["told", "want / ask / tell"], ["me", "you / him / her"], ["to clean", "to do"], ["my room.", ""]]}]}
           }
         },
         {

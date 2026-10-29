@@ -26,7 +26,7 @@
               { "text": "+",           "color": "muted" },
               { "text": "остальное",   "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["It is / was", "X", "that / who", "остальное"], "decoys": ["V-ing", "V3"], "examples": [{"en": "It was Tom who broke the window.", "ru": "Именно Том разбил окно.", "parts": [["It was", "It is / was"], ["Tom", "X"], ["who", "that / who"], ["broke the window.", "остальное"]]}, {"en": "It is money that he wants.", "ru": "Ему нужны именно деньги.", "parts": [["It is", "It is / was"], ["money", "X"], ["that", "that / who"], ["he wants.", "остальное"]]}, {"en": "It was in Paris that they met.", "ru": "Именно в Париже они познакомились.", "parts": [["It was", "It is / was"], ["in Paris", "X"], ["that", "that / who"], ["they met.", "остальное"]]}]}
           }
         },
         {

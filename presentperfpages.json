@@ -25,7 +25,7 @@
               { "text": "+",           "color": "muted" },
               { "text": "V3",          "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "have / has", "V3"], "decoys": ["V-ing", "had"], "examples": [{"en": "I have finished my homework.", "ru": "Я сделал домашнее задание.", "parts": [["I", "S"], ["have", "have / has"], ["finished", "V3"], ["my homework.", ""]]}, {"en": "She has lost her keys.", "ru": "Она потеряла ключи.", "parts": [["She", "S"], ["has", "have / has"], ["lost", "V3"], ["her keys.", ""]]}, {"en": "They have visited Paris twice.", "ru": "Они дважды были в Париже.", "parts": [["They", "S"], ["have", "have / has"], ["visited", "V3"], ["Paris twice.", ""]]}]}
           }
         },
         {
@@ -111,7 +111,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "V3",         "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["have / has", "not", "V3"], "decoys": ["V-ing", "do"], "examples": [{"en": "I have not seen this film.", "ru": "Я не видел этот фильм.", "parts": [["I", ""], ["have", "have / has"], ["not", "not"], ["seen", "V3"], ["this film.", ""]]}, {"en": "She has not called yet.", "ru": "Она ещё не позвонила.", "parts": [["She", ""], ["has", "have / has"], ["not", "not"], ["called", "V3"], ["yet.", ""]]}, {"en": "We have not finished yet.", "ru": "Мы ещё не закончили.", "parts": [["We", ""], ["have", "have / has"], ["not", "not"], ["finished", "V3"], ["yet.", ""]]}]}
           },
           "examples": [
             { "en": "She hasn't cooked dinner yet.",   "ru": "Она ещё не приготовила ужин." },
@@ -129,7 +129,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "V3?",        "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Have / Has", "S", "V3?"], "decoys": ["Did", "V-ing"], "examples": [{"en": "Have you finished?", "ru": "Ты закончил?", "parts": [["Have", "Have / Has"], ["you", "S"], ["finished?", "V3?"]]}, {"en": "Has she called yet?", "ru": "Она уже позвонила?", "parts": [["Has", "Have / Has"], ["she", "S"], ["called", "V3?"], ["yet?", ""]]}, {"en": "Have they arrived?", "ru": "Они приехали?", "parts": [["Have", "Have / Has"], ["they", "S"], ["arrived?", "V3?"]]}]}
           },
           "examples": [
             { "en": "Have they finished the project?",   "ru": "Они закончили проект?" },

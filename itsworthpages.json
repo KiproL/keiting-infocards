@@ -24,7 +24,7 @@
                 { "text": "+",          "color": "muted" },
                 { "text": "-ing",       "color": "example" }
               ],
-              "accentColor": "good"
+              "accentColor": "good", "drill": {"slots": ["It's worth", "-ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "It's worth visiting the museum.", "ru": "Этот музей стоит посетить.", "parts": [["It's worth", "It's worth"], ["visiting", "-ing"], ["the museum.", ""]]}, {"en": "It's worth trying.", "ru": "Стоит попробовать.", "parts": [["It's worth", "It's worth"], ["trying.", "-ing"]]}, {"en": "It's worth reading this book.", "ru": "Эту книгу стоит прочитать.", "parts": [["It's worth", "It's worth"], ["reading", "-ing"], ["this book.", ""]]}]}
             },
             {
               "parts": [
@@ -32,7 +32,7 @@
                 { "text": "+",           "color": "muted" },
                 { "text": "-ing",        "color": "example" }
               ],
-              "accentColor": "bad"
+              "accentColor": "bad", "drill": {"slots": ["It's no use", "-ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "It's no use crying.", "ru": "Плакать бесполезно.", "parts": [["It's no use", "It's no use"], ["crying.", "-ing"]]}, {"en": "It's no use calling him now.", "ru": "Звонить ему сейчас бесполезно.", "parts": [["It's no use", "It's no use"], ["calling", "-ing"], ["him now.", ""]]}, {"en": "It's no use arguing with her.", "ru": "Спорить с ней бесполезно.", "parts": [["It's no use", "It's no use"], ["arguing", "-ing"], ["with her.", ""]]}]}
             },
             {
               "parts": [
@@ -40,7 +40,7 @@
                 { "text": "+",                   "color": "muted" },
                 { "text": "-ing",                "color": "example" }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["There's no point in", "-ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "There's no point in waiting.", "ru": "Ждать нет смысла.", "parts": [["There's no point in", "There's no point in"], ["waiting.", "-ing"]]}, {"en": "There's no point in going now.", "ru": "Сейчас идти нет смысла.", "parts": [["There's no point in", "There's no point in"], ["going", "-ing"], ["now.", ""]]}, {"en": "There's no point in worrying.", "ru": "Нет смысла волноваться.", "parts": [["There's no point in", "There's no point in"], ["worrying.", "-ing"]]}]}
             }
           ]
         },

@@ -24,7 +24,7 @@
               { "text": "+",              "color": "muted" },
               { "text": "V-ing",          "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["S", "was / were", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I was reading when you called.", "ru": "Я читал, когда ты позвонил.", "parts": [["I", "S"], ["was", "was / were"], ["reading", "V-ing"], ["when you called.", ""]]}, {"en": "They were playing football at five.", "ru": "В пять они играли в футбол.", "parts": [["They", "S"], ["were", "was / were"], ["playing", "V-ing"], ["football at five.", ""]]}, {"en": "She was cooking dinner.", "ru": "Она готовила ужин.", "parts": [["She", "S"], ["was", "was / were"], ["cooking", "V-ing"], ["dinner.", ""]]}]}
           }
         },
         {
@@ -106,7 +106,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "V-ing",      "color": "example" }
             ],
-            "accentColor": "bad"
+            "accentColor": "bad", "drill": {"slots": ["was / were", "not", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I was not sleeping.", "ru": "Я не спал.", "parts": [["I", ""], ["was", "was / were"], ["not", "not"], ["sleeping.", "V-ing"]]}, {"en": "They were not listening.", "ru": "Они не слушали.", "parts": [["They", ""], ["were", "was / were"], ["not", "not"], ["listening.", "V-ing"]]}, {"en": "She was not wearing a coat.", "ru": "На ней не было пальто.", "parts": [["She", ""], ["was", "was / were"], ["not", "not"], ["wearing", "V-ing"], ["a coat.", ""]]}]}
           },
           "examples": [
             { "en": "She wasn't cooking dinner.",      "ru": "Она не готовила ужин." },
@@ -124,7 +124,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "V-ing?",     "color": "term" }
             ],
-            "accentColor": "info"
+            "accentColor": "info", "drill": {"slots": ["Was / Were", "S", "V-ing?"], "decoys": ["Did", "V3"], "examples": [{"en": "Were you sleeping?", "ru": "Ты спал?", "parts": [["Were", "Was / Were"], ["you", "S"], ["sleeping?", "V-ing?"]]}, {"en": "Was she working yesterday?", "ru": "Она вчера работала?", "parts": [["Was", "Was / Were"], ["she", "S"], ["working", "V-ing?"], ["yesterday?", ""]]}, {"en": "Were they waiting for us?", "ru": "Они нас ждали?", "parts": [["Were", "Was / Were"], ["they", "S"], ["waiting", "V-ing?"], ["for us?", ""]]}]}
           },
           "examples": [
             { "en": "Were they playing football?",       "ru": "Они играли в футбол?" },

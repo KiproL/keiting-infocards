@@ -26,7 +26,7 @@
               { "text": "+",       "color": "muted" },
               { "text": "глагол",  "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["too", "прил.", "to", "глагол"], "decoys": ["enough", "very"], "examples": [{"en": "It is too cold to swim.", "ru": "Слишком холодно, чтобы плавать.", "parts": [["It is", ""], ["too", "too"], ["cold", "прил."], ["to", "to"], ["swim.", "глагол"]]}, {"en": "He is too young to drive.", "ru": "Он слишком молод, чтобы водить.", "parts": [["He is", ""], ["too", "too"], ["young", "прил."], ["to", "to"], ["drive.", "глагол"]]}, {"en": "The box is too heavy to lift.", "ru": "Коробка слишком тяжёлая, чтобы её поднять.", "parts": [["The box is", ""], ["too", "too"], ["heavy", "прил."], ["to", "to"], ["lift.", "глагол"]]}]}
           }
         },
         {

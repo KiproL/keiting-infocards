@@ -167,7 +167,7 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "term"
+              "accentColor": "term", "drill": {"slots": ["both", "A", "and", "B"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I like both tea and coffee.", "ru": "Я люблю и чай, и кофе.", "parts": [["I like", ""], ["both", "both"], ["tea", "A"], ["and", "and"], ["coffee.", "B"]]}, {"en": "She speaks both French and German.", "ru": "Она говорит и по-французски, и по-немецки.", "parts": [["She speaks", ""], ["both", "both"], ["French", "A"], ["and", "and"], ["German.", "B"]]}, {"en": "Both Tom and Ann came to the party.", "ru": "И Том, и Энн пришли на вечеринку.", "parts": [["Both", "both"], ["Tom", "A"], ["and", "and"], ["Ann", "B"], ["came to the party.", ""]]}]}
             },
             {
               "parts": [
@@ -200,7 +200,7 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["either", "A", "or", "B"], "decoys": ["V-ing", "V3"], "examples": [{"en": "We can go either today or tomorrow.", "ru": "Мы можем пойти либо сегодня, либо завтра.", "parts": [["We can go", ""], ["either", "either"], ["today", "A"], ["or", "or"], ["tomorrow.", "B"]]}, {"en": "You can have either tea or juice.", "ru": "Можешь взять либо чай, либо сок.", "parts": [["You can have", ""], ["either", "either"], ["tea", "A"], ["or", "or"], ["juice.", "B"]]}, {"en": "Either Tom or Ann will help you.", "ru": "Тебе поможет либо Том, либо Энн.", "parts": [["Either", "either"], ["Tom", "A"], ["or", "or"], ["Ann", "B"], ["will help you.", ""]]}]}
             },
             {
               "parts": [
@@ -233,7 +233,7 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "bad"
+              "accentColor": "bad", "drill": {"slots": ["neither", "A", "nor", "B"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I like neither tea nor coffee.", "ru": "Я не люблю ни чай, ни кофе.", "parts": [["I like", ""], ["neither", "neither"], ["tea", "A"], ["nor", "nor"], ["coffee.", "B"]]}, {"en": "Neither Tom nor Ann was at home.", "ru": "Ни Тома, ни Энн не было дома.", "parts": [["Neither", "neither"], ["Tom", "A"], ["nor", "nor"], ["Ann", "B"], ["was at home.", ""]]}, {"en": "She speaks neither French nor German.", "ru": "Она не говорит ни по-французски, ни по-немецки.", "parts": [["She speaks", ""], ["neither", "neither"], ["French", "A"], ["nor", "nor"], ["German.", "B"]]}]}
             }
           ]
         },

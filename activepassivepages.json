@@ -40,7 +40,7 @@
                 { "text": "=",           "color": "muted" },
                 { "text": "Passive",     "color": "accent2" }
               ],
-              "accentColor": "accent2"
+              "accentColor": "accent2", "drill": {"slots": ["Object", "be + V3", "(by Subject)"], "decoys": ["V-ing", "will"], "examples": [{"en": "The house was built by my grandfather.", "ru": "Дом построил мой дедушка.", "parts": [["The house", "Object"], ["was built", "be + V3"], ["by my grandfather.", "(by Subject)"]]}, {"en": "The letters are sorted by machines.", "ru": "Письма сортируют машины.", "parts": [["The letters", "Object"], ["are sorted", "be + V3"], ["by machines.", "(by Subject)"]]}, {"en": "This song was written by Lennon.", "ru": "Эту песню написал Леннон.", "parts": [["This song", "Object"], ["was written", "be + V3"], ["by Lennon.", "(by Subject)"]]}]}
             }
           ]
         },
@@ -281,7 +281,7 @@
               { "text": "+",     "color": "muted" },
               { "text": "V3",    "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["modal", "be", "V3"], "decoys": ["V-ing", "will"], "examples": [{"en": "The work must be finished today.", "ru": "Работу нужно закончить сегодня.", "parts": [["The work", ""], ["must", "modal"], ["be", "be"], ["finished", "V3"], ["today.", ""]]}, {"en": "This letter should be sent tomorrow.", "ru": "Это письмо следует отправить завтра.", "parts": [["This letter", ""], ["should", "modal"], ["be", "be"], ["sent", "V3"], ["tomorrow.", ""]]}, {"en": "The room can be booked online.", "ru": "Номер можно забронировать онлайн.", "parts": [["The room", ""], ["can", "modal"], ["be", "be"], ["booked", "V3"], ["online.", ""]]}]}
           }
         },
         {
@@ -348,7 +348,7 @@
               { "text": "+",          "color": "muted" },
               { "text": "V3",         "color": "term" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["have / get", "предмет", "V3"], "decoys": ["V-ing", "will"], "examples": [{"en": "I had my hair cut yesterday.", "ru": "Вчера я подстригся.", "parts": [["I", ""], ["had", "have / get"], ["my hair", "предмет"], ["cut", "V3"], ["yesterday.", ""]]}, {"en": "We got the car repaired last week.", "ru": "На прошлой неделе нам починили машину.", "parts": [["We", ""], ["got", "have / get"], ["the car", "предмет"], ["repaired", "V3"], ["last week.", ""]]}, {"en": "She had her house painted.", "ru": "Ей покрасили дом.", "parts": [["She", ""], ["had", "have / get"], ["her house", "предмет"], ["painted.", "V3"]]}]}
           }
         },
         {
@@ -422,7 +422,7 @@
               { "text": "+",     "color": "muted" },
               { "text": "that…", "color": "example" }
             ],
-            "accentColor": "term"
+            "accentColor": "term", "drill": {"slots": ["It is", "V3", "that…"], "decoys": ["V-ing", "will"], "examples": [{"en": "It is believed that the house is haunted.", "ru": "Считается, что в доме водятся привидения.", "parts": [["It is", "It is"], ["believed", "V3"], ["that the house is haunted.", "that…"]]}, {"en": "It is said that he is very rich.", "ru": "Говорят, что он очень богат.", "parts": [["It is", "It is"], ["said", "V3"], ["that he is very rich.", "that…"]]}, {"en": "It is known that smoking is harmful.", "ru": "Известно, что курение вредно.", "parts": [["It is", "It is"], ["known", "V3"], ["that smoking is harmful.", "that…"]]}]}
           }
         },
         {

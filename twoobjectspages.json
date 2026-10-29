@@ -47,7 +47,7 @@
                   "color": "example"
                 }
               ],
-              "accentColor": "term"
+              "accentColor": "term", "drill": {"slots": ["give", "кому", "что"], "decoys": ["to", "for"], "examples": [{"en": "I gave my sister a book.", "ru": "Я подарил сестре книгу.", "parts": [["I", ""], ["gave", "give"], ["my sister", "кому"], ["a book.", "что"]]}, {"en": "She showed me her photos.", "ru": "Она показала мне свои фото.", "parts": [["She", ""], ["showed", "give"], ["me", "кому"], ["her photos.", "что"]]}, {"en": "Can you send him the file?", "ru": "Можешь отправить ему файл?", "parts": [["Can you", ""], ["send", "give"], ["him", "кому"], ["the file?", "что"]]}]}
             },
             {
               "parts": [
@@ -72,7 +72,7 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "info"
+              "accentColor": "info", "drill": {"slots": ["give", "что", "to + кому"], "decoys": ["for", "from"], "examples": [{"en": "I gave a book to my sister.", "ru": "Я подарил книгу сестре.", "parts": [["I", ""], ["gave", "give"], ["a book", "что"], ["to my sister.", "to + кому"]]}, {"en": "She showed her photos to everyone.", "ru": "Она показала свои фото всем.", "parts": [["She", ""], ["showed", "give"], ["her photos", "что"], ["to everyone.", "to + кому"]]}, {"en": "Can you send the file to him?", "ru": "Можешь отправить файл ему?", "parts": [["Can you", ""], ["send", "give"], ["the file", "что"], ["to him?", "to + кому"]]}]}
             }
           ]
         },
