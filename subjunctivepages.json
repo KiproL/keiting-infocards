@@ -7,10 +7,26 @@
       "intro": {
         "text": "Subjunctive — сослагательное наклонение. Используется после глаголов требования, предложения, совета и после безличных конструкций. Глагол остаётся в начальной форме, без -s в 3-м лице.",
         "highlights": [
-          { "text": "Subjunctive",  "color": "term",    "style": "bold_underline" },
-          { "text": "требования",    "color": "info",    "style": "bold" },
-          { "text": "без -s",        "color": "example", "style": "bold" },
-          { "text": "начальной форме","color": "bad",   "style": "bold" }
+          {
+            "text": "Subjunctive",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "требования",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "без -s",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "начальной форме",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,26 +35,160 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "suggest / demand / insist", "color": "info" },
-              { "text": "+",                          "color": "muted" },
-              { "text": "that + S",                    "color": "example" },
-              { "text": "+",                          "color": "muted" },
-              { "text": "глагол (без -s)",             "color": "term" }
+              {
+                "text": "suggest / demand / insist",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "that + S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол (без -s)",
+                "color": "term"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["suggest / demand / insist", "that + S", "глагол (без -s)"], "decoys": ["to", "will"], "examples": [{"en": "I suggest that he see a doctor.", "ru": "Я предлагаю, чтобы он сходил к врачу.", "parts": [["I", ""], ["suggest", "suggest / demand / insist"], ["that he", "that + S"], ["see", "глагол (без -s)"], ["a doctor.", ""]]}, {"en": "They demanded that she leave.", "ru": "Они потребовали, чтобы она ушла.", "parts": [["They", ""], ["demanded", "suggest / demand / insist"], ["that she", "that + S"], ["leave.", "глагол (без -s)"]]}, {"en": "He insists that everyone arrive on time.", "ru": "Он настаивает, чтобы все приходили вовремя.", "parts": [["He", ""], ["insists", "suggest / demand / insist"], ["that everyone", "that + S"], ["arrive", "глагол (без -s)"], ["on time.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "suggest / demand / insist",
+                "that + S",
+                "глагол (без -s)"
+              ],
+              "decoys": [
+                "to",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "I suggest that he see a doctor.",
+                  "ru": "Я предлагаю, чтобы он сходил к врачу.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "suggest",
+                      "suggest / demand / insist"
+                    ],
+                    [
+                      "that he",
+                      "that + S"
+                    ],
+                    [
+                      "see",
+                      "глагол (без -s)"
+                    ],
+                    [
+                      "a doctor.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They demanded that she leave.",
+                  "ru": "Они потребовали, чтобы она ушла.",
+                  "parts": [
+                    [
+                      "They",
+                      ""
+                    ],
+                    [
+                      "demanded",
+                      "suggest / demand / insist"
+                    ],
+                    [
+                      "that she",
+                      "that + S"
+                    ],
+                    [
+                      "leave.",
+                      "глагол (без -s)"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He insists that everyone arrive on time.",
+                  "ru": "Он настаивает, чтобы все приходили вовремя.",
+                  "parts": [
+                    [
+                      "He",
+                      ""
+                    ],
+                    [
+                      "insists",
+                      "suggest / demand / insist"
+                    ],
+                    [
+                      "that everyone",
+                      "that + S"
+                    ],
+                    [
+                      "arrive",
+                      "глагол (без -s)"
+                    ],
+                    [
+                      "on time.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "После чего используется",
           "borderColor": "info",
           "table": {
-            "headers": ["Тип глагола", "Примеры", "Пример предложения"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Тип глагола",
+              "Примеры",
+              "Пример предложения"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Предложение",  "suggest, recommend, propose", "I suggest that he go."] },
-              { "cells": ["Требование",    "demand, insist, require",     "They demanded that she leave."] },
-              { "cells": ["Безличное",      "It's essential, important",   "It's important that he be there."] },
-              { "cells": ["Желание",         "wish, if only",               "I wish I were taller."] }
+              {
+                "cells": [
+                  "Предложение",
+                  "suggest, recommend, propose",
+                  "I suggest that he go."
+                ]
+              },
+              {
+                "cells": [
+                  "Требование",
+                  "demand, insist, require",
+                  "They demanded that she leave."
+                ]
+              },
+              {
+                "cells": [
+                  "Безличное",
+                  "It's essential, important",
+                  "It's important that he be there."
+                ]
+              },
+              {
+                "cells": [
+                  "Желание",
+                  "wish, if only",
+                  "I wish I were taller."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -56,21 +206,61 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I suggest that he go home.",            "ru": "Предлагаю ему пойти домой." },
-            { "en": "It's essential that she be on time.",   "ru": "Важно, чтобы она была вовремя." },
-            { "en": "They demanded that he leave.",           "ru": "Они потребовали, чтобы он ушёл." },
-            { "en": "I wish I were taller.",                   "ru": "Хотел бы я быть выше." }
+            {
+              "en": "I suggest that he go home.",
+              "ru": "Предлагаю ему пойти домой."
+            },
+            {
+              "en": "It's essential that she be on time.",
+              "ru": "Важно, чтобы она была вовремя."
+            },
+            {
+              "en": "They demanded that he leave.",
+              "ru": "Они потребовали, чтобы он ушёл."
+            },
+            {
+              "en": "I wish I were taller.",
+              "ru": "Хотел бы я быть выше."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Отрицание и should",
+          "preview": "not go, should go",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "We recommend that he not travel alone.",
+                "ru": "Мы советуем ему не ехать одному. (not — перед глаголом, без do)"
+              },
+              {
+                "en": "I suggest that she should see a doctor.",
+                "ru": "Советую ей сходить к врачу. (британский вариант с should)"
+              },
+              {
+                "en": "It's vital that everyone be informed.",
+                "ru": "Крайне важно, чтобы все были в курсе. (be для всех)"
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Subjunctive",
+      "label": "Частые ошибки: suggest that he goes",
       "intro": {
         "text": "Три самые частые ошибки в subjunctive.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -78,9 +268,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I suggest that he goes.",            "right": "I suggest that he go." },
-            { "wrong": "It's important that she is on time.", "right": "It's important that she be on time." },
-            { "wrong": "They demanded that he to leave.",     "right": "They demanded that he leave." }
+            {
+              "wrong": "I suggest that he goes.",
+              "right": "I suggest that he go. (без -s)"
+            },
+            {
+              "wrong": "It's important that she is on time.",
+              "right": "It's important that she be on time. (be для всех лиц)"
+            },
+            {
+              "wrong": "They demanded that he to leave.",
+              "right": "They demanded that he leave. (без to)"
+            }
           ]
         },
         {

@@ -68,7 +68,7 @@
       ]
     },
     {
-      "label": "Суффиксы двигают ударение",
+      "label": "Суффиксы двигают ударение: -ic, -ity, -ian",
       "intro": {
         "text": "Некоторые суффиксы тянут ударение к себе: -ic и -ical — на слог перед ними, -ity и -ian — тоже, -tion — на слог перед.",
         "highlights": [
@@ -161,6 +161,11 @@
               "example": "muSIcian, liBRArian"
             },
             {
+              "name": "-tion, -sion",
+              "suffix": "на слог перед суффиксом",
+              "example": "eduCAtion, deCIsion"
+            },
+            {
               "name": "-ee, -eer, -ese",
               "suffix": "на сам суффикс",
               "example": "trainEE, volunTEER, JapanESE"
@@ -170,7 +175,7 @@
       ]
     },
     {
-      "label": "Меняет смысл",
+      "label": "REcord или reCORD: ударение меняет смысл",
       "intro": {
         "text": "У пар «существительное — глагол» ударение делит слово надвое: существительное — на первый слог, глагол — на второй.",
         "highlights": [
@@ -240,10 +245,58 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё пары",
+          "preview": "CONtract, PROgress, DEsert",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Существительное",
+                "Глагол"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "a CONtract — договор",
+                    "to conTRACT — сокращаться"
+                  ]
+                },
+                {
+                  "cells": [
+                    "PROgress — прогресс",
+                    "to proGRESS — продвигаться"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a DEsert — пустыня",
+                    "to deSERT — бросать"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a REbel — бунтарь",
+                    "to reBEL — восставать"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Ударение: photograph → photographer",
+      "label": "Частые ошибки: ECOnomic, to REcord",
       "intro": {
         "text": "Самые частые ошибки — и как сказать правильно.",
         "highlights": [
@@ -261,23 +314,27 @@
           "errors": [
             {
               "wrong": "phoTOgraph (о самой фотографии)",
-              "right": "PHOtograph"
+              "right": "PHOtograph (phoTOgrapher — о человеке)"
             },
             {
               "wrong": "ECOnomic",
-              "right": "ecoNOMic"
+              "right": "ecoNOMic (-ic тянет ударение)"
             },
             {
               "wrong": "PO-litical",
-              "right": "po-LI-tical"
+              "right": "po-LI-tical (-ical тянет ударение)"
             },
             {
               "wrong": "to REcord (глагол)",
-              "right": "to reCORD"
+              "right": "to reCORD (глагол — на второй слог)"
             },
             {
               "wrong": "an obJECT (предмет)",
-              "right": "an OBject"
+              "right": "an OBject (существительное — на первый)"
+            },
+            {
+              "wrong": "EDucation",
+              "right": "eduCAtion (-tion — на слог перед)"
             }
           ]
         },

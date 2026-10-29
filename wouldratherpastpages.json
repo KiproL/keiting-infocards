@@ -3,13 +3,25 @@
   "route": "cards_wouldratherpast",
   "slides": [
     {
-      "label": "would rather you did: хотел бы, чтобы ты",
+      "label": "I'd rather you did: «хотел бы, чтобы ты»",
       "intro": {
         "text": "Would rather + Past Simple — предпочтение о чужом действии. «Я бы хотел, чтобы ты…» — это не приказ, а мягкое пожелание.",
         "highlights": [
-          { "text": "would rather + Past", "color": "term",    "style": "bold_underline" },
-          { "text": "о чужом действии",     "color": "info",    "style": "bold" },
-          { "text": "мягкое пожелание",      "color": "example", "style": "bold" }
+          {
+            "text": "would rather + Past",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "о чужом действии",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "мягкое пожелание",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -17,12 +29,38 @@
           "title": "Сравнение форм",
           "borderColor": "term",
           "table": {
-            "headers": ["Форма", "О ком", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "О ком",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["would rather + глагол",        "о себе",     "I'd rather stay home."] },
-              { "cells": ["would rather + Past Simple",   "о другом",   "I'd rather you stayed home."] },
-              { "cells": ["would rather + Past Perfect",  "о прошлом",  "I'd rather you had told me."] }
+              {
+                "cells": [
+                  "would rather + глагол",
+                  "о себе",
+                  "I'd rather stay home."
+                ]
+              },
+              {
+                "cells": [
+                  "would rather + Past Simple",
+                  "о другом",
+                  "I'd rather you stayed home."
+                ]
+              },
+              {
+                "cells": [
+                  "would rather + Past Perfect",
+                  "о прошлом",
+                  "I'd rather you had told me."
+                ]
+              }
             ],
             "borderColor": "term"
           }
@@ -31,29 +69,99 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I'd rather you didn't smoke here.",         "ru": "Я бы предпочёл, чтобы ты здесь не курил." },
-            { "en": "I'd rather you came earlier tomorrow.",      "ru": "Я бы хотел, чтобы ты завтра пришёл пораньше." },
-            { "en": "She'd rather he didn't call her again.",      "ru": "Она предпочла бы, чтобы он ей больше не звонил." },
-            { "en": "I'd rather you hadn't said that.",            "ru": "Лучше бы ты этого не говорил." }
+            {
+              "en": "I'd rather you didn't smoke here.",
+              "ru": "Я бы предпочёл, чтобы ты здесь не курил."
+            },
+            {
+              "en": "I'd rather you came earlier tomorrow.",
+              "ru": "Я бы хотел, чтобы ты завтра пришёл пораньше."
+            },
+            {
+              "en": "She'd rather he didn't call her again.",
+              "ru": "Она предпочла бы, чтобы он ей больше не звонил."
+            },
+            {
+              "en": "I'd rather you hadn't said that.",
+              "ru": "Лучше бы ты этого не говорил."
+            }
           ]
         },
         {
           "title": "Отрицание",
           "borderColor": "bad",
           "rules": [
-            { "name": "о себе",    "suffix": "would rather not + глагол",     "example": "I'd rather not go." },
-            { "name": "о другом",  "suffix": "would rather + Past Simple отриц.","example": "I'd rather you didn't go." }
+            {
+              "name": "о себе",
+              "suffix": "would rather not + глагол",
+              "example": "I'd rather not go."
+            },
+            {
+              "name": "о другом",
+              "suffix": "would rather + Past Simple отриц.",
+              "example": "I'd rather you didn't go."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Would rather или would prefer",
+          "preview": "разные конструкции",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Конструкция",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "would rather + кто + Past",
+                    "I'd rather you stayed."
+                  ]
+                },
+                {
+                  "cells": [
+                    "would prefer + кто + to",
+                    "I'd prefer you to stay."
+                  ]
+                },
+                {
+                  "cells": [
+                    "would prefer it if + Past",
+                    "I'd prefer it if you stayed."
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "tip",
+              "title": "Смысл один",
+              "text": "Все три — «я бы предпочёл, чтобы ты остался». Не смешивай: после rather — без to."
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Would rather + Past",
+      "label": "Частые ошибки: rather you don't, rather you to",
       "intro": {
         "text": "Три самые частые ошибки в would rather + Past.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -61,9 +169,22 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I'd rather you don't smoke here.",    "right": "I'd rather you didn't smoke here." },
-            { "wrong": "I'd rather you not smoke here.",       "right": "I'd rather you didn't smoke here." },
-            { "wrong": "I'd rather you to come earlier.",       "right": "I'd rather you came earlier." }
+            {
+              "wrong": "I'd rather you don't smoke here.",
+              "right": "I'd rather you didn't smoke here. (о другом — Past Simple)"
+            },
+            {
+              "wrong": "I'd rather you will come earlier.",
+              "right": "I'd rather you came earlier. (без will — Past Simple)"
+            },
+            {
+              "wrong": "I'd rather you to come earlier.",
+              "right": "I'd rather you came earlier. (без to)"
+            },
+            {
+              "wrong": "I'd rather you didn't tell her yesterday.",
+              "right": "I'd rather you hadn't told her yesterday. (о прошлом — Past Perfect)"
+            }
           ]
         },
         {

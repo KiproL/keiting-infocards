@@ -3,13 +3,25 @@
   "route": "cards_reportingpassive",
   "slides": [
     {
-      "label": "It is said that: говорят, что",
+      "label": "It is said that / He is said to: «говорят, что»",
       "intro": {
         "text": "Reporting passive — способ передать чужое мнение или общее утверждение без источника: кто именно так считает, не говорим. Часто используется в новостях и академических текстах.",
         "highlights": [
-          { "text": "Reporting passive",  "color": "term",    "style": "bold_underline" },
-          { "text": "чужое мнение",        "color": "info",    "style": "bold" },
-          { "text": "без источника",        "color": "example", "style": "bold" }
+          {
+            "text": "Reporting passive",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "чужое мнение",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "без источника",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,23 +31,187 @@
           "formulas": [
             {
               "parts": [
-                { "text": "It is", "color": "info" },
-                { "text": "+",     "color": "muted" },
-                { "text": "said / believed", "color": "example" },
-                { "text": "+",     "color": "muted" },
-                { "text": "that…", "color": "term" }
+                {
+                  "text": "It is",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "said / believed",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "that…",
+                  "color": "term"
+                }
               ],
-              "accentColor": "info", "drill": {"slots": ["It is", "said / believed", "that…"], "decoys": ["V-ing", "V3"], "examples": [{"en": "It is said that he lives abroad.", "ru": "Говорят, что он живёт за границей.", "parts": [["It is", "It is"], ["said", "said / believed"], ["that he lives abroad.", "that…"]]}, {"en": "It is believed that the castle is 800 years old.", "ru": "Считается, что замку 800 лет.", "parts": [["It is", "It is"], ["believed", "said / believed"], ["that the castle is 800 years old.", "that…"]]}, {"en": "It is said that the film is brilliant.", "ru": "Говорят, что фильм отличный.", "parts": [["It is", "It is"], ["said", "said / believed"], ["that the film is brilliant.", "that…"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "It is",
+                  "said / believed",
+                  "that…"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "It is said that he lives abroad.",
+                    "ru": "Говорят, что он живёт за границей.",
+                    "parts": [
+                      [
+                        "It is",
+                        "It is"
+                      ],
+                      [
+                        "said",
+                        "said / believed"
+                      ],
+                      [
+                        "that he lives abroad.",
+                        "that…"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "It is believed that the castle is 800 years old.",
+                    "ru": "Считается, что замку 800 лет.",
+                    "parts": [
+                      [
+                        "It is",
+                        "It is"
+                      ],
+                      [
+                        "believed",
+                        "said / believed"
+                      ],
+                      [
+                        "that the castle is 800 years old.",
+                        "that…"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "It is said that the film is brilliant.",
+                    "ru": "Говорят, что фильм отличный.",
+                    "parts": [
+                      [
+                        "It is",
+                        "It is"
+                      ],
+                      [
+                        "said",
+                        "said / believed"
+                      ],
+                      [
+                        "that the film is brilliant.",
+                        "that…"
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
-                { "text": "S",     "color": "example" },
-                { "text": "+",     "color": "muted" },
-                { "text": "is said", "color": "info" },
-                { "text": "+",     "color": "muted" },
-                { "text": "to…",   "color": "term" }
+                {
+                  "text": "S",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "is said",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "to…",
+                  "color": "term"
+                }
               ],
-              "accentColor": "term", "drill": {"slots": ["S", "is said", "to…"], "decoys": ["V-ing", "V3"], "examples": [{"en": "He is said to be very rich.", "ru": "Говорят, что он очень богат.", "parts": [["He", "S"], ["is said", "is said"], ["to be very rich.", "to…"]]}, {"en": "The castle is said to be haunted.", "ru": "Говорят, что в замке водятся привидения.", "parts": [["The castle", "S"], ["is said", "is said"], ["to be haunted.", "to…"]]}, {"en": "She is said to speak five languages.", "ru": "Говорят, что она знает пять языков.", "parts": [["She", "S"], ["is said", "is said"], ["to speak five languages.", "to…"]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "S",
+                  "is said",
+                  "to…"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "He is said to be very rich.",
+                    "ru": "Говорят, что он очень богат.",
+                    "parts": [
+                      [
+                        "He",
+                        "S"
+                      ],
+                      [
+                        "is said",
+                        "is said"
+                      ],
+                      [
+                        "to be very rich.",
+                        "to…"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "The castle is said to be haunted.",
+                    "ru": "Говорят, что в замке водятся привидения.",
+                    "parts": [
+                      [
+                        "The castle",
+                        "S"
+                      ],
+                      [
+                        "is said",
+                        "is said"
+                      ],
+                      [
+                        "to be haunted.",
+                        "to…"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She is said to speak five languages.",
+                    "ru": "Говорят, что она знает пять языков.",
+                    "parts": [
+                      [
+                        "She",
+                        "S"
+                      ],
+                      [
+                        "is said",
+                        "is said"
+                      ],
+                      [
+                        "to speak five languages.",
+                        "to…"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -44,19 +220,55 @@
           "borderColor": "info",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["said", "believed", "reported", "known", "thought", "considered", "expected", "supposed", "rumoured"]
+            "verbs": [
+              "said",
+              "believed",
+              "reported",
+              "known",
+              "thought",
+              "considered",
+              "expected",
+              "supposed",
+              "rumoured"
+            ]
           }
         },
         {
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["It-конструкция", "S + passive + to", "Перевод"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "It-конструкция",
+              "S + passive + to",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["It is said that he is rich.",     "He is said to be rich.",         "Говорят, он богат."] },
-              { "cells": ["It is believed that she left.",    "She is believed to have left.",   "Считается, что она уехала."] },
-              { "cells": ["It is reported that prices rose.", "Prices are reported to have risen.","Сообщается, что цены выросли."] }
+              {
+                "cells": [
+                  "It is said that he is rich.",
+                  "He is said to be rich.",
+                  "Говорят, он богат."
+                ]
+              },
+              {
+                "cells": [
+                  "It is believed that she left.",
+                  "She is believed to have left.",
+                  "Считается, что она уехала."
+                ]
+              },
+              {
+                "cells": [
+                  "It is reported that prices rose.",
+                  "Prices are reported to have risen.",
+                  "Сообщается, что цены выросли."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -65,21 +277,83 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "He is said to be very rich.",              "ru": "Говорят, он очень богат." },
-            { "en": "The bridge is believed to be 200 years old.","ru": "Считается, что мосту 200 лет." },
-            { "en": "Prices are expected to rise.",              "ru": "Ожидается, что цены вырастут." },
-            { "en": "She is thought to have left the country.",   "ru": "Полагают, что она покинула страну." }
+            {
+              "en": "He is said to be very rich.",
+              "ru": "Говорят, он очень богат."
+            },
+            {
+              "en": "The bridge is believed to be 200 years old.",
+              "ru": "Считается, что мосту 200 лет."
+            },
+            {
+              "en": "Prices are expected to rise.",
+              "ru": "Ожидается, что цены вырастут."
+            },
+            {
+              "en": "She is thought to have left the country.",
+              "ru": "Полагают, что она покинула страну."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Какой инфинитив выбрать",
+          "preview": "сейчас, раньше, процесс",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Когда",
+                "Форма",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "то же время",
+                    "to + глагол",
+                    "He is said to live in Paris."
+                  ]
+                },
+                {
+                  "cells": [
+                    "раньше",
+                    "to have + V3",
+                    "He is said to have lived in Paris."
+                  ]
+                },
+                {
+                  "cells": [
+                    "прямо сейчас",
+                    "to be + -ing",
+                    "He is said to be writing a book."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Reporting passive",
+      "label": "Частые ошибки: is said that he, said to leaving",
       "intro": {
         "text": "Три самые частые ошибки в reporting passive.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -87,9 +361,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "He is said to be very rich. (текущее — верно)",     "right": "He is said to be very rich." },
-            { "wrong": "It is said he is very rich. (без that)",             "right": "It is said that he is very rich." },
-            { "wrong": "She is said to leaving.",                            "right": "She is said to have left." }
+            {
+              "wrong": "He is said that he is very rich.",
+              "right": "He is said to be very rich. (с подлежащим he — to + глагол)"
+            },
+            {
+              "wrong": "It is said him to be rich.",
+              "right": "It is said that he is rich. (с it — that + предложение)"
+            },
+            {
+              "wrong": "She is said to leaving.",
+              "right": "She is said to have left. (раньше — to have + V3)"
+            }
           ]
         },
         {

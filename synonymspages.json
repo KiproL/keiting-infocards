@@ -3,7 +3,7 @@
   "route": "cards_synonyms",
   "slides": [
     {
-      "label": "Синонимы: в чём разница",
+      "label": "Big, large, great: в чём разница",
       "intro": {
         "text": "Синонимы редко взаимозаменяемы полностью. Big, large и great все значат «большой», но great — ещё и «великий», а large звучит официальнее. Ошибка в выборе слышна сразу.",
         "highlights": [
@@ -69,6 +69,34 @@
               "term",
               "info",
               "example"
+            ]
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "examples": [
+              {
+                "en": "We made a big mistake.",
+                "ru": "Мы совершили большую ошибку. (разговорно)"
+              },
+              {
+                "en": "A large number of people came.",
+                "ru": "Пришло большое количество людей. (large number, large amount)"
+              },
+              {
+                "en": "It was a great pleasure to meet you.",
+                "ru": "Было очень приятно познакомиться. (great — о чувствах)"
+              },
+              {
+                "en": "Shakespeare was a great writer.",
+                "ru": "Шекспир — великий писатель."
+              }
             ]
           }
         }
@@ -145,7 +173,7 @@
       ]
     },
     {
-      "label": "Ещё пары",
+      "label": "Ещё пары: borrow / lend, rob / steal",
       "intro": {
         "text": "Несколько пар, где разница особенно заметна.",
         "highlights": [
@@ -192,7 +220,7 @@
                 "cells": [
                   "borrow / lend",
                   "взять в долг / дать в долг",
-                  "Can I borrow it? Can you lend me it?"
+                  "Can I borrow it? Can you lend it to me?"
                 ]
               },
               {
@@ -218,10 +246,50 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Make или do",
+          "preview": "ещё одна трудная пара",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Когда",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "make",
+                    "создаём что-то новое",
+                    "make a cake, make a decision, make a mistake"
+                  ]
+                },
+                {
+                  "cells": [
+                    "do",
+                    "выполняем работу, дело",
+                    "do homework, do the dishes, do a favour"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Официально и разговорно",
+      "label": "Официально и разговорно: buy → purchase",
       "intro": {
         "text": "Часто синонимы делятся по стилю: buy — purchase, start — commence, help — assist. В разговоре официальное слово звучит неестественно.",
         "highlights": [
@@ -263,10 +331,38 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "В предложениях",
+          "preview": "одна мысль — два стиля",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "transforms": [
+              {
+                "from": "Can you help me?",
+                "to": "Could you assist me?",
+                "toColor": "info"
+              },
+              {
+                "from": "We need more time.",
+                "to": "We require additional time.",
+                "toColor": "info"
+              },
+              {
+                "from": "Tell me if anything changes.",
+                "to": "Please inform me of any changes.",
+                "toColor": "info"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Нюансы синонимов",
+      "label": "Частые ошибки: said me, borrow me, stole the bank",
       "intro": {
         "text": "Самые частые ошибки — и как сказать правильно.",
         "highlights": [
@@ -284,27 +380,31 @@
           "errors": [
             {
               "wrong": "She said me the truth.",
-              "right": "She told me the truth."
+              "right": "She told me the truth. (кому — tell)"
             },
             {
               "wrong": "He told that he was tired.",
-              "right": "He said that he was tired."
+              "right": "He said that he was tired. (без адресата — say)"
             },
             {
               "wrong": "It was a large mistake.",
-              "right": "It was a big / huge mistake."
+              "right": "It was a big / huge mistake. (large — о размере и количестве)"
             },
             {
               "wrong": "Can you borrow me your pen?",
-              "right": "Can you lend me your pen?"
+              "right": "Can you lend me your pen? (дать — lend)"
             },
             {
               "wrong": "They stole the bank.",
-              "right": "They robbed the bank."
+              "right": "They robbed the bank. (кого/что ограбили — rob)"
             },
             {
               "wrong": "The film was very fun.",
-              "right": "The film was very funny. / The film was great fun."
+              "right": "The film was very funny. / The film was great fun. (смешно — funny)"
+            },
+            {
+              "wrong": "I speak with you about it tomorrow.",
+              "right": "I'll talk to you about it tomorrow. (разговор — talk)"
             }
           ]
         }

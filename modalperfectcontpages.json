@@ -3,7 +3,7 @@
   "route": "cards_modalperfectcont",
   "slides": [
     {
-      "label": "must have been doing: догадка о процессе",
+      "label": "Must have been doing: догадка о процессе",
       "intro": {
         "text": "Модальный + have been + -ing — догадка или сожаление о процессе в прошлом: He must have been waiting for hours — «он, должно быть, ждал часами».",
         "highlights": [
@@ -46,7 +46,86 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["модальный", "have been", "-ing"], "decoys": ["had", "V3"], "examples": [{"en": "She must have been crying.", "ru": "Она, должно быть, плакала.", "parts": [["She", ""], ["must", "модальный"], ["have been", "have been"], ["crying.", "-ing"]]}, {"en": "You should have been listening.", "ru": "Тебе следовало слушать.", "parts": [["You", ""], ["should", "модальный"], ["have been", "have been"], ["listening.", "-ing"]]}, {"en": "They might have been sleeping.", "ru": "Возможно, они спали.", "parts": [["They", ""], ["might", "модальный"], ["have been", "have been"], ["sleeping.", "-ing"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "модальный",
+                "have been",
+                "-ing"
+              ],
+              "decoys": [
+                "had",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "She must have been crying.",
+                  "ru": "Она, должно быть, плакала.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "must",
+                      "модальный"
+                    ],
+                    [
+                      "have been",
+                      "have been"
+                    ],
+                    [
+                      "crying.",
+                      "-ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "You should have been listening.",
+                  "ru": "Тебе следовало слушать.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "should",
+                      "модальный"
+                    ],
+                    [
+                      "have been",
+                      "have been"
+                    ],
+                    [
+                      "listening.",
+                      "-ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "They might have been sleeping.",
+                  "ru": "Возможно, они спали.",
+                  "parts": [
+                    [
+                      "They",
+                      ""
+                    ],
+                    [
+                      "might",
+                      "модальный"
+                    ],
+                    [
+                      "have been",
+                      "have been"
+                    ],
+                    [
+                      "sleeping.",
+                      "-ing"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -96,10 +175,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You must have been working hard — you look tired.",
+                "ru": "Ты, наверное, много работал — выглядишь уставшим."
+              },
+              {
+                "en": "He could have been joking.",
+                "ru": "Возможно, он шутил."
+              },
+              {
+                "en": "They can't have been sleeping — the lights were on.",
+                "ru": "Не может быть, что они спали — свет горел."
+              },
+              {
+                "en": "I should have been listening more carefully.",
+                "ru": "Надо было слушать внимательнее."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Простая или длительная",
+      "label": "Must have done или must have been doing",
       "intro": {
         "text": "Must have done — о результате или факте. Must have been doing — о процессе, который шёл какое-то время, часто со следами: глаза красные, всё мокрое.",
         "highlights": [
@@ -138,10 +246,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The streets are wet. It must have been raining all night.", "ru": "Улицы мокрые. Наверное, всю ночь шёл дождь. (процесс)"}, {"en": "He must have forgotten the meeting.", "ru": "Он, должно быть, забыл о встрече. (факт)"}, {"en": "You look exhausted. You must have been running.", "ru": "Ты выглядишь измотанным. Ты, наверное, бежал."}, {"en": "She might have been sleeping when you called.", "ru": "Возможно, она спала, когда ты звонил."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The streets are wet. It must have been raining all night.",
+                "ru": "Улицы мокрые. Наверное, всю ночь шёл дождь. (процесс)"
+              },
+              {
+                "en": "He must have forgotten the meeting.",
+                "ru": "Он, должно быть, забыл о встрече. (факт)"
+              },
+              {
+                "en": "You look exhausted. You must have been running.",
+                "ru": "Ты выглядишь измотанным. Ты, наверное, бежал."
+              },
+              {
+                "en": "She might have been sleeping when you called.",
+                "ru": "Возможно, она спала, когда ты звонил."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Упрёки и сожаления",
+      "label": "Упрёки: should have been doing",
       "intro": {
         "text": "Should have been doing — «надо было делать, а ты…». Wouldn't have been doing — «не стал бы делать», если бы знал.",
         "highlights": [
@@ -180,10 +317,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "You should have been studying, not playing games.", "ru": "Тебе надо было заниматься, а не играть."}, {"en": "He shouldn't have been using his phone while driving.", "ru": "Ему не следовало пользоваться телефоном за рулём."}, {"en": "She can't have been telling the truth.", "ru": "Не может быть, что она говорила правду."}, {"en": "I wouldn't have been worrying if you had called.", "ru": "Я бы не волновался, если бы ты позвонил."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You should have been studying, not playing games.",
+                "ru": "Тебе надо было заниматься, а не играть."
+              },
+              {
+                "en": "He shouldn't have been using his phone while driving.",
+                "ru": "Ему не следовало пользоваться телефоном за рулём."
+              },
+              {
+                "en": "She can't have been telling the truth.",
+                "ru": "Не может быть, что она говорила правду."
+              },
+              {
+                "en": "I wouldn't have been worrying if you had called.",
+                "ru": "Я бы не волновался, если бы ты позвонил."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Must have been doing",
+      "label": "Частые ошибки: must have been cry, must been",
       "intro": {
         "text": "Самые частые ошибки — и как сказать правильно.",
         "highlights": [
@@ -201,23 +367,23 @@
           "errors": [
             {
               "wrong": "She must have been cry.",
-              "right": "She must have been crying."
+              "right": "She must have been crying. (нужен -ing)"
             },
             {
               "wrong": "He must been working.",
-              "right": "He must have been working."
+              "right": "He must have been working. (have обязателен)"
             },
             {
               "wrong": "You should have be studying.",
-              "right": "You should have been studying."
+              "right": "You should have been studying. (been, не be)"
             },
             {
               "wrong": "They might have been wait.",
-              "right": "They might have been waiting."
+              "right": "They might have been waiting. (нужен -ing)"
             },
             {
               "wrong": "He mustn't have been sleeping.",
-              "right": "He can't have been sleeping."
+              "right": "He can't have been sleeping. (догадка «нет» — can't)"
             }
           ]
         }

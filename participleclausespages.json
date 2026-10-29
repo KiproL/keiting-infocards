@@ -3,13 +3,25 @@
   "route": "cards_participleclauses",
   "slides": [
     {
-      "label": "Оборот вместо придаточного",
+      "label": "Причастный оборот вместо придаточного",
       "intro": {
-        "text": "Причастные обороты заменяют целое предложение с союзом. Вместо «Because he was tired, he went to bed» — «Feeling tired, he went to bed». Это делает речь компактнее и литературнее.",
+        "text": "Причастный оборот заменяет целое придаточное: вместо Because he was tired, he went to bed — Feeling tired, he went to bed. Речь становится короче и литературнее.",
         "highlights": [
-          { "text": "Причастные обороты", "color": "term",    "style": "bold_underline" },
-          { "text": "заменяют",            "color": "info",    "style": "bold" },
-          { "text": "компактнее",           "color": "example", "style": "bold" }
+          {
+            "text": "Причастный оборот",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "заменяет",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "короче",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,15 +31,27 @@
           "formulas": [
             {
               "parts": [
-                { "text": "-ing",   "color": "info" },
-                { "text": "= активное, одновременное", "color": "example" }
+                {
+                  "text": "-ing",
+                  "color": "info"
+                },
+                {
+                  "text": "= активное, одновременное",
+                  "color": "example"
+                }
               ],
               "accentColor": "info"
             },
             {
               "parts": [
-                { "text": "V3",     "color": "term" },
-                { "text": "= пассивное, завершённое", "color": "example" }
+                {
+                  "text": "V3",
+                  "color": "term"
+                },
+                {
+                  "text": "= пассивное, завершённое",
+                  "color": "example"
+                }
               ],
               "accentColor": "term"
             }
@@ -37,13 +61,45 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Полное предложение", "Причастный оборот", "Смысл"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Полное предложение",
+              "Причастный оборот",
+              "Смысл"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Because he was tired, he left.",  "Feeling tired, he left.",         "причина"] },
-              { "cells": ["When she saw me, she smiled.",    "Seeing me, she smiled.",           "одновременность"] },
-              { "cells": ["After he had finished, he left.",  "Having finished, he left.",        "до действия"] },
-              { "cells": ["The book was written in 1920. It is famous.", "Written in 1920, the book is famous.", "пассив"] }
+              {
+                "cells": [
+                  "Because he was tired, he left.",
+                  "Feeling tired, he left.",
+                  "причина"
+                ]
+              },
+              {
+                "cells": [
+                  "When she saw me, she smiled.",
+                  "Seeing me, she smiled.",
+                  "одновременность"
+                ]
+              },
+              {
+                "cells": [
+                  "After he had finished, he left.",
+                  "Having finished, he left.",
+                  "до действия"
+                ]
+              },
+              {
+                "cells": [
+                  "The book was written in 1920. It is famous.",
+                  "Written in 1920, the book is famous.",
+                  "пассив"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -52,19 +108,43 @@
           "title": "Три вида",
           "borderColor": "term",
           "rules": [
-            { "name": "Present Participle",  "suffix": "-ing",             "example": "Walking home, I saw him." },
-            { "name": "Perfect Participle",   "suffix": "Having + V3",       "example": "Having finished, she left." },
-            { "name": "Past Participle",      "suffix": "V3",                "example": "Written in 1920, the book is famous." }
+            {
+              "name": "Present Participle",
+              "suffix": "-ing",
+              "example": "Walking home, I saw him."
+            },
+            {
+              "name": "Perfect Participle",
+              "suffix": "Having + V3",
+              "example": "Having finished, she left."
+            },
+            {
+              "name": "Past Participle",
+              "suffix": "V3",
+              "example": "Written in 1920, the book is famous."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "Walking home, I met an old friend.",         "ru": "Идя домой, я встретил старого друга." },
-            { "en": "Having finished the report, she went home.",  "ru": "Закончив отчёт, она пошла домой." },
-            { "en": "Written in 1920, the book is still popular.", "ru": "Написанная в 1920-м, книга популярна до сих пор." },
-            { "en": "Feeling tired, he decided to rest.",           "ru": "Чувствуя усталость, он решил отдохнуть." }
+            {
+              "en": "Walking home, I met an old friend.",
+              "ru": "Идя домой, я встретил старого друга."
+            },
+            {
+              "en": "Having finished the report, she went home.",
+              "ru": "Закончив отчёт, она пошла домой."
+            },
+            {
+              "en": "Written in 1920, the book is still popular.",
+              "ru": "Написанная в 1920-м, книга популярна до сих пор."
+            },
+            {
+              "en": "Feeling tired, he decided to rest.",
+              "ru": "Чувствуя усталость, он решил отдохнуть."
+            }
           ]
         },
         {
@@ -76,15 +156,39 @@
             "text": "Причастный оборот относится к тому же подлежащему, что и главное предложение. Walking home, I saw him — «я шёл, я увидел». Если подлежащие разные — ошибка."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ловушка: «висящий» оборот",
+          "preview": "когда подлежащие разные",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "bad",
+            "errors": [
+              {
+                "wrong": "Walking home, the rain started.",
+                "right": "Walking home, I got caught in the rain. (шёл я, а не дождь)"
+              },
+              {
+                "wrong": "Having eaten, the table was cleared.",
+                "right": "Having eaten, we cleared the table. (ели мы, а не стол)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
-
     {
-      "label": "Частые ошибки: Participle clauses",
+      "label": "Частые ошибки: Walk home, Having finish",
       "intro": {
         "text": "Три самые частые ошибки в причастных оборотах.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -92,9 +196,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "Having finished, she went home. (если подлежащее не совпадает)", "right": "Having finished the report, she went home." },
-            { "wrong": "Walk home, I met him.",                                            "right": "Walking home, I met him." },
-            { "wrong": "Having finish, she left.",                                          "right": "Having finished, she left." }
+            {
+              "wrong": "Looking out of the window, the sea was beautiful.",
+              "right": "Looking out of the window, I saw the beautiful sea. (смотрел я — подлежащее I)"
+            },
+            {
+              "wrong": "Walk home, I met him.",
+              "right": "Walking home, I met him. (оборот — с -ing)"
+            },
+            {
+              "wrong": "Having finish, she left.",
+              "right": "Having finished, she left. (после having — V3)"
+            }
           ]
         },
         {
