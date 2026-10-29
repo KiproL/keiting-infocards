@@ -5,11 +5,28 @@
     {
       "label": "would like: вежливое «хочу»",
       "intro": {
-        "text": "Would like — вежливая форма «хочу». Используется в просьбах, заказах, приглашениях. В разговорной речи сокращается до 'd like.",
+        "text": "Would like — вежливое «хотел бы». Так просят, заказывают и приглашают. В речи сокращается: I'd like. После него — предмет (a coffee) или to + глагол (to go).",
         "highlights": [
-          { "text": "Would like", "color": "term",    "style": "bold_underline" },
-          { "text": "вежливая",    "color": "info",    "style": "bold" },
-          { "text": "'d like",     "color": "example", "style": "bold" }
+          {
+            "text": "Would like",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "вежливое",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "I'd like",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "to + глагол",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,19 +36,185 @@
           "formulas": [
             {
               "parts": [
-                { "text": "would like", "color": "info" },
-                { "text": "+",          "color": "muted" },
-                { "text": "существительное", "color": "example" }
+                {
+                  "text": "would like",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "существительное",
+                  "color": "example"
+                }
               ],
-              "accentColor": "info", "drill": {"slots": ["would like", "существительное"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I would like a coffee, please.", "ru": "Мне кофе, пожалуйста.", "parts": [["I", ""], ["would like", "would like"], ["a coffee,", "существительное"], ["please.", ""]]}, {"en": "We would like a table for two.", "ru": "Нам столик на двоих.", "parts": [["We", ""], ["would like", "would like"], ["a table", "существительное"], ["for two.", ""]]}, {"en": "She would like some water.", "ru": "Она хотела бы воды.", "parts": [["She", ""], ["would like", "would like"], ["some water.", "существительное"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "would like",
+                  "существительное"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "I would like a coffee, please.",
+                    "ru": "Мне кофе, пожалуйста.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "would like",
+                        "would like"
+                      ],
+                      [
+                        "a coffee,",
+                        "существительное"
+                      ],
+                      [
+                        "please.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "We would like a table for two.",
+                    "ru": "Нам столик на двоих.",
+                    "parts": [
+                      [
+                        "We",
+                        ""
+                      ],
+                      [
+                        "would like",
+                        "would like"
+                      ],
+                      [
+                        "a table",
+                        "существительное"
+                      ],
+                      [
+                        "for two.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She would like some water.",
+                    "ru": "Она хотела бы воды.",
+                    "parts": [
+                      [
+                        "She",
+                        ""
+                      ],
+                      [
+                        "would like",
+                        "would like"
+                      ],
+                      [
+                        "some water.",
+                        "существительное"
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
-                { "text": "would like", "color": "good" },
-                { "text": "+",          "color": "muted" },
-                { "text": "to + глагол", "color": "example" }
+                {
+                  "text": "would like",
+                  "color": "good"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "to + глагол",
+                  "color": "example"
+                }
               ],
-              "accentColor": "good", "drill": {"slots": ["would like", "to + глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I would like to book a room.", "ru": "Я хотел бы забронировать номер.", "parts": [["I", ""], ["would like", "would like"], ["to book", "to + глагол"], ["a room.", ""]]}, {"en": "We would like to order.", "ru": "Мы хотели бы сделать заказ.", "parts": [["We", ""], ["would like", "would like"], ["to order.", "to + глагол"]]}, {"en": "Would you like to come with us?", "ru": "Хочешь пойти с нами?", "parts": [["Would you", ""], ["like", "would like"], ["to come", "to + глагол"], ["with us?", ""]]}]}
+              "accentColor": "good",
+              "drill": {
+                "slots": [
+                  "would like",
+                  "to + глагол"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "I would like to book a room.",
+                    "ru": "Я хотел бы забронировать номер.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "would like",
+                        "would like"
+                      ],
+                      [
+                        "to book",
+                        "to + глагол"
+                      ],
+                      [
+                        "a room.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "We would like to order.",
+                    "ru": "Мы хотели бы сделать заказ.",
+                    "parts": [
+                      [
+                        "We",
+                        ""
+                      ],
+                      [
+                        "would like",
+                        "would like"
+                      ],
+                      [
+                        "to order.",
+                        "to + глагол"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Would you like to come with us?",
+                    "ru": "Хочешь пойти с нами?",
+                    "parts": [
+                      [
+                        "Would you",
+                        ""
+                      ],
+                      [
+                        "like",
+                        "would like"
+                      ],
+                      [
+                        "to come",
+                        "to + глагол"
+                      ],
+                      [
+                        "with us?",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -39,13 +222,45 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Что после", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Что после",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["would like",     "существительное", "I would like a coffee."] },
-              { "cells": ["would like to",  "глагол",           "I would like to sleep."] },
-              { "cells": ["'d like",         "то же, короче",   "I'd like a coffee."] },
-              { "cells": ["Would you like", "вежливый вопрос",   "Would you like some tea?"] }
+              {
+                "cells": [
+                  "would like",
+                  "существительное",
+                  "I would like a coffee."
+                ]
+              },
+              {
+                "cells": [
+                  "would like to",
+                  "глагол",
+                  "I would like to sleep."
+                ]
+              },
+              {
+                "cells": [
+                  "'d like",
+                  "то же, короче",
+                  "I'd like a coffee."
+                ]
+              },
+              {
+                "cells": [
+                  "Would you like",
+                  "вежливый вопрос",
+                  "Would you like some tea?"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -54,10 +269,22 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I would like a cup of tea.",          "ru": "Я бы хотел чашку чая." },
-            { "en": "I'd like to book a table.",            "ru": "Я хотел бы забронировать столик." },
-            { "en": "Would you like some coffee?",          "ru": "Хотите немного кофе?" },
-            { "en": "We would like to see the menu.",       "ru": "Мы хотели бы посмотреть меню." }
+            {
+              "en": "I would like a cup of tea.",
+              "ru": "Я бы хотел чашку чая."
+            },
+            {
+              "en": "I'd like to book a table.",
+              "ru": "Я хотел бы забронировать столик."
+            },
+            {
+              "en": "Would you like some coffee?",
+              "ru": "Хотите немного кофе?"
+            },
+            {
+              "en": "We would like to see the menu.",
+              "ru": "Мы хотели бы посмотреть меню."
+            }
           ]
         },
         {
@@ -69,17 +296,82 @@
             "accentColor": "accent2"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "I like или I'd like",
+          "preview": "нравится вообще или хочу сейчас",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Фраза",
+                "Смысл",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "I like coffee.",
+                    "вообще, всегда",
+                    "Я люблю кофе."
+                  ]
+                },
+                {
+                  "cells": [
+                    "I'd like a coffee.",
+                    "сейчас, просьба",
+                    "Мне, пожалуйста, кофе."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Do you like tea?",
+                    "вообще",
+                    "Ты любишь чай?"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Would you like tea?",
+                    "предложение сейчас",
+                    "Хочешь чаю?"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
-
     {
-      "label": "Отрицание и вопрос",
+      "label": "Отрицание и вопрос: Would you like…?",
       "intro": {
-        "text": "Отрицание и вопрос образуются без do — сдвигом would: wouldn't like, Would you like…?",
+        "text": "Отрицание и вопрос — без do: would сам встаёт вперёд или получает not. Wouldn't like, Would you like…?",
         "highlights": [
-          { "text": "wouldn't like", "color": "bad",     "style": "bold" },
-          { "text": "Would you like", "color": "info",    "style": "bold" },
-          { "text": "без do",         "color": "example", "style": "bold_underline" }
+          {
+            "text": "без do",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "Wouldn't like",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "Would you like…?",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -87,43 +379,87 @@
           "title": "Отрицание",
           "borderColor": "bad",
           "examples": [
-            { "en": "I wouldn't like to live there.",       "ru": "Я бы не хотел там жить." },
-            { "en": "She wouldn't like this film.",          "ru": "Ей бы не понравился этот фильм." },
-            { "en": "We wouldn't like to wait.",             "ru": "Мы бы не хотели ждать." }
+            {
+              "en": "I wouldn't like to live there.",
+              "ru": "Я бы не хотел там жить."
+            },
+            {
+              "en": "She wouldn't like this film.",
+              "ru": "Ей бы не понравился этот фильм."
+            },
+            {
+              "en": "We wouldn't like to wait.",
+              "ru": "Мы бы не хотели ждать."
+            }
           ]
         },
         {
           "title": "Вопрос",
           "borderColor": "info",
           "examples": [
-            { "en": "Would you like some tea?",          "ru": "Хотите чаю?" },
-            { "en": "Would you like to come with us?",    "ru": "Хочешь пойти с нами?" },
-            { "en": "What would you like to drink?",       "ru": "Что бы вы хотели выпить?" },
-            { "en": "Where would you like to sit?",        "ru": "Где бы вы хотели сесть?" }
+            {
+              "en": "Would you like some tea?",
+              "ru": "Хотите чаю?"
+            },
+            {
+              "en": "Would you like to come with us?",
+              "ru": "Хочешь пойти с нами?"
+            },
+            {
+              "en": "What would you like to drink?",
+              "ru": "Что бы вы хотели выпить?"
+            },
+            {
+              "en": "Where would you like to sit?",
+              "ru": "Где бы вы хотели сесть?"
+            }
           ]
         },
         {
           "title": "Краткие ответы",
           "borderColor": "good",
           "table": {
-            "headers": ["Вопрос", "Да", "Нет"],
-            "headerColors": ["info", "good", "bad"],
+            "headers": [
+              "Вопрос",
+              "Да",
+              "Нет"
+            ],
+            "headerColors": [
+              "info",
+              "good",
+              "bad"
+            ],
             "rows": [
-              { "cells": ["Would you like tea?",  "Yes, please.",      "No, thank you."] },
-              { "cells": ["Would you like to go?", "Yes, I'd love to.", "No, I wouldn't."] }
+              {
+                "cells": [
+                  "Would you like tea?",
+                  "Yes, please.",
+                  "No, thank you."
+                ]
+              },
+              {
+                "cells": [
+                  "Would you like to go?",
+                  "Yes, I'd love to.",
+                  "Sorry, I can't."
+                ]
+              }
             ],
             "borderColor": "good"
           }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Would like",
+      "label": "Частые ошибки: I want, would like go",
       "intro": {
-        "text": "Четыре ошибки, которые ломают вежливость.",
+        "text": "Четыре ошибки, которые ломают вежливость или грамматику.",
         "highlights": [
-          { "text": "ломают вежливость", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "ломают вежливость",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -131,10 +467,22 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I want a coffee, please.",  "right": "I would like a coffee, please." },
-            { "wrong": "I would like go home.",       "right": "I would like to go home." },
-            { "wrong": "Do you would like tea?",      "right": "Would you like tea?" },
-            { "wrong": "I will like a coffee.",        "right": "I would like a coffee." }
+            {
+              "wrong": "I want a coffee, please.",
+              "right": "I would like a coffee, please. (want звучит резко)"
+            },
+            {
+              "wrong": "I would like go home.",
+              "right": "I would like to go home. (перед глаголом — to)"
+            },
+            {
+              "wrong": "Do you would like tea?",
+              "right": "Would you like tea? (без do)"
+            },
+            {
+              "wrong": "I will like a coffee.",
+              "right": "I would like a coffee. (would, не will)"
+            }
           ]
         },
         {

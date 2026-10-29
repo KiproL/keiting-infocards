@@ -3,9 +3,9 @@
   "route": "cards_food",
   "slides": [
     {
-      "label": "Продукты",
+      "label": "Продукты: что можно посчитать",
       "intro": {
-        "text": "Многие продукты неисчисляемые: bread, rice, cheese, fruit — без a и без -s.",
+        "text": "Многие продукты неисчисляемые — их не считают штуками: bread, rice, cheese, fruit — без a и без -s. Чтобы посчитать, берут «упаковку»: a loaf of bread, a piece of cheese.",
         "highlights": [
           {
             "text": "неисчисляемые",
@@ -15,6 +15,11 @@
           {
             "text": "без a и без -s",
             "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "a loaf of bread",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -97,10 +102,98 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Can I have some bread, please?", "ru": "Можно мне хлеба? (bread — без a и без -s)"}, {"en": "I eat a lot of fruit.", "ru": "Я ем много фруктов. (fruit — неисчисляемое)"}, {"en": "I need three eggs for the cake.", "ru": "Для торта нужно три яйца. (eggs — считаем)"}, {"en": "Do you eat seafood?", "ru": "Ты ешь морепродукты?"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Can I have some bread, please?",
+                "ru": "Можно мне хлеба? (bread — без a и без -s)"
+              },
+              {
+                "en": "I eat a lot of fruit.",
+                "ru": "Я ем много фруктов. (fruit — неисчисляемое)"
+              },
+              {
+                "en": "I need three eggs for the cake.",
+                "ru": "Для торта нужно три яйца. (eggs — считаем)"
+              },
+              {
+                "en": "Do you eat seafood?",
+                "ru": "Ты ешь морепродукты?"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Как посчитать неисчисляемое",
+          "preview": "a bottle of, a piece of, a kilo of",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Мера",
+                "С чем",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "a loaf of",
+                    "хлеб",
+                    "a loaf of bread — буханка"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a piece / slice of",
+                    "сыр, торт, пицца",
+                    "a slice of pizza"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a bottle of",
+                    "вода, вино, масло",
+                    "two bottles of water"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a cup / glass of",
+                    "чай, сок, молоко",
+                    "a glass of milk"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a kilo of",
+                    "всё на вес",
+                    "a kilo of rice"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "Готовка",
+      "label": "Готовка: boil, fry, bake",
       "intro": {
         "text": "Глаголы из любого рецепта. «Жарить» — разные слова: на сковороде fry, в духовке roast, на гриле grill.",
         "highlights": [
@@ -193,16 +286,54 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "5 примеров в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Boil the pasta for ten minutes.", "ru": "Варите макароны десять минут."}, {"en": "Fry the onion in a little oil.", "ru": "Обжарьте лук на небольшом количестве масла."}, {"en": "My mum bakes a cake every Sunday.", "ru": "Мама по воскресеньям печёт торт."}, {"en": "Peel the potatoes and chop them.", "ru": "Почистите картошку и порежьте кусочками."}, {"en": "Stir the soup and add some salt.", "ru": "Помешайте суп и добавьте соль."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "5 примеров в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Boil the pasta for ten minutes.",
+                "ru": "Варите макароны десять минут."
+              },
+              {
+                "en": "Fry the onion in a little oil.",
+                "ru": "Обжарьте лук на небольшом количестве масла."
+              },
+              {
+                "en": "My mum bakes a cake every Sunday.",
+                "ru": "Мама по воскресеньям печёт торт."
+              },
+              {
+                "en": "Peel the potatoes and chop them.",
+                "ru": "Почистите картошку и порежьте кусочками."
+              },
+              {
+                "en": "Stir the soup and add some salt.",
+                "ru": "Помешайте суп и добавьте соль."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Вкус и еда",
+      "label": "Вкус и приёмы пищи",
       "intro": {
-        "text": "Как описать вкус и как сказать «завтракать» и «обедать».",
+        "text": "Как описать вкус и как сказать «завтракать» и «обедать» — через have, без артикля: have breakfast.",
         "highlights": [
           {
             "text": "описать вкус",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "через have, без артикля",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -267,10 +398,91 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Breakfast, lunch, dinner — когда что",
+          "preview": "и чем dinner отличается от supper",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Когда",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "breakfast",
+                    "утром",
+                    "I have breakfast at 8."
+                  ]
+                },
+                {
+                  "cells": [
+                    "lunch",
+                    "днём",
+                    "Let's have lunch together."
+                  ]
+                },
+                {
+                  "cells": [
+                    "dinner",
+                    "вечером, главная еда",
+                    "What's for dinner?"
+                  ]
+                },
+                {
+                  "cells": [
+                    "supper",
+                    "поздний лёгкий ужин (UK)",
+                    "a light supper"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "This coffee is too bitter.",
+                "ru": "Этот кофе слишком горький."
+              },
+              {
+                "en": "The bread is stale.",
+                "ru": "Хлеб чёрствый."
+              },
+              {
+                "en": "I'd like my steak medium, please.",
+                "ru": "Мне стейк средней прожарки, пожалуйста."
+              },
+              {
+                "en": "We had a light lunch.",
+                "ru": "Мы легко пообедали."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: еда и напитки",
+      "label": "Еда в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -323,7 +535,7 @@
       ]
     },
     {
-      "label": "Диалог: еда и напитки",
+      "label": "Диалог: что в холодильнике",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -368,14 +580,19 @@
       ]
     },
     {
-      "label": "Частые ошибки: Еда и напитки",
+      "label": "Частые ошибки: a bread, salt, kitchen",
       "intro": {
-        "text": "Самые частые ошибки в словах о еде.",
+        "text": "Чаще всего ошибаются с неисчисляемыми (a bread), с прилагательными вкуса и с «кухней».",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "неисчисляемыми",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "прилагательными вкуса",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -386,23 +603,27 @@
           "errors": [
             {
               "wrong": "a bread",
-              "right": "some bread / a loaf of bread"
+              "right": "some bread / a loaf of bread (хлеб не считают)"
             },
             {
               "wrong": "The soup is very salt.",
-              "right": "The soup is very salty."
+              "right": "The soup is very salty. (salt — соль, salty — солёный)"
             },
             {
               "wrong": "Russian kitchen",
-              "right": "Russian cuisine"
+              "right": "Russian cuisine (kitchen — помещение)"
             },
             {
               "wrong": "take a lunch",
-              "right": "have lunch"
+              "right": "have lunch (have, без a)"
             },
             {
               "wrong": "dinner (днём)",
               "right": "lunch — днём, dinner — вечером"
+            },
+            {
+              "wrong": "a fruits",
+              "right": "some fruit / an apple (fruit — обычно без -s)"
             }
           ]
         }

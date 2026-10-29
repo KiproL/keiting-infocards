@@ -3,7 +3,7 @@
   "route": "cards_timemoney",
   "slides": [
     {
-      "label": "Который час",
+      "label": "Который час: past и to",
       "intro": {
         "text": "Время говорят двумя способами: цифрами, как на табло (seven fifteen), или по-старому — через past (после) и to (до). Past — первая половина часа, to — вторая.",
         "highlights": [
@@ -107,10 +107,43 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Во сколько, с какого до какого",
+          "preview": "at, from… to, until",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "rules": [
+              {
+                "name": "at",
+                "suffix": "во сколько",
+                "example": "The film starts at 8."
+              },
+              {
+                "name": "from… to",
+                "suffix": "с… до",
+                "example": "I work from 9 to 5."
+              },
+              {
+                "name": "until",
+                "suffix": "до (пока не)",
+                "example": "The shop is open until 10."
+              },
+              {
+                "name": "around / about",
+                "suffix": "около",
+                "example": "See you around 7."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Даты и годы",
+      "label": "Даты и годы: on, in, at",
       "intro": {
         "text": "Предлог зависит от того, что называешь: on — день и дата, in — месяц, год, время года, at — точное время. Годы читают парами цифр.",
         "highlights": [
@@ -227,10 +260,39 @@
             "text": "В Британии 5/12 — 5 декабря, в США — 12 мая: месяц пишут первым."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The meeting is on Monday at 10 o'clock.", "ru": "Встреча в понедельник в 10 часов."}, {"en": "I was born in 1998, in winter.", "ru": "Я родился в 1998 году, зимой."}, {"en": "The shop is closed on the first of January.", "ru": "Первого января магазин закрыт."}, {"en": "We always visit my grandma at Christmas.", "ru": "На Рождество мы всегда навещаем бабушку."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The meeting is on Monday at 10 o'clock.",
+                "ru": "Встреча в понедельник в 10 часов."
+              },
+              {
+                "en": "I was born in 1998, in winter.",
+                "ru": "Я родился в 1998 году, зимой."
+              },
+              {
+                "en": "The shop is closed on the first of January.",
+                "ru": "Первого января магазин закрыт."
+              },
+              {
+                "en": "We always visit my grandma at Christmas.",
+                "ru": "На Рождество мы всегда навещаем бабушку."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Деньги",
+      "label": "Деньги: как читать цены",
       "intro": {
         "text": "Цену читают коротко: £5.99 — five ninety-nine. Money — неисчисляемое: much money, а не many.",
         "highlights": [
@@ -309,10 +371,64 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Слова про деньги",
+          "preview": "coins, notes, change",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "coin / note (UK), bill (US)",
+                    "монета / купюра"
+                  ]
+                },
+                {
+                  "cells": [
+                    "change",
+                    "сдача, мелочь"
+                  ]
+                },
+                {
+                  "cells": [
+                    "cash",
+                    "наличные"
+                  ]
+                },
+                {
+                  "cells": [
+                    "cheap / expensive",
+                    "дешёвый / дорогой"
+                  ]
+                },
+                {
+                  "cells": [
+                    "It's a bargain!",
+                    "Очень выгодно!"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Меры",
+      "label": "Меры: мили, футы, фунты",
       "intro": {
         "text": "В США и отчасти в Британии живут старые меры: дюймы, футы, мили, фунты. Хватит знать их примерно.",
         "highlights": [
@@ -404,10 +520,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "He is six foot tall — about 1.83 metres.", "ru": "Его рост — шесть футов, около 1,83 метра."}, {"en": "The hotel is two miles from the airport.", "ru": "Отель в двух милях (около 3 км) от аэропорта."}, {"en": "A pint of milk, please.", "ru": "Пинту молока, пожалуйста. (около полулитра)"}, {"en": "It's 86 degrees — about 30 Celsius.", "ru": "Сейчас 86 градусов по Фаренгейту — около 30 по Цельсию."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "He is six foot tall — about 1.83 metres.",
+                "ru": "Его рост — шесть футов, около 1,83 метра."
+              },
+              {
+                "en": "The hotel is two miles from the airport.",
+                "ru": "Отель в двух милях (около 3 км) от аэропорта."
+              },
+              {
+                "en": "A pint of milk, please.",
+                "ru": "Пинту молока, пожалуйста. (около полулитра)"
+              },
+              {
+                "en": "It's 86 degrees — about 30 Celsius.",
+                "ru": "Сейчас 86 градусов по Фаренгейту — около 30 по Цельсию."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Примеры: время, деньги, меры",
+      "label": "Время и деньги в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -460,7 +605,7 @@
       ]
     },
     {
-      "label": "Диалог: время, деньги, меры",
+      "label": "Диалог: на рынке",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -505,7 +650,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Время, деньги, меры",
+      "label": "Частые ошибки: половина восьмого, five dollar",
       "intro": {
         "text": "Самые частые ошибки со временем и деньгами.",
         "highlights": [
@@ -523,27 +668,27 @@
           "errors": [
             {
               "wrong": "«половина восьмого» — half past eight",
-              "right": "half past seven (7:30)"
+              "right": "half past seven (7:30 — полчаса после семи)"
             },
             {
               "wrong": "a five minutes walk",
-              "right": "a five-minute walk"
+              "right": "a five-minute walk (через дефис, без -s)"
             },
             {
               "wrong": "How much it costs?",
-              "right": "How much does it cost?"
+              "right": "How much does it cost? (нужен does)"
             },
             {
               "wrong": "It costs five dollar.",
-              "right": "It costs five dollars."
+              "right": "It costs five dollars. (много — с -s)"
             },
             {
               "wrong": "in Monday / on May",
-              "right": "on Monday / in May"
+              "right": "on Monday / in May (день — on, месяц — in)"
             },
             {
               "wrong": "I don't have many money.",
-              "right": "I don't have much money."
+              "right": "I don't have much money. (money — неисчисляемое)"
             }
           ]
         }

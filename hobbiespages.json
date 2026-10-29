@@ -3,13 +3,18 @@
   "route": "cards_hobbies",
   "slides": [
     {
-      "label": "Хобби",
+      "label": "Хобби: reading, cooking, hiking",
       "intro": {
-        "text": "Хобби чаще называют формой на -ing: reading, cooking, hiking.",
+        "text": "Хобби чаще называют формой на -ing: reading, cooking, hiking. После like, love, enjoy — тоже -ing: I enjoy cooking.",
         "highlights": [
           {
             "text": "на -ing",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "like, love, enjoy",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -92,10 +97,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I love reading before bed.", "ru": "Я люблю читать перед сном."}, {"en": "My dad is into fishing.", "ru": "Мой папа увлекается рыбалкой."}, {"en": "We often play board games on Friday evenings.", "ru": "По вечерам в пятницу мы часто играем в настольные игры."}, {"en": "Photography is my favourite hobby.", "ru": "Фотография — моё любимое хобби."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I love reading before bed.",
+                "ru": "Я люблю читать перед сном."
+              },
+              {
+                "en": "My dad is into fishing.",
+                "ru": "Мой папа увлекается рыбалкой."
+              },
+              {
+                "en": "We often play board games on Friday evenings.",
+                "ru": "По вечерам в пятницу мы часто играем в настольные игры."
+              },
+              {
+                "en": "Photography is my favourite hobby.",
+                "ru": "Фотография — моё любимое хобби."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Play, go, do",
+      "label": "Play, go или do",
       "intro": {
         "text": "Со спортом три глагола: play — игры с мячом и соперником, go — занятия на -ing, do — всё остальное.",
         "highlights": [
@@ -161,16 +195,55 @@
             "text": "С музыкальными инструментами обычно the: play the guitar, play the piano. С играми — без: play football."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "We play football every Saturday.", "ru": "Мы играем в футбол каждую субботу. (игра с мячом — play)"}, {"en": "She goes swimming twice a week.", "ru": "Она ходит плавать два раза в неделю. (на -ing — go)"}, {"en": "I do yoga in the morning.", "ru": "По утрам я занимаюсь йогой. (остальное — do)"}, {"en": "He plays the piano very well.", "ru": "Он очень хорошо играет на пианино. (инструмент — с the)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "We play football every Saturday.",
+                "ru": "Мы играем в футбол каждую субботу. (игра с мячом — play)"
+              },
+              {
+                "en": "She goes swimming twice a week.",
+                "ru": "Она ходит плавать два раза в неделю. (на -ing — go)"
+              },
+              {
+                "en": "I do yoga in the morning.",
+                "ru": "По утрам я занимаюсь йогой. (остальное — do)"
+              },
+              {
+                "en": "He plays the piano very well.",
+                "ru": "Он очень хорошо играет на пианино. (инструмент — с the)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Как сказать",
+      "label": "Как рассказать о хобби",
       "intro": {
-        "text": "Как рассказать о своих увлечениях.",
+        "text": "Как спросить о свободном времени и рассказать о своих увлечениях. Take up — «начать заниматься», be into — «увлекаться».",
         "highlights": [
           {
-            "text": "увлечениях",
+            "text": "о своих увлечениях",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Take up",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "be into",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -202,10 +275,69 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Как часто: once, twice, every",
+          "preview": "once a week, every day",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Фраза",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "once a week",
+                    "раз в неделю"
+                  ]
+                },
+                {
+                  "cells": [
+                    "twice a month",
+                    "два раза в месяц"
+                  ]
+                },
+                {
+                  "cells": [
+                    "three times a year",
+                    "три раза в год"
+                  ]
+                },
+                {
+                  "cells": [
+                    "every day",
+                    "каждый день"
+                  ]
+                },
+                {
+                  "cells": [
+                    "at the weekend",
+                    "по выходным"
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "tip",
+              "title": "Где ставить",
+              "text": "В конце фразы: I go swimming twice a week."
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: хобби и спорт",
+      "label": "Хобби в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -258,7 +390,7 @@
       ]
     },
     {
-      "label": "Диалог: хобби и спорт",
+      "label": "Диалог: планы на выходные",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -303,14 +435,19 @@
       ]
     },
     {
-      "label": "Частые ошибки: Хобби и спорт",
+      "label": "Частые ошибки: play swimming, do football",
       "intro": {
-        "text": "Самые частые ошибки в словах о хобби.",
+        "text": "Чаще всего путают глаголы play, go и do и ставят лишнее the или to.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "play, go и do",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "лишнее the или to",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -321,23 +458,23 @@
           "errors": [
             {
               "wrong": "I play swimming.",
-              "right": "I go swimming."
+              "right": "I go swimming. (на -ing — go)"
             },
             {
               "wrong": "I do football.",
-              "right": "I play football."
+              "right": "I play football. (игра с мячом — play)"
             },
             {
               "wrong": "I play the football.",
-              "right": "I play football."
+              "right": "I play football. (с играми — без the)"
             },
             {
               "wrong": "I like to go to fishing.",
-              "right": "I like going fishing."
+              "right": "I like going fishing. (go + -ing без to)"
             },
             {
               "wrong": "My hobby is computer.",
-              "right": "I like playing computer games."
+              "right": "I like playing computer games. (хобби — занятие)"
             }
           ]
         }

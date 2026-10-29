@@ -3,9 +3,9 @@
   "route": "cards_family",
   "slides": [
     {
-      "label": "Семья",
+      "label": "Семья: самые близкие",
       "intro": {
-        "text": "Главные слова о семье. Mum и dad — разговорно, mother и father — нейтрально; в США — mom.",
+        "text": "Главные слова о семье. Mum и dad — разговорно, mother и father — нейтрально, в США — mom. Cousin — и двоюродный брат, и двоюродная сестра.",
         "highlights": [
           {
             "text": "Mum и dad",
@@ -15,6 +15,11 @@
           {
             "text": "mother и father",
             "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Cousin",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -109,12 +114,93 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Старший, младший, единственный",
+          "preview": "older, younger, only child",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "По-русски",
+                "По-английски"
+              ],
+              "headerColors": [
+                "muted",
+                "term"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "старший брат",
+                    "an older brother (UK: elder brother)"
+                  ]
+                },
+                {
+                  "cells": [
+                    "младшая сестра",
+                    "a younger sister"
+                  ]
+                },
+                {
+                  "cells": [
+                    "близнецы",
+                    "twins"
+                  ]
+                },
+                {
+                  "cells": [
+                    "единственный ребёнок",
+                    "an only child"
+                  ]
+                },
+                {
+                  "cells": [
+                    "большая / дружная семья",
+                    "a big / close family"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I have a younger brother.",
+                "ru": "У меня есть младший брат."
+              },
+              {
+                "en": "My parents live in Kazan.",
+                "ru": "Мои родители живут в Казани."
+              },
+              {
+                "en": "I'm an only child.",
+                "ru": "Я единственный ребёнок."
+              },
+              {
+                "en": "My aunt has three children.",
+                "ru": "У моей тёти трое детей."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Родня по браку",
+      "label": "Родня по браку: -in-law и step-",
       "intro": {
-        "text": "Все родственники мужа или жены — просто -in-law: тёща и свекровь — одно слово mother-in-law. Через нового супруга родителя — step-.",
+        "text": "Все родственники мужа или жены — просто -in-law: и тёща, и свекровь — одно слово mother-in-law. Родня через нового мужа или жену родителя — step-: stepfather — отчим.",
         "highlights": [
           {
             "text": "-in-law",
@@ -182,16 +268,46 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "3 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My mother-in-law is a great cook.",
+                "ru": "Моя свекровь (тёща) отлично готовит."
+              },
+              {
+                "en": "He gets on well with his stepfather.",
+                "ru": "Он хорошо ладит с отчимом."
+              },
+              {
+                "en": "I have a half-sister from my dad.",
+                "ru": "У меня есть сестра по отцу."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Отношения",
+      "label": "Отношения: get married, get on with",
       "intro": {
-        "text": "Слова и глаголы о парах и о том, как люди ладят.",
+        "text": "Слова о парах и о том, как люди ладят. Многие «события» — через get: get engaged, get married, get divorced.",
         "highlights": [
           {
             "text": "как люди ладят",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "через get",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -268,10 +384,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My sister got married last summer.", "ru": "Моя сестра вышла замуж прошлым летом."}, {"en": "I get on well with my brother.", "ru": "Я хорошо лажу с братом."}, {"en": "She takes after her mum.", "ru": "Она похожа на маму."}, {"en": "I grew up in a small town.", "ru": "Я вырос в маленьком городе."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My sister got married last summer.",
+                "ru": "Моя сестра вышла замуж прошлым летом."
+              },
+              {
+                "en": "I get on well with my brother.",
+                "ru": "Я хорошо лажу с братом."
+              },
+              {
+                "en": "She takes after her mum.",
+                "ru": "Она похожа на маму."
+              },
+              {
+                "en": "I grew up in a small town.",
+                "ru": "Я вырос в маленьком городе."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Примеры: семья и отношения",
+      "label": "Семья в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -324,7 +469,7 @@
       ]
     },
     {
-      "label": "Диалог: семья и отношения",
+      "label": "Диалог: братья и сёстры",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -369,14 +514,24 @@
       ]
     },
     {
-      "label": "Частые ошибки: Семья и отношения",
+      "label": "Частые ошибки: cousin, married to",
       "intro": {
-        "text": "Самые частые ошибки в словах о семье.",
+        "text": "Чаще всего ошибаются с cousin, с предлогом после married и с формой children.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "cousin",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "married",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "children",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -387,23 +542,23 @@
           "errors": [
             {
               "wrong": "my brother (двоюродный)",
-              "right": "my cousin"
+              "right": "my cousin (двоюродный — cousin)"
             },
             {
               "wrong": "I'm married with Anna.",
-              "right": "I'm married to Anna."
+              "right": "I'm married to Anna. (married to)"
             },
             {
               "wrong": "He married on her.",
-              "right": "He married her."
+              "right": "He married her. (без предлога)"
             },
             {
               "wrong": "I have two childs.",
-              "right": "I have two children."
+              "right": "I have two children. (особое мн. число)"
             },
             {
               "wrong": "my relatives (мама и папа)",
-              "right": "my parents"
+              "right": "my parents (родители — parents)"
             }
           ]
         }

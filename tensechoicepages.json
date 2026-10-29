@@ -3,19 +3,19 @@
   "route": "cards_tensechoice",
   "slides": [
     {
-      "label": "Два вопроса",
+      "label": "Как выбрать время: два вопроса",
       "intro": {
-        "text": "Время выбирают двумя вопросами. КОГДА: прошлое, настоящее или будущее. И КАК: просто факт, процесс в момент, результат к моменту или сколько длилось до момента.",
+        "text": "Время выбирают двумя вопросами. КОГДА: в прошлом, сейчас или в будущем. И КАК: просто факт, процесс в момент, результат к моменту или сколько длилось до момента.",
         "highlights": [
           {
             "text": "КОГДА",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "КАК",
             "color": "info",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "просто факт",
@@ -95,13 +95,18 @@
       ]
     },
     {
-      "label": "Как: четыре вида",
+      "label": "Четыре вида: факт, процесс, результат, длительность",
       "intro": {
-        "text": "Вид времени отвечает на вопрос, что важно в действии. По нему и выбирают, когда «когда» уже ясно.",
+        "text": "Вид времени отвечает на вопрос, что важно в действии: сам факт, процесс, результат или длительность. По нему выбирают, когда «когда» уже ясно.",
         "highlights": [
           {
             "text": "что важно в действии",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "сам факт, процесс, результат или длительность",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -133,7 +138,36 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I usually walk to work.", "ru": "Я обычно хожу на работу пешком. (привычка — Simple)"}, {"en": "Sorry, I can't talk — I'm driving.", "ru": "Извини, не могу говорить — я за рулём. (процесс сейчас — Continuous)"}, {"en": "I've finished the report. Here it is.", "ru": "Я закончил отчёт. Вот он. (результат — Perfect)"}, {"en": "She's been studying all day — she's tired.", "ru": "Она весь день занимается — устала. (как долго — Perfect Continuous)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I usually walk to work.",
+                "ru": "Я обычно хожу на работу пешком. (привычка — Simple)"
+              },
+              {
+                "en": "Sorry, I can't talk — I'm driving.",
+                "ru": "Извини, не могу говорить — я за рулём. (процесс сейчас — Continuous)"
+              },
+              {
+                "en": "I've finished the report. Here it is.",
+                "ru": "Я закончил отчёт. Вот он. (результат — Perfect)"
+              },
+              {
+                "en": "She's been studying all day — she's tired.",
+                "ru": "Она весь день занимается — устала. (как долго — Perfect Continuous)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "label": "Слова-подсказки",
@@ -143,6 +177,16 @@
           {
             "text": "слова рядом",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "yesterday",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "since",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -216,7 +260,7 @@
       ]
     },
     {
-      "label": "Частые пары",
+      "label": "Три пары, которые путают",
       "intro": {
         "text": "Чаще всего путают три пары. У каждой — один вопрос, который решает выбор.",
         "highlights": [
@@ -273,10 +317,47 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры к каждой паре",
+          "preview": "по два примера",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I lost my keys last night.",
+                "ru": "Я потерял ключи вчера вечером. (когда — назван)"
+              },
+              {
+                "en": "I've lost my keys. I can't get in.",
+                "ru": "Я потерял ключи. Не могу войти. (важен результат)"
+              },
+              {
+                "en": "She drinks coffee every morning.",
+                "ru": "Она пьёт кофе каждое утро. (обычно)"
+              },
+              {
+                "en": "She's drinking coffee in the kitchen.",
+                "ru": "Она пьёт кофе на кухне. (сейчас)"
+              },
+              {
+                "en": "The phone is ringing! — I'll get it.",
+                "ru": "Телефон звонит! — Я возьму. (решил сейчас)"
+              },
+              {
+                "en": "I'm going to learn Spanish this year.",
+                "ru": "В этом году я буду учить испанский. (план)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Какое время выбрать",
+      "label": "Частые ошибки в выборе времени",
       "intro": {
         "text": "Самые частые ошибки в выборе времени.",
         "highlights": [
@@ -294,27 +375,27 @@
           "errors": [
             {
               "wrong": "I live here since 2015.",
-              "right": "I have lived here since 2015."
+              "right": "I have lived here since 2015. (since — Present Perfect)"
             },
             {
               "wrong": "I have seen him yesterday.",
-              "right": "I saw him yesterday."
+              "right": "I saw him yesterday. (yesterday — Past Simple)"
             },
             {
               "wrong": "I'm knowing the answer.",
-              "right": "I know the answer."
+              "right": "I know the answer. (know не ставят в -ing)"
             },
             {
               "wrong": "When I will come, I'll call.",
-              "right": "When I come, I'll call."
+              "right": "When I come, I'll call. (после when — без will)"
             },
             {
               "wrong": "I didn't went there.",
-              "right": "I didn't go there."
+              "right": "I didn't go there. (после didn't — go)"
             },
             {
               "wrong": "Look! It rains.",
-              "right": "Look! It's raining."
+              "right": "Look! It's raining. (прямо сейчас — Continuous)"
             }
           ]
         }

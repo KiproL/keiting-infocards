@@ -5,11 +5,23 @@
     {
       "label": "Shall I…? Shall we…?: предлагаем",
       "intro": {
-        "text": "Shall I / Shall we — это вежливое предложение что-то сделать. Мы не спрашиваем разрешения — мы предлагаем действие.",
+        "text": "Shall I…? — «мне сделать…?»: предлагаешь помощь. Shall we…? — «давай…?»: предлагаешь сделать вместе. Разрешения тут не спрашивают — предлагают действие.",
         "highlights": [
-          { "text": "Shall I / Shall we", "color": "term",    "style": "bold_underline" },
-          { "text": "вежливое предложение","color": "info",    "style": "bold" },
-          { "text": "предлагаем",           "color": "example", "style": "bold" }
+          {
+            "text": "Shall I…?",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Shall we…?",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "предлагают действие",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,21 +31,173 @@
           "formulas": [
             {
               "parts": [
-                { "text": "Shall I", "color": "info" },
-                { "text": "+",       "color": "muted" },
-                { "text": "глагол?", "color": "example" },
-                { "text": "→ я?",    "color": "term" }
+                {
+                  "text": "Shall I",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол?",
+                  "color": "example"
+                },
+                {
+                  "text": "→ я?",
+                  "color": "term"
+                }
               ],
-              "accentColor": "info", "drill": {"slots": ["Shall I", "глагол?"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Shall I open the window?", "ru": "Открыть окно?", "parts": [["Shall I", "Shall I"], ["open", "глагол?"], ["the window?", ""]]}, {"en": "Shall I help you?", "ru": "Тебе помочь?", "parts": [["Shall I", "Shall I"], ["help", "глагол?"], ["you?", ""]]}, {"en": "Shall I call a taxi?", "ru": "Вызвать такси?", "parts": [["Shall I", "Shall I"], ["call", "глагол?"], ["a taxi?", ""]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "Shall I",
+                  "глагол?"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "Shall I open the window?",
+                    "ru": "Открыть окно?",
+                    "parts": [
+                      [
+                        "Shall I",
+                        "Shall I"
+                      ],
+                      [
+                        "open",
+                        "глагол?"
+                      ],
+                      [
+                        "the window?",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Shall I help you?",
+                    "ru": "Тебе помочь?",
+                    "parts": [
+                      [
+                        "Shall I",
+                        "Shall I"
+                      ],
+                      [
+                        "help",
+                        "глагол?"
+                      ],
+                      [
+                        "you?",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Shall I call a taxi?",
+                    "ru": "Вызвать такси?",
+                    "parts": [
+                      [
+                        "Shall I",
+                        "Shall I"
+                      ],
+                      [
+                        "call",
+                        "глагол?"
+                      ],
+                      [
+                        "a taxi?",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
-                { "text": "Shall we", "color": "good" },
-                { "text": "+",        "color": "muted" },
-                { "text": "глагол?",  "color": "example" },
-                { "text": "→ мы?",    "color": "term" }
+                {
+                  "text": "Shall we",
+                  "color": "good"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол?",
+                  "color": "example"
+                },
+                {
+                  "text": "→ мы?",
+                  "color": "term"
+                }
               ],
-              "accentColor": "good", "drill": {"slots": ["Shall we", "глагол?"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Shall we go for a walk?", "ru": "Пойдём прогуляемся?", "parts": [["Shall we", "Shall we"], ["go", "глагол?"], ["for a walk?", ""]]}, {"en": "Shall we start?", "ru": "Начнём?", "parts": [["Shall we", "Shall we"], ["start?", "глагол?"]]}, {"en": "Shall we order pizza?", "ru": "Закажем пиццу?", "parts": [["Shall we", "Shall we"], ["order", "глагол?"], ["pizza?", ""]]}]}
+              "accentColor": "good",
+              "drill": {
+                "slots": [
+                  "Shall we",
+                  "глагол?"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "Shall we go for a walk?",
+                    "ru": "Пойдём прогуляемся?",
+                    "parts": [
+                      [
+                        "Shall we",
+                        "Shall we"
+                      ],
+                      [
+                        "go",
+                        "глагол?"
+                      ],
+                      [
+                        "for a walk?",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Shall we start?",
+                    "ru": "Начнём?",
+                    "parts": [
+                      [
+                        "Shall we",
+                        "Shall we"
+                      ],
+                      [
+                        "start?",
+                        "глагол?"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Shall we order pizza?",
+                    "ru": "Закажем пиццу?",
+                    "parts": [
+                      [
+                        "Shall we",
+                        "Shall we"
+                      ],
+                      [
+                        "order",
+                        "глагол?"
+                      ],
+                      [
+                        "pizza?",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -41,11 +205,31 @@
           "title": "Значение",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Кто действует", "Смысл"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Кто действует",
+              "Смысл"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Shall I…?",  "я",  "Предложить сделать что-то для кого-то"] },
-              { "cells": ["Shall we…?", "мы", "Предложить совместное действие"] }
+              {
+                "cells": [
+                  "Shall I…?",
+                  "я",
+                  "Предложить сделать что-то для кого-то"
+                ]
+              },
+              {
+                "cells": [
+                  "Shall we…?",
+                  "мы",
+                  "Предложить совместное действие"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -54,22 +238,113 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "Shall I open the window?",   "ru": "Мне открыть окно?" },
-            { "en": "Shall I help you?",           "ru": "Помочь тебе?" },
-            { "en": "Shall we go to the cinema?",  "ru": "Пойдём в кино?" },
-            { "en": "Shall we meet at 6?",          "ru": "Встретимся в 6?" }
+            {
+              "en": "Shall I open the window?",
+              "ru": "Мне открыть окно?"
+            },
+            {
+              "en": "Shall I help you?",
+              "ru": "Помочь тебе?"
+            },
+            {
+              "en": "Shall we go to the cinema?",
+              "ru": "Пойдём в кино?"
+            },
+            {
+              "en": "Shall we meet at 6?",
+              "ru": "Встретимся в 6?"
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Как ответить",
+          "preview": "согласиться или вежливо отказаться",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Вопрос",
+                "Да",
+                "Нет"
+              ],
+              "headerColors": [
+                "term",
+                "good",
+                "bad"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Shall I help you?",
+                    "Yes, please. That would be great.",
+                    "No, thanks, I'm fine."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Shall we go out?",
+                    "Yes, let's!",
+                    "Maybe another time."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "What shall we…? Where shall we…?",
+          "preview": "вместе решаем, что делать",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "What shall we do tonight?",
+                "ru": "Что будем делать вечером?"
+              },
+              {
+                "en": "Where shall we meet?",
+                "ru": "Где встретимся?"
+              },
+              {
+                "en": "What time shall I come?",
+                "ru": "Во сколько мне прийти?"
+              },
+              {
+                "en": "Let's order pizza, shall we?",
+                "ru": "Давай закажем пиццу, а?"
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Ошибки и отличия",
+      "label": "Частые ошибки: shall, will и should",
       "intro": {
-        "text": "Shall часто путают с will и с should. Shall vs will, shall vs should — у каждого своя задача.",
+        "text": "Shall часто путают с will и should. Shall I / we — предложение, will you — просьба, should — совет.",
         "highlights": [
-          { "text": "shall vs will",   "color": "info", "style": "bold" },
-          { "text": "shall vs should", "color": "bad",  "style": "bold" }
+          {
+            "text": "Shall I / we",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "will you",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "should",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -77,12 +352,38 @@
           "title": "Сравнение",
           "borderColor": "term",
           "table": {
-            "headers": ["Форма", "Что делает", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Что делает",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Shall I / we", "предложение, помощь", "Shall I help you?"] },
-              { "cells": ["Will you",     "просьба",              "Will you help me?"] },
-              { "cells": ["Should",       "совет",                "You should rest."] }
+              {
+                "cells": [
+                  "Shall I / we",
+                  "предложение, помощь",
+                  "Shall I help you?"
+                ]
+              },
+              {
+                "cells": [
+                  "Will you",
+                  "просьба",
+                  "Will you help me?"
+                ]
+              },
+              {
+                "cells": [
+                  "Should",
+                  "совет",
+                  "You should rest."
+                ]
+              }
             ],
             "borderColor": "term"
           }
@@ -91,9 +392,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "Shall I to help you?", "right": "Shall I help you?" },
-            { "wrong": "Do I shall open it?",   "right": "Shall I open it?" },
-            { "wrong": "Shall he come?",         "right": "Should he come?" }
+            {
+              "wrong": "Shall I to help you?",
+              "right": "Shall I help you? (без to)"
+            },
+            {
+              "wrong": "Do I shall open it?",
+              "right": "Shall I open it? (shall сам ставится вперёд)"
+            },
+            {
+              "wrong": "Shall he come?",
+              "right": "Should he come? (shall — только с I и we)"
+            }
           ]
         },
         {

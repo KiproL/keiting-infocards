@@ -3,10 +3,15 @@
   "route": "cards_home",
   "slides": [
     {
-      "label": "Комнаты",
+      "label": "Комнаты и этажи",
       "intro": {
-        "text": "Комнаты и части дома. Этажи в Британии и США считают по-разному.",
+        "text": "Комнаты и части дома. Этажи в Британии и США считают по-разному: британский first floor — это наш второй.",
         "highlights": [
+          {
+            "text": "Комнаты",
+            "color": "term",
+            "style": "bold"
+          },
           {
             "text": "по-разному",
             "color": "bad",
@@ -95,16 +100,107 @@
             "text": "В Британии ground floor — первый этаж, first floor — второй. В США first floor — это первый."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The kitchen is next to the living room.", "ru": "Кухня рядом с гостиной."}, {"en": "Our flat has two bedrooms and a balcony.", "ru": "В нашей квартире две спальни и балкон."}, {"en": "Leave your shoes in the hall, please.", "ru": "Оставь обувь в прихожей, пожалуйста."}, {"en": "We live on the ground floor.", "ru": "Мы живём на первом этаже. (британский счёт)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The kitchen is next to the living room.",
+                "ru": "Кухня рядом с гостиной."
+              },
+              {
+                "en": "Our flat has two bedrooms and a balcony.",
+                "ru": "В нашей квартире две спальни и балкон."
+              },
+              {
+                "en": "Leave your shoes in the hall, please.",
+                "ru": "Оставь обувь в прихожей, пожалуйста."
+              },
+              {
+                "en": "We live on the ground floor.",
+                "ru": "Мы живём на первом этаже. (британский счёт)"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Этажи: Британия и США",
+          "preview": "таблица",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "У нас",
+                "В Британии",
+                "В США"
+              ],
+              "headerColors": [
+                "muted",
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "1-й этаж",
+                    "ground floor",
+                    "first floor"
+                  ]
+                },
+                {
+                  "cells": [
+                    "2-й этаж",
+                    "first floor",
+                    "second floor"
+                  ]
+                },
+                {
+                  "cells": [
+                    "3-й этаж",
+                    "second floor",
+                    "third floor"
+                  ]
+                },
+                {
+                  "cells": [
+                    "подвал",
+                    "basement",
+                    "basement"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
       "label": "Мебель и техника",
       "intro": {
-        "text": "Что стоит в доме.",
+        "text": "Что стоит в доме. Wardrobe — шкаф для одежды, cupboard — для посуды и вещей; плита — cooker, а не plate.",
         "highlights": [
           {
-            "text": "в доме",
+            "text": "Wardrobe",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "cupboard",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "cooker",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -187,16 +283,55 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Put the milk in the fridge.", "ru": "Убери молоко в холодильник."}, {"en": "My clothes are in the wardrobe.", "ru": "Моя одежда в шкафу."}, {"en": "Can you turn on the kettle?", "ru": "Включишь чайник?"}, {"en": "The books are on the shelf above the desk.", "ru": "Книги на полке над письменным столом."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Put the milk in the fridge.",
+                "ru": "Убери молоко в холодильник."
+              },
+              {
+                "en": "My clothes are in the wardrobe.",
+                "ru": "Моя одежда в шкафу."
+              },
+              {
+                "en": "Can you turn on the kettle?",
+                "ru": "Включишь чайник?"
+              },
+              {
+                "en": "The books are on the shelf above the desk.",
+                "ru": "Книги на полке над письменным столом."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Дела по дому",
+      "label": "Дела по дому: do, make, take out",
       "intro": {
-        "text": "Дела по дому — устойчивые сочетания, чаще всего с do.",
+        "text": "Дела по дому — устойчивые сочетания, их запоминают целиком. Чаще всего с do: do the cleaning; но make the bed и take out the rubbish.",
         "highlights": [
+          {
+            "text": "устойчивые сочетания",
+            "color": "info",
+            "style": "bold"
+          },
           {
             "text": "с do",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "make the bed",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -273,10 +408,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Whose turn is it to do the washing-up?",
+                "ru": "Чья очередь мыть посуду?"
+              },
+              {
+                "en": "I make my bed every morning.",
+                "ru": "Я каждое утро заправляю кровать."
+              },
+              {
+                "en": "Can you water the plants while I'm away?",
+                "ru": "Польёшь цветы, пока меня не будет?"
+              },
+              {
+                "en": "Let's tidy up before the guests come.",
+                "ru": "Давай приберёмся до прихода гостей."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: дом и квартира",
+      "label": "Дом в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -329,7 +493,7 @@
       ]
     },
     {
-      "label": "Диалог: дом и квартира",
+      "label": "Диалог: новая квартира",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -374,14 +538,19 @@
       ]
     },
     {
-      "label": "Частые ошибки: Дом и квартира",
+      "label": "Частые ошибки: этаж, plate, wardrobe",
       "intro": {
-        "text": "Самые частые ошибки в словах о доме.",
+        "text": "Чаще всего ошибаются с этажами, с «плитой» и со шкафами — и с глаголом make вместо do.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "с этажами",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "make вместо do",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -392,23 +561,23 @@
           "errors": [
             {
               "wrong": "I live on the 1 floor.",
-              "right": "I live on the ground floor. (UK)"
+              "right": "I live on the ground floor. (UK: первый — ground)"
             },
             {
               "wrong": "make cleaning",
-              "right": "do the cleaning"
+              "right": "do the cleaning (уборка — do)"
             },
             {
               "wrong": "plate (кухонная)",
-              "right": "cooker / stove — plate это тарелка"
+              "right": "cooker / stove (plate — это тарелка)"
             },
             {
               "wrong": "cupboard (для одежды)",
-              "right": "wardrobe"
+              "right": "wardrobe (шкаф для одежды)"
             },
             {
               "wrong": "a three-room flat (гостиная и две спальни)",
-              "right": "a two-bedroom flat"
+              "right": "a two-bedroom flat (считают спальни)"
             }
           ]
         }

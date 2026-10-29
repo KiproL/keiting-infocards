@@ -3,13 +3,30 @@
   "route": "cards_presentcont",
   "slides": [
     {
-      "label": "Present Continuous: сейчас",
+      "label": "Present Continuous: что происходит сейчас",
       "intro": {
-        "text": "Present Continuous описывает действие, которое происходит прямо сейчас или в текущий период времени. Не «делаю вообще», а «делаю в этот момент».",
+        "text": "Present Continuous — то, что происходит прямо сейчас или в эти дни: «я сейчас читаю», «на этой неделе работаю из дома». Строится из am / is / are и глагола с -ing.",
         "highlights": [
-          { "text": "Present Continuous", "color": "term",    "style": "bold_underline" },
-          { "text": "прямо сейчас",        "color": "info",    "style": "bold" },
-          { "text": "в этот момент",        "color": "example", "style": "bold" }
+          {
+            "text": "Present Continuous",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "прямо сейчас",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "в эти дни",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "am / is / are",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,25 +35,145 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",              "color": "info" },
-              { "text": "+",              "color": "muted" },
-              { "text": "am / is / are",  "color": "term" },
-              { "text": "+",              "color": "muted" },
-              { "text": "V-ing",          "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "am / is / are",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "am / is / are", "V-ing"], "decoys": ["V3", "do / does"], "examples": [{"en": "I am reading a book.", "ru": "Я читаю книгу.", "parts": [["I", "S"], ["am", "am / is / are"], ["reading", "V-ing"], ["a book.", ""]]}, {"en": "She is talking on the phone.", "ru": "Она разговаривает по телефону.", "parts": [["She", "S"], ["is", "am / is / are"], ["talking", "V-ing"], ["on the phone.", ""]]}, {"en": "They are playing outside.", "ru": "Они играют на улице.", "parts": [["They", "S"], ["are", "am / is / are"], ["playing", "V-ing"], ["outside.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "am / is / are",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "do / does"
+              ],
+              "examples": [
+                {
+                  "en": "I am reading a book.",
+                  "ru": "Я читаю книгу.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "am",
+                      "am / is / are"
+                    ],
+                    [
+                      "reading",
+                      "V-ing"
+                    ],
+                    [
+                      "a book.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She is talking on the phone.",
+                  "ru": "Она разговаривает по телефону.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "is",
+                      "am / is / are"
+                    ],
+                    [
+                      "talking",
+                      "V-ing"
+                    ],
+                    [
+                      "on the phone.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They are playing outside.",
+                  "ru": "Они играют на улице.",
+                  "parts": [
+                    [
+                      "They",
+                      "S"
+                    ],
+                    [
+                      "are",
+                      "am / is / are"
+                    ],
+                    [
+                      "playing",
+                      "V-ing"
+                    ],
+                    [
+                      "outside.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Кто какой использует",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Кому", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Кому",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["am",   "I",              "I am reading."] },
-              { "cells": ["is",   "he / she / it",  "She is cooking."] },
-              { "cells": ["are",  "you / we / they", "They are playing."] }
+              {
+                "cells": [
+                  "am",
+                  "I",
+                  "I am reading."
+                ]
+              },
+              {
+                "cells": [
+                  "is",
+                  "he / she / it",
+                  "She is cooking."
+                ]
+              },
+              {
+                "cells": [
+                  "are",
+                  "you / we / they",
+                  "They are playing."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -46,17 +183,37 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["now", "right now", "at the moment", "still", "today", "Look!", "Listen!"]
+            "verbs": [
+              "now",
+              "right now",
+              "at the moment",
+              "still",
+              "today",
+              "Look!",
+              "Listen!"
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I am reading a book now.",       "ru": "Я сейчас читаю книгу." },
-            { "en": "She is cooking dinner.",          "ru": "Она готовит ужин." },
-            { "en": "They are playing football.",      "ru": "Они играют в футбол." },
-            { "en": "Look! It's raining.",              "ru": "Смотри! Идёт дождь." }
+            {
+              "en": "I am reading a book now.",
+              "ru": "Я сейчас читаю книгу."
+            },
+            {
+              "en": "She is cooking dinner.",
+              "ru": "Она готовит ужин."
+            },
+            {
+              "en": "They are playing football.",
+              "ru": "Они играют в футбол."
+            },
+            {
+              "en": "Look! It's raining.",
+              "ru": "Смотри! Идёт дождь."
+            }
           ]
         },
         {
@@ -68,17 +225,75 @@
             "accentColor": "accent2"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Не только «прямо сейчас»",
+          "preview": "временно и планы на ближайшее",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Случай",
+                "Пример",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "muted"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "прямо сейчас",
+                    "I'm cooking.",
+                    "Я готовлю."
+                  ]
+                },
+                {
+                  "cells": [
+                    "в эти дни, временно",
+                    "I'm staying with friends this week.",
+                    "На этой неделе я живу у друзей."
+                  ]
+                },
+                {
+                  "cells": [
+                    "договорились заранее",
+                    "We're meeting at 7 tonight.",
+                    "Мы встречаемся сегодня в 7."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
-        "text": "Am / is / are выбирается по подлежащему. После них всегда глагол с -ing (V-ing).",
+        "text": "Am, is или are выбираются по тому, кто действует: I am, she is, they are. После них — всегда глагол с -ing.",
         "highlights": [
-          { "text": "am / is / are", "color": "term",    "style": "bold_underline" },
-          { "text": "V-ing",          "color": "info",    "style": "bold" },
-          { "text": "по подлежащему", "color": "example", "style": "bold" }
+          {
+            "text": "Am, is или are",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "кто действует",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "с -ing",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -87,21 +302,54 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I",              "color": "info" },
-              { "text": "am + V-ing",     "color": "example" },
-              { "text": "·",              "color": "muted" },
-              { "text": "He / She / It",  "color": "info" },
-              { "text": "is + V-ing",     "color": "example" },
-              { "text": "·",              "color": "muted" },
-              { "text": "You / We / They","color": "info" },
-              { "text": "are + V-ing",    "color": "example" }
+              {
+                "text": "I",
+                "color": "info"
+              },
+              {
+                "text": "am + V-ing",
+                "color": "example"
+              },
+              {
+                "text": "·",
+                "color": "muted"
+              },
+              {
+                "text": "He / She / It",
+                "color": "info"
+              },
+              {
+                "text": "is + V-ing",
+                "color": "example"
+              },
+              {
+                "text": "·",
+                "color": "muted"
+              },
+              {
+                "text": "You / We / They",
+                "color": "info"
+              },
+              {
+                "text": "are + V-ing",
+                "color": "example"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I am reading a book now.",       "ru": "Я сейчас читаю книгу." },
-            { "en": "She is cooking dinner.",          "ru": "Она готовит ужин." },
-            { "en": "They are playing football.",      "ru": "Они играют в футбол." }
+            {
+              "en": "I am reading a book now.",
+              "ru": "Я сейчас читаю книгу."
+            },
+            {
+              "en": "She is cooking dinner.",
+              "ru": "Она готовит ужин."
+            },
+            {
+              "en": "They are playing football.",
+              "ru": "Они играют в футбол."
+            }
           ]
         },
         {
@@ -109,17 +357,125 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "am / is / are", "color": "info" },
-              { "text": "+",             "color": "muted" },
-              { "text": "not",           "color": "bad" },
-              { "text": "+",             "color": "muted" },
-              { "text": "V-ing",         "color": "example" }
+              {
+                "text": "am / is / are",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["am / is / are", "not", "V-ing"], "decoys": ["V3", "do"], "examples": [{"en": "I am not sleeping.", "ru": "Я не сплю.", "parts": [["I", ""], ["am", "am / is / are"], ["not", "not"], ["sleeping.", "V-ing"]]}, {"en": "He is not working today.", "ru": "Он сегодня не работает.", "parts": [["He", ""], ["is", "am / is / are"], ["not", "not"], ["working", "V-ing"], ["today.", ""]]}, {"en": "We are not watching TV.", "ru": "Мы не смотрим телевизор.", "parts": [["We", ""], ["are", "am / is / are"], ["not", "not"], ["watching", "V-ing"], ["TV.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "am / is / are",
+                "not",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "do"
+              ],
+              "examples": [
+                {
+                  "en": "I am not sleeping.",
+                  "ru": "Я не сплю.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "am",
+                      "am / is / are"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "sleeping.",
+                      "V-ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He is not working today.",
+                  "ru": "Он сегодня не работает.",
+                  "parts": [
+                    [
+                      "He",
+                      ""
+                    ],
+                    [
+                      "is",
+                      "am / is / are"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "working",
+                      "V-ing"
+                    ],
+                    [
+                      "today.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We are not watching TV.",
+                  "ru": "Мы не смотрим телевизор.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "are",
+                      "am / is / are"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "watching",
+                      "V-ing"
+                    ],
+                    [
+                      "TV.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "She is not cooking dinner.",   "ru": "Она не готовит ужин." },
-            { "en": "He isn't listening.",            "ru": "Он не слушает." }
+            {
+              "en": "She is not cooking dinner.",
+              "ru": "Она не готовит ужин."
+            },
+            {
+              "en": "He isn't listening.",
+              "ru": "Он не слушает."
+            }
           ]
         },
         {
@@ -127,47 +483,215 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Am / Is / Are", "color": "info" },
-              { "text": "+",             "color": "muted" },
-              { "text": "S",             "color": "example" },
-              { "text": "+",             "color": "muted" },
-              { "text": "V-ing?",        "color": "term" }
+              {
+                "text": "Am / Is / Are",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Am / Is / Are", "S", "V-ing?"], "decoys": ["Do", "V3"], "examples": [{"en": "Are you listening?", "ru": "Ты слушаешь?", "parts": [["Are", "Am / Is / Are"], ["you", "S"], ["listening?", "V-ing?"]]}, {"en": "Is she coming?", "ru": "Она идёт?", "parts": [["Is", "Am / Is / Are"], ["she", "S"], ["coming?", "V-ing?"]]}, {"en": "Are they waiting for us?", "ru": "Они нас ждут?", "parts": [["Are", "Am / Is / Are"], ["they", "S"], ["waiting", "V-ing?"], ["for us?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Am / Is / Are",
+                "S",
+                "V-ing?"
+              ],
+              "decoys": [
+                "Do",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "Are you listening?",
+                  "ru": "Ты слушаешь?",
+                  "parts": [
+                    [
+                      "Are",
+                      "Am / Is / Are"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "listening?",
+                      "V-ing?"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Is she coming?",
+                  "ru": "Она идёт?",
+                  "parts": [
+                    [
+                      "Is",
+                      "Am / Is / Are"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "coming?",
+                      "V-ing?"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Are they waiting for us?",
+                  "ru": "Они нас ждут?",
+                  "parts": [
+                    [
+                      "Are",
+                      "Am / Is / Are"
+                    ],
+                    [
+                      "they",
+                      "S"
+                    ],
+                    [
+                      "waiting",
+                      "V-ing?"
+                    ],
+                    [
+                      "for us?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Are they playing football?",     "ru": "Они играют в футбол?" },
-            { "en": "What are you doing?",             "ru": "Что ты делаешь?" }
+            {
+              "en": "Are they playing football?",
+              "ru": "Они играют в футбол?"
+            },
+            {
+              "en": "What are you doing?",
+              "ru": "Что ты делаешь?"
+            }
           ]
         },
         {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
-            "headers": ["Полная форма", "Сокращение"],
-            "headerColors": ["info", "example"],
+            "headers": [
+              "Полная форма",
+              "Сокращение"
+            ],
+            "headerColors": [
+              "info",
+              "example"
+            ],
             "rows": [
-              { "cells": ["I am",       "I'm"] },
-              { "cells": ["he is",       "he's"] },
-              { "cells": ["she is",      "she's"] },
-              { "cells": ["we are",      "we're"] },
-              { "cells": ["is not",      "isn't"] },
-              { "cells": ["are not",     "aren't"] }
+              {
+                "cells": [
+                  "I am",
+                  "I'm"
+                ]
+              },
+              {
+                "cells": [
+                  "he is",
+                  "he's"
+                ]
+              },
+              {
+                "cells": [
+                  "she is",
+                  "she's"
+                ]
+              },
+              {
+                "cells": [
+                  "we are",
+                  "we're"
+                ]
+              },
+              {
+                "cells": [
+                  "is not",
+                  "isn't"
+                ]
+              },
+              {
+                "cells": [
+                  "are not",
+                  "aren't"
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm not working today.",
+                "ru": "Я сегодня не работаю."
+              },
+              {
+                "en": "Is it raining? — Yes, it is.",
+                "ru": "Идёт дождь? — Да."
+              },
+              {
+                "en": "Why are you laughing?",
+                "ru": "Почему ты смеёшься?"
+              },
+              {
+                "en": "They aren't listening.",
+                "ru": "Они не слушают."
+              }
+            ]
+          }
+        }
       ]
     },
-
     {
-      "label": "Окончание -ing",
+      "label": "Как добавить -ing",
       "intro": {
-        "text": "Окончание -ing добавляется к глаголу независимо от подлежащего. Написание зависит от последних букв глагола.",
+        "text": "Окончание -ing одинаковое для всех лиц. Как его писать, зависит от последних букв глагола: make → making, run → running.",
         "highlights": [
-          { "text": "-ing",     "color": "term",    "style": "bold_underline" },
-          { "text": "независимо", "color": "info",    "style": "bold" },
-          { "text": "написание",  "color": "example", "style": "bold" }
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "одинаковое для всех",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "последних букв",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -175,21 +699,57 @@
           "title": "Правила",
           "borderColor": "info",
           "rules": [
-            { "name": "Большинство",              "suffix": "+ ing",              "example": "play → playing, read → reading" },
-            { "name": "Немая -e",                  "suffix": "e убирается + ing",   "example": "make → making, write → writing" },
-            { "name": "Гласная + согл. в конце",  "suffix": "удвоение + ing",       "example": "run → running, sit → sitting" },
-            { "name": "Глаголы на -ie",            "suffix": "ie → y + ing",         "example": "lie → lying, die → dying" }
+            {
+              "name": "Большинство",
+              "suffix": "+ ing",
+              "example": "play → playing, read → reading"
+            },
+            {
+              "name": "Немая -e",
+              "suffix": "e убирается + ing",
+              "example": "make → making, write → writing"
+            },
+            {
+              "name": "Гласная + согл. в конце",
+              "suffix": "удвоение + ing",
+              "example": "run → running, sit → sitting"
+            },
+            {
+              "name": "Глаголы на -ie",
+              "suffix": "ie → y + ing",
+              "example": "lie → lying, die → dying"
+            }
           ]
         },
         {
           "title": "Исключение",
           "borderColor": "term",
           "table": {
-            "headers": ["Глагол", "V-ing", "Перевод"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Глагол",
+              "V-ing",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["see",   "seeing",  "видеть"] },
-              { "cells": ["agree", "agreeing", "соглашаться"] }
+              {
+                "cells": [
+                  "see",
+                  "seeing",
+                  "видеть"
+                ]
+              },
+              {
+                "cells": [
+                  "agree",
+                  "agreeing",
+                  "соглашаться"
+                ]
+              }
             ],
             "borderColor": "term"
           },
@@ -203,22 +763,42 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "She is writing an email.",        "ru": "Она пишет письмо." },
-            { "en": "They are running in the park.",    "ru": "Они бегают в парке." },
-            { "en": "I am seeing him for the first time.","ru": "Я вижу его впервые." }
+            {
+              "en": "She is writing an email.",
+              "ru": "Она пишет письмо."
+            },
+            {
+              "en": "They are running in the park.",
+              "ru": "Они бегают в парке."
+            },
+            {
+              "en": "He is sitting by the window.",
+              "ru": "Он сидит у окна. (sit → sitting)"
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Глаголы-состояния",
+      "label": "Глаголы, которые не ставят в -ing",
       "intro": {
-        "text": "Глаголы-состояния описывают не действие, а состояние — чувства, мысли, обладание, восприятие. Они обычно не употребляются в Present Continuous.",
+        "text": "Некоторые глаголы описывают не действие, а состояние: чувства, мысли, обладание, восприятие. Их обычно не ставят в Present Continuous: I know, а не I'm knowing.",
         "highlights": [
-          { "text": "Глаголы-состояния", "color": "term",    "style": "bold_underline" },
-          { "text": "состояние",           "color": "info",    "style": "bold" },
-          { "text": "не употребляются",     "color": "bad",     "style": "bold" }
+          {
+            "text": "не действие, а состояние",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не ставят",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "I know",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -226,13 +806,45 @@
           "title": "Четыре категории",
           "borderColor": "bad",
           "table": {
-            "headers": ["Категория", "Глаголы", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Категория",
+              "Глаголы",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Чувства",   "love, like, hate, want, prefer",       "I love this song."] },
-              { "cells": ["Мышление",   "know, understand, believe, remember",  "She knows the answer."] },
-              { "cells": ["Обладание",  "have, own, belong",                    "He has a car."] },
-              { "cells": ["Восприятие", "see, hear, smell, sound",              "This sounds great."] }
+              {
+                "cells": [
+                  "Чувства",
+                  "love, like, hate, want, prefer",
+                  "I love this song."
+                ]
+              },
+              {
+                "cells": [
+                  "Мышление",
+                  "know, understand, believe, remember",
+                  "She knows the answer."
+                ]
+              },
+              {
+                "cells": [
+                  "Обладание",
+                  "have, own, belong",
+                  "He has a car."
+                ]
+              },
+              {
+                "cells": [
+                  "Восприятие",
+                  "see, hear, smell, sound",
+                  "This sounds great."
+                ]
+              }
             ],
             "borderColor": "bad"
           }
@@ -241,10 +853,22 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I love this song.",         "ru": "Мне нравится эта песня." },
-            { "en": "She knows the answer.",      "ru": "Она знает ответ." },
-            { "en": "He has a new car.",           "ru": "У него новая машина." },
-            { "en": "This sounds great.",           "ru": "Это звучит отлично." }
+            {
+              "en": "I love this song.",
+              "ru": "Мне нравится эта песня."
+            },
+            {
+              "en": "She knows the answer.",
+              "ru": "Она знает ответ."
+            },
+            {
+              "en": "He has a new car.",
+              "ru": "У него новая машина."
+            },
+            {
+              "en": "This sounds great.",
+              "ru": "Это звучит отлично."
+            }
           ]
         }
       ],
@@ -257,8 +881,14 @@
             "title": "",
             "borderColor": "info",
             "examples": [
-              { "en": "I think it's a good idea.",          "ru": "Я думаю, это хорошая идея. (мнение)" },
-              { "en": "I am thinking about your offer.",     "ru": "Я обдумываю твоё предложение. (процесс)" }
+              {
+                "en": "I think it's a good idea.",
+                "ru": "Я думаю, это хорошая идея. (мнение)"
+              },
+              {
+                "en": "I am thinking about your offer.",
+                "ru": "Я обдумываю твоё предложение. (процесс)"
+              }
             ]
           }
         },
@@ -270,8 +900,14 @@
             "title": "",
             "borderColor": "info",
             "examples": [
-              { "en": "I have a car.",               "ru": "У меня есть машина. (обладание)" },
-              { "en": "I am having lunch right now.", "ru": "Я сейчас обедаю. (действие)" }
+              {
+                "en": "I have a car.",
+                "ru": "У меня есть машина. (обладание)"
+              },
+              {
+                "en": "I am having lunch right now.",
+                "ru": "Я сейчас обедаю. (действие)"
+              }
             ]
           }
         },
@@ -283,8 +919,14 @@
             "title": "",
             "borderColor": "info",
             "examples": [
-              { "en": "She looks tired.",              "ru": "Она выглядит уставшей. (состояние)" },
-              { "en": "She is looking at the photo.",   "ru": "Она смотрит на фото. (действие)" }
+              {
+                "en": "She looks tired.",
+                "ru": "Она выглядит уставшей. (состояние)"
+              },
+              {
+                "en": "She is looking at the photo.",
+                "ru": "Она смотрит на фото. (действие)"
+              }
             ]
           }
         },
@@ -296,23 +938,44 @@
             "title": "",
             "borderColor": "info",
             "examples": [
-              { "en": "This soup tastes great.",         "ru": "Этот суп очень вкусный. (состояние)" },
-              { "en": "The chef is tasting the soup.",     "ru": "Шеф-повар пробует суп. (действие)" }
+              {
+                "en": "This soup tastes great.",
+                "ru": "Этот суп очень вкусный. (состояние)"
+              },
+              {
+                "en": "The chef is tasting the soup.",
+                "ru": "Шеф-повар пробует суп. (действие)"
+              }
             ]
           }
         }
       ]
     },
-
     {
-      "label": "Present Continuous vs Present Simple",
+      "label": "Сейчас или обычно: Continuous и Simple",
       "intro": {
-        "text": "Оба времени — про настоящее, но Present Continuous — действие сейчас, Present Simple — привычка или факт.",
+        "text": "Оба времени — про настоящее. Present Continuous — что происходит сейчас, Present Simple — привычка или факт.",
         "highlights": [
-          { "text": "Continuous",  "color": "info",    "style": "bold" },
-          { "text": "Simple",      "color": "bad",     "style": "bold" },
-          { "text": "действие сейчас", "color": "example", "style": "bold_underline" },
-          { "text": "привычка",         "color": "term",    "style": "bold" }
+          {
+            "text": "Present Continuous",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Present Simple",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "сейчас",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "привычка или факт",
+            "color": "term",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -320,11 +983,31 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Когда", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Когда",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Present Continuous", "прямо сейчас, в моменте",       "am / is / are + V-ing"] },
-              { "cells": ["Present Simple",      "всегда, обычно, регулярно",     "V / V-s"] }
+              {
+                "cells": [
+                  "Present Continuous",
+                  "прямо сейчас, в моменте",
+                  "am / is / are + V-ing"
+                ]
+              },
+              {
+                "cells": [
+                  "Present Simple",
+                  "всегда, обычно, регулярно",
+                  "V / V-s"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -333,10 +1016,22 @@
           "title": "Примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I am reading a book now.",            "ru": "Я сейчас читаю книгу. (в моменте)" },
-            { "en": "I read books every evening.",          "ru": "Я читаю книги каждый вечер. (привычка)" },
-            { "en": "She is cooking dinner right now.",     "ru": "Она готовит ужин прямо сейчас." },
-            { "en": "She cooks dinner every day.",           "ru": "Она готовит ужин каждый день." }
+            {
+              "en": "I am reading a book now.",
+              "ru": "Я сейчас читаю книгу. (в моменте)"
+            },
+            {
+              "en": "I read books every evening.",
+              "ru": "Я читаю книги каждый вечер. (привычка)"
+            },
+            {
+              "en": "She is cooking dinner right now.",
+              "ru": "Она готовит ужин прямо сейчас."
+            },
+            {
+              "en": "She cooks dinner every day.",
+              "ru": "Она готовит ужин каждый день."
+            }
           ]
         },
         {
@@ -355,13 +1050,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Present Continuous",
+      "label": "Частые ошибки: без am / is / are и без -ing",
       "intro": {
         "text": "Семь самых частых ошибок в Present Continuous.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -369,13 +1067,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "She are cooking.",               "right": "She is cooking." },
-            { "wrong": "They is playing.",                "right": "They are playing." },
-            { "wrong": "I is reading.",                    "right": "I am reading." },
-            { "wrong": "She is cook dinner.",               "right": "She is cooking dinner." },
-            { "wrong": "I am read a book.",                 "right": "I am reading a book." },
-            { "wrong": "Do you are reading?",                "right": "Are you reading?" },
-            { "wrong": "He doesn't is reading.",              "right": "He isn't reading." }
+            {
+              "wrong": "She are cooking.",
+              "right": "She is cooking. (she → is)"
+            },
+            {
+              "wrong": "They is playing.",
+              "right": "They are playing. (they → are)"
+            },
+            {
+              "wrong": "I is reading.",
+              "right": "I am reading. (I → am)"
+            },
+            {
+              "wrong": "She is cook dinner.",
+              "right": "She is cooking dinner. (нужен -ing)"
+            },
+            {
+              "wrong": "I am read a book.",
+              "right": "I am reading a book. (нужен -ing)"
+            },
+            {
+              "wrong": "Do you are reading?",
+              "right": "Are you reading? (вопрос — are вперёд, без do)"
+            },
+            {
+              "wrong": "He doesn't is reading.",
+              "right": "He isn't reading. (отрицание — is not)"
+            }
           ]
         },
         {

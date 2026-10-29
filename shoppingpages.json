@@ -84,13 +84,72 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Размеры и цвета",
+          "preview": "What size are you?",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Фраза",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "What size are you? — Medium.",
+                    "Какой у вас размер? — M."
+                  ]
+                },
+                {
+                  "cells": [
+                    "small / medium / large",
+                    "S / M / L"
+                  ]
+                },
+                {
+                  "cells": [
+                    "It's too big / too small.",
+                    "Великовато / маловато."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Have you got it in another colour?",
+                    "Есть другого цвета?"
+                  ]
+                },
+                {
+                  "cells": [
+                    "What size shoes do you take? — 42.",
+                    "Какой у вас размер обуви? — 42."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Оплатить",
+      "label": "Оплатить: cash or card",
       "intro": {
         "text": "На кассе спросят про способ оплаты, пакет и чек. Скидку обозначают словом off: 20% off — скидка 20%.",
         "highlights": [
+          {
+            "text": "способ оплаты",
+            "color": "info",
+            "style": "bold"
+          },
           {
             "text": "off",
             "color": "term",
@@ -152,10 +211,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Is there a discount on this?",
+                "ru": "На это есть скидка?"
+              },
+              {
+                "en": "Contactless, please.",
+                "ru": "Бесконтактно, пожалуйста."
+              },
+              {
+                "en": "No bag, thanks.",
+                "ru": "Пакет не нужен, спасибо."
+              },
+              {
+                "en": "Buy one, get one free.",
+                "ru": "Второй в подарок. (акция)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Вернуть",
+      "label": "Вернуть или обменять",
       "intro": {
         "text": "Вернуть деньги — get a refund, обменять — exchange. Почти везде попросят чек.",
         "highlights": [
@@ -221,7 +309,7 @@
       ]
     },
     {
-      "label": "Примеры: В магазине",
+      "label": "Покупки в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -266,7 +354,7 @@
       ]
     },
     {
-      "label": "Диалог: В магазине",
+      "label": "Диалог: чёрная футболка",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -311,7 +399,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: В магазине",
+      "label": "Чего не говорить: How much costs, measure",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -329,11 +417,11 @@
           "errors": [
             {
               "wrong": "How much costs it?",
-              "right": "How much is it? / How much does it cost?"
+              "right": "How much is it? / How much does it cost? (нужен does)"
             },
             {
               "wrong": "Can I measure it? (примерить)",
-              "right": "Can I try it on?"
+              "right": "Can I try it on? (примерить — try on)"
             },
             {
               "wrong": "It doesn't suit me. (о размере)",
@@ -341,11 +429,11 @@
             },
             {
               "wrong": "Give me this.",
-              "right": "I'll take this, please."
+              "right": "I'll take this, please. (без приказа)"
             },
             {
               "wrong": "Do you have a packet?",
-              "right": "Can I have a bag?"
+              "right": "Can I have a bag? (пакет — bag)"
             }
           ]
         }

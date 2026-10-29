@@ -3,13 +3,23 @@
   "route": "cards_weather",
   "slides": [
     {
-      "label": "Погода",
+      "label": "Погода: It's sunny, It's raining",
       "intro": {
-        "text": "О погоде говорят через it: It's sunny. It's raining. Без it фраза не работает.",
+        "text": "О погоде говорят через it: It's sunny. It's raining. Без it фраза не работает. Прилагательное — sunny, windy; процесс прямо сейчас — raining, snowing.",
         "highlights": [
           {
             "text": "через it",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Прилагательное",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "процесс прямо сейчас",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -80,12 +90,73 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Sun → sunny: как сделать прилагательное",
+          "preview": "+y к слову",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Какая погода",
+                "Пример"
+              ],
+              "headerColors": [
+                "muted",
+                "term",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "sun",
+                    "sunny",
+                    "It's sunny."
+                  ]
+                },
+                {
+                  "cells": [
+                    "cloud",
+                    "cloudy",
+                    "It's cloudy."
+                  ]
+                },
+                {
+                  "cells": [
+                    "wind",
+                    "windy",
+                    "It's windy."
+                  ]
+                },
+                {
+                  "cells": [
+                    "fog",
+                    "foggy",
+                    "It's foggy."
+                  ]
+                },
+                {
+                  "cells": [
+                    "rain",
+                    "rainy",
+                    "a rainy day"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Как сказать",
+      "label": "Как говорить о погоде",
       "intro": {
-        "text": "Фразы о погоде — любимая тема для small talk.",
+        "text": "Погода — любимая тема для small talk: о ней спрашивают, жалуются и строят планы.",
         "highlights": [
           {
             "text": "small talk",
@@ -125,16 +196,75 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Температура: hot, warm, cold",
+          "preview": "от жары до мороза",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Примерно",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "boiling / hot",
+                    "выше +30 / +25",
+                    "It's boiling today!"
+                  ]
+                },
+                {
+                  "cells": [
+                    "warm",
+                    "+15…+25",
+                    "It's nice and warm."
+                  ]
+                },
+                {
+                  "cells": [
+                    "cool",
+                    "+5…+15",
+                    "It's a bit cool in the evening."
+                  ]
+                },
+                {
+                  "cells": [
+                    "cold / freezing",
+                    "около 0 / мороз",
+                    "It's freezing outside."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Природа",
+      "label": "Природа: горы, реки, побережье",
       "intro": {
-        "text": "Пейзаж и места на природе.",
+        "text": "Слова о пейзаже и местах на природе. С горами, реками и морями часто нужен the: the Alps, the Volga, the Black Sea.",
         "highlights": [
           {
-            "text": "Пейзаж",
+            "text": "пейзаже",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "нужен the",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -211,10 +341,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "We went hiking in the mountains.",
+                "ru": "Мы ходили в поход в горы."
+              },
+              {
+                "en": "There's a beautiful lake near the village.",
+                "ru": "У деревни красивое озеро."
+              },
+              {
+                "en": "Let's watch the sunset on the beach.",
+                "ru": "Давай посмотрим закат на пляже."
+              },
+              {
+                "en": "The river is too cold for swimming.",
+                "ru": "Река слишком холодная для купания."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: погода и природа",
+      "label": "Погода в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -267,7 +426,7 @@
       ]
     },
     {
-      "label": "Диалог: погода и природа",
+      "label": "Диалог: какая у вас погода",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -308,7 +467,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Погода и природа",
+      "label": "Частые ошибки: Today is sun, a nice weather",
       "intro": {
         "text": "Самые частые ошибки в словах о погоде.",
         "highlights": [
@@ -326,15 +485,15 @@
           "errors": [
             {
               "wrong": "Today is sun.",
-              "right": "It's sunny today."
+              "right": "It's sunny today. (погода — через it и sunny)"
             },
             {
               "wrong": "It's rain.",
-              "right": "It's raining."
+              "right": "It's raining. (идёт сейчас — -ing)"
             },
             {
               "wrong": "There is cold.",
-              "right": "It's cold."
+              "right": "It's cold. (погода — через it)"
             },
             {
               "wrong": "What a nice weather!",
@@ -342,7 +501,7 @@
             },
             {
               "wrong": "strong rain",
-              "right": "heavy rain"
+              "right": "heavy rain (сильный дождь — heavy)"
             }
           ]
         }

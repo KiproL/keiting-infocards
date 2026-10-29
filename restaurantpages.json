@@ -5,7 +5,7 @@
     {
       "label": "Прийти и сесть",
       "intro": {
-        "text": "На входе называют, сколько вас, или говорят про бронь. Дальше официант сам проводит к столу.",
+        "text": "На входе называют, сколько вас (A table for two), или говорят про бронь. Дальше официант сам проводит к столу.",
         "highlights": [
           {
             "text": "сколько вас",
@@ -13,7 +13,7 @@
             "style": "bold"
           },
           {
-            "text": "бронь",
+            "text": "про бронь",
             "color": "info",
             "style": "bold"
           }
@@ -61,10 +61,70 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Что в меню",
+          "preview": "starter, main course, dessert",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "starter (UK) / appetizer (US)",
+                    "закуска"
+                  ]
+                },
+                {
+                  "cells": [
+                    "main course",
+                    "основное блюдо"
+                  ]
+                },
+                {
+                  "cells": [
+                    "side dish",
+                    "гарнир"
+                  ]
+                },
+                {
+                  "cells": [
+                    "dessert",
+                    "десерт"
+                  ]
+                },
+                {
+                  "cells": [
+                    "soft drinks",
+                    "безалкогольные напитки"
+                  ]
+                },
+                {
+                  "cells": [
+                    "the special",
+                    "блюдо дня"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Заказать",
+      "label": "Заказать: I'd like, I'll have",
       "intro": {
         "text": "Заказывают через I'd like или I'll have — это вежливо. I want звучит по-детски резко.",
         "highlights": [
@@ -145,6 +205,35 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Если что-то не так",
+          "preview": "вежливо пожаловаться",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "bad",
+            "examples": [
+              {
+                "en": "Excuse me, this isn't what I ordered.",
+                "ru": "Простите, я это не заказывал."
+              },
+              {
+                "en": "My soup is cold.",
+                "ru": "Мой суп холодный."
+              },
+              {
+                "en": "Could we have another fork, please?",
+                "ru": "Можно нам ещё одну вилку?"
+              },
+              {
+                "en": "We've been waiting for 30 minutes.",
+                "ru": "Мы ждём уже 30 минут."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
@@ -214,7 +303,7 @@
       ]
     },
     {
-      "label": "Примеры: В кафе и ресторане",
+      "label": "Ресторан в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -259,7 +348,7 @@
       ]
     },
     {
-      "label": "Диалог: В кафе и ресторане",
+      "label": "Диалог: заказ стейка",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -304,7 +393,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: В кафе и ресторане",
+      "label": "Чего не говорить: Give me, I want",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -322,19 +411,19 @@
           "errors": [
             {
               "wrong": "Give me a coffee.",
-              "right": "Can I have a coffee, please?"
+              "right": "Can I have a coffee, please? (просьба — вопросом)"
             },
             {
               "wrong": "I want a steak.",
-              "right": "I'd like the steak, please."
+              "right": "I'd like the steak, please. (I want — резко)"
             },
             {
               "wrong": "Bring me the check!",
-              "right": "Could we have the check, please?"
+              "right": "Could we have the check, please? (без приказа)"
             },
             {
               "wrong": "Can I take the bill?",
-              "right": "Can I have the bill?"
+              "right": "Can I have the bill? (счёт — have)"
             }
           ]
         }

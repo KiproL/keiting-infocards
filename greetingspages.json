@@ -3,7 +3,7 @@
   "route": "cards_greetings",
   "slides": [
     {
-      "label": "Привет и пока",
+      "label": "Привет и пока: Hello, Hi, Bye",
       "intro": {
         "text": "Приветствие зависит от того, с кем говоришь: Hello — нейтрально, Hi — по-дружески, Good morning — вежливо. How are you? — не вопрос о здоровье, а часть приветствия: отвечают коротко и спрашивают в ответ.",
         "highlights": [
@@ -88,10 +88,91 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Good morning, afternoon, evening — до скольких",
+          "preview": "по времени суток",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Фраза",
+                "Когда",
+                "Заметка"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "muted"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Good morning",
+                    "до 12:00",
+                    "при встрече"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Good afternoon",
+                    "12:00–18:00",
+                    "при встрече"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Good evening",
+                    "после 18:00",
+                    "при встрече"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Good night",
+                    "поздно вечером",
+                    "только прощаясь, перед сном"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Hey! How's it going? — Good, thanks!",
+                "ru": "Привет! Как оно? — Хорошо, спасибо!"
+              },
+              {
+                "en": "Good morning, Mr Brown.",
+                "ru": "Доброе утро, мистер Браун."
+              },
+              {
+                "en": "Bye! See you tomorrow.",
+                "ru": "Пока! До завтра."
+              },
+              {
+                "en": "Take care!",
+                "ru": "Береги себя! (при прощании)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Знакомство",
+      "label": "Знакомство: Nice to meet you",
       "intro": {
         "text": "При знакомстве говорят Nice to meet you, а прощаясь после разговора — Nice meeting you или It was nice to meet you.",
         "highlights": [
@@ -164,14 +245,14 @@
       ]
     },
     {
-      "label": "Small talk",
+      "label": "Small talk: о чём говорить",
       "intro": {
         "text": "Small talk — лёгкий разговор ни о чём, чтобы познакомиться и снять неловкость. Безопасные темы: погода, выходные, работа, поездки, еда, сериалы. Не спрашивают о деньгах, возрасте, весе, политике и религии.",
         "highlights": [
           {
             "text": "Small talk",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "Безопасные темы",
@@ -268,10 +349,43 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Как показать интерес",
+          "preview": "короткие реакции",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Oh, really?",
+                "ru": "Да ну? / Правда?"
+              },
+              {
+                "en": "That sounds great!",
+                "ru": "Звучит здорово!"
+              },
+              {
+                "en": "Oh no, I'm sorry to hear that.",
+                "ru": "Ой, сочувствую."
+              },
+              {
+                "en": "Me too!",
+                "ru": "Я тоже!"
+              },
+              {
+                "en": "Lucky you!",
+                "ru": "Везёт тебе!"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: приветствия и small talk",
+      "label": "Приветствия в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -316,7 +430,7 @@
       ]
     },
     {
-      "label": "Диалог: приветствия и small talk",
+      "label": "Диалог: первая неделя на работе",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -357,7 +471,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: приветствия и small talk",
+      "label": "Чего не говорить: Normal, Good night при встрече",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -375,7 +489,7 @@
           "errors": [
             {
               "wrong": "How are you? — Normal.",
-              "right": "Fine, thanks. / Not bad."
+              "right": "Fine, thanks. / Not bad. (normal так не говорят)"
             },
             {
               "wrong": "Good night! (при встрече вечером)",
@@ -383,15 +497,15 @@
             },
             {
               "wrong": "What is your work?",
-              "right": "What do you do?"
+              "right": "What do you do? (так спрашивают о работе)"
             },
             {
               "wrong": "Where are you live?",
-              "right": "Where do you live?"
+              "right": "Where do you live? (с глаголом — do)"
             },
             {
               "wrong": "Nice to meet you. (уходя)",
-              "right": "It was nice meeting you."
+              "right": "It was nice meeting you. (на прощание)"
             }
           ]
         }

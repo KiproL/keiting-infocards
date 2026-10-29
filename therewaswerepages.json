@@ -5,11 +5,28 @@
     {
       "label": "There was / were: что где было",
       "intro": {
-        "text": "There was / There were — то же самое, что There is / There are, только в прошлом. Говорим о том, что было раньше.",
+        "text": "There was / There were — то же, что There is / There are, только в прошлом: «там был, были». Was — с одним предметом, were — с несколькими.",
         "highlights": [
-          { "text": "There was / There were", "color": "term",    "style": "bold_underline" },
-          { "text": "в прошлом",                "color": "info",    "style": "bold" },
-          { "text": "было раньше",              "color": "example", "style": "bold" }
+          {
+            "text": "There was / There were",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "в прошлом",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Was",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "were",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,19 +36,43 @@
           "formulas": [
             {
               "parts": [
-                { "text": "There was", "color": "info" },
-                { "text": "+",         "color": "muted" },
-                { "text": "один предмет", "color": "example" },
-                { "text": "(ед. ч.)",  "color": "term" }
+                {
+                  "text": "There was",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "один предмет",
+                  "color": "example"
+                },
+                {
+                  "text": "(ед. ч.)",
+                  "color": "term"
+                }
               ],
               "accentColor": "info"
             },
             {
               "parts": [
-                { "text": "There were", "color": "good" },
-                { "text": "+",          "color": "muted" },
-                { "text": "много предметов", "color": "example" },
-                { "text": "(мн. ч.)",   "color": "term" }
+                {
+                  "text": "There were",
+                  "color": "good"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "много предметов",
+                  "color": "example"
+                },
+                {
+                  "text": "(мн. ч.)",
+                  "color": "term"
+                }
               ],
               "accentColor": "good"
             }
@@ -41,12 +82,38 @@
           "title": "Сравнение с настоящим",
           "borderColor": "info",
           "table": {
-            "headers": ["Сейчас", "В прошлом", "Пример"],
-            "headerColors": ["info", "term", "example"],
+            "headers": [
+              "Сейчас",
+              "В прошлом",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
             "rows": [
-              { "cells": ["There is",  "There was",  "There was a cat in the garden."] },
-              { "cells": ["There are", "There were", "There were many people at the party."] },
-              { "cells": ["There is",  "There was",  "There was some milk in the fridge."] }
+              {
+                "cells": [
+                  "There is",
+                  "There was",
+                  "There was a cat in the garden."
+                ]
+              },
+              {
+                "cells": [
+                  "There are",
+                  "There were",
+                  "There were many people at the party."
+                ]
+              },
+              {
+                "cells": [
+                  "There is",
+                  "There was",
+                  "There was some milk in the fridge."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -55,22 +122,120 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "There was a party yesterday.",        "ru": "Вчера была вечеринка." },
-            { "en": "There were many guests.",              "ru": "Было много гостей." },
-            { "en": "There was a lot of snow last winter.", "ru": "Прошлой зимой было много снега." },
-            { "en": "There were two cats in the yard.",     "ru": "В саду были две кошки." }
+            {
+              "en": "There was a party yesterday.",
+              "ru": "Вчера была вечеринка."
+            },
+            {
+              "en": "There were many guests.",
+              "ru": "Было много гостей."
+            },
+            {
+              "en": "There was a lot of snow last winter.",
+              "ru": "Прошлой зимой было много снега."
+            },
+            {
+              "en": "There were two cats in the yard.",
+              "ru": "В саду были две кошки."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "There was или It was",
+          "preview": "«было» по-английски бывает разным",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Смысл",
+                "Говорим",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "info",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "что-то было, имелось",
+                    "There was",
+                    "There was a party. — Была вечеринка."
+                  ]
+                },
+                {
+                  "cells": [
+                    "какой это был",
+                    "It was",
+                    "It was great. — Было здорово."
+                  ]
+                },
+                {
+                  "cells": [
+                    "погода, время",
+                    "It was",
+                    "It was cold. — Было холодно."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "There was a problem with my ticket.",
+                "ru": "С моим билетом была проблема."
+              },
+              {
+                "en": "There were no taxis at the station.",
+                "ru": "На вокзале не было такси."
+              },
+              {
+                "en": "There was a lot of traffic.",
+                "ru": "Были большие пробки."
+              },
+              {
+                "en": "There were three of us.",
+                "ru": "Нас было трое."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      "label": "Отрицание и вопрос",
+      "label": "Отрицание и вопрос: Was there…?",
       "intro": {
-        "text": "Работает так же, как в настоящем — просто was / were вместо is / are. Отрицание — wasn't / weren't.",
+        "text": "Всё как в настоящем, только was / were вместо is / are. В вопросе there уходит после was: Was there…? Отрицание — wasn't / weren't или no.",
         "highlights": [
-          { "text": "was / were",       "color": "info", "style": "bold" },
-          { "text": "wasn't / weren't",  "color": "bad",  "style": "bold" }
+          {
+            "text": "was / were",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Was there…?",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "wasn't / weren't",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -78,44 +243,100 @@
           "title": "Отрицание",
           "borderColor": "bad",
           "rules": [
-            { "name": "There wasn't",  "suffix": "ед. ч. + any", "example": "There wasn't any milk." },
-            { "name": "There weren't", "suffix": "мн. ч. + any", "example": "There weren't any chairs." },
-            { "name": "There was no",   "suffix": "ед. ч. + no",  "example": "There was no milk." },
-            { "name": "There were no",  "suffix": "мн. ч. + no",  "example": "There were no chairs." }
+            {
+              "name": "There wasn't",
+              "suffix": "ед. ч. + any",
+              "example": "There wasn't any milk."
+            },
+            {
+              "name": "There weren't",
+              "suffix": "мн. ч. + any",
+              "example": "There weren't any chairs."
+            },
+            {
+              "name": "There was no",
+              "suffix": "ед. ч. + no",
+              "example": "There was no milk."
+            },
+            {
+              "name": "There were no",
+              "suffix": "мн. ч. + no",
+              "example": "There were no chairs."
+            }
           ]
         },
         {
           "title": "Вопрос",
           "borderColor": "info",
           "examples": [
-            { "en": "Was there a party yesterday?",      "ru": "Вчера была вечеринка?" },
-            { "en": "Were there many guests?",             "ru": "Было много гостей?" },
-            { "en": "How many people were there?",         "ru": "Сколько там было людей?" },
-            { "en": "Was there any milk in the fridge?",   "ru": "В холодильнике было молоко?" }
+            {
+              "en": "Was there a party yesterday?",
+              "ru": "Вчера была вечеринка?"
+            },
+            {
+              "en": "Were there many guests?",
+              "ru": "Было много гостей?"
+            },
+            {
+              "en": "How many people were there?",
+              "ru": "Сколько там было людей?"
+            },
+            {
+              "en": "Was there any milk in the fridge?",
+              "ru": "В холодильнике было молоко?"
+            }
           ]
         },
         {
           "title": "Краткие ответы",
           "borderColor": "good",
           "table": {
-            "headers": ["Вопрос", "Да", "Нет"],
-            "headerColors": ["info", "good", "bad"],
+            "headers": [
+              "Вопрос",
+              "Да",
+              "Нет"
+            ],
+            "headerColors": [
+              "info",
+              "good",
+              "bad"
+            ],
             "rows": [
-              { "cells": ["Was there a party?",  "Yes, there was.",    "No, there wasn't."] },
-              { "cells": ["Were there chairs?",   "Yes, there were.",   "No, there weren't."] }
+              {
+                "cells": [
+                  "Was there a party?",
+                  "Yes, there was.",
+                  "No, there wasn't."
+                ]
+              },
+              {
+                "cells": [
+                  "Were there chairs?",
+                  "Yes, there were.",
+                  "No, there weren't."
+                ]
+              }
             ],
             "borderColor": "good"
           }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: There was / There were",
+      "label": "Частые ошибки: was many, It was a party",
       "intro": {
-        "text": "Четыре самые частые ошибки в прошедшем времени.",
+        "text": "Четыре самые частые ошибки: was со множественным и It was вместо There was.",
         "highlights": [
-          { "text": "Четыре самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Четыре самые частые",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "It was вместо There was",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -123,10 +344,22 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "There was many people.",       "right": "There were many people." },
-            { "wrong": "There were a cat.",              "right": "There was a cat." },
-            { "wrong": "It was a party yesterday.",      "right": "There was a party yesterday." },
-            { "wrong": "There was not any people.",       "right": "There were not any people." }
+            {
+              "wrong": "There was many people.",
+              "right": "There were many people. (много — were)"
+            },
+            {
+              "wrong": "There were a cat.",
+              "right": "There was a cat. (одна — was)"
+            },
+            {
+              "wrong": "It was a party yesterday.",
+              "right": "There was a party yesterday. (было, имелось — There was)"
+            },
+            {
+              "wrong": "There was not any people.",
+              "right": "There were not any people. (people — were)"
+            }
           ]
         },
         {

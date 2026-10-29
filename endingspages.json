@@ -3,9 +3,9 @@
   "route": "cards_endings",
   "slides": [
     {
-      "label": "-s и -es",
+      "label": "-s и -es: [s], [z] или [ɪz]",
       "intro": {
-        "text": "Окончание -s читается тремя способами — смотря на какой звук кончается слово. Правило одно для множественного числа (books), he/she (works) и чьего-то (Tom’s).",
+        "text": "Окончание -s читается тремя способами — смотря каким звуком кончается слово. Правило одно для множественного числа (books), для he / she (works) и для «чьего-то» (Tom's).",
         "highlights": [
           {
             "text": "тремя способами",
@@ -13,7 +13,7 @@
             "style": "bold"
           },
           {
-            "text": "на какой звук",
+            "text": "каким звуком кончается слово",
             "color": "info",
             "style": "bold"
           }
@@ -69,12 +69,72 @@
             "text": "Скажи звук и положи руку на горло: дрожит — звонкий ([b], [g], [z]), не дрожит — глухой ([p], [k], [s])."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She works in a bank.", "ru": "Она работает в банке. works — -s звучит как [s]"}, {"en": "He plays the guitar.", "ru": "Он играет на гитаре. plays — -s звучит как [z]"}, {"en": "She watches TV every evening.", "ru": "Она смотрит телевизор каждый вечер. watches — -es звучит как [ɪz]"}, {"en": "I need two boxes.", "ru": "Мне нужно две коробки. boxes — -es звучит как [ɪz]"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She works in a bank.",
+                "ru": "Она работает в банке. works — -s звучит как [s]"
+              },
+              {
+                "en": "He plays the guitar.",
+                "ru": "Он играет на гитаре. plays — -s звучит как [z]"
+              },
+              {
+                "en": "She watches TV every evening.",
+                "ru": "Она смотрит телевизор каждый вечер. watches — -es звучит как [ɪz]"
+              },
+              {
+                "en": "I need two boxes.",
+                "ru": "Мне нужно две коробки. boxes — -es звучит как [ɪz]"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Как пишется: -s или -es",
+          "preview": "и когда y меняется на i",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "rules": [
+              {
+                "name": "обычно",
+                "suffix": "+ s",
+                "example": "book → books, work → works"
+              },
+              {
+                "name": "после s, x, sh, ch, o",
+                "suffix": "+ es",
+                "example": "bus → buses, box → boxes, go → goes"
+              },
+              {
+                "name": "согласная + y",
+                "suffix": "y → ies",
+                "example": "city → cities, study → studies"
+              },
+              {
+                "name": "гласная + y",
+                "suffix": "+ s",
+                "example": "day → days, play → plays"
+              }
+            ],
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "-ed",
+      "label": "-ed: [t], [d] или [ɪd]",
       "intro": {
-        "text": "С -ed то же самое: три варианта. Слог «ид» появляется ТОЛЬКО после t и d. Во всех остальных случаях -ed звучит одним звуком.",
+        "text": "С -ed то же самое: три варианта. Отдельный слог «ид» появляется ТОЛЬКО после t и d. Во всех остальных случаях -ed звучит одним звуком и слога не добавляет.",
         "highlights": [
           {
             "text": "три варианта",
@@ -84,6 +144,11 @@
           {
             "text": "ТОЛЬКО после t и d",
             "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "одним звуком",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -143,17 +208,82 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Как пишется: -ed, -ied, удвоение",
+          "preview": "stop → stopped, study → studied",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "rules": [
+              {
+                "name": "обычно",
+                "suffix": "+ ed",
+                "example": "work → worked, play → played"
+              },
+              {
+                "name": "кончается на e",
+                "suffix": "+ d",
+                "example": "live → lived, like → liked"
+              },
+              {
+                "name": "согласная + y",
+                "suffix": "y → ied",
+                "example": "study → studied, try → tried"
+              },
+              {
+                "name": "краткий гласный + согласная",
+                "suffix": "удваиваем",
+                "example": "stop → stopped, plan → planned"
+              }
+            ],
+            "title": ""
+          }
+        },
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I worked late yesterday.",
+                "ru": "Вчера я работал допоздна. (worked — [t])"
+              },
+              {
+                "en": "We played tennis.",
+                "ru": "Мы играли в теннис. (played — [d])"
+              },
+              {
+                "en": "She wanted a new phone.",
+                "ru": "Она хотела новый телефон. (wanted — [ɪd])"
+              },
+              {
+                "en": "They needed help.",
+                "ru": "Им нужна была помощь. (needed — [ɪd])"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Окончания -s и -ed",
+      "label": "Частые ошибки: лишний слог и [s] вместо [z]",
       "intro": {
-        "text": "Самые частые ошибки с окончаниями.",
+        "text": "Самые частые ошибки: лишний слог «ед» там, где его нет, и глухое [s] вместо звонкого [z].",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "лишний слог",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "[s] вместо",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -164,19 +294,23 @@
           "errors": [
             {
               "wrong": "watched — «вотчед»",
-              "right": "[wɒtʃt] — один слог"
+              "right": "[wɒtʃt] — один слог (после ch — [t])"
             },
             {
               "wrong": "played — «плэйед»",
-              "right": "[pleɪd] — один слог"
+              "right": "[pleɪd] — один слог (после гласной — [d])"
             },
             {
               "wrong": "boxes — «бокс»",
-              "right": "[ˈbɒksɪz] — два слога"
+              "right": "[ˈbɒksɪz] — два слога (после x — [ɪz])"
             },
             {
               "wrong": "dogs — «догс»",
-              "right": "[dɒɡz] — на конце [z]"
+              "right": "[dɒɡz] — на конце [z] (после звонкого g)"
+            },
+            {
+              "wrong": "liked — «лайкед»",
+              "right": "[laɪkt] — один слог (после k — [t])"
             }
           ]
         }

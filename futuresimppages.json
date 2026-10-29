@@ -5,12 +5,28 @@
     {
       "label": "Future Simple: решения, обещания, прогнозы",
       "intro": {
-        "text": "Future Simple описывает действие в будущем. Используется для спонтанных решений, обещаний, предложений и предсказаний.",
+        "text": "Future Simple — будущее через will: I will call = я позвоню. Так говорят о решении, принятом прямо сейчас, об обещании, о предложении помочь и о прогнозе «по ощущениям».",
         "highlights": [
-          { "text": "Future Simple",     "color": "term",    "style": "bold_underline" },
-          { "text": "в будущем",          "color": "info",    "style": "bold" },
-          { "text": "спонтанных решений", "color": "example", "style": "bold" },
-          { "text": "предсказаний",        "color": "bad",     "style": "bold" }
+          {
+            "text": "Future Simple",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "will",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "прямо сейчас",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "«по ощущениям»",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,26 +35,152 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",    "color": "info" },
-              { "text": "+",    "color": "muted" },
-              { "text": "will", "color": "term" },
-              { "text": "+",    "color": "muted" },
-              { "text": "V",    "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "will",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "will", "V"], "decoys": ["to", "V-ing"], "examples": [{"en": "I will call you tomorrow.", "ru": "Я позвоню тебе завтра.", "parts": [["I", "S"], ["will", "will"], ["call", "V"], ["you tomorrow.", ""]]}, {"en": "She will help us.", "ru": "Она нам поможет.", "parts": [["She", "S"], ["will", "will"], ["help", "V"], ["us.", ""]]}, {"en": "It will rain tonight.", "ru": "Сегодня ночью пойдёт дождь.", "parts": [["It", "S"], ["will", "will"], ["rain", "V"], ["tonight.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "will",
+                "V"
+              ],
+              "decoys": [
+                "to",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "I will call you tomorrow.",
+                  "ru": "Я позвоню тебе завтра.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "call",
+                      "V"
+                    ],
+                    [
+                      "you tomorrow.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She will help us.",
+                  "ru": "Она нам поможет.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "help",
+                      "V"
+                    ],
+                    [
+                      "us.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "It will rain tonight.",
+                  "ru": "Сегодня ночью пойдёт дождь.",
+                  "parts": [
+                    [
+                      "It",
+                      "S"
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "rain",
+                      "V"
+                    ],
+                    [
+                      "tonight.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Четыре случая употребления",
           "borderColor": "info",
           "table": {
-            "headers": ["Случай", "Пример", "Перевод"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Случай",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Спонтанное решение", "I'll have a coffee.",        "Я возьму кофе."] },
-              { "cells": ["Обещание",            "I'll call you tomorrow.",   "Я позвоню тебе завтра."] },
-              { "cells": ["Предсказание",        "It will rain tomorrow.",     "Завтра будет дождь."] },
-              { "cells": ["Предложение помощи",  "I'll help you.",             "Я помогу тебе."] }
+              {
+                "cells": [
+                  "Спонтанное решение",
+                  "I'll have a coffee.",
+                  "Я возьму кофе."
+                ]
+              },
+              {
+                "cells": [
+                  "Обещание",
+                  "I'll call you tomorrow.",
+                  "Я позвоню тебе завтра."
+                ]
+              },
+              {
+                "cells": [
+                  "Предсказание",
+                  "It will rain tomorrow.",
+                  "Завтра будет дождь."
+                ]
+              },
+              {
+                "cells": [
+                  "Предложение помощи",
+                  "I'll help you.",
+                  "Я помогу тебе."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -48,17 +190,38 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["tomorrow", "next week", "soon", "in a few days", "someday", "in 2030", "tonight", "later"]
+            "verbs": [
+              "tomorrow",
+              "next week",
+              "soon",
+              "in a few days",
+              "someday",
+              "in 2030",
+              "tonight",
+              "later"
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I will call you tomorrow.",        "ru": "Я позвоню тебе завтра." },
-            { "en": "She will help us.",                "ru": "Она поможет нам." },
-            { "en": "They will arrive soon.",            "ru": "Они скоро приедут." },
-            { "en": "I think it will rain tomorrow.",   "ru": "Думаю, завтра будет дождь." }
+            {
+              "en": "I will call you tomorrow.",
+              "ru": "Я позвоню тебе завтра."
+            },
+            {
+              "en": "She will help us.",
+              "ru": "Она поможет нам."
+            },
+            {
+              "en": "They will arrive soon.",
+              "ru": "Они скоро приедут."
+            },
+            {
+              "en": "I think it will rain tomorrow.",
+              "ru": "Думаю, завтра будет дождь."
+            }
           ]
         },
         {
@@ -72,15 +235,26 @@
         }
       ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
-        "text": "Will не меняется по лицам. Одна форма для всех — I, you, he, she, it, we, they.",
+        "text": "Will не меняется по лицам: одна форма для всех — I, you, he, she, it, we, they. Глагол после will — в начальной форме, без to и без -s.",
         "highlights": [
-          { "text": "не меняется",  "color": "term",    "style": "bold_underline" },
-          { "text": "одна форма",    "color": "info",    "style": "bold" },
-          { "text": "для всех",       "color": "example", "style": "bold" }
+          {
+            "text": "не меняется",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "одна форма",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "без to и без -s",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -89,16 +263,34 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I / You / He / She / It / We / They", "color": "info" },
-              { "text": "+",                                   "color": "muted" },
-              { "text": "will + V",                            "color": "example" }
+              {
+                "text": "I / You / He / She / It / We / They",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "will + V",
+                "color": "example"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I will call you tomorrow.",   "ru": "Я позвоню тебе завтра." },
-            { "en": "She will help us.",            "ru": "Она поможет нам." },
-            { "en": "They will arrive soon.",        "ru": "Они скоро приедут." }
+            {
+              "en": "I will call you tomorrow.",
+              "ru": "Я позвоню тебе завтра."
+            },
+            {
+              "en": "She will help us.",
+              "ru": "Она поможет нам."
+            },
+            {
+              "en": "They will arrive soon.",
+              "ru": "Они скоро приедут."
+            }
           ]
         },
         {
@@ -106,18 +298,133 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "will", "color": "info" },
-              { "text": "+",    "color": "muted" },
-              { "text": "not",  "color": "bad" },
-              { "text": "+",    "color": "muted" },
-              { "text": "V",    "color": "example" }
+              {
+                "text": "will",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V",
+                "color": "example"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["will", "not", "V"], "decoys": ["to", "V-ing"], "examples": [{"en": "I will not tell anyone.", "ru": "Я никому не скажу.", "parts": [["I", ""], ["will", "will"], ["not", "not"], ["tell", "V"], ["anyone.", ""]]}, {"en": "They will not come today.", "ru": "Они сегодня не придут.", "parts": [["They", ""], ["will", "will"], ["not", "not"], ["come", "V"], ["today.", ""]]}, {"en": "It will not take long.", "ru": "Это не займёт много времени.", "parts": [["It", ""], ["will", "will"], ["not", "not"], ["take", "V"], ["long.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "will",
+                "not",
+                "V"
+              ],
+              "decoys": [
+                "to",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "I will not tell anyone.",
+                  "ru": "Я никому не скажу.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "tell",
+                      "V"
+                    ],
+                    [
+                      "anyone.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They will not come today.",
+                  "ru": "Они сегодня не придут.",
+                  "parts": [
+                    [
+                      "They",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "come",
+                      "V"
+                    ],
+                    [
+                      "today.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "It will not take long.",
+                  "ru": "Это не займёт много времени.",
+                  "parts": [
+                    [
+                      "It",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "take",
+                      "V"
+                    ],
+                    [
+                      "long.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "She won't cook dinner tonight.",   "ru": "Она не будет готовить ужин сегодня." },
-            { "en": "I won't be late.",                   "ru": "Я не опоздаю." },
-            { "en": "They won't come.",                   "ru": "Они не придут." }
+            {
+              "en": "She won't cook dinner tonight.",
+              "ru": "Она не будет готовить ужин сегодня."
+            },
+            {
+              "en": "I won't be late.",
+              "ru": "Я не опоздаю."
+            },
+            {
+              "en": "They won't come.",
+              "ru": "Они не придут."
+            }
           ]
         },
         {
@@ -125,44 +432,178 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Will", "color": "info" },
-              { "text": "+",    "color": "muted" },
-              { "text": "S",    "color": "example" },
-              { "text": "+",    "color": "muted" },
-              { "text": "V?",   "color": "term" }
+              {
+                "text": "Will",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Will", "S", "V?"], "decoys": ["to", "V-ing"], "examples": [{"en": "Will you help me?", "ru": "Ты мне поможешь?", "parts": [["Will", "Will"], ["you", "S"], ["help", "V?"], ["me?", ""]]}, {"en": "Will she come to the party?", "ru": "Она придёт на вечеринку?", "parts": [["Will", "Will"], ["she", "S"], ["come", "V?"], ["to the party?", ""]]}, {"en": "Will it rain tomorrow?", "ru": "Завтра будет дождь?", "parts": [["Will", "Will"], ["it", "S"], ["rain", "V?"], ["tomorrow?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Will",
+                "S",
+                "V?"
+              ],
+              "decoys": [
+                "to",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "Will you help me?",
+                  "ru": "Ты мне поможешь?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "help",
+                      "V?"
+                    ],
+                    [
+                      "me?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Will she come to the party?",
+                  "ru": "Она придёт на вечеринку?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "come",
+                      "V?"
+                    ],
+                    [
+                      "to the party?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Will it rain tomorrow?",
+                  "ru": "Завтра будет дождь?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "it",
+                      "S"
+                    ],
+                    [
+                      "rain",
+                      "V?"
+                    ],
+                    [
+                      "tomorrow?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Will they play football?",   "ru": "Они будут играть в футбол?" },
-            { "en": "Will you come tomorrow?",     "ru": "Ты придёшь завтра?" },
-            { "en": "What will you do next?",       "ru": "Что ты будешь делать дальше?" }
+            {
+              "en": "Will they play football?",
+              "ru": "Они будут играть в футбол?"
+            },
+            {
+              "en": "Will you come tomorrow?",
+              "ru": "Ты придёшь завтра?"
+            },
+            {
+              "en": "What will you do next?",
+              "ru": "Что ты будешь делать дальше?"
+            }
           ]
         },
         {
           "title": "Краткие ответы",
           "borderColor": "term",
           "table": {
-            "headers": ["Вопрос", "Да", "Нет"],
-            "headerColors": ["info", "good", "bad"],
+            "headers": [
+              "Вопрос",
+              "Да",
+              "Нет"
+            ],
+            "headerColors": [
+              "info",
+              "good",
+              "bad"
+            ],
             "rows": [
-              { "cells": ["Will you come?",   "Yes, I will.",     "No, I won't."] },
-              { "cells": ["Will she help?",    "Yes, she will.",   "No, she won't."] }
+              {
+                "cells": [
+                  "Will you come?",
+                  "Yes, I will.",
+                  "No, I won't."
+                ]
+              },
+              {
+                "cells": [
+                  "Will she help?",
+                  "Yes, she will.",
+                  "No, she won't."
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
       ]
     },
-
     {
-      "label": "Сокращения",
+      "label": "Сокращения: I'll, won't",
       "intro": {
-        "text": "В устной речи will почти всегда сокращается. Это норма, а не неформальность — даже в новостях и на BBC.",
+        "text": "В речи will почти всегда сокращают: I'll, she'll, won't. Это норма, а не небрежность — так говорят и в новостях.",
         "highlights": [
-          { "text": "сокращается",  "color": "term",    "style": "bold_underline" },
-          { "text": "почти всегда",  "color": "info",    "style": "bold" },
-          { "text": "норма",          "color": "example", "style": "bold" }
+          {
+            "text": "сокращают",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "почти всегда",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "норма",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -170,17 +611,73 @@
           "title": "Таблица сокращений",
           "borderColor": "info",
           "table": {
-            "headers": ["Полная форма", "Сокращение", "Произношение"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Полная форма",
+              "Сокращение",
+              "Произношение"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["I will",         "I'll",       "[aɪl]"] },
-              { "cells": ["you will",       "you'll",     "[juːl]"] },
-              { "cells": ["he will",         "he'll",      "[hiːl]"] },
-              { "cells": ["she will",        "she'll",     "[ʃiːl]"] },
-              { "cells": ["it will",         "it'll",      "[ɪtl]"] },
-              { "cells": ["we will",         "we'll",      "[wiːl]"] },
-              { "cells": ["they will",       "they'll",    "[ðeɪl]"] },
-              { "cells": ["will not",        "won't",      "[wəʊnt]"] }
+              {
+                "cells": [
+                  "I will",
+                  "I'll",
+                  "[aɪl]"
+                ]
+              },
+              {
+                "cells": [
+                  "you will",
+                  "you'll",
+                  "[juːl]"
+                ]
+              },
+              {
+                "cells": [
+                  "he will",
+                  "he'll",
+                  "[hiːl]"
+                ]
+              },
+              {
+                "cells": [
+                  "she will",
+                  "she'll",
+                  "[ʃiːl]"
+                ]
+              },
+              {
+                "cells": [
+                  "it will",
+                  "it'll",
+                  "[ɪtl]"
+                ]
+              },
+              {
+                "cells": [
+                  "we will",
+                  "we'll",
+                  "[wiːl]"
+                ]
+              },
+              {
+                "cells": [
+                  "they will",
+                  "they'll",
+                  "[ðeɪl]"
+                ]
+              },
+              {
+                "cells": [
+                  "will not",
+                  "won't",
+                  "[wəʊnt]"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -189,10 +686,22 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I'll send you the file.",         "ru": "Я отправлю тебе файл." },
-            { "en": "They'll be here at 6.",             "ru": "Они будут здесь в 6." },
-            { "en": "We won't forget this.",              "ru": "Мы этого не забудем." },
-            { "en": "She'll call you tonight.",           "ru": "Она позвонит тебе вечером." }
+            {
+              "en": "I'll send you the file.",
+              "ru": "Я отправлю тебе файл."
+            },
+            {
+              "en": "They'll be here at 6.",
+              "ru": "Они будут здесь в 6."
+            },
+            {
+              "en": "We won't forget this.",
+              "ru": "Мы этого не забудем."
+            },
+            {
+              "en": "She'll call you tonight.",
+              "ru": "Она позвонит тебе вечером."
+            }
           ]
         },
         {
@@ -206,15 +715,26 @@
         }
       ]
     },
-
     {
-      "label": "Слова-маркеры",
+      "label": "Подсказки: tomorrow, I think, probably",
       "intro": {
-        "text": "Слова-маркеры подсказывают, что речь идёт о будущем действии или предположении.",
+        "text": "Слова-подсказки: время в будущем (tomorrow, next week) и слова мнения (I think, I'm sure, probably). С мнением почти всегда — will.",
         "highlights": [
-          { "text": "Слова-маркеры",  "color": "term",    "style": "bold_underline" },
-          { "text": "о будущем",       "color": "info",    "style": "bold" },
-          { "text": "предположении",   "color": "example", "style": "bold" }
+          {
+            "text": "Слова-подсказки",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "время в будущем",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "слова мнения",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -222,16 +742,66 @@
           "title": "Временные маркеры",
           "borderColor": "info",
           "table": {
-            "headers": ["Маркер", "Перевод", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Маркер",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["tomorrow",       "завтра",                    "I'll finish it tomorrow."] },
-              { "cells": ["next week",       "на следующей неделе",       "We'll meet next week."] },
-              { "cells": ["soon",             "скоро",                     "The bus will arrive soon."] },
-              { "cells": ["in a few days",    "через несколько дней",     "She'll call in a few days."] },
-              { "cells": ["someday",          "когда-нибудь",              "I'll visit Japan someday."] },
-              { "cells": ["tonight",          "сегодня вечером",           "I'll call you tonight."] },
-              { "cells": ["later",             "позже",                     "I'll do it later."] }
+              {
+                "cells": [
+                  "tomorrow",
+                  "завтра",
+                  "I'll finish it tomorrow."
+                ]
+              },
+              {
+                "cells": [
+                  "next week",
+                  "на следующей неделе",
+                  "We'll meet next week."
+                ]
+              },
+              {
+                "cells": [
+                  "soon",
+                  "скоро",
+                  "The bus will arrive soon."
+                ]
+              },
+              {
+                "cells": [
+                  "in a few days",
+                  "через несколько дней",
+                  "She'll call in a few days."
+                ]
+              },
+              {
+                "cells": [
+                  "someday",
+                  "когда-нибудь",
+                  "I'll visit Japan someday."
+                ]
+              },
+              {
+                "cells": [
+                  "tonight",
+                  "сегодня вечером",
+                  "I'll call you tonight."
+                ]
+              },
+              {
+                "cells": [
+                  "later",
+                  "позже",
+                  "I'll do it later."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -240,33 +810,94 @@
           "title": "Маркеры предположения",
           "borderColor": "term",
           "examples": [
-            { "en": "I think it will rain tomorrow.",        "ru": "Думаю, завтра будет дождь." },
-            { "en": "I'm sure she will pass the exam.",       "ru": "Уверен, она сдаст экзамен." },
-            { "en": "I hope you will come.",                   "ru": "Надеюсь, ты придёшь." },
-            { "en": "Probably he will agree.",                  "ru": "Наверное, он согласится." }
+            {
+              "en": "I think it will rain tomorrow.",
+              "ru": "Думаю, завтра будет дождь."
+            },
+            {
+              "en": "I'm sure she will pass the exam.",
+              "ru": "Уверен, она сдаст экзамен."
+            },
+            {
+              "en": "I hope you will come.",
+              "ru": "Надеюсь, ты придёшь."
+            },
+            {
+              "en": "He'll probably agree.",
+              "ru": "Наверное, он согласится. (probably — после will)"
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I'll call you in a few days.",       "ru": "Я позвоню тебе через пару дней." },
-            { "en": "I hope you'll come to my party.",    "ru": "Надеюсь, ты придёшь на мою вечеринку." },
-            { "en": "I'll visit Japan someday.",           "ru": "Когда-нибудь я побываю в Японии." }
+            {
+              "en": "I'll call you in a few days.",
+              "ru": "Я позвоню тебе через пару дней."
+            },
+            {
+              "en": "I hope you'll come to my party.",
+              "ru": "Надеюсь, ты придёшь на мою вечеринку."
+            },
+            {
+              "en": "I'll visit Japan someday.",
+              "ru": "Когда-нибудь я побываю в Японии."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Где ставить probably",
+          "preview": "после will, но перед won't",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "She'll probably be late.",
+                "ru": "Она, наверное, опоздает. (will + probably)"
+              },
+              {
+                "en": "He probably won't come.",
+                "ru": "Он, наверное, не придёт. (probably + won't)"
+              },
+              {
+                "en": "I'll definitely call you.",
+                "ru": "Я обязательно позвоню. (definitely — так же)"
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Will vs Going to",
+      "label": "Will или going to",
       "intro": {
-        "text": "Will и going to оба говорят о будущем, но используются в разных ситуациях. Их легко перепутать, поэтому запомни главное: will — решение в моменте, going to — план заранее.",
+        "text": "Will и going to — оба про будущее. Главное отличие: will — решение в моменте, going to — план, который уже есть.",
         "highlights": [
-          { "text": "Will",      "color": "info",    "style": "bold" },
-          { "text": "going to",  "color": "term",    "style": "bold" },
-          { "text": "в моменте",  "color": "example", "style": "bold_underline" },
-          { "text": "заранее",     "color": "bad",     "style": "bold_underline" }
+          {
+            "text": "Will",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "going to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "в моменте",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "уже есть",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -274,13 +905,45 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Ситуация", "Will", "Going to"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Ситуация",
+              "Will",
+              "Going to"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Спонтанное решение", "I'll have coffee.",          "—"] },
-              { "cells": ["План заранее",        "—",                         "I'm going to study medicine."] },
-              { "cells": ["Обещание",             "I'll help you.",           "—"] },
-              { "cells": ["Предсказание",         "I think it will rain.",    "It's going to rain (тучи)."] }
+              {
+                "cells": [
+                  "Спонтанное решение",
+                  "I'll have coffee.",
+                  "—"
+                ]
+              },
+              {
+                "cells": [
+                  "План заранее",
+                  "—",
+                  "I'm going to study medicine."
+                ]
+              },
+              {
+                "cells": [
+                  "Обещание",
+                  "I'll help you.",
+                  "—"
+                ]
+              },
+              {
+                "cells": [
+                  "Предсказание",
+                  "I think it will rain.",
+                  "It's going to rain (тучи)."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -289,16 +952,28 @@
           "title": "Сравнение — план",
           "borderColor": "term",
           "examples": [
-            { "en": "I'm going to study medicine.",       "ru": "Я собираюсь изучать медицину. (заранее)" },
-            { "en": "Okay, I'll study medicine then.",     "ru": "Хорошо, тогда я буду изучать медицину. (спонтанно)" }
+            {
+              "en": "I'm going to study medicine.",
+              "ru": "Я собираюсь изучать медицину. (заранее)"
+            },
+            {
+              "en": "Okay, I'll study medicine then.",
+              "ru": "Хорошо, тогда я буду изучать медицину. (спонтанно)"
+            }
           ]
         },
         {
           "title": "Сравнение — предсказание",
           "borderColor": "info",
           "examples": [
-            { "en": "Look at those clouds! It's going to rain.", "ru": "Посмотри на тучи! Будет дождь. (по признакам)" },
-            { "en": "I think it will rain next week.",             "ru": "Думаю, на следующей неделе пойдёт дождь. (без доказательств)" }
+            {
+              "en": "Look at those clouds! It's going to rain.",
+              "ru": "Посмотри на тучи! Будет дождь. (по признакам)"
+            },
+            {
+              "en": "I think it will rain next week.",
+              "ru": "Думаю, на следующей неделе пойдёт дождь. (без доказательств)"
+            }
           ]
         },
         {
@@ -321,13 +996,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Future Simple",
+      "label": "Частые ошибки: will to, wills, do you will",
       "intro": {
-        "text": "Семь самых частых ошибок в Future Simple — слева как нельзя, справа как правильно.",
+        "text": "Семь самых частых ошибок с will — слева как нельзя, справа как правильно.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -335,13 +1013,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I will to call you.",         "right": "I will call you." },
-            { "wrong": "She wills help us.",            "right": "She will help us." },
-            { "wrong": "Do you will come?",             "right": "Will you come?" },
-            { "wrong": "I don't will go.",               "right": "I won't go." },
-            { "wrong": "I will call you yesterday.",     "right": "I will call you tomorrow." },
-            { "wrong": "Will I'll see you?",             "right": "Will I see you?" },
-            { "wrong": "I'll can help you.",              "right": "I'll be able to help you." }
+            {
+              "wrong": "I will to call you.",
+              "right": "I will call you. (после will — без to)"
+            },
+            {
+              "wrong": "She wills help us.",
+              "right": "She will help us. (will не меняется)"
+            },
+            {
+              "wrong": "Do you will come?",
+              "right": "Will you come? (вопрос — will вперёд)"
+            },
+            {
+              "wrong": "I don't will go.",
+              "right": "I won't go. (отрицание — will not)"
+            },
+            {
+              "wrong": "I will call you yesterday.",
+              "right": "I will call you tomorrow. (yesterday — прошлое)"
+            },
+            {
+              "wrong": "Will I'll see you?",
+              "right": "Will I see you? (will один раз)"
+            },
+            {
+              "wrong": "I'll can help you.",
+              "right": "I'll be able to help you. (два модальных нельзя)"
+            }
           ]
         },
         {
