@@ -3,7 +3,7 @@
   "route": "cards_infinitive",
   "slides": [
     {
-      "label": "to do или просто do",
+      "label": "To do или просто do",
       "intro": {
         "text": "Инфинитив — начальная форма глагола. Он бывает с частицей to (to work) и без неё (work). Почти всегда нужен to; без него — после модальных глаголов и нескольких особых слов.",
         "highlights": [
@@ -44,7 +44,77 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "term", "drill": {"slots": ["to", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I want to travel.", "ru": "Я хочу путешествовать.", "parts": [["I want", ""], ["to", "to"], ["travel.", "глагол"]]}, {"en": "She decided to stay.", "ru": "Она решила остаться.", "parts": [["She decided", ""], ["to", "to"], ["stay.", "глагол"]]}, {"en": "We hope to see you soon.", "ru": "Надеемся скоро тебя увидеть.", "parts": [["We hope", ""], ["to", "to"], ["see", "глагол"], ["you soon.", ""]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "to",
+                  "глагол"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "I want to travel.",
+                    "ru": "Я хочу путешествовать.",
+                    "parts": [
+                      [
+                        "I want",
+                        ""
+                      ],
+                      [
+                        "to",
+                        "to"
+                      ],
+                      [
+                        "travel.",
+                        "глагол"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She decided to stay.",
+                    "ru": "Она решила остаться.",
+                    "parts": [
+                      [
+                        "She decided",
+                        ""
+                      ],
+                      [
+                        "to",
+                        "to"
+                      ],
+                      [
+                        "stay.",
+                        "глагол"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "We hope to see you soon.",
+                    "ru": "Надеемся скоро тебя увидеть.",
+                    "parts": [
+                      [
+                        "We hope",
+                        ""
+                      ],
+                      [
+                        "to",
+                        "to"
+                      ],
+                      [
+                        "see",
+                        "глагол"
+                      ],
+                      [
+                        "you soon.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
@@ -61,7 +131,81 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "example", "drill": {"slots": ["can / must / make", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I can swim.", "ru": "Я умею плавать.", "parts": [["I", ""], ["can", "can / must / make"], ["swim.", "глагол"]]}, {"en": "You must try this cake.", "ru": "Ты обязательно должен попробовать этот торт.", "parts": [["You", ""], ["must", "can / must / make"], ["try", "глагол"], ["this cake.", ""]]}, {"en": "She made me laugh.", "ru": "Она меня рассмешила.", "parts": [["She", ""], ["made", "can / must / make"], ["me", ""], ["laugh.", "глагол"]]}]}
+              "accentColor": "example",
+              "drill": {
+                "slots": [
+                  "can / must / make",
+                  "глагол"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "I can swim.",
+                    "ru": "Я умею плавать.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "can",
+                        "can / must / make"
+                      ],
+                      [
+                        "swim.",
+                        "глагол"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "You must try this cake.",
+                    "ru": "Ты обязательно должен попробовать этот торт.",
+                    "parts": [
+                      [
+                        "You",
+                        ""
+                      ],
+                      [
+                        "must",
+                        "can / must / make"
+                      ],
+                      [
+                        "try",
+                        "глагол"
+                      ],
+                      [
+                        "this cake.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She made me laugh.",
+                    "ru": "Она меня рассмешила.",
+                    "parts": [
+                      [
+                        "She",
+                        ""
+                      ],
+                      [
+                        "made",
+                        "can / must / make"
+                      ],
+                      [
+                        "me",
+                        ""
+                      ],
+                      [
+                        "laugh.",
+                        "глагол"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -83,10 +227,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I decided to stay at home.", "ru": "Я решил остаться дома."}, {"en": "You should see a doctor.", "ru": "Тебе стоит сходить к врачу. (после should — без to)"}, {"en": "She let me use her phone.", "ru": "Она дала мне воспользоваться её телефоном. (после let — без to)"}, {"en": "It's hard to learn a new language.", "ru": "Сложно выучить новый язык."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I decided to stay at home.",
+                "ru": "Я решил остаться дома."
+              },
+              {
+                "en": "You should see a doctor.",
+                "ru": "Тебе стоит сходить к врачу. (после should — без to)"
+              },
+              {
+                "en": "She let me use her phone.",
+                "ru": "Она дала мне воспользоваться её телефоном. (после let — без to)"
+              },
+              {
+                "en": "It's hard to learn a new language.",
+                "ru": "Сложно выучить новый язык."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "После глаголов",
+      "label": "Глаголы, после которых to: want, decide",
       "intro": {
         "text": "После многих глаголов второй глагол идёт с to. Их проще выучить списком — это самые частые.",
         "highlights": [
@@ -180,7 +353,7 @@
       ]
     },
     {
-      "label": "Без to",
+      "label": "Без to: после can, make, let",
       "intro": {
         "text": "Без to инфинитив стоит после модальных глаголов, после make и let и в нескольких устойчивых выражениях.",
         "highlights": [
@@ -251,10 +424,39 @@
             "text": "В пассиве после make to нужен: They made me wait → I was made to wait."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My boss made me work late.",
+                "ru": "Начальник заставил меня работать допоздна."
+              },
+              {
+                "en": "Let's go!",
+                "ru": "Пошли!"
+              },
+              {
+                "en": "You'd better ask him.",
+                "ru": "Лучше спроси у него."
+              },
+              {
+                "en": "I'd rather walk.",
+                "ru": "Я лучше пешком."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Цель: чтобы",
+      "label": "Цель: to = «чтобы»",
       "intro": {
         "text": "To сам по себе значит «чтобы»: I came to help — я пришёл, чтобы помочь. For здесь не ставят.",
         "highlights": [
@@ -302,10 +504,39 @@
             "text": "«Чтобы не опоздать» — so as not to be late или in order not to be late: I left early so as not to be late."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "He came here to see you.", "ru": "Он пришёл сюда, чтобы увидеть тебя."}, {"en": "I'm learning English to get a better job.", "ru": "Я учу английский, чтобы найти работу получше."}, {"en": "She went out to get some fresh air.", "ru": "Она вышла подышать свежим воздухом."}, {"en": "We left early so as not to miss the train.", "ru": "Мы вышли рано, чтобы не опоздать на поезд."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "He came here to see you.",
+                "ru": "Он пришёл сюда, чтобы увидеть тебя."
+              },
+              {
+                "en": "I'm learning English to get a better job.",
+                "ru": "Я учу английский, чтобы найти работу получше."
+              },
+              {
+                "en": "She went out to get some fresh air.",
+                "ru": "Она вышла подышать свежим воздухом."
+              },
+              {
+                "en": "We left early so as not to miss the train.",
+                "ru": "Мы вышли рано, чтобы не опоздать на поезд."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "После прилагательных",
+      "label": "После прилагательных, too и enough",
       "intro": {
         "text": "Инфинитив ставят после прилагательных (happy to help), после too и enough и после вопросительных слов (what to do).",
         "highlights": [
@@ -388,10 +619,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm glad to hear that.",
+                "ru": "Рад это слышать."
+              },
+              {
+                "en": "It's too late to call.",
+                "ru": "Звонить уже слишком поздно."
+              },
+              {
+                "en": "She's not tall enough to reach it.",
+                "ru": "Она недостаточно высокая, чтобы дотянуться."
+              },
+              {
+                "en": "Can you show me how to use it?",
+                "ru": "Покажешь, как этим пользоваться?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Хочу, чтобы ты…",
+      "label": "«Хочу, чтобы ты…»: I want you to come",
       "intro": {
         "text": "«Хочу, чтобы ты пришёл» по-английски — без «что» и «чтобы»: I want you to come. Так же после ask, tell, expect, would like: объект + to do.",
         "highlights": [
@@ -434,7 +694,90 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["want / ask / tell", "you / him / her", "to do"], "decoys": ["that", "V-ing"], "examples": [{"en": "I want you to stay.", "ru": "Я хочу, чтобы ты остался.", "parts": [["I", ""], ["want", "want / ask / tell"], ["you", "you / him / her"], ["to stay.", "to do"]]}, {"en": "She asked him to help.", "ru": "Она попросила его помочь.", "parts": [["She", ""], ["asked", "want / ask / tell"], ["him", "you / him / her"], ["to help.", "to do"]]}, {"en": "Mum told me to clean my room.", "ru": "Мама велела мне убрать комнату.", "parts": [["Mum", ""], ["told", "want / ask / tell"], ["me", "you / him / her"], ["to clean", "to do"], ["my room.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "want / ask / tell",
+                "you / him / her",
+                "to do"
+              ],
+              "decoys": [
+                "that",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "I want you to stay.",
+                  "ru": "Я хочу, чтобы ты остался.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "want",
+                      "want / ask / tell"
+                    ],
+                    [
+                      "you",
+                      "you / him / her"
+                    ],
+                    [
+                      "to stay.",
+                      "to do"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She asked him to help.",
+                  "ru": "Она попросила его помочь.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "asked",
+                      "want / ask / tell"
+                    ],
+                    [
+                      "him",
+                      "you / him / her"
+                    ],
+                    [
+                      "to help.",
+                      "to do"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Mum told me to clean my room.",
+                  "ru": "Мама велела мне убрать комнату.",
+                  "parts": [
+                    [
+                      "Mum",
+                      ""
+                    ],
+                    [
+                      "told",
+                      "want / ask / tell"
+                    ],
+                    [
+                      "me",
+                      "you / him / her"
+                    ],
+                    [
+                      "to clean",
+                      "to do"
+                    ],
+                    [
+                      "my room.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -459,10 +802,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I want you to call me tonight.", "ru": "Хочу, чтобы ты позвонил мне вечером."}, {"en": "My parents expect me to study hard.", "ru": "Родители ждут, что я буду хорошо учиться."}, {"en": "She asked me not to tell anyone.", "ru": "Она попросила меня никому не говорить."}, {"en": "Would you like me to help you?", "ru": "Хочешь, я тебе помогу?"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I want you to call me tonight.",
+                "ru": "Хочу, чтобы ты позвонил мне вечером."
+              },
+              {
+                "en": "My parents expect me to study hard.",
+                "ru": "Родители ждут, что я буду хорошо учиться."
+              },
+              {
+                "en": "She asked me not to tell anyone.",
+                "ru": "Она попросила меня никому не говорить."
+              },
+              {
+                "en": "Would you like me to help you?",
+                "ru": "Хочешь, я тебе помогу?"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Формы инфинитива",
+      "label": "Формы инфинитива: to be doing, to have done",
       "intro": {
         "text": "Кроме простого to do, у инфинитива есть формы для процесса, прошлого и пассива. Чаще всего они встречаются после seem, appear, be said и модальных глаголов.",
         "highlights": [
@@ -541,7 +913,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Инфинитив",
+      "label": "Частые ошибки: want that you, must to",
       "intro": {
         "text": "Самые частые ошибки с инфинитивом.",
         "highlights": [
@@ -559,27 +931,27 @@
           "errors": [
             {
               "wrong": "I want that you come.",
-              "right": "I want you to come."
+              "right": "I want you to come. (без that: кто + to)"
             },
             {
               "wrong": "I came for to help.",
-              "right": "I came to help."
+              "right": "I came to help. (цель — просто to)"
             },
             {
               "wrong": "You must to go.",
-              "right": "You must go."
+              "right": "You must go. (после must — без to)"
             },
             {
               "wrong": "She made me to laugh.",
-              "right": "She made me laugh."
+              "right": "She made me laugh. (после make — без to)"
             },
             {
               "wrong": "I don't know what do.",
-              "right": "I don't know what to do."
+              "right": "I don't know what to do. (what + to)"
             },
             {
               "wrong": "He decided don't go.",
-              "right": "He decided not to go."
+              "right": "He decided not to go. (отрицание — not to)"
             }
           ]
         }

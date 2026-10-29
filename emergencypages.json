@@ -89,10 +89,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Help! Somebody call an ambulance!",
+                "ru": "Помогите! Вызовите кто-нибудь скорую!"
+              },
+              {
+                "en": "Is everyone OK?",
+                "ru": "Все целы?"
+              },
+              {
+                "en": "Don't move him — wait for the doctors.",
+                "ru": "Не двигайте его — ждите врачей."
+              },
+              {
+                "en": "Get out of the building!",
+                "ru": "Выходите из здания!"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Звонок в службу",
+      "label": "Звонок в экстренную службу",
       "intro": {
         "text": "Оператор сначала спросит, какая служба нужна: Which service do you need? Дальше — адрес и что случилось.",
         "highlights": [
@@ -118,10 +147,39 @@
             "accentColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I need an ambulance, please.", "ru": "Мне нужна скорая."}, {"en": "There's been a car accident on Main Street.", "ru": "На Мейн-стрит авария."}, {"en": "The address is 12 Park Road, flat 3.", "ru": "Адрес: Парк-роуд, 12, квартира 3."}, {"en": "A man has fallen and he isn't breathing.", "ru": "Мужчина упал и не дышит."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I need an ambulance, please.",
+                "ru": "Мне нужна скорая."
+              },
+              {
+                "en": "There's been a car accident on Main Street.",
+                "ru": "На Мейн-стрит авария."
+              },
+              {
+                "en": "The address is 12 Park Road, flat 3.",
+                "ru": "Адрес: Парк-роуд, 12, квартира 3."
+              },
+              {
+                "en": "A man has fallen and he isn't breathing.",
+                "ru": "Мужчина упал и не дышит."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Кража и потеря",
+      "label": "Кража и потеря документов",
       "intro": {
         "text": "О краже или потере документов заявляют в полицию и, если ты за границей, — в посольство.",
         "highlights": [
@@ -191,10 +249,58 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Stolen или robbed",
+          "preview": "украли вещь или ограбили человека",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Что случилось",
+                "Как сказать"
+              ],
+              "headerColors": [
+                "muted",
+                "term"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "украли вещь",
+                    "My phone has been stolen."
+                  ]
+                },
+                {
+                  "cells": [
+                    "ограбили меня",
+                    "I've been robbed."
+                  ]
+                },
+                {
+                  "cells": [
+                    "потерял сам",
+                    "I've lost my bag."
+                  ]
+                },
+                {
+                  "cells": [
+                    "забыл где-то",
+                    "I left my passport in the taxi."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: экстренные ситуации",
+      "label": "Чего не говорить: Call to the police, I was stolen",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -212,23 +318,23 @@
           "errors": [
             {
               "wrong": "Call to the police!",
-              "right": "Call the police!"
+              "right": "Call the police! (call — без to)"
             },
             {
               "wrong": "Quick help! (о скорой)",
-              "right": "Call an ambulance!"
+              "right": "Call an ambulance! (скорая — ambulance)"
             },
             {
               "wrong": "I was stolen.",
-              "right": "I was robbed. / My bag was stolen."
+              "right": "I was robbed. / My bag was stolen. (украли вещь, а не тебя)"
             },
             {
               "wrong": "I am lost my passport.",
-              "right": "I've lost my passport."
+              "right": "I've lost my passport. (have, не am)"
             },
             {
               "wrong": "Where is police?",
-              "right": "Where is the police station?"
+              "right": "Where is the police station? (участок — police station)"
             }
           ]
         }

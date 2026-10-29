@@ -3,7 +3,7 @@
   "route": "cards_appearance",
   "slides": [
     {
-      "label": "Внешность",
+      "label": "Внешность: рост, волосы, лицо",
       "intro": {
         "text": "Внешность описывают по порядку: рост и фигура, возраст, волосы и лицо. Для волос и глаз — have: She has long dark hair.",
         "highlights": [
@@ -82,10 +82,39 @@
             "text": "Fat и ugly звучат грубо. Вместо них — a bit overweight, not very attractive."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "He's tall and well-built.",
+                "ru": "Он высокий и крепкий."
+              },
+              {
+                "en": "She's in her twenties.",
+                "ru": "Ей двадцать с чем-то."
+              },
+              {
+                "en": "My dad is bald and has a beard.",
+                "ru": "Мой папа лысый и с бородой."
+              },
+              {
+                "en": "She has freckles and wavy hair.",
+                "ru": "У неё веснушки и волнистые волосы."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Порядок слов",
+      "label": "Порядок прилагательных: long dark hair",
       "intro": {
         "text": "Если прилагательных несколько, порядок фиксирован: мнение → размер → возраст → форма → цвет. Говорят long dark hair, а не dark long hair.",
         "highlights": [
@@ -120,10 +149,79 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She was wearing a beautiful long red dress.", "ru": "На ней было красивое длинное красное платье. (мнение → размер → цвет)"}, {"en": "He has short curly black hair.", "ru": "У него короткие кудрявые чёрные волосы."}, {"en": "They live in a lovely old wooden house.", "ru": "Они живут в чудесном старом деревянном доме."}, {"en": "She bought a small round table.", "ru": "Она купила маленький круглый стол."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She was wearing a beautiful long red dress.",
+                "ru": "На ней было красивое длинное красное платье. (мнение → размер → цвет)"
+              },
+              {
+                "en": "He has short curly black hair.",
+                "ru": "У него короткие кудрявые чёрные волосы."
+              },
+              {
+                "en": "They live in a lovely old wooden house.",
+                "ru": "Они живут в чудесном старом деревянном доме."
+              },
+              {
+                "en": "She bought a small round table.",
+                "ru": "Она купила маленький круглый стол."
+              }
+            ]
+          }
+        },
+        {
+          "label": "Порядок по шагам",
+          "preview": "мнение → размер → возраст → форма → цвет",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Пример",
+                "Что за чем"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "beautiful long straight blonde hair",
+                    "мнение → размер → форма → цвет"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a lovely small old brown table",
+                    "мнение → размер → возраст → цвет"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a big new blue car",
+                    "размер → возраст → цвет"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "Характер",
+      "label": "Характер: пары противоположностей",
       "intro": {
         "text": "Характер удобно учить парами: слово и его противоположность.",
         "highlights": [
@@ -224,10 +322,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My grandma is very kind and patient.", "ru": "Моя бабушка очень добрая и терпеливая."}, {"en": "He's hard-working but a bit shy.", "ru": "Он трудолюбивый, но немного застенчивый."}, {"en": "Don't be rude to the waiter.", "ru": "Не груби официанту."}, {"en": "She is generous — she always shares everything.", "ru": "Она щедрая — всегда всем делится."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My grandma is very kind and patient.",
+                "ru": "Моя бабушка очень добрая и терпеливая."
+              },
+              {
+                "en": "He's hard-working but a bit shy.",
+                "ru": "Он трудолюбивый, но немного застенчивый."
+              },
+              {
+                "en": "Don't be rude to the waiter.",
+                "ru": "Не груби официанту."
+              },
+              {
+                "en": "She is generous — she always shares everything.",
+                "ru": "Она щедрая — всегда всем делится."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Как спросить",
+      "label": "What is she like и What does she look like",
       "intro": {
         "text": "What is she like? — вопрос о характере, What does she look like? — о внешности. Like здесь не «нравится», а «какой».",
         "highlights": [
@@ -267,10 +394,84 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "What's your new teacher like? — She's very friendly.", "ru": "Какая у вас новая учительница? — Очень дружелюбная."}, {"en": "What does your brother look like? — He's tall and thin.", "ru": "Как выглядит твой брат? — Высокий и худой."}, {"en": "What was the weather like? — Sunny and warm.", "ru": "Какая была погода? — Солнечно и тепло."}, {"en": "Do you look like your mum? — Yes, people say so.", "ru": "Ты похож на маму? — Да, так говорят."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "What's your new teacher like? — She's very friendly.",
+                "ru": "Какая у вас новая учительница? — Очень дружелюбная."
+              },
+              {
+                "en": "What does your brother look like? — He's tall and thin.",
+                "ru": "Как выглядит твой брат? — Высокий и худой."
+              },
+              {
+                "en": "What was the weather like? — Sunny and warm.",
+                "ru": "Какая была погода? — Солнечно и тепло."
+              },
+              {
+                "en": "Do you look like your mum? — Yes, people say so.",
+                "ru": "Ты похож на маму? — Да, так говорят."
+              }
+            ]
+          }
+        },
+        {
+          "label": "Три вопроса с like",
+          "preview": "какой, как выглядит, что любит",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Вопрос",
+                "О чём",
+                "Ответ"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "What is he like?",
+                    "характер",
+                    "He's kind and funny."
+                  ]
+                },
+                {
+                  "cells": [
+                    "What does he look like?",
+                    "внешность",
+                    "He's tall with dark hair."
+                  ]
+                },
+                {
+                  "cells": [
+                    "What does he like?",
+                    "что ему нравится",
+                    "He likes football."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "Примеры: внешность и характер",
+      "label": "Описания людей в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -323,7 +524,7 @@
       ]
     },
     {
-      "label": "Диалог: внешность и характер",
+      "label": "Диалог: новенький в офисе",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -364,7 +565,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Внешность и характер",
+      "label": "Частые ошибки: a long hair, How does she look like",
       "intro": {
         "text": "Самые частые ошибки в описании людей.",
         "highlights": [
@@ -382,23 +583,23 @@
           "errors": [
             {
               "wrong": "She has a long hair.",
-              "right": "She has long hair."
+              "right": "She has long hair. (hair — неисчисляемое)"
             },
             {
               "wrong": "He is with blue eyes.",
-              "right": "He has blue eyes."
+              "right": "He has blue eyes. (внешность — have)"
             },
             {
               "wrong": "How does she look like?",
-              "right": "What does she look like?"
+              "right": "What does she look like? (с like — what)"
             },
             {
               "wrong": "He has dark long hair.",
-              "right": "He has long dark hair."
+              "right": "He has long dark hair. (размер — раньше цвета)"
             },
             {
               "wrong": "She is very sympathetic. (симпатичная)",
-              "right": "She is very pretty. / She is attractive."
+              "right": "She is very pretty. / She is attractive. (sympathetic — сочувствующий)"
             }
           ]
         }

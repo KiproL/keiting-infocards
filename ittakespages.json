@@ -5,16 +5,21 @@
     {
       "label": "It takes: сколько нужно времени",
       "intro": {
-        "text": "It takes … to — сколько времени нужно на дело. Подлежащее — It, а кому нужно, ставят сразу после takes.",
+        "text": "It takes … to — сколько времени нужно на дело: It takes 20 minutes to get there. Подлежащее — всегда It, а кому нужно (me, us), ставят сразу после takes.",
         "highlights": [
           {
             "text": "It takes … to",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "сколько времени нужно",
             "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "всегда It",
+            "color": "term",
             "style": "bold"
           },
           {
@@ -59,7 +64,87 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["It takes", "(кому)", "сколько", "to + глагол"], "decoys": ["for", "V-ing"], "examples": [{"en": "It takes me an hour to get to work.", "ru": "Мне нужен час, чтобы добраться до работы.", "parts": [["It takes", "It takes"], ["me", "(кому)"], ["an hour", "сколько"], ["to get to work.", "to + глагол"]]}, {"en": "It took us two days to paint the room.", "ru": "У нас ушло два дня на покраску комнаты.", "parts": [["It took", "It takes"], ["us", "(кому)"], ["two days", "сколько"], ["to paint the room.", "to + глагол"]]}, {"en": "It takes her ten minutes to get ready.", "ru": "Ей нужно десять минут, чтобы собраться.", "parts": [["It takes", "It takes"], ["her", "(кому)"], ["ten minutes", "сколько"], ["to get ready.", "to + глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "It takes",
+                "(кому)",
+                "сколько",
+                "to + глагол"
+              ],
+              "decoys": [
+                "for",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "It takes me an hour to get to work.",
+                  "ru": "Мне нужен час, чтобы добраться до работы.",
+                  "parts": [
+                    [
+                      "It takes",
+                      "It takes"
+                    ],
+                    [
+                      "me",
+                      "(кому)"
+                    ],
+                    [
+                      "an hour",
+                      "сколько"
+                    ],
+                    [
+                      "to get to work.",
+                      "to + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "It took us two days to paint the room.",
+                  "ru": "У нас ушло два дня на покраску комнаты.",
+                  "parts": [
+                    [
+                      "It took",
+                      "It takes"
+                    ],
+                    [
+                      "us",
+                      "(кому)"
+                    ],
+                    [
+                      "two days",
+                      "сколько"
+                    ],
+                    [
+                      "to paint the room.",
+                      "to + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "It takes her ten minutes to get ready.",
+                  "ru": "Ей нужно десять минут, чтобы собраться.",
+                  "parts": [
+                    [
+                      "It takes",
+                      "It takes"
+                    ],
+                    [
+                      "her",
+                      "(кому)"
+                    ],
+                    [
+                      "ten minutes",
+                      "сколько"
+                    ],
+                    [
+                      "to get ready.",
+                      "to + глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -97,10 +182,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It takes ten minutes to walk to the station.", "ru": "До станции десять минут пешком."}, {"en": "It took me a year to learn to swim.", "ru": "Я год учился плавать."}, {"en": "It will take them two days to paint the house.", "ru": "Им понадобится два дня, чтобы покрасить дом."}, {"en": "It usually takes her an hour to get ready.", "ru": "Ей обычно нужен час, чтобы собраться."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It takes ten minutes to walk to the station.",
+                "ru": "До станции десять минут пешком."
+              },
+              {
+                "en": "It took me a year to learn to swim.",
+                "ru": "Я год учился плавать."
+              },
+              {
+                "en": "It will take them two days to paint the house.",
+                "ru": "Им понадобится два дня, чтобы покрасить дом."
+              },
+              {
+                "en": "It usually takes her an hour to get ready.",
+                "ru": "Ей обычно нужен час, чтобы собраться."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "How long",
+      "label": "How long does it take? И spend",
       "intro": {
         "text": "Вопрос строится через How long does it take. Ответ — тем же It takes. А spend говорит о том же, но подлежащим становится человек.",
         "highlights": [
@@ -146,10 +260,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "How long does it take to fly to Paris?", "ru": "Сколько лететь до Парижа?"}, {"en": "It takes about three hours.", "ru": "Около трёх часов."}, {"en": "How long did it take you to fix it?", "ru": "Сколько времени у тебя ушло на ремонт?"}, {"en": "I spent two hours doing my homework.", "ru": "Я два часа делал домашнее задание. (через spend)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "How long does it take to fly to Paris?",
+                "ru": "Сколько лететь до Парижа?"
+              },
+              {
+                "en": "It takes about three hours.",
+                "ru": "Около трёх часов."
+              },
+              {
+                "en": "How long did it take you to fix it?",
+                "ru": "Сколько времени у тебя ушло на ремонт?"
+              },
+              {
+                "en": "I spent two hours doing my homework.",
+                "ru": "Я два часа делал домашнее задание. (через spend)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: It takes … to",
+      "label": "Частые ошибки: I take 20 minutes",
       "intro": {
         "text": "Самые частые ошибки с it takes.",
         "highlights": [
@@ -167,19 +310,19 @@
           "errors": [
             {
               "wrong": "I take 20 minutes to get to work.",
-              "right": "It takes me 20 minutes to get to work."
+              "right": "It takes me 20 minutes to get to work. (подлежащее — it)"
             },
             {
               "wrong": "It takes me 20 minutes for get there.",
-              "right": "It takes me 20 minutes to get there."
+              "right": "It takes me 20 minutes to get there. (to, не for)"
             },
             {
               "wrong": "How long it takes?",
-              "right": "How long does it take?"
+              "right": "How long does it take? (нужен does)"
             },
             {
               "wrong": "It took to me an hour.",
-              "right": "It took me an hour."
+              "right": "It took me an hour. (me — без to)"
             }
           ]
         }

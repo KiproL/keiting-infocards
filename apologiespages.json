@@ -3,7 +3,7 @@
   "route": "cards_apologies",
   "slides": [
     {
-      "label": "Извиниться",
+      "label": "Извиниться: Sorry или Excuse me",
       "intro": {
         "text": "Excuse me говорят ДО: чтобы привлечь внимание или пройти. Sorry — ПОСЛЕ: задел, опоздал, ошибся. Чем серьёзнее повод, тем длиннее извинение.",
         "highlights": [
@@ -112,13 +112,47 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Excuse me или Sorry: когда что",
+          "preview": "до и после",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "Excuse me, can I get past?",
+                "ru": "Простите, можно пройти? (ДО — прошу внимания)"
+              },
+              {
+                "en": "Oh, sorry! Did I hurt you?",
+                "ru": "Ой, простите! Я вас задел? (ПОСЛЕ — уже случилось)"
+              },
+              {
+                "en": "Sorry I'm late.",
+                "ru": "Извини, что опоздал."
+              },
+              {
+                "en": "Sorry? Could you repeat that?",
+                "ru": "Простите? Повторите? (не расслышал)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Отказать",
+      "label": "Отказать вежливо",
       "intro": {
-        "text": "Сухое No звучит резко. Вежливый отказ строится из трёх частей: благодарность, причина, другой вариант.",
+        "text": "Сухое No звучит резко. Вежливый отказ строится из трёх частей: благодарность, причина, другой вариант. Например: Thanks, but I'm busy. Maybe next week?",
         "highlights": [
+          {
+            "text": "Сухое No",
+            "color": "bad",
+            "style": "bold"
+          },
           {
             "text": "благодарность, причина, другой вариант",
             "color": "term",
@@ -177,7 +211,7 @@
       ]
     },
     {
-      "label": "Пожаловаться",
+      "label": "Пожаловаться спокойно",
       "intro": {
         "text": "Жалоба работает, когда она спокойная и конкретная: что не так и что ты хочешь. Начинают мягко — I'm afraid there's a problem.",
         "highlights": [
@@ -241,10 +275,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Excuse me, I think there's a mistake in the bill.",
+                "ru": "Простите, кажется, в счёте ошибка."
+              },
+              {
+                "en": "The Wi-Fi in my room doesn't work.",
+                "ru": "В номере не работает Wi-Fi."
+              },
+              {
+                "en": "I ordered it a week ago, and it still hasn't arrived.",
+                "ru": "Я заказал неделю назад, а оно всё не пришло."
+              },
+              {
+                "en": "Could I speak to the manager, please?",
+                "ru": "Можно поговорить с менеджером?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: извинения, отказы, жалобы",
+      "label": "Чего не говорить: Sorry me, I am apologize",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -262,19 +325,19 @@
           "errors": [
             {
               "wrong": "Sorry me.",
-              "right": "Sorry. / Excuse me."
+              "right": "Sorry. / Excuse me. (sorry — без me)"
             },
             {
               "wrong": "I am apologize.",
-              "right": "I apologize."
+              "right": "I apologize. (apologize — глагол, без am)"
             },
             {
               "wrong": "Excuse me! (наступив на ногу)",
-              "right": "Sorry!"
+              "right": "Sorry! (после случившегося — sorry)"
             },
             {
               "wrong": "No. (на приглашение)",
-              "right": "Thanks, but I can't make it."
+              "right": "Thanks, but I can't make it. (отказ — с благодарностью)"
             }
           ]
         }

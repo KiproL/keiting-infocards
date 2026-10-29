@@ -3,7 +3,7 @@
   "route": "cards_hotel",
   "slides": [
     {
-      "label": "Заселение",
+      "label": "Заселение: check in, room, double и twin",
       "intro": {
         "text": "Номер в отеле — room, а не number. Double — одна большая кровать, twin — две отдельные, single — одноместный.",
         "highlights": [
@@ -77,10 +77,64 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Какие бывают номера",
+          "preview": "single, double, twin, suite",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Номер",
+                "Что это"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "single room",
+                    "одноместный"
+                  ]
+                },
+                {
+                  "cells": [
+                    "double room",
+                    "одна большая кровать на двоих"
+                  ]
+                },
+                {
+                  "cells": [
+                    "twin room",
+                    "две отдельные кровати"
+                  ]
+                },
+                {
+                  "cells": [
+                    "suite",
+                    "люкс"
+                  ]
+                },
+                {
+                  "cells": [
+                    "sea view / city view",
+                    "с видом на море / на город"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Просьбы",
+      "label": "Просьбы на ресепшен: Could I have…",
       "intro": {
         "text": "Просьбы на ресепшен — через Could I have… и Could you…: так вежливо и коротко.",
         "highlights": [
@@ -150,10 +204,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Could you clean my room, please?",
+                "ru": "Можно убрать номер?"
+              },
+              {
+                "en": "There's no hot water in my room.",
+                "ru": "В номере нет горячей воды."
+              },
+              {
+                "en": "Could I change rooms? It's too noisy.",
+                "ru": "Можно другой номер? Здесь шумно."
+              },
+              {
+                "en": "What time is breakfast served?",
+                "ru": "Во сколько завтрак?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: В отеле",
+      "label": "Чего не говорить: number, two persons",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -171,23 +254,23 @@
           "errors": [
             {
               "wrong": "I booked a number.",
-              "right": "I booked a room."
+              "right": "I booked a room. (номер в отеле — room)"
             },
             {
               "wrong": "A room for two persons",
-              "right": "A double room / a twin room"
+              "right": "A double room / a twin room (так называют номера)"
             },
             {
               "wrong": "Is breakfast free?",
-              "right": "Is breakfast included?"
+              "right": "Is breakfast included? (включён — included)"
             },
             {
               "wrong": "The towel is absent.",
-              "right": "There's no towel."
+              "right": "There's no towel. (absent — о людях, книжно)"
             },
             {
               "wrong": "Wake me at seven.",
-              "right": "Could I have a wake-up call at seven?"
+              "right": "Could I have a wake-up call at seven? (вежливо)"
             }
           ]
         }

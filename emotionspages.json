@@ -3,7 +3,7 @@
   "route": "cards_emotions",
   "slides": [
     {
-      "label": "Чувства",
+      "label": "Чувства: I'm happy, I feel tired",
       "intro": {
         "text": "Чувства описывают через be: I'm tired, she's worried. Глагол «чувствую» — feel: I feel happy.",
         "highlights": [
@@ -103,10 +103,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I feel a bit lonely here.",
+                "ru": "Мне здесь немного одиноко."
+              },
+              {
+                "en": "She's upset about the news.",
+                "ru": "Она расстроена из-за новостей."
+              },
+              {
+                "en": "I was so embarrassed!",
+                "ru": "Мне было так неловко!"
+              },
+              {
+                "en": "Are you nervous about the interview?",
+                "ru": "Волнуешься перед собеседованием?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "С предлогами",
+      "label": "Чувство + предлог: afraid of, proud of",
       "intro": {
         "text": "У каждого чувства свой предлог — по-русски он часто другой.",
         "highlights": [
@@ -183,10 +212,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'm afraid of spiders.", "ru": "Я боюсь пауков."}, {"en": "Mum is angry with me about the broken window.", "ru": "Мама злится на меня из-за разбитого окна."}, {"en": "We're so proud of you!", "ru": "Мы так тобой гордимся!"}, {"en": "I'm bored with this game.", "ru": "Мне надоела эта игра."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm afraid of spiders.",
+                "ru": "Я боюсь пауков."
+              },
+              {
+                "en": "Mum is angry with me about the broken window.",
+                "ru": "Мама злится на меня из-за разбитого окна."
+              },
+              {
+                "en": "We're so proud of you!",
+                "ru": "Мы так тобой гордимся!"
+              },
+              {
+                "en": "I'm bored with this game.",
+                "ru": "Мне надоела эта игра."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "-ed и -ing",
+      "label": "-ed и -ing: excited или exciting",
       "intro": {
         "text": "-ed — что чувствуешь, -ing — что вызывает чувство: I'm bored — мне скучно, the film is boring — фильм скучный. Подробно — в карточке «-ed и -ing».",
         "highlights": [
@@ -225,10 +283,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I was surprised by the news. The news was surprising.", "ru": "Новость меня удивила. Новость была удивительной."}, {"en": "The film was frightening. The kids were frightened.", "ru": "Фильм был страшный. Дети испугались."}, {"en": "She was disappointed with the result.", "ru": "Она была разочарована результатом."}, {"en": "It was a really tiring day.", "ru": "Это был очень утомительный день."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I was surprised by the news. The news was surprising.",
+                "ru": "Новость меня удивила. Новость была удивительной."
+              },
+              {
+                "en": "The film was frightening. The kids were frightened.",
+                "ru": "Фильм был страшный. Дети испугались."
+              },
+              {
+                "en": "She was disappointed with the result.",
+                "ru": "Она была разочарована результатом."
+              },
+              {
+                "en": "It was a really tiring day.",
+                "ru": "Это был очень утомительный день."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Примеры: эмоции и чувства",
+      "label": "Чувства в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -281,7 +368,7 @@
       ]
     },
     {
-      "label": "Диалог: эмоции и чувства",
+      "label": "Диалог: не сдал на права",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -326,7 +413,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Эмоции и чувства",
+      "label": "Частые ошибки: I'm boring, afraid from",
       "intro": {
         "text": "Самые частые ошибки в словах о чувствах.",
         "highlights": [
@@ -344,23 +431,23 @@
           "errors": [
             {
               "wrong": "I'm boring. (мне скучно)",
-              "right": "I'm bored."
+              "right": "I'm bored. (чувствую — -ed)"
             },
             {
               "wrong": "I'm exciting!",
-              "right": "I'm excited!"
+              "right": "I'm excited! (чувствую — -ed)"
             },
             {
               "wrong": "I'm afraid from dogs.",
-              "right": "I'm afraid of dogs."
+              "right": "I'm afraid of dogs. (бояться — afraid of)"
             },
             {
               "wrong": "I'm angry on you.",
-              "right": "I'm angry with you."
+              "right": "I'm angry with you. (злиться на кого — with)"
             },
             {
               "wrong": "She is nervous. (раздражена)",
-              "right": "She is annoyed."
+              "right": "She is annoyed. (nervous — волнуется)"
             }
           ]
         }

@@ -3,18 +3,23 @@
   "route": "cards_congratulations",
   "slides": [
     {
-      "label": "Поздравить",
+      "label": "Поздравить: Happy… и Congratulations on…",
       "intro": {
-        "text": "С событием поздравляют через Congratulations on…, с праздником — Happy… или Merry Christmas.",
+        "text": "С праздником поздравляют через Happy… (Happy birthday!) или Merry Christmas. С событием или успехом — Congratulations on… (on, не with!).",
         "highlights": [
+          {
+            "text": "Happy…",
+            "color": "info",
+            "style": "bold"
+          },
           {
             "text": "Congratulations on…",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "Happy…",
-            "color": "info",
+            "text": "on, не with",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -73,10 +78,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Congratulations on your wedding!", "ru": "Поздравляю со свадьбой!"}, {"en": "Happy birthday! Have a great day!", "ru": "С днём рождения! Отличного дня!"}, {"en": "Well done on passing your driving test!", "ru": "Молодец, что сдал на права!"}, {"en": "Good luck with your new job!", "ru": "Удачи на новой работе!"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Congratulations on your wedding!",
+                "ru": "Поздравляю со свадьбой!"
+              },
+              {
+                "en": "Happy birthday! Have a great day!",
+                "ru": "С днём рождения! Отличного дня!"
+              },
+              {
+                "en": "Well done on passing your driving test!",
+                "ru": "Молодец, что сдал на права!"
+              },
+              {
+                "en": "Good luck with your new job!",
+                "ru": "Удачи на новой работе!"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Поблагодарить",
+      "label": "Поблагодарить и ответить на спасибо",
       "intro": {
         "text": "На спасибо отвечают коротко: You're welcome, No problem или Any time.",
         "highlights": [
@@ -135,10 +169,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Thanks a lot for the lift!",
+                "ru": "Спасибо, что подвёз!"
+              },
+              {
+                "en": "Thank you for everything.",
+                "ru": "Спасибо за всё."
+              },
+              {
+                "en": "Thanks! — No worries.",
+                "ru": "Спасибо! — Не за что. (разговорно)"
+              },
+              {
+                "en": "I really appreciate your help.",
+                "ru": "Я очень ценю твою помощь."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Комплименты",
+      "label": "Комплименты: сказать и принять",
       "intro": {
         "text": "Комплименты в английском говорят часто и легко. Отвечают просто Thank you — спорить и преуменьшать не нужно.",
         "highlights": [
@@ -205,7 +268,7 @@
       ]
     },
     {
-      "label": "Посочувствовать",
+      "label": "Посочувствовать: I'm sorry to hear that",
       "intro": {
         "text": "Сочувствие начинается с I'm sorry — здесь это не извинение, а «мне жаль».",
         "highlights": [
@@ -275,10 +338,35 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "3 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I failed my exam. — Oh, I'm sorry to hear that.",
+                "ru": "Я завалил экзамен. — Ой, жаль."
+              },
+              {
+                "en": "I've got the flu. — Get well soon!",
+                "ru": "У меня грипп. — Выздоравливай!"
+              },
+              {
+                "en": "I lost my wallet. — Oh no! That's awful.",
+                "ru": "Я потерял кошелёк. — О нет! Ужас."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: поздравления и сочувствие",
+      "label": "Чего не говорить: Congratulations with",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -296,23 +384,23 @@
           "errors": [
             {
               "wrong": "Congratulations with your birthday!",
-              "right": "Happy birthday!"
+              "right": "Happy birthday! (с праздником — Happy)"
             },
             {
               "wrong": "Congratulations with your new job!",
-              "right": "Congratulations on your new job!"
+              "right": "Congratulations on your new job! (on, не with)"
             },
             {
               "wrong": "I congratulate you! (в разговоре)",
-              "right": "Congratulations!"
+              "right": "Congratulations! (так говорят в жизни)"
             },
             {
               "wrong": "Thank you! — Please.",
-              "right": "Thank you! — You're welcome."
+              "right": "Thank you! — You're welcome. (please — только просьба)"
             },
             {
               "wrong": "You look great! — No, I look terrible.",
-              "right": "You look great! — Thank you!"
+              "right": "You look great! — Thank you! (комплимент принимают)"
             }
           ]
         }

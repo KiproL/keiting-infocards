@@ -3,7 +3,7 @@
   "route": "cards_addressing",
   "slides": [
     {
-      "label": "Mr, Mrs, Ms",
+      "label": "Mr, Mrs, Ms: только с фамилией",
       "intro": {
         "text": "Mr, Mrs и Ms ставят только перед фамилией: Mr Smith, а не Mr John. Если не знаешь, замужем ли женщина, — Ms.",
         "highlights": [
@@ -74,10 +74,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Good morning, Mr Smith.", "ru": "Доброе утро, мистер Смит. (Mr — перед фамилией)"}, {"en": "Ms Taylor will see you now.", "ru": "Мисс Тейлор сейчас вас примет. (Ms — если не знаешь, замужем ли)"}, {"en": "Dr Lee is on the phone.", "ru": "Доктор Ли на линии."}, {"en": "Thank you, Mrs Brown.", "ru": "Спасибо, миссис Браун."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Good morning, Mr Smith.",
+                "ru": "Доброе утро, мистер Смит. (Mr — перед фамилией)"
+              },
+              {
+                "en": "Ms Taylor will see you now.",
+                "ru": "Мисс Тейлор сейчас вас примет. (Ms — если не знаешь, замужем ли)"
+              },
+              {
+                "en": "Dr Lee is on the phone.",
+                "ru": "Доктор Ли на линии."
+              },
+              {
+                "en": "Thank you, Mrs Brown.",
+                "ru": "Спасибо, миссис Браун."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Без фамилии",
+      "label": "Если имени не знаешь: sir, madam, Excuse me",
       "intro": {
         "text": "Если имени не знаешь, обращаются через Excuse me… или sir и madam. В английском по имени зовут даже начальника — если так принято в компании.",
         "highlights": [
@@ -141,10 +170,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Excuse me, is this seat free?", "ru": "Простите, это место свободно?"}, {"en": "Can I help you, sir?", "ru": "Чем могу помочь, сэр?"}, {"en": "Hi guys, are you ready?", "ru": "Привет, ребята, готовы? (guys — и девушкам тоже)"}, {"en": "Thanks, mate!", "ru": "Спасибо, друг! (разговорно, британское)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Excuse me, is this seat free?",
+                "ru": "Простите, это место свободно?"
+              },
+              {
+                "en": "Can I help you, sir?",
+                "ru": "Чем могу помочь, сэр?"
+              },
+              {
+                "en": "Hi guys, are you ready?",
+                "ru": "Привет, ребята, готовы? (guys — и девушкам тоже)"
+              },
+              {
+                "en": "Thanks, mate!",
+                "ru": "Спасибо, друг! (разговорно, британское)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Имя и фамилия",
+      "label": "Имя, фамилия, middle name",
       "intro": {
         "text": "Отчества в английском нет. В анкетах его можно не писать или вписать в поле middle name.",
         "highlights": [
@@ -214,10 +272,98 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My first name is Ivan and my surname is Petrov.", "ru": "Меня зовут Иван, фамилия — Петров."}, {"en": "Please write your full name in capital letters.", "ru": "Пожалуйста, напишите полное имя печатными буквами."}, {"en": "Her maiden name was Smith.", "ru": "Её девичья фамилия — Смит."}, {"en": "At school his nickname was Bear.", "ru": "В школе его прозвище было Медведь."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My first name is Ivan and my surname is Petrov.",
+                "ru": "Меня зовут Иван, фамилия — Петров."
+              },
+              {
+                "en": "Please write your full name in capital letters.",
+                "ru": "Пожалуйста, напишите полное имя печатными буквами."
+              },
+              {
+                "en": "Her maiden name was Smith.",
+                "ru": "Её девичья фамилия — Смит."
+              },
+              {
+                "en": "At school his nickname was Bear.",
+                "ru": "В школе его прозвище было Медведь."
+              }
+            ]
+          }
+        },
+        {
+          "label": "Как заполнить анкету",
+          "preview": "first name, surname, title",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Поле в анкете",
+                "Что писать",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Title",
+                    "Mr / Ms / Dr",
+                    "Mr"
+                  ]
+                },
+                {
+                  "cells": [
+                    "First name",
+                    "имя",
+                    "Ivan"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Middle name",
+                    "отчество — по желанию",
+                    "Sergeyevich"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Surname / Last name",
+                    "фамилия",
+                    "Petrov"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Date of birth",
+                    "день / месяц / год",
+                    "05/03/1995"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Обращения и имена",
+      "label": "Частые ошибки: Mister Ivan, Girl!",
       "intro": {
         "text": "Самые частые ошибки в обращениях.",
         "highlights": [
@@ -235,23 +381,23 @@
           "errors": [
             {
               "wrong": "Mister Ivan!",
-              "right": "Ivan! / Mr Petrov"
+              "right": "Ivan! / Mr Petrov (Mr — только с фамилией)"
             },
             {
               "wrong": "Dear Mr Ivan,",
-              "right": "Dear Mr Petrov,"
+              "right": "Dear Mr Petrov, (в письме — фамилия)"
             },
             {
               "wrong": "Mrs (незнакомой женщине)",
-              "right": "Ms или madam"
+              "right": "Ms или madam (Mrs — только замужней)"
             },
             {
               "wrong": "Girl! (официантке)",
-              "right": "Excuse me!"
+              "right": "Excuse me! (так зовут любого)"
             },
             {
               "wrong": "Teacher! (учителю)",
-              "right": "Mr Smith / Ms Smith"
+              "right": "Mr Smith / Ms Smith (учителя зовут по фамилии)"
             }
           ]
         }

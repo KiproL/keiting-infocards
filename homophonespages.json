@@ -3,7 +3,7 @@
   "route": "cards_homophones",
   "slides": [
     {
-      "label": "Звучат одинаково, пишутся по-разному",
+      "label": "Звучат одинаково: write и right, see и sea",
       "intro": {
         "text": "Омофоны — слова, которые звучат одинаково, а пишутся по-разному: write и right, see и sea. На слух их различает только смысл.",
         "highlights": [
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "label": "Ловушки в письме",
+      "label": "Ловушки в письме: there, their, they're",
       "intro": {
         "text": "Чаще всего — даже у носителей — путают короткие слова: there, their, they're; your и you're; to, too и two.",
         "highlights": [
@@ -185,10 +185,29 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Как проверить себя",
+          "preview": "подставь полную форму",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "steps": {
+              "items": [
+                "Есть апостроф? Раскрой: they're → they are, you're → you are, who's → who is",
+                "Если полная форма подходит — пиши с апострофом",
+                "Не подходит — значит, «чей»: their, your, whose",
+                "Too — «тоже / слишком», two — цифра, to — всё остальное"
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Как не спутать",
+      "label": "Как не спутать: слушай смысл",
       "intro": {
         "text": "В живой речи омофоны почти не мешают — помогает контекст. Учить их нужно, чтобы не ошибаться в письме и при записи на слух.",
         "highlights": [
@@ -227,10 +246,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I can see the sea from my window.", "ru": "Из окна мне видно море."}, {"en": "Their house is over there.", "ru": "Их дом вон там."}, {"en": "Can you write the right answer?", "ru": "Можешь написать правильный ответ?"}, {"en": "I want to buy two tickets too.", "ru": "Я тоже хочу купить два билета."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I can see the sea from my window.",
+                "ru": "Из окна мне видно море."
+              },
+              {
+                "en": "Their house is over there.",
+                "ru": "Их дом вон там."
+              },
+              {
+                "en": "Can you write the right answer?",
+                "ru": "Можешь написать правильный ответ?"
+              },
+              {
+                "en": "I want to buy two tickets too.",
+                "ru": "Я тоже хочу купить два билета."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Омофоны",
+      "label": "Частые ошибки: Your welcome, Their is",
       "intro": {
         "text": "Самые частые ошибки с омофонами.",
         "highlights": [
@@ -248,27 +296,27 @@
           "errors": [
             {
               "wrong": "I no the answer.",
-              "right": "I know the answer."
+              "right": "I know the answer. (знать — know)"
             },
             {
               "wrong": "Their is a problem.",
-              "right": "There is a problem."
+              "right": "There is a problem. (есть — there)"
             },
             {
               "wrong": "Your welcome!",
-              "right": "You're welcome!"
+              "right": "You're welcome! (= you are)"
             },
             {
               "wrong": "See you next weak.",
-              "right": "See you next week."
+              "right": "See you next week. (неделя — week)"
             },
             {
               "wrong": "I want to come to.",
-              "right": "I want to come too."
+              "right": "I want to come too. (тоже — too)"
             },
             {
               "wrong": "Who's car is this?",
-              "right": "Whose car is this?"
+              "right": "Whose car is this? (чей — whose)"
             }
           ]
         }

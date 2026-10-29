@@ -3,7 +3,7 @@
   "route": "cards_messaging",
   "slides": [
     {
-      "label": "Стиль",
+      "label": "Стиль: коротко и без точки",
       "intro": {
         "text": "В мессенджере пишут коротко: часто без подлежащего (Got it, On my way) и без точки в конце. Одинокое Ok. с точкой может звучать холодно.",
         "highlights": [
@@ -90,10 +90,76 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Сокращения в переписке",
+          "preview": "thx, btw, asap",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Пишут",
+                "Значит",
+                "Перевод"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "thx / ty",
+                    "thanks / thank you",
+                    "спасибо"
+                  ]
+                },
+                {
+                  "cells": [
+                    "btw",
+                    "by the way",
+                    "кстати"
+                  ]
+                },
+                {
+                  "cells": [
+                    "asap",
+                    "as soon as possible",
+                    "как можно скорее"
+                  ]
+                },
+                {
+                  "cells": [
+                    "np",
+                    "no problem",
+                    "без проблем"
+                  ]
+                },
+                {
+                  "cells": [
+                    "omw",
+                    "on my way",
+                    "уже еду"
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "info",
+              "title": "Где можно",
+              "text": "Только с друзьями. В рабочем чате лучше писать слова полностью."
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Договориться",
+      "label": "Договориться о встрече",
       "intro": {
         "text": "Чтобы договориться о встрече, хватает нескольких фраз.",
         "highlights": [
@@ -138,7 +204,7 @@
       ]
     },
     {
-      "label": "Рабочий чат",
+      "label": "Рабочий чат: коротко, но вежливо",
       "intro": {
         "text": "С коллегами — тоже коротко, но без сленга. Please, thanks и could you спасают от лишних обид.",
         "highlights": [
@@ -188,7 +254,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Сообщения в мессенджерах",
+      "label": "Частые ошибки: I write you, Wait me",
       "intro": {
         "text": "Самые частые ошибки в переписке.",
         "highlights": [
@@ -206,19 +272,19 @@
           "errors": [
             {
               "wrong": "I write you later.",
-              "right": "I'll text you later."
+              "right": "I'll text you later. (обещание — will; написать в чат — text)"
             },
             {
               "wrong": "Wait me, I'm coming!",
-              "right": "Wait for me, I'm coming!"
+              "right": "Wait for me, I'm coming! (wait for)"
             },
             {
               "wrong": "Call me when you will be free.",
-              "right": "Call me when you're free."
+              "right": "Call me when you're free. (после when — без will)"
             },
             {
               "wrong": "Ok. (на длинное сообщение друга)",
-              "right": "Ok, sounds good! / Got it, thanks!"
+              "right": "Ok, sounds good! / Got it, thanks! (сухое Ok. звучит холодно)"
             },
             {
               "wrong": "Hello! / How are you? / I have a question… (три сообщения)",

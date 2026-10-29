@@ -3,13 +3,25 @@
   "route": "cards_beaboutto",
   "slides": [
     {
-      "label": "be about to: вот-вот",
+      "label": "be about to: «вот-вот»",
       "intro": {
-        "text": "Be about to — действие настолько близко, что произойдёт в течение нескольких секунд. На русский переводится как «вот-вот», «собираюсь прямо сейчас».",
+        "text": "Be about to — действие случится вот-вот, через несколько секунд или минут: The film is about to start. По-русски — «вот-вот», «как раз собираюсь».",
         "highlights": [
-          { "text": "be about to", "color": "term",    "style": "bold_underline" },
-          { "text": "вот-вот",      "color": "bad",     "style": "bold" },
-          { "text": "прямо сейчас", "color": "example", "style": "bold" }
+          {
+            "text": "Be about to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "вот-вот",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "как раз собираюсь",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,23 +30,128 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "be about to", "color": "info" },
-              { "text": "+",           "color": "muted" },
-              { "text": "глагол",      "color": "example" }
+              {
+                "text": "be about to",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["be about to", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "The train is about to leave.", "ru": "Поезд вот-вот отправится.", "parts": [["The train", ""], ["is about to", "be about to"], ["leave.", "глагол"]]}, {"en": "I was about to call you.", "ru": "Я как раз собирался тебе позвонить.", "parts": [["I", ""], ["was about to", "be about to"], ["call", "глагол"], ["you.", ""]]}, {"en": "The film is about to start.", "ru": "Фильм вот-вот начнётся.", "parts": [["The film", ""], ["is about to", "be about to"], ["start.", "глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "be about to",
+                "глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "The train is about to leave.",
+                  "ru": "Поезд вот-вот отправится.",
+                  "parts": [
+                    [
+                      "The train",
+                      ""
+                    ],
+                    [
+                      "is about to",
+                      "be about to"
+                    ],
+                    [
+                      "leave.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "I was about to call you.",
+                  "ru": "Я как раз собирался тебе позвонить.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "was about to",
+                      "be about to"
+                    ],
+                    [
+                      "call",
+                      "глагол"
+                    ],
+                    [
+                      "you.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "The film is about to start.",
+                  "ru": "Фильм вот-вот начнётся.",
+                  "parts": [
+                    [
+                      "The film",
+                      ""
+                    ],
+                    [
+                      "is about to",
+                      "be about to"
+                    ],
+                    [
+                      "start.",
+                      "глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Форма be по лицам",
           "borderColor": "info",
           "table": {
-            "headers": ["Лицо", "Be", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Лицо",
+              "Be",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["I",              "am", "I am about to leave."] },
-              { "cells": ["He / She / It",  "is", "She is about to cry."] },
-              { "cells": ["You / We / They","are","We are about to start."] }
+              {
+                "cells": [
+                  "I",
+                  "am",
+                  "I am about to leave."
+                ]
+              },
+              {
+                "cells": [
+                  "He / She / It",
+                  "is",
+                  "She is about to cry."
+                ]
+              },
+              {
+                "cells": [
+                  "You / We / They",
+                  "are",
+                  "We are about to start."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -43,11 +160,31 @@
           "title": "Be about to vs be going to",
           "borderColor": "term",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["be about to", "вот-вот, прямо сейчас", "I am about to leave."] },
-              { "cells": ["be going to", "план на будущее",         "I am going to leave tomorrow."] }
+              {
+                "cells": [
+                  "be about to",
+                  "вот-вот, прямо сейчас",
+                  "I am about to leave."
+                ]
+              },
+              {
+                "cells": [
+                  "be going to",
+                  "план на будущее",
+                  "I am going to leave tomorrow."
+                ]
+              }
             ],
             "borderColor": "term"
           }
@@ -56,21 +193,66 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I am about to call her.",       "ru": "Я вот-вот ей позвоню." },
-            { "en": "The film is about to start.",    "ru": "Фильм вот-вот начнётся." },
-            { "en": "She is about to cry.",           "ru": "Она вот-вот заплачет." },
-            { "en": "We are about to leave.",         "ru": "Мы вот-вот уйдём." }
+            {
+              "en": "I am about to call her.",
+              "ru": "Я вот-вот ей позвоню."
+            },
+            {
+              "en": "The film is about to start.",
+              "ru": "Фильм вот-вот начнётся."
+            },
+            {
+              "en": "She is about to cry.",
+              "ru": "Она вот-вот заплачет."
+            },
+            {
+              "en": "We are about to leave.",
+              "ru": "Мы вот-вот уйдём."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "В прошлом: was about to",
+          "preview": "собирался, но…",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "I was about to call you!",
+                "ru": "Я как раз собирался тебе позвонить!"
+              },
+              {
+                "en": "We were about to leave when it started raining.",
+                "ru": "Мы уже собирались уходить, когда пошёл дождь."
+              },
+              {
+                "en": "She was about to say something, but stopped.",
+                "ru": "Она хотела что-то сказать, но остановилась."
+              }
+            ],
+            "callout": {
+              "type": "tip",
+              "title": "Частая ситуация",
+              "text": "Was about to + when — «уже собирался, и тут…». Так рассказывают о том, что помешало."
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Be about to",
+      "label": "Частые ошибки: about leave, about to leaving",
       "intro": {
         "text": "Три самые частые ошибки в be about to.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -78,9 +260,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I am about leave.",       "right": "I am about to leave." },
-            { "wrong": "I am about to leaving.",   "right": "I am about to leave." },
-            { "wrong": "I about to go.",            "right": "I am about to go." }
+            {
+              "wrong": "I am about leave.",
+              "right": "I am about to leave. (нужен to)"
+            },
+            {
+              "wrong": "I am about to leaving.",
+              "right": "I am about to leave. (после to — без -ing)"
+            },
+            {
+              "wrong": "I about to go.",
+              "right": "I am about to go. (без am нельзя)"
+            }
           ]
         },
         {

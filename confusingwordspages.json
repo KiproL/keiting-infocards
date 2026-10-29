@@ -3,7 +3,7 @@
   "route": "cards_confusingwords",
   "slides": [
     {
-      "label": "Say, tell, speak, talk",
+      "label": "Say, tell, speak, talk: четыре «говорить»",
       "intro": {
         "text": "Все четыре — «говорить», но с разной грамматикой: say что-то, tell кому-то, speak — язык или официально, talk — беседовать.",
         "highlights": [
@@ -86,10 +86,39 @@
             "text": "tell a story, tell a lie, tell the truth, tell a joke, tell the time."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "What did she say?",
+                "ru": "Что она сказала? (say — что)"
+              },
+              {
+                "en": "Can you tell me the way?",
+                "ru": "Подскажете дорогу? (tell — кому)"
+              },
+              {
+                "en": "I speak three languages.",
+                "ru": "Я говорю на трёх языках. (speak — язык)"
+              },
+              {
+                "en": "We need to talk.",
+                "ru": "Нам надо поговорить. (talk — беседа)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Borrow и lend",
+      "label": "Borrow и lend: взять или дать",
       "intro": {
         "text": "Borrow — взять на время у кого-то, lend — дать на время кому-то. По-русски оба «одолжить».",
         "highlights": [
@@ -133,7 +162,82 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "term", "drill": {"slots": ["borrow", "что", "from someone"], "decoys": ["lend", "to someone"], "examples": [{"en": "Can I borrow your pen?", "ru": "Можно взять твою ручку?", "parts": [["Can I", ""], ["borrow", "borrow"], ["your pen?", "что"]]}, {"en": "I borrowed some money from my brother.", "ru": "Я занял немного денег у брата.", "parts": [["I", ""], ["borrowed", "borrow"], ["some money", "что"], ["from my brother.", "from someone"]]}, {"en": "She borrowed a book from the library.", "ru": "Она взяла книгу в библиотеке.", "parts": [["She", ""], ["borrowed", "borrow"], ["a book", "что"], ["from the library.", "from someone"]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "borrow",
+                  "что",
+                  "from someone"
+                ],
+                "decoys": [
+                  "lend",
+                  "to someone"
+                ],
+                "examples": [
+                  {
+                    "en": "Can I borrow your pen?",
+                    "ru": "Можно взять твою ручку?",
+                    "parts": [
+                      [
+                        "Can I",
+                        ""
+                      ],
+                      [
+                        "borrow",
+                        "borrow"
+                      ],
+                      [
+                        "your pen?",
+                        "что"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "I borrowed some money from my brother.",
+                    "ru": "Я занял немного денег у брата.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "borrowed",
+                        "borrow"
+                      ],
+                      [
+                        "some money",
+                        "что"
+                      ],
+                      [
+                        "from my brother.",
+                        "from someone"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She borrowed a book from the library.",
+                    "ru": "Она взяла книгу в библиотеке.",
+                    "parts": [
+                      [
+                        "She",
+                        ""
+                      ],
+                      [
+                        "borrowed",
+                        "borrow"
+                      ],
+                      [
+                        "a book",
+                        "что"
+                      ],
+                      [
+                        "from the library.",
+                        "from someone"
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
@@ -158,7 +262,86 @@
                   "color": "muted"
                 }
               ],
-              "accentColor": "info", "drill": {"slots": ["lend", "someone", "что"], "decoys": ["borrow", "from"], "examples": [{"en": "Can you lend me your pen?", "ru": "Можешь одолжить мне ручку?", "parts": [["Can you", ""], ["lend", "lend"], ["me", "someone"], ["your pen?", "что"]]}, {"en": "I lent my brother some money.", "ru": "Я одолжил брату немного денег.", "parts": [["I", ""], ["lent", "lend"], ["my brother", "someone"], ["some money.", "что"]]}, {"en": "She lent him her car.", "ru": "Она одолжила ему свою машину.", "parts": [["She", ""], ["lent", "lend"], ["him", "someone"], ["her car.", "что"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "lend",
+                  "someone",
+                  "что"
+                ],
+                "decoys": [
+                  "borrow",
+                  "from"
+                ],
+                "examples": [
+                  {
+                    "en": "Can you lend me your pen?",
+                    "ru": "Можешь одолжить мне ручку?",
+                    "parts": [
+                      [
+                        "Can you",
+                        ""
+                      ],
+                      [
+                        "lend",
+                        "lend"
+                      ],
+                      [
+                        "me",
+                        "someone"
+                      ],
+                      [
+                        "your pen?",
+                        "что"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "I lent my brother some money.",
+                    "ru": "Я одолжил брату немного денег.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "lent",
+                        "lend"
+                      ],
+                      [
+                        "my brother",
+                        "someone"
+                      ],
+                      [
+                        "some money.",
+                        "что"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She lent him her car.",
+                    "ru": "Она одолжила ему свою машину.",
+                    "parts": [
+                      [
+                        "She",
+                        ""
+                      ],
+                      [
+                        "lent",
+                        "lend"
+                      ],
+                      [
+                        "him",
+                        "someone"
+                      ],
+                      [
+                        "her car.",
+                        "что"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -180,10 +363,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Could you lend me twenty pounds?", "ru": "Не одолжишь мне двадцать фунтов? (lend — дать)"}, {"en": "Can I borrow your umbrella?", "ru": "Можно взять твой зонт? (borrow — взять)"}, {"en": "She lent her car to a friend.", "ru": "Она одолжила машину другу."}, {"en": "I borrowed this book from the library.", "ru": "Я взял эту книгу в библиотеке."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Could you lend me twenty pounds?",
+                "ru": "Не одолжишь мне двадцать фунтов? (lend — дать)"
+              },
+              {
+                "en": "Can I borrow your umbrella?",
+                "ru": "Можно взять твой зонт? (borrow — взять)"
+              },
+              {
+                "en": "She lent her car to a friend.",
+                "ru": "Она одолжила машину другу."
+              },
+              {
+                "en": "I borrowed this book from the library.",
+                "ru": "Я взял эту книгу в библиотеке."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Steal и rob",
+      "label": "Steal и rob: вещь или человека",
       "intro": {
         "text": "Steal — украсть вещь, rob — ограбить человека или место.",
         "highlights": [
@@ -222,10 +434,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Someone stole my wallet on the bus.", "ru": "Кто-то украл мой кошелёк в автобусе. (steal — вещь)"}, {"en": "Two men robbed a shop last night.", "ru": "Вчера вечером двое ограбили магазин. (rob — место)"}, {"en": "Her bag was stolen from the car.", "ru": "У неё украли сумку из машины."}, {"en": "He was robbed in the park.", "ru": "Его ограбили в парке. (rob — человека)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Someone stole my wallet on the bus.",
+                "ru": "Кто-то украл мой кошелёк в автобусе. (steal — вещь)"
+              },
+              {
+                "en": "Two men robbed a shop last night.",
+                "ru": "Вчера вечером двое ограбили магазин. (rob — место)"
+              },
+              {
+                "en": "Her bag was stolen from the car.",
+                "ru": "У неё украли сумку из машины."
+              },
+              {
+                "en": "He was robbed in the park.",
+                "ru": "Его ограбили в парке. (rob — человека)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Ещё пары",
+      "label": "Ещё пары: win и beat, lose и miss",
       "intro": {
         "text": "Ещё несколько пар, которые русскоговорящие путают постоянно.",
         "highlights": [
@@ -305,10 +546,47 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Примеры к каждой паре",
+          "preview": "по одному на пару",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "We beat them and won the cup.",
+                "ru": "Мы их обыграли и выиграли кубок. (beat кого, win что)"
+              },
+              {
+                "en": "Hurry, or we'll miss the train!",
+                "ru": "Быстрее, а то опоздаем на поезд! (miss — опоздать)"
+              },
+              {
+                "en": "Remind me to buy milk.",
+                "ru": "Напомни мне купить молоко. (remind — напомнить)"
+              },
+              {
+                "en": "Bring your friend to the party!",
+                "ru": "Приводи друга на вечеринку! (bring — сюда)"
+              },
+              {
+                "en": "The trip was fun, and the guide was funny.",
+                "ru": "Поездка была классной, а гид — смешным."
+              },
+              {
+                "en": "I've got a new job, but too much work.",
+                "ru": "У меня новая работа, но слишком много дел."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Слова-путаницы",
+      "label": "Частые ошибки: said me, borrow me, stole the bank",
       "intro": {
         "text": "Самые частые ошибки в этих парах.",
         "highlights": [
@@ -326,27 +604,27 @@
           "errors": [
             {
               "wrong": "He said me the truth.",
-              "right": "He told me the truth."
+              "right": "He told me the truth. (кому — tell)"
             },
             {
               "wrong": "Can you borrow me your car?",
-              "right": "Can you lend me your car?"
+              "right": "Can you lend me your car? (дать — lend)"
             },
             {
               "wrong": "They stole the bank.",
-              "right": "They robbed the bank."
+              "right": "They robbed the bank. (место — rob)"
             },
             {
               "wrong": "Remember me to call her.",
-              "right": "Remind me to call her."
+              "right": "Remind me to call her. (напомнить — remind)"
             },
             {
               "wrong": "We won them 3–0.",
-              "right": "We beat them 3–0."
+              "right": "We beat them 3–0. (победить кого — beat)"
             },
             {
               "wrong": "I lost the bus.",
-              "right": "I missed the bus."
+              "right": "I missed the bus. (опоздать — miss)"
             }
           ]
         }

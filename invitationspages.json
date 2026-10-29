@@ -3,7 +3,7 @@
   "route": "cards_invitations",
   "slides": [
     {
-      "label": "Пригласить",
+      "label": "Пригласить: Would you like to…?",
       "intro": {
         "text": "Приглашают вопросом: Would you like to…? — вежливо, Do you want to…? и How about…? — по-дружески.",
         "highlights": [
@@ -73,10 +73,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Would you like to join us for lunch?",
+                "ru": "Не хочешь пообедать с нами?"
+              },
+              {
+                "en": "Are you free tomorrow night?",
+                "ru": "Ты свободен завтра вечером?"
+              },
+              {
+                "en": "How about a walk in the park?",
+                "ru": "Как насчёт прогулки в парке?"
+              },
+              {
+                "en": "Do you want to come round on Friday?",
+                "ru": "Хочешь зайти в пятницу?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Согласиться",
+      "label": "Согласиться: I'd love to!",
       "intro": {
         "text": "Соглашаясь, показывают радость и уточняют детали.",
         "highlights": [
@@ -135,10 +164,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Would you like to come to dinner on Saturday? — I'd love to!", "ru": "Придёшь на ужин в субботу? — С удовольствием!"}, {"en": "Let's go to the cinema. — Sounds great! What time?", "ru": "Пойдём в кино. — Отлично! Во сколько?"}, {"en": "Sure, why not? Can I bring anything?", "ru": "Конечно, почему бы и нет? Что-нибудь принести?"}, {"en": "Thanks for inviting me — see you there!", "ru": "Спасибо за приглашение — увидимся!"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Would you like to come to dinner on Saturday? — I'd love to!",
+                "ru": "Придёшь на ужин в субботу? — С удовольствием!"
+              },
+              {
+                "en": "Let's go to the cinema. — Sounds great! What time?",
+                "ru": "Пойдём в кино. — Отлично! Во сколько?"
+              },
+              {
+                "en": "Sure, why not? Can I bring anything?",
+                "ru": "Конечно, почему бы и нет? Что-нибудь принести?"
+              },
+              {
+                "en": "Thanks for inviting me — see you there!",
+                "ru": "Спасибо за приглашение — увидимся!"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Отказаться",
+      "label": "Отказаться мягко",
       "intro": {
         "text": "Отказ смягчают: благодарят, извиняются, называют причину и предлагают другое время.",
         "highlights": [
@@ -204,10 +262,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Thanks for asking, but I'm afraid I can't make it.", "ru": "Спасибо, что позвал, но, боюсь, не смогу."}, {"en": "I'd love to, but I'm working that evening.", "ru": "С радостью бы, но я в тот вечер работаю."}, {"en": "Sorry, I've already got plans. How about next week?", "ru": "Извини, у меня уже планы. Может, на следующей неделе?"}, {"en": "Can I take a rain check on that?", "ru": "Давай в другой раз?"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Thanks for asking, but I'm afraid I can't make it.",
+                "ru": "Спасибо, что позвал, но, боюсь, не смогу."
+              },
+              {
+                "en": "I'd love to, but I'm working that evening.",
+                "ru": "С радостью бы, но я в тот вечер работаю."
+              },
+              {
+                "en": "Sorry, I've already got plans. How about next week?",
+                "ru": "Извини, у меня уже планы. Может, на следующей неделе?"
+              },
+              {
+                "en": "Can I take a rain check on that?",
+                "ru": "Давай в другой раз?"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Чего не говорить: приглашения",
+      "label": "Чего не говорить: I want, I invite you",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -225,23 +312,23 @@
           "errors": [
             {
               "wrong": "Do you want to go to the cinema? — I want.",
-              "right": "— Yes, I'd love to!"
+              "right": "— Yes, I'd love to! (I want в ответ — грубо)"
             },
             {
               "wrong": "I invite you to my birthday. (в разговоре)",
-              "right": "Would you like to come to my birthday party?"
+              "right": "Would you like to come to my birthday party? (так приглашают)"
             },
             {
               "wrong": "No, I can't. (без объяснений)",
-              "right": "Sorry, I can't — I'm working. Maybe next time?"
+              "right": "Sorry, I can't — I'm working. Maybe next time? (смягчаем причиной)"
             },
             {
               "wrong": "How about go to the park?",
-              "right": "How about going to the park?"
+              "right": "How about going to the park? (после how about — -ing)"
             },
             {
               "wrong": "Let's to meet.",
-              "right": "Let's meet."
+              "right": "Let's meet. (после let's — без to)"
             }
           ]
         }

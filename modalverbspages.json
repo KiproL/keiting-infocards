@@ -3,12 +3,25 @@
   "route": "cards_modalverbs",
   "slides": [
     {
-      "label": "Модальные: могу, надо, можно",
+      "label": "Модальные глаголы: могу, надо, можно",
       "intro": {
-        "text": "Модальные глаголы показывают не действие, а отношение к нему: умение, разрешение, обязанность, совет, вероятность.",
+        "text": "Модальные глаголы (can, must, should…) показывают не само действие, а отношение к нему: умею, можно, надо, советую, наверное. После них глагол — без to и без -s.",
         "highlights": [
-          { "text": "не действие",      "color": "term",    "style": "bold_underline" },
-          { "text": "отношение к нему", "color": "term",    "style": "bold" }
+          {
+            "text": "Модальные глаголы",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "отношение к нему",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "без to и без -s",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -17,13 +30,107 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "Subject", "color": "info" },
-              { "text": "+",     "color": "muted" },
-              { "text": "Modal",   "color": "term" },
-              { "text": "+",     "color": "muted" },
-              { "text": "V",       "color": "example" }
+              {
+                "text": "Subject",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "Modal",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["Subject", "Modal", "V"], "decoys": ["to", "V-ing"], "examples": [{"en": "You must wear a helmet.", "ru": "Ты должен надеть шлем.", "parts": [["You", "Subject"], ["must", "Modal"], ["wear", "V"], ["a helmet.", ""]]}, {"en": "She can swim very well.", "ru": "Она очень хорошо плавает.", "parts": [["She", "Subject"], ["can", "Modal"], ["swim", "V"], ["very well.", ""]]}, {"en": "We should leave now.", "ru": "Нам стоит уйти сейчас.", "parts": [["We", "Subject"], ["should", "Modal"], ["leave", "V"], ["now.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "Subject",
+                "Modal",
+                "V"
+              ],
+              "decoys": [
+                "to",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "You must wear a helmet.",
+                  "ru": "Ты должен надеть шлем.",
+                  "parts": [
+                    [
+                      "You",
+                      "Subject"
+                    ],
+                    [
+                      "must",
+                      "Modal"
+                    ],
+                    [
+                      "wear",
+                      "V"
+                    ],
+                    [
+                      "a helmet.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She can swim very well.",
+                  "ru": "Она очень хорошо плавает.",
+                  "parts": [
+                    [
+                      "She",
+                      "Subject"
+                    ],
+                    [
+                      "can",
+                      "Modal"
+                    ],
+                    [
+                      "swim",
+                      "V"
+                    ],
+                    [
+                      "very well.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We should leave now.",
+                  "ru": "Нам стоит уйти сейчас.",
+                  "parts": [
+                    [
+                      "We",
+                      "Subject"
+                    ],
+                    [
+                      "should",
+                      "Modal"
+                    ],
+                    [
+                      "leave",
+                      "V"
+                    ],
+                    [
+                      "now.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "callout": {
             "type": "warning",
@@ -36,31 +143,91 @@
           "borderColor": "info",
           "verbGrid": {
             "accentColor": "info",
-            "verbs": ["can", "could", "may", "might", "must", "shall", "should", "will", "would"]
+            "verbs": [
+              "can",
+              "could",
+              "may",
+              "might",
+              "must",
+              "shall",
+              "should",
+              "will",
+              "would"
+            ]
           }
         },
         {
           "title": "5 железных правил",
           "borderColor": "term",
           "bullets": [
-            { "text": "После модального — инфинитив БЕЗ to",                              "color": "bad" },
-            { "text": "В 3-м лице НЕТ окончания -s",                                       "color": "bad" },
-            { "text": "Вопрос — инверсией, БЕЗ do/does",                                   "color": "bad" },
-            { "text": "Отрицание — просто not",                                            "color": "bad" },
-            { "text": "У модальных нет инфинитива — есть заменители (be able to, have to)", "color": "bad" }
+            {
+              "text": "После модального — инфинитив БЕЗ to",
+              "color": "bad"
+            },
+            {
+              "text": "В 3-м лице НЕТ окончания -s",
+              "color": "bad"
+            },
+            {
+              "text": "Вопрос — инверсией, БЕЗ do/does",
+              "color": "bad"
+            },
+            {
+              "text": "Отрицание — просто not",
+              "color": "bad"
+            },
+            {
+              "text": "У модальных нет инфинитива — есть заменители (be able to, have to)",
+              "color": "bad"
+            }
           ]
         },
         {
           "title": "Проверим на can",
           "borderColor": "good",
           "examples": [
-            { "en": "I can swim.",         "ru": "✓ правильно",            "icon": "check", "iconColor": "good" },
-            { "en": "I can to swim.",      "ru": "✗ лишнее to",             "icon": "cross", "iconColor": "bad"  },
-            { "en": "She can swim.",       "ru": "✓ в 3-м лице без -s",     "icon": "check", "iconColor": "good" },
-            { "en": "She cans swim.",      "ru": "✗ нельзя -s",             "icon": "cross", "iconColor": "bad"  },
-            { "en": "Can you swim?",       "ru": "✓ инверсия",              "icon": "check", "iconColor": "good" },
-            { "en": "Do you can swim?",    "ru": "✗ без do/does",           "icon": "cross", "iconColor": "bad"  },
-            { "en": "I can't swim.",       "ru": "✓ отрицание через not",   "icon": "check", "iconColor": "good" }
+            {
+              "en": "I can swim.",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "I can to swim.",
+              "ru": "✗ лишнее to",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "She can swim.",
+              "ru": "✓ в 3-м лице без -s",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "She cans swim.",
+              "ru": "✗ нельзя -s",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "Can you swim?",
+              "ru": "✓ инверсия",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "Do you can swim?",
+              "ru": "✗ без do/does",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "I can't swim.",
+              "ru": "✓ отрицание через not",
+              "icon": "check",
+              "iconColor": "good"
+            }
           ]
         },
         {
@@ -72,21 +239,40 @@
             "text": "ought to и have to — исключения: после них идёт to. Это не чистые модальные, а их заменители."
           },
           "transforms": [
-            { "from": "can",  "to": "be able to (умеет в разных временах)", "toColor": "info" },
-            { "from": "must", "to": "have to (внешняя обязанность)",         "toColor": "info" }
+            {
+              "from": "can",
+              "to": "be able to (умеет в разных временах)",
+              "toColor": "info"
+            },
+            {
+              "from": "must",
+              "to": "have to (внешняя обязанность)",
+              "toColor": "info"
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Can / Could",
+      "label": "Can и could: умею, мог, можно",
       "intro": {
         "text": "Умение, возможность, просьба. Главное различие между can и could — в прошлом.",
         "highlights": [
-          { "text": "can",              "color": "term",    "style": "bold" },
-          { "text": "could",            "color": "info",    "style": "bold" },
-          { "text": "различие",         "color": "accent2", "style": "bold_underline" }
+          {
+            "text": "can",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "could",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "различие",
+            "color": "accent2",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -94,15 +280,35 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Глагол", "Что значит", "Пример"],
+            "headers": [
+              "Глагол",
+              "Что значит",
+              "Пример"
+            ],
             "rows": [
               {
-                "cells": ["can", "умение сейчас · разрешение · просьба", "I can swim. Can I come in?"],
-                "colors": ["term", "text", "example"]
+                "cells": [
+                  "can",
+                  "умение сейчас · разрешение · просьба",
+                  "I can swim. Can I come in?"
+                ],
+                "colors": [
+                  "term",
+                  "text",
+                  "example"
+                ]
               },
               {
-                "cells": ["could", "умение в прошлом · вежливая просьба", "I could run fast. Could you help me?"],
-                "colors": ["info", "text", "example"]
+                "cells": [
+                  "could",
+                  "умение в прошлом · вежливая просьба",
+                  "I could run fast. Could you help me?"
+                ],
+                "colors": [
+                  "info",
+                  "text",
+                  "example"
+                ]
               }
             ],
             "borderColor": "info"
@@ -112,8 +318,16 @@
           "title": "Отрицание",
           "borderColor": "bad",
           "rules": [
-            { "name": "can't / cannot", "suffix": "не могу (сейчас)",     "example": "I can't come tomorrow." },
-            { "name": "couldn't",       "suffix": "не мог (в прошлом)",   "example": "I couldn't finish the task." }
+            {
+              "name": "can't / cannot",
+              "suffix": "не могу (сейчас)",
+              "example": "I can't come tomorrow."
+            },
+            {
+              "name": "couldn't",
+              "suffix": "не мог (в прошлом)",
+              "example": "I couldn't finish the task."
+            }
           ]
         },
         {
@@ -125,9 +339,24 @@
             "text": "could — общая способность в прошлом. was able to — удалось в конкретный раз."
           },
           "examples": [
-            { "en": "I could play chess when I was 5.", "ru": "✓ общая способность (всегда умел)",       "icon": "check", "iconColor": "good" },
-            { "en": "I was able to win yesterday.",     "ru": "✓ удалось в конкретный раз",              "icon": "check", "iconColor": "good" },
-            { "en": "I could win yesterday.",           "ru": "✗ конкретный раз требует was able to",    "icon": "cross", "iconColor": "bad"  }
+            {
+              "en": "I could play chess when I was 5.",
+              "ru": "✓ общая способность (всегда умел)",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "I was able to win yesterday.",
+              "ru": "✓ удалось в конкретный раз",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "I could win yesterday.",
+              "ru": "✗ конкретный раз требует was able to",
+              "icon": "cross",
+              "iconColor": "bad"
+            }
           ]
         }
       ],
@@ -140,23 +369,43 @@
             "title": "",
             "borderColor": "term",
             "examples": [
-              { "en": "I have been able to swim since childhood.", "ru": "Я умею плавать с детства." },
-              { "en": "You will be able to speak fluently.",        "ru": "Ты сможешь говорить бегло." },
-              { "en": "He hasn't been able to come.",               "ru": "Он не смог прийти." }
+              {
+                "en": "I have been able to swim since childhood.",
+                "ru": "Я умею плавать с детства."
+              },
+              {
+                "en": "You will be able to speak fluently.",
+                "ru": "Ты сможешь говорить бегло."
+              },
+              {
+                "en": "He hasn't been able to come.",
+                "ru": "Он не смог прийти."
+              }
             ]
           }
         }
       ]
     },
-
     {
-      "label": "May / Might",
+      "label": "May и might: «можно» и «может быть»",
       "intro": {
         "text": "May и might — про формальность и степень уверенности.",
         "highlights": [
-          { "text": "may",                  "color": "term",    "style": "bold" },
-          { "text": "might",                "color": "info",    "style": "bold" },
-          { "text": "степень уверенности",  "color": "accent2", "style": "bold_underline" }
+          {
+            "text": "may",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "might",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "степень уверенности",
+            "color": "accent2",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -164,15 +413,35 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Глагол", "Что значит", "Пример"],
+            "headers": [
+              "Глагол",
+              "Что значит",
+              "Пример"
+            ],
             "rows": [
               {
-                "cells": ["may", "формальное разрешение · вероятность ~50%", "May I come in? He may be at home."],
-                "colors": ["term", "text", "example"]
+                "cells": [
+                  "may",
+                  "формальное разрешение · вероятность ~50%",
+                  "May I come in? He may be at home."
+                ],
+                "colors": [
+                  "term",
+                  "text",
+                  "example"
+                ]
               },
               {
-                "cells": ["might", "слабая вероятность ~30%", "She might come later."],
-                "colors": ["info", "text", "example"]
+                "cells": [
+                  "might",
+                  "слабая вероятность ~30%",
+                  "She might come later."
+                ],
+                "colors": [
+                  "info",
+                  "text",
+                  "example"
+                ]
               }
             ],
             "borderColor": "info"
@@ -182,10 +451,26 @@
           "title": "Шкала вероятности",
           "borderColor": "term",
           "transforms": [
-            { "from": "must be",           "to": "почти уверен (95%)",              "toColor": "good" },
-            { "from": "may be",            "to": "вполне возможно (50%)",           "toColor": "info" },
-            { "from": "might / could be",  "to": "возможно, шансов меньше (30%)",   "toColor": "term" },
-            { "from": "can't be",          "to": "невозможно (0%)",                 "toColor": "bad" }
+            {
+              "from": "must be",
+              "to": "почти уверен (95%)",
+              "toColor": "good"
+            },
+            {
+              "from": "may be",
+              "to": "вполне возможно (50%)",
+              "toColor": "info"
+            },
+            {
+              "from": "might / could be",
+              "to": "возможно, шансов меньше (30%)",
+              "toColor": "term"
+            },
+            {
+              "from": "can't be",
+              "to": "невозможно (0%)",
+              "toColor": "bad"
+            }
           ]
         },
         {
@@ -197,21 +482,38 @@
             "text": "may not — формальный запрет, can't — разговорный. Смысл одинаковый."
           },
           "examples": [
-            { "en": "You may not smoke here.", "ru": "Формальный запрет." },
-            { "en": "You can't smoke here.",   "ru": "Разговорный запрет." }
+            {
+              "en": "You may not smoke here.",
+              "ru": "Формальный запрет."
+            },
+            {
+              "en": "You can't smoke here.",
+              "ru": "Разговорный запрет."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Must / Have to",
+      "label": "Must и have to: надо и приходится",
       "intro": {
         "text": "Must и have to — разные обязанности. А mustn't и don't have to — вообще противоположные вещи.",
         "highlights": [
-          { "text": "Must",                   "color": "term", "style": "bold" },
-          { "text": "have to",                "color": "info", "style": "bold" },
-          { "text": "противоположные вещи",   "color": "bad",  "style": "bold_underline" }
+          {
+            "text": "Must",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "have to",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "противоположные вещи",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -219,15 +521,35 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Глагол", "Что значит", "Пример"],
+            "headers": [
+              "Глагол",
+              "Что значит",
+              "Пример"
+            ],
             "rows": [
               {
-                "cells": ["must", "личная обязанность · строгое правило · вывод", "You must wear a seatbelt."],
-                "colors": ["term", "text", "example"]
+                "cells": [
+                  "must",
+                  "личная обязанность · строгое правило · вывод",
+                  "You must wear a seatbelt."
+                ],
+                "colors": [
+                  "term",
+                  "text",
+                  "example"
+                ]
               },
               {
-                "cells": ["have to", "внешняя обязанность (работа, закон)", "I have to work on Saturday."],
-                "colors": ["info", "text", "example"]
+                "cells": [
+                  "have to",
+                  "внешняя обязанность (работа, закон)",
+                  "I have to work on Saturday."
+                ],
+                "colors": [
+                  "info",
+                  "text",
+                  "example"
+                ]
               }
             ],
             "borderColor": "info"
@@ -242,8 +564,18 @@
             "text": "mustn't = запрещено. don't have to = не обязательно. Разница принципиальная!"
           },
           "examples": [
-            { "en": "You mustn't park here.",        "ru": "Нельзя, запрещено.",                 "icon": "cross", "iconColor": "bad"  },
-            { "en": "You don't have to park here.",  "ru": "Не обязательно, можешь не парковаться.","icon": "check", "iconColor": "good" }
+            {
+              "en": "You mustn't park here.",
+              "ru": "Нельзя, запрещено.",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "You don't have to park here.",
+              "ru": "Не обязательно, можешь не парковаться.",
+              "icon": "check",
+              "iconColor": "good"
+            }
           ]
         },
         {
@@ -255,25 +587,54 @@
             "text": "Вместо must в прошлом — had to. А needn't = не нужно."
           },
           "examples": [
-            { "en": "I had to leave early.",           "ru": "✓ правильно (пришлось)", "icon": "check", "iconColor": "good" },
-            { "en": "I must leave early yesterday.",   "ru": "✗ так нельзя",           "icon": "cross", "iconColor": "bad"  }
+            {
+              "en": "I had to leave early.",
+              "ru": "✓ правильно (пришлось)",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "I must leave early yesterday.",
+              "ru": "✗ так нельзя",
+              "icon": "cross",
+              "iconColor": "bad"
+            }
           ],
           "transforms": [
-            { "from": "need to do", "to": "обычная необходимость",                "toColor": "example" },
-            { "from": "needn't",    "to": "не нужно: You needn't wait.",           "toColor": "info" }
+            {
+              "from": "need to do",
+              "to": "обычная необходимость",
+              "toColor": "example"
+            },
+            {
+              "from": "needn't",
+              "to": "не нужно: You needn't wait.",
+              "toColor": "info"
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Should / Had better",
+      "label": "Should и had better: советы",
       "intro": {
         "text": "Should — мягкий совет, had better — настойчиво. Will / would / shall — просьбы и обещания.",
         "highlights": [
-          { "text": "Should",      "color": "term",    "style": "bold" },
-          { "text": "had better",  "color": "accent2", "style": "bold" },
-          { "text": "настойчиво",  "color": "bad",     "style": "bold_underline" }
+          {
+            "text": "Should",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "had better",
+            "color": "accent2",
+            "style": "bold"
+          },
+          {
+            "text": "настойчиво",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -281,19 +642,47 @@
           "title": "Сравнение",
           "borderColor": "term",
           "table": {
-            "headers": ["Глагол", "Что значит", "Пример"],
+            "headers": [
+              "Глагол",
+              "Что значит",
+              "Пример"
+            ],
             "rows": [
               {
-                "cells": ["should", "совет, мнение, ожидание", "You should see a doctor."],
-                "colors": ["example", "text", "example"]
+                "cells": [
+                  "should",
+                  "совет, мнение, ожидание",
+                  "You should see a doctor."
+                ],
+                "colors": [
+                  "example",
+                  "text",
+                  "example"
+                ]
               },
               {
-                "cells": ["ought to", "то же, но формальнее (с to)", "You ought to apologize."],
-                "colors": ["info", "text", "example"]
+                "cells": [
+                  "ought to",
+                  "то же, но формальнее (с to)",
+                  "You ought to apologize."
+                ],
+                "colors": [
+                  "info",
+                  "text",
+                  "example"
+                ]
               },
               {
-                "cells": ["had better", "сильное предупреждение", "You'd better hurry up."],
-                "colors": ["term", "text", "example"]
+                "cells": [
+                  "had better",
+                  "сильное предупреждение",
+                  "You'd better hurry up."
+                ],
+                "colors": [
+                  "term",
+                  "text",
+                  "example"
+                ]
               }
             ],
             "borderColor": "term"
@@ -303,30 +692,68 @@
           "title": "Лесенка мягкости",
           "borderColor": "term",
           "transforms": [
-            { "from": "could / would",   "to": "очень вежливо",       "toColor": "info" },
-            { "from": "should / ought to","to": "мягкий совет",       "toColor": "example" },
-            { "from": "had better",      "to": "настойчиво",           "toColor": "term" },
-            { "from": "must",            "to": "обязательно",          "toColor": "bad" }
+            {
+              "from": "could / would",
+              "to": "очень вежливо",
+              "toColor": "info"
+            },
+            {
+              "from": "should / ought to",
+              "to": "мягкий совет",
+              "toColor": "example"
+            },
+            {
+              "from": "had better",
+              "to": "настойчиво",
+              "toColor": "term"
+            },
+            {
+              "from": "must",
+              "to": "обязательно",
+              "toColor": "bad"
+            }
           ]
         },
         {
           "title": "Will / would / shall",
           "borderColor": "info",
           "bullets": [
-            { "text": "will — спонтанное решение, обещание, просьба",              "color": "example" },
-            { "text": "would — вежливая просьба, привычка в прошлом",              "color": "info" },
-            { "text": "shall — только с I и we (предложение, формальный вопрос)",   "color": "term" }
+            {
+              "text": "will — спонтанное решение, обещание, просьба",
+              "color": "example"
+            },
+            {
+              "text": "would — вежливая просьба, привычка в прошлом",
+              "color": "info"
+            },
+            {
+              "text": "shall — только с I и we (предложение, формальный вопрос)",
+              "color": "term"
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Прошлое",
+      "label": "Модальные о прошлом: must have done",
       "intro": {
-        "text": "Формула модального в прошлом: модальный + have + V3.",
+        "text": "Чтобы сказать о прошлом, после модального ставят have + V3: He must have left — он, должно быть, ушёл. You should have called — надо было позвонить.",
         "highlights": [
-          { "text": "модальный + have + V3", "color": "term", "style": "bold_underline" }
+          {
+            "text": "have + V3",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "must have left",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "should have called",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -334,13 +761,72 @@
           "title": "Пять основных формул",
           "borderColor": "info",
           "table": {
-            "headers": ["Формула", "Что значит", "Пример"],
+            "headers": [
+              "Формула",
+              "Что значит",
+              "Пример"
+            ],
             "rows": [
-              { "cells": ["must have done",    "уверен (95%)",                   "He must have left."],       "colors": ["good",    "text", "example"] },
-              { "cells": ["can't have done",   "невозможно (0%)",                "She can't have forgotten."], "colors": ["bad",     "text", "example"] },
-              { "cells": ["might have done",   "возможно (30%)",                 "They might have missed it."],"colors": ["info",    "text", "example"] },
-              { "cells": ["should have done",  "надо было (но не сделал)",       "You should have called."],  "colors": ["term",    "text", "example"] },
-              { "cells": ["could have done",   "мог, но не сделал",             "I could have helped."],      "colors": ["example", "text", "example"] }
+              {
+                "cells": [
+                  "must have done",
+                  "уверен (95%)",
+                  "He must have left."
+                ],
+                "colors": [
+                  "good",
+                  "text",
+                  "example"
+                ]
+              },
+              {
+                "cells": [
+                  "can't have done",
+                  "невозможно (0%)",
+                  "She can't have forgotten."
+                ],
+                "colors": [
+                  "bad",
+                  "text",
+                  "example"
+                ]
+              },
+              {
+                "cells": [
+                  "might have done",
+                  "возможно (30%)",
+                  "They might have missed it."
+                ],
+                "colors": [
+                  "info",
+                  "text",
+                  "example"
+                ]
+              },
+              {
+                "cells": [
+                  "should have done",
+                  "надо было (но не сделал)",
+                  "You should have called."
+                ],
+                "colors": [
+                  "term",
+                  "text",
+                  "example"
+                ]
+              },
+              {
+                "cells": [
+                  "could have done",
+                  "мог, но не сделал",
+                  "I could have helped."
+                ],
+                "colors": [
+                  "example",
+                  "text",
+                  "example"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -354,19 +840,59 @@
             "text": "needn't have done — сделали зря. didn't need to do — необходимости не было."
           },
           "transforms": [
-            { "from": "needn't have done",  "to": "вы это сделали зря",                       "toColor": "bad"  },
-            { "from": "didn't need to do",  "to": "необходимости не было (и вы не сделали)", "toColor": "info" }
+            {
+              "from": "needn't have done",
+              "to": "вы это сделали зря",
+              "toColor": "bad"
+            },
+            {
+              "from": "didn't need to do",
+              "to": "необходимости не было (и вы не сделали)",
+              "toColor": "info"
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You must have been tired.",
+                "ru": "Ты, наверное, устал. (уверен)"
+              },
+              {
+                "en": "He can't have seen us.",
+                "ru": "Он не мог нас видеть. (невозможно)"
+              },
+              {
+                "en": "I should have listened to you.",
+                "ru": "Надо было тебя послушать. (жалею)"
+              },
+              {
+                "en": "We could have taken a taxi.",
+                "ru": "Мы могли бы взять такси. (но не взяли)"
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Modal Verbs",
+      "label": "Частые ошибки: can swims, must to go",
       "intro": {
         "text": "Семь ошибок, которые делают почти все новички.",
         "highlights": [
-          { "text": "Семь ошибок", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь ошибок",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -374,13 +900,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "He can swims.",                              "right": "He can swim." },
-            { "wrong": "I must to go.",                              "right": "I must go." },
-            { "wrong": "Do you can swim?",                           "right": "Can you swim?" },
-            { "wrong": "I will can help.",                           "right": "I will be able to help." },
-            { "wrong": "You mustn't come. (не обязательно)",         "right": "You don't have to come." },
-            { "wrong": "He mustn't be at home. (вывод)",             "right": "He can't be at home." },
-            { "wrong": "You should to see a doctor.",                "right": "You should see a doctor." }
+            {
+              "wrong": "He can swims.",
+              "right": "He can swim. (после can — без -s)"
+            },
+            {
+              "wrong": "I must to go.",
+              "right": "I must go. (после must — без to)"
+            },
+            {
+              "wrong": "Do you can swim?",
+              "right": "Can you swim? (без do)"
+            },
+            {
+              "wrong": "I will can help.",
+              "right": "I will be able to help. (два модальных нельзя)"
+            },
+            {
+              "wrong": "You mustn't come. (не обязательно)",
+              "right": "You don't have to come. (mustn't — запрет)"
+            },
+            {
+              "wrong": "He mustn't be at home. (вывод)",
+              "right": "He can't be at home. (невозможно — can't)"
+            },
+            {
+              "wrong": "You should to see a doctor.",
+              "right": "You should see a doctor. (после should — без to)"
+            }
           ]
         },
         {

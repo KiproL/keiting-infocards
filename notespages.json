@@ -3,7 +3,7 @@
   "route": "cards_notes",
   "slides": [
     {
-      "label": "Открытка",
+      "label": "Открытка: поздравление и подпись",
       "intro": {
         "text": "В открытке пишут коротко и тепло: поздравление, пожелание, подпись.",
         "highlights": [
@@ -45,10 +45,58 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Как подписать",
+          "preview": "от тёплого к нейтральному",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Подпись",
+                "Кому"
+              ],
+              "headerColors": [
+                "term",
+                "muted"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Lots of love, Anna",
+                    "семья, близкие друзья"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Love, Anna",
+                    "родные и друзья"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Best wishes, Anna",
+                    "коллеги, знакомые"
+                  ]
+                },
+                {
+                  "cells": [
+                    "All the best, Anna",
+                    "нейтрально, кому угодно"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Спасибо",
+      "label": "Записка «спасибо»: три фразы",
       "intro": {
         "text": "Записка с благодарностью — две-три фразы: за что спасибо, что именно понравилось, тёплое завершение.",
         "highlights": [
@@ -82,10 +130,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Thank you for a lovely evening!", "ru": "Спасибо за чудесный вечер!"}, {"en": "The cake was delicious — you must give me the recipe.", "ru": "Торт был восхитительный — обязательно поделись рецептом."}, {"en": "It was so kind of you to help us move.", "ru": "Как мило, что вы помогли нам с переездом."}, {"en": "Thanks again, and see you soon!", "ru": "Ещё раз спасибо, до скорой встречи!"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Thank you for a lovely evening!",
+                "ru": "Спасибо за чудесный вечер!"
+              },
+              {
+                "en": "The cake was delicious — you must give me the recipe.",
+                "ru": "Торт был восхитительный — обязательно поделись рецептом."
+              },
+              {
+                "en": "It was so kind of you to help us move.",
+                "ru": "Как мило, что вы помогли нам с переездом."
+              },
+              {
+                "en": "Thanks again, and see you soon!",
+                "ru": "Ещё раз спасибо, до скорой встречи!"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Короткая записка",
+      "label": "Короткая записка: Back in 10 minutes",
       "intro": {
         "text": "Записка на холодильнике или двери — несколько слов, часто без подлежащего.",
         "highlights": [
@@ -126,7 +203,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Открытки и записки",
+      "label": "Частые ошибки: Congratulations with, With love",
       "intro": {
         "text": "Самые частые ошибки в открытках.",
         "highlights": [
@@ -144,19 +221,19 @@
           "errors": [
             {
               "wrong": "Congratulations with your birthday!",
-              "right": "Happy birthday!"
+              "right": "Happy birthday! (с днём рождения — Happy)"
             },
             {
               "wrong": "I wish you happy birthday.",
-              "right": "Wishing you a happy birthday!"
+              "right": "Wishing you a happy birthday! (в открытке — Wishing you…)"
             },
             {
               "wrong": "With love, Anna",
-              "right": "Love, Anna / Lots of love, Anna"
+              "right": "Love, Anna / Lots of love, Anna (без with)"
             },
             {
               "wrong": "Be healthy!",
-              "right": "Wishing you good health!"
+              "right": "Wishing you good health! (так не желают)"
             }
           ]
         }

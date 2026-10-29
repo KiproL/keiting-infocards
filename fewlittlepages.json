@@ -3,27 +3,27 @@
   "route": "cards_fewlittle",
   "slides": [
     {
-      "label": "few, little, a few, a little",
+      "label": "Few, little, a few, a little",
       "intro": {
-        "text": "Few и little значат «мало», но few — о том, что считают (people, books), а little — о том, что не считают (time, money). Маленький артикль a меняет настроение: a few — «немного, но хватает».",
+        "text": "Few и little значат «мало». Few — о том, что можно посчитать (people, books), little — о том, что нельзя (time, money). Буква a меняет настроение: a few — «немного, но хватает».",
         "highlights": [
           {
             "text": "Few",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "little",
             "color": "info",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
-            "text": "считают",
+            "text": "можно посчитать",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "не считают",
+            "text": "нельзя",
             "color": "info",
             "style": "bold"
           },
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "label": "В разговоре",
+      "label": "В разговоре: not many, not much",
       "intro": {
         "text": "Без a — слова книжные. В разговоре «мало» чаще говорят через not many и not much, а few и little оставляют для устойчивых сочетаний.",
         "highlights": [
@@ -164,10 +164,39 @@
             "text": "Quite a few значит не «совсем мало», а наоборот — «довольно много»."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "There isn't much traffic today.",
+                "ru": "Сегодня мало машин."
+              },
+              {
+                "en": "Quite a few people agreed.",
+                "ru": "Довольно многие согласились."
+              },
+              {
+                "en": "We have very little time left.",
+                "ru": "У нас осталось совсем мало времени."
+              },
+              {
+                "en": "Only a few tickets are left.",
+                "ru": "Осталось всего несколько билетов."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Few / Little",
+      "label": "Частые ошибки: a little friends, few water",
       "intro": {
         "text": "Самые частые ошибки с few и little.",
         "highlights": [
@@ -185,19 +214,19 @@
           "errors": [
             {
               "wrong": "I have a little friends.",
-              "right": "I have a few friends."
+              "right": "I have a few friends. (друзей считают — few)"
             },
             {
               "wrong": "There is few water.",
-              "right": "There is little water."
+              "right": "There is little water. (воду не считают — little)"
             },
             {
               "wrong": "I need a few money.",
-              "right": "I need a little money."
+              "right": "I need a little money. (money — неисчисляемое)"
             },
             {
               "wrong": "Only few people came.",
-              "right": "Only a few people came."
+              "right": "Only a few people came. (после only — с a)"
             }
           ]
         },

@@ -3,7 +3,7 @@
   "route": "cards_body",
   "slides": [
     {
-      "label": "Тело",
+      "label": "Части тела: arm и hand, leg и foot",
       "intro": {
         "text": "Рука и нога — по два слова: arm — вся рука, hand — кисть; leg — нога, foot — ступня. Пальцы рук — fingers, ног — toes.",
         "highlights": [
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "label": "Самочувствие",
+      "label": "Что болит: headache, sore throat, hurts",
       "intro": {
         "text": "Что болит: -ache для головы, зуба, живота, спины; sore — для горла и мышц; hurts — для любой части тела.",
         "highlights": [
@@ -143,16 +143,68 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "-ache, sore или hurt",
+          "preview": "три способа сказать «болит»",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "С чем",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "-ache",
+                    "head, tooth, stomach, back, ear",
+                    "I've got a stomachache."
+                  ]
+                },
+                {
+                  "cells": [
+                    "sore",
+                    "throat, eyes, muscles",
+                    "I've got sore eyes."
+                  ]
+                },
+                {
+                  "cells": [
+                    "hurt(s)",
+                    "любая часть тела",
+                    "My shoulder hurts."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Здоровый образ жизни",
+      "label": "Здоровый образ жизни: keep fit, work out",
       "intro": {
-        "text": "Сочетания о форме, сне и привычках.",
+        "text": "Устойчивые сочетания о форме, сне и привычках — их запоминают целиком: keep fit, give up smoking.",
         "highlights": [
           {
             "text": "о форме",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "целиком",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -223,10 +275,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I work out three times a week.",
+                "ru": "Я тренируюсь три раза в неделю."
+              },
+              {
+                "en": "He gave up smoking last year.",
+                "ru": "Он бросил курить в прошлом году."
+              },
+              {
+                "en": "I've put on weight this winter.",
+                "ru": "За зиму я поправился."
+              },
+              {
+                "en": "Get some rest and you'll get better.",
+                "ru": "Отдохни — и поправишься."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: тело и здоровье",
+      "label": "Здоровье в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -279,7 +360,7 @@
       ]
     },
     {
-      "label": "Диалог: тело и здоровье",
+      "label": "Диалог: болит голова",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -324,7 +405,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Тело и здоровье",
+      "label": "Частые ошибки: My head is ill, Be healthy!",
       "intro": {
         "text": "Самые частые ошибки в словах о здоровье.",
         "highlights": [
@@ -342,23 +423,23 @@
           "errors": [
             {
               "wrong": "My head is ill.",
-              "right": "I've got a headache."
+              "right": "I've got a headache. (болит голова — headache)"
             },
             {
               "wrong": "I have temperature.",
-              "right": "I've got a temperature."
+              "right": "I've got a temperature. (с a)"
             },
             {
               "wrong": "my leg finger",
-              "right": "my toe"
+              "right": "my toe (палец ноги — toe)"
             },
             {
               "wrong": "I broke my hand. (выше кисти)",
-              "right": "I broke my arm."
+              "right": "I broke my arm. (рука до плеча — arm)"
             },
             {
               "wrong": "Be healthy! (когда чихнули)",
-              "right": "Bless you!"
+              "right": "Bless you! (так говорят после чиха)"
             }
           ]
         }

@@ -3,7 +3,7 @@
   "route": "cards_collectivenouns",
   "slides": [
     {
-      "label": "Группы: is или are",
+      "label": "Is или are: police, news, family",
       "intro": {
         "text": "Есть существительные, которые означают группу. Одни всегда во множественном (police, people), другие всегда в единственном (news, advice), третьи — как посмотреть (family, team).",
         "highlights": [
@@ -95,10 +95,39 @@
             "text": "Британец скажет my family are (все члены), американец — my family is (как одно целое). Ошибкой не будет ни то ни другое."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The police are looking for the driver.", "ru": "Полиция ищет водителя. (police — всегда are)"}, {"en": "The news is good.", "ru": "Новости хорошие. (news — всегда is)"}, {"en": "My family is / are coming for dinner.", "ru": "Моя семья придёт на ужин. (можно и is, и are)"}, {"en": "Your information was very useful.", "ru": "Ваша информация была очень полезной."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The police are looking for the driver.",
+                "ru": "Полиция ищет водителя. (police — всегда are)"
+              },
+              {
+                "en": "The news is good.",
+                "ru": "Новости хорошие. (news — всегда is)"
+              },
+              {
+                "en": "My family is / are coming for dinner.",
+                "ru": "Моя семья придёт на ужин. (можно и is, и are)"
+              },
+              {
+                "en": "Your information was very useful.",
+                "ru": "Ваша информация была очень полезной."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Как сказать «одна штука»",
+      "label": "Как сказать «одна штука»: a piece of",
       "intro": {
         "text": "К словам вроде advice нельзя добавить a и -s. Одну штуку называют через a piece of, пару — через a pair of.",
         "highlights": [
@@ -176,17 +205,51 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Let me give you a piece of advice.",
+                "ru": "Дам тебе один совет."
+              },
+              {
+                "en": "We bought a new piece of furniture.",
+                "ru": "Мы купили новый предмет мебели."
+              },
+              {
+                "en": "I need a new pair of glasses.",
+                "ru": "Мне нужны новые очки."
+              },
+              {
+                "en": "A police officer helped me.",
+                "ru": "Мне помог полицейский."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: The police are",
+      "label": "Частые ошибки: police is, advices",
       "intro": {
-        "text": "Самые частые ошибки с такими словами.",
+        "text": "Самые частые ошибки: is с police и people, -s у advice и information.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "is с police и people",
             "color": "bad",
-            "style": "bold_underline"
+            "style": "bold"
+          },
+          {
+            "text": "-s у advice",
+            "color": "bad",
+            "style": "bold"
           }
         ]
       },
@@ -197,27 +260,27 @@
           "errors": [
             {
               "wrong": "The police is coming.",
-              "right": "The police are coming."
+              "right": "The police are coming. (police — всегда are)"
             },
             {
               "wrong": "The news are good.",
-              "right": "The news is good."
+              "right": "The news is good. (news — всегда is)"
             },
             {
               "wrong": "She gave me good advices.",
-              "right": "She gave me some good advice."
+              "right": "She gave me some good advice. (advice — без -s)"
             },
             {
               "wrong": "I need an information.",
-              "right": "I need some information."
+              "right": "I need some information. (без an)"
             },
             {
               "wrong": "I bought a jeans.",
-              "right": "I bought a pair of jeans."
+              "right": "I bought a pair of jeans. (одна вещь — a pair of)"
             },
             {
               "wrong": "People is waiting.",
-              "right": "People are waiting."
+              "right": "People are waiting. (people — мн. число)"
             }
           ]
         }

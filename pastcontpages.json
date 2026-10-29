@@ -5,11 +5,28 @@
     {
       "label": "Past Continuous: делал в тот момент",
       "intro": {
-        "text": "Past Continuous описывает действие, которое было в процессе в определённый момент прошлого. Не «сделал», а «делал в тот момент».",
+        "text": "Past Continuous — действие, которое шло в какой-то момент прошлого: «в 8 вечера я читал». Не «сделал», а «делал в тот момент». Строится из was / were и глагола с -ing.",
         "highlights": [
-          { "text": "Past Continuous", "color": "term",    "style": "bold_underline" },
-          { "text": "в процессе",       "color": "info",    "style": "bold" },
-          { "text": "в тот момент",     "color": "example", "style": "bold" }
+          {
+            "text": "Past Continuous",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "шло в какой-то момент",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "делал в тот момент",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "was / were",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,24 +35,138 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",              "color": "info" },
-              { "text": "+",              "color": "muted" },
-              { "text": "was / were",     "color": "term" },
-              { "text": "+",              "color": "muted" },
-              { "text": "V-ing",          "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "was / were",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "was / were", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I was reading when you called.", "ru": "Я читал, когда ты позвонил.", "parts": [["I", "S"], ["was", "was / were"], ["reading", "V-ing"], ["when you called.", ""]]}, {"en": "They were playing football at five.", "ru": "В пять они играли в футбол.", "parts": [["They", "S"], ["were", "was / were"], ["playing", "V-ing"], ["football at five.", ""]]}, {"en": "She was cooking dinner.", "ru": "Она готовила ужин.", "parts": [["She", "S"], ["was", "was / were"], ["cooking", "V-ing"], ["dinner.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "was / were",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "did"
+              ],
+              "examples": [
+                {
+                  "en": "I was reading when you called.",
+                  "ru": "Я читал, когда ты позвонил.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "was",
+                      "was / were"
+                    ],
+                    [
+                      "reading",
+                      "V-ing"
+                    ],
+                    [
+                      "when you called.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They were playing football at five.",
+                  "ru": "В пять они играли в футбол.",
+                  "parts": [
+                    [
+                      "They",
+                      "S"
+                    ],
+                    [
+                      "were",
+                      "was / were"
+                    ],
+                    [
+                      "playing",
+                      "V-ing"
+                    ],
+                    [
+                      "football at five.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She was cooking dinner.",
+                  "ru": "Она готовила ужин.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "was",
+                      "was / were"
+                    ],
+                    [
+                      "cooking",
+                      "V-ing"
+                    ],
+                    [
+                      "dinner.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Was или Were",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Кому", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Кому",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["was",   "I / he / she / it",   "I was reading at 8 pm."] },
-              { "cells": ["were",  "you / we / they",      "They were playing football."] }
+              {
+                "cells": [
+                  "was",
+                  "I / he / she / it",
+                  "I was reading at 8 pm."
+                ]
+              },
+              {
+                "cells": [
+                  "were",
+                  "you / we / they",
+                  "They were playing football."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -45,17 +176,36 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["while", "when", "at that moment", "at 5 o'clock yesterday", "all day", "from … to"]
+            "verbs": [
+              "while",
+              "when",
+              "at that moment",
+              "at 5 o'clock yesterday",
+              "all day",
+              "from … to"
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I was reading a book at 8 pm.",                    "ru": "Я читал книгу в 8 вечера." },
-            { "en": "They were playing football.",                       "ru": "Они играли в футбол." },
-            { "en": "At that moment, we were having dinner.",             "ru": "В тот момент мы ужинали." },
-            { "en": "It was raining all day.",                             "ru": "Весь день шёл дождь." }
+            {
+              "en": "I was reading a book at 8 pm.",
+              "ru": "Я читал книгу в 8 вечера."
+            },
+            {
+              "en": "They were playing football.",
+              "ru": "Они играли в футбол."
+            },
+            {
+              "en": "At that moment, we were having dinner.",
+              "ru": "В тот момент мы ужинали."
+            },
+            {
+              "en": "It was raining all day.",
+              "ru": "Весь день шёл дождь."
+            }
           ]
         },
         {
@@ -69,14 +219,26 @@
         }
       ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
-        "text": "Was / were не меняется в зависимости от глагола — только от подлежащего. После них всегда V-ing.",
+        "text": "Was или were зависит только от того, кто действует: I was, they were. После них — всегда глагол с -ing.",
         "highlights": [
-          { "text": "was / were",   "color": "term",    "style": "bold_underline" },
-          { "text": "V-ing",         "color": "info",    "style": "bold" }
+          {
+            "text": "Was или were",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "кто действует",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "с -ing",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -85,14 +247,26 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I / He / She / It", "color": "info" },
-              { "text": "+ was + V-ing",     "color": "example" }
+              {
+                "text": "I / He / She / It",
+                "color": "info"
+              },
+              {
+                "text": "+ was + V-ing",
+                "color": "example"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I was reading a book at 8 pm.",  "ru": "Я читал книгу в 8 вечера." },
-            { "en": "He was working all day.",          "ru": "Он работал весь день." }
+            {
+              "en": "I was reading a book at 8 pm.",
+              "ru": "Я читал книгу в 8 вечера."
+            },
+            {
+              "en": "He was working all day.",
+              "ru": "Он работал весь день."
+            }
           ]
         },
         {
@@ -100,17 +274,121 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "was / were", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "not",        "color": "bad" },
-              { "text": "+",          "color": "muted" },
-              { "text": "V-ing",      "color": "example" }
+              {
+                "text": "was / were",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["was / were", "not", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I was not sleeping.", "ru": "Я не спал.", "parts": [["I", ""], ["was", "was / were"], ["not", "not"], ["sleeping.", "V-ing"]]}, {"en": "They were not listening.", "ru": "Они не слушали.", "parts": [["They", ""], ["were", "was / were"], ["not", "not"], ["listening.", "V-ing"]]}, {"en": "She was not wearing a coat.", "ru": "На ней не было пальто.", "parts": [["She", ""], ["was", "was / were"], ["not", "not"], ["wearing", "V-ing"], ["a coat.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "was / were",
+                "not",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "did"
+              ],
+              "examples": [
+                {
+                  "en": "I was not sleeping.",
+                  "ru": "Я не спал.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "was",
+                      "was / were"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "sleeping.",
+                      "V-ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "They were not listening.",
+                  "ru": "Они не слушали.",
+                  "parts": [
+                    [
+                      "They",
+                      ""
+                    ],
+                    [
+                      "were",
+                      "was / were"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "listening.",
+                      "V-ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She was not wearing a coat.",
+                  "ru": "На ней не было пальто.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "was",
+                      "was / were"
+                    ],
+                    [
+                      "not",
+                      "not"
+                    ],
+                    [
+                      "wearing",
+                      "V-ing"
+                    ],
+                    [
+                      "a coat.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "She wasn't cooking dinner.",      "ru": "Она не готовила ужин." },
-            { "en": "They weren't listening.",          "ru": "Они не слушали." }
+            {
+              "en": "She wasn't cooking dinner.",
+              "ru": "Она не готовила ужин."
+            },
+            {
+              "en": "They weren't listening.",
+              "ru": "Они не слушали."
+            }
           ]
         },
         {
@@ -118,42 +396,161 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Was / Were", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "S",          "color": "example" },
-              { "text": "+",          "color": "muted" },
-              { "text": "V-ing?",     "color": "term" }
+              {
+                "text": "Was / Were",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Was / Were", "S", "V-ing?"], "decoys": ["Did", "V3"], "examples": [{"en": "Were you sleeping?", "ru": "Ты спал?", "parts": [["Were", "Was / Were"], ["you", "S"], ["sleeping?", "V-ing?"]]}, {"en": "Was she working yesterday?", "ru": "Она вчера работала?", "parts": [["Was", "Was / Were"], ["she", "S"], ["working", "V-ing?"], ["yesterday?", ""]]}, {"en": "Were they waiting for us?", "ru": "Они нас ждали?", "parts": [["Were", "Was / Were"], ["they", "S"], ["waiting", "V-ing?"], ["for us?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Was / Were",
+                "S",
+                "V-ing?"
+              ],
+              "decoys": [
+                "Did",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "Were you sleeping?",
+                  "ru": "Ты спал?",
+                  "parts": [
+                    [
+                      "Were",
+                      "Was / Were"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "sleeping?",
+                      "V-ing?"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Was she working yesterday?",
+                  "ru": "Она вчера работала?",
+                  "parts": [
+                    [
+                      "Was",
+                      "Was / Were"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "working",
+                      "V-ing?"
+                    ],
+                    [
+                      "yesterday?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Were they waiting for us?",
+                  "ru": "Они нас ждали?",
+                  "parts": [
+                    [
+                      "Were",
+                      "Was / Were"
+                    ],
+                    [
+                      "they",
+                      "S"
+                    ],
+                    [
+                      "waiting",
+                      "V-ing?"
+                    ],
+                    [
+                      "for us?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Were they playing football?",       "ru": "Они играли в футбол?" },
-            { "en": "What were you doing at 9 pm?",       "ru": "Что ты делал в 9 вечера?" }
+            {
+              "en": "Were they playing football?",
+              "ru": "Они играли в футбол?"
+            },
+            {
+              "en": "What were you doing at 9 pm?",
+              "ru": "Что ты делал в 9 вечера?"
+            }
           ]
         },
         {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
-            "headers": ["Полная форма", "Сокращение"],
-            "headerColors": ["info", "example"],
+            "headers": [
+              "Полная форма",
+              "Сокращение"
+            ],
+            "headerColors": [
+              "info",
+              "example"
+            ],
             "rows": [
-              { "cells": ["was not", "wasn't"] },
-              { "cells": ["were not","weren't"] }
+              {
+                "cells": [
+                  "was not",
+                  "wasn't"
+                ]
+              },
+              {
+                "cells": [
+                  "were not",
+                  "weren't"
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
       ]
     },
-
     {
-      "label": "Слова-маркеры",
+      "label": "Подсказки: while, when, at that moment",
       "intro": {
         "text": "Слова-маркеры показывают, что действие было в процессе в конкретный момент или период прошлого.",
         "highlights": [
-          { "text": "Слова-маркеры", "color": "term",    "style": "bold_underline" },
-          { "text": "в процессе",     "color": "info",    "style": "bold" }
+          {
+            "text": "Слова-маркеры",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "в процессе",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -161,15 +558,59 @@
           "title": "Главные маркеры",
           "borderColor": "info",
           "table": {
-            "headers": ["Маркер", "Перевод", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Маркер",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["while",                    "пока / в то время как",  "While I was cooking, she was cleaning."] },
-              { "cells": ["when",                     "когда",                  "I was sleeping when you called."] },
-              { "cells": ["at that moment",            "в тот момент",           "At that moment, we were having dinner."] },
-              { "cells": ["at 5 o'clock yesterday",    "вчера в 5 часов",         "At 5 o'clock yesterday, I was working."] },
-              { "cells": ["all day",                   "весь день",               "It was raining all day."] },
-              { "cells": ["from … to",                 "с … до",                  "I was studying from 6 to 8 pm."] }
+              {
+                "cells": [
+                  "while",
+                  "пока / в то время как",
+                  "While I was cooking, she was cleaning."
+                ]
+              },
+              {
+                "cells": [
+                  "when",
+                  "когда",
+                  "I was sleeping when you called."
+                ]
+              },
+              {
+                "cells": [
+                  "at that moment",
+                  "в тот момент",
+                  "At that moment, we were having dinner."
+                ]
+              },
+              {
+                "cells": [
+                  "at 5 o'clock yesterday",
+                  "вчера в 5 часов",
+                  "At 5 o'clock yesterday, I was working."
+                ]
+              },
+              {
+                "cells": [
+                  "all day",
+                  "весь день",
+                  "It was raining all day."
+                ]
+              },
+              {
+                "cells": [
+                  "from … to",
+                  "с … до",
+                  "I was studying from 6 to 8 pm."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -178,30 +619,57 @@
           "title": "While vs When",
           "borderColor": "term",
           "rules": [
-            { "name": "while", "suffix": "с Past Continuous",  "example": "While I was cooking, she was reading." },
-            { "name": "when",  "suffix": "с Past Simple",       "example": "I was cooking when she called." }
+            {
+              "name": "while",
+              "suffix": "с Past Continuous",
+              "example": "While I was cooking, she was reading."
+            },
+            {
+              "name": "when",
+              "suffix": "с Past Simple",
+              "example": "I was cooking when she called."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "While I was cooking, she was cleaning.",             "ru": "Пока я готовил, она убиралась." },
-            { "en": "I was sleeping when you called.",                     "ru": "Я спал, когда ты позвонил." },
-            { "en": "At that moment, we were having dinner.",              "ru": "В тот момент мы ужинали." },
-            { "en": "It was raining all day.",                              "ru": "Весь день шёл дождь." }
+            {
+              "en": "While I was cooking, she was cleaning.",
+              "ru": "Пока я готовил, она убиралась."
+            },
+            {
+              "en": "I was sleeping when you called.",
+              "ru": "Я спал, когда ты позвонил."
+            },
+            {
+              "en": "At that moment, we were having dinner.",
+              "ru": "В тот момент мы ужинали."
+            },
+            {
+              "en": "It was raining all day.",
+              "ru": "Весь день шёл дождь."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Окончание -ing",
+      "label": "Как добавить -ing",
       "intro": {
         "text": "Окончание -ing добавляется к глаголу независимо от подлежащего. Написание зависит от последних букв глагола.",
         "highlights": [
-          { "text": "-ing",  "color": "term",    "style": "bold_underline" },
-          { "text": "написание", "color": "info", "style": "bold" }
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "написание",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -209,21 +677,57 @@
           "title": "Правила",
           "borderColor": "info",
           "rules": [
-            { "name": "Большинство",            "suffix": "+ ing",              "example": "play → playing, read → reading" },
-            { "name": "Немая -e",                "suffix": "e убирается + ing",   "example": "make → making, write → writing" },
-            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ing",       "example": "run → running, sit → sitting" },
-            { "name": "Глаголы на -ie",           "suffix": "ie → y + ing",         "example": "lie → lying, die → dying" }
+            {
+              "name": "Большинство",
+              "suffix": "+ ing",
+              "example": "play → playing, read → reading"
+            },
+            {
+              "name": "Немая -e",
+              "suffix": "e убирается + ing",
+              "example": "make → making, write → writing"
+            },
+            {
+              "name": "Гласная + согл. в конце",
+              "suffix": "удвоение + ing",
+              "example": "run → running, sit → sitting"
+            },
+            {
+              "name": "Глаголы на -ie",
+              "suffix": "ie → y + ing",
+              "example": "lie → lying, die → dying"
+            }
           ]
         },
         {
           "title": "Исключение",
           "borderColor": "term",
           "table": {
-            "headers": ["Глагол", "V-ing", "Перевод"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Глагол",
+              "V-ing",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["see", "seeing", "видеть"] },
-              { "cells": ["agree", "agreeing", "соглашаться"] }
+              {
+                "cells": [
+                  "see",
+                  "seeing",
+                  "видеть"
+                ]
+              },
+              {
+                "cells": [
+                  "agree",
+                  "agreeing",
+                  "соглашаться"
+                ]
+              }
             ],
             "borderColor": "term"
           },
@@ -237,22 +741,42 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "She was writing an email.",         "ru": "Она писала письмо." },
-            { "en": "They were running in the park.",     "ru": "Они бегали в парке." },
-            { "en": "I was seeing him for the first time.","ru": "Я видел его впервые." }
+            {
+              "en": "She was writing an email.",
+              "ru": "Она писала письмо."
+            },
+            {
+              "en": "They were running in the park.",
+              "ru": "Они бегали в парке."
+            },
+            {
+              "en": "We were sitting in a café.",
+              "ru": "Мы сидели в кафе. (sit → sitting)"
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Past Continuous vs Past Simple",
+      "label": "Делал, когда случилось: Continuous и Simple",
       "intro": {
-        "text": "Часто эти времена используются вместе: одно действие было в процессе (Past Continuous), когда его прервало другое, более короткое (Past Simple).",
+        "text": "Часто оба времени идут вместе: длинное действие шло (Past Continuous), и его прервало короткое (Past Simple): I was cooking when the phone rang.",
         "highlights": [
-          { "text": "Past Continuous", "color": "info",    "style": "bold" },
-          { "text": "Past Simple",      "color": "bad",     "style": "bold" },
-          { "text": "прервало",          "color": "example", "style": "bold_underline" }
+          {
+            "text": "длинное действие шло",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "прервало короткое",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "Past Simple",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -260,11 +784,31 @@
           "title": "Роли в предложении",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Роль", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Роль",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Past Continuous", "длинное, фоновое действие",        "was / were + V-ing"] },
-              { "cells": ["Past Simple",      "короткое, прервавшее действие",   "V2 / V-ed"] }
+              {
+                "cells": [
+                  "Past Continuous",
+                  "длинное, фоновое действие",
+                  "was / were + V-ing"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Simple",
+                  "короткое, прервавшее действие",
+                  "V2 / V-ed"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -273,16 +817,28 @@
           "title": "Примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I was cooking dinner when the phone rang.",   "ru": "Я готовил ужин, когда зазвонил телефон." },
-            { "en": "While she was reading, I was watching TV.",   "ru": "Пока она читала, я смотрел телевизор." }
+            {
+              "en": "I was cooking dinner when the phone rang.",
+              "ru": "Я готовил ужин, когда зазвонил телефон."
+            },
+            {
+              "en": "While she was reading, I was watching TV.",
+              "ru": "Пока она читала, я смотрел телевизор."
+            }
           ]
         },
         {
           "title": "Два параллельных действия",
           "borderColor": "term",
           "examples": [
-            { "en": "While I was working, he was sleeping.",  "ru": "Пока я работал, он спал. (оба Continuous)" },
-            { "en": "I was working when he called.",           "ru": "Я работал, когда он позвонил. (Continuous + Simple)" }
+            {
+              "en": "While I was working, he was sleeping.",
+              "ru": "Пока я работал, он спал. (оба Continuous)"
+            },
+            {
+              "en": "I was working when he called.",
+              "ru": "Я работал, когда он позвонил. (Continuous + Simple)"
+            }
           ]
         },
         {
@@ -296,13 +852,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Past Continuous",
+      "label": "Частые ошибки: was read, they was",
       "intro": {
         "text": "Семь самых частых ошибок в Past Continuous.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -310,13 +869,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I was read a book.",               "right": "I was reading a book." },
-            { "wrong": "They was playing football.",       "right": "They were playing football." },
-            { "wrong": "He were working all day.",          "right": "He was working all day." },
-            { "wrong": "I was work yesterday.",              "right": "I was working yesterday." },
-            { "wrong": "While I cooked, she read.",          "right": "While I was cooking, she was reading." },
-            { "wrong": "I was sleeping when he was calling. (неверно)", "right": "I was sleeping when he called." },
-            { "wrong": "She was not cooking dinner. (норма)", "right": "She wasn't cooking dinner." }
+            {
+              "wrong": "I was read a book.",
+              "right": "I was reading a book. (нужен -ing)"
+            },
+            {
+              "wrong": "They was playing football.",
+              "right": "They were playing football. (they → were)"
+            },
+            {
+              "wrong": "He were working all day.",
+              "right": "He was working all day. (he → was)"
+            },
+            {
+              "wrong": "I was work yesterday.",
+              "right": "I was working yesterday. (нужен -ing)"
+            },
+            {
+              "wrong": "While I cooked, she read.",
+              "right": "While I was cooking, she was reading. (два процесса — Continuous)"
+            },
+            {
+              "wrong": "I was sleeping when he was calling.",
+              "right": "I was sleeping when he called. (короткое действие — Past Simple)"
+            },
+            {
+              "wrong": "Did you sleeping?",
+              "right": "Were you sleeping? (вопрос — were, без did)"
+            }
           ]
         },
         {

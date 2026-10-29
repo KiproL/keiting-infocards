@@ -3,7 +3,7 @@
   "route": "cards_falsefriends",
   "slides": [
     {
-      "label": "Похожи на русские, но значат другое",
+      "label": "Похожи на русские: magazine, family, fabric",
       "intro": {
         "text": "Ложные друзья переводчика — английские слова, похожие на русские, но со своим смыслом. Magazine — журнал, а магазин — shop.",
         "highlights": [
@@ -88,10 +88,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I bought a magazine at the shop.", "ru": "Я купил журнал в магазине."}, {"en": "What is your family name?", "ru": "Как ваша фамилия?"}, {"en": "The data shows a clear trend.", "ru": "Данные показывают явную тенденцию."}, {"en": "The dress is made of soft fabric.", "ru": "Платье из мягкой ткани."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I bought a magazine at the shop.",
+                "ru": "Я купил журнал в магазине."
+              },
+              {
+                "en": "What is your family name?",
+                "ru": "Как ваша фамилия?"
+              },
+              {
+                "en": "The data shows a clear trend.",
+                "ru": "Данные показывают явную тенденцию."
+              },
+              {
+                "en": "The dress is made of soft fabric.",
+                "ru": "Платье из мягкой ткани."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Люди и оценки",
+      "label": "О людях: sympathetic, accurate, artist",
       "intro": {
         "text": "Особенно коварны слова о людях: скажешь sympathetic, желая похвалить внешность, — а это значит «сочувствующий».",
         "highlights": [
@@ -183,10 +212,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She is very sympathetic — she always listens.", "ru": "Она очень отзывчивая — всегда выслушает. (не «симпатичная»)"}, {"en": "He is an attractive young man.", "ru": "Он симпатичный молодой человек."}, {"en": "His room is always tidy.", "ru": "В его комнате всегда аккуратно. (не accurate)"}, {"en": "The information is accurate.", "ru": "Информация точная."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She is very sympathetic — she always listens.",
+                "ru": "Она очень отзывчивая — всегда выслушает. (не «симпатичная»)"
+              },
+              {
+                "en": "He is an attractive young man.",
+                "ru": "Он симпатичный молодой человек."
+              },
+              {
+                "en": "His room is always tidy.",
+                "ru": "В его комнате всегда аккуратно. (не accurate)"
+              },
+              {
+                "en": "The information is accurate.",
+                "ru": "Информация точная."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Продвинутый уровень",
+      "label": "Продвинутые: eventually, sensible, realise",
       "intro": {
         "text": "На высоком уровне коварнее всего «умные» слова: comprehensive — не «компрехенсивный», а «всесторонний», eventually — не «эвентуально», а «в конце концов».",
         "highlights": [
@@ -297,10 +355,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Eventually we found the hotel.", "ru": "В конце концов мы нашли отель. (не «возможно»)"}, {"en": "That's a sensible idea.", "ru": "Это разумная мысль. (не «чувствительная»)"}, {"en": "I didn't realise it was so late.", "ru": "Я не понял, что уже так поздно. (не «реализовать»)"}, {"en": "The report is comprehensive.", "ru": "Отчёт всесторонний, подробный."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Eventually we found the hotel.",
+                "ru": "В конце концов мы нашли отель. (не «возможно»)"
+              },
+              {
+                "en": "That's a sensible idea.",
+                "ru": "Это разумная мысль. (не «чувствительная»)"
+              },
+              {
+                "en": "I didn't realise it was so late.",
+                "ru": "Я не понял, что уже так поздно. (не «реализовать»)"
+              },
+              {
+                "en": "The report is comprehensive.",
+                "ru": "Отчёт всесторонний, подробный."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Ложные друзья",
+      "label": "Частые ошибки: magazine, sympathetic, actual",
       "intro": {
         "text": "Самые частые ошибки из-за ложных друзей.",
         "highlights": [
@@ -318,39 +405,39 @@
           "errors": [
             {
               "wrong": "I bought it in a magazine.",
-              "right": "I bought it in a shop."
+              "right": "I bought it in a shop. (magazine — журнал)"
             },
             {
               "wrong": "What is your family?",
-              "right": "What is your surname?"
+              "right": "What is your surname? (family — семья)"
             },
             {
               "wrong": "She is very sympathetic. (симпатичная)",
-              "right": "She is very attractive."
+              "right": "She is very attractive. (sympathetic — сочувствующий)"
             },
             {
               "wrong": "This information is actual.",
-              "right": "This information is up to date."
+              "right": "This information is up to date. (actual — фактический)"
             },
             {
               "wrong": "He works at a fabric.",
-              "right": "He works at a factory."
+              "right": "He works at a factory. (fabric — ткань)"
             },
             {
               "wrong": "He is very accurate. (аккуратный)",
-              "right": "He is very tidy."
+              "right": "He is very tidy. (accurate — точный)"
             },
             {
               "wrong": "It's a very comprehensive explanation. (понятное)",
-              "right": "It's a very clear / comprehensible explanation."
+              "right": "It's a very clear / comprehensible explanation. (comprehensive — всесторонний)"
             },
             {
               "wrong": "Eventually he will come. (возможно)",
-              "right": "Perhaps he will come."
+              "right": "Perhaps he will come. (eventually — в конце концов)"
             },
             {
               "wrong": "He is a very sensible boy. (чувствительный)",
-              "right": "He is a very sensitive boy."
+              "right": "He is a very sensitive boy. (sensible — разумный)"
             }
           ]
         }

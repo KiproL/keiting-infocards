@@ -3,14 +3,30 @@
   "route": "cards_mustnt",
   "slides": [
     {
-      "label": "must — надо, mustn't — нельзя",
+      "label": "Must — надо, mustn't — нельзя",
       "intro": {
         "text": "Must выражает обязанность или личное решение. Mustn't — категорический запрет. Это самое сильное «нельзя» в английском.",
         "highlights": [
-          { "text": "Must",       "color": "term",    "style": "bold" },
-          { "text": "Mustn't",    "color": "bad",     "style": "bold" },
-          { "text": "категорический запрет","color": "example", "style": "bold_underline" },
-          { "text": "нельзя",      "color": "info",    "style": "bold" }
+          {
+            "text": "Must",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Mustn't",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "категорический запрет",
+            "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "нельзя",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -20,19 +36,193 @@
           "formulas": [
             {
               "parts": [
-                { "text": "must", "color": "info" },
-                { "text": "+",    "color": "muted" },
-                { "text": "глагол (без to)", "color": "example" }
+                {
+                  "text": "must",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол (без to)",
+                  "color": "example"
+                }
               ],
-              "accentColor": "info", "drill": {"slots": ["must", "глагол (без to)"], "decoys": ["V-ing", "V3"], "examples": [{"en": "You must wear a seat belt.", "ru": "Ты должен пристегнуться.", "parts": [["You", ""], ["must", "must"], ["wear", "глагол (без to)"], ["a seat belt.", ""]]}, {"en": "I must call my mum.", "ru": "Мне надо позвонить маме.", "parts": [["I", ""], ["must", "must"], ["call", "глагол (без to)"], ["my mum.", ""]]}, {"en": "We must leave now.", "ru": "Нам пора уходить.", "parts": [["We", ""], ["must", "must"], ["leave", "глагол (без to)"], ["now.", ""]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "must",
+                  "глагол (без to)"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "You must wear a seat belt.",
+                    "ru": "Ты должен пристегнуться.",
+                    "parts": [
+                      [
+                        "You",
+                        ""
+                      ],
+                      [
+                        "must",
+                        "must"
+                      ],
+                      [
+                        "wear",
+                        "глагол (без to)"
+                      ],
+                      [
+                        "a seat belt.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "I must call my mum.",
+                    "ru": "Мне надо позвонить маме.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "must",
+                        "must"
+                      ],
+                      [
+                        "call",
+                        "глагол (без to)"
+                      ],
+                      [
+                        "my mum.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "We must leave now.",
+                    "ru": "Нам пора уходить.",
+                    "parts": [
+                      [
+                        "We",
+                        ""
+                      ],
+                      [
+                        "must",
+                        "must"
+                      ],
+                      [
+                        "leave",
+                        "глагол (без to)"
+                      ],
+                      [
+                        "now.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
-                { "text": "mustn't", "color": "bad" },
-                { "text": "+",       "color": "muted" },
-                { "text": "глагол",  "color": "example" }
+                {
+                  "text": "mustn't",
+                  "color": "bad"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "глагол",
+                  "color": "example"
+                }
               ],
-              "accentColor": "bad", "drill": {"slots": ["mustn't", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "You mustn't smoke here.", "ru": "Здесь нельзя курить.", "parts": [["You", ""], ["mustn't", "mustn't"], ["smoke", "глагол"], ["here.", ""]]}, {"en": "We mustn't be late.", "ru": "Нам нельзя опаздывать.", "parts": [["We", ""], ["mustn't", "mustn't"], ["be", "глагол"], ["late.", ""]]}, {"en": "You mustn't tell anyone.", "ru": "Никому нельзя говорить.", "parts": [["You", ""], ["mustn't", "mustn't"], ["tell", "глагол"], ["anyone.", ""]]}]}
+              "accentColor": "bad",
+              "drill": {
+                "slots": [
+                  "mustn't",
+                  "глагол"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "You mustn't smoke here.",
+                    "ru": "Здесь нельзя курить.",
+                    "parts": [
+                      [
+                        "You",
+                        ""
+                      ],
+                      [
+                        "mustn't",
+                        "mustn't"
+                      ],
+                      [
+                        "smoke",
+                        "глагол"
+                      ],
+                      [
+                        "here.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "We mustn't be late.",
+                    "ru": "Нам нельзя опаздывать.",
+                    "parts": [
+                      [
+                        "We",
+                        ""
+                      ],
+                      [
+                        "mustn't",
+                        "mustn't"
+                      ],
+                      [
+                        "be",
+                        "глагол"
+                      ],
+                      [
+                        "late.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "You mustn't tell anyone.",
+                    "ru": "Никому нельзя говорить.",
+                    "parts": [
+                      [
+                        "You",
+                        ""
+                      ],
+                      [
+                        "mustn't",
+                        "mustn't"
+                      ],
+                      [
+                        "tell",
+                        "глагол"
+                      ],
+                      [
+                        "anyone.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -40,13 +230,45 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["must",       "обязан, нужно",     "You must wear a seatbelt."] },
-              { "cells": ["mustn't",    "нельзя, запрещено", "You mustn't smoke here."] },
-              { "cells": ["don't have to", "не обязательно", "You don't have to come."] },
-              { "cells": ["don't must",   "— такой формы нет","— ошибка"] }
+              {
+                "cells": [
+                  "must",
+                  "обязан, нужно",
+                  "You must wear a seatbelt."
+                ]
+              },
+              {
+                "cells": [
+                  "mustn't",
+                  "нельзя, запрещено",
+                  "You mustn't smoke here."
+                ]
+              },
+              {
+                "cells": [
+                  "don't have to",
+                  "не обязательно",
+                  "You don't have to come."
+                ]
+              },
+              {
+                "cells": [
+                  "don't must",
+                  "— такой формы нет",
+                  "— ошибка"
+                ]
+              }
             ],
             "borderColor": "info"
           },
@@ -60,10 +282,22 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "You must wear a seatbelt.",           "ru": "Ты должен быть пристёгнут." },
-            { "en": "I must call my mom tonight.",           "ru": "Мне нужно позвонить маме сегодня." },
-            { "en": "You mustn't smoke here.",                "ru": "Здесь нельзя курить." },
-            { "en": "We mustn't be late.",                    "ru": "Нам нельзя опаздывать." }
+            {
+              "en": "You must wear a seatbelt.",
+              "ru": "Ты должен быть пристёгнут."
+            },
+            {
+              "en": "I must call my mom tonight.",
+              "ru": "Мне нужно позвонить маме сегодня."
+            },
+            {
+              "en": "You mustn't smoke here.",
+              "ru": "Здесь нельзя курить."
+            },
+            {
+              "en": "We mustn't be late.",
+              "ru": "Нам нельзя опаздывать."
+            }
           ]
         },
         {
@@ -75,21 +309,38 @@
             "text": "В прошлом вместо must используется had to. А вместо mustn't в прошлом — wasn't allowed to или couldn't."
           },
           "examples": [
-            { "en": "I had to work yesterday.",        "ru": "Вчера мне пришлось работать. (не must)" },
-            { "en": "I couldn't smoke there.",          "ru": "Там нельзя было курить." }
+            {
+              "en": "I had to work yesterday.",
+              "ru": "Вчера мне пришлось работать. (не must)"
+            },
+            {
+              "en": "I couldn't smoke there.",
+              "ru": "Там нельзя было курить."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Отрицание и вопрос",
+      "label": "Отрицание и вопрос: Must I…?",
       "intro": {
         "text": "Must — модальный глагол, работает без do. Отрицание — mustn't, вопрос — Must I…?",
         "highlights": [
-          { "text": "без do",       "color": "bad",  "style": "bold_underline" },
-          { "text": "mustn't",       "color": "info", "style": "bold" },
-          { "text": "Must I…?",      "color": "term", "style": "bold" }
+          {
+            "text": "без do",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "mustn't",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Must I…?",
+            "color": "term",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -97,43 +348,124 @@
           "title": "Отрицание",
           "borderColor": "bad",
           "rules": [
-            { "name": "mustn't",   "suffix": "нельзя",         "example": "You mustn't touch it." },
-            { "name": "must not",  "suffix": "полная форма",   "example": "You must not be late." }
+            {
+              "name": "mustn't",
+              "suffix": "нельзя",
+              "example": "You mustn't touch it."
+            },
+            {
+              "name": "must not",
+              "suffix": "полная форма",
+              "example": "You must not be late."
+            }
           ]
         },
         {
           "title": "Вопрос",
           "borderColor": "info",
           "examples": [
-            { "en": "Must I finish it today?",    "ru": "Я должен закончить это сегодня?" },
-            { "en": "Must we leave now?",           "ru": "Нам обязательно уходить сейчас?" },
-            { "en": "Must she come too?",            "ru": "Ей тоже обязательно приходить?" }
+            {
+              "en": "Must I finish it today?",
+              "ru": "Я должен закончить это сегодня?"
+            },
+            {
+              "en": "Must we leave now?",
+              "ru": "Нам обязательно уходить сейчас?"
+            },
+            {
+              "en": "Must she come too?",
+              "ru": "Ей тоже обязательно приходить?"
+            }
           ]
         },
         {
           "title": "Сравнение",
           "borderColor": "term",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["must",       "обязан (внутреннее)", "I must study."] },
-              { "cells": ["have to",    "обязан (внешнее)",     "I have to study."] },
-              { "cells": ["mustn't",    "нельзя",                "You mustn't smoke."] },
-              { "cells": ["don't have to","не обязательно",     "You don't have to come."] }
+              {
+                "cells": [
+                  "must",
+                  "обязан (внутреннее)",
+                  "I must study."
+                ]
+              },
+              {
+                "cells": [
+                  "have to",
+                  "обязан (внешнее)",
+                  "I have to study."
+                ]
+              },
+              {
+                "cells": [
+                  "mustn't",
+                  "нельзя",
+                  "You mustn't smoke."
+                ]
+              },
+              {
+                "cells": [
+                  "don't have to",
+                  "не обязательно",
+                  "You don't have to come."
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You mustn't tell anyone.",
+                "ru": "Никому нельзя рассказывать."
+              },
+              {
+                "en": "Must I wear a tie? — No, you don't have to.",
+                "ru": "Мне обязательно надевать галстук? — Нет, не обязательно."
+              },
+              {
+                "en": "Children mustn't play here.",
+                "ru": "Детям здесь играть нельзя."
+              },
+              {
+                "en": "You must try this cake!",
+                "ru": "Ты обязательно должен попробовать этот торт! (совет-восторг)"
+              }
+            ]
+          }
+        }
       ]
     },
-
     {
-      "label": "Частые ошибки: Must / Mustn't",
+      "label": "Частые ошибки: must to, don't must, musted",
       "intro": {
         "text": "Четыре самые частые ошибки в must и mustn't.",
         "highlights": [
-          { "text": "Четыре самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Четыре самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -141,10 +473,22 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I must to go.",           "right": "I must go." },
-            { "wrong": "I don't must go.",          "right": "I mustn't go. / I don't have to go." },
-            { "wrong": "Do you must work?",          "right": "Must you work? / Do you have to work?" },
-            { "wrong": "I musted go yesterday.",      "right": "I had to go yesterday." }
+            {
+              "wrong": "I must to go.",
+              "right": "I must go. (без to)"
+            },
+            {
+              "wrong": "I don't must go.",
+              "right": "I mustn't go. / I don't have to go. (у must нет don't)"
+            },
+            {
+              "wrong": "Do you must work?",
+              "right": "Must you work? / Do you have to work? (must — без do)"
+            },
+            {
+              "wrong": "I musted go yesterday.",
+              "right": "I had to go yesterday. (в прошлом — had to)"
+            }
           ]
         },
         {

@@ -3,7 +3,7 @@
   "route": "cards_doctor",
   "slides": [
     {
-      "label": "Что болит",
+      "label": "Что болит: симптомы",
       "intro": {
         "text": "Боль в части тела часто одно слово с -ache: headache, toothache. Остальное — через hurts или sore.",
         "highlights": [
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "label": "На приёме",
+      "label": "На приёме у врача",
       "intro": {
         "text": "Врач спросит, что беспокоит и как давно. Отвечай сроком: for two days, since Monday.",
         "highlights": [
@@ -172,10 +172,39 @@
             "text": "Европа — 112, США — 911, Британия — 999. Аптека в США — pharmacy, в Британии — chemist's."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I've had a cough since Monday.",
+                "ru": "Кашель у меня с понедельника."
+              },
+              {
+                "en": "It hurts when I breathe.",
+                "ru": "Больно, когда дышу."
+              },
+              {
+                "en": "Could you give me a sick note?",
+                "ru": "Можно справку о болезни?"
+              },
+              {
+                "en": "Do I need to come back?",
+                "ru": "Мне нужно прийти ещё раз?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Аптека: попросить",
+      "label": "В аптеке: something for a cold",
       "intro": {
         "text": "Аптека — pharmacy, в Великобритании ещё chemist's, в США — drugstore. Просят лекарство «от чего-то» через for.",
         "highlights": [
@@ -248,7 +277,7 @@
       ]
     },
     {
-      "label": "Аптека: слова",
+      "label": "Аптека: слова на полках",
       "intro": {
         "text": "Главные слова на полках и в инструкциях.",
         "highlights": [
@@ -337,10 +366,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Do you have anything for a sore throat?", "ru": "У вас есть что-нибудь от боли в горле?"}, {"en": "I need some painkillers, please.", "ru": "Мне нужно обезболивающее."}, {"en": "Can I buy this without a prescription?", "ru": "Это можно купить без рецепта?"}, {"en": "Put a plaster on the cut.", "ru": "Наклей пластырь на порез."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Do you have anything for a sore throat?",
+                "ru": "У вас есть что-нибудь от боли в горле?"
+              },
+              {
+                "en": "I need some painkillers, please.",
+                "ru": "Мне нужно обезболивающее."
+              },
+              {
+                "en": "Can I buy this without a prescription?",
+                "ru": "Это можно купить без рецепта?"
+              },
+              {
+                "en": "Put a plaster on the cut.",
+                "ru": "Наклей пластырь на порез."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Аптека: инструкция",
+      "label": "Что написано на упаковке",
       "intro": {
         "text": "Фразы, которые пишут на упаковке.",
         "highlights": [
@@ -374,10 +432,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Take two tablets after meals.", "ru": "Принимать по две таблетки после еды."}, {"en": "Do not take on an empty stomach.", "ru": "Не принимать натощак."}, {"en": "Store below 25°C.", "ru": "Хранить при температуре ниже 25 °C."}, {"en": "Shake well before use.", "ru": "Перед применением хорошо взболтать."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Take two tablets after meals.",
+                "ru": "Принимать по две таблетки после еды."
+              },
+              {
+                "en": "Do not take on an empty stomach.",
+                "ru": "Не принимать натощак."
+              },
+              {
+                "en": "Store below 25°C.",
+                "ru": "Хранить при температуре ниже 25 °C."
+              },
+              {
+                "en": "Shake well before use.",
+                "ru": "Перед применением хорошо взболтать."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Чего не говорить: У врача и в аптеке",
+      "label": "Чего не говорить: recipe, drink a pill",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -395,35 +482,35 @@
           "errors": [
             {
               "wrong": "I have a pain in head.",
-              "right": "I have a headache."
+              "right": "I have a headache. (одно слово — headache)"
             },
             {
               "wrong": "I have temperature.",
-              "right": "I have a temperature."
+              "right": "I have a temperature. (с a)"
             },
             {
               "wrong": "Something from headache",
-              "right": "Something for a headache"
+              "right": "Something for a headache (от чего — for)"
             },
             {
               "wrong": "I need a recipe.",
-              "right": "I need a prescription."
+              "right": "I need a prescription. (recipe — рецепт блюда)"
             },
             {
               "wrong": "I'm ill with a flu.",
-              "right": "I have (the) flu."
+              "right": "I have (the) flu. (have, без a)"
             },
             {
               "wrong": "Give me a medicine from head.",
-              "right": "Have you got something for a headache?"
+              "right": "Have you got something for a headache? (вежливо и с for)"
             },
             {
               "wrong": "drink a pill",
-              "right": "take a pill"
+              "right": "take a pill (лекарство — take)"
             },
             {
               "wrong": "a medicament",
-              "right": "medicine"
+              "right": "medicine (так говорят в жизни)"
             }
           ]
         }

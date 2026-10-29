@@ -3,10 +3,15 @@
   "route": "cards_futureways",
   "slides": [
     {
-      "label": "Пять способов",
+      "label": "Пять способов сказать о будущем",
       "intro": {
-        "text": "Одного «будущего времени» в английском нет: выбор зависит от того, решение это, план, договорённость или расписание.",
+        "text": "Одного «будущего времени» в английском нет. Способ выбирают по смыслу: решение прямо сейчас, план, договорённость с кем-то или расписание.",
         "highlights": [
+          {
+            "text": "Одного «будущего времени»",
+            "color": "bad",
+            "style": "bold"
+          },
           {
             "text": "решение",
             "color": "term",
@@ -87,7 +92,7 @@
       ]
     },
     {
-      "label": "Как выбрать",
+      "label": "Как выбрать: четыре вопроса",
       "intro": {
         "text": "Задай себе вопросы по порядку — первый «да» и даёт ответ.",
         "highlights": [
@@ -112,10 +117,39 @@
             "accentColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It's cold. — I'll close the window.", "ru": "Холодно. — Сейчас закрою окно. (решил в момент речи — will)"}, {"en": "I'm going to learn to drive this year.", "ru": "В этом году я собираюсь научиться водить. (намерение — going to)"}, {"en": "We're meeting Tom at the station at six.", "ru": "В шесть мы встречаем Тома на вокзале. (договорились — Present Continuous)"}, {"en": "The train leaves at 7:40.", "ru": "Поезд отходит в 7:40. (расписание — Present Simple)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It's cold. — I'll close the window.",
+                "ru": "Холодно. — Сейчас закрою окно. (решил в момент речи — will)"
+              },
+              {
+                "en": "I'm going to learn to drive this year.",
+                "ru": "В этом году я собираюсь научиться водить. (намерение — going to)"
+              },
+              {
+                "en": "We're meeting Tom at the station at six.",
+                "ru": "В шесть мы встречаем Тома на вокзале. (договорились — Present Continuous)"
+              },
+              {
+                "en": "The train leaves at 7:40.",
+                "ru": "Поезд отходит в 7:40. (расписание — Present Simple)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Сравни",
+      "label": "Одна ситуация — разные смыслы",
       "intro": {
         "text": "Одна ситуация — разные смыслы.",
         "highlights": [
@@ -149,10 +183,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Look at those clouds! It's going to rain.", "ru": "Посмотри на тучи! Сейчас пойдёт дождь. (есть признак)"}, {"en": "I think it will rain tomorrow.", "ru": "Думаю, завтра будет дождь. (просто мнение)"}, {"en": "I'm having dinner with Anna on Friday.", "ru": "В пятницу я ужинаю с Анной. (договорённость)"}, {"en": "The concert begins at eight.", "ru": "Концерт начинается в восемь. (расписание)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Look at those clouds! It's going to rain.",
+                "ru": "Посмотри на тучи! Сейчас пойдёт дождь. (есть признак)"
+              },
+              {
+                "en": "I think it will rain tomorrow.",
+                "ru": "Думаю, завтра будет дождь. (просто мнение)"
+              },
+              {
+                "en": "I'm having dinner with Anna on Friday.",
+                "ru": "В пятницу я ужинаю с Анной. (договорённость)"
+              },
+              {
+                "en": "The concert begins at eight.",
+                "ru": "Концерт начинается в восемь. (расписание)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Как говорить о будущем",
+      "label": "Частые ошибки: will вместо договорённости",
       "intro": {
         "text": "Самые частые ошибки с будущим.",
         "highlights": [
@@ -170,19 +233,19 @@
           "errors": [
             {
               "wrong": "I will meet Anna at 6. (уже договорились)",
-              "right": "I'm meeting Anna at 6."
+              "right": "I'm meeting Anna at 6. (договорённость — Present Continuous)"
             },
             {
               "wrong": "The train will leave at 8. (по расписанию)",
-              "right": "The train leaves at 8."
+              "right": "The train leaves at 8. (расписание — Present Simple)"
             },
             {
               "wrong": "When I will come, I'll call.",
-              "right": "When I come, I'll call."
+              "right": "When I come, I'll call. (после when — без will)"
             },
             {
               "wrong": "— It's cold. — I'm going to close the window. (решил сейчас)",
-              "right": "— I'll close the window."
+              "right": "— I'll close the window. (решил сейчас — will)"
             }
           ]
         }

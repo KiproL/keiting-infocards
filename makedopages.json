@@ -3,7 +3,7 @@
   "route": "cards_makedo",
   "slides": [
     {
-      "label": "Make или do",
+      "label": "Make или do: результат или процесс",
       "intro": {
         "text": "Make — создать, получить результат: торт, решение, ошибку. Do — выполнить работу или обязанность, где важен сам процесс: домашку, уборку, спорт.",
         "highlights": [
@@ -98,10 +98,39 @@
             "text": "Говоришь о работе и делах вообще — do: What do you do? I'm doing something. Создал новое — make."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I made a lot of mistakes in the test.",
+                "ru": "Я сделал много ошибок в тесте."
+              },
+              {
+                "en": "Can you do me a favour?",
+                "ru": "Можешь сделать мне одолжение?"
+              },
+              {
+                "en": "We need to make a decision today.",
+                "ru": "Нам нужно принять решение сегодня."
+              },
+              {
+                "en": "I do the shopping on Saturdays.",
+                "ru": "По субботам я хожу за покупками."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Take",
+      "label": "Take: take a photo, take a bus",
       "intro": {
         "text": "Take в сочетаниях часто значит не «брать», а просто «сделать»: сфотографировать, сдать экзамен, сесть на автобус.",
         "highlights": [
@@ -207,10 +236,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Can you take a photo of us?",
+                "ru": "Сфотографируешь нас?"
+              },
+              {
+                "en": "Let's take a break.",
+                "ru": "Давай сделаем перерыв."
+              },
+              {
+                "en": "Please take a seat.",
+                "ru": "Присаживайтесь."
+              },
+              {
+                "en": "She takes care of her grandma.",
+                "ru": "Она заботится о бабушке."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Have",
+      "label": "Have: have breakfast, have fun",
       "intro": {
         "text": "Have в сочетаниях — «провести, получить, съесть»: завтракать, веселиться, отдыхать. Здесь have — действие, поэтому have got сюда нельзя.",
         "highlights": [
@@ -304,10 +362,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "We had a great time at the party.",
+                "ru": "Мы отлично провели время на вечеринке."
+              },
+              {
+                "en": "Let's have a coffee.",
+                "ru": "Давай выпьем кофе."
+              },
+              {
+                "en": "I'm going to have a shower.",
+                "ru": "Я пойду в душ."
+              },
+              {
+                "en": "Have fun!",
+                "ru": "Повеселитесь!"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Make, do, take, have",
+      "label": "Частые ошибки: make homework, do a mistake",
       "intro": {
         "text": "Самые частые ошибки с этими глаголами.",
         "highlights": [
@@ -325,31 +412,31 @@
           "errors": [
             {
               "wrong": "make homework",
-              "right": "do homework"
+              "right": "do homework (задание — do)"
             },
             {
               "wrong": "do a mistake",
-              "right": "make a mistake"
+              "right": "make a mistake (ошибка — make)"
             },
             {
               "wrong": "do a decision",
-              "right": "make a decision"
+              "right": "make a decision (решение — make)"
             },
             {
               "wrong": "make a photo",
-              "right": "take a photo"
+              "right": "take a photo (фото — take)"
             },
             {
               "wrong": "make sport",
-              "right": "do sport"
+              "right": "do sport (спорт — do)"
             },
             {
               "wrong": "do a party",
-              "right": "have a party"
+              "right": "have a party (вечеринка — have)"
             },
             {
               "wrong": "take breakfast",
-              "right": "have breakfast"
+              "right": "have breakfast (еда — have)"
             }
           ]
         }

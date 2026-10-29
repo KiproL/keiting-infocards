@@ -3,7 +3,7 @@
   "route": "cards_articlesnames",
   "slides": [
     {
-      "label": "Страны и города",
+      "label": "Страны и города: Spain, но the USA",
       "intro": {
         "text": "Имена, города и большинство стран — без артикля: Paris, Spain. The нужен, если в названии множественное число или слова republic, kingdom, states, union.",
         "highlights": [
@@ -55,10 +55,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I was born in Russia.",
+                "ru": "Я родился в России. (страна — без the)"
+              },
+              {
+                "en": "She lives in the UK.",
+                "ru": "Она живёт в Великобритании. (kingdom — с the)"
+              },
+              {
+                "en": "We flew to the Netherlands.",
+                "ru": "Мы полетели в Нидерланды. (мн. число — с the)"
+              },
+              {
+                "en": "Tokyo is the capital of Japan.",
+                "ru": "Токио — столица Японии."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "География",
+      "label": "Реки, моря, горы: где нужен the",
       "intro": {
         "text": "Вода и цепочки — реки, моря, горные хребты, группы островов — с the. Одиночные объекты (гора, озеро, остров) и континенты — без артикля.",
         "highlights": [
@@ -157,10 +186,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The Volga is the longest river in Europe.",
+                "ru": "Волга — самая длинная река Европы."
+              },
+              {
+                "en": "Have you ever climbed Elbrus?",
+                "ru": "Ты поднимался на Эльбрус? (одна гора — без the)"
+              },
+              {
+                "en": "We went skiing in the Alps.",
+                "ru": "Мы катались на лыжах в Альпах. (хребет — с the)"
+              },
+              {
+                "en": "Lake Baikal is very deep.",
+                "ru": "Байкал очень глубокий. (Lake + название — без the)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "В городе",
+      "label": "В городе: Red Square, но the Hilton",
       "intro": {
         "text": "Улицы, площади, парки, вокзалы и аэропорты — без артикля: Oxford Street, Red Square. Отели, театры, музеи и названия с of — с the: the Hilton, the Louvre, the Tower of London.",
         "highlights": [
@@ -230,10 +288,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Let's meet in Red Square.", "ru": "Давай встретимся на Красной площади."}, {"en": "We went to the Bolshoi last night.", "ru": "Вчера вечером мы ходили в Большой театр."}, {"en": "The train leaves from Victoria Station.", "ru": "Поезд отправляется с вокзала Виктория."}, {"en": "Have you visited the Tower of London?", "ru": "Ты был в Тауэре? (название с of — с the)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Let's meet in Red Square.",
+                "ru": "Давай встретимся на Красной площади."
+              },
+              {
+                "en": "We went to the Bolshoi last night.",
+                "ru": "Вчера вечером мы ходили в Большой театр."
+              },
+              {
+                "en": "The train leaves from Victoria Station.",
+                "ru": "Поезд отправляется с вокзала Виктория."
+              },
+              {
+                "en": "Have you visited the Tower of London?",
+                "ru": "Ты был в Тауэре? (название с of — с the)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Артикли с названиями",
+      "label": "Частые ошибки: the Moscow, in USA",
       "intro": {
         "text": "Самые частые ошибки с артиклями в названиях.",
         "highlights": [
@@ -251,27 +338,27 @@
           "errors": [
             {
               "wrong": "I live in the Moscow.",
-              "right": "I live in Moscow."
+              "right": "I live in Moscow. (город — без the)"
             },
             {
               "wrong": "He works in USA.",
-              "right": "He works in the USA."
+              "right": "He works in the USA. (states — с the)"
             },
             {
               "wrong": "We swam in Black Sea.",
-              "right": "We swam in the Black Sea."
+              "right": "We swam in the Black Sea. (море — с the)"
             },
             {
               "wrong": "the Lake Baikal",
-              "right": "Lake Baikal"
+              "right": "Lake Baikal (Lake + название — без the)"
             },
             {
               "wrong": "I visited British Museum.",
-              "right": "I visited the British Museum."
+              "right": "I visited the British Museum. (музей — с the)"
             },
             {
               "wrong": "the Red Square",
-              "right": "Red Square"
+              "right": "Red Square (площадь — без the)"
             }
           ]
         }

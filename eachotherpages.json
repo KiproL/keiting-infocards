@@ -110,10 +110,39 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "We send each other photos.",
+                "ru": "Мы отправляем друг другу фото."
+              },
+              {
+                "en": "They don't trust each other.",
+                "ru": "Они не доверяют друг другу."
+              },
+              {
+                "en": "Let's help each other.",
+                "ru": "Давайте помогать друг другу."
+              },
+              {
+                "en": "They borrowed each other's clothes.",
+                "ru": "Они брали одежду друг у друга. (each other's — чей)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Each Other",
+      "label": "Частые ошибки: themselves вместо each other",
       "intro": {
         "text": "Самые частые ошибки с each other.",
         "highlights": [
@@ -131,19 +160,19 @@
           "errors": [
             {
               "wrong": "They love themselves. (друг друга)",
-              "right": "They love each other."
+              "right": "They love each other. (themselves — каждый себя)"
             },
             {
               "wrong": "We meet each other's.",
-              "right": "We meet each other."
+              "right": "We meet each other. ('s — только «чей»)"
             },
             {
               "wrong": "They talked each other.",
-              "right": "They talked to each other."
+              "right": "They talked to each other. (talk to — с предлогом)"
             },
             {
               "wrong": "We see us every day.",
-              "right": "We see each other every day."
+              "right": "We see each other every day. (друг друга — each other)"
             }
           ]
         },

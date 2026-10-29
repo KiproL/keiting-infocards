@@ -3,7 +3,7 @@
   "route": "cards_jobs",
   "slides": [
     {
-      "label": "Профессии",
+      "label": "Профессии: I'm a nurse",
       "intro": {
         "text": "Перед профессией нужен артикль: I'm a nurse, а не I'm nurse.",
         "highlights": [
@@ -104,12 +104,41 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My mum is a nurse.", "ru": "Моя мама — медсестра. (с артиклем a)"}, {"en": "He works as an engineer.", "ru": "Он работает инженером."}, {"en": "I want to be a lawyer.", "ru": "Я хочу стать юристом."}, {"en": "She's an accountant at a big company.", "ru": "Она бухгалтер в крупной компании."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My mum is a nurse.",
+                "ru": "Моя мама — медсестра. (с артиклем a)"
+              },
+              {
+                "en": "He works as an engineer.",
+                "ru": "Он работает инженером."
+              },
+              {
+                "en": "I want to be a lawyer.",
+                "ru": "Я хочу стать юристом."
+              },
+              {
+                "en": "She's an accountant at a big company.",
+                "ru": "Она бухгалтер в крупной компании."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Работа",
+      "label": "Работа: job или work",
       "intro": {
-        "text": "Job — конкретное место работы (a job), work — работа вообще, без a: I have a lot of work.",
+        "text": "Job — конкретное место работы, его можно посчитать: a job, two jobs. Work — работа вообще, без a: I have a lot of work.",
         "highlights": [
           {
             "text": "Job",
@@ -117,8 +146,13 @@
             "style": "bold"
           },
           {
-            "text": "work",
+            "text": "Work",
             "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "без a",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -195,16 +229,50 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She works part-time at a café.",
+                "ru": "Она работает на полставки в кафе."
+              },
+              {
+                "en": "I applied for three jobs last week.",
+                "ru": "На прошлой неделе я откликнулся на три вакансии."
+              },
+              {
+                "en": "He was fired for being late.",
+                "ru": "Его уволили за опоздания."
+              },
+              {
+                "en": "I'm taking a day off tomorrow.",
+                "ru": "Завтра я беру выходной."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Как сказать",
+      "label": "Как рассказать о работе: What do you do?",
       "intro": {
-        "text": "Вопрос «Кем работаешь?» — What do you do?",
+        "text": "Вопрос «Кем работаешь?» — What do you do?. Отвечают через I'm a…, I work as a… или I work for / at…",
         "highlights": [
           {
             "text": "What do you do?",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "I work as a…",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -240,10 +308,64 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Work for, at или in",
+          "preview": "компания, место, сфера",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Предлог",
+                "С чем",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "for",
+                    "компания, начальник",
+                    "I work for Google."
+                  ]
+                },
+                {
+                  "cells": [
+                    "at",
+                    "место",
+                    "I work at a hospital."
+                  ]
+                },
+                {
+                  "cells": [
+                    "in",
+                    "сфера, отдел",
+                    "I work in marketing."
+                  ]
+                },
+                {
+                  "cells": [
+                    "as",
+                    "должность",
+                    "I work as a manager."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Примеры: работа и профессии",
+      "label": "Работа в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -296,7 +418,7 @@
       ]
     },
     {
-      "label": "Диалог: работа и профессии",
+      "label": "Диалог: чем зарабатываешь на жизнь",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -341,7 +463,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Работа и профессии",
+      "label": "Частые ошибки: I'm teacher, a lot of works",
       "intro": {
         "text": "Самые частые ошибки в словах о работе.",
         "highlights": [
@@ -359,23 +481,23 @@
           "errors": [
             {
               "wrong": "I'm teacher.",
-              "right": "I'm a teacher."
+              "right": "I'm a teacher. (профессия — с a)"
             },
             {
               "wrong": "I work as nurse.",
-              "right": "I work as a nurse."
+              "right": "I work as a nurse. (и после as — с a)"
             },
             {
               "wrong": "What is your work?",
-              "right": "What do you do?"
+              "right": "What do you do? (так спрашивают о работе)"
             },
             {
               "wrong": "I have a lot of works.",
-              "right": "I have a lot of work."
+              "right": "I have a lot of work. (work — без -s)"
             },
             {
               "wrong": "He's a programmist.",
-              "right": "He's a programmer / developer."
+              "right": "He's a programmer / developer. (такого слова нет)"
             }
           ]
         }

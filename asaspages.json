@@ -5,11 +5,28 @@
     {
       "label": "as … as: такой же, как",
       "intro": {
-        "text": "As…as показывает равенство: она такая же высокая, как он. Между двумя as ставится прилагательное в начальной форме.",
+        "text": "As … as показывает равенство: she is as tall as him — она такая же высокая, как он. Между двумя as — прилагательное в обычной форме (tall, не taller). Not as … as — «не такой, как».",
         "highlights": [
-          { "text": "as…as",          "color": "term",    "style": "bold_underline" },
-          { "text": "равенство",       "color": "info",    "style": "bold" },
-          { "text": "начальной форме", "color": "example", "style": "bold" }
+          {
+            "text": "as … as",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "равенство",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "в обычной форме",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "Not as … as",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,25 +35,157 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "as",    "color": "info" },
-              { "text": "+",     "color": "muted" },
-              { "text": "прил.", "color": "example" },
-              { "text": "+",     "color": "muted" },
-              { "text": "as",    "color": "info" }
+              {
+                "text": "as",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "прил.",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "as",
+                "color": "info"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["as", "прил.", "as"], "decoys": ["than", "more"], "examples": [{"en": "She is as tall as her brother.", "ru": "Она такая же высокая, как её брат.", "parts": [["She is", ""], ["as", "as"], ["tall", "прил."], ["as", "as"], ["her brother.", ""]]}, {"en": "This film is as good as the book.", "ru": "Этот фильм такой же хороший, как книга.", "parts": [["This film is", ""], ["as", "as"], ["good", "прил."], ["as", "as"], ["the book.", ""]]}, {"en": "Today is not as cold as yesterday.", "ru": "Сегодня не так холодно, как вчера.", "parts": [["Today is not", ""], ["as", "as"], ["cold", "прил."], ["as", "as"], ["yesterday.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "as",
+                "прил.",
+                "as"
+              ],
+              "decoys": [
+                "than",
+                "more"
+              ],
+              "examples": [
+                {
+                  "en": "She is as tall as her brother.",
+                  "ru": "Она такая же высокая, как её брат.",
+                  "parts": [
+                    [
+                      "She is",
+                      ""
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "tall",
+                      "прил."
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "her brother.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "This film is as good as the book.",
+                  "ru": "Этот фильм такой же хороший, как книга.",
+                  "parts": [
+                    [
+                      "This film is",
+                      ""
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "good",
+                      "прил."
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "the book.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Today is not as cold as yesterday.",
+                  "ru": "Сегодня не так холодно, как вчера.",
+                  "parts": [
+                    [
+                      "Today is not",
+                      ""
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "cold",
+                      "прил."
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "yesterday.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Формы",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["as + прил. + as",      "такой же, как",  "She is as tall as me."] },
-              { "cells": ["not as + прил. + as",  "не такой, как",  "He is not as fast as you."] },
-              { "cells": ["as + наречие + as",     "с наречиями",    "He runs as fast as me."] }
+              {
+                "cells": [
+                  "as + прил. + as",
+                  "такой же, как",
+                  "She is as tall as me."
+                ]
+              },
+              {
+                "cells": [
+                  "not as + прил. + as",
+                  "не такой, как",
+                  "He is not as fast as you."
+                ]
+              },
+              {
+                "cells": [
+                  "as + наречие + as",
+                  "с наречиями",
+                  "He runs as fast as me."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -45,21 +194,117 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "She is as clever as her sister.",       "ru": "Она такая же умная, как её сестра." },
-            { "en": "This film is not as good as the book.", "ru": "Фильм не такой хороший, как книга." },
-            { "en": "He runs as fast as me.",                "ru": "Он бегает так же быстро, как я." },
-            { "en": "It's as easy as ABC.",                   "ru": "Это проще простого." }
+            {
+              "en": "She is as clever as her sister.",
+              "ru": "Она такая же умная, как её сестра."
+            },
+            {
+              "en": "This film is not as good as the book.",
+              "ru": "Фильм не такой хороший, как книга."
+            },
+            {
+              "en": "He runs as fast as me.",
+              "ru": "Он бегает так же быстро, как я."
+            },
+            {
+              "en": "It's as easy as ABC.",
+              "ru": "Это проще простого."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Twice as, as much as, the same as",
+          "preview": "во сколько раз и «столько же»",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Конструкция",
+                "Смысл",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "twice as … as",
+                    "в два раза",
+                    "This flat is twice as big as ours."
+                  ]
+                },
+                {
+                  "cells": [
+                    "as much as",
+                    "столько же (неисчисл.)",
+                    "I earn as much as you."
+                  ]
+                },
+                {
+                  "cells": [
+                    "as many as",
+                    "столько же (штук)",
+                    "She has as many books as me."
+                  ]
+                },
+                {
+                  "cells": [
+                    "the same as",
+                    "такой же, как",
+                    "My phone is the same as yours."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        },
+        {
+          "label": "Устойчивые выражения",
+          "preview": "as soon as possible, as good as new",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Call me as soon as possible.",
+                "ru": "Позвони как можно скорее."
+              },
+              {
+                "en": "After the repair, it's as good as new.",
+                "ru": "После ремонта как новенький."
+              },
+              {
+                "en": "He's as busy as a bee.",
+                "ru": "Он трудится как пчёлка."
+              },
+              {
+                "en": "As far as I know, she's in London.",
+                "ru": "Насколько я знаю, она в Лондоне."
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: As…as",
+      "label": "Частые ошибки: as taller as, so tall as",
       "intro": {
         "text": "Три самые частые ошибки в as…as.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -67,9 +312,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "She is as taller as me.",   "right": "She is as tall as me." },
-            { "wrong": "She is so tall as me.",      "right": "She is as tall as me." },
-            { "wrong": "She is as tall than me.",     "right": "She is as tall as me." }
+            {
+              "wrong": "She is as taller as me.",
+              "right": "She is as tall as me. (между as — обычная форма)"
+            },
+            {
+              "wrong": "She is so tall as me.",
+              "right": "She is as tall as me. (в утверждении — as)"
+            },
+            {
+              "wrong": "She is as tall than me.",
+              "right": "She is as tall as me. (than — только с taller)"
+            }
           ]
         },
         {

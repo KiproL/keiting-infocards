@@ -3,7 +3,7 @@
   "route": "cards_forms",
   "slides": [
     {
-      "label": "Поля",
+      "label": "Поля анкеты: first name, surname, DOB",
       "intro": {
         "text": "Анкеты везде похожи: отель, виза, банк, сайт. Главное — не перепутать имя с фамилией и формат даты.",
         "highlights": [
@@ -103,10 +103,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "First name: Anna. Surname: Ivanova.", "ru": "Имя: Анна. Фамилия: Иванова."}, {"en": "Date of birth: 12 March 1995.", "ru": "Дата рождения: 12 марта 1995 года."}, {"en": "Nationality: Russian.", "ru": "Гражданство: Россия."}, {"en": "Marital status: single.", "ru": "Семейное положение: не замужем."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "First name: Anna. Surname: Ivanova.",
+                "ru": "Имя: Анна. Фамилия: Иванова."
+              },
+              {
+                "en": "Date of birth: 12 March 1995.",
+                "ru": "Дата рождения: 12 марта 1995 года."
+              },
+              {
+                "en": "Nationality: Russian.",
+                "ru": "Гражданство: Россия."
+              },
+              {
+                "en": "Marital status: single.",
+                "ru": "Семейное положение: не замужем."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Даты",
+      "label": "Даты: день или месяц первым",
       "intro": {
         "text": "В Британии сначала день, в США — месяц: 05/04/2026 — это 5 апреля в Лондоне и 4 мая в Нью-Йорке. Чтобы не спутать, пиши месяц словом.",
         "highlights": [
@@ -168,10 +197,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My date of birth is 5 April 1990.", "ru": "Моя дата рождения — 5 апреля 1990 года."}, {"en": "In the UK, 03/07 means the 3rd of July.", "ru": "В Британии 03/07 — это 3 июля."}, {"en": "In the US, 03/07 means March 7th.", "ru": "В США 03/07 — это 7 марта."}, {"en": "Please write the month in words.", "ru": "Пожалуйста, пишите месяц словом."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My date of birth is 5 April 1990.",
+                "ru": "Моя дата рождения — 5 апреля 1990 года."
+              },
+              {
+                "en": "In the UK, 03/07 means the 3rd of July.",
+                "ru": "В Британии 03/07 — это 3 июля."
+              },
+              {
+                "en": "In the US, 03/07 means March 7th.",
+                "ru": "В США 03/07 — это 7 марта."
+              },
+              {
+                "en": "Please write the month in words.",
+                "ru": "Пожалуйста, пишите месяц словом."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Адрес",
+      "label": "Адрес: от малого к большому",
       "intro": {
         "text": "Адрес пишут от малого к большому: квартира и дом, улица, город и индекс, страна.",
         "highlights": [
@@ -201,10 +259,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Flat 12, 25 Green Street", "ru": "Квартира 12, дом 25, Грин-стрит"}, {"en": "London W1 2AB", "ru": "Лондон, индекс W1 2AB"}, {"en": "United Kingdom", "ru": "Великобритания"}, {"en": "Please write your full postal address.", "ru": "Пожалуйста, напишите полный почтовый адрес."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Flat 12, 25 Green Street",
+                "ru": "Квартира 12, дом 25, Грин-стрит"
+              },
+              {
+                "en": "London W1 2AB",
+                "ru": "Лондон, индекс W1 2AB"
+              },
+              {
+                "en": "United Kingdom",
+                "ru": "Великобритания"
+              },
+              {
+                "en": "Please write your full postal address.",
+                "ru": "Пожалуйста, напишите полный почтовый адрес."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Анкеты и формы",
+      "label": "Частые ошибки: имя вместо фамилии, формат даты",
       "intro": {
         "text": "Самые частые ошибки в анкетах.",
         "highlights": [
@@ -222,19 +309,19 @@
           "errors": [
             {
               "wrong": "Surname: Anna",
-              "right": "First name: Anna, Surname: Ivanova"
+              "right": "First name: Anna, Surname: Ivanova (surname — фамилия)"
             },
             {
               "wrong": "05/04 (американцу про 5 апреля)",
-              "right": "April 5"
+              "right": "April 5 (в США месяц — первым)"
             },
             {
               "wrong": "Russia, Kazan, Lenina St 10, apt 5",
-              "right": "Apt 5, 10 Lenina St, Kazan, Russia"
+              "right": "Apt 5, 10 Lenina St, Kazan, Russia (от малого к большому)"
             },
             {
               "wrong": "Occupation: work",
-              "right": "Occupation: engineer"
+              "right": "Occupation: engineer (пишут профессию)"
             }
           ]
         }

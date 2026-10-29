@@ -3,7 +3,7 @@
   "route": "cards_partitives",
   "slides": [
     {
-      "label": "Зачем",
+      "label": "Порции: a cup of, a slice of",
       "intro": {
         "text": "Неисчисляемое — water, bread, advice — напрямую не считают: an advice и two breads — ошибки. Считают порциями: a glass of water, a piece of advice.",
         "highlights": [
@@ -100,10 +100,39 @@
             "text": "Заказывая, говорят и так: Two coffees, please — две чашки кофе."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Could I have a cup of tea, please?",
+                "ru": "Можно чашку чая?"
+              },
+              {
+                "en": "I ate two slices of pizza.",
+                "ru": "Я съел два куска пиццы."
+              },
+              {
+                "en": "Buy a loaf of bread on the way home.",
+                "ru": "Купи буханку хлеба по дороге."
+              },
+              {
+                "en": "She bought a bar of chocolate.",
+                "ru": "Она купила плитку шоколада."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Не только еда",
+      "label": "Не только еда: a piece of advice, a pair of jeans",
       "intro": {
         "text": "Так же считают советы, новости, мебель, одежду и парные предметы.",
         "highlights": [
@@ -177,10 +206,39 @@
             "text": "Jeans, trousers, glasses, scissors — всегда во множественном: My jeans are new. Одна вещь — a pair of jeans."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Let me give you a piece of advice.",
+                "ru": "Дам тебе один совет."
+              },
+              {
+                "en": "I need a sheet of paper.",
+                "ru": "Мне нужен лист бумаги."
+              },
+              {
+                "en": "With a bit of luck, we'll be on time.",
+                "ru": "Если повезёт, успеем."
+              },
+              {
+                "en": "I bought two pairs of shoes.",
+                "ru": "Я купил две пары обуви."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: A piece of, a cup of",
+      "label": "Частые ошибки: an advice, two breads",
       "intro": {
         "text": "Самые частые ошибки с неисчисляемыми.",
         "highlights": [
@@ -198,23 +256,23 @@
           "errors": [
             {
               "wrong": "an advice",
-              "right": "a piece of advice / some advice"
+              "right": "a piece of advice / some advice (advice не считают)"
             },
             {
               "wrong": "two breads",
-              "right": "two loaves of bread"
+              "right": "two loaves of bread (хлеб — буханками)"
             },
             {
               "wrong": "informations",
-              "right": "information / pieces of information"
+              "right": "information / pieces of information (без -s)"
             },
             {
               "wrong": "a furniture",
-              "right": "a piece of furniture"
+              "right": "a piece of furniture (мебель — предметами)"
             },
             {
               "wrong": "a jeans",
-              "right": "a pair of jeans"
+              "right": "a pair of jeans (парная вещь)"
             }
           ]
         }

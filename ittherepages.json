@@ -3,7 +3,7 @@
   "route": "cards_itthere",
   "slides": [
     {
-      "label": "Разница",
+      "label": "There is или it: что-то есть или о чём-то известном",
       "intro": {
         "text": "There is сообщает, что что-то есть или появилось: There is a cat in the garden. It — о том, что уже известно, а ещё о погоде, времени и расстоянии.",
         "highlights": [
@@ -81,10 +81,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "There's a pharmacy round the corner.",
+                "ru": "За углом есть аптека. (сообщаем, что есть)"
+              },
+              {
+                "en": "It's open till ten.",
+                "ru": "Она открыта до десяти. (о ней же — it)"
+              },
+              {
+                "en": "It's Friday!",
+                "ru": "Сегодня пятница! (дата — it)"
+              },
+              {
+                "en": "It's a long way from here.",
+                "ru": "Отсюда далеко. (расстояние — it)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Вместе",
+      "label": "Вместе: there вводит, it продолжает",
       "intro": {
         "text": "Часто они идут парой: there вводит новое, it продолжает рассказ о нём.",
         "highlights": [
@@ -119,16 +148,45 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "There's a café near my office. It's very cosy.", "ru": "Рядом с моим офисом есть кафе. Оно очень уютное."}, {"en": "There was a strange noise. It came from the kitchen.", "ru": "Раздался странный звук. Он шёл с кухни."}, {"en": "There's a new film on. It's about space.", "ru": "Вышел новый фильм. Он о космосе."}, {"en": "Is there a lift? — Yes, it's on the left.", "ru": "Тут есть лифт? — Да, слева."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "There's a café near my office. It's very cosy.",
+                "ru": "Рядом с моим офисом есть кафе. Оно очень уютное."
+              },
+              {
+                "en": "There was a strange noise. It came from the kitchen.",
+                "ru": "Раздался странный звук. Он шёл с кухни."
+              },
+              {
+                "en": "There's a new film on. It's about space.",
+                "ru": "Вышел новый фильм. Он о космосе."
+              },
+              {
+                "en": "Is there a lift? — Yes, it's on the left.",
+                "ru": "Тут есть лифт? — Да, слева."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Безличные фразы",
+      "label": "Безличные фразы: «Холодно» — It's cold",
       "intro": {
         "text": "В русском подлежащего часто нет: «Холодно», «Поздно», «Далеко». В английском оно обязательно — эту роль играет it.",
         "highlights": [
           {
             "text": "подлежащего часто нет",
-            "color": "muted",
+            "color": "info",
             "style": "bold"
           },
           {
@@ -178,7 +236,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: It или there",
+      "label": "Частые ошибки: Is cold, It is a lot of people",
       "intro": {
         "text": "Самые частые ошибки с it и there.",
         "highlights": [
@@ -196,23 +254,23 @@
           "errors": [
             {
               "wrong": "Is cold today.",
-              "right": "It's cold today."
+              "right": "It's cold today. (подлежащее it обязательно)"
             },
             {
               "wrong": "It is a lot of people here.",
-              "right": "There are a lot of people here."
+              "right": "There are a lot of people here. (что-то есть — there)"
             },
             {
               "wrong": "There is very hot.",
-              "right": "It's very hot."
+              "right": "It's very hot. (погода — it)"
             },
             {
               "wrong": "It has a park in my town.",
-              "right": "There is a park in my town."
+              "right": "There is a park in my town. (есть — there is)"
             },
             {
               "wrong": "There is 5 km to the station.",
-              "right": "It's 5 km to the station."
+              "right": "It's 5 km to the station. (расстояние — it)"
             }
           ]
         }

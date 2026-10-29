@@ -3,9 +3,9 @@
   "route": "cards_advice",
   "slides": [
     {
-      "label": "От мягкого к строгому",
+      "label": "Советы: от мягкого к строгому",
       "intro": {
-        "text": "Совет в английском почти всегда смягчают. You must… звучит как приказ; обычный совет — You should… или Why don't you…?",
+        "text": "Совет в английском почти всегда смягчают. You must… звучит как приказ; обычный совет — You should… или Why don't you…? Чем ниже в таблице, тем строже.",
         "highlights": [
           {
             "text": "как приказ",
@@ -15,6 +15,11 @@
           {
             "text": "You should…",
             "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "Why don't you…?",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -81,16 +86,95 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You could ask your teacher for help.",
+                "ru": "Можешь попросить учителя помочь. (мягко)"
+              },
+              {
+                "en": "Why don't you take a day off?",
+                "ru": "Почему бы тебе не взять выходной? (по-дружески)"
+              },
+              {
+                "en": "If I were you, I wouldn't buy it.",
+                "ru": "На твоём месте я бы не покупал."
+              },
+              {
+                "en": "You'd better take an umbrella.",
+                "ru": "Возьми-ка зонт. (иначе промокнешь)"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Advice — неисчисляемое",
+          "preview": "a piece of advice, advise — глагол",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Слово",
+                "Что это",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "advice [ədˈvaɪs]",
+                    "совет (сущ., без a и -s)",
+                    "Can I give you some advice?"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a piece of advice",
+                    "один совет",
+                    "Here's a piece of advice."
+                  ]
+                },
+                {
+                  "cells": [
+                    "advise [ədˈvaɪz]",
+                    "советовать (глагол)",
+                    "I advise you to wait."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
       "label": "Попросить совета",
       "intro": {
-        "text": "Попросить совета можно прямо или через вопрос «а ты бы как поступил?».",
+        "text": "Попросить совета можно прямо (What should I do?) или через вопрос «а ты бы как поступил?» — What would you do?",
         "highlights": [
           {
             "text": "прямо",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "What would you do?",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -143,7 +227,36 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I've got two job offers. What should I do?", "ru": "У меня два предложения о работе. Что мне делать?"}, {"en": "If you were me, what would you do?", "ru": "Как бы ты поступил на моём месте?"}, {"en": "Do you think I should call him first?", "ru": "Думаешь, мне стоит позвонить ему первым?"}, {"en": "Can I ask your advice about something?", "ru": "Можно с тобой кое о чём посоветоваться?"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I've got two job offers. What should I do?",
+                "ru": "У меня два предложения о работе. Что мне делать?"
+              },
+              {
+                "en": "If you were me, what would you do?",
+                "ru": "Как бы ты поступил на моём месте?"
+              },
+              {
+                "en": "Do you think I should call him first?",
+                "ru": "Думаешь, мне стоит позвонить ему первым?"
+              },
+              {
+                "en": "Can I ask your advice about something?",
+                "ru": "Можно с тобой кое о чём посоветоваться?"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "label": "Ответить на совет",
@@ -205,10 +318,35 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "3 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "That's a great idea! Thanks.",
+                "ru": "Отличная идея! Спасибо."
+              },
+              {
+                "en": "Thanks, but I've already tried that.",
+                "ru": "Спасибо, но я уже пробовал."
+              },
+              {
+                "en": "Hmm, I'm not sure. I'll think about it.",
+                "ru": "Хм, не уверен. Подумаю."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: как дать совет",
+      "label": "Чего не говорить: an advice, should to",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -230,19 +368,19 @@
             },
             {
               "wrong": "You should to rest.",
-              "right": "You should rest."
+              "right": "You should rest. (после should — без to)"
             },
             {
               "wrong": "Why you don't call her?",
-              "right": "Why don't you call her?"
+              "right": "Why don't you call her? (вопрос — don't перед you)"
             },
             {
               "wrong": "I advise you go.",
-              "right": "I advise you to go."
+              "right": "I advise you to go. (advise + to)"
             },
             {
               "wrong": "You had better to go.",
-              "right": "You'd better go."
+              "right": "You'd better go. (после better — без to)"
             }
           ]
         }
