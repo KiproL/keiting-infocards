@@ -3,7 +3,7 @@
   "route": "cards_bank",
   "slides": [
     {
-      "label": "Счёт и карта",
+      "label": "Счёт и карта: I'd like to open an account",
       "intro": {
         "text": "В банке почти все просьбы начинаются с I'd like to… — так звучит вежливо и по делу.",
         "highlights": [
@@ -68,10 +68,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'd like to set up online banking.",
+                "ru": "Я хочу подключить онлайн-банк."
+              },
+              {
+                "en": "My card was declined.",
+                "ru": "Мою карту отклонили."
+              },
+              {
+                "en": "Can I change my PIN?",
+                "ru": "Можно сменить пин-код?"
+              },
+              {
+                "en": "I don't recognise this payment.",
+                "ru": "Я не узнаю этот платёж."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Деньги",
+      "label": "Деньги: withdraw, transfer, fee",
       "intro": {
         "text": "Слова, без которых не обойтись в банке и у банкомата.",
         "highlights": [
@@ -175,7 +204,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: В банке",
+      "label": "Чего не говорить: take off money, course",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -193,23 +222,23 @@
           "errors": [
             {
               "wrong": "I want to take off money.",
-              "right": "I'd like to withdraw some money."
+              "right": "I'd like to withdraw some money. (снять — withdraw)"
             },
             {
               "wrong": "What is the course?",
-              "right": "What's the exchange rate?"
+              "right": "What's the exchange rate? (курс — exchange rate)"
             },
             {
               "wrong": "My credit is 1,000 dollars. (о долге)",
-              "right": "I have a loan of 1,000 dollars."
+              "right": "I have a loan of 1,000 dollars. (кредит — loan)"
             },
             {
               "wrong": "Give me money from my account.",
-              "right": "I'd like to withdraw money from my account."
+              "right": "I'd like to withdraw money from my account. (вежливо и точно)"
             },
             {
               "wrong": "The commission is big.",
-              "right": "The fee is high."
+              "right": "The fee is high. (комиссия — fee)"
             }
           ]
         }

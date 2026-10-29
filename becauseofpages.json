@@ -3,13 +3,25 @@
   "route": "cards_becauseof",
   "slides": [
     {
-      "label": "because of + существительное",
+      "label": "Because of + существительное",
       "intro": {
         "text": "Because of — указание причины. После него идёт существительное или -ing, а не целое предложение. Это отличие от because.",
         "highlights": [
-          { "text": "Because of",  "color": "term",    "style": "bold_underline" },
-          { "text": "причины",      "color": "info",    "style": "bold" },
-          { "text": "существительное","color": "example", "style": "bold" }
+          {
+            "text": "Because of",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "причины",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "существительное",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,22 +30,117 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "because of", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "сущ. / -ing", "color": "example" }
+              {
+                "text": "because of",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "сущ. / -ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["because of", "сущ. / -ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "We stayed home because of the rain.", "ru": "Мы остались дома из-за дождя.", "parts": [["We stayed home", ""], ["because of", "because of"], ["the rain.", "сущ. / -ing"]]}, {"en": "He was late because of the traffic.", "ru": "Он опоздал из-за пробок.", "parts": [["He was late", ""], ["because of", "because of"], ["the traffic.", "сущ. / -ing"]]}, {"en": "She got tired because of working late.", "ru": "Она устала из-за того, что работала допоздна.", "parts": [["She got tired", ""], ["because of", "because of"], ["working late.", "сущ. / -ing"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "because of",
+                "сущ. / -ing"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "We stayed home because of the rain.",
+                  "ru": "Мы остались дома из-за дождя.",
+                  "parts": [
+                    [
+                      "We stayed home",
+                      ""
+                    ],
+                    [
+                      "because of",
+                      "because of"
+                    ],
+                    [
+                      "the rain.",
+                      "сущ. / -ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He was late because of the traffic.",
+                  "ru": "Он опоздал из-за пробок.",
+                  "parts": [
+                    [
+                      "He was late",
+                      ""
+                    ],
+                    [
+                      "because of",
+                      "because of"
+                    ],
+                    [
+                      "the traffic.",
+                      "сущ. / -ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She got tired because of working late.",
+                  "ru": "Она устала из-за того, что работала допоздна.",
+                  "parts": [
+                    [
+                      "She got tired",
+                      ""
+                    ],
+                    [
+                      "because of",
+                      "because of"
+                    ],
+                    [
+                      "working late.",
+                      "сущ. / -ing"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Because vs Because of",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Что после", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Что после",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["because",     "целое предложение", "I stayed home because it was raining."] },
-              { "cells": ["because of",  "сущ. или -ing",      "I stayed home because of the rain."] }
+              {
+                "cells": [
+                  "because",
+                  "целое предложение",
+                  "I stayed home because it was raining."
+                ]
+              },
+              {
+                "cells": [
+                  "because of",
+                  "сущ. или -ing",
+                  "I stayed home because of the rain."
+                ]
+              }
             ],
             "borderColor": "info"
           },
@@ -47,21 +154,90 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I was late because of the traffic.",       "ru": "Я опоздал из-за пробок." },
-            { "en": "She missed the flight because of the snow.","ru": "Она опоздала на рейс из-за снега." },
-            { "en": "We couldn't sleep because of the noise.",   "ru": "Мы не могли спать из-за шума." },
-            { "en": "He lost the game because of his mistake.",  "ru": "Он проиграл из-за своей ошибки." }
+            {
+              "en": "I was late because of the traffic.",
+              "ru": "Я опоздал из-за пробок."
+            },
+            {
+              "en": "She missed the flight because of the snow.",
+              "ru": "Она опоздала на рейс из-за снега."
+            },
+            {
+              "en": "We couldn't sleep because of the noise.",
+              "ru": "Мы не могли спать из-за шума."
+            },
+            {
+              "en": "He lost the game because of his mistake.",
+              "ru": "Он проиграл из-за своей ошибки."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Due to, thanks to, owing to",
+          "preview": "другие «из-за»",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Оборот",
+                "Оттенок",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "because of",
+                    "нейтрально",
+                    "because of the rain"
+                  ]
+                },
+                {
+                  "cells": [
+                    "due to",
+                    "официально",
+                    "delayed due to fog"
+                  ]
+                },
+                {
+                  "cells": [
+                    "thanks to",
+                    "благодаря (хорошее)",
+                    "thanks to your help"
+                  ]
+                },
+                {
+                  "cells": [
+                    "owing to",
+                    "книжно",
+                    "owing to bad weather"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Because of",
+      "label": "Частые ошибки: because of + предложение",
       "intro": {
         "text": "Три самые частые ошибки в because of.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -69,9 +245,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I was late because of it was raining.",  "right": "I was late because of the rain." },
-            { "wrong": "Because of it was cold, we stayed home.", "right": "Because of the cold, we stayed home." },
-            { "wrong": "I stayed home because of it rained.",     "right": "I stayed home because it rained. / because of the rain." }
+            {
+              "wrong": "I was late because of it was raining.",
+              "right": "I was late because of the rain. (после of — существительное)"
+            },
+            {
+              "wrong": "Because of it was cold, we stayed home.",
+              "right": "Because of the cold, we stayed home. (или Because it was cold)"
+            },
+            {
+              "wrong": "I stayed home because of it rained.",
+              "right": "I stayed home because it rained. / because of the rain. (с предложением — because)"
+            }
           ]
         },
         {

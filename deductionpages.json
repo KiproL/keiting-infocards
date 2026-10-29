@@ -88,13 +88,120 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["must / might / can't", "be / глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "He must be at home.", "ru": "Он, должно быть, дома.", "parts": [["He", ""], ["must", "must / might / can't"], ["be", "be / глагол"], ["at home.", ""]]}, {"en": "She might know the answer.", "ru": "Она, может быть, знает ответ.", "parts": [["She", ""], ["might", "must / might / can't"], ["know", "be / глагол"], ["the answer.", ""]]}, {"en": "That can't be true.", "ru": "Не может быть, что это правда.", "parts": [["That", ""], ["can't", "must / might / can't"], ["be", "be / глагол"], ["true.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "must / might / can't",
+                "be / глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "He must be at home.",
+                  "ru": "Он, должно быть, дома.",
+                  "parts": [
+                    [
+                      "He",
+                      ""
+                    ],
+                    [
+                      "must",
+                      "must / might / can't"
+                    ],
+                    [
+                      "be",
+                      "be / глагол"
+                    ],
+                    [
+                      "at home.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She might know the answer.",
+                  "ru": "Она, может быть, знает ответ.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "might",
+                      "must / might / can't"
+                    ],
+                    [
+                      "know",
+                      "be / глагол"
+                    ],
+                    [
+                      "the answer.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "That can't be true.",
+                  "ru": "Не может быть, что это правда.",
+                  "parts": [
+                    [
+                      "That",
+                      ""
+                    ],
+                    [
+                      "can't",
+                      "must / might / can't"
+                    ],
+                    [
+                      "be",
+                      "be / глагол"
+                    ],
+                    [
+                      "true.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You must be Anna's brother — you look so alike.",
+                "ru": "Ты, наверное, брат Анны — вы так похожи."
+              },
+              {
+                "en": "The keys might be in the car.",
+                "ru": "Ключи, может быть, в машине."
+              },
+              {
+                "en": "This can't be the right address.",
+                "ru": "Не может быть, что это тот адрес."
+              },
+              {
+                "en": "She may know the answer.",
+                "ru": "Она, возможно, знает ответ."
+              }
+            ]
           }
         }
       ]
     },
     {
-      "label": "Must и can't",
+      "label": "Must и can't: наверняка да и наверняка нет",
       "intro": {
         "text": "Must и can't — пара противоположностей. Must = «наверняка да», can't = «наверняка нет». Mustn't для догадок не используют — он значит «нельзя».",
         "highlights": [
@@ -147,10 +254,39 @@
             "text": "He mustn't be at work значит «ему нельзя быть на работе». «Не может быть, что он на работе» — He can't be at work."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She's wearing a ring. She must be married.", "ru": "Она в кольце. Наверняка замужем."}, {"en": "It can't be ten o'clock already!", "ru": "Не может быть, что уже десять!"}, {"en": "He must be rich — look at his car.", "ru": "Он, должно быть, богат — посмотри на его машину."}, {"en": "You can't be hungry. We've just had lunch.", "ru": "Не может быть, что ты голоден. Мы только что пообедали."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She's wearing a ring. She must be married.",
+                "ru": "Она в кольце. Наверняка замужем."
+              },
+              {
+                "en": "It can't be ten o'clock already!",
+                "ru": "Не может быть, что уже десять!"
+              },
+              {
+                "en": "He must be rich — look at his car.",
+                "ru": "Он, должно быть, богат — посмотри на его машину."
+              },
+              {
+                "en": "You can't be hungry. We've just had lunch.",
+                "ru": "Не может быть, что ты голоден. Мы только что пообедали."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Might, may, could",
+      "label": "Might, may, could: возможно",
       "intro": {
         "text": "Might, may и could — «возможно», 50 на 50. Отрицание — might not / may not («возможно, нет»). Couldn't в догадке значит «никак не может», почти как can't.",
         "highlights": [
@@ -198,10 +334,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'm not sure, but she might be at the gym.", "ru": "Не уверен, но она, может быть, в спортзале."}, {"en": "The shop may not be open on Sunday.", "ru": "В воскресенье магазин, возможно, закрыт."}, {"en": "It could be a mistake.", "ru": "Это вполне может быть ошибкой."}, {"en": "He couldn't be more than thirty.", "ru": "Ему никак не больше тридцати."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm not sure, but she might be at the gym.",
+                "ru": "Не уверен, но она, может быть, в спортзале."
+              },
+              {
+                "en": "The shop may not be open on Sunday.",
+                "ru": "В воскресенье магазин, возможно, закрыт."
+              },
+              {
+                "en": "It could be a mistake.",
+                "ru": "Это вполне может быть ошибкой."
+              },
+              {
+                "en": "He couldn't be more than thirty.",
+                "ru": "Ему никак не больше тридцати."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Прямо сейчас",
+      "label": "Догадка о «прямо сейчас»: must be doing",
       "intro": {
         "text": "Если догадка о том, что происходит в этот момент, после модального ставят be + -ing: She must be sleeping — «она, наверное, спит».",
         "highlights": [
@@ -236,7 +401,94 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["must / might / can't", "be", "-ing"], "decoys": ["have", "V3"], "examples": [{"en": "They must be sleeping.", "ru": "Они, должно быть, спят.", "parts": [["They", ""], ["must", "must / might / can't"], ["be", "be"], ["sleeping.", "-ing"]]}, {"en": "She might be working late.", "ru": "Она, возможно, работает допоздна.", "parts": [["She", ""], ["might", "must / might / can't"], ["be", "be"], ["working", "-ing"], ["late.", ""]]}, {"en": "He can't be driving — his car is here.", "ru": "Не может быть, что он за рулём — его машина здесь.", "parts": [["He", ""], ["can't", "must / might / can't"], ["be", "be"], ["driving", "-ing"], ["— his car is here.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "must / might / can't",
+                "be",
+                "-ing"
+              ],
+              "decoys": [
+                "have",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "They must be sleeping.",
+                  "ru": "Они, должно быть, спят.",
+                  "parts": [
+                    [
+                      "They",
+                      ""
+                    ],
+                    [
+                      "must",
+                      "must / might / can't"
+                    ],
+                    [
+                      "be",
+                      "be"
+                    ],
+                    [
+                      "sleeping.",
+                      "-ing"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She might be working late.",
+                  "ru": "Она, возможно, работает допоздна.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "might",
+                      "must / might / can't"
+                    ],
+                    [
+                      "be",
+                      "be"
+                    ],
+                    [
+                      "working",
+                      "-ing"
+                    ],
+                    [
+                      "late.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "He can't be driving — his car is here.",
+                  "ru": "Не может быть, что он за рулём — его машина здесь.",
+                  "parts": [
+                    [
+                      "He",
+                      ""
+                    ],
+                    [
+                      "can't",
+                      "must / might / can't"
+                    ],
+                    [
+                      "be",
+                      "be"
+                    ],
+                    [
+                      "driving",
+                      "-ing"
+                    ],
+                    [
+                      "— his car is here.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -266,10 +518,39 @@
             "text": "Догадки о прошлом — must have done, can't have done. Это карточка «Should have — следовало»."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Don't call now — she might be sleeping.", "ru": "Не звони сейчас — она, может быть, спит."}, {"en": "He must be working late again.", "ru": "Он, наверное, опять задерживается на работе."}, {"en": "They can't be playing outside — it's raining.", "ru": "Не может быть, что они играют на улице — идёт дождь."}, {"en": "Listen! Someone must be knocking.", "ru": "Слышишь? Кто-то, наверное, стучит."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Don't call now — she might be sleeping.",
+                "ru": "Не звони сейчас — она, может быть, спит."
+              },
+              {
+                "en": "He must be working late again.",
+                "ru": "Он, наверное, опять задерживается на работе."
+              },
+              {
+                "en": "They can't be playing outside — it's raining.",
+                "ru": "Не может быть, что они играют на улице — идёт дождь."
+              },
+              {
+                "en": "Listen! Someone must be knocking.",
+                "ru": "Слышишь? Кто-то, наверное, стучит."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Must be, can't be — догадки",
+      "label": "Частые ошибки: mustn't вместо can't",
       "intro": {
         "text": "Самые частые ошибки — и как сказать правильно.",
         "highlights": [
@@ -287,23 +568,23 @@
           "errors": [
             {
               "wrong": "He mustn't be at home — the car is gone.",
-              "right": "He can't be at home — the car is gone."
+              "right": "He can't be at home — the car is gone. (mustn't — запрет, не догадка)"
             },
             {
               "wrong": "She must to be tired.",
-              "right": "She must be tired."
+              "right": "She must be tired. (после must — без to)"
             },
             {
               "wrong": "It can be true. (догадка «возможно»)",
-              "right": "It might be true. / It could be true."
+              "right": "It might be true. / It could be true. (в догадке — might / could)"
             },
             {
               "wrong": "They must be sleep.",
-              "right": "They must be sleeping."
+              "right": "They must be sleeping. (процесс — be + -ing)"
             },
             {
               "wrong": "Maybe he must be busy.",
-              "right": "He must be busy. / Maybe he's busy."
+              "right": "He must be busy. / Maybe he's busy. (одна догадка — одно слово)"
             }
           ]
         }

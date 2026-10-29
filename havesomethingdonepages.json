@@ -3,7 +3,7 @@
   "route": "cards_havesomethingdone",
   "slides": [
     {
-      "label": "have it done: делает кто-то другой",
+      "label": "Have something done: делает кто-то другой",
       "intro": {
         "text": "Have something done — когда работу делает кто-то другой для тебя: I had my hair cut — меня подстригли. Без этой конструкции выйдет, будто ты всё сделал сам.",
         "highlights": [
@@ -51,7 +51,90 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["have", "что", "V3"], "decoys": ["V-ing", "to"], "examples": [{"en": "I had my car washed.", "ru": "Мне помыли машину.", "parts": [["I", ""], ["had", "have"], ["my car", "что"], ["washed.", "V3"]]}, {"en": "She has her nails done every week.", "ru": "Ей делают маникюр каждую неделю.", "parts": [["She", ""], ["has", "have"], ["her nails", "что"], ["done", "V3"], ["every week.", ""]]}, {"en": "We are having the kitchen repaired.", "ru": "Нам ремонтируют кухню.", "parts": [["We", ""], ["are having", "have"], ["the kitchen", "что"], ["repaired.", "V3"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "have",
+                "что",
+                "V3"
+              ],
+              "decoys": [
+                "V-ing",
+                "to"
+              ],
+              "examples": [
+                {
+                  "en": "I had my car washed.",
+                  "ru": "Мне помыли машину.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "have"
+                    ],
+                    [
+                      "my car",
+                      "что"
+                    ],
+                    [
+                      "washed.",
+                      "V3"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She has her nails done every week.",
+                  "ru": "Ей делают маникюр каждую неделю.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "has",
+                      "have"
+                    ],
+                    [
+                      "her nails",
+                      "что"
+                    ],
+                    [
+                      "done",
+                      "V3"
+                    ],
+                    [
+                      "every week.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We are having the kitchen repaired.",
+                  "ru": "Нам ремонтируют кухню.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "are having",
+                      "have"
+                    ],
+                    [
+                      "the kitchen",
+                      "что"
+                    ],
+                    [
+                      "repaired.",
+                      "V3"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -70,10 +153,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'm having my teeth checked tomorrow.", "ru": "Завтра мне проверяют зубы."}, {"en": "We had the windows cleaned last week.", "ru": "На прошлой неделе нам помыли окна."}, {"en": "She has her nails done every month.", "ru": "Она каждый месяц делает маникюр (у мастера)."}, {"en": "You should have your eyes tested.", "ru": "Тебе стоит проверить зрение."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm having my teeth checked tomorrow.",
+                "ru": "Завтра мне проверяют зубы."
+              },
+              {
+                "en": "We had the windows cleaned last week.",
+                "ru": "На прошлой неделе нам помыли окна."
+              },
+              {
+                "en": "She has her nails done every month.",
+                "ru": "Она каждый месяц делает маникюр (у мастера)."
+              },
+              {
+                "en": "You should have your eyes tested.",
+                "ru": "Тебе стоит проверить зрение."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Во всех временах",
+      "label": "Во всех временах: меняется только have",
       "intro": {
         "text": "Время меняется только у have, а V3 остаётся: I have / had / will have / am having my car repaired.",
         "highlights": [
@@ -154,7 +266,7 @@
       ]
     },
     {
-      "label": "Get something done",
+      "label": "Get something done и неприятности",
       "intro": {
         "text": "В разговоре вместо have часто говорят get: I need to get my hair cut. Смысл тот же, звучит чуть проще.",
         "highlights": [
@@ -198,10 +310,39 @@
             "text": "Конструкция бывает и о том, что случилось против твоей воли: She had her bag stolen — у неё украли сумку."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I need to get my phone repaired.", "ru": "Мне нужно отдать телефон в ремонт."}, {"en": "Where do you get your hair cut?", "ru": "Где ты стрижёшься?"}, {"en": "We got the kitchen painted last month.", "ru": "В прошлом месяце нам покрасили кухню."}, {"en": "He had his wallet stolen on holiday.", "ru": "В отпуске у него украли кошелёк."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I need to get my phone repaired.",
+                "ru": "Мне нужно отдать телефон в ремонт."
+              },
+              {
+                "en": "Where do you get your hair cut?",
+                "ru": "Где ты стрижёшься?"
+              },
+              {
+                "en": "We got the kitchen painted last month.",
+                "ru": "В прошлом месяце нам покрасили кухню."
+              },
+              {
+                "en": "He had his wallet stolen on holiday.",
+                "ru": "В отпуске у него украли кошелёк."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Have something done",
+      "label": "Частые ошибки: had repaired my car",
       "intro": {
         "text": "Самые частые ошибки с have something done.",
         "highlights": [
@@ -219,23 +360,23 @@
           "errors": [
             {
               "wrong": "I cut my hair at the hairdresser's.",
-              "right": "I had my hair cut at the hairdresser's."
+              "right": "I had my hair cut at the hairdresser's. (стриг мастер)"
             },
             {
               "wrong": "I had repaired my car. (мне починили)",
-              "right": "I had my car repaired."
+              "right": "I had my car repaired. (предмет — перед V3)"
             },
             {
               "wrong": "I'm having repaired my car.",
-              "right": "I'm having my car repaired."
+              "right": "I'm having my car repaired. (порядок: have + что + V3)"
             },
             {
               "wrong": "I had stolen my bag.",
-              "right": "I had my bag stolen."
+              "right": "I had my bag stolen. (у меня украли — have + что + V3)"
             },
             {
               "wrong": "I want to make my nails.",
-              "right": "I want to have my nails done."
+              "right": "I want to have my nails done. (делает мастер)"
             }
           ]
         }

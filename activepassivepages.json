@@ -3,14 +3,25 @@
   "route": "cards_activepassive",
   "slides": [
     {
-      "label": "Что такое залог",
+      "label": "Залог: кто делает и с кем делают",
       "intro": {
-        "text": "Залог показывает, кто выполняет действие, а кто его испытывает на себе. В активном залоге подлежащее само совершает действие, в пассивном — подлежащее получает действие со стороны.",
+        "text": "Залог показывает, кто в центре. В активном подлежащее само действует: The chef cooks dinner. В пассивном с подлежащим что-то делают: Dinner is cooked — ужин готовят.",
         "highlights": [
-          { "text": "кто выполняет действие", "color": "info",    "style": "bold" },
-          { "text": "испытывает на себе",      "color": "term",    "style": "bold" },
-          { "text": "активном",                "color": "example", "style": "bold_underline" },
-          { "text": "пассивном",               "color": "accent2", "style": "bold_underline" }
+          {
+            "text": "кто в центре",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "активном",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "пассивном",
+            "color": "accent2",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -20,27 +31,136 @@
           "formulas": [
             {
               "parts": [
-                { "text": "Subject", "color": "example" },
-                { "text": "+",       "color": "muted" },
-                { "text": "Verb",    "color": "info" },
-                { "text": "+",       "color": "muted" },
-                { "text": "Object",  "color": "example" },
-                { "text": "=",       "color": "muted" },
-                { "text": "Active",  "color": "good" }
+                {
+                  "text": "Subject",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "Verb",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "Object",
+                  "color": "example"
+                },
+                {
+                  "text": "=",
+                  "color": "muted"
+                },
+                {
+                  "text": "Active",
+                  "color": "good"
+                }
               ],
               "accentColor": "good"
             },
             {
               "parts": [
-                { "text": "Object",      "color": "example" },
-                { "text": "+",           "color": "muted" },
-                { "text": "be + V3",     "color": "term" },
-                { "text": "+",           "color": "muted" },
-                { "text": "(by Subject)","color": "muted" },
-                { "text": "=",           "color": "muted" },
-                { "text": "Passive",     "color": "accent2" }
+                {
+                  "text": "Object",
+                  "color": "example"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "be + V3",
+                  "color": "term"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "(by Subject)",
+                  "color": "muted"
+                },
+                {
+                  "text": "=",
+                  "color": "muted"
+                },
+                {
+                  "text": "Passive",
+                  "color": "accent2"
+                }
               ],
-              "accentColor": "accent2", "drill": {"slots": ["Object", "be + V3", "(by Subject)"], "decoys": ["V-ing", "will"], "examples": [{"en": "The house was built by my grandfather.", "ru": "Дом построил мой дедушка.", "parts": [["The house", "Object"], ["was built", "be + V3"], ["by my grandfather.", "(by Subject)"]]}, {"en": "The letters are sorted by machines.", "ru": "Письма сортируют машины.", "parts": [["The letters", "Object"], ["are sorted", "be + V3"], ["by machines.", "(by Subject)"]]}, {"en": "This song was written by Lennon.", "ru": "Эту песню написал Леннон.", "parts": [["This song", "Object"], ["was written", "be + V3"], ["by Lennon.", "(by Subject)"]]}]}
+              "accentColor": "accent2",
+              "drill": {
+                "slots": [
+                  "Object",
+                  "be + V3",
+                  "(by Subject)"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "will"
+                ],
+                "examples": [
+                  {
+                    "en": "The house was built by my grandfather.",
+                    "ru": "Дом построил мой дедушка.",
+                    "parts": [
+                      [
+                        "The house",
+                        "Object"
+                      ],
+                      [
+                        "was built",
+                        "be + V3"
+                      ],
+                      [
+                        "by my grandfather.",
+                        "(by Subject)"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "The letters are sorted by machines.",
+                    "ru": "Письма сортируют машины.",
+                    "parts": [
+                      [
+                        "The letters",
+                        "Object"
+                      ],
+                      [
+                        "are sorted",
+                        "be + V3"
+                      ],
+                      [
+                        "by machines.",
+                        "(by Subject)"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "This song was written by Lennon.",
+                    "ru": "Эту песню написал Леннон.",
+                    "parts": [
+                      [
+                        "This song",
+                        "Object"
+                      ],
+                      [
+                        "was written",
+                        "be + V3"
+                      ],
+                      [
+                        "by Lennon.",
+                        "(by Subject)"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -48,11 +168,31 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Залог", "Пример", "Кто в центре"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Залог",
+              "Пример",
+              "Кто в центре"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Active",  "The chef cooks the dinner.",        "повар — действует"] },
-              { "cells": ["Passive", "The dinner is cooked by the chef.", "ужин — получает действие"] }
+              {
+                "cells": [
+                  "Active",
+                  "The chef cooks the dinner.",
+                  "повар — действует"
+                ]
+              },
+              {
+                "cells": [
+                  "Passive",
+                  "The dinner is cooked by the chef.",
+                  "ужин — получает действие"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -61,28 +201,58 @@
           "title": "Active — активный",
           "borderColor": "example",
           "examples": [
-            { "en": "The chef cooks the dinner.",  "ru": "Повар готовит ужин. (повар — действующее лицо)" },
-            { "en": "My mother baked this cake.",   "ru": "Мама испекла этот торт." },
-            { "en": "Shakespeare wrote Hamlet.",    "ru": "Шекспир написал «Гамлета»." }
+            {
+              "en": "The chef cooks the dinner.",
+              "ru": "Повар готовит ужин. (повар — действующее лицо)"
+            },
+            {
+              "en": "My mother baked this cake.",
+              "ru": "Мама испекла этот торт."
+            },
+            {
+              "en": "Shakespeare wrote Hamlet.",
+              "ru": "Шекспир написал «Гамлета»."
+            }
           ]
         },
         {
           "title": "Passive — пассивный",
           "borderColor": "term",
           "examples": [
-            { "en": "The dinner is cooked by the chef.",  "ru": "Ужин готовится поваром." },
-            { "en": "This cake was baked by my mother.",  "ru": "Этот торт испечён моей мамой." },
-            { "en": "Hamlet was written by Shakespeare.", "ru": "«Гамлет» написан Шекспиром." }
+            {
+              "en": "The dinner is cooked by the chef.",
+              "ru": "Ужин готовится поваром."
+            },
+            {
+              "en": "This cake was baked by my mother.",
+              "ru": "Этот торт испечён моей мамой."
+            },
+            {
+              "en": "Hamlet was written by Shakespeare.",
+              "ru": "«Гамлет» написан Шекспиром."
+            }
           ]
         },
         {
           "title": "Зачем нужен пассив",
           "borderColor": "good",
           "bullets": [
-            { "text": "Исполнитель неизвестен: My bike was stolen.",                 "color": "example" },
-            { "text": "Исполнитель неважен: English is spoken all over the world.",    "color": "info" },
-            { "text": "Официальный или научный стиль: The bridge was built in 1990.",  "color": "term" },
-            { "text": "Хотим подчеркнуть результат, а не того, кто его сделал.",       "color": "accent2" }
+            {
+              "text": "Исполнитель неизвестен: My bike was stolen.",
+              "color": "example"
+            },
+            {
+              "text": "Исполнитель неважен: English is spoken all over the world.",
+              "color": "info"
+            },
+            {
+              "text": "Официальный или научный стиль: The bridge was built in 1990.",
+              "color": "term"
+            },
+            {
+              "text": "Хотим подчеркнуть результат, а не того, кто его сделал.",
+              "color": "accent2"
+            }
           ]
         },
         {
@@ -96,15 +266,26 @@
         }
       ]
     },
-
     {
-      "label": "Пассив в разных временах",
+      "label": "Пассив во всех временах: be + V3",
       "intro": {
         "text": "Формула be + V3 неизменна. Меняется только форма be — она и показывает время всего предложения.",
         "highlights": [
-          { "text": "be + V3",        "color": "term",    "style": "bold_underline" },
-          { "text": "только форма be","color": "info",    "style": "bold" },
-          { "text": "время",          "color": "example", "style": "bold" }
+          {
+            "text": "be + V3",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "только форма be",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "время",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -112,17 +293,73 @@
           "title": "Таблица всех времён",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Active", "Passive"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Active",
+              "Passive"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Present Simple",     "writes",      "is / are written"] },
-              { "cells": ["Past Simple",        "wrote",       "was / were written"] },
-              { "cells": ["Present Continuous", "is writing",  "is being written"] },
-              { "cells": ["Past Continuous",    "was writing", "was being written"] },
-              { "cells": ["Present Perfect",    "has written", "has been written"] },
-              { "cells": ["Past Perfect",       "had written", "had been written"] },
-              { "cells": ["Future Simple",      "will write",  "will be written"] },
-              { "cells": ["Modal",              "can write",   "can be written"] }
+              {
+                "cells": [
+                  "Present Simple",
+                  "writes",
+                  "is / are written"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Simple",
+                  "wrote",
+                  "was / were written"
+                ]
+              },
+              {
+                "cells": [
+                  "Present Continuous",
+                  "is writing",
+                  "is being written"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Continuous",
+                  "was writing",
+                  "was being written"
+                ]
+              },
+              {
+                "cells": [
+                  "Present Perfect",
+                  "has written",
+                  "has been written"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Perfect",
+                  "had written",
+                  "had been written"
+                ]
+              },
+              {
+                "cells": [
+                  "Future Simple",
+                  "will write",
+                  "will be written"
+                ]
+              },
+              {
+                "cells": [
+                  "Modal",
+                  "can write",
+                  "can be written"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -131,10 +368,22 @@
           "title": "Примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "This house was built in 1920.",    "ru": "Этот дом был построен в 1920 году." },
-            { "en": "The report is being checked now.",  "ru": "Отчёт сейчас проверяется." },
-            { "en": "The work has been finished.",       "ru": "Работа завершена." },
-            { "en": "The letter will be sent tomorrow.", "ru": "Письмо будет отправлено завтра." }
+            {
+              "en": "This house was built in 1920.",
+              "ru": "Этот дом был построен в 1920 году."
+            },
+            {
+              "en": "The report is being checked now.",
+              "ru": "Отчёт сейчас проверяется."
+            },
+            {
+              "en": "The work has been finished.",
+              "ru": "Работа завершена."
+            },
+            {
+              "en": "The letter will be sent tomorrow.",
+              "ru": "Письмо будет отправлено завтра."
+            }
           ]
         },
         {
@@ -148,15 +397,26 @@
         }
       ]
     },
-
     {
-      "label": "Как превратить Active → Passive",
+      "label": "Active → Passive за три шага",
       "intro": {
         "text": "Три шага: объект становится подлежащим, глагол меняется на be + V3, исполнитель уходит в конец с предлогом by.",
         "highlights": [
-          { "text": "Три шага", "color": "term",    "style": "bold_underline" },
-          { "text": "be + V3",  "color": "info",    "style": "bold" },
-          { "text": "by",       "color": "example", "style": "bold" }
+          {
+            "text": "Три шага",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "be + V3",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "by",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -176,13 +436,39 @@
           "title": "Пример превращения",
           "borderColor": "good",
           "table": {
-            "headers": ["Active", "Passive"],
-            "headerColors": ["info", "term"],
+            "headers": [
+              "Active",
+              "Passive"
+            ],
+            "headerColors": [
+              "info",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Shakespeare wrote Hamlet.",           "Hamlet was written by Shakespeare."] },
-              { "cells": ["They are building a new bridge.",      "A new bridge is being built (by them)."] },
-              { "cells": ["Someone has stolen my phone.",         "My phone has been stolen. (someone опускается)"] },
-              { "cells": ["The chef cooks dinner every evening.", "Dinner is cooked every evening."] }
+              {
+                "cells": [
+                  "Shakespeare wrote Hamlet.",
+                  "Hamlet was written by Shakespeare."
+                ]
+              },
+              {
+                "cells": [
+                  "They are building a new bridge.",
+                  "A new bridge is being built (by them)."
+                ]
+              },
+              {
+                "cells": [
+                  "Someone has stolen my phone.",
+                  "My phone has been stolen. (someone опускается)"
+                ]
+              },
+              {
+                "cells": [
+                  "The chef cooks dinner every evening.",
+                  "Dinner is cooked every evening."
+                ]
+              }
             ],
             "borderColor": "good"
           }
@@ -191,10 +477,26 @@
           "title": "Когда by остаётся, а когда убирается",
           "borderColor": "info",
           "rules": [
-            { "name": "By остаётся",  "suffix": "важная информация",       "example": "Hamlet was written by Shakespeare." },
-            { "name": "By убирается", "suffix": "исполнитель неизвестен",   "example": "My phone has been stolen." },
-            { "name": "By убирается", "suffix": "исполнитель очевиден",     "example": "He was arrested yesterday." },
-            { "name": "By убирается", "suffix": "people / they / someone",  "example": "English is spoken all over the world." }
+            {
+              "name": "By остаётся",
+              "suffix": "важная информация",
+              "example": "Hamlet was written by Shakespeare."
+            },
+            {
+              "name": "By убирается",
+              "suffix": "исполнитель неизвестен",
+              "example": "My phone has been stolen."
+            },
+            {
+              "name": "By убирается",
+              "suffix": "исполнитель очевиден",
+              "example": "He was arrested yesterday."
+            },
+            {
+              "name": "By убирается",
+              "suffix": "people / they / someone",
+              "example": "English is spoken all over the world."
+            }
           ]
         },
         {
@@ -208,15 +510,26 @@
         }
       ]
     },
-
     {
-      "label": "Пассив с двумя дополнениями",
+      "label": "Два дополнения: He was given a book",
       "intro": {
         "text": "Глаголы give, send, show, tell имеют два дополнения (кому и что), поэтому из одного активного предложения можно сделать два пассивных.",
         "highlights": [
-          { "text": "give, send, show, tell", "color": "info",    "style": "bold" },
-          { "text": "два дополнения",          "color": "term",    "style": "bold_underline" },
-          { "text": "два пассивных",            "color": "example", "style": "bold" }
+          {
+            "text": "give, send, show, tell",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "два дополнения",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "два пассивных",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -224,12 +537,38 @@
           "title": "Схема с двумя дополнениями",
           "borderColor": "info",
           "table": {
-            "headers": ["Active", "Passive 1 (человек)", "Passive 2 (предмет)"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Active",
+              "Passive 1 (человек)",
+              "Passive 2 (предмет)"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["The teacher gave the students homework.", "The students were given homework.", "Homework was given to the students."] },
-              { "cells": ["They sent him a letter.",                   "He was sent a letter.",             "A letter was sent to him."] },
-              { "cells": ["She showed me the photos.",                 "I was shown the photos.",            "The photos were shown to me."] }
+              {
+                "cells": [
+                  "The teacher gave the students homework.",
+                  "The students were given homework.",
+                  "Homework was given to the students."
+                ]
+              },
+              {
+                "cells": [
+                  "They sent him a letter.",
+                  "He was sent a letter.",
+                  "A letter was sent to him."
+                ]
+              },
+              {
+                "cells": [
+                  "She showed me the photos.",
+                  "I was shown the photos.",
+                  "The photos were shown to me."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -239,7 +578,18 @@
           "borderColor": "term",
           "verbGrid": {
             "accentColor": "info",
-            "verbs": ["give", "send", "show", "tell", "offer", "teach", "promise", "lend", "pay", "bring"]
+            "verbs": [
+              "give",
+              "send",
+              "show",
+              "tell",
+              "offer",
+              "teach",
+              "promise",
+              "lend",
+              "pay",
+              "bring"
+            ]
           }
         },
         {
@@ -251,22 +601,42 @@
             "text": "Чаще выбирают вариант, где подлежащим становится человек: The students were given homework. Это звучит естественнее."
           },
           "examples": [
-            { "en": "He was sent a letter.",        "ru": "Ему отправили письмо." },
-            { "en": "A letter was sent to him.",     "ru": "Письмо было отправлено ему." },
-            { "en": "She was shown the photos.",     "ru": "Ей показали фотографии." }
+            {
+              "en": "He was sent a letter.",
+              "ru": "Ему отправили письмо."
+            },
+            {
+              "en": "A letter was sent to him.",
+              "ru": "Письмо было отправлено ему."
+            },
+            {
+              "en": "She was shown the photos.",
+              "ru": "Ей показали фотографии."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Пассив с модальными",
+      "label": "С модальными: must be done",
       "intro": {
         "text": "С модальными глаголами формула не меняется: модальный + be + V3 — между модальным и V3 ставится be.",
         "highlights": [
-          { "text": "модальный + be + V3", "color": "term",    "style": "bold_underline" },
-          { "text": "be",                    "color": "info",    "style": "bold" },
-          { "text": "не меняется",           "color": "example", "style": "bold" }
+          {
+            "text": "модальный + be + V3",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "be",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "не меняется",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -275,45 +645,196 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "modal", "color": "info" },
-              { "text": "+",     "color": "muted" },
-              { "text": "be",    "color": "term" },
-              { "text": "+",     "color": "muted" },
-              { "text": "V3",    "color": "example" }
+              {
+                "text": "modal",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "be",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["modal", "be", "V3"], "decoys": ["V-ing", "will"], "examples": [{"en": "The work must be finished today.", "ru": "Работу нужно закончить сегодня.", "parts": [["The work", ""], ["must", "modal"], ["be", "be"], ["finished", "V3"], ["today.", ""]]}, {"en": "This letter should be sent tomorrow.", "ru": "Это письмо следует отправить завтра.", "parts": [["This letter", ""], ["should", "modal"], ["be", "be"], ["sent", "V3"], ["tomorrow.", ""]]}, {"en": "The room can be booked online.", "ru": "Номер можно забронировать онлайн.", "parts": [["The room", ""], ["can", "modal"], ["be", "be"], ["booked", "V3"], ["online.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "modal",
+                "be",
+                "V3"
+              ],
+              "decoys": [
+                "V-ing",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "The work must be finished today.",
+                  "ru": "Работу нужно закончить сегодня.",
+                  "parts": [
+                    [
+                      "The work",
+                      ""
+                    ],
+                    [
+                      "must",
+                      "modal"
+                    ],
+                    [
+                      "be",
+                      "be"
+                    ],
+                    [
+                      "finished",
+                      "V3"
+                    ],
+                    [
+                      "today.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "This letter should be sent tomorrow.",
+                  "ru": "Это письмо следует отправить завтра.",
+                  "parts": [
+                    [
+                      "This letter",
+                      ""
+                    ],
+                    [
+                      "should",
+                      "modal"
+                    ],
+                    [
+                      "be",
+                      "be"
+                    ],
+                    [
+                      "sent",
+                      "V3"
+                    ],
+                    [
+                      "tomorrow.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "The room can be booked online.",
+                  "ru": "Номер можно забронировать онлайн.",
+                  "parts": [
+                    [
+                      "The room",
+                      ""
+                    ],
+                    [
+                      "can",
+                      "modal"
+                    ],
+                    [
+                      "be",
+                      "be"
+                    ],
+                    [
+                      "booked",
+                      "V3"
+                    ],
+                    [
+                      "online.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Примеры",
           "borderColor": "example",
           "examples": [
-            { "en": "This task must be finished today.",    "ru": "Это задание должно быть закончено сегодня." },
-            { "en": "The rules should be followed.",         "ru": "Правила должны соблюдаться." },
-            { "en": "The problem can be solved.",            "ru": "Проблему можно решить." },
-            { "en": "Mistakes couldn't be avoided.",         "ru": "Ошибок нельзя было избежать." },
-            { "en": "The letter will have to be rewritten.", "ru": "Письмо придётся переписать." }
+            {
+              "en": "This task must be finished today.",
+              "ru": "Это задание должно быть закончено сегодня."
+            },
+            {
+              "en": "The rules should be followed.",
+              "ru": "Правила должны соблюдаться."
+            },
+            {
+              "en": "The problem can be solved.",
+              "ru": "Проблему можно решить."
+            },
+            {
+              "en": "Mistakes couldn't be avoided.",
+              "ru": "Ошибок нельзя было избежать."
+            },
+            {
+              "en": "The letter will have to be rewritten.",
+              "ru": "Письмо придётся переписать."
+            }
           ]
         },
         {
           "title": "Пассив с have to",
           "borderColor": "info",
           "examples": [
-            { "en": "This form has to be signed.",        "ru": "Эту форму нужно подписать." },
-            { "en": "The car had to be repaired.",         "ru": "Машину нужно было починить." },
-            { "en": "The report will have to be checked.", "ru": "Отчёт нужно будет проверить." }
+            {
+              "en": "This form has to be signed.",
+              "ru": "Эту форму нужно подписать."
+            },
+            {
+              "en": "The car had to be repaired.",
+              "ru": "Машину нужно было починить."
+            },
+            {
+              "en": "The report will have to be checked.",
+              "ru": "Отчёт нужно будет проверить."
+            }
           ]
         },
         {
           "title": "Сравнение с активным",
           "borderColor": "good",
           "table": {
-            "headers": ["Active", "Passive"],
-            "headerColors": ["info", "term"],
+            "headers": [
+              "Active",
+              "Passive"
+            ],
+            "headerColors": [
+              "info",
+              "term"
+            ],
             "rows": [
-              { "cells": ["You must finish this task today.", "This task must be finished today."] },
-              { "cells": ["They should follow the rules.",     "The rules should be followed."] },
-              { "cells": ["Someone can solve the problem.",    "The problem can be solved."] }
+              {
+                "cells": [
+                  "You must finish this task today.",
+                  "This task must be finished today."
+                ]
+              },
+              {
+                "cells": [
+                  "They should follow the rules.",
+                  "The rules should be followed."
+                ]
+              },
+              {
+                "cells": [
+                  "Someone can solve the problem.",
+                  "The problem can be solved."
+                ]
+              }
             ],
             "borderColor": "good"
           },
@@ -325,15 +846,26 @@
         }
       ]
     },
-
     {
-      "label": "Have / get + get вместо be",
+      "label": "Get вместо be и have something done",
       "intro": {
         "text": "Глагол get работает в двух ролях: как разговорная замена be в пассиве — и в каузативе have / get + V3 (have/get something done), когда действие для вас выполняет кто-то другой.",
         "highlights": [
-          { "text": "get",              "color": "accent2", "style": "bold" },
-          { "text": "have / get + V3",  "color": "term",    "style": "bold" },
-          { "text": "кто-то другой",     "color": "example", "style": "bold_underline" }
+          {
+            "text": "get",
+            "color": "accent2",
+            "style": "bold"
+          },
+          {
+            "text": "have / get + V3",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "кто-то другой",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -342,43 +874,186 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "have / get", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "предмет",    "color": "example" },
-              { "text": "+",          "color": "muted" },
-              { "text": "V3",         "color": "term" }
+              {
+                "text": "have / get",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "предмет",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "term"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["have / get", "предмет", "V3"], "decoys": ["V-ing", "will"], "examples": [{"en": "I had my hair cut yesterday.", "ru": "Вчера я подстригся.", "parts": [["I", ""], ["had", "have / get"], ["my hair", "предмет"], ["cut", "V3"], ["yesterday.", ""]]}, {"en": "We got the car repaired last week.", "ru": "На прошлой неделе нам починили машину.", "parts": [["We", ""], ["got", "have / get"], ["the car", "предмет"], ["repaired", "V3"], ["last week.", ""]]}, {"en": "She had her house painted.", "ru": "Ей покрасили дом.", "parts": [["She", ""], ["had", "have / get"], ["her house", "предмет"], ["painted.", "V3"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "have / get",
+                "предмет",
+                "V3"
+              ],
+              "decoys": [
+                "V-ing",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "I had my hair cut yesterday.",
+                  "ru": "Вчера я подстригся.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "have / get"
+                    ],
+                    [
+                      "my hair",
+                      "предмет"
+                    ],
+                    [
+                      "cut",
+                      "V3"
+                    ],
+                    [
+                      "yesterday.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We got the car repaired last week.",
+                  "ru": "На прошлой неделе нам починили машину.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "got",
+                      "have / get"
+                    ],
+                    [
+                      "the car",
+                      "предмет"
+                    ],
+                    [
+                      "repaired",
+                      "V3"
+                    ],
+                    [
+                      "last week.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She had her house painted.",
+                  "ru": "Ей покрасили дом.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "have / get"
+                    ],
+                    [
+                      "her house",
+                      "предмет"
+                    ],
+                    [
+                      "painted.",
+                      "V3"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Have / get done — заказываем услугу",
           "borderColor": "good",
           "examples": [
-            { "en": "I had my hair cut yesterday.",     "ru": "Мне вчера подстригли волосы. (не сам)" },
-            { "en": "We are having our house painted.", "ru": "Нам красят дом." },
-            { "en": "She got her nails done.",           "ru": "Ей сделали маникюр." },
-            { "en": "I need to have my car repaired.",   "ru": "Мне нужно, чтобы починили машину." }
+            {
+              "en": "I had my hair cut yesterday.",
+              "ru": "Мне вчера подстригли волосы. (не сам)"
+            },
+            {
+              "en": "We are having our house painted.",
+              "ru": "Нам красят дом."
+            },
+            {
+              "en": "She got her nails done.",
+              "ru": "Ей сделали маникюр."
+            },
+            {
+              "en": "I need to have my car repaired.",
+              "ru": "Мне нужно, чтобы починили машину."
+            }
           ]
         },
         {
           "title": "Get + V3 — разговорный пассив",
           "borderColor": "accent2",
           "examples": [
-            { "en": "He got fired last week.",                "ru": "Его уволили на прошлой неделе." },
-            { "en": "My phone got stolen on the bus.",         "ru": "У меня украли телефон в автобусе." },
-            { "en": "The window got broken during the storm.", "ru": "Окно разбилось во время шторма." }
+            {
+              "en": "He got fired last week.",
+              "ru": "Его уволили на прошлой неделе."
+            },
+            {
+              "en": "My phone got stolen on the bus.",
+              "ru": "У меня украли телефон в автобусе."
+            },
+            {
+              "en": "The window got broken during the storm.",
+              "ru": "Окно разбилось во время шторма."
+            }
           ]
         },
         {
           "title": "Be или get — что выбрать",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Тон", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Тон",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["be + V3",  "нейтральный, письменный", "The window was broken."] },
-              { "cells": ["get + V3", "разговорный, внезапность", "The window got broken."] }
+              {
+                "cells": [
+                  "be + V3",
+                  "нейтральный, письменный",
+                  "The window was broken."
+                ]
+              },
+              {
+                "cells": [
+                  "get + V3",
+                  "разговорный, внезапность",
+                  "The window got broken."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -392,22 +1067,42 @@
             "text": "Иногда get + V3 значит просто «стать»: get married, get dressed, get lost. Это уже не пассив, а обычное прилагательное после глагола-связки."
           },
           "examples": [
-            { "en": "The window got broken.",  "ru": "Пассив — окно было разбито кем-то." },
-            { "en": "They got married.",        "ru": "Не пассив — они стали женатыми." },
-            { "en": "She got dressed quickly.","ru": "Не пассив — она оделась." }
+            {
+              "en": "The window got broken.",
+              "ru": "Пассив — окно было разбито кем-то."
+            },
+            {
+              "en": "They got married.",
+              "ru": "Не пассив — они стали женатыми."
+            },
+            {
+              "en": "She got dressed quickly.",
+              "ru": "Не пассив — она оделась."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Безличный пассив",
+      "label": "Безличный пассив: It is said that",
       "intro": {
         "text": "Конструкция It is said / believed / known используется, чтобы передать общее мнение или слух без указания источника.",
         "highlights": [
-          { "text": "It is",                 "color": "info",    "style": "bold" },
-          { "text": "said / believed",        "color": "term",    "style": "bold" },
-          { "text": "без указания источника", "color": "example", "style": "bold_underline" }
+          {
+            "text": "It is",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "said / believed",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "без указания источника",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -416,13 +1111,95 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "It is", "color": "info" },
-              { "text": "+",     "color": "muted" },
-              { "text": "V3",    "color": "term" },
-              { "text": "+",     "color": "muted" },
-              { "text": "that…", "color": "example" }
+              {
+                "text": "It is",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "that…",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["It is", "V3", "that…"], "decoys": ["V-ing", "will"], "examples": [{"en": "It is believed that the house is haunted.", "ru": "Считается, что в доме водятся привидения.", "parts": [["It is", "It is"], ["believed", "V3"], ["that the house is haunted.", "that…"]]}, {"en": "It is said that he is very rich.", "ru": "Говорят, что он очень богат.", "parts": [["It is", "It is"], ["said", "V3"], ["that he is very rich.", "that…"]]}, {"en": "It is known that smoking is harmful.", "ru": "Известно, что курение вредно.", "parts": [["It is", "It is"], ["known", "V3"], ["that smoking is harmful.", "that…"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "It is",
+                "V3",
+                "that…"
+              ],
+              "decoys": [
+                "V-ing",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "It is believed that the house is haunted.",
+                  "ru": "Считается, что в доме водятся привидения.",
+                  "parts": [
+                    [
+                      "It is",
+                      "It is"
+                    ],
+                    [
+                      "believed",
+                      "V3"
+                    ],
+                    [
+                      "that the house is haunted.",
+                      "that…"
+                    ]
+                  ]
+                },
+                {
+                  "en": "It is said that he is very rich.",
+                  "ru": "Говорят, что он очень богат.",
+                  "parts": [
+                    [
+                      "It is",
+                      "It is"
+                    ],
+                    [
+                      "said",
+                      "V3"
+                    ],
+                    [
+                      "that he is very rich.",
+                      "that…"
+                    ]
+                  ]
+                },
+                {
+                  "en": "It is known that smoking is harmful.",
+                  "ru": "Известно, что курение вредно.",
+                  "parts": [
+                    [
+                      "It is",
+                      "It is"
+                    ],
+                    [
+                      "known",
+                      "V3"
+                    ],
+                    [
+                      "that smoking is harmful.",
+                      "that…"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -430,29 +1207,76 @@
           "borderColor": "info",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["said", "believed", "known", "reported", "thought", "considered", "expected", "supposed"]
+            "verbs": [
+              "said",
+              "believed",
+              "known",
+              "reported",
+              "thought",
+              "considered",
+              "expected",
+              "supposed"
+            ]
           }
         },
         {
           "title": "Примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "It is said that he is very rich.",                 "ru": "Говорят, что он очень богат." },
-            { "en": "It is believed that the treasure is still there.", "ru": "Считается, что сокровище всё ещё там." },
-            { "en": "It is known that smoking is bad for health.",      "ru": "Известно, что курение вредно." },
-            { "en": "It is reported that the roads are closed.",        "ru": "Сообщается, что дороги закрыты." }
+            {
+              "en": "It is said that he is very rich.",
+              "ru": "Говорят, что он очень богат."
+            },
+            {
+              "en": "It is believed that the treasure is still there.",
+              "ru": "Считается, что сокровище всё ещё там."
+            },
+            {
+              "en": "It is known that smoking is bad for health.",
+              "ru": "Известно, что курение вредно."
+            },
+            {
+              "en": "It is reported that the roads are closed.",
+              "ru": "Сообщается, что дороги закрыты."
+            }
           ]
         },
         {
           "title": "Альтернатива: подлежащее + is said + to",
           "borderColor": "term",
           "table": {
-            "headers": ["It-конструкция", "Альтернатива", "Перевод"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "It-конструкция",
+              "Альтернатива",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["It is said that he is rich.",           "He is said to be rich.",           "Говорят, что он богат."] },
-              { "cells": ["It is believed that the bridge is old.", "The bridge is believed to be old.", "Считается, что мост старый."] },
-              { "cells": ["It is known that she left.",             "She is known to have left.",        "Известно, что она уехала."] }
+              {
+                "cells": [
+                  "It is said that he is rich.",
+                  "He is said to be rich.",
+                  "Говорят, что он богат."
+                ]
+              },
+              {
+                "cells": [
+                  "It is believed that the bridge is old.",
+                  "The bridge is believed to be old.",
+                  "Считается, что мост старый."
+                ]
+              },
+              {
+                "cells": [
+                  "It is known that she left.",
+                  "She is known to have left.",
+                  "Известно, что она уехала."
+                ]
+              }
             ],
             "borderColor": "term"
           }
@@ -468,15 +1292,26 @@
         }
       ]
     },
-
     {
-      "label": "Когда пассив, а когда — нет",
+      "label": "Когда пассив, а когда актив",
       "intro": {
         "text": "Пассив — не значит «более грамотно». У него есть свои случаи — и есть случаи, где лучше звучит активный залог.",
         "highlights": [
-          { "text": "Пассив",        "color": "term",    "style": "bold" },
-          { "text": "не значит",      "color": "bad",     "style": "bold_underline" },
-          { "text": "активный залог", "color": "example", "style": "bold" }
+          {
+            "text": "Пассив",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не значит",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "активный залог",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -484,32 +1319,82 @@
           "title": "Используем пассив",
           "borderColor": "good",
           "bullets": [
-            { "text": "Исполнитель неизвестен: The window was broken.",                             "color": "example" },
-            { "text": "Исполнитель очевиден или неважен: Rice is grown in Asia.",                    "color": "info" },
-            { "text": "Хотим подчеркнуть результат: The museum was opened in 1900.",                  "color": "term" },
-            { "text": "Официальный, научный, новостной стиль: The experiment was conducted carefully.","color": "accent2" },
-            { "text": "Исполнитель — «все»: English is spoken in many countries.",                     "color": "example" }
+            {
+              "text": "Исполнитель неизвестен: The window was broken.",
+              "color": "example"
+            },
+            {
+              "text": "Исполнитель очевиден или неважен: Rice is grown in Asia.",
+              "color": "info"
+            },
+            {
+              "text": "Хотим подчеркнуть результат: The museum was opened in 1900.",
+              "color": "term"
+            },
+            {
+              "text": "Официальный, научный, новостной стиль: The experiment was conducted carefully.",
+              "color": "accent2"
+            },
+            {
+              "text": "Исполнитель — «все»: English is spoken in many countries.",
+              "color": "example"
+            }
           ]
         },
         {
           "title": "Предпочитаем актив",
           "borderColor": "info",
           "bullets": [
-            { "text": "Исполнитель важен и известен: My mother baked this cake.", "color": "example" },
-            { "text": "Разговорная, живая речь: звучит естественнее.",              "color": "info" },
-            { "text": "Прямое действие понятнее: The chef cooks the dinner.",        "color": "term" }
+            {
+              "text": "Исполнитель важен и известен: My mother baked this cake.",
+              "color": "example"
+            },
+            {
+              "text": "Разговорная, живая речь: звучит естественнее.",
+              "color": "info"
+            },
+            {
+              "text": "Прямое действие понятнее: The chef cooks the dinner.",
+              "color": "term"
+            }
           ]
         },
         {
           "title": "Сравнение",
           "borderColor": "term",
           "table": {
-            "headers": ["Ситуация", "Пассив", "Актив"],
-            "headerColors": ["info", "term", "example"],
+            "headers": [
+              "Ситуация",
+              "Пассив",
+              "Актив"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
             "rows": [
-              { "cells": ["Исполнитель неизвестен", "My bike was stolen.",          "Someone stole my bike."] },
-              { "cells": ["Исполнитель важен",       "The cake was baked by Mom.",   "My mom baked the cake."] },
-              { "cells": ["Научный стиль",            "The experiment was conducted.","Researchers conducted the experiment."] }
+              {
+                "cells": [
+                  "Исполнитель неизвестен",
+                  "My bike was stolen.",
+                  "Someone stole my bike."
+                ]
+              },
+              {
+                "cells": [
+                  "Исполнитель важен",
+                  "The cake was baked by Mom.",
+                  "My mom baked the cake."
+                ]
+              },
+              {
+                "cells": [
+                  "Научный стиль",
+                  "The experiment was conducted.",
+                  "Researchers conducted the experiment."
+                ]
+              }
             ],
             "borderColor": "term"
           }
@@ -530,15 +1415,26 @@
         }
       ]
     },
-
     {
-      "label": "Ошибки и глаголы без пассива",
+      "label": "Частые ошибки и глаголы без пассива",
       "intro": {
         "text": "Самые частые ошибки — включая глаголы без пассива: у них его вообще не бывает. Слева как нельзя, справа как правильно.",
         "highlights": [
-          { "text": "частые ошибки",  "color": "bad",  "style": "bold_underline" },
-          { "text": "без пассива",    "color": "term", "style": "bold" },
-          { "text": "как правильно",  "color": "good", "style": "bold" }
+          {
+            "text": "частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "без пассива",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "как правильно",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -547,11 +1443,30 @@
           "borderColor": "bad",
           "verbGrid": {
             "accentColor": "bad",
-            "verbs": ["happen", "arrive", "die", "sleep", "exist", "appear", "disappear", "fall"]
+            "verbs": [
+              "happen",
+              "arrive",
+              "die",
+              "sleep",
+              "exist",
+              "appear",
+              "disappear",
+              "fall"
+            ]
           },
           "examples": [
-            { "en": "The accident happened yesterday.", "ru": "✓ правильно",                    "icon": "check", "iconColor": "good" },
-            { "en": "The accident was happened.",        "ru": "✗ нельзя — happen непереходный", "icon": "cross", "iconColor": "bad" }
+            {
+              "en": "The accident happened yesterday.",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "The accident was happened.",
+              "ru": "✗ нельзя — happen непереходный",
+              "icon": "cross",
+              "iconColor": "bad"
+            }
           ]
         },
         {
@@ -559,13 +1474,41 @@
           "borderColor": "term",
           "verbGrid": {
             "accentColor": "term",
-            "verbs": ["have (= обладать)", "belong to", "resemble", "lack", "fit", "suit", "cost"]
+            "verbs": [
+              "have (= обладать)",
+              "belong to",
+              "resemble",
+              "lack",
+              "fit",
+              "suit",
+              "cost"
+            ]
           },
           "examples": [
-            { "en": "This car belongs to my uncle.",     "ru": "✓ правильно", "icon": "check", "iconColor": "good" },
-            { "en": "This car is belonged to my uncle.",  "ru": "✗ нельзя",    "icon": "cross", "iconColor": "bad" },
-            { "en": "Did this book cost a lot?",          "ru": "✓ правильно", "icon": "check", "iconColor": "good" },
-            { "en": "Was cost this book a lot?",           "ru": "✗ нельзя",    "icon": "cross", "iconColor": "bad" }
+            {
+              "en": "This car belongs to my uncle.",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "This car is belonged to my uncle.",
+              "ru": "✗ нельзя",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "Did this book cost a lot?",
+              "ru": "✓ правильно",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "Was cost this book a lot?",
+              "ru": "✗ нельзя",
+              "icon": "cross",
+              "iconColor": "bad"
+            }
           ]
         },
         {
@@ -581,13 +1524,34 @@
           "title": "Топ-7 ошибок",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "The letter was wrote by him.",         "right": "The letter was written by him. (нужна V3)" },
-            { "wrong": "The house is build in 1990.",           "right": "The house was built in 1990." },
-            { "wrong": "English is speaking in many countries.","right": "English is spoken in many countries." },
-            { "wrong": "The work must finished today.",        "right": "The work must be finished today." },
-            { "wrong": "I cutted my hair. (про парикмахера)",   "right": "I had my hair cut." },
-            { "wrong": "The window broke by the storm.",        "right": "The window was broken by the storm." },
-            { "wrong": "It is says that…",                      "right": "It is said that…" }
+            {
+              "wrong": "The letter was wrote by him.",
+              "right": "The letter was written by him. (нужна V3)"
+            },
+            {
+              "wrong": "The house is build in 1990.",
+              "right": "The house was built in 1990. (прошлое — was + V3)"
+            },
+            {
+              "wrong": "English is speaking in many countries.",
+              "right": "English is spoken in many countries. (пассив — V3, не -ing)"
+            },
+            {
+              "wrong": "The work must finished today.",
+              "right": "The work must be finished today. (после модального — be)"
+            },
+            {
+              "wrong": "I cutted my hair. (про парикмахера)",
+              "right": "I had my hair cut. (сделал не сам — have + V3)"
+            },
+            {
+              "wrong": "The window broke by the storm.",
+              "right": "The window was broken by the storm. (с by — пассив)"
+            },
+            {
+              "wrong": "It is says that…",
+              "right": "It is said that… (пассив — V3)"
+            }
           ]
         },
         {

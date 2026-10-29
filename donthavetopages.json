@@ -3,13 +3,25 @@
   "route": "cards_donthaveto",
   "slides": [
     {
-      "label": "don't have to: не обязательно",
+      "label": "Don't have to: не обязательно",
       "intro": {
         "text": "Don't have to — отсутствие необходимости: делать не обязательно. Ты можешь что-то сделать, но не обязан. Это не запрет, а разрешение не делать.",
         "highlights": [
-          { "text": "don't have to",   "color": "term",    "style": "bold_underline" },
-          { "text": "не обязательно",  "color": "info",    "style": "bold" },
-          { "text": "не запрет",        "color": "example", "style": "bold" }
+          {
+            "text": "don't have to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не обязательно",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "не запрет",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,24 +30,139 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "don't have to", "color": "info" },
-              { "text": "+",             "color": "muted" },
-              { "text": "глагол",        "color": "example" }
+              {
+                "text": "don't have to",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["don't have to", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "You don't have to come.", "ru": "Тебе не обязательно приходить.", "parts": [["You", ""], ["don't have to", "don't have to"], ["come.", "глагол"]]}, {"en": "We don't have to pay for this.", "ru": "Нам не нужно за это платить.", "parts": [["We", ""], ["don't have to", "don't have to"], ["pay", "глагол"], ["for this.", ""]]}, {"en": "She doesn't have to work on Sundays.", "ru": "Ей не нужно работать по воскресеньям.", "parts": [["She", ""], ["doesn't have to", "don't have to"], ["work", "глагол"], ["on Sundays.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "don't have to",
+                "глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "You don't have to come.",
+                  "ru": "Тебе не обязательно приходить.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "don't have to",
+                      "don't have to"
+                    ],
+                    [
+                      "come.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "We don't have to pay for this.",
+                  "ru": "Нам не нужно за это платить.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "don't have to",
+                      "don't have to"
+                    ],
+                    [
+                      "pay",
+                      "глагол"
+                    ],
+                    [
+                      "for this.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She doesn't have to work on Sundays.",
+                  "ru": "Ей не нужно работать по воскресеньям.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "doesn't have to",
+                      "don't have to"
+                    ],
+                    [
+                      "work",
+                      "глагол"
+                    ],
+                    [
+                      "on Sundays.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Формы",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Кому", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Кому",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["don't have to",   "I / you / we / they", "You don't have to come."] },
-              { "cells": ["doesn't have to", "he / she / it",        "He doesn't have to work."] },
-              { "cells": ["didn't have to",  "прошлое",              "I didn't have to pay."] },
-              { "cells": ["won't have to",   "будущее",              "You won't have to wait."] }
+              {
+                "cells": [
+                  "don't have to",
+                  "I / you / we / they",
+                  "You don't have to come."
+                ]
+              },
+              {
+                "cells": [
+                  "doesn't have to",
+                  "he / she / it",
+                  "He doesn't have to work."
+                ]
+              },
+              {
+                "cells": [
+                  "didn't have to",
+                  "прошлое",
+                  "I didn't have to pay."
+                ]
+              },
+              {
+                "cells": [
+                  "won't have to",
+                  "будущее",
+                  "You won't have to wait."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -49,29 +176,97 @@
             "text": "Don't have to — можешь, но не обязан. Mustn't — нельзя, запрещено."
           },
           "examples": [
-            { "en": "You don't have to come.",  "ru": "Можешь не приходить. (разрешаю)" },
-            { "en": "You mustn't come.",         "ru": "Нельзя приходить. (запрещено)" }
+            {
+              "en": "You don't have to come.",
+              "ru": "Можешь не приходить. (разрешаю)"
+            },
+            {
+              "en": "You mustn't come.",
+              "ru": "Нельзя приходить. (запрещено)"
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "You don't have to bring anything.",  "ru": "Тебе не обязательно что-то приносить." },
-            { "en": "She doesn't have to wake up early.",  "ru": "Ей не нужно рано вставать." },
-            { "en": "We didn't have to pay extra.",         "ru": "Нам не пришлось доплачивать." },
-            { "en": "You won't have to wait long.",          "ru": "Тебе не придётся долго ждать." }
+            {
+              "en": "You don't have to bring anything.",
+              "ru": "Тебе не обязательно что-то приносить."
+            },
+            {
+              "en": "She doesn't have to wake up early.",
+              "ru": "Ей не нужно рано вставать."
+            },
+            {
+              "en": "We didn't have to pay extra.",
+              "ru": "Нам не пришлось доплачивать."
+            },
+            {
+              "en": "You won't have to wait long.",
+              "ru": "Тебе не придётся долго ждать."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё способы сказать «не обязательно»",
+          "preview": "needn't, don't need to",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Оборот",
+                "Оттенок",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "don't have to",
+                    "самый частый",
+                    "You don't have to come."
+                  ]
+                },
+                {
+                  "cells": [
+                    "don't need to",
+                    "нет нужды",
+                    "You don't need to pay now."
+                  ]
+                },
+                {
+                  "cells": [
+                    "needn't",
+                    "британское, чуть книжно",
+                    "You needn't worry."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Don't have to",
+      "label": "Частые ошибки: don't must, no have to",
       "intro": {
         "text": "Три самые частые ошибки в don't have to.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -79,9 +274,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "You don't must come.",        "right": "You don't have to come." },
-            { "wrong": "I no have to pay.",            "right": "I don't have to pay." },
-            { "wrong": "You don't have to not come.",   "right": "You don't have to come." }
+            {
+              "wrong": "You don't must come.",
+              "right": "You don't have to come. (у must нет don't)"
+            },
+            {
+              "wrong": "I no have to pay.",
+              "right": "I don't have to pay. (отрицание — с don't)"
+            },
+            {
+              "wrong": "You don't have to not come.",
+              "right": "You don't have to come. (одно отрицание)"
+            }
           ]
         },
         {

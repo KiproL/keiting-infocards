@@ -3,13 +3,30 @@
   "route": "cards_futurecont",
   "slides": [
     {
-      "label": "Future Continuous: буду делать",
+      "label": "Future Continuous: «буду делать» в момент",
       "intro": {
-        "text": "Future Continuous описывает действие, которое будет в процессе в определённый момент будущего. Не «сделаю», а «буду делать».",
+        "text": "Future Continuous — действие будет идти в какой-то момент будущего: «завтра в 8 я буду ужинать». Не «сделаю», а «буду делать». Строится как will be + глагол с -ing.",
         "highlights": [
-          { "text": "Future Continuous", "color": "term",    "style": "bold_underline" },
-          { "text": "в процессе",         "color": "info",    "style": "bold" },
-          { "text": "буду делать",        "color": "example", "style": "bold" }
+          {
+            "text": "Future Continuous",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "будет идти",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "буду делать",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "will be",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,25 +35,145 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",     "color": "info" },
-              { "text": "+",     "color": "muted" },
-              { "text": "will be", "color": "term" },
-              { "text": "+",     "color": "muted" },
-              { "text": "V-ing", "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "will be",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "will be", "V-ing"], "decoys": ["V3", "will have"], "examples": [{"en": "I will be working at six tomorrow.", "ru": "Завтра в шесть я буду работать.", "parts": [["I", "S"], ["will be", "will be"], ["working", "V-ing"], ["at six tomorrow.", ""]]}, {"en": "They will be travelling all next week.", "ru": "Всю следующую неделю они будут путешествовать.", "parts": [["They", "S"], ["will be", "will be"], ["travelling", "V-ing"], ["all next week.", ""]]}, {"en": "She will be waiting for you.", "ru": "Она будет тебя ждать.", "parts": [["She", "S"], ["will be", "will be"], ["waiting", "V-ing"], ["for you.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "will be",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "will have"
+              ],
+              "examples": [
+                {
+                  "en": "I will be working at six tomorrow.",
+                  "ru": "Завтра в шесть я буду работать.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "will be",
+                      "will be"
+                    ],
+                    [
+                      "working",
+                      "V-ing"
+                    ],
+                    [
+                      "at six tomorrow.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They will be travelling all next week.",
+                  "ru": "Всю следующую неделю они будут путешествовать.",
+                  "parts": [
+                    [
+                      "They",
+                      "S"
+                    ],
+                    [
+                      "will be",
+                      "will be"
+                    ],
+                    [
+                      "travelling",
+                      "V-ing"
+                    ],
+                    [
+                      "all next week.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She will be waiting for you.",
+                  "ru": "Она будет тебя ждать.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "will be",
+                      "will be"
+                    ],
+                    [
+                      "waiting",
+                      "V-ing"
+                    ],
+                    [
+                      "for you.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Три функции",
           "borderColor": "info",
           "table": {
-            "headers": ["Функция", "Пример", "Перевод"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Функция",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Действие в моменте",   "At 8 pm I will be having dinner.",   "В 8 вечера я буду ужинать."] },
-              { "cells": ["Вежливый вопрос о планах","Will you be using the car?",       "Ты будешь пользоваться машиной?"] },
-              { "cells": ["Предположение о будущем","He will be sleeping now.",          "Он, наверное, сейчас спит."] }
+              {
+                "cells": [
+                  "Действие в моменте",
+                  "At 8 pm I will be having dinner.",
+                  "В 8 вечера я буду ужинать."
+                ]
+              },
+              {
+                "cells": [
+                  "Вежливый вопрос о планах",
+                  "Will you be using the car?",
+                  "Ты будешь пользоваться машиной?"
+                ]
+              },
+              {
+                "cells": [
+                  "Предположение о будущем",
+                  "He will be sleeping now.",
+                  "Он, наверное, сейчас спит."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -46,17 +183,36 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["at this time tomorrow", "at 5 o'clock tomorrow", "this time next week", "while", "all day tomorrow", "in an hour"]
+            "verbs": [
+              "at this time tomorrow",
+              "at 5 o'clock tomorrow",
+              "this time next week",
+              "while",
+              "all day tomorrow",
+              "in an hour"
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I will be sleeping at midnight.",              "ru": "В полночь я буду спать." },
-            { "en": "They will be traveling this time next week.",   "ru": "На следующей неделе в это время они будут путешествовать." },
-            { "en": "This time tomorrow, I will be flying to London.","ru": "Завтра в это время я буду лететь в Лондон." },
-            { "en": "In an hour, they will be landing.",              "ru": "Через час они будут приземляться." }
+            {
+              "en": "I will be sleeping at midnight.",
+              "ru": "В полночь я буду спать."
+            },
+            {
+              "en": "They will be traveling this time next week.",
+              "ru": "На следующей неделе в это время они будут путешествовать."
+            },
+            {
+              "en": "This time tomorrow, I will be flying to London.",
+              "ru": "Завтра в это время я буду лететь в Лондон."
+            },
+            {
+              "en": "In an hour, they will be landing.",
+              "ru": "Через час они будут приземляться."
+            }
           ]
         },
         {
@@ -70,14 +226,21 @@
         }
       ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
         "text": "Will be не меняется по лицам. Одна форма для всех.",
         "highlights": [
-          { "text": "will be",     "color": "term",    "style": "bold_underline" },
-          { "text": "не меняется",  "color": "info",    "style": "bold" }
+          {
+            "text": "will be",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не меняется",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -86,15 +249,30 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I / You / He / She / It / We / They", "color": "info" },
-              { "text": "+",                                   "color": "muted" },
-              { "text": "will be + V-ing",                     "color": "example" }
+              {
+                "text": "I / You / He / She / It / We / They",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "will be + V-ing",
+                "color": "example"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I will be sleeping at midnight.",              "ru": "В полночь я буду спать." },
-            { "en": "They will be traveling this time next week.",   "ru": "На следующей неделе в это время они будут путешествовать." }
+            {
+              "en": "I will be sleeping at midnight.",
+              "ru": "В полночь я буду спать."
+            },
+            {
+              "en": "They will be traveling this time next week.",
+              "ru": "На следующей неделе в это время они будут путешествовать."
+            }
           ]
         },
         {
@@ -102,17 +280,129 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "will", "color": "info" },
-              { "text": "+",    "color": "muted" },
-              { "text": "not be", "color": "bad" },
-              { "text": "+",    "color": "muted" },
-              { "text": "V-ing", "color": "example" }
+              {
+                "text": "will",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not be",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["will", "not be", "V-ing"], "decoys": ["V3", "have"], "examples": [{"en": "I will not be working tomorrow.", "ru": "Завтра я не буду работать.", "parts": [["I", ""], ["will", "will"], ["not be", "not be"], ["working", "V-ing"], ["tomorrow.", ""]]}, {"en": "She will not be using the car tonight.", "ru": "Сегодня вечером она не будет пользоваться машиной.", "parts": [["She", ""], ["will", "will"], ["not be", "not be"], ["using", "V-ing"], ["the car tonight.", ""]]}, {"en": "We will not be staying at home.", "ru": "Мы не будем сидеть дома.", "parts": [["We", ""], ["will", "will"], ["not be", "not be"], ["staying", "V-ing"], ["at home.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "will",
+                "not be",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "have"
+              ],
+              "examples": [
+                {
+                  "en": "I will not be working tomorrow.",
+                  "ru": "Завтра я не буду работать.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not be",
+                      "not be"
+                    ],
+                    [
+                      "working",
+                      "V-ing"
+                    ],
+                    [
+                      "tomorrow.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She will not be using the car tonight.",
+                  "ru": "Сегодня вечером она не будет пользоваться машиной.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not be",
+                      "not be"
+                    ],
+                    [
+                      "using",
+                      "V-ing"
+                    ],
+                    [
+                      "the car tonight.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We will not be staying at home.",
+                  "ru": "Мы не будем сидеть дома.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not be",
+                      "not be"
+                    ],
+                    [
+                      "staying",
+                      "V-ing"
+                    ],
+                    [
+                      "at home.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "She won't be working tomorrow evening.", "ru": "Она не будет работать завтра вечером." },
-            { "en": "I won't be sleeping when you arrive.",    "ru": "Я не буду спать, когда ты приедешь." }
+            {
+              "en": "She won't be working tomorrow evening.",
+              "ru": "Она не будет работать завтра вечером."
+            },
+            {
+              "en": "I won't be sleeping when you arrive.",
+              "ru": "Я не буду спать, когда ты приедешь."
+            }
           ]
         },
         {
@@ -120,45 +410,182 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Will", "color": "info" },
-              { "text": "+",    "color": "muted" },
-              { "text": "S",    "color": "example" },
-              { "text": "+",    "color": "muted" },
-              { "text": "be + V-ing?", "color": "term" }
+              {
+                "text": "Will",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "be + V-ing?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Will", "S", "be + V-ing?"], "decoys": ["Do", "have + V3?"], "examples": [{"en": "Will you be using the car tonight?", "ru": "Ты будешь пользоваться машиной сегодня вечером?", "parts": [["Will", "Will"], ["you", "S"], ["be using", "be + V-ing?"], ["the car tonight?", ""]]}, {"en": "Will she be working tomorrow?", "ru": "Она завтра будет работать?", "parts": [["Will", "Will"], ["she", "S"], ["be working", "be + V-ing?"], ["tomorrow?", ""]]}, {"en": "Will they be staying at the hotel?", "ru": "Они будут жить в гостинице?", "parts": [["Will", "Will"], ["they", "S"], ["be staying", "be + V-ing?"], ["at the hotel?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Will",
+                "S",
+                "be + V-ing?"
+              ],
+              "decoys": [
+                "Do",
+                "have + V3?"
+              ],
+              "examples": [
+                {
+                  "en": "Will you be using the car tonight?",
+                  "ru": "Ты будешь пользоваться машиной сегодня вечером?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "be using",
+                      "be + V-ing?"
+                    ],
+                    [
+                      "the car tonight?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Will she be working tomorrow?",
+                  "ru": "Она завтра будет работать?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "be working",
+                      "be + V-ing?"
+                    ],
+                    [
+                      "tomorrow?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Will they be staying at the hotel?",
+                  "ru": "Они будут жить в гостинице?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "they",
+                      "S"
+                    ],
+                    [
+                      "be staying",
+                      "be + V-ing?"
+                    ],
+                    [
+                      "at the hotel?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Will you be using the car tonight?",         "ru": "Ты будешь пользоваться машиной сегодня вечером?" },
-            { "en": "What will you be doing at 8 pm tomorrow?",    "ru": "Что ты будешь делать завтра в 8 вечера?" }
+            {
+              "en": "Will you be using the car tonight?",
+              "ru": "Ты будешь пользоваться машиной сегодня вечером?"
+            },
+            {
+              "en": "What will you be doing at 8 pm tomorrow?",
+              "ru": "Что ты будешь делать завтра в 8 вечера?"
+            }
           ]
         },
         {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
-            "headers": ["Полная форма", "Сокращение"],
-            "headerColors": ["info", "example"],
+            "headers": [
+              "Полная форма",
+              "Сокращение"
+            ],
+            "headerColors": [
+              "info",
+              "example"
+            ],
             "rows": [
-              { "cells": ["I will be",      "I'll be"] },
-              { "cells": ["you will be",    "you'll be"] },
-              { "cells": ["he will be",      "he'll be"] },
-              { "cells": ["will not be",     "won't be"] }
+              {
+                "cells": [
+                  "I will be",
+                  "I'll be"
+                ]
+              },
+              {
+                "cells": [
+                  "you will be",
+                  "you'll be"
+                ]
+              },
+              {
+                "cells": [
+                  "he will be",
+                  "he'll be"
+                ]
+              },
+              {
+                "cells": [
+                  "will not be",
+                  "won't be"
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
       ]
     },
-
     {
-      "label": "Слова-маркеры",
+      "label": "Подсказки: this time tomorrow, in an hour",
       "intro": {
         "text": "Слова-маркеры показывают конкретный момент или период в будущем, когда действие будет в процессе.",
         "highlights": [
-          { "text": "Слова-маркеры", "color": "term",    "style": "bold_underline" },
-          { "text": "момент",         "color": "info",    "style": "bold" },
-          { "text": "в процессе",     "color": "example", "style": "bold" }
+          {
+            "text": "Слова-маркеры",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "момент",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "в процессе",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -166,15 +593,59 @@
           "title": "Главные маркеры",
           "borderColor": "info",
           "table": {
-            "headers": ["Маркер", "Перевод", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Маркер",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["at this time tomorrow",   "завтра в это время",           "At this time tomorrow, I'll be flying to London."] },
-              { "cells": ["at 5 o'clock tomorrow",   "завтра в 5 часов",              "At 5 o'clock tomorrow, she'll be teaching."] },
-              { "cells": ["this time next week",      "на следующей неделе в это время","This time next week, we'll be relaxing."] },
-              { "cells": ["while",                    "пока / в то время как",         "While you sleep, I'll be working."] },
-              { "cells": ["all day tomorrow",         "весь день завтра",              "I'll be studying all day tomorrow."] },
-              { "cells": ["in an hour",               "через час",                      "In an hour, they'll be landing."] }
+              {
+                "cells": [
+                  "at this time tomorrow",
+                  "завтра в это время",
+                  "At this time tomorrow, I'll be flying to London."
+                ]
+              },
+              {
+                "cells": [
+                  "at 5 o'clock tomorrow",
+                  "завтра в 5 часов",
+                  "At 5 o'clock tomorrow, she'll be teaching."
+                ]
+              },
+              {
+                "cells": [
+                  "this time next week",
+                  "на следующей неделе в это время",
+                  "This time next week, we'll be relaxing."
+                ]
+              },
+              {
+                "cells": [
+                  "while",
+                  "пока / в то время как",
+                  "While you sleep, I'll be working."
+                ]
+              },
+              {
+                "cells": [
+                  "all day tomorrow",
+                  "весь день завтра",
+                  "I'll be studying all day tomorrow."
+                ]
+              },
+              {
+                "cells": [
+                  "in an hour",
+                  "через час",
+                  "In an hour, they'll be landing."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -183,21 +654,37 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "At this time tomorrow, I will be flying to London.", "ru": "Завтра в это время я буду лететь в Лондон." },
-            { "en": "While you're sleeping, I will be working.",           "ru": "Пока ты будешь спать, я буду работать." },
-            { "en": "This time next week, we will be relaxing on the beach.", "ru": "На следующей неделе в это время мы будем отдыхать на пляже." }
+            {
+              "en": "At this time tomorrow, I will be flying to London.",
+              "ru": "Завтра в это время я буду лететь в Лондон."
+            },
+            {
+              "en": "While you're sleeping, I will be working.",
+              "ru": "Пока ты будешь спать, я буду работать."
+            },
+            {
+              "en": "This time next week, we will be relaxing on the beach.",
+              "ru": "На следующей неделе в это время мы будем отдыхать на пляже."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Окончание -ing",
+      "label": "Глагол с -ing после will be",
       "intro": {
         "text": "После be глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
         "highlights": [
-          { "text": "-ing",    "color": "term",    "style": "bold_underline" },
-          { "text": "be",       "color": "info",    "style": "bold" }
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "be",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -205,10 +692,26 @@
           "title": "Правила",
           "borderColor": "info",
           "rules": [
-            { "name": "Большинство глаголов",     "suffix": "+ ing",              "example": "work → working, fly → flying" },
-            { "name": "Немая -e",                 "suffix": "e убирается + ing",   "example": "write → writing, drive → driving" },
-            { "name": "Гласная + согл. в конце",  "suffix": "удвоение + ing",       "example": "run → running, sit → sitting" },
-            { "name": "Глаголы на -ie",            "suffix": "ie → y + ing",         "example": "lie → lying, die → dying" }
+            {
+              "name": "Большинство глаголов",
+              "suffix": "+ ing",
+              "example": "work → working, fly → flying"
+            },
+            {
+              "name": "Немая -e",
+              "suffix": "e убирается + ing",
+              "example": "write → writing, drive → driving"
+            },
+            {
+              "name": "Гласная + согл. в конце",
+              "suffix": "удвоение + ing",
+              "example": "run → running, sit → sitting"
+            },
+            {
+              "name": "Глаголы на -ie",
+              "suffix": "ie → y + ing",
+              "example": "lie → lying, die → dying"
+            }
           ]
         },
         {
@@ -224,22 +727,42 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "This time tomorrow, I will be flying to New York.", "ru": "Завтра в это время я буду лететь в Нью-Йорк." },
-            { "en": "They will be waiting for us at the airport.",          "ru": "Они будут ждать нас в аэропорту." },
-            { "en": "She will be teaching at 5 o'clock tomorrow.",           "ru": "Она будет преподавать завтра в 5 часов." }
+            {
+              "en": "This time tomorrow, I will be flying to New York.",
+              "ru": "Завтра в это время я буду лететь в Нью-Йорк."
+            },
+            {
+              "en": "They will be waiting for us at the airport.",
+              "ru": "Они будут ждать нас в аэропорту."
+            },
+            {
+              "en": "She will be teaching at 5 o'clock tomorrow.",
+              "ru": "Она будет преподавать завтра в 5 часов."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Future Continuous vs Future Simple",
+      "label": "Future Continuous или Future Simple",
       "intro": {
         "text": "Future Continuous показывает, что действие будет в процессе в конкретный момент, а Future Simple — просто факт, что действие произойдёт.",
         "highlights": [
-          { "text": "Future Continuous", "color": "info",    "style": "bold" },
-          { "text": "Future Simple",      "color": "bad",     "style": "bold" },
-          { "text": "в процессе",          "color": "example", "style": "bold_underline" }
+          {
+            "text": "Future Continuous",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Future Simple",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "в процессе",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -247,11 +770,31 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Акцент", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Акцент",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Future Continuous", "процесс в конкретный момент", "will be + V-ing"] },
-              { "cells": ["Future Simple",      "факт, решение, предсказание", "will + V"] }
+              {
+                "cells": [
+                  "Future Continuous",
+                  "процесс в конкретный момент",
+                  "will be + V-ing"
+                ]
+              },
+              {
+                "cells": [
+                  "Future Simple",
+                  "факт, решение, предсказание",
+                  "will + V"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -260,16 +803,28 @@
           "title": "Примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "At 8 pm I will be having dinner.", "ru": "В 8 вечера я буду ужинать. (процесс)" },
-            { "en": "I will have dinner at 8 pm.",       "ru": "Я поужинаю в 8 вечера. (факт)" }
+            {
+              "en": "At 8 pm I will be having dinner.",
+              "ru": "В 8 вечера я буду ужинать. (процесс)"
+            },
+            {
+              "en": "I will have dinner at 8 pm.",
+              "ru": "Я поужинаю в 8 вечера. (факт)"
+            }
           ]
         },
         {
           "title": "Вежливый вопрос о планах",
           "borderColor": "term",
           "examples": [
-            { "en": "Will you be using the printer soon?", "ru": "Ты скоро будешь пользоваться принтером? (вежливо, не давит)" },
-            { "en": "Will you use the printer?",            "ru": "Ты будешь пользоваться принтером? (прямая просьба)" }
+            {
+              "en": "Will you be using the printer soon?",
+              "ru": "Ты скоро будешь пользоваться принтером? (вежливо, не давит)"
+            },
+            {
+              "en": "Will you use the printer?",
+              "ru": "Ты будешь пользоваться принтером? (прямая просьба)"
+            }
           ],
           "callout": {
             "type": "tip",
@@ -293,13 +848,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Future Continuous",
+      "label": "Частые ошибки: will be sleep, will being",
       "intro": {
         "text": "Семь самых частых ошибок в Future Continuous.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -307,13 +865,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I will be sleep at midnight.",          "right": "I will be sleeping at midnight." },
-            { "wrong": "She will be work tomorrow.",             "right": "She will be working tomorrow." },
-            { "wrong": "Will you be use the car?",               "right": "Will you be using the car?" },
-            { "wrong": "I won't be slept at midnight.",           "right": "I won't be sleeping at midnight." },
-            { "wrong": "I will being working at 8 pm.",           "right": "I will be working at 8 pm." },
-            { "wrong": "We will be travel next week.",             "right": "We will be traveling next week." },
-            { "wrong": "I will be work all day tomorrow.",         "right": "I will be working all day tomorrow." }
+            {
+              "wrong": "I will be sleep at midnight.",
+              "right": "I will be sleeping at midnight. (нужен -ing)"
+            },
+            {
+              "wrong": "She will be work tomorrow.",
+              "right": "She will be working tomorrow. (нужен -ing)"
+            },
+            {
+              "wrong": "Will you be use the car?",
+              "right": "Will you be using the car? (нужен -ing)"
+            },
+            {
+              "wrong": "I won't be slept at midnight.",
+              "right": "I won't be sleeping at midnight. (процесс — -ing, не V3)"
+            },
+            {
+              "wrong": "I will being working at 8 pm.",
+              "right": "I will be working at 8 pm. (после will — просто be)"
+            },
+            {
+              "wrong": "We will be travel next week.",
+              "right": "We will be travelling next week. (нужен -ing)"
+            },
+            {
+              "wrong": "I will be work all day tomorrow.",
+              "right": "I will be working all day tomorrow. (нужен -ing)"
+            }
           ]
         },
         {

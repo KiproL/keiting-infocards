@@ -3,13 +3,25 @@
   "route": "cards_hadbetter",
   "slides": [
     {
-      "label": "had better: лучше бы, иначе…",
+      "label": "Had better: «лучше бы, иначе…»",
       "intro": {
         "text": "Had better — это не «лучше» в смысле сравнения. Это предупреждение: если не сделать — будут последствия. Обычно сокращается до 'd better.",
         "highlights": [
-          { "text": "had better",   "color": "bad",     "style": "bold_underline" },
-          { "text": "предупреждение","color": "info",    "style": "bold" },
-          { "text": "последствия",   "color": "example", "style": "bold" }
+          {
+            "text": "had better",
+            "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "предупреждение",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "последствия",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,23 +30,132 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "had better", "color": "bad" },
-              { "text": "+",          "color": "muted" },
-              { "text": "глагол (без to)", "color": "example" }
+              {
+                "text": "had better",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол (без to)",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["had better", "глагол (без to)"], "decoys": ["V-ing", "V3"], "examples": [{"en": "You had better go now.", "ru": "Тебе лучше уйти сейчас.", "parts": [["You", ""], ["had better", "had better"], ["go", "глагол (без to)"], ["now.", ""]]}, {"en": "We had better hurry.", "ru": "Нам лучше поторопиться.", "parts": [["We", ""], ["had better", "had better"], ["hurry.", "глагол (без to)"]]}, {"en": "You had better not be late.", "ru": "Тебе лучше не опаздывать.", "parts": [["You", ""], ["had better", "had better"], ["not be", "глагол (без to)"], ["late.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "had better",
+                "глагол (без to)"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "You had better go now.",
+                  "ru": "Тебе лучше уйти сейчас.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "had better",
+                      "had better"
+                    ],
+                    [
+                      "go",
+                      "глагол (без to)"
+                    ],
+                    [
+                      "now.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We had better hurry.",
+                  "ru": "Нам лучше поторопиться.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "had better",
+                      "had better"
+                    ],
+                    [
+                      "hurry.",
+                      "глагол (без to)"
+                    ]
+                  ]
+                },
+                {
+                  "en": "You had better not be late.",
+                  "ru": "Тебе лучше не опаздывать.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "had better",
+                      "had better"
+                    ],
+                    [
+                      "not be",
+                      "глагол (без to)"
+                    ],
+                    [
+                      "late.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Формы",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["had better",     "настоятельный совет", "You had better go."] },
-              { "cells": ["'d better",       "сокращённо",           "You'd better go."] },
-              { "cells": ["had better not", "запрет",               "You'd better not be late."] }
+              {
+                "cells": [
+                  "had better",
+                  "настоятельный совет",
+                  "You had better go."
+                ]
+              },
+              {
+                "cells": [
+                  "'d better",
+                  "сокращённо",
+                  "You'd better go."
+                ]
+              },
+              {
+                "cells": [
+                  "had better not",
+                  "запрет",
+                  "You'd better not be late."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -43,21 +164,88 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "You'd better hurry up.",                  "ru": "Тебе лучше поторопиться." },
-            { "en": "We'd better book a table in advance.",    "ru": "Нам лучше забронировать столик заранее." },
-            { "en": "He'd better not miss the flight.",         "ru": "Ему лучше не опоздать на рейс." },
-            { "en": "You'd better see a doctor.",                "ru": "Тебе лучше сходить к врачу." }
+            {
+              "en": "You'd better hurry up.",
+              "ru": "Тебе лучше поторопиться."
+            },
+            {
+              "en": "We'd better book a table in advance.",
+              "ru": "Нам лучше забронировать столик заранее."
+            },
+            {
+              "en": "He'd better not miss the flight.",
+              "ru": "Ему лучше не опоздать на рейс."
+            },
+            {
+              "en": "You'd better see a doctor.",
+              "ru": "Тебе лучше сходить к врачу."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Should, had better, must",
+          "preview": "от совета к обязанности",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Оборот",
+                "Сила",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "should",
+                    "совет",
+                    "You should try it."
+                  ]
+                },
+                {
+                  "cells": [
+                    "had better",
+                    "совет + предупреждение",
+                    "You'd better leave now, or you'll be late."
+                  ]
+                },
+                {
+                  "cells": [
+                    "must",
+                    "обязанность",
+                    "You must show your passport."
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "warning",
+              "title": "Не к начальству",
+              "text": "Had better звучит строго. Старшим и коллегам лучше сказать should или It might be a good idea to…"
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Had better",
+      "label": "Частые ошибки: had better to go, have better",
       "intro": {
         "text": "Три самые частые ошибки в had better.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -65,9 +253,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "You had better to go.",  "right": "You had better go." },
-            { "wrong": "You have better go.",     "right": "You had better go." },
-            { "wrong": "You'd better going.",      "right": "You'd better go." }
+            {
+              "wrong": "You had better to go.",
+              "right": "You had better go. (без to)"
+            },
+            {
+              "wrong": "You have better go.",
+              "right": "You had better go. (всегда had, даже о настоящем)"
+            },
+            {
+              "wrong": "You'd better going.",
+              "right": "You'd better go. (глагол без -ing)"
+            }
           ]
         },
         {

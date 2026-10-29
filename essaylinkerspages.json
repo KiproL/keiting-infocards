@@ -73,10 +73,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Firstly, it's cheap. Secondly, it's fast.",
+                "ru": "Во-первых, дёшево. Во-вторых, быстро."
+              },
+              {
+                "en": "Prices rose. As a result, sales fell.",
+                "ru": "Цены выросли. В результате продажи упали."
+              },
+              {
+                "en": "Some people love it, whereas others hate it.",
+                "ru": "Одни это любят, а другие ненавидят."
+              },
+              {
+                "en": "To sum up, the plan has more pros than cons.",
+                "ru": "Подводя итог, у плана больше плюсов, чем минусов."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Как ставить",
+      "label": "Где ставить: However, … или although",
       "intro": {
         "text": "Одни связки начинают новое предложение и отделяются запятой: However, … Moreover, … Другие соединяют части внутри одного: although, whereas, because.",
         "highlights": [
@@ -128,10 +157,39 @@
             "text": "Предложение с And или But обычно не начинают — лучше In addition или However."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The plan is cheap. However, it is risky.", "ru": "План дешёвый. Однако он рискованный."}, {"en": "The flat is small, although it is very cosy.", "ru": "Квартира маленькая, хотя и очень уютная."}, {"en": "In addition to the price, we should consider the quality.", "ru": "Помимо цены, стоит учесть качество."}, {"en": "Many sports, such as tennis and golf, are popular here.", "ru": "Многие виды спорта, например теннис и гольф, здесь популярны."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The plan is cheap. However, it is risky.",
+                "ru": "План дешёвый. Однако он рискованный."
+              },
+              {
+                "en": "The flat is small, although it is very cosy.",
+                "ru": "Квартира маленькая, хотя и очень уютная."
+              },
+              {
+                "en": "In addition to the price, we should consider the quality.",
+                "ru": "Помимо цены, стоит учесть качество."
+              },
+              {
+                "en": "Many sports, such as tennis and golf, are popular here.",
+                "ru": "Многие виды спорта, например теннис и гольф, здесь популярны."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Продвинутые связки",
+      "label": "Продвинутые: nonetheless, hence, in light of",
       "intro": {
         "text": "В эссе высокого уровня вместо however и so используют более точные связки: nonetheless, consequently, in light of, notwithstanding.",
         "highlights": [
@@ -216,7 +274,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Связки для текста",
+      "label": "Частые ошибки: On the one side, However без запятой",
       "intro": {
         "text": "Самые частые ошибки со связками.",
         "highlights": [
@@ -234,35 +292,35 @@
           "errors": [
             {
               "wrong": "On the one side…",
-              "right": "On the one hand…"
+              "right": "On the one hand… (устойчиво — hand)"
             },
             {
               "wrong": "However it is expensive.",
-              "right": "However, it is expensive."
+              "right": "However, it is expensive. (после However — запятая)"
             },
             {
               "wrong": "Although it was late, but we stayed.",
-              "right": "Although it was late, we stayed."
+              "right": "Although it was late, we stayed. (although без but)"
             },
             {
               "wrong": "Despite of the rain…",
-              "right": "Despite the rain…"
+              "right": "Despite the rain… (despite — без of)"
             },
             {
               "wrong": "Moreover, it is also cheap.",
-              "right": "Moreover, it is cheap."
+              "right": "Moreover, it is cheap. (also повторяет moreover)"
             },
             {
               "wrong": "In conclusion, I want to conclude…",
-              "right": "In conclusion,…"
+              "right": "In conclusion,… (без повтора)"
             },
             {
               "wrong": "In light of the recent events we cancelled.",
-              "right": "In light of recent events, we cancelled."
+              "right": "In light of recent events, we cancelled. (без the; запятая)"
             },
             {
               "wrong": "Nonetheless it was risky, we went.",
-              "right": "It was risky. Nonetheless, we went."
+              "right": "It was risky. Nonetheless, we went. (nonetheless начинает новую мысль)"
             }
           ]
         }

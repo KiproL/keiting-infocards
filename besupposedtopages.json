@@ -3,7 +3,7 @@
   "route": "cards_besupposedto",
   "slides": [
     {
-      "label": "be supposed to: должен по правилам",
+      "label": "Be supposed to: «так положено»",
       "intro": {
         "text": "Be supposed to — «должен», но не по своей воле, а по правилам, договорённости или чужим ожиданиям. А was supposed to — «должен был, но…».",
         "highlights": [
@@ -51,7 +51,98 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["am / is / are", "supposed to", "глагол"], "decoys": ["suppose", "V-ing"], "examples": [{"en": "You are supposed to wear a uniform.", "ru": "Ты должен носить форму.", "parts": [["You", ""], ["are", "am / is / are"], ["supposed to", "supposed to"], ["wear", "глагол"], ["a uniform.", ""]]}, {"en": "The meeting is supposed to start at nine.", "ru": "Встреча должна начаться в девять.", "parts": [["The meeting", ""], ["is", "am / is / are"], ["supposed to", "supposed to"], ["start", "глагол"], ["at nine.", ""]]}, {"en": "I am supposed to be at work now.", "ru": "Я сейчас должен быть на работе.", "parts": [["I", ""], ["am", "am / is / are"], ["supposed to", "supposed to"], ["be", "глагол"], ["at work now.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "am / is / are",
+                "supposed to",
+                "глагол"
+              ],
+              "decoys": [
+                "suppose",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "You are supposed to wear a uniform.",
+                  "ru": "Ты должен носить форму.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "are",
+                      "am / is / are"
+                    ],
+                    [
+                      "supposed to",
+                      "supposed to"
+                    ],
+                    [
+                      "wear",
+                      "глагол"
+                    ],
+                    [
+                      "a uniform.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "The meeting is supposed to start at nine.",
+                  "ru": "Встреча должна начаться в девять.",
+                  "parts": [
+                    [
+                      "The meeting",
+                      ""
+                    ],
+                    [
+                      "is",
+                      "am / is / are"
+                    ],
+                    [
+                      "supposed to",
+                      "supposed to"
+                    ],
+                    [
+                      "start",
+                      "глагол"
+                    ],
+                    [
+                      "at nine.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "I am supposed to be at work now.",
+                  "ru": "Я сейчас должен быть на работе.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "am",
+                      "am / is / are"
+                    ],
+                    [
+                      "supposed to",
+                      "supposed to"
+                    ],
+                    [
+                      "be",
+                      "глагол"
+                    ],
+                    [
+                      "at work now.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -98,10 +189,39 @@
             "text": "You're not supposed to park here. Мягче, чем You mustn't park here, но смысл тот же."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You're not supposed to eat in the library.",
+                "ru": "В библиотеке есть нельзя. (так не положено)"
+              },
+              {
+                "en": "What am I supposed to do now?",
+                "ru": "И что мне теперь делать?"
+              },
+              {
+                "en": "It's supposed to rain tomorrow.",
+                "ru": "Завтра вроде бы будет дождь. (так говорят)"
+              },
+              {
+                "en": "The meeting was supposed to start at ten.",
+                "ru": "Совещание должно было начаться в десять (но не началось)."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Be to",
+      "label": "Be to: официальный план и указание",
       "intro": {
         "text": "Be to + глагол — официальная форма: планы, указания, приказы. Её слышно в новостях и инструкциях: The President is to visit Paris.",
         "highlights": [
@@ -149,7 +269,98 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["am / is / are", "to", "глагол"], "decoys": ["will", "V-ing"], "examples": [{"en": "You are to stay here.", "ru": "Ты должен остаться здесь.", "parts": [["You", ""], ["are", "am / is / are"], ["to", "to"], ["stay", "глагол"], ["here.", ""]]}, {"en": "The president is to visit Paris next week.", "ru": "Президент должен посетить Париж на следующей неделе.", "parts": [["The president", ""], ["is", "am / is / are"], ["to", "to"], ["visit", "глагол"], ["Paris next week.", ""]]}, {"en": "We are to meet at six.", "ru": "Мы должны встретиться в шесть.", "parts": [["We", ""], ["are", "am / is / are"], ["to", "to"], ["meet", "глагол"], ["at six.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "am / is / are",
+                "to",
+                "глагол"
+              ],
+              "decoys": [
+                "will",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "You are to stay here.",
+                  "ru": "Ты должен остаться здесь.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "are",
+                      "am / is / are"
+                    ],
+                    [
+                      "to",
+                      "to"
+                    ],
+                    [
+                      "stay",
+                      "глагол"
+                    ],
+                    [
+                      "here.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "The president is to visit Paris next week.",
+                  "ru": "Президент должен посетить Париж на следующей неделе.",
+                  "parts": [
+                    [
+                      "The president",
+                      ""
+                    ],
+                    [
+                      "is",
+                      "am / is / are"
+                    ],
+                    [
+                      "to",
+                      "to"
+                    ],
+                    [
+                      "visit",
+                      "глагол"
+                    ],
+                    [
+                      "Paris next week.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We are to meet at six.",
+                  "ru": "Мы должны встретиться в шесть.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "are",
+                      "am / is / are"
+                    ],
+                    [
+                      "to",
+                      "to"
+                    ],
+                    [
+                      "meet",
+                      "глагол"
+                    ],
+                    [
+                      "at six.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -173,10 +384,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The new hospital is to open next year.", "ru": "Новая больница откроется в следующем году. (официальный план)"}, {"en": "You are not to leave this room.", "ru": "Тебе нельзя выходить из этой комнаты. (запрет)"}, {"en": "All visitors are to sign in at reception.", "ru": "Всем посетителям нужно отметиться на ресепшене."}, {"en": "He was never to see his home again.", "ru": "Ему не суждено было снова увидеть дом."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The new hospital is to open next year.",
+                "ru": "Новая больница откроется в следующем году. (официальный план)"
+              },
+              {
+                "en": "You are not to leave this room.",
+                "ru": "Тебе нельзя выходить из этой комнаты. (запрет)"
+              },
+              {
+                "en": "All visitors are to sign in at reception.",
+                "ru": "Всем посетителям нужно отметиться на ресепшене."
+              },
+              {
+                "en": "He was never to see his home again.",
+                "ru": "Ему не суждено было снова увидеть дом."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Be supposed to",
+      "label": "Частые ошибки: supposed без be, suppose без -d",
       "intro": {
         "text": "Самые частые ошибки с be supposed to.",
         "highlights": [
@@ -194,19 +434,19 @@
           "errors": [
             {
               "wrong": "You supposed to wear a helmet.",
-              "right": "You're supposed to wear a helmet."
+              "right": "You're supposed to wear a helmet. (нужен be)"
             },
             {
               "wrong": "I am suppose to call her.",
-              "right": "I am supposed to call her."
+              "right": "I am supposed to call her. (supposed — с -d)"
             },
             {
               "wrong": "We were supposed meet at five.",
-              "right": "We were supposed to meet at five."
+              "right": "We were supposed to meet at five. (нужен to)"
             },
             {
               "wrong": "We supposed to leave at eight, but we were late.",
-              "right": "We were supposed to leave at eight, but we were late."
+              "right": "We were supposed to leave at eight, but we were late. (в прошлом — were)"
             }
           ]
         },

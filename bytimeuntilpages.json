@@ -3,7 +3,7 @@
   "route": "cards_bytimeuntil",
   "slides": [
     {
-      "label": "By и until",
+      "label": "By или until: к сроку или до момента",
       "intro": {
         "text": "Оба переводятся «до», но by — «не позже»: сделать к сроку. Until (till) — «до какого-то момента»: действие длится и прекращается.",
         "highlights": [
@@ -95,10 +95,39 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The parcel will arrive by Friday.",
+                "ru": "Посылка придёт до пятницы (не позже)."
+              },
+              {
+                "en": "The shop is open until 10 pm.",
+                "ru": "Магазин работает до 22:00."
+              },
+              {
+                "en": "I didn't know until yesterday.",
+                "ru": "Я узнал только вчера."
+              },
+              {
+                "en": "By the time I got home, it was dark.",
+                "ru": "Когда я добрался домой, уже стемнело."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "In time и on time",
+      "label": "In time или on time",
       "intro": {
         "text": "On time — «точно по расписанию», «вовремя». In time — «успеть», «заранее, до того, как стало поздно».",
         "highlights": [
@@ -258,10 +287,39 @@
             "borderColor": "info"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Please pay within 30 days.", "ru": "Пожалуйста, оплатите в течение 30 дней."}, {"en": "Someone called during the meeting.", "ru": "Кто-то звонил во время встречи."}, {"en": "We waited for an hour.", "ru": "Мы ждали час."}, {"en": "The shop is open throughout the year.", "ru": "Магазин открыт круглый год."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Please pay within 30 days.",
+                "ru": "Пожалуйста, оплатите в течение 30 дней."
+              },
+              {
+                "en": "Someone called during the meeting.",
+                "ru": "Кто-то звонил во время встречи."
+              },
+              {
+                "en": "We waited for an hour.",
+                "ru": "Мы ждали час."
+              },
+              {
+                "en": "The shop is open throughout the year.",
+                "ru": "Магазин открыт круглый год."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: By и until, in time и on time",
+      "label": "Частые ошибки: until Monday, on time to see",
       "intro": {
         "text": "Вот самые частые ошибки с предлогами времени.",
         "highlights": [
@@ -279,23 +337,23 @@
           "errors": [
             {
               "wrong": "Finish it until Monday.",
-              "right": "Finish it by Monday."
+              "right": "Finish it by Monday. (к сроку — by)"
             },
             {
               "wrong": "I'll wait you by six.",
-              "right": "I'll wait for you until six."
+              "right": "I'll wait for you until six. (ждать до — until; wait for)"
             },
             {
               "wrong": "We arrived on time to see the start.",
-              "right": "We arrived in time to see the start."
+              "right": "We arrived in time to see the start. (успеть — in time)"
             },
             {
               "wrong": "At the end, we agreed.",
-              "right": "In the end, we agreed."
+              "right": "In the end, we agreed. (в итоге — in the end)"
             },
             {
               "wrong": "I slept during two hours.",
-              "right": "I slept for two hours."
+              "right": "I slept for two hours. (сколько — for)"
             }
           ]
         },

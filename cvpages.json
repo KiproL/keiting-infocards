@@ -3,7 +3,7 @@
   "route": "cards_cv",
   "slides": [
     {
-      "label": "Резюме",
+      "label": "Резюме: разделы по порядку",
       "intro": {
         "text": "Резюме — CV в Великобритании и resume в США. Коротко, одна-две страницы, опыт — от последнего места к первому.",
         "highlights": [
@@ -48,10 +48,39 @@
             "text": "Фото, дату рождения и семейное положение обычно не указывают."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Sales Manager, ABC Ltd, 2021 – present", "ru": "Менеджер по продажам, ABC Ltd, 2021 — по настоящее время"}, {"en": "Increased sales by 20% in one year.", "ru": "Увеличил продажи на 20 % за год."}, {"en": "Fluent in Russian and English.", "ru": "Свободно владею русским и английским."}, {"en": "References available on request.", "ru": "Рекомендации предоставлю по запросу."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Sales Manager, ABC Ltd, 2021 – present",
+                "ru": "Менеджер по продажам, ABC Ltd, 2021 — по настоящее время"
+              },
+              {
+                "en": "Increased sales by 20% in one year.",
+                "ru": "Увеличил продажи на 20 % за год."
+              },
+              {
+                "en": "Fluent in Russian and English.",
+                "ru": "Свободно владею русским и английским."
+              },
+              {
+                "en": "References available on request.",
+                "ru": "Рекомендации предоставлю по запросу."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Сильные глаголы",
+      "label": "Сильные глаголы: managed, increased",
       "intro": {
         "text": "Опыт описывают глаголами в Past Simple без «я»: Managed a team of five, а не I was responsible for… Лучше с цифрами.",
         "highlights": [
@@ -127,10 +156,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Trained 10 new employees.",
+                "ru": "Обучил 10 новых сотрудников."
+              },
+              {
+                "en": "Launched an online store.",
+                "ru": "Запустил интернет-магазин."
+              },
+              {
+                "en": "Negotiated contracts with suppliers.",
+                "ru": "Вёл переговоры с поставщиками."
+              },
+              {
+                "en": "Cut delivery time by 30%.",
+                "ru": "Сократил время доставки на 30 %."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Сопроводительное письмо",
+      "label": "Сопроводительное письмо: фразы",
       "intro": {
         "text": "Cover letter — короткое письмо к резюме: почему ты хочешь эту работу и чем будешь полезен. Три-четыре абзаца, не больше страницы.",
         "highlights": [
@@ -203,7 +261,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Резюме и сопроводительное письмо",
+      "label": "Частые ошибки: I was responsible, big experience",
       "intro": {
         "text": "Самые частые ошибки в резюме и письме.",
         "highlights": [
@@ -221,11 +279,11 @@
           "errors": [
             {
               "wrong": "I was responsible for managing a team.",
-              "right": "Managed a team of five."
+              "right": "Managed a team of five. (сильный глагол и цифра)"
             },
             {
               "wrong": "Опыт: 2015 — школа, 2023 — работа",
-              "right": "От последнего места к первому"
+              "right": "От последнего места к первому (так принято)"
             },
             {
               "wrong": "Hobbies: sleeping, watching TV.",
@@ -233,11 +291,11 @@
             },
             {
               "wrong": "I have big experience.",
-              "right": "I have extensive experience."
+              "right": "I have extensive experience. (опыт — extensive, не big)"
             },
             {
               "wrong": "I want this work.",
-              "right": "I am writing to apply for this position."
+              "right": "I am writing to apply for this position. (официально)"
             }
           ]
         }

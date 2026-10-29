@@ -46,7 +46,7 @@
       ]
     },
     {
-      "label": "Слабые формы",
+      "label": "Слабые формы: to → [tə], and → [n]",
       "intro": {
         "text": "Служебные слова без ударения теряют гласную и звучат как [ə]. Полную форму слышно, только когда на слове делают ударение.",
         "highlights": [
@@ -140,10 +140,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Скажи вслух",
+          "preview": "4 фразы для тренировки",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I want to go to bed.",
+                "ru": "Хочу спать. (to → [tə])"
+              },
+              {
+                "en": "This is for you.",
+                "ru": "Это тебе. (for → [fə])"
+              },
+              {
+                "en": "Fish and chips, please.",
+                "ru": "Рыбу с картошкой, пожалуйста. (and → [n])"
+              },
+              {
+                "en": "She was late again.",
+                "ru": "Она опять опоздала. (was → [wəz])"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Связки",
+      "label": "Связки: turn it off — «тёрни тоф»",
       "intro": {
         "text": "Согласный на конце слова цепляется к гласному следующего: turn it off звучит как «тёрни тоф». Между двумя гласными вставляется лёгкий [j] или [w].",
         "highlights": [
@@ -186,10 +215,39 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Скажи вслух",
+          "preview": "4 фразы для тренировки",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Pick it up.",
+                "ru": "Подними. («пи-ки-тап»)"
+              },
+              {
+                "en": "Come in!",
+                "ru": "Входи! («ка-мин»)"
+              },
+              {
+                "en": "Do it again.",
+                "ru": "Сделай ещё раз. («ду-уи-тэгэн»)"
+              },
+              {
+                "en": "Here and there.",
+                "ru": "Тут и там. (r звучит перед and)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Выпадение и слияние",
+      "label": "Выпадение и слияние: gonna, did you",
       "intro": {
         "text": "T и d между согласными выпадают, а с you сливаются: did you → «диджу». Отсюда и разговорные gonna, wanna.",
         "highlights": [
@@ -291,7 +349,7 @@
       ]
     },
     {
-      "label": "Американское t",
+      "label": "Американское t: water — «уодэр»",
       "intro": {
         "text": "В американском t между гласными звучит как быстрое мягкое «д»: water — «уóдэр», better — «бэдэр». А после n часто пропадает: twenty — «туэни».",
         "highlights": [
@@ -325,6 +383,31 @@
               "ru": "«гáдит»"
             }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "3 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Can I have a bottle of water?",
+                "ru": "Можно бутылку воды? (bottle, water — «д»)"
+              },
+              {
+                "en": "It's a lot better.",
+                "ru": "Так намного лучше. (lot, better — «д»)"
+              },
+              {
+                "en": "There were twenty people there.",
+                "ru": "Там было двадцать человек. (twenty — «туэни»)"
+              }
+            ]
+          }
         }
       ]
     }

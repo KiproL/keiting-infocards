@@ -3,7 +3,7 @@
   "route": "cards_emails",
   "slides": [
     {
-      "label": "Официально или нет",
+      "label": "Официально или неформально",
       "intro": {
         "text": "Сначала реши, кому пишешь: незнакомому человеку или по работе — официально, другу — просто. От этого зависят обращение, фразы и подпись.",
         "highlights": [
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "label": "Структура",
+      "label": "Структура письма",
       "intro": {
         "text": "Хорошее письмо читается за минуту: зачем пишешь — в первой фразе, суть — короткими абзацами, что нужно от адресата — отдельно и ясно.",
         "highlights": [
@@ -118,10 +118,39 @@
             "accentColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I am writing to ask about the job advertised on your website.", "ru": "Пишу, чтобы узнать о вакансии на вашем сайте. (зачем — сразу)"}, {"en": "The meeting has been moved to Thursday at 3 pm.", "ru": "Встреча перенесена на четверг на 15:00. (суть)"}, {"en": "Could you please confirm by Friday?", "ru": "Подтвердите, пожалуйста, до пятницы. (что нужно от адресата)"}, {"en": "Kind regards, Anna", "ru": "С уважением, Анна"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I am writing to ask about the job advertised on your website.",
+                "ru": "Пишу, чтобы узнать о вакансии на вашем сайте. (зачем — сразу)"
+              },
+              {
+                "en": "The meeting has been moved to Thursday at 3 pm.",
+                "ru": "Встреча перенесена на четверг на 15:00. (суть)"
+              },
+              {
+                "en": "Could you please confirm by Friday?",
+                "ru": "Подтвердите, пожалуйста, до пятницы. (что нужно от адресата)"
+              },
+              {
+                "en": "Kind regards, Anna",
+                "ru": "С уважением, Анна"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Полезные фразы",
+      "label": "Полезные фразы: Please find attached",
       "intro": {
         "text": "Эти фразы закрывают почти любое рабочее письмо.",
         "highlights": [
@@ -186,10 +215,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Please find attached the updated report.",
+                "ru": "Во вложении обновлённый отчёт."
+              },
+              {
+                "en": "Could you let me know if Monday works for you?",
+                "ru": "Сообщите, пожалуйста, подходит ли вам понедельник."
+              },
+              {
+                "en": "Just a quick reminder that the deadline is Friday.",
+                "ru": "Небольшое напоминание: срок — пятница."
+              },
+              {
+                "en": "Please don't hesitate to contact me.",
+                "ru": "Обращайтесь, если будут вопросы."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Письма и сообщения",
+      "label": "Частые ошибки: Dear Mr John, look forward to hear",
       "intro": {
         "text": "Самые частые ошибки в письмах.",
         "highlights": [
@@ -211,19 +269,19 @@
             },
             {
               "wrong": "Hello dear Tom!",
-              "right": "Hi Tom,"
+              "right": "Hi Tom, (dear — только в Dear Tom,)"
             },
             {
               "wrong": "I write to you because…",
-              "right": "I am writing to…"
+              "right": "I am writing to… (так начинают письмо)"
             },
             {
               "wrong": "Waiting for your answer.",
-              "right": "I look forward to hearing from you."
+              "right": "I look forward to hearing from you. (устойчивая концовка)"
             },
             {
               "wrong": "I look forward to hear from you.",
-              "right": "I look forward to hearing from you."
+              "right": "I look forward to hearing from you. (после to здесь — -ing)"
             }
           ]
         }

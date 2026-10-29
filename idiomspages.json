@@ -123,7 +123,7 @@
       }
     },
     {
-      "label": "Как у нас",
+      "label": "Как у нас: убить двух зайцев",
       "intro": {
         "text": "У многих идиом есть русская пара — смысл тот же, картинка другая. Так их легче запомнить.",
         "highlights": [
@@ -208,10 +208,58 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё пары",
+          "preview": "4 идиомы",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "table": {
+              "headers": [
+                "Английский",
+                "По-русски"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "a storm in a teacup",
+                    "буря в стакане воды"
+                  ]
+                },
+                {
+                  "cells": [
+                    "to cost an arm and a leg",
+                    "стоить бешеных денег"
+                  ]
+                },
+                {
+                  "cells": [
+                    "to be in hot water",
+                    "попасть в переплёт"
+                  ]
+                },
+                {
+                  "cells": [
+                    "to have a frog in your throat",
+                    "охрипнуть"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "В меру",
+      "label": "Идиомы в меру",
       "intro": {
         "text": "Идиомы оживляют речь, но в меру. Часть «учебных» идиом носители почти не говорят, а в деловых письмах идиомам не место.",
         "highlights": [
@@ -246,10 +294,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It's pouring outside — take an umbrella.", "ru": "На улице льёт — возьми зонт. (вместо raining cats and dogs)"}, {"en": "That test was a piece of cake.", "ru": "Тот тест был проще простого. (в разговоре — нормально)"}, {"en": "I'm feeling a bit under the weather today.", "ru": "Мне сегодня что-то нездоровится."}, {"en": "Thank you for your quick reply.", "ru": "Спасибо за быстрый ответ. (в письме — без идиом)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It's pouring outside — take an umbrella.",
+                "ru": "На улице льёт — возьми зонт. (вместо raining cats and dogs)"
+              },
+              {
+                "en": "That test was a piece of cake.",
+                "ru": "Тот тест был проще простого. (в разговоре — нормально)"
+              },
+              {
+                "en": "I'm feeling a bit under the weather today.",
+                "ru": "Мне сегодня что-то нездоровится."
+              },
+              {
+                "en": "Thank you for your quick reply.",
+                "ru": "Спасибо за быстрый ответ. (в письме — без идиом)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Примеры: идиомы",
+      "label": "Идиомы в предложениях",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -302,7 +379,7 @@
       ]
     },
     {
-      "label": "Диалог: идиомы",
+      "label": "Диалог: первый день на работе",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [

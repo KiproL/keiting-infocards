@@ -3,7 +3,7 @@
   "route": "cards_annoyinghabits",
   "slides": [
     {
-      "label": "Always + -ing",
+      "label": "Always + -ing: «вечно он…»",
       "intro": {
         "text": "Present Continuous с always, constantly или forever показывает привычку, которая раздражает: He's always leaving his socks on the floor — «Вечно он разбрасывает носки».",
         "highlights": [
@@ -46,7 +46,86 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["S + am / is / are", "always / constantly", "V-ing"], "decoys": ["V3", "will"], "examples": [{"en": "He is always losing his keys!", "ru": "Он вечно теряет ключи!", "parts": [["He is", "S + am / is / are"], ["always", "always / constantly"], ["losing", "V-ing"], ["his keys!", ""]]}, {"en": "You are constantly interrupting me!", "ru": "Ты постоянно меня перебиваешь!", "parts": [["You are", "S + am / is / are"], ["constantly", "always / constantly"], ["interrupting", "V-ing"], ["me!", ""]]}, {"en": "She is always complaining about work.", "ru": "Она вечно жалуется на работу.", "parts": [["She is", "S + am / is / are"], ["always", "always / constantly"], ["complaining", "V-ing"], ["about work.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S + am / is / are",
+                "always / constantly",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "He is always losing his keys!",
+                  "ru": "Он вечно теряет ключи!",
+                  "parts": [
+                    [
+                      "He is",
+                      "S + am / is / are"
+                    ],
+                    [
+                      "always",
+                      "always / constantly"
+                    ],
+                    [
+                      "losing",
+                      "V-ing"
+                    ],
+                    [
+                      "his keys!",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "You are constantly interrupting me!",
+                  "ru": "Ты постоянно меня перебиваешь!",
+                  "parts": [
+                    [
+                      "You are",
+                      "S + am / is / are"
+                    ],
+                    [
+                      "constantly",
+                      "always / constantly"
+                    ],
+                    [
+                      "interrupting",
+                      "V-ing"
+                    ],
+                    [
+                      "me!",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She is always complaining about work.",
+                  "ru": "Она вечно жалуется на работу.",
+                  "parts": [
+                    [
+                      "She is",
+                      "S + am / is / are"
+                    ],
+                    [
+                      "always",
+                      "always / constantly"
+                    ],
+                    [
+                      "complaining",
+                      "V-ing"
+                    ],
+                    [
+                      "about work.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -76,10 +155,39 @@
             "title": "Простое или длительное"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My neighbour is always playing loud music at night.", "ru": "Мой сосед вечно включает громкую музыку по ночам."}, {"en": "You're always forgetting my birthday!", "ru": "Ты вечно забываешь мой день рождения!"}, {"en": "He's constantly telling the same jokes.", "ru": "Он постоянно рассказывает одни и те же шутки."}, {"en": "My sister was always borrowing my clothes.", "ru": "Сестра вечно брала мою одежду."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My neighbour is always playing loud music at night.",
+                "ru": "Мой сосед вечно включает громкую музыку по ночам."
+              },
+              {
+                "en": "You're always forgetting my birthday!",
+                "ru": "Ты вечно забываешь мой день рождения!"
+              },
+              {
+                "en": "He's constantly telling the same jokes.",
+                "ru": "Он постоянно рассказывает одни и те же шутки."
+              },
+              {
+                "en": "My sister was always borrowing my clothes.",
+                "ru": "Сестра вечно брала мою одежду."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Will и would",
+      "label": "Will и would: типичное поведение",
       "intro": {
         "text": "Will описывает типичное поведение: She'll sit for hours reading — «Она может часами читать». Would — то же о прошлом. С ударением на will / would — раздражение: He WILL keep interrupting!",
         "highlights": [
@@ -157,10 +265,39 @@
             "title": "Состояния"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She'll spend hours on the phone.",
+                "ru": "Она может часами болтать по телефону."
+              },
+              {
+                "en": "Every summer we would go to the sea.",
+                "ru": "Каждое лето мы ездили на море."
+              },
+              {
+                "en": "He WILL leave the lights on!",
+                "ru": "Вечно он оставляет свет включённым!"
+              },
+              {
+                "en": "The baby keeps waking up at night.",
+                "ru": "Малыш постоянно просыпается ночью."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Как пожаловаться",
+      "label": "Пожаловаться мягче: tend to",
       "intro": {
         "text": "Чтобы пожаловаться мягче, носители добавляют tend to или have a habit of: He tends to be late — «Он склонен опаздывать».",
         "highlights": [
@@ -229,10 +366,35 @@
             "borderColor": "term"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "3 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "He tends to talk a lot in meetings.",
+                "ru": "Он склонен много говорить на совещаниях."
+              },
+              {
+                "en": "She has a habit of interrupting people.",
+                "ru": "У неё привычка перебивать."
+              },
+              {
+                "en": "You keep leaving your cup here.",
+                "ru": "Ты всё время оставляешь здесь чашку."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Always + -ing, will и would для привычек",
+      "label": "Частые ошибки: always leave, keeps to",
       "intro": {
         "text": "Вот самые частые ошибки при разговоре о привычках.",
         "highlights": [
@@ -250,23 +412,23 @@
           "errors": [
             {
               "wrong": "He is always leave his socks on the floor.",
-              "right": "He is always leaving his socks on the floor."
+              "right": "He is always leaving his socks on the floor. (Continuous — -ing)"
             },
             {
               "wrong": "She always is complaining.",
-              "right": "She is always complaining."
+              "right": "She is always complaining. (always — между be и -ing)"
             },
             {
               "wrong": "He keeps to interrupt me.",
-              "right": "He keeps interrupting me."
+              "right": "He keeps interrupting me. (после keep — -ing)"
             },
             {
               "wrong": "As a child, I would to play outside.",
-              "right": "As a child, I would play outside."
+              "right": "As a child, I would play outside. (после would — без to)"
             },
             {
               "wrong": "I would have a dog when I was young.",
-              "right": "I used to have a dog when I was young."
+              "right": "I used to have a dog when I was young. (состояние — used to)"
             }
           ]
         },

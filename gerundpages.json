@@ -3,13 +3,25 @@
   "route": "cards_gerund",
   "slides": [
     {
-      "label": "Что такое герундий",
+      "label": "Герундий: действие как понятие",
       "intro": {
-        "text": "Gerund — это форма глагола на -ing, которая выполняет в предложении роль существительного, сохраняя некоторые свойства глагола.",
+        "text": "Герундий (gerund) — глагол с -ing, который работает как существительное: swimming — «плавание», reading — «чтение». Он называет действие как понятие.",
         "highlights": [
-          { "text": "Gerund", "color": "term", "style": "bold_underline" },
-          { "text": "форма глагола", "color": "term", "style": "bold" },
-          { "text": "-ing", "color": "accent2", "style": "bold" }
+          {
+            "text": "Герундий (gerund)",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "-ing",
+            "color": "accent2",
+            "style": "bold"
+          },
+          {
+            "text": "как существительное",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,17 +30,38 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "V", "color": "info" },
-              { "text": "+", "color": "muted" },
-              { "text": "ing", "color": "term" },
-              { "text": "=", "color": "muted" },
-              { "text": "Gerund", "color": "example" }
+              {
+                "text": "V",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "ing",
+                "color": "term"
+              },
+              {
+                "text": "=",
+                "color": "muted"
+              },
+              {
+                "text": "Gerund",
+                "color": "example"
+              }
             ],
             "accentColor": "term"
           },
           "examples": [
-            { "en": "Learning English opens doors.", "ru": "Изучение английского открывает двери." },
-            { "en": "Swimming is my favourite sport.", "ru": "Плавание — мой любимый вид спорта." }
+            {
+              "en": "Learning English opens doors.",
+              "ru": "Изучение английского открывает двери."
+            },
+            {
+              "en": "Swimming is my favourite sport.",
+              "ru": "Плавание — мой любимый вид спорта."
+            }
           ]
         },
         {
@@ -44,8 +77,16 @@
           "title": "Ключевое отличие",
           "borderColor": "good",
           "rules": [
-            { "name": "Reading", "suffix": "действие как понятие", "example": "Reading is useful. — Чтение полезно." },
-            { "name": "to read", "suffix": "действие как цель или намерение", "example": "I want to read. — Я хочу почитать." }
+            {
+              "name": "Reading",
+              "suffix": "действие как понятие",
+              "example": "Reading is useful. — Чтение полезно."
+            },
+            {
+              "name": "to read",
+              "suffix": "действие как цель или намерение",
+              "example": "I want to read. — Я хочу почитать."
+            }
           ]
         }
       ],
@@ -63,11 +104,31 @@
               "text": "В повседневной речи чаще всего встречается Simple Active: V + ing. Остальные формы нужны, когда важно подчеркнуть время или пассивное значение действия."
             },
             "keysValues": [
-              { "key": "Simple Active", "value": "writing", "valueColor": "text" },
-              { "key": "Simple Passive", "value": "being written", "valueColor": "text" },
-              { "key": "Perfect Active", "value": "having written", "valueColor": "text" },
-              { "key": "Perfect Passive", "value": "having been written", "valueColor": "text" },
-              { "key": "Отрицание", "value": "not writing", "valueColor": "text" }
+              {
+                "key": "Simple Active",
+                "value": "writing",
+                "valueColor": "text"
+              },
+              {
+                "key": "Simple Passive",
+                "value": "being written",
+                "valueColor": "text"
+              },
+              {
+                "key": "Perfect Active",
+                "value": "having written",
+                "valueColor": "text"
+              },
+              {
+                "key": "Perfect Passive",
+                "value": "having been written",
+                "valueColor": "text"
+              },
+              {
+                "key": "Отрицание",
+                "value": "not writing",
+                "valueColor": "text"
+              }
             ]
           }
         },
@@ -89,16 +150,51 @@
               ]
             }
           }
+        },
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Running every morning keeps me fit.",
+                "ru": "Бег по утрам держит меня в форме. (подлежащее)"
+              },
+              {
+                "en": "I enjoy cooking for my friends.",
+                "ru": "Я люблю готовить для друзей. (дополнение)"
+              },
+              {
+                "en": "She is good at drawing.",
+                "ru": "Она хорошо рисует. (после предлога)"
+              },
+              {
+                "en": "Thank you for helping me.",
+                "ru": "Спасибо, что помог мне."
+              }
+            ]
+          }
         }
-      , {"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Running every morning keeps me fit.", "ru": "Бег по утрам держит меня в форме. (подлежащее)"}, {"en": "I enjoy cooking for my friends.", "ru": "Я люблю готовить для друзей. (дополнение)"}, {"en": "She is good at drawing.", "ru": "Она хорошо рисует. (после предлога)"}, {"en": "Thank you for helping me.", "ru": "Спасибо, что помог мне."}]}}]
+      ]
     },
     {
-      "label": "Роли в предложении",
+      "label": "Где стоит герундий",
       "intro": {
         "text": "Герундий выполняет в предложении функции, похожие на функции существительного.",
         "highlights": [
-          { "text": "функции", "color": "term", "style": "bold" },
-          { "text": "существительного", "color": "accent2", "style": "bold_underline" }
+          {
+            "text": "функции",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "существительного",
+            "color": "accent2",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -106,10 +202,26 @@
           "title": "Основные роли",
           "borderColor": "info",
           "keysValues": [
-            { "key": "Подлежащее", "value": "Reading improves memory.", "valueColor": "text" },
-            { "key": "Дополнение", "value": "She enjoys cooking.", "valueColor": "text" },
-            { "key": "После предлога", "value": "Thanks for helping!", "valueColor": "text" },
-            { "key": "Часть сказуемого", "value": "My hobby is collecting stamps.", "valueColor": "text" }
+            {
+              "key": "Подлежащее",
+              "value": "Reading improves memory.",
+              "valueColor": "text"
+            },
+            {
+              "key": "Дополнение",
+              "value": "She enjoys cooking.",
+              "valueColor": "text"
+            },
+            {
+              "key": "После предлога",
+              "value": "Thanks for helping!",
+              "valueColor": "text"
+            },
+            {
+              "key": "Часть сказуемого",
+              "value": "My hobby is collecting stamps.",
+              "valueColor": "text"
+            }
           ]
         },
         {
@@ -121,31 +233,76 @@
             "text": "В сочетаниях swimming pool и reading room слово на -ing входит в состав существительного и описывает его назначение. Это не самый типичный пример герундия в роли определения."
           },
           "examples": [
-            { "en": "a swimming pool", "ru": "бассейн (буквально — бассейн для плавания)" },
-            { "en": "a reading room", "ru": "читальный зал" }
+            {
+              "en": "a swimming pool",
+              "ru": "бассейн (буквально — бассейн для плавания)"
+            },
+            {
+              "en": "a reading room",
+              "ru": "читальный зал"
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "term",
           "examples": [
-            { "en": "Swimming keeps me fit.", "ru": "Плавание помогает мне держать форму." },
-            { "en": "I love reading detective stories.", "ru": "Обожаю читать детективы." },
-            { "en": "Thank you for helping me.", "ru": "Спасибо, что помогли мне." },
-            { "en": "My dream is travelling.", "ru": "Моя мечта — путешествовать." },
-            { "en": "We need a bigger dining table.", "ru": "Нам нужен обеденный стол побольше." }
+            {
+              "en": "Swimming keeps me fit.",
+              "ru": "Плавание помогает мне держать форму."
+            },
+            {
+              "en": "I love reading detective stories.",
+              "ru": "Обожаю читать детективы."
+            },
+            {
+              "en": "Thank you for helping me.",
+              "ru": "Спасибо, что помогли мне."
+            },
+            {
+              "en": "My dream is travelling.",
+              "ru": "Моя мечта — путешествовать."
+            },
+            {
+              "en": "We need a bigger dining table.",
+              "ru": "Нам нужен обеденный стол побольше."
+            }
           ]
         },
         {
           "title": "Устойчивые конструкции",
           "borderColor": "good",
           "rules": [
-            { "name": "It's no use + -ing", "suffix": "бесполезно", "example": "It's no use crying." },
-            { "name": "be worth + -ing", "suffix": "стоит", "example": "The museum is worth visiting." },
-            { "name": "can't help + -ing", "suffix": "не могу не", "example": "I couldn't help laughing." },
-            { "name": "feel like + -ing", "suffix": "хочется", "example": "I feel like going for a walk." },
-            { "name": "Would you mind + -ing", "suffix": "не могли бы вы", "example": "Would you mind closing the door?" },
-            { "name": "How about + -ing", "suffix": "как насчёт", "example": "How about going to the cinema?" }
+            {
+              "name": "It's no use + -ing",
+              "suffix": "бесполезно",
+              "example": "It's no use crying."
+            },
+            {
+              "name": "be worth + -ing",
+              "suffix": "стоит",
+              "example": "The museum is worth visiting."
+            },
+            {
+              "name": "can't help + -ing",
+              "suffix": "не могу не",
+              "example": "I couldn't help laughing."
+            },
+            {
+              "name": "feel like + -ing",
+              "suffix": "хочется",
+              "example": "I feel like going for a walk."
+            },
+            {
+              "name": "Would you mind + -ing",
+              "suffix": "не могли бы вы",
+              "example": "Would you mind closing the door?"
+            },
+            {
+              "name": "How about + -ing",
+              "suffix": "как насчёт",
+              "example": "How about going to the cinema?"
+            }
           ]
         },
         {
@@ -164,8 +321,16 @@
       "intro": {
         "text": "После одних глаголов используется форма -ing, после других — инфинитив с to.",
         "highlights": [
-          { "text": "форма -ing", "color": "term", "style": "bold" },
-          { "text": "инфинитив с to", "color": "info", "style": "bold" }
+          {
+            "text": "форма -ing",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "инфинитив с to",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -175,16 +340,46 @@
           "verbGrid": {
             "accentColor": "example",
             "verbs": [
-              "enjoy", "finish", "mind", "avoid", "suggest", "keep",
-              "practise", "consider", "imagine", "miss", "risk", "deny",
-              "admit", "postpone", "give up", "dislike", "fancy"
+              "enjoy",
+              "finish",
+              "mind",
+              "avoid",
+              "suggest",
+              "keep",
+              "practise",
+              "consider",
+              "imagine",
+              "miss",
+              "risk",
+              "deny",
+              "admit",
+              "postpone",
+              "give up",
+              "dislike",
+              "fancy"
             ]
           },
           "examples": [
-            { "en": "I enjoy playing chess.", "ru": "правильно", "icon": "check", "iconColor": "good" },
-            { "en": "I enjoy to play.", "ru": "неправильно", "icon": "cross", "iconColor": "bad" },
-            { "en": "She suggested going home.", "ru": "Она предложила пойти домой." },
-            { "en": "He gave up smoking last year.", "ru": "Он бросил курить в прошлом году." }
+            {
+              "en": "I enjoy playing chess.",
+              "ru": "правильно",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "I enjoy to play.",
+              "ru": "неправильно",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "She suggested going home.",
+              "ru": "Она предложила пойти домой."
+            },
+            {
+              "en": "He gave up smoking last year.",
+              "ru": "Он бросил курить в прошлом году."
+            }
           ]
         },
         {
@@ -193,16 +388,46 @@
           "verbGrid": {
             "accentColor": "info",
             "verbs": [
-              "want", "decide", "hope", "plan", "promise", "agree",
-              "refuse", "learn", "manage", "offer", "expect", "afford",
-              "arrange", "fail", "pretend", "seem", "tend"
+              "want",
+              "decide",
+              "hope",
+              "plan",
+              "promise",
+              "agree",
+              "refuse",
+              "learn",
+              "manage",
+              "offer",
+              "expect",
+              "afford",
+              "arrange",
+              "fail",
+              "pretend",
+              "seem",
+              "tend"
             ]
           },
           "examples": [
-            { "en": "We decided to stay home.", "ru": "правильно", "icon": "check", "iconColor": "good" },
-            { "en": "We decided staying.", "ru": "неправильно", "icon": "cross", "iconColor": "bad" },
-            { "en": "I hope to see you soon.", "ru": "Надеюсь скоро тебя увидеть." },
-            { "en": "She promised to help us.", "ru": "Она пообещала нам помочь." }
+            {
+              "en": "We decided to stay home.",
+              "ru": "правильно",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "We decided staying.",
+              "ru": "неправильно",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "I hope to see you soon.",
+              "ru": "Надеюсь скоро тебя увидеть."
+            },
+            {
+              "en": "She promised to help us.",
+              "ru": "Она пообещала нам помочь."
+            }
           ]
         },
         {
@@ -217,12 +442,20 @@
       ]
     },
     {
-      "label": "Предлог + -ing",
+      "label": "После предлога — -ing",
       "intro": {
         "text": "Если после предлога стоит глагол, он обычно используется в форме -ing.",
         "highlights": [
-          { "text": "после предлога", "color": "term", "style": "bold" },
-          { "text": "-ing", "color": "accent2", "style": "bold_underline" }
+          {
+            "text": "после предлога",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "-ing",
+            "color": "accent2",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -242,12 +475,36 @@
           "title": "Частые связки",
           "borderColor": "info",
           "rules": [
-            { "name": "good / bad at", "suffix": "хорошо / плохо получается", "example": "She is good at drawing." },
-            { "name": "interested in", "suffix": "интересоваться", "example": "I'm interested in learning German." },
-            { "name": "afraid of", "suffix": "бояться", "example": "He is afraid of flying." },
-            { "name": "tired of", "suffix": "устать от", "example": "I'm tired of waiting." },
-            { "name": "thank you for", "suffix": "спасибо за", "example": "Thank you for coming." },
-            { "name": "look forward to", "suffix": "с нетерпением ждать", "example": "I look forward to seeing you." }
+            {
+              "name": "good / bad at",
+              "suffix": "хорошо / плохо получается",
+              "example": "She is good at drawing."
+            },
+            {
+              "name": "interested in",
+              "suffix": "интересоваться",
+              "example": "I'm interested in learning German."
+            },
+            {
+              "name": "afraid of",
+              "suffix": "бояться",
+              "example": "He is afraid of flying."
+            },
+            {
+              "name": "tired of",
+              "suffix": "устать от",
+              "example": "I'm tired of waiting."
+            },
+            {
+              "name": "thank you for",
+              "suffix": "спасибо за",
+              "example": "Thank you for coming."
+            },
+            {
+              "name": "look forward to",
+              "suffix": "с нетерпением ждать",
+              "example": "I look forward to seeing you."
+            }
           ]
         },
         {
@@ -259,22 +516,50 @@
             "text": "В look forward to, be used to, get used to и object to слово to является предлогом, а не частью инфинитива. Поэтому после него используется -ing."
           },
           "examples": [
-            { "en": "I look forward to seeing you.", "ru": "правильно", "icon": "check", "iconColor": "good" },
-            { "en": "I look forward to see you.", "ru": "неправильно", "icon": "cross", "iconColor": "bad" },
-            { "en": "I'm used to getting up early.", "ru": "Я привык рано вставать." },
-            { "en": "He objected to working late.", "ru": "Он возражал против работы допоздна." }
+            {
+              "en": "I look forward to seeing you.",
+              "ru": "правильно",
+              "icon": "check",
+              "iconColor": "good"
+            },
+            {
+              "en": "I look forward to see you.",
+              "ru": "неправильно",
+              "icon": "cross",
+              "iconColor": "bad"
+            },
+            {
+              "en": "I'm used to getting up early.",
+              "ru": "Я привык рано вставать."
+            },
+            {
+              "en": "He objected to working late.",
+              "ru": "Он возражал против работы допоздна."
+            }
           ]
         }
       ]
     },
     {
-      "label": "Смысл меняется",
+      "label": "Смысл меняется: stop doing и stop to do",
       "intro": {
         "text": "Некоторые глаголы меняют значение в зависимости от того, используется после них -ing или to do.",
         "highlights": [
-          { "text": "-ing", "color": "term", "style": "bold" },
-          { "text": "to do", "color": "info", "style": "bold" },
-          { "text": "меняют значение", "color": "accent2", "style": "bold_underline" }
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "to do",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "меняют значение",
+            "color": "accent2",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -282,18 +567,66 @@
           "title": "Глаголы с разным значением",
           "borderColor": "term",
           "transforms": [
-            { "from": "stop doing", "to": "прекратить действие: He stopped smoking.", "toColor": "good" },
-            { "from": "stop to do", "to": "остановиться, чтобы сделать: He stopped to smoke.", "toColor": "info" },
-            { "from": "remember doing", "to": "помнить о прошлом действии: I remember locking the door.", "toColor": "good" },
-            { "from": "remember to do", "to": "не забыть сделать: Remember to lock it!", "toColor": "info" },
-            { "from": "forget doing", "to": "забыть, что действие было: I'll never forget meeting her.", "toColor": "good" },
-            { "from": "forget to do", "to": "забыть сделать: I forgot to call him.", "toColor": "info" },
-            { "from": "try doing", "to": "попробовать как способ: Try restarting the phone.", "toColor": "good" },
-            { "from": "try to do", "to": "пытаться, прилагать усилия: I tried to open the door.", "toColor": "info" },
-            { "from": "regret doing", "to": "сожалеть о сделанном: I regret saying that.", "toColor": "good" },
-            { "from": "regret to do", "to": "с сожалением сообщать: We regret to inform you.", "toColor": "info" },
-            { "from": "mean doing", "to": "означать: This means working late.", "toColor": "good" },
-            { "from": "mean to do", "to": "намереваться: I didn't mean to hurt you.", "toColor": "info" }
+            {
+              "from": "stop doing",
+              "to": "прекратить действие: He stopped smoking.",
+              "toColor": "good"
+            },
+            {
+              "from": "stop to do",
+              "to": "остановиться, чтобы сделать: He stopped to smoke.",
+              "toColor": "info"
+            },
+            {
+              "from": "remember doing",
+              "to": "помнить о прошлом действии: I remember locking the door.",
+              "toColor": "good"
+            },
+            {
+              "from": "remember to do",
+              "to": "не забыть сделать: Remember to lock it!",
+              "toColor": "info"
+            },
+            {
+              "from": "forget doing",
+              "to": "забыть, что действие было: I'll never forget meeting her.",
+              "toColor": "good"
+            },
+            {
+              "from": "forget to do",
+              "to": "забыть сделать: I forgot to call him.",
+              "toColor": "info"
+            },
+            {
+              "from": "try doing",
+              "to": "попробовать как способ: Try restarting the phone.",
+              "toColor": "good"
+            },
+            {
+              "from": "try to do",
+              "to": "пытаться, прилагать усилия: I tried to open the door.",
+              "toColor": "info"
+            },
+            {
+              "from": "regret doing",
+              "to": "сожалеть о сделанном: I regret saying that.",
+              "toColor": "good"
+            },
+            {
+              "from": "regret to do",
+              "to": "с сожалением сообщать: We regret to inform you.",
+              "toColor": "info"
+            },
+            {
+              "from": "mean doing",
+              "to": "означать: This means working late.",
+              "toColor": "good"
+            },
+            {
+              "from": "mean to do",
+              "to": "намереваться: I didn't mean to hurt you.",
+              "toColor": "info"
+            }
           ]
         },
         {
@@ -301,23 +634,55 @@
           "borderColor": "info",
           "text": "Это не герундий, а формы, которые часто используются как прилагательные: -ing описывает причину чувства, а -ed — того, кто это чувство испытывает.",
           "transforms": [
-            { "from": "bore", "to": "boring lesson / I'm bored", "toColor": "example" },
-            { "from": "interest", "to": "interesting book / I'm interested", "toColor": "example" },
-            { "from": "tire", "to": "tiring day / I'm tired", "toColor": "example" },
-            { "from": "surprise", "to": "surprising result / We were surprised", "toColor": "example" },
-            { "from": "excite", "to": "exciting news / I'm excited", "toColor": "example" },
-            { "from": "confuse", "to": "confusing task / I'm confused", "toColor": "example" }
+            {
+              "from": "bore",
+              "to": "boring lesson / I'm bored",
+              "toColor": "example"
+            },
+            {
+              "from": "interest",
+              "to": "interesting book / I'm interested",
+              "toColor": "example"
+            },
+            {
+              "from": "tire",
+              "to": "tiring day / I'm tired",
+              "toColor": "example"
+            },
+            {
+              "from": "surprise",
+              "to": "surprising result / We were surprised",
+              "toColor": "example"
+            },
+            {
+              "from": "excite",
+              "to": "exciting news / I'm excited",
+              "toColor": "example"
+            },
+            {
+              "from": "confuse",
+              "to": "confusing task / I'm confused",
+              "toColor": "example"
+            }
           ]
         }
       ]
     },
     {
-      "label": "Частые ошибки: Gerund",
+      "label": "Частые ошибки: enjoy to swim, look forward to see",
       "intro": {
         "text": "Слева — неправильный вариант, справа — правильный. Сравни и запомни сочетания.",
         "highlights": [
-          { "text": "неправильный вариант", "color": "bad", "style": "bold" },
-          { "text": "правильный", "color": "good", "style": "bold" }
+          {
+            "text": "неправильный вариант",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "правильный",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -325,13 +690,34 @@
           "title": "Топ-7 ошибок",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I enjoy to swim.", "right": "I enjoy swimming." },
-            { "wrong": "We decided going home.", "right": "We decided to go home." },
-            { "wrong": "I look forward to see you.", "right": "I look forward to seeing you." },
-            { "wrong": "She is good at to draw.", "right": "She is good at drawing." },
-            { "wrong": "I'm interesting in music.", "right": "I'm interested in music." },
-            { "wrong": "I'm boring. (мне скучно)", "right": "I'm bored." },
-            { "wrong": "I'm used to get up early.", "right": "I'm used to getting up early." }
+            {
+              "wrong": "I enjoy to swim.",
+              "right": "I enjoy swimming. (enjoy + -ing)"
+            },
+            {
+              "wrong": "We decided going home.",
+              "right": "We decided to go home. (decide + to)"
+            },
+            {
+              "wrong": "I look forward to see you.",
+              "right": "I look forward to seeing you. (to здесь предлог)"
+            },
+            {
+              "wrong": "She is good at to draw.",
+              "right": "She is good at drawing. (после предлога — -ing)"
+            },
+            {
+              "wrong": "I'm interesting in music.",
+              "right": "I'm interested in music. (чувствую — -ed)"
+            },
+            {
+              "wrong": "I'm boring. (мне скучно)",
+              "right": "I'm bored. (мне скучно — -ed)"
+            },
+            {
+              "wrong": "I'm used to get up early.",
+              "right": "I'm used to getting up early. (be used to + -ing)"
+            }
           ]
         },
         {
@@ -358,9 +744,18 @@
             "title": "",
             "borderColor": "accent2",
             "bullets": [
-              { "text": "I'm lovin' it — намеренно разговорное и рекламное употребление. Это не обычная нейтральная модель для глагола love.", "color": "example" },
-              { "text": "Finding Nemo — название мультфильма; здесь форма -ing входит в название и передаёт идею поиска.", "color": "example" },
-              { "text": "Многие глаголы требуют определённую модель: -ing, to do или допускают обе формы. Такие сочетания лучше учить вместе с глаголом.", "color": "example" }
+              {
+                "text": "I'm lovin' it — намеренно разговорное и рекламное употребление. Это не обычная нейтральная модель для глагола love.",
+                "color": "example"
+              },
+              {
+                "text": "Finding Nemo — название мультфильма; здесь форма -ing входит в название и передаёт идею поиска.",
+                "color": "example"
+              },
+              {
+                "text": "Многие глаголы требуют определённую модель: -ing, to do или допускают обе формы. Такие сочетания лучше учить вместе с глаголом.",
+                "color": "example"
+              }
             ]
           }
         }

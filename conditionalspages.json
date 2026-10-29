@@ -8,7 +8,7 @@
   },
   "slides": [
     {
-      "label": "Условие и результат: 4 типа",
+      "label": "Условие и результат: четыре типа",
       "intro": {
         "text": "Условное предложение состоит из двух частей: if-часть (условие) и главная часть (результат). Всего четыре основных типа — от реального до нереального в прошлом.",
         "highlights": [
@@ -61,7 +61,74 @@
                 "color": "term"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["If", "условие", "результат"], "decoys": ["V-ing", "V3"], "examples": [{"en": "If it rains, we will stay home.", "ru": "Если пойдёт дождь, мы останемся дома.", "parts": [["If", "If"], ["it rains,", "условие"], ["we will stay home.", "результат"]]}, {"en": "If you heat ice, it melts.", "ru": "Если нагреть лёд, он тает.", "parts": [["If", "If"], ["you heat ice,", "условие"], ["it melts.", "результат"]]}, {"en": "If I had money, I would travel.", "ru": "Если бы у меня были деньги, я бы путешествовал.", "parts": [["If", "If"], ["I had money,", "условие"], ["I would travel.", "результат"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "If",
+                "условие",
+                "результат"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "If it rains, we will stay home.",
+                  "ru": "Если пойдёт дождь, мы останемся дома.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "it rains,",
+                      "условие"
+                    ],
+                    [
+                      "we will stay home.",
+                      "результат"
+                    ]
+                  ]
+                },
+                {
+                  "en": "If you heat ice, it melts.",
+                  "ru": "Если нагреть лёд, он тает.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "you heat ice,",
+                      "условие"
+                    ],
+                    [
+                      "it melts.",
+                      "результат"
+                    ]
+                  ]
+                },
+                {
+                  "en": "If I had money, I would travel.",
+                  "ru": "Если бы у меня были деньги, я бы путешествовал.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "I had money,",
+                      "условие"
+                    ],
+                    [
+                      "I would travel.",
+                      "результат"
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "callout": {
             "type": "info",
@@ -205,7 +272,7 @@
       ]
     },
     {
-      "label": "Zero / First",
+      "label": "Zero и First: факт и реальное будущее",
       "intro": {
         "text": "Zero описывает общий факт или закон природы. First — реальное условие в будущем, которое вполне может случиться.",
         "highlights": [
@@ -357,7 +424,7 @@
       ]
     },
     {
-      "label": "Second / Third",
+      "label": "Second и Third: нереально сейчас и в прошлом",
       "intro": {
         "text": "Second описывает нереальную ситуацию в настоящем. Third — нереальную ситуацию в прошлом, которую уже не изменить.",
         "highlights": [
@@ -496,7 +563,7 @@
       ]
     },
     {
-      "label": "Wish и If only",
+      "label": "Wish и if only: сожаления",
       "intro": {
         "text": "Wish и if only — сожаления о том, чего нет сейчас или не было в прошлом. Смешанные условные (mixed) — отдельная карточка уровня B2.",
         "highlights": [
@@ -598,7 +665,7 @@
       ]
     },
     {
-      "label": "Другие союзы",
+      "label": "Unless, as long as, in case, even if",
       "intro": {
         "text": "Вместо if можно использовать другие союзы условия: unless, as long as, in case, even if. Каждый придаёт свой оттенок: строгость, время, случайность.",
         "highlights": [
@@ -766,7 +833,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Conditionals",
+      "label": "Частые ошибки: if it will rain, if I would have",
       "intro": {
         "text": "Шесть самых частых ошибок в условных предложениях — слева как нельзя, справа как правильно.",
         "highlights": [
@@ -784,27 +851,27 @@
           "errors": [
             {
               "wrong": "If it will rain, I will stay home.",
-              "right": "If it rains, I will stay home."
+              "right": "If it rains, I will stay home. (после if — без will)"
             },
             {
               "wrong": "If I would have money…",
-              "right": "If I had money…"
+              "right": "If I had money… (после if — Past Simple)"
             },
             {
               "wrong": "If I was you…",
-              "right": "If I were you…"
+              "right": "If I were you… (в устойчивом обороте — were)"
             },
             {
               "wrong": "I wish I am taller.",
-              "right": "I wish I were taller."
+              "right": "I wish I were taller. (после wish — прошедшее)"
             },
             {
               "wrong": "Unless you don't hurry…",
-              "right": "Unless you hurry…"
+              "right": "Unless you hurry… (unless уже значит «если не»)"
             },
             {
               "wrong": "I wish I would be there yesterday.",
-              "right": "I wish I had been there yesterday."
+              "right": "I wish I had been there yesterday. (о прошлом — Past Perfect)"
             }
           ]
         },

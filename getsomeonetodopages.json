@@ -3,13 +3,25 @@
   "route": "cards_getsomeonetodo",
   "slides": [
     {
-      "label": "get someone to do: уговорить",
+      "label": "Get someone to do: уговорить",
       "intro": {
         "text": "Get someone to do — убеждение сделать что-то. Кто-то согласился что-то сделать после просьбы или уговоров. Не принуждение и не разрешение, а именно уговоры.",
         "highlights": [
-          { "text": "Get someone to do", "color": "term",    "style": "bold_underline" },
-          { "text": "убеждение",          "color": "info",    "style": "bold" },
-          { "text": "согласился",         "color": "example", "style": "bold" }
+          {
+            "text": "Get someone to do",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "убеждение",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "согласился",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,25 +30,153 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "get",     "color": "info" },
-              { "text": "+",       "color": "muted" },
-              { "text": "someone", "color": "example" },
-              { "text": "+",       "color": "muted" },
-              { "text": "to + глагол", "color": "term" }
+              {
+                "text": "get",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "someone",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "to + глагол",
+                "color": "term"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["get", "someone", "to + глагол"], "decoys": ["make", "V-ing"], "examples": [{"en": "I got my brother to help me.", "ru": "Я уговорил брата мне помочь.", "parts": [["I", ""], ["got", "get"], ["my brother", "someone"], ["to help", "to + глагол"], ["me.", ""]]}, {"en": "She got him to fix the tap.", "ru": "Она добилась, чтобы он починил кран.", "parts": [["She", ""], ["got", "get"], ["him", "someone"], ["to fix", "to + глагол"], ["the tap.", ""]]}, {"en": "We could not get the kids to sleep.", "ru": "Мы не смогли уложить детей спать.", "parts": [["We", ""], ["could not get", "get"], ["the kids", "someone"], ["to sleep.", "to + глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "get",
+                "someone",
+                "to + глагол"
+              ],
+              "decoys": [
+                "make",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "I got my brother to help me.",
+                  "ru": "Я уговорил брата мне помочь.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "got",
+                      "get"
+                    ],
+                    [
+                      "my brother",
+                      "someone"
+                    ],
+                    [
+                      "to help",
+                      "to + глагол"
+                    ],
+                    [
+                      "me.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She got him to fix the tap.",
+                  "ru": "Она добилась, чтобы он починил кран.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "got",
+                      "get"
+                    ],
+                    [
+                      "him",
+                      "someone"
+                    ],
+                    [
+                      "to fix",
+                      "to + глагол"
+                    ],
+                    [
+                      "the tap.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We could not get the kids to sleep.",
+                  "ru": "Мы не смогли уложить детей спать.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "could not get",
+                      "get"
+                    ],
+                    [
+                      "the kids",
+                      "someone"
+                    ],
+                    [
+                      "to sleep.",
+                      "to + глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Get / Make / Let",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["get someone to do",  "убедил, согласился", "I got him to help me."] },
-              { "cells": ["make someone do",     "заставил",            "I made him help me."] },
-              { "cells": ["let someone do",      "разрешил",            "I let him help me."] }
+              {
+                "cells": [
+                  "get someone to do",
+                  "убедил, согласился",
+                  "I got him to help me."
+                ]
+              },
+              {
+                "cells": [
+                  "make someone do",
+                  "заставил",
+                  "I made him help me."
+                ]
+              },
+              {
+                "cells": [
+                  "let someone do",
+                  "разрешил",
+                  "I let him help me."
+                ]
+              }
             ],
             "borderColor": "info"
           },
@@ -50,21 +190,95 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I got my brother to fix my laptop.",       "ru": "Я уговорил брата починить мой ноутбук." },
-            { "en": "She got him to change his mind.",            "ru": "Она уговорила его передумать." },
-            { "en": "Can you get her to call me?",                "ru": "Можешь попросить её мне позвонить?" },
-            { "en": "We got the kids to go to bed early.",        "ru": "Мы уговорили детей лечь рано." }
+            {
+              "en": "I got my brother to fix my laptop.",
+              "ru": "Я уговорил брата починить мой ноутбук."
+            },
+            {
+              "en": "She got him to change his mind.",
+              "ru": "Она уговорила его передумать."
+            },
+            {
+              "en": "Can you get her to call me?",
+              "ru": "Можешь попросить её мне позвонить?"
+            },
+            {
+              "en": "We got the kids to go to bed early.",
+              "ru": "Мы уговорили детей лечь рано."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Have someone do — поручить",
+          "preview": "ещё один родственник",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Конструкция",
+                "Смысл",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "get sb to do",
+                    "уговорить",
+                    "I got Tom to drive me."
+                  ]
+                },
+                {
+                  "cells": [
+                    "have sb do",
+                    "поручить (работа, услуга)",
+                    "I'll have my assistant call you."
+                  ]
+                },
+                {
+                  "cells": [
+                    "make sb do",
+                    "заставить",
+                    "She made me apologise."
+                  ]
+                },
+                {
+                  "cells": [
+                    "let sb do",
+                    "разрешить",
+                    "They let us stay late."
+                  ]
+                }
+              ]
+            },
+            "callout": {
+              "type": "tip",
+              "title": "С to — только get",
+              "text": "Get someone TO do. Have, make, let — без to."
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Get someone to do",
+      "label": "Частые ошибки: got him help, made him to",
       "intro": {
         "text": "Три самые частые ошибки в get someone to do.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -72,9 +286,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I got him help me.",         "right": "I got him to help me." },
-            { "wrong": "I got him helping me.",       "right": "I got him to help me." },
-            { "wrong": "I made him to help me.",      "right": "I made him help me." }
+            {
+              "wrong": "I got him help me.",
+              "right": "I got him to help me. (get + to)"
+            },
+            {
+              "wrong": "I got him helping me.",
+              "right": "I got him to help me. (не -ing, а to + глагол)"
+            },
+            {
+              "wrong": "I made him to help me.",
+              "right": "I made him help me. (make — без to)"
+            }
           ]
         },
         {

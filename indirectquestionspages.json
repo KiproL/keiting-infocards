@@ -3,7 +3,7 @@
   "route": "cards_indirectquestions",
   "slides": [
     {
-      "label": "Вежливый вопрос",
+      "label": "Вежливый вопрос: Can you tell me where…",
       "intro": {
         "text": "Чтобы спросить вежливо, вопрос прячут после Can you tell me…? или Do you know…? Порядок слов в нём — как в утверждении.",
         "highlights": [
@@ -41,10 +41,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Could you tell me where the toilets are?", "ru": "Не подскажете, где туалет?"}, {"en": "Do you know how much this costs?", "ru": "Вы не знаете, сколько это стоит?"}, {"en": "I wonder if the shop is still open.", "ru": "Интересно, магазин ещё открыт?"}, {"en": "Can you tell me when the next bus leaves?", "ru": "Не подскажете, когда следующий автобус?"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Could you tell me where the toilets are?",
+                "ru": "Не подскажете, где туалет?"
+              },
+              {
+                "en": "Do you know how much this costs?",
+                "ru": "Вы не знаете, сколько это стоит?"
+              },
+              {
+                "en": "I wonder if the shop is still open.",
+                "ru": "Интересно, магазин ещё открыт?"
+              },
+              {
+                "en": "Can you tell me when the next bus leaves?",
+                "ru": "Не подскажете, когда следующий автобус?"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Как строится",
+      "label": "Как строится: порядок как в утверждении",
       "intro": {
         "text": "Вопросительное слово остаётся, а за ним — обычный порядок: подлежащее, потом глагол. Do, does, did исчезают.",
         "highlights": [
@@ -87,10 +116,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Do you know where she lives?", "ru": "Ты знаешь, где она живёт? (не where does she live)"}, {"en": "Can you tell me what time it is?", "ru": "Не подскажете, который час?"}, {"en": "I don't know if he called.", "ru": "Не знаю, звонил ли он."}, {"en": "Do you remember who won?", "ru": "Ты помнишь, кто выиграл?"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Do you know where she lives?",
+                "ru": "Ты знаешь, где она живёт? (не where does she live)"
+              },
+              {
+                "en": "Can you tell me what time it is?",
+                "ru": "Не подскажете, который час?"
+              },
+              {
+                "en": "I don't know if he called.",
+                "ru": "Не знаю, звонил ли он."
+              },
+              {
+                "en": "Do you remember who won?",
+                "ru": "Ты помнишь, кто выиграл?"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Начала",
+      "label": "Вежливые начала: Do you know, I was wondering",
       "intro": {
         "text": "Эти начала делают любой вопрос вежливым.",
         "highlights": [
@@ -149,10 +207,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Do you have any idea where my keys are?",
+                "ru": "Ты не в курсе, где мои ключи?"
+              },
+              {
+                "en": "I was wondering if you could help me.",
+                "ru": "Я хотел узнать, не могли бы вы мне помочь."
+              },
+              {
+                "en": "I'd like to know why the train is late.",
+                "ru": "Хотелось бы знать, почему поезд опаздывает."
+              },
+              {
+                "en": "Could you tell me how to get to the museum?",
+                "ru": "Не подскажете, как пройти к музею?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Косвенные вопросы",
+      "label": "Частые ошибки: where is the station, does it open",
       "intro": {
         "text": "Самые частые ошибки в косвенных вопросах.",
         "highlights": [
@@ -170,19 +257,19 @@
           "errors": [
             {
               "wrong": "Can you tell me where is the station?",
-              "right": "Can you tell me where the station is?"
+              "right": "Can you tell me where the station is? (порядок как в утверждении)"
             },
             {
               "wrong": "Do you know what time does it open?",
-              "right": "Do you know what time it opens?"
+              "right": "Do you know what time it opens? (does уходит, -s — в глагол)"
             },
             {
               "wrong": "I wonder where does she live.",
-              "right": "I wonder where she lives."
+              "right": "I wonder where she lives. (без does)"
             },
             {
               "wrong": "Do you know is he here?",
-              "right": "Do you know if he's here?"
+              "right": "Do you know if he's here? (без вопросительного слова — if)"
             }
           ]
         }

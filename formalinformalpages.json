@@ -3,7 +3,7 @@
   "route": "cards_formalinformal",
   "slides": [
     {
-      "label": "Два стиля",
+      "label": "Два стиля: get и receive, help и assist",
       "intro": {
         "text": "У многих английских слов есть пара: короткое разговорное (часто фразовый глагол) и длинное официальное латинского происхождения. В рабочем письме — второе, в чате с другом — первое.",
         "highlights": [
@@ -123,10 +123,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Can I ask for some help? / I would like to request assistance.", "ru": "Можно попросить помощи? / Прошу оказать содействие."}, {"en": "We need to find out the cost. / We need to determine the cost.", "ru": "Нужно узнать стоимость."}, {"en": "The meeting will start at ten. / The meeting will commence at ten.", "ru": "Встреча начнётся в десять."}, {"en": "I got your email. / I have received your email.", "ru": "Я получил твоё письмо."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Can I ask for some help? / I would like to request assistance.",
+                "ru": "Можно попросить помощи? / Прошу оказать содействие."
+              },
+              {
+                "en": "We need to find out the cost. / We need to determine the cost.",
+                "ru": "Нужно узнать стоимость."
+              },
+              {
+                "en": "The meeting will start at ten. / The meeting will commence at ten.",
+                "ru": "Встреча начнётся в десять."
+              },
+              {
+                "en": "I got your email. / I have received your email.",
+                "ru": "Я получил твоё письмо."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Фразы",
+      "label": "Одна фраза — два стиля",
       "intro": {
         "text": "Разница не только в словах, но и в целых фразах.",
         "highlights": [
@@ -197,10 +226,64 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Одно письмо — два стиля",
+          "preview": "другу и в компанию",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Другу",
+                "В компанию"
+              ],
+              "headerColors": [
+                "info",
+                "term"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "Hi Tom,",
+                    "Dear Mr Smith,"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Thanks for your message!",
+                    "Thank you for your email."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Can you send me the price?",
+                    "Could you please send me the price list?"
+                  ]
+                },
+                {
+                  "cells": [
+                    "Talk soon!",
+                    "I look forward to hearing from you."
+                  ]
+                },
+                {
+                  "cells": [
+                    "Cheers, Anna",
+                    "Kind regards, Anna Ivanova"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Признаки стиля",
+      "label": "Что выдаёт стиль: формы, пассив, сленг",
       "intro": {
         "text": "Стиль выдают не только слова, но и грамматика.",
         "highlights": [
@@ -256,10 +339,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I am afraid we do not accept cash.", "ru": "К сожалению, мы не принимаем наличные. (официально: полные формы)"}, {"en": "It has been decided that the office will close.", "ru": "Принято решение закрыть офис. (официально: пассив)"}, {"en": "I'm gonna be late, sorry!", "ru": "Опоздаю, извини! (разговорно)"}, {"en": "It's a nice place, isn't it?", "ru": "Классное место, правда? (разговорно: хвостик)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I am afraid we do not accept cash.",
+                "ru": "К сожалению, мы не принимаем наличные. (официально: полные формы)"
+              },
+              {
+                "en": "It has been decided that the office will close.",
+                "ru": "Принято решение закрыть офис. (официально: пассив)"
+              },
+              {
+                "en": "I'm gonna be late, sorry!",
+                "ru": "Опоздаю, извини! (разговорно)"
+              },
+              {
+                "en": "It's a nice place, isn't it?",
+                "ru": "Классное место, правда? (разговорно: хвостик)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Официальные и разговорные слова",
+      "label": "Частые ошибки: стиль не к месту",
       "intro": {
         "text": "Самые частые ошибки — стиль не к месту.",
         "highlights": [
@@ -277,19 +389,19 @@
           "errors": [
             {
               "wrong": "Hey guys, I wanna get the job. (письмо работодателю)",
-              "right": "Dear Sir or Madam, I would like to apply for the position."
+              "right": "Dear Sir or Madam, I would like to apply for the position. (официально)"
             },
             {
               "wrong": "Gonna be late, sorry!!! (начальнику)",
-              "right": "I'm sorry, I'll be a few minutes late."
+              "right": "I'm sorry, I'll be a few minutes late. (вежливо, без сленга)"
             },
             {
               "wrong": "I would be grateful if you could pass the salt. (за ужином)",
-              "right": "Could you pass the salt?"
+              "right": "Could you pass the salt? (дома так официально не говорят)"
             },
             {
               "wrong": "I require assistance with my homework. (другу)",
-              "right": "Can you help me with my homework?"
+              "right": "Can you help me with my homework? (другу — просто)"
             }
           ]
         }

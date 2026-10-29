@@ -5,11 +5,28 @@
     {
       "label": "Future Perfect: сделаю к сроку",
       "intro": {
-        "text": "Future Perfect описывает действие, которое завершится к определённому моменту в будущем. Важен результат к этому сроку, а не сам процесс.",
+        "text": "Future Perfect — действие будет уже сделано к какому-то моменту в будущем: «к пятнице я закончу». Важен результат к сроку. Строится как will have + V3.",
         "highlights": [
-          { "text": "Future Perfect",       "color": "term",    "style": "bold_underline" },
-          { "text": "к определённому моменту","color": "info",    "style": "bold" },
-          { "text": "результат к этому сроку","color": "example", "style": "bold" }
+          {
+            "text": "Future Perfect",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "уже сделано",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "результат к сроку",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "will have + V3",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,25 +35,145 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",         "color": "info" },
-              { "text": "+",         "color": "muted" },
-              { "text": "will have", "color": "term" },
-              { "text": "+",         "color": "muted" },
-              { "text": "V3",        "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "will have",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "will have", "V3"], "decoys": ["V-ing", "will be"], "examples": [{"en": "I will have finished by Monday.", "ru": "Я закончу к понедельнику.", "parts": [["I", "S"], ["will have", "will have"], ["finished", "V3"], ["by Monday.", ""]]}, {"en": "She will have left by noon.", "ru": "К полудню она уже уйдёт.", "parts": [["She", "S"], ["will have", "will have"], ["left", "V3"], ["by noon.", ""]]}, {"en": "They will have built the bridge by 2030.", "ru": "К 2030 году они построят мост.", "parts": [["They", "S"], ["will have", "will have"], ["built", "V3"], ["the bridge by 2030.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "will have",
+                "V3"
+              ],
+              "decoys": [
+                "V-ing",
+                "will be"
+              ],
+              "examples": [
+                {
+                  "en": "I will have finished by Monday.",
+                  "ru": "Я закончу к понедельнику.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "will have",
+                      "will have"
+                    ],
+                    [
+                      "finished",
+                      "V3"
+                    ],
+                    [
+                      "by Monday.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She will have left by noon.",
+                  "ru": "К полудню она уже уйдёт.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "will have",
+                      "will have"
+                    ],
+                    [
+                      "left",
+                      "V3"
+                    ],
+                    [
+                      "by noon.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They will have built the bridge by 2030.",
+                  "ru": "К 2030 году они построят мост.",
+                  "parts": [
+                    [
+                      "They",
+                      "S"
+                    ],
+                    [
+                      "will have",
+                      "will have"
+                    ],
+                    [
+                      "built",
+                      "V3"
+                    ],
+                    [
+                      "the bridge by 2030.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Сравнение с настоящим и будущим",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Форма", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Форма",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Present Perfect",  "have / has + V3",     "I have finished."] },
-              { "cells": ["Future Perfect",    "will have + V3",      "I will have finished by Friday."] },
-              { "cells": ["Past Perfect",      "had + V3",            "I had finished by Friday."] }
+              {
+                "cells": [
+                  "Present Perfect",
+                  "have / has + V3",
+                  "I have finished."
+                ]
+              },
+              {
+                "cells": [
+                  "Future Perfect",
+                  "will have + V3",
+                  "I will have finished by Friday."
+                ]
+              },
+              {
+                "cells": [
+                  "Past Perfect",
+                  "had + V3",
+                  "I had finished by Friday."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -46,17 +183,37 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["by", "by the time", "by then", "before", "by next year", "already", "by 2030"]
+            "verbs": [
+              "by",
+              "by the time",
+              "by then",
+              "before",
+              "by next year",
+              "already",
+              "by 2030"
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I will have finished the report by Friday.", "ru": "К пятнице я закончу отчёт." },
-            { "en": "She will have graduated by next summer.",     "ru": "К следующему лету она закончит университет." },
-            { "en": "By 2030, scientists will have found a cure.", "ru": "К 2030 году учёные найдут лекарство." },
-            { "en": "We will have built the house by summer.",      "ru": "К лету мы построим дом." }
+            {
+              "en": "I will have finished the report by Friday.",
+              "ru": "К пятнице я закончу отчёт."
+            },
+            {
+              "en": "She will have graduated by next summer.",
+              "ru": "К следующему лету она закончит университет."
+            },
+            {
+              "en": "By 2030, scientists will have found a cure.",
+              "ru": "К 2030 году учёные найдут лекарство."
+            },
+            {
+              "en": "We will have built the house by summer.",
+              "ru": "К лету мы построим дом."
+            }
           ]
         },
         {
@@ -70,15 +227,26 @@
         }
       ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
         "text": "Will have не меняется по лицам. Одна форма для всех.",
         "highlights": [
-          { "text": "will have",   "color": "term",    "style": "bold_underline" },
-          { "text": "не меняется",  "color": "info",    "style": "bold" },
-          { "text": "для всех",      "color": "example", "style": "bold" }
+          {
+            "text": "will have",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не меняется",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "для всех",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -87,15 +255,30 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I / You / He / She / It / We / They", "color": "info" },
-              { "text": "+",                                   "color": "muted" },
-              { "text": "will have + V3",                      "color": "example" }
+              {
+                "text": "I / You / He / She / It / We / They",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "will have + V3",
+                "color": "example"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I will have finished the report by Friday.", "ru": "К пятнице я закончу отчёт." },
-            { "en": "She will have graduated by next summer.",     "ru": "К следующему лету она закончит университет." }
+            {
+              "en": "I will have finished the report by Friday.",
+              "ru": "К пятнице я закончу отчёт."
+            },
+            {
+              "en": "She will have graduated by next summer.",
+              "ru": "К следующему лету она закончит университет."
+            }
           ]
         },
         {
@@ -103,17 +286,129 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "will",     "color": "info" },
-              { "text": "+",        "color": "muted" },
-              { "text": "not have", "color": "bad" },
-              { "text": "+",        "color": "muted" },
-              { "text": "V3",       "color": "example" }
+              {
+                "text": "will",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not have",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "example"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["will", "not have", "V3"], "decoys": ["V-ing", "be"], "examples": [{"en": "I will not have finished by then.", "ru": "К тому времени я ещё не закончу.", "parts": [["I", ""], ["will", "will"], ["not have", "not have"], ["finished", "V3"], ["by then.", ""]]}, {"en": "She will not have arrived by six.", "ru": "К шести она ещё не приедет.", "parts": [["She", ""], ["will", "will"], ["not have", "not have"], ["arrived", "V3"], ["by six.", ""]]}, {"en": "We will not have eaten before the show.", "ru": "До спектакля мы ещё не успеем поесть.", "parts": [["We", ""], ["will", "will"], ["not have", "not have"], ["eaten", "V3"], ["before the show.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "will",
+                "not have",
+                "V3"
+              ],
+              "decoys": [
+                "V-ing",
+                "be"
+              ],
+              "examples": [
+                {
+                  "en": "I will not have finished by then.",
+                  "ru": "К тому времени я ещё не закончу.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not have",
+                      "not have"
+                    ],
+                    [
+                      "finished",
+                      "V3"
+                    ],
+                    [
+                      "by then.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She will not have arrived by six.",
+                  "ru": "К шести она ещё не приедет.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not have",
+                      "not have"
+                    ],
+                    [
+                      "arrived",
+                      "V3"
+                    ],
+                    [
+                      "by six.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We will not have eaten before the show.",
+                  "ru": "До спектакля мы ещё не успеем поесть.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "will",
+                      "will"
+                    ],
+                    [
+                      "not have",
+                      "not have"
+                    ],
+                    [
+                      "eaten",
+                      "V3"
+                    ],
+                    [
+                      "before the show.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "They won't have finished by then.",  "ru": "Они не закончат к тому времени." },
-            { "en": "He won't have arrived by 6.",         "ru": "Он не приедет к 6." }
+            {
+              "en": "They won't have finished by then.",
+              "ru": "Они не закончат к тому времени."
+            },
+            {
+              "en": "He won't have arrived by 6.",
+              "ru": "Он не приедет к 6."
+            }
           ]
         },
         {
@@ -121,45 +416,182 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Will", "color": "info" },
-              { "text": "+",    "color": "muted" },
-              { "text": "S",    "color": "example" },
-              { "text": "+",    "color": "muted" },
-              { "text": "have + V3?", "color": "term" }
+              {
+                "text": "Will",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "have + V3?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Will", "S", "have + V3?"], "decoys": ["Have", "be + V-ing?"], "examples": [{"en": "Will you have finished by Friday?", "ru": "Ты закончишь к пятнице?", "parts": [["Will", "Will"], ["you", "S"], ["have finished", "have + V3?"], ["by Friday?", ""]]}, {"en": "Will they have arrived by noon?", "ru": "Они приедут к полудню?", "parts": [["Will", "Will"], ["they", "S"], ["have arrived", "have + V3?"], ["by noon?", ""]]}, {"en": "Will she have read the book by then?", "ru": "Она прочитает книгу к тому времени?", "parts": [["Will", "Will"], ["she", "S"], ["have read", "have + V3?"], ["the book by then?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Will",
+                "S",
+                "have + V3?"
+              ],
+              "decoys": [
+                "Have",
+                "be + V-ing?"
+              ],
+              "examples": [
+                {
+                  "en": "Will you have finished by Friday?",
+                  "ru": "Ты закончишь к пятнице?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "have finished",
+                      "have + V3?"
+                    ],
+                    [
+                      "by Friday?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Will they have arrived by noon?",
+                  "ru": "Они приедут к полудню?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "they",
+                      "S"
+                    ],
+                    [
+                      "have arrived",
+                      "have + V3?"
+                    ],
+                    [
+                      "by noon?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Will she have read the book by then?",
+                  "ru": "Она прочитает книгу к тому времени?",
+                  "parts": [
+                    [
+                      "Will",
+                      "Will"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "have read",
+                      "have + V3?"
+                    ],
+                    [
+                      "the book by then?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Will you have finished by 6 pm?",           "ru": "Ты закончишь к 6 вечера?" },
-            { "en": "How much will you have saved by December?",  "ru": "Сколько ты накопишь к декабрю?" }
+            {
+              "en": "Will you have finished by 6 pm?",
+              "ru": "Ты закончишь к 6 вечера?"
+            },
+            {
+              "en": "How much will you have saved by December?",
+              "ru": "Сколько ты накопишь к декабрю?"
+            }
           ]
         },
         {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
-            "headers": ["Полная форма", "Сокращение"],
-            "headerColors": ["info", "example"],
+            "headers": [
+              "Полная форма",
+              "Сокращение"
+            ],
+            "headerColors": [
+              "info",
+              "example"
+            ],
             "rows": [
-              { "cells": ["I will have",    "I'll have"] },
-              { "cells": ["you will have",  "you'll have"] },
-              { "cells": ["he will have",    "he'll have"] },
-              { "cells": ["will not have",   "won't have"] }
+              {
+                "cells": [
+                  "I will have",
+                  "I'll have"
+                ]
+              },
+              {
+                "cells": [
+                  "you will have",
+                  "you'll have"
+                ]
+              },
+              {
+                "cells": [
+                  "he will have",
+                  "he'll have"
+                ]
+              },
+              {
+                "cells": [
+                  "will not have",
+                  "won't have"
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
       ]
     },
-
     {
-      "label": "Слова-маркеры",
+      "label": "Подсказки: by, by the time, by then",
       "intro": {
         "text": "Слова-маркеры указывают срок, к которому действие уже будет завершено.",
         "highlights": [
-          { "text": "Слова-маркеры", "color": "term",    "style": "bold_underline" },
-          { "text": "срок",           "color": "info",    "style": "bold" },
-          { "text": "завершено",       "color": "example", "style": "bold" }
+          {
+            "text": "Слова-маркеры",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "срок",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "завершено",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -167,15 +599,59 @@
           "title": "Главные маркеры",
           "borderColor": "info",
           "table": {
-            "headers": ["Маркер", "Перевод", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Маркер",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["by",              "к (сроку)",           "I will have finished by Monday."] },
-              { "cells": ["by the time",      "к тому времени как",  "By the time you wake up, I'll have left."] },
-              { "cells": ["by then",          "к тому времени",      "The movie will have started by then."] },
-              { "cells": ["before",           "до того как",         "She'll have left before you arrive."] },
-              { "cells": ["by next year",     "к следующему году",   "We'll have moved by next year."] },
-              { "cells": ["already",           "уже к тому моменту",  "They'll have already eaten by 8 pm."] }
+              {
+                "cells": [
+                  "by",
+                  "к (сроку)",
+                  "I will have finished by Monday."
+                ]
+              },
+              {
+                "cells": [
+                  "by the time",
+                  "к тому времени как",
+                  "By the time you wake up, I'll have left."
+                ]
+              },
+              {
+                "cells": [
+                  "by then",
+                  "к тому времени",
+                  "The movie will have started by then."
+                ]
+              },
+              {
+                "cells": [
+                  "before",
+                  "до того как",
+                  "She'll have left before you arrive."
+                ]
+              },
+              {
+                "cells": [
+                  "by next year",
+                  "к следующему году",
+                  "We'll have moved by next year."
+                ]
+              },
+              {
+                "cells": [
+                  "already",
+                  "уже к тому моменту",
+                  "They'll have already eaten by 8 pm."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -184,31 +660,62 @@
           "title": "By vs Before",
           "borderColor": "term",
           "rules": [
-            { "name": "by",     "suffix": "к моменту (не позже)", "example": "I'll finish by 6 pm." },
-            { "name": "before", "suffix": "до момента (раньше)",  "example": "I'll finish before 6 pm." }
+            {
+              "name": "by",
+              "suffix": "к моменту (не позже)",
+              "example": "I'll finish by 6 pm."
+            },
+            {
+              "name": "before",
+              "suffix": "до момента (раньше)",
+              "example": "I'll finish before 6 pm."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I will have finished by Monday.",                 "ru": "Я закончу к понедельнику." },
-            { "en": "By the time you wake up, I will have left.",       "ru": "К тому времени, как ты проснёшься, я уже уйду." },
-            { "en": "They will have already eaten by 8 pm.",            "ru": "К 8 вечера они уже поедят." },
-            { "en": "She will have left before you arrive.",             "ru": "Она уйдёт до того, как ты приедешь." }
+            {
+              "en": "I will have finished by Monday.",
+              "ru": "Я закончу к понедельнику."
+            },
+            {
+              "en": "By the time you wake up, I will have left.",
+              "ru": "К тому времени, как ты проснёшься, я уже уйду."
+            },
+            {
+              "en": "They will have already eaten by 8 pm.",
+              "ru": "К 8 вечера они уже поедят."
+            },
+            {
+              "en": "She will have left before you arrive.",
+              "ru": "Она уйдёт до того, как ты приедешь."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "V3 — третья форма",
+      "label": "Третья форма после have",
       "intro": {
         "text": "После have глагол всегда стоит в третьей форме — V3 (Past Participle). Правильные образуют её через -ed, неправильные — запоминаем.",
         "highlights": [
-          { "text": "V3",            "color": "term",    "style": "bold_underline" },
-          { "text": "третьей форме", "color": "info",    "style": "bold" },
-          { "text": "запоминаем",     "color": "bad",     "style": "bold" }
+          {
+            "text": "V3",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "третьей форме",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "запоминаем",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -216,26 +723,92 @@
           "title": "Правильные глаголы",
           "borderColor": "good",
           "rules": [
-            { "name": "Большинство",              "suffix": "+ ed",              "example": "finish → finished, work → worked" },
-            { "name": "Немая -e",                  "suffix": "+ d",               "example": "live → lived, save → saved" },
-            { "name": "Гласная + согл. в конце",  "suffix": "удвоение + ed",      "example": "stop → stopped, plan → planned" },
-            { "name": "Согласная + y",             "suffix": "y → ied",            "example": "study → studied, carry → carried" }
+            {
+              "name": "Большинство",
+              "suffix": "+ ed",
+              "example": "finish → finished, work → worked"
+            },
+            {
+              "name": "Немая -e",
+              "suffix": "+ d",
+              "example": "live → lived, save → saved"
+            },
+            {
+              "name": "Гласная + согл. в конце",
+              "suffix": "удвоение + ed",
+              "example": "stop → stopped, plan → planned"
+            },
+            {
+              "name": "Согласная + y",
+              "suffix": "y → ied",
+              "example": "study → studied, carry → carried"
+            }
           ]
         },
         {
           "title": "Неправильные глаголы — надо запомнить",
           "borderColor": "bad",
           "table": {
-            "headers": ["V1", "V3", "Перевод"],
-            "headerColors": ["info", "bad", "term"],
+            "headers": [
+              "V1",
+              "V3",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "bad",
+              "term"
+            ],
             "rows": [
-              { "cells": ["go",       "gone",       "идти"] },
-              { "cells": ["leave",    "left",       "уходить"] },
-              { "cells": ["write",    "written",    "писать"] },
-              { "cells": ["build",    "built",      "строить"] },
-              { "cells": ["become",   "become",     "становиться"] },
-              { "cells": ["do",       "done",       "делать"] },
-              { "cells": ["see",      "seen",       "видеть"] }
+              {
+                "cells": [
+                  "go",
+                  "gone",
+                  "идти"
+                ]
+              },
+              {
+                "cells": [
+                  "leave",
+                  "left",
+                  "уходить"
+                ]
+              },
+              {
+                "cells": [
+                  "write",
+                  "written",
+                  "писать"
+                ]
+              },
+              {
+                "cells": [
+                  "build",
+                  "built",
+                  "строить"
+                ]
+              },
+              {
+                "cells": [
+                  "become",
+                  "become",
+                  "становиться"
+                ]
+              },
+              {
+                "cells": [
+                  "do",
+                  "done",
+                  "делать"
+                ]
+              },
+              {
+                "cells": [
+                  "see",
+                  "seen",
+                  "видеть"
+                ]
+              }
             ],
             "borderColor": "bad"
           }
@@ -244,22 +817,42 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "By 2030, scientists will have found a cure.", "ru": "К 2030 году учёные найдут лекарство." },
-            { "en": "We will have built the house by summer.",      "ru": "К лету мы построим дом." },
-            { "en": "She will have written her book by December.",   "ru": "К декабрю она напишет книгу." }
+            {
+              "en": "By 2030, scientists will have found a cure.",
+              "ru": "К 2030 году учёные найдут лекарство."
+            },
+            {
+              "en": "We will have built the house by summer.",
+              "ru": "К лету мы построим дом."
+            },
+            {
+              "en": "She will have written her book by December.",
+              "ru": "К декабрю она напишет книгу."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Future Perfect vs Future Simple",
+      "label": "Future Perfect или Future Simple",
       "intro": {
         "text": "Future Perfect показывает, что действие завершится к сроку — к определённому моменту в будущем. Future Simple — просто факт, что действие произойдёт.",
         "highlights": [
-          { "text": "Future Perfect",  "color": "info",    "style": "bold" },
-          { "text": "Future Simple",   "color": "bad",     "style": "bold" },
-          { "text": "к сроку",          "color": "example", "style": "bold_underline" }
+          {
+            "text": "Future Perfect",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Future Simple",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "к сроку",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -267,29 +860,61 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Акцент", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Акцент",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Future Perfect",  "завершено к сроку",       "will have + V3"] },
-              { "cells": ["Future Simple",    "просто будущее действие", "will + V"] }
+              {
+                "cells": [
+                  "Future Perfect",
+                  "завершено к сроку",
+                  "will have + V3"
+                ]
+              },
+              {
+                "cells": [
+                  "Future Simple",
+                  "просто будущее действие",
+                  "will + V"
+                ]
+              }
             ],
             "borderColor": "info"
           }
         },
         {
-          "title": "Примеры без разницы",
+          "title": "Сравни: к сроку или в момент",
           "borderColor": "good",
           "examples": [
-            { "en": "By 9 pm, she will have cooked dinner.",  "ru": "К 9 вечера она уже приготовит ужин. (Perfect)" },
-            { "en": "She will cook dinner at 9 pm.",           "ru": "Она приготовит ужин в 9. (Simple)" }
+            {
+              "en": "By 9 pm, she will have cooked dinner.",
+              "ru": "К 9 вечера она уже приготовит ужин. (Perfect)"
+            },
+            {
+              "en": "She will cook dinner at 9 pm.",
+              "ru": "Она приготовит ужин в 9. (Simple)"
+            }
           ]
         },
         {
           "title": "Примеры с акцентом",
           "borderColor": "term",
           "examples": [
-            { "en": "I will have finished the project by Monday.", "ru": "К понедельнику я закончу проект. (уже готово к сроку)" },
-            { "en": "I will finish the project on Monday.",         "ru": "Я закончу проект в понедельник. (просто факт)" }
+            {
+              "en": "I will have finished the project by Monday.",
+              "ru": "К понедельнику я закончу проект. (уже готово к сроку)"
+            },
+            {
+              "en": "I will finish the project on Monday.",
+              "ru": "Я закончу проект в понедельник. (просто факт)"
+            }
           ]
         },
         {
@@ -303,13 +928,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Future Perfect",
+      "label": "Частые ошибки: will have finish, will has",
       "intro": {
         "text": "Семь самых частых ошибок в Future Perfect.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -317,13 +945,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I will have finish by Friday.",     "right": "I will have finished by Friday." },
-            { "wrong": "She will has finished.",             "right": "She will have finished." },
-            { "wrong": "Will you have finish?",              "right": "Will you have finished?" },
-            { "wrong": "I will finish by Friday. (нужен Perfect)","right": "I will have finished by Friday." },
-            { "wrong": "I won't have went there.",            "right": "I won't have gone there." },
-            { "wrong": "I will have been finish.",             "right": "I will have finished." },
-            { "wrong": "By tomorrow I will finish it. (если к сроку)","right": "By tomorrow I will have finished it." }
+            {
+              "wrong": "I will have finish by Friday.",
+              "right": "I will have finished by Friday. (после have — V3)"
+            },
+            {
+              "wrong": "She will has finished.",
+              "right": "She will have finished. (после will — have)"
+            },
+            {
+              "wrong": "Will you have finish?",
+              "right": "Will you have finished? (нужна V3)"
+            },
+            {
+              "wrong": "I will finish by Friday. (нужен Perfect)",
+              "right": "I will have finished by Friday. (готово к сроку)"
+            },
+            {
+              "wrong": "I won't have went there.",
+              "right": "I won't have gone there. (V3 от go — gone)"
+            },
+            {
+              "wrong": "I will have been finish.",
+              "right": "I will have finished. (been здесь лишнее)"
+            },
+            {
+              "wrong": "By tomorrow I will finish it. (если к сроку)",
+              "right": "By tomorrow I will have finished it. (by + срок — Perfect)"
+            }
           ]
         },
         {

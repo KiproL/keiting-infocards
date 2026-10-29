@@ -3,13 +3,23 @@
   "route": "cards_car",
   "slides": [
     {
-      "label": "Аренда",
+      "label": "Аренда машины: страховка, коробка, бак",
       "intro": {
-        "text": "При аренде уточни страховку, коробку передач, топливо и пробег.",
+        "text": "При аренде уточни страховку (insurance), коробку передач (manual или automatic), топливо и пробег (mileage).",
         "highlights": [
           {
             "text": "страховку",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "manual или automatic",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "mileage",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -65,7 +75,7 @@
       ]
     },
     {
-      "label": "В дороге",
+      "label": "В дороге: заправка, парковка, поломка",
       "intro": {
         "text": "Заправка, парковка и поломки.",
         "highlights": [
@@ -130,10 +140,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Is there a petrol station nearby?",
+                "ru": "Здесь рядом есть заправка?"
+              },
+              {
+                "en": "Can I park here for free?",
+                "ru": "Здесь можно парковаться бесплатно?"
+              },
+              {
+                "en": "The engine won't start.",
+                "ru": "Двигатель не заводится."
+              },
+              {
+                "en": "I got a parking fine.",
+                "ru": "Мне выписали штраф за парковку."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Слова: машина: аренда и дорога",
+      "label": "Слова: petrol, driving licence, roundabout",
       "intro": {
         "text": "Здесь британский и американский расходятся особенно сильно.",
         "highlights": [
@@ -219,7 +258,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: машина: аренда и дорога",
+      "label": "Чего не говорить: benzine, driver rights",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -237,23 +276,23 @@
           "errors": [
             {
               "wrong": "benzine",
-              "right": "petrol / gas"
+              "right": "petrol / gas (бензин)"
             },
             {
               "wrong": "driver rights",
-              "right": "driving licence"
+              "right": "driving licence (права — licence)"
             },
             {
               "wrong": "I'm in a jam.",
-              "right": "I'm stuck in traffic."
+              "right": "I'm stuck in traffic. (in a jam — «в беде»)"
             },
             {
               "wrong": "The car is broken. (встала в дороге)",
-              "right": "The car has broken down."
+              "right": "The car has broken down. (сломалась в пути — break down)"
             },
             {
               "wrong": "Fill full, please.",
-              "right": "Fill it up, please."
+              "right": "Fill it up, please. (полный бак)"
             }
           ]
         }

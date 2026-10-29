@@ -3,13 +3,25 @@
   "route": "cards_beableto",
   "slides": [
     {
-      "label": "be able to: смочь в любом времени",
+      "label": "Be able to: «смочь» в любом времени",
       "intro": {
         "text": "Be able to — способность сделать что-то. Это заменитель can, который работает во всех временах и формах. Используется, когда can не справляется.",
         "highlights": [
-          { "text": "Be able to",  "color": "term",    "style": "bold_underline" },
-          { "text": "способность",  "color": "info",    "style": "bold" },
-          { "text": "заменитель can","color": "example", "style": "bold" }
+          {
+            "text": "Be able to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "способность",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "заменитель can",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,24 +30,143 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "be able to", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "глагол",     "color": "example" }
+              {
+                "text": "be able to",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["be able to", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I will be able to come tomorrow.", "ru": "Я смогу прийти завтра.", "parts": [["I", ""], ["will be able to", "be able to"], ["come", "глагол"], ["tomorrow.", ""]]}, {"en": "She was not able to finish on time.", "ru": "Она не смогла закончить вовремя.", "parts": [["She", ""], ["was not able to", "be able to"], ["finish", "глагол"], ["on time.", ""]]}, {"en": "We have been able to save some money.", "ru": "Нам удалось накопить немного денег.", "parts": [["We", ""], ["have been able to", "be able to"], ["save", "глагол"], ["some money.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "be able to",
+                "глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I will be able to come tomorrow.",
+                  "ru": "Я смогу прийти завтра.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "will be able to",
+                      "be able to"
+                    ],
+                    [
+                      "come",
+                      "глагол"
+                    ],
+                    [
+                      "tomorrow.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She was not able to finish on time.",
+                  "ru": "Она не смогла закончить вовремя.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "was not able to",
+                      "be able to"
+                    ],
+                    [
+                      "finish",
+                      "глагол"
+                    ],
+                    [
+                      "on time.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We have been able to save some money.",
+                  "ru": "Нам удалось накопить немного денег.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "have been able to",
+                      "be able to"
+                    ],
+                    [
+                      "save",
+                      "глагол"
+                    ],
+                    [
+                      "some money.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Be able to по временам",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Форма", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Форма",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Present",         "am / is / are able to",  "I am able to swim."] },
-              { "cells": ["Past",            "was / were able to",      "I was able to win."] },
-              { "cells": ["Future",          "will be able to",         "I will be able to come."] },
-              { "cells": ["Present Perfect", "have / has been able to","I have been able to finish."] }
+              {
+                "cells": [
+                  "Present",
+                  "am / is / are able to",
+                  "I am able to swim."
+                ]
+              },
+              {
+                "cells": [
+                  "Past",
+                  "was / were able to",
+                  "I was able to win."
+                ]
+              },
+              {
+                "cells": [
+                  "Future",
+                  "will be able to",
+                  "I will be able to come."
+                ]
+              },
+              {
+                "cells": [
+                  "Present Perfect",
+                  "have / has been able to",
+                  "I have been able to finish."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -44,33 +175,72 @@
           "title": "Когда нужен be able to",
           "borderColor": "term",
           "rules": [
-            { "name": "После will",       "suffix": "can нельзя",  "example": "I will be able to help." },
-            { "name": "После have",       "suffix": "can нельзя",  "example": "I have been able to do it." },
-            { "name": "После модальных",  "suffix": "can нельзя",  "example": "He might be able to come." },
-            { "name": "Для инфинитива",   "suffix": "can нельзя",  "example": "I would like to be able to ski." }
+            {
+              "name": "После will",
+              "suffix": "can нельзя",
+              "example": "I will be able to help."
+            },
+            {
+              "name": "После have",
+              "suffix": "can нельзя",
+              "example": "I have been able to do it."
+            },
+            {
+              "name": "После модальных",
+              "suffix": "can нельзя",
+              "example": "He might be able to come."
+            },
+            {
+              "name": "Для инфинитива",
+              "suffix": "can нельзя",
+              "example": "I would like to be able to ski."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I will be able to help you tomorrow.",  "ru": "Завтра я смогу тебе помочь." },
-            { "en": "She has been able to swim since age 5.","ru": "Она умеет плавать с 5 лет." },
-            { "en": "We weren't able to finish in time.",     "ru": "Мы не смогли закончить вовремя." },
-            { "en": "He might be able to fix it.",             "ru": "Он, может, сможет это починить." }
+            {
+              "en": "I will be able to help you tomorrow.",
+              "ru": "Завтра я смогу тебе помочь."
+            },
+            {
+              "en": "She has been able to swim since age 5.",
+              "ru": "Она умеет плавать с 5 лет."
+            },
+            {
+              "en": "We weren't able to finish in time.",
+              "ru": "Мы не смогли закончить вовремя."
+            },
+            {
+              "en": "He might be able to fix it.",
+              "ru": "Он, может, сможет это починить."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Be able to vs Can",
+      "label": "Can или be able to",
       "intro": {
         "text": "Can работает только в настоящем (и could — в прошлом). Be able to работает во всех временах — это его главное преимущество.",
         "highlights": [
-          { "text": "Can",         "color": "info", "style": "bold" },
-          { "text": "Be able to",  "color": "term", "style": "bold" },
-          { "text": "во всех временах","color": "good", "style": "bold_underline" }
+          {
+            "text": "Can",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Be able to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "во всех временах",
+            "color": "good",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -78,13 +248,45 @@
           "title": "Сравнение",
           "borderColor": "term",
           "table": {
-            "headers": ["Ситуация", "Can", "Be able to"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Ситуация",
+              "Can",
+              "Be able to"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Настоящее",     "I can swim.",             "I am able to swim."] },
-              { "cells": ["Будущее",       "— нельзя",                 "I will be able to swim."] },
-              { "cells": ["Perfect",       "— нельзя",                 "I have been able to swim."] },
-              { "cells": ["Инфинитив",     "— нельзя",                 "I want to be able to swim."] }
+              {
+                "cells": [
+                  "Настоящее",
+                  "I can swim.",
+                  "I am able to swim."
+                ]
+              },
+              {
+                "cells": [
+                  "Будущее",
+                  "— нельзя",
+                  "I will be able to swim."
+                ]
+              },
+              {
+                "cells": [
+                  "Perfect",
+                  "— нельзя",
+                  "I have been able to swim."
+                ]
+              },
+              {
+                "cells": [
+                  "Инфинитив",
+                  "— нельзя",
+                  "I want to be able to swim."
+                ]
+              }
             ],
             "borderColor": "term"
           },
@@ -95,12 +297,21 @@
           }
         },
         {
-          "title": "Ошибки",
-          "borderColor": "bad",
-          "errors": [
-            { "wrong": "I will can help you.",       "right": "I will be able to help you." },
-            { "wrong": "I have could finish.",        "right": "I have been able to finish." },
-            { "wrong": "I want to can swim.",          "right": "I want to be able to swim." }
+          "title": "Was able to или could",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I could swim when I was six.",
+              "ru": "Я умел плавать в шесть лет. (умение вообще — could)"
+            },
+            {
+              "en": "I was able to swim to the island.",
+              "ru": "Мне удалось доплыть до острова. (один случай — was able to)"
+            },
+            {
+              "en": "I couldn't / wasn't able to open the door.",
+              "ru": "Не смог открыть дверь. (в отрицании — оба)"
+            }
           ]
         },
         {
@@ -115,6 +326,31 @@
             "text": "Can короткий, но бессилен в будущем. Be able to длинный, но работает везде.",
             "author": "правило большого пальца",
             "accentColor": "accent2"
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Частые ошибки",
+          "preview": "will can, have could",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "bad",
+            "errors": [
+              {
+                "wrong": "I will can help you.",
+                "right": "I will be able to help you. (после will — be able to)"
+              },
+              {
+                "wrong": "I have could finish.",
+                "right": "I have been able to finish. (после have — been able to)"
+              },
+              {
+                "wrong": "I want to can swim.",
+                "right": "I want to be able to swim. (после to — be able to)"
+              }
+            ],
+            "title": ""
           }
         }
       ]

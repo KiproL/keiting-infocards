@@ -3,14 +3,14 @@
   "route": "cards_despite",
   "slides": [
     {
-      "label": "Хотя и несмотря на",
+      "label": "Although и despite: хотя и несмотря на",
       "intro": {
-        "text": "«Несмотря на…» и «хотя…» — по-английски две группы слов. Although и even though ставят перед целой фразой с глаголом, despite и in spite of — перед существительным или -ing.",
+        "text": "«Хотя» и «несмотря на» — две группы слов. Although и even though — перед целой фразой с глаголом. Despite и in spite of — перед существительным или -ing.",
         "highlights": [
           {
             "text": "Although",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "even though",
@@ -18,9 +18,9 @@
             "style": "bold"
           },
           {
-            "text": "despite",
+            "text": "Despite",
             "color": "info",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "in spite of",
@@ -67,7 +67,86 @@
                   "color": "text"
                 }
               ],
-              "accentColor": "term", "drill": {"slots": ["although / even though", "подлежащее", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Although it was raining, we went out.", "ru": "Хотя шёл дождь, мы пошли гулять.", "parts": [["Although", "although / even though"], ["it", "подлежащее"], ["was raining,", "глагол"], ["we went out.", ""]]}, {"en": "We stayed even though we were tired.", "ru": "Мы остались, хотя и устали.", "parts": [["We stayed", ""], ["even though", "although / even though"], ["we", "подлежащее"], ["were tired.", "глагол"]]}, {"en": "Although she is rich, she is not happy.", "ru": "Хотя она богата, она несчастлива.", "parts": [["Although", "although / even though"], ["she", "подлежащее"], ["is rich,", "глагол"], ["she is not happy.", ""]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "although / even though",
+                  "подлежащее",
+                  "глагол"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "Although it was raining, we went out.",
+                    "ru": "Хотя шёл дождь, мы пошли гулять.",
+                    "parts": [
+                      [
+                        "Although",
+                        "although / even though"
+                      ],
+                      [
+                        "it",
+                        "подлежащее"
+                      ],
+                      [
+                        "was raining,",
+                        "глагол"
+                      ],
+                      [
+                        "we went out.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "We stayed even though we were tired.",
+                    "ru": "Мы остались, хотя и устали.",
+                    "parts": [
+                      [
+                        "We stayed",
+                        ""
+                      ],
+                      [
+                        "even though",
+                        "although / even though"
+                      ],
+                      [
+                        "we",
+                        "подлежащее"
+                      ],
+                      [
+                        "were tired.",
+                        "глагол"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Although she is rich, she is not happy.",
+                    "ru": "Хотя она богата, она несчастлива.",
+                    "parts": [
+                      [
+                        "Although",
+                        "although / even though"
+                      ],
+                      [
+                        "she",
+                        "подлежащее"
+                      ],
+                      [
+                        "is rich,",
+                        "глагол"
+                      ],
+                      [
+                        "she is not happy.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
@@ -84,7 +163,73 @@
                   "color": "example"
                 }
               ],
-              "accentColor": "info", "drill": {"slots": ["despite / in spite of", "существительное или -ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "We went out despite the rain.", "ru": "Мы пошли гулять, несмотря на дождь.", "parts": [["We went out", ""], ["despite", "despite / in spite of"], ["the rain.", "существительное или -ing"]]}, {"en": "In spite of being tired, she kept working.", "ru": "Несмотря на усталость, она продолжала работать.", "parts": [["In spite of", "despite / in spite of"], ["being tired,", "существительное или -ing"], ["she kept working.", ""]]}, {"en": "He passed despite his nerves.", "ru": "Он сдал, несмотря на волнение.", "parts": [["He passed", ""], ["despite", "despite / in spite of"], ["his nerves.", "существительное или -ing"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "despite / in spite of",
+                  "существительное или -ing"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "We went out despite the rain.",
+                    "ru": "Мы пошли гулять, несмотря на дождь.",
+                    "parts": [
+                      [
+                        "We went out",
+                        ""
+                      ],
+                      [
+                        "despite",
+                        "despite / in spite of"
+                      ],
+                      [
+                        "the rain.",
+                        "существительное или -ing"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "In spite of being tired, she kept working.",
+                    "ru": "Несмотря на усталость, она продолжала работать.",
+                    "parts": [
+                      [
+                        "In spite of",
+                        "despite / in spite of"
+                      ],
+                      [
+                        "being tired,",
+                        "существительное или -ing"
+                      ],
+                      [
+                        "she kept working.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "He passed despite his nerves.",
+                    "ru": "Он сдал, несмотря на волнение.",
+                    "parts": [
+                      [
+                        "He passed",
+                        ""
+                      ],
+                      [
+                        "despite",
+                        "despite / in spite of"
+                      ],
+                      [
+                        "his nerves.",
+                        "существительное или -ing"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -149,10 +294,39 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Even though I was tired, I couldn't sleep.",
+                "ru": "Хотя я и устал, уснуть не мог."
+              },
+              {
+                "en": "Despite the traffic, we arrived on time.",
+                "ru": "Несмотря на пробки, мы приехали вовремя."
+              },
+              {
+                "en": "In spite of feeling ill, she went to work.",
+                "ru": "Несмотря на недомогание, она пошла на работу."
+              },
+              {
+                "en": "The food was good. The service was slow, though.",
+                "ru": "Еда была хорошей. Обслуживание, правда, медленное."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Despite / Although",
+      "label": "Частые ошибки: despite + фраза, despite of",
       "intro": {
         "text": "Самые частые ошибки с despite и although.",
         "highlights": [
@@ -170,23 +344,23 @@
           "errors": [
             {
               "wrong": "Despite it was raining, we went out.",
-              "right": "Although it was raining, we went out."
+              "right": "Although it was raining, we went out. (перед фразой — although)"
             },
             {
               "wrong": "Despite of the rain, we went out.",
-              "right": "Despite the rain, we went out."
+              "right": "Despite the rain, we went out. (despite — без of)"
             },
             {
               "wrong": "In spite the rain, we went out.",
-              "right": "In spite of the rain, we went out."
+              "right": "In spite of the rain, we went out. (in spite — с of)"
             },
             {
               "wrong": "Although the rain, we went out.",
-              "right": "Despite the rain, we went out."
+              "right": "Despite the rain, we went out. (перед существительным — despite)"
             },
             {
               "wrong": "Although it was cold, but we swam.",
-              "right": "Although it was cold, we swam."
+              "right": "Although it was cold, we swam. (although и but вместе не ставят)"
             }
           ]
         },
