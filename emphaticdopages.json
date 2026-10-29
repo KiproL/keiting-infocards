@@ -51,7 +51,86 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["подлежащее", "do / does / did", "глагол без -s и -ed"], "decoys": ["V-ing", "to"], "examples": [{"en": "I do love this song!", "ru": "Я правда люблю эту песню!", "parts": [["I", "подлежащее"], ["do", "do / does / did"], ["love", "глагол без -s и -ed"], ["this song!", ""]]}, {"en": "She does look tired.", "ru": "Она и правда выглядит уставшей.", "parts": [["She", "подлежащее"], ["does", "do / does / did"], ["look", "глагол без -s и -ed"], ["tired.", ""]]}, {"en": "We did call you yesterday.", "ru": "Мы же звонили тебе вчера.", "parts": [["We", "подлежащее"], ["did", "do / does / did"], ["call", "глагол без -s и -ed"], ["you yesterday.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "подлежащее",
+                "do / does / did",
+                "глагол без -s и -ed"
+              ],
+              "decoys": [
+                "V-ing",
+                "to"
+              ],
+              "examples": [
+                {
+                  "en": "I do love this song!",
+                  "ru": "Я правда люблю эту песню!",
+                  "parts": [
+                    [
+                      "I",
+                      "подлежащее"
+                    ],
+                    [
+                      "do",
+                      "do / does / did"
+                    ],
+                    [
+                      "love",
+                      "глагол без -s и -ed"
+                    ],
+                    [
+                      "this song!",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She does look tired.",
+                  "ru": "Она и правда выглядит уставшей.",
+                  "parts": [
+                    [
+                      "She",
+                      "подлежащее"
+                    ],
+                    [
+                      "does",
+                      "do / does / did"
+                    ],
+                    [
+                      "look",
+                      "глагол без -s и -ed"
+                    ],
+                    [
+                      "tired.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We did call you yesterday.",
+                  "ru": "Мы же звонили тебе вчера.",
+                  "parts": [
+                    [
+                      "We",
+                      "подлежащее"
+                    ],
+                    [
+                      "did",
+                      "do / does / did"
+                    ],
+                    [
+                      "call",
+                      "глагол без -s и -ed"
+                    ],
+                    [
+                      "you yesterday.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -102,10 +181,40 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Do и голос",
+          "preview": "как это звучит",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You don't like me. — I DO like you!",
+                "ru": "Ты меня не любишь. — Да нет же, люблю!"
+              },
+              {
+                "en": "Why didn't you call? — I DID call! Twice.",
+                "ru": "Почему не позвонил? — Я звонил! Дважды."
+              },
+              {
+                "en": "He does work hard, I'll give him that.",
+                "ru": "Он и правда много работает, тут не поспоришь."
+              }
+            ],
+            "callout": {
+              "type": "tip",
+              "title": "Ударение на do",
+              "text": "Без ударения голосом do звучит странно. Выделяй его: I DO like it."
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Emphatic do",
+      "label": "Частые ошибки: does looks, did told",
       "intro": {
         "text": "Самые частые ошибки с усилительным do.",
         "highlights": [
@@ -123,19 +232,19 @@
           "errors": [
             {
               "wrong": "She does looks tired.",
-              "right": "She does look tired."
+              "right": "She does look tired. (-s уже в does)"
             },
             {
               "wrong": "I did told you!",
-              "right": "I did tell you!"
+              "right": "I did tell you! (прошлое уже в did)"
             },
             {
               "wrong": "I do am happy.",
-              "right": "I am happy! / I really am happy."
+              "right": "I am happy! / I really am happy. (с be do не ставят)"
             },
             {
               "wrong": "He do likes it.",
-              "right": "He does like it."
+              "right": "He does like it. (he → does, глагол без -s)"
             }
           ]
         },

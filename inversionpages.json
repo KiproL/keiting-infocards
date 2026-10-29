@@ -64,7 +64,95 @@
                 "color": "text"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["отрицательное слово", "вспомогательный глагол", "подлежащее", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Never have I seen such a mess.", "ru": "Никогда я не видел такого беспорядка.", "parts": [["Never", "отрицательное слово"], ["have", "вспомогательный глагол"], ["I", "подлежащее"], ["seen", "глагол"], ["such a mess.", ""]]}, {"en": "Rarely does he smile.", "ru": "Он редко улыбается.", "parts": [["Rarely", "отрицательное слово"], ["does", "вспомогательный глагол"], ["he", "подлежащее"], ["smile.", "глагол"]]}, {"en": "Seldom have we had such fun.", "ru": "Редко нам бывало так весело.", "parts": [["Seldom", "отрицательное слово"], ["have", "вспомогательный глагол"], ["we", "подлежащее"], ["had", "глагол"], ["such fun.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "отрицательное слово",
+                "вспомогательный глагол",
+                "подлежащее",
+                "глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "Never have I seen such a mess.",
+                  "ru": "Никогда я не видел такого беспорядка.",
+                  "parts": [
+                    [
+                      "Never",
+                      "отрицательное слово"
+                    ],
+                    [
+                      "have",
+                      "вспомогательный глагол"
+                    ],
+                    [
+                      "I",
+                      "подлежащее"
+                    ],
+                    [
+                      "seen",
+                      "глагол"
+                    ],
+                    [
+                      "such a mess.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Rarely does he smile.",
+                  "ru": "Он редко улыбается.",
+                  "parts": [
+                    [
+                      "Rarely",
+                      "отрицательное слово"
+                    ],
+                    [
+                      "does",
+                      "вспомогательный глагол"
+                    ],
+                    [
+                      "he",
+                      "подлежащее"
+                    ],
+                    [
+                      "smile.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Seldom have we had such fun.",
+                  "ru": "Редко нам бывало так весело.",
+                  "parts": [
+                    [
+                      "Seldom",
+                      "отрицательное слово"
+                    ],
+                    [
+                      "have",
+                      "вспомогательный глагол"
+                    ],
+                    [
+                      "we",
+                      "подлежащее"
+                    ],
+                    [
+                      "had",
+                      "глагол"
+                    ],
+                    [
+                      "such fun.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -97,10 +185,39 @@
             "text": "Нет вспомогательного — добавь do, does, did: Rarely does he call. Little did they know."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Seldom have I heard such a beautiful voice.", "ru": "Редко мне доводилось слышать такой красивый голос."}, {"en": "Little did she know what would happen next.", "ru": "Она и не подозревала, что будет дальше."}, {"en": "Not only did he lie, but he also blamed me.", "ru": "Он не только солгал, но и обвинил меня."}, {"en": "Under no circumstances should you open this door.", "ru": "Ни при каких обстоятельствах не открывайте эту дверь."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Seldom have I heard such a beautiful voice.",
+                "ru": "Редко мне доводилось слышать такой красивый голос."
+              },
+              {
+                "en": "Little did she know what would happen next.",
+                "ru": "Она и не подозревала, что будет дальше."
+              },
+              {
+                "en": "Not only did he lie, but he also blamed me.",
+                "ru": "Он не только солгал, но и обвинил меня."
+              },
+              {
+                "en": "Under no circumstances should you open this door.",
+                "ru": "Ни при каких обстоятельствах не открывайте эту дверь."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Слова-сигналы",
+      "label": "Слова-сигналы: rarely, little, not only",
       "intro": {
         "text": "Инверсию включают слова со смыслом «никогда», «редко», «только», «ни за что». Каждое — со своим оттенком.",
         "highlights": [
@@ -204,7 +321,7 @@
       ]
     },
     {
-      "label": "Условия без if",
+      "label": "Условия без if: Had I known",
       "intro": {
         "text": "В книжной речи if можно убрать, переставив глагол вперёд: Had I known… — «Если бы я знал…». Так работает с had, were и should.",
         "highlights": [
@@ -283,7 +400,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Inversion",
+      "label": "Частые ошибки: Never I have, Rarely he calls",
       "intro": {
         "text": "Самые частые ошибки в инверсии.",
         "highlights": [
@@ -301,27 +418,27 @@
           "errors": [
             {
               "wrong": "Never I have seen it.",
-              "right": "Never have I seen it."
+              "right": "Never have I seen it. (have перед I)"
             },
             {
               "wrong": "Rarely he calls me.",
-              "right": "Rarely does he call me."
+              "right": "Rarely does he call me. (нужен does)"
             },
             {
               "wrong": "Not only she is smart, but…",
-              "right": "Not only is she smart, but…"
+              "right": "Not only is she smart, but… (is перед she)"
             },
             {
               "wrong": "Little he knew…",
-              "right": "Little did he know…"
+              "right": "Little did he know… (did + know)"
             },
             {
               "wrong": "Only then I understood.",
-              "right": "Only then did I understand."
+              "right": "Only then did I understand. (did + глагол без -ed)"
             },
             {
               "wrong": "Had I know, I'd have come.",
-              "right": "Had I known, I'd have come."
+              "right": "Had I known, I'd have come. (после had — V3)"
             }
           ]
         },

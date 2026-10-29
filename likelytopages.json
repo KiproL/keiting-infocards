@@ -3,7 +3,7 @@
   "route": "cards_likelyto",
   "slides": [
     {
-      "label": "Насколько вероятно: likely, bound",
+      "label": "Насколько вероятно: likely, bound, due",
       "intro": {
         "text": "Эти конструкции говорят, насколько что-то вероятно: be likely to — вероятно, be unlikely to — вряд ли, be bound to — наверняка, be due to — должно по плану.",
         "highlights": [
@@ -64,7 +64,87 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["подлежащее", "be", "likely / bound / due", "to + глагол"], "decoys": ["will", "V-ing"], "examples": [{"en": "He is likely to be late.", "ru": "Он, скорее всего, опоздает.", "parts": [["He", "подлежащее"], ["is", "be"], ["likely", "likely / bound / due"], ["to be late.", "to + глагол"]]}, {"en": "It is bound to rain.", "ru": "Дождь пойдёт обязательно.", "parts": [["It", "подлежащее"], ["is", "be"], ["bound", "likely / bound / due"], ["to rain.", "to + глагол"]]}, {"en": "The train is due to arrive at five.", "ru": "Поезд должен прибыть в пять.", "parts": [["The train", "подлежащее"], ["is", "be"], ["due", "likely / bound / due"], ["to arrive at five.", "to + глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "подлежащее",
+                "be",
+                "likely / bound / due",
+                "to + глагол"
+              ],
+              "decoys": [
+                "will",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "He is likely to be late.",
+                  "ru": "Он, скорее всего, опоздает.",
+                  "parts": [
+                    [
+                      "He",
+                      "подлежащее"
+                    ],
+                    [
+                      "is",
+                      "be"
+                    ],
+                    [
+                      "likely",
+                      "likely / bound / due"
+                    ],
+                    [
+                      "to be late.",
+                      "to + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "It is bound to rain.",
+                  "ru": "Дождь пойдёт обязательно.",
+                  "parts": [
+                    [
+                      "It",
+                      "подлежащее"
+                    ],
+                    [
+                      "is",
+                      "be"
+                    ],
+                    [
+                      "bound",
+                      "likely / bound / due"
+                    ],
+                    [
+                      "to rain.",
+                      "to + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "The train is due to arrive at five.",
+                  "ru": "Поезд должен прибыть в пять.",
+                  "parts": [
+                    [
+                      "The train",
+                      "подлежащее"
+                    ],
+                    [
+                      "is",
+                      "be"
+                    ],
+                    [
+                      "due",
+                      "likely / bound / due"
+                    ],
+                    [
+                      "to arrive at five.",
+                      "to + глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -121,10 +201,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Prices are likely to go up next year.",
+                "ru": "В следующем году цены, вероятно, вырастут."
+              },
+              {
+                "en": "He's unlikely to agree.",
+                "ru": "Вряд ли он согласится."
+              },
+              {
+                "en": "It's bound to happen sooner or later.",
+                "ru": "Рано или поздно это обязательно случится."
+              },
+              {
+                "en": "She's sure to like this gift.",
+                "ru": "Ей точно понравится этот подарок."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Другие формы",
+      "label": "It is likely that и due to = «из-за»",
       "intro": {
         "text": "Likely — прилагательное, поэтому можно и через It is likely that. А due to бывает ещё и предлогом «из-за».",
         "highlights": [
@@ -171,10 +280,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It is likely that prices will go up.", "ru": "Скорее всего, цены вырастут."}, {"en": "She will probably call tonight.", "ru": "Она, наверное, позвонит вечером."}, {"en": "The game was postponed due to snow.", "ru": "Игру перенесли из-за снега."}, {"en": "The report is due next Monday.", "ru": "Отчёт нужно сдать в следующий понедельник."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It is likely that prices will go up.",
+                "ru": "Скорее всего, цены вырастут."
+              },
+              {
+                "en": "She will probably call tonight.",
+                "ru": "Она, наверное, позвонит вечером."
+              },
+              {
+                "en": "The game was postponed due to snow.",
+                "ru": "Игру перенесли из-за снега."
+              },
+              {
+                "en": "The report is due next Monday.",
+                "ru": "Отчёт нужно сдать в следующий понедельник."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Be likely / bound to",
+      "label": "Частые ошибки: likely come, bound win",
       "intro": {
         "text": "Самые частые ошибки с этими конструкциями.",
         "highlights": [
@@ -192,19 +330,19 @@
           "errors": [
             {
               "wrong": "He is likely come.",
-              "right": "He is likely to come."
+              "right": "He is likely to come. (нужен to)"
             },
             {
               "wrong": "She is bound win.",
-              "right": "She is bound to win."
+              "right": "She is bound to win. (нужен to)"
             },
             {
               "wrong": "The plane is due arrive at 6.",
-              "right": "The plane is due to arrive at 6."
+              "right": "The plane is due to arrive at 6. (нужен to)"
             },
             {
               "wrong": "He likely will come.",
-              "right": "He is likely to come. / He will probably come."
+              "right": "He is likely to come. / He will probably come. (likely — прилагательное)"
             }
           ]
         }

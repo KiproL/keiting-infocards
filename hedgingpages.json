@@ -3,13 +3,25 @@
   "route": "cards_hedging",
   "slides": [
     {
-      "label": "Как смягчить утверждение",
+      "label": "Как смягчить утверждение: might, seems, to some extent",
       "intro": {
-        "text": "Hedging — смягчение утверждения. Вместо «This is wrong» — «This might be wrong» или «I think this could be wrong». Используется в академической, деловой и вежливой речи.",
+        "text": "Hedging — смягчение утверждения. Вместо резкого This is wrong говорят This might be wrong или I think this could be wrong. Так звучат в академической, деловой и вежливой речи.",
         "highlights": [
-          { "text": "Hedging",       "color": "term",    "style": "bold_underline" },
-          { "text": "смягчение",      "color": "info",    "style": "bold" },
-          { "text": "вежливой речи",   "color": "example", "style": "bold" }
+          {
+            "text": "Hedging",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "смягчение",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "вежливой речи",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -17,13 +29,45 @@
           "title": "Четыре приёма",
           "borderColor": "term",
           "table": {
-            "headers": ["Приём", "Пример", "Смысл"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Приём",
+              "Пример",
+              "Смысл"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Modal verbs",        "It might be wrong.",             "осторожность"] },
-              { "cells": ["Seems / appears",     "It seems to be wrong.",          "не утверждаю"] },
-              { "cells": ["I think / believe",    "I think it's wrong.",            "личное мнение"] },
-              { "cells": ["To some extent",       "It's wrong to some extent.",     "частично"] }
+              {
+                "cells": [
+                  "Modal verbs",
+                  "It might be wrong.",
+                  "осторожность"
+                ]
+              },
+              {
+                "cells": [
+                  "Seems / appears",
+                  "It seems to be wrong.",
+                  "не утверждаю"
+                ]
+              },
+              {
+                "cells": [
+                  "I think / believe",
+                  "I think it's wrong.",
+                  "личное мнение"
+                ]
+              },
+              {
+                "cells": [
+                  "To some extent",
+                  "It's wrong to some extent.",
+                  "частично"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -32,33 +76,105 @@
           "title": "Уровни уверенности",
           "borderColor": "info",
           "rules": [
-            { "name": "Категорично",   "suffix": "It is wrong.",                "example": "It is wrong." },
-            { "name": "Уверенно",       "suffix": "It's clearly wrong.",          "example": "It's clearly wrong." },
-            { "name": "Осторожно",      "suffix": "It seems to be wrong.",         "example": "It seems to be wrong." },
-            { "name": "Очень осторожно","suffix": "It might possibly be wrong.",   "example": "It might possibly be wrong." }
+            {
+              "name": "Категорично",
+              "suffix": "утверждаю как факт",
+              "example": "It is wrong."
+            },
+            {
+              "name": "Уверенно",
+              "suffix": "уверен, но с оттенком",
+              "example": "It's clearly wrong."
+            },
+            {
+              "name": "Осторожно",
+              "suffix": "не утверждаю, а предполагаю",
+              "example": "It seems to be wrong."
+            },
+            {
+              "name": "Очень осторожно",
+              "suffix": "максимально осторожно",
+              "example": "It might possibly be wrong."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "It could be argued that this is wrong.",       "ru": "Можно поспорить, что это неправильно." },
-            { "en": "It seems to me that we should wait.",           "ru": "Мне кажется, нам стоит подождать." },
-            { "en": "To some extent, you're right.",                  "ru": "В какой-то степени ты прав." },
-            { "en": "I'm not entirely sure, but this may be correct.","ru": "Я не совсем уверен, но это может быть верно." }
+            {
+              "en": "It could be argued that this is wrong.",
+              "ru": "Можно поспорить, что это неправильно."
+            },
+            {
+              "en": "It seems to me that we should wait.",
+              "ru": "Мне кажется, нам стоит подождать."
+            },
+            {
+              "en": "To some extent, you're right.",
+              "ru": "В какой-то степени ты прав."
+            },
+            {
+              "en": "I'm not entirely sure, but this may be correct.",
+              "ru": "Я не совсем уверен, но это может быть верно."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Резко → мягко",
+          "preview": "4 превращения",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "transforms": [
+              {
+                "from": "Your plan is bad.",
+                "to": "I'm not sure the plan will work.",
+                "toColor": "good"
+              },
+              {
+                "from": "This is the reason.",
+                "to": "This may be one of the reasons.",
+                "toColor": "good"
+              },
+              {
+                "from": "You are wrong.",
+                "to": "I see it slightly differently.",
+                "toColor": "good"
+              },
+              {
+                "from": "Prices will rise.",
+                "to": "Prices are likely to rise.",
+                "toColor": "good"
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Где использовать",
+      "label": "Где смягчать: наука, работа, спор",
       "intro": {
         "text": "Hedging особенно важен в академическом письме, деловой переписке и вежливых дискуссиях.",
         "highlights": [
-          { "text": "академическом",  "color": "info", "style": "bold" },
-          { "text": "деловой",         "color": "term", "style": "bold" },
-          { "text": "вежливых",        "color": "good", "style": "bold" }
+          {
+            "text": "академическом",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "деловой",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "вежливых",
+            "color": "good",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -66,18 +182,36 @@
           "title": "Академическое письмо",
           "borderColor": "info",
           "examples": [
-            { "en": "The results suggest that…",       "ru": "Результаты показывают, что…" },
-            { "en": "It appears that the theory holds.", "ru": "По-видимому, теория верна." },
-            { "en": "This may indicate that…",            "ru": "Это может означать, что…" }
+            {
+              "en": "The results suggest that…",
+              "ru": "Результаты показывают, что…"
+            },
+            {
+              "en": "It appears that the theory holds.",
+              "ru": "По-видимому, теория верна."
+            },
+            {
+              "en": "This may indicate that…",
+              "ru": "Это может означать, что…"
+            }
           ]
         },
         {
           "title": "Деловая переписка",
           "borderColor": "term",
           "examples": [
-            { "en": "I would suggest that we…",            "ru": "Я бы предложил, чтобы мы…" },
-            { "en": "It might be worth considering…",       "ru": "Возможно, стоит рассмотреть…" },
-            { "en": "I'm not sure this is the right approach.", "ru": "Не уверен, что это правильный подход." }
+            {
+              "en": "I would suggest that we…",
+              "ru": "Я бы предложил, чтобы мы…"
+            },
+            {
+              "en": "It might be worth considering…",
+              "ru": "Возможно, стоит рассмотреть…"
+            },
+            {
+              "en": "I'm not sure this is the right approach.",
+              "ru": "Не уверен, что это правильный подход."
+            }
           ]
         },
         {
@@ -87,6 +221,23 @@
             "type": "tip",
             "title": "Правило большого пальца",
             "text": "Если боишься сказать резко — используй might, could, seems, I think. Это делает речь мягче и уважительнее."
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Не перестарайся",
+          "preview": "слишком много оговорок",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "bad",
+            "errors": [
+              {
+                "wrong": "It might possibly perhaps be somewhat true.",
+                "right": "It may be partly true. (одной-двух оговорок хватает)"
+              }
+            ],
+            "title": ""
           }
         }
       ]

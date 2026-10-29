@@ -3,7 +3,7 @@
   "route": "cards_advancedpassive",
   "slides": [
     {
-      "label": "Инфинитив и -ing",
+      "label": "Пассив в инфинитиве и -ing: to be done, being done",
       "intro": {
         "text": "Пассив бывает не только в обычных временах. После глаголов вроде want, hate, seem он стоит в форме инфинитива (to be done) или -ing (being done).",
         "highlights": [
@@ -90,10 +90,64 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Какая форма после какого глагола",
+          "preview": "want / seem / hate",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "После",
+                "Форма",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "want, expect, hope",
+                    "to be + V3",
+                    "I expect to be paid on time."
+                  ]
+                },
+                {
+                  "cells": [
+                    "seem, appear (раньше)",
+                    "to have been + V3",
+                    "It appears to have been damaged."
+                  ]
+                },
+                {
+                  "cells": [
+                    "hate, like, avoid, enjoy",
+                    "being + V3",
+                    "He avoids being photographed."
+                  ]
+                },
+                {
+                  "cells": [
+                    "предлог",
+                    "being + V3",
+                    "She left without being seen."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "После предлогов и союзов",
+      "label": "После предлогов: without being seen",
       "intro": {
         "text": "После предлогов (after, without, before, on) и в оборотах ставят being + V3 или having been + V3: without being seen — «так, чтобы его не увидели».",
         "highlights": [
@@ -141,10 +195,39 @@
             "text": "Это уже карточка уровня B2 — «Пассив: get и два дополнения»."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She hates being interrupted.", "ru": "Она терпеть не может, когда её перебивают."}, {"en": "Before being hired, he had two interviews.", "ru": "Прежде чем его взяли на работу, он прошёл два собеседования."}, {"en": "Having been warned, we took umbrellas.", "ru": "Нас предупредили, и мы взяли зонты."}, {"en": "The thief escaped without being caught.", "ru": "Вор сбежал, и его не поймали."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She hates being interrupted.",
+                "ru": "Она терпеть не может, когда её перебивают."
+              },
+              {
+                "en": "Before being hired, he had two interviews.",
+                "ru": "Прежде чем его взяли на работу, он прошёл два собеседования."
+              },
+              {
+                "en": "Having been warned, we took umbrellas.",
+                "ru": "Нас предупредили, и мы взяли зонты."
+              },
+              {
+                "en": "The thief escaped without being caught.",
+                "ru": "Вор сбежал, и его не поймали."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Passive: продвинутый уровень",
+      "label": "Частые ошибки: being watch, laughed by",
       "intro": {
         "text": "Вот самые частые ошибки в сложном пассиве.",
         "highlights": [
@@ -162,23 +245,23 @@
           "errors": [
             {
               "wrong": "I hate being watch.",
-              "right": "I hate being watched."
+              "right": "I hate being watched. (пассив — V3)"
             },
             {
               "wrong": "The car needs wash.",
-              "right": "The car needs washing."
+              "right": "The car needs washing. (need + -ing)"
             },
             {
               "wrong": "He was laughed by everyone.",
-              "right": "He was laughed at by everyone."
+              "right": "He was laughed at by everyone. (at остаётся)"
             },
             {
               "wrong": "The painting seems to be stolen last night.",
-              "right": "The painting seems to have been stolen last night."
+              "right": "The painting seems to have been stolen last night. (раньше — to have been)"
             },
             {
               "wrong": "I was given with a book.",
-              "right": "I was given a book."
+              "right": "I was given a book. (with лишнее)"
             }
           ]
         },

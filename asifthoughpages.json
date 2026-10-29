@@ -3,7 +3,7 @@
   "route": "cards_asifthough",
   "slides": [
     {
-      "label": "as if: как будто",
+      "label": "As if / as though: как будто",
       "intro": {
         "text": "As if и as though значат «как будто», «словно». Если сравнение похоже на правду — время обычное. Если оно нереальное — время сдвигается в прошлое, как после wish.",
         "highlights": [
@@ -56,7 +56,74 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["S + глагол", "as if / as though", "S + глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "He talks as if he knows everything.", "ru": "Он говорит так, будто знает всё.", "parts": [["He talks", "S + глагол"], ["as if", "as if / as though"], ["he knows everything.", "S + глагол"]]}, {"en": "She looks as though she hasn't slept.", "ru": "Она выглядит так, будто не спала.", "parts": [["She looks", "S + глагол"], ["as though", "as if / as though"], ["she hasn't slept.", "S + глагол"]]}, {"en": "It feels as if it's going to rain.", "ru": "Такое ощущение, что пойдёт дождь.", "parts": [["It feels", "S + глагол"], ["as if", "as if / as though"], ["it's going to rain.", "S + глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S + глагол",
+                "as if / as though",
+                "S + глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "He talks as if he knows everything.",
+                  "ru": "Он говорит так, будто знает всё.",
+                  "parts": [
+                    [
+                      "He talks",
+                      "S + глагол"
+                    ],
+                    [
+                      "as if",
+                      "as if / as though"
+                    ],
+                    [
+                      "he knows everything.",
+                      "S + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She looks as though she hasn't slept.",
+                  "ru": "Она выглядит так, будто не спала.",
+                  "parts": [
+                    [
+                      "She looks",
+                      "S + глагол"
+                    ],
+                    [
+                      "as though",
+                      "as if / as though"
+                    ],
+                    [
+                      "she hasn't slept.",
+                      "S + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "It feels as if it's going to rain.",
+                  "ru": "Такое ощущение, что пойдёт дождь.",
+                  "parts": [
+                    [
+                      "It feels",
+                      "S + глагол"
+                    ],
+                    [
+                      "as if",
+                      "as if / as though"
+                    ],
+                    [
+                      "it's going to rain.",
+                      "S + глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -131,7 +198,7 @@
       ]
     },
     {
-      "label": "С глаголами чувств",
+      "label": "После look, sound, feel: It looks as if…",
       "intro": {
         "text": "Чаще всего as if стоит после look, seem, sound, feel, smell и taste: «выглядит так, будто…», «звучит так, словно…».",
         "highlights": [
@@ -254,7 +321,7 @@
       ]
     },
     {
-      "label": "Какое время выбрать",
+      "label": "Какое время: правда или только кажется",
       "intro": {
         "text": "Главный вопрос — верит ли говорящий в сравнение. Сравните: He looks as if he is ill (возможно, он и правда болен) и He behaves as if he were ill (он здоров, только притворяется).",
         "highlights": [
@@ -306,10 +373,39 @@
             "title": "Как после wish"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "You look as if you need some sleep.", "ru": "Ты выглядишь так, будто тебе нужно поспать. (похоже на правду)"}, {"en": "He spends money as if he were a millionaire.", "ru": "Он тратит деньги так, будто он миллионер. (а он нет)"}, {"en": "She looked as though she had been crying.", "ru": "Она выглядела так, будто плакала."}, {"en": "Don't talk to me as if I were a child.", "ru": "Не говори со мной так, будто я ребёнок."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You look as if you need some sleep.",
+                "ru": "Ты выглядишь так, будто тебе нужно поспать. (похоже на правду)"
+              },
+              {
+                "en": "He spends money as if he were a millionaire.",
+                "ru": "Он тратит деньги так, будто он миллионер. (а он нет)"
+              },
+              {
+                "en": "She looked as though she had been crying.",
+                "ru": "Она выглядела так, будто плакала."
+              },
+              {
+                "en": "Don't talk to me as if I were a child.",
+                "ru": "Не говори со мной так, будто я ребёнок."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: As if / As though",
+      "label": "Частые ошибки: as if she has seen, as it is",
       "intro": {
         "text": "Вот самые частые ошибки с as if и as though.",
         "highlights": [
@@ -327,19 +423,19 @@
           "errors": [
             {
               "wrong": "She looked as if she has seen a ghost.",
-              "right": "She looked as if she had seen a ghost."
+              "right": "She looked as if she had seen a ghost. (раньше и нереально — Past Perfect)"
             },
             {
               "wrong": "He talks as though he was knowing everything.",
-              "right": "He talks as though he knew everything."
+              "right": "He talks as though he knew everything. (know не ставят в -ing)"
             },
             {
               "wrong": "It looks as it is going to rain.",
-              "right": "It looks as if it is going to rain."
+              "right": "It looks as if it is going to rain. (as if, не просто as)"
             },
             {
               "wrong": "It feels as if we know each other for years.",
-              "right": "It feels as if we've known each other for years."
+              "right": "It feels as if we've known each other for years. (for years — Perfect)"
             }
           ]
         },

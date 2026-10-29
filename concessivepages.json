@@ -3,7 +3,7 @@
   "route": "cards_concessive",
   "slides": [
     {
-      "label": "Прилагательное + as",
+      "label": "Tired as she was: «как она ни устала»",
       "intro": {
         "text": "В книжной речи «хотя» можно выразить так: прилагательное или наречие + as + S + глагол. Tired as she was, she kept going — «Как она ни устала, она продолжала».",
         "highlights": [
@@ -46,7 +46,86 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["прил. / нареч.", "as / though", "S + глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Tired as she was, she kept working.", "ru": "Как она ни устала, она продолжала работать.", "parts": [["Tired", "прил. / нареч."], ["as", "as / though"], ["she was,", "S + глагол"], ["she kept working.", ""]]}, {"en": "Strange as it seems, it is true.", "ru": "Как ни странно, это правда.", "parts": [["Strange", "прил. / нареч."], ["as", "as / though"], ["it seems,", "S + глагол"], ["it is true.", ""]]}, {"en": "Hard though he tried, he failed.", "ru": "Как он ни старался, у него не получилось.", "parts": [["Hard", "прил. / нареч."], ["though", "as / though"], ["he tried,", "S + глагол"], ["he failed.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "прил. / нареч.",
+                "as / though",
+                "S + глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "Tired as she was, she kept working.",
+                  "ru": "Как она ни устала, она продолжала работать.",
+                  "parts": [
+                    [
+                      "Tired",
+                      "прил. / нареч."
+                    ],
+                    [
+                      "as",
+                      "as / though"
+                    ],
+                    [
+                      "she was,",
+                      "S + глагол"
+                    ],
+                    [
+                      "she kept working.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Strange as it seems, it is true.",
+                  "ru": "Как ни странно, это правда.",
+                  "parts": [
+                    [
+                      "Strange",
+                      "прил. / нареч."
+                    ],
+                    [
+                      "as",
+                      "as / though"
+                    ],
+                    [
+                      "it seems,",
+                      "S + глагол"
+                    ],
+                    [
+                      "it is true.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Hard though he tried, he failed.",
+                  "ru": "Как он ни старался, у него не получилось.",
+                  "parts": [
+                    [
+                      "Hard",
+                      "прил. / нареч."
+                    ],
+                    [
+                      "though",
+                      "as / though"
+                    ],
+                    [
+                      "he tried,",
+                      "S + глагол"
+                    ],
+                    [
+                      "he failed.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -87,7 +166,7 @@
       ]
     },
     {
-      "label": "Much as и try as I might",
+      "label": "Much as, try as I might, come what may",
       "intro": {
         "text": "Much as + предложение — «как бы ни», «хотя очень»: Much as I like him, I can't agree. Try as I might — «как я ни старался»: Try as I might, I couldn't open it.",
         "highlights": [
@@ -154,7 +233,7 @@
       ]
     },
     {
-      "label": "However и no matter",
+      "label": "However hard, no matter what",
       "intro": {
         "text": "Нейтральный вариант — however или no matter how + прилагательное + S + глагол: However hard I try… А no matter what / who / where — «что бы ни», «кто бы ни», «где бы ни».",
         "highlights": [
@@ -232,10 +311,39 @@
             "title": "Не как в вопросе"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё -ever: whoever, wherever, whenever",
+          "preview": "«кто бы ни», «где бы ни»",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "Whoever calls, tell them I'm busy.",
+                "ru": "Кто бы ни позвонил, скажи, что я занят."
+              },
+              {
+                "en": "Wherever you go, I'll follow.",
+                "ru": "Куда бы ты ни пошёл, я пойду за тобой."
+              },
+              {
+                "en": "Come whenever you like.",
+                "ru": "Приходи когда захочешь."
+              },
+              {
+                "en": "Whatever you decide, I'll support you.",
+                "ru": "Что бы ты ни решил, я тебя поддержу."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Much as, try as I might",
+      "label": "Частые ошибки: much as … but, however I try hard",
       "intro": {
         "text": "Вот самые частые ошибки в уступительных оборотах.",
         "highlights": [
@@ -253,23 +361,23 @@
           "errors": [
             {
               "wrong": "Much as I like him, but I can't agree.",
-              "right": "Much as I like him, I can't agree."
+              "right": "Much as I like him, I can't agree. (but лишнее)"
             },
             {
               "wrong": "Tired as was she, she kept going.",
-              "right": "Tired as she was, she kept going."
+              "right": "Tired as she was, she kept going. (порядок прямой)"
             },
             {
               "wrong": "However I try hard, I fail.",
-              "right": "However hard I try, I fail."
+              "right": "However hard I try, I fail. (прилагательное — сразу после however)"
             },
             {
               "wrong": "No matter how I am tired, I read.",
-              "right": "No matter how tired I am, I read."
+              "right": "No matter how tired I am, I read. (прилагательное — сразу после how)"
             },
             {
               "wrong": "Strange as may it seem, it's true.",
-              "right": "Strange as it may seem, it's true."
+              "right": "Strange as it may seem, it's true. (порядок прямой)"
             }
           ]
         },

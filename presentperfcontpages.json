@@ -5,11 +5,23 @@
     {
       "label": "Present Perfect Continuous: делаю уже давно",
       "intro": {
-        "text": "Present Perfect Continuous описывает действие, которое началось в прошлом и продолжается до сих пор (или только что закончилось). Важна длительность.",
+        "text": "Present Perfect Continuous — действие началось в прошлом и идёт до сих пор (или только что закончилось): I have been waiting for an hour — я жду уже час. Важна длительность.",
         "highlights": [
-          { "text": "Present Perfect Continuous", "color": "term",    "style": "bold_underline" },
-          { "text": "продолжается до сих пор",     "color": "info",    "style": "bold" },
-          { "text": "длительность",                 "color": "example", "style": "bold" }
+          {
+            "text": "Present Perfect Continuous",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "идёт до сих пор",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "длительность",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,24 +30,138 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",                "color": "info" },
-              { "text": "+",                "color": "muted" },
-              { "text": "have / has been",  "color": "term" },
-              { "text": "+",                "color": "muted" },
-              { "text": "V-ing",            "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "have / has been",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "have / has been", "V-ing"], "decoys": ["V3", "had been"], "examples": [{"en": "I have been learning English for two years.", "ru": "Я учу английский два года.", "parts": [["I", "S"], ["have been", "have / has been"], ["learning", "V-ing"], ["English for two years.", ""]]}, {"en": "She has been working here since May.", "ru": "Она работает здесь с мая.", "parts": [["She", "S"], ["has been", "have / has been"], ["working", "V-ing"], ["here since May.", ""]]}, {"en": "We have been waiting for an hour.", "ru": "Мы ждём уже час.", "parts": [["We", "S"], ["have been", "have / has been"], ["waiting", "V-ing"], ["for an hour.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "have / has been",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "had been"
+              ],
+              "examples": [
+                {
+                  "en": "I have been learning English for two years.",
+                  "ru": "Я учу английский два года.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "have been",
+                      "have / has been"
+                    ],
+                    [
+                      "learning",
+                      "V-ing"
+                    ],
+                    [
+                      "English for two years.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She has been working here since May.",
+                  "ru": "Она работает здесь с мая.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "has been",
+                      "have / has been"
+                    ],
+                    [
+                      "working",
+                      "V-ing"
+                    ],
+                    [
+                      "here since May.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We have been waiting for an hour.",
+                  "ru": "Мы ждём уже час.",
+                  "parts": [
+                    [
+                      "We",
+                      "S"
+                    ],
+                    [
+                      "have been",
+                      "have / has been"
+                    ],
+                    [
+                      "waiting",
+                      "V-ing"
+                    ],
+                    [
+                      "for an hour.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Кто какой использует",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Кому", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Кому",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["have been",  "I / you / we / they",  "I have been waiting."] },
-              { "cells": ["has been",   "he / she / it",          "She has been working."] }
+              {
+                "cells": [
+                  "have been",
+                  "I / you / we / they",
+                  "I have been waiting."
+                ]
+              },
+              {
+                "cells": [
+                  "has been",
+                  "he / she / it",
+                  "She has been working."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -45,17 +171,38 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["for", "since", "how long", "recently", "lately", "all day", "all week", "just"]
+            "verbs": [
+              "for",
+              "since",
+              "how long",
+              "recently",
+              "lately",
+              "all day",
+              "all week",
+              "just"
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I have been waiting for an hour.",       "ru": "Я жду уже час." },
-            { "en": "She has been working all day.",            "ru": "Она работает весь день." },
-            { "en": "How long have you been living here?",      "ru": "Как долго ты здесь живёшь?" },
-            { "en": "It has been raining all day.",              "ru": "Весь день идёт дождь." }
+            {
+              "en": "I have been waiting for an hour.",
+              "ru": "Я жду уже час."
+            },
+            {
+              "en": "She has been working all day.",
+              "ru": "Она работает весь день."
+            },
+            {
+              "en": "How long have you been living here?",
+              "ru": "Как долго ты здесь живёшь?"
+            },
+            {
+              "en": "It has been raining all day.",
+              "ru": "Весь день идёт дождь."
+            }
           ]
         },
         {
@@ -67,17 +214,53 @@
             "accentColor": "accent2"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "По-русски — настоящее время",
+          "preview": "а по-английски Perfect Continuous",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "I've been living here for ten years.",
+                "ru": "Я живу здесь десять лет. (не I live here for…)"
+              },
+              {
+                "en": "How long have you been learning English?",
+                "ru": "Сколько ты учишь английский?"
+              },
+              {
+                "en": "You look tired. — I've been running.",
+                "ru": "Ты выглядишь уставшим. — Я бегал. (только что закончил)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
         "text": "Have / has been не меняется в зависимости от глагола: дальше всегда V-ing. Одна конструкция для всех глаголов.",
         "highlights": [
-          { "text": "have / has been", "color": "term",    "style": "bold_underline" },
-          { "text": "не меняется",       "color": "info",    "style": "bold" },
-          { "text": "V-ing",              "color": "example", "style": "bold" }
+          {
+            "text": "have / has been",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не меняется",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "V-ing",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -86,17 +269,38 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I / You / We / They", "color": "info" },
-              { "text": "+ have been + V-ing",  "color": "example" },
-              { "text": "·",                     "color": "muted" },
-              { "text": "He / She / It",         "color": "info" },
-              { "text": "+ has been + V-ing",    "color": "term" }
+              {
+                "text": "I / You / We / They",
+                "color": "info"
+              },
+              {
+                "text": "+ have been + V-ing",
+                "color": "example"
+              },
+              {
+                "text": "·",
+                "color": "muted"
+              },
+              {
+                "text": "He / She / It",
+                "color": "info"
+              },
+              {
+                "text": "+ has been + V-ing",
+                "color": "term"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I have been waiting for an hour.",  "ru": "Я жду уже час." },
-            { "en": "She has been working all day.",       "ru": "Она работает весь день." }
+            {
+              "en": "I have been waiting for an hour.",
+              "ru": "Я жду уже час."
+            },
+            {
+              "en": "She has been working all day.",
+              "ru": "Она работает весь день."
+            }
           ]
         },
         {
@@ -104,17 +308,129 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "have / has", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "not been",   "color": "bad" },
-              { "text": "+",          "color": "muted" },
-              { "text": "V-ing",      "color": "example" }
+              {
+                "text": "have / has",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not been",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["have / has", "not been", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I have not been sleeping well.", "ru": "Я плохо сплю в последнее время.", "parts": [["I", ""], ["have", "have / has"], ["not been", "not been"], ["sleeping", "V-ing"], ["well.", ""]]}, {"en": "She has not been feeling well lately.", "ru": "Она в последнее время плохо себя чувствует.", "parts": [["She", ""], ["has", "have / has"], ["not been", "not been"], ["feeling", "V-ing"], ["well lately.", ""]]}, {"en": "We have not been waiting long.", "ru": "Мы ждём недолго.", "parts": [["We", ""], ["have", "have / has"], ["not been", "not been"], ["waiting", "V-ing"], ["long.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "have / has",
+                "not been",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "did"
+              ],
+              "examples": [
+                {
+                  "en": "I have not been sleeping well.",
+                  "ru": "Я плохо сплю в последнее время.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "have",
+                      "have / has"
+                    ],
+                    [
+                      "not been",
+                      "not been"
+                    ],
+                    [
+                      "sleeping",
+                      "V-ing"
+                    ],
+                    [
+                      "well.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She has not been feeling well lately.",
+                  "ru": "Она в последнее время плохо себя чувствует.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "has",
+                      "have / has"
+                    ],
+                    [
+                      "not been",
+                      "not been"
+                    ],
+                    [
+                      "feeling",
+                      "V-ing"
+                    ],
+                    [
+                      "well lately.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We have not been waiting long.",
+                  "ru": "Мы ждём недолго.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "have",
+                      "have / has"
+                    ],
+                    [
+                      "not been",
+                      "not been"
+                    ],
+                    [
+                      "waiting",
+                      "V-ing"
+                    ],
+                    [
+                      "long.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "She hasn't been sleeping well.",   "ru": "Она плохо спит последнее время." },
-            { "en": "They haven't been talking to each other.", "ru": "Они не разговаривают друг с другом." }
+            {
+              "en": "She hasn't been sleeping well.",
+              "ru": "Она плохо спит последнее время."
+            },
+            {
+              "en": "They haven't been talking to each other.",
+              "ru": "Они не разговаривают друг с другом."
+            }
           ]
         },
         {
@@ -122,45 +438,179 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Have / Has", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "S",          "color": "example" },
-              { "text": "+",          "color": "muted" },
-              { "text": "been + V-ing?", "color": "term" }
+              {
+                "text": "Have / Has",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "been + V-ing?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Have / Has", "S", "been + V-ing?"], "decoys": ["Did", "V3"], "examples": [{"en": "Have you been waiting long?", "ru": "Ты давно ждёшь?", "parts": [["Have", "Have / Has"], ["you", "S"], ["been waiting", "been + V-ing?"], ["long?", ""]]}, {"en": "Has she been crying?", "ru": "Она плакала?", "parts": [["Has", "Have / Has"], ["she", "S"], ["been crying?", "been + V-ing?"]]}, {"en": "Have they been working all day?", "ru": "Они работают весь день?", "parts": [["Have", "Have / Has"], ["they", "S"], ["been working", "been + V-ing?"], ["all day?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Have / Has",
+                "S",
+                "been + V-ing?"
+              ],
+              "decoys": [
+                "Did",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "Have you been waiting long?",
+                  "ru": "Ты давно ждёшь?",
+                  "parts": [
+                    [
+                      "Have",
+                      "Have / Has"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "been waiting",
+                      "been + V-ing?"
+                    ],
+                    [
+                      "long?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Has she been crying?",
+                  "ru": "Она плакала?",
+                  "parts": [
+                    [
+                      "Has",
+                      "Have / Has"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "been crying?",
+                      "been + V-ing?"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Have they been working all day?",
+                  "ru": "Они работают весь день?",
+                  "parts": [
+                    [
+                      "Have",
+                      "Have / Has"
+                    ],
+                    [
+                      "they",
+                      "S"
+                    ],
+                    [
+                      "been working",
+                      "been + V-ing?"
+                    ],
+                    [
+                      "all day?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Have you been studying English long?",  "ru": "Ты давно учишь английский?" },
-            { "en": "How long has she been working here?",     "ru": "Как долго она здесь работает?" }
+            {
+              "en": "Have you been studying English long?",
+              "ru": "Ты давно учишь английский?"
+            },
+            {
+              "en": "How long has she been working here?",
+              "ru": "Как долго она здесь работает?"
+            }
           ]
         },
         {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
-            "headers": ["Полная форма", "Сокращение"],
-            "headerColors": ["info", "example"],
+            "headers": [
+              "Полная форма",
+              "Сокращение"
+            ],
+            "headerColors": [
+              "info",
+              "example"
+            ],
             "rows": [
-              { "cells": ["I have been",     "I've been"] },
-              { "cells": ["you have been",   "you've been"] },
-              { "cells": ["he has been",      "he's been"] },
-              { "cells": ["have not been",    "haven't been"] },
-              { "cells": ["has not been",     "hasn't been"] }
+              {
+                "cells": [
+                  "I have been",
+                  "I've been"
+                ]
+              },
+              {
+                "cells": [
+                  "you have been",
+                  "you've been"
+                ]
+              },
+              {
+                "cells": [
+                  "he has been",
+                  "he's been"
+                ]
+              },
+              {
+                "cells": [
+                  "have not been",
+                  "haven't been"
+                ]
+              },
+              {
+                "cells": [
+                  "has not been",
+                  "hasn't been"
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
       ]
     },
-
     {
-      "label": "Слова-маркеры",
+      "label": "Подсказки: for, since, lately",
       "intro": {
         "text": "Слова-маркеры подчёркивают длительность действия — как долго оно продолжается или продолжалось.",
         "highlights": [
-          { "text": "Слова-маркеры", "color": "term",    "style": "bold_underline" },
-          { "text": "длительность",   "color": "info",    "style": "bold" }
+          {
+            "text": "Слова-маркеры",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "длительность",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -168,15 +618,59 @@
           "title": "Главные маркеры",
           "borderColor": "info",
           "table": {
-            "headers": ["Маркер", "Перевод", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Маркер",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["for",             "в течение",                 "I have been learning English for three years."] },
-              { "cells": ["since",            "с (момента)",                "She has been working here since 2019."] },
-              { "cells": ["how long",         "как долго",                  "How long have you been waiting?"] },
-              { "cells": ["recently / lately","недавно / в последнее время","I have been feeling tired lately."] },
-              { "cells": ["all day / all week","весь день / всю неделю",    "It has been raining all day."] },
-              { "cells": ["just",              "только что",                 "I have just been talking to her."] }
+              {
+                "cells": [
+                  "for",
+                  "в течение",
+                  "I have been learning English for three years."
+                ]
+              },
+              {
+                "cells": [
+                  "since",
+                  "с (момента)",
+                  "She has been working here since 2019."
+                ]
+              },
+              {
+                "cells": [
+                  "how long",
+                  "как долго",
+                  "How long have you been waiting?"
+                ]
+              },
+              {
+                "cells": [
+                  "recently / lately",
+                  "недавно / в последнее время",
+                  "I have been feeling tired lately."
+                ]
+              },
+              {
+                "cells": [
+                  "all day / all week",
+                  "весь день / всю неделю",
+                  "It has been raining all day."
+                ]
+              },
+              {
+                "cells": [
+                  "just",
+                  "только что",
+                  "I have just been talking to her."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -185,30 +679,57 @@
           "title": "For vs Since",
           "borderColor": "term",
           "rules": [
-            { "name": "for",   "suffix": "период (сколько)",         "example": "I have been waiting for two hours." },
-            { "name": "since", "suffix": "точка начала (с когда)",   "example": "She has been working since 2019." }
+            {
+              "name": "for",
+              "suffix": "период (сколько)",
+              "example": "I have been waiting for two hours."
+            },
+            {
+              "name": "since",
+              "suffix": "точка начала (с когда)",
+              "example": "She has been working since 2019."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I have been learning English for three years.",  "ru": "Я учу английский уже три года." },
-            { "en": "She has been working here since 2019.",           "ru": "Она работает здесь с 2019 года." },
-            { "en": "It has been raining all day.",                     "ru": "Весь день идёт дождь." },
-            { "en": "I have been feeling tired lately.",                "ru": "Я в последнее время чувствую усталость." }
+            {
+              "en": "I have been learning English for three years.",
+              "ru": "Я учу английский уже три года."
+            },
+            {
+              "en": "She has been working here since 2019.",
+              "ru": "Она работает здесь с 2019 года."
+            },
+            {
+              "en": "It has been raining all day.",
+              "ru": "Весь день идёт дождь."
+            },
+            {
+              "en": "I have been feeling tired lately.",
+              "ru": "Я в последнее время чувствую усталость."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Окончание -ing",
+      "label": "Глагол с -ing после been",
       "intro": {
         "text": "После been глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
         "highlights": [
-          { "text": "-ing",   "color": "term",    "style": "bold_underline" },
-          { "text": "been",    "color": "info",    "style": "bold" }
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "been",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -216,10 +737,26 @@
           "title": "Правила",
           "borderColor": "info",
           "rules": [
-            { "name": "Большинство",            "suffix": "+ ing",              "example": "work → working, read → reading" },
-            { "name": "Немая -e",                "suffix": "e убирается + ing",   "example": "write → writing, make → making" },
-            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ing",       "example": "run → running, sit → sitting" },
-            { "name": "Глаголы на -ie",           "suffix": "ie → y + ing",         "example": "lie → lying, die → dying" }
+            {
+              "name": "Большинство",
+              "suffix": "+ ing",
+              "example": "work → working, read → reading"
+            },
+            {
+              "name": "Немая -e",
+              "suffix": "e убирается + ing",
+              "example": "write → writing, make → making"
+            },
+            {
+              "name": "Гласная + согл. в конце",
+              "suffix": "удвоение + ing",
+              "example": "run → running, sit → sitting"
+            },
+            {
+              "name": "Глаголы на -ie",
+              "suffix": "ie → y + ing",
+              "example": "lie → lying, die → dying"
+            }
           ]
         },
         {
@@ -235,23 +772,47 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I have been writing this essay for two hours.",  "ru": "Я пишу это эссе уже два часа." },
-            { "en": "They have been running since morning.",            "ru": "Они бегают с самого утра." },
-            { "en": "She has been reading all evening.",                 "ru": "Она читает весь вечер." }
+            {
+              "en": "I have been writing this essay for two hours.",
+              "ru": "Я пишу это эссе уже два часа."
+            },
+            {
+              "en": "They have been running since morning.",
+              "ru": "Они бегают с самого утра."
+            },
+            {
+              "en": "She has been reading all evening.",
+              "ru": "Она читает весь вечер."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Perfect Continuous vs Perfect",
+      "label": "Процесс или результат: have been reading и have read",
       "intro": {
         "text": "Оба времени связывают прошлое с настоящим, но Present Perfect Continuous делает акцент на процессе, а Present Perfect — на результате.",
         "highlights": [
-          { "text": "Perfect Continuous", "color": "info",    "style": "bold" },
-          { "text": "Perfect",             "color": "bad",     "style": "bold" },
-          { "text": "процессе",             "color": "example", "style": "bold_underline" },
-          { "text": "результате",           "color": "term",    "style": "bold" }
+          {
+            "text": "Perfect Continuous",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Perfect",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "процессе",
+            "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "результате",
+            "color": "term",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -259,11 +820,31 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Акцент", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Акцент",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Perfect Continuous", "процесс, длительность", "have / has been + V-ing"] },
-              { "cells": ["Perfect",             "результат, факт",       "have / has + V3"] }
+              {
+                "cells": [
+                  "Perfect Continuous",
+                  "процесс, длительность",
+                  "have / has been + V-ing"
+                ]
+              },
+              {
+                "cells": [
+                  "Perfect",
+                  "результат, факт",
+                  "have / has + V3"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -272,16 +853,28 @@
           "title": "Примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I have been reading this book.",     "ru": "Я читаю эту книгу. (процесс)" },
-            { "en": "I have read this book.",              "ru": "Я прочитал эту книгу. (результат)" }
+            {
+              "en": "I have been reading this book.",
+              "ru": "Я читаю эту книгу. (процесс)"
+            },
+            {
+              "en": "I have read this book.",
+              "ru": "Я прочитал эту книгу. (результат)"
+            }
           ]
         },
         {
           "title": "Сравнение с объёмом",
           "borderColor": "term",
           "examples": [
-            { "en": "She has been writing emails all morning.",  "ru": "Она пишет письма всё утро. (процесс)" },
-            { "en": "She has written five emails.",                "ru": "Она написала пять писем. (результат)" }
+            {
+              "en": "She has been writing emails all morning.",
+              "ru": "Она пишет письма всё утро. (процесс)"
+            },
+            {
+              "en": "She has written five emails.",
+              "ru": "Она написала пять писем. (результат)"
+            }
           ]
         },
         {
@@ -300,13 +893,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Present Perfect Continuous",
+      "label": "Частые ошибки: have been wait, since two hours",
       "intro": {
         "text": "Семь самых частых ошибок в Present Perfect Continuous.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -314,13 +910,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I have been wait for an hour.",      "right": "I have been waiting for an hour." },
-            { "wrong": "She has been work all day.",           "right": "She has been working all day." },
-            { "wrong": "I have been waiting since two hours.", "right": "I have been waiting for two hours." },
-            { "wrong": "They has been running.",                "right": "They have been running." },
-            { "wrong": "He have been working.",                  "right": "He has been working." },
-            { "wrong": "I have been wrote this essay.",          "right": "I have been writing this essay." },
-            { "wrong": "I have been working since 2015. (если с 2015 верно)", "right": "I have been working since 2015." }
+            {
+              "wrong": "I have been wait for an hour.",
+              "right": "I have been waiting for an hour. (нужен -ing)"
+            },
+            {
+              "wrong": "She has been work all day.",
+              "right": "She has been working all day. (нужен -ing)"
+            },
+            {
+              "wrong": "I have been waiting since two hours.",
+              "right": "I have been waiting for two hours. (период — for)"
+            },
+            {
+              "wrong": "They has been running.",
+              "right": "They have been running. (they → have)"
+            },
+            {
+              "wrong": "He have been working.",
+              "right": "He has been working. (he → has)"
+            },
+            {
+              "wrong": "I have been wrote this essay.",
+              "right": "I have been writing this essay. (нужен -ing)"
+            },
+            {
+              "wrong": "I work here since 2015.",
+              "right": "I have been working here since 2015. (с since — Perfect)"
+            }
           ]
         },
         {

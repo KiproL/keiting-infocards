@@ -3,7 +3,7 @@
   "route": "cards_betoinfinitive",
   "slides": [
     {
-      "label": "be to: официальный план",
+      "label": "Be to: официальный план и приказ",
       "intro": {
         "text": "Be to + глагол — официальный план или распоряжение: The President is to visit Japan — «Президент посетит Японию». You are not to leave — «Вам нельзя уходить». Так пишут в новостях и инструкциях.",
         "highlights": [
@@ -51,7 +51,86 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "am / is / are", "to + V"], "decoys": ["V-ing", "will"], "examples": [{"en": "The Queen is to open the new bridge.", "ru": "Королева должна открыть новый мост.", "parts": [["The Queen", "S"], ["is", "am / is / are"], ["to open", "to + V"], ["the new bridge.", ""]]}, {"en": "You are to finish this by Friday.", "ru": "Ты должен закончить это к пятнице.", "parts": [["You", "S"], ["are", "am / is / are"], ["to finish", "to + V"], ["this by Friday.", ""]]}, {"en": "The talks are to take place in Geneva.", "ru": "Переговоры должны пройти в Женеве.", "parts": [["The talks", "S"], ["are", "am / is / are"], ["to take", "to + V"], ["place in Geneva.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "am / is / are",
+                "to + V"
+              ],
+              "decoys": [
+                "V-ing",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "The Queen is to open the new bridge.",
+                  "ru": "Королева должна открыть новый мост.",
+                  "parts": [
+                    [
+                      "The Queen",
+                      "S"
+                    ],
+                    [
+                      "is",
+                      "am / is / are"
+                    ],
+                    [
+                      "to open",
+                      "to + V"
+                    ],
+                    [
+                      "the new bridge.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "You are to finish this by Friday.",
+                  "ru": "Ты должен закончить это к пятнице.",
+                  "parts": [
+                    [
+                      "You",
+                      "S"
+                    ],
+                    [
+                      "are",
+                      "am / is / are"
+                    ],
+                    [
+                      "to finish",
+                      "to + V"
+                    ],
+                    [
+                      "this by Friday.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "The talks are to take place in Geneva.",
+                  "ru": "Переговоры должны пройти в Женеве.",
+                  "parts": [
+                    [
+                      "The talks",
+                      "S"
+                    ],
+                    [
+                      "are",
+                      "am / is / are"
+                    ],
+                    [
+                      "to take",
+                      "to + V"
+                    ],
+                    [
+                      "place in Geneva.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -110,10 +189,39 @@
             "title": "Новости"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The Queen is to visit Canada in May.", "ru": "В мае королева посетит Канаду."}, {"en": "You are to report to the manager at nine.", "ru": "Вам следует явиться к менеджеру в девять."}, {"en": "Passengers are not to smoke on board.", "ru": "Пассажирам запрещено курить на борту."}, {"en": "If we are to win, we must train harder.", "ru": "Если мы хотим победить, надо тренироваться усерднее."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The Queen is to visit Canada in May.",
+                "ru": "В мае королева посетит Канаду."
+              },
+              {
+                "en": "You are to report to the manager at nine.",
+                "ru": "Вам следует явиться к менеджеру в девять."
+              },
+              {
+                "en": "Passengers are not to smoke on board.",
+                "ru": "Пассажирам запрещено курить на борту."
+              },
+              {
+                "en": "If we are to win, we must train harder.",
+                "ru": "Если мы хотим победить, надо тренироваться усерднее."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "If we are to…",
+      "label": "If we are to…, was to have done",
       "intro": {
         "text": "В условии be to значит «если мы хотим», «чтобы…»: If we are to win, we must train harder. А в прошлом was to — «ему суждено было», was to have done — «должен был, но не случилось».",
         "highlights": [
@@ -203,7 +311,7 @@
       ]
     },
     {
-      "label": "Чем отличается",
+      "label": "Be to, be going to, be due to: чем отличаются",
       "intro": {
         "text": "Похожих оборотов много. Be to — официальнее всех и звучит как решение сверху.",
         "highlights": [
@@ -272,7 +380,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Be to + infinitive",
+      "label": "Частые ошибки: is to visiting, if we will win",
       "intro": {
         "text": "Вот самые частые ошибки с be to.",
         "highlights": [
@@ -290,23 +398,23 @@
           "errors": [
             {
               "wrong": "The president is to visiting Spain.",
-              "right": "The president is to visit Spain."
+              "right": "The president is to visit Spain. (to + глагол)"
             },
             {
               "wrong": "You are not allow to leave.",
-              "right": "You are not to leave."
+              "right": "You are not to leave. (или are not allowed to)"
             },
             {
               "wrong": "If we will win, we must train.",
-              "right": "If we are to win, we must train."
+              "right": "If we are to win, we must train. («если хотим» — are to)"
             },
             {
               "wrong": "She was to have marry him.",
-              "right": "She was to have married him."
+              "right": "She was to have married him. (после have — V3)"
             },
             {
               "wrong": "The minister to resign tomorrow is.",
-              "right": "The minister is to resign tomorrow."
+              "right": "The minister is to resign tomorrow. (is — после подлежащего)"
             }
           ]
         },

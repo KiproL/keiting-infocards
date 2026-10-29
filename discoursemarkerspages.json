@@ -3,7 +3,7 @@
   "route": "cards_discoursemarkers",
   "slides": [
     {
-      "label": "Оговорки: mind you, admittedly",
+      "label": "Оговорки: mind you, admittedly, that said",
       "intro": {
         "text": "Discourse markers — короткие слова и обороты, которые показывают, куда идёт разговор: уступка, оговорка, возврат к теме. Без них речь звучит сухо и как перевод.",
         "highlights": [
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "label": "Мысль и мнение",
+      "label": "Внезапная мысль: come to think of it, as it happens",
       "intro": {
         "text": "Есть маркеры, которые вводят внезапную мысль или скромное мнение: come to think of it — «если подумать», as it happens — «как раз», for what it's worth — «если интересно моё мнение».",
         "highlights": [
@@ -181,10 +181,39 @@
             "borderColor": "info"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Come to think of it, I haven't seen him for ages.",
+                "ru": "Если подумать, я его сто лет не видел."
+              },
+              {
+                "en": "As it happens, I'm free tonight.",
+                "ru": "Как раз сегодня вечером я свободен."
+              },
+              {
+                "en": "For what it's worth, I think you did the right thing.",
+                "ru": "Если интересно моё мнение, ты поступил правильно."
+              },
+              {
+                "en": "The plan didn't help. If anything, it made things worse.",
+                "ru": "План не помог. Скорее даже всё ухудшил."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Переход и итог",
+      "label": "Переход и итог: anyway, speaking of which",
       "intro": {
         "text": "Чтобы вернуться к теме, сменить её или подвести итог, есть свои слова: anyway, speaking of which, as I was saying, to cut a long story short, all in all.",
         "highlights": [
@@ -269,10 +298,39 @@
             "title": "Стиль"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Anyway, what was I saying?", "ru": "Ну так вот, о чём я говорил?"}, {"en": "We went to Rome. Speaking of which, have you booked your trip?", "ru": "Мы ездили в Рим. Кстати, ты забронировал поездку?"}, {"en": "To cut a long story short, we missed the plane.", "ru": "Короче говоря, мы опоздали на самолёт."}, {"en": "All in all, it was a good year.", "ru": "В общем и целом, год был хороший."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Anyway, what was I saying?",
+                "ru": "Ну так вот, о чём я говорил?"
+              },
+              {
+                "en": "We went to Rome. Speaking of which, have you booked your trip?",
+                "ru": "Мы ездили в Рим. Кстати, ты забронировал поездку?"
+              },
+              {
+                "en": "To cut a long story short, we missed the plane.",
+                "ru": "Короче говоря, мы опоздали на самолёт."
+              },
+              {
+                "en": "All in all, it was a good year.",
+                "ru": "В общем и целом, год был хороший."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Discourse markers: mind you, admittedly",
+      "label": "Частые ошибки: as it happen, come to think",
       "intro": {
         "text": "Вот самые частые ошибки с маркерами речи.",
         "highlights": [
@@ -290,23 +348,23 @@
           "errors": [
             {
               "wrong": "As it happen, I know him.",
-              "right": "As it happens, I know him."
+              "right": "As it happens, I know him. (it → happens)"
             },
             {
               "wrong": "Come to think, he never called.",
-              "right": "Come to think of it, he never called."
+              "right": "Come to think of it, he never called. (целиком — of it)"
             },
             {
               "wrong": "Admitting, it was hard.",
-              "right": "Admittedly, it was hard."
+              "right": "Admittedly, it was hard. (наречие — admittedly)"
             },
             {
               "wrong": "To cut long story short, we won.",
-              "right": "To cut a long story short, we won."
+              "right": "To cut a long story short, we won. (с a)"
             },
             {
               "wrong": "Speaking about which, where is Tom?",
-              "right": "Speaking of which, where is Tom?"
+              "right": "Speaking of which, where is Tom? (of which)"
             }
           ]
         },

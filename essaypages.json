@@ -3,7 +3,7 @@
   "route": "cards_essay",
   "slides": [
     {
-      "label": "Структура",
+      "label": "Структура эссе: введение, абзацы, вывод",
       "intro": {
         "text": "Эссе — это введение, два-три абзаца основной части и заключение. В каждом абзаце основной части — одна мысль.",
         "highlights": [
@@ -44,10 +44,39 @@
             "accentColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Nowadays, more and more people work from home.", "ru": "В наши дни всё больше людей работают из дома. (введение)"}, {"en": "Firstly, remote work saves time and money.", "ru": "Во-первых, удалённая работа экономит время и деньги. (основная часть)"}, {"en": "On the other hand, some people feel lonely.", "ru": "С другой стороны, некоторым одиноко. (основная часть)"}, {"en": "In conclusion, remote work has more advantages than disadvantages.", "ru": "В заключение: у удалённой работы больше плюсов, чем минусов."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Nowadays, more and more people work from home.",
+                "ru": "В наши дни всё больше людей работают из дома. (введение)"
+              },
+              {
+                "en": "Firstly, remote work saves time and money.",
+                "ru": "Во-первых, удалённая работа экономит время и деньги. (основная часть)"
+              },
+              {
+                "en": "On the other hand, some people feel lonely.",
+                "ru": "С другой стороны, некоторым одиноко. (основная часть)"
+              },
+              {
+                "en": "In conclusion, remote work has more advantages than disadvantages.",
+                "ru": "В заключение: у удалённой работы больше плюсов, чем минусов."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Абзац",
+      "label": "Абзац: главная фраза, объяснение, пример",
       "intro": {
         "text": "Абзац начинается с главной фразы — topic sentence: по ней сразу ясно, о чём он. Дальше — объяснение и пример.",
         "highlights": [
@@ -82,10 +111,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Secondly, public transport reduces pollution.", "ru": "Во-вторых, общественный транспорт снижает загрязнение. (главная фраза абзаца)"}, {"en": "Fewer cars on the roads mean cleaner air.", "ru": "Меньше машин на дорогах — чище воздух. (объяснение)"}, {"en": "For instance, Oslo has cut emissions by a third.", "ru": "Например, Осло сократил выбросы на треть. (пример)"}, {"en": "Therefore, cities should invest in buses and trams.", "ru": "Поэтому города должны вкладываться в автобусы и трамваи. (вывод абзаца)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Secondly, public transport reduces pollution.",
+                "ru": "Во-вторых, общественный транспорт снижает загрязнение. (главная фраза абзаца)"
+              },
+              {
+                "en": "Fewer cars on the roads mean cleaner air.",
+                "ru": "Меньше машин на дорогах — чище воздух. (объяснение)"
+              },
+              {
+                "en": "For instance, Oslo has cut emissions by a third.",
+                "ru": "Например, Осло сократил выбросы на треть. (пример)"
+              },
+              {
+                "en": "Therefore, cities should invest in buses and trams.",
+                "ru": "Поэтому города должны вкладываться в автобусы и трамваи. (вывод абзаца)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Стиль",
+      "label": "Стиль: без сокращений и разговорных слов",
       "intro": {
         "text": "Эссе пишут в нейтрально-официальном стиле: без сокращений, разговорных слов и обращений к читателю на «ты».",
         "highlights": [
@@ -144,10 +202,70 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё замены",
+          "preview": "разговорно → в эссе",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Разговорно",
+                "В эссе"
+              ],
+              "headerColors": [
+                "info",
+                "term"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "get better",
+                    "improve"
+                  ]
+                },
+                {
+                  "cells": [
+                    "find out",
+                    "discover"
+                  ]
+                },
+                {
+                  "cells": [
+                    "a big problem",
+                    "a serious problem"
+                  ]
+                },
+                {
+                  "cells": [
+                    "so",
+                    "therefore"
+                  ]
+                },
+                {
+                  "cells": [
+                    "but",
+                    "however"
+                  ]
+                },
+                {
+                  "cells": [
+                    "lots of",
+                    "numerous"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Типы эссе",
+      "label": "Типы эссе: opinion, for and against",
       "intro": {
         "text": "Тип эссе задаёт план. Чаще всего встречаются три.",
         "highlights": [
@@ -199,10 +317,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "In my opinion, school uniforms should be compulsory.", "ru": "По моему мнению, школьная форма должна быть обязательной. (opinion)"}, {"en": "There are both advantages and disadvantages to living abroad.", "ru": "У жизни за границей есть и плюсы, и минусы. (for and against)"}, {"en": "Traffic jams are a serious problem in big cities.", "ru": "Пробки — серьёзная проблема больших городов. (problem and solution)"}, {"en": "One possible solution is to improve public transport.", "ru": "Одно из решений — улучшить общественный транспорт."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "In my opinion, school uniforms should be compulsory.",
+                "ru": "По моему мнению, школьная форма должна быть обязательной. (opinion)"
+              },
+              {
+                "en": "There are both advantages and disadvantages to living abroad.",
+                "ru": "У жизни за границей есть и плюсы, и минусы. (for and against)"
+              },
+              {
+                "en": "Traffic jams are a serious problem in big cities.",
+                "ru": "Пробки — серьёзная проблема больших городов. (problem and solution)"
+              },
+              {
+                "en": "One possible solution is to improve public transport.",
+                "ru": "Одно из решений — улучшить общественный транспорт."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Как писать эссе",
+      "label": "Частые ошибки: In this essay I will write",
       "intro": {
         "text": "Самые частые ошибки в эссе.",
         "highlights": [
@@ -220,15 +367,15 @@
           "errors": [
             {
               "wrong": "In this essay I will write about…",
-              "right": "This essay examines…"
+              "right": "This essay examines… (короче и солиднее)"
             },
             {
               "wrong": "It's very important.",
-              "right": "It is crucial."
+              "right": "It is crucial. (одно сильное слово, без сокращения)"
             },
             {
               "wrong": "A lot of people think…",
-              "right": "Many people believe…"
+              "right": "Many people believe… (книжнее)"
             },
             {
               "wrong": "Новый довод в заключении",

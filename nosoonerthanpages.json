@@ -7,9 +7,21 @@
       "intro": {
         "text": "No sooner … than — едва … как: едва что-то произошло, как сразу же случилось другое. Оба действия произошли почти одновременно, с минимальным промежутком. Обязательна инверсия.",
         "highlights": [
-          { "text": "No sooner … than", "color": "term",    "style": "bold_underline" },
-          { "text": "едва … как",         "color": "info",    "style": "bold" },
-          { "text": "инверсия",            "color": "bad",     "style": "bold" }
+          {
+            "text": "No sooner … than",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "едва … как",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "инверсия",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,25 +30,171 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "No sooner",   "color": "term" },
-              { "text": "had",         "color": "info" },
-              { "text": "S",           "color": "example" },
-              { "text": "V3",          "color": "info" },
-              { "text": "than",        "color": "example" }
+              {
+                "text": "No sooner",
+                "color": "term"
+              },
+              {
+                "text": "had",
+                "color": "info"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "V3",
+                "color": "info"
+              },
+              {
+                "text": "than",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["No sooner", "had", "S", "V3", "than"], "decoys": ["when", "have"], "examples": [{"en": "No sooner had I sat down than the phone rang.", "ru": "Не успел я сесть, как зазвонил телефон.", "parts": [["No sooner", "No sooner"], ["had", "had"], ["I", "S"], ["sat down", "V3"], ["than", "than"], ["the phone rang.", ""]]}, {"en": "No sooner had she arrived than it started to snow.", "ru": "Не успела она приехать, как пошёл снег.", "parts": [["No sooner", "No sooner"], ["had", "had"], ["she", "S"], ["arrived", "V3"], ["than", "than"], ["it started to snow.", ""]]}, {"en": "No sooner had we left than the bus came.", "ru": "Не успели мы уйти, как пришёл автобус.", "parts": [["No sooner", "No sooner"], ["had", "had"], ["we", "S"], ["left", "V3"], ["than", "than"], ["the bus came.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "No sooner",
+                "had",
+                "S",
+                "V3",
+                "than"
+              ],
+              "decoys": [
+                "when",
+                "have"
+              ],
+              "examples": [
+                {
+                  "en": "No sooner had I sat down than the phone rang.",
+                  "ru": "Не успел я сесть, как зазвонил телефон.",
+                  "parts": [
+                    [
+                      "No sooner",
+                      "No sooner"
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "sat down",
+                      "V3"
+                    ],
+                    [
+                      "than",
+                      "than"
+                    ],
+                    [
+                      "the phone rang.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "No sooner had she arrived than it started to snow.",
+                  "ru": "Не успела она приехать, как пошёл снег.",
+                  "parts": [
+                    [
+                      "No sooner",
+                      "No sooner"
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "arrived",
+                      "V3"
+                    ],
+                    [
+                      "than",
+                      "than"
+                    ],
+                    [
+                      "it started to snow.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "No sooner had we left than the bus came.",
+                  "ru": "Не успели мы уйти, как пришёл автобус.",
+                  "parts": [
+                    [
+                      "No sooner",
+                      "No sooner"
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "we",
+                      "S"
+                    ],
+                    [
+                      "left",
+                      "V3"
+                    ],
+                    [
+                      "than",
+                      "than"
+                    ],
+                    [
+                      "the bus came.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Сравнение с обычным порядком",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Стиль", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Стиль",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["As soon as",       "обычный",     "As soon as I arrived, it started raining."] },
-              { "cells": ["No sooner…than",    "формальный",  "No sooner had I arrived than it started raining."] },
-              { "cells": ["Hardly…when",       "формальный",  "Hardly had I arrived when it started raining."] }
+              {
+                "cells": [
+                  "As soon as",
+                  "обычный",
+                  "As soon as I arrived, it started raining."
+                ]
+              },
+              {
+                "cells": [
+                  "No sooner…than",
+                  "формальный",
+                  "No sooner had I arrived than it started raining."
+                ]
+              },
+              {
+                "cells": [
+                  "Hardly…when",
+                  "формальный",
+                  "Hardly had I arrived when it started raining."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -54,10 +212,22 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "No sooner had I arrived than it started raining.",   "ru": "Не успел я прийти, как начался дождь." },
-            { "en": "No sooner had he sat down than he fell asleep.",     "ru": "Не успел он сесть, как заснул." },
-            { "en": "No sooner had she left than the phone rang.",         "ru": "Не успела она выйти, как зазвонил телефон." },
-            { "en": "No sooner had we started than the lights went out.",  "ru": "Не успели мы начать, как свет погас." }
+            {
+              "en": "No sooner had I arrived than it started raining.",
+              "ru": "Не успел я прийти, как начался дождь."
+            },
+            {
+              "en": "No sooner had he sat down than he fell asleep.",
+              "ru": "Не успел он сесть, как заснул."
+            },
+            {
+              "en": "No sooner had she left than the phone rang.",
+              "ru": "Не успела она выйти, как зазвонил телефон."
+            },
+            {
+              "en": "No sooner had we started than the lights went out.",
+              "ru": "Не успели мы начать, как свет погас."
+            }
           ]
         },
         {
@@ -69,15 +239,41 @@
             "accentColor": "accent2"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Без инверсии",
+          "preview": "I had no sooner … than",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "transforms": [
+              {
+                "from": "No sooner had I got home than it started to rain.",
+                "to": "I had no sooner got home than it started to rain.",
+                "toColor": "info"
+              }
+            ],
+            "callout": {
+              "type": "info",
+              "title": "Смысл тот же",
+              "text": "Если no sooner стоит после подлежащего, порядок обычный."
+            },
+            "title": ""
+          }
+        }
       ]
     },
-
     {
-      "label": "Частые ошибки: No sooner … than",
+      "label": "Частые ошибки: No sooner I had, no sooner … when",
       "intro": {
         "text": "Три самые частые ошибки в No sooner … than.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -85,9 +281,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "No sooner I had arrived than…",       "right": "No sooner had I arrived than…" },
-            { "wrong": "No sooner had I arrived when…",        "right": "No sooner had I arrived than…" },
-            { "wrong": "No sooner I arrived than…",             "right": "No sooner had I arrived than…" }
+            {
+              "wrong": "No sooner I had arrived than…",
+              "right": "No sooner had I arrived than… (в начале — инверсия)"
+            },
+            {
+              "wrong": "No sooner had I arrived when…",
+              "right": "No sooner had I arrived than… (no sooner — с than)"
+            },
+            {
+              "wrong": "No sooner I arrived than…",
+              "right": "No sooner had I arrived than… (нужен had + инверсия)"
+            }
           ]
         },
         {

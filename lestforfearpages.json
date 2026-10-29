@@ -3,7 +3,7 @@
   "route": "cards_lestforfear",
   "slides": [
     {
-      "label": "Чтобы не: lest, for fear that",
+      "label": "«Чтобы не»: so as not to, for fear of, lest",
       "intro": {
         "text": "Чтобы сказать «чтобы не», есть несколько оборотов: so as not to — нейтрально, for fear of / for fear that — «боясь, что», lest — очень книжное «как бы не».",
         "highlights": [
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "label": "Lest",
+      "label": "Lest: книжное «как бы не»",
       "intro": {
         "text": "Lest встречается в книгах, речах и законах. После него глагол стоит в начальной форме (сослагательное наклонение) или с should, а not не нужен: смысл «не» уже внутри lest.",
         "highlights": [
@@ -162,7 +162,94 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["lest", "S", "(should) + V"], "decoys": ["will", "not"], "examples": [{"en": "Speak quietly lest anyone hear us.", "ru": "Говори тише, чтобы нас никто не услышал.", "parts": [["Speak quietly", ""], ["lest", "lest"], ["anyone", "S"], ["hear", "(should) + V"], ["us.", ""]]}, {"en": "He left early lest he should miss the train.", "ru": "Он вышел рано, чтобы не опоздать на поезд.", "parts": [["He left early", ""], ["lest", "lest"], ["he", "S"], ["should miss", "(should) + V"], ["the train.", ""]]}, {"en": "Write it down lest you forget.", "ru": "Запиши, а то забудешь.", "parts": [["Write it down", ""], ["lest", "lest"], ["you", "S"], ["forget.", "(should) + V"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "lest",
+                "S",
+                "(should) + V"
+              ],
+              "decoys": [
+                "will",
+                "not"
+              ],
+              "examples": [
+                {
+                  "en": "Speak quietly lest anyone hear us.",
+                  "ru": "Говори тише, чтобы нас никто не услышал.",
+                  "parts": [
+                    [
+                      "Speak quietly",
+                      ""
+                    ],
+                    [
+                      "lest",
+                      "lest"
+                    ],
+                    [
+                      "anyone",
+                      "S"
+                    ],
+                    [
+                      "hear",
+                      "(should) + V"
+                    ],
+                    [
+                      "us.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "He left early lest he should miss the train.",
+                  "ru": "Он вышел рано, чтобы не опоздать на поезд.",
+                  "parts": [
+                    [
+                      "He left early",
+                      ""
+                    ],
+                    [
+                      "lest",
+                      "lest"
+                    ],
+                    [
+                      "he",
+                      "S"
+                    ],
+                    [
+                      "should miss",
+                      "(should) + V"
+                    ],
+                    [
+                      "the train.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Write it down lest you forget.",
+                  "ru": "Запиши, а то забудешь.",
+                  "parts": [
+                    [
+                      "Write it down",
+                      ""
+                    ],
+                    [
+                      "lest",
+                      "lest"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "forget.",
+                      "(should) + V"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -192,10 +279,39 @@
             "title": "Стиль"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Hold the rope lest you fall.", "ru": "Держись за верёвку, чтобы не упасть."}, {"en": "He spoke softly lest he wake the baby.", "ru": "Он говорил тихо, чтобы не разбудить ребёнка."}, {"en": "Write it down lest you should forget.", "ru": "Запиши, чтобы не забыть."}, {"en": "I wrote it down so that I wouldn't forget.", "ru": "Я записал, чтобы не забыть. (то же в разговоре)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Hold the rope lest you fall.",
+                "ru": "Держись за верёвку, чтобы не упасть."
+              },
+              {
+                "en": "He spoke softly lest he wake the baby.",
+                "ru": "Он говорил тихо, чтобы не разбудить ребёнка."
+              },
+              {
+                "en": "Write it down lest you should forget.",
+                "ru": "Запиши, чтобы не забыть."
+              },
+              {
+                "en": "I wrote it down so that I wouldn't forget.",
+                "ru": "Я записал, чтобы не забыть. (то же в разговоре)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "In case — это другое",
+      "label": "In case — это подстраховка, не цель",
       "intro": {
         "text": "In case — «на случай, если»: это подстраховка, а не цель. Take an umbrella in case it rains — зонт берут не «чтобы не было дождя», а на случай дождя.",
         "highlights": [
@@ -269,7 +385,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Lest, for fear that, so as not to",
+      "label": "Частые ошибки: lest he will, for fear of fall",
       "intro": {
         "text": "Вот самые частые ошибки в оборотах «чтобы не».",
         "highlights": [
@@ -287,23 +403,23 @@
           "errors": [
             {
               "wrong": "Lest he will forget, I reminded him.",
-              "right": "Lest he forget, I reminded him."
+              "right": "Lest he forget, I reminded him. (после lest — начальная форма)"
             },
             {
               "wrong": "She didn't move for fear of fall.",
-              "right": "She didn't move for fear of falling."
+              "right": "She didn't move for fear of falling. (после of — -ing)"
             },
             {
               "wrong": "Speak quietly lest nobody hears.",
-              "right": "Speak quietly lest anyone hear."
+              "right": "Speak quietly lest anyone hear. (lest уже содержит «не»)"
             },
             {
               "wrong": "Take an umbrella in case it will rain.",
-              "right": "Take an umbrella in case it rains."
+              "right": "Take an umbrella in case it rains. (после in case — без will)"
             },
             {
               "wrong": "I left early so as to not being late.",
-              "right": "I left early so as not to be late."
+              "right": "I left early so as not to be late. (not перед to, глагол без -ing)"
             }
           ]
         },

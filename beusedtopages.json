@@ -3,14 +3,30 @@
   "route": "cards_beusedto",
   "slides": [
     {
-      "label": "be used to: уже привык",
+      "label": "Be used to: уже привык",
       "intro": {
         "text": "Be used to — привычка к чему-то. Это состояние: ты уже привык, и это для тебя нормально. После него всегда -ing или существительное.",
         "highlights": [
-          { "text": "Be used to",      "color": "term",    "style": "bold_underline" },
-          { "text": "привычка",         "color": "info",    "style": "bold" },
-          { "text": "уже привык",        "color": "example", "style": "bold" },
-          { "text": "-ing",              "color": "bad",     "style": "bold" }
+          {
+            "text": "Be used to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "привычка",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "уже привык",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "-ing",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -19,24 +35,131 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "be used to", "color": "info" },
-              { "text": "+",          "color": "muted" },
-              { "text": "-ing / сущ.", "color": "example" }
+              {
+                "text": "be used to",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "-ing / сущ.",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["be used to", "-ing / сущ."], "decoys": ["V-ing", "V3"], "examples": [{"en": "I am used to getting up early.", "ru": "Я привык рано вставать.", "parts": [["I", ""], ["am used to", "be used to"], ["getting up early.", "-ing / сущ."]]}, {"en": "She is used to the cold.", "ru": "Она привыкла к холоду.", "parts": [["She", ""], ["is used to", "be used to"], ["the cold.", "-ing / сущ."]]}, {"en": "We are used to working at night.", "ru": "Мы привыкли работать по ночам.", "parts": [["We", ""], ["are used to", "be used to"], ["working at night.", "-ing / сущ."]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "be used to",
+                "-ing / сущ."
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I am used to getting up early.",
+                  "ru": "Я привык рано вставать.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "am used to",
+                      "be used to"
+                    ],
+                    [
+                      "getting up early.",
+                      "-ing / сущ."
+                    ]
+                  ]
+                },
+                {
+                  "en": "She is used to the cold.",
+                  "ru": "Она привыкла к холоду.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "is used to",
+                      "be used to"
+                    ],
+                    [
+                      "the cold.",
+                      "-ing / сущ."
+                    ]
+                  ]
+                },
+                {
+                  "en": "We are used to working at night.",
+                  "ru": "Мы привыкли работать по ночам.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "are used to",
+                      "be used to"
+                    ],
+                    [
+                      "working at night.",
+                      "-ing / сущ."
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "По временам",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Форма", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Форма",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Present",  "am / is / are used to",  "I am used to waking up early."] },
-              { "cells": ["Past",     "was / were used to",      "I was used to cold weather."] },
-              { "cells": ["Future",   "will be used to",         "I will be used to it soon."] },
-              { "cells": ["Отрицание","not used to",             "I'm not used to spicy food."] }
+              {
+                "cells": [
+                  "Present",
+                  "am / is / are used to",
+                  "I am used to waking up early."
+                ]
+              },
+              {
+                "cells": [
+                  "Past",
+                  "was / were used to",
+                  "I was used to cold weather."
+                ]
+              },
+              {
+                "cells": [
+                  "Future",
+                  "will be used to",
+                  "I will be used to it soon."
+                ]
+              },
+              {
+                "cells": [
+                  "Отрицание",
+                  "not used to",
+                  "I'm not used to spicy food."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -50,29 +173,79 @@
             "text": "Used to + глагол — раньше делал. Be used to + -ing — привык сейчас. Одна буква be меняет всё."
           },
           "examples": [
-            { "en": "I used to wake up early.",         "ru": "Раньше я вставал рано. (сейчас нет)" },
-            { "en": "I am used to waking up early.",     "ru": "Я привык вставать рано. (сейчас так)" }
+            {
+              "en": "I used to wake up early.",
+              "ru": "Раньше я вставал рано. (сейчас нет)"
+            },
+            {
+              "en": "I am used to waking up early.",
+              "ru": "Я привык вставать рано. (сейчас так)"
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I'm used to living alone.",         "ru": "Я привык жить один." },
-            { "en": "She's used to cold weather.",        "ru": "Она привыкла к холодной погоде." },
-            { "en": "We weren't used to the noise.",       "ru": "Мы не привыкли к этому шуму." },
-            { "en": "He will be used to the new job soon.","ru": "Скоро он привыкнет к новой работе." }
+            {
+              "en": "I'm used to living alone.",
+              "ru": "Я привык жить один."
+            },
+            {
+              "en": "She's used to cold weather.",
+              "ru": "Она привыкла к холодной погоде."
+            },
+            {
+              "en": "We weren't used to the noise.",
+              "ru": "Мы не привыкли к этому шуму."
+            },
+            {
+              "en": "He will be used to the new job soon.",
+              "ru": "Скоро он привыкнет к новой работе."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Be used to или get used to",
+          "preview": "привык или привыкаю",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "I'm used to the noise now.",
+                "ru": "Я уже привык к шуму. (состояние)"
+              },
+              {
+                "en": "I'm getting used to the noise.",
+                "ru": "Я привыкаю к шуму. (процесс)"
+              },
+              {
+                "en": "It took me a month to get used to it.",
+                "ru": "Мне понадобился месяц, чтобы привыкнуть."
+              },
+              {
+                "en": "You'll soon be used to it.",
+                "ru": "Скоро привыкнешь."
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Be used to",
+      "label": "Частые ошибки: used to wake, use to living",
       "intro": {
         "text": "Три самые частые ошибки в be used to.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -80,9 +253,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I'm used to wake up early.",      "right": "I'm used to waking up early." },
-            { "wrong": "I'm used to wake early.",          "right": "I'm used to waking early." },
-            { "wrong": "I use to living alone.",            "right": "I'm used to living alone." }
+            {
+              "wrong": "I'm used to wake up early.",
+              "right": "I'm used to waking up early. (to здесь предлог — -ing)"
+            },
+            {
+              "wrong": "I'm used to wake early.",
+              "right": "I'm used to waking early. (-ing)"
+            },
+            {
+              "wrong": "I use to living alone.",
+              "right": "I'm used to living alone. (привык — be used to)"
+            }
           ]
         },
         {

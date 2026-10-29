@@ -3,7 +3,7 @@
   "route": "cards_mixedconditionals",
   "slides": [
     {
-      "label": "Условие из одного времени, итог из другого",
+      "label": "Смешанные условия: прошлое влияет на сейчас",
       "intro": {
         "text": "Смешанные условные предложения соединяют два времени: условие из одного времени, а результат — из другого. Например, прошлое решение влияет на настоящее.",
         "highlights": [
@@ -58,10 +58,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "If I had learned to drive, I wouldn't need a taxi now.", "ru": "Если бы я научился водить, мне не нужно было бы сейчас такси. (прошлое → настоящее)"}, {"en": "If she had listened to me, she wouldn't be in trouble now.", "ru": "Если бы она меня послушала, сейчас не было бы проблем."}, {"en": "If he weren't so shy, he would have asked her out.", "ru": "Если бы он не был таким стеснительным, он бы её пригласил. (настоящее → прошлое)"}, {"en": "If I were better at maths, I would have passed the exam.", "ru": "Если бы я лучше знал математику, я бы сдал экзамен."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "If I had learned to drive, I wouldn't need a taxi now.",
+                "ru": "Если бы я научился водить, мне не нужно было бы сейчас такси. (прошлое → настоящее)"
+              },
+              {
+                "en": "If she had listened to me, she wouldn't be in trouble now.",
+                "ru": "Если бы она меня послушала, сейчас не было бы проблем."
+              },
+              {
+                "en": "If he weren't so shy, he would have asked her out.",
+                "ru": "Если бы он не был таким стеснительным, он бы её пригласил. (настоящее → прошлое)"
+              },
+              {
+                "en": "If I were better at maths, I would have passed the exam.",
+                "ru": "Если бы я лучше знал математику, я бы сдал экзамен."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Прошлое → настоящее",
+      "label": "Прошлое → настоящее: If I had…, I would be…",
       "intro": {
         "text": "Что-то было (или не было) в прошлом — и из-за этого сейчас всё иначе.",
         "highlights": [
@@ -104,7 +133,111 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["If", "Past Perfect", "would", "глагол"], "decoys": ["will", "had"], "examples": [{"en": "If I had studied harder, I would have a better job now.", "ru": "Если бы я учился усерднее, у меня сейчас была бы работа получше.", "parts": [["If", "If"], ["I had studied harder,", "Past Perfect"], ["I", ""], ["would", "would"], ["have", "глагол"], ["a better job now.", ""]]}, {"en": "If she had taken the job, she would live in London now.", "ru": "Если бы она согласилась на ту работу, сейчас жила бы в Лондоне.", "parts": [["If", "If"], ["she had taken the job,", "Past Perfect"], ["she", ""], ["would", "would"], ["live", "глагол"], ["in London now.", ""]]}, {"en": "If we had left earlier, we would be there by now.", "ru": "Если бы мы выехали раньше, уже были бы там.", "parts": [["If", "If"], ["we had left earlier,", "Past Perfect"], ["we", ""], ["would", "would"], ["be", "глагол"], ["there by now.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "If",
+                "Past Perfect",
+                "would",
+                "глагол"
+              ],
+              "decoys": [
+                "will",
+                "had"
+              ],
+              "examples": [
+                {
+                  "en": "If I had studied harder, I would have a better job now.",
+                  "ru": "Если бы я учился усерднее, у меня сейчас была бы работа получше.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "I had studied harder,",
+                      "Past Perfect"
+                    ],
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "would",
+                      "would"
+                    ],
+                    [
+                      "have",
+                      "глагол"
+                    ],
+                    [
+                      "a better job now.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "If she had taken the job, she would live in London now.",
+                  "ru": "Если бы она согласилась на ту работу, сейчас жила бы в Лондоне.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "she had taken the job,",
+                      "Past Perfect"
+                    ],
+                    [
+                      "she",
+                      ""
+                    ],
+                    [
+                      "would",
+                      "would"
+                    ],
+                    [
+                      "live",
+                      "глагол"
+                    ],
+                    [
+                      "in London now.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "If we had left earlier, we would be there by now.",
+                  "ru": "Если бы мы выехали раньше, уже были бы там.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "we had left earlier,",
+                      "Past Perfect"
+                    ],
+                    [
+                      "we",
+                      ""
+                    ],
+                    [
+                      "would",
+                      "would"
+                    ],
+                    [
+                      "be",
+                      "глагол"
+                    ],
+                    [
+                      "there by now.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -129,10 +262,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "If I had gone to bed earlier, I wouldn't be so tired now.", "ru": "Если бы я лёг раньше, я бы сейчас не был таким уставшим."}, {"en": "If they had booked a table, we would be eating now.", "ru": "Если бы они забронировали столик, мы бы уже ели."}, {"en": "If you had taken the map, we wouldn't be lost.", "ru": "Если бы ты взял карту, мы бы не заблудились."}, {"en": "If I hadn't moved to Moscow, I wouldn't know you.", "ru": "Если бы я не переехал в Москву, я бы тебя не знал."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "If I had gone to bed earlier, I wouldn't be so tired now.",
+                "ru": "Если бы я лёг раньше, я бы сейчас не был таким уставшим."
+              },
+              {
+                "en": "If they had booked a table, we would be eating now.",
+                "ru": "Если бы они забронировали столик, мы бы уже ели."
+              },
+              {
+                "en": "If you had taken the map, we wouldn't be lost.",
+                "ru": "Если бы ты взял карту, мы бы не заблудились."
+              },
+              {
+                "en": "If I hadn't moved to Moscow, I wouldn't know you.",
+                "ru": "Если бы я не переехал в Москву, я бы тебя не знал."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Настоящее → прошлое",
+      "label": "Настоящее → прошлое: If I were…, I would have…",
       "intro": {
         "text": "Постоянная черта или факт сейчас объясняет, что случилось (или не случилось) в прошлом.",
         "highlights": [
@@ -175,7 +337,111 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["If", "Past Simple", "would have", "V3"], "decoys": ["will", "had"], "examples": [{"en": "If I were taller, I would have joined the team.", "ru": "Будь я выше, меня бы взяли в команду.", "parts": [["If", "If"], ["I were taller,", "Past Simple"], ["I", ""], ["would have", "would have"], ["joined", "V3"], ["the team.", ""]]}, {"en": "If she spoke French, she would have got the job.", "ru": "Если бы она говорила по-французски, она бы получила ту работу.", "parts": [["If", "If"], ["she spoke French,", "Past Simple"], ["she", ""], ["would have", "would have"], ["got", "V3"], ["the job.", ""]]}, {"en": "If he was not so lazy, he would have finished it yesterday.", "ru": "Если бы он не был таким ленивым, он бы закончил это вчера.", "parts": [["If", "If"], ["he was not so lazy,", "Past Simple"], ["he", ""], ["would have", "would have"], ["finished", "V3"], ["it yesterday.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "If",
+                "Past Simple",
+                "would have",
+                "V3"
+              ],
+              "decoys": [
+                "will",
+                "had"
+              ],
+              "examples": [
+                {
+                  "en": "If I were taller, I would have joined the team.",
+                  "ru": "Будь я выше, меня бы взяли в команду.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "I were taller,",
+                      "Past Simple"
+                    ],
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "would have",
+                      "would have"
+                    ],
+                    [
+                      "joined",
+                      "V3"
+                    ],
+                    [
+                      "the team.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "If she spoke French, she would have got the job.",
+                  "ru": "Если бы она говорила по-французски, она бы получила ту работу.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "she spoke French,",
+                      "Past Simple"
+                    ],
+                    [
+                      "she",
+                      ""
+                    ],
+                    [
+                      "would have",
+                      "would have"
+                    ],
+                    [
+                      "got",
+                      "V3"
+                    ],
+                    [
+                      "the job.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "If he was not so lazy, he would have finished it yesterday.",
+                  "ru": "Если бы он не был таким ленивым, он бы закончил это вчера.",
+                  "parts": [
+                    [
+                      "If",
+                      "If"
+                    ],
+                    [
+                      "he was not so lazy,",
+                      "Past Simple"
+                    ],
+                    [
+                      "he",
+                      ""
+                    ],
+                    [
+                      "would have",
+                      "would have"
+                    ],
+                    [
+                      "finished",
+                      "V3"
+                    ],
+                    [
+                      "it yesterday.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -200,10 +466,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "If I weren't so busy, I would have come to your party.", "ru": "Если бы я не был так занят, я бы пришёл на твою вечеринку."}, {"en": "If she didn't speak English, she wouldn't have got the job.", "ru": "Если бы она не говорила по-английски, её бы не взяли."}, {"en": "If he were more organised, he wouldn't have missed the deadline.", "ru": "Будь он организованнее, он бы не сорвал срок."}, {"en": "If I liked fish, I would have ordered the salmon.", "ru": "Если бы я любил рыбу, я бы заказал лосося."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "If I weren't so busy, I would have come to your party.",
+                "ru": "Если бы я не был так занят, я бы пришёл на твою вечеринку."
+              },
+              {
+                "en": "If she didn't speak English, she wouldn't have got the job.",
+                "ru": "Если бы она не говорила по-английски, её бы не взяли."
+              },
+              {
+                "en": "If he were more organised, he wouldn't have missed the deadline.",
+                "ru": "Будь он организованнее, он бы не сорвал срок."
+              },
+              {
+                "en": "If I liked fish, I would have ordered the salmon.",
+                "ru": "Если бы я любил рыбу, я бы заказал лосося."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Mixed Conditionals",
+      "label": "Частые ошибки: would have после if",
       "intro": {
         "text": "Частые ошибки в смешанных условных.",
         "highlights": [
@@ -221,15 +516,15 @@
           "errors": [
             {
               "wrong": "If I would have studied, I would be a doctor.",
-              "right": "If I had studied, I would be a doctor."
+              "right": "If I had studied, I would be a doctor. (после if — без would)"
             },
             {
               "wrong": "If I had taken the job, I would have lived in London now.",
-              "right": "If I had taken the job, I would live in London now."
+              "right": "If I had taken the job, I would live in London now. (результат сейчас — would + глагол)"
             },
             {
               "wrong": "If he would speak French, he would have got the job.",
-              "right": "If he spoke French, he would have got the job."
+              "right": "If he spoke French, he would have got the job. (после if — Past Simple)"
             }
           ]
         }

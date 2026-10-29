@@ -3,7 +3,7 @@
   "route": "cards_butforotherwise",
   "slides": [
     {
-      "label": "But for",
+      "label": "But for: «если бы не»",
       "intro": {
         "text": "But for + существительное — «если бы не»: But for your help, I would have failed. Это короткая замена If it hadn't been for… или If it weren't for…",
         "highlights": [
@@ -46,7 +46,74 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["But for", "сущ.", "would (have) + V"], "decoys": ["V-ing", "V3"], "examples": [{"en": "But for your help, I would have failed.", "ru": "Если бы не твоя помощь, я бы провалился.", "parts": [["But for", "But for"], ["your help,", "сущ."], ["I would have failed.", "would (have) + V"]]}, {"en": "But for the rain, we would go out.", "ru": "Если бы не дождь, мы бы пошли гулять.", "parts": [["But for", "But for"], ["the rain,", "сущ."], ["we would go out.", "would (have) + V"]]}, {"en": "But for the traffic, we would have arrived on time.", "ru": "Если бы не пробки, мы бы приехали вовремя.", "parts": [["But for", "But for"], ["the traffic,", "сущ."], ["we would have arrived on time.", "would (have) + V"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "But for",
+                "сущ.",
+                "would (have) + V"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "But for your help, I would have failed.",
+                  "ru": "Если бы не твоя помощь, я бы провалился.",
+                  "parts": [
+                    [
+                      "But for",
+                      "But for"
+                    ],
+                    [
+                      "your help,",
+                      "сущ."
+                    ],
+                    [
+                      "I would have failed.",
+                      "would (have) + V"
+                    ]
+                  ]
+                },
+                {
+                  "en": "But for the rain, we would go out.",
+                  "ru": "Если бы не дождь, мы бы пошли гулять.",
+                  "parts": [
+                    [
+                      "But for",
+                      "But for"
+                    ],
+                    [
+                      "the rain,",
+                      "сущ."
+                    ],
+                    [
+                      "we would go out.",
+                      "would (have) + V"
+                    ]
+                  ]
+                },
+                {
+                  "en": "But for the traffic, we would have arrived on time.",
+                  "ru": "Если бы не пробки, мы бы приехали вовремя.",
+                  "parts": [
+                    [
+                      "But for",
+                      "But for"
+                    ],
+                    [
+                      "the traffic,",
+                      "сущ."
+                    ],
+                    [
+                      "we would have arrived on time.",
+                      "would (have) + V"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -124,7 +191,7 @@
       ]
     },
     {
-      "label": "Otherwise",
+      "label": "Otherwise: «иначе» и «в остальном»",
       "intro": {
         "text": "Otherwise и or else — «иначе», «а то». Первая часть говорит, что нужно сделать, вторая — что будет, если не сделать. Otherwise бывает и в прошлом: «а иначе бы…».",
         "highlights": [
@@ -202,10 +269,39 @@
             "title": "Смотри на соседа"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Take a map, otherwise you'll get lost.", "ru": "Возьми карту, иначе заблудишься."}, {"en": "Wear a coat, or else you'll catch a cold.", "ru": "Надень пальто, а то простудишься."}, {"en": "The traffic was terrible; otherwise we would have been on time.", "ru": "Были ужасные пробки, иначе мы бы успели."}, {"en": "The hotel was noisy but otherwise excellent.", "ru": "Отель был шумным, а в остальном отличным."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Take a map, otherwise you'll get lost.",
+                "ru": "Возьми карту, иначе заблудишься."
+              },
+              {
+                "en": "Wear a coat, or else you'll catch a cold.",
+                "ru": "Надень пальто, а то простудишься."
+              },
+              {
+                "en": "The traffic was terrible; otherwise we would have been on time.",
+                "ru": "Были ужасные пробки, иначе мы бы успели."
+              },
+              {
+                "en": "The hotel was noisy but otherwise excellent.",
+                "ru": "Отель был шумным, а в остальном отличным."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Supposing и assuming",
+      "label": "Supposing, what if, assuming",
       "intro": {
         "text": "Supposing, suppose и what if вводят выдуманную ситуацию: «предположим», «а что если». Assuming (that) и on condition that — «при условии, что».",
         "highlights": [
@@ -288,10 +384,39 @@
             "title": "Как с if"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Supposing you lost your phone, what would you do?",
+                "ru": "Допустим, ты потерял телефон — что бы ты сделал?"
+              },
+              {
+                "en": "What if nobody comes?",
+                "ru": "А что если никто не придёт?"
+              },
+              {
+                "en": "Assuming everything goes well, we'll finish by May.",
+                "ru": "Если всё пойдёт хорошо, закончим к маю."
+              },
+              {
+                "en": "I'll lend it to you on condition that you return it tomorrow.",
+                "ru": "Дам, но при условии, что вернёшь завтра."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: But for, otherwise, supposing",
+      "label": "Частые ошибки: but for + предложение",
       "intro": {
         "text": "Вот самые частые ошибки в условиях без if.",
         "highlights": [
@@ -309,23 +434,23 @@
           "errors": [
             {
               "wrong": "But for you helped me, I would have failed.",
-              "right": "But for your help, I would have failed."
+              "right": "But for your help, I would have failed. (после but for — существительное)"
             },
             {
               "wrong": "But for the map, we got lost.",
-              "right": "But for the map, we would have got lost."
+              "right": "But for the map, we would have got lost. (нереальное — would have)"
             },
             {
               "wrong": "Hurry up, otherwise we miss the train.",
-              "right": "Hurry up, otherwise we'll miss the train."
+              "right": "Hurry up, otherwise we'll miss the train. (будущее — will)"
             },
             {
               "wrong": "Supposing you would win, what would you buy?",
-              "right": "Supposing you won, what would you buy?"
+              "right": "Supposing you won, what would you buy? (после supposing — без would)"
             },
             {
               "wrong": "Were not it for the cost, I'd buy it.",
-              "right": "Were it not for the cost, I'd buy it."
+              "right": "Were it not for the cost, I'd buy it. (порядок: were it not)"
             }
           ]
         },

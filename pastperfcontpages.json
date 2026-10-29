@@ -3,13 +3,25 @@
   "route": "cards_pastperfcont",
   "slides": [
     {
-      "label": "Past Perfect Continuous: делал уже долго",
+      "label": "Past Perfect Continuous: делал уже долго к тому моменту",
       "intro": {
         "text": "Past Perfect Continuous описывает действие, которое длилось до момента в прошлом. Важна длительность до того, как случилось что-то ещё.",
         "highlights": [
-          { "text": "Past Perfect Continuous", "color": "term",    "style": "bold_underline" },
-          { "text": "длилось до момента",       "color": "info",    "style": "bold" },
-          { "text": "длительность",              "color": "example", "style": "bold" }
+          {
+            "text": "Past Perfect Continuous",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "длилось до момента",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "длительность",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,24 +30,138 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",              "color": "info" },
-              { "text": "+",              "color": "muted" },
-              { "text": "had been",       "color": "term" },
-              { "text": "+",              "color": "muted" },
-              { "text": "V-ing",          "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "had been",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "had been", "V-ing"], "decoys": ["V3", "have been"], "examples": [{"en": "I had been waiting for an hour when he came.", "ru": "Я ждал уже час, когда он пришёл.", "parts": [["I", "S"], ["had been", "had been"], ["waiting", "V-ing"], ["for an hour when he came.", ""]]}, {"en": "She had been crying before we arrived.", "ru": "До нашего прихода она плакала.", "parts": [["She", "S"], ["had been", "had been"], ["crying", "V-ing"], ["before we arrived.", ""]]}, {"en": "They had been living there for years.", "ru": "Они прожили там много лет.", "parts": [["They", "S"], ["had been", "had been"], ["living", "V-ing"], ["there for years.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "had been",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "have been"
+              ],
+              "examples": [
+                {
+                  "en": "I had been waiting for an hour when he came.",
+                  "ru": "Я ждал уже час, когда он пришёл.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "had been",
+                      "had been"
+                    ],
+                    [
+                      "waiting",
+                      "V-ing"
+                    ],
+                    [
+                      "for an hour when he came.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She had been crying before we arrived.",
+                  "ru": "До нашего прихода она плакала.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "had been",
+                      "had been"
+                    ],
+                    [
+                      "crying",
+                      "V-ing"
+                    ],
+                    [
+                      "before we arrived.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They had been living there for years.",
+                  "ru": "Они прожили там много лет.",
+                  "parts": [
+                    [
+                      "They",
+                      "S"
+                    ],
+                    [
+                      "had been",
+                      "had been"
+                    ],
+                    [
+                      "living",
+                      "V-ing"
+                    ],
+                    [
+                      "there for years.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Сравнение с Past Perfect",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Акцент", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Акцент",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Past Perfect Continuous", "процесс, длительность",   "had been + V-ing"] },
-              { "cells": ["Past Perfect",             "результат, факт к моменту","had + V3"] }
+              {
+                "cells": [
+                  "Past Perfect Continuous",
+                  "процесс, длительность",
+                  "had been + V-ing"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Perfect",
+                  "результат, факт к моменту",
+                  "had + V3"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -45,17 +171,37 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["for", "since", "before", "by the time", "how long", "all morning", "all day"]
+            "verbs": [
+              "for",
+              "since",
+              "before",
+              "by the time",
+              "how long",
+              "all morning",
+              "all day"
+            ]
           }
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I had been waiting for an hour when the bus came.",       "ru": "Я ждал уже час, когда пришёл автобус." },
-            { "en": "She had been working there for five years before she quit.","ru": "Она проработала там пять лет, прежде чем уволилась." },
-            { "en": "They had been driving for six hours when they stopped.",   "ru": "Они ехали уже шесть часов, когда остановились." },
-            { "en": "It had been raining all morning.",                          "ru": "Всё утро шёл дождь." }
+            {
+              "en": "I had been waiting for an hour when the bus came.",
+              "ru": "Я ждал уже час, когда пришёл автобус."
+            },
+            {
+              "en": "She had been working there for five years before she quit.",
+              "ru": "Она проработала там пять лет, прежде чем уволилась."
+            },
+            {
+              "en": "They had been driving for six hours when they stopped.",
+              "ru": "Они ехали уже шесть часов, когда остановились."
+            },
+            {
+              "en": "It had been raining all morning.",
+              "ru": "Всё утро шёл дождь."
+            }
           ]
         },
         {
@@ -69,14 +215,21 @@
         }
       ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
         "text": "Had been не меняется по лицам. Одна форма для всех.",
         "highlights": [
-          { "text": "had been",      "color": "term",    "style": "bold_underline" },
-          { "text": "не меняется",    "color": "info",    "style": "bold" }
+          {
+            "text": "had been",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не меняется",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -85,15 +238,30 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I / You / He / She / It / We / They", "color": "info" },
-              { "text": "+",                                   "color": "muted" },
-              { "text": "had been + V-ing",                    "color": "example" }
+              {
+                "text": "I / You / He / She / It / We / They",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "had been + V-ing",
+                "color": "example"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I had been waiting for an hour when the bus came.",  "ru": "Я ждал уже час, когда пришёл автобус." },
-            { "en": "She had been working there for five years.",          "ru": "Она проработала там пять лет." }
+            {
+              "en": "I had been waiting for an hour when the bus came.",
+              "ru": "Я ждал уже час, когда пришёл автобус."
+            },
+            {
+              "en": "She had been working there for five years.",
+              "ru": "Она проработала там пять лет."
+            }
           ]
         },
         {
@@ -101,17 +269,129 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "had",          "color": "info" },
-              { "text": "+",            "color": "muted" },
-              { "text": "not been",     "color": "bad" },
-              { "text": "+",            "color": "muted" },
-              { "text": "V-ing",        "color": "example" }
+              {
+                "text": "had",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not been",
+                "color": "bad"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V-ing",
+                "color": "example"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["had", "not been", "V-ing"], "decoys": ["V3", "did"], "examples": [{"en": "I had not been sleeping well.", "ru": "Я тогда плохо спал.", "parts": [["I", ""], ["had", "had"], ["not been", "not been"], ["sleeping", "V-ing"], ["well.", ""]]}, {"en": "She had not been working there long.", "ru": "Она проработала там недолго.", "parts": [["She", ""], ["had", "had"], ["not been", "not been"], ["working", "V-ing"], ["there long.", ""]]}, {"en": "We had not been waiting long when the bus came.", "ru": "Мы ждали недолго, когда пришёл автобус.", "parts": [["We", ""], ["had", "had"], ["not been", "not been"], ["waiting", "V-ing"], ["long when the bus came.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "had",
+                "not been",
+                "V-ing"
+              ],
+              "decoys": [
+                "V3",
+                "did"
+              ],
+              "examples": [
+                {
+                  "en": "I had not been sleeping well.",
+                  "ru": "Я тогда плохо спал.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "not been",
+                      "not been"
+                    ],
+                    [
+                      "sleeping",
+                      "V-ing"
+                    ],
+                    [
+                      "well.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She had not been working there long.",
+                  "ru": "Она проработала там недолго.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "not been",
+                      "not been"
+                    ],
+                    [
+                      "working",
+                      "V-ing"
+                    ],
+                    [
+                      "there long.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We had not been waiting long when the bus came.",
+                  "ru": "Мы ждали недолго, когда пришёл автобус.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "not been",
+                      "not been"
+                    ],
+                    [
+                      "waiting",
+                      "V-ing"
+                    ],
+                    [
+                      "long when the bus came.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "She hadn't been sleeping well before the trip.",  "ru": "Она плохо спала перед поездкой." },
-            { "en": "He hadn't been feeling well.",                     "ru": "Он плохо себя чувствовал." }
+            {
+              "en": "She hadn't been sleeping well before the trip.",
+              "ru": "Она плохо спала перед поездкой."
+            },
+            {
+              "en": "He hadn't been feeling well.",
+              "ru": "Он плохо себя чувствовал."
+            }
           ]
         },
         {
@@ -119,45 +399,178 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Had", "color": "info" },
-              { "text": "+",   "color": "muted" },
-              { "text": "S",   "color": "example" },
-              { "text": "+",   "color": "muted" },
-              { "text": "been + V-ing?", "color": "term" }
+              {
+                "text": "Had",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "been + V-ing?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Had", "S", "been + V-ing?"], "decoys": ["Did", "V3"], "examples": [{"en": "Had you been waiting long?", "ru": "Ты долго ждал?", "parts": [["Had", "Had"], ["you", "S"], ["been waiting", "been + V-ing?"], ["long?", ""]]}, {"en": "Had she been crying?", "ru": "Она плакала?", "parts": [["Had", "Had"], ["she", "S"], ["been crying?", "been + V-ing?"]]}, {"en": "Had they been working all day?", "ru": "Они работали весь день?", "parts": [["Had", "Had"], ["they", "S"], ["been working", "been + V-ing?"], ["all day?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Had",
+                "S",
+                "been + V-ing?"
+              ],
+              "decoys": [
+                "Did",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "Had you been waiting long?",
+                  "ru": "Ты долго ждал?",
+                  "parts": [
+                    [
+                      "Had",
+                      "Had"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "been waiting",
+                      "been + V-ing?"
+                    ],
+                    [
+                      "long?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Had she been crying?",
+                  "ru": "Она плакала?",
+                  "parts": [
+                    [
+                      "Had",
+                      "Had"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "been crying?",
+                      "been + V-ing?"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Had they been working all day?",
+                  "ru": "Они работали весь день?",
+                  "parts": [
+                    [
+                      "Had",
+                      "Had"
+                    ],
+                    [
+                      "they",
+                      "S"
+                    ],
+                    [
+                      "been working",
+                      "been + V-ing?"
+                    ],
+                    [
+                      "all day?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Had they been waiting long before you arrived?",  "ru": "Они долго ждали до того, как ты приехал?" },
-            { "en": "How long had you been studying before the exam?",  "ru": "Как долго ты готовился до экзамена?" }
+            {
+              "en": "Had they been waiting long before you arrived?",
+              "ru": "Они долго ждали до того, как ты приехал?"
+            },
+            {
+              "en": "How long had you been studying before the exam?",
+              "ru": "Как долго ты готовился до экзамена?"
+            }
           ]
         },
         {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
-            "headers": ["Полная форма", "Сокращение"],
-            "headerColors": ["info", "example"],
+            "headers": [
+              "Полная форма",
+              "Сокращение"
+            ],
+            "headerColors": [
+              "info",
+              "example"
+            ],
             "rows": [
-              { "cells": ["I had been",    "I'd been"] },
-              { "cells": ["you had been",  "you'd been"] },
-              { "cells": ["he had been",    "he'd been"] },
-              { "cells": ["had not been",   "hadn't been"] }
+              {
+                "cells": [
+                  "I had been",
+                  "I'd been"
+                ]
+              },
+              {
+                "cells": [
+                  "you had been",
+                  "you'd been"
+                ]
+              },
+              {
+                "cells": [
+                  "he had been",
+                  "he'd been"
+                ]
+              },
+              {
+                "cells": [
+                  "had not been",
+                  "hadn't been"
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
       ]
     },
-
     {
-      "label": "Слова-маркеры",
+      "label": "Подсказки: for, since, how long",
       "intro": {
         "text": "Слова-маркеры показывают длительность действия, которое продолжалось до события в прошлом.",
         "highlights": [
-          { "text": "Слова-маркеры", "color": "term",    "style": "bold_underline" },
-          { "text": "длительность",   "color": "info",    "style": "bold" },
-          { "text": "до события",      "color": "example", "style": "bold" }
+          {
+            "text": "Слова-маркеры",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "длительность",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "до события",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -165,15 +578,59 @@
           "title": "Главные маркеры",
           "borderColor": "info",
           "table": {
-            "headers": ["Маркер", "Перевод", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Маркер",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["for",            "в течение",          "I had been waiting for two hours."] },
-              { "cells": ["since",           "с (момента)",         "He had been working there since 2015."] },
-              { "cells": ["before",          "до того как",         "She had been crying before we arrived."] },
-              { "cells": ["by the time",     "к тому времени как",  "They had been waiting for hours."] },
-              { "cells": ["how long",        "как долго",           "How long had they been driving?"] },
-              { "cells": ["all morning",     "всё утро",             "It had been raining all morning."] }
+              {
+                "cells": [
+                  "for",
+                  "в течение",
+                  "I had been waiting for two hours."
+                ]
+              },
+              {
+                "cells": [
+                  "since",
+                  "с (момента)",
+                  "He had been working there since 2015."
+                ]
+              },
+              {
+                "cells": [
+                  "before",
+                  "до того как",
+                  "She had been crying before we arrived."
+                ]
+              },
+              {
+                "cells": [
+                  "by the time",
+                  "к тому времени как",
+                  "They had been waiting for hours."
+                ]
+              },
+              {
+                "cells": [
+                  "how long",
+                  "как долго",
+                  "How long had they been driving?"
+                ]
+              },
+              {
+                "cells": [
+                  "all morning",
+                  "всё утро",
+                  "It had been raining all morning."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -182,29 +639,53 @@
           "title": "For vs Since",
           "borderColor": "term",
           "rules": [
-            { "name": "for",  "suffix": "период (сколько)",       "example": "I had been waiting for two hours." },
-            { "name": "since", "suffix": "начало (с какого времени)","example": "He had been working since 2015." }
+            {
+              "name": "for",
+              "suffix": "период (сколько)",
+              "example": "I had been waiting for two hours."
+            },
+            {
+              "name": "since",
+              "suffix": "начало (с какого времени)",
+              "example": "He had been working since 2015."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I had been waiting for two hours when she called.", "ru": "Я ждал уже два часа, когда она позвонила." },
-            { "en": "It had been raining all morning.",                    "ru": "Всё утро шёл дождь." },
-            { "en": "By the time help arrived, they had been waiting for hours.", "ru": "К тому времени, как прибыла помощь, они ждали уже несколько часов." }
+            {
+              "en": "I had been waiting for two hours when she called.",
+              "ru": "Я ждал уже два часа, когда она позвонила."
+            },
+            {
+              "en": "It had been raining all morning.",
+              "ru": "Всё утро шёл дождь."
+            },
+            {
+              "en": "By the time help arrived, they had been waiting for hours.",
+              "ru": "К тому времени, как прибыла помощь, они ждали уже несколько часов."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Окончание -ing",
+      "label": "Глагол с -ing после been",
       "intro": {
         "text": "После been глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
         "highlights": [
-          { "text": "-ing",  "color": "term",    "style": "bold_underline" },
-          { "text": "been",   "color": "info",    "style": "bold" }
+          {
+            "text": "-ing",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "been",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -212,10 +693,26 @@
           "title": "Правила",
           "borderColor": "info",
           "rules": [
-            { "name": "Большинство",            "suffix": "+ ing",              "example": "wait → waiting, work → working" },
-            { "name": "Немая -e",                "suffix": "e убирается + ing",   "example": "write → writing, drive → driving" },
-            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ing",       "example": "run → running, sit → sitting" },
-            { "name": "Глаголы на -ie",           "suffix": "ie → y + ing",         "example": "lie → lying, die → dying" }
+            {
+              "name": "Большинство",
+              "suffix": "+ ing",
+              "example": "wait → waiting, work → working"
+            },
+            {
+              "name": "Немая -e",
+              "suffix": "e убирается + ing",
+              "example": "write → writing, drive → driving"
+            },
+            {
+              "name": "Гласная + согл. в конце",
+              "suffix": "удвоение + ing",
+              "example": "run → running, sit → sitting"
+            },
+            {
+              "name": "Глаголы на -ie",
+              "suffix": "ie → y + ing",
+              "example": "lie → lying, die → dying"
+            }
           ]
         },
         {
@@ -231,22 +728,42 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "They had been driving for six hours when they stopped.", "ru": "Они ехали уже шесть часов, когда остановились." },
-            { "en": "I had been studying all night before the exam.",          "ru": "Я занимался всю ночь перед экзаменом." },
-            { "en": "She had been working there since 2015.",                   "ru": "Она работала там с 2015 года." }
+            {
+              "en": "They had been driving for six hours when they stopped.",
+              "ru": "Они ехали уже шесть часов, когда остановились."
+            },
+            {
+              "en": "I had been studying all night before the exam.",
+              "ru": "Я занимался всю ночь перед экзаменом."
+            },
+            {
+              "en": "She had been working there since 2015.",
+              "ru": "Она работала там с 2015 года."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Perfect Continuous vs Perfect",
+      "label": "Длительность или результат в прошлом",
       "intro": {
         "text": "Оба времени описывают прошлое до прошлого, но Past Perfect Continuous делает акцент на длительности процесса, а Past Perfect — на результате.",
         "highlights": [
-          { "text": "Perfect Continuous", "color": "info",    "style": "bold" },
-          { "text": "Perfect",             "color": "term",    "style": "bold" },
-          { "text": "длительности",         "color": "example", "style": "bold_underline" }
+          {
+            "text": "Perfect Continuous",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Perfect",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "длительности",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -254,11 +771,31 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Акцент", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Акцент",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Past Perfect Continuous", "процесс, длительность",   "had been + V-ing"] },
-              { "cells": ["Past Perfect",             "результат, факт к моменту","had + V3"] }
+              {
+                "cells": [
+                  "Past Perfect Continuous",
+                  "процесс, длительность",
+                  "had been + V-ing"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Perfect",
+                  "результат, факт к моменту",
+                  "had + V3"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -267,16 +804,28 @@
           "title": "Примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I had been reading for two hours when he came.", "ru": "Я читал уже два часа, когда он пришёл. (процесс)" },
-            { "en": "I had read three books by the time he came.",     "ru": "К тому моменту, как он пришёл, я прочитал три книги. (результат)" }
+            {
+              "en": "I had been reading for two hours when he came.",
+              "ru": "Я читал уже два часа, когда он пришёл. (процесс)"
+            },
+            {
+              "en": "I had read three books by the time he came.",
+              "ru": "К тому моменту, как он пришёл, я прочитал три книги. (результат)"
+            }
           ]
         },
         {
           "title": "Ещё примеры",
           "borderColor": "term",
           "examples": [
-            { "en": "She had been cooking all morning.",   "ru": "Она готовила всё утро. (процесс)" },
-            { "en": "She had cooked three dishes by noon.", "ru": "К полудню она приготовила три блюда. (результат)" }
+            {
+              "en": "She had been cooking all morning.",
+              "ru": "Она готовила всё утро. (процесс)"
+            },
+            {
+              "en": "She had cooked three dishes by noon.",
+              "ru": "К полудню она приготовила три блюда. (результат)"
+            }
           ]
         },
         {
@@ -295,13 +844,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Past Perfect Continuous",
+      "label": "Частые ошибки: had been wait, since two hours",
       "intro": {
         "text": "Семь самых частых ошибок в Past Perfect Continuous.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -309,13 +861,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I had been wait for two hours.",       "right": "I had been waiting for two hours." },
-            { "wrong": "She had been worked for five years.",   "right": "She had been working for five years." },
-            { "wrong": "I had been waiting since two hours.",    "right": "I had been waiting for two hours." },
-            { "wrong": "I had been working since 2015. (неверно)", "right": "I had been working since 2015." },
-            { "wrong": "She had be working there.",              "right": "She had been working there." },
-            { "wrong": "They had been drive for hours.",         "right": "They had been driving for hours." },
-            { "wrong": "I had been waited for an hour.",          "right": "I had been waiting for an hour." }
+            {
+              "wrong": "I had been wait for two hours.",
+              "right": "I had been waiting for two hours. (нужен -ing)"
+            },
+            {
+              "wrong": "She had been worked for five years.",
+              "right": "She had been working for five years. (-ing, не V3)"
+            },
+            {
+              "wrong": "I had been waiting since two hours.",
+              "right": "I had been waiting for two hours. (период — for)"
+            },
+            {
+              "wrong": "I was waiting for an hour when the bus came.",
+              "right": "I had been waiting for an hour when the bus came. (длилось до момента — had been)"
+            },
+            {
+              "wrong": "She had be working there.",
+              "right": "She had been working there. (been, не be)"
+            },
+            {
+              "wrong": "They had been drive for hours.",
+              "right": "They had been driving for hours. (нужен -ing)"
+            },
+            {
+              "wrong": "I had been waited for an hour.",
+              "right": "I had been waiting for an hour. (нужен -ing)"
+            }
           ]
         },
         {

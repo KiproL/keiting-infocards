@@ -3,7 +3,7 @@
   "route": "cards_advrelative",
   "slides": [
     {
-      "label": "Предлог + which / whom",
+      "label": "Предлог + which / whom: with whom I work",
       "intro": {
         "text": "В разговоре предлог ставят в конец: the person I spoke to. В книжной речи он встаёт перед which или whom: the person to whom I spoke. После предлога нельзя that и who.",
         "highlights": [
@@ -59,7 +59,99 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["сущ.", "предлог", "which / whom", "S + V"], "decoys": ["V-ing", "V3"], "examples": [{"en": "This is the house in which I grew up.", "ru": "Это дом, в котором я вырос.", "parts": [["This is", ""], ["the house", "сущ."], ["in", "предлог"], ["which", "which / whom"], ["I grew up.", "S + V"]]}, {"en": "She is the woman to whom I spoke.", "ru": "Это женщина, с которой я говорил.", "parts": [["She is", ""], ["the woman", "сущ."], ["to", "предлог"], ["whom", "which / whom"], ["I spoke.", "S + V"]]}, {"en": "That is the chair on which he sat.", "ru": "Это стул, на котором он сидел.", "parts": [["That is", ""], ["the chair", "сущ."], ["on", "предлог"], ["which", "which / whom"], ["he sat.", "S + V"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "сущ.",
+                "предлог",
+                "which / whom",
+                "S + V"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "This is the house in which I grew up.",
+                  "ru": "Это дом, в котором я вырос.",
+                  "parts": [
+                    [
+                      "This is",
+                      ""
+                    ],
+                    [
+                      "the house",
+                      "сущ."
+                    ],
+                    [
+                      "in",
+                      "предлог"
+                    ],
+                    [
+                      "which",
+                      "which / whom"
+                    ],
+                    [
+                      "I grew up.",
+                      "S + V"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She is the woman to whom I spoke.",
+                  "ru": "Это женщина, с которой я говорил.",
+                  "parts": [
+                    [
+                      "She is",
+                      ""
+                    ],
+                    [
+                      "the woman",
+                      "сущ."
+                    ],
+                    [
+                      "to",
+                      "предлог"
+                    ],
+                    [
+                      "whom",
+                      "which / whom"
+                    ],
+                    [
+                      "I spoke.",
+                      "S + V"
+                    ]
+                  ]
+                },
+                {
+                  "en": "That is the chair on which he sat.",
+                  "ru": "Это стул, на котором он сидел.",
+                  "parts": [
+                    [
+                      "That is",
+                      ""
+                    ],
+                    [
+                      "the chair",
+                      "сущ."
+                    ],
+                    [
+                      "on",
+                      "предлог"
+                    ],
+                    [
+                      "which",
+                      "which / whom"
+                    ],
+                    [
+                      "he sat.",
+                      "S + V"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -178,7 +270,86 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["количество", "of whom / of which", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I have ten cousins, most of whom live in Moscow.", "ru": "У меня десять двоюродных братьев и сестёр, большинство из которых живут в Москве.", "parts": [["I have ten cousins,", ""], ["most", "количество"], ["of whom", "of whom / of which"], ["live in Moscow.", "глагол"]]}, {"en": "He wrote three books, two of which became bestsellers.", "ru": "Он написал три книги, две из которых стали бестселлерами.", "parts": [["He wrote three books,", ""], ["two", "количество"], ["of which", "of whom / of which"], ["became bestsellers.", "глагол"]]}, {"en": "We invited twenty people, none of whom came.", "ru": "Мы пригласили двадцать человек, и никто из них не пришёл.", "parts": [["We invited twenty people,", ""], ["none", "количество"], ["of whom", "of whom / of which"], ["came.", "глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "количество",
+                "of whom / of which",
+                "глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I have ten cousins, most of whom live in Moscow.",
+                  "ru": "У меня десять двоюродных братьев и сестёр, большинство из которых живут в Москве.",
+                  "parts": [
+                    [
+                      "I have ten cousins,",
+                      ""
+                    ],
+                    [
+                      "most",
+                      "количество"
+                    ],
+                    [
+                      "of whom",
+                      "of whom / of which"
+                    ],
+                    [
+                      "live in Moscow.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He wrote three books, two of which became bestsellers.",
+                  "ru": "Он написал три книги, две из которых стали бестселлерами.",
+                  "parts": [
+                    [
+                      "He wrote three books,",
+                      ""
+                    ],
+                    [
+                      "two",
+                      "количество"
+                    ],
+                    [
+                      "of which",
+                      "of whom / of which"
+                    ],
+                    [
+                      "became bestsellers.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "We invited twenty people, none of whom came.",
+                  "ru": "Мы пригласили двадцать человек, и никто из них не пришёл.",
+                  "parts": [
+                    [
+                      "We invited twenty people,",
+                      ""
+                    ],
+                    [
+                      "none",
+                      "количество"
+                    ],
+                    [
+                      "of whom",
+                      "of whom / of which"
+                    ],
+                    [
+                      "came.",
+                      "глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -238,7 +409,7 @@
       ]
     },
     {
-      "label": "Which, whereby, whose",
+      "label": "Which обо всём, whereby, whose для вещей",
       "intro": {
         "text": "Which может относиться ко всему предложению: He was late, which annoyed me — «что меня разозлило». Whereby — «по которому, при котором» о правилах и системах. Whose подходит и для вещей.",
         "highlights": [
@@ -335,7 +506,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Relative clauses: продвинутый уровень",
+      "label": "Частые ошибки: both of them, to who",
       "intro": {
         "text": "Вот самые частые ошибки в сложных придаточных.",
         "highlights": [
@@ -353,23 +524,23 @@
           "errors": [
             {
               "wrong": "I have two brothers, both of them live in Paris.",
-              "right": "I have two brothers, both of whom live in Paris."
+              "right": "I have two brothers, both of whom live in Paris. (связка — of whom)"
             },
             {
               "wrong": "He passed the exam, that surprised everyone.",
-              "right": "He passed the exam, which surprised everyone."
+              "right": "He passed the exam, which surprised everyone. (обо всём — which)"
             },
             {
               "wrong": "The woman to who I spoke was kind.",
-              "right": "The woman to whom I spoke was kind."
+              "right": "The woman to whom I spoke was kind. (после предлога — whom)"
             },
             {
               "wrong": "The man with that I work is Italian.",
-              "right": "The man with whom I work is Italian."
+              "right": "The man with whom I work is Italian. (после предлога that нельзя)"
             },
             {
               "wrong": "a house which roof leaks",
-              "right": "a house whose roof leaks"
+              "right": "a house whose roof leaks (чей — whose)"
             }
           ]
         },

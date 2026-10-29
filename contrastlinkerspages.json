@@ -3,7 +3,7 @@
   "route": "cards_contrastlinkers",
   "slides": [
     {
-      "label": "Whereas и while",
+      "label": "Whereas и while: «тогда как»",
       "intro": {
         "text": "Whereas и while сравнивают два факта, которые противоречат друг другу: «тогда как», «в то время как». Это не время, а контраст.",
         "highlights": [
@@ -56,7 +56,74 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["факт 1", "whereas / while", "факт 2"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I like tea, whereas my wife prefers coffee.", "ru": "Я люблю чай, тогда как жена предпочитает кофе.", "parts": [["I like tea,", "факт 1"], ["whereas", "whereas / while"], ["my wife prefers coffee.", "факт 2"]]}, {"en": "The north is wet, while the south is dry.", "ru": "На севере влажно, тогда как на юге сухо.", "parts": [["The north is wet,", "факт 1"], ["while", "whereas / while"], ["the south is dry.", "факт 2"]]}, {"en": "He is quiet, whereas his sister is very talkative.", "ru": "Он тихий, а его сестра очень разговорчивая.", "parts": [["He is quiet,", "факт 1"], ["whereas", "whereas / while"], ["his sister is very talkative.", "факт 2"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "факт 1",
+                "whereas / while",
+                "факт 2"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I like tea, whereas my wife prefers coffee.",
+                  "ru": "Я люблю чай, тогда как жена предпочитает кофе.",
+                  "parts": [
+                    [
+                      "I like tea,",
+                      "факт 1"
+                    ],
+                    [
+                      "whereas",
+                      "whereas / while"
+                    ],
+                    [
+                      "my wife prefers coffee.",
+                      "факт 2"
+                    ]
+                  ]
+                },
+                {
+                  "en": "The north is wet, while the south is dry.",
+                  "ru": "На севере влажно, тогда как на юге сухо.",
+                  "parts": [
+                    [
+                      "The north is wet,",
+                      "факт 1"
+                    ],
+                    [
+                      "while",
+                      "whereas / while"
+                    ],
+                    [
+                      "the south is dry.",
+                      "факт 2"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He is quiet, whereas his sister is very talkative.",
+                  "ru": "Он тихий, а его сестра очень разговорчивая.",
+                  "parts": [
+                    [
+                      "He is quiet,",
+                      "факт 1"
+                    ],
+                    [
+                      "whereas",
+                      "whereas / while"
+                    ],
+                    [
+                      "his sister is very talkative.",
+                      "факт 2"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -120,7 +187,7 @@
       ]
     },
     {
-      "label": "Albeit",
+      "label": "Albeit: «хотя и» без глагола",
       "intro": {
         "text": "Albeit — книжное «хотя и», «пусть и». После него идёт не целое предложение, а слово или короткая группа: a small, albeit important, change.",
         "highlights": [
@@ -191,10 +258,39 @@
             "title": "Albeit ≠ although"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It was a useful, albeit short, meeting.", "ru": "Встреча была полезной, хотя и короткой."}, {"en": "She accepted the offer, albeit with some doubts.", "ru": "Она приняла предложение, пусть и с сомнениями."}, {"en": "The plan worked, albeit slowly.", "ru": "План сработал, хотя и медленно."}, {"en": "Although the plan was risky, it worked.", "ru": "Хотя план был рискованным, он сработал. (целое предложение — although)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It was a useful, albeit short, meeting.",
+                "ru": "Встреча была полезной, хотя и короткой."
+              },
+              {
+                "en": "She accepted the offer, albeit with some doubts.",
+                "ru": "Она приняла предложение, пусть и с сомнениями."
+              },
+              {
+                "en": "The plan worked, albeit slowly.",
+                "ru": "План сработал, хотя и медленно."
+              },
+              {
+                "en": "Although the plan was risky, it worked.",
+                "ru": "Хотя план был рискованным, он сработал. (целое предложение — although)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Notwithstanding и другие",
+      "label": "Notwithstanding, nonetheless, even so",
       "intro": {
         "text": "Для официальных текстов есть notwithstanding — «несмотря на», и связки nonetheless, even so, be that as it may — «тем не менее», «как бы то ни было».",
         "highlights": [
@@ -285,7 +381,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Whereas, albeit, notwithstanding",
+      "label": "Частые ошибки: albeit + предложение, whereas … but",
       "intro": {
         "text": "Вот самые частые ошибки в книжных связках.",
         "highlights": [
@@ -303,19 +399,19 @@
           "errors": [
             {
               "wrong": "Albeit he was tired, he kept working.",
-              "right": "Although he was tired, he kept working."
+              "right": "Although he was tired, he kept working. (с предложением — although)"
             },
             {
               "wrong": "Whereas I like tea, but she likes coffee.",
-              "right": "Whereas I like tea, she likes coffee."
+              "right": "Whereas I like tea, she likes coffee. (but лишнее)"
             },
             {
               "wrong": "Notwithstanding of the rain, we went out.",
-              "right": "Notwithstanding the rain, we went out."
+              "right": "Notwithstanding the rain, we went out. (без of)"
             },
             {
               "wrong": "He agreed, albeit he was reluctant.",
-              "right": "He agreed, albeit reluctantly."
+              "right": "He agreed, albeit reluctantly. (после albeit — без подлежащего)"
             }
           ]
         },

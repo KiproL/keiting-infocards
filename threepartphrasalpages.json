@@ -3,7 +3,7 @@
   "route": "cards_threepartphrasal",
   "slides": [
     {
-      "label": "Глагол + наречие + предлог",
+      "label": "Глагол + наречие + предлог: put up with",
       "intro": {
         "text": "Трёхчастный фразовый глагол — глагол + наречие + предлог: put up with (терпеть), look forward to (ждать с нетерпением). Смысл у них единый, и угадать его по частям обычно нельзя.",
         "highlights": [
@@ -54,7 +54,99 @@
                 "color": "muted"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["глагол", "наречие", "предлог", "кого / что"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I can't put up with his rudeness.", "ru": "Я не могу терпеть его грубость.", "parts": [["I can't", ""], ["put", "глагол"], ["up", "наречие"], ["with", "предлог"], ["his rudeness.", "кого / что"]]}, {"en": "We ran out of milk.", "ru": "У нас закончилось молоко.", "parts": [["We", ""], ["ran", "глагол"], ["out", "наречие"], ["of", "предлог"], ["milk.", "кого / что"]]}, {"en": "I look forward to the holidays.", "ru": "Я с нетерпением жду каникул.", "parts": [["I", ""], ["look", "глагол"], ["forward", "наречие"], ["to", "предлог"], ["the holidays.", "кого / что"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "глагол",
+                "наречие",
+                "предлог",
+                "кого / что"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I can't put up with his rudeness.",
+                  "ru": "Я не могу терпеть его грубость.",
+                  "parts": [
+                    [
+                      "I can't",
+                      ""
+                    ],
+                    [
+                      "put",
+                      "глагол"
+                    ],
+                    [
+                      "up",
+                      "наречие"
+                    ],
+                    [
+                      "with",
+                      "предлог"
+                    ],
+                    [
+                      "his rudeness.",
+                      "кого / что"
+                    ]
+                  ]
+                },
+                {
+                  "en": "We ran out of milk.",
+                  "ru": "У нас закончилось молоко.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "ran",
+                      "глагол"
+                    ],
+                    [
+                      "out",
+                      "наречие"
+                    ],
+                    [
+                      "of",
+                      "предлог"
+                    ],
+                    [
+                      "milk.",
+                      "кого / что"
+                    ]
+                  ]
+                },
+                {
+                  "en": "I look forward to the holidays.",
+                  "ru": "Я с нетерпением жду каникул.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "look",
+                      "глагол"
+                    ],
+                    [
+                      "forward",
+                      "наречие"
+                    ],
+                    [
+                      "to",
+                      "предлог"
+                    ],
+                    [
+                      "the holidays.",
+                      "кого / что"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -121,7 +213,7 @@
       ]
     },
     {
-      "label": "Неразделимы",
+      "label": "Три части не разрывают",
       "intro": {
         "text": "Три части никогда не разрывают: объект — всегда после предлога, даже если это местоимение. Put up with it — а не put it up with.",
         "highlights": [
@@ -169,10 +261,39 @@
             "text": "В look forward to, be up to, get round to to — предлог, поэтому дальше -ing: I look forward to seeing you."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I look forward to hearing from you.", "ru": "С нетерпением жду ответа. (после to — -ing)"}, {"en": "Slow down — I can't keep up with you!", "ru": "Помедленнее — я за тобой не успеваю!"}, {"en": "We've run out of coffee again.", "ru": "У нас опять закончился кофе."}, {"en": "She came up with a brilliant idea.", "ru": "Ей пришла в голову блестящая идея."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I look forward to hearing from you.",
+                "ru": "С нетерпением жду ответа. (после to — -ing)"
+              },
+              {
+                "en": "Slow down — I can't keep up with you!",
+                "ru": "Помедленнее — я за тобой не успеваю!"
+              },
+              {
+                "en": "We've run out of coffee again.",
+                "ru": "У нас опять закончился кофе."
+              },
+              {
+                "en": "She came up with a brilliant idea.",
+                "ru": "Ей пришла в голову блестящая идея."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Ещё важные",
+      "label": "Ещё важные: catch up with, face up to",
       "intro": {
         "text": "Эти глаголы часто встречаются в речи и текстах уровня C1 — их стоит знать «в лицо».",
         "highlights": [
@@ -243,7 +364,7 @@
       ]
     },
     {
-      "label": "В пассиве и вопросах",
+      "label": "В вопросах и пассиве: предлог в конце",
       "intro": {
         "text": "В вопросах и пассиве предлог остаётся в конце, сразу после частей глагола: What are you up to? The noise can't be put up with.",
         "highlights": [
@@ -277,10 +398,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "What are you up to this weekend?", "ru": "Чем занимаешься на выходных?"}, {"en": "This is something I've always looked forward to.", "ru": "Я всегда этого ждал."}, {"en": "Who did you get on with best at school?", "ru": "С кем ты лучше всех ладил в школе?"}, {"en": "This kind of noise shouldn't be put up with.", "ru": "Такой шум нельзя терпеть."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "What are you up to this weekend?",
+                "ru": "Чем занимаешься на выходных?"
+              },
+              {
+                "en": "This is something I've always looked forward to.",
+                "ru": "Я всегда этого ждал."
+              },
+              {
+                "en": "Who did you get on with best at school?",
+                "ru": "С кем ты лучше всех ладил в школе?"
+              },
+              {
+                "en": "This kind of noise shouldn't be put up with.",
+                "ru": "Такой шум нельзя терпеть."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Фразовые из трёх частей",
+      "label": "Частые ошибки: put up it with, came up a idea",
       "intro": {
         "text": "Самые частые ошибки — и как сказать правильно.",
         "highlights": [
@@ -298,23 +448,23 @@
           "errors": [
             {
               "wrong": "I can't put up it with.",
-              "right": "I can't put up with it."
+              "right": "I can't put up with it. (три части вместе, объект — в конце)"
             },
             {
               "wrong": "I look forward to see you.",
-              "right": "I look forward to seeing you."
+              "right": "I look forward to seeing you. (to — предлог, дальше -ing)"
             },
             {
               "wrong": "We run out milk.",
-              "right": "We've run out of milk."
+              "right": "We've run out of milk. (run out of)"
             },
             {
               "wrong": "He got away it with.",
-              "right": "He got away with it."
+              "right": "He got away with it. (объект — в конце)"
             },
             {
               "wrong": "She came up a great idea.",
-              "right": "She came up with a great idea."
+              "right": "She came up with a great idea. (with обязателен)"
             }
           ]
         }

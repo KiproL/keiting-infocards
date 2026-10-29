@@ -3,13 +3,25 @@
   "route": "cards_sothat",
   "slides": [
     {
-      "label": "so that: чтобы",
+      "label": "So that: «чтобы» + кто-то",
       "intro": {
         "text": "So that — указание цели действия. Отвечает на вопрос «зачем?». После него часто используется модальный глагол (can, could, will, would).",
         "highlights": [
-          { "text": "So that",  "color": "term",    "style": "bold_underline" },
-          { "text": "цели",      "color": "info",    "style": "bold" },
-          { "text": "зачем?",    "color": "example", "style": "bold" }
+          {
+            "text": "So that",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "цели",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "зачем?",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,26 +30,164 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "… so that", "color": "info" },
-              { "text": "+",         "color": "muted" },
-              { "text": "подлежащее", "color": "example" },
-              { "text": "+",         "color": "muted" },
-              { "text": "can / will", "color": "term" }
+              {
+                "text": "… so that",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "подлежащее",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "can / will",
+                "color": "term"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["so that", "подлежащее", "can / will"], "decoys": ["V-ing", "V3"], "examples": [{"en": "Speak louder so that everyone can hear you.", "ru": "Говори громче, чтобы все тебя слышали.", "parts": [["Speak louder", ""], ["so that", "so that"], ["everyone", "подлежащее"], ["can", "can / will"], ["hear you.", ""]]}, {"en": "I will leave the key so that you can get in.", "ru": "Я оставлю ключ, чтобы ты мог войти.", "parts": [["I will leave the key", ""], ["so that", "so that"], ["you", "подлежащее"], ["can", "can / will"], ["get in.", ""]]}, {"en": "She saved money so that she could travel.", "ru": "Она копила деньги, чтобы путешествовать.", "parts": [["She saved money", ""], ["so that", "so that"], ["she", "подлежащее"], ["could", "can / will"], ["travel.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "so that",
+                "подлежащее",
+                "can / will"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "Speak louder so that everyone can hear you.",
+                  "ru": "Говори громче, чтобы все тебя слышали.",
+                  "parts": [
+                    [
+                      "Speak louder",
+                      ""
+                    ],
+                    [
+                      "so that",
+                      "so that"
+                    ],
+                    [
+                      "everyone",
+                      "подлежащее"
+                    ],
+                    [
+                      "can",
+                      "can / will"
+                    ],
+                    [
+                      "hear you.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "I will leave the key so that you can get in.",
+                  "ru": "Я оставлю ключ, чтобы ты мог войти.",
+                  "parts": [
+                    [
+                      "I will leave the key",
+                      ""
+                    ],
+                    [
+                      "so that",
+                      "so that"
+                    ],
+                    [
+                      "you",
+                      "подлежащее"
+                    ],
+                    [
+                      "can",
+                      "can / will"
+                    ],
+                    [
+                      "get in.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She saved money so that she could travel.",
+                  "ru": "Она копила деньги, чтобы путешествовать.",
+                  "parts": [
+                    [
+                      "She saved money",
+                      ""
+                    ],
+                    [
+                      "so that",
+                      "so that"
+                    ],
+                    [
+                      "she",
+                      "подлежащее"
+                    ],
+                    [
+                      "could",
+                      "can / will"
+                    ],
+                    [
+                      "travel.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Примеры с модальными",
           "borderColor": "info",
           "table": {
-            "headers": ["Модальный", "Пример", "Перевод"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Модальный",
+              "Пример",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["can",   "I study so that I can pass.",     "Учусь, чтобы сдать."] },
-              { "cells": ["could", "He ran so that he could catch it.","Он бежал, чтобы успеть."] },
-              { "cells": ["will",  "I'll leave early so that I will arrive on time.","Уйду рано, чтобы прийти вовремя."] },
-              { "cells": ["would", "She whispered so that nobody would hear.","Она шептала, чтобы никто не услышал."] }
+              {
+                "cells": [
+                  "can",
+                  "I study so that I can pass.",
+                  "Учусь, чтобы сдать."
+                ]
+              },
+              {
+                "cells": [
+                  "could",
+                  "He ran so that he could catch it.",
+                  "Он бежал, чтобы успеть."
+                ]
+              },
+              {
+                "cells": [
+                  "will",
+                  "I'll leave early so that I will arrive on time.",
+                  "Уйду рано, чтобы прийти вовремя."
+                ]
+              },
+              {
+                "cells": [
+                  "would",
+                  "She whispered so that nobody would hear.",
+                  "Она шептала, чтобы никто не услышал."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -55,21 +205,83 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I study every day so that I can pass the exam.", "ru": "Я учусь каждый день, чтобы сдать экзамен." },
-            { "en": "She left early so that she wouldn't be late.",    "ru": "Она ушла рано, чтобы не опоздать." },
-            { "en": "Speak louder so that everyone can hear you.",     "ru": "Говори громче, чтобы все тебя слышали." },
-            { "en": "I saved money so that I could travel.",             "ru": "Я копил деньги, чтобы путешествовать." }
+            {
+              "en": "I study every day so that I can pass the exam.",
+              "ru": "Я учусь каждый день, чтобы сдать экзамен."
+            },
+            {
+              "en": "She left early so that she wouldn't be late.",
+              "ru": "Она ушла рано, чтобы не опоздать."
+            },
+            {
+              "en": "Speak louder so that everyone can hear you.",
+              "ru": "Говори громче, чтобы все тебя слышали."
+            },
+            {
+              "en": "I saved money so that I could travel.",
+              "ru": "Я копил деньги, чтобы путешествовать."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "To или so that",
+          "preview": "когда что",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Конструкция",
+                "Когда",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "to + глагол",
+                    "тот же человек",
+                    "I left early to catch the bus."
+                  ]
+                },
+                {
+                  "cells": [
+                    "so that + кто + can",
+                    "другой человек или модальный",
+                    "I left early so that you could sleep."
+                  ]
+                },
+                {
+                  "cells": [
+                    "so that … won't",
+                    "«чтобы не»",
+                    "Write it down so that you won't forget."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: So that",
+      "label": "Частые ошибки: so that pass, for that",
       "intro": {
         "text": "Три самые частые ошибки в so that.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -77,9 +289,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I study so that pass the exam.",        "right": "I study so that I can pass the exam." },
-            { "wrong": "I study for that I can pass.",           "right": "I study so that I can pass." },
-            { "wrong": "I study so that I pass the exam can.",   "right": "I study so that I can pass the exam." }
+            {
+              "wrong": "I study so that pass the exam.",
+              "right": "I study so that I can pass the exam. (после so that — подлежащее)"
+            },
+            {
+              "wrong": "I study for that I can pass.",
+              "right": "I study so that I can pass. (чтобы — so that)"
+            },
+            {
+              "wrong": "I study so that I pass the exam can.",
+              "right": "I study so that I can pass the exam. (can — перед глаголом)"
+            }
           ]
         },
         {
