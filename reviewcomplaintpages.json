@@ -3,7 +3,7 @@
   "route": "cards_reviewcomplaint",
   "slides": [
     {
-      "label": "Отзыв",
+      "label": "Отзыв: что было, плюсы, минусы, вывод",
       "intro": {
         "text": "Отзыв о товаре, отеле или ресторане строят просто: что это было, что понравилось, что нет, и вывод — советуешь или нет.",
         "highlights": [
@@ -85,10 +85,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Пример отзыва",
+          "preview": "короткий отзыв об отеле",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "We stayed at the Sea View Hotel for five nights in August.",
+                "ru": "Мы жили в отеле Sea View пять ночей в августе. (что и когда)"
+              },
+              {
+                "en": "The location was perfect and the breakfast was excellent.",
+                "ru": "Расположение идеальное, завтраки отличные. (плюсы)"
+              },
+              {
+                "en": "However, our room was rather small and a bit noisy.",
+                "ru": "Однако номер был тесноват и шумноват. (минусы)"
+              },
+              {
+                "en": "Overall, it's good value for money and I'd recommend it.",
+                "ru": "В целом цена оправдана, рекомендую. (вывод)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Жалоба",
+      "label": "Жалоба: вежливо, но твёрдо",
       "intro": {
         "text": "Жалоба — официальное письмо. Тон вежливый, но твёрдый: факты без эмоций и ясно, чего ты хочешь — возврат, замену или извинение.",
         "highlights": [
@@ -119,10 +148,39 @@
             "accentColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I am writing to complain about the service at your hotel.", "ru": "Пишу, чтобы пожаловаться на обслуживание в вашем отеле."}, {"en": "On 12 May I ordered a laptop, which arrived damaged.", "ru": "12 мая я заказал ноутбук, который пришёл повреждённым."}, {"en": "I would be grateful if you could refund the full amount.", "ru": "Буду признателен, если вы вернёте всю сумму."}, {"en": "I look forward to hearing from you.", "ru": "Жду вашего ответа."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I am writing to complain about the service at your hotel.",
+                "ru": "Пишу, чтобы пожаловаться на обслуживание в вашем отеле."
+              },
+              {
+                "en": "On 12 May I ordered a laptop, which arrived damaged.",
+                "ru": "12 мая я заказал ноутбук, который пришёл повреждённым."
+              },
+              {
+                "en": "I would be grateful if you could refund the full amount.",
+                "ru": "Буду признателен, если вы вернёте всю сумму."
+              },
+              {
+                "en": "I look forward to hearing from you.",
+                "ru": "Жду вашего ответа."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Фразы",
+      "label": "Фразы для жалобы",
       "intro": {
         "text": "Эти фразы делают жалобу вежливой и серьёзной.",
         "highlights": [
@@ -190,7 +248,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Отзыв и жалоба",
+      "label": "Частые ошибки: worst!!!, rude with me",
       "intro": {
         "text": "Самые частые ошибки в отзывах и жалобах.",
         "highlights": [
@@ -208,23 +266,23 @@
           "errors": [
             {
               "wrong": "Your hotel is the worst!!! Never again!!!",
-              "right": "I was disappointed with the quality of the service."
+              "right": "I was disappointed with the quality of the service. (факты без эмоций)"
             },
             {
               "wrong": "I want my money back now.",
-              "right": "I would like a full refund."
+              "right": "I would like a full refund. (вежливо, но твёрдо)"
             },
             {
               "wrong": "I write to complain…",
-              "right": "I am writing to complain…"
+              "right": "I am writing to complain… (так начинают письмо)"
             },
             {
               "wrong": "The waiter was rude with me.",
-              "right": "The waiter was rude to me."
+              "right": "The waiter was rude to me. (rude to)"
             },
             {
               "wrong": "I recommend to visit it.",
-              "right": "I recommend visiting it."
+              "right": "I recommend visiting it. (recommend + -ing)"
             }
           ]
         }

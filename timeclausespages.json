@@ -3,7 +3,7 @@
   "route": "cards_timeclauses",
   "slides": [
     {
-      "label": "When I come: будущее после when",
+      "label": "When I come: будущее без will",
       "intro": {
         "text": "После when, as soon as, before, after, until и once о будущем говорят настоящим временем. По-русски «когда приду», а по-английски when I come — без will.",
         "highlights": [
@@ -51,7 +51,94 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["will + глагол", "when / as soon as", "Present Simple"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I will call you when I land.", "ru": "Я позвоню тебе, когда приземлюсь.", "parts": [["I", ""], ["will call", "will + глагол"], ["you", ""], ["when", "when / as soon as"], ["I land.", "Present Simple"]]}, {"en": "We will start as soon as everyone arrives.", "ru": "Мы начнём, как только все придут.", "parts": [["We", ""], ["will start", "will + глагол"], ["as soon as", "when / as soon as"], ["everyone arrives.", "Present Simple"]]}, {"en": "She will tell you when she knows.", "ru": "Она скажет тебе, когда узнает.", "parts": [["She", ""], ["will tell", "will + глагол"], ["you", ""], ["when", "when / as soon as"], ["she knows.", "Present Simple"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "will + глагол",
+                "when / as soon as",
+                "Present Simple"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I will call you when I land.",
+                  "ru": "Я позвоню тебе, когда приземлюсь.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "will call",
+                      "will + глагол"
+                    ],
+                    [
+                      "you",
+                      ""
+                    ],
+                    [
+                      "when",
+                      "when / as soon as"
+                    ],
+                    [
+                      "I land.",
+                      "Present Simple"
+                    ]
+                  ]
+                },
+                {
+                  "en": "We will start as soon as everyone arrives.",
+                  "ru": "Мы начнём, как только все придут.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "will start",
+                      "will + глагол"
+                    ],
+                    [
+                      "as soon as",
+                      "when / as soon as"
+                    ],
+                    [
+                      "everyone arrives.",
+                      "Present Simple"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She will tell you when she knows.",
+                  "ru": "Она скажет тебе, когда узнает.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "will tell",
+                      "will + глагол"
+                    ],
+                    [
+                      "you",
+                      ""
+                    ],
+                    [
+                      "when",
+                      "when / as soon as"
+                    ],
+                    [
+                      "she knows.",
+                      "Present Simple"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -131,6 +218,35 @@
             "text": "I'll call you when I've finished. = Позвоню, когда (уже) закончу. Тоже без will."
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'll text you as soon as I land.",
+                "ru": "Напишу, как только приземлюсь."
+              },
+              {
+                "en": "Don't go out until the rain stops.",
+                "ru": "Не выходи, пока не кончится дождь."
+              },
+              {
+                "en": "Once you finish, you can go home.",
+                "ru": "Как закончишь — можешь идти домой."
+              },
+              {
+                "en": "After we eat, we'll watch a film.",
+                "ru": "Поедим — и посмотрим фильм."
+              }
+            ]
+          }
+        }
       ]
     },
     {
@@ -184,10 +300,39 @@
             "text": "Если when — вопрос «когда?», will нужен: When will you be home? А в придаточном — нет: Call me when you are home."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'll tell her when she arrives.", "ru": "Я скажу ей, когда она придёт. (точно придёт)"}, {"en": "I'll tell her if she calls.", "ru": "Я скажу ей, если она позвонит. (может, не позвонит)"}, {"en": "When will you finish? — When I finish this page.", "ru": "Когда закончишь? — Когда допишу эту страницу. (вопрос — will, придаточное — без)"}, {"en": "We'll go out if the rain stops.", "ru": "Мы выйдем, если дождь прекратится."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'll tell her when she arrives.",
+                "ru": "Я скажу ей, когда она придёт. (точно придёт)"
+              },
+              {
+                "en": "I'll tell her if she calls.",
+                "ru": "Я скажу ей, если она позвонит. (может, не позвонит)"
+              },
+              {
+                "en": "When will you finish? — When I finish this page.",
+                "ru": "Когда закончишь? — Когда допишу эту страницу. (вопрос — will, придаточное — без)"
+              },
+              {
+                "en": "We'll go out if the rain stops.",
+                "ru": "Мы выйдем, если дождь прекратится."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: When / As soon as",
+      "label": "Частые ошибки: when I will get home",
       "intro": {
         "text": "Самые частые ошибки после when и as soon as.",
         "highlights": [
@@ -205,19 +350,19 @@
           "errors": [
             {
               "wrong": "I'll call you when I will get home.",
-              "right": "I'll call you when I get home."
+              "right": "I'll call you when I get home. (после when — без will)"
             },
             {
               "wrong": "As soon as he will arrive, we'll start.",
-              "right": "As soon as he arrives, we'll start."
+              "right": "As soon as he arrives, we'll start. (после as soon as — без will)"
             },
             {
               "wrong": "Wait until I will come back.",
-              "right": "Wait until I come back."
+              "right": "Wait until I come back. (после until — без will)"
             },
             {
               "wrong": "Before you will leave, close the window.",
-              "right": "Before you leave, close the window."
+              "right": "Before you leave, close the window. (после before — без will)"
             }
           ]
         },

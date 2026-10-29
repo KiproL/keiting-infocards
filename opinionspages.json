@@ -3,7 +3,7 @@
   "route": "cards_opinions",
   "slides": [
     {
-      "label": "Своё мнение",
+      "label": "Своё мнение: I think, In my opinion",
       "intro": {
         "text": "Мнение вводят фразой-рамкой: I think, In my opinion. Смягчить помогает I might be wrong, but… — так спорить легче.",
         "highlights": [
@@ -73,10 +73,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Personally, I prefer working from home.",
+                "ru": "Лично я предпочитаю работать из дома."
+              },
+              {
+                "en": "It seems to me that the plan is too risky.",
+                "ru": "Мне кажется, план слишком рискованный."
+              },
+              {
+                "en": "I might be wrong, but I think it's closed today.",
+                "ru": "Может, я ошибаюсь, но, по-моему, сегодня закрыто."
+              },
+              {
+                "en": "As far as I'm concerned, it's a great idea.",
+                "ru": "По мне, это отличная идея."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Согласиться и возразить",
+      "label": "Согласиться и возразить вежливо",
       "intro": {
         "text": "Прямое You're wrong звучит грубо. Сначала признают чужую мысль — I see your point, — а потом возражают через but.",
         "highlights": [
@@ -140,10 +169,29 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Мягкое несогласие по шагам",
+          "preview": "признай → возрази → объясни",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "steps": {
+              "items": [
+                "Признай мысль собеседника: I see your point. / That's a fair point.",
+                "Возрази через but: …but I'm not sure it would work.",
+                "Объясни почему: Because it would cost too much.",
+                "Предложи своё: Maybe we could try… instead?"
+              ]
+            },
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: мнение и спор",
+      "label": "Чего не говорить: I am agree, According to me",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -161,23 +209,23 @@
           "errors": [
             {
               "wrong": "I am agree.",
-              "right": "I agree."
+              "right": "I agree. (agree — глагол, без am)"
             },
             {
               "wrong": "I'm not agree.",
-              "right": "I don't agree."
+              "right": "I don't agree. (отрицание — don't)"
             },
             {
               "wrong": "In my opinion, I think…",
-              "right": "In my opinion,… / I think…"
+              "right": "In my opinion,… / I think… (одно из двух)"
             },
             {
               "wrong": "According to me,…",
-              "right": "In my opinion,…"
+              "right": "In my opinion,… (according to — о других)"
             },
             {
               "wrong": "You are not right.",
-              "right": "I'm not sure that's right."
+              "right": "I'm not sure that's right. (мягче)"
             }
           ]
         }

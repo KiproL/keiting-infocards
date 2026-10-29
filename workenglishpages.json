@@ -3,7 +3,7 @@
   "route": "cards_workenglish",
   "slides": [
     {
-      "label": "Совещание",
+      "label": "Совещание: начать, вставить слово, итог",
       "intro": {
         "text": "На совещании фразы помогают вести разговор: начать, вставить слово, перейти к следующему пункту, подвести итог.",
         "highlights": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "label": "Несогласие",
+      "label": "Несогласие мягко",
       "intro": {
         "text": "Несогласие на работе выражают мягко: сначала признают чужую мысль, потом — своё «но».",
         "highlights": [
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "label": "Презентация",
+      "label": "Презентация: каркас",
       "intro": {
         "text": "У презентации простой каркас: приветствие, план, части с переходами, итог и вопросы.",
         "highlights": [
@@ -171,10 +171,39 @@
             "accentColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Good morning, everyone. Thank you for coming.", "ru": "Доброе утро всем. Спасибо, что пришли. (приветствие)"}, {"en": "Today I'm going to talk about our sales results.", "ru": "Сегодня я расскажу о результатах продаж. (план)"}, {"en": "Let's move on to the next point.", "ru": "Перейдём к следующему пункту. (переход)"}, {"en": "To sum up, we had a great quarter. Any questions?", "ru": "Подводя итог: квартал был отличный. Вопросы? (итог)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Good morning, everyone. Thank you for coming.",
+                "ru": "Доброе утро всем. Спасибо, что пришли. (приветствие)"
+              },
+              {
+                "en": "Today I'm going to talk about our sales results.",
+                "ru": "Сегодня я расскажу о результатах продаж. (план)"
+              },
+              {
+                "en": "Let's move on to the next point.",
+                "ru": "Перейдём к следующему пункту. (переход)"
+              },
+              {
+                "en": "To sum up, we had a great quarter. Any questions?",
+                "ru": "Подводя итог: квартал был отличный. Вопросы? (итог)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Переговоры",
+      "label": "Переговоры: meet halfway",
       "intro": {
         "text": "В переговорах важно предлагать условия и не соглашаться сразу.",
         "highlights": [
@@ -384,7 +413,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: английский на работе",
+      "label": "Чего не говорить: discuss about, I'm agree",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -402,43 +431,43 @@
           "errors": [
             {
               "wrong": "Let's discuss about it.",
-              "right": "Let's discuss it."
+              "right": "Let's discuss it. (discuss — без about)"
             },
             {
               "wrong": "I'm agree.",
-              "right": "I agree."
+              "right": "I agree. (agree — глагол)"
             },
             {
               "wrong": "Can you explain me?",
-              "right": "Can you explain it to me?"
+              "right": "Can you explain it to me? (explain + to)"
             },
             {
               "wrong": "You are wrong.",
-              "right": "I see it a bit differently."
+              "right": "I see it a bit differently. (мягче)"
             },
             {
               "wrong": "Give me the report.",
-              "right": "Could you send me the report, please?"
+              "right": "Could you send me the report, please? (вежливо)"
             },
             {
               "wrong": "Do you hear me?",
-              "right": "Can you hear me?"
+              "right": "Can you hear me? (о связи — can)"
             },
             {
               "wrong": "You are not heard.",
-              "right": "We can't hear you."
+              "right": "We can't hear you. (так говорят)"
             },
             {
               "wrong": "Turn on your micro.",
-              "right": "Unmute yourself. / Turn your mic on."
+              "right": "Unmute yourself. / Turn your mic on. (микрофон — mic)"
             },
             {
               "wrong": "I will demonstrate my screen.",
-              "right": "I'll share my screen."
+              "right": "I'll share my screen. (показать экран — share)"
             },
             {
               "wrong": "My internet is falling.",
-              "right": "My connection keeps dropping."
+              "right": "My connection keeps dropping. (связь — connection)"
             }
           ]
         }

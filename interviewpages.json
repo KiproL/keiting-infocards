@@ -3,7 +3,7 @@
   "route": "cards_interview",
   "slides": [
     {
-      "label": "О себе",
+      "label": "Tell me about yourself: ответ за минуту",
       "intro": {
         "text": "Tell me about yourself — первый вопрос почти всегда. Отвечают за минуту по схеме: кто ты сейчас → опыт → почему тебе нужна эта работа.",
         "highlights": [
@@ -68,7 +68,36 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'm a marketing specialist with five years of experience.", "ru": "Я маркетолог с пятилетним опытом."}, {"en": "At my current job, I'm responsible for social media.", "ru": "На нынешней работе я отвечаю за соцсети."}, {"en": "Before that, I worked as a sales assistant.", "ru": "До этого я работал продавцом-консультантом."}, {"en": "I'd like to join your company because I want to grow in digital marketing.", "ru": "Хочу прийти к вам, потому что хочу расти в цифровом маркетинге."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm a marketing specialist with five years of experience.",
+                "ru": "Я маркетолог с пятилетним опытом."
+              },
+              {
+                "en": "At my current job, I'm responsible for social media.",
+                "ru": "На нынешней работе я отвечаю за соцсети."
+              },
+              {
+                "en": "Before that, I worked as a sales assistant.",
+                "ru": "До этого я работал продавцом-консультантом."
+              },
+              {
+                "en": "I'd like to join your company because I want to grow in digital marketing.",
+                "ru": "Хочу прийти к вам, потому что хочу расти в цифровом маркетинге."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "label": "Сильные и слабые стороны",
@@ -133,10 +162,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I'm very organised — I always plan my week in advance.", "ru": "Я очень организованный — всегда планирую неделю заранее."}, {"en": "I stay calm in difficult situations.", "ru": "В сложных ситуациях я сохраняю спокойствие."}, {"en": "I sometimes find it hard to say no, so I'm learning to set limits.", "ru": "Мне иногда трудно отказать, поэтому учусь ставить границы."}, {"en": "My English isn't perfect yet, so I take classes twice a week.", "ru": "Мой английский пока не идеален, поэтому я занимаюсь дважды в неделю."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'm very organised — I always plan my week in advance.",
+                "ru": "Я очень организованный — всегда планирую неделю заранее."
+              },
+              {
+                "en": "I stay calm in difficult situations.",
+                "ru": "В сложных ситуациях я сохраняю спокойствие."
+              },
+              {
+                "en": "I sometimes find it hard to say no, so I'm learning to set limits.",
+                "ru": "Мне иногда трудно отказать, поэтому учусь ставить границы."
+              },
+              {
+                "en": "My English isn't perfect yet, so I take classes twice a week.",
+                "ru": "Мой английский пока не идеален, поэтому я занимаюсь дважды в неделю."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые вопросы",
+      "label": "Частые вопросы и свой вопрос в конце",
       "intro": {
         "text": "Эти вопросы задают почти везде — ответы стоит продумать заранее. А в конце обязательно задай свой вопрос: это показывает интерес.",
         "highlights": [
@@ -223,10 +281,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Как ответить на трудные вопросы",
+          "preview": "зарплата, пять лет, почему вы",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I'd like to learn more about the role before we discuss salary.",
+                "ru": "Хотелось бы сначала больше узнать о должности, а потом обсудить зарплату."
+              },
+              {
+                "en": "In five years, I see myself leading a small team.",
+                "ru": "Через пять лет вижу себя руководителем небольшой команды."
+              },
+              {
+                "en": "I have the skills you need and I learn fast.",
+                "ru": "У меня есть нужные вам навыки, и я быстро учусь."
+              },
+              {
+                "en": "I'm looking for new challenges.",
+                "ru": "Я ищу новых задач."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: собеседование",
+      "label": "Чего не говорить: 3 years experience, weak side",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -244,19 +331,19 @@
           "errors": [
             {
               "wrong": "I have 3 years experience.",
-              "right": "I have three years of experience."
+              "right": "I have three years of experience. (с of)"
             },
             {
               "wrong": "I work here since 2020.",
-              "right": "I have worked here since 2020."
+              "right": "I have worked here since 2020. (since — Present Perfect)"
             },
             {
               "wrong": "My weak side is…",
-              "right": "My weakness is…"
+              "right": "My weakness is… (слабая сторона — weakness)"
             },
             {
               "wrong": "I'm responsible of sales.",
-              "right": "I'm responsible for sales."
+              "right": "I'm responsible for sales. (responsible for)"
             }
           ]
         }

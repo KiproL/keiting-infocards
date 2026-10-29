@@ -3,7 +3,7 @@
   "route": "cards_story",
   "slides": [
     {
-      "label": "План",
+      "label": "План рассказа: пять шагов",
       "intro": {
         "text": "Рассказ держится на простом плане из пяти шагов — от обстановки до развязки.",
         "highlights": [
@@ -29,10 +29,39 @@
             "accentColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It was a cold winter evening in a small village.", "ru": "Был холодный зимний вечер в маленькой деревне. (обстановка)"}, {"en": "Anna was walking home alone after work.", "ru": "Анна шла домой одна после работы. (герой)"}, {"en": "Suddenly, she heard footsteps behind her.", "ru": "Вдруг она услышала за спиной шаги. (событие)"}, {"en": "In the end, it was only her neighbour's dog.", "ru": "В итоге это оказалась всего лишь собака соседа. (развязка)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It was a cold winter evening in a small village.",
+                "ru": "Был холодный зимний вечер в маленькой деревне. (обстановка)"
+              },
+              {
+                "en": "Anna was walking home alone after work.",
+                "ru": "Анна шла домой одна после работы. (герой)"
+              },
+              {
+                "en": "Suddenly, she heard footsteps behind her.",
+                "ru": "Вдруг она услышала за спиной шаги. (событие)"
+              },
+              {
+                "en": "In the end, it was only her neighbour's dog.",
+                "ru": "В итоге это оказалась всего лишь собака соседа. (развязка)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Времена и связки",
+      "label": "Времена и связки рассказа",
       "intro": {
         "text": "Сюжет — в Past Simple, фон — в Past Continuous, то, что было ещё раньше, — в Past Perfect. Подробнее — в карточке «Как рассказывать историю».",
         "highlights": [
@@ -101,10 +130,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It all started when I lost my phone.",
+                "ru": "Всё началось, когда я потерял телефон."
+              },
+              {
+                "en": "Meanwhile, my friends were waiting at the café.",
+                "ru": "Тем временем друзья ждали в кафе."
+              },
+              {
+                "en": "To my surprise, the phone was in my bag.",
+                "ru": "К моему удивлению, телефон был в сумке."
+              },
+              {
+                "en": "Eventually, we all had a good laugh.",
+                "ru": "В конце концов мы все посмеялись."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Сделать живым",
+      "label": "Сделать живым: сильные глаголы и чувства",
       "intro": {
         "text": "Читатель должен видеть картинку: помогают сильные глаголы, чувства и короткая прямая речь.",
         "highlights": [
@@ -142,10 +200,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "My hands were shaking as I opened the letter.", "ru": "Руки дрожали, когда я открывал письмо."}, {"en": "The wind was howling outside the window.", "ru": "За окном выл ветер."}, {"en": "\"Where have you been?\" she shouted.", "ru": "«Где ты был?» — закричала она."}, {"en": "He grabbed his bag and dashed out of the door.", "ru": "Он схватил сумку и выскочил за дверь."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "My hands were shaking as I opened the letter.",
+                "ru": "Руки дрожали, когда я открывал письмо."
+              },
+              {
+                "en": "The wind was howling outside the window.",
+                "ru": "За окном выл ветер."
+              },
+              {
+                "en": "\"Where have you been?\" she shouted.",
+                "ru": "«Где ты был?» — закричала она."
+              },
+              {
+                "en": "He grabbed his bag and dashed out of the door.",
+                "ru": "Он схватил сумку и выскочил за дверь."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Как написать рассказ",
+      "label": "Частые ошибки: всё в настоящем, then-then-then",
       "intro": {
         "text": "Самые частые ошибки в рассказах.",
         "highlights": [
@@ -163,15 +250,15 @@
           "errors": [
             {
               "wrong": "I go, I see, I run… (весь рассказ в настоящем)",
-              "right": "I went, I saw, I ran…"
+              "right": "I went, I saw, I ran… (рассказ о прошлом — Past Simple)"
             },
             {
               "wrong": "Then… then… then…",
-              "right": "First…, After that…, Suddenly…"
+              "right": "First…, After that…, Suddenly… (разные связки)"
             },
             {
               "wrong": "When I came, the train already left.",
-              "right": "When I came, the train had already left."
+              "right": "When I came, the train had already left. (раньше — Past Perfect)"
             },
             {
               "wrong": "Рассказ без развязки",

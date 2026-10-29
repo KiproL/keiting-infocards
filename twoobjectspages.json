@@ -3,7 +3,7 @@
   "route": "cards_twoobjects",
   "slides": [
     {
-      "label": "Два порядка",
+      "label": "Два порядка: give her the book",
       "intro": {
         "text": "После give, send, show, tell бывает два дополнения: кому и что. Порядок — «кому + что» (give her the book) или «что + to + кому» (give the book to her).",
         "highlights": [
@@ -47,7 +47,86 @@
                   "color": "example"
                 }
               ],
-              "accentColor": "term", "drill": {"slots": ["give", "кому", "что"], "decoys": ["to", "for"], "examples": [{"en": "I gave my sister a book.", "ru": "Я подарил сестре книгу.", "parts": [["I", ""], ["gave", "give"], ["my sister", "кому"], ["a book.", "что"]]}, {"en": "She showed me her photos.", "ru": "Она показала мне свои фото.", "parts": [["She", ""], ["showed", "give"], ["me", "кому"], ["her photos.", "что"]]}, {"en": "Can you send him the file?", "ru": "Можешь отправить ему файл?", "parts": [["Can you", ""], ["send", "give"], ["him", "кому"], ["the file?", "что"]]}]}
+              "accentColor": "term",
+              "drill": {
+                "slots": [
+                  "give",
+                  "кому",
+                  "что"
+                ],
+                "decoys": [
+                  "to",
+                  "for"
+                ],
+                "examples": [
+                  {
+                    "en": "I gave my sister a book.",
+                    "ru": "Я подарил сестре книгу.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "gave",
+                        "give"
+                      ],
+                      [
+                        "my sister",
+                        "кому"
+                      ],
+                      [
+                        "a book.",
+                        "что"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She showed me her photos.",
+                    "ru": "Она показала мне свои фото.",
+                    "parts": [
+                      [
+                        "She",
+                        ""
+                      ],
+                      [
+                        "showed",
+                        "give"
+                      ],
+                      [
+                        "me",
+                        "кому"
+                      ],
+                      [
+                        "her photos.",
+                        "что"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Can you send him the file?",
+                    "ru": "Можешь отправить ему файл?",
+                    "parts": [
+                      [
+                        "Can you",
+                        ""
+                      ],
+                      [
+                        "send",
+                        "give"
+                      ],
+                      [
+                        "him",
+                        "кому"
+                      ],
+                      [
+                        "the file?",
+                        "что"
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
@@ -72,7 +151,86 @@
                   "color": "info"
                 }
               ],
-              "accentColor": "info", "drill": {"slots": ["give", "что", "to + кому"], "decoys": ["for", "from"], "examples": [{"en": "I gave a book to my sister.", "ru": "Я подарил книгу сестре.", "parts": [["I", ""], ["gave", "give"], ["a book", "что"], ["to my sister.", "to + кому"]]}, {"en": "She showed her photos to everyone.", "ru": "Она показала свои фото всем.", "parts": [["She", ""], ["showed", "give"], ["her photos", "что"], ["to everyone.", "to + кому"]]}, {"en": "Can you send the file to him?", "ru": "Можешь отправить файл ему?", "parts": [["Can you", ""], ["send", "give"], ["the file", "что"], ["to him?", "to + кому"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "give",
+                  "что",
+                  "to + кому"
+                ],
+                "decoys": [
+                  "for",
+                  "from"
+                ],
+                "examples": [
+                  {
+                    "en": "I gave a book to my sister.",
+                    "ru": "Я подарил книгу сестре.",
+                    "parts": [
+                      [
+                        "I",
+                        ""
+                      ],
+                      [
+                        "gave",
+                        "give"
+                      ],
+                      [
+                        "a book",
+                        "что"
+                      ],
+                      [
+                        "to my sister.",
+                        "to + кому"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "She showed her photos to everyone.",
+                    "ru": "Она показала свои фото всем.",
+                    "parts": [
+                      [
+                        "She",
+                        ""
+                      ],
+                      [
+                        "showed",
+                        "give"
+                      ],
+                      [
+                        "her photos",
+                        "что"
+                      ],
+                      [
+                        "to everyone.",
+                        "to + кому"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "Can you send the file to him?",
+                    "ru": "Можешь отправить файл ему?",
+                    "parts": [
+                      [
+                        "Can you",
+                        ""
+                      ],
+                      [
+                        "send",
+                        "give"
+                      ],
+                      [
+                        "the file",
+                        "что"
+                      ],
+                      [
+                        "to him?",
+                        "to + кому"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -94,10 +252,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She gave her son a new bike.", "ru": "Она подарила сыну новый велосипед. (кому + что)"}, {"en": "She gave a new bike to her son.", "ru": "Она подарила новый велосипед сыну. (что + to + кому)"}, {"en": "Tell me the truth.", "ru": "Скажи мне правду."}, {"en": "Can you pass me the salt, please?", "ru": "Передай мне соль, пожалуйста."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She gave her son a new bike.",
+                "ru": "Она подарила сыну новый велосипед. (кому + что)"
+              },
+              {
+                "en": "She gave a new bike to her son.",
+                "ru": "Она подарила новый велосипед сыну. (что + to + кому)"
+              },
+              {
+                "en": "Tell me the truth.",
+                "ru": "Скажи мне правду."
+              },
+              {
+                "en": "Can you pass me the salt, please?",
+                "ru": "Передай мне соль, пожалуйста."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "It и them",
+      "label": "It и them: give it to me",
       "intro": {
         "text": "Если «что» — местоимение it или them, оно идёт сразу после глагола, а «кому» — с to: give it to me.",
         "highlights": [
@@ -139,10 +326,39 @@
             "text": "У этих глаголов «кому» всегда с to и после «что»: Explain the rule to me. Describe it to me."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I've got your book. I'll give it to you tomorrow.", "ru": "Твоя книга у меня. Отдам тебе её завтра."}, {"en": "Where are the photos? Can you send them to me?", "ru": "Где фотографии? Пришлёшь их мне?"}, {"en": "Could you explain the problem to me?", "ru": "Можешь объяснить мне проблему?"}, {"en": "Show it to your teacher.", "ru": "Покажи это учителю."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I've got your book. I'll give it to you tomorrow.",
+                "ru": "Твоя книга у меня. Отдам тебе её завтра."
+              },
+              {
+                "en": "Where are the photos? Can you send them to me?",
+                "ru": "Где фотографии? Пришлёшь их мне?"
+              },
+              {
+                "en": "Could you explain the problem to me?",
+                "ru": "Можешь объяснить мне проблему?"
+              },
+              {
+                "en": "Show it to your teacher.",
+                "ru": "Покажи это учителю."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "To или for",
+      "label": "To или for: send to, buy for",
       "intro": {
         "text": "Обычно ставят to, но после buy, make, get, cook, find, book — for: I bought a present for her.",
         "highlights": [
@@ -194,10 +410,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Примеры с for",
+          "preview": "buy, make, cook, book",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I bought some flowers for my mum.",
+                "ru": "Я купил цветы маме."
+              },
+              {
+                "en": "Can you book a table for us?",
+                "ru": "Можешь забронировать нам столик?"
+              },
+              {
+                "en": "She made a cake for his birthday.",
+                "ru": "Она испекла торт на его день рождения."
+              },
+              {
+                "en": "I'll get a coffee for you.",
+                "ru": "Я возьму тебе кофе."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Два дополнения",
+      "label": "Частые ошибки: explain me, say me",
       "intro": {
         "text": "Самые частые ошибки с двумя дополнениями.",
         "highlights": [
@@ -215,23 +460,23 @@
           "errors": [
             {
               "wrong": "Explain me the rule.",
-              "right": "Explain the rule to me."
+              "right": "Explain the rule to me. (explain — только с to)"
             },
             {
               "wrong": "Say me the truth.",
-              "right": "Tell me the truth."
+              "right": "Tell me the truth. (кому — tell)"
             },
             {
               "wrong": "Describe me your house.",
-              "right": "Describe your house to me."
+              "right": "Describe your house to me. (describe — только с to)"
             },
             {
               "wrong": "Give me it.",
-              "right": "Give it to me."
+              "right": "Give it to me. (it — сразу после глагола)"
             },
             {
               "wrong": "I bought a gift to her.",
-              "right": "I bought a gift for her."
+              "right": "I bought a gift for her. (после buy — for)"
             }
           ]
         }

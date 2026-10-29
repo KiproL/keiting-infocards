@@ -3,7 +3,7 @@
   "route": "cards_reportingverbs",
   "slides": [
     {
-      "label": "Глагол + to",
+      "label": "Глаголы пересказа + to: agree, refuse, advise",
       "intro": {
         "text": "Вместо скучного said в пересказе берут глагол, который сразу передаёт смысл: He offered to help — «Он предложил помочь». У каждого глагола своя схема: после одних — to + глагол, после других — человек + to.",
         "highlights": [
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "label": "Глагол + -ing",
+      "label": "Глаголы пересказа + -ing: deny, admit, accuse of",
       "intro": {
         "text": "После deny, admit, suggest и recommend идёт -ing. Глаголы с предлогом — accuse of, blame for, apologise for, insist on — тоже требуют -ing.",
         "highlights": [
@@ -219,10 +219,39 @@
             "borderColor": "info"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "He admitted breaking the window.",
+                "ru": "Он признался, что разбил окно."
+              },
+              {
+                "en": "She blamed me for losing the keys.",
+                "ru": "Она обвинила меня в том, что я потерял ключи."
+              },
+              {
+                "en": "They recommended booking early.",
+                "ru": "Они посоветовали бронировать заранее."
+              },
+              {
+                "en": "He denied knowing her.",
+                "ru": "Он отрицал, что знает её."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Как пересказать",
+      "label": "Как пересказать: понять, что человек сделал",
       "intro": {
         "text": "Сначала пойми, что человек сделал словами: предложил, отказался, признал. Потом подставь нужный глагол и его схему.",
         "highlights": [
@@ -277,7 +306,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Reporting verbs: admit, deny, accuse",
+      "label": "Частые ошибки: suggested me to, denied to steal",
       "intro": {
         "text": "Вот самые частые ошибки с глаголами пересказа.",
         "highlights": [
@@ -295,23 +324,23 @@
           "errors": [
             {
               "wrong": "She suggested me to go home.",
-              "right": "She suggested that I go home."
+              "right": "She suggested that I go home. (suggest — без человек + to)"
             },
             {
               "wrong": "He denied to steal the money.",
-              "right": "He denied stealing the money."
+              "right": "He denied stealing the money. (deny + -ing)"
             },
             {
               "wrong": "They accused him for lying.",
-              "right": "They accused him of lying."
+              "right": "They accused him of lying. (accuse of)"
             },
             {
               "wrong": "He apologised for be late.",
-              "right": "He apologised for being late."
+              "right": "He apologised for being late. (после for — -ing)"
             },
             {
               "wrong": "She insisted to pay.",
-              "right": "She insisted on paying."
+              "right": "She insisted on paying. (insist on + -ing)"
             }
           ]
         },

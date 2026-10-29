@@ -3,14 +3,30 @@
   "route": "cards_likeunlike",
   "slides": [
     {
-      "label": "like — как, unlike — в отличие",
+      "label": "Like — как, unlike — в отличие от",
       "intro": {
         "text": "Like — сравнение через сходство: «как», «похожий на». Unlike — сравнение через различие: «в отличие от». Это не глагол like «нравится».",
         "highlights": [
-          { "text": "Like",     "color": "info",    "style": "bold" },
-          { "text": "Unlike",   "color": "bad",     "style": "bold" },
-          { "text": "сходство",  "color": "example", "style": "bold_underline" },
-          { "text": "различие",  "color": "term",    "style": "bold" }
+          {
+            "text": "Like",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Unlike",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "сходство",
+            "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "различие",
+            "color": "term",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -20,19 +36,43 @@
           "formulas": [
             {
               "parts": [
-                { "text": "Like",   "color": "info" },
-                { "text": "+",      "color": "muted" },
-                { "text": "сущ.",   "color": "example" },
-                { "text": "= как",  "color": "term" }
+                {
+                  "text": "Like",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "сущ.",
+                  "color": "example"
+                },
+                {
+                  "text": "= как",
+                  "color": "term"
+                }
               ],
               "accentColor": "info"
             },
             {
               "parts": [
-                { "text": "Unlike",  "color": "bad" },
-                { "text": "+",       "color": "muted" },
-                { "text": "сущ.",    "color": "example" },
-                { "text": "= в отличие", "color": "term" }
+                {
+                  "text": "Unlike",
+                  "color": "bad"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "сущ.",
+                  "color": "example"
+                },
+                {
+                  "text": "= в отличие",
+                  "color": "term"
+                }
               ],
               "accentColor": "bad"
             }
@@ -42,13 +82,45 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["like",   "как, похожий на",  "He swims like a fish."] },
-              { "cells": ["unlike", "в отличие от",      "Unlike me, she loves mornings."] },
-              { "cells": ["like",   "похоже на",         "It looks like rain."] },
-              { "cells": ["unlike", "не так, как",        "Unlike you, I hate coffee."] }
+              {
+                "cells": [
+                  "like",
+                  "как, похожий на",
+                  "He swims like a fish."
+                ]
+              },
+              {
+                "cells": [
+                  "unlike",
+                  "в отличие от",
+                  "Unlike me, she loves mornings."
+                ]
+              },
+              {
+                "cells": [
+                  "like",
+                  "похоже на",
+                  "It looks like rain."
+                ]
+              },
+              {
+                "cells": [
+                  "unlike",
+                  "не так, как",
+                  "Unlike you, I hate coffee."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -57,23 +129,46 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "He swims like a fish.",                  "ru": "Он плавает как рыба." },
-            { "en": "Unlike me, she loves mornings.",          "ru": "В отличие от меня, она любит утро." },
-            { "en": "It looks like rain.",                      "ru": "Похоже на дождь." },
-            { "en": "Unlike you, I hate coffee.",                "ru": "В отличие от тебя, я не люблю кофе." }
+            {
+              "en": "He swims like a fish.",
+              "ru": "Он плавает как рыба."
+            },
+            {
+              "en": "Unlike me, she loves mornings.",
+              "ru": "В отличие от меня, она любит утро."
+            },
+            {
+              "en": "It looks like rain.",
+              "ru": "Похоже на дождь."
+            },
+            {
+              "en": "Unlike you, I hate coffee.",
+              "ru": "В отличие от тебя, я не люблю кофе."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Like vs As",
+      "label": "Like или as",
       "intro": {
         "text": "Like и as часто путают. Like — сравнение, as — роль или функция. Два разных слова.",
         "highlights": [
-          { "text": "Like", "color": "info", "style": "bold" },
-          { "text": "As",   "color": "term", "style": "bold" },
-          { "text": "роль",  "color": "example", "style": "bold_underline" }
+          {
+            "text": "Like",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "As",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "роль",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -81,11 +176,31 @@
           "title": "Разница",
           "borderColor": "term",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["like", "похожий на", "He works like a machine."] },
-              { "cells": ["as",   "в роли, в качестве", "He works as a doctor."] }
+              {
+                "cells": [
+                  "like",
+                  "похожий на",
+                  "He works like a machine."
+                ]
+              },
+              {
+                "cells": [
+                  "as",
+                  "в роли, в качестве",
+                  "He works as a doctor."
+                ]
+              }
             ],
             "borderColor": "term"
           }
@@ -94,9 +209,18 @@
           "title": "Ошибки",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "He works like a doctor. (если он врач)", "right": "He works as a doctor." },
-            { "wrong": "Unlike to me, she loves mornings.",       "right": "Unlike me, she loves mornings." },
-            { "wrong": "As me, she doesn't like coffee.",        "right": "Like me, she doesn't like coffee." }
+            {
+              "wrong": "He works like a doctor. (если он врач)",
+              "right": "He works as a doctor. (в роли — as)"
+            },
+            {
+              "wrong": "Unlike to me, she loves mornings.",
+              "right": "Unlike me, she loves mornings. (unlike — без to)"
+            },
+            {
+              "wrong": "As me, she doesn't like coffee.",
+              "right": "Like me, she doesn't like coffee. (сходство — like)"
+            }
           ]
         },
         {
@@ -113,7 +237,36 @@
             "accentColor": "accent2"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She sings like a professional.", "ru": "Она поёт как профессионал. (похоже, но не профессионал)"}, {"en": "She works as a singer in a restaurant.", "ru": "Она работает певицей в ресторане. (в этой роли)"}, {"en": "He used his coat as a pillow.", "ru": "Он использовал пальто как подушку. (в качестве)"}, {"en": "It looks like rain.", "ru": "Похоже на дождь."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She sings like a professional.",
+                "ru": "Она поёт как профессионал. (похоже, но не профессионал)"
+              },
+              {
+                "en": "She works as a singer in a restaurant.",
+                "ru": "Она работает певицей в ресторане. (в этой роли)"
+              },
+              {
+                "en": "He used his coat as a pillow.",
+                "ru": "Он использовал пальто как подушку. (в качестве)"
+              },
+              {
+                "en": "It looks like rain.",
+                "ru": "Похоже на дождь."
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }

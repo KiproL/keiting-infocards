@@ -3,7 +3,7 @@
   "route": "cards_narrativetenses",
   "slides": [
     {
-      "label": "Четыре времени",
+      "label": "Четыре времени рассказа",
       "intro": {
         "text": "В рассказе о прошлом работают четыре времени: Past Simple двигает сюжет, Past Continuous рисует фон, Past Perfect возвращает ещё дальше в прошлое, Past Perfect Continuous — о том, что длилось до момента.",
         "highlights": [
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "label": "Все вместе",
+      "label": "Все четыре в одной истории",
       "intro": {
         "text": "В одной истории — все четыре времени. Посмотри, как каждое делает свою работу.",
         "highlights": [
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "label": "Связки",
+      "label": "Связки: while, as soon as, by the time",
       "intro": {
         "text": "Связки держат порядок событий и подсказывают время.",
         "highlights": [
@@ -189,10 +189,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "While we were having dinner, the lights went out.",
+                "ru": "Пока мы ужинали, погас свет."
+              },
+              {
+                "en": "As soon as I opened the door, the cat ran out.",
+                "ru": "Как только я открыл дверь, кот выбежал."
+              },
+              {
+                "en": "By the time I got there, everyone had gone.",
+                "ru": "Когда я пришёл, все уже ушли."
+              },
+              {
+                "en": "In the end, everything was fine.",
+                "ru": "В итоге всё было хорошо."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Бывало",
+      "label": "Бывало: used to и would",
       "intro": {
         "text": "О том, что бывало регулярно, рассказывают через used to и would: When I was a kid, I used to play outside all day. Would — только о действиях, не о состояниях.",
         "highlights": [
@@ -235,10 +264,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "When I was little, I used to be afraid of dogs.", "ru": "В детстве я боялся собак. (состояние — только used to)"}, {"en": "On Sundays my grandpa would take us fishing.", "ru": "По воскресеньям дедушка, бывало, брал нас на рыбалку."}, {"en": "We used to have a big garden.", "ru": "Раньше у нас был большой сад."}, {"en": "Every evening she would read us a story.", "ru": "Каждый вечер она читала нам сказку."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "When I was little, I used to be afraid of dogs.",
+                "ru": "В детстве я боялся собак. (состояние — только used to)"
+              },
+              {
+                "en": "On Sundays my grandpa would take us fishing.",
+                "ru": "По воскресеньям дедушка, бывало, брал нас на рыбалку."
+              },
+              {
+                "en": "We used to have a big garden.",
+                "ru": "Раньше у нас был большой сад."
+              },
+              {
+                "en": "Every evening she would read us a story.",
+                "ru": "Каждый вечер она читала нам сказку."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Как рассказывать историю",
+      "label": "Частые ошибки: he already left, I was knowing",
       "intro": {
         "text": "Самые частые ошибки в рассказах о прошлом.",
         "highlights": [
@@ -256,23 +314,23 @@
           "errors": [
             {
               "wrong": "When I came, he already left.",
-              "right": "When I came, he had already left."
+              "right": "When I came, he had already left. (раньше другого — Past Perfect)"
             },
             {
               "wrong": "While I cooked, the phone was ringing.",
-              "right": "While I was cooking, the phone rang."
+              "right": "While I was cooking, the phone rang. (фон — Continuous, событие — Simple)"
             },
             {
               "wrong": "I was knowing him for years.",
-              "right": "I had known him for years."
+              "right": "I had known him for years. (know не ставят в -ing)"
             },
             {
               "wrong": "I would live in Kazan as a child.",
-              "right": "I used to live in Kazan as a child."
+              "right": "I used to live in Kazan as a child. (состояние — used to)"
             },
             {
               "wrong": "At the end, we found the way.",
-              "right": "In the end, we found the way."
+              "right": "In the end, we found the way. (в итоге — in the end)"
             }
           ]
         }

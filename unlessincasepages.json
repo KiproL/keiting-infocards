@@ -3,7 +3,7 @@
   "route": "cards_unlessincase",
   "slides": [
     {
-      "label": "unless, as long as: точнее, чем if",
+      "label": "Unless, as long as, provided: точнее, чем if",
       "intro": {
         "text": "Вместо if есть слова с точным оттенком: unless — «если не», as long as и provided (that) — «при условии, что», even if — «даже если». После всех них — настоящее время, не will.",
         "highlights": [
@@ -157,10 +157,39 @@
             "title": "Ловушка"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Unless you leave now, you'll miss the train.", "ru": "Если не выйдешь сейчас, опоздаешь на поезд."}, {"en": "I won't call unless it's urgent.", "ru": "Я не позвоню, если только это не срочно."}, {"en": "You can't come in unless you have a ticket.", "ru": "Без билета войти нельзя."}, {"en": "I'll be sad if you don't come.", "ru": "Мне будет грустно, если ты не придёшь. (здесь unless не подходит)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Unless you leave now, you'll miss the train.",
+                "ru": "Если не выйдешь сейчас, опоздаешь на поезд."
+              },
+              {
+                "en": "I won't call unless it's urgent.",
+                "ru": "Я не позвоню, если только это не срочно."
+              },
+              {
+                "en": "You can't come in unless you have a ticket.",
+                "ru": "Без билета войти нельзя."
+              },
+              {
+                "en": "I'll be sad if you don't come.",
+                "ru": "Мне будет грустно, если ты не придёшь. (здесь unless не подходит)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Even if и even though",
+      "label": "Even if, even though, in case",
       "intro": {
         "text": "Even if — «даже если» о возможном: Even if it rains, we'll go. Even though — «хотя, несмотря на то что» о реальном факте: Even though it was raining, we went.",
         "highlights": [
@@ -227,10 +256,39 @@
             "borderColor": "term"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "Even if it's expensive, I'll buy it.", "ru": "Даже если это дорого, я куплю. (возможно)"}, {"en": "Even though it was expensive, I bought it.", "ru": "Хотя это было дорого, я купил. (факт)"}, {"en": "Take an umbrella in case it rains.", "ru": "Возьми зонт на случай дождя."}, {"en": "Write down the address in case you forget it.", "ru": "Запиши адрес на случай, если забудешь."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Even if it's expensive, I'll buy it.",
+                "ru": "Даже если это дорого, я куплю. (возможно)"
+              },
+              {
+                "en": "Even though it was expensive, I bought it.",
+                "ru": "Хотя это было дорого, я купил. (факт)"
+              },
+              {
+                "en": "Take an umbrella in case it rains.",
+                "ru": "Возьми зонт на случай дождя."
+              },
+              {
+                "en": "Write down the address in case you forget it.",
+                "ru": "Запиши адрес на случай, если забудешь."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Unless, as long as, provided",
+      "label": "Частые ошибки: unless you don't, as long as you will",
       "intro": {
         "text": "Вот самые частые ошибки с условными союзами.",
         "highlights": [
@@ -248,23 +306,23 @@
           "errors": [
             {
               "wrong": "Unless you don't hurry, you'll be late.",
-              "right": "Unless you hurry, you'll be late."
+              "right": "Unless you hurry, you'll be late. (unless уже значит «если не»)"
             },
             {
               "wrong": "You can go as long as you will be back by ten.",
-              "right": "You can go as long as you are back by ten."
+              "right": "You can go as long as you are back by ten. (без will)"
             },
             {
               "wrong": "Provided you will pay now, we'll deliver.",
-              "right": "Provided you pay now, we'll deliver."
+              "right": "Provided you pay now, we'll deliver. (без will)"
             },
             {
               "wrong": "Even though it rains tomorrow, we'll go.",
-              "right": "Even if it rains tomorrow, we'll go."
+              "right": "Even if it rains tomorrow, we'll go. (о возможном — even if)"
             },
             {
               "wrong": "In case of you need help, call me.",
-              "right": "In case you need help, call me."
+              "right": "In case you need help, call me. (in case of — только с существительным)"
             }
           ]
         },

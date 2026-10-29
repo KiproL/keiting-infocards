@@ -3,7 +3,7 @@
   "route": "cards_wouldhabits",
   "slides": [
     {
-      "label": "would: бывало, мы…",
+      "label": "Would: «бывало, мы…»",
       "intro": {
         "text": "Would + глагол рассказывает о том, что повторялось в прошлом: «бывало, мы ходили…». Это как used to, но только о действиях — о состояниях would не говорит.",
         "highlights": [
@@ -51,7 +51,90 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["подлежащее", "would", "глагол"], "decoys": ["used", "will"], "examples": [{"en": "Every summer we would go to the sea.", "ru": "Каждое лето мы ездили на море.", "parts": [["Every summer", ""], ["we", "подлежащее"], ["would", "would"], ["go", "глагол"], ["to the sea.", ""]]}, {"en": "My grandma would tell us stories.", "ru": "Бабушка, бывало, рассказывала нам истории.", "parts": [["My grandma", "подлежащее"], ["would", "would"], ["tell", "глагол"], ["us stories.", ""]]}, {"en": "He would sit by the window for hours.", "ru": "Он, бывало, часами сидел у окна.", "parts": [["He", "подлежащее"], ["would", "would"], ["sit", "глагол"], ["by the window for hours.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "подлежащее",
+                "would",
+                "глагол"
+              ],
+              "decoys": [
+                "used",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "Every summer we would go to the sea.",
+                  "ru": "Каждое лето мы ездили на море.",
+                  "parts": [
+                    [
+                      "Every summer",
+                      ""
+                    ],
+                    [
+                      "we",
+                      "подлежащее"
+                    ],
+                    [
+                      "would",
+                      "would"
+                    ],
+                    [
+                      "go",
+                      "глагол"
+                    ],
+                    [
+                      "to the sea.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "My grandma would tell us stories.",
+                  "ru": "Бабушка, бывало, рассказывала нам истории.",
+                  "parts": [
+                    [
+                      "My grandma",
+                      "подлежащее"
+                    ],
+                    [
+                      "would",
+                      "would"
+                    ],
+                    [
+                      "tell",
+                      "глагол"
+                    ],
+                    [
+                      "us stories.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "He would sit by the window for hours.",
+                  "ru": "Он, бывало, часами сидел у окна.",
+                  "parts": [
+                    [
+                      "He",
+                      "подлежащее"
+                    ],
+                    [
+                      "would",
+                      "would"
+                    ],
+                    [
+                      "sit",
+                      "глагол"
+                    ],
+                    [
+                      "by the window for hours.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -121,10 +204,39 @@
             "text": "Обычно рассказ начинают с used to, а дальше — would: When I was a child, I used to live in a village. We would swim in the river…"
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "On Sundays Dad would make pancakes.",
+                "ru": "По воскресеньям папа, бывало, пёк блины."
+              },
+              {
+                "en": "We would stay up late and watch films.",
+                "ru": "Мы допоздна не спали и смотрели фильмы."
+              },
+              {
+                "en": "After school I would go straight to the park.",
+                "ru": "После школы я сразу шёл в парк."
+              },
+              {
+                "en": "She would often call me late at night.",
+                "ru": "Она часто звонила мне поздно ночью."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Would (прошлые привычки)",
+      "label": "Частые ошибки: would have a dog, would be shy",
       "intro": {
         "text": "Самые частые ошибки с would о прошлом.",
         "highlights": [
@@ -142,19 +254,19 @@
           "errors": [
             {
               "wrong": "I would have a dog when I was a child.",
-              "right": "I used to have a dog when I was a child."
+              "right": "I used to have a dog when I was a child. (состояние — used to)"
             },
             {
               "wrong": "She would be very shy.",
-              "right": "She used to be very shy."
+              "right": "She used to be very shy. (состояние — used to)"
             },
             {
               "wrong": "We would to play football.",
-              "right": "We would play football."
+              "right": "We would play football. (после would — без to)"
             },
             {
               "wrong": "He would lived in Paris.",
-              "right": "He used to live in Paris."
+              "right": "He used to live in Paris. (жил — состояние)"
             }
           ]
         },

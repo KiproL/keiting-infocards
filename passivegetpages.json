@@ -3,19 +3,19 @@
   "route": "cards_passiveget",
   "slides": [
     {
-      "label": "Пассив с get и двумя дополнениями",
+      "label": "Пассив B2: get, два дополнения, фразовые",
       "intro": {
-        "text": "Обычный пассив — be + V3. На уровне B2 к нему добавляются три вещи: разговорный пассив с get, пассив с двумя дополнениями (I was given a book) и пассив с фразовыми глаголами.",
+        "text": "Обычный пассив — be + V3. На уровне B2 к нему добавляются три вещи: разговорный пассив с get (He got fired), пассив с двумя дополнениями (I was given a book) и пассив с фразовыми глаголами.",
         "highlights": [
           {
             "text": "be + V3",
-            "color": "muted",
+            "color": "info",
             "style": "bold"
           },
           {
             "text": "get",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
             "text": "I was given a book",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "label": "Need и get",
+      "label": "Need + -ing и get + V3",
       "intro": {
         "text": "Need + -ing — пассив без be: The car needs washing = The car needs to be washed. Get + V3 — разговорный пассив для неожиданного или неприятного: He got fired.",
         "highlights": [
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "label": "Кому и о ком",
+      "label": "Кому и о ком: I was given, he was looked after",
       "intro": {
         "text": "Если у глагола два дополнения, подлежащим обычно делают человека: I was given a book. А у глаголов с предлогом предлог остаётся на месте: She was looked after.",
         "highlights": [
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "label": "Фразовые глаголы",
+      "label": "Фразовые глаголы в пассиве: was put off",
       "intro": {
         "text": "В пассиве фразовый глагол не разрывают: частица и предлог остаются сразу после V3. The baby was looked after by her grandma.",
         "highlights": [
@@ -290,10 +290,39 @@
             "text": "He was laughed at, The problem has been dealt with — предлог остаётся в конце, это нормально."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The concert was called off because of the storm.", "ru": "Концерт отменили из-за грозы."}, {"en": "The children are well looked after.", "ru": "О детях хорошо заботятся."}, {"en": "This problem must be dealt with today.", "ru": "Этой проблемой нужно заняться сегодня."}, {"en": "The new rules were brought in last year.", "ru": "Новые правила ввели в прошлом году."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The concert was called off because of the storm.",
+                "ru": "Концерт отменили из-за грозы."
+              },
+              {
+                "en": "The children are well looked after.",
+                "ru": "О детях хорошо заботятся."
+              },
+              {
+                "en": "This problem must be dealt with today.",
+                "ru": "Этой проблемой нужно заняться сегодня."
+              },
+              {
+                "en": "The new rules were brought in last year.",
+                "ru": "Новые правила ввели в прошлом году."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Пассив: get и два дополнения",
+      "label": "Частые ошибки: was got fired, A book was given me",
       "intro": {
         "text": "Самые частые ошибки — и как сказать правильно.",
         "highlights": [
@@ -311,23 +340,23 @@
           "errors": [
             {
               "wrong": "He was got fired.",
-              "right": "He got fired. / He was fired."
+              "right": "He got fired. / He was fired. (get и be вместе не ставят)"
             },
             {
               "wrong": "A book was given me.",
-              "right": "I was given a book."
+              "right": "I was given a book. (подлежащее — человек)"
             },
             {
               "wrong": "The car needs to wash.",
-              "right": "The car needs washing. / The car needs to be washed."
+              "right": "The car needs washing. / The car needs to be washed. (машина не моет сама)"
             },
             {
               "wrong": "The baby was looked by her grandma.",
-              "right": "The baby was looked after by her grandma."
+              "right": "The baby was looked after by her grandma. (after остаётся)"
             },
             {
               "wrong": "The meeting was put it off.",
-              "right": "The meeting was put off."
+              "right": "The meeting was put off. (it лишнее)"
             }
           ]
         }

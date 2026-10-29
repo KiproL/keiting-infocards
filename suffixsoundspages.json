@@ -3,7 +3,7 @@
   "route": "cards_suffixsounds",
   "slides": [
     {
-      "label": "Как читать",
+      "label": "Как читаются -tion, -ture, -ous, -age",
       "intro": {
         "text": "Окончания читаются не по буквам, а по устойчивым шаблонам — и почти всегда без ударения.",
         "highlights": [
@@ -109,10 +109,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The station is near the river.", "ru": "Станция у реки. (station — «стэйшн»)"}, {"en": "This picture shows the future.", "ru": "Эта картина показывает будущее. (-ture — «чэ»)"}, {"en": "It's a famous village.", "ru": "Это знаменитая деревня. (-ous — «эс», -age — «идж»)"}, {"en": "Is it possible to leave a message?", "ru": "Можно оставить сообщение? (-ible — «эбл»)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The station is near the river.",
+                "ru": "Станция у реки. (station — «стэйшн»)"
+              },
+              {
+                "en": "This picture shows the future.",
+                "ru": "Эта картина показывает будущее. (-ture — «чэ»)"
+              },
+              {
+                "en": "It's a famous village.",
+                "ru": "Это знаменитая деревня. (-ous — «эс», -age — «идж»)"
+              },
+              {
+                "en": "Is it possible to leave a message?",
+                "ru": "Можно оставить сообщение? (-ible — «эбл»)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Ударение",
+      "label": "Ударение прыгает: educate → education",
       "intro": {
         "text": "Перед -tion, -sion, -ic, -ical, -ity ударение падает на слог прямо перед окончанием. Поэтому в однокоренных словах оно «прыгает».",
         "highlights": [
@@ -182,10 +211,39 @@
             ]
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I want to educate myself. Education matters.", "ru": "Я хочу учиться. Образование важно. (ˈeducate → eduˈcation)"}, {"en": "It's hard to decide. It's a hard decision.", "ru": "Трудно решить. Это трудное решение."}, {"en": "He loves politics. He's a politician.", "ru": "Он любит политику. Он политик. (ударение прыгает)"}, {"en": "Is it possible? There's a possibility.", "ru": "Это возможно? Есть такая возможность."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I want to educate myself. Education matters.",
+                "ru": "Я хочу учиться. Образование важно. (ˈeducate → eduˈcation)"
+              },
+              {
+                "en": "It's hard to decide. It's a hard decision.",
+                "ru": "Трудно решить. Это трудное решение."
+              },
+              {
+                "en": "He loves politics. He's a politician.",
+                "ru": "Он любит политику. Он политик. (ударение прыгает)"
+              },
+              {
+                "en": "Is it possible? There's a possibility.",
+                "ru": "Это возможно? Есть такая возможность."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Слабые гласные",
+      "label": "Слабые гласные: comfortable, chocolate",
       "intro": {
         "text": "Безударные окончания «съедаются» до звука [ə] или [ɪ]. Если прочитать их чётко по буквам, слово станет чужим.",
         "highlights": [
@@ -233,10 +291,39 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Скажи вслух",
+          "preview": "4 фразы для тренировки",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "This sofa is really comfortable.",
+                "ru": "Этот диван очень удобный. (COMF-tə-bl)"
+              },
+              {
+                "en": "I love dark chocolate.",
+                "ru": "Обожаю тёмный шоколад. (CHOK-lət)"
+              },
+              {
+                "en": "Eat more vegetables.",
+                "ru": "Ешь больше овощей. (VEJ-tə-blz)"
+              },
+              {
+                "en": "Did you get my message?",
+                "ru": "Ты получил моё сообщение? (MES-idʒ)"
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Окончания -tion, -ture, -ous, -age",
+      "label": "Частые ошибки: picture — «пиктюр», village — «виллейдж»",
       "intro": {
         "text": "Самые частые ошибки в окончаниях.",
         "highlights": [
@@ -254,27 +341,27 @@
           "errors": [
             {
               "wrong": "picture — [ˈpɪktjuːr]",
-              "right": "[ˈpɪktʃə]"
+              "right": "[ˈpɪktʃə] (-ture — «чэ»)"
             },
             {
               "wrong": "station — [ˈsteɪtɪon]",
-              "right": "[ˈsteɪʃn]"
+              "right": "[ˈsteɪʃn] (-tion — «шн»)"
             },
             {
               "wrong": "village — [ˈvɪleɪdʒ]",
-              "right": "[ˈvɪlɪdʒ]"
+              "right": "[ˈvɪlɪdʒ] (-age — «идж»)"
             },
             {
               "wrong": "dangerous — [ˈdeɪndʒərəʊs]",
-              "right": "[ˈdeɪndʒərəs]"
+              "right": "[ˈdeɪndʒərəs] (-ous — «эс»)"
             },
             {
               "wrong": "private — [ˈpraɪveɪt]",
-              "right": "[ˈpraɪvət]"
+              "right": "[ˈpraɪvət] (-ate у прилагательного — «эт»)"
             },
             {
               "wrong": "education — ударение на e-",
-              "right": "eduˈcation — на -ca-"
+              "right": "eduˈcation — на -ca- (перед -tion)"
             }
           ]
         }

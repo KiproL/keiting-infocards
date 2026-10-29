@@ -3,7 +3,7 @@
   "route": "cards_modalperfect",
   "slides": [
     {
-      "label": "should have done: о прошлом",
+      "label": "Should have, could have: о прошлом",
       "intro": {
         "text": "Модальный глагол + have + V3 говорит о прошлом: сожаление и упрёк (should have), упущенная возможность (could have) и догадки (must, might, can't have).",
         "highlights": [
@@ -51,7 +51,94 @@
                 "color": "example"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["модальный", "have", "V3"], "decoys": ["had", "V-ing"], "examples": [{"en": "You should have told me.", "ru": "Тебе следовало мне сказать.", "parts": [["You", ""], ["should", "модальный"], ["have", "have"], ["told", "V3"], ["me.", ""]]}, {"en": "He must have forgotten.", "ru": "Он, должно быть, забыл.", "parts": [["He", ""], ["must", "модальный"], ["have", "have"], ["forgotten.", "V3"]]}, {"en": "She might have missed the bus.", "ru": "Возможно, она опоздала на автобус.", "parts": [["She", ""], ["might", "модальный"], ["have", "have"], ["missed", "V3"], ["the bus.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "модальный",
+                "have",
+                "V3"
+              ],
+              "decoys": [
+                "had",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "You should have told me.",
+                  "ru": "Тебе следовало мне сказать.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "should",
+                      "модальный"
+                    ],
+                    [
+                      "have",
+                      "have"
+                    ],
+                    [
+                      "told",
+                      "V3"
+                    ],
+                    [
+                      "me.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "He must have forgotten.",
+                  "ru": "Он, должно быть, забыл.",
+                  "parts": [
+                    [
+                      "He",
+                      ""
+                    ],
+                    [
+                      "must",
+                      "модальный"
+                    ],
+                    [
+                      "have",
+                      "have"
+                    ],
+                    [
+                      "forgotten.",
+                      "V3"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She might have missed the bus.",
+                  "ru": "Возможно, она опоздала на автобус.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "might",
+                      "модальный"
+                    ],
+                    [
+                      "have",
+                      "have"
+                    ],
+                    [
+                      "missed",
+                      "V3"
+                    ],
+                    [
+                      "the bus.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -122,10 +209,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "You should have called me!",
+                "ru": "Надо было мне позвонить!"
+              },
+              {
+                "en": "I shouldn't have said that.",
+                "ru": "Не стоило мне этого говорить."
+              },
+              {
+                "en": "We could have gone by train.",
+                "ru": "Мы могли бы поехать поездом (но не поехали)."
+              },
+              {
+                "en": "I would have come, but I was ill.",
+                "ru": "Я бы пришёл, но болел."
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Насколько уверен",
+      "label": "Догадки о прошлом: must have, can't have",
       "intro": {
         "text": "В догадках модальный глагол показывает уверенность: must — почти уверен, might — может быть, can't — точно нет.",
         "highlights": [
@@ -168,10 +284,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "She must have missed the bus — she's never late.", "ru": "Наверное, она опоздала на автобус — она никогда не опаздывает."}, {"en": "I may have left my phone in the taxi.", "ru": "Возможно, я оставил телефон в такси."}, {"en": "They can't have finished already — it's a huge job.", "ru": "Не может быть, что они уже закончили — работы очень много."}, {"en": "He might have taken the wrong train.", "ru": "Он мог сесть не на тот поезд."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "She must have missed the bus — she's never late.",
+                "ru": "Наверное, она опоздала на автобус — она никогда не опаздывает."
+              },
+              {
+                "en": "I may have left my phone in the taxi.",
+                "ru": "Возможно, я оставил телефон в такси."
+              },
+              {
+                "en": "They can't have finished already — it's a huge job.",
+                "ru": "Не может быть, что они уже закончили — работы очень много."
+              },
+              {
+                "en": "He might have taken the wrong train.",
+                "ru": "Он мог сесть не на тот поезд."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Needn't have и didn't need to",
+      "label": "Needn't have или didn't need to",
       "intro": {
         "text": "Needn't have done — сделал, но зря: это было не нужно. Didn't need to do — не нужно было, и (обычно) не делал.",
         "highlights": [
@@ -249,7 +394,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Should have / Must have",
+      "label": "Частые ошибки: should have came, should of",
       "intro": {
         "text": "Самые частые ошибки с модальными о прошлом.",
         "highlights": [
@@ -267,31 +412,31 @@
           "errors": [
             {
               "wrong": "You should have came.",
-              "right": "You should have come."
+              "right": "You should have come. (после have — V3)"
             },
             {
               "wrong": "He must went home.",
-              "right": "He must have gone home."
+              "right": "He must have gone home. (о прошлом — have + V3)"
             },
             {
               "wrong": "She can't have do it.",
-              "right": "She can't have done it."
+              "right": "She can't have done it. (нужна V3)"
             },
             {
               "wrong": "I should of called.",
-              "right": "I should have called. (should’ve)"
+              "right": "I should have called. (should've звучит как «of»)"
             },
             {
               "wrong": "He mustn't have known.",
-              "right": "He can't have known."
+              "right": "He can't have known. (догадка «нет» — can't)"
             },
             {
               "wrong": "You needn't to have come.",
-              "right": "You needn't have come."
+              "right": "You needn't have come. (после needn't — без to)"
             },
             {
               "wrong": "I needn't have taken a taxi, so I walked.",
-              "right": "I didn't need to take a taxi, so I walked."
+              "right": "I didn't need to take a taxi, so I walked. (не брал — didn't need to)"
             }
           ]
         },

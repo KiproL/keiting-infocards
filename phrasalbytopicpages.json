@@ -3,7 +3,7 @@
   "route": "cards_phrasalbytopic",
   "slides": [
     {
-      "label": "Как учить",
+      "label": "Как учить фразовые глаголы: по темам",
       "intro": {
         "text": "Фразовые глаголы проще запоминать по ситуациям, а не по алфавиту: в каждой теме здесь — восемь самых нужных.",
         "highlights": [
@@ -29,10 +29,56 @@
             "text": "Если у глагола есть объект-местоимение, оно встаёт между частями: turn it off, pick me up. Подробнее — в карточке «Фразовые глаголы»."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "It's cold — put your jacket on. Put it on!", "ru": "Холодно — надень куртку. Надень её! (it — посередине)"}, {"en": "Can you pick me up at six?", "ru": "Заберёшь меня в шесть?"}, {"en": "Turn off the TV. Turn it off, please.", "ru": "Выключи телевизор. Выключи его, пожалуйста."}, {"en": "I'll look it up in the dictionary.", "ru": "Я посмотрю это в словаре."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "It's cold — put your jacket on. Put it on!",
+                "ru": "Холодно — надень куртку. Надень её! (it — посередине)"
+              },
+              {
+                "en": "Can you pick me up at six?",
+                "ru": "Заберёшь меня в шесть?"
+              },
+              {
+                "en": "Turn off the TV. Turn it off, please.",
+                "ru": "Выключи телевизор. Выключи его, пожалуйста."
+              },
+              {
+                "en": "I'll look it up in the dictionary.",
+                "ru": "Я посмотрю это в словаре."
+              }
+            ]
+          }
+        },
+        {
+          "label": "Как запоминать",
+          "preview": "4 шага",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "good",
+            "steps": {
+              "items": [
+                "Бери одну тему за раз — например, «Дом».",
+                "Учи глагол сразу с примером: run out of milk, а не просто run out.",
+                "Придумай фразу про себя: I always run out of coffee on Mondays.",
+                "Через день повтори вслух — без подсказки."
+              ]
+            },
+            "title": ""
+          }
+        }
+      ]
     },
     {
-      "label": "Дом и быт",
+      "label": "Дом и быт: clean up, run out of",
       "intro": {
         "text": "Утро, уборка, покупки — всё, что происходит дома.",
         "highlights": [
@@ -122,7 +168,7 @@
       ]
     },
     {
-      "label": "Работа и учёба",
+      "label": "Работа и учёба: fill in, hand in",
       "intro": {
         "text": "Формы, задания, планы — глаголы для офиса и учёбы.",
         "highlights": [
@@ -212,7 +258,7 @@
       ]
     },
     {
-      "label": "Отношения",
+      "label": "Отношения: get on, fall out, make up",
       "intro": {
         "text": "Дружба, ссоры и свидания.",
         "highlights": [
@@ -302,7 +348,7 @@
       ]
     },
     {
-      "label": "Поездки",
+      "label": "Поездки: set off, check in, pick up",
       "intro": {
         "text": "Дорога, отель, транспорт.",
         "highlights": [
@@ -392,7 +438,7 @@
       ]
     },
     {
-      "label": "Здоровье и спорт",
+      "label": "Здоровье и спорт: work out, give up",
       "intro": {
         "text": "Тренировки, привычки, болезни.",
         "highlights": [
@@ -482,7 +528,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: Фразовые глаголы по темам",
+      "label": "Частые ошибки: turn off it, pick up me",
       "intro": {
         "text": "Самые частые ошибки с фразовыми глаголами.",
         "highlights": [
@@ -500,23 +546,23 @@
           "errors": [
             {
               "wrong": "Turn off it.",
-              "right": "Turn it off."
+              "right": "Turn it off. (местоимение — в середину)"
             },
             {
               "wrong": "Pick up me at 6.",
-              "right": "Pick me up at 6."
+              "right": "Pick me up at 6. (местоимение — в середину)"
             },
             {
               "wrong": "I look my sister after.",
-              "right": "I look after my sister."
+              "right": "I look after my sister. (look after не разделяется)"
             },
             {
               "wrong": "We've run out milk.",
-              "right": "We've run out of milk."
+              "right": "We've run out of milk. (run out of)"
             },
             {
               "wrong": "He gave up to smoke.",
-              "right": "He gave up smoking."
+              "right": "He gave up smoking. (после give up — -ing)"
             }
           ]
         }

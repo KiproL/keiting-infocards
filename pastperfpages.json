@@ -5,11 +5,23 @@
     {
       "label": "Past Perfect: раньше другого",
       "intro": {
-        "text": "Past Perfect описывает действие, которое произошло раньше другого действия в прошлом. Это «прошлое в прошлом».",
+        "text": "Past Perfect — «прошлое в прошлом»: действие случилось раньше другого прошлого действия. When I arrived, she had already left — она ушла раньше, чем я пришёл.",
         "highlights": [
-          { "text": "Past Perfect",       "color": "term",    "style": "bold_underline" },
-          { "text": "раньше другого",      "color": "info",    "style": "bold" },
-          { "text": "прошлое в прошлом",    "color": "example", "style": "bold" }
+          {
+            "text": "Past Perfect",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "прошлое в прошлом",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "раньше другого",
+            "color": "info",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,30 +30,150 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "S",   "color": "info" },
-              { "text": "+",   "color": "muted" },
-              { "text": "had", "color": "term" },
-              { "text": "+",   "color": "muted" },
-              { "text": "V3",  "color": "example" }
+              {
+                "text": "S",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "had",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["S", "had", "V3"], "decoys": ["V-ing", "have"], "examples": [{"en": "I had finished before he came.", "ru": "Я закончил до того, как он пришёл.", "parts": [["I", "S"], ["had", "had"], ["finished", "V3"], ["before he came.", ""]]}, {"en": "She had left when we arrived.", "ru": "Когда мы пришли, она уже ушла.", "parts": [["She", "S"], ["had", "had"], ["left", "V3"], ["when we arrived.", ""]]}, {"en": "They had eaten before the film.", "ru": "Они поели до фильма.", "parts": [["They", "S"], ["had", "had"], ["eaten", "V3"], ["before the film.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "S",
+                "had",
+                "V3"
+              ],
+              "decoys": [
+                "V-ing",
+                "have"
+              ],
+              "examples": [
+                {
+                  "en": "I had finished before he came.",
+                  "ru": "Я закончил до того, как он пришёл.",
+                  "parts": [
+                    [
+                      "I",
+                      "S"
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "finished",
+                      "V3"
+                    ],
+                    [
+                      "before he came.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She had left when we arrived.",
+                  "ru": "Когда мы пришли, она уже ушла.",
+                  "parts": [
+                    [
+                      "She",
+                      "S"
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "left",
+                      "V3"
+                    ],
+                    [
+                      "when we arrived.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "They had eaten before the film.",
+                  "ru": "Они поели до фильма.",
+                  "parts": [
+                    [
+                      "They",
+                      "S"
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "eaten",
+                      "V3"
+                    ],
+                    [
+                      "before the film.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Место в предложении",
           "borderColor": "info",
           "table": {
-            "headers": ["Порядок", "Что было раньше", "Что было позже"],
-            "headerColors": ["info", "term", "example"],
+            "headers": [
+              "Порядок",
+              "Что было раньше",
+              "Что было позже"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
             "rows": [
-              { "cells": ["Сначала раньше",     "Past Perfect",  "Past Simple"] },
-              { "cells": ["Сначала позже",       "Past Simple",   "Past Perfect"] }
+              {
+                "cells": [
+                  "Сначала раньше",
+                  "Past Perfect",
+                  "Past Simple"
+                ]
+              },
+              {
+                "cells": [
+                  "Сначала позже",
+                  "Past Simple",
+                  "Past Perfect"
+                ]
+              }
             ],
             "borderColor": "info"
           },
           "examples": [
-            { "en": "I had finished my homework before dinner.",  "ru": "Я закончил домашнее задание до ужина." },
-            { "en": "She had already left when I arrived.",        "ru": "Она уже ушла, когда я приехал." }
+            {
+              "en": "I had finished my homework before dinner.",
+              "ru": "Я закончил домашнее задание до ужина."
+            },
+            {
+              "en": "She had already left when I arrived.",
+              "ru": "Она уже ушла, когда я приехал."
+            }
           ]
         },
         {
@@ -49,7 +181,14 @@
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
-            "verbs": ["before", "after", "by the time", "already", "just", "never … before"]
+            "verbs": [
+              "before",
+              "after",
+              "by the time",
+              "already",
+              "just",
+              "never … before"
+            ]
           }
         },
         {
@@ -61,17 +200,57 @@
             "accentColor": "accent2"
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "When we got to the cinema, the film had already started.", "ru": "Когда мы пришли в кино, фильм уже начался."}, {"en": "I had never seen snow before I moved to Russia.", "ru": "До переезда в Россию я никогда не видел снега."}, {"en": "She was hungry because she hadn't eaten all day.", "ru": "Она была голодна, потому что весь день не ела."}, {"en": "After he had paid, he left the shop.", "ru": "Расплатившись, он вышел из магазина."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "When we got to the cinema, the film had already started.",
+                "ru": "Когда мы пришли в кино, фильм уже начался."
+              },
+              {
+                "en": "I had never seen snow before I moved to Russia.",
+                "ru": "До переезда в Россию я никогда не видел снега."
+              },
+              {
+                "en": "She was hungry because she hadn't eaten all day.",
+                "ru": "Она была голодна, потому что весь день не ела."
+              },
+              {
+                "en": "After he had paid, he left the shop.",
+                "ru": "Расплатившись, он вышел из магазина."
+              }
+            ]
+          }
+        }
+      ]
     },
-
     {
-      "label": "Три формы",
+      "label": "Утверждение, отрицание, вопрос",
       "intro": {
         "text": "Had — одна форма для всех лиц: I, you, he, she, it, we, they.",
         "highlights": [
-          { "text": "had",           "color": "term",    "style": "bold_underline" },
-          { "text": "для всех лиц",   "color": "info",    "style": "bold" },
-          { "text": "одна форма",      "color": "example", "style": "bold" }
+          {
+            "text": "had",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "для всех лиц",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "одна форма",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -80,15 +259,30 @@
           "borderColor": "good",
           "formulaCard": {
             "parts": [
-              { "text": "I / You / He / She / It / We / They", "color": "info" },
-              { "text": "+",                                   "color": "muted" },
-              { "text": "had + V3",                            "color": "example" }
+              {
+                "text": "I / You / He / She / It / We / They",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "had + V3",
+                "color": "example"
+              }
             ],
             "accentColor": "good"
           },
           "examples": [
-            { "en": "I had finished my homework before dinner.", "ru": "Я закончил домашнее задание до ужина." },
-            { "en": "She had already left when I arrived.",       "ru": "Она уже ушла, когда я приехал." }
+            {
+              "en": "I had finished my homework before dinner.",
+              "ru": "Я закончил домашнее задание до ужина."
+            },
+            {
+              "en": "She had already left when I arrived.",
+              "ru": "Она уже ушла, когда я приехал."
+            }
           ]
         },
         {
@@ -96,15 +290,108 @@
           "borderColor": "bad",
           "formulaCard": {
             "parts": [
-              { "text": "had",  "color": "info" },
-              { "text": "+",    "color": "muted" },
-              { "text": "not + V3", "color": "bad" }
+              {
+                "text": "had",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "not + V3",
+                "color": "bad"
+              }
             ],
-            "accentColor": "bad", "drill": {"slots": ["had", "not + V3"], "decoys": ["V-ing", "will"], "examples": [{"en": "I had not seen him before.", "ru": "Раньше я его не видел.", "parts": [["I", ""], ["had", "had"], ["not seen", "not + V3"], ["him before.", ""]]}, {"en": "She had not finished yet.", "ru": "Она ещё не закончила.", "parts": [["She", ""], ["had", "had"], ["not finished", "not + V3"], ["yet.", ""]]}, {"en": "We had not met before the party.", "ru": "До вечеринки мы не были знакомы.", "parts": [["We", ""], ["had", "had"], ["not met", "not + V3"], ["before the party.", ""]]}]}
+            "accentColor": "bad",
+            "drill": {
+              "slots": [
+                "had",
+                "not + V3"
+              ],
+              "decoys": [
+                "V-ing",
+                "will"
+              ],
+              "examples": [
+                {
+                  "en": "I had not seen him before.",
+                  "ru": "Раньше я его не видел.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "not seen",
+                      "not + V3"
+                    ],
+                    [
+                      "him before.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She had not finished yet.",
+                  "ru": "Она ещё не закончила.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "not finished",
+                      "not + V3"
+                    ],
+                    [
+                      "yet.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We had not met before the party.",
+                  "ru": "До вечеринки мы не были знакомы.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "had",
+                      "had"
+                    ],
+                    [
+                      "not met",
+                      "not + V3"
+                    ],
+                    [
+                      "before the party.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "She hadn't cooked dinner when we came.",  "ru": "Она не приготовила ужин, когда мы пришли." },
-            { "en": "He hadn't finished the report.",           "ru": "Он не закончил отчёт." }
+            {
+              "en": "She hadn't cooked dinner when we came.",
+              "ru": "Она не приготовила ужин, когда мы пришли."
+            },
+            {
+              "en": "He hadn't finished the report.",
+              "ru": "Он не закончил отчёт."
+            }
           ]
         },
         {
@@ -112,46 +399,184 @@
           "borderColor": "info",
           "formulaCard": {
             "parts": [
-              { "text": "Had", "color": "info" },
-              { "text": "+",   "color": "muted" },
-              { "text": "S",   "color": "example" },
-              { "text": "+",   "color": "muted" },
-              { "text": "V3?", "color": "term" }
+              {
+                "text": "Had",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "S",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "V3?",
+                "color": "term"
+              }
             ],
-            "accentColor": "info", "drill": {"slots": ["Had", "S", "V3?"], "decoys": ["Did", "V-ing"], "examples": [{"en": "Had you finished before he came?", "ru": "Ты закончил до того, как он пришёл?", "parts": [["Had", "Had"], ["you", "S"], ["finished", "V3?"], ["before he came?", ""]]}, {"en": "Had she left?", "ru": "Она уже ушла?", "parts": [["Had", "Had"], ["she", "S"], ["left?", "V3?"]]}, {"en": "Had they met before?", "ru": "Они были знакомы раньше?", "parts": [["Had", "Had"], ["they", "S"], ["met", "V3?"], ["before?", ""]]}]}
+            "accentColor": "info",
+            "drill": {
+              "slots": [
+                "Had",
+                "S",
+                "V3?"
+              ],
+              "decoys": [
+                "Did",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "Had you finished before he came?",
+                  "ru": "Ты закончил до того, как он пришёл?",
+                  "parts": [
+                    [
+                      "Had",
+                      "Had"
+                    ],
+                    [
+                      "you",
+                      "S"
+                    ],
+                    [
+                      "finished",
+                      "V3?"
+                    ],
+                    [
+                      "before he came?",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Had she left?",
+                  "ru": "Она уже ушла?",
+                  "parts": [
+                    [
+                      "Had",
+                      "Had"
+                    ],
+                    [
+                      "she",
+                      "S"
+                    ],
+                    [
+                      "left?",
+                      "V3?"
+                    ]
+                  ]
+                },
+                {
+                  "en": "Had they met before?",
+                  "ru": "Они были знакомы раньше?",
+                  "parts": [
+                    [
+                      "Had",
+                      "Had"
+                    ],
+                    [
+                      "they",
+                      "S"
+                    ],
+                    [
+                      "met",
+                      "V3?"
+                    ],
+                    [
+                      "before?",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           },
           "examples": [
-            { "en": "Had they left before you called?",         "ru": "Они ушли до того, как ты позвонил?" },
-            { "en": "Had you ever seen snow before that trip?",  "ru": "Ты видел снег до этой поездки?" }
+            {
+              "en": "Had they left before you called?",
+              "ru": "Они ушли до того, как ты позвонил?"
+            },
+            {
+              "en": "Had you ever seen snow before that trip?",
+              "ru": "Ты видел снег до этой поездки?"
+            }
           ]
         },
         {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
-            "headers": ["Полная форма", "Сокращение"],
-            "headerColors": ["info", "example"],
+            "headers": [
+              "Полная форма",
+              "Сокращение"
+            ],
+            "headerColors": [
+              "info",
+              "example"
+            ],
             "rows": [
-              { "cells": ["I had",      "I'd"] },
-              { "cells": ["you had",    "you'd"] },
-              { "cells": ["he had",      "he'd"] },
-              { "cells": ["she had",     "she'd"] },
-              { "cells": ["had not",     "hadn't"] }
+              {
+                "cells": [
+                  "I had",
+                  "I'd"
+                ]
+              },
+              {
+                "cells": [
+                  "you had",
+                  "you'd"
+                ]
+              },
+              {
+                "cells": [
+                  "he had",
+                  "he'd"
+                ]
+              },
+              {
+                "cells": [
+                  "she had",
+                  "she'd"
+                ]
+              },
+              {
+                "cells": [
+                  "had not",
+                  "hadn't"
+                ]
+              }
             ],
             "borderColor": "term"
           }
         }
       ]
     },
-
     {
-      "label": "Слова-маркеры",
+      "label": "Подсказки: before, by the time, already",
       "intro": {
         "text": "Слова-маркеры показывают порядок двух действий в прошлом — какое из них произошло раньше.",
         "highlights": [
-          { "text": "Слова-маркеры", "color": "term",    "style": "bold_underline" },
-          { "text": "порядок",         "color": "info",    "style": "bold" },
-          { "text": "раньше",          "color": "example", "style": "bold" }
+          {
+            "text": "Слова-маркеры",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "порядок",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "раньше",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -159,15 +584,59 @@
           "title": "Главные маркеры",
           "borderColor": "info",
           "table": {
-            "headers": ["Маркер", "Перевод", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Маркер",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["before",            "до того как",         "I had left before it started raining."] },
-              { "cells": ["after",             "после того как",      "After she had finished, she went home."] },
-              { "cells": ["by the time",        "к тому времени как",  "By the time we arrived, the film had started."] },
-              { "cells": ["already",            "уже",                  "They had already eaten when I came."] },
-              { "cells": ["just",               "только что",           "She had just left when he called."] },
-              { "cells": ["never … before",     "никогда раньше",       "I had never seen such a big dog before."] }
+              {
+                "cells": [
+                  "before",
+                  "до того как",
+                  "I had left before it started raining."
+                ]
+              },
+              {
+                "cells": [
+                  "after",
+                  "после того как",
+                  "After she had finished, she went home."
+                ]
+              },
+              {
+                "cells": [
+                  "by the time",
+                  "к тому времени как",
+                  "By the time we arrived, the film had started."
+                ]
+              },
+              {
+                "cells": [
+                  "already",
+                  "уже",
+                  "They had already eaten when I came."
+                ]
+              },
+              {
+                "cells": [
+                  "just",
+                  "только что",
+                  "She had just left when he called."
+                ]
+              },
+              {
+                "cells": [
+                  "never … before",
+                  "никогда раньше",
+                  "I had never seen such a big dog before."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -176,30 +645,58 @@
           "title": "Before vs After",
           "borderColor": "term",
           "rules": [
-            { "name": "before", "suffix": "затем главное", "example": "I had finished before she came." },
-            { "name": "after",  "suffix": "затем главное", "example": "After she had come, we left." }
+            {
+              "name": "before",
+              "suffix": "затем главное",
+              "example": "I had finished before she came."
+            },
+            {
+              "name": "after",
+              "suffix": "затем главное",
+              "example": "After she had come, we left."
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "By the time we arrived, the film had started.", "ru": "К тому времени, как мы приехали, фильм уже начался." },
-            { "en": "They had already eaten when I came.",             "ru": "Они уже поели, когда я пришёл." },
-            { "en": "She had just left when he called.",               "ru": "Она только что ушла, когда он позвонил." }
+            {
+              "en": "By the time we arrived, the film had started.",
+              "ru": "К тому времени, как мы приехали, фильм уже начался."
+            },
+            {
+              "en": "They had already eaten when I came.",
+              "ru": "Они уже поели, когда я пришёл."
+            },
+            {
+              "en": "She had just left when he called.",
+              "ru": "Она только что ушла, когда он позвонил."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "V3 — третья форма",
+      "label": "Третья форма после had",
       "intro": {
         "text": "После had глагол всегда стоит в третьей форме — V3 (Past Participle). Правильные образуют её через -ed, неправильные — запоминаем.",
         "highlights": [
-          { "text": "V3",          "color": "term",    "style": "bold_underline" },
-          { "text": "третьей форме","color": "info",    "style": "bold" },
-          { "text": "запоминаем",    "color": "bad",     "style": "bold" }
+          {
+            "text": "V3",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "третьей форме",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "запоминаем",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -207,27 +704,99 @@
           "title": "Правильные глаголы",
           "borderColor": "good",
           "rules": [
-            { "name": "Большинство",            "suffix": "+ ed",         "example": "work → worked, play → played" },
-            { "name": "Немая -e",                "suffix": "+ d",          "example": "live → lived, like → liked" },
-            { "name": "Гласная + согл. в конце", "suffix": "удвоение + ed","example": "stop → stopped, plan → planned" },
-            { "name": "Согласная + y",            "suffix": "y → ied",       "example": "study → studied, cry → cried" }
+            {
+              "name": "Большинство",
+              "suffix": "+ ed",
+              "example": "work → worked, play → played"
+            },
+            {
+              "name": "Немая -e",
+              "suffix": "+ d",
+              "example": "live → lived, like → liked"
+            },
+            {
+              "name": "Гласная + согл. в конце",
+              "suffix": "удвоение + ed",
+              "example": "stop → stopped, plan → planned"
+            },
+            {
+              "name": "Согласная + y",
+              "suffix": "y → ied",
+              "example": "study → studied, cry → cried"
+            }
           ]
         },
         {
           "title": "Неправильные — надо запомнить",
           "borderColor": "bad",
           "table": {
-            "headers": ["V1", "V3", "Перевод"],
-            "headerColors": ["info", "bad", "term"],
+            "headers": [
+              "V1",
+              "V3",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "bad",
+              "term"
+            ],
             "rows": [
-              { "cells": ["go",    "gone",    "идти"] },
-              { "cells": ["see",   "seen",    "видеть"] },
-              { "cells": ["do",    "done",    "делать"] },
-              { "cells": ["take",  "taken",   "брать"] },
-              { "cells": ["write", "written", "писать"] },
-              { "cells": ["leave", "left",    "уходить"] },
-              { "cells": ["eat",   "eaten",   "есть"] },
-              { "cells": ["give",  "given",   "давать"] }
+              {
+                "cells": [
+                  "go",
+                  "gone",
+                  "идти"
+                ]
+              },
+              {
+                "cells": [
+                  "see",
+                  "seen",
+                  "видеть"
+                ]
+              },
+              {
+                "cells": [
+                  "do",
+                  "done",
+                  "делать"
+                ]
+              },
+              {
+                "cells": [
+                  "take",
+                  "taken",
+                  "брать"
+                ]
+              },
+              {
+                "cells": [
+                  "write",
+                  "written",
+                  "писать"
+                ]
+              },
+              {
+                "cells": [
+                  "leave",
+                  "left",
+                  "уходить"
+                ]
+              },
+              {
+                "cells": [
+                  "eat",
+                  "eaten",
+                  "есть"
+                ]
+              },
+              {
+                "cells": [
+                  "give",
+                  "given",
+                  "давать"
+                ]
+              }
             ],
             "borderColor": "bad"
           }
@@ -236,22 +805,42 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I had already left the office by 6 pm.",              "ru": "Я уже ушёл из офиса к 6 вечера." },
-            { "en": "She had never taken a plane before that flight.",      "ru": "Она никогда раньше не летала на самолёте до этого рейса." },
-            { "en": "They had finished the project before the deadline.",    "ru": "Они закончили проект до дедлайна." }
+            {
+              "en": "I had already left the office by 6 pm.",
+              "ru": "Я уже ушёл из офиса к 6 вечера."
+            },
+            {
+              "en": "She had never taken a plane before that flight.",
+              "ru": "Она никогда раньше не летала на самолёте до этого рейса."
+            },
+            {
+              "en": "They had finished the project before the deadline.",
+              "ru": "Они закончили проект до дедлайна."
+            }
           ]
         }
       ]
     },
-
     {
-      "label": "Past Perfect vs Past Simple",
+      "label": "Past Perfect или Past Simple",
       "intro": {
         "text": "Когда в прошлом было два действия, Past Perfect используется для того, что случилось раньше, а Past Simple — для того, что позже.",
         "highlights": [
-          { "text": "Past Perfect",  "color": "term",    "style": "bold" },
-          { "text": "Past Simple",   "color": "info",    "style": "bold" },
-          { "text": "раньше",        "color": "example", "style": "bold_underline" }
+          {
+            "text": "Past Perfect",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Past Simple",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "раньше",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -259,11 +848,31 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Когда", "Форма"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Когда",
+              "Форма"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Past Perfect", "раньше другого действия",     "had + V3"] },
-              { "cells": ["Past Simple",  "более позднее действие",      "V2 / V-ed"] }
+              {
+                "cells": [
+                  "Past Perfect",
+                  "раньше другого действия",
+                  "had + V3"
+                ]
+              },
+              {
+                "cells": [
+                  "Past Simple",
+                  "более позднее действие",
+                  "V2 / V-ed"
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -272,16 +881,28 @@
           "title": "Пример последовательности",
           "borderColor": "good",
           "examples": [
-            { "en": "The train had left when we arrived at the station.", "ru": "Поезд уже ушёл, когда мы приехали на вокзал." },
-            { "en": "We arrived at the station. The train had already left.", "ru": "Мы приехали на вокзал. Поезд уже ушёл (раньше)." }
+            {
+              "en": "The train had left when we arrived at the station.",
+              "ru": "Поезд уже ушёл, когда мы приехали на вокзал."
+            },
+            {
+              "en": "We arrived at the station. The train had already left.",
+              "ru": "Мы приехали на вокзал. Поезд уже ушёл (раньше)."
+            }
           ]
         },
         {
           "title": "Иногда без Past Perfect",
           "borderColor": "term",
           "examples": [
-            { "en": "I left before she arrived.",        "ru": "Я ушёл до того, как она приехала. (без Past Perfect)" },
-            { "en": "I had left before she arrived.",     "ru": "Я уже ушёл до того, как она приехала. (с акцентом)" }
+            {
+              "en": "I left before she arrived.",
+              "ru": "Я ушёл до того, как она приехала. (без Past Perfect)"
+            },
+            {
+              "en": "I had left before she arrived.",
+              "ru": "Я уже ушёл до того, как она приехала. (с акцентом)"
+            }
           ]
         },
         {
@@ -295,13 +916,16 @@
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Past Perfect",
+      "label": "Частые ошибки: had went, did had",
       "intro": {
         "text": "Семь самых частых ошибок в Past Perfect.",
         "highlights": [
-          { "text": "Семь самых частых", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Семь самых частых",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -309,13 +933,34 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I had went home.",                     "right": "I had gone home." },
-            { "wrong": "She had wrote a letter.",               "right": "She had written a letter." },
-            { "wrong": "I had finish the work.",                "right": "I had finished the work." },
-            { "wrong": "Had you ever saw it?",                   "right": "Had you ever seen it?" },
-            { "wrong": "I had already left before dinner. (Past Simple was earlier)", "right": "I had already left before dinner." },
-            { "wrong": "I did had finished.",                    "right": "I had finished." },
-            { "wrong": "She hadn't went there.",                  "right": "She hadn't gone there." }
+            {
+              "wrong": "I had went home.",
+              "right": "I had gone home. (после had — V3)"
+            },
+            {
+              "wrong": "She had wrote a letter.",
+              "right": "She had written a letter. (нужна V3)"
+            },
+            {
+              "wrong": "I had finish the work.",
+              "right": "I had finished the work. (нужна V3)"
+            },
+            {
+              "wrong": "Had you ever saw it?",
+              "right": "Had you ever seen it? (нужна V3)"
+            },
+            {
+              "wrong": "When I arrived, she already left.",
+              "right": "When I arrived, she had already left. (раньше другого — had + V3)"
+            },
+            {
+              "wrong": "I did had finished.",
+              "right": "I had finished. (did с had не ставят)"
+            },
+            {
+              "wrong": "She hadn't went there.",
+              "right": "She hadn't gone there. (нужна V3)"
+            }
           ]
         },
         {

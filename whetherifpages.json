@@ -3,7 +3,7 @@
   "route": "cards_whetherif",
   "slides": [
     {
-      "label": "«Ли»",
+      "label": "«Ли»: if или whether",
       "intro": {
         "text": "Русское «ли» в косвенном вопросе — это if или whether: I don't know if he's coming — не знаю, придёт ли он. Порядок слов — как в утверждении.",
         "highlights": [
@@ -51,7 +51,74 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["I don't know / ask", "if / whether", "подлежащее + глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I don't know if he is coming.", "ru": "Не знаю, придёт ли он.", "parts": [["I don't know", "I don't know / ask"], ["if", "if / whether"], ["he is coming.", "подлежащее + глагол"]]}, {"en": "She asked whether we were ready.", "ru": "Она спросила, готовы ли мы.", "parts": [["She asked", "I don't know / ask"], ["whether", "if / whether"], ["we were ready.", "подлежащее + глагол"]]}, {"en": "I don't know whether it is true.", "ru": "Не знаю, правда ли это.", "parts": [["I don't know", "I don't know / ask"], ["whether", "if / whether"], ["it is true.", "подлежащее + глагол"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "I don't know / ask",
+                "if / whether",
+                "подлежащее + глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I don't know if he is coming.",
+                  "ru": "Не знаю, придёт ли он.",
+                  "parts": [
+                    [
+                      "I don't know",
+                      "I don't know / ask"
+                    ],
+                    [
+                      "if",
+                      "if / whether"
+                    ],
+                    [
+                      "he is coming.",
+                      "подлежащее + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She asked whether we were ready.",
+                  "ru": "Она спросила, готовы ли мы.",
+                  "parts": [
+                    [
+                      "She asked",
+                      "I don't know / ask"
+                    ],
+                    [
+                      "whether",
+                      "if / whether"
+                    ],
+                    [
+                      "we were ready.",
+                      "подлежащее + глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "I don't know whether it is true.",
+                  "ru": "Не знаю, правда ли это.",
+                  "parts": [
+                    [
+                      "I don't know",
+                      "I don't know / ask"
+                    ],
+                    [
+                      "whether",
+                      "if / whether"
+                    ],
+                    [
+                      "it is true.",
+                      "подлежащее + глагол"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -72,10 +139,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "I wonder if she remembers me.", "ru": "Интересно, помнит ли она меня."}, {"en": "Can you check whether the door is locked?", "ru": "Можешь проверить, заперта ли дверь?"}, {"en": "He asked if I was hungry.", "ru": "Он спросил, голоден ли я."}, {"en": "I don't know whether to laugh or cry.", "ru": "Не знаю, смеяться или плакать. (с to — только whether)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "I wonder if she remembers me.",
+                "ru": "Интересно, помнит ли она меня."
+              },
+              {
+                "en": "Can you check whether the door is locked?",
+                "ru": "Можешь проверить, заперта ли дверь?"
+              },
+              {
+                "en": "He asked if I was hungry.",
+                "ru": "Он спросил, голоден ли я."
+              },
+              {
+                "en": "I don't know whether to laugh or cry.",
+                "ru": "Не знаю, смеяться или плакать. (с to — только whether)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Только whether",
+      "label": "Где только whether",
       "intro": {
         "text": "Обычно if и whether взаимозаменяемы, но в нескольких местах подходит только whether.",
         "highlights": [
@@ -161,10 +257,39 @@
             "text": "Если if можно понять и как «если», и как «ли», пиши whether — двусмысленности не будет."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "If it rains, we'll stay at home.", "ru": "Если пойдёт дождь, останемся дома. («если» — без will)"}, {"en": "I don't know if it will rain.", "ru": "Не знаю, пойдёт ли дождь. («ли» — с will)"}, {"en": "Let me know if you need anything.", "ru": "Дай знать, если что-то понадобится."}, {"en": "Let me know whether you can come.", "ru": "Сообщи, сможешь ли прийти. (whether — без двусмысленности)"}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "If it rains, we'll stay at home.",
+                "ru": "Если пойдёт дождь, останемся дома. («если» — без will)"
+              },
+              {
+                "en": "I don't know if it will rain.",
+                "ru": "Не знаю, пойдёт ли дождь. («ли» — с will)"
+              },
+              {
+                "en": "Let me know if you need anything.",
+                "ru": "Дай знать, если что-то понадобится."
+              },
+              {
+                "en": "Let me know whether you can come.",
+                "ru": "Сообщи, сможешь ли прийти. (whether — без двусмысленности)"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Частые ошибки: Whether или if",
+      "label": "Частые ошибки: I don't know does he",
       "intro": {
         "text": "Самые частые ошибки с whether и if.",
         "highlights": [
@@ -182,23 +307,23 @@
           "errors": [
             {
               "wrong": "I don't know does he like it.",
-              "right": "I don't know if he likes it."
+              "right": "I don't know if he likes it. (порядок как в утверждении)"
             },
             {
               "wrong": "Ask him is he ready.",
-              "right": "Ask him if he's ready."
+              "right": "Ask him if he's ready. («ли» — if)"
             },
             {
               "wrong": "I'm not sure if to go.",
-              "right": "I'm not sure whether to go."
+              "right": "I'm not sure whether to go. (перед to — только whether)"
             },
             {
               "wrong": "It depends on if we have time.",
-              "right": "It depends on whether we have time."
+              "right": "It depends on whether we have time. (после предлога — whether)"
             },
             {
               "wrong": "Tell me whether is it true.",
-              "right": "Tell me whether it is true."
+              "right": "Tell me whether it is true. (без инверсии)"
             }
           ]
         }

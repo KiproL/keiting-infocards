@@ -3,13 +3,23 @@
   "route": "cards_renting",
   "slides": [
     {
-      "label": "Слова: аренда жилья",
+      "label": "Слова аренды: rent, deposit, landlord",
       "intro": {
-        "text": "Без этих слов не прочитать ни объявление, ни договор.",
+        "text": "Без этих слов не прочитать ни объявление, ни договор. Хозяин — landlord, жилец — tenant, залог — deposit.",
         "highlights": [
           {
             "text": "ни договор",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "landlord",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "tenant",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -101,7 +111,36 @@
             "text": "Русская «двушка» — обычно one-bedroom flat: гостиная плюс одна спальня. Two-bedroom — это уже две спальни и гостиная."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The rent is 800 pounds a month, bills included.", "ru": "Аренда — 800 фунтов в месяц, коммуналка включена."}, {"en": "We paid a deposit of one month's rent.", "ru": "Мы внесли залог в размере месячной платы."}, {"en": "Is the flat furnished?", "ru": "Квартира с мебелью?"}, {"en": "The landlord fixed the heating quickly.", "ru": "Хозяин быстро починил отопление."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The rent is 800 pounds a month, bills included.",
+                "ru": "Аренда — 800 фунтов в месяц, коммуналка включена."
+              },
+              {
+                "en": "We paid a deposit of one month's rent.",
+                "ru": "Мы внесли залог в размере месячной платы."
+              },
+              {
+                "en": "Is the flat furnished?",
+                "ru": "Квартира с мебелью?"
+              },
+              {
+                "en": "The landlord fixed the heating quickly.",
+                "ru": "Хозяин быстро починил отопление."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "label": "Вопросы хозяину",
@@ -246,7 +285,7 @@
       ]
     },
     {
-      "label": "Чего не говорить: аренда жилья",
+      "label": "Чего не говорить: two-room flat, my owner",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -264,23 +303,23 @@
           "errors": [
             {
               "wrong": "How much costs the flat?",
-              "right": "How much is the rent?"
+              "right": "How much is the rent? (снимаем — rent)"
             },
             {
               "wrong": "Is the flat with furniture?",
-              "right": "Is the flat furnished?"
+              "right": "Is the flat furnished? (с мебелью — furnished)"
             },
             {
               "wrong": "two-room flat (гостиная и спальня)",
-              "right": "one-bedroom flat"
+              "right": "one-bedroom flat (считают спальни)"
             },
             {
               "wrong": "communal payments",
-              "right": "bills, utilities"
+              "right": "bills, utilities (коммуналка)"
             },
             {
               "wrong": "my owner",
-              "right": "my landlord"
+              "right": "my landlord (хозяин жилья)"
             }
           ]
         }

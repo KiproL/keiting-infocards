@@ -7,9 +7,21 @@
       "intro": {
         "text": "There will be — будущее время конструкции There is / There are. Говорим, что что-то появится или произойдёт в будущем.",
         "highlights": [
-          { "text": "There will be", "color": "term",    "style": "bold_underline" },
-          { "text": "в будущем",      "color": "info",    "style": "bold" },
-          { "text": "появится",       "color": "example", "style": "bold" }
+          {
+            "text": "There will be",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "в будущем",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "появится",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,23 +30,120 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "There will be", "color": "info" },
-              { "text": "+",             "color": "muted" },
-              { "text": "предмет",       "color": "example" }
+              {
+                "text": "There will be",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "предмет",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["There will be", "предмет"], "decoys": ["V-ing", "V3"], "examples": [{"en": "There will be a party on Friday.", "ru": "В пятницу будет вечеринка.", "parts": [["There will be", "There will be"], ["a party", "предмет"], ["on Friday.", ""]]}, {"en": "There will be many people.", "ru": "Будет много людей.", "parts": [["There will be", "There will be"], ["many people.", "предмет"]]}, {"en": "There will be snow tomorrow.", "ru": "Завтра будет снег.", "parts": [["There will be", "There will be"], ["snow", "предмет"], ["tomorrow.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "There will be",
+                "предмет"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "There will be a party on Friday.",
+                  "ru": "В пятницу будет вечеринка.",
+                  "parts": [
+                    [
+                      "There will be",
+                      "There will be"
+                    ],
+                    [
+                      "a party",
+                      "предмет"
+                    ],
+                    [
+                      "on Friday.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "There will be many people.",
+                  "ru": "Будет много людей.",
+                  "parts": [
+                    [
+                      "There will be",
+                      "There will be"
+                    ],
+                    [
+                      "many people.",
+                      "предмет"
+                    ]
+                  ]
+                },
+                {
+                  "en": "There will be snow tomorrow.",
+                  "ru": "Завтра будет снег.",
+                  "parts": [
+                    [
+                      "There will be",
+                      "There will be"
+                    ],
+                    [
+                      "snow",
+                      "предмет"
+                    ],
+                    [
+                      "tomorrow.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Сравнение с настоящим",
           "borderColor": "info",
           "table": {
-            "headers": ["Сейчас", "В будущем", "Пример"],
-            "headerColors": ["info", "term", "example"],
+            "headers": [
+              "Сейчас",
+              "В будущем",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
             "rows": [
-              { "cells": ["There is",  "There will be", "There will be a party tomorrow."] },
-              { "cells": ["There are", "There will be", "There will be many people."] },
-              { "cells": ["There is",  "There will be", "There will be some rain."] }
+              {
+                "cells": [
+                  "There is",
+                  "There will be",
+                  "There will be a party tomorrow."
+                ]
+              },
+              {
+                "cells": [
+                  "There are",
+                  "There will be",
+                  "There will be many people."
+                ]
+              },
+              {
+                "cells": [
+                  "There is",
+                  "There will be",
+                  "There will be some rain."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -43,30 +152,82 @@
           "title": "Отрицание и вопрос",
           "borderColor": "bad",
           "rules": [
-            { "name": "There won't be",   "suffix": "не будет",  "example": "There won't be any problems." },
-            { "name": "There will be no","suffix": "формально",  "example": "There will be no delays." },
-            { "name": "Will there be…?",  "suffix": "вопрос",     "example": "Will there be food at the party?" }
+            {
+              "name": "There won't be",
+              "suffix": "не будет",
+              "example": "There won't be any problems."
+            },
+            {
+              "name": "There will be no",
+              "suffix": "формально",
+              "example": "There will be no delays."
+            },
+            {
+              "name": "Will there be…?",
+              "suffix": "вопрос",
+              "example": "Will there be food at the party?"
+            }
           ]
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "There will be a meeting tomorrow.",         "ru": "Завтра будет собрание." },
-            { "en": "There will be a lot of traffic tomorrow.",   "ru": "Завтра будет много машин." },
-            { "en": "There won't be any rain this weekend.",       "ru": "В эти выходные дождя не будет." },
-            { "en": "Will there be a test next week?",             "ru": "На следующей неделе будет тест?" }
+            {
+              "en": "There will be a meeting tomorrow.",
+              "ru": "Завтра будет собрание."
+            },
+            {
+              "en": "There will be a lot of traffic tomorrow.",
+              "ru": "Завтра будет много машин."
+            },
+            {
+              "en": "There won't be any rain this weekend.",
+              "ru": "В эти выходные дождя не будет."
+            },
+            {
+              "en": "Will there be a test next week?",
+              "ru": "На следующей неделе будет тест?"
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "There is going to be",
+          "preview": "когда уже есть признаки или план",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "examples": [
+              {
+                "en": "Look at the sky — there's going to be a storm.",
+                "ru": "Посмотри на небо — будет гроза. (видны признаки)"
+              },
+              {
+                "en": "There's going to be a meeting at five.",
+                "ru": "В пять будет совещание. (уже запланировано)"
+              },
+              {
+                "en": "I think there will be a lot of people.",
+                "ru": "Думаю, будет много людей. (просто мнение)"
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: There will be",
+      "label": "Частые ошибки: there will a party",
       "intro": {
         "text": "Три самые частые ошибки в конструкции There will be.",
         "highlights": [
-          { "text": "Три самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "Три самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -74,9 +235,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "There will a party.",          "right": "There will be a party." },
-            { "wrong": "There will be have a party.",   "right": "There will be a party." },
-            { "wrong": "Will there a meeting?",          "right": "Will there be a meeting?" }
+            {
+              "wrong": "There will a party.",
+              "right": "There will be a party. (be обязательно)"
+            },
+            {
+              "wrong": "There will be have a party.",
+              "right": "There will be a party. (have лишнее)"
+            },
+            {
+              "wrong": "Will there a meeting?",
+              "right": "Will there be a meeting? (be обязательно)"
+            }
           ]
         },
         {

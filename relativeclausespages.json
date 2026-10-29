@@ -3,7 +3,7 @@
   "route": "cards_relativeclauses",
   "slides": [
     {
-      "label": "who, which, that: какой именно",
+      "label": "Who, which, that: какой именно",
       "intro": {
         "text": "Придаточное определительное уточняет, КАКОЙ именно человек или предмет. Стоит сразу после существительного и начинается со слова who, which, that, whose, where или when.",
         "highlights": [
@@ -51,7 +51,86 @@
                 "color": "info"
               }
             ],
-            "accentColor": "term", "drill": {"slots": ["существительное", "who / which / that", "часть с глаголом"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I have a friend who speaks five languages.", "ru": "У меня есть друг, который говорит на пяти языках.", "parts": [["I have", ""], ["a friend", "существительное"], ["who", "who / which / that"], ["speaks five languages.", "часть с глаголом"]]}, {"en": "This is the book that I told you about.", "ru": "Это книга, о которой я тебе рассказывал.", "parts": [["This is", ""], ["the book", "существительное"], ["that", "who / which / that"], ["I told you about.", "часть с глаголом"]]}, {"en": "We stayed in a hotel which had a pool.", "ru": "Мы жили в отеле, в котором был бассейн.", "parts": [["We stayed in", ""], ["a hotel", "существительное"], ["which", "who / which / that"], ["had a pool.", "часть с глаголом"]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "существительное",
+                "who / which / that",
+                "часть с глаголом"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I have a friend who speaks five languages.",
+                  "ru": "У меня есть друг, который говорит на пяти языках.",
+                  "parts": [
+                    [
+                      "I have",
+                      ""
+                    ],
+                    [
+                      "a friend",
+                      "существительное"
+                    ],
+                    [
+                      "who",
+                      "who / which / that"
+                    ],
+                    [
+                      "speaks five languages.",
+                      "часть с глаголом"
+                    ]
+                  ]
+                },
+                {
+                  "en": "This is the book that I told you about.",
+                  "ru": "Это книга, о которой я тебе рассказывал.",
+                  "parts": [
+                    [
+                      "This is",
+                      ""
+                    ],
+                    [
+                      "the book",
+                      "существительное"
+                    ],
+                    [
+                      "that",
+                      "who / which / that"
+                    ],
+                    [
+                      "I told you about.",
+                      "часть с глаголом"
+                    ]
+                  ]
+                },
+                {
+                  "en": "We stayed in a hotel which had a pool.",
+                  "ru": "Мы жили в отеле, в котором был бассейн.",
+                  "parts": [
+                    [
+                      "We stayed in",
+                      ""
+                    ],
+                    [
+                      "a hotel",
+                      "существительное"
+                    ],
+                    [
+                      "which",
+                      "who / which / that"
+                    ],
+                    [
+                      "had a pool.",
+                      "часть с глаголом"
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
@@ -72,10 +151,39 @@
             }
           ]
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The girl who sits next to me is from Spain.", "ru": "Девушка, которая сидит рядом со мной, из Испании."}, {"en": "Is this the bag that you lost?", "ru": "Это та сумка, которую ты потерял?"}, {"en": "That's the man whose dog bit me.", "ru": "Вот человек, чья собака меня укусила."}, {"en": "I remember the day when we first met.", "ru": "Я помню день, когда мы впервые встретились."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The girl who sits next to me is from Spain.",
+                "ru": "Девушка, которая сидит рядом со мной, из Испании."
+              },
+              {
+                "en": "Is this the bag that you lost?",
+                "ru": "Это та сумка, которую ты потерял?"
+              },
+              {
+                "en": "That's the man whose dog bit me.",
+                "ru": "Вот человек, чья собака меня укусила."
+              },
+              {
+                "en": "I remember the day when we first met.",
+                "ru": "Я помню день, когда мы впервые встретились."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Какое слово",
+      "label": "Какое слово: who, which, whose, where",
       "intro": {
         "text": "Слово выбирают по тому, о ком или о чём речь: о людях — who, о вещах — which, that подходит к обоим.",
         "highlights": [
@@ -230,10 +338,39 @@
             "text": "My mother, who is a doctor, … — здесь that нельзя."
           }
         }
-      ], "expandables": [{"label": "Ещё примеры", "preview": "4 примера в речи", "initiallyExpanded": false, "section": {"title": "", "borderColor": "good", "examples": [{"en": "The students who passed the test got a certificate.", "ru": "Студенты, которые сдали тест, получили сертификат. (не все — без запятых)"}, {"en": "My car, which is ten years old, still runs well.", "ru": "Моя машина, которой десять лет, всё ещё ездит. (добавка — с запятыми)"}, {"en": "Moscow, which is the capital of Russia, is huge.", "ru": "Москва, столица России, огромна."}, {"en": "The book that I'm reading is very funny.", "ru": "Книга, которую я читаю, очень смешная."}]}}]
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The students who passed the test got a certificate.",
+                "ru": "Студенты, которые сдали тест, получили сертификат. (не все — без запятых)"
+              },
+              {
+                "en": "My car, which is ten years old, still runs well.",
+                "ru": "Моя машина, которой десять лет, всё ещё ездит. (добавка — с запятыми)"
+              },
+              {
+                "en": "Moscow, which is the capital of Russia, is huge.",
+                "ru": "Москва, столица России, огромна."
+              },
+              {
+                "en": "The book that I'm reading is very funny.",
+                "ru": "Книга, которую я читаю, очень смешная."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "label": "Когда слово убрать",
+      "label": "Когда who / which можно убрать",
       "intro": {
         "text": "Who, which, that можно опустить, если сразу за ними идёт другое подлежащее (I, you, she, Tom). Если за ними сразу глагол — оставляем.",
         "highlights": [
@@ -311,10 +448,35 @@
             }
           ]
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "3 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The film we saw was great.",
+                "ru": "Фильм, который мы посмотрели, был отличный. (that убрали — дальше we)"
+              },
+              {
+                "en": "Is this the key you were looking for?",
+                "ru": "Это тот ключ, который ты искал? (предлог в конце)"
+              },
+              {
+                "en": "The woman who helped me was very kind.",
+                "ru": "Женщина, которая мне помогла, была очень доброй. (who нельзя убрать — дальше глагол)"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Частые ошибки: Relative Clauses",
+      "label": "Частые ошибки: man which, film that I saw it",
       "intro": {
         "text": "Самые частые ошибки в придаточных.",
         "highlights": [
@@ -332,27 +494,27 @@
           "errors": [
             {
               "wrong": "The man which called…",
-              "right": "The man who called…"
+              "right": "The man who called… (о людях — who)"
             },
             {
               "wrong": "The book who I read…",
-              "right": "The book which / that I read…"
+              "right": "The book which / that I read… (о вещах — which / that)"
             },
             {
               "wrong": "My mother, that is a doctor, …",
-              "right": "My mother, who is a doctor, …"
+              "right": "My mother, who is a doctor, … (с запятыми that нельзя)"
             },
             {
               "wrong": "The film that I saw it was good.",
-              "right": "The film that I saw was good."
+              "right": "The film that I saw was good. (it лишнее — его заменяет that)"
             },
             {
               "wrong": "The city where I was born in…",
-              "right": "The city where I was born… / The city I was born in…"
+              "right": "The city where I was born… / The city I was born in… (where уже значит «в котором»)"
             },
             {
               "wrong": "The boy who's dog ran away…",
-              "right": "The boy whose dog ran away…"
+              "right": "The boy whose dog ran away… (чей — whose)"
             }
           ]
         }

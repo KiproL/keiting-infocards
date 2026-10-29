@@ -3,7 +3,7 @@
   "route": "cards_videocalls",
   "slides": [
     {
-      "label": "Связь",
+      "label": "Связь: Can you hear me? You're on mute",
       "intro": {
         "text": "Половина любого созвона — про связь: слышно ли, видно ли экран, не завис ли кто-то.",
         "highlights": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "label": "Ведение встречи",
+      "label": "Ведение онлайн-встречи",
       "intro": {
         "text": "Фразы для начала, середины и конца онлайн-встречи.",
         "highlights": [
@@ -136,10 +136,39 @@
             ]
           }
         }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "Hi everyone, can you all hear me?",
+                "ru": "Всем привет, всем меня слышно?"
+              },
+              {
+                "en": "Sorry, you go first.",
+                "ru": "Простите, говорите вы."
+              },
+              {
+                "en": "Let me just turn my camera on.",
+                "ru": "Сейчас включу камеру."
+              },
+              {
+                "en": "Thanks, everyone. Talk soon!",
+                "ru": "Всем спасибо. До связи!"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "label": "Чего не говорить: видеозвонки",
+      "label": "Чего не говорить: Do you hear me, micro",
       "intro": {
         "text": "Чего не говорить: частые ошибки русскоговорящих.",
         "highlights": [
@@ -157,23 +186,23 @@
           "errors": [
             {
               "wrong": "Do you hear me?",
-              "right": "Can you hear me?"
+              "right": "Can you hear me? (о связи — can)"
             },
             {
               "wrong": "You are not heard.",
-              "right": "We can't hear you."
+              "right": "We can't hear you. (так говорят)"
             },
             {
               "wrong": "Turn on your micro.",
-              "right": "Unmute yourself. / Turn your mic on."
+              "right": "Unmute yourself. / Turn your mic on. (микрофон — mic)"
             },
             {
               "wrong": "I will demonstrate my screen.",
-              "right": "I'll share my screen."
+              "right": "I'll share my screen. (показать экран — share)"
             },
             {
               "wrong": "My internet is falling.",
-              "right": "My connection keeps dropping."
+              "right": "My connection keeps dropping. (связь — connection)"
             }
           ]
         }

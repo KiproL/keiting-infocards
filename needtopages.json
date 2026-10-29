@@ -3,13 +3,25 @@
   "route": "cards_needto",
   "slides": [
     {
-      "label": "need to: мне нужно",
+      "label": "Need to: мне нужно",
       "intro": {
         "text": "Need to говорит, что что-то нужно сделать. Это необходимость для себя — внутренняя потребность, а не внешняя обязанность.",
         "highlights": [
-          { "text": "Need to",       "color": "term",    "style": "bold_underline" },
-          { "text": "нужно",          "color": "info",    "style": "bold" },
-          { "text": "внутренняя потребность", "color": "example", "style": "bold" }
+          {
+            "text": "Need to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "нужно",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "внутренняя потребность",
+            "color": "example",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,24 +30,139 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "need to", "color": "info" },
-              { "text": "+",       "color": "muted" },
-              { "text": "глагол",  "color": "example" }
+              {
+                "text": "need to",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["need to", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I need to buy some milk.", "ru": "Мне нужно купить молока.", "parts": [["I", ""], ["need to", "need to"], ["buy", "глагол"], ["some milk.", ""]]}, {"en": "You need to rest.", "ru": "Тебе нужно отдохнуть.", "parts": [["You", ""], ["need to", "need to"], ["rest.", "глагол"]]}, {"en": "She needs to call her mum.", "ru": "Ей нужно позвонить маме.", "parts": [["She", ""], ["needs to", "need to"], ["call", "глагол"], ["her mum.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "need to",
+                "глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I need to buy some milk.",
+                  "ru": "Мне нужно купить молока.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "need to",
+                      "need to"
+                    ],
+                    [
+                      "buy",
+                      "глагол"
+                    ],
+                    [
+                      "some milk.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "You need to rest.",
+                  "ru": "Тебе нужно отдохнуть.",
+                  "parts": [
+                    [
+                      "You",
+                      ""
+                    ],
+                    [
+                      "need to",
+                      "need to"
+                    ],
+                    [
+                      "rest.",
+                      "глагол"
+                    ]
+                  ]
+                },
+                {
+                  "en": "She needs to call her mum.",
+                  "ru": "Ей нужно позвонить маме.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "needs to",
+                      "need to"
+                    ],
+                    [
+                      "call",
+                      "глагол"
+                    ],
+                    [
+                      "her mum.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "По временам",
           "borderColor": "info",
           "table": {
-            "headers": ["Время", "Форма", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Время",
+              "Форма",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["Present", "need to / needs to", "I need to work. She needs to work."] },
-              { "cells": ["Past",    "needed to",            "I needed to work yesterday."] },
-              { "cells": ["Future",  "will need to",         "I will need to work tomorrow."] },
-              { "cells": ["Отрицание","don't need to",        "You don't need to come."] }
+              {
+                "cells": [
+                  "Present",
+                  "need to / needs to",
+                  "I need to work. She needs to work."
+                ]
+              },
+              {
+                "cells": [
+                  "Past",
+                  "needed to",
+                  "I needed to work yesterday."
+                ]
+              },
+              {
+                "cells": [
+                  "Future",
+                  "will need to",
+                  "I will need to work tomorrow."
+                ]
+              },
+              {
+                "cells": [
+                  "Отрицание",
+                  "don't need to",
+                  "You don't need to come."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -44,21 +171,90 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I need to call my mom.",           "ru": "Мне нужно позвонить маме." },
-            { "en": "She needs to study for the exam.",  "ru": "Ей нужно готовиться к экзамену." },
-            { "en": "We needed to leave early.",          "ru": "Нам нужно было уйти рано." },
-            { "en": "You don't need to bring anything.",  "ru": "Тебе не нужно ничего приносить." }
+            {
+              "en": "I need to call my mom.",
+              "ru": "Мне нужно позвонить маме."
+            },
+            {
+              "en": "She needs to study for the exam.",
+              "ru": "Ей нужно готовиться к экзамену."
+            },
+            {
+              "en": "We needed to leave early.",
+              "ru": "Нам нужно было уйти рано."
+            },
+            {
+              "en": "You don't need to bring anything.",
+              "ru": "Тебе не нужно ничего приносить."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Need + существительное и needn't",
+          "preview": "другие формы need",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Форма",
+                "Смысл",
+                "Пример"
+              ],
+              "headerColors": [
+                "term",
+                "muted",
+                "example"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "need + сущ.",
+                    "нужно что-то",
+                    "I need a new phone."
+                  ]
+                },
+                {
+                  "cells": [
+                    "need to + глагол",
+                    "нужно сделать",
+                    "I need to buy a phone."
+                  ]
+                },
+                {
+                  "cells": [
+                    "don't need to",
+                    "не нужно",
+                    "You don't need to pay."
+                  ]
+                },
+                {
+                  "cells": [
+                    "needn't",
+                    "не нужно (брит.)",
+                    "You needn't worry."
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Need to",
+      "label": "Частые ошибки: need go, he need",
       "intro": {
         "text": "Три самые частые ошибки в need to.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -66,9 +262,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I need go to the bank.",  "right": "I need to go to the bank." },
-            { "wrong": "He need to work.",         "right": "He needs to work." },
-            { "wrong": "I no need to pay.",        "right": "I don't need to pay." }
+            {
+              "wrong": "I need go to the bank.",
+              "right": "I need to go to the bank. (need + to)"
+            },
+            {
+              "wrong": "He need to work.",
+              "right": "He needs to work. (he → needs)"
+            },
+            {
+              "wrong": "I no need to pay.",
+              "right": "I don't need to pay. (отрицание — don't)"
+            }
           ]
         },
         {

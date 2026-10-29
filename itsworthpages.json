@@ -3,14 +3,30 @@
   "route": "cards_itsworth",
   "slides": [
     {
-      "label": "Стоит или бесполезно: + -ing",
+      "label": "Стоит или бесполезно: worth, no use, no point",
       "intro": {
         "text": "Три конструкции про оценку действия: стоит ли его делать. После всех трёх — -ing. It's worth — стоит. It's no use и There's no point in — бесполезно, не имеет смысла.",
         "highlights": [
-          { "text": "It's worth",       "color": "good",    "style": "bold" },
-          { "text": "It's no use",       "color": "bad",     "style": "bold" },
-          { "text": "There's no point in","color": "info",    "style": "bold" },
-          { "text": "-ing",              "color": "example", "style": "bold_underline" }
+          {
+            "text": "It's worth",
+            "color": "good",
+            "style": "bold"
+          },
+          {
+            "text": "It's no use",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
+            "text": "There's no point in",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "-ing",
+            "color": "example",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -20,27 +36,236 @@
           "formulas": [
             {
               "parts": [
-                { "text": "It's worth", "color": "good" },
-                { "text": "+",          "color": "muted" },
-                { "text": "-ing",       "color": "example" }
+                {
+                  "text": "It's worth",
+                  "color": "good"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "-ing",
+                  "color": "example"
+                }
               ],
-              "accentColor": "good", "drill": {"slots": ["It's worth", "-ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "It's worth visiting the museum.", "ru": "Этот музей стоит посетить.", "parts": [["It's worth", "It's worth"], ["visiting", "-ing"], ["the museum.", ""]]}, {"en": "It's worth trying.", "ru": "Стоит попробовать.", "parts": [["It's worth", "It's worth"], ["trying.", "-ing"]]}, {"en": "It's worth reading this book.", "ru": "Эту книгу стоит прочитать.", "parts": [["It's worth", "It's worth"], ["reading", "-ing"], ["this book.", ""]]}]}
+              "accentColor": "good",
+              "drill": {
+                "slots": [
+                  "It's worth",
+                  "-ing"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "It's worth visiting the museum.",
+                    "ru": "Этот музей стоит посетить.",
+                    "parts": [
+                      [
+                        "It's worth",
+                        "It's worth"
+                      ],
+                      [
+                        "visiting",
+                        "-ing"
+                      ],
+                      [
+                        "the museum.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "It's worth trying.",
+                    "ru": "Стоит попробовать.",
+                    "parts": [
+                      [
+                        "It's worth",
+                        "It's worth"
+                      ],
+                      [
+                        "trying.",
+                        "-ing"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "It's worth reading this book.",
+                    "ru": "Эту книгу стоит прочитать.",
+                    "parts": [
+                      [
+                        "It's worth",
+                        "It's worth"
+                      ],
+                      [
+                        "reading",
+                        "-ing"
+                      ],
+                      [
+                        "this book.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
-                { "text": "It's no use", "color": "bad" },
-                { "text": "+",           "color": "muted" },
-                { "text": "-ing",        "color": "example" }
+                {
+                  "text": "It's no use",
+                  "color": "bad"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "-ing",
+                  "color": "example"
+                }
               ],
-              "accentColor": "bad", "drill": {"slots": ["It's no use", "-ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "It's no use crying.", "ru": "Плакать бесполезно.", "parts": [["It's no use", "It's no use"], ["crying.", "-ing"]]}, {"en": "It's no use calling him now.", "ru": "Звонить ему сейчас бесполезно.", "parts": [["It's no use", "It's no use"], ["calling", "-ing"], ["him now.", ""]]}, {"en": "It's no use arguing with her.", "ru": "Спорить с ней бесполезно.", "parts": [["It's no use", "It's no use"], ["arguing", "-ing"], ["with her.", ""]]}]}
+              "accentColor": "bad",
+              "drill": {
+                "slots": [
+                  "It's no use",
+                  "-ing"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "It's no use crying.",
+                    "ru": "Плакать бесполезно.",
+                    "parts": [
+                      [
+                        "It's no use",
+                        "It's no use"
+                      ],
+                      [
+                        "crying.",
+                        "-ing"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "It's no use calling him now.",
+                    "ru": "Звонить ему сейчас бесполезно.",
+                    "parts": [
+                      [
+                        "It's no use",
+                        "It's no use"
+                      ],
+                      [
+                        "calling",
+                        "-ing"
+                      ],
+                      [
+                        "him now.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "It's no use arguing with her.",
+                    "ru": "Спорить с ней бесполезно.",
+                    "parts": [
+                      [
+                        "It's no use",
+                        "It's no use"
+                      ],
+                      [
+                        "arguing",
+                        "-ing"
+                      ],
+                      [
+                        "with her.",
+                        ""
+                      ]
+                    ]
+                  }
+                ]
+              }
             },
             {
               "parts": [
-                { "text": "There's no point in", "color": "info" },
-                { "text": "+",                   "color": "muted" },
-                { "text": "-ing",                "color": "example" }
+                {
+                  "text": "There's no point in",
+                  "color": "info"
+                },
+                {
+                  "text": "+",
+                  "color": "muted"
+                },
+                {
+                  "text": "-ing",
+                  "color": "example"
+                }
               ],
-              "accentColor": "info", "drill": {"slots": ["There's no point in", "-ing"], "decoys": ["V-ing", "V3"], "examples": [{"en": "There's no point in waiting.", "ru": "Ждать нет смысла.", "parts": [["There's no point in", "There's no point in"], ["waiting.", "-ing"]]}, {"en": "There's no point in going now.", "ru": "Сейчас идти нет смысла.", "parts": [["There's no point in", "There's no point in"], ["going", "-ing"], ["now.", ""]]}, {"en": "There's no point in worrying.", "ru": "Нет смысла волноваться.", "parts": [["There's no point in", "There's no point in"], ["worrying.", "-ing"]]}]}
+              "accentColor": "info",
+              "drill": {
+                "slots": [
+                  "There's no point in",
+                  "-ing"
+                ],
+                "decoys": [
+                  "V-ing",
+                  "V3"
+                ],
+                "examples": [
+                  {
+                    "en": "There's no point in waiting.",
+                    "ru": "Ждать нет смысла.",
+                    "parts": [
+                      [
+                        "There's no point in",
+                        "There's no point in"
+                      ],
+                      [
+                        "waiting.",
+                        "-ing"
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "There's no point in going now.",
+                    "ru": "Сейчас идти нет смысла.",
+                    "parts": [
+                      [
+                        "There's no point in",
+                        "There's no point in"
+                      ],
+                      [
+                        "going",
+                        "-ing"
+                      ],
+                      [
+                        "now.",
+                        ""
+                      ]
+                    ]
+                  },
+                  {
+                    "en": "There's no point in worrying.",
+                    "ru": "Нет смысла волноваться.",
+                    "parts": [
+                      [
+                        "There's no point in",
+                        "There's no point in"
+                      ],
+                      [
+                        "worrying.",
+                        "-ing"
+                      ]
+                    ]
+                  }
+                ]
+              }
             }
           ]
         },
@@ -48,12 +273,38 @@
           "title": "Сравнение",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["It's worth + -ing",        "стоит сделать",     "It's worth reading this book."] },
-              { "cells": ["It's no use + -ing",        "бесполезно",         "It's no use crying."] },
-              { "cells": ["There's no point in + -ing","нет смысла",         "There's no point in waiting."] }
+              {
+                "cells": [
+                  "It's worth + -ing",
+                  "стоит сделать",
+                  "It's worth reading this book."
+                ]
+              },
+              {
+                "cells": [
+                  "It's no use + -ing",
+                  "бесполезно",
+                  "It's no use crying."
+                ]
+              },
+              {
+                "cells": [
+                  "There's no point in + -ing",
+                  "нет смысла",
+                  "There's no point in waiting."
+                ]
+              }
             ],
             "borderColor": "info"
           }
@@ -62,21 +313,65 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "It's worth visiting the museum.",         "ru": "Стоит посетить этот музей." },
-            { "en": "It's worth trying again.",                 "ru": "Стоит попробовать ещё раз." },
-            { "en": "It's no use arguing with him.",            "ru": "Бесполезно с ним спорить." },
-            { "en": "There's no point in waiting any longer.",  "ru": "Нет смысла ждать дальше." }
+            {
+              "en": "It's worth visiting the museum.",
+              "ru": "Стоит посетить этот музей."
+            },
+            {
+              "en": "It's worth trying again.",
+              "ru": "Стоит попробовать ещё раз."
+            },
+            {
+              "en": "It's no use arguing with him.",
+              "ru": "Бесполезно с ним спорить."
+            },
+            {
+              "en": "There's no point in waiting any longer.",
+              "ru": "Нет смысла ждать дальше."
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Ещё примеры",
+          "preview": "4 примера в речи",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "good",
+            "examples": [
+              {
+                "en": "The film is worth seeing.",
+                "ru": "Фильм стоит посмотреть."
+              },
+              {
+                "en": "It's not worth the money.",
+                "ru": "Оно того не стоит. (+ существительное)"
+              },
+              {
+                "en": "There's no point in worrying.",
+                "ru": "Нет смысла переживать."
+              },
+              {
+                "en": "It's no use calling — he's asleep.",
+                "ru": "Бесполезно звонить — он спит."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: It's worth / no use / no point",
+      "label": "Частые ошибки: worth to read, no point to wait",
       "intro": {
         "text": "Три самые частые ошибки в этих конструкциях.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -84,9 +379,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "It's worth to read this book.",         "right": "It's worth reading this book." },
-            { "wrong": "It's no use to cry.",                    "right": "It's no use crying." },
-            { "wrong": "There's no point to wait.",              "right": "There's no point in waiting." }
+            {
+              "wrong": "It's worth to read this book.",
+              "right": "It's worth reading this book. (worth + -ing)"
+            },
+            {
+              "wrong": "It's no use to cry.",
+              "right": "It's no use crying. (no use + -ing)"
+            },
+            {
+              "wrong": "There's no point to wait.",
+              "right": "There's no point in waiting. (no point in + -ing)"
+            }
           ]
         },
         {

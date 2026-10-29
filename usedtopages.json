@@ -3,13 +3,25 @@
   "route": "cards_usedto",
   "slides": [
     {
-      "label": "used to: раньше было, теперь нет",
+      "label": "Used to: раньше было, теперь нет",
       "intro": {
         "text": "Used to используется только для прошедших привычек и фактов. Значит: раньше было так, а сейчас уже нет.",
         "highlights": [
-          { "text": "used to",     "color": "term",    "style": "bold_underline" },
-          { "text": "раньше было",  "color": "info",    "style": "bold" },
-          { "text": "уже нет",      "color": "bad",     "style": "bold" }
+          {
+            "text": "used to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "раньше было",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "уже нет",
+            "color": "bad",
+            "style": "bold"
+          }
         ]
       },
       "sections": [
@@ -18,23 +30,136 @@
           "borderColor": "term",
           "formulaCard": {
             "parts": [
-              { "text": "used to", "color": "info" },
-              { "text": "+",       "color": "muted" },
-              { "text": "глагол",  "color": "example" }
+              {
+                "text": "used to",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол",
+                "color": "example"
+              }
             ],
-            "accentColor": "term", "drill": {"slots": ["used to", "глагол"], "decoys": ["V-ing", "V3"], "examples": [{"en": "I used to play the piano.", "ru": "Раньше я играл на пианино.", "parts": [["I", ""], ["used to", "used to"], ["play", "глагол"], ["the piano.", ""]]}, {"en": "She used to live in Spain.", "ru": "Раньше она жила в Испании.", "parts": [["She", ""], ["used to", "used to"], ["live", "глагол"], ["in Spain.", ""]]}, {"en": "We used to go there every summer.", "ru": "Раньше мы ездили туда каждое лето.", "parts": [["We", ""], ["used to", "used to"], ["go", "глагол"], ["there every summer.", ""]]}]}
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "used to",
+                "глагол"
+              ],
+              "decoys": [
+                "V-ing",
+                "V3"
+              ],
+              "examples": [
+                {
+                  "en": "I used to play the piano.",
+                  "ru": "Раньше я играл на пианино.",
+                  "parts": [
+                    [
+                      "I",
+                      ""
+                    ],
+                    [
+                      "used to",
+                      "used to"
+                    ],
+                    [
+                      "play",
+                      "глагол"
+                    ],
+                    [
+                      "the piano.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She used to live in Spain.",
+                  "ru": "Раньше она жила в Испании.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "used to",
+                      "used to"
+                    ],
+                    [
+                      "live",
+                      "глагол"
+                    ],
+                    [
+                      "in Spain.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We used to go there every summer.",
+                  "ru": "Раньше мы ездили туда каждое лето.",
+                  "parts": [
+                    [
+                      "We",
+                      ""
+                    ],
+                    [
+                      "used to",
+                      "used to"
+                    ],
+                    [
+                      "go",
+                      "глагол"
+                    ],
+                    [
+                      "there every summer.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
           }
         },
         {
           "title": "Формы",
           "borderColor": "info",
           "table": {
-            "headers": ["Форма", "Смысл", "Пример"],
-            "headerColors": ["info", "example", "term"],
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "example",
+              "term"
+            ],
             "rows": [
-              { "cells": ["used to + глагол", "раньше делал",     "I used to run every morning."] },
-              { "cells": ["didn't use to",     "раньше не делал", "I didn't use to like coffee."] },
-              { "cells": ["Did you use to…?",  "вопрос",           "Did you use to live here?"] }
+              {
+                "cells": [
+                  "used to + глагол",
+                  "раньше делал",
+                  "I used to run every morning."
+                ]
+              },
+              {
+                "cells": [
+                  "didn't use to",
+                  "раньше не делал",
+                  "I didn't use to like coffee."
+                ]
+              },
+              {
+                "cells": [
+                  "Did you use to…?",
+                  "вопрос",
+                  "Did you use to live here?"
+                ]
+              }
             ],
             "borderColor": "info"
           },
@@ -48,21 +173,83 @@
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
-            { "en": "I used to have long hair.",       "ru": "Раньше у меня были длинные волосы." },
-            { "en": "She used to work in a bank.",      "ru": "Раньше она работала в банке." },
-            { "en": "We didn't use to have a car.",     "ru": "Раньше у нас не было машины." },
-            { "en": "Did you use to play football?",    "ru": "Ты раньше играл в футбол?" }
+            {
+              "en": "I used to have long hair.",
+              "ru": "Раньше у меня были длинные волосы."
+            },
+            {
+              "en": "She used to work in a bank.",
+              "ru": "Раньше она работала в банке."
+            },
+            {
+              "en": "We didn't use to have a car.",
+              "ru": "Раньше у нас не было машины."
+            },
+            {
+              "en": "Did you use to play football?",
+              "ru": "Ты раньше играл в футбол?"
+            }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Used to или would",
+          "preview": "привычки и состояния в прошлом",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Что",
+                "used to",
+                "would"
+              ],
+              "headerColors": [
+                "muted",
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "повторявшееся действие",
+                    "I used to swim every day.",
+                    "I would swim every day."
+                  ]
+                },
+                {
+                  "cells": [
+                    "состояние, факт",
+                    "I used to have a dog.",
+                    "— нельзя"
+                  ]
+                },
+                {
+                  "cells": [
+                    "одно событие",
+                    "— нельзя",
+                    "— нельзя (только Past Simple)"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          }
         }
       ]
     },
-
     {
-      "label": "Частые ошибки: Used to",
+      "label": "Частые ошибки: use to, used to living",
       "intro": {
         "text": "Три самые частые ошибки в used to.",
         "highlights": [
-          { "text": "самые частые", "color": "bad", "style": "bold_underline" }
+          {
+            "text": "самые частые",
+            "color": "bad",
+            "style": "bold_underline"
+          }
         ]
       },
       "sections": [
@@ -70,9 +257,18 @@
           "title": "Слева — нельзя, справа — правильно",
           "borderColor": "bad",
           "errors": [
-            { "wrong": "I use to live in Paris.",       "right": "I used to live in Paris." },
-            { "wrong": "I used to living in Paris.",     "right": "I used to live in Paris." },
-            { "wrong": "I didn't used to like coffee.",  "right": "I didn't use to like coffee." }
+            {
+              "wrong": "I use to live in Paris.",
+              "right": "I used to live in Paris. (в утверждении — used)"
+            },
+            {
+              "wrong": "I used to living in Paris.",
+              "right": "I used to live in Paris. (после used to — глагол без -ing)"
+            },
+            {
+              "wrong": "I didn't used to like coffee.",
+              "right": "I didn't use to like coffee. (после did — use)"
+            }
           ]
         },
         {
