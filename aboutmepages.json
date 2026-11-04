@@ -313,5 +313,31 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "prerequisites": [],
+  "related_words": [
+    "word_from",
+    "word_live"
+  ],
+  "topics": [
+    "служебные слова и местоимения",
+    "глаголы и действия"
+  ],
+  "error_patterns": [
+    {
+      "id": "error:aboutme.origin_from",
+      "description": "Для указания происхождения используется from",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": [
+        "of",
+        "in"
+      ]
+    }
+  ],
+  "prerequisites_reviewed": true,
+  "editorial_review_scope": "metadata_only"
 }

@@ -179,6 +179,25 @@
           }
         },
         {
+          "title": "Как описать картинку",
+          "text": "Сначала назови того, кто действует. Затем выбери am, is или are. Наконец добавь действие с -ing. По одной картинке видно действие сейчас, но нельзя надёжно узнать привычку человека.",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The woman is reading a book.",
+              "ru": "Женщина читает книгу сейчас."
+            },
+            {
+              "en": "The man is riding a bike.",
+              "ru": "Мужчина едет на велосипеде."
+            },
+            {
+              "en": "Two people are spending time in the park.",
+              "ru": "Два человека проводят время в парке. Для двух людей нужно are."
+            }
+          ]
+        },
+        {
           "title": "Ключевые маркеры",
           "borderColor": "good",
           "verbGrid": {
@@ -277,7 +296,7 @@
     {
       "label": "Утверждение, отрицание, вопрос",
       "intro": {
-        "text": "Am, is или are выбираются по тому, кто действует: I am, she is, they are. После них — всегда глагол с -ing.",
+        "text": "В Present Continuous am, is или are выбираются по тому, кто действует: I am, she is, they are. В этой конструкции после них нужен смысловой глагол с -ing. В других предложениях be может соединяться с прилагательным: She is tired.",
         "highlights": [
           {
             "text": "Am, is или are",
@@ -640,6 +659,21 @@
             ],
             "borderColor": "term"
           }
+        },
+        {
+          "title": "Короткий ответ без лишнего повтора",
+          "text": "В коротком ответе повторяется am/is/are. Утвердительное is нельзя сокращать в конце ответа: Yes, she is. Отрицательный вариант можно сократить.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "Is Mia reading? — Yes, she is.",
+              "ru": "Мия читает? — Да."
+            },
+            {
+              "en": "Are they running? — No, they aren’t.",
+              "ru": "Они бегут? — Нет."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -710,9 +744,9 @@
               "example": "make → making, write → writing"
             },
             {
-              "name": "Гласная + согл. в конце",
-              "suffix": "удвоение + ing",
-              "example": "run → running, sit → sitting"
+              "name": "Короткая ударная гласная + одна согласная",
+              "suffix": "последняя согласная удваивается; не w, x, y",
+              "example": "run → running, begin → beginning; open → opening, fix → fixing"
             },
             {
               "name": "Глаголы на -ie",
@@ -776,11 +810,26 @@
               "ru": "Он сидит у окна. (sit → sitting)"
             }
           ]
+        },
+        {
+          "title": "Проверь последний слог",
+          "text": "У run один слог: перед n стоит одна короткая гласная, поэтому running. В begin ударение на последнем слоге: beginning. В open последний слог без ударения: opening. После двух гласных удвоение не требуется: rain → raining. В британском написании travel → travelling, в американском — traveling; оба варианта правильные.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "She is opening the green bag.",
+              "ru": "Она открывает зелёную сумку: opening с одной n."
+            },
+            {
+              "en": "He is sitting beside the desk.",
+              "ru": "Он сидит рядом со столом: sitting с двумя t."
+            }
+          ]
         }
       ]
     },
     {
-      "label": "Глаголы, которые не ставят в -ing",
+      "label": "Глаголы состояния: когда Continuous не подходит",
       "intro": {
         "text": "Некоторые глаголы описывают не действие, а состояние: чувства, мысли, обладание, восприятие. Их обычно не ставят в Present Continuous: I know, а не I'm knowing.",
         "highlights": [
@@ -868,6 +917,21 @@
             {
               "en": "This sounds great.",
               "ru": "Это звучит отлично."
+            }
+          ]
+        },
+        {
+          "title": "Смысл важнее списка",
+          "text": "Одно и то же слово может обозначать состояние или действие. Have в значении «владеть» обычно не ставится в Continuous, а have lunch описывает действие. В разговоре встречается I’m loving this — говорящий подчёркивает текущее впечатление. Это не повод добавлять -ing к любому глаголу: I know the answer остаётся обычным вариантом.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I have a blue bike.",
+              "ru": "У меня есть синий велосипед — обладание."
+            },
+            {
+              "en": "I’m having a short break.",
+              "ru": "Я сейчас отдыхаю — действие."
             }
           ]
         }
@@ -1040,13 +1104,24 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Если можно добавить «прямо сейчас» — Continuous. Если «обычно, всегда» — Simple."
+            "text": "Спроси: это действие в процессе или привычка/состояние? Слово now само по себе не решает: I understand now — состояние, поэтому Simple. Действие может быть временным и без now: She is working from home this month."
           },
           "quote": {
             "text": "Simple — про привычки. Continuous — про моменты.",
             "author": "правило большого пальца",
             "accentColor": "accent2"
           }
+        },
+        {
+          "title": "Найди доказательство в тексте",
+          "text": "Usually описывает обычный распорядок, а today может обозначать исключение. Сравни оба предложения и назови причину изменения, если она дана. Не придумывай её по картинке.",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Ben usually takes the bus. Today he is cycling because the bus is not running.",
+              "ru": "Обычно Бен ездит на автобусе. Сегодня он едет на велосипеде, потому что автобус не ходит."
+            }
+          ]
         }
       ]
     },
@@ -1103,7 +1178,7 @@
           "callout": {
             "type": "tip",
             "title": "Правило большого пальца",
-            "text": "Am — для I. Is — для he / she / it. Are — для you / we / they. После них всегда V-ing, никогда начальная форма."
+            "text": "Для Present Continuous проверь три вещи: кто действует, подходящее am/is/are и действие с -ing. Не переноси это правило на любое предложение с be: She is happy — правильное предложение без -ing."
           },
           "quote": {
             "text": "Три формы to be — и всё работает как часы.",
@@ -1111,6 +1186,57 @@
             "accentColor": "accent2"
           }
         }
+      ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "targeted_content_and_applied_exercises",
+  "related_words": [
+    "word_read",
+    "word_ride",
+    "word_book",
+    "word_bicycle",
+    "word_park"
+  ],
+  "topics": [
+    "grammar",
+    "daily_life"
+  ],
+  "error_patterns": [
+    {
+      "id": "error:presentcont.auxiliary",
+      "description": "В Continuous нужны am/is/are по подлежащему и форма -ing",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": [
+        "are reading",
+        "reading",
+        "is read"
+      ]
+    },
+    {
+      "id": "error:presentcont.spelling",
+      "description": "Удвоение зависит от строения последнего слога и ударения",
+      "slides": [
+        2
+      ],
+      "decoys": [
+        "runing",
+        "openning"
+      ]
+    },
+    {
+      "id": "error:presentcont.meaning",
+      "description": "Выбор времени зависит от значения, а не одного слова-маркера",
+      "slides": [
+        3,
+        4
+      ],
+      "decoys": [
+        "am knowing"
       ]
     }
   ]

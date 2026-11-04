@@ -5,11 +5,11 @@
     {
       "label": "Один и много",
       "intro": {
-        "text": "Singular — единственное число, один предмет. Plural — множественное, два и больше. От числа зависит не только окончание, но и глагол: is или are.",
+        "text": "Singular — форма для одного предмета: one book. Plural — форма для нескольких: two books. С нулём обычно тоже нужна форма множественного числа: zero books. Сначала выясни, можно ли считать предметы штуками, а затем выбирай окончание и форму глагола.",
         "highlights": [
           {
             "text": "Singular",
-            "color": "info",
+            "color": "term",
             "style": "bold"
           },
           {
@@ -18,18 +18,28 @@
             "style": "bold"
           },
           {
-            "text": "два и больше",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "is или are",
-            "color": "bad",
+            "text": "zero books",
+            "color": "term",
             "style": "bold"
           }
         ]
       },
       "sections": [
+        {
+          "title": "Сначала назови предмет",
+          "borderColor": "info",
+          "text": "Существительное называет предмет, человека или вещество: book — книга, teacher — учитель, water — вода. Исчисляемый значит «можно посчитать отдельными штуками»: одна книга, две книги. Воду обычно измеряем: один стакан воды, два стакана воды.",
+          "examples": [
+            {
+              "en": "one book → two books",
+              "ru": "одна книга → две книги"
+            },
+            {
+              "en": "one glass of water → two glasses of water",
+              "ru": "один стакан воды → два стакана воды"
+            }
+          ]
+        },
         {
           "title": "Формула",
           "borderColor": "term",
@@ -60,6 +70,21 @@
           }
         },
         {
+          "title": "Почему is и are меняются",
+          "borderColor": "example",
+          "text": "В The book is new слово is связывает «книга» и «новая»; по-русски отдельного слова здесь нет. Для одного такого предмета — is, для нескольких — are: The books are new. Это опора для примеров ниже, а не правило для всех местоимений: I am, you are.",
+          "examples": [
+            {
+              "en": "The cup is clean.",
+              "ru": "Чашка чистая."
+            },
+            {
+              "en": "The cups are clean.",
+              "ru": "Чашки чистые."
+            }
+          ]
+        },
+        {
           "title": "Зачем это важно",
           "borderColor": "info",
           "bullets": [
@@ -76,7 +101,7 @@
               "color": "term"
             },
             {
-              "text": "Часть слов вообще не имеет мн. ч.: water, advice.",
+              "text": "Water, advice и information в обычных значениях не считаются штуками. Для количества добавляем единицу: a glass of water, two pieces of advice.",
               "color": "bad"
             }
           ]
@@ -113,7 +138,7 @@
               {
                 "cells": [
                   "Uncountable",
-                  "нет мн. ч.",
+                  "обычно без мн. ч.; нужна единица количества",
                   "water, information, advice"
                 ]
               },
@@ -158,32 +183,41 @@
             "author": "заметка на полях",
             "accentColor": "accent2"
           }
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "Три главных вопроса",
-          "preview": "Сколько? Какой артикль? Какая форма глагола?",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "info",
-            "steps": {
-              "accentColor": "term",
-              "items": [
-                "Сколько предметов? Один → Singular. Два и больше → Plural.",
-                "Какой указатель? This/that → Singular. These/those → Plural.",
-                "Какая форма глагола? is/was → Singular. are/were → Plural."
-              ]
+          "title": "Проверь смысл, а не последнюю букву",
+          "borderColor": "info",
+          "text": "Окончание -s не даёт готового ответа: books — несколько книг, а news — неисчисляемое «новости». Смотри на слово и на его значение.",
+          "examples": [
+            {
+              "en": "There are no cups on the shelf.",
+              "ru": "На полке нет чашек."
+            },
+            {
+              "en": "There is some news for you.",
+              "ru": "Для тебя есть новости."
             }
+          ]
+        },
+        {
+          "title": "Три главных вопроса",
+          "borderColor": "info",
+          "steps": {
+            "accentColor": "term",
+            "items": [
+              "Можно ли считать предметы штуками? Book — да; water — обычно нет.",
+              "Одна книга: this book. Несколько: these books. Ноль: zero books.",
+              "Для названия предмета: The book is new. / The books are new. Местоимение you всегда требует are, даже если человек один."
+            ]
           }
         }
-      ]
+      ],
+      "expandables": []
     },
     {
       "label": "+s или +es",
       "intro": {
-        "text": "Большинство слов просто получают -s: cat → cats. После s, sh, ch, x, z — -es: так окончание слышно.",
+        "text": "Обычно прибавляем -s: cup → cups. После звуков /s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/ окончание образует отдельный слог. На письме часто нужно -es: bus → buses, watch → watches.",
         "highlights": [
           {
             "text": "-s",
@@ -290,9 +324,9 @@
           "title": "Произношение -es",
           "borderColor": "info",
           "callout": {
-            "type": "tip",
-            "title": "Всегда /ɪz/",
-            "text": "Окончание -es после шипящих и свистящих всегда читается как отдельный слог [ɪz]. Buses = [ˈbʌsɪz], не [bʌss]."
+            "type": "info",
+            "title": "Слышим окончание",
+            "text": "После этих звуков добавляется /ɪz/ или близкий безударный /əz/ — отдельный слог. Смотри на последний звук, а не только на буквы: stomach заканчивается на /k/, поэтому stomachs."
           },
           "examples": [
             {
@@ -312,36 +346,45 @@
               "ru": "тарелка"
             }
           ]
+        },
+        {
+          "title": "Две полезные детали",
+          "borderColor": "info",
+          "text": "Quiz → quizzes: буква z удваивается. Если слово уже оканчивается на e, обычно достаточно s: place → places. Произношение и написание проверяем отдельно.",
+          "examples": [
+            {
+              "en": "There are three quizzes this week.",
+              "ru": "На этой неделе три коротких теста."
+            },
+            {
+              "en": "These places are quiet.",
+              "ru": "В этих местах тихо."
+            }
+          ]
+        },
+        {
+          "title": "Три звука окончания -s / -es",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "/s/",
+              "suffix": "после /p/, /t/, /k/, /f/, /θ/",
+              "example": "cats, books, cups, hats"
+            },
+            {
+              "name": "/z/",
+              "suffix": "после гласных и других звонких звуков, кроме группы /ɪz/",
+              "example": "dogs, boys, trees, keys"
+            },
+            {
+              "name": "/ɪz/",
+              "suffix": "после /s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/ — отдельный слог",
+              "example": "buses, boxes, watches, dishes"
+            }
+          ]
         }
       ],
-      "expandables": [
-        {
-          "label": "Три звука окончания -s / -es",
-          "preview": "/s/ · /z/ · /ɪz/",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "info",
-            "rules": [
-              {
-                "name": "/s/",
-                "suffix": "после глухих",
-                "example": "cats, books, cups, hats"
-              },
-              {
-                "name": "/z/",
-                "suffix": "после звонких",
-                "example": "dogs, boys, trees, keys"
-              },
-              {
-                "name": "/ɪz/",
-                "suffix": "после шипящих",
-                "example": "buses, boxes, watches, dishes"
-              }
-            ]
-          }
-        }
-      ]
+      "expandables": []
     },
     {
       "label": "Слова на -o, -y и -f",
@@ -389,14 +432,14 @@
               {
                 "cells": [
                   "+es",
-                  "короткие, живые, часто старые слова",
+                  "у некоторых слов; запоминаем вместе со словом",
                   "potato → potatoes, tomato → tomatoes, hero → heroes"
                 ]
               },
               {
                 "cells": [
                   "+s",
-                  "заимствования, музыка, сокращения",
+                  "у многих слов, в том числе этих",
                   "photo → photos, piano → pianos, radio → radios"
                 ]
               }
@@ -404,9 +447,9 @@
             "borderColor": "term"
           },
           "callout": {
-            "type": "warning",
-            "title": "Запомни пару",
-            "text": "potatoes, tomatoes, heroes — через es. photos, pianos, radios — через s. Остальные слова на -o проверяй по словарю."
+            "type": "info",
+            "title": "У -o нет одного надёжного правила",
+            "text": "Potatoes, tomatoes, heroes — с -es; photos, pianos, radios — с -s. У некоторых слов допустимы две формы: volcanoes / volcanos. Не определяй окончание по тому, «старое» слово или «живое»."
           }
         },
         {
@@ -508,6 +551,21 @@
             {
               "en": "belief → beliefs",
               "ru": "убеждение"
+            }
+          ]
+        },
+        {
+          "title": "Не любое -f превращается в -ves",
+          "borderColor": "info",
+          "text": "Leaves и knives запоминаем с существительным. Roofs, beliefs и chiefs сохраняют f; для scarf встречаются scarves и scarfs. Если сомневаешься, смотри форму множественного числа в словаре.",
+          "examples": [
+            {
+              "en": "Two knives are on the shelf.",
+              "ru": "На полке два ножа."
+            },
+            {
+              "en": "The roofs are covered with snow.",
+              "ru": "Крыши покрыты снегом."
             }
           ]
         }
@@ -663,8 +721,8 @@
           "borderColor": "term",
           "callout": {
             "type": "info",
-            "title": "Singular = Plural",
-            "text": "Некоторые слова не меняются: sheep, deer, fish. С fishes — только если речь о разных видах рыб."
+            "title": "Одинаковая форма, разное число",
+            "text": "One sheep — two sheep; one deer — two deer. Обычная форма множественного числа fish — fish. Fishes тоже встречается, особенно в научном описании видов; правило «fishes всегда ошибка» неверно."
           },
           "examples": [
             {
@@ -682,6 +740,21 @@
             {
               "en": "Different fishes of the lake",
               "ru": "разные виды рыб в озере"
+            }
+          ]
+        },
+        {
+          "title": "Person, people, persons",
+          "borderColor": "info",
+          "text": "В обычном рассказе: one person → two people. Persons встречается в официальных надписях и документах. Peoples — отдельное значение «народы», поэтому оно не заменяет people в рассказе о друзьях.",
+          "examples": [
+            {
+              "en": "Three people are waiting outside.",
+              "ru": "Снаружи ждут три человека."
+            },
+            {
+              "en": "Only one person is in the room.",
+              "ru": "В комнате только один человек."
             }
           ]
         }
@@ -752,9 +825,9 @@
               "borderColor": "term"
             },
             "callout": {
-              "type": "tip",
-              "title": "Правило чтения",
-              "text": "-is → -es, -on → -a, -um → -a. Это греческие и латинские слова, они сохранили свою форму."
+              "type": "info",
+              "title": "Это группы слов, а не универсальная замена букв",
+              "text": "Analysis → analyses и criterion → criteria запоминаем как готовые пары. Не каждое слово на -um получает -a: museum → museums. В общем английском data часто сочетается с is, а в научном стиле встречается are."
             }
           }
         }
@@ -763,21 +836,26 @@
     {
       "label": "Только мн. число и неисчисляемые",
       "intro": {
-        "text": "Есть слова только во множественном числе — jeans, scissors: их не бывает «одна штука». И есть неисчисляемые — water, advice: у них нет множественного вообще.",
+        "text": "Trousers и scissors имеют форму множественного числа, даже когда речь об одних брюках или одних ножницах. Water и advice в обычном значении неисчисляемые: количество выражаем отдельным словом.",
         "highlights": [
           {
-            "text": "только во множественном",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "неисчисляемые",
+            "text": "Trousers",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "нет множественного",
-            "color": "bad",
+            "text": "scissors",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Water",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "advice",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -806,20 +884,12 @@
             {
               "en": "Clothes",
               "ru": "одежда"
-            },
-            {
-              "en": "Police",
-              "ru": "полиция"
-            },
-            {
-              "en": "People",
-              "ru": "люди"
             }
           ],
           "callout": {
-            "type": "tip",
-            "title": "Как посчитать",
-            "text": "Через pair(s) of: a pair of scissors, two pairs of jeans. Глагол при этих словах — всегда во множественном: My trousers are dirty."
+            "type": "info",
+            "title": "Один предмет через a pair of",
+            "text": "Scissors are sharp, но A pair of scissors is on the desk: в последнем случае главное слово — pair. Two pairs of jeans are… Для clothes используем an item of clothing; «a pair of clothes» не подходит."
           }
         },
         {
@@ -866,34 +936,32 @@
           "title": "Глагол при неисчисляемых",
           "borderColor": "bad",
           "callout": {
-            "type": "warning",
-            "title": "Всегда единственное",
-            "text": "Неисчисляемые согласуются с глаголом в единственном числе: The news is good. Information is useful."
+            "type": "info",
+            "title": "В этом значении — единственное число",
+            "text": "The news is good. / This information is useful. Если считаем порции, глагол зависит от названия порций: Two glasses of water are on the table."
           },
           "examples": [
             {
               "en": "The news is good.",
-              "ru": "✓ новость (ед. ч.)",
-              "icon": "check",
-              "iconColor": "good"
+              "ru": "Новости хорошие."
             },
             {
-              "en": "The news are good.",
-              "ru": "✗ нельзя",
-              "icon": "cross",
-              "iconColor": "bad"
+              "en": "The water is cold.",
+              "ru": "Вода холодная."
             },
             {
-              "en": "Water is cold.",
-              "ru": "✓ вода (ед. ч.)",
-              "icon": "check",
-              "iconColor": "good"
+              "en": "Two pieces of advice are enough.",
+              "ru": "Двух советов достаточно."
+            }
+          ],
+          "errors": [
+            {
+              "wrong": "The news are good.",
+              "right": "The news is good. (news — неисчисляемое)"
             },
             {
-              "en": "Water are cold.",
-              "ru": "✗ нельзя",
-              "icon": "cross",
-              "iconColor": "bad"
+              "wrong": "The water are cold.",
+              "right": "The water is cold. (water — неисчисляемое)"
             }
           ]
         },
@@ -915,11 +983,21 @@
               "name": "news",
               "suffix": "is",
               "example": "The news is good."
+            }
+          ]
+        },
+        {
+          "title": "Люди и полиция",
+          "borderColor": "info",
+          "text": "People в значении «люди» и police требуют множественного числа: people are, the police are. Один человек — a person, один полицейский — a police officer. Pair of к ним не добавляем.",
+          "examples": [
+            {
+              "en": "The police are outside.",
+              "ru": "Полиция снаружи."
             },
             {
-              "name": "politics",
-              "suffix": "is",
-              "example": "Politics is complicated."
+              "en": "A police officer is outside.",
+              "ru": "Снаружи стоит полицейский."
             }
           ]
         }
@@ -1027,9 +1105,9 @@
           "title": "Как не ошибаться",
           "borderColor": "good",
           "callout": {
-            "type": "success",
-            "title": "Правило большого пальца",
-            "text": "Запомни три пары, на которых ошибаются чаще всего: man → men, child → children, knife → knives. А после news, information, advice — всегда is."
+            "type": "info",
+            "title": "Сначала найди главное слово",
+            "text": "The news is good, но two pieces of news are interesting. Число согласуется с главным словом: news или pieces. Не выбирай is только потому, что где-то рядом есть information."
           },
           "quote": {
             "text": "Ошибка в числе слышна сразу — как фальшивая нота в музыке.",
@@ -1056,7 +1134,7 @@
                 "color": "info"
               },
               {
-                "text": "Собирательные (team, family) в BrE — часто мн. ч.",
+                "text": "Team и family: в британском английском возможны is (группа как целое) и are (её участники). В американском для группы как целого обычно is.",
                 "color": "term"
               },
               {
@@ -1072,5 +1150,74 @@
         }
       ]
     }
+  ],
+  "editorial_revision": 2,
+  "editorial_review_scope": "full_card_language_review_targeted_revision",
+  "editorial_review_date": "2026-11-04",
+  "prerequisites": [],
+  "prerequisites_reviewed": true,
+  "error_patterns": [
+    {
+      "id": "error:pluralnouns.regular",
+      "description": "Окончание множественного числа и изменение y / f",
+      "slides": [
+        1,
+        2,
+        5
+      ],
+      "decoys": [
+        "boxs",
+        "citys",
+        "knifes"
+      ]
+    },
+    {
+      "id": "error:pluralnouns.irregular",
+      "description": "Особая или неизменяемая форма существительного",
+      "slides": [
+        3,
+        5
+      ],
+      "decoys": [
+        "childs",
+        "sheeps",
+        "mans"
+      ]
+    },
+    {
+      "id": "error:pluralnouns.agreement",
+      "description": "Главное слово определяет is / are",
+      "slides": [
+        0,
+        4,
+        5
+      ],
+      "decoys": [
+        "is",
+        "are"
+      ]
+    },
+    {
+      "id": "error:pluralnouns.uncountable",
+      "description": "Количество неисчисляемого через единицу",
+      "slides": [
+        0,
+        4,
+        5
+      ],
+      "decoys": [
+        "advices",
+        "informations"
+      ]
+    }
+  ],
+  "topics": [
+    "Количество",
+    "Существительные"
+  ],
+  "related_words": [
+    "word_child",
+    "word_sheep",
+    "word_book"
   ]
 }

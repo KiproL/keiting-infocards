@@ -5,7 +5,7 @@
     {
       "label": "as … as: такой же, как",
       "intro": {
-        "text": "As … as показывает равенство: she is as tall as him — она такая же высокая, как он. Между двумя as — прилагательное в обычной форме (tall, не taller). Not as … as — «не такой, как».",
+        "text": "As … as сравнивает по одному признаку: She is as tall as her brother — она такая же высокая, как её брат. Между двумя as ставим прилагательное или наречие в обычной форме: tall, fast, beautifully. Not as … as означает «не такой / не так …, как».",
         "highlights": [
           {
             "text": "as … as",
@@ -44,7 +44,7 @@
                 "color": "muted"
               },
               {
-                "text": "прил.",
+                "text": "прил. / нареч.",
                 "color": "example"
               },
               {
@@ -60,7 +60,7 @@
             "drill": {
               "slots": [
                 "as",
-                "прил.",
+                "прил. / нареч.",
                 "as"
               ],
               "decoys": [
@@ -82,7 +82,7 @@
                     ],
                     [
                       "tall",
-                      "прил."
+                      "прил. / нареч."
                     ],
                     [
                       "as",
@@ -108,7 +108,7 @@
                     ],
                     [
                       "good",
-                      "прил."
+                      "прил. / нареч."
                     ],
                     [
                       "as",
@@ -134,7 +134,7 @@
                     ],
                     [
                       "cold",
-                      "прил."
+                      "прил. / нареч."
                     ],
                     [
                       "as",
@@ -142,6 +142,32 @@
                     ],
                     [
                       "yesterday.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "She sings as beautifully as her mother.",
+                  "ru": "Она поёт так же красиво, как её мама.",
+                  "parts": [
+                    [
+                      "She sings",
+                      ""
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "beautifully",
+                      "прил. / нареч."
+                    ],
+                    [
+                      "as",
+                      "as"
+                    ],
+                    [
+                      "her mother.",
                       ""
                     ]
                   ]
@@ -183,7 +209,7 @@
                 "cells": [
                   "as + наречие + as",
                   "с наречиями",
-                  "He runs as fast as me."
+                  "He runs as fast as I do."
                 ]
               }
             ],
@@ -205,6 +231,10 @@
             {
               "en": "He runs as fast as me.",
               "ru": "Он бегает так же быстро, как я."
+            },
+            {
+              "en": "She sings as beautifully as her mother.",
+              "ru": "Она поёт так же красиво, как её мама."
             },
             {
               "en": "It's as easy as ABC.",
@@ -263,8 +293,11 @@
                 }
               ]
             },
-            "title": ""
-          }
+            "title": "Количество и кратность: much, many, twice",
+            "text": "Much используем с неисчисляемым, many — с исчисляемым во множественном числе. Twice as … as — вдвое по выбранному признаку. The same as — отдельная конструкция: тот же самый или такой же предмет."
+          },
+          "presentation": "inline",
+          "after_section": 1
         },
         {
           "label": "Устойчивые выражения",
@@ -291,14 +324,16 @@
               }
             ],
             "title": ""
-          }
+          },
+          "presentation": "inline",
+          "after_section": 2
         }
       ]
     },
     {
       "label": "Частые ошибки: as taller as, so tall as",
       "intro": {
-        "text": "Три самые частые ошибки в as…as.",
+        "text": "Проверяем три вещи: обычную форму между as, второй as вместо than и правильный выбор прилагательного или наречия.",
         "highlights": [
           {
             "text": "самые частые",
@@ -322,7 +357,7 @@
             },
             {
               "wrong": "She is as tall than me.",
-              "right": "She is as tall as me. (than — только с taller)"
+              "right": "She is as tall as me. (в конструкции as…as нужен второй as)"
             }
           ]
         },
@@ -332,7 +367,7 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "As…as — сравнение равных. Than — сравнение разных (taller than). Между двумя as всегда прилагательное в обычной форме, не в сравнительной."
+            "text": "As…as выражает равенство по признаку, а сравнительная степень с than — различие: as tall as / taller than. В отрицании возможно и not so…as, но not as…as употребляется чаще. После глагола действия может понадобиться наречие: sings as beautifully as."
           },
           "quote": {
             "text": "As…as — про равенство. Than — про разницу.",
@@ -342,5 +377,85 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "prerequisites": [
+    "cards_comparisons"
+  ],
+  "related_words": [
+    "word_tall",
+    "word_fast",
+    "word_cold",
+    "word_good",
+    "word_much",
+    "word_many",
+    "word_book",
+    "word_brother"
+  ],
+  "topics": [
+    "сравнение",
+    "оценки и описания",
+    "числа, количество и размеры"
+  ],
+  "error_patterns": [
+    {
+      "id": "error:asas.base_form",
+      "description": "Между as используется обычная форма прилагательного или наречия",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": [
+        "taller",
+        "more expensive"
+      ]
+    },
+    {
+      "id": "error:asas.second_as",
+      "description": "В конструкции равенства второй союз — as, а не than",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": [
+        "than"
+      ]
+    },
+    {
+      "id": "error:asas.affirmative_as",
+      "description": "В утвердительном сравнении используется as…as, а не so…as",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": [
+        "so"
+      ]
+    },
+    {
+      "id": "error:asas.adverb",
+      "description": "Для описания действия нужно наречие, а не прилагательное",
+      "slides": [
+        0
+      ],
+      "decoys": [
+        "beautiful",
+        "fastly",
+        "hardly"
+      ]
+    },
+    {
+      "id": "error:asas.comparison_contrast",
+      "description": "Сравнительная степень с than отличается от равенства as…as",
+      "slides": [
+        1
+      ],
+      "decoys": [
+        "as tall",
+        "tall"
+      ]
+    }
+  ],
+  "prerequisites_reviewed": true,
+  "editorial_review_scope": "content_and_metadata"
 }

@@ -185,6 +185,21 @@
               "ru": "Она живёт в Мадриде."
             }
           ]
+        },
+        {
+          "title": "Почему не всегда переводится слово «в»",
+          "text": "In подчёркивает пространство внутри, at — место как точку встречи или деятельности. Оба могут описывать одного человека с разным акцентом: at school — в школе, in the school building — внутри здания. Запоминай короткие сочетания целиком: on a bus, in a car, at home.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "We are at the station.",
+              "ru": "Мы на станции: называем место."
+            },
+            {
+              "en": "We are in the station building.",
+              "ru": "Мы внутри здания станции: уточняем пространство."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -335,6 +350,40 @@
               "info"
             ]
           }
+        },
+        {
+          "title": "Один предмет — несколько верных описаний",
+          "text": "Назови предмет, затем ориентир. Under — ниже, обычно прямо под ним; below — ниже по уровню. Next to и beside — непосредственно рядом, near — поблизости. На нашей картинке мяч находится под скамейкой, рюкзак — рядом с ней, а скамейка — между рюкзаком и собакой.",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "The blue ball is under the bench.",
+              "ru": "Синий мяч под скамейкой."
+            },
+            {
+              "en": "The green backpack is beside the bench.",
+              "ru": "Зелёный рюкзак рядом со скамейкой."
+            },
+            {
+              "en": "The bench is between the backpack and the dog.",
+              "ru": "Скамейка между рюкзаком и собакой."
+            }
+          ]
+        },
+        {
+          "title": "Не путай «перед» и «напротив»",
+          "text": "In front of — впереди ориентира, opposite — напротив, по другую сторону или лицом к ориентиру. Between связывает отдельные ориентиры; правило «только два предмета» слишком узкое. На A1 начни с понятной пары: between the bag and the dog. Above и over иногда совпадают по смыслу, но over также может описывать покрытие или движение через верх.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "A cyclist is in front of the gate.",
+              "ru": "Велосипедист перед воротами."
+            },
+            {
+              "en": "The shop is opposite the park.",
+              "ru": "Магазин напротив парка."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -458,6 +507,21 @@
               "ru": "Давай встретимся после работы."
             }
           ]
+        },
+        {
+          "title": "Частные случаи, которые пригодятся сразу",
+          "text": "С конкретным утром употребляется on: on Monday morning. Без уточнения — in the morning. Перед today, tomorrow, yesterday, this, next, last обычно не нужен предлог времени. At the weekend распространено в британском английском, on the weekend — в американском.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "We are meeting on Friday evening.",
+              "ru": "Мы встречаемся в пятницу вечером."
+            },
+            {
+              "en": "I’m working next Monday.",
+              "ru": "Я работаю в следующий понедельник — без on."
+            }
+          ]
         }
       ]
     },
@@ -563,6 +627,26 @@
               "info"
             ]
           }
+        },
+        {
+          "title": "Кадр и движение",
+          "text": "In описывает положение внутри, into — переход внутрь. Across — с одной стороны пространства на другую, through — через внутреннюю часть. Сравни, где мяч лежит и куда его кладут.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "The ball is in the bag.",
+              "ru": "Мяч уже находится в сумке."
+            },
+            {
+              "en": "Mia puts the ball into the bag.",
+              "ru": "Мия кладёт мяч внутрь сумки."
+            }
+          ]
+        },
+        {
+          "title": "Не делай правило слишком жёстким",
+          "text": "После некоторых глаголов движения in тоже может означать «внутрь»: Put the book in the bag. Поэтому нельзя объявлять любое in после движения ошибкой. Into явно подчёркивает переход внутрь; изучай предлог вместе с глаголом и ситуацией.",
+          "borderColor": "info"
         }
       ],
       "expandables": [
@@ -631,13 +715,63 @@
             {
               "wrong": "I go to home.",
               "right": "I go home. (с home — без to)"
-            },
-            {
-              "wrong": "He came in the room.",
-              "right": "He came into the room. (движение внутрь — into)"
             }
           ]
         }
+      ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "targeted_content_and_applied_exercises",
+  "related_words": [
+    "word_under",
+    "word_between",
+    "word_in",
+    "word_on",
+    "word_ball",
+    "word_dog",
+    "word_a1_backpack",
+    "word_a1_bench"
+  ],
+  "topics": [
+    "grammar",
+    "places"
+  ],
+  "error_patterns": [
+    {
+      "id": "error:prepositions.position",
+      "description": "Выбери предлог по реальному расположению, сохраняя ориентир",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": [
+        "on",
+        "under",
+        "opposite"
+      ]
+    },
+    {
+      "id": "error:prepositions.time",
+      "description": "Время, день и часть дня требуют разных предлогов",
+      "slides": [
+        3,
+        5
+      ],
+      "decoys": [
+        "in Monday",
+        "at the morning"
+      ]
+    },
+    {
+      "id": "error:prepositions.movement",
+      "description": "Место и перемещение внутрь различаются; с go home нет to",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": [
+        "to home"
       ]
     }
   ]

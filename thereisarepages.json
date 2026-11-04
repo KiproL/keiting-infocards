@@ -5,7 +5,7 @@
     {
       "label": "There is / are: что где есть",
       "intro": {
-        "text": "Когда сообщаем, что где-то что-то есть, по-английски начинаем с There is / There are, а место ставим в конец: «В саду кошка» — There is a cat in the garden. Слово there здесь не переводится и не значит «там».",
+        "text": "Чтобы сообщить, что где-то что-то есть, удобно начать с There is / There are. Обычный порядок: There is a cat in the garden. Место часто стоит в конце, но его можно вынести вперёд: In the garden, there is a cat. There здесь помогает построить предложение и не означает место «там».",
         "highlights": [
           {
             "text": "There is / There are",
@@ -137,7 +137,7 @@
         {
           "title": "Is или are, если предметов несколько",
           "borderColor": "term",
-          "text": "Смотри на первый предмет после there: There is a pen and two books on the desk. В разговоре так и говорят.",
+          "text": "С отдельным множественным существительным выбирай are: There are two chairs. При перечислении разных предметов в разговоре часто согласуют с первым: There is a desk and two chairs. Для ясного учебного ответа можно разделить: There is a desk. There are two chairs. Разговорное there’s перед множественным числом встречается, но для нейтральной письменной речи тренируем there are.",
           "textColor": "text"
         },
         {
@@ -199,6 +199,25 @@
             "author": "правило большого пальца",
             "accentColor": "accent2"
           }
+        },
+        {
+          "title": "Считай предмет, а не слова рядом",
+          "text": "Some не выбирает глагол за тебя. Water — неисчисляемое, поэтому is. Chairs — множественное число, поэтому are. Сравни: вода и бутылки с водой — разные подлежащие.",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "There is some water on the desk.",
+              "ru": "На столе есть вода: is."
+            },
+            {
+              "en": "There are two bottles of water on the desk.",
+              "ru": "На столе две бутылки воды: are, потому что считаем bottles."
+            },
+            {
+              "en": "There is a small desk near the window.",
+              "ru": "У окна есть небольшой стол: один предмет."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -636,6 +655,25 @@
             ],
             "borderColor": "good"
           }
+        },
+        {
+          "title": "Вопрос и отрицание — по смыслу",
+          "text": "Any часто используется в нейтральном вопросе о наличии и в отрицании. Для одного исчисляемого предмета удобен a/an. Some возможно в вопросе, когда ожидаем подтверждение, поэтому «в вопросах всегда any» — неверное правило.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "Is there a chair by the window?",
+              "ru": "Есть стул у окна?"
+            },
+            {
+              "en": "There isn’t any water in this bottle.",
+              "ru": "В этой бутылке нет воды."
+            },
+            {
+              "en": "Is there some milk left? I thought we bought a bottle.",
+              "ru": "Молоко ещё осталось? Мне казалось, мы купили бутылку."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -702,10 +740,6 @@
               "right": "Is there a bank? (без do)"
             },
             {
-              "wrong": "On the table is a book.",
-              "right": "There is a book on the table. (место — в конец)"
-            },
-            {
               "wrong": "There isn't no milk.",
               "right": "There isn't any milk. / There is no milk. (одно отрицание)"
             }
@@ -717,9 +751,62 @@
           "callout": {
             "type": "tip",
             "title": "Простой тест",
-            "text": "Если по-русски предложение начинается с «есть / находится / имеется» — в английском почти всегда There is / There are."
+            "text": "Сообщаешь о наличии нового предмета? Подойдёт There is / There are. Говоришь, где уже известная книга? Удобнее The book is on the desk. Не переводи русское «есть» механически: У меня есть книга — I have a book."
           }
+        },
+        {
+          "title": "Начать с места тоже можно",
+          "text": "In the room, there are two chairs — обычное предложение с местом в начале. On the table is a book тоже грамматически возможно: это особый порядок слов для описания сцены, а не ошибка. Пока достаточно освоить нейтральный вариант с there.",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "There is a new reading room at our school.",
+              "ru": "В нашей школе есть новая читальная комната — вводим её впервые."
+            },
+            {
+              "en": "The reading room is on the second floor.",
+              "ru": "Читальная комната на втором этаже — теперь она уже известна."
+            }
+          ]
         }
+      ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "targeted_content_and_applied_exercises",
+  "related_words": [
+    "word_book",
+    "word_in",
+    "word_on",
+    "word_bag"
+  ],
+  "topics": [
+    "grammar",
+    "home"
+  ],
+  "error_patterns": [
+    {
+      "id": "error:thereisare.number",
+      "description": "Is с одним предметом/неисчисляемым, are с множественным числом",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": [
+        "is two chairs",
+        "are some water"
+      ]
+    },
+    {
+      "id": "error:thereisare.existence",
+      "description": "Вводим наличие предмета через there; it обычно отсылает к известному",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": [
+        "It is a desk in the room"
       ]
     }
   ]

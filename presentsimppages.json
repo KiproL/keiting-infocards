@@ -5,21 +5,21 @@
     {
       "label": "Present Simple: факты и привычки",
       "intro": {
-        "text": "Present Simple — «простое настоящее». Им говорят о том, что бывает всегда или обычно: факты, привычки, расписание. Не о том, что происходит прямо сейчас.",
+        "text": "Present Simple помогает говорить о привычках, фактах, расписании и состояниях: I walk to school. I know the answer. Состояние может быть верно прямо сейчас. Для действия в процессе обычно выбираем Present Continuous: I am walking to school now.",
         "highlights": [
           {
-            "text": "Present Simple",
+            "text": "привычках",
             "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "всегда или обычно",
-            "color": "info",
             "style": "bold"
           },
           {
-            "text": "Не о том, что происходит прямо сейчас",
-            "color": "bad",
+            "text": "состояниях",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "действия в процессе",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -55,7 +55,7 @@
             "drill": {
               "slots": [
                 "S",
-                "V"
+                "V / V-s"
               ],
               "decoys": [
                 "V-ing",
@@ -72,7 +72,7 @@
                     ],
                     [
                       "plays",
-                      "V"
+                      "V / V-s"
                     ],
                     [
                       "tennis every Sunday.",
@@ -90,7 +90,7 @@
                     ],
                     [
                       "drink",
-                      "V"
+                      "V / V-s"
                     ],
                     [
                       "coffee in the morning.",
@@ -108,7 +108,7 @@
                     ],
                     [
                       "boils",
-                      "V"
+                      "V / V-s"
                     ],
                     [
                       "at 100 degrees.",
@@ -125,7 +125,7 @@
               "color": "info"
             },
             {
-              "text": "V — глагол в начальной форме, как в словаре: work, play, go",
+              "text": "V — начальная форма: work, play, go. В утверждении с he / she / it используем V-s: works, plays, goes. Be имеет свои формы — смотри отдельный слайд.",
               "color": "example"
             },
             {
@@ -151,9 +151,9 @@
             "rows": [
               {
                 "cells": [
-                  "Факт — так всегда",
-                  "Water boils at 100°C.",
-                  "Вода кипит при 100°C."
+                  "Факт при обычных условиях",
+                  "Water boils at 100°C at sea level.",
+                  "При нормальном давлении на уровне моря вода кипит при 100°C."
                 ]
               },
               {
@@ -184,7 +184,7 @@
         {
           "title": "Слова-подсказки",
           "borderColor": "good",
-          "text": "Если в предложении есть одно из этих слов, почти наверняка нужен Present Simple. Always, usually, often, sometimes, never ставят перед глаголом: I often read.",
+          "text": "Always, usually и often помогают понять смысл, но не выбирают время за тебя: I was often late — прошлое. В Present Simple usually / often обычно стоят перед смысловым глаголом, но после am / is / are.",
           "table": {
             "headers": [
               "Слово",
@@ -276,9 +276,9 @@
             ]
           },
           "callout": {
-            "type": "tip",
-            "title": "Как проверить",
-            "text": "Можно добавить «обычно» или «всегда» — Present Simple. Можно добавить «прямо сейчас» — Present Continuous."
+            "type": "info",
+            "title": "Проверяем значение глагола",
+            "text": "I understand you now — состояние понимания сейчас, поэтому Simple. I am reading now — действие в процессе, поэтому Continuous. Одного слова now или always для выбора времени недостаточно."
           }
         },
         {
@@ -311,6 +311,25 @@
             "author": "правило большого пальца",
             "accentColor": "accent2"
           }
+        },
+        {
+          "title": "Одна ситуация — два взгляда",
+          "borderColor": "info",
+          "text": "Спроси себя: это привычка, состояние или процесс в этот момент? Не подставляй время только по слову-подсказке.",
+          "examples": [
+            {
+              "en": "I usually draw after school.",
+              "ru": "Обычно я рисую после школы."
+            },
+            {
+              "en": "I am drawing a map now.",
+              "ru": "Сейчас я рисую карту."
+            },
+            {
+              "en": "I understand this rule now.",
+              "ru": "Теперь я понимаю это правило."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -737,6 +756,25 @@
             ],
             "borderColor": "term"
           }
+        },
+        {
+          "title": "Do бывает помощником и смысловым глаголом",
+          "borderColor": "info",
+          "text": "В What does she do? первое does строит вопрос, а do означает «делает». После does смысловой глагол остаётся в начальной форме. С be помощник do не нужен: Is she ready?",
+          "examples": [
+            {
+              "en": "What does your brother do after school?",
+              "ru": "Что твой брат делает после школы?"
+            },
+            {
+              "en": "He does his homework.",
+              "ru": "Он делает домашнее задание."
+            },
+            {
+              "en": "He does not do it at night.",
+              "ru": "Он не делает его ночью."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -896,9 +934,9 @@
           "title": "Исключение",
           "borderColor": "bad",
           "callout": {
-            "type": "warning",
-            "title": "have → has",
-            "text": "Единственный глагол, который не подчиняется правилам: have → has. У него своя форма в 3-м лице."
+            "type": "info",
+            "title": "Частые особые формы",
+            "text": "Have → has. У be — am / is / are, а у модальных can и must окончание -s не появляется: she can, he must. Формы does, goes и says также полезно слушать отдельно: их чтение не угадывается по одному окончанию."
           },
           "examples": [
             {
@@ -930,6 +968,25 @@
             {
               "en": "The shop opens at 9 am.",
               "ru": "Магазин открывается в 9 утра. (the shop = it)"
+            }
+          ]
+        },
+        {
+          "title": "Кого обозначает подлежащее",
+          "borderColor": "info",
+          "text": "My friend — один человек, значит plays. My friends — несколько, значит play. He and I заменяются на we, поэтому тоже play. Ищи всё подлежащее, а не ближайшее к глаголу слово.",
+          "examples": [
+            {
+              "en": "My friend plays chess.",
+              "ru": "Мой друг играет в шахматы."
+            },
+            {
+              "en": "My friends play chess.",
+              "ru": "Мои друзья играют в шахматы."
+            },
+            {
+              "en": "He and I play chess together.",
+              "ru": "Мы с ним играем в шахматы вместе."
             }
           ]
         }
@@ -1163,10 +1220,25 @@
             ]
           },
           "callout": {
-            "type": "warning",
-            "title": "Не смешивай",
-            "text": "Am / is / are и обычный глагол вместе не ставят: I am work — ошибка. Правильно: I work или I am a worker."
+            "type": "info",
+            "title": "Be не добавляется перед начальной формой",
+            "text": "Для обычной привычки: I work. Для профессии: I am a teacher. В другом времени be может быть помощником: I am working. Ошибка — I am work, а не любое соседство be и глагола."
           }
+        },
+        {
+          "title": "Короткий ответ: сохрани be",
+          "borderColor": "info",
+          "text": "В положительном кратком ответе не заканчиваем фразу на сокращение: Yes, I am, а не Yes, I’m. В отрицательном можно No, I’m not. Глагол be — тоже глагол, даже если в русском переводе его не видно.",
+          "examples": [
+            {
+              "en": "Are you tired? — Yes, I am.",
+              "ru": "Ты устал? — Да."
+            },
+            {
+              "en": "Is your sister at home? — No, she is not.",
+              "ru": "Твоя сестра дома? — Нет."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -1250,17 +1322,95 @@
           "title": "Совет",
           "borderColor": "good",
           "callout": {
-            "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "Если есть does — глагол без -s. Если нет does и подлежащее he/she/it — глагол с -s. Никогда не бывает -s и does одновременно."
+            "type": "info",
+            "title": "Проверка обычного смыслового глагола",
+            "text": "В вопросе и отрицании после does / doesn’t используем начальную форму: Does he work? / He doesn’t work. В утверждении: He works. Это правило не заменяет отдельные формы be и модальных глаголов."
           },
           "quote": {
             "text": "Простое время — простое правило: -s с he/she/it, но не рядом с does.",
             "author": "правило большого пальца",
             "accentColor": "accent2"
           }
+        },
+        {
+          "title": "Never уже содержит отрицание",
+          "borderColor": "info",
+          "text": "I never drink tea — я никогда не пью чай. В стандартном английском не добавляем ещё don’t к этому же never. Но с sometimes отрицание может понадобиться: I sometimes don’t understand.",
+          "examples": [
+            {
+              "en": "She never drinks coffee.",
+              "ru": "Она никогда не пьёт кофе."
+            },
+            {
+              "en": "She does not drink coffee.",
+              "ru": "Она не пьёт кофе."
+            }
+          ]
         }
       ]
     }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review_targeted_revision",
+  "editorial_review_date": "2026-11-03",
+  "prerequisites": [],
+  "prerequisites_reviewed": true,
+  "error_patterns": [
+    {
+      "id": "error:presentsimp.third_person",
+      "description": "В утверждении обычный глагол согласуется с he / she / it",
+      "slides": [
+        0,
+        2,
+        4
+      ],
+      "decoys": [
+        "play",
+        "plays"
+      ]
+    },
+    {
+      "id": "error:presentsimp.auxiliary",
+      "description": "После does / doesn’t начальная форма глагола",
+      "slides": [
+        1,
+        4
+      ],
+      "decoys": [
+        "plays",
+        "works"
+      ]
+    },
+    {
+      "id": "error:presentsimp.be",
+      "description": "Be строит вопросы без do и не добавляется перед V",
+      "slides": [
+        3,
+        4
+      ],
+      "decoys": [
+        "do",
+        "does"
+      ]
+    },
+    {
+      "id": "error:presentsimp.meaning",
+      "description": "Время выбирается по смыслу, не одному слову-маркеру",
+      "slides": [
+        0,
+        4
+      ],
+      "decoys": []
+    }
+  ],
+  "topics": [
+    "Настоящее время",
+    "Привычки",
+    "Состояния"
+  ],
+  "related_words": [
+    "word_play",
+    "word_work",
+    "word_study"
   ]
 }

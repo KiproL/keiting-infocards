@@ -71,8 +71,8 @@
           },
           "callout": {
             "type": "info",
-            "title": "Идея",
-            "text": "Positive — просто признак. Comparative — сравниваем двух. Superlative — выделяем одного из всех."
+            "title": "Идея сравнения",
+            "text": "Comparative показывает разницу между предметами, группами или состояниями: taller, more useful. Superlative выделяет наибольшую степень признака внутри группы: the tallest building in this town."
           }
         },
         {
@@ -100,7 +100,7 @@
               {
                 "cells": [
                   "Comparative",
-                  "сравнивает двух",
+                  "показывает разницу между двумя сторонами",
                   "taller — выше"
                 ]
               },
@@ -125,7 +125,7 @@
               "example": "tall → taller → the tallest"
             },
             {
-              "name": "2 и больше слогов",
+              "name": "3 и больше слогов; многие двусложные",
               "suffix": "more / the most",
               "example": "beautiful → more beautiful → the most beautiful"
             },
@@ -153,13 +153,28 @@
               "ru": "Это самый горячий кофе в городе. (superlative)"
             }
           ]
+        },
+        {
+          "title": "Важен признак, который сравниваем",
+          "borderColor": "info",
+          "text": "Прилагательное описывает предмет: a slow bus. В сравнении выбираем один признак и понятную группу: этот автобус медленнее того; этот — самый медленный на маршруте.",
+          "examples": [
+            {
+              "en": "This bus is slower than that one.",
+              "ru": "Этот автобус медленнее того."
+            },
+            {
+              "en": "This is the slowest bus on this route.",
+              "ru": "Это самый медленный автобус на этом маршруте."
+            }
+          ]
         }
       ]
     },
     {
       "label": "Короткие слова: -er и -est",
       "intro": {
-        "text": "Короткие прилагательные (один слог и часть двусложных) получают -er и -est. Перед превосходной — всегда the.",
+        "text": "Большинство односложных и некоторые двусложные прилагательные получают -er / -est. Перед превосходной степенью с существительным обычно стоит the: the tallest tree; притяжательное заменяет его: my oldest friend.",
         "highlights": [
           {
             "text": "Короткие прилагательные",
@@ -224,9 +239,9 @@
               "example": "large → larger → the largest"
             },
             {
-              "name": "Краткий ударный",
-              "suffix": "удвоение согласной",
-              "example": "big → bigger → the biggest"
+              "name": "Одна гласная + конечная согласная",
+              "suffix": "в коротком слове согласная часто удваивается",
+              "example": "big → bigger; hot → hotter; но new → newer"
             },
             {
               "name": "Согласная + y",
@@ -261,13 +276,28 @@
               "ru": "Она самая умная студентка в нашей группе."
             }
           ]
+        },
+        {
+          "title": "Не удваиваем всё подряд",
+          "borderColor": "info",
+          "text": "В big и hot удваиваем конечную согласную. В long уже две согласные, поэтому longer. Буквы w, x и y обычно не удваиваем: newer, lower. Сначала проверь написание, потом добавляй окончание.",
+          "examples": [
+            {
+              "en": "This room is bigger than the kitchen.",
+              "ru": "Эта комната больше кухни."
+            },
+            {
+              "en": "My desk is lower than yours.",
+              "ru": "Мой стол ниже твоего."
+            }
+          ]
         }
       ]
     },
     {
       "label": "Длинные слова: more и the most",
       "intro": {
-        "text": "Длинные прилагательные (два слога и больше) не меняются — перед ними ставят more или the most: more interesting, the most interesting.",
+        "text": "У прилагательных из трёх и более слогов обычно используются more / most: more interesting, the most interesting. У двусложных слов формы различаются: happier, more useful, simpler или more simple в подходящем контексте.",
         "highlights": [
           {
             "text": "Длинные прилагательные",
@@ -361,18 +391,18 @@
               },
               {
                 "cells": [
-                  "другие",
+                  "многие другие, особенно -ful / -less",
                   "more / the most",
-                  "modern → more modern"
+                  "careful → more careful; useful → more useful"
                 ]
               }
             ],
             "borderColor": "term"
           },
           "callout": {
-            "type": "tip",
-            "title": "Правило",
-            "text": "Если двусложное слово заканчивается на -y, -ow, -er, -le, -et — берёт окончания. Во всех остальных случаях — more / the most."
+            "type": "info",
+            "title": "Двусложные слова проверяем по словарю",
+            "text": "Happy → happier — обычная модель. У clever, narrow, quiet и simple встречаются формы с окончаниями и с more. Useful и careful обычно требуют more. Окончание слова помогает, но не является строгим универсальным правилом."
           }
         },
         {
@@ -394,6 +424,21 @@
             {
               "en": "He is the most careful driver I know.",
               "ru": "Он самый аккуратный водитель из тех, кого я знаю."
+            }
+          ]
+        },
+        {
+          "title": "Меньше признака: less",
+          "borderColor": "info",
+          "text": "More expensive — дороже, less expensive — менее дорого. Не нужно придумывать отрицательное прилагательное. С короткими словами часто естественнее not as…as: not as tall as.",
+          "examples": [
+            {
+              "en": "This bag is less expensive than mine.",
+              "ru": "Эта сумка дешевле моей."
+            },
+            {
+              "en": "The new instructions are more useful.",
+              "ru": "Новые инструкции полезнее."
             }
           ]
         }
@@ -455,7 +500,7 @@
               },
               {
                 "cells": [
-                  "little",
+                  "little (мало, о количестве)",
                   "less",
                   "the least"
                 ]
@@ -499,6 +544,25 @@
               "ru": "У меня меньше свободного времени, чем раньше."
             }
           ]
+        },
+        {
+          "title": "Little не всегда сравнивается через less",
+          "borderColor": "info",
+          "text": "Little в значении «мало» даёт less: less time. Размер обычно сравниваем через small → smaller: a smaller box. Further и farther оба могут говорить о расстоянии; further также значит «дополнительный».",
+          "examples": [
+            {
+              "en": "We have less time today.",
+              "ru": "Сегодня у нас меньше времени."
+            },
+            {
+              "en": "I need a smaller box.",
+              "ru": "Мне нужна коробка поменьше."
+            },
+            {
+              "en": "The library is further away than the shop.",
+              "ru": "Библиотека дальше, чем магазин."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -517,7 +581,7 @@
               },
               {
                 "name": "further",
-                "suffix": "переносный смысл",
+                "suffix": "и расстояние, и «дополнительный / дальнейший»",
                 "example": "We need further information."
               },
               {
@@ -527,7 +591,7 @@
               },
               {
                 "name": "elder",
-                "suffix": "только о членах семьи, без than",
+                "suffix": "обычно перед словом родства; не употребляем с than",
                 "example": "my elder brother"
               }
             ]
@@ -595,7 +659,7 @@
           ]
         },
         {
-          "title": "Двойное сравнение",
+          "title": "Две связанные перемены: чем…, тем…",
           "borderColor": "good",
           "examples": [
             {
@@ -609,6 +673,21 @@
             {
               "en": "The older I get, the wiser I become.",
               "ru": "Чем старше я становлюсь, тем мудрее."
+            }
+          ]
+        },
+        {
+          "title": "Не обязательно повторять than",
+          "borderColor": "info",
+          "text": "Если ясно, с чем сравнивают, comparative может стоять без than: This one is cheaper. Для заметной разницы: much cheaper; для небольшой: a little cheaper. Very cheaper в стандартном сравнении не подходит.",
+          "examples": [
+            {
+              "en": "This one is much cheaper.",
+              "ru": "Этот вариант гораздо дешевле."
+            },
+            {
+              "en": "This box is a little heavier than that one.",
+              "ru": "Эта коробка немного тяжелее той."
             }
           ]
         }
@@ -645,7 +724,7 @@
     {
       "label": "The и наречия: faster, more carefully",
       "intro": {
-        "text": "Перед превосходной степенью ставится the. Наречия сравниваются по тем же правилам.",
+        "text": "Перед превосходной степенью с существительным обычно нужен the: the fastest runner. My и другие притяжательные заменяют the: my best friend. У наречия the иногда опускается: she runs fastest.",
         "highlights": [
           {
             "text": "the",
@@ -666,7 +745,7 @@
           "rules": [
             {
               "name": "the + превосходная",
-              "suffix": "всегда",
+              "suffix": "обычная модель перед существительным",
               "example": "She is the tallest girl in the class."
             },
             {
@@ -705,7 +784,7 @@
               },
               {
                 "cells": [
-                  "На -ly",
+                  "обычные наречия на -ly",
                   "more / the most",
                   "carefully → more carefully"
                 ]
@@ -715,6 +794,13 @@
                   "Неправильные",
                   "особая форма",
                   "well → better → the best"
+                ]
+              },
+              {
+                "cells": [
+                  "early — исключение на -ly",
+                  "earlier / earliest",
+                  "We arrived earlier."
                 ]
               }
             ],
@@ -752,8 +838,8 @@
               "right": "worse (особая форма)"
             },
             {
-              "wrong": "She is tallest in the class.",
-              "right": "She is the tallest… (превосходная — с the)"
+              "wrong": "This is the most tallest tower.",
+              "right": "This is the tallest tower. (не соединяем most и -est)"
             },
             {
               "wrong": "This is bigger then that.",
@@ -764,8 +850,8 @@
               "right": "more modern (modern — с more)"
             },
             {
-              "wrong": "my elder than me",
-              "right": "my elder brother (elder — без than)"
+              "wrong": "My brother is elder than me.",
+              "right": "My brother is older than me. (elder не употребляем с than)"
             }
           ]
         },
@@ -777,8 +863,104 @@
             "author": "заметка на полях",
             "accentColor": "accent2"
           }
+        },
+        {
+          "title": "Прилагательное или наречие",
+          "borderColor": "info",
+          "text": "A careful driver описывает водителя, drives carefully — то, как он водит. Сравниваем ту же часть: a more careful driver / drives more carefully. Не делаем carefullyer.",
+          "examples": [
+            {
+              "en": "She is a more careful driver than I am.",
+              "ru": "Она водит машину осторожнее меня."
+            },
+            {
+              "en": "She drives more carefully than I do.",
+              "ru": "Она водит осторожнее, чем я."
+            }
+          ]
         }
       ]
     }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review_targeted_revision",
+  "editorial_review_date": "2026-11-03",
+  "prerequisites": [
+    "cards_articles",
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": true,
+  "error_patterns": [
+    {
+      "id": "error:comparisons.form",
+      "description": "Сравнительная форма без удвоения more + -er",
+      "slides": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "decoys": [
+        "more taller",
+        "beautifuler"
+      ]
+    },
+    {
+      "id": "error:comparisons.irregular",
+      "description": "Особая форма better / worse и значение little",
+      "slides": [
+        3,
+        5
+      ],
+      "decoys": [
+        "gooder",
+        "badder"
+      ]
+    },
+    {
+      "id": "error:comparisons.link",
+      "description": "Than после comparative, as…as с исходной формой",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": [
+        "then",
+        "than",
+        "as"
+      ]
+    },
+    {
+      "id": "error:comparisons.superlative",
+      "description": "Превосходная степень: определитель и правильная форма",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": [
+        "most tallest"
+      ]
+    },
+    {
+      "id": "error:comparisons.adverb",
+      "description": "Не смешивать сравнение прилагательного и наречия",
+      "slides": [
+        5
+      ],
+      "decoys": [
+        "carefullyer"
+      ]
+    }
+  ],
+  "topics": [
+    "Сравнение",
+    "Прилагательные",
+    "Наречия"
+  ],
+  "related_words": [
+    "word_big",
+    "word_good",
+    "word_bad"
   ]
 }
