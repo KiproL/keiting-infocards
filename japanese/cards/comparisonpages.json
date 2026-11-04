@@ -1,0 +1,193 @@
+{
+ "tenseName": "Сравнение: より・ほう・一番",
+ "route": "cards_ja_comparison",
+ "slides": [
+  {
+   "label": "A больше, чем B",
+   "intro": {
+    "text": "A は B より ～ — «A более ~, чем B».",
+    "highlights": [
+     {
+      "text": "A は B より",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Схема",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "A",
+        "color": "info"
+       },
+       {
+        "text": "は",
+        "color": "muted"
+       },
+       {
+        "text": "B",
+        "color": "example"
+       },
+       {
+        "text": "より",
+        "color": "term"
+       },
+       {
+        "text": "прилагательное",
+        "color": "info"
+       }
+      ],
+      "accentColor": "term"
+     },
+     "examples": [
+      {
+       "en": "東京は 大阪より 大きいです。",
+       "reading": "とうきょうは おおさかより おおきいです。 · tōkyō wa ōsaka yori ōkii desu",
+       "ru": "Токио больше Осаки."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Что лучше?",
+   "intro": {
+    "text": "Вопрос: A と B と どちらが ～ですか. Ответ: A の ほうが ～です.",
+    "highlights": [
+     {
+      "text": "どちらが",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "A の ほうが",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "犬と 猫と どちらが 好きですか。",
+       "reading": "いぬと ねこと どちらが すきですか。 · inu to neko to dochira ga suki desu ka",
+       "ru": "Кого больше любишь: собак или кошек?"
+      },
+      {
+       "en": "猫の ほうが 好きです。",
+       "reading": "ねこの ほうが すきです。 · neko no hō ga suki desu",
+       "ru": "Кошек больше."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Самый",
+   "intro": {
+    "text": "一番 — «самый»: X の 中で 何が 一番 ～ですか.",
+    "highlights": [
+     {
+      "text": "一番",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "果物の 中で 何が 一番 好きですか。",
+       "reading": "くだものの なかで なにが いちばん すきですか。 · kudamono no naka de nani ga ichiban suki desu ka",
+       "ru": "Какой фрукт любишь больше всех?"
+      },
+      {
+       "en": "りんごが 一番 好きです。",
+       "reading": "りんごが いちばん すきです。 · ringo ga ichiban suki desu",
+       "ru": "Больше всего — яблоки."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Не такой, как",
+   "intro": {
+    "text": "A は B ほど ～ない — «A не такой ~, как B».",
+    "highlights": [
+     {
+      "text": "ほど ～ない",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "今日は 昨日ほど 寒くないです。",
+       "reading": "きょうは きのうほど さむくないです。 · kyō wa kinō hodo samukunai desu",
+       "ru": "Сегодня не так холодно, как вчера."
+      }
+     ]
+    },
+    {
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "info",
+      "text": "Одинаково — 同じぐらい: 兄と 同じぐらい 背が 高い (такой же высокий, как брат)."
+     }
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "犬と 猫と どれが 好きですか",
+       "right": "どちらが — из двух выбирают どちら"
+      },
+      {
+       "wrong": "猫が ほうが 好き",
+       "right": "猫の ほうが 好き"
+      },
+      {
+       "wrong": "昨日ほど 寒いです",
+       "right": "昨日ほど 寒くないです — ほど только с отрицанием"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "より — чем, ほう — тот, что больше, 一番 — самый, ほど～ない — не такой, как.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}

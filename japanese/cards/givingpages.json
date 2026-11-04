@@ -16,6 +16,11 @@
       "text": "くれる",
       "color": "info",
       "style": "bold"
+     },
+     {
+      "text": "もらう",
+      "color": "example",
+      "style": "bold"
      }
     ]
    },
@@ -24,18 +29,18 @@
      "title": "Примеры",
      "examples": [
       {
-       "en": "ともだちに ほんを あげました。",
-       "reading": "tomodachi ni hon o agemashita",
+       "en": "友達に 本を あげました。",
+       "reading": "ともだちに ほんを あげました。 · tomodachi ni hon o agemashita",
        "ru": "Я подарил другу книгу."
       },
       {
-       "en": "ともだちが ほんを くれました。",
-       "reading": "tomodachi ga hon o kuremashita",
+       "en": "友達が 本を くれました。",
+       "reading": "ともだちが ほんを くれました。 · tomodachi ga hon o kuremashita",
        "ru": "Друг подарил мне книгу."
       },
       {
-       "en": "ともだちに ほんを もらいました。",
-       "reading": "tomodachi ni hon o moraimashita",
+       "en": "友達に 本を もらいました。",
+       "reading": "ともだちに ほんを もらいました。 · tomodachi ni hon o moraimashita",
        "ru": "Я получил книгу от друга."
       }
      ]
@@ -45,16 +50,16 @@
   {
    "label": "Кто кому",
    "intro": {
-    "text": "Получатель — с に у あげる, даритель — с に (или から) у もらう. くれる всегда «ко мне» или к моим близким.",
+    "text": "Получатель — с に у あげる, даритель — с に/から у もらう. くれる — всегда «ко мне» или к моим близким.",
     "highlights": [
      {
-      "text": "に (или から)",
-      "color": "term",
+      "text": "に/から",
+      "color": "info",
       "style": "bold"
      },
      {
       "text": "«ко мне»",
-      "color": "info",
+      "color": "term",
       "style": "bold"
      }
     ]
@@ -65,25 +70,29 @@
      "table": {
       "headers": [
        "Глагол",
-       "Кто → кому"
+       "Кто → кому",
+       "Схема"
       ],
       "rows": [
        {
         "cells": [
          "あげる",
-         "я (или кто-то) → другому"
+         "я (или кто-то) → другому",
+         "A は B に X を あげる"
         ]
        },
        {
         "cells": [
          "くれる",
-         "другой → мне / моим"
+         "другой → мне / моим",
+         "A が (私に) X を くれる"
         ]
        },
        {
         "cells": [
          "もらう",
-         "я получаю от другого"
+         "я получаю",
+         "私は A に X を もらう"
         ]
        }
       ]
@@ -92,9 +101,9 @@
    ]
   },
   {
-   "label": "Услуга: ～てあげる / ～てくれる",
+   "label": "Услуга",
    "intro": {
-    "text": "С て-формой эти глаголы говорят об услуге: ～てくれる — «сделал для меня», ～てもらう — «мне сделали (я попросил)».",
+    "text": "С て-формой эти глаголы говорят об услуге: ～てくれる — «сделал для меня», ～てもらう — «мне сделали».",
     "highlights": [
      {
       "text": "～てくれる",
@@ -113,18 +122,13 @@
      "title": "Примеры",
      "examples": [
       {
-       "en": "ともだちが みちを おしえて くれました。",
-       "reading": "tomodachi ga michi o oshiete kuremashita",
+       "en": "友達が 道を 教えて くれました。",
+       "reading": "ともだちが みちを おしえて くれました。 · tomodachi ga michi o oshiete kuremashita",
        "ru": "Друг показал мне дорогу."
       },
       {
-       "en": "いもうとに しゅくだいを てつだって あげました。",
-       "reading": "imōto ni shukudai o tetsudatte agemashita",
-       "ru": "Я помог сестре с домашкой."
-      },
-      {
-       "en": "せんせいに さくぶんを なおして もらいました。",
-       "reading": "sensei ni sakubun o naoshite moraimashita",
+       "en": "先生に 作文を 直して もらいました。",
+       "reading": "せんせいに さくぶんを なおして もらいました。 · sensei ni sakubun o naoshite moraimashita",
        "ru": "Учитель исправил моё сочинение."
       }
      ]
@@ -132,9 +136,51 @@
    ]
   },
   {
+   "label": "Осторожно с ～てあげる",
+   "intro": {
+    "text": "～てあげる подчёркивает «я делаю тебе одолжение». Старшим так не говорят.",
+    "highlights": [
+     {
+      "text": "одолжение",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Сравни",
+     "table": {
+      "headers": [
+       "Неловко",
+       "Лучше"
+      ],
+      "rows": [
+       {
+        "cells": [
+         "先生、手伝って あげます",
+         "先生、お手伝いします"
+        ]
+       },
+       {
+        "cells": [
+         "持って あげましょうか",
+         "持ちましょうか"
+        ]
+       }
+      ],
+      "headerColors": [
+       "bad",
+       "example"
+      ]
+     }
+    }
+   ]
+  },
+  {
    "label": "Вежливо",
    "intro": {
-    "text": "Со старшими вместо あげる говорят さしあげる, вместо くれる — くださる, вместо もらう — いただく.",
+    "text": "Со старшими: あげる → さしあげる, くれる → くださる, もらう → いただく.",
     "highlights": [
      {
       "text": "さしあげる",
@@ -142,8 +188,13 @@
       "style": "bold"
      },
      {
-      "text": "いただく",
+      "text": "くださる",
       "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "いただく",
+      "color": "example",
       "style": "bold"
      }
     ]
@@ -153,21 +204,56 @@
      "title": "Примеры",
      "examples": [
       {
-       "en": "せんせいに はなを さしあげました。",
-       "reading": "sensei ni hana o sashiagemashita",
+       "en": "先生に 花を さしあげました。",
+       "reading": "せんせいに はなを さしあげました。 · sensei ni hana o sashiagemashita",
        "ru": "Я преподнёс учителю цветы."
       },
       {
-       "en": "しゃちょうが おかしを くださいました。",
-       "reading": "shachō ga okashi o kudasaimashita",
-       "ru": "Директор угостил меня сладостями."
-      },
-      {
-       "en": "おみやげを いただきました。",
-       "reading": "omiyage o itadakimashita",
+       "en": "お土産を いただきました。",
+       "reading": "おみやげを いただきました。 · omiyage o itadakimashita",
        "ru": "Я получил сувенир (от уважаемого человека)."
       }
      ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "友達が 私に 本を あげました",
+       "right": "友達が 本を くれました"
+      },
+      {
+       "wrong": "私は 友達に くれました",
+       "right": "私は 友達に あげました"
+      },
+      {
+       "wrong": "先生に 教えて くれました",
+       "right": "先生が 教えて くださいました"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "От меня — あげる, ко мне — くれる, получаю — もらう.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
     }
    ]
   }
