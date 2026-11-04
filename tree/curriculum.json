@@ -1214,7 +1214,7 @@
       "slices": [
         {
           "route": "cards_pluralnouns",
-          "revision": 2,
+          "revision": 3,
           "slides": [
             0,
             1
@@ -1250,7 +1250,7 @@
       "slices": [
         {
           "route": "cards_presentsimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             3
           ]
@@ -1262,16 +1262,14 @@
     {
       "id": "a1_simple_routines",
       "level": "A1",
-      "title": "Факты и привычки",
+      "title": "Факты и привычки: I work, she works",
       "slices": [
         {
           "route": "cards_presentsimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
-            1,
-            2,
-            4
+            2
           ]
         }
       ],
@@ -1281,23 +1279,131 @@
       "reviewed": false
     },
     {
+      "id": "a1_simple_questions",
+      "level": "A1",
+      "title": "Не и вопрос: don't, does",
+      "slices": [
+        {
+          "route": "cards_presentsimp",
+          "revision": 2,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_simple_review",
+      "level": "A1",
+      "title": "Present Simple: проверка",
+      "slices": [
+        {
+          "route": "cards_presentsimp",
+          "revision": 2,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a1_nouns_variants",
       "level": "A1",
-      "title": "Особые формы и исчисляемость",
+      "title": "Особые формы: men, children, sheep",
       "slices": [
         {
           "route": "cards_pluralnouns",
-          "revision": 2,
+          "revision": 3,
           "slides": [
-            2,
-            3,
-            4,
-            5
+            3
           ]
         }
       ],
       "prerequisites": [
         "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_nouns_spelling",
+      "level": "A2",
+      "title": "Слова на -o и -f: potatoes, knives",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 3,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_nouns_uncountable",
+      "level": "A2",
+      "title": "Только мн. число и неисчисляемые",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 3,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_nouns_review",
+      "level": "A2",
+      "title": "Число существительных: проверка",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 3,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_variants",
+        "a2_nouns_spelling",
+        "a2_nouns_uncountable"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_nouns_rare",
+      "level": "B1",
+      "title": "Редкие формы: roofs, crises, criteria",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 3,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_variants",
+        "a2_nouns_spelling"
       ],
       "reviewed": false
     },
@@ -1333,8 +1439,7 @@
         }
       ],
       "prerequisites": [
-        "a1_article_introduction",
-        "a1_nouns_variants"
+        "a1_article_introduction"
       ],
       "reviewed": false
     },
