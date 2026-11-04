@@ -5,21 +5,21 @@
     {
       "label": "a / an, the или ничего",
       "intro": {
-        "text": "Артикль — короткая подсказка перед существительным. Для одного исчисляемого предмета нужен определитель: a book, the book, my book. Если собеседнику понятно, какой предмет или набор мы имеем в виду, часто нужен the. Для общего смысла во множественном числе и с неисчисляемыми обычно артикля нет.",
+        "text": "Артикль — короткое служебное слово перед существительным, то есть названием предмета, человека или вещества: a book, the book. В русском артиклей нет, поэтому опирайся на смысл. A / an — один какой-то предмет. The — собеседник может понять, какой именно. Без артикля — о многих предметах или о веществе вообще.",
         "highlights": [
           {
-            "text": "одного исчисляемого",
+            "text": "A / an",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "The",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "the",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "общего смысла",
-            "color": "term",
+            "text": "Без артикля",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -79,93 +79,142 @@
           }
         },
         {
+          "title": "Сразу на примере",
+          "borderColor": "good",
+          "text": "Один разговор о собаках — три разных артикля.",
+          "examples": [
+            {
+              "en": "I have a dog.",
+              "ru": "У меня есть собака. (собеседник её ещё не знает)"
+            },
+            {
+              "en": "The dog is very friendly.",
+              "ru": "Эта собака очень дружелюбная. (теперь понятно, о какой речь)"
+            },
+            {
+              "en": "Dogs are clever animals.",
+              "ru": "Собаки — умные животные. (собаки вообще)"
+            }
+          ]
+        },
+        {
           "title": "Как выбрать за три шага",
           "borderColor": "info",
           "steps": {
             "accentColor": "term",
             "items": [
-              "Есть my, this, some или другой определитель? Обычно второй артикль не нужен: my bag, this book.",
-              "Нужно выделить понятный собеседнику предмет или набор? The: the bag on your chair. Его не обязательно упоминали раньше.",
-              "Предмет один и исчисляемый, но не выделен? A / an: I need a bag. Много или неисчисляемое в общем смысле? Без артикля: Bags are useful. Water is important."
+              "Перед существительным уже есть my, your, this, that или число? Артикль не нужен: my bag, this book, two books.",
+              "Собеседник может понять, какой именно предмет? The: the bag on your chair, the sun. Это не обязательно второе упоминание.",
+              "Предмет один и его можно посчитать, но он не выделен? A / an: I need a bag. Говоришь о многих или о веществе вообще? Без артикля: Bags are useful. Water is important."
             ]
-          }
-        },
-        {
-          "title": "Сразу на примере",
-          "borderColor": "good",
-          "examples": [
-            {
-              "en": "I have a dog.",
-              "ru": "У меня есть собака. (какая-то, впервые говорю)"
-            },
-            {
-              "en": "The dog is very friendly.",
-              "ru": "Собака (эта) очень дружелюбная."
-            },
-            {
-              "en": "Dogs are clever animals.",
-              "ru": "Собаки — умные животные. (вообще)"
-            }
-          ]
-        },
-        {
-          "title": "Один предмет тоже может обозначать целый класс",
-          "borderColor": "info",
-          "text": "A rabbit has long ears — речь не об одном конкретном кролике, а о типичном представителе. Для начала проще говорить Rabbits have long ears. Правило «общее значение — всегда без артикля» слишком грубое.",
-          "examples": [
-            {
-              "en": "A rabbit has long ears.",
-              "ru": "У кролика длинные уши."
-            },
-            {
-              "en": "Rabbits have long ears.",
-              "ru": "У кроликов длинные уши."
-            }
-          ]
-        },
-        {
-          "title": "Ещё примеры",
-          "borderColor": "good",
+          },
           "examples": [
             {
               "en": "I bought a new phone. The phone is great.",
-              "ru": "Я купил новый телефон. Телефон отличный. (сначала новый — a, потом уже известный — the)"
+              "ru": "Я купил новый телефон. Он отличный. (сначала собеседник его не знает, потом уже знает)"
             },
             {
               "en": "Can you open the door, please?",
-              "ru": "Открой, пожалуйста, дверь. (понятно, какую — the)"
+              "ru": "Открой, пожалуйста, дверь. (понятно, какую)"
             },
             {
               "en": "She is a doctor.",
-              "ru": "Она врач. (одна из многих — a)"
+              "ru": "Она врач. (кто она по профессии)"
             },
             {
               "en": "I like music and books.",
-              "ru": "Я люблю музыку и книги. (вообще — без артикля)"
+              "ru": "Я люблю музыку и книги. (вообще)"
+            }
+          ]
+        },
+        {
+          "title": "Один предмет не стоит без определителя",
+          "borderColor": "bad",
+          "text": "Исчисляемое существительное — то, что можно посчитать штуками: one book, two books. Одно такое слово почти никогда не стоит голым: перед ним нужен a / an, the, my, this или другой определитель. Два определителя подряд тоже не ставят.",
+          "errors": [
+            {
+              "wrong": "I have book.",
+              "right": "I have a book. (одна книга — нужен определитель)"
+            },
+            {
+              "wrong": "This is the my bag.",
+              "right": "This is my bag. (my уже определяет сумку)"
             }
           ]
         }
       ],
-      "expandables": []
+      "expandables": [
+        {
+          "label": "Дальше по теме",
+          "preview": "a tiger, the tiger, the USA",
+          "initiallyExpanded": false,
+          "presentation": "optional",
+          "section": {
+            "borderColor": "info",
+            "text": "Когда освоишь основы: высказывания обо всём виде вроде A tiger is a big cat и The tiger is in danger разобраны в карточке «Артикли: обобщение», а страны, реки и горы — в карточке «Артикли с названиями». Для начала достаточно множественного числа: Tigers are big cats.",
+            "title": ""
+          }
+        }
+      ]
     },
     {
       "label": "a / an: какой-то один",
       "intro": {
-        "text": "A и an помогают назвать один исчисляемый предмет, не выделяя его как уже понятный собеседнику: a book. Так часто вводят новый предмет в рассказ или говорят, что подойдёт любой. Но первое упоминание само по себе не требует a: видимая обоим дверь может сразу быть the door. Сравни a book и two books; воду как вещество считаем через меру: a glass of water.",
+        "text": "A и an значат «один, какой-то»: a book — одна книга, не выделенная из других. Так называют предмет, который собеседник ещё не может узнать, или говорят, что подойдёт любой. Перед множественным числом и веществами a / an не ставят: books, water.",
         "highlights": [
           {
-            "text": "один исчисляемый предмет",
+            "text": "один, какой-то",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "первое упоминание само по себе не требует a",
+            "text": "подойдёт любой",
             "color": "info",
             "style": "bold"
           }
         ]
       },
       "sections": [
+        {
+          "title": "Когда используем a / an",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Новое для собеседника",
+              "suffix": "он ещё не знает, какой именно",
+              "example": "There is a cat in the garden."
+            },
+            {
+              "name": "Любой из многих",
+              "suffix": "неважно, какой именно",
+              "example": "Can I have a pen, please?"
+            },
+            {
+              "name": "Кто это / что это",
+              "suffix": "профессия, что за предмет",
+              "example": "She is a doctor. It's a table."
+            },
+            {
+              "name": "Сколько раз за период",
+              "suffix": "«в» здесь значит «за»",
+              "example": "twice a week, 60 km an hour"
+            }
+          ],
+          "examples": [
+            {
+              "en": "I need a new phone.",
+              "ru": "Мне нужен новый телефон. (какой-нибудь)"
+            },
+            {
+              "en": "She is an engineer.",
+              "ru": "Она инженер."
+            },
+            {
+              "en": "I go swimming twice a week.",
+              "ru": "Я хожу плавать два раза в неделю."
+            }
+          ]
+        },
         {
           "title": "Формула",
           "borderColor": "info",
@@ -204,33 +253,7 @@
           }
         },
         {
-          "title": "Когда используем a / an",
-          "borderColor": "term",
-          "rules": [
-            {
-              "name": "Вводим новый предмет",
-              "suffix": "когда собеседник ещё не может определить, какой именно",
-              "example": "I saw a cat on the street."
-            },
-            {
-              "name": "Какой угодно из многих",
-              "suffix": "неважно, какой именно",
-              "example": "Can I have a pen, please?"
-            },
-            {
-              "name": "Кто это / что это",
-              "suffix": "профессия, что за предмет",
-              "example": "She is a doctor. It's a table."
-            },
-            {
-              "name": "«В» в значении «за»",
-              "suffix": "сколько раз за неделю, км за час",
-              "example": "twice a week, 60 km an hour"
-            }
-          ]
-        },
-        {
-          "title": "A или an — правило",
+          "title": "A или an: слушай звук, а не букву",
           "borderColor": "bad",
           "table": {
             "headers": [
@@ -243,70 +266,29 @@
               "example",
               "term"
             ],
+            "borderColor": "bad",
             "rows": [
               {
                 "cells": [
                   "a",
                   "согласный ЗВУК",
-                  "a book, a university, a European"
+                  "a book, a cat, a university, a uniform"
                 ]
               },
               {
                 "cells": [
                   "an",
                   "гласный ЗВУК",
-                  "an apple, an hour, an honest man"
+                  "an apple, an egg, an umbrella, an hour"
                 ]
               }
-            ],
-            "borderColor": "bad"
+            ]
           },
           "callout": {
             "type": "info",
             "title": "Слушай следующее слово",
-            "text": "A / an зависит от первого звука сразу после артикля, даже если дальше идёт прилагательное: a useful idea, an unusual idea. В university первый звук /j/ — согласный; в hour h не произносится."
-          }
-        },
-        {
-          "title": "Живые примеры",
-          "borderColor": "good",
-          "examples": [
-            {
-              "en": "I need a new phone.",
-              "ru": "Мне нужен новый телефон. (какой-то)"
-            },
-            {
-              "en": "She is an engineer.",
-              "ru": "Она инженер."
-            },
-            {
-              "en": "He is a European writer.",
-              "ru": "Он европейский писатель. (звук [j])"
-            },
-            {
-              "en": "Wait an hour, please.",
-              "ru": "Подожди час. (h не читается)"
-            }
-          ]
-        },
-        {
-          "title": "Количество и значение слова",
-          "borderColor": "info",
-          "text": "Не ставим a перед water, когда говорим о воде как веществе. Но в кафе a water может означать одну бутылку или порцию. Для начинающего безопаснее назвать единицу: a bottle of water.",
-          "examples": [
-            {
-              "en": "Could I have a bottle of water?",
-              "ru": "Можно мне бутылку воды?"
-            },
-            {
-              "en": "It is an old bike.",
-              "ru": "Это старый велосипед."
-            }
-          ]
-        },
-        {
-          "title": "Ещё примеры",
-          "borderColor": "good",
+            "text": "A / an зависит от первого звука слова сразу после артикля, даже если это прилагательное: a useful idea, an unusual idea. University и uniform начинаются со звука /j/ — он согласный. В hour буква h не произносится."
+          },
           "examples": [
             {
               "en": "I need an umbrella.",
@@ -314,28 +296,92 @@
             },
             {
               "en": "She wears a uniform at work.",
-              "ru": "На работе она носит форму. (звук [j] — a)"
+              "ru": "На работе она носит форму. (звук /j/ — a)"
+            },
+            {
+              "en": "Wait an hour, please.",
+              "ru": "Подожди час, пожалуйста. (h не звучит — an)"
             },
             {
               "en": "It was an easy question.",
-              "ru": "Это был лёгкий вопрос."
+              "ru": "Это был лёгкий вопрос. (смотрим на easy)"
+            }
+          ]
+        },
+        {
+          "title": "Одна вещь или вещество",
+          "borderColor": "info",
+          "text": "A / an ставят только перед тем, что считают штуками. Water, milk, rice — вещества: их не считают по одному, поэтому называют меру — a glass of water, a bottle of milk.",
+          "examples": [
+            {
+              "en": "Could I have a glass of water?",
+              "ru": "Можно мне стакан воды?"
             },
             {
-              "en": "He is an honest man.",
-              "ru": "Он честный человек. (h не читается — an)"
+              "en": "Buy a bottle of milk, please.",
+              "ru": "Купи, пожалуйста, бутылку молока."
+            }
+          ],
+          "errors": [
+            {
+              "wrong": "I drink a water every day.",
+              "right": "I drink water every day. (вода вообще — без артикля)"
             }
           ]
         }
       ],
-      "expandables": []
+      "expandables": [
+        {
+          "label": "Когда буква обманывает",
+          "preview": "an honest man, a European city",
+          "initiallyExpanded": false,
+          "presentation": "optional",
+          "section": {
+            "borderColor": "info",
+            "text": "Это слова посложнее, но правило то же: решает первый звук.",
+            "examples": [
+              {
+                "en": "He is an honest man.",
+                "ru": "Он честный человек. (h не звучит — an)"
+              },
+              {
+                "en": "Prague is a European city.",
+                "ru": "Прага — европейский город. (звук /j/ — a)"
+              },
+              {
+                "en": "She has a one-year-old son.",
+                "ru": "У неё годовалый сын. (звук /w/ — a)"
+              }
+            ],
+            "title": ""
+          }
+        },
+        {
+          "label": "A coffee, a water в кафе",
+          "preview": "разговорная порция",
+          "initiallyExpanded": false,
+          "presentation": "optional",
+          "section": {
+            "borderColor": "info",
+            "text": "В кафе говорят Two coffees, please или A water, please: имеется в виду чашка или бутылка. Это обычный разговорный вариант, не ошибка. Но в рассказе о веществе вообще a не ставят: Coffee is expensive here. Для начала надёжнее назвать меру: a cup of coffee, a bottle of water.",
+            "examples": [
+              {
+                "en": "Two coffees, please.",
+                "ru": "Два кофе, пожалуйста."
+              }
+            ],
+            "title": ""
+          }
+        }
+      ]
     },
     {
       "label": "the: тот самый",
       "intro": {
-        "text": "The помогает указать, что именно мы имеем в виду. Предмет могут уже знать из разговора, видеть рядом или определить по ситуации. The подходит и к одному предмету, и к нескольким, и к неисчисляемому: the key, the keys, the water.",
+        "text": "The показывает: собеседник может понять, какой именно предмет мы имеем в виду. Его уже называли, его видно или он один в этой ситуации. The ставят перед любым существительным: the key, the keys, the water.",
         "highlights": [
           {
-            "text": "The",
+            "text": "может понять, какой именно",
             "color": "term",
             "style": "bold"
           },
@@ -363,64 +409,46 @@
           "rules": [
             {
               "name": "Уже говорили",
-              "suffix": "второй раз о том же",
+              "suffix": "теперь собеседник знает, о чём речь",
               "example": "I saw a cat. The cat was black."
             },
             {
-              "name": "Единственный в понятной ситуации",
-              "suffix": "не обязательно единственный во Вселенной",
-              "example": "the sun, the moon, the sky"
-            },
-            {
-              "name": "Понятно из обстановки",
-              "suffix": "все видят, какой",
+              "name": "Видно из ситуации",
+              "suffix": "все понимают, какой",
               "example": "Close the window, please."
             },
             {
-              "name": "Самый-самый",
-              "suffix": "the + -est / most",
-              "example": "the best, the tallest"
+              "name": "Один в своём мире",
+              "suffix": "одно солнце, одна луна",
+              "example": "the sun, the moon, the sky"
             },
             {
               "name": "Уточнили, какой именно",
-              "suffix": "если уточнение помогает узнать именно этот предмет",
+              "suffix": "уточнение выделяет один предмет",
               "example": "the book on the table"
             }
-          ]
-        },
-        {
-          "title": "Проверка",
-          "borderColor": "good",
-          "callout": {
-            "type": "info",
-            "title": "Уточнение не включает the автоматически",
-            "text": "I need a book about space — подойдёт любая книга о космосе. I need the book you borrowed — нужна конкретная книга. Важно, может ли слушатель определить предмет, а не просто наличие слов после существительного."
-          }
-        },
-        {
-          "title": "Живые примеры",
-          "borderColor": "good",
+          ],
           "examples": [
             {
               "en": "The sun is bright today.",
-              "ru": "Солнце сегодня яркое. (единственное)"
-            },
-            {
-              "en": "This is the best coffee in town.",
-              "ru": "Это лучший кофе в городе."
+              "ru": "Солнце сегодня яркое. (оно одно)"
             },
             {
               "en": "Open the door, please.",
-              "ru": "Открой дверь. (ту самую)"
+              "ru": "Открой, пожалуйста, дверь. (понятно, какую)"
             },
             {
-              "en": "She is the tallest girl in the class.",
-              "ru": "Она самая высокая в классе."
+              "en": "Where is the remote? It was on the sofa.",
+              "ru": "Где пульт? Он был на диване. (дома понятно, какой)"
+            },
+            {
+              "en": "The man in the blue jacket is my uncle.",
+              "ru": "Мужчина в синей куртке — мой дядя. (уточнение выделяет одного)"
             }
           ]
         },
         {
-          "title": "A / an vs the",
+          "title": "Важен не номер упоминания, а понятность",
           "borderColor": "info",
           "table": {
             "headers": [
@@ -433,81 +461,76 @@
               "example",
               "term"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
-                  "Первое упоминание",
+                  "Собеседник не знает, о какой кошке речь",
                   "a / an",
                   "I saw a cat."
                 ]
               },
               {
                 "cells": [
-                  "Повторное упоминание",
+                  "Теперь знает",
                   "the",
                   "The cat was black."
                 ]
               },
               {
                 "cells": [
-                  "Какой-то один",
+                  "Подойдёт любая ручка",
                   "a / an",
-                  "Give me a pen."
+                  "Can I have a pen?"
                 ]
               },
               {
                 "cells": [
-                  "Тот самый",
+                  "Нужна конкретная ручка",
                   "the",
                   "Give me the pen on the desk."
                 ]
               }
-            ],
-            "borderColor": "info"
-          }
-        },
-        {
-          "title": "Первое упоминание тоже бывает с the",
-          "borderColor": "info",
-          "text": "В комнате с одной открытой дверью можно сразу попросить закрыть the door. «Первый раз — a, второй — the» удобно для рассказа, но это не универсальный закон.",
+            ]
+          },
+          "text": "Первое упоминание тоже бывает с the: в комнате с одной дверью сразу говорят Close the door. «Сначала a, потом the» — удобная подсказка для рассказа, а не закон.",
           "examples": [
             {
               "en": "Please close the door behind you.",
               "ru": "Пожалуйста, закрой за собой дверь."
-            },
+            }
+          ]
+        },
+        {
+          "title": "Уточнение ещё не значит the",
+          "borderColor": "good",
+          "callout": {
+            "type": "info",
+            "title": "Проверка",
+            "text": "Важно, может ли собеседник выделить предмет, а не то, есть ли слова после существительного. Книга о космосе — любая из многих, а книга, которую ты брал, — одна."
+          },
+          "examples": [
             {
               "en": "I need a book about space.",
               "ru": "Мне нужна какая-нибудь книга о космосе."
+            },
+            {
+              "en": "I need the book you borrowed.",
+              "ru": "Мне нужна та книга, которую ты брал."
             }
           ]
         }
       ],
       "expandables": [
         {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
+          "label": "Ещё случаи с the",
+          "preview": "the best, the first",
           "initiallyExpanded": false,
+          "presentation": "optional",
           "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "Where is the remote? It was on the sofa.",
-                "ru": "Где пульт? Он был на диване. (все знают, какой)"
-              },
-              {
-                "en": "The moon is beautiful tonight.",
-                "ru": "Луна сегодня красивая."
-              },
-              {
-                "en": "This is the first time I'm here.",
-                "ru": "Я здесь впервые."
-              },
-              {
-                "en": "The man in the blue jacket is my uncle.",
-                "ru": "Мужчина в синей куртке — мой дядя."
-              }
-            ]
+            "borderColor": "info",
+            "text": "The перед превосходной степенью и порядковыми числами — the best, the first — разобран на отдельном слайде в конце карточки.",
+            "title": ""
           }
         }
       ]
@@ -515,7 +538,7 @@
     {
       "label": "Когда артикль не нужен",
       "intro": {
-        "text": "Cats и water обычно без артикля, когда говорим о кошках или воде вообще. Для конкретных кошек или воды нужен the: the cats outside, the water in this bottle. С именами, языками и приёмами пищи есть обычные модели и отдельные исключения.",
+        "text": "Без артикля говорят о многих предметах вообще и о веществах или понятиях вообще: Cats are cute. Water is important. Если речь о конкретных кошках или конкретной воде, нужен the: the cats outside, the water in this bottle. Без артикля обычно стоят и имена, города, большинство стран, языки и приёмы пищи.",
         "highlights": [
           {
             "text": "вообще",
@@ -523,7 +546,7 @@
             "style": "bold"
           },
           {
-            "text": "нельзя посчитать штуками",
+            "text": "конкретных",
             "color": "term",
             "style": "bold"
           }
@@ -531,64 +554,24 @@
       },
       "sections": [
         {
-          "title": "Когда артикль НЕ нужен",
+          "title": "Вообще — без артикля",
           "borderColor": "bad",
+          "text": "Неисчисляемое существительное — то, что не считают штуками: water, music, money. О таком веществе или понятии вообще говорят без артикля, как и о многих предметах во множественном числе.",
           "rules": [
             {
-              "name": "Множественное в общем",
-              "suffix": "без the",
-              "example": "Cats are cute. (кошки вообще)"
+              "name": "Много предметов вообще",
+              "suffix": "множественное число",
+              "example": "Cats are cute."
             },
             {
-              "name": "Неисчисляемые в общем",
-              "suffix": "без the",
-              "example": "Water is important."
-            },
-            {
-              "name": "Имена и города",
-              "suffix": "без the",
-              "example": "Anna, London, Russia"
-            },
-            {
-              "name": "Приёмы пищи",
-              "suffix": "без the",
-              "example": "I have breakfast at 8."
-            },
-            {
-              "name": "Языки и предметы",
-              "suffix": "без the",
-              "example": "She speaks English. I study math."
+              "name": "Вещество или понятие вообще",
+              "suffix": "неисчисляемое",
+              "example": "Water is important. I love music."
             }
           ]
         },
         {
-          "title": "Когда the точно нужен",
-          "borderColor": "term",
-          "rules": [
-            {
-              "name": "Страны со словами States, Kingdom или во мн. числе",
-              "suffix": "the",
-              "example": "the USA, the UK, the Netherlands"
-            },
-            {
-              "name": "Реки, моря, океаны",
-              "suffix": "the",
-              "example": "the Volga, the Black Sea"
-            },
-            {
-              "name": "Общие привычные названия",
-              "suffix": "the в этих выражениях",
-              "example": "the sun, the moon, the sky"
-            },
-            {
-              "name": "Группа людей по признаку",
-              "suffix": "the + прилагательное",
-              "example": "the rich — богатые, the young — молодёжь"
-            }
-          ]
-        },
-        {
-          "title": "Сравнение",
+          "title": "Вообще или конкретно",
           "borderColor": "info",
           "table": {
             "headers": [
@@ -601,11 +584,12 @@
               "example",
               "term"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
                   "Кошки вообще",
-                  "— (нулевой)",
+                  "— (нет)",
                   "Cats are cute."
                 ]
               },
@@ -619,7 +603,7 @@
               {
                 "cells": [
                   "Вода вообще",
-                  "— (нулевой)",
+                  "— (нет)",
                   "Water is important."
                 ]
               },
@@ -629,100 +613,129 @@
                   "the",
                   "The water in the glass is cold."
                 ]
+              },
+              {
+                "cells": [
+                  "Музыка вообще",
+                  "— (нет)",
+                  "I love music."
+                ]
+              },
+              {
+                "cells": [
+                  "Эта музыка",
+                  "the",
+                  "The music in this café is too loud."
+                ]
               }
-            ],
-            "borderColor": "info"
+            ]
+          },
+          "errors": [
+            {
+              "wrong": "The cats are cute. (о кошках вообще)",
+              "right": "Cats are cute."
+            },
+            {
+              "wrong": "I like the music. (о музыке вообще)",
+              "right": "I like music."
+            }
+          ]
+        },
+        {
+          "title": "Имена, места, языки, еда",
+          "borderColor": "bad",
+          "rules": [
+            {
+              "name": "Имена и города",
+              "suffix": "без артикля",
+              "example": "Anna lives in London."
+            },
+            {
+              "name": "Большинство стран",
+              "suffix": "без артикля",
+              "example": "Russia, Spain, Japan"
+            },
+            {
+              "name": "Языки",
+              "suffix": "без артикля",
+              "example": "She speaks English."
+            },
+            {
+              "name": "Учебные предметы",
+              "suffix": "без артикля",
+              "example": "I study maths. (амер. math)"
+            },
+            {
+              "name": "Приёмы пищи",
+              "suffix": "без артикля",
+              "example": "I have breakfast at 8."
+            }
+          ],
+          "callout": {
+            "type": "tip",
+            "title": "Но: the USA, the UK",
+            "text": "Страны со словами States, Kingdom, Republic или во множественном числе идут с the: the USA, the UK, the Netherlands. Реки и моря тоже с the: the Volga. Подробнее — в карточке «Артикли с названиями»."
           }
         },
         {
-          "title": "Завтрак, школа и транспорт: смотри на смысл",
+          "title": "Привычные выражения без артикля",
           "borderColor": "info",
-          "text": "Have breakfast — завтракать; have a big breakfast — съесть большой завтрак. Go to school — ходить учиться; go to the school — идти в известное здание школы. By bus — способ передвижения; on the bus — в конкретном автобусе.",
-          "examples": [
-            {
-              "en": "We had a late breakfast.",
-              "ru": "Мы поздно позавтракали."
-            },
-            {
-              "en": "I left my bag on the bus.",
-              "ru": "Я оставил сумку в автобусе."
-            }
-          ]
-        }
-      ],
-      "expandables": [
-        {
-          "label": "Дом, школа, работа — без артикля",
-          "preview": "go to school, at home, by bus",
-          "initiallyExpanded": false,
-          "section": {
+          "text": "Эти сочетания удобно запомнить целиком. Почему в них нет артикля и когда он появляется (the school, on the bus) — на последнем слайде карточки.",
+          "table": {
+            "headers": [
+              "Выражение",
+              "Перевод"
+            ],
+            "headerColors": [
+              "term",
+              "muted"
+            ],
             "borderColor": "info",
-            "table": {
-              "headers": [
-                "Выражение",
-                "Перевод"
-              ],
-              "headerColors": [
-                "term",
-                "muted"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "go to school / work / bed",
-                    "идти в школу / на работу / спать"
-                  ]
-                },
-                {
-                  "cells": [
-                    "at home, at work, at school",
-                    "дома, на работе, в школе"
-                  ]
-                },
-                {
-                  "cells": [
-                    "by bus, by car, by train",
-                    "на автобусе, на машине, на поезде"
-                  ]
-                },
-                {
-                  "cells": [
-                    "on Monday, in May, at night",
-                    "в понедельник, в мае, ночью"
-                  ]
-                }
-              ]
-            },
-            "callout": {
-              "type": "tip",
-              "title": "Почему так",
-              "text": "Здесь важно не здание, а его назначение: go to school — учиться. Если идёшь в само здание по делу, артикль появляется: Mum went to the school to talk to the teacher."
-            },
-            "title": ""
+            "rows": [
+              {
+                "cells": [
+                  "go to school / work / bed",
+                  "ходить в школу / на работу, ложиться спать"
+                ]
+              },
+              {
+                "cells": [
+                  "at home, at work, at school",
+                  "дома, на работе, в школе"
+                ]
+              },
+              {
+                "cells": [
+                  "by bus, by car, by train",
+                  "на автобусе, на машине, на поезде"
+                ]
+              },
+              {
+                "cells": [
+                  "on Monday, in May, at night",
+                  "в понедельник, в мае, ночью"
+                ]
+              }
+            ]
           }
         }
-      ]
+      ],
+      "expandables": []
     },
     {
       "label": "Артикли: всё на одной странице",
       "intro": {
-        "text": "Сначала определяй число и значение существительного, затем — понятен ли предмет собеседнику. A / an, the и отсутствие артикля не зависят только от первого или второго упоминания.",
+        "text": "Сначала проверь, есть ли уже определитель: my, this, two. Затем — один это предмет или много и можно ли его посчитать. И наконец — может ли собеседник понять, какой именно.",
         "highlights": [
           {
-            "text": "a / an",
+            "text": "определитель",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "the",
+            "text": "какой именно",
             "color": "term",
             "style": "bold"
-          },
-          {
-            "text": "нулевой",
-            "color": "bad",
-            "style": "bold_underline"
           }
         ]
       },
@@ -741,44 +754,51 @@
               "example",
               "term"
             ],
+            "borderColor": "term",
             "rows": [
               {
                 "cells": [
                   "a / an",
-                  "один исчисляемый, не выделенный из других",
+                  "один исчисляемый, собеседник не может его выделить",
                   "I saw a cat."
                 ]
               },
               {
                 "cells": [
                   "the",
-                  "тот самый, уже известный",
+                  "собеседник понимает, какой именно",
                   "The cat was black."
                 ]
               },
               {
                 "cells": [
-                  "—",
-                  "мн. ч. вообще, неисчисл., имена",
-                  "Cats are cute."
-                ]
-              },
-              {
-                "cells": [
                   "the",
-                  "единственный, превосходный",
-                  "the sun, the best"
+                  "один в своём мире",
+                  "the sun, the moon"
                 ]
               },
               {
                 "cells": [
                   "—",
-                  "языки, приёмы пищи, города",
-                  "English, breakfast, London"
+                  "многие или вещество вообще",
+                  "Cats are cute. Water is important."
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "имена, города, языки, приёмы пищи",
+                  "Anna, London, English, breakfast"
+                ]
+              },
+              {
+                "cells": [
+                  "—",
+                  "уже есть my, this, two",
+                  "my cat, this book, two cats"
                 ]
               }
-            ],
-            "borderColor": "term"
+            ]
           }
         },
         {
@@ -809,10 +829,10 @@
           "errors": [
             {
               "wrong": "I am student.",
-              "right": "I am a student. (кто ты — a)"
+              "right": "I am a student. (один человек, называем роль — a)"
             },
             {
-              "wrong": "The cats are cute. (вообще)",
+              "wrong": "The cats are cute. (о кошках вообще)",
               "right": "Cats are cute. (вообще — без артикля)"
             },
             {
@@ -820,12 +840,16 @@
               "right": "I speak English. (языки — без артикля)"
             },
             {
-              "wrong": "Sun is bright.",
-              "right": "The sun is bright. (одно на свете — the)"
+              "wrong": "Sun is bright today.",
+              "right": "The sun is bright today. (солнце одно — the)"
             },
             {
               "wrong": "She is an teacher.",
-              "right": "She is a teacher. (перед /t/ нужен a)"
+              "right": "She is a teacher. (teacher начинается с /t/ — a)"
+            },
+            {
+              "wrong": "This is the my bag.",
+              "right": "This is my bag. (my уже определяет сумку)"
             }
           ]
         },
@@ -848,11 +872,371 @@
             }
           ]
         }
+      ],
+      "expandables": []
+    },
+    {
+      "label": "The с превосходной степенью: the best, the first",
+      "intro": {
+        "text": "Превосходная степень выделяет одного из группы: самый высокий, лучший. Порядковое число тоже указывает на одного: первый, последний. Такой предмет всегда «тот самый», поэтому перед ними обычно the.",
+        "highlights": [
+          {
+            "text": "одного из группы",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "the",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "the",
+                "color": "term"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "best / first / -est",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "существительное",
+                "color": "info"
+              }
+            ],
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "the",
+                "best / first / -est",
+                "существительное"
+              ],
+              "decoys": [
+                "a / an",
+                "my the"
+              ],
+              "examples": [
+                {
+                  "en": "She is the best student in the class.",
+                  "ru": "Она лучшая ученица в классе.",
+                  "parts": [
+                    [
+                      "She is",
+                      ""
+                    ],
+                    [
+                      "the",
+                      "the"
+                    ],
+                    [
+                      "best",
+                      "best / first / -est"
+                    ],
+                    [
+                      "student",
+                      "существительное"
+                    ],
+                    [
+                      "in the class.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "We took the last bus home.",
+                  "ru": "Мы поехали домой последним автобусом.",
+                  "parts": [
+                    [
+                      "We took",
+                      ""
+                    ],
+                    [
+                      "the",
+                      "the"
+                    ],
+                    [
+                      "last",
+                      "best / first / -est"
+                    ],
+                    [
+                      "bus",
+                      "существительное"
+                    ],
+                    [
+                      "home.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "It is the tallest building in the city.",
+                  "ru": "Это самое высокое здание в городе.",
+                  "parts": [
+                    [
+                      "It is",
+                      ""
+                    ],
+                    [
+                      "the",
+                      "the"
+                    ],
+                    [
+                      "tallest",
+                      "best / first / -est"
+                    ],
+                    [
+                      "building",
+                      "существительное"
+                    ],
+                    [
+                      "in the city.",
+                      ""
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Когда ставят the",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Превосходная степень",
+              "suffix": "самый, лучший",
+              "example": "the best, the tallest, the most interesting"
+            },
+            {
+              "name": "Порядковые числа",
+              "suffix": "первый, второй, последний",
+              "example": "the first day, the last bus"
+            },
+            {
+              "name": "Единственный такой",
+              "suffix": "only, same",
+              "example": "the only shop, the same bag"
+            }
+          ],
+          "examples": [
+            {
+              "en": "This is the best coffee in town.",
+              "ru": "Это лучший кофе в городе."
+            },
+            {
+              "en": "She is the tallest girl in the class.",
+              "ru": "Она самая высокая девочка в классе."
+            },
+            {
+              "en": "It was the worst day of my life.",
+              "ru": "Это был худший день в моей жизни."
+            },
+            {
+              "en": "We have the same bag.",
+              "ru": "У нас одинаковые сумки."
+            }
+          ]
+        },
+        {
+          "title": "My вместо the",
+          "borderColor": "info",
+          "text": "Если перед словом уже есть my, your, his, артикль не нужен: my best friend, his first job.",
+          "examples": [
+            {
+              "en": "She is my best friend.",
+              "ru": "Она моя лучшая подруга."
+            }
+          ],
+          "errors": [
+            {
+              "wrong": "She is the my best friend.",
+              "right": "She is my best friend. (my уже определяет)"
+            },
+            {
+              "wrong": "He is a tallest boy in the team.",
+              "right": "He is the tallest boy in the team. (самый — the)"
+            }
+          ]
+        },
+        {
+          "title": "Даты",
+          "borderColor": "info",
+          "text": "Вслух дату по-британски обычно говорят с the: the first of May. Пишут короче: 1 May. В американском английском чаще May first, на письме May 1.",
+          "examples": [
+            {
+              "en": "My birthday is on the first of May.",
+              "ru": "Мой день рождения первого мая."
+            }
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "It's the first time + present perfect",
+          "preview": "частая ошибка: the first time I'm here",
+          "initiallyExpanded": false,
+          "presentation": "optional",
+          "section": {
+            "borderColor": "bad",
+            "text": "После It's the first time обычно идёт present perfect: «впервые к этому моменту». По-русски «я здесь впервые» звучит в настоящем, поэтому легко ошибиться. Подробнее — в карточке Present Perfect.",
+            "errors": [
+              {
+                "wrong": "This is the first time I'm here.",
+                "right": "This is the first time I've been here."
+              }
+            ],
+            "title": ""
+          }
+        }
       ]
+    },
+    {
+      "label": "School, bed, bus: дело или конкретное место",
+      "intro": {
+        "text": "Некоторые места и предметы связаны с привычным делом: в школе учатся, в кровати спят, в автобусе едут. Когда важно само дело, артикль обычно не ставят: go to school, go to bed. Когда важно конкретное здание или предмет, артикль нужен: the school near my house.",
+        "highlights": [
+          {
+            "text": "привычным делом",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "конкретное здание или предмет",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Дело или место",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Без артикля — дело",
+              "С артиклем — конкретное место или предмет"
+            ],
+            "headerColors": [
+              "info",
+              "term"
+            ],
+            "borderColor": "term",
+            "rows": [
+              {
+                "cells": [
+                  "go to school (учиться)",
+                  "go to the school (прийти в здание, например на собрание)"
+                ]
+              },
+              {
+                "cells": [
+                  "go to bed (ложиться спать)",
+                  "sit on the bed (сесть на кровать)"
+                ]
+              },
+              {
+                "cells": [
+                  "by bus (способ поездки)",
+                  "on the bus (в конкретном автобусе)"
+                ]
+              },
+              {
+                "cells": [
+                  "be in prison (сидеть в тюрьме)",
+                  "visit the prison (прийти в здание)"
+                ]
+              }
+            ]
+          },
+          "examples": [
+            {
+              "en": "She goes to school by bus.",
+              "ru": "Она ездит в школу на автобусе."
+            },
+            {
+              "en": "Mum went to the school to talk to my teacher.",
+              "ru": "Мама пришла в школу поговорить с моим учителем."
+            },
+            {
+              "en": "I left my bag on the bus.",
+              "ru": "Я оставил сумку в автобусе."
+            }
+          ]
+        },
+        {
+          "title": "Британский и американский",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Hospital и university",
+            "text": "По-британски: in hospital — лежать в больнице, go to university — учиться в вузе. В американском английском обычно in the hospital, а об учёбе в вузе чаще говорят go to college. Оба варианта правильны в своей стране."
+          }
+        },
+        {
+          "title": "Еда: просто завтрак или особенный",
+          "borderColor": "info",
+          "text": "Have breakfast — просто завтракать. С прилагательным обычно появляется a: a big breakfast, a late lunch. Конкретная еда — с the: the dinner at the hotel.",
+          "examples": [
+            {
+              "en": "We had a late breakfast.",
+              "ru": "Мы поздно позавтракали."
+            },
+            {
+              "en": "The dinner at the hotel was excellent.",
+              "ru": "Ужин в отеле был отличным."
+            }
+          ],
+          "errors": [
+            {
+              "wrong": "We had a lunch at one.",
+              "right": "We had lunch at one. (просто обедали — без артикля)"
+            }
+          ]
+        },
+        {
+          "title": "Спорт и музыкальные инструменты",
+          "borderColor": "good",
+          "rules": [
+            {
+              "name": "Спорт и игры",
+              "suffix": "без артикля",
+              "example": "play football, play chess"
+            },
+            {
+              "name": "Музыкальные инструменты",
+              "suffix": "обычно the",
+              "example": "play the piano, play the violin"
+            }
+          ],
+          "text": "Play piano и особенно play guitar без артикля тоже часто говорят, прежде всего в американском английском и о музыке в группе. Это не ошибка, но вариант с the подходит всегда.",
+          "errors": [
+            {
+              "wrong": "He plays the football.",
+              "right": "He plays football. (спорт — без артикля)"
+            }
+          ]
+        }
+      ],
+      "expandables": []
     }
   ],
-  "editorial_revision": 2,
-  "editorial_review_scope": "full_card_language_review_targeted_revision",
+  "editorial_revision": 3,
+  "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "prerequisites": [
     "cards_pluralnouns"
@@ -863,7 +1247,9 @@
       "id": "error:articles.sound",
       "description": "A / an выбирается по следующему звуку",
       "slides": [
+        0,
         1,
+        2,
         4
       ],
       "decoys": [
@@ -873,11 +1259,12 @@
     },
     {
       "id": "error:articles.determiner",
-      "description": "Исчисляемому в единственном числе нужен определитель",
+      "description": "Исчисляемому в единственном числе нужен определитель, но только один",
       "slides": [
         0,
         1,
-        4
+        4,
+        5
       ],
       "decoys": [
         "the my",
@@ -889,6 +1276,7 @@
       "description": "The зависит от определённости, а не номера упоминания",
       "slides": [
         0,
+        1,
         2,
         4
       ],
@@ -903,6 +1291,41 @@
         4
       ],
       "decoys": []
+    },
+    {
+      "id": "error:articles.zero_fixed",
+      "description": "Имена, города, языки и приёмы пищи обычно без артикля",
+      "slides": [
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:articles.superlative",
+      "description": "The перед превосходной степенью и порядковыми числами",
+      "slides": [
+        5
+      ],
+      "decoys": [
+        "a"
+      ]
+    },
+    {
+      "id": "error:articles.institution",
+      "description": "School, bed, bus: дело без артикля, конкретное место с артиклем",
+      "slides": [
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:articles.activity",
+      "description": "Спорт без артикля, музыкальный инструмент обычно с the",
+      "slides": [
+        6
+      ],
+      "decoys": []
     }
   ],
   "topics": [
@@ -912,6 +1335,12 @@
   "related_words": [
     "word_book",
     "word_water",
-    "word_teacher"
+    "word_teacher",
+    "word_university",
+    "word_hour",
+    "word_school",
+    "word_bed",
+    "word_breakfast",
+    "word_piano"
   ]
 }
