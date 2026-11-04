@@ -5,7 +5,7 @@
     {
       "label": "There is / are: что где есть",
       "intro": {
-        "text": "Чтобы сообщить, что где-то что-то есть, удобно начать с There is / There are. Обычный порядок: There is a cat in the garden. Место часто стоит в конце, но его можно вынести вперёд: In the garden, there is a cat. There здесь помогает построить предложение и не означает место «там».",
+        "text": "Чтобы сообщить, что где-то что-то есть, удобно начать с There is / There are. Обычный порядок: There is a cat in the garden. Место часто ставим в конец, но его можно вынести вперёд: In the garden, there is a cat. There здесь не переводится как «там»: оно только начинает предложение.",
         "highlights": [
           {
             "text": "There is / There are",
@@ -13,7 +13,7 @@
             "style": "bold_underline"
           },
           {
-            "text": "место ставим в конец",
+            "text": "Место часто ставим в конец",
             "color": "info",
             "style": "bold"
           },
@@ -137,7 +137,7 @@
         {
           "title": "Is или are, если предметов несколько",
           "borderColor": "term",
-          "text": "С отдельным множественным существительным выбирай are: There are two chairs. При перечислении разных предметов в разговоре часто согласуют с первым: There is a desk and two chairs. Для ясного учебного ответа можно разделить: There is a desk. There are two chairs. Разговорное there’s перед множественным числом встречается, но для нейтральной письменной речи тренируем there are.",
+          "text": "С множественным существительным выбирай are: There are two chairs. При перечислении разных предметов есть два правильных варианта: в разговоре часто согласуют с первым (There is a desk and two chairs), а в аккуратной письменной речи — со всем перечнем (There are a desk and two chairs). Разговорное there’s перед множественным числом встречается, но в нейтральной речи тренируем there are.",
           "textColor": "text"
         },
         {
@@ -190,15 +190,6 @@
               "ru": "С моим телефоном проблема."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "There is — это не «там». Это просто «есть».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         },
         {
           "title": "Считай предмет, а не слова рядом",
@@ -709,10 +700,10 @@
     {
       "label": "Частые ошибки: It is вместо There is",
       "intro": {
-        "text": "Самые частые ошибки с There is / There are. Справа — правильно и почему.",
+        "text": "Частые ошибки с There is / There are. Справа — правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold"
           }
@@ -772,8 +763,8 @@
       ]
     }
   ],
-  "editorial_revision": 1,
-  "editorial_review_scope": "targeted_content_and_applied_exercises",
+  "editorial_revision": 2,
+  "editorial_review_scope": "full_card_language_review",
   "related_words": [
     "word_book",
     "word_in",
@@ -803,11 +794,25 @@
       "description": "Вводим наличие предмета через there; it обычно отсылает к известному",
       "slides": [
         0,
+        1,
         2
       ],
       "decoys": [
         "It is a desk in the room"
       ]
+    },
+    {
+      "id": "error:thereisare.question",
+      "description": "Вопрос и отрицание без do: Is there…? There isn’t…",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": [
+        "Do",
+        "Does"
+      ]
     }
-  ]
+  ],
+  "editorial_review_date": "2026-11-04"
 }

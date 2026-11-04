@@ -5,10 +5,10 @@
     {
       "label": "Открытый и закрытый слог",
       "intro": {
-        "text": "Одна и та же гласная читается по-разному. В открытом слоге (на конце или перед немой e) — как в алфавите: name, nine. В закрытом (за ней согласная) — коротко: cat, sit.",
+        "text": "Слог — часть слова с одной гласной. Если гласная стоит в конце слога или перед согласной и немой e, она обычно звучит как в алфавите: he, no, name, nine. Это открытый слог. Если после гласной в том же слоге согласная, гласная короткая: cat, sit. Это закрытый слог.",
         "highlights": [
           {
-            "text": "открытом слоге",
+            "text": "открытый слог",
             "color": "term",
             "style": "bold"
           },
@@ -18,7 +18,7 @@
             "style": "bold"
           },
           {
-            "text": "закрытом",
+            "text": "закрытый слог",
             "color": "info",
             "style": "bold"
           }
@@ -85,70 +85,141 @@
               "info"
             ]
           }
+        },
+        {
+          "title": "Немая e на конце",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Без e",
+              "С e",
+              "Перевод"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "muted"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "hat [æ]",
+                  "hate [eɪ]",
+                  "шляпа — ненавидеть"
+                ]
+              },
+              {
+                "cells": [
+                  "pet [e]",
+                  "Pete [iː]",
+                  "питомец — Пит"
+                ]
+              },
+              {
+                "cells": [
+                  "bit [ɪ]",
+                  "bite [aɪ]",
+                  "кусочек — кусать"
+                ]
+              },
+              {
+                "cells": [
+                  "hop [ɒ]",
+                  "hope [əʊ]",
+                  "прыгать — надеяться"
+                ]
+              },
+              {
+                "cells": [
+                  "cut [ʌ]",
+                  "cute [juː]",
+                  "резать — милый"
+                ]
+              }
+            ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Как это работает",
+            "text": "Сама e на конце обычно не читается, но делает гласную перед согласной «длинной», как в алфавите. Это частое правило, а не закон — см. исключения ниже."
+          }
+        },
+        {
+          "title": "Частые исключения",
+          "borderColor": "bad",
+          "text": "Самые частые слова часто нарушают правило немой e. Их читаем как исключения и запоминаем.",
+          "table": {
+            "headers": [
+              "Слово",
+              "Звук",
+              "Не так"
+            ],
+            "headerColors": [
+              "term",
+              "info",
+              "bad"
+            ],
+            "borderColor": "bad",
+            "rows": [
+              {
+                "cells": [
+                  "have",
+                  "[hæv]",
+                  "не «хейв»"
+                ]
+              },
+              {
+                "cells": [
+                  "give, live",
+                  "[ɡɪv], [lɪv]",
+                  "не «гайв», «лайв»"
+                ]
+              },
+              {
+                "cells": [
+                  "come, some, love",
+                  "[kʌm], [sʌm], [lʌv]",
+                  "не «коум»"
+                ]
+              },
+              {
+                "cells": [
+                  "one, done",
+                  "[wʌn], [dʌn]",
+                  "не «оун»"
+                ]
+              },
+              {
+                "cells": [
+                  "gone",
+                  "[ɡɒn]",
+                  "не «гоун»"
+                ]
+              }
+            ]
+          },
+          "examples": [
+            {
+              "en": "I have a dog.",
+              "ru": "У меня есть собака. (have — [hæv])"
+            },
+            {
+              "en": "Come here, please.",
+              "ru": "Подойди, пожалуйста. (come — [kʌm])"
+            }
+          ]
         }
       ],
       "expandables": [
         {
-          "label": "Немая e на конце",
-          "preview": "одна буква меняет слово",
+          "label": "U после r, l, j",
+          "preview": "rule, blue, June",
           "initiallyExpanded": false,
+          "presentation": "optional",
           "section": {
             "borderColor": "info",
-            "table": {
-              "headers": [
-                "Без e",
-                "С e",
-                "Перевод"
-              ],
-              "headerColors": [
-                "info",
-                "term",
-                "muted"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "hat [æ]",
-                    "hate [eɪ]",
-                    "шляпа — ненавидеть"
-                  ]
-                },
-                {
-                  "cells": [
-                    "pet [e]",
-                    "Pete [iː]",
-                    "питомец — Пит"
-                  ]
-                },
-                {
-                  "cells": [
-                    "bit [ɪ]",
-                    "bite [aɪ]",
-                    "кусочек — кусать"
-                  ]
-                },
-                {
-                  "cells": [
-                    "hop [ɒ]",
-                    "hope [əʊ]",
-                    "прыгать — надеяться"
-                  ]
-                },
-                {
-                  "cells": [
-                    "cut [ʌ]",
-                    "cute [juː]",
-                    "резать — милый"
-                  ]
-                }
-              ]
-            },
-            "callout": {
-              "type": "info",
-              "title": "Как это работает",
-              "text": "Сама e не читается, но делает гласную перед согласной «длинной», как в алфавите."
-            },
+            "text": "В открытом слоге u обычно [juː]: cute, music. После r, l и j звука [j] чаще нет: rule [ruːl], blue [bluː], June [dʒuːn]. В американском [j] выпадает и в других словах: tube [tuːb].",
             "title": ""
           }
         }
@@ -243,38 +314,63 @@
               "info",
               "example"
             ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Когда r всё-таки звучит",
+            "text": "В британском r после гласной не произносится, если дальше согласная или пауза: car [kɑː]. Но если следующее слово начинается с гласной, r слышно: car is [kɑːr ɪz]. В американском r звучит всегда."
           }
+        },
+        {
+          "title": "После w буквы читаются иначе",
+          "borderColor": "bad",
+          "rules": [
+            {
+              "name": "w + ar",
+              "suffix": "[ɔː]",
+              "example": "warm, war"
+            },
+            {
+              "name": "w + or",
+              "suffix": "[ɜː]",
+              "example": "world, work, word"
+            }
+          ],
+          "examples": [
+            {
+              "en": "It's warm today.",
+              "ru": "Сегодня тепло. (war — [wɔː])"
+            },
+            {
+              "en": "I work in an office.",
+              "ru": "Я работаю в офисе. (wor — [wɜː])"
+            }
+          ]
+        },
+        {
+          "title": "Примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "My car is in the park.",
+              "ru": "Моя машина в парке. (ar — [ɑː])"
+            },
+            {
+              "en": "The first girl turned.",
+              "ru": "Первая девочка обернулась. (ir, ur — [ɜː])"
+            },
+            {
+              "en": "I need more sport.",
+              "ru": "Мне нужно больше спорта. (or, ore — [ɔː])"
+            },
+            {
+              "en": "Take care!",
+              "ru": "Береги себя! (are — [eə])"
+            }
+          ]
         }
       ],
-      "expandables": [
-        {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "My car is in the park.",
-                "ru": "Моя машина в парке. (ar — [ɑː])"
-              },
-              {
-                "en": "The first girl turned.",
-                "ru": "Первая девочка обернулась. (ir, ur — [ɜː])"
-              },
-              {
-                "en": "I need more sport.",
-                "ru": "Мне нужно больше спорта. (or, ore — [ɔː])"
-              },
-              {
-                "en": "Take care!",
-                "ru": "Береги себя! (are — [eə])"
-              }
-            ]
-          }
-        }
-      ]
+      "expandables": []
     },
     {
       "label": "Согласные с двумя звуками: c и g",
@@ -366,8 +462,9 @@
           "callout": {
             "type": "info",
             "title": "Правила — опора, а не закон",
-            "text": "get, give, girl — g твёрдая. Если сомневаешься, смотри транскрипцию."
-          }
+            "text": "Get, give, girl, begin, together — g твёрдая, хотя дальше e или i. Если сомневаешься, смотри транскрипцию в словаре."
+          },
+          "text": "Сочетания ch, sh, th, ph и другие разобраны в карточке «Consonant Combos»."
         }
       ]
     },
@@ -407,10 +504,59 @@
             {
               "wrong": "hope — «хопе»",
               "right": "[həʊp] (e на конце немая)"
+            },
+            {
+              "wrong": "come — «коум»",
+              "right": "[kʌm] (исключение: e не удлиняет o)"
+            },
+            {
+              "wrong": "have — «хейв»",
+              "right": "[hæv] (исключение)"
             }
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:readingrules.open_closed",
+      "description": "Открытый и закрытый слог, немая e",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:readingrules.exception",
+      "description": "Частые слова-исключения: have, come, give, one",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:readingrules.vowel_r",
+      "description": "Гласная + r: ar, or, er, ir, ur",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:readingrules.c_g",
+      "description": "C и g: мягко перед e, i, y, иначе твёрдо",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
     }
   ]
 }

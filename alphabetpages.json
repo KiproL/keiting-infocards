@@ -224,75 +224,75 @@
               "info",
               "muted"
             ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Британский и американский",
+            "text": "Z: по-британски zed, по-американски zee. R в американском звучит с r: [ɑːr]. O в американском ближе к [oʊ]. H иногда произносят «хэйч» [heɪtʃ] — так говорят, например, в Ирландии; основной вариант — [eɪtʃ]."
+          }
+        },
+        {
+          "title": "Запоминай группами по звуку",
+          "borderColor": "term",
+          "text": "Буквы с одинаковым звуком в названии легче учить вместе: так сразу видно, что B, C, D, E… звучат на «и», а A, H, J, K — на «эй».",
+          "table": {
+            "headers": [
+              "Звук в названии",
+              "Буквы"
+            ],
+            "headerColors": [
+              "term",
+              "info"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "[eɪ] «эй»",
+                  "A, H, J, K"
+                ]
+              },
+              {
+                "cells": [
+                  "[iː] «и»",
+                  "B, C, D, E, G, P, T, V"
+                ]
+              },
+              {
+                "cells": [
+                  "[e] «э»",
+                  "F, L, M, N, S, X, Z"
+                ]
+              },
+              {
+                "cells": [
+                  "[aɪ] «ай»",
+                  "I, Y"
+                ]
+              },
+              {
+                "cells": [
+                  "[uː] «ю»",
+                  "Q, U, W"
+                ]
+              },
+              {
+                "cells": [
+                  "[əʊ] «оу»",
+                  "O"
+                ]
+              },
+              {
+                "cells": [
+                  "[ɑː] «а»",
+                  "R"
+                ]
+              }
+            ]
           }
         }
       ],
-      "expandables": [
-        {
-          "label": "Буквы по звучанию",
-          "preview": "запоминать проще группами",
-          "initiallyExpanded": false,
-          "section": {
-            "borderColor": "info",
-            "table": {
-              "headers": [
-                "Звук в названии",
-                "Буквы"
-              ],
-              "headerColors": [
-                "term",
-                "info"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "[eɪ] «эй»",
-                    "A, H, J, K"
-                  ]
-                },
-                {
-                  "cells": [
-                    "[iː] «и»",
-                    "B, C, D, E, G, P, T, V"
-                  ]
-                },
-                {
-                  "cells": [
-                    "[e] «э»",
-                    "F, L, M, N, S, X, Z"
-                  ]
-                },
-                {
-                  "cells": [
-                    "[aɪ] «ай»",
-                    "I, Y"
-                  ]
-                },
-                {
-                  "cells": [
-                    "[uː] «ю»",
-                    "Q, U, W"
-                  ]
-                },
-                {
-                  "cells": [
-                    "[əʊ] «оу»",
-                    "O"
-                  ]
-                },
-                {
-                  "cells": [
-                    "[ɑː] «а»",
-                    "R"
-                  ]
-                }
-              ]
-            },
-            "title": ""
-          }
-        }
-      ]
+      "expandables": []
     },
     {
       "label": "Пары-ловушки: E и I, G и J",
@@ -363,6 +363,28 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Проверь на именах",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Emma — E-M-M-A",
+              "ru": "Эмма: E звучит «и»"
+            },
+            {
+              "en": "Ivan — I-V-A-N",
+              "ru": "Иван: I звучит «ай», A — «эй»"
+            },
+            {
+              "en": "George — G-E-O-R-G-E",
+              "ru": "Джордж: G звучит «джи»"
+            },
+            {
+              "en": "Jack — J-A-C-K",
+              "ru": "Джек: J звучит «джей»"
+            }
+          ]
         }
       ]
     },
@@ -452,6 +474,11 @@
               "term",
               "muted"
             ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Варианты, которые тоже правильны",
+            "text": "Две одинаковые буквы: double N или two Ns. Ноль в номере: по-британски часто oh, по-американски чаще zero. Alpha, Bravo, Charlie — официальный набор слов для букв, но в разговоре подойдёт любое понятное слово: B for Bob."
           }
         },
         {
@@ -465,47 +492,35 @@
             {
               "en": "It's anna dot smith at gmail dot com.",
               "ru": "anna.smith@gmail.com"
+            },
+            {
+              "en": "My surname is Ivanov — I-V-A-N-O-V.",
+              "ru": "Моя фамилия Иванов — по буквам I-V-A-N-O-V."
+            },
+            {
+              "en": "That's double S, not one.",
+              "ru": "Там две S, а не одна."
+            },
+            {
+              "en": "My number is oh-seven-nine, double three…",
+              "ru": "Мой номер: 0-7-9, 3-3…"
+            },
+            {
+              "en": "Is that B for Bravo or D for Delta?",
+              "ru": "Это B как Bravo или D как Delta?"
             }
           ]
         }
       ],
-      "expandables": [
-        {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "My surname is Ivanov — I-V-A-N-O-V.",
-                "ru": "Моя фамилия Иванов — по буквам I-V-A-N-O-V."
-              },
-              {
-                "en": "That's double S, not one.",
-                "ru": "Там две S, а не одна."
-              },
-              {
-                "en": "My number is oh-seven-nine, double three…",
-                "ru": "Мой номер: 0-7-9, 3-3…"
-              },
-              {
-                "en": "Is that B for Bravo or D for Delta?",
-                "ru": "Это B как Bravo или D как Delta?"
-              }
-            ]
-          }
-        }
-      ]
+      "expandables": []
     },
     {
       "label": "Частые ошибки: Алфавит и диктовка по буквам",
       "intro": {
-        "text": "Самые частые ошибки при диктовке.",
+        "text": "Частые ошибки при диктовке — и варианты, которые ошибкой не считаются.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -537,7 +552,60 @@
               "right": "E — [iː] «и»"
             }
           ]
+        },
+        {
+          "title": "Это не ошибки",
+          "borderColor": "good",
+          "rules": [
+            {
+              "name": "Z",
+              "suffix": "zed и zee",
+              "example": "zed — брит., zee — амер."
+            },
+            {
+              "name": "0",
+              "suffix": "oh и zero",
+              "example": "oh-seven-nine / zero-seven-nine"
+            },
+            {
+              "name": "NN",
+              "suffix": "double N и two Ns",
+              "example": "A, double N, A"
+            }
+          ]
         }
+      ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:alphabet.names",
+      "description": "Название буквы по-английски, а не по-русски: E, I, G, J, A, R, H, Y",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": [
+        "I",
+        "E",
+        "G",
+        "J"
+      ]
+    },
+    {
+      "id": "error:alphabet.dictation",
+      "description": "Слова для диктовки: spell, double, at, dot, underscore",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": [
+        "dog",
+        "point"
       ]
     }
   ]
