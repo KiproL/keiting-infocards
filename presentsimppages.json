@@ -5,10 +5,15 @@
     {
       "label": "Present Simple: факты и привычки",
       "intro": {
-        "text": "Present Simple помогает говорить о привычках, фактах, расписании и состояниях: I walk to school. I know the answer. Состояние может быть верно прямо сейчас. Для действия в процессе обычно выбираем Present Continuous: I am walking to school now.",
+        "text": "Present Simple — настоящее простое время. Им говорят о привычках, фактах, расписании и состояниях: I walk to school. The shop opens at nine. I know the answer. Это время не про действие, которое идёт прямо сейчас, а про то, что бывает обычно или верно вообще.",
         "highlights": [
           {
             "text": "привычках",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "фактах",
             "color": "term",
             "style": "bold"
           },
@@ -18,8 +23,8 @@
             "style": "bold"
           },
           {
-            "text": "действия в процессе",
-            "color": "term",
+            "text": "обычно или верно вообще",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -182,9 +187,31 @@
           }
         },
         {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I play football every day.",
+              "ru": "Я играю в футбол каждый день."
+            },
+            {
+              "en": "He usually listens to music.",
+              "ru": "Он обычно слушает музыку."
+            },
+            {
+              "en": "The sun rises in the east.",
+              "ru": "Солнце встаёт на востоке."
+            },
+            {
+              "en": "They often go to the cinema.",
+              "ru": "Они часто ходят в кино."
+            }
+          ]
+        },
+        {
           "title": "Слова-подсказки",
           "borderColor": "good",
-          "text": "Always, usually и often помогают понять смысл, но не выбирают время за тебя: I was often late — прошлое. В Present Simple usually / often обычно стоят перед смысловым глаголом, но после am / is / are.",
+          "text": "Always, usually и often помогают понять смысл, но не выбирают время за тебя: I was often late — прошлое. Always, usually, often, sometimes и never обычно стоят перед смысловым глаголом, но после am / is / are. Every day, on Mondays и twice a week обычно ставят в конец.",
           "table": {
             "headers": [
               "Слово",
@@ -245,115 +272,40 @@
                 ]
               }
             ]
-          }
-        },
-        {
-          "title": "Обычно или прямо сейчас",
-          "borderColor": "bad",
-          "table": {
-            "headers": [
-              "Present Simple — обычно",
-              "Present Continuous — сейчас"
-            ],
-            "headerColors": [
-              "term",
-              "info"
-            ],
-            "borderColor": "bad",
-            "rows": [
-              {
-                "cells": [
-                  "I drink coffee every morning.",
-                  "I'm drinking coffee now."
-                ]
-              },
-              {
-                "cells": [
-                  "She works in a bank.",
-                  "She's working from home today."
-                ]
-              }
-            ]
           },
-          "callout": {
-            "type": "info",
-            "title": "Проверяем значение глагола",
-            "text": "I understand you now — состояние понимания сейчас, поэтому Simple. I am reading now — действие в процессе, поэтому Continuous. Одного слова now или always для выбора времени недостаточно."
-          }
-        },
-        {
-          "title": "Живые примеры",
-          "borderColor": "good",
           "examples": [
             {
-              "en": "I play football every day.",
-              "ru": "Я играю в футбол каждый день."
+              "en": "I often read before bed.",
+              "ru": "Я часто читаю перед сном."
             },
             {
-              "en": "He usually listens to music.",
-              "ru": "Он обычно слушает музыку."
+              "en": "She is always late.",
+              "ru": "Она всегда опаздывает."
             },
             {
-              "en": "The sun rises in the east.",
-              "ru": "Солнце встаёт на востоке."
-            },
-            {
-              "en": "They often go to the cinema.",
-              "ru": "Они часто ходят в кино."
-            }
-          ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Present Simple — это «всегда так» или «обычно так».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
-        },
-        {
-          "title": "Одна ситуация — два взгляда",
-          "borderColor": "info",
-          "text": "Спроси себя: это привычка, состояние или процесс в этот момент? Не подставляй время только по слову-подсказке.",
-          "examples": [
-            {
-              "en": "I usually draw after school.",
-              "ru": "Обычно я рисую после школы."
-            },
-            {
-              "en": "I am drawing a map now.",
-              "ru": "Сейчас я рисую карту."
-            },
-            {
-              "en": "I understand this rule now.",
-              "ru": "Теперь я понимаю это правило."
+              "en": "We go swimming twice a week.",
+              "ru": "Мы ходим плавать два раза в неделю."
             }
           ]
         }
       ],
       "expandables": [
         {
-          "label": "Где ставить always, often…",
-          "preview": "перед глаголом, но после am / is / are",
+          "label": "А если действие идёт прямо сейчас?",
+          "preview": "I drink / I'm drinking",
           "initiallyExpanded": false,
+          "presentation": "optional",
           "section": {
             "borderColor": "info",
-            "rules": [
+            "text": "Для действия в процессе обычно выбирают Present Continuous: I'm drinking coffee now. Как выбирать между ними и почему I understand you now остаётся в Present Simple, разобрано в карточке Present Continuous.",
+            "examples": [
               {
-                "name": "Перед обычным глаголом",
-                "suffix": "always, usually, often, sometimes, never",
-                "example": "I often read before bed."
+                "en": "I drink coffee every morning.",
+                "ru": "Я пью кофе каждое утро. (обычно)"
               },
               {
-                "name": "После am / is / are",
-                "suffix": "слово идёт после глагола to be",
-                "example": "She is always late."
-              },
-              {
-                "name": "В конце предложения",
-                "suffix": "every day, on Mondays, twice a week",
-                "example": "We go swimming twice a week."
+                "en": "I'm drinking coffee now.",
+                "ru": "Сейчас я пью кофе. (прямо в эту минуту)"
               }
             ],
             "title": ""
@@ -721,8 +673,13 @@
             {
               "en": "What time does the shop open?",
               "ru": "Во сколько открывается магазин?"
+            },
+            {
+              "en": "How often do you go to the gym?",
+              "ru": "Как часто ты ходишь в зал?"
             }
-          ]
+          ],
+          "text": "Вопросительное слово ставим перед do / does: Where do you live? Порядок остаётся тем же."
         },
         {
           "title": "Краткие ответы",
@@ -779,55 +736,19 @@
       ],
       "expandables": [
         {
-          "label": "Вопросы с where, what, when",
-          "preview": "вопросительное слово ставим перед do / does",
+          "label": "Who без do",
+          "preview": "Who lives here?",
           "initiallyExpanded": false,
           "section": {
             "borderColor": "info",
-            "table": {
-              "headers": [
-                "Вопрос",
-                "Перевод"
-              ],
-              "headerColors": [
-                "term",
-                "muted"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "Where do you work?",
-                    "Где ты работаешь?"
-                  ]
-                },
-                {
-                  "cells": [
-                    "What does she do?",
-                    "Кем она работает?"
-                  ]
-                },
-                {
-                  "cells": [
-                    "When does the film start?",
-                    "Когда начинается фильм?"
-                  ]
-                },
-                {
-                  "cells": [
-                    "How often do you go to the gym?",
-                    "Как часто ты ходишь в зал?"
-                  ]
-                }
-              ]
-            },
             "callout": {
               "type": "info",
-              "title": "Who без do",
-              "text": "Если спрашиваем «кто?» про того, кто делает, do не нужен: Who lives here? — Кто здесь живёт?"
+              "title": "Вопрос к тому, кто действует",
+              "text": "Если who спрашивает о том, кто делает действие, do не нужен, а глагол получает -s: Who lives here? — Кто здесь живёт? Сравни: Who do you know here? — Кого ты здесь знаешь?"
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -899,44 +820,44 @@
               "example",
               "term"
             ],
+            "borderColor": "term",
             "rows": [
               {
                 "cells": [
                   "/s/",
-                  "глухих согласных",
-                  "works, likes, stops"
+                  "глухих /p/, /t/, /k/, /f/, /θ/",
+                  "works, likes, stops, laughs"
                 ]
               },
               {
                 "cells": [
                   "/z/",
-                  "звонких согласных и гласных",
-                  "plays, reads, goes"
+                  "гласных и звонких звуков, кроме группы /ɪz/",
+                  "plays, reads, lives, sees"
                 ]
               },
               {
                 "cells": [
                   "/ɪz/",
-                  "после -s, -sh, -ch, -x",
-                  "watches, washes, teaches"
+                  "/s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/ — отдельный слог",
+                  "watches, washes, uses, changes"
                 ]
               }
-            ],
-            "borderColor": "term"
+            ]
           },
           "callout": {
             "type": "tip",
-            "title": "Проще всего",
-            "text": "Если после -es появляется лишний слог (watch-es, wash-es), читай [ɪz]. В остальных случаях -s просто прибавляется к слову без нового слога."
+            "title": "Слушай последний звук",
+            "text": "Лишний слог появляется только после шипящих и свистящих: watch-es, wash-es, chang-es. Goes и does пишутся с -es, но нового слога нет: [ɡəʊz], [dʌz]. Says читается [sez]."
           }
         },
         {
-          "title": "Исключение",
+          "title": "Особые формы",
           "borderColor": "bad",
           "callout": {
             "type": "info",
-            "title": "Частые особые формы",
-            "text": "Have → has. У be — am / is / are, а у модальных can и must окончание -s не появляется: she can, he must. Формы does, goes и says также полезно слушать отдельно: их чтение не угадывается по одному окончанию."
+            "title": "Have, be и модальные",
+            "text": "Have → has. У be свои формы: am / is / are. Can и must не получают -s: she can, he must."
           },
           "examples": [
             {
@@ -1056,7 +977,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -1163,6 +1085,18 @@
             {
               "en": "They are from Spain.",
               "ru": "Они из Испании."
+            },
+            {
+              "en": "My parents are at work.",
+              "ru": "Мои родители на работе."
+            },
+            {
+              "en": "It isn't far from here.",
+              "ru": "Это недалеко отсюда."
+            },
+            {
+              "en": "Are they your friends? — Yes, they are.",
+              "ru": "Это твои друзья? — Да."
             }
           ]
         },
@@ -1228,56 +1162,28 @@
         {
           "title": "Короткий ответ: сохрани be",
           "borderColor": "info",
-          "text": "В положительном кратком ответе не заканчиваем фразу на сокращение: Yes, I am, а не Yes, I’m. В отрицательном можно No, I’m not. Глагол be — тоже глагол, даже если в русском переводе его не видно.",
+          "text": "В положительном кратком ответе фразу не заканчиваем сокращением: Yes, I am, а не Yes, I'm. В отрицательном сокращение нормально: No, I'm not. No, she isn't.",
           "examples": [
             {
               "en": "Are you tired? — Yes, I am.",
               "ru": "Ты устал? — Да."
             },
             {
-              "en": "Is your sister at home? — No, she is not.",
+              "en": "Is your sister at home? — No, she isn't.",
               "ru": "Твоя сестра дома? — Нет."
             }
           ]
         }
       ],
-      "expandables": [
-        {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "I'm hungry. Is there any food?",
-                "ru": "Я голоден. Есть что-нибудь поесть?"
-              },
-              {
-                "en": "My parents are at work.",
-                "ru": "Мои родители на работе."
-              },
-              {
-                "en": "It isn't far from here.",
-                "ru": "Это недалеко отсюда."
-              },
-              {
-                "en": "Are they your friends? — Yes, they are.",
-                "ru": "Это твои друзья? — Да."
-              }
-            ]
-          }
-        }
-      ]
+      "expandables": []
     },
     {
       "label": "Частые ошибки: -s, does и лишнее am",
       "intro": {
-        "text": "Семь ошибок, которые делают чаще всего. Справа — правильно и почему.",
+        "text": "Частые ошибки с Present Simple: слева — как нельзя, справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "чаще всего",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold"
           }
@@ -1325,11 +1231,6 @@
             "type": "info",
             "title": "Проверка обычного смыслового глагола",
             "text": "В вопросе и отрицании после does / doesn’t используем начальную форму: Does he work? / He doesn’t work. В утверждении: He works. Это правило не заменяет отдельные формы be и модальных глаголов."
-          },
-          "quote": {
-            "text": "Простое время — простое правило: -s с he/she/it, но не рядом с does.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         },
         {
@@ -1347,12 +1248,13 @@
             }
           ]
         }
-      ]
+      ],
+      "expandables": []
     }
   ],
-  "editorial_revision": 1,
-  "editorial_review_scope": "full_card_language_review_targeted_revision",
-  "editorial_review_date": "2026-11-03",
+  "editorial_revision": 2,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
   "prerequisites": [],
   "prerequisites_reviewed": true,
   "error_patterns": [
@@ -1385,6 +1287,8 @@
       "id": "error:presentsimp.be",
       "description": "Be строит вопросы без do и не добавляется перед V",
       "slides": [
+        0,
+        1,
         3,
         4
       ],
@@ -1397,8 +1301,7 @@
       "id": "error:presentsimp.meaning",
       "description": "Время выбирается по смыслу, не одному слову-маркеру",
       "slides": [
-        0,
-        4
+        0
       ],
       "decoys": []
     }
@@ -1411,6 +1314,10 @@
   "related_words": [
     "word_play",
     "word_work",
-    "word_study"
+    "word_study",
+    "word_go",
+    "word_have",
+    "word_watch",
+    "word_live"
   ]
 }
