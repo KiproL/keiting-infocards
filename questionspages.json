@@ -78,15 +78,6 @@
             ],
             "borderColor": "info"
           }
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Не бывает вопросов «наугад». У каждого своя конструкция.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ]
     },
@@ -807,7 +798,7 @@
           }
         },
         {
-          "title": "Всегда 3-е лицо ед. ч.",
+          "title": "Глагол обычно в единственном числе",
           "borderColor": "bad",
           "rules": [
             {
@@ -830,7 +821,8 @@
               "suffix": "has + V3",
               "example": "Who has seen this film?"
             }
-          ]
+          ],
+          "text": "Who и what в роли подлежащего обычно требуют глагола в ед. ч.: Who wants coffee? Если ответ заведомо о многих, возможно и мн. ч.: Which students are coming?"
         },
         {
           "title": "Живые примеры",
@@ -1387,10 +1379,10 @@
     {
       "label": "Частые ошибки: Do you can, What means",
       "intro": {
-        "text": "Десять самых частых ошибок в вопросах и Question Tags.",
+        "text": "Частые ошибки в вопросах и хвостиках: слева — как нельзя, справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Десять самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -1450,14 +1442,80 @@
             "type": "tip",
             "title": "Правило большого пальца",
             "text": "Общий и специальный вопрос — нужен aux (do, does, did, is, are…). Вопрос к подлежащему — aux не нужен, who/what сразу становится подлежащим. Question Tag — зеркальный к основе: + → —, — → +."
-          },
-          "quote": {
-            "text": "Порядок слов в вопросе — важнее, чем сами слова.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:questions.auxiliary",
+      "description": "Нужный помощник: do / does / did, be, have, can, will",
+      "slides": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "decoys": [
+        "do",
+        "does"
+      ]
+    },
+    {
+      "id": "error:questions.wh_word",
+      "description": "Вопросительное слово по смыслу ответа",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:questions.subject",
+      "description": "Вопрос к подлежащему без do, к дополнению — с do",
+      "slides": [
+        3,
+        7
+      ],
+      "decoys": [
+        "did call"
+      ]
+    },
+    {
+      "id": "error:questions.choice",
+      "description": "Альтернативный вопрос — с or",
+      "slides": [
+        0,
+        4
+      ],
+      "decoys": [
+        "and"
+      ]
+    },
+    {
+      "id": "error:questions.tag",
+      "description": "Хвостик: тот же помощник и противоположный знак",
+      "slides": [
+        5,
+        6,
+        7
+      ],
+      "decoys": [
+        "do you"
+      ]
+    }
+  ],
+  "related_words": [
+    "word_what",
+    "word_where",
+    "word_when",
+    "word_why",
+    "word_how",
+    "word_who"
   ]
 }

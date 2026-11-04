@@ -13,7 +13,7 @@
             "style": "bold_underline"
           },
           {
-            "text": "some",
+            "text": "Some",
             "color": "good",
             "style": "bold"
           },
@@ -55,7 +55,7 @@
               {
                 "cells": [
                   "any",
-                  "сколько-нибудь (вопрос, отрицание)",
+                  "сколько-нибудь (вопрос, отрицание); в утверждении — «любой»",
                   "Do you have any tea?"
                 ]
               },
@@ -116,11 +116,11 @@
     {
       "label": "Some или any",
       "intro": {
-        "text": "Some и any оба значат «немного, сколько-то». Some — в утверждениях, any — в вопросах и отрицаниях.",
+        "text": "Some и any оба значат «немного, сколько-то». Обычно some — в утверждениях, any — в вопросах и отрицаниях. Но в вопросе some нормально, когда ждём «да» или что-то предлагаем, а в утверждении any значит «любой».",
         "highlights": [
           {
-            "text": "Some",
-            "color": "good",
+            "text": "some",
+            "color": "term",
             "style": "bold"
           },
           {
@@ -129,13 +129,8 @@
             "style": "bold"
           },
           {
-            "text": "утверждениях",
+            "text": "«любой»",
             "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "отрицаниях",
-            "color": "bad",
             "style": "bold"
           }
         ]
@@ -262,6 +257,20 @@
               "ru": "Хочешь немного кофе?"
             }
           ]
+        },
+        {
+          "title": "Any в утверждении — «любой»",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "You can take any bus.",
+              "ru": "Можешь сесть на любой автобус."
+            },
+            {
+              "en": "Call me any time.",
+              "ru": "Звони в любое время."
+            }
+          ]
         }
       ]
     },
@@ -286,7 +295,7 @@
             "style": "bold"
           },
           {
-            "text": "нисколько",
+            "text": "Нисколько",
             "color": "example",
             "style": "bold"
           }
@@ -352,8 +361,8 @@
           "borderColor": "bad",
           "callout": {
             "type": "warning",
-            "title": "Два минуса недопустимы",
-            "text": "В английском нельзя ставить два отрицания в одном предложении. Если есть no или never — глагол уже не отрицается."
+            "title": "Одно отрицание",
+            "text": "В стандартном английском отрицание одно: если есть no, never или nobody, глагол уже не отрицается. I don't know nothing встречается в разговорных диалектах, но в обычной и письменной речи это ошибка."
           },
           "examples": [
             {
@@ -638,7 +647,7 @@
           "callout": {
             "type": "warning",
             "title": "Every + глагол в единственном",
-            "text": "После every и each глагол всегда в единственном числе: Every student IS here. Каждый студент — это один."
+            "text": "Когда every или each стоят перед существительным, глагол в единственном числе: Every student is here. Каждый студент — это один. Если each стоит после подлежащего во множественном числе, глагол во множественном: They each have a car."
           },
           "examples": [
             {
@@ -722,7 +731,7 @@
             "style": "bold"
           },
           {
-            "text": "a lot of",
+            "text": "A lot of",
             "color": "good",
             "style": "bold"
           },
@@ -865,7 +874,7 @@
           "callout": {
             "type": "tip",
             "title": "Правило большого пальца",
-            "text": "Much и many в утверждениях звучат формально. В живой речи в утверждении почти всегда говорят a lot of, а much и many чаще остаются для вопросов и отрицаний."
+            "text": "Much в утвердительном предложении звучит книжно: вместо I have much time скажи I have a lot of time. Many в утверждении нормально (I have many friends), но в разговоре и тут чаще a lot of. В вопросах и отрицаниях much и many обычны: How much…? I don't have many…"
           },
           "examples": [
             {
@@ -998,13 +1007,8 @@
     {
       "label": "Сводная таблица и ошибки",
       "intro": {
-        "text": "Слова количества в одной таблице — и самые частые ошибки.",
+        "text": "Слова количества в одной таблице — и частые ошибки.",
         "highlights": [
-          {
-            "text": "одной таблице",
-            "color": "term",
-            "style": "bold_underline"
-          },
           {
             "text": "частые ошибки",
             "color": "bad",
@@ -1116,8 +1120,8 @@
               "right": "How many books? (исчисляемые)"
             },
             {
-              "wrong": "Somebody didn't come.",
-              "right": "Nobody came. (отрицание — в nobody)"
+              "wrong": "Anybody didn't come.",
+              "right": "Nobody came. (any не ставят перед not в подлежащем)"
             },
             {
               "wrong": "I don't know nothing.",
@@ -1136,13 +1140,73 @@
             "type": "success",
             "title": "Правило большого пальца",
             "text": "Сначала спроси: предмет новый или известный? Потом: счётное или несчётное? Потом: сколько именно — сколько-то, много, нисколько, каждый? От этих трёх ответов зависят и артикль, и слово количества."
-          },
-          "quote": {
-            "text": "Артикль и квантификатор — маленькие слова, от которых зависит, что именно ты сказал.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
+      ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:determinants.some_any",
+      "description": "Some и any: утверждение, вопрос, отрицание, предложение",
+      "slides": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "decoys": [
+        "some",
+        "any"
+      ]
+    },
+    {
+      "id": "error:determinants.negation",
+      "description": "Одно отрицание: no, none, not any, nobody",
+      "slides": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "decoys": [
+        "don't have no"
+      ]
+    },
+    {
+      "id": "error:determinants.compound",
+      "description": "Somebody, anything, nowhere, everyone",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:determinants.every_each",
+      "description": "Every, each, all и глагол после них",
+      "slides": [
+        0,
+        4,
+        6
+      ],
+      "decoys": [
+        "are"
+      ]
+    },
+    {
+      "id": "error:determinants.many_much",
+      "description": "Many с исчисляемыми, much с неисчисляемыми, a lot of — с обоими",
+      "slides": [
+        0,
+        5,
+        6
+      ],
+      "decoys": [
+        "many",
+        "much"
       ]
     }
   ]

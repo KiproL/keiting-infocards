@@ -69,6 +69,11 @@
               "example"
             ]
           }
+        },
+        {
+          "title": "А ещё предлог бывает частью сочетания",
+          "borderColor": "info",
+          "text": "Wait for, good at, reason for — здесь предлог не про место и время, а просто «прилагается» к слову. Такие пары собраны на последних трёх слайдах карточки."
         }
       ],
       "expandables": [
@@ -97,7 +102,8 @@
                 "ru": "Мы ехали из Москвы в Казань."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -259,7 +265,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -412,7 +419,8 @@
                 "ru": "Кто это за тобой?"
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -675,17 +683,18 @@
                 "ru": "Она взбежала по лестнице."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
       "label": "Частые ошибки: on Moscow, to home",
       "intro": {
-        "text": "Самые частые ошибки с предлогами.",
+        "text": "Частые ошибки с предлогами места, времени и направления.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -719,10 +728,506 @@
           ]
         }
       ]
+    },
+    {
+      "label": "Глагол + предлог: wait for, listen to",
+      "intro": {
+        "text": "Многие глаголы требуют своего предлога, и он часто не совпадает с русским: wait for — ждать, listen to — слушать, depend on — зависеть от. Такие пары запоминают целиком. А некоторые глаголы, наоборот, не берут предлог: enter the room — войти в комнату.",
+        "highlights": [
+          {
+            "text": "своего предлога",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "запоминают целиком",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "не берут предлог",
+            "color": "bad",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Частые пары",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Сочетание",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ],
+            "borderColor": "term",
+            "rows": [
+              {
+                "cells": [
+                  "wait for",
+                  "ждать",
+                  "I'm waiting for the bus."
+                ]
+              },
+              {
+                "cells": [
+                  "listen to",
+                  "слушать",
+                  "Listen to me!"
+                ]
+              },
+              {
+                "cells": [
+                  "look at / look for",
+                  "смотреть на / искать",
+                  "Look at this! I'm looking for my keys."
+                ]
+              },
+              {
+                "cells": [
+                  "depend on",
+                  "зависеть от",
+                  "It depends on the weather."
+                ]
+              },
+              {
+                "cells": [
+                  "agree with",
+                  "соглашаться с",
+                  "I agree with you."
+                ]
+              },
+              {
+                "cells": [
+                  "belong to",
+                  "принадлежать",
+                  "This bag belongs to me."
+                ]
+              },
+              {
+                "cells": [
+                  "pay for",
+                  "платить за",
+                  "Who paid for the drinks?"
+                ]
+              },
+              {
+                "cells": [
+                  "think about / of",
+                  "думать о",
+                  "I'm thinking about you."
+                ]
+              },
+              {
+                "cells": [
+                  "worry about",
+                  "волноваться за",
+                  "Don't worry about me."
+                ]
+              },
+              {
+                "cells": [
+                  "laugh at",
+                  "смеяться над",
+                  "They laughed at me."
+                ]
+              },
+              {
+                "cells": [
+                  "talk to / about",
+                  "говорить с / о",
+                  "Who are you talking to?"
+                ]
+              },
+              {
+                "cells": [
+                  "arrive at / in",
+                  "прибывать в",
+                  "arrive at the airport, arrive in London"
+                ]
+              }
+            ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Предлог в конце вопроса",
+            "text": "Who are you waiting for? What does it depend on? — так говорят в обычной речи; предлог остаётся при глаголе."
+          }
+        },
+        {
+          "title": "Без предлога, хотя в русском он есть",
+          "borderColor": "bad",
+          "rules": [
+            {
+              "name": "enter",
+              "suffix": "войти в",
+              "example": "He entered the room."
+            },
+            {
+              "name": "call / phone",
+              "suffix": "позвонить кому-то",
+              "example": "I'll call my friend."
+            },
+            {
+              "name": "answer",
+              "suffix": "ответить на",
+              "example": "Answer the question."
+            },
+            {
+              "name": "discuss",
+              "suffix": "обсудить",
+              "example": "We discussed the plan."
+            },
+            {
+              "name": "reach",
+              "suffix": "добраться до",
+              "example": "She reached the top."
+            }
+          ],
+          "errors": [
+            {
+              "wrong": "He entered in the room.",
+              "right": "He entered the room."
+            },
+            {
+              "wrong": "We discussed about the plan.",
+              "right": "We discussed the plan."
+            },
+            {
+              "wrong": "It depends from the weather.",
+              "right": "It depends on the weather."
+            },
+            {
+              "wrong": "She married with Tom.",
+              "right": "She married Tom. / She got married to Tom."
+            }
+          ]
+        },
+        {
+          "title": "Британский и американский",
+          "borderColor": "info",
+          "text": "В американской разговорной речи wait on иногда значит «ждать»: We're waiting on a taxi. Основной вариант везде — wait for."
+        }
+      ],
+      "expandables": []
+    },
+    {
+      "label": "Прилагательное + предлог: good at, afraid of",
+      "intro": {
+        "text": "После многих прилагательных тоже идёт свой предлог: good at — хорошо умеет, afraid of — боится, interested in — интересуется. Если дальше действие, глагол получает -ing: good at cooking, afraid of flying.",
+        "highlights": [
+          {
+            "text": "свой предлог",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "-ing",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Частые пары",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Сочетание",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ],
+            "borderColor": "term",
+            "rows": [
+              {
+                "cells": [
+                  "good at / bad at",
+                  "хорошо / плохо умеет",
+                  "She's good at maths."
+                ]
+              },
+              {
+                "cells": [
+                  "interested in",
+                  "интересуется",
+                  "I'm interested in art."
+                ]
+              },
+              {
+                "cells": [
+                  "afraid of",
+                  "боится",
+                  "He's afraid of dogs."
+                ]
+              },
+              {
+                "cells": [
+                  "proud of",
+                  "гордится",
+                  "I'm proud of you."
+                ]
+              },
+              {
+                "cells": [
+                  "tired of",
+                  "устал от",
+                  "We're tired of waiting."
+                ]
+              },
+              {
+                "cells": [
+                  "famous for",
+                  "знаменит чем-то",
+                  "The city is famous for its bridges."
+                ]
+              },
+              {
+                "cells": [
+                  "similar to",
+                  "похож на",
+                  "Your phone is similar to mine."
+                ]
+              },
+              {
+                "cells": [
+                  "married to",
+                  "женат на / замужем за",
+                  "She's married to a doctor."
+                ]
+              },
+              {
+                "cells": [
+                  "sorry for / about",
+                  "извиняюсь за",
+                  "I'm sorry for being late."
+                ]
+              },
+              {
+                "cells": [
+                  "responsible for",
+                  "отвечает за",
+                  "He's responsible for the project."
+                ]
+              },
+              {
+                "cells": [
+                  "excited about",
+                  "в восторге от",
+                  "We're excited about the trip."
+                ]
+              },
+              {
+                "cells": [
+                  "fond of, keen on",
+                  "любит, увлекается",
+                  "She's keen on tennis."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "После предлога — -ing",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I'm good at cooking.",
+              "ru": "Я хорошо готовлю."
+            },
+            {
+              "en": "She's afraid of flying.",
+              "ru": "Она боится летать."
+            },
+            {
+              "en": "I'm used to working late.",
+              "ru": "Я привык работать допоздна. (to здесь предлог: to + -ing)"
+            }
+          ],
+          "errors": [
+            {
+              "wrong": "I'm good at cook.",
+              "right": "I'm good at cooking."
+            },
+            {
+              "wrong": "She's afraid from dogs.",
+              "right": "She's afraid of dogs."
+            },
+            {
+              "wrong": "I'm interested on history.",
+              "right": "I'm interested in history."
+            },
+            {
+              "wrong": "She's married with a doctor.",
+              "right": "She's married to a doctor."
+            }
+          ]
+        },
+        {
+          "title": "Варианты, которые тоже правильны",
+          "borderColor": "good",
+          "text": "Angry with someone — основной британский вариант, angry at someone — частый американский и разговорный. Sorry for и sorry about часто взаимозаменяемы. Keen on звучит по-британски."
+        }
+      ],
+      "expandables": []
+    },
+    {
+      "label": "Существительное + предлог: reason for, increase in",
+      "intro": {
+        "text": "У многих существительных тоже есть «свой» предлог: the reason for — причина чего-то, the answer to — ответ на, an increase in — рост чего-то. Это частая лексика текстов и новостей уровня B1–B2.",
+        "highlights": [
+          {
+            "text": "«свой» предлог",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "B1–B2",
+            "color": "info",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Частые пары",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Сочетание",
+              "Перевод",
+              "Пример"
+            ],
+            "headerColors": [
+              "term",
+              "muted",
+              "example"
+            ],
+            "borderColor": "term",
+            "rows": [
+              {
+                "cells": [
+                  "reason for",
+                  "причина (чего)",
+                  "the reason for the delay"
+                ]
+              },
+              {
+                "cells": [
+                  "cause of",
+                  "причина, источник",
+                  "the cause of the fire"
+                ]
+              },
+              {
+                "cells": [
+                  "answer to, solution to",
+                  "ответ на, решение",
+                  "the answer to this question"
+                ]
+              },
+              {
+                "cells": [
+                  "increase / rise / fall in",
+                  "рост / падение чего-то",
+                  "an increase in prices"
+                ]
+              },
+              {
+                "cells": [
+                  "effect on, damage to",
+                  "влияние на, вред",
+                  "a bad effect on your health"
+                ]
+              },
+              {
+                "cells": [
+                  "interest in",
+                  "интерес к",
+                  "no interest in politics"
+                ]
+              },
+              {
+                "cells": [
+                  "difference between",
+                  "разница между",
+                  "the difference between them"
+                ]
+              },
+              {
+                "cells": [
+                  "lack of",
+                  "нехватка",
+                  "a lack of money"
+                ]
+              },
+              {
+                "cells": [
+                  "invitation to",
+                  "приглашение на",
+                  "an invitation to the party"
+                ]
+              },
+              {
+                "cells": [
+                  "relationship with",
+                  "отношения с",
+                  "a good relationship with his boss"
+                ]
+              },
+              {
+                "cells": [
+                  "talent for, demand for",
+                  "талант к, спрос на",
+                  "a talent for music"
+                ]
+              },
+              {
+                "cells": [
+                  "reaction to",
+                  "реакция на",
+                  "his reaction to the news"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Тонкости",
+          "borderColor": "info",
+          "text": "An increase in prices — рост цен; an increase of 10% — рост на 10%: of здесь вводит размер. Solution to — основной вариант; solution for тоже встречается, особенно в деловой речи.",
+          "errors": [
+            {
+              "wrong": "the reason of the delay",
+              "right": "the reason for the delay"
+            },
+            {
+              "wrong": "the answer on the question",
+              "right": "the answer to the question"
+            },
+            {
+              "wrong": "an increase of prices",
+              "right": "an increase in prices"
+            }
+          ]
+        }
+      ],
+      "expandables": []
     }
   ],
-  "editorial_revision": 1,
-  "editorial_review_scope": "targeted_content_and_applied_exercises",
+  "editorial_revision": 2,
+  "editorial_review_scope": "full_card_language_review",
   "related_words": [
     "word_under",
     "word_between",
@@ -742,8 +1247,10 @@
       "id": "error:prepositions.position",
       "description": "Выбери предлог по реальному расположению, сохраняя ориентир",
       "slides": [
+        0,
         1,
-        2
+        2,
+        5
       ],
       "decoys": [
         "on",
@@ -755,6 +1262,7 @@
       "id": "error:prepositions.time",
       "description": "Время, день и часть дня требуют разных предлогов",
       "slides": [
+        0,
         3,
         5
       ],
@@ -767,12 +1275,47 @@
       "id": "error:prepositions.movement",
       "description": "Место и перемещение внутрь различаются; с go home нет to",
       "slides": [
+        0,
         4,
         5
       ],
       "decoys": [
         "to home"
       ]
+    },
+    {
+      "id": "error:prepositions.verb",
+      "description": "Глагол со своим предлогом или без предлога",
+      "slides": [
+        6
+      ],
+      "decoys": [
+        "from",
+        "about"
+      ]
+    },
+    {
+      "id": "error:prepositions.adjective",
+      "description": "Прилагательное со своим предлогом; после предлога -ing",
+      "slides": [
+        7
+      ],
+      "decoys": [
+        "from",
+        "on"
+      ]
+    },
+    {
+      "id": "error:prepositions.noun",
+      "description": "Существительное со своим предлогом",
+      "slides": [
+        8
+      ],
+      "decoys": [
+        "of",
+        "on"
+      ]
     }
-  ]
+  ],
+  "editorial_review_date": "2026-11-04"
 }

@@ -5,7 +5,7 @@
     {
       "label": "as … as: такой же, как",
       "intro": {
-        "text": "As … as сравнивает по одному признаку: She is as tall as her brother — она такая же высокая, как её брат. Между двумя as ставим прилагательное или наречие в обычной форме: tall, fast, beautifully. Not as … as означает «не такой / не так …, как».",
+        "text": "As … as сравнивает по одному признаку и говорит о равенстве: She is as tall as her brother — она такая же высокая, как её брат. Между двумя as ставим прилагательное или наречие в обычной форме: tall, fast, beautifully. Not as … as означает «не такой / не так …, как».",
         "highlights": [
           {
             "text": "as … as",
@@ -13,7 +13,7 @@
             "style": "bold_underline"
           },
           {
-            "text": "равенство",
+            "text": "равенстве",
             "color": "info",
             "style": "bold"
           },
@@ -241,6 +241,21 @@
               "ru": "Это проще простого."
             }
           ]
+        },
+        {
+          "title": "As me или as I am",
+          "borderColor": "info",
+          "text": "После второго as в разговоре обычно ставят me, him, her: He is as tall as me. В более аккуратной речи — подлежащее с глаголом: He is as tall as I am. Оба варианта правильные.",
+          "examples": [
+            {
+              "en": "He is as tall as me.",
+              "ru": "Он такого же роста, как я. (обычно)"
+            },
+            {
+              "en": "He is as tall as I am.",
+              "ru": "Он такого же роста, как я. (аккуратнее)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -333,10 +348,10 @@
     {
       "label": "Частые ошибки: as taller as, so tall as",
       "intro": {
-        "text": "Проверяем три вещи: обычную форму между as, второй as вместо than и правильный выбор прилагательного или наречия.",
+        "text": "Проверяем три вещи: обычную форму между as, второй as вместо than и выбор прилагательного или наречия.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "три вещи",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -368,17 +383,12 @@
             "type": "tip",
             "title": "Как различить",
             "text": "As…as выражает равенство по признаку, а сравнительная степень с than — различие: as tall as / taller than. В отрицании возможно и not so…as, но not as…as употребляется чаще. После глагола действия может понадобиться наречие: sings as beautifully as."
-          },
-          "quote": {
-            "text": "As…as — про равенство. Than — про разницу.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "prerequisites": [
     "cards_comparisons"
   ],
@@ -457,5 +467,6 @@
     }
   ],
   "prerequisites_reviewed": true,
-  "editorial_review_scope": "content_and_metadata"
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04"
 }

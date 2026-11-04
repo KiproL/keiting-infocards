@@ -49,6 +49,12 @@
               },
               {
                 "cells": [
+                  "I was born in 1998.",
+                  "Я родился в 1998 году."
+                ]
+              },
+              {
+                "cells": [
                   "I'm a student. / I work as a designer.",
                   "Я студент. / Работаю дизайнером."
                 ]
@@ -61,7 +67,7 @@
               },
               {
                 "cells": [
-                  "I've got a brother and a sister.",
+                  "I've got a brother. / I have a brother.",
                   "У меня есть брат и сестра."
                 ]
               }
@@ -72,67 +78,61 @@
               "muted"
             ]
           }
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "Почему I'm, а не I have",
-          "preview": "возраст, профессия, семейное положение",
-          "initiallyExpanded": false,
-          "section": {
+          "title": "Почему I'm, а не I have",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "По-русски",
+              "По-английски",
+              "Почему"
+            ],
+            "headerColors": [
+              "muted",
+              "term",
+              "info"
+            ],
             "borderColor": "info",
-            "table": {
-              "headers": [
-                "По-русски",
-                "По-английски",
-                "Почему"
-              ],
-              "headerColors": [
-                "muted",
-                "term",
-                "info"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "Мне 25 лет.",
-                    "I'm 25.",
-                    "возраст — через be, не have"
-                  ]
-                },
-                {
-                  "cells": [
-                    "Я студент.",
-                    "I'm a student.",
-                    "профессия — с a"
-                  ]
-                },
-                {
-                  "cells": [
-                    "Я замужем.",
-                    "I'm married.",
-                    "состояние — через be"
-                  ]
-                },
-                {
-                  "cells": [
-                    "У меня есть сестра.",
-                    "I've got a sister.",
-                    "а вот «у меня есть» — have got"
-                  ]
-                }
-              ]
-            },
-            "title": ""
+            "rows": [
+              {
+                "cells": [
+                  "Мне 25 лет.",
+                  "I'm 25.",
+                  "возраст — через be, не have"
+                ]
+              },
+              {
+                "cells": [
+                  "Я студент.",
+                  "I'm a student.",
+                  "профессия — с a"
+                ]
+              },
+              {
+                "cells": [
+                  "Я замужем.",
+                  "I'm married.",
+                  "состояние — через be"
+                ]
+              },
+              {
+                "cells": [
+                  "У меня есть сестра.",
+                  "I've got a sister.",
+                  "«у меня есть» — I've got (брит.) или I have (везде)"
+                ]
+              }
+            ]
           }
         }
-      ]
+      ],
+      "expandables": []
     },
     {
       "label": "Интересы: like, love, be into",
       "intro": {
-        "text": "Об увлечениях говорят через like и love (люблю), а в разговоре часто be into — «увлекаюсь». После них занятие — с -ing: I like reading.",
+        "text": "Об увлечениях говорят через like и love, а в разговоре часто be into — «увлекаюсь». После like и love занятие можно назвать с -ing или с to: I like reading, I like to read — оба варианта верны. После be into и be a fan of — только -ing или существительное.",
         "highlights": [
           {
             "text": "like и love",
@@ -145,7 +145,7 @@
             "style": "bold"
           },
           {
-            "text": "с -ing",
+            "text": "оба варианта верны",
             "color": "example",
             "style": "bold_underline"
           }
@@ -197,6 +197,11 @@
               "term",
               "muted"
             ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Sport или sports",
+            "text": "По-британски «спорт» вообще — sport, по-американски чаще sports: I'm not into sport(s)."
           }
         }
       ],
@@ -307,14 +312,14 @@
             },
             {
               "wrong": "I live in Moscow since 2020.",
-              "right": "I've lived in Moscow since 2020. (since — с have lived)"
+              "right": "I've lived in Moscow since 2020. (с since нужен Present Perfect — подробнее в его карточке)"
             }
           ]
         }
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "prerequisites": [],
   "related_words": [
     "word_from",
@@ -336,8 +341,59 @@
         "of",
         "in"
       ]
+    },
+    {
+      "id": "error:aboutme.be",
+      "description": "Возраст, профессия, семейное положение — через be, а не have",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": [
+        "I have"
+      ]
+    },
+    {
+      "id": "error:aboutme.article",
+      "description": "Профессия в единственном числе — с a / an",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": [
+        "student"
+      ]
+    },
+    {
+      "id": "error:aboutme.verb",
+      "description": "Обычный глагол без am: I work, I like",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": [
+        "am work"
+      ]
+    },
+    {
+      "id": "error:aboutme.phrase",
+      "description": "Устойчивые фразы о себе: work as, be into, a fan of, go swimming",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": [
+        "like",
+        "in"
+      ]
     }
   ],
   "prerequisites_reviewed": true,
-  "editorial_review_scope": "metadata_only"
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04"
 }

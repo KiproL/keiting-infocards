@@ -234,15 +234,6 @@
               "ru": "Смотри! Идёт дождь."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Present Continuous — это фотография действия прямо сейчас.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -289,7 +280,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -299,7 +291,7 @@
         "text": "В Present Continuous am, is или are выбираются по тому, кто действует: I am, she is, they are. В этой конструкции после них нужен смысловой глагол с -ing. В других предложениях be может соединяться с прилагательным: She is tired.",
         "highlights": [
           {
-            "text": "Am, is или are",
+            "text": "am, is или are",
             "color": "term",
             "style": "bold"
           },
@@ -1105,11 +1097,6 @@
             "type": "tip",
             "title": "Как различить",
             "text": "Спроси: это действие в процессе или привычка/состояние? Слово now само по себе не решает: I understand now — состояние, поэтому Simple. Действие может быть временным и без now: She is working from home this month."
-          },
-          "quote": {
-            "text": "Simple — про привычки. Continuous — про моменты.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         },
         {
@@ -1128,10 +1115,10 @@
     {
       "label": "Частые ошибки: без am / is / are и без -ing",
       "intro": {
-        "text": "Семь самых частых ошибок в Present Continuous.",
+        "text": "Частые ошибки в Present Continuous: слева — как нельзя, справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -1179,24 +1166,20 @@
             "type": "tip",
             "title": "Правило большого пальца",
             "text": "Для Present Continuous проверь три вещи: кто действует, подходящее am/is/are и действие с -ing. Не переноси это правило на любое предложение с be: She is happy — правильное предложение без -ing."
-          },
-          "quote": {
-            "text": "Три формы to be — и всё работает как часы.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
   ],
-  "editorial_revision": 1,
-  "editorial_review_scope": "targeted_content_and_applied_exercises",
+  "editorial_revision": 2,
+  "editorial_review_scope": "full_card_language_review",
   "related_words": [
     "word_read",
     "word_ride",
     "word_book",
     "word_bicycle",
-    "word_park"
+    "word_park",
+    "word_now"
   ],
   "topics": [
     "grammar",
@@ -1221,7 +1204,8 @@
       "id": "error:presentcont.spelling",
       "description": "Удвоение зависит от строения последнего слога и ударения",
       "slides": [
-        2
+        2,
+        5
       ],
       "decoys": [
         "runing",
@@ -1233,11 +1217,13 @@
       "description": "Выбор времени зависит от значения, а не одного слова-маркера",
       "slides": [
         3,
-        4
+        4,
+        5
       ],
       "decoys": [
         "am knowing"
       ]
     }
-  ]
+  ],
+  "editorial_review_date": "2026-11-04"
 }

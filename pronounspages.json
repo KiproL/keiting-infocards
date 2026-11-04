@@ -87,20 +87,25 @@
           }
         },
         {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Местоимение — это слово-заменитель. Оно работает, пока понятно, что именно заменяет.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
+          "title": "Местоимение заменяет слово",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "Anna is my friend. She lives in Kazan.",
+              "ru": "Анна — моя подруга. Она живёт в Казани."
+            },
+            {
+              "en": "I have a dog. It is very small.",
+              "ru": "У меня есть собака. Она совсем маленькая."
+            }
+          ]
         }
       ]
     },
     {
       "label": "Личные: I или me, he или him",
       "intro": {
-        "text": "Личные местоимения — самые частые слова в английском. У каждого две формы: кто делает (I, he, she) — перед глаголом, и на кого направлено (me, him, her) — после глагола или предлога.",
+        "text": "Личные местоимения — одни из самых частых слов в английском. У большинства две формы: кто действует (I, he, she) — обычно перед глаголом, и на кого направлено действие (me, him, her) — после глагола или предлога. У you и it форма одна.",
         "highlights": [
           {
             "text": "Личные местоимения",
@@ -108,12 +113,12 @@
             "style": "bold"
           },
           {
-            "text": "кто делает",
+            "text": "кто действует",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "на кого направлено",
+            "text": "на кого направлено действие",
             "color": "example",
             "style": "bold"
           }
@@ -250,6 +255,25 @@
             {
               "en": "They invited us to dinner.",
               "ru": "Они пригласили нас на ужин."
+            }
+          ]
+        },
+        {
+          "title": "He and I или me and him",
+          "borderColor": "bad",
+          "callout": {
+            "type": "info",
+            "title": "Нейтрально и разговорно",
+            "text": "В разговоре можно услышать Me and him went home, но в нейтральной речи подлежащее — He and I went home. После глагола и предлога — объектная форма: with you and me. Between you and I встречается в речи, но считается ошибкой."
+          },
+          "examples": [
+            {
+              "en": "He and I went home.",
+              "ru": "Мы с ним пошли домой."
+            },
+            {
+              "en": "This is between you and me.",
+              "ru": "Это между нами."
             }
           ]
         }
@@ -399,7 +423,7 @@
           "borderColor": "bad",
           "callout": {
             "type": "warning",
-            "title": "Самая частая ошибка",
+            "title": "Частая ошибка",
             "text": "It's = it is (это есть). Its = его (притяжательное). Апостроф меняет всё."
           },
           "examples": [
@@ -598,6 +622,25 @@
             {
               "en": "Look at yourself!",
               "ru": "Посмотри на себя!"
+            }
+          ]
+        },
+        {
+          "title": "Не каждое «-ся» требует -self",
+          "borderColor": "bad",
+          "text": "По-русски «мыться», «одеваться», «встречаться», «чувствовать себя». В английском -self здесь обычно не нужен: I got up and washed. We met at six. I feel tired. Relax!",
+          "errors": [
+            {
+              "wrong": "I feel myself tired.",
+              "right": "I feel tired."
+            },
+            {
+              "wrong": "We met ourselves at six.",
+              "right": "We met at six."
+            },
+            {
+              "wrong": "hisself, theirselves",
+              "right": "himself, themselves"
             }
           ]
         }
@@ -803,13 +846,6 @@
               },
               {
                 "cells": [
-                  "whom",
-                  "кого (формально)",
-                  "Whom did you see?"
-                ]
-              },
-              {
-                "cells": [
                   "whose",
                   "чей",
                   "Whose bag is this?"
@@ -825,7 +861,7 @@
               {
                 "cells": [
                   "which",
-                  "который (из выбора)",
+                  "какой (из выбора)",
                   "Which one do you want?"
                 ]
               }
@@ -839,13 +875,8 @@
           "rules": [
             {
               "name": "who",
-              "suffix": "субъект — кто делает",
-              "example": "Who called you?"
-            },
-            {
-              "name": "whom",
-              "suffix": "объект — на кого",
-              "example": "Whom did you call?"
+              "suffix": "кто — и кто действует, и (в разговоре) кого",
+              "example": "Who called you? Who did you call?"
             },
             {
               "name": "whose",
@@ -868,7 +899,8 @@
               "suffix": "ограниченный выбор",
               "example": "Which colour — red or blue?"
             }
-          ]
+          ],
+          "text": "При небольшом выборе обычно which, но в разговоре и what не будет ошибкой: What colour — red or blue?"
         },
         {
           "title": "Живые примеры",
@@ -891,6 +923,29 @@
               "ru": "Какой ты предпочитаешь?"
             }
           ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Whom",
+          "preview": "Whom did you see? — формально",
+          "initiallyExpanded": false,
+          "presentation": "optional",
+          "section": {
+            "borderColor": "info",
+            "text": "Whom — объектная форма who. Она звучит формально и чаще встречается после предлога: To whom it may concern. В обычной речи вместо Whom did you see? говорят Who did you see?",
+            "examples": [
+              {
+                "en": "Whom did you see?",
+                "ru": "Кого ты видел? (формально)"
+              },
+              {
+                "en": "Who did you see?",
+                "ru": "Кого ты видел? (обычно)"
+              }
+            ],
+            "title": ""
+          }
         }
       ]
     },
@@ -1013,20 +1068,21 @@
           "title": "Можно ли опустить",
           "borderColor": "good",
           "callout": {
-            "type": "tip",
-            "title": "Определяющие vs описательные",
-            "text": "Если без части смысл теряется — who / which обязательны. Если это доп. информация в запятых — можно опустить."
+            "type": "warning",
+            "title": "Без запятых и с запятыми",
+            "text": "Без запятых придаточное выделяет, о ком или о чём речь: The man who called is my uncle. Здесь можно that, а если местоимение — дополнение, его можно опустить: The book (that) I read. С запятыми придаточное только добавляет сведения: My uncle, who lives in Paris, called. Здесь нужны who или which: that нельзя, и опускать местоимение нельзя."
           },
           "examples": [
             {
-              "en": "The man who called is my uncle.",
-              "ru": "Мужчина, который позвонил, — мой дядя. (без него неясно, о ком речь)"
+              "en": "The book (that) I read was great.",
+              "ru": "Книга, которую я прочитал, была отличной. (that можно опустить)"
             },
             {
               "en": "My uncle, who lives in Paris, called me.",
-              "ru": "Мой дядя, который живёт в Париже, позвонил мне. (доп. инфо)"
+              "ru": "Мой дядя, который живёт в Париже, позвонил мне. (who не опускаем)"
             }
-          ]
+          ],
+          "text": "Подробнее — в карточке Relative clauses."
         },
         {
           "title": "Живые примеры",
@@ -1049,11 +1105,21 @@
               "ru": "Девочка, чья сумка потерялась, здесь."
             }
           ]
+        },
+        {
+          "title": "Типичная ошибка",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "The book who I read…",
+              "right": "The book which / that I read… (о вещах — which или that)"
+            }
+          ]
         }
       ]
     },
     {
-      "label": "One и ones: «такой же»",
+      "label": "One и ones: чтобы не повторять слово",
       "intro": {
         "text": "One и ones заменяют уже названное слово, чтобы не повторять его: I like the red one — мне нравится красный. One — про один предмет, ones — про несколько.",
         "highlights": [
@@ -1137,10 +1203,10 @@
     {
       "label": "Частые ошибки: me and him, it's и its",
       "intro": {
-        "text": "Десять самых частых ошибок в английских местоимениях.",
+        "text": "Частые ошибки с местоимениями: слева — как нельзя, справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Десять самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -1153,7 +1219,7 @@
           "errors": [
             {
               "wrong": "Me and him went home.",
-              "right": "He and I went home. (кто делает — he, I)"
+              "right": "He and I went home. (нейтральная норма; Me and him — разговорное)"
             },
             {
               "wrong": "Between you and I…",
@@ -1186,10 +1252,21 @@
             {
               "wrong": "I don't have nothing.",
               "right": "I don't have anything. / I have nothing. (одно отрицание)"
+            }
+          ]
+        },
+        {
+          "title": "Everyone, nobody, nothing",
+          "borderColor": "info",
+          "text": "Everyone, everybody, nobody, nothing, someone — слова в единственном числе: Everyone is here. Nobody knows. Когда дальше нужно местоимение о человеке, обычно говорят they: Everyone did their best.",
+          "examples": [
+            {
+              "en": "Everyone is here.",
+              "ru": "Все здесь."
             },
             {
-              "wrong": "The book who I read…",
-              "right": "The book which I read… (о вещах — which)"
+              "en": "Nobody knows the answer.",
+              "ru": "Никто не знает ответа."
             }
           ]
         },
@@ -1200,14 +1277,113 @@
             "type": "tip",
             "title": "Три главных правила",
             "text": "После предлога — объектная форма (to me, with him). It's = it is, its = принадлежность. Everyone, nothing, nobody — единственное число."
-          },
-          "quote": {
-            "text": "Местоимения — мелкие слова, но именно в них больше всего ошибок.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:pronouns.subject_object",
+      "description": "Кто действует (I, he) и на кого направлено (me, him)",
+      "slides": [
+        0,
+        1,
+        8
+      ],
+      "decoys": [
+        "me",
+        "him"
+      ]
+    },
+    {
+      "id": "error:pronouns.possessive",
+      "description": "My перед словом и mine без него; its и it's",
+      "slides": [
+        2,
+        8
+      ],
+      "decoys": [
+        "mine",
+        "it's"
+      ]
+    },
+    {
+      "id": "error:pronouns.reflexive",
+      "description": "Формы на -self и лишний -self",
+      "slides": [
+        3,
+        8
+      ],
+      "decoys": [
+        "hisself"
+      ]
+    },
+    {
+      "id": "error:pronouns.demonstrative",
+      "description": "This / that — один, these / those — много",
+      "slides": [
+        4
+      ],
+      "decoys": [
+        "this",
+        "these"
+      ]
+    },
+    {
+      "id": "error:pronouns.question",
+      "description": "Who, whose, what, which",
+      "slides": [
+        5
+      ],
+      "decoys": [
+        "who's"
+      ]
+    },
+    {
+      "id": "error:pronouns.relative",
+      "description": "Who / which / that в придаточном; запятые",
+      "slides": [
+        6
+      ],
+      "decoys": [
+        "which",
+        "that"
+      ]
+    },
+    {
+      "id": "error:pronouns.one",
+      "description": "One — вместо одного, ones — вместо нескольких",
+      "slides": [
+        7
+      ],
+      "decoys": [
+        "ones",
+        "one"
+      ]
+    },
+    {
+      "id": "error:pronouns.agreement",
+      "description": "Everyone, nobody, nothing — с глаголом в ед. ч.",
+      "slides": [
+        8
+      ],
+      "decoys": [
+        "are"
+      ]
+    }
+  ],
+  "related_words": [
+    "word_i",
+    "word_me",
+    "word_my",
+    "word_this",
+    "word_that",
+    "word_who",
+    "word_which",
+    "word_one"
   ]
 }

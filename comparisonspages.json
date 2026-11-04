@@ -177,17 +177,17 @@
         "text": "Большинство односложных и некоторые двусложные прилагательные получают -er / -est. Перед превосходной степенью с существительным обычно стоит the: the tallest tree; притяжательное заменяет его: my oldest friend.",
         "highlights": [
           {
-            "text": "Короткие прилагательные",
+            "text": "односложных",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "-er и -est",
+            "text": "-er / -est",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "всегда the",
+            "text": "обычно стоит the",
             "color": "term",
             "style": "bold"
           }
@@ -300,7 +300,7 @@
         "text": "У прилагательных из трёх и более слогов обычно используются more / most: more interesting, the most interesting. У двусложных слов формы различаются: happier, more useful, simpler или more simple в подходящем контексте.",
         "highlights": [
           {
-            "text": "Длинные прилагательные",
+            "text": "трёх и более слогов",
             "color": "info",
             "style": "bold"
           },
@@ -659,24 +659,6 @@
           ]
         },
         {
-          "title": "Две связанные перемены: чем…, тем…",
-          "borderColor": "good",
-          "examples": [
-            {
-              "en": "The more you practise, the better you speak.",
-              "ru": "Чем больше практикуешься, тем лучше говоришь."
-            },
-            {
-              "en": "The sooner, the better.",
-              "ru": "Чем скорее, тем лучше."
-            },
-            {
-              "en": "The older I get, the wiser I become.",
-              "ru": "Чем старше я становлюсь, тем мудрее."
-            }
-          ]
-        },
-        {
           "title": "Не обязательно повторять than",
           "borderColor": "info",
           "text": "Если ясно, с чем сравнивают, comparative может стоять без than: This one is cheaper. Для заметной разницы: much cheaper; для небольшой: a little cheaper. Very cheaper в стандартном сравнении не подходит.",
@@ -690,6 +672,11 @@
               "ru": "Эта коробка немного тяжелее той."
             }
           ]
+        },
+        {
+          "title": "Чем…, тем…",
+          "borderColor": "info",
+          "text": "The more you practise, the better you speak — эта конструкция уровня B1 разобрана в карточке «Сравнения: the more…, the better»."
         }
       ],
       "expandables": [
@@ -724,7 +711,7 @@
     {
       "label": "The и наречия: faster, more carefully",
       "intro": {
-        "text": "Перед превосходной степенью с существительным обычно нужен the: the fastest runner. My и другие притяжательные заменяют the: my best friend. У наречия the иногда опускается: she runs fastest.",
+        "text": "Перед превосходной степенью с существительным обычно нужен the: the fastest runner. My и другие притяжательные заменяют the: my best friend. У наречий тоже есть степени сравнения, и в превосходной the иногда опускается: she runs fastest.",
         "highlights": [
           {
             "text": "the",
@@ -732,7 +719,7 @@
             "style": "bold_underline"
           },
           {
-            "text": "Наречия",
+            "text": "наречий",
             "color": "info",
             "style": "bold"
           }
@@ -856,15 +843,6 @@
           ]
         },
         {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Сравнение — это не про форму, а про выбор: с чем именно ты сравниваешь.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
-          }
-        },
-        {
           "title": "Прилагательное или наречие",
           "borderColor": "info",
           "text": "A careful driver описывает водителя, drives carefully — то, как он водит. Сравниваем ту же часть: a more careful driver / drives more carefully. Не делаем carefullyer.",
@@ -882,9 +860,9 @@
       ]
     }
   ],
-  "editorial_revision": 1,
-  "editorial_review_scope": "full_card_language_review_targeted_revision",
-  "editorial_review_date": "2026-11-03",
+  "editorial_revision": 2,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
   "prerequisites": [
     "cards_articles",
     "cards_presentsimp"
@@ -909,6 +887,7 @@
       "id": "error:comparisons.irregular",
       "description": "Особая форма better / worse и значение little",
       "slides": [
+        0,
         3,
         5
       ],
@@ -936,6 +915,7 @@
       "slides": [
         0,
         1,
+        2,
         5
       ],
       "decoys": [
