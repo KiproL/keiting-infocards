@@ -1,0 +1,240 @@
+{
+ "tenseName": "У врача и в аптеке",
+ "route": "cards_ja_doctor",
+ "slides": [
+  {
+   "label": "Что болит",
+   "intro": {
+    "text": "Боль описывают формулой «часть тела + が 痛い».",
+    "highlights": [
+     {
+      "text": "が 痛い",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Формула",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "часть тела",
+        "color": "info"
+       },
+       {
+        "text": "+",
+        "color": "muted"
+       },
+       {
+        "text": "が",
+        "color": "term"
+       },
+       {
+        "text": "+",
+        "color": "muted"
+       },
+       {
+        "text": "痛いです",
+        "color": "example"
+       }
+      ],
+      "accentColor": "term"
+     },
+     "examples": [
+      {
+       "en": "頭が 痛いです。",
+       "reading": "あたまが いたいです。 · atama ga itai desu",
+       "ru": "Болит голова."
+      },
+      {
+       "en": "おなかが 痛いです。",
+       "reading": "おなかが いたいです。 · onaka ga itai desu",
+       "ru": "Болит живот."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Симптомы",
+   "intro": {
+    "text": "Другие симптомы — с が ある / が 出る.",
+    "highlights": [
+     {
+      "text": "が ある",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "が 出る",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "熱が あります。",
+       "reading": "ねつが あります。 · netsu ga arimasu",
+       "ru": "У меня температура."
+      },
+      {
+       "en": "せきが 出ます。",
+       "reading": "せきが でます。 · seki ga demasu",
+       "ru": "Кашляю."
+      },
+      {
+       "en": "寒気が します。",
+       "reading": "さむけが します。 · samuke ga shimasu",
+       "ru": "Знобит."
+      }
+     ]
+    },
+    {
+     "title": "Тело",
+     "keysValues": [
+      {
+       "key": "のど",
+       "value": "горло"
+      },
+      {
+       "key": "歯 (は)",
+       "value": "зуб"
+      },
+      {
+       "key": "背中 (せなか)",
+       "value": "спина"
+      },
+      {
+       "key": "足 (あし)",
+       "value": "нога"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Сколько дней",
+   "intro": {
+    "text": "Врач спросит いつから (с каких пор). Отвечают «～から» или «～日前から».",
+    "highlights": [
+     {
+      "text": "いつから",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "～日前から",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "いつからですか。",
+       "reading": "itsu kara desu ka",
+       "ru": "С каких пор?"
+      },
+      {
+       "en": "三日前からです。",
+       "reading": "みっかまえからです。 · mikka mae kara desu",
+       "ru": "Уже три дня."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Аптека",
+   "intro": {
+    "text": "В аптеке (薬局) спрашивают, как принимать лекарство: 一日 何回 (сколько раз в день).",
+    "highlights": [
+     {
+      "text": "薬局",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "一日 何回",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "風邪薬は ありますか。",
+       "reading": "かぜぐすりは ありますか。 · kazegusuri wa arimasu ka",
+       "ru": "Есть лекарство от простуды?"
+      },
+      {
+       "en": "一日 三回、食後に 飲んで ください。",
+       "reading": "いちにち さんかい、しょくごに のんで ください。 · ichinichi sankai, shokugo ni nonde kudasai",
+       "ru": "Три раза в день после еды."
+      }
+     ]
+    },
+    {
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "info",
+      "text": "Лекарство по-японски «пьют» (薬を 飲む), даже таблетки.",
+      "title": "飲む"
+     }
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "頭を 痛いです",
+       "right": "頭が 痛いです — что болит: が"
+      },
+      {
+       "wrong": "薬を 食べる",
+       "right": "薬を 飲む"
+      },
+      {
+       "wrong": "熱が います",
+       "right": "熱が あります"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "часть тела が 痛い — и врач поймёт.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}

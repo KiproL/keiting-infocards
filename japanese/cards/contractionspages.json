@@ -1,0 +1,211 @@
+{
+ "tenseName": "Разговорные сокращения",
+ "route": "cards_ja_contractions",
+ "slides": [
+  {
+   "label": "Зачем знать",
+   "intro": {
+    "text": "В живой речи японцы сокращают формы. В учебниках их мало, а в аниме и разговоре — постоянно.",
+    "highlights": [
+     {
+      "text": "сокращают",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "постоянно",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Полная → разговорная",
+     "transforms": [
+      {
+       "from": "～ている",
+       "to": "～てる",
+       "toColor": "term"
+      },
+      {
+       "from": "～てしまう",
+       "to": "～ちゃう",
+       "toColor": "term"
+      },
+      {
+       "from": "～ては",
+       "to": "～ちゃ",
+       "toColor": "term"
+      },
+      {
+       "from": "～なければ",
+       "to": "～なきゃ",
+       "toColor": "term"
+      },
+      {
+       "from": "～ておく",
+       "to": "～とく",
+       "toColor": "term"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "～てる и ～ちゃう",
+   "intro": {
+    "text": "～ている теряет い, ～てしまう превращается в ～ちゃう (～じゃう после ん).",
+    "highlights": [
+     {
+      "text": "～ている",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "～ちゃう",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "何 してるの？",
+       "reading": "なに してるの？ · nani shiteru no?",
+       "ru": "Ты что делаешь?"
+      },
+      {
+       "en": "全部 食べちゃった。",
+       "reading": "ぜんぶ たべちゃった。 · zenbu tabechatta",
+       "ru": "Всё съел (ой)."
+      },
+      {
+       "en": "本を 読んじゃった。",
+       "reading": "ほんを よんじゃった。 · hon o yonjatta",
+       "ru": "Дочитал книгу."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "～なきゃ и ～ちゃ",
+   "intro": {
+    "text": "«Надо» — ～なきゃ (из ～なければ), «нельзя» — ～ちゃだめ (из ～てはいけない).",
+    "highlights": [
+     {
+      "text": "～なきゃ",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "～ちゃだめ",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "もう 行かなきゃ。",
+       "reading": "もう いかなきゃ。 · mō ikanakya",
+       "ru": "Мне пора идти."
+      },
+      {
+       "en": "ここで 寝ちゃ だめ。",
+       "reading": "ここで ねちゃ だめ。 · koko de necha dame",
+       "ru": "Здесь спать нельзя."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Другие",
+   "intro": {
+    "text": "Ещё несколько частых сокращений.",
+    "highlights": [
+     {
+      "text": "частых",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Сокращения",
+     "transforms": [
+      {
+       "from": "～と言う → ～って",
+       "to": "田中って 人",
+       "toColor": "term"
+      },
+      {
+       "from": "～のだ → ～んだ",
+       "to": "行くんだ",
+       "toColor": "term"
+      },
+      {
+       "from": "それは → そりゃ",
+       "to": "そりゃ いいね",
+       "toColor": "term"
+      },
+      {
+       "from": "～ておく → ～とく",
+       "to": "買っとく",
+       "toColor": "term"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Когда сокращать нельзя.",
+    "highlights": [
+     {
+      "text": "нельзя",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "～ちゃう в деловом письме",
+       "right": "～てしまいます — полная форма"
+      },
+      {
+       "wrong": "～てる начальнику",
+       "right": "～ています"
+      },
+      {
+       "wrong": "Путать ～とく и ～ていく",
+       "right": "～とく = ～ておく (заранее)"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "С друзьями — коротко, с начальством — полностью.",
+      "author": "главная мысль",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}

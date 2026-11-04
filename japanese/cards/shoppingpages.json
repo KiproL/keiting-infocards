@@ -1,0 +1,208 @@
+{
+ "tenseName": "В магазине",
+ "route": "cards_ja_shopping",
+ "slides": [
+  {
+   "label": "Спросить цену",
+   "intro": {
+    "text": "Цену спрашивают словом いくら. «Вот это» — これ, если вещь у тебя, それ — если у продавца.",
+    "highlights": [
+     {
+      "text": "いくら",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "これ",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "それ",
+      "color": "example",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "これは いくらですか。",
+       "reading": "kore wa ikura desu ka",
+       "ru": "Сколько это стоит?"
+      },
+      {
+       "en": "それを 見せて ください。",
+       "reading": "それを みせて ください。 · sore o misete kudasai",
+       "ru": "Покажите вот то (у вас)."
+      },
+      {
+       "en": "三千円です。",
+       "reading": "さんぜんえんです。 · sanzen-en desu",
+       "ru": "Три тысячи иен."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Размер и цвет",
+   "intro": {
+    "text": "Другой вариант просят через ～のは ありますか (есть ли … ?).",
+    "highlights": [
+     {
+      "text": "～のは ありますか",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "もう少し 大きいのは ありますか。",
+       "reading": "もうすこし おおきいのは ありますか。 · mō sukoshi ōkii no wa arimasu ka",
+       "ru": "Есть побольше?"
+      },
+      {
+       "en": "ほかの 色は ありますか。",
+       "reading": "ほかの いろは ありますか。 · hoka no iro wa arimasu ka",
+       "ru": "Есть другого цвета?"
+      },
+      {
+       "en": "試着しても いいですか。",
+       "reading": "しちゃくしても いいですか。 · shichaku shite mo ii desu ka",
+       "ru": "Можно примерить?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Решение",
+   "intro": {
+    "text": "Покупаешь — これに します («беру это»). Не берёшь — また 来ます или 考えます: так вежливо уходят.",
+    "highlights": [
+     {
+      "text": "これに します",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "また 来ます",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "考えます",
+      "color": "example",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "これに します。",
+       "reading": "kore ni shimasu",
+       "ru": "Беру вот это."
+      },
+      {
+       "en": "ちょっと 考えます。",
+       "reading": "ちょっと かんがえます。 · chotto kangaemasu",
+       "ru": "Я ещё подумаю."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "На кассе",
+   "intro": {
+    "text": "Кассир спросит про пакет и карту баллов. Отказ — 大丈夫です («не нужно»).",
+    "highlights": [
+     {
+      "text": "大丈夫です",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Фразы кассира",
+     "keysValues": [
+      {
+       "key": "袋は ご利用ですか",
+       "value": "Нужен пакет?"
+      },
+      {
+       "key": "ポイントカードは お持ちですか",
+       "value": "Есть карта баллов?"
+      },
+      {
+       "key": "温めますか",
+       "value": "Подогреть? (в магазине у дома)"
+      }
+     ]
+    },
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "袋は 大丈夫です。",
+       "reading": "ふくろは だいじょうぶです。 · fukuro wa daijōbu desu",
+       "ru": "Пакет не нужен."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки в магазине.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "いくつですか (о цене)",
+       "right": "いくらですか — цена; いくつ — сколько штук"
+      },
+      {
+       "wrong": "これを します",
+       "right": "これに します — «выбираю это»"
+      },
+      {
+       "wrong": "いいえ на вопрос про пакет — резко",
+       "right": "大丈夫です — мягко"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "いくら — цена, これに します — покупка, 大丈夫です — вежливое «нет».",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}

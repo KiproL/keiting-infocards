@@ -1,0 +1,197 @@
+{
+ "tenseName": "Как пройти",
+ "route": "cards_ja_directions",
+ "slides": [
+  {
+   "label": "Спросить дорогу",
+   "intro": {
+    "text": "Начинают с すみません, потом «место + は どこですか».",
+    "highlights": [
+     {
+      "text": "すみません",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "は どこですか",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "すみません、駅は どこですか。",
+       "reading": "すみません、えきは どこですか。 · sumimasen, eki wa doko desu ka",
+       "ru": "Извините, где станция?"
+      },
+      {
+       "en": "郵便局へ 行きたいんですが。",
+       "reading": "ゆうびんきょくへ いきたいんですが。 · yūbinkyoku e ikitai n desu ga",
+       "ru": "Мне нужно на почту…"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ответ",
+   "intro": {
+    "text": "Направление объясняют て-формами подряд: まっすぐ 行って、右に 曲がって…",
+    "highlights": [
+     {
+      "text": "て-формами подряд",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "まっすぐ 行って、二つ目の 角を 右に 曲がって ください。",
+       "reading": "まっすぐ いって、ふたつめの かどを みぎに まがって ください。 · massugu itte, futatsume no kado o migi ni magatte kudasai",
+       "ru": "Идите прямо и на втором углу поверните направо."
+      },
+      {
+       "en": "信号を 渡ると 左に あります。",
+       "reading": "しんごうを わたると ひだりに あります。 · shingō o wataru to hidari ni arimasu",
+       "ru": "Перейдёте светофор — будет слева."
+      }
+     ]
+    },
+    {
+     "title": "Ориентиры",
+     "keysValues": [
+      {
+       "key": "角 (かど)",
+       "value": "угол"
+      },
+      {
+       "key": "信号 (しんごう)",
+       "value": "светофор"
+      },
+      {
+       "key": "交差点 (こうさてん)",
+       "value": "перекрёсток"
+      },
+      {
+       "key": "突き当たり (つきあたり)",
+       "value": "в конце улицы"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Расстояние",
+   "intro": {
+    "text": "Расстояние меряют временем: 歩いて 何分 (сколько минут пешком).",
+    "highlights": [
+     {
+      "text": "歩いて 何分",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "ここから 遠いですか。",
+       "reading": "ここから とおいですか。 · koko kara tōi desu ka",
+       "ru": "Далеко отсюда?"
+      },
+      {
+       "en": "歩いて 五分ぐらいです。",
+       "reading": "あるいて ごふんぐらいです。 · aruite gofun gurai desu",
+       "ru": "Минут пять пешком."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Если не понял",
+   "intro": {
+    "text": "Не стесняйся переспросить или попросить показать на карте.",
+    "highlights": [
+     {
+      "text": "переспросить",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "на карте",
+      "color": "example",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "もう一度 お願いします。",
+       "reading": "もういちど おねがいします。 · mō ichido onegai shimasu",
+       "ru": "Ещё раз, пожалуйста."
+      },
+      {
+       "en": "地図で 教えて もらえますか。",
+       "reading": "ちずで おしえて もらえますか。 · chizu de oshiete moraemasu ka",
+       "ru": "Не покажете на карте?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "右を 曲がる",
+       "right": "右に 曲がる — поворачивать «в» сторону: に"
+      },
+      {
+       "wrong": "道に 渡る",
+       "right": "道を 渡る — через что переходить: を"
+      },
+      {
+       "wrong": "駅が どこですか (без контекста)",
+       "right": "駅は どこですか"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "すみません → место は どこですか → まっすぐ / 右に / 左に.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}

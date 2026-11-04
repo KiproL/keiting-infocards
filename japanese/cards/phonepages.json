@@ -1,0 +1,181 @@
+{
+ "tenseName": "Телефонный разговор",
+ "route": "cards_ja_phone",
+ "slides": [
+  {
+   "label": "Алло",
+   "intro": {
+    "text": "Разговор начинают с もしもし и сразу называют себя: «～です» или «～と 申します».",
+    "highlights": [
+     {
+      "text": "もしもし",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "と 申します",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "もしもし、田中です。",
+       "reading": "もしもし、たなかです。 · moshimoshi, tanaka desu",
+       "ru": "Алло, это Танака."
+      },
+      {
+       "en": "ABC社の 田中と 申します。",
+       "reading": "エービーシーしゃの たなかと もうします。 · ēbīshī-sha no tanaka to mōshimasu",
+       "ru": "Это Танака из компании ABC."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Позвать",
+   "intro": {
+    "text": "Позвать человека — «～さんは いらっしゃいますか» (уважительное «есть ли»).",
+    "highlights": [
+     {
+      "text": "いらっしゃいますか",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "山田さんは いらっしゃいますか。",
+       "reading": "やまださんは いらっしゃいますか。 · yamada-san wa irasshaimasu ka",
+       "ru": "Ямада-сан на месте?"
+      },
+      {
+       "en": "少々 お待ち ください。",
+       "reading": "しょうしょう おまち ください。 · shōshō omachi kudasai",
+       "ru": "Подождите минутку."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Нет на месте",
+   "intro": {
+    "text": "Если нужного человека нет, просят передать или перезвонить.",
+    "highlights": [
+     {
+      "text": "передать",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "перезвонить",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "伝言を お願いできますか。",
+       "reading": "でんごんを おねがいできますか。 · dengon o onegai dekimasu ka",
+       "ru": "Можно оставить сообщение?"
+      },
+      {
+       "en": "後で また かけます。",
+       "reading": "あとで また かけます。 · ato de mata kakemasu",
+       "ru": "Перезвоню позже."
+      },
+      {
+       "en": "折り返し お電話します。",
+       "reading": "おりかえし おでんわします。 · orikaeshi o-denwa shimasu",
+       "ru": "Мы вам перезвоним."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Плохо слышно",
+   "intro": {
+    "text": "Связь плохая — 電波が 悪い. Попроси говорить громче или медленнее.",
+    "highlights": [
+     {
+      "text": "電波が 悪い",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "すみません、よく 聞こえません。",
+       "reading": "すみません、よく きこえません。 · sumimasen, yoku kikoemasen",
+       "ru": "Извините, плохо слышно."
+      },
+      {
+       "en": "もう少し ゆっくり 話して ください。",
+       "reading": "もうすこし ゆっくり はなして ください。 · mō sukoshi yukkuri hanashite kudasai",
+       "ru": "Говорите помедленнее, пожалуйста."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "もしもし при встрече вживую",
+       "right": "もしもし — только по телефону"
+      },
+      {
+       "wrong": "山田さんは いますか (в фирму)",
+       "right": "いらっしゃいますか — вежливо"
+      },
+      {
+       "wrong": "Своего коллегу звать さん",
+       "right": "о своих клиенту — без さん"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "もしもし → кто я → кого зову いらっしゃいますか.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}
