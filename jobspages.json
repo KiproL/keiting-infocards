@@ -465,10 +465,10 @@
     {
       "label": "Частые ошибки: I'm teacher, a lot of works",
       "intro": {
-        "text": "Самые частые ошибки в словах о работе.",
+        "text": "Частые ошибки в словах о работе.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -502,6 +502,63 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:jobs.article",
+      "description": "Профессия — с a / an: I'm a nurse",
+      "slides": [
+        0,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:jobs.work_job",
+      "description": "Job — считаемое, work — нет",
+      "slides": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:jobs.question",
+      "description": "What do you do? — кем работаешь",
+      "slides": [
+        2,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:jobs.prep",
+      "description": "Work as / for / at / in",
+      "slides": [
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:jobs.word",
+      "description": "Слова о работе",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }

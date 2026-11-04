@@ -370,12 +370,12 @@
     {
       "label": "Чего не говорить: turn to left, in the left",
       "intro": {
-        "text": "Чего не говорить: частые ошибки русскоговорящих — лишние предлоги и «скажи мне».",
+        "text": "Частые ошибки русскоговорящих: лишние предлоги и «скажи мне».",
         "highlights": [
           {
-            "text": "Чего не говорить",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           },
           {
             "text": "лишние предлоги",
@@ -412,6 +412,41 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:directions.phrase",
+      "description": "Вопросы и команды: how do I get, go straight on, turn left",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:directions.prep",
+      "description": "Предлоги места и направления: on the left, at the lights, opposite",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:directions.russian",
+      "description": "Кальки: say me, turn to left, in the left",
+      "slides": [
+        4
+      ],
+      "decoys": []
     }
   ]
 }

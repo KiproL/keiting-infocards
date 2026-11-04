@@ -156,7 +156,7 @@
     {
       "label": "Как говорить о погоде",
       "intro": {
-        "text": "Погода — любимая тема для small talk: о ней спрашивают, жалуются и строят планы.",
+        "text": "Погода — частая тема для small talk: о ней спрашивают, жалуются и строят планы.",
         "highlights": [
           {
             "text": "small talk",
@@ -255,7 +255,7 @@
     {
       "label": "Природа: горы, реки, побережье",
       "intro": {
-        "text": "Слова о пейзаже и местах на природе. С горами, реками и морями часто нужен the: the Alps, the Volga, the Black Sea.",
+        "text": "Слова о пейзаже и местах на природе. С реками, морями и горными цепями нужен the: the Volga, the Black Sea, the Alps. Отдельные горы и озёра обычно без the: Everest, Lake Baikal.",
         "highlights": [
           {
             "text": "пейзаже",
@@ -264,6 +264,11 @@
           },
           {
             "text": "нужен the",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "без the",
             "color": "info",
             "style": "bold"
           }
@@ -469,10 +474,10 @@
     {
       "label": "Частые ошибки: Today is sun, a nice weather",
       "intro": {
-        "text": "Самые частые ошибки в словах о погоде.",
+        "text": "Частые ошибки в словах о погоде.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -506,6 +511,53 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:weather.it",
+      "description": "О погоде — через it: It's cold, а не There is cold",
+      "slides": [
+        0,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:weather.form",
+      "description": "Sunny, а не sun; raining, а не rain",
+      "slides": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:weather.collocation",
+      "description": "Heavy rain, strong wind; What nice weather — без a",
+      "slides": [
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:weather.word",
+      "description": "Слова о погоде и природе",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }

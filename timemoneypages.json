@@ -5,7 +5,7 @@
     {
       "label": "Который час: past и to",
       "intro": {
-        "text": "Время говорят двумя способами: цифрами, как на табло (seven fifteen), или по-старому — через past (после) и to (до). Past — первая половина часа, to — вторая.",
+        "text": "Время говорят двумя способами: цифрами, как на табло (seven fifteen), или словами — через past (после) и to (до). Past — первая половина часа, to — вторая. Оба способа обычные и современные.",
         "highlights": [
           {
             "text": "цифрами",
@@ -104,6 +104,11 @@
               "name": "What time is it?",
               "suffix": "Который час?",
               "example": "It's half past three."
+            },
+            {
+              "name": "after / of (амер.)",
+              "suffix": "вместо past / to",
+              "example": "ten after seven = 7:10; ten of eight = 7:50"
             }
           ]
         }
@@ -430,10 +435,10 @@
     {
       "label": "Меры: мили, футы, фунты",
       "intro": {
-        "text": "В США и отчасти в Британии живут старые меры: дюймы, футы, мили, фунты. Хватит знать их примерно.",
+        "text": "В США и отчасти в Британии в ходу имперские меры: дюймы, футы, мили, фунты. Хватит знать их примерно.",
         "highlights": [
           {
-            "text": "старые меры",
+            "text": "имперские меры",
             "color": "term",
             "style": "bold"
           },
@@ -493,7 +498,7 @@
               {
                 "cells": [
                   "1 pint",
-                  "0,5 л",
+                  "≈ 0,57 л (брит.), 0,47 л (амер.)",
                   "пиво, молоко (брит.)"
                 ]
               },
@@ -652,10 +657,10 @@
     {
       "label": "Частые ошибки: половина восьмого, five dollar",
       "intro": {
-        "text": "Самые частые ошибки со временем и деньгами.",
+        "text": "Частые ошибки со временем и деньгами.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -693,6 +698,76 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:timemoney.clock",
+      "description": "Часы: past / to, half past, quarter, o'clock",
+      "slides": [
+        0,
+        4,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:timemoney.prep",
+      "description": "Предлоги времени: at 7, on Monday, in May",
+      "slides": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:timemoney.dates",
+      "description": "Чтение дат и годов",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:timemoney.money",
+      "description": "Цены и деньги: how much, much money, five dollars",
+      "slides": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:timemoney.measures",
+      "description": "Меры: feet, miles, pounds",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:timemoney.compound",
+      "description": "Составное прилагательное без -s: a five-minute walk",
+      "slides": [
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:timemoney.phrase",
+      "description": "Готовые фразы в магазине и на рынке",
+      "slides": [
+        5
+      ],
+      "decoys": []
     }
   ]
 }

@@ -126,7 +126,7 @@
     {
       "label": "Заказать: I'd like, I'll have",
       "intro": {
-        "text": "Заказывают через I'd like или I'll have — это вежливо. I want звучит по-детски резко.",
+        "text": "Заказывают через I'd like или I'll have — это вежливо. I want в заказе звучит слишком прямо; в ресторане так говорят редко.",
         "highlights": [
           {
             "text": "I'd like",
@@ -239,7 +239,7 @@
     {
       "label": "Счёт и чаевые",
       "intro": {
-        "text": "Счёт в Британии — the bill, в США — the check. Чаевые в США ждут всегда — 15–20%, в Британии около 10%, если обслуживание не включено.",
+        "text": "Счёт в Британии — the bill, в США — the check. В США чаевые принято оставлять почти всегда — обычно 15–20%; в Британии часто добавляют в счёт сбор за обслуживание 10–12,5%, а если его нет, оставляют около 10%.",
         "highlights": [
           {
             "text": "the bill",
@@ -395,10 +395,10 @@
     {
       "label": "Чего не говорить: Give me, I want",
       "intro": {
-        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "text": "Частые ошибки русскоговорящих в ресторане.",
         "highlights": [
           {
-            "text": "Чего не говорить",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -415,7 +415,7 @@
             },
             {
               "wrong": "I want a steak.",
-              "right": "I'd like the steak, please. (I want — резко)"
+              "right": "I'd like the steak, please. (I want — слишком прямо)"
             },
             {
               "wrong": "Bring me the check!",
@@ -428,6 +428,31 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:restaurant.phrase",
+      "description": "Фразы ресторана: book, order, bill, tip",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:restaurant.polite",
+      "description": "Вежливая просьба: Can I have, I'd like вместо Give me, I want",
+      "slides": [
+        5
+      ],
+      "decoys": []
     }
   ]
 }

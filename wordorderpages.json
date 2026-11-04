@@ -308,7 +308,7 @@
           "callout": {
             "type": "info",
             "title": "Им можно и в начало",
-            "text": "Sometimes I cook dinner. Usually we go by bus. Always и never в начало не ставят."
+            "text": "Sometimes I cook dinner. Usually we go by bus. Always и never в начало утверждения обычно не ставят. Исключения: повелительное наклонение (Always check your work. Never give up.) и книжная инверсия (Never have I seen…)."
           }
         },
         {
@@ -338,12 +338,17 @@
     {
       "label": "Как, где, когда: хвост предложения",
       "intro": {
-        "text": "Если в конце несколько уточнений, их порядок такой: как → где → когда. Время можно вынести в начало, если оно важно или фраза длинная.",
+        "text": "Если в конце несколько уточнений, обычный порядок такой: как → где → когда. Это тенденция, а не закон: после глаголов движения (go, come, arrive) место часто идёт раньше — He came home quickly. Время можно вынести в начало, если оно важно или фраза длинная.",
         "highlights": [
           {
             "text": "как → где → когда",
             "color": "term",
             "style": "bold_underline"
+          },
+          {
+            "text": "тенденция",
+            "color": "info",
+            "style": "bold"
           },
           {
             "text": "в начало",
@@ -760,10 +765,10 @@
     {
       "label": "Частые ошибки: like very much coffee, go always",
       "intro": {
-        "text": "Самые частые ошибки в порядке слов.",
+        "text": "Частые ошибки в порядке слов.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -811,14 +816,59 @@
             "type": "tip",
             "title": "Проверяй по схеме",
             "text": "Кто → делает → что → как → где → когда. Наречия частоты — перед глаголом, но после be."
-          },
-          "quote": {
-            "text": "Английское предложение — поезд: вагоны можно добавлять, но не менять местами.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:wordorder.svo",
+      "description": "Кто → делает → что; подлежащее обязательно",
+      "slides": [
+        0,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wordorder.frequency",
+      "description": "Always, often, never: перед глаголом, после be и вспомогательного",
+      "slides": [
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wordorder.tail",
+      "description": "Как → где → когда; ничего между глаголом и дополнением",
+      "slides": [
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wordorder.adjectives",
+      "description": "Порядок прилагательных: мнение → размер → возраст → цвет → материал",
+      "slides": [
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wordorder.small_words",
+      "description": "Also, too, only, enough",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": []
     }
   ]
 }

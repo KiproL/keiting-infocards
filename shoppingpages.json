@@ -245,7 +245,7 @@
     {
       "label": "Вернуть или обменять",
       "intro": {
-        "text": "Вернуть деньги — get a refund, обменять — exchange. Почти везде попросят чек.",
+        "text": "Вернуть деньги — get a refund, обменять — exchange. Обычно попросят чек.",
         "highlights": [
           {
             "text": "get a refund",
@@ -401,10 +401,10 @@
     {
       "label": "Чего не говорить: How much costs, measure",
       "intro": {
-        "text": "Чего не говорить: частые ошибки русскоговорящих.",
+        "text": "Частые ошибки русскоговорящих в магазине.",
         "highlights": [
           {
-            "text": "Чего не говорить",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -438,6 +438,41 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:shopping.phrase",
+      "description": "Фразы магазина: try on, fit, receipt, refund",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:shopping.price",
+      "description": "Цена: how much is / are / does it cost",
+      "slides": [
+        1,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:shopping.russian",
+      "description": "Кальки: How much costs, measure, Give me",
+      "slides": [
+        5
+      ],
+      "decoys": []
     }
   ]
 }

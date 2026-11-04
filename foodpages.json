@@ -5,7 +5,7 @@
     {
       "label": "Продукты: что можно посчитать",
       "intro": {
-        "text": "Многие продукты неисчисляемые — их не считают штуками: bread, rice, cheese, fruit — без a и без -s. Чтобы посчитать, берут «упаковку»: a loaf of bread, a piece of cheese.",
+        "text": "Многие продукты неисчисляемые — их не считают штуками: bread, rice, cheese, а в значении «фрукты вообще» и fruit — без a и без -s. Чтобы посчитать, берут «упаковку»: a loaf of bread, a piece of cheese.",
         "highlights": [
           {
             "text": "неисчисляемые",
@@ -436,7 +436,7 @@
                 {
                   "cells": [
                     "dinner",
-                    "вечером, главная еда",
+                    "вечером, главная еда (в части Британии dinner — обед днём)",
                     "What's for dinner?"
                   ]
                 },
@@ -582,16 +582,21 @@
     {
       "label": "Частые ошибки: a bread, salt, kitchen",
       "intro": {
-        "text": "Чаще всего ошибаются с неисчисляемыми (a bread), с прилагательными вкуса и с «кухней».",
+        "text": "Частые ошибки: неисчисляемые (a bread), прилагательные вкуса и «кухня».",
         "highlights": [
           {
-            "text": "неисчисляемыми",
+            "text": "Частые ошибки",
             "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "неисчисляемые",
+            "color": "term",
             "style": "bold"
           },
           {
-            "text": "прилагательными вкуса",
-            "color": "bad",
+            "text": "прилагательные вкуса",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -619,7 +624,7 @@
             },
             {
               "wrong": "dinner (днём)",
-              "right": "lunch — днём, dinner — вечером"
+              "right": "lunch (в стандартном языке днём — lunch, вечером — dinner)"
             },
             {
               "wrong": "a fruits",
@@ -628,6 +633,69 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:food.uncountable",
+      "description": "Неисчисляемые: some bread, a loaf of bread, rice",
+      "slides": [
+        0,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:food.cooking",
+      "description": "Глаголы готовки: boil, fry, bake, chop",
+      "slides": [
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:food.taste",
+      "description": "Вкус — прилагательное: salty, а не salt",
+      "slides": [
+        2,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:food.meal",
+      "description": "Have breakfast / lunch / dinner — без a и без take",
+      "slides": [
+        2,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:food.cuisine",
+      "description": "Cuisine — кухня как еда, kitchen — помещение",
+      "slides": [
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:food.word",
+      "description": "Слова о еде",
+      "slides": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }
