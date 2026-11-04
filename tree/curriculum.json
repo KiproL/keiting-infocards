@@ -148,7 +148,7 @@
       "materials": [
         {
           "route": "cards_greetings",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -329,7 +329,7 @@
       "materials": [
         {
           "route": "cards_greetings",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -2468,6 +2468,678 @@
         "a2_det_compounds",
         "a2_det_every_each",
         "a2_det_many_much"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_imperative_core",
+      "level": "A1",
+      "title": "Sit down, Don't worry, Let's go",
+      "slices": [
+        {
+          "route": "cards_imperative",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a2_imperative_polite",
+      "level": "A2",
+      "title": "Как попросить вежливо",
+      "slices": [
+        {
+          "route": "cards_imperative",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_imperative_core",
+        "a1_questions_yesno"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_imperative_review",
+      "level": "A1",
+      "title": "Повелительное: проверка",
+      "slices": [
+        {
+          "route": "cards_imperative",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_imperative_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_havegot_core",
+      "level": "A1",
+      "title": "I've got, have you got?",
+      "slices": [
+        {
+          "route": "cards_havegot",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_pronouns_personal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_havegot_vs_have",
+      "level": "A2",
+      "title": "Have got или have",
+      "slices": [
+        {
+          "route": "cards_havegot",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_havegot_core",
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_havegot_review",
+      "level": "A2",
+      "title": "Have got: проверка",
+      "slices": [
+        {
+          "route": "cards_havegot",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_havegot_vs_have"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_both_either",
+      "level": "A2",
+      "title": "Both, either, neither",
+      "slices": [
+        {
+          "route": "cards_botheither",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_both_pairs",
+      "level": "B1",
+      "title": "Both … and, either … or",
+      "slices": [
+        {
+          "route": "cards_botheither",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_both_either"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_so_neither",
+      "level": "A2",
+      "title": "So do I, Neither do I",
+      "slices": [
+        {
+          "route": "cards_botheither",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_both_review",
+      "level": "B1",
+      "title": "Both, either, neither: проверка",
+      "slices": [
+        {
+          "route": "cards_botheither",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_both_pairs",
+        "a2_so_neither"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_greetings_hello",
+      "level": "A1",
+      "title": "Привет и пока",
+      "slices": [
+        {
+          "route": "cards_greetings",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a1_greetings_meet",
+      "level": "A1",
+      "title": "Знакомство",
+      "slices": [
+        {
+          "route": "cards_greetings",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_greetings_hello",
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_greetings_smalltalk",
+      "level": "A2",
+      "title": "Small talk",
+      "slices": [
+        {
+          "route": "cards_greetings",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_greetings_meet"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_greetings_phrases",
+      "level": "A1",
+      "title": "Фразы и диалог",
+      "slices": [
+        {
+          "route": "cards_greetings",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_greetings_meet"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_greetings_review",
+      "level": "A1",
+      "title": "Приветствия: проверка",
+      "slices": [
+        {
+          "route": "cards_greetings",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_greetings_meet"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_family_core",
+      "level": "A1",
+      "title": "Самые близкие",
+      "slices": [
+        {
+          "route": "cards_family",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a2_family_inlaws",
+      "level": "A2",
+      "title": "Родня по браку",
+      "slices": [
+        {
+          "route": "cards_family",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_family_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_family_relationships",
+      "level": "A2",
+      "title": "Отношения",
+      "slices": [
+        {
+          "route": "cards_family",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_family_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_family_phrases",
+      "level": "A1",
+      "title": "Семья в предложениях",
+      "slices": [
+        {
+          "route": "cards_family",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_family_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_family_review",
+      "level": "A1",
+      "title": "Семья: проверка",
+      "slices": [
+        {
+          "route": "cards_family",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_family_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_numbers_1_20",
+      "level": "A1",
+      "title": "Числа от 1 до 20",
+      "slices": [
+        {
+          "route": "cards_numbers",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a1_numbers_big",
+      "level": "A1",
+      "title": "Десятки, сотни, тысячи",
+      "slices": [
+        {
+          "route": "cards_numbers",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_numbers_1_20"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_numbers_ordinal",
+      "level": "A1",
+      "title": "Первый, второй, третий",
+      "slices": [
+        {
+          "route": "cards_numbers",
+          "revision": 1,
+          "slides": [
+            0,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_numbers_1_20"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_numbers_dates",
+      "level": "A2",
+      "title": "Даты, годы, дроби",
+      "slices": [
+        {
+          "route": "cards_numbers",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_numbers_ordinal",
+        "a1_numbers_big"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_numbers_review",
+      "level": "A2",
+      "title": "Числа: проверка",
+      "slices": [
+        {
+          "route": "cards_numbers",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_numbers_dates"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_past_meaning",
+      "level": "A1",
+      "title": "Что случилось: Past Simple",
+      "slices": [
+        {
+          "route": "cards_pastsimp",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_past_forms",
+      "level": "A1",
+      "title": "Didn't, did you…?, was / were",
+      "slices": [
+        {
+          "route": "cards_pastsimp",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_meaning",
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_past_ed",
+      "level": "A1",
+      "title": "Окончание -ed",
+      "slices": [
+        {
+          "route": "cards_pastsimp",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_past_irregular",
+      "level": "A1",
+      "title": "Неправильные глаголы",
+      "slices": [
+        {
+          "route": "cards_pastsimp",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_ed"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_past_review",
+      "level": "A1",
+      "title": "Past Simple: проверка",
+      "slices": [
+        {
+          "route": "cards_pastsimp",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_forms",
+        "a1_past_irregular"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_modals_rules",
+      "level": "A2",
+      "title": "Модальные: общие правила",
+      "slices": [
+        {
+          "route": "cards_modalverbs",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_modals_can",
+      "level": "A2",
+      "title": "Can, could, be able to",
+      "slices": [
+        {
+          "route": "cards_modalverbs",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_rules",
+        "a1_past_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_modals_may",
+      "level": "A2",
+      "title": "May и might",
+      "slices": [
+        {
+          "route": "cards_modalverbs",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_rules"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_modals_must",
+      "level": "A2",
+      "title": "Must, have to, mustn't",
+      "slices": [
+        {
+          "route": "cards_modalverbs",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_rules"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_modals_advice",
+      "level": "A2",
+      "title": "Should, had better, shall",
+      "slices": [
+        {
+          "route": "cards_modalverbs",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_rules"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_modals_past",
+      "level": "B1",
+      "title": "Must have, should have",
+      "slices": [
+        {
+          "route": "cards_modalverbs",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_must",
+        "a2_modals_may"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_modals_review",
+      "level": "A2",
+      "title": "Модальные: проверка",
+      "slices": [
+        {
+          "route": "cards_modalverbs",
+          "revision": 1,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_can",
+        "a2_modals_must",
+        "a2_modals_advice"
       ],
       "reviewed": false
     }
