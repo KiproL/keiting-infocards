@@ -23,7 +23,8 @@ keiting-infocards/
 ├── survey/              ← опрос при регистрации
 ├── exam/                ← экзаменационный лист
 ├── japanese/            ← всё для японского курса
-└── server/              ← адрес сервера ИИ
+├── server/              ← адрес сервера ИИ
+└── docs/editorial/      ← редакторские отчёты: PROGRESS.md, MIGRATIONS.md
 ```
 
 | Папка / файл | Что внутри | Где используется в приложении |
@@ -37,6 +38,7 @@ keiting-infocards/
 | `quotes/quotes.json` | цитаты дня с переводом и метками-темами | `QuoteRepository.kt` |
 | `texts/texts.json` | тексты 20–80 слов с переводом, словариком и вопросами | режим «Текст» |
 | `tree/course.json` | **текущий** курс «Древо познания» 3.0: главы и уроки | `TreeScreen`, `ContentPack.kt` |
+| `tree/curriculum.json` | черновой план курса: цели по навыкам (`outcomes`) и учебные части тем (`units`) со ссылками на route, редакцию и слайды. Все части пока `reviewed=false` | `CurriculumRepository`, пакет «Программа Древа» |
 | `tree/tree.json` | старый формат Древа (узлы с теорией). Текущее приложение его не читает, но в нём есть тексты, которые ещё нужно сверить (см. `docs/learning/CURRICULUM.md` в Keiting) | — |
 | `survey/survey.json` | вопросы опроса при регистрации по 6 уровням | `SurveyRepository.kt` |
 | `exam/exams.json` | варианты экзаменационного листа (ОГЭ, ЕГЭ) | `ExamRepository.kt` |

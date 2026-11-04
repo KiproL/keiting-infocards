@@ -1,0 +1,1397 @@
+{
+  "version": 1,
+  "language": "en",
+  "status": "draft",
+  "updated": "2026-11-04",
+  "note": "Авторская рабочая матрица, не исчерпывающая спецификация CEFR и не подтверждение готовности курса. Intro — внутренний вводный этап, не официальный уровень. Ссылки означают материал-кандидат, а не освоенный навык.",
+  "sources": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale/"
+  ],
+  "outcomes": [
+    {
+      "id": "intro_reading",
+      "level": "Intro",
+      "skill": "reading",
+      "goal": "Узнавать знакомые написанные слова и соотносить их с предметами.",
+      "materials": [
+        {
+          "route": "cards_alphabet",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_readingrules",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Выбрать предмет по знакомой подписи без озвучки и перевода.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "intro_listening",
+      "level": "Intro",
+      "skill": "listening",
+      "goal": "Различать на слух знакомые слова и короткие инструкции.",
+      "materials": [
+        {
+          "route": "cards_alphabet",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_readingrules",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Выбрать услышанное слово из контрастных вариантов без показанного текста.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны проверенные аудиоматериалы и задания без обязательного транскрипта.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "intro_writing",
+      "level": "Intro",
+      "skill": "writing",
+      "goal": "Записать своё имя и знакомые слова.",
+      "materials": [
+        {
+          "route": "cards_alphabet",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_spelling",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Заполнить простую анкету; отдельно учитывать копирование и самостоятельную запись.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Регистр и связность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "intro_speaking",
+      "level": "Intro",
+      "skill": "speaking",
+      "goal": "Назвать себя и знакомый предмет понятным собеседнику словом.",
+      "materials": [
+        {
+          "route": "cards_greetings",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "route": "cards_aboutme",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Записать короткий ответ без чтения готовой реплики; проверить понятность.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Понятность произношения и плавность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a1_reading",
+      "level": "A1",
+      "skill": "reading",
+      "goal": "Находить нужные сведения в короткой анкете, вывеске и сообщении.",
+      "materials": [
+        {
+          "route": "cards_aboutme",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_directions",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Ответить на вопросы по новому короткому тексту с указанием подтверждения.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a1_listening",
+      "level": "A1",
+      "skill": "listening",
+      "goal": "Понимать простые вопросы о себе и медленные бытовые инструкции.",
+      "materials": [
+        {
+          "route": "cards_aboutme",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_directions",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Понять новую аудиореплику без транскрипта; повторное прослушивание учитывать отдельно.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны проверенные аудиоматериалы и задания без обязательного транскрипта.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a1_writing",
+      "level": "A1",
+      "skill": "writing",
+      "goal": "Написать короткое сообщение о себе и договориться о простом действии.",
+      "materials": [
+        {
+          "route": "cards_aboutme",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_messaging",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Самостоятельно передать заданные сведения адресату без шаблона полного ответа.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Регистр и связность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a1_speaking",
+      "level": "A1",
+      "skill": "speaking",
+      "goal": "Представиться, задать простой вопрос и ответить на него.",
+      "materials": [
+        {
+          "route": "cards_greetings",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "route": "cards_aboutme",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_questions",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Пройти короткий обмен репликами с допустимой помощью собеседника.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Понятность произношения и плавность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a2_reading",
+      "level": "A2",
+      "skill": "reading",
+      "goal": "Понимать последовательность событий и детали короткого бытового текста.",
+      "materials": [
+        {
+          "route": "cards_story",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_travel",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [
+        "text_k_morning",
+        "text_k_language"
+      ],
+      "assessment": {
+        "status": "planned",
+        "criterion": "В новом тексте выделить событие, место и причину; объяснить ответ опорой на текст.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a2_listening",
+      "level": "A2",
+      "skill": "listening",
+      "goal": "Извлекать нужные сведения из короткого бытового диалога.",
+      "materials": [
+        {
+          "route": "cards_shopping",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "route": "cards_phonecalls",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "По аудиодиалогу выбрать время, цену или нужное действие без письменной подсказки.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны проверенные аудиоматериалы и задания без обязательного транскрипта.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a2_writing",
+      "level": "A2",
+      "skill": "writing",
+      "goal": "Написать связанное бытовое сообщение с причиной и просьбой.",
+      "materials": [
+        {
+          "route": "cards_messaging",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_notes",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Попросить об изменении плана и объяснить причину, сохраняя понятность и последовательность.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Регистр и связность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "a2_speaking",
+      "level": "A2",
+      "skill": "speaking",
+      "goal": "Обменяться сведениями в знакомой ситуации и описать свой день.",
+      "materials": [
+        {
+          "route": "cards_shopping",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "route": "cards_restaurant",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "route": "cards_story",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "В новой ситуации запросить недостающую информацию и ответить на уточнение.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Понятность произношения и плавность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b1_reading",
+      "level": "B1",
+      "skill": "reading",
+      "goal": "Понимать основные мысли, причины и ход событий в связном тексте.",
+      "materials": [
+        {
+          "route": "cards_story",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_connectors",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "text_ids": [
+        "text_k_rain",
+        "text_k_interview"
+      ],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Отделить основную мысль от детали и восстановить связи событий в незнакомом тексте.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b1_listening",
+      "level": "B1",
+      "skill": "listening",
+      "goal": "Понимать основное содержание ясной речи на знакомую тему.",
+      "materials": [
+        {
+          "route": "cards_phonecalls",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_connectedspeech",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Прослушать связный рассказ, выделить главную мысль и существенные детали.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны проверенные аудиоматериалы и задания без обязательного транскрипта.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b1_writing",
+      "level": "B1",
+      "skill": "writing",
+      "goal": "Создать связный рассказ и кратко обосновать своё мнение.",
+      "materials": [
+        {
+          "route": "cards_story",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_opinions",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "route": "cards_emails",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Написать собственный текст с последовательностью событий или мнением и причинами.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Регистр и связность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b1_speaking",
+      "level": "B1",
+      "skill": "speaking",
+      "goal": "Рассказать об опыте, объяснить план и справиться с уточняющими вопросами.",
+      "materials": [
+        {
+          "route": "cards_travel",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_opinions",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "route": "cards_clarifying",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Дать связный ответ и поддержать неподготовленный обмен репликами на знакомую тему.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Понятность произношения и плавность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b2_reading",
+      "level": "B2",
+      "skill": "reading",
+      "goal": "Понимать аргументацию и позицию автора в более сложном тексте.",
+      "materials": [
+        {
+          "route": "cards_contrastlinkers",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_essay",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "text_ids": [
+        "text_k_remote",
+        "text_k_phone"
+      ],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Сопоставить аргументы и контраргументы, отделив позицию автора от приведённого мнения.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b2_listening",
+      "level": "B2",
+      "skill": "listening",
+      "goal": "Следить за развёрнутым обсуждением и различать позиции участников.",
+      "materials": [
+        {
+          "route": "cards_connectedspeech",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "route": "cards_intonation",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_opinions",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "По новому обсуждению определить позиции, причины разногласий и вывод.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны проверенные аудиоматериалы и задания без обязательного транскрипта.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b2_writing",
+      "level": "B2",
+      "skill": "writing",
+      "goal": "Строить ясный подробный текст с аргументами и подходящим регистром.",
+      "materials": [
+        {
+          "route": "cards_essay",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "route": "cards_reviewcomplaint",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_formalinformal",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Написать адресный текст с аргументами за и против; оценить организацию и стиль.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Регистр и связность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "b2_speaking",
+      "level": "B2",
+      "skill": "speaking",
+      "goal": "Развивать аргумент и достаточно свободно участвовать в обсуждении.",
+      "materials": [
+        {
+          "route": "cards_opinions",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "route": "cards_clarifying",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_discoursemarkers",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Защитить позицию, ответить на возражение и уточнить чужой аргумент.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Понятность произношения и плавность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "c1_reading",
+      "level": "C1",
+      "skill": "reading",
+      "goal": "Понимать сложный развёрнутый текст, включая подтекст и оттенки позиции.",
+      "materials": [
+        {
+          "route": "cards_hedging",
+          "revision": 0,
+          "slides": [
+            0,
+            1
+          ]
+        },
+        {
+          "route": "cards_discoursemarkers",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_nominalisation",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [
+        "text_lincoln_gettysburg",
+        "text_wilde_preface"
+      ],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Сопоставить длинные источники, обосновать вывод о неявном смысле конкретными фрагментами.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Имеющиеся короткие отрывки не покрывают работу с длинными сложными текстами.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "c1_listening",
+      "level": "C1",
+      "skill": "listening",
+      "goal": "Понимать развёрнутую речь с неявными связями и отношением говорящего.",
+      "materials": [
+        {
+          "route": "cards_intonation",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_connectedspeech",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "route": "cards_hedging",
+          "revision": 0,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "По длинному новому аудиоматериалу восстановить ход мысли, отношение и скрытые связи.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Понимание смысла",
+          "Существенные детали",
+          "Обоснование ответа"
+        ]
+      },
+      "gaps": [
+        "Нужны проверенные аудиоматериалы и задания без обязательного транскрипта.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "c1_writing",
+      "level": "C1",
+      "skill": "writing",
+      "goal": "Гибко создавать точный, связный и хорошо организованный сложный текст.",
+      "materials": [
+        {
+          "route": "cards_essay",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "route": "cards_hedging",
+          "revision": 0,
+          "slides": [
+            0,
+            1
+          ]
+        },
+        {
+          "route": "cards_discoursemarkers",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Написать и отредактировать адресный аналитический текст по нескольким источникам.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Регистр и связность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    },
+    {
+      "id": "c1_speaking",
+      "level": "C1",
+      "skill": "speaking",
+      "goal": "Гибко и бегло выражать сложные мысли и управлять взаимодействием.",
+      "materials": [
+        {
+          "route": "cards_discoursemarkers",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "route": "cards_hedging",
+          "revision": 0,
+          "slides": [
+            0,
+            1
+          ]
+        },
+        {
+          "route": "cards_clarifying",
+          "revision": 0,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "text_ids": [],
+      "assessment": {
+        "status": "planned",
+        "criterion": "Обсудить сложную проблему, переформулировать мысль и отвечать на неожиданные вопросы.",
+        "independent": true,
+        "unseen_material": true,
+        "rubric": [
+          "Выполнение задачи",
+          "Понятность и организация",
+          "Лексика и грамматика",
+          "Понятность произношения и плавность"
+        ]
+      },
+      "gaps": [
+        "Нужны собственные ответы и проверенная оценка; выбор готовой реплики недостаточен.",
+        "Нужны независимая контрольная форма и методическая проверка покрытия."
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "a1_nouns_core",
+      "level": "A1",
+      "title": "Один предмет и несколько",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 2,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a1_article_introduction",
+      "level": "A1",
+      "title": "Как назвать один предмет",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_be_core",
+      "level": "A1",
+      "title": "Кто я и где я",
+      "slices": [
+        {
+          "route": "cards_presentsimp",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a1_simple_routines",
+      "level": "A1",
+      "title": "Факты и привычки",
+      "slices": [
+        {
+          "route": "cards_presentsimp",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_nouns_variants",
+      "level": "A1",
+      "title": "Особые формы и исчисляемость",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 2,
+          "slides": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_article_reference",
+      "level": "A1",
+      "title": "Тот самый предмет: the",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_introduction"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_article_zero",
+      "level": "A1",
+      "title": "Вообще и без артикля",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_introduction",
+        "a1_nouns_variants"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_article_choice",
+      "level": "A1",
+      "title": "Выбор артикля в одной ситуации",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_reference",
+        "a1_article_zero"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_article_superlative",
+      "level": "A2",
+      "title": "The best, the first",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_reference"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_article_institutions",
+      "level": "A2",
+      "title": "School, bed, bus: дело или место",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_zero"
+      ],
+      "reviewed": false
+    }
+  ]
+}
