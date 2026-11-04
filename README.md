@@ -43,6 +43,7 @@ keiting-infocards/
 | `japanese/cards/*pages.json` | 68 карточек японского курса (N5–N3, 4–8 слайдов, по образцу английских) (маршрут `cards_ja_hiragana1` → `japanese/cards/hiragana1pages.json`) | `CardRoutes.kt` |
 | `japanese/dictionary/words_<уровень>.json` | японские слова N5, N4, N3: запись, чтение каной и ромадзи, перевод, пример | словарь, «Мои слова», «Слово ↔ перевод», слово дня (переводятся в общий формат в `ContentStore`). Поле `sets` — связи как в английском: синонимы, антонимы, однокоренные |
 | `japanese/dictionary/phrases_<уровень>.json` | японские фразы N5, N4, N3 (тот же формат, id `phrase_ja_…`) | словарь (вкладка «Фразы»), «Мои фразы», фраза дня |
+| `japanese/sentences/sentences_<уровень>.json` | база японских предложений N5, N4, N3 (формат английской + `reading` «кана · ромадзи» и `chunks` — смысловые куски); у каждой — карточка и слайд | режимы «Частицы», «Сборка предложения», задания после слайдов |
 | `japanese/quotes/quotes.json` | японские пословицы и цитаты (текст, чтение, перевод) | `QuoteRepository.kt` |
 | `server/endpoint.json` | текущий адрес туннеля к Ollama и модель. Обновляется скриптом `tools/server/start-keiting.ps1` из Keiting | `AiEndpointStore.kt` |
 
