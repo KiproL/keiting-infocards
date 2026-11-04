@@ -160,7 +160,7 @@
         },
         {
           "route": "cards_aboutme",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             1,
@@ -195,7 +195,7 @@
       "materials": [
         {
           "route": "cards_aboutme",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             1,
@@ -239,7 +239,7 @@
       "materials": [
         {
           "route": "cards_aboutme",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             1,
@@ -284,7 +284,7 @@
       "materials": [
         {
           "route": "cards_aboutme",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             1,
@@ -341,7 +341,7 @@
         },
         {
           "route": "cards_aboutme",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             1,
@@ -351,7 +351,7 @@
         },
         {
           "route": "cards_questions",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -1586,7 +1586,8 @@
         }
       ],
       "prerequisites": [
-        "a1_article_reference"
+        "a1_article_reference",
+        "a2_comparisons_degrees"
       ],
       "reviewed": false
     },
@@ -1659,6 +1660,814 @@
       ],
       "prerequisites": [
         "a1_there_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_pronouns_personal",
+      "level": "A1",
+      "title": "I или me: личные местоимения",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a1_pronouns_possessive",
+      "level": "A1",
+      "title": "My или mine",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_pronouns_personal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_pronouns_demonstrative",
+      "level": "A1",
+      "title": "This, that, these, those",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_pronouns_questions",
+      "level": "A1",
+      "title": "Who, whose, what, which",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pronouns_reflexive",
+      "level": "A2",
+      "title": "Myself, yourself",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_pronouns_personal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pronouns_one",
+      "level": "A2",
+      "title": "One и ones",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            7
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_reference",
+        "a1_pronouns_demonstrative"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pronouns_review",
+      "level": "A2",
+      "title": "Местоимения: проверка",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            8
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_pronouns_possessive",
+        "a2_pronouns_reflexive"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_pronouns_relative",
+      "level": "B1",
+      "title": "Который: who, which, that",
+      "slices": [
+        {
+          "route": "cards_pronouns",
+          "revision": 1,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_pronouns_personal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_prep_place",
+      "level": "A1",
+      "title": "Где: in, on, at",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a1_prep_position",
+      "level": "A1",
+      "title": "Under, between, opposite",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_prep_place"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_prep_time",
+      "level": "A1",
+      "title": "Когда: at, on, in",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_prep_place"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_prep_direction",
+      "level": "A2",
+      "title": "Куда: to, into, across",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_prep_position"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_prep_review",
+      "level": "A2",
+      "title": "Предлоги: проверка",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_prep_time",
+        "a2_prep_direction"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_prep_verbs",
+      "level": "A2",
+      "title": "Глагол + предлог",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_prep_adjectives",
+      "level": "A2",
+      "title": "Прилагательное + предлог",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            7
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_prep_nouns",
+      "level": "B1",
+      "title": "Существительное + предлог",
+      "slices": [
+        {
+          "route": "cards_prepositions",
+          "revision": 2,
+          "slides": [
+            8
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_prep_verbs"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_aboutme_basics",
+      "level": "A1",
+      "title": "Кто я и откуда",
+      "slices": [
+        {
+          "route": "cards_aboutme",
+          "revision": 2,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_aboutme_interests",
+      "level": "A1",
+      "title": "Что я люблю",
+      "slices": [
+        {
+          "route": "cards_aboutme",
+          "revision": 2,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_aboutme_story",
+      "level": "A1",
+      "title": "Рассказ о себе",
+      "slices": [
+        {
+          "route": "cards_aboutme",
+          "revision": 2,
+          "slides": [
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_aboutme_basics",
+        "a1_aboutme_interests"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_cont_core",
+      "level": "A1",
+      "title": "Что происходит сейчас",
+      "slices": [
+        {
+          "route": "cards_presentcont",
+          "revision": 2,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_cont_spelling",
+      "level": "A1",
+      "title": "Как добавить -ing",
+      "slices": [
+        {
+          "route": "cards_presentcont",
+          "revision": 2,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_cont_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_cont_states",
+      "level": "A2",
+      "title": "Глаголы состояния",
+      "slices": [
+        {
+          "route": "cards_presentcont",
+          "revision": 2,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_cont_core",
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_cont_vs_simple",
+      "level": "A2",
+      "title": "Сейчас или обычно",
+      "slices": [
+        {
+          "route": "cards_presentcont",
+          "revision": 2,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_cont_core",
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_cont_review",
+      "level": "A2",
+      "title": "Present Continuous: проверка",
+      "slices": [
+        {
+          "route": "cards_presentcont",
+          "revision": 2,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_cont_spelling",
+        "a2_cont_states"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_comparisons_degrees",
+      "level": "A2",
+      "title": "Три степени: taller, the tallest",
+      "slices": [
+        {
+          "route": "cards_comparisons",
+          "revision": 2,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_reference"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_comparisons_long",
+      "level": "A2",
+      "title": "More и the most",
+      "slices": [
+        {
+          "route": "cards_comparisons",
+          "revision": 2,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_comparisons_degrees"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_comparisons_irregular",
+      "level": "A2",
+      "title": "Good, better, the best",
+      "slices": [
+        {
+          "route": "cards_comparisons",
+          "revision": 2,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_comparisons_degrees"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_comparisons_than",
+      "level": "A2",
+      "title": "Than и as … as",
+      "slices": [
+        {
+          "route": "cards_comparisons",
+          "revision": 2,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_comparisons_degrees"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_comparisons_review",
+      "level": "A2",
+      "title": "Сравнения: проверка",
+      "slices": [
+        {
+          "route": "cards_comparisons",
+          "revision": 2,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_comparisons_long",
+        "a2_comparisons_irregular",
+        "a2_comparisons_than"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_asas_core",
+      "level": "A2",
+      "title": "As … as: такой же, как",
+      "slices": [
+        {
+          "route": "cards_asas",
+          "revision": 2,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_comparisons_than"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_asas_review",
+      "level": "A2",
+      "title": "As … as: проверка",
+      "slices": [
+        {
+          "route": "cards_asas",
+          "revision": 2,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_asas_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_questions_yesno",
+      "level": "A1",
+      "title": "Вопрос «да или нет»",
+      "slices": [
+        {
+          "route": "cards_questions",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_questions_wh",
+      "level": "A1",
+      "title": "What, where, why",
+      "slices": [
+        {
+          "route": "cards_questions",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_questions_yesno"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_questions_choice",
+      "level": "A1",
+      "title": "Tea or coffee?",
+      "slices": [
+        {
+          "route": "cards_questions",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_questions_yesno"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_questions_subject",
+      "level": "A2",
+      "title": "Who called? — без do",
+      "slices": [
+        {
+          "route": "cards_questions",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_questions_wh"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_questions_tags",
+      "level": "A2",
+      "title": "Хвостики: don't you?",
+      "slices": [
+        {
+          "route": "cards_questions",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_questions_yesno"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_questions_tags_special",
+      "level": "B1",
+      "title": "Aren't I, shall we",
+      "slices": [
+        {
+          "route": "cards_questions",
+          "revision": 1,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_questions_tags"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_questions_review",
+      "level": "A2",
+      "title": "Вопросы: проверка",
+      "slices": [
+        {
+          "route": "cards_questions",
+          "revision": 1,
+          "slides": [
+            7
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_questions_wh",
+        "a2_questions_subject",
+        "a2_questions_tags"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_det_some_any",
+      "level": "A1",
+      "title": "Some и any",
+      "slices": [
+        {
+          "route": "cards_determinants",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_det_negation",
+      "level": "A2",
+      "title": "No, none, not any",
+      "slices": [
+        {
+          "route": "cards_determinants",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_det_some_any"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_det_compounds",
+      "level": "A2",
+      "title": "Somebody, anything, nowhere",
+      "slices": [
+        {
+          "route": "cards_determinants",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_det_negation"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_det_every_each",
+      "level": "A2",
+      "title": "Every, each, all",
+      "slices": [
+        {
+          "route": "cards_determinants",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_det_many_much",
+      "level": "A2",
+      "title": "Many, much, a lot of",
+      "slices": [
+        {
+          "route": "cards_determinants",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_nouns_uncountable"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_det_review",
+      "level": "A2",
+      "title": "Слова количества: проверка",
+      "slices": [
+        {
+          "route": "cards_determinants",
+          "revision": 1,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_det_compounds",
+        "a2_det_every_each",
+        "a2_det_many_much"
       ],
       "reviewed": false
     }
