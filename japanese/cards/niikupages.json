@@ -1,0 +1,216 @@
+{
+ "tenseName": "Пойти что-то сделать: ～に行く",
+ "route": "cards_ja_niiku",
+ "slides": [
+  {
+   "label": "Цель движения",
+   "intro": {
+    "text": "По-русски «пойти поесть», «приехать учиться». В японском: основа глагола (как в ます без ます) + に + глагол движения.",
+    "highlights": [
+     {
+      "text": "основа глагола",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "に",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "глагол движения",
+      "color": "example",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Схема",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "食べ",
+        "color": "term"
+       },
+       {
+        "text": "+",
+        "color": "muted"
+       },
+       {
+        "text": "に",
+        "color": "info"
+       },
+       {
+        "text": "+",
+        "color": "muted"
+       },
+       {
+        "text": "行きます",
+        "color": "example"
+       }
+      ],
+      "accentColor": "term"
+     },
+     "examples": [
+      {
+       "en": "昼ご飯を 食べに 行きます。",
+       "reading": "ひるごはんを たべに いきます。 · hirugohan o tabe ni ikimasu",
+       "ru": "Иду пообедать."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Как получить основу",
+   "intro": {
+    "text": "Берём ます-форму и отрезаем ます: 見ます → 見, 買います → 買い, します → し.",
+    "highlights": [
+     {
+      "text": "отрезаем ます",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Основа + に",
+     "transforms": [
+      {
+       "from": "見ます",
+       "to": "見に 行く",
+       "toColor": "term"
+      },
+      {
+       "from": "買います",
+       "to": "買いに 行く",
+       "toColor": "term"
+      },
+      {
+       "from": "遊びます",
+       "to": "遊びに 来る",
+       "toColor": "term"
+      },
+      {
+       "from": "勉強します",
+       "to": "勉強しに 帰る",
+       "toColor": "term"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Три глагола",
+   "intro": {
+    "text": "Так говорят с 行く (идти туда), 来る (приходить сюда), 帰る (возвращаться).",
+    "highlights": [
+     {
+      "text": "行く",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "来る",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "帰る",
+      "color": "example",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "友達が 遊びに 来ました。",
+       "reading": "ともだちが あそびに きました。 · tomodachi ga asobi ni kimashita",
+       "ru": "Друг пришёл в гости (поиграть)."
+      },
+      {
+       "en": "日本へ 日本語を 勉強しに 来ました。",
+       "reading": "にほんへ にほんごを べんきょうしに きました。 · nihon e nihongo o benkyō shi ni kimashita",
+       "ru": "Я приехал в Японию изучать японский."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "С существительным",
+   "intro": {
+    "text": "Если действие выражено существительным (買い物, 散歩), можно сразу «существительное + に».",
+    "highlights": [
+     {
+      "text": "существительное + に",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "デパートへ 買い物に 行きます。",
+       "reading": "デパートへ かいものに いきます。 · depāto e kaimono ni ikimasu",
+       "ru": "Иду за покупками в универмаг."
+      },
+      {
+       "en": "公園へ 散歩に 行きましょう。",
+       "reading": "こうえんへ さんぽに いきましょう。 · kōen e sanpo ni ikimashō",
+       "ru": "Пойдём гулять в парк."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "食べるに 行く",
+       "right": "食べに 行く — основа, а не словарная форма"
+      },
+      {
+       "wrong": "食べに 飲む",
+       "right": "только с глаголами движения: 行く・来る・帰る"
+      },
+      {
+       "wrong": "見に 行きに",
+       "right": "одно に после основы"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "основа + に + 行く/来る/帰る = «пойти сделать».",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}

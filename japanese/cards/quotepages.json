@@ -1,0 +1,204 @@
+{
+ "tenseName": "Я думаю, он сказал: ～と思う・～と言う",
+ "route": "cards_ja_quote",
+ "slides": [
+  {
+   "label": "Чужие слова и мысли",
+   "intro": {
+    "text": "«Думаю, что…», «говорит, что…» строятся одинаково: предложение в простой форме + と + 思う / 言う. と здесь — как наше «что».",
+    "highlights": [
+     {
+      "text": "простой форме",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "と",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "«что»",
+      "color": "example",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Схема",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "предложение (простая форма)",
+        "color": "info"
+       },
+       {
+        "text": "+",
+        "color": "muted"
+       },
+       {
+        "text": "と",
+        "color": "term"
+       },
+       {
+        "text": "+",
+        "color": "muted"
+       },
+       {
+        "text": "思います / 言いました",
+        "color": "example"
+       }
+      ],
+      "accentColor": "term"
+     },
+     "examples": [
+      {
+       "en": "明日は 雨だと 思います。",
+       "reading": "あしたは あめだと おもいます。 · ashita wa ame da to omoimasu",
+       "ru": "Думаю, завтра будет дождь."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "～と思う — «думаю»",
+   "intro": {
+    "text": "Японцы часто смягчают свои слова через と思います — даже там, где русский скажет прямо.",
+    "highlights": [
+     {
+      "text": "смягчают",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "この 本は 面白いと 思います。",
+       "reading": "この ほんは おもしろいと おもいます。 · kono hon wa omoshiroi to omoimasu",
+       "ru": "По-моему, эта книга интересная."
+      },
+      {
+       "en": "田中さんは 来ないと 思います。",
+       "reading": "たなかさんは こないと おもいます。 · tanaka-san wa konai to omoimasu",
+       "ru": "Думаю, Танака не придёт."
+      }
+     ]
+    },
+    {
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "warning",
+      "text": "Существительное и な-прилагательное перед と получают だ: 雨だと, 静かだと.",
+      "title": "Не забудь だ"
+     }
+    }
+   ]
+  },
+  {
+   "label": "～と言う — «сказал»",
+   "intro": {
+    "text": "Передать чужие слова: «кто は ～と 言いました». Дословную цитату берут в 「」.",
+    "highlights": [
+     {
+      "text": "と 言いました",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "「」",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "先生は 明日 テストが あると 言いました。",
+       "reading": "せんせいは あした テストが あると いいました。 · sensei wa ashita tesuto ga aru to iimashita",
+       "ru": "Учитель сказал, что завтра тест."
+      },
+      {
+       "en": "彼は 「ありがとう」と 言いました。",
+       "reading": "かれは 「ありがとう」と いいました。 · kare wa \"arigatō\" to iimashita",
+       "ru": "Он сказал «спасибо»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "～という — «под названием»",
+   "intro": {
+    "text": "という между словами значит «под названием», «так называемый».",
+    "highlights": [
+     {
+      "text": "という",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "「さくら」という 店を 知って いますか。",
+       "reading": "「さくら」という みせを しって いますか。 · \"sakura\" to iu mise o shitte imasu ka",
+       "ru": "Знаете кафе под названием «Сакура»?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "雨と 思います",
+       "right": "雨だと 思います — нужно だ"
+      },
+      {
+       "wrong": "面白いですと 思います",
+       "right": "面白いと 思います — внутри простая форма"
+      },
+      {
+       "wrong": "言いましたと",
+       "right": "と 言いました — と перед глаголом"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "простая форма + と + 思う / 言う.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
+}
