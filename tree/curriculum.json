@@ -3901,6 +3901,765 @@
         "a2_jobs_practice"
       ],
       "reviewed": false
+    },
+    {
+      "id": "a1_appearance_looks",
+      "level": "A1",
+      "title": "Рост, волосы, лицо",
+      "slices": [
+        {
+          "route": "cards_appearance",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_havegot_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_appearance_order",
+      "level": "A2",
+      "title": "Long dark hair: порядок",
+      "slices": [
+        {
+          "route": "cards_appearance",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_appearance_looks"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_character",
+      "level": "A1",
+      "title": "Черты характера",
+      "slices": [
+        {
+          "route": "cards_appearance",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_like_looklike",
+      "level": "A2",
+      "title": "Like или look like",
+      "slices": [
+        {
+          "route": "cards_appearance",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_appearance_looks",
+        "a1_character",
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_appearance_practice",
+      "level": "A2",
+      "title": "Внешность в речи",
+      "slices": [
+        {
+          "route": "cards_appearance",
+          "revision": 1,
+          "slides": [
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_like_looklike"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_appearance_review",
+      "level": "A2",
+      "title": "Внешность: проверка",
+      "slices": [
+        {
+          "route": "cards_appearance",
+          "revision": 1,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_appearance_practice",
+        "a2_appearance_order"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_body_parts",
+      "level": "A1",
+      "title": "Части тела",
+      "slices": [
+        {
+          "route": "cards_body",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_body_ache",
+      "level": "A1",
+      "title": "Что болит",
+      "slices": [
+        {
+          "route": "cards_body",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_body_parts",
+        "a1_havegot_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_body_habits",
+      "level": "A2",
+      "title": "Здоровые привычки",
+      "slices": [
+        {
+          "route": "cards_body",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_body_ache"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_body_practice",
+      "level": "A1",
+      "title": "Здоровье в речи",
+      "slices": [
+        {
+          "route": "cards_body",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_body_ache"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_body_review",
+      "level": "A1",
+      "title": "Здоровье: проверка",
+      "slices": [
+        {
+          "route": "cards_body",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_body_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_clothes_words",
+      "level": "A1",
+      "title": "Одежда",
+      "slices": [
+        {
+          "route": "cards_clothes",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_clothes_accessories",
+      "level": "A1",
+      "title": "Обувь и аксессуары",
+      "slices": [
+        {
+          "route": "cards_clothes",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_clothes_words"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_clothes_verbs",
+      "level": "A2",
+      "title": "Put on, wear, fit",
+      "slices": [
+        {
+          "route": "cards_clothes",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_clothes_words",
+        "a1_cont_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_clothes_practice",
+      "level": "A2",
+      "title": "Одежда в речи",
+      "slices": [
+        {
+          "route": "cards_clothes",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_clothes_verbs"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_clothes_review",
+      "level": "A2",
+      "title": "Одежда: проверка",
+      "slices": [
+        {
+          "route": "cards_clothes",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_clothes_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_home_rooms",
+      "level": "A1",
+      "title": "Комнаты и этажи",
+      "slices": [
+        {
+          "route": "cards_home",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_there_core",
+        "a1_numbers_ordinal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_home_furniture",
+      "level": "A1",
+      "title": "Мебель и техника",
+      "slices": [
+        {
+          "route": "cards_home",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_home_rooms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_home_chores",
+      "level": "A2",
+      "title": "Дела по дому",
+      "slices": [
+        {
+          "route": "cards_home",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_home_furniture"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_home_practice",
+      "level": "A1",
+      "title": "Дом в речи",
+      "slices": [
+        {
+          "route": "cards_home",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_home_furniture"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_home_review",
+      "level": "A2",
+      "title": "Дом: проверка",
+      "slices": [
+        {
+          "route": "cards_home",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_home_practice",
+        "a2_home_chores"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_hobbies_ing",
+      "level": "A1",
+      "title": "Хобби на -ing",
+      "slices": [
+        {
+          "route": "cards_hobbies",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_hobbies_play_go_do",
+      "level": "A1",
+      "title": "Play, go или do",
+      "slices": [
+        {
+          "route": "cards_hobbies",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_hobbies_ing"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_hobbies_talk",
+      "level": "A2",
+      "title": "Рассказ о хобби",
+      "slices": [
+        {
+          "route": "cards_hobbies",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_hobbies_play_go_do"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_hobbies_practice",
+      "level": "A1",
+      "title": "Хобби в речи",
+      "slices": [
+        {
+          "route": "cards_hobbies",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_hobbies_play_go_do"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_hobbies_review",
+      "level": "A2",
+      "title": "Хобби: проверка",
+      "slices": [
+        {
+          "route": "cards_hobbies",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_hobbies_practice",
+        "a2_hobbies_talk"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_emotions_words",
+      "level": "A1",
+      "title": "Как назвать чувство",
+      "slices": [
+        {
+          "route": "cards_emotions",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_emotions_prep",
+      "level": "A2",
+      "title": "Чувство + предлог",
+      "slices": [
+        {
+          "route": "cards_emotions",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_emotions_words",
+        "a1_prep_place"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_emotions_ed_ing",
+      "level": "A2",
+      "title": "Bored или boring",
+      "slices": [
+        {
+          "route": "cards_emotions",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_emotions_words"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_emotions_practice",
+      "level": "A2",
+      "title": "Чувства в речи",
+      "slices": [
+        {
+          "route": "cards_emotions",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_emotions_prep",
+        "a2_emotions_ed_ing"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_emotions_review",
+      "level": "A2",
+      "title": "Чувства: проверка",
+      "slices": [
+        {
+          "route": "cards_emotions",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_emotions_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_study_words",
+      "level": "A1",
+      "title": "Школа и университет",
+      "slices": [
+        {
+          "route": "cards_study",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_study_verbs",
+      "level": "A2",
+      "title": "Take или pass",
+      "slices": [
+        {
+          "route": "cards_study",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_study_words",
+        "a1_past_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_study_classroom",
+      "level": "A1",
+      "title": "Фразы на занятии",
+      "slices": [
+        {
+          "route": "cards_study",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_questions_yesno"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_study_practice",
+      "level": "A2",
+      "title": "Учёба в речи",
+      "slices": [
+        {
+          "route": "cards_study",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_study_verbs",
+        "a1_study_classroom"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_study_review",
+      "level": "A2",
+      "title": "Учёба: проверка",
+      "slices": [
+        {
+          "route": "cards_study",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_study_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_tech_words",
+      "level": "A1",
+      "title": "Телефон и компьютер",
+      "slices": [
+        {
+          "route": "cards_technology",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_tech_verbs",
+      "level": "A2",
+      "title": "Download или upload",
+      "slices": [
+        {
+          "route": "cards_technology",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_tech_words",
+        "a1_imperative_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_tech_problems",
+      "level": "A2",
+      "title": "Если не работает",
+      "slices": [
+        {
+          "route": "cards_technology",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_tech_verbs"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_tech_practice",
+      "level": "A2",
+      "title": "Техника в речи",
+      "slices": [
+        {
+          "route": "cards_technology",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_tech_problems"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_tech_review",
+      "level": "A2",
+      "title": "Техника: проверка",
+      "slices": [
+        {
+          "route": "cards_technology",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_tech_practice"
+      ],
+      "reviewed": false
     }
   ]
 }
