@@ -41,7 +41,8 @@ keiting-infocards/
 | `survey/survey.json` | вопросы опроса при регистрации по 6 уровням | `SurveyRepository.kt` |
 | `exam/exams.json` | варианты экзаменационного листа (ОГЭ, ЕГЭ) | `ExamRepository.kt` |
 | `japanese/cards/*pages.json` | карточки японского курса (маршрут `cards_ja_hiragana1` → `japanese/cards/hiragana1pages.json`) | `CardRoutes.kt` |
-| `japanese/dictionary/words_n5.json` | японский словарь уровня N5 | японский словарь, слово дня |
+| `japanese/dictionary/words_<уровень>.json` | японские слова N5, N4: запись, чтение каной и ромадзи, перевод, пример | словарь, «Мои слова», «Слово ↔ перевод», слово дня (переводятся в общий формат в `ContentStore`) |
+| `japanese/dictionary/phrases_<уровень>.json` | японские фразы N5, N4 (тот же формат, id `phrase_ja_…`) | словарь (вкладка «Фразы»), «Мои фразы», фраза дня |
 | `japanese/quotes/quotes.json` | японские пословицы и цитаты (текст, чтение, перевод) | `QuoteRepository.kt` |
 | `server/endpoint.json` | текущий адрес туннеля к Ollama и модель. Обновляется скриптом `tools/server/start-keiting.ps1` из Keiting | `AiEndpointStore.kt` |
 
