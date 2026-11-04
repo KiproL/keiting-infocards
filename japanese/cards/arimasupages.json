@@ -1,171 +1,279 @@
 {
-  "tenseName": "Есть: あります и います",
-  "route": "cards_ja_arimasu",
-  "slides": [
+ "tenseName": "Есть: あります и います",
+ "route": "cards_ja_arimasu",
+ "slides": [
+  {
+   "label": "Живое и неживое",
+   "intro": {
+    "text": "«Есть, находится» по-японски — два глагола: あります для неживого, います для людей и животных.",
+    "highlights": [
+     {
+      "text": "あります",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "います",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
     {
-      "label": "Живое и неживое",
-      "intro": {
-        "text": "«Есть, находится» по-японски два глагола: あります — для вещей и растений, います — для людей и животных.",
-        "highlights": [
-          {
-            "text": "あります",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "います",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "つくえが あります。",
+       "reading": "tsukue ga arimasu",
+       "ru": "Есть стол."
       },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "つくえの うえに ほんが あります。",
-              "reading": "tsukue no ue ni hon ga arimasu",
-              "ru": "На столе лежит книга."
-            },
-            {
-              "en": "こうえんに こどもが います。",
-              "reading": "kōen ni kodomo ga imasu",
-              "ru": "В парке дети."
-            },
-            {
-              "en": "ねこが いますか。",
-              "reading": "neko ga imasu ka",
-              "ru": "У вас есть кошка?"
-            },
-            {
-              "en": "へやに テレビが ありません。",
-              "reading": "heya ni terebi ga arimasen",
-              "ru": "В комнате нет телевизора."
-            }
-          ]
-        }
-      ]
+      {
+       "en": "ねこが います。",
+       "reading": "neko ga imasu",
+       "ru": "Есть кошка."
+      }
+     ]
     },
     {
-      "label": "Где что",
-      "intro": {
-        "text": "Схема: место に предмет が あります / います. Место уточняют словами «на, под, в»: つくえの うえ — «на столе», дословно «стола верх».",
-        "highlights": [
-          {
-            "text": "место に предмет が",
-            "color": "term",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Как строится",
-          "formulaCard": {
-            "parts": [
-              {
-                "text": "место",
-                "color": "info"
-              },
-              {
-                "text": "に",
-                "color": "term"
-              },
-              {
-                "text": "предмет",
-                "color": "example"
-              },
-              {
-                "text": "が",
-                "color": "term"
-              },
-              {
-                "text": "あります / います",
-                "color": "term"
-              }
-            ]
-          }
-        },
-        {
-          "title": "Слова места",
-          "verbGrid": {
-            "verbs": [
-              "うえ — на, сверху",
-              "した — под",
-              "なか — внутри",
-              "まえ — перед",
-              "うしろ — сзади",
-              "となり — рядом",
-              "よこ — сбоку",
-              "ちかく — поблизости"
-            ]
-          }
-        },
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "はこの なかに ねこが います。",
-              "reading": "hako no naka ni neko ga imasu",
-              "ru": "В коробке кошка."
-            },
-            {
-              "en": "えきの まえに コンビニが あります。",
-              "reading": "eki no mae ni konbini ga arimasu",
-              "ru": "Перед станцией есть магазин."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "У меня есть",
-      "intro": {
-        "text": "«У меня есть» тоже говорят через あります / います: わたしは くるまが あります — «у меня есть машина».",
-        "highlights": [
-          {
-            "text": "あります / います",
-            "color": "term",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "わたしは くるまが あります。",
-              "reading": "watashi wa kuruma ga arimasu",
-              "ru": "У меня есть машина."
-            },
-            {
-              "en": "あには いますか。",
-              "reading": "ani wa imasu ka",
-              "ru": "У тебя есть старший брат?"
-            },
-            {
-              "en": "じかんが ありません。",
-              "reading": "jikan ga arimasen",
-              "ru": "Нет времени."
-            }
-          ]
-        },
-        {
-          "title": "Живое или нет",
-          "errors": [
-            {
-              "wrong": "ねこが あります。",
-              "right": "ねこが います。"
-            },
-            {
-              "wrong": "ほんが います。",
-              "right": "ほんが あります。"
-            }
-          ]
-        }
-      ]
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "tip",
+      "text": "Растения — неживые для грамматики: 木が あります."
+     }
     }
-  ]
+   ]
+  },
+  {
+   "label": "Где что",
+   "intro": {
+    "text": "Место + に + предмет + が + あります/います — «где-то есть что-то».",
+    "highlights": [
+     {
+      "text": "Место + に",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Где есть",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "место",
+        "color": "info"
+       },
+       {
+        "text": "に",
+        "color": "term"
+       },
+       {
+        "text": "предмет",
+        "color": "example"
+       },
+       {
+        "text": "が",
+        "color": "term"
+       },
+       {
+        "text": "あります / います",
+        "color": "info"
+       }
+      ],
+      "accentColor": "term"
+     },
+     "examples": [
+      {
+       "en": "部屋に テレビが あります。",
+       "reading": "へやに テレビが あります。 · heya ni terebi ga arimasu",
+       "ru": "В комнате есть телевизор."
+      },
+      {
+       "en": "公園に 子どもが います。",
+       "reading": "こうえんに こどもが います。 · kōen ni kodomo ga imasu",
+       "ru": "В парке дети."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Что где",
+   "intro": {
+    "text": "Если предмет известен — наоборот: предмет は место に あります.",
+    "highlights": [
+     {
+      "text": "наоборот",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "本は つくえの 上に あります。",
+       "reading": "ほんは つくえの うえに あります。 · hon wa tsukue no ue ni arimasu",
+       "ru": "Книга на столе."
+      },
+      {
+       "en": "田中さんは 会社に います。",
+       "reading": "たなかさんは かいしゃに います。 · tanaka-san wa kaisha ni imasu",
+       "ru": "Танака на работе."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Слова места",
+   "intro": {
+    "text": "Положение: X の 上 (на), 下 (под), 中 (в), 前 (перед), 後ろ (за), 隣 (рядом).",
+    "highlights": [
+     {
+      "text": "X の 上",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Положение",
+     "table": {
+      "headers": [
+       "Слово",
+       "Чтение",
+       "Значение"
+      ],
+      "rows": [
+       {
+        "cells": [
+         "上",
+         "うえ",
+         "на, над"
+        ]
+       },
+       {
+        "cells": [
+         "下",
+         "した",
+         "под"
+        ]
+       },
+       {
+        "cells": [
+         "中",
+         "なか",
+         "внутри"
+        ]
+       },
+       {
+        "cells": [
+         "前",
+         "まえ",
+         "перед"
+        ]
+       },
+       {
+        "cells": [
+         "後ろ",
+         "うしろ",
+         "за, позади"
+        ]
+       },
+       {
+        "cells": [
+         "隣",
+         "となり",
+         "рядом"
+        ]
+       },
+       {
+        "cells": [
+         "間",
+         "あいだ",
+         "между"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "label": "У меня есть",
+   "intro": {
+    "text": "«У меня есть» — тоже あります/います: 私は 兄が います.",
+    "highlights": [
+     {
+      "text": "あります/います",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "私は 兄が います。",
+       "reading": "わたしは あにが います。 · watashi wa ani ga imasu",
+       "ru": "У меня есть старший брат."
+      },
+      {
+       "en": "時間が ありません。",
+       "reading": "じかんが ありません。 · jikan ga arimasen",
+       "ru": "Нет времени."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "ねこが あります",
+       "right": "ねこが います — животное"
+      },
+      {
+       "wrong": "部屋で テレビが あります",
+       "right": "部屋に — местонахождение"
+      },
+      {
+       "wrong": "車を あります",
+       "right": "車が あります"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "Живое — います, неживое — あります. Где — に.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
 }

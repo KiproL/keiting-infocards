@@ -1,210 +1,264 @@
 {
-  "tenseName": "Частицы を・に・へ・で・と",
-  "route": "cards_ja_particles2",
-  "slides": [
+ "tenseName": "Частицы を・に・へ・で・と",
+ "route": "cards_ja_particles2",
+ "slides": [
+  {
+   "label": "を — что делаю",
+   "intro": {
+    "text": "を отмечает объект действия — то, что едят, видят, покупают. Читается «о».",
+    "highlights": [
+     {
+      "text": "を",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "объект действия",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
     {
-      "label": "を — что делаю",
-      "intro": {
-        "text": "を (читается «о») отмечает предмет действия: что ем, что пью, что смотрю.",
-        "highlights": [
-          {
-            "text": "を",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "«о»",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "パンを 食べます。",
+       "reading": "パンを たべます。 · pan o tabemasu",
+       "ru": "Ем хлеб."
       },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "パンを たべます。",
-              "reading": "pan o tabemasu",
-              "ru": "Ем хлеб."
-            },
-            {
-              "en": "みずを のみます。",
-              "reading": "mizu o nomimasu",
-              "ru": "Пью воду."
-            },
-            {
-              "en": "えいがを みます。",
-              "reading": "eiga o mimasu",
-              "ru": "Смотрю фильм."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "に и へ — куда, когда",
-      "intro": {
-        "text": "に — точка: время (в 7 часов), место, где что-то находится, и цель движения. へ (читается «э») — направление «в сторону».",
-        "highlights": [
-          {
-            "text": "に",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "へ",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "しちじに おきます。",
-              "reading": "shichiji ni okimasu",
-              "ru": "Встаю в 7 часов."
-            },
-            {
-              "en": "がっこうに いきます。",
-              "reading": "gakkō ni ikimasu",
-              "ru": "Иду в школу."
-            },
-            {
-              "en": "にほんへ いきます。",
-              "reading": "nihon e ikimasu",
-              "ru": "Еду в Японию."
-            },
-            {
-              "en": "ともだちに あいます。",
-              "reading": "tomodachi ni aimasu",
-              "ru": "Встречаюсь с другом."
-            }
-          ]
-        },
-        {
-          "title": "に или へ",
-          "callout": {
-            "type": "info",
-            "text": "С いきます, きます, かえります можно и に, и へ — разница минимальная. へ подчёркивает направление."
-          }
-        }
-      ]
-    },
-    {
-      "label": "で — где и чем",
-      "intro": {
-        "text": "で — место, где происходит действие, и способ: на чём, чем, на каком языке.",
-        "highlights": [
-          {
-            "text": "где происходит действие",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "способ",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "うちで たべます。",
-              "reading": "uchi de tabemasu",
-              "ru": "Ем дома."
-            },
-            {
-              "en": "としょかんで べんきょうします。",
-              "reading": "toshokan de benkyō shimasu",
-              "ru": "Занимаюсь в библиотеке."
-            },
-            {
-              "en": "バスで いきます。",
-              "reading": "basu de ikimasu",
-              "ru": "Еду на автобусе."
-            },
-            {
-              "en": "はしで たべます。",
-              "reading": "hashi de tabemasu",
-              "ru": "Ем палочками."
-            },
-            {
-              "en": "にほんごで はなします。",
-              "reading": "nihongo de hanashimasu",
-              "ru": "Говорю по-японски."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "と, から, まで",
-      "intro": {
-        "text": "と — «и» в перечислении и «вместе с». から — «от, из», まで — «до».",
-        "highlights": [
-          {
-            "text": "と",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "から",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "まで",
-            "color": "example",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "パンと ミルクを かいます。",
-              "reading": "pan to miruku o kaimasu",
-              "ru": "Покупаю хлеб и молоко."
-            },
-            {
-              "en": "ともだちと いきます。",
-              "reading": "tomodachi to ikimasu",
-              "ru": "Иду с другом."
-            },
-            {
-              "en": "くじから ごじまで はたらきます。",
-              "reading": "kuji kara goji made hatarakimasu",
-              "ru": "Работаю с 9 до 5."
-            }
-          ]
-        },
-        {
-          "title": "Частые ошибки",
-          "errors": [
-            {
-              "wrong": "こうえんに あそびます。",
-              "right": "こうえんで あそびます。"
-            },
-            {
-              "wrong": "バスに いきます。",
-              "right": "バスで いきます。"
-            },
-            {
-              "wrong": "パンに たべます。",
-              "right": "パンを たべます。"
-            }
-          ]
-        }
-      ]
+      {
+       "en": "テレビを 見ます。",
+       "reading": "テレビを みます。 · terebi o mimasu",
+       "ru": "Смотрю телевизор."
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "label": "に и へ — куда, когда",
+   "intro": {
+    "text": "に — точка: куда, когда, к кому. へ — направление «в сторону». Для «куда» подходят обе.",
+    "highlights": [
+     {
+      "text": "に — точка",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "へ — направление",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "学校に 行きます。",
+       "reading": "がっこうに いきます。 · gakkō ni ikimasu",
+       "ru": "Иду в школу."
+      },
+      {
+       "en": "七時に 起きます。",
+       "reading": "しちじに おきます。 · shichiji ni okimasu",
+       "ru": "Встаю в 7."
+      },
+      {
+       "en": "友達に 電話します。",
+       "reading": "ともだちに でんわします。 · tomodachi ni denwa shimasu",
+       "ru": "Звоню другу."
+      }
+     ]
+    },
+    {
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "warning",
+      "text": "へ как частица читается «э»."
+     }
+    }
+   ]
+  },
+  {
+   "label": "で — где и чем",
+   "intro": {
+    "text": "で — место действия («где делаю») и средство («чем, на чём»).",
+    "highlights": [
+     {
+      "text": "место действия",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "средство",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "図書館で 勉強します。",
+       "reading": "としょかんで べんきょうします。 · toshokan de benkyō shimasu",
+       "ru": "Занимаюсь в библиотеке."
+      },
+      {
+       "en": "バスで 行きます。",
+       "reading": "バスで いきます。 · basu de ikimasu",
+       "ru": "Еду на автобусе."
+      },
+      {
+       "en": "はしで 食べます。",
+       "reading": "はしで たべます。 · hashi de tabemasu",
+       "ru": "Ем палочками."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "に или で",
+   "intro": {
+    "text": "に — где что-то находится или куда движется; で — где что-то происходит.",
+    "highlights": [
+     {
+      "text": "に",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "で",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Сравни",
+     "table": {
+      "headers": [
+       "に",
+       "で"
+      ],
+      "rows": [
+       {
+        "cells": [
+         "部屋に います — нахожусь в комнате",
+         "部屋で 寝ます — сплю в комнате"
+        ]
+       },
+       {
+        "cells": [
+         "東京に 住んでいます — живу в Токио",
+         "東京で 働きます — работаю в Токио"
+        ]
+       }
+      ],
+      "headerColors": [
+       "term",
+       "info"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "label": "と, から, まで",
+   "intro": {
+    "text": "と — «с кем» и «и» между словами; から — «от, из»; まで — «до».",
+    "highlights": [
+     {
+      "text": "と",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "から",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "まで",
+      "color": "example",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "友達と 行きます。",
+       "reading": "ともだちと いきます。 · tomodachi to ikimasu",
+       "ru": "Иду с другом."
+      },
+      {
+       "en": "パンと 牛乳",
+       "reading": "パンと ぎゅうにゅう · pan to gyūnyū",
+       "ru": "хлеб и молоко"
+      },
+      {
+       "en": "九時から 五時まで",
+       "reading": "くじから ごじまで · kuji kara goji made",
+       "ru": "с 9 до 5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "図書館に 勉強します",
+       "right": "図書館で — действие происходит там"
+      },
+      {
+       "wrong": "部屋で います",
+       "right": "部屋に います — нахождение"
+      },
+      {
+       "wrong": "バスに 行きます (на автобусе)",
+       "right": "バスで 行きます"
+      },
+      {
+       "wrong": "パンお 食べます",
+       "right": "パンを — пишется を"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "を — что, に — куда/когда, で — где делаю/чем, と — с кем.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
 }

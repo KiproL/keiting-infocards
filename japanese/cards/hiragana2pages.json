@@ -1,249 +1,343 @@
 {
-  "tenseName": "Хирагана: Т, Н и Х",
-  "route": "cards_ja_hiragana2",
-  "slides": [
+ "tenseName": "Хирагана: Т, Н и Х",
+ "route": "cards_ja_hiragana2",
+ "slides": [
+  {
+   "label": "Ряд Т",
+   "intro": {
+    "text": "Ряд Т: た, ち, つ, て, と. Два знака звучат по-особому: ち — «ти», つ — «цу».",
+    "highlights": [
+     {
+      "text": "Ряд Т",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "ち — «ти»",
+      "color": "bad",
+      "style": "bold"
+     },
+     {
+      "text": "つ — «цу»",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
     {
-      "label": "Ряд Т",
-      "intro": {
-        "text": "Т + гласная: た, ち, つ, て, と. Два слога звучат по-особому: ち — «ти» (почти «чи»), つ — «цу».",
-        "highlights": [
-          {
-            "text": "Т + гласная",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "ち — «ти»",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "つ — «цу»",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "た ち つ て と",
-          "verbGrid": {
-            "verbs": [
-              "た ta",
-              "ち chi",
-              "つ tsu",
-              "て te",
-              "と to"
-            ]
-          }
-        },
-        {
-          "title": "Слова",
-          "examples": [
-            {
-              "en": "たこ",
-              "reading": "tako",
-              "ru": "осьминог"
-            },
-            {
-              "en": "ちかてつ",
-              "reading": "chikatetsu",
-              "ru": "метро"
-            },
-            {
-              "en": "つくえ",
-              "reading": "tsukue",
-              "ru": "стол (письменный)"
-            },
-            {
-              "en": "そと",
-              "reading": "soto",
-              "ru": "снаружи, на улице"
-            },
-            {
-              "en": "て",
-              "reading": "te",
-              "ru": "рука"
-            }
-          ]
-        }
-      ]
+     "title": "た ち つ て と",
+     "verbGrid": {
+      "verbs": [
+       "た ta",
+       "ち chi",
+       "つ tsu",
+       "て te",
+       "と to"
+      ],
+      "accentColor": "example"
+     }
     },
     {
-      "label": "Ряд Н",
-      "intro": {
-        "text": "Н + гласная: な, に, ぬ, ね, の. Ряд звучит так же, как по-русски.",
-        "highlights": [
-          {
-            "text": "Н + гласная",
-            "color": "term",
-            "style": "bold"
-          }
-        ]
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "たかい",
+       "reading": "takai",
+       "ru": "высокий, дорогой"
       },
-      "sections": [
-        {
-          "title": "な に ぬ ね の",
-          "verbGrid": {
-            "verbs": [
-              "な na",
-              "に ni",
-              "ぬ nu",
-              "ね ne",
-              "の no"
-            ]
-          }
-        },
-        {
-          "title": "Слова",
-          "examples": [
-            {
-              "en": "なつ",
-              "reading": "natsu",
-              "ru": "лето"
-            },
-            {
-              "en": "にく",
-              "reading": "niku",
-              "ru": "мясо"
-            },
-            {
-              "en": "いぬ",
-              "reading": "inu",
-              "ru": "собака"
-            },
-            {
-              "en": "ねこ",
-              "reading": "neko",
-              "ru": "кошка"
-            },
-            {
-              "en": "きのこ",
-              "reading": "kinoko",
-              "ru": "гриб"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Ряд Х",
-      "intro": {
-        "text": "Х + гласная: は, ひ, ふ, へ, ほ. ふ — что-то среднее между «ф» и «х»: губы не смыкаются, просто выдох.",
-        "highlights": [
-          {
-            "text": "Х + гласная",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "ふ",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
+      {
+       "en": "ちかい",
+       "reading": "chikai",
+       "ru": "близкий"
       },
-      "sections": [
-        {
-          "title": "は ひ ふ へ ほ",
-          "verbGrid": {
-            "verbs": [
-              "は ha",
-              "ひ hi",
-              "ふ fu",
-              "へ he",
-              "ほ ho"
-            ]
-          }
-        },
-        {
-          "title": "Частицы は и へ",
-          "callout": {
-            "type": "warning",
-            "text": "Как частицы は читается «ва», а へ — «э»: わたしは (ватаси ва) — «я…», にほんへ (нихон э) — «в Японию». В остальных словах — обычные «ха» и «хэ»."
-          }
-        },
-        {
-          "title": "Слова",
-          "examples": [
-            {
-              "en": "はな",
-              "reading": "hana",
-              "ru": "цветок; нос"
-            },
-            {
-              "en": "ひと",
-              "reading": "hito",
-              "ru": "человек"
-            },
-            {
-              "en": "ふね",
-              "reading": "fune",
-              "ru": "корабль"
-            },
-            {
-              "en": "へた",
-              "reading": "heta",
-              "ru": "неумелый"
-            },
-            {
-              "en": "ほし",
-              "reading": "hoshi",
-              "ru": "звезда"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Не перепутай",
-      "intro": {
-        "text": "В этих рядах много похожих знаков — сравни их рядом.",
-        "highlights": [
-          {
-            "text": "похожих знаков",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
+      {
+       "en": "つくえ",
+       "reading": "tsukue",
+       "ru": "стол"
       },
-      "sections": [
-        {
-          "title": "Похожие знаки",
-          "table": {
-            "headers": [
-              "Пара",
-              "Как отличить"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "ぬ — め",
-                  "у ぬ на конце петелька, у め её нет"
-                ]
-              },
-              {
-                "cells": [
-                  "ね — れ — わ",
-                  "конец: у ね петля, у れ хвостик наружу, у わ плавная дуга"
-                ]
-              },
-              {
-                "cells": [
-                  "は — ほ",
-                  "у ほ сверху ещё одна черта"
-                ]
-              },
-              {
-                "cells": [
-                  "た — な",
-                  "у な справа внизу петля"
-                ]
-              }
-            ]
-          }
-        }
-      ]
+      {
+       "en": "て",
+       "reading": "te",
+       "ru": "рука"
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "label": "Ряд Н",
+   "intro": {
+    "text": "Ряд Н: な, に, ぬ, ね, の. Знак の — ещё и частица «принадлежности».",
+    "highlights": [
+     {
+      "text": "Ряд Н",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "частица",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "な に ぬ ね の",
+     "verbGrid": {
+      "verbs": [
+       "な na",
+       "に ni",
+       "ぬ nu",
+       "ね ne",
+       "の no"
+      ],
+      "accentColor": "example"
+     }
+    },
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "なつ",
+       "reading": "natsu",
+       "ru": "лето"
+      },
+      {
+       "en": "にく",
+       "reading": "niku",
+       "ru": "мясо"
+      },
+      {
+       "en": "いぬ",
+       "reading": "inu",
+       "ru": "собака"
+      },
+      {
+       "en": "ねこ",
+       "reading": "neko",
+       "ru": "кошка"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Ряд Х",
+   "intro": {
+    "text": "Ряд Х: は, ひ, ふ, へ, ほ. ふ — между «ф» и «х», губы почти не смыкаются.",
+    "highlights": [
+     {
+      "text": "Ряд Х",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "ふ",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "は ひ ふ へ ほ",
+     "verbGrid": {
+      "verbs": [
+       "は ha",
+       "ひ hi",
+       "ふ fu",
+       "へ he",
+       "ほ ho"
+      ],
+      "accentColor": "example"
+     }
+    },
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "はな",
+       "reading": "hana",
+       "ru": "цветок"
+      },
+      {
+       "en": "ひと",
+       "reading": "hito",
+       "ru": "человек"
+      },
+      {
+       "en": "ふね",
+       "reading": "fune",
+       "ru": "корабль"
+      },
+      {
+       "en": "ほし",
+       "reading": "hoshi",
+       "ru": "звезда"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Знаки-частицы",
+   "intro": {
+    "text": "Два знака ряда Х в роли частиц читаются иначе: は — «ва», へ — «э».",
+    "highlights": [
+     {
+      "text": "は — «ва»",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "へ — «э»",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Как пишут и как читают",
+     "table": {
+      "headers": [
+       "Знак",
+       "В слове",
+       "Как частица"
+      ],
+      "rows": [
+       {
+        "cells": [
+         "は",
+         "ha (はな)",
+         "wa: わたしは"
+        ]
+       },
+       {
+        "cells": [
+         "へ",
+         "he (へや)",
+         "e: にほんへ"
+        ]
+       }
+      ],
+      "headerColors": [
+       "info",
+       "example",
+       "term"
+      ]
+     }
+    },
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "わたしは がくせいです。",
+       "reading": "watashi wa gakusei desu",
+       "ru": "Я студент."
+      },
+      {
+       "en": "がっこうへ いきます。",
+       "reading": "gakkō e ikimasu",
+       "ru": "Иду в школу."
+      }
+     ]
+    },
+    {
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "warning",
+      "text": "Это наследие старой орфографии. Писать わ или え вместо частиц — ошибка.",
+      "title": "Только в роли частиц"
+     }
+    }
+   ]
+  },
+  {
+   "label": "Похожие знаки",
+   "intro": {
+    "text": "Сравни знаки, которые путают чаще всего.",
+    "highlights": [
+     {
+      "text": "путают",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Не перепутай",
+     "table": {
+      "headers": [
+       "Знаки",
+       "Чем отличаются"
+      ],
+      "rows": [
+       {
+        "cells": [
+         "ぬ — め",
+         "у ぬ петелька на конце, у め нет"
+        ]
+       },
+       {
+        "cells": [
+         "ね — れ — わ",
+         "ね — петля, れ — «хвост» вверх, わ — круглый «живот»"
+        ]
+       },
+       {
+        "cells": [
+         "は — ほ",
+         "у ほ две горизонтальные черты"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки этих рядов.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "つ → «ту»",
+       "right": "つ → «цу» (tsu)"
+      },
+      {
+       "wrong": "ち → «чи» твёрдо",
+       "right": "ち → мягкое «ти/чи» (chi)"
+      },
+      {
+       "wrong": "わたしわ",
+       "right": "わたしは — частица пишется は"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "た-ち-つ-て-то: два «особых» звука — и ряд выучен.",
+      "author": "заметка на полях",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
 }

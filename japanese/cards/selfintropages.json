@@ -1,147 +1,225 @@
 {
-  "tenseName": "Знакомство",
-  "route": "cards_ja_selfintro",
-  "slides": [
+ "tenseName": "Знакомство",
+ "route": "cards_ja_selfintro",
+ "slides": [
+  {
+   "label": "Представиться",
+   "intro": {
+    "text": "Знакомство идёт по шаблону: はじめまして → имя → よろしく おねがいします.",
+    "highlights": [
+     {
+      "text": "по шаблону",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
     {
-      "label": "Представиться",
-      "intro": {
-        "text": "Знакомство в Японии идёт по схеме: はじめまして → имя → откуда → よろしく おねがいします. Эти четыре фразы стоит выучить целиком.",
-        "highlights": [
-          {
-            "text": "はじめまして",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "よろしく おねがいします",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Четыре фразы",
-          "examples": [
-            {
-              "en": "はじめまして。",
-              "reading": "hajimemashite",
-              "ru": "Приятно познакомиться (при первой встрече)"
-            },
-            {
-              "en": "わたしは アンナです。",
-              "reading": "watashi wa anna desu",
-              "ru": "Меня зовут Анна."
-            },
-            {
-              "en": "ロシアから きました。",
-              "reading": "roshia kara kimashita",
-              "ru": "Я из России."
-            },
-            {
-              "en": "よろしく おねがいします。",
-              "reading": "yoroshiku onegai shimasu",
-              "ru": "Рада знакомству (прошу любить и жаловать)."
-            }
-          ]
-        }
-      ]
+     "title": "Шаблон",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "はじめまして。",
+        "color": "info"
+       },
+       {
+        "text": "〇〇です。",
+        "color": "term"
+       },
+       {
+        "text": "よろしく おねがいします。",
+        "color": "example"
+       }
+      ],
+      "accentColor": "term"
+     },
+     "examples": [
+      {
+       "en": "はじめまして。アンナです。よろしく おねがいします。",
+       "reading": "hajimemashite. anna desu. yoroshiku onegai shimasu",
+       "ru": "Приятно познакомиться. Я Анна. Прошу любить и жаловать."
+      }
+     ]
     },
     {
-      "label": "О себе",
-      "intro": {
-        "text": "Кто ты, сколько лет, где живёшь — всё по одной схеме: …は …です.",
-        "highlights": [
-          {
-            "text": "…は …です",
-            "color": "term",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Рассказ о себе",
-          "examples": [
-            {
-              "en": "がくせいです。",
-              "reading": "gakusei desu",
-              "ru": "Я студент."
-            },
-            {
-              "en": "かいしゃいんです。",
-              "reading": "kaishain desu",
-              "ru": "Я работаю в компании."
-            },
-            {
-              "en": "にじゅうさいです。",
-              "reading": "nijussai desu",
-              "ru": "Мне 20 лет."
-            },
-            {
-              "en": "モスクワに すんでいます。",
-              "reading": "mosukuwa ni sunde imasu",
-              "ru": "Я живу в Москве."
-            }
-          ]
-        },
-        {
-          "title": "わたしは можно опустить",
-          "callout": {
-            "type": "tip",
-            "text": "Если и так ясно, что говоришь о себе, わたしは пропускают: がくせいです — «(я) студент»."
-          }
-        }
-      ]
-    },
-    {
-      "label": "Спросить",
-      "intro": {
-        "text": "Чтобы спросить, добавь в конце か. К имени собеседника добавляют さん — «господин / госпожа».",
-        "highlights": [
-          {
-            "text": "か",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "さん",
-            "color": "info",
-            "style": "bold"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Вопросы",
-          "examples": [
-            {
-              "en": "おなまえは？",
-              "reading": "onamae wa?",
-              "ru": "Как вас зовут?"
-            },
-            {
-              "en": "おくには どちらですか。",
-              "reading": "okuni wa dochira desu ka",
-              "ru": "Из какой вы страны?"
-            },
-            {
-              "en": "アンナさんは がくせいですか。",
-              "reading": "anna-san wa gakusei desu ka",
-              "ru": "Анна, вы студентка?"
-            }
-          ]
-        },
-        {
-          "title": "О себе さん не говорят",
-          "errors": [
-            {
-              "wrong": "わたしは アンナさんです。",
-              "right": "わたしは アンナです。"
-            }
-          ]
-        }
-      ]
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "info",
+      "text": "よろしく おねがいします не переводится дословно: это «рассчитываю на хорошие отношения». Говорят всегда при знакомстве."
+     }
     }
-  ]
+   ]
+  },
+  {
+   "label": "О себе",
+   "intro": {
+    "text": "Дальше — страна, занятие, возраст. Всё по схеме «AはBです».",
+    "highlights": [
+     {
+      "text": "AはBです",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "ロシアから 来ました。",
+       "reading": "ロシアから きました。 · roshia kara kimashita",
+       "ru": "Я из России."
+      },
+      {
+       "en": "学生です。",
+       "reading": "がくせいです。 · gakusei desu",
+       "ru": "Я студент."
+      },
+      {
+       "en": "二十歳です。",
+       "reading": "はたちです。 · hatachi desu",
+       "ru": "Мне 20 лет."
+      },
+      {
+       "en": "しゅみは ゲームです。",
+       "reading": "shumi wa gēmu desu",
+       "ru": "Моё хобби — игры."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Спросить",
+   "intro": {
+    "text": "Чтобы спросить, добавь か в конце.",
+    "highlights": [
+     {
+      "text": "か",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "おなまえは？",
+       "reading": "o-namae wa?",
+       "ru": "Как вас зовут?"
+      },
+      {
+       "en": "おしごとは なんですか。",
+       "reading": "o-shigoto wa nan desu ka",
+       "ru": "Кем вы работаете?"
+      },
+      {
+       "en": "どちらから 来ましたか。",
+       "reading": "どちらから きましたか。 · dochira kara kimashita ka",
+       "ru": "Откуда вы?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Имена",
+   "intro": {
+    "text": "К чужому имени добавляют さん. К своему — никогда.",
+    "highlights": [
+     {
+      "text": "さん",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "никогда",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Обращения",
+     "table": {
+      "headers": [
+       "Суффикс",
+       "Кому"
+      ],
+      "rows": [
+       {
+        "cells": [
+         "〜さん",
+         "почти всем, нейтрально"
+        ]
+       },
+       {
+        "cells": [
+         "〜くん",
+         "мальчикам, младшим"
+        ]
+       },
+       {
+        "cells": [
+         "〜ちゃん",
+         "детям, близким подругам"
+        ]
+       },
+       {
+        "cells": [
+         "〜せんせい",
+         "учителю, врачу"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки при знакомстве.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "わたしは アンナさんです。",
+       "right": "わたしは アンナです。 — к своему имени さん нельзя"
+      },
+      {
+       "wrong": "あなたは だれですか。",
+       "right": "おなまえは？ — あなた звучит резко"
+      },
+      {
+       "wrong": "はじめまして в конце разговора",
+       "right": "はじめまして — только в начале первой встречи"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "はじめまして, имя, よろしく おねがいします — и знакомство состоялось.",
+      "author": "главная мысль",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
 }

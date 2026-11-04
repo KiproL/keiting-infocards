@@ -1,194 +1,268 @@
 {
-  "tenseName": "Это, то, вон то: これ・それ・あれ",
-  "route": "cards_ja_kosoado",
-  "slides": [
+ "tenseName": "Это, то, вон то: これ・それ・あれ",
+ "route": "cards_ja_kosoado",
+ "slides": [
+  {
+   "label": "Три расстояния",
+   "intro": {
+    "text": "Японский различает три расстояния: こ — у меня, そ — у тебя, あ — далеко от обоих. Вопрос — ど.",
+    "highlights": [
+     {
+      "text": "три расстояния",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "こ — у меня",
+      "color": "example",
+      "style": "bold"
+     },
+     {
+      "text": "そ — у тебя",
+      "color": "info",
+      "style": "bold"
+     },
+     {
+      "text": "あ — далеко",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
     {
-      "label": "Три расстояния",
-      "intro": {
-        "text": "Японцы делят пространство на три зоны: こ — рядом со мной, そ — рядом с собеседником, あ — далеко от обоих. ど — вопрос «какой?».",
-        "highlights": [
-          {
-            "text": "こ",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "そ",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "あ",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "ど",
-            "color": "bad",
-            "style": "bold"
-          }
+     "title": "Ко-со-а-до",
+     "table": {
+      "headers": [
+       "",
+       "こ (у меня)",
+       "そ (у тебя)",
+       "あ (далеко)",
+       "ど (?)"
+      ],
+      "rows": [
+       {
+        "cells": [
+         "предмет",
+         "これ",
+         "それ",
+         "あれ",
+         "どれ"
         ]
-      },
-      "sections": [
-        {
-          "title": "Слова-указатели",
-          "table": {
-            "headers": [
-              "",
-              "こ (у меня)",
-              "そ (у тебя)",
-              "あ (там)",
-              "ど (?)"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "вещь",
-                  "これ",
-                  "それ",
-                  "あれ",
-                  "どれ"
-                ]
-              },
-              {
-                "cells": [
-                  "+ существительное",
-                  "この",
-                  "その",
-                  "あの",
-                  "どの"
-                ]
-              },
-              {
-                "cells": [
-                  "место",
-                  "ここ",
-                  "そこ",
-                  "あそこ",
-                  "どこ"
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "label": "これ и この",
-      "intro": {
-        "text": "これ・それ・あれ стоят сами по себе. この・その・あの — только перед существительным: この ほん «эта книга».",
-        "highlights": [
-          {
-            "text": "сами по себе",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "только перед существительным",
-            "color": "info",
-            "style": "bold"
-          }
+       },
+       {
+        "cells": [
+         "+ сущ.",
+         "この",
+         "その",
+         "あの",
+         "どの"
         ]
-      },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "これは なんですか。",
-              "reading": "kore wa nan desu ka",
-              "ru": "Что это?"
-            },
-            {
-              "en": "それは わたしの かばんです。",
-              "reading": "sore wa watashi no kaban desu",
-              "ru": "Это моя сумка."
-            },
-            {
-              "en": "あれは ふじさんです。",
-              "reading": "are wa fujisan desu",
-              "ru": "Вон то — гора Фудзи."
-            },
-            {
-              "en": "この ほんは たかいです。",
-              "reading": "kono hon wa takai desu",
-              "ru": "Эта книга дорогая."
-            },
-            {
-              "en": "あの ひとは だれですか。",
-              "reading": "ano hito wa dare desu ka",
-              "ru": "Кто вон тот человек?"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Где?",
-      "intro": {
-        "text": "ここ・そこ・あそこ — «здесь, там, вон там», どこ — «где?».",
-        "highlights": [
-          {
-            "text": "どこ",
-            "color": "term",
-            "style": "bold"
-          }
+       },
+       {
+        "cells": [
+         "место",
+         "ここ",
+         "そこ",
+         "あそこ",
+         "どこ"
         ]
-      },
-      "sections": [
-        {
-          "title": "Примеры",
-          "examples": [
-            {
-              "en": "トイレは どこですか。",
-              "reading": "toire wa doko desu ka",
-              "ru": "Где туалет?"
-            },
-            {
-              "en": "えきは あそこです。",
-              "reading": "eki wa asoko desu",
-              "ru": "Станция вон там."
-            },
-            {
-              "en": "ここは どこですか。",
-              "reading": "koko wa doko desu ka",
-              "ru": "Где я? (что это за место?)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Ошибки",
-      "intro": {
-        "text": "Главная путаница — これ и この.",
-        "highlights": [
-          {
-            "text": "これ и この",
-            "color": "bad",
-            "style": "bold"
-          }
+       },
+       {
+        "cells": [
+         "вежливо",
+         "こちら",
+         "そちら",
+         "あちら",
+         "どちら"
         ]
-      },
-      "sections": [
-        {
-          "title": "Как не надо — как надо",
-          "errors": [
-            {
-              "wrong": "この は ほんです。",
-              "right": "これは ほんです。"
-            },
-            {
-              "wrong": "これ ほんは たかいです。",
-              "right": "この ほんは たかいです。"
-            },
-            {
-              "wrong": "どこは トイレですか。",
-              "right": "トイレは どこですか。"
-            }
-          ]
-        }
+       }
       ]
+     }
     }
-  ]
+   ]
+  },
+  {
+   "label": "これ и この",
+   "intro": {
+    "text": "これ стоит сама по себе, この — только перед существительным.",
+    "highlights": [
+     {
+      "text": "これ",
+      "color": "term",
+      "style": "bold"
+     },
+     {
+      "text": "この",
+      "color": "info",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Сама по себе",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "これ",
+        "color": "term"
+       },
+       {
+        "text": "は",
+        "color": "muted"
+       },
+       {
+        "text": "…です",
+        "color": "text"
+       }
+      ],
+      "accentColor": "term"
+     },
+     "examples": [
+      {
+       "en": "これは 何ですか。",
+       "reading": "これは なんですか。 · kore wa nan desu ka",
+       "ru": "Что это?"
+      }
+     ]
+    },
+    {
+     "title": "Перед словом",
+     "formulaCard": {
+      "parts": [
+       {
+        "text": "この",
+        "color": "info"
+       },
+       {
+        "text": "+ сущ.",
+        "color": "example"
+       }
+      ],
+      "accentColor": "info"
+     },
+     "examples": [
+      {
+       "en": "この 本は 高いです。",
+       "reading": "この ほんは たかいです。 · kono hon wa takai desu",
+       "ru": "Эта книга дорогая."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Где?",
+   "intro": {
+    "text": "ここ, そこ, あそこ — «здесь, там, вон там». Спросить — どこ.",
+    "highlights": [
+     {
+      "text": "どこ",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "トイレは どこですか。",
+       "reading": "toire wa doko desu ka",
+       "ru": "Где туалет?"
+      },
+      {
+       "en": "あそこです。",
+       "reading": "asoko desu",
+       "ru": "Вон там."
+      },
+      {
+       "en": "ここは 駅です。",
+       "reading": "ここは えきです。 · koko wa eki desu",
+       "ru": "Здесь станция."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Вежливые こちら",
+   "intro": {
+    "text": "こちら, そちら, あちら — вежливые слова для «здесь, сюда, этот человек».",
+    "highlights": [
+     {
+      "text": "вежливые",
+      "color": "term",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Примеры",
+     "examples": [
+      {
+       "en": "こちらは 田中さんです。",
+       "reading": "こちらは たなかさんです。 · kochira wa tanaka-san desu",
+       "ru": "Это господин Танака. (представляя)"
+      },
+      {
+       "en": "どちらから 来ましたか。",
+       "reading": "どちらから きましたか。 · dochira kara kimashita ka",
+       "ru": "Откуда вы приехали?"
+      }
+     ]
+    },
+    {
+     "title": "Обрати внимание",
+     "callout": {
+      "type": "warning",
+      "text": "Представляя человека, говорят こちら, а не これ: これ — о вещах."
+     }
+    }
+   ]
+  },
+  {
+   "label": "Ошибки",
+   "intro": {
+    "text": "Частые ошибки.",
+    "highlights": [
+     {
+      "text": "Частые ошибки",
+      "color": "bad",
+      "style": "bold"
+     }
+    ]
+   },
+   "sections": [
+    {
+     "title": "Слева — нельзя, справа — правильно",
+     "errors": [
+      {
+       "wrong": "この は 本です。",
+       "right": "これは 本です。 — この только перед существительным"
+      },
+      {
+       "wrong": "これ 本は 高いです。",
+       "right": "この 本は 高いです。"
+      },
+      {
+       "wrong": "これは 田中さんです。 (о человеке)",
+       "right": "こちらは 田中さんです。"
+      }
+     ]
+    },
+    {
+     "title": "Итог",
+     "quote": {
+      "text": "こ — близко ко мне, そ — к тебе, あ — от обоих, ど — вопрос.",
+      "author": "шпаргалка",
+      "accentColor": "accent2"
+     }
+    }
+   ]
+  }
+ ]
 }
