@@ -146,15 +146,6 @@
             "title": "Правило",
             "text": "Перед порядковым числом почти всегда ставится the: the first, the second, the third."
           }
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Cardinal считает, Ordinal расставляет по порядку. Одно число — две роли.",
-            "author": "простая истина",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -587,7 +578,7 @@
           "callout": {
             "type": "info",
             "title": "Правило дефиса",
-            "text": "Между десятком и единицей ставится дефис: 21 = twenty-one. Между сотнями и десятками — and (в британском): 121 = a hundred and twenty-one."
+            "text": "Между десятком и единицей ставится дефис: 21 = twenty-one. Между сотнями и десятками по-британски ставят and: 121 = a hundred and twenty-one; по-американски and часто опускают: a hundred twenty-one. Оба варианта правильные."
           }
         },
         {
@@ -1032,15 +1023,16 @@
             },
             {
               "name": "2005",
-              "suffix": "two thousand and five",
+              "suffix": "2000–2009: two thousand (and) five; амер. часто без and",
               "example": "2000–2009 — исключение"
             },
             {
               "name": "2010",
-              "suffix": "twenty ten",
+              "suffix": "обычно парами; two thousand (and) ten тоже говорят",
               "example": "с 2010 снова парами"
             }
-          ]
+          ],
+          "text": "50% по-британски — fifty per cent, по-американски — fifty percent."
         },
         {
           "title": "Дроби",
@@ -1068,7 +1060,7 @@
                 "cells": [
                   "1/4",
                   "a quarter",
-                  "не one fourth"
+                  "амер. также one fourth"
                 ]
               },
               {
@@ -1125,15 +1117,6 @@
               "ru": "ten divided by two equals five"
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Число — это факт. Как ты его произносишь — это уже язык.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -1194,10 +1177,10 @@
     {
       "label": "Частые ошибки: fourty, nineth, 21th",
       "intro": {
-        "text": "Семь самых частых ошибок с английскими числами — и как их избежать.",
+        "text": "Частые ошибки с английскими числами — и как их избежать.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -1221,8 +1204,8 @@
               "right": "the first of May (в датах — порядковое)"
             },
             {
-              "wrong": "one fourth",
-              "right": "a quarter (1/4 — a quarter)"
+              "wrong": "a fourth part",
+              "right": "a quarter (амер. также one fourth)"
             },
             {
               "wrong": "nineth",
@@ -1244,16 +1227,7 @@
           "callout": {
             "type": "success",
             "title": "Правило большого пальца",
-            "text": "Запомни три слова-исключения: forty (без u), ninth (без e), twelfth (ve → f). Остальное — по правилам."
-          }
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Числа — это единственная часть языка, где ошибка слышна сразу.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
+            "text": "Запомни три слова с особым написанием: forty (без u), ninth (без e), twelfth (ve → f). Остальное — по правилам."
           }
         }
       ],
@@ -1299,6 +1273,53 @@
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:numbers.spelling",
+      "description": "Написание: forty, fifteen, ninth, twelfth",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:numbers.kind",
+      "description": "Сколько или какой по счёту: two / second",
+      "slides": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:numbers.hundred",
+      "description": "Hundred, thousand без -s после числа; hundreds of",
+      "slides": [
+        2,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:numbers.reading",
+      "description": "Даты, годы, дроби, проценты",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": []
     }
   ]
 }

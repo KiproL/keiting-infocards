@@ -96,7 +96,8 @@
               "suffix": "+ мн. число",
               "example": "Neither of them called."
             }
-          ]
+          ],
+          "text": "После neither of в разговоре глагол бывает и во множественном числе: Neither of them know. В аккуратной речи — ед. ч.: Neither of them knows."
         },
         {
           "title": "Только о двух",
@@ -568,6 +569,11 @@
             "title": "Второе not не нужно",
             "text": "Neither … nor сами по себе «ни…, ни…». Нельзя: I don't like neither tea nor coffee. Правильно: I like neither tea nor coffee."
           }
+        },
+        {
+          "title": "С каким словом согласовать глагол",
+          "borderColor": "info",
+          "text": "После either … or и neither … nor глагол обычно согласуют с ближайшим словом: Neither Tom nor his friends were there. Neither Tom nor Anna was at home — аккуратно; were здесь тоже часто говорят."
         }
       ],
       "expandables": [
@@ -697,16 +703,21 @@
             "title": "Do, am, can, have…",
             "text": "Повторяем его вспомогательный глагол: I've finished → So have I. I went → So did I. Подробнее — в карточке Ellipsis."
           }
+        },
+        {
+          "title": "Варианты",
+          "borderColor": "good",
+          "text": "Вместо Neither do I можно Nor do I. Me either — частый американский разговорный вариант Me neither."
         }
       ]
     },
     {
       "label": "Частые ошибки: The both, Me too на отрицание",
       "intro": {
-        "text": "Самые частые ошибки с both, either и neither.",
+        "text": "Частые ошибки с both, either и neither.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -750,14 +761,50 @@
             "type": "tip",
             "title": "Где отрицание",
             "text": "Одно отрицание на фразу: либо not + either, либо neither без not."
-          },
-          "quote": {
-            "text": "Either и neither — только о паре. Больше двух — any и none.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:botheither.choice",
+      "description": "Both — оба, either — любой из двух, neither — ни один",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:botheither.pair",
+      "description": "Both … and, either … or, neither … nor",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:botheither.so_neither",
+      "description": "So do I / Neither do I: тот же помощник",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:botheither.negation",
+      "description": "Одно отрицание: not … either или neither",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
     }
   ]
 }

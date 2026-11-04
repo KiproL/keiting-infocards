@@ -5,26 +5,21 @@
     {
       "label": "have got: «у меня есть»",
       "intro": {
-        "text": "Have got — «у меня есть». Это разговорный британский вариант have, только когда речь о том, что у тебя есть: вещи, родные, внешность, болезнь. С he, she, it — has got.",
+        "text": "Have got — «у меня есть». Это прежде всего британский разговорный вариант have, и только в значении «иметь»: вещи, родные, внешность, болезнь. С he, she, it — has got. В американском английском чаще говорят I have, а I've gotten значит «я получил».",
         "highlights": [
           {
             "text": "Have got",
             "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "у меня есть",
-            "color": "info",
             "style": "bold"
           },
           {
-            "text": "британский",
-            "color": "example",
+            "text": "«иметь»",
+            "color": "info",
             "style": "bold"
           },
           {
             "text": "has got",
-            "color": "info",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -432,22 +427,12 @@
     {
       "label": "Частые ошибки: have got в прошлом и с do",
       "intro": {
-        "text": "Самые частые ошибки: have got вместо действия, вопрос с do и have got в прошлом.",
+        "text": "Частые ошибки: have got вместо действия, вопрос с do и have got в прошлом.",
         "highlights": [
           {
-            "text": "вместо действия",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "с do",
-            "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "в прошлом",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -479,6 +464,30 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:havegot.form",
+      "description": "Have / has got, haven't got, Have you got…?",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:havegot.vs_have",
+      "description": "Действие, прошлое и вопрос с do — только have",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
     }
   ]
 }

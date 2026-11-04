@@ -266,6 +266,11 @@
               "term",
               "muted"
             ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Множественное число",
+            "text": "Обычно -s получает главное слово: brothers-in-law, mothers-in-law. Brother-in-laws тоже встречается в разговоре, словари его допускают."
           }
         }
       ],
@@ -516,22 +521,12 @@
     {
       "label": "Частые ошибки: cousin, married to",
       "intro": {
-        "text": "Чаще всего ошибаются с cousin, с предлогом после married и с формой children.",
+        "text": "Частые ошибки с cousin, с предлогом после married и с формой children.",
         "highlights": [
           {
-            "text": "cousin",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "married",
-            "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "children",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -563,6 +558,43 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:family.word",
+      "description": "Слово родства по смыслу: cousin, nephew, -in-law, step-",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:family.married",
+      "description": "Married to, marry someone — без with и on",
+      "slides": [
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:family.plural",
+      "description": "Children, brothers-in-law",
+      "slides": [
+        1,
+        3,
+        5
+      ],
+      "decoys": []
     }
   ]
 }

@@ -154,15 +154,6 @@
               "ru": "Мы встретились на прошлой неделе."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Past Simple — это точка в прошлом: было, случилось, закончилось.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -600,9 +591,9 @@
               "example": "live → lived, like → liked"
             },
             {
-              "name": "Гласная + согл. в конце",
+              "name": "Ударный слог: одна гласная + одна согласная",
               "suffix": "удвоение + ed",
-              "example": "stop → stopped, plan → planned"
+              "example": "stop → stopped, plan → planned; но open → opened, visit → visited (ударение не на конце)"
             },
             {
               "name": "Согласная + y",
@@ -614,7 +605,8 @@
               "suffix": "+ ed",
               "example": "play → played, stay → stayed"
             }
-          ]
+          ],
+          "text": "Travel: по-британски travelled, по-американски traveled — оба варианта правильные."
         },
         {
           "title": "Три звука -ed",
@@ -630,30 +622,30 @@
               "example",
               "term"
             ],
+            "borderColor": "term",
             "rows": [
               {
                 "cells": [
                   "/t/",
-                  "глухих согласных",
+                  "глухих /p/, /k/, /f/, /s/, /ʃ/, /tʃ/ — кроме t",
                   "watched, washed, stopped"
                 ]
               },
               {
                 "cells": [
                   "/d/",
-                  "звонких согласных",
+                  "гласных и звонких — кроме d",
                   "played, lived, called"
                 ]
               },
               {
                 "cells": [
                   "/ɪd/",
-                  "после t / d",
+                  "после /t/ и /d/ — отдельный слог",
                   "wanted, needed, started"
                 ]
               }
-            ],
-            "borderColor": "term"
+            ]
           }
         },
         {
@@ -940,17 +932,12 @@
     {
       "label": "Частые ошибки: did went, was go",
       "intro": {
-        "text": "Семь самых частых ошибок: две формы прошедшего сразу, лишнее was и have вместо Past Simple.",
+        "text": "Частые ошибки: две формы прошедшего сразу, лишнее was и have вместо Past Simple.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "лишнее was",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -995,15 +982,51 @@
           "callout": {
             "type": "tip",
             "title": "Правило большого пальца",
-            "text": "Если есть did — глагол в начальной форме. Если нет did — глагол в V2 / V-ed. Двух времён в одном предложении быть не может."
-          },
-          "quote": {
-            "text": "Did и V2 не встречаются вместе — они несовместимы.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Если есть did — глагол в начальной форме. Если нет did — V2 / V-ed. Исключение — эмфатическое did в утверждении: I did call you! (я же звонил!) — это усиление, а не ошибка."
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:pastsimp.form",
+      "description": "В утверждении — V2 / V-ed",
+      "slides": [
+        0,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastsimp.did",
+      "description": "После did / didn't — начальная форма",
+      "slides": [
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastsimp.be",
+      "description": "Was / were без did",
+      "slides": [
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastsimp.spelling",
+      "description": "Написание -ed: stopped, studied, lived",
+      "slides": [
+        2
+      ],
+      "decoys": []
     }
   ]
 }

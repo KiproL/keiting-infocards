@@ -68,6 +68,11 @@
               "info",
               "example"
             ]
+          },
+          "callout": {
+            "type": "info",
+            "title": "Регистр",
+            "text": "How do you do? — очень официально и звучит старомодно. What's up? и Hey — разговорно, особенно в американском."
           }
         },
         {
@@ -502,14 +507,40 @@
             {
               "wrong": "Where are you live?",
               "right": "Where do you live? (с глаголом — do)"
-            },
-            {
-              "wrong": "Nice to meet you. (уходя)",
-              "right": "It was nice meeting you. (на прощание)"
             }
           ]
+        },
+        {
+          "title": "На прощание",
+          "borderColor": "good",
+          "text": "Уходя, чаще говорят It was nice meeting you или Nice meeting you. Nice to meet you при прощании тоже встречается — это не ошибка."
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:greetings.phrase",
+      "description": "Устойчивые фразы приветствия и прощания",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:greetings.russian",
+      "description": "Калька с русского: Normal, Good night при встрече, What is your work",
+      "slides": [
+        5
+      ],
+      "decoys": []
     }
   ]
 }

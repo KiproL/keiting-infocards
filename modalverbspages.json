@@ -389,22 +389,17 @@
     {
       "label": "May и might: «можно» и «может быть»",
       "intro": {
-        "text": "May и might — про формальность и степень уверенности.",
+        "text": "May и might — «можно» и «может быть». May звучит формальнее в просьбе о разрешении; в значении «возможно» may и might близки, might — чуть менее уверенно.",
         "highlights": [
           {
-            "text": "may",
+            "text": "May и might",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "might",
+            "text": "чуть менее уверенно",
             "color": "info",
             "style": "bold"
-          },
-          {
-            "text": "степень уверенности",
-            "color": "accent2",
-            "style": "bold_underline"
           }
         ]
       },
@@ -422,25 +417,15 @@
               {
                 "cells": [
                   "may",
-                  "формальное разрешение · вероятность ~50%",
+                  "формальное разрешение · возможность",
                   "May I come in? He may be at home."
-                ],
-                "colors": [
-                  "term",
-                  "text",
-                  "example"
                 ]
               },
               {
                 "cells": [
                   "might",
-                  "слабая вероятность ~30%",
+                  "возможность, чуть менее уверенно",
                   "She might come later."
-                ],
-                "colors": [
-                  "info",
-                  "text",
-                  "example"
                 ]
               }
             ],
@@ -553,6 +538,11 @@
               }
             ],
             "borderColor": "info"
+          },
+          "callout": {
+            "type": "info",
+            "title": "Британский и американский",
+            "text": "Различие «личная обязанность — must, внешняя — have to» заметнее в британском. В американском have to часто и там, и там. Needn't звучит по-британски; обычнее don't need to."
           }
         },
         {
@@ -686,7 +676,8 @@
               }
             ],
             "borderColor": "term"
-          }
+          },
+          "text": "Shall I…? Shall we…? — предложение; в американском чаще Should I…? Should we…? — тоже правильно. I shall — книжное британское I will."
         },
         {
           "title": "Лесенка мягкости",
@@ -770,7 +761,7 @@
               {
                 "cells": [
                   "must have done",
-                  "уверен (95%)",
+                  "почти уверен",
                   "He must have left."
                 ],
                 "colors": [
@@ -782,7 +773,7 @@
               {
                 "cells": [
                   "can't have done",
-                  "невозможно (0%)",
+                  "уверен, что нет",
                   "She can't have forgotten."
                 ],
                 "colors": [
@@ -794,7 +785,7 @@
               {
                 "cells": [
                   "might have done",
-                  "возможно (30%)",
+                  "возможно",
                   "They might have missed it."
                 ],
                 "colors": [
@@ -886,10 +877,10 @@
     {
       "label": "Частые ошибки: can swims, must to go",
       "intro": {
-        "text": "Семь ошибок, которые делают почти все новички.",
+        "text": "Частые ошибки с модальными глаголами — и как сказать правильно.",
         "highlights": [
           {
-            "text": "Семь ошибок",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -940,6 +931,47 @@
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:modalverbs.form",
+      "description": "После модального — глагол без to и -s; вопрос без do",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalverbs.meaning",
+      "description": "Модальный по смыслу: умею, можно, надо, нельзя, не обязательно",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalverbs.past",
+      "description": "О прошлом: had to, was able to, must have + V3",
+      "slides": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "decoys": []
     }
   ]
 }

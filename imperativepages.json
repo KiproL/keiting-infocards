@@ -113,16 +113,16 @@
     {
       "label": "Как сказать вежливо",
       "intro": {
-        "text": "Голое повелительное звучит резко, почти как приказ. Его смягчают: please, just, could you — или превращают в вопрос.",
+        "text": "В просьбе к человеку голое повелительное может звучать резко. Его смягчают: please, just, could you — или превращают в вопрос. В инструкциях, рецептах и приглашениях (Come in! Have a seat) оно звучит нормально.",
         "highlights": [
           {
-            "text": "звучит резко",
+            "text": "может звучать резко",
             "color": "bad",
             "style": "bold"
           },
           {
-            "text": "смягчают",
-            "color": "good",
+            "text": "please, just, could you",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -231,24 +231,20 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
       "label": "Частые ошибки: Not be, Don't to, Let's don't",
       "intro": {
-        "text": "Самые частые ошибки: запрет без do, лишнее to и Let's don't вместо Let's not.",
+        "text": "Частые ошибки: запрет без do, лишнее to и Let's don't вместо Let's not.",
         "highlights": [
           {
-            "text": "запрет без do",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "лишнее to",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -278,8 +274,45 @@
               "right": "Let's not argue. (с let's — просто not)"
             }
           ]
+        },
+        {
+          "title": "Это не ошибка",
+          "borderColor": "good",
+          "text": "Don't let's argue — разговорный британский вариант Let's not argue. Do sit down — вежливое усиление, а не лишний do."
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:imperative.form",
+      "description": "Повелительное — начальная форма глагола без you, -s и -ing",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:imperative.negative",
+      "description": "Запрет — Don't + глагол; Let's not",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:imperative.polite",
+      "description": "Вежливая просьба: please, could you, would you mind",
+      "slides": [
+        1
+      ],
+      "decoys": []
     }
   ]
 }
