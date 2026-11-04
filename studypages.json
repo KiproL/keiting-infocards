@@ -3,7 +3,7 @@
   "route": "cards_study",
   "slides": [
     {
-      "label": "Учёба: subject, mark, timetable",
+      "label": "Школа и университет",
       "intro": {
         "text": "Слова о школе и университете. Оценка — mark в Британии и grade в США.",
         "highlights": [
@@ -106,9 +106,9 @@
       ]
     },
     {
-      "label": "Глаголы: take или pass, study или learn",
+      "label": "Take или pass",
       "intro": {
-        "text": "Сдать экзамен — pass, а take — просто сдавать, без результата: I took the exam, but I didn't pass.",
+        "text": "Сдать экзамен — pass, а take — просто сдавать, без результата (брит. также sit an exam): I took the exam, but I didn't pass.",
         "highlights": [
           {
             "text": "pass",
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "label": "На занятии: Can I ask a question?",
+      "label": "Фразы на занятии",
       "intro": {
         "text": "Фразы, которые нужны на любом уроке.",
         "highlights": [
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "label": "Учёба в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -342,7 +342,7 @@
       ]
     },
     {
-      "label": "Диалог: готовимся к экзамену",
+      "label": "Перед экзаменом",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -383,12 +383,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: passed вместо took, finished university",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в словах об учёбе.",
+        "text": "Частые ошибки русскоговорящих в словах об учёбе.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -409,7 +409,7 @@
             },
             {
               "wrong": "I finished the university in 2020.",
-              "right": "I graduated from university in 2020. (окончить вуз — graduate)"
+              "right": "I finished university / I graduated from university in 2020. (без the; graduate — окончить с дипломом)"
             },
             {
               "wrong": "I made my homework.",
@@ -422,6 +422,62 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:study.exam",
+      "description": "Take — сдавать, pass — сдать, fail — провалить",
+      "slides": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:study.study_learn",
+      "description": "Study — учиться, learn — выучить",
+      "slides": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:study.graduate",
+      "description": "Graduate from university",
+      "slides": [
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:study.phrase",
+      "description": "Фразы на занятии",
+      "slides": [
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:study.word",
+      "description": "Слова об учёбе",
+      "slides": [
+        0,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }

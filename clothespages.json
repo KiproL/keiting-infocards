@@ -3,7 +3,7 @@
   "route": "cards_clothes",
   "slides": [
     {
-      "label": "Одежда: основные слова",
+      "label": "Одежда",
       "intro": {
         "text": "Основные слова об одежде. Брюки, джинсы, шорты и пижама в английском всегда во множественном числе: my jeans are new. Если нужна одна вещь — a pair of: a pair of jeans.",
         "highlights": [
@@ -312,7 +312,7 @@
       ]
     },
     {
-      "label": "Глаголы: put on, wear, fit, suit",
+      "label": "Put on, wear, fit",
       "intro": {
         "text": "Put on — надеть (одно действие), wear — быть в чём-то, носить (состояние). Fit — подходит по размеру, suit — идёт, к лицу.",
         "highlights": [
@@ -485,7 +485,7 @@
       ]
     },
     {
-      "label": "Одежда в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -599,7 +599,7 @@
       ]
     },
     {
-      "label": "Диалог: в магазине одежды",
+      "label": "Диалог в примерочной",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -681,10 +681,15 @@
       ]
     },
     {
-      "label": "Частые ошибки: put on, wear, fit",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Чаще всего путают put on и wear, fit и suit — и забывают, что брюки во множественном числе.",
+        "text": "Частые ошибки: путают put on и wear, fit и suit и забывают, что брюки во множественном числе.",
         "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          },
           {
             "text": "put on и wear",
             "color": "bad",
@@ -707,8 +712,8 @@
               "right": "I'm putting on my coat. (надеваю — put on)"
             },
             {
-              "wrong": "Wear your jacket! (надень)",
-              "right": "Put on your jacket! (надеть — действие)"
+              "wrong": "She's putting on a red coat. (она в красном пальто)",
+              "right": "She's wearing a red coat. (быть одетым — wear, надевать — put on)"
             },
             {
               "wrong": "This dress goes you.",
@@ -729,6 +734,43 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:clothes.verb",
+      "description": "Put on, wear, fit, suit, try on",
+      "slides": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:clothes.plural",
+      "description": "Jeans, trousers — всегда мн. число; a pair of",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:clothes.word",
+      "description": "Слова об одежде",
+      "slides": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }

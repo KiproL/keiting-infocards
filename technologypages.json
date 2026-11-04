@@ -3,7 +3,7 @@
   "route": "cards_technology",
   "slides": [
     {
-      "label": "Слова: device, charger, account",
+      "label": "Телефон и компьютер",
       "intro": {
         "text": "Слова для телефона, компьютера и приложений. Многие пришли в русский из английского, но часть — ложные друзья: ноутбук — laptop, а notebook — блокнот.",
         "highlights": [
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "label": "Глаголы: download и upload, log in",
+      "label": "Download или upload",
       "intro": {
         "text": "Download — скачать к себе, upload — загрузить в сеть.",
         "highlights": [
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "label": "Если не работает: The app keeps crashing",
+      "label": "Если не работает",
       "intro": {
         "text": "Как описать проблему с техникой.",
         "highlights": [
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "label": "Технологии в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -317,7 +317,7 @@
       ]
     },
     {
-      "label": "Диалог: тормозит ноутбук",
+      "label": "Тормозит ноутбук",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -362,12 +362,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: notebook, discharged",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в словах о технике.",
+        "text": "Частые ошибки русскоговорящих в словах о технике.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -380,7 +380,7 @@
           "errors": [
             {
               "wrong": "notebook (компьютер)",
-              "right": "laptop (notebook — блокнот)"
+              "right": "laptop (notebook обычно значит «блокнот»)"
             },
             {
               "wrong": "My phone is discharged.",
@@ -401,6 +401,52 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:technology.false_friend",
+      "description": "Ложные друзья: laptop, а не notebook; phone is dead",
+      "slides": [
+        0,
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:technology.load",
+      "description": "Download — к себе, upload — в сеть",
+      "slides": [
+        1,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:technology.phrase",
+      "description": "Если не работает: keeps crashing, won't turn on",
+      "slides": [
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:technology.word",
+      "description": "Слова о технике",
+      "slides": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }

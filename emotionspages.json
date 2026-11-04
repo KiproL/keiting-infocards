@@ -3,7 +3,7 @@
   "route": "cards_emotions",
   "slides": [
     {
-      "label": "Чувства: I'm happy, I feel tired",
+      "label": "Как назвать чувство",
       "intro": {
         "text": "Чувства описывают через be: I'm tired, she's worried. Глагол «чувствую» — feel: I feel happy.",
         "highlights": [
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "label": "Чувство + предлог: afraid of, proud of",
+      "label": "Чувство + предлог",
       "intro": {
         "text": "У каждого чувства свой предлог — по-русски он часто другой.",
         "highlights": [
@@ -164,7 +164,7 @@
               },
               {
                 "cells": [
-                  "angry with someone / about something",
+                  "angry with someone (амер. также at) / about something",
                   "злиться на кого-то / из-за чего-то"
                 ]
               },
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "label": "-ed и -ing: excited или exciting",
+      "label": "Bored или boring",
       "intro": {
         "text": "-ed — что чувствуешь, -ing — что вызывает чувство: I'm bored — мне скучно, the film is boring — фильм скучный. Подробно — в карточке «-ed и -ing».",
         "highlights": [
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "label": "Чувства в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "label": "Диалог: не сдал на права",
+      "label": "Диалог: экзамен",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -413,12 +413,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: I'm boring, afraid from",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в словах о чувствах.",
+        "text": "Частые ошибки в словах о чувствах.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -452,6 +452,43 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:emotions.ed_ing",
+      "description": "Чувствую — -ed, вызывает — -ing: bored / boring",
+      "slides": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:emotions.prep",
+      "description": "Чувство + предлог: afraid of, angry with",
+      "slides": [
+        1,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:emotions.word",
+      "description": "Слова о чувствах; feel без me",
+      "slides": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
     }
   ]
 }

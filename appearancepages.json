@@ -3,9 +3,9 @@
   "route": "cards_appearance",
   "slides": [
     {
-      "label": "Внешность: рост, волосы, лицо",
+      "label": "Рост, волосы, лицо",
       "intro": {
-        "text": "Внешность описывают по порядку: рост и фигура, возраст, волосы и лицо. Для волос и глаз — have: She has long dark hair.",
+        "text": "Внешность обычно описывают по порядку: рост и фигура, возраст, волосы и лицо. Для волос и глаз — have: She has long dark hair.",
         "highlights": [
           {
             "text": "по порядку",
@@ -114,12 +114,12 @@
       ]
     },
     {
-      "label": "Порядок прилагательных: long dark hair",
+      "label": "Long dark hair: порядок",
       "intro": {
-        "text": "Если прилагательных несколько, порядок фиксирован: мнение → размер → возраст → форма → цвет. Говорят long dark hair, а не dark long hair.",
+        "text": "Если прилагательных несколько, у них обычный порядок: мнение → размер → возраст → форма → цвет. Говорят long dark hair, а не dark long hair.",
         "highlights": [
           {
-            "text": "порядок фиксирован",
+            "text": "обычный порядок",
             "color": "term",
             "style": "bold"
           },
@@ -221,7 +221,7 @@
       ]
     },
     {
-      "label": "Характер: пары противоположностей",
+      "label": "Черты характера",
       "intro": {
         "text": "Характер удобно учить парами: слово и его противоположность.",
         "highlights": [
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "label": "What is she like и What does she look like",
+      "label": "Like или look like",
       "intro": {
         "text": "What is she like? — вопрос о характере, What does she look like? — о внешности. Like здесь не «нравится», а «какой».",
         "highlights": [
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "label": "Описания людей в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -524,7 +524,7 @@
       ]
     },
     {
-      "label": "Диалог: новенький в офисе",
+      "label": "Диалог о коллеге",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -565,12 +565,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: a long hair, How does she look like",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в описании людей.",
+        "text": "Частые ошибки в описании людей.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -604,6 +604,62 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:appearance.have",
+      "description": "Have для волос и глаз: She has blue eyes, не is with",
+      "slides": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:appearance.order",
+      "description": "Порядок прилагательных: long dark hair",
+      "slides": [
+        1,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:appearance.like",
+      "description": "What is she like? / What does she look like?",
+      "slides": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:appearance.hair",
+      "description": "Hair — неисчисляемое: long hair, не a long hair",
+      "slides": [
+        6
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:appearance.word",
+      "description": "Слова о внешности и характере",
+      "slides": [
+        0,
+        2,
+        4,
+        5,
+        6
+      ],
+      "decoys": []
     }
   ]
 }

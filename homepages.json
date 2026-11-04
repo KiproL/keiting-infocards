@@ -315,9 +315,9 @@
       ]
     },
     {
-      "label": "Дела по дому: do, make, take out",
+      "label": "Дела по дому",
       "intro": {
-        "text": "Дела по дому — устойчивые сочетания, их запоминают целиком. Чаще всего с do: do the cleaning; но make the bed и take out the rubbish.",
+        "text": "Дела по дому — устойчивые сочетания, их запоминают целиком. Часто с do: do the cleaning; но make the bed и take out the rubbish.",
         "highlights": [
           {
             "text": "устойчивые сочетания",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "label": "Дом в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "label": "Диалог: новая квартира",
+      "label": "Диалог о квартире",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -538,14 +538,14 @@
       ]
     },
     {
-      "label": "Частые ошибки: этаж, plate, wardrobe",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Чаще всего ошибаются с этажами, с «плитой» и со шкафами — и с глаголом make вместо do.",
+        "text": "Частые ошибки: этажи, «плита», шкафы и make вместо do.",
         "highlights": [
           {
-            "text": "с этажами",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           },
           {
             "text": "make вместо do",
@@ -573,7 +573,7 @@
             },
             {
               "wrong": "cupboard (для одежды)",
-              "right": "wardrobe (шкаф для одежды)"
+              "right": "обычно wardrobe (амер. closet); cupboard — для посуды и вещей"
             },
             {
               "wrong": "a three-room flat (гостиная и две спальни)",
@@ -582,6 +582,50 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:home.floor",
+      "description": "Этажи: ground floor (брит.), first floor",
+      "slides": [
+        0,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:home.furniture",
+      "description": "Wardrobe и cupboard, cooker и plate",
+      "slides": [
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:home.chores",
+      "description": "Do the cleaning, make the bed, take out the rubbish",
+      "slides": [
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:home.word",
+      "description": "Слова о доме",
+      "slides": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
     }
   ]
 }

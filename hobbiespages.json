@@ -3,9 +3,9 @@
   "route": "cards_hobbies",
   "slides": [
     {
-      "label": "Хобби: reading, cooking, hiking",
+      "label": "Хобби на -ing",
       "intro": {
-        "text": "Хобби чаще называют формой на -ing: reading, cooking, hiking. После like, love, enjoy — тоже -ing: I enjoy cooking.",
+        "text": "Хобби чаще называют формой на -ing: reading, cooking, hiking. После enjoy — только -ing: I enjoy cooking; после like и love можно и -ing, и to: I like cooking / I like to cook.",
         "highlights": [
           {
             "text": "на -ing",
@@ -13,8 +13,13 @@
             "style": "bold"
           },
           {
-            "text": "like, love, enjoy",
-            "color": "info",
+            "text": "enjoy",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "like и love",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -192,7 +197,7 @@
           "callout": {
             "type": "tip",
             "title": "С the",
-            "text": "С музыкальными инструментами обычно the: play the guitar, play the piano. С играми — без: play football."
+            "text": "С музыкальными инструментами обычно the: play the guitar, play the piano; в американском часто и без the: play guitar. С играми — без the: play football."
           }
         }
       ],
@@ -227,7 +232,7 @@
       ]
     },
     {
-      "label": "Как рассказать о хобби",
+      "label": "Рассказ о хобби",
       "intro": {
         "text": "Как спросить о свободном времени и рассказать о своих увлечениях. Take up — «начать заниматься», be into — «увлекаться».",
         "highlights": [
@@ -337,7 +342,7 @@
       ]
     },
     {
-      "label": "Хобби в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -390,7 +395,7 @@
       ]
     },
     {
-      "label": "Диалог: планы на выходные",
+      "label": "Планы на выходные",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -435,10 +440,15 @@
       ]
     },
     {
-      "label": "Частые ошибки: play swimming, do football",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Чаще всего путают глаголы play, go и do и ставят лишнее the или to.",
+        "text": "Частые ошибки: путают play, go и do и ставят лишнее the или to.",
         "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          },
           {
             "text": "play, go и do",
             "color": "bad",
@@ -479,6 +489,53 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:hobbies.verb",
+      "description": "Play football, go swimming, do yoga",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hobbies.ing",
+      "description": "Хобби и после enjoy — форма на -ing",
+      "slides": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hobbies.the",
+      "description": "Play the piano, но play football",
+      "slides": [
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hobbies.phrase",
+      "description": "Be into, take up, twice a week",
+      "slides": [
+        2,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }

@@ -3,7 +3,7 @@
   "route": "cards_body",
   "slides": [
     {
-      "label": "Части тела: arm и hand, leg и foot",
+      "label": "Части тела",
       "intro": {
         "text": "Рука и нога — по два слова: arm — вся рука, hand — кисть; leg — нога, foot — ступня. Пальцы рук — fingers, ног — toes.",
         "highlights": [
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "label": "Что болит: headache, sore throat, hurts",
+      "label": "Что болит",
       "intro": {
         "text": "Что болит: -ache для головы, зуба, живота, спины; sore — для горла и мышц; hurts — для любой части тела.",
         "highlights": [
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "label": "Здоровый образ жизни: keep fit, work out",
+      "label": "Здоровые привычки",
       "intro": {
         "text": "Устойчивые сочетания о форме, сне и привычках — их запоминают целиком: keep fit, give up smoking.",
         "highlights": [
@@ -307,7 +307,7 @@
       ]
     },
     {
-      "label": "Здоровье в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -405,12 +405,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: My head is ill, Be healthy!",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в словах о здоровье.",
+        "text": "Частые ошибки русскоговорящих в словах о здоровье.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -444,6 +444,57 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:body.parts",
+      "description": "Arm и hand, leg и foot, finger и toe",
+      "slides": [
+        0,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:body.ache",
+      "description": "Что болит: headache, sore throat, my knee hurts",
+      "slides": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:body.article",
+      "description": "A temperature, a cold, a sore throat — с a",
+      "slides": [
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:body.habit",
+      "description": "Keep fit, work out, put on weight",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:body.word",
+      "description": "Слова о теле и здоровье",
+      "slides": [
+        0,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }
