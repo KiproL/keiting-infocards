@@ -16,7 +16,7 @@
       "materials": [
         {
           "route": "cards_alphabet",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -26,7 +26,7 @@
         },
         {
           "route": "cards_readingrules",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -59,7 +59,7 @@
       "materials": [
         {
           "route": "cards_alphabet",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -69,7 +69,7 @@
         },
         {
           "route": "cards_readingrules",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -103,7 +103,7 @@
       "materials": [
         {
           "route": "cards_alphabet",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -1208,6 +1208,116 @@
   ],
   "units": [
     {
+      "id": "intro_alphabet_names",
+      "level": "Intro",
+      "title": "Как называются буквы",
+      "slices": [
+        {
+          "route": "cards_alphabet",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "intro_alphabet_dictation",
+      "level": "Intro",
+      "title": "Продиктовать имя и e-mail",
+      "slices": [
+        {
+          "route": "cards_alphabet",
+          "revision": 1,
+          "slides": [
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "intro_alphabet_names"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "intro_reading_vowels",
+      "level": "Intro",
+      "title": "Открытый и закрытый слог",
+      "slices": [
+        {
+          "route": "cards_readingrules",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "intro_alphabet_names"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "intro_reading_r",
+      "level": "Intro",
+      "title": "Гласная + r: car, bird, more",
+      "slices": [
+        {
+          "route": "cards_readingrules",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "intro_reading_vowels"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "intro_reading_consonants",
+      "level": "Intro",
+      "title": "C и g: city, cat, gym, go",
+      "slices": [
+        {
+          "route": "cards_readingrules",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "intro_alphabet_names"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "intro_reading_review",
+      "level": "Intro",
+      "title": "Читаем слово, а не буквы",
+      "slices": [
+        {
+          "route": "cards_readingrules",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "intro_reading_vowels",
+        "intro_reading_r",
+        "intro_reading_consonants"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a1_nouns_core",
       "level": "A1",
       "title": "Один предмет и несколько",
@@ -1495,6 +1605,60 @@
       ],
       "prerequisites": [
         "a1_article_zero"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_there_core",
+      "level": "A1",
+      "title": "Что где есть: there is, there are",
+      "slices": [
+        {
+          "route": "cards_thereisare",
+          "revision": 2,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_there_questions",
+      "level": "A1",
+      "title": "Is there…? There isn’t…",
+      "slices": [
+        {
+          "route": "cards_thereisare",
+          "revision": 2,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_there_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_there_review",
+      "level": "A1",
+      "title": "There is / are: проверка",
+      "slices": [
+        {
+          "route": "cards_thereisare",
+          "revision": 2,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_there_questions"
       ],
       "reviewed": false
     }
