@@ -205,7 +205,7 @@
         },
         {
           "route": "cards_directions",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -249,7 +249,7 @@
         },
         {
           "route": "cards_directions",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -436,7 +436,7 @@
       "materials": [
         {
           "route": "cards_shopping",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -527,7 +527,7 @@
       "materials": [
         {
           "route": "cards_shopping",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -539,7 +539,7 @@
         },
         {
           "route": "cards_restaurant",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -3140,6 +3140,765 @@
         "a2_modals_can",
         "a2_modals_must",
         "a2_modals_advice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_time_clock",
+      "level": "A1",
+      "title": "Который час: past и to",
+      "slices": [
+        {
+          "route": "cards_timemoney",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_numbers_1_20"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_time_dates",
+      "level": "A1",
+      "title": "Даты и годы: on, in, at",
+      "slices": [
+        {
+          "route": "cards_timemoney",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_time_clock",
+        "a1_numbers_ordinal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_money_prices",
+      "level": "A1",
+      "title": "Цены и деньги",
+      "slices": [
+        {
+          "route": "cards_timemoney",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_numbers_big"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_measures",
+      "level": "A2",
+      "title": "Мили, футы, фунты",
+      "slices": [
+        {
+          "route": "cards_timemoney",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_numbers_big"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_timemoney_phrases",
+      "level": "A1",
+      "title": "Время и деньги в речи",
+      "slices": [
+        {
+          "route": "cards_timemoney",
+          "revision": 1,
+          "slides": [
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_time_clock",
+        "a1_money_prices"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_timemoney_review",
+      "level": "A1",
+      "title": "Время и деньги: проверка",
+      "slices": [
+        {
+          "route": "cards_timemoney",
+          "revision": 1,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_timemoney_phrases"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_wordorder_svo",
+      "level": "A1",
+      "title": "Кто → делает → что",
+      "slices": [
+        {
+          "route": "cards_wordorder",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_wordorder_frequency",
+      "level": "A2",
+      "title": "Always, usually, never: где ставить",
+      "slices": [
+        {
+          "route": "cards_wordorder",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_wordorder_svo",
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_wordorder_tail",
+      "level": "A2",
+      "title": "Как → где → когда",
+      "slices": [
+        {
+          "route": "cards_wordorder",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_wordorder_svo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_wordorder_adjectives",
+      "level": "B1",
+      "title": "Порядок прилагательных",
+      "slices": [
+        {
+          "route": "cards_wordorder",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_wordorder_svo"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_wordorder_also_enough",
+      "level": "A2",
+      "title": "Also, only, enough",
+      "slices": [
+        {
+          "route": "cards_wordorder",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_wordorder_frequency"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_wordorder_review",
+      "level": "A2",
+      "title": "Порядок слов: проверка",
+      "slices": [
+        {
+          "route": "cards_wordorder",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_wordorder_frequency",
+        "a2_wordorder_tail",
+        "a2_wordorder_also_enough"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_directions_ask",
+      "level": "A1",
+      "title": "Как спросить дорогу",
+      "slices": [
+        {
+          "route": "cards_directions",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_there_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_directions_explain",
+      "level": "A1",
+      "title": "Как объяснить дорогу",
+      "slices": [
+        {
+          "route": "cards_directions",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_directions_ask",
+        "a1_prep_place",
+        "a1_imperative_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_directions_practice",
+      "level": "A1",
+      "title": "Дорога в речи и диалоге",
+      "slices": [
+        {
+          "route": "cards_directions",
+          "revision": 1,
+          "slides": [
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_directions_explain"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_directions_review",
+      "level": "A1",
+      "title": "Дорога: проверка",
+      "slices": [
+        {
+          "route": "cards_directions",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_directions_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_shopping_choose",
+      "level": "A1",
+      "title": "Выбрать и примерить",
+      "slices": [
+        {
+          "route": "cards_shopping",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_greetings_phrases"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_shopping_pay",
+      "level": "A1",
+      "title": "Оплатить: cash or card",
+      "slices": [
+        {
+          "route": "cards_shopping",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_shopping_choose",
+        "a1_money_prices"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_shopping_return",
+      "level": "A2",
+      "title": "Вернуть или обменять",
+      "slices": [
+        {
+          "route": "cards_shopping",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_shopping_pay"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_shopping_practice",
+      "level": "A1",
+      "title": "Покупки в речи и диалоге",
+      "slices": [
+        {
+          "route": "cards_shopping",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_shopping_pay"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_shopping_review",
+      "level": "A1",
+      "title": "Покупки: проверка",
+      "slices": [
+        {
+          "route": "cards_shopping",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_shopping_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_restaurant_arrive",
+      "level": "A1",
+      "title": "Прийти и сесть",
+      "slices": [
+        {
+          "route": "cards_restaurant",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_greetings_phrases"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_restaurant_order",
+      "level": "A1",
+      "title": "Заказать: I'd like, I'll have",
+      "slices": [
+        {
+          "route": "cards_restaurant",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_restaurant_arrive"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_restaurant_bill",
+      "level": "A1",
+      "title": "Счёт и чаевые",
+      "slices": [
+        {
+          "route": "cards_restaurant",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_restaurant_order",
+        "a1_money_prices"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_restaurant_practice",
+      "level": "A1",
+      "title": "Ресторан в речи и диалоге",
+      "slices": [
+        {
+          "route": "cards_restaurant",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_restaurant_order"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_restaurant_review",
+      "level": "A1",
+      "title": "Ресторан: проверка",
+      "slices": [
+        {
+          "route": "cards_restaurant",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_restaurant_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_weather_words",
+      "level": "A1",
+      "title": "Погода: It's sunny, It's raining",
+      "slices": [
+        {
+          "route": "cards_weather",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_weather_talk",
+      "level": "A1",
+      "title": "Как говорить о погоде",
+      "slices": [
+        {
+          "route": "cards_weather",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_weather_words"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_nature_words",
+      "level": "A2",
+      "title": "Природа: горы, реки, побережье",
+      "slices": [
+        {
+          "route": "cards_weather",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_weather_words",
+        "a1_article_zero"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_weather_practice",
+      "level": "A1",
+      "title": "Погода в речи и диалоге",
+      "slices": [
+        {
+          "route": "cards_weather",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_weather_talk"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_weather_review",
+      "level": "A1",
+      "title": "Погода: проверка",
+      "slices": [
+        {
+          "route": "cards_weather",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_weather_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_food_products",
+      "level": "A1",
+      "title": "Продукты: что можно посчитать",
+      "slices": [
+        {
+          "route": "cards_food",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_food_cooking",
+      "level": "A2",
+      "title": "Готовка: boil, fry, bake",
+      "slices": [
+        {
+          "route": "cards_food",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_food_products",
+        "a1_imperative_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_food_taste_meals",
+      "level": "A1",
+      "title": "Вкус и приёмы пищи",
+      "slices": [
+        {
+          "route": "cards_food",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_food_products"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_food_practice",
+      "level": "A1",
+      "title": "Еда в речи и диалоге",
+      "slices": [
+        {
+          "route": "cards_food",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_food_taste_meals"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_food_review",
+      "level": "A1",
+      "title": "Еда: проверка",
+      "slices": [
+        {
+          "route": "cards_food",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_food_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_jobs_names",
+      "level": "A1",
+      "title": "Профессии: I'm a nurse",
+      "slices": [
+        {
+          "route": "cards_jobs",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_introduction"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_jobs_work_job",
+      "level": "A2",
+      "title": "Job или work",
+      "slices": [
+        {
+          "route": "cards_jobs",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_jobs_names",
+        "a2_nouns_uncountable"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_jobs_talk",
+      "level": "A1",
+      "title": "What do you do?",
+      "slices": [
+        {
+          "route": "cards_jobs",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_jobs_names",
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_jobs_practice",
+      "level": "A2",
+      "title": "Работа в речи и диалоге",
+      "slices": [
+        {
+          "route": "cards_jobs",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_jobs_talk",
+        "a2_jobs_work_job"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_jobs_review",
+      "level": "A2",
+      "title": "Работа: проверка",
+      "slices": [
+        {
+          "route": "cards_jobs",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_jobs_practice"
       ],
       "reviewed": false
     }
