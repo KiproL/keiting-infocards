@@ -3,29 +3,19 @@
   "route": "cards_discoursemarkers",
   "slides": [
     {
-      "label": "Оговорки: mind you, admittedly, that said",
+      "label": "Оговорки: mind you",
       "intro": {
-        "text": "Discourse markers — короткие слова и обороты, которые показывают, куда идёт разговор: уступка, оговорка, возврат к теме. Без них речь звучит сухо и как перевод.",
+        "text": "Хвалишь ресторан, но честно: It's expensive. Mind you, the food is great — «правда, кормят отлично». Discourse markers показывают, куда идёт разговор: уступка, оговорка, возврат к теме. Без них речь звучит сухо.",
         "highlights": [
           {
-            "text": "Discourse markers",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "уступка",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "оговорка",
+            "text": "Mind you, the food is great",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "возврат к теме",
-            "color": "good",
-            "style": "bold"
+            "text": "куда идёт разговор",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -105,7 +95,7 @@
       ]
     },
     {
-      "label": "Внезапная мысль: come to think of it, as it happens",
+      "label": "Внезапная мысль",
       "intro": {
         "text": "Есть маркеры, которые вводят внезапную мысль или скромное мнение: come to think of it — «если подумать», as it happens — «как раз», for what it's worth — «если интересно моё мнение».",
         "highlights": [
@@ -208,12 +198,13 @@
                 "ru": "План не помог. Скорее даже всё ухудшил."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Переход и итог: anyway, speaking of which",
+      "label": "Переход и итог",
       "intro": {
         "text": "Чтобы вернуться к теме, сменить её или подвести итог, есть свои слова: anyway, speaking of which, as I was saying, to cut a long story short, all in all.",
         "highlights": [
@@ -325,17 +316,18 @@
                 "ru": "В общем и целом, год был хороший."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: as it happen, come to think",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки с маркерами речи.",
+        "text": "Частые ошибки с маркерами речи. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -375,14 +367,33 @@
             "type": "tip",
             "title": "Как запомнить",
             "text": "Это устойчивые обороты: в них нельзя менять ни слова. Учи их целиком, как одно слово."
-          },
-          "quote": {
-            "text": "Маркер — дорожный знак: он не говорит, что везёшь, но показывает, куда повернёшь.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:discoursemarkers.fixed",
+      "description": "устойчивые обороты — целиком, без замены слов",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_anyway",
+    "word_c1_admittedly"
+  ],
+  "prerequisites": [
+    "cards_despite"
+  ],
+  "prerequisites_reviewed": false
 }

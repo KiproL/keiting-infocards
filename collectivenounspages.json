@@ -3,24 +3,19 @@
   "route": "cards_collectivenouns",
   "slides": [
     {
-      "label": "Is или are: police, news, family",
+      "label": "Is или are",
       "intro": {
-        "text": "Есть существительные, которые означают группу. Одни всегда во множественном (police, people), другие всегда в единственном (news, advice), третьи — как посмотреть (family, team).",
+        "text": "По телевизору: The police are looking for the driver. А в газете: The news is good. По-русски «полиция ищет» — единственное число, а по-английски police — всегда are. Есть слова, которые всегда во множественном (police, people), всегда в единственном (news, advice) и «как посмотреть» (family, team).",
         "highlights": [
           {
-            "text": "всегда во множественном",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "всегда в единственном",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "как посмотреть",
+            "text": "The police are looking for the driver",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "police — всегда are",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -122,12 +117,13 @@
                 "ru": "Ваша информация была очень полезной."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Как сказать «одна штука»: a piece of",
+      "label": "Одна штука: a piece of",
       "intro": {
         "text": "К словам вроде advice нельзя добавить a и -s. Одну штуку называют через a piece of, пару — через a pair of.",
         "highlights": [
@@ -232,24 +228,20 @@
                 "ru": "Мне помог полицейский."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: police is, advices",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки: is с police и people, -s у advice и information.",
+        "text": "Частые ошибки с такими существительными. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "is с police и people",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "-s у advice",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -283,8 +275,68 @@
               "right": "People are waiting. (people — мн. число)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Police, people, clothes — are. News, advice, information, furniture — is и без -s. Одна штука — a piece of, пара — a pair of."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:collectivenouns.plural",
+      "description": "police, people, clothes, jeans — are",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:collectivenouns.uncount",
+      "description": "news, advice, information, furniture — is, без -s и a",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:collectivenouns.piece",
+      "description": "a piece of / a pair of — одна штука",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:collectivenouns.group",
+      "description": "family, team, staff — is или are",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_police",
+    "word_news",
+    "word_advice",
+    "word_information",
+    "word_a2_furniture"
+  ],
+  "prerequisites": [
+    "cards_pluralnouns"
+  ],
+  "prerequisites_reviewed": false
 }

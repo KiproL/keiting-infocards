@@ -787,7 +787,7 @@
       "materials": [
         {
           "route": "cards_contrastlinkers",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -963,7 +963,7 @@
         },
         {
           "route": "cards_discoursemarkers",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -1006,7 +1006,7 @@
         },
         {
           "route": "cards_discoursemarkers",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -1125,7 +1125,7 @@
         },
         {
           "route": "cards_discoursemarkers",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -1160,7 +1160,7 @@
       "materials": [
         {
           "route": "cards_discoursemarkers",
-          "revision": 0,
+          "revision": 1,
           "slides": [
             0,
             1,
@@ -1282,6 +1282,26 @@
       ],
       "prerequisites": [
         "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_collective_nouns",
+      "level": "B1",
+      "title": "The police are",
+      "slices": [
+        {
+          "route": "cards_collectivenouns",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_nouns_special"
       ],
       "reviewed": false
     },
@@ -1603,6 +1623,87 @@
       "reviewed": false
     },
     {
+      "id": "b2_cleft",
+      "level": "B2",
+      "title": "It was Tom who…",
+      "slices": [
+        {
+          "route": "cards_cleftsentence",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_relative_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_emphasis",
+      "level": "B2",
+      "title": "The very, at all",
+      "slices": [
+        {
+          "route": "cards_emphasis",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_pronouns_reflexive"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_emphatic_do",
+      "level": "B2",
+      "title": "I do like it",
+      "slices": [
+        {
+          "route": "cards_emphaticdo",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_what_i_need",
+      "level": "C1",
+      "title": "What I need is…",
+      "slices": [
+        {
+          "route": "cards_pseudocleft",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2_cleft"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a1_prep_place",
       "level": "A1",
       "title": "In, on, at: место, время",
@@ -1676,6 +1777,27 @@
       ],
       "prerequisites": [
         "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_by_until",
+      "level": "B1",
+      "title": "By, until, in time",
+      "slices": [
+        {
+          "route": "cards_bytimeuntil",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_prep_place"
       ],
       "reviewed": false
     },
@@ -1799,6 +1921,28 @@
       ],
       "prerequisites": [
         "a1_article_reference"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_comparatives_more",
+      "level": "B2",
+      "title": "The more, the better",
+      "slices": [
+        {
+          "route": "cards_comparativesadv",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_comparisons_degrees"
       ],
       "reviewed": false
     },
@@ -2384,6 +2528,28 @@
       "reviewed": false
     },
     {
+      "id": "b1_deduction",
+      "level": "B1",
+      "title": "Must be, can't be",
+      "slices": [
+        {
+          "route": "cards_deduction",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_can"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "b1_supposed_to",
       "level": "B1",
       "title": "Be supposed to",
@@ -2869,6 +3035,69 @@
       ],
       "prerequisites": [
         "a2_because_of"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_concessive",
+      "level": "C1",
+      "title": "Tired as she was",
+      "slices": [
+        {
+          "route": "cards_concessive",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_despite"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_whereas_albeit",
+      "level": "C1",
+      "title": "Whereas, albeit",
+      "slices": [
+        {
+          "route": "cards_contrastlinkers",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_despite"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_discourse_markers",
+      "level": "C1",
+      "title": "Mind you, admittedly",
+      "slices": [
+        {
+          "route": "cards_discoursemarkers",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_despite"
       ],
       "reviewed": false
     },
@@ -4401,6 +4630,27 @@
       "reviewed": false
     },
     {
+      "id": "c1_but_for",
+      "level": "C1",
+      "title": "But for, otherwise",
+      "slices": [
+        {
+          "route": "cards_butforotherwise",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2_cond_wish_linkers"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "b2_wish_past",
       "level": "B2",
       "title": "Wish: о прошлом, would",
@@ -4417,6 +4667,27 @@
       "prerequisites": [
         "b1_wish_present",
         "b1_pastperf_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_as_if",
+      "level": "B2",
+      "title": "As if, as though",
+      "slices": [
+        {
+          "route": "cards_asifthough",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_wish_present"
       ],
       "reviewed": false
     },
@@ -4695,6 +4966,27 @@
       "reviewed": false
     },
     {
+      "id": "c1_be_to",
+      "level": "C1",
+      "title": "Be to: все значения",
+      "slices": [
+        {
+          "route": "cards_betoinfinitive",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2_be_to"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "b2_likely_bound",
       "level": "B2",
       "title": "Likely, bound, due to",
@@ -4711,6 +5003,27 @@
       ],
       "prerequisites": [
         "a2_modals_can"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_due_set_verge",
+      "level": "B2",
+      "title": "Due to, set to, verge",
+      "slices": [
+        {
+          "route": "cards_beduetoset",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2_likely_bound"
       ],
       "reviewed": false
     },

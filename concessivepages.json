@@ -3,19 +3,19 @@
   "route": "cards_concessive",
   "slides": [
     {
-      "label": "Tired as she was: «как она ни устала»",
+      "label": "Tired as she was",
       "intro": {
-        "text": "В книжной речи «хотя» можно выразить так: прилагательное или наречие + as + S + глагол. Tired as she was, she kept going — «Как она ни устала, она продолжала».",
+        "text": "В романе: Tired as she was, she kept going — «как она ни устала, она шла дальше». Это книжное «хотя»: прилагательное или наречие, потом as, потом подлежащее и глагол в прямом порядке.",
         "highlights": [
           {
-            "text": "прилагательное или наречие + as",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "Tired as she was, she kept going",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "хотя",
+            "text": "книжное «хотя»",
             "color": "info",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -162,11 +162,16 @@
               "ru": "Как он ни богат, счастья у него нет."
             }
           ]
+        },
+        {
+          "title": "В американском — с as в начале",
+          "borderColor": "term",
+          "text": "В американском английском говорят и As tired as she was, she kept going. Это тоже правильно."
         }
       ]
     },
     {
-      "label": "Much as, try as I might, come what may",
+      "label": "Much as, try as I might",
       "intro": {
         "text": "Much as + предложение — «как бы ни», «хотя очень»: Much as I like him, I can't agree. Try as I might — «как я ни старался»: Try as I might, I couldn't open it.",
         "highlights": [
@@ -233,7 +238,7 @@
       ]
     },
     {
-      "label": "However hard, no matter what",
+      "label": "However hard, no matter",
       "intro": {
         "text": "Нейтральный вариант — however или no matter how + прилагательное + S + глагол: However hard I try… А no matter what / who / where — «что бы ни», «кто бы ни», «где бы ни».",
         "highlights": [
@@ -338,17 +343,18 @@
               }
             ],
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: much as … but, however I try hard",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки в уступительных оборотах.",
+        "text": "Частые ошибки с уступительными оборотами. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -369,11 +375,11 @@
             },
             {
               "wrong": "However I try hard, I fail.",
-              "right": "However hard I try, I fail. (прилагательное — сразу после however)"
+              "right": "However hard I try, I fail. (hard — сразу после however)"
             },
             {
               "wrong": "No matter how I am tired, I read.",
-              "right": "No matter how tired I am, I read. (прилагательное — сразу после how)"
+              "right": "No matter how tired I am, I read. (tired — сразу после how)"
             },
             {
               "wrong": "Strange as may it seem, it's true.",
@@ -388,14 +394,58 @@
             "type": "tip",
             "title": "Проверь себя",
             "text": "После таких оборотов во второй части but не нужен. Порядок — прямой: подлежащее, потом глагол."
-          },
-          "quote": {
-            "text": "Уступка уже сказана — второй союз лишний.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:concessive.as",
+      "description": "прил. / нареч. + as + подлежащее + глагол",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:concessive.fixed",
+      "description": "much as, try as I might, come what may",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:concessive.however",
+      "description": "however / no matter how + прил. + подлежащее + глагол",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:concessive.but",
+      "description": "Во второй части but не нужен",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_however",
+    "word_a2_matter"
+  ],
+  "prerequisites": [
+    "cards_despite"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -3,23 +3,18 @@
   "route": "cards_betoinfinitive",
   "slides": [
     {
-      "label": "Be to: официальный план и приказ",
+      "label": "Be to: план, приказ",
       "intro": {
-        "text": "Be to + глагол — официальный план или распоряжение: The President is to visit Japan — «Президент посетит Японию». You are not to leave — «Вам нельзя уходить». Так пишут в новостях и инструкциях.",
+        "text": "В новостях: The President is to visit Japan — «президент посетит Японию». На табличке: Visitors are not to touch the exhibits — «экспонаты не трогать». Be to + глагол — официальный план, распоряжение или запрет. Основы — и в карточке «Be supposed to», здесь — все значения.",
         "highlights": [
           {
-            "text": "официальный план",
+            "text": "The President is to visit Japan",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "официальный план, распоряжение или запрет",
             "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "распоряжение",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "Be to + глагол",
-            "color": "term",
             "style": "bold_underline"
           }
         ]
@@ -136,49 +131,24 @@
         {
           "title": "Смыслы",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Смысл",
-              "Пример",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "план",
-                  "The minister is to resign.",
-                  "Министр уйдёт в отставку."
-                ]
-              },
-              {
-                "cells": [
-                  "приказ",
-                  "You are to stay here.",
-                  "Вы должны оставаться здесь."
-                ]
-              },
-              {
-                "cells": [
-                  "запрет",
-                  "Students are not to use phones.",
-                  "Студентам нельзя пользоваться телефонами."
-                ]
-              },
-              {
-                "cells": [
-                  "инструкция",
-                  "The tablets are to be taken daily.",
-                  "Таблетки принимать ежедневно."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "examples": [
+            {
+              "en": "The minister is to resign.",
+              "ru": "Министр уйдёт в отставку. — план"
+            },
+            {
+              "en": "You are to stay here.",
+              "ru": "Вы должны оставаться здесь. — приказ"
+            },
+            {
+              "en": "Students are not to use phones.",
+              "ru": "Студентам нельзя пользоваться телефонами. — запрет"
+            },
+            {
+              "en": "The tablets are to be taken daily.",
+              "ru": "Таблетки принимать ежедневно. — инструкция"
+            }
+          ]
         },
         {
           "title": "Заголовки",
@@ -200,8 +170,8 @@
             "borderColor": "good",
             "examples": [
               {
-                "en": "The Queen is to visit Canada in May.",
-                "ru": "В мае королева посетит Канаду."
+                "en": "The King is to visit Canada in May.",
+                "ru": "В мае король посетит Канаду."
               },
               {
                 "en": "You are to report to the manager at nine.",
@@ -216,12 +186,13 @@
                 "ru": "Если мы хотим победить, надо тренироваться усерднее."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "If we are to…, was to have done",
+      "label": "If we are to, was to",
       "intro": {
         "text": "В условии be to значит «если мы хотим», «чтобы…»: If we are to win, we must train harder. А в прошлом was to — «ему суждено было», was to have done — «должен был, но не случилось».",
         "highlights": [
@@ -281,7 +252,7 @@
               },
               {
                 "cells": [
-                  "were to",
+                  "was / were to",
                   "The meeting was to start at nine.",
                   "Встреча должна была начаться в девять."
                 ]
@@ -311,7 +282,7 @@
       ]
     },
     {
-      "label": "Be to, be going to, be due to: чем отличаются",
+      "label": "Be to или going to",
       "intro": {
         "text": "Похожих оборотов много. Be to — официальнее всех и звучит как решение сверху.",
         "highlights": [
@@ -380,12 +351,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: is to visiting, if we will win",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки с be to.",
+        "text": "Частые ошибки с be to. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -425,14 +396,57 @@
             "type": "tip",
             "title": "Когда говорить",
             "text": "В обычной беседе о своих планах be to звучит странно. Это язык новостей, правил и распоряжений."
-          },
-          "quote": {
-            "text": "Be to — голос начальника, расписания или судьбы.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:betoinfinitive.form",
+      "description": "be + to + глагол без -ing",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:betoinfinitive.meaning",
+      "description": "be to — официальный план, приказ, запрет",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:betoinfinitive.if",
+      "description": "if … be to — «если хотим»",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:betoinfinitive.past",
+      "description": "was to — суждено; was to have + V3 — не случилось",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_be"
+  ],
+  "prerequisites": [
+    "cards_besupposedto"
+  ],
+  "prerequisites_reviewed": false
 }

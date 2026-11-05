@@ -3,19 +3,19 @@
   "route": "cards_pseudocleft",
   "slides": [
     {
-      "label": "What I need is…: выделяем главное",
+      "label": "What I need is",
       "intro": {
-        "text": "Кроме It was Tom who… (это карточка C1), есть второй способ выделить главное — начать с What / All / The thing: What I need is a holiday — «Что мне нужно, так это отпуск».",
+        "text": "Друг предлагает тебе десять способов отдохнуть, а ты устал: What I need is a holiday — «что мне нужно, так это отпуск». Кроме It was Tom who… (карточка «It is / was … that / who») главное можно выделить, начав с What, All или The thing.",
         "highlights": [
           {
-            "text": "второй способ",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "What I need is a holiday",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "What I need is",
-            "color": "info",
-            "style": "bold"
+            "text": "What, All или The thing",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "label": "What и All: All I want is…",
+      "label": "What и All",
       "intro": {
         "text": "What … is выделяет предмет или действие. All … is — «всё, что…, это» — подчёркивает, что больше ничего не нужно.",
         "highlights": [
@@ -152,12 +152,13 @@
                 "ru": "Я просил всего лишь стакан воды."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "The reason why, the place where",
+      "label": "The reason why",
       "intro": {
         "text": "Выделить причину, место или время помогают The reason why, The place where, The moment when.",
         "highlights": [
@@ -228,12 +229,13 @@
                 "ru": "Жалею только о том, что не научился плавать."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Наоборот: A holiday is what I need",
+      "label": "A holiday is what…",
       "intro": {
         "text": "Выделенную часть можно поставить в начало: A holiday is what I need. Так звучит ещё эмоциональнее.",
         "highlights": [
@@ -294,17 +296,18 @@
                 "ru": "Вот так и варят хороший кофе."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: All what, What I need it is",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки — и как сказать правильно.",
+        "text": "Частые ошибки с выделением через what и all. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -336,8 +339,66 @@
               "right": "That's the thing that worries me. (после thing — that)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "После What-части — is или was, без it. После All — без what. Действие после was — глагол: What he did was call."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:pseudocleft.what",
+      "description": "What … is / All … is, без it и без what после all",
+      "slides": [
+        0,
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pseudocleft.verb",
+      "description": "What he did was + глагол",
+      "slides": [
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pseudocleft.reason",
+      "description": "the reason why / for, the place where, the thing that",
+      "slides": [
+        2,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pseudocleft.front",
+      "description": "A holiday is what… / That's what…",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_what",
+    "word_reason"
+  ],
+  "prerequisites": [
+    "cards_cleftsentence"
+  ],
+  "prerequisites_reviewed": false
 }

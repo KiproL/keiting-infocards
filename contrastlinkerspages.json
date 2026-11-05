@@ -3,29 +3,19 @@
   "route": "cards_contrastlinkers",
   "slides": [
     {
-      "label": "Whereas и while: «тогда как»",
+      "label": "Whereas и while",
       "intro": {
-        "text": "Whereas и while сравнивают два факта, которые противоречат друг другу: «тогда как», «в то время как». Это не время, а контраст.",
+        "text": "В эссе сравниваешь два города: The north is rainy, whereas the south is dry — «тогда как на юге сухо». Whereas и while противопоставляют два факта. Это не время, а контраст.",
         "highlights": [
           {
-            "text": "Whereas",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "The north is rainy, whereas the south is dry",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "while",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "тогда как",
+            "text": "противопоставляют два факта",
             "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "контраст",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -129,42 +119,23 @@
         {
           "title": "Варианты",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Слово",
-              "Стиль",
-              "Пример"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "whereas",
-                  "нейтрально-книжно",
-                  "I like tea, whereas she prefers coffee."
-                ]
-              },
-              {
-                "cells": [
-                  "while",
-                  "нейтрально",
-                  "While he is shy, his brother is loud."
-                ]
-              },
-              {
-                "cells": [
-                  "whilst",
-                  "британское, книжное",
-                  "Some agreed, whilst others refused."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "rules": [
+            {
+              "name": "whereas",
+              "suffix": "книжно",
+              "example": "I like tea, whereas she prefers coffee."
+            },
+            {
+              "name": "while",
+              "suffix": "нейтрально",
+              "example": "While he is shy, his brother is loud."
+            },
+            {
+              "name": "whilst",
+              "suffix": "брит., книжно",
+              "example": "Some agreed, whilst others refused."
+            }
+          ]
         },
         {
           "title": "Живые примеры",
@@ -187,7 +158,7 @@
       ]
     },
     {
-      "label": "Albeit: «хотя и» без глагола",
+      "label": "Albeit: хотя и",
       "intro": {
         "text": "Albeit — книжное «хотя и», «пусть и». После него идёт не целое предложение, а слово или короткая группа: a small, albeit important, change.",
         "highlights": [
@@ -212,49 +183,30 @@
         {
           "title": "После albeit",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Что идёт",
-              "Пример",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "прилагательное",
-                  "a slow, albeit steady, recovery",
-                  "медленное, хотя и стабильное восстановление"
-                ]
-              },
-              {
-                "cells": [
-                  "наречие",
-                  "He agreed, albeit reluctantly.",
-                  "Он согласился, пусть и неохотно."
-                ]
-              },
-              {
-                "cells": [
-                  "группа с предлогом",
-                  "It worked, albeit with some delay.",
-                  "Сработало, хотя и с задержкой."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "rules": [
+            {
+              "name": "прил.",
+              "suffix": "хотя и",
+              "example": "a slow, albeit steady, recovery"
+            },
+            {
+              "name": "нареч.",
+              "suffix": "пусть и",
+              "example": "He agreed, albeit reluctantly."
+            },
+            {
+              "name": "с предлогом",
+              "suffix": "хотя и с…",
+              "example": "It worked, albeit with some delay."
+            }
+          ]
         },
         {
           "title": "Целое предложение",
           "borderColor": "bad",
           "callout": {
             "type": "warning",
-            "text": "Если дальше подлежащее и глагол, albeit не подходит: нужен although. Although he was tired, he worked.",
+            "text": "Если дальше подлежащее и глагол, albeit не подходит: нужен although. С одним словом although тоже бывает: He agreed, although reluctantly. Albeit звучит книжнее.",
             "title": "Albeit ≠ although"
           }
         }
@@ -285,12 +237,13 @@
                 "ru": "Хотя план был рискованным, он сработал. (целое предложение — although)"
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Notwithstanding, nonetheless, even so",
+      "label": "Тем не менее",
       "intro": {
         "text": "Для официальных текстов есть notwithstanding — «несмотря на», и связки nonetheless, even so, be that as it may — «тем не менее», «как бы то ни было».",
         "highlights": [
@@ -320,49 +273,28 @@
         {
           "title": "Связки",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Связка",
-              "Как стоит",
-              "Пример"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "notwithstanding",
-                  "+ сущ.",
-                  "Notwithstanding the costs, we went ahead."
-                ]
-              },
-              {
-                "cells": [
-                  "nonetheless",
-                  "начало или конец",
-                  "It was risky. Nonetheless, it worked."
-                ]
-              },
-              {
-                "cells": [
-                  "even so",
-                  "начало фразы",
-                  "The hotel was cheap. Even so, it was clean."
-                ]
-              },
-              {
-                "cells": [
-                  "be that as it may",
-                  "начало фразы",
-                  "Be that as it may, the rules are clear."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "rules": [
+            {
+              "name": "notwithstanding",
+              "suffix": "+ сущ.",
+              "example": "Notwithstanding the costs, we went ahead."
+            },
+            {
+              "name": "nonetheless",
+              "suffix": "начало, конец",
+              "example": "It was risky. Nonetheless, it worked."
+            },
+            {
+              "name": "even so",
+              "suffix": "начало",
+              "example": "The hotel was cheap. Even so, it was clean."
+            },
+            {
+              "name": "be that as it may",
+              "suffix": "начало",
+              "example": "Be that as it may, the rules are clear."
+            }
+          ]
         },
         {
           "title": "Живые примеры",
@@ -381,12 +313,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: albeit + предложение, whereas … but",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки в книжных связках.",
+        "text": "Частые ошибки с книжными связками. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -422,14 +354,56 @@
             "type": "tip",
             "title": "Не путай",
             "text": "Whereas и while соединяют два предложения. Albeit и notwithstanding требуют слова или группы, а не целого предложения. Два союза подряд (whereas … but) не ставят."
-          },
-          "quote": {
-            "text": "Одна мысль — одна связка: although или but, но не оба сразу.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:contrastlinkers.whereas",
+      "description": "whereas / while — контраст двух фактов",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:contrastlinkers.albeit",
+      "description": "albeit + слово или группа, не предложение",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:contrastlinkers.formal",
+      "description": "notwithstanding + сущ.; nonetheless, even so, be that as it may",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:contrastlinkers.double",
+      "description": "whereas … but — два союза не ставят",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_c1_albeit"
+  ],
+  "prerequisites": [
+    "cards_despite"
+  ],
+  "prerequisites_reviewed": false
 }

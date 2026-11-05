@@ -3,19 +3,19 @@
   "route": "cards_butforotherwise",
   "slides": [
     {
-      "label": "But for: «если бы не»",
+      "label": "Если бы не: but for",
       "intro": {
-        "text": "But for + существительное — «если бы не»: But for your help, I would have failed. Это короткая замена If it hadn't been for… или If it weren't for…",
+        "text": "Друг выручил тебя на экзамене: But for your help, I would have failed — «если бы не твоя помощь, я бы провалился». But for + существительное — короткая замена If it hadn't been for… или If it weren't for…",
         "highlights": [
           {
-            "text": "But for",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "But for your help, I would have failed",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "если бы не",
-            "color": "info",
-            "style": "bold"
+            "text": "But for + существительное",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "label": "Otherwise: «иначе» и «в остальном»",
+      "label": "Otherwise: иначе",
       "intro": {
         "text": "Otherwise и or else — «иначе», «а то». Первая часть говорит, что нужно сделать, вторая — что будет, если не сделать. Otherwise бывает и в прошлом: «а иначе бы…».",
         "highlights": [
@@ -216,49 +216,24 @@
         {
           "title": "Когда",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Смысл",
-              "Пример",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "предупреждение",
-                  "Hurry up, otherwise we'll miss the train.",
-                  "Поторопись, иначе опоздаем."
-                ]
-              },
-              {
-                "cells": [
-                  "разговорно",
-                  "Be careful, or else you'll fall.",
-                  "Осторожно, а то упадёшь."
-                ]
-              },
-              {
-                "cells": [
-                  "о прошлом",
-                  "I was ill; otherwise I would have come.",
-                  "Я болел, иначе бы пришёл."
-                ]
-              },
-              {
-                "cells": [
-                  "«в остальном»",
-                  "The room was small but otherwise fine.",
-                  "Комната маленькая, а в остальном хорошая."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "examples": [
+            {
+              "en": "Hurry up, otherwise we'll miss the train.",
+              "ru": "Поторопись, иначе опоздаем. — предупреждение"
+            },
+            {
+              "en": "Be careful, or else you'll fall.",
+              "ru": "Осторожно, а то упадёшь. — разговорно"
+            },
+            {
+              "en": "I was ill; otherwise I would have come.",
+              "ru": "Я болел, иначе бы пришёл. — о прошлом"
+            },
+            {
+              "en": "The room was small but otherwise fine.",
+              "ru": "Комната маленькая, а в остальном хорошая. — «в остальном»"
+            }
+          ]
         },
         {
           "title": "Два смысла",
@@ -296,12 +271,13 @@
                 "ru": "Отель был шумным, а в остальном отличным."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Supposing, what if, assuming",
+      "label": "Supposing, what if",
       "intro": {
         "text": "Supposing, suppose и what if вводят выдуманную ситуацию: «предположим», «а что если». Assuming (that) и on condition that — «при условии, что».",
         "highlights": [
@@ -331,49 +307,24 @@
         {
           "title": "Предположение",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Оборот",
-              "Пример",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "supposing",
-                  "Supposing you won, what would you do?",
-                  "Предположим, ты выиграл — что бы ты сделал?"
-                ]
-              },
-              {
-                "cells": [
-                  "what if",
-                  "What if it rains?",
-                  "А что если пойдёт дождь?"
-                ]
-              },
-              {
-                "cells": [
-                  "assuming",
-                  "Assuming the train is on time, we'll be there at six.",
-                  "Если поезд не опоздает, будем в шесть."
-                ]
-              },
-              {
-                "cells": [
-                  "on condition that",
-                  "You can go on condition that you call me.",
-                  "Иди, но при условии, что позвонишь."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "examples": [
+            {
+              "en": "Supposing you won, what would you do?",
+              "ru": "Предположим, ты выиграл — что бы ты сделал?"
+            },
+            {
+              "en": "What if it rains?",
+              "ru": "А что если пойдёт дождь?"
+            },
+            {
+              "en": "Assuming the train is on time, we'll be there at six.",
+              "ru": "Если поезд не опоздает, будем в шесть."
+            },
+            {
+              "en": "You can go on condition that you call me.",
+              "ru": "Иди, но при условии, что позвонишь."
+            }
+          ]
         },
         {
           "title": "Время",
@@ -411,17 +362,18 @@
                 "ru": "Дам, но при условии, что вернёшь завтра."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: but for + предложение",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки в условиях без if.",
+        "text": "Частые ошибки с условиями без if. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -434,7 +386,7 @@
           "errors": [
             {
               "wrong": "But for you helped me, I would have failed.",
-              "right": "But for your help, I would have failed. (после but for — существительное)"
+              "right": "But for your help, I would have failed. (после but for — без глагола)"
             },
             {
               "wrong": "But for the map, we got lost.",
@@ -461,14 +413,67 @@
             "type": "tip",
             "title": "Проверь себя",
             "text": "После but for — существительное, не предложение. Во второй части — would / would have, как в обычном нереальном условии."
-          },
-          "quote": {
-            "text": "But for = «если бы не» + кто-то или что-то.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:butforotherwise.butfor",
+      "description": "but for + существительное, не предложение",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:butforotherwise.unreal",
+      "description": "Во второй части — would / would have",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:butforotherwise.otherwise",
+      "description": "otherwise / or else — иначе; otherwise — в остальном",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:butforotherwise.suppose",
+      "description": "supposing / what if / assuming — без would",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:butforotherwise.inversion",
+      "description": "were it not / had it not been for",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_otherwise",
+    "word_a2_suppose"
+  ],
+  "prerequisites": [
+    "cards_conditionals"
+  ],
+  "prerequisites_reviewed": false
 }

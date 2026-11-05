@@ -3,24 +3,19 @@
   "route": "cards_emphaticdo",
   "slides": [
     {
-      "label": "I do like it: усиливаем глагол",
+      "label": "I do like it",
       "intro": {
-        "text": "Do, does и did в утверждении усиливают глагол: I do like it! — «Мне правда нравится!». Так спорят, настаивают и подчёркивают контраст. Голосом это слово выделяют.",
+        "text": "Тебе не верят, что ты закрыл дверь: I did lock it! — «да закрыл я!». Do, does и did в утверждении усиливают глагол: так спорят, настаивают, подчёркивают контраст. Голосом это слово выделяют.",
         "highlights": [
           {
-            "text": "усиливают глагол",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "I do like it!",
+            "text": "I did lock it!",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "выделяют",
+            "text": "усиливают глагол",
             "color": "info",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -191,11 +186,11 @@
             "borderColor": "good",
             "examples": [
               {
-                "en": "You don't like me. — I DO like you!",
+                "en": "You don't like me. — I do like you!",
                 "ru": "Ты меня не любишь. — Да нет же, люблю!"
               },
               {
-                "en": "Why didn't you call? — I DID call! Twice.",
+                "en": "Why didn't you call? — I did call! Twice.",
                 "ru": "Почему не позвонил? — Я звонил! Дважды."
               },
               {
@@ -206,20 +201,21 @@
             "callout": {
               "type": "tip",
               "title": "Ударение на do",
-              "text": "Без ударения голосом do звучит странно. Выделяй его: I DO like it."
+              "text": "Без ударения голосом do звучит странно. Выделяй его: I do like it — с ударением на do."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: does looks, did told",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с усилительным do.",
+        "text": "Частые ошибки с усилительным do. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -254,15 +250,47 @@
           "callout": {
             "type": "tip",
             "title": "С to be не работает",
-            "text": "У be своя форма усиления — голосом: I AM happy! Do к нему не добавляют."
-          },
-          "quote": {
-            "text": "Do в утверждении — это «правда», «очень», «же».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "У be своя форма усиления — голосом: I am happy! с ударением на am. Do к нему не добавляют. Исключение — повелительное: Do be careful!"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:emphaticdo.base",
+      "description": "после do / does / did — глагол без -s и -ed",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:emphaticdo.person",
+      "description": "he / she / it — does, прошлое — did",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:emphaticdo.be",
+      "description": "с be do не ставят",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_do"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

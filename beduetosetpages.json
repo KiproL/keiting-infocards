@@ -3,39 +3,19 @@
   "route": "cards_beduetoset",
   "slides": [
     {
-      "label": "Be due to, be set to, on the verge of",
+      "label": "Due to, set to",
       "intro": {
-        "text": "Чтобы сказать «должно произойти», кроме will есть точные обороты: be due to — по расписанию, be set to — ожидается (часто в новостях), be on the verge of — вот-вот, на грани.",
+        "text": "Табло на вокзале: The train is due to arrive at 6 — «по расписанию в шесть». Новости: Prices are set to rise — «ожидается рост цен». Кроме will есть точные обороты: be due to — по расписанию, be set to — ожидается, be on the verge of — вот-вот, на грани.",
         "highlights": [
           {
-            "text": "по расписанию",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "ожидается",
+            "text": "The train is due to arrive at 6",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "вот-вот, на грани",
-            "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "be due to",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "be set to",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "be on the verge of",
-            "color": "term",
-            "style": "bold"
+            "text": "точные обороты",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -115,7 +95,7 @@
       ]
     },
     {
-      "label": "Due to: «по плану» или «из-за»",
+      "label": "Due to: два смысла",
       "intro": {
         "text": "Be due to + глагол — «по плану должен». А due to + существительное — «из-за»: The flight was cancelled due to fog. Смотри, что идёт после.",
         "highlights": [
@@ -204,12 +184,13 @@
                 "ru": "Ребёнок должен родиться в марте."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Насколько скоро: шкала",
+      "label": "Насколько скоро",
       "intro": {
         "text": "Эти обороты отличаются и тем, насколько скоро и насколько точно событие случится.",
         "highlights": [
@@ -288,6 +269,11 @@
             "text": "Be set to — любимый оборот журналистов: Unemployment is set to fall. В заголовках be опускают: Prices set to rise.",
             "title": "Стиль"
           }
+        },
+        {
+          "title": "Подробнее",
+          "borderColor": "info",
+          "text": "Likely, unlikely и bound to — в карточке «Be likely / bound to»."
         }
       ],
       "expandables": [
@@ -316,17 +302,18 @@
                 "ru": "С его талантом он обязательно добьётся успеха."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: due arrive, verge of to cry",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки с этими оборотами.",
+        "text": "Частые ошибки с due to, set to и on the verge of. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -366,14 +353,60 @@
             "type": "tip",
             "title": "Запомни пары",
             "text": "Due to и set to — с to + глагол. On the verge of и on the point of — с of + -ing."
-          },
-          "quote": {
-            "text": "Где to — там глагол, где of — там -ing.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:beduetoset.to",
+      "description": "due to / set to / bound to + глагол",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:beduetoset.of",
+      "description": "on the verge of / on the point of + -ing или сущ.",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:beduetoset.because",
+      "description": "due to + сущ. — «из-за»; due + время — срок",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:beduetoset.scale",
+      "description": "about to — вот-вот, set to — прогноз, due to — по плану",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_b1_due",
+    "word_b1_set",
+    "word_c1_verge"
+  ],
+  "prerequisites": [
+    "cards_likelyto"
+  ],
+  "prerequisites_reviewed": false
 }

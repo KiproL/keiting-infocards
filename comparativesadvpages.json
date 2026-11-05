@@ -3,22 +3,17 @@
   "route": "cards_comparativesadv",
   "slides": [
     {
-      "label": "Гибкие сравнения: much better, the more…",
+      "label": "Гибкие сравнения",
       "intro": {
-        "text": "На уровне B2 сравнения становятся гибче: можно усилить разницу (much better), показать, что одно растёт вместе с другим (the more…, the better), или что что-то всё время меняется (bigger and bigger).",
+        "text": "Сравниваешь две квартиры: This one is much bigger — «гораздо больше». Учишь язык: The more you practise, the better you get. Сравнительную степень можно усилить, смягчить, связать с другой или показать постоянный рост.",
         "highlights": [
           {
-            "text": "усилить разницу",
-            "color": "term",
+            "text": "This one is much bigger",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "the more…, the better",
-            "color": "info",
-            "style": "bold_underline"
-          },
-          {
-            "text": "bigger and bigger",
+            "text": "The more you practise, the better you get",
             "color": "example",
             "style": "bold"
           }
@@ -99,12 +94,13 @@
                 "ru": "Она чуть старше меня."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Насколько больше: much, slightly, no",
+      "label": "Much, slightly, no",
       "intro": {
         "text": "Перед сравнительной степенью ставят слово, которое показывает разницу: much, far, a lot — «гораздо»; a bit, slightly, a little — «чуть»; no — «ничуть не».",
         "highlights": [
@@ -174,7 +170,7 @@
       ]
     },
     {
-      "label": "Чем…, тем…: the more, the better",
+      "label": "Чем…, тем…",
       "intro": {
         "text": "The + сравнительная, …, the + сравнительная — «чем…, тем…». Оба артикля the обязательны, а запятая разделяет две части.",
         "highlights": [
@@ -319,17 +315,18 @@
                 "ru": "Фильм становился всё менее интересным."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: very better, more you read",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки — и как сказать правильно.",
+        "text": "Частые ошибки с сравнениями. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -361,8 +358,61 @@
               "right": "He's not as tall as me. / He's no taller than me. (no — только с -er)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "С -er — much, far, a bit, но не very. В «чем…, тем…» — the в обеих частях."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:comparativesadv.degree",
+      "description": "much / far / a bit / slightly / no + -er, не very",
+      "slides": [
+        0,
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:comparativesadv.themore",
+      "description": "the -er …, the -er — оба the",
+      "slides": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:comparativesadv.andand",
+      "description": "-er and -er / more and more",
+      "slides": [
+        0,
+        3,
+        4
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_much",
+    "word_b1_slightly"
+  ],
+  "prerequisites": [
+    "cards_comparisons"
+  ],
+  "prerequisites_reviewed": false
 }

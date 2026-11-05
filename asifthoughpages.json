@@ -3,28 +3,23 @@
   "route": "cards_asifthough",
   "slides": [
     {
-      "label": "As if / as though: как будто",
+      "label": "Как будто: as if",
       "intro": {
-        "text": "As if и as though значат «как будто», «словно». Если сравнение похоже на правду — время обычное. Если оно нереальное — время сдвигается в прошлое, как после wish.",
+        "text": "Друг бледный, глаза круглые: You look as if you've seen a ghost — «будто привидение увидел». As if и as though значат «как будто». Если сравнение похоже на правду — время обычное. Если это заведомо неправда — время часто сдвигают назад, как после wish.",
         "highlights": [
           {
-            "text": "As if",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "as though",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "похоже на правду",
-            "color": "good",
+            "text": "You look as if you've seen a ghost",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "нереальное",
-            "color": "bad",
+            "text": "как будто",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "сдвигают назад",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -198,7 +193,7 @@
       ]
     },
     {
-      "label": "После look, sound, feel: It looks as if…",
+      "label": "Look as if, sound",
       "intro": {
         "text": "Чаще всего as if стоит после look, seem, sound, feel, smell и taste: «выглядит так, будто…», «звучит так, словно…».",
         "highlights": [
@@ -321,7 +316,7 @@
       ]
     },
     {
-      "label": "Какое время: правда или только кажется",
+      "label": "Правда или кажется",
       "intro": {
         "text": "Главный вопрос — верит ли говорящий в сравнение. Сравните: He looks as if he is ill (возможно, он и правда болен) и He behaves as if he were ill (он здоров, только притворяется).",
         "highlights": [
@@ -372,6 +367,11 @@
             "text": "Нереальное «сейчас» → Past Simple (were). Нереальное «раньше» → Past Perfect. Главный глагол при этом может стоять в любом времени: He talks / talked as if he knew.",
             "title": "Как после wish"
           }
+        },
+        {
+          "title": "Можно и без сдвига",
+          "borderColor": "term",
+          "text": "В разговоре и при явной неправде часто оставляют обычное время: He talks as if he knows everything. Сдвиг назад (knew) лишь подчёркивает, что это не так."
         }
       ],
       "expandables": [
@@ -400,17 +400,18 @@
                 "ru": "Не говори со мной так, будто я ребёнок."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: as if she has seen, as it is",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки с as if и as though.",
+        "text": "Частые ошибки с as if и as though. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -446,14 +447,58 @@
             "type": "tip",
             "title": "Проверь себя",
             "text": "Спроси: «это правда или только кажется?» Если только кажется и точно неправда — сдвигай время назад: knows → knew, saw → had seen."
-          },
-          "quote": {
-            "text": "As if + прошедшее время = «на самом деле нет».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:asifthough.if",
+      "description": "as if / as though — не просто as",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:asifthough.shift",
+      "description": "неправда сейчас — прошедшее / were, раньше — Past Perfect",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:asifthough.real",
+      "description": "похоже на правду — обычное время",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:asifthough.verb",
+      "description": "look / sound / feel / seem / smell / taste + as if",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_if",
+    "word_b1_though"
+  ],
+  "prerequisites": [
+    "cards_wish"
+  ],
+  "prerequisites_reviewed": false
 }

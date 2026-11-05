@@ -3,29 +3,19 @@
   "route": "cards_deduction",
   "slides": [
     {
-      "label": "Догадки: must, might, can't",
+      "label": "Догадки: must, might",
       "intro": {
-        "text": "Когда мы не знаем точно, а делаем вывод, модальный глагол показывает, насколько мы уверены: must — почти уверен, might / may / could — возможно, can't — точно нет.",
+        "text": "В окнах соседей горит свет: They must be home — «наверняка дома». Когда не знаешь точно, а делаешь вывод, модальный глагол показывает уверенность: must — почти уверен, might / may / could — возможно, can't — точно нет.",
         "highlights": [
           {
-            "text": "делаем вывод",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "must",
-            "color": "good",
+            "text": "They must be home",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "might / may / could",
+            "text": "показывает уверенность",
             "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "can't",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -196,12 +186,13 @@
                 "ru": "Она, возможно, знает ответ."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Must и can't: наверняка да и наверняка нет",
+      "label": "Must и can't",
       "intro": {
         "text": "Must и can't — пара противоположностей. Must = «наверняка да», can't = «наверняка нет». Mustn't для догадок не используют — он значит «нельзя».",
         "highlights": [
@@ -281,12 +272,13 @@
                 "ru": "Не может быть, что ты голоден. Мы только что пообедали."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Might, may, could: возможно",
+      "label": "Might, may, could",
       "intro": {
         "text": "Might, may и could — «возможно», 50 на 50. Отрицание — might not / may not («возможно, нет»). Couldn't в догадке значит «никак не может», почти как can't.",
         "highlights": [
@@ -361,12 +353,13 @@
                 "ru": "Ему никак не больше тридцати."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Догадка о «прямо сейчас»: must be doing",
+      "label": "Must be doing",
       "intro": {
         "text": "Если догадка о том, что происходит в этот момент, после модального ставят be + -ing: She must be sleeping — «она, наверное, спит».",
         "highlights": [
@@ -515,7 +508,7 @@
           "callout": {
             "type": "info",
             "title": "А о прошлом?",
-            "text": "Догадки о прошлом — must have done, can't have done. Это карточка «Should have — следовало»."
+            "text": "Догадки о прошлом — must have done, can't have done. Это карточка «Should have / Must have»."
           }
         }
       ],
@@ -545,17 +538,18 @@
                 "ru": "Слышишь? Кто-то, наверное, стучит."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: mustn't вместо can't",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки — и как сказать правильно.",
+        "text": "Частые ошибки с догадками. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -576,7 +570,7 @@
             },
             {
               "wrong": "It can be true. (догадка «возможно»)",
-              "right": "It might be true. / It could be true. (в догадке — might / could)"
+              "right": "It might be true. (о конкретном случае — might, could; can — «бывает»)"
             },
             {
               "wrong": "They must be sleep.",
@@ -587,8 +581,68 @@
               "right": "He must be busy. / Maybe he's busy. (одна догадка — одно слово)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Наверняка да — must, наверняка нет — can't, возможно — might. Mustn't — это «нельзя», не догадка."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:deduction.must",
+      "description": "must — наверняка да, can't — наверняка нет",
+      "slides": [
+        0,
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:deduction.mustnt",
+      "description": "mustn't — запрет, не догадка",
+      "slides": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:deduction.might",
+      "description": "might / may / could — возможно",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:deduction.ing",
+      "description": "догадка о «сейчас» — must be + -ing",
+      "slides": [
+        3,
+        4
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_must",
+    "word_a2_might"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

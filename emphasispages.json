@@ -3,34 +3,19 @@
   "route": "cards_emphasis",
   "slides": [
     {
-      "label": "Усилители: the very, at all, on earth",
+      "label": "The very, at all",
       "intro": {
-        "text": "Чтобы сказать сильнее, носители добавляют короткие слова-усилители: the very — «тот самый», at all — «вообще», whatsoever — «абсолютно никакой», on earth — «вообще» в вопросе.",
+        "text": "Нашёл книгу, которую искал полгода: This is the very book I wanted! — «та самая книга!». Чтобы сказать сильнее, добавляют короткие усилители: the very — «тот самый», at all — «вообще», whatsoever — «ни малейшего», on earth — «вообще» в вопросе.",
         "highlights": [
           {
-            "text": "слова-усилители",
-            "color": "term",
+            "text": "This is the very book I wanted!",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "усилители",
+            "color": "info",
             "style": "bold_underline"
-          },
-          {
-            "text": "the very",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "at all",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "whatsoever",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "on earth",
-            "color": "info",
-            "style": "bold"
           }
         ]
       },
@@ -114,7 +99,7 @@
       ]
     },
     {
-      "label": "Сильное отрицание: not a single, by no means",
+      "label": "Сильное отрицание",
       "intro": {
         "text": "Отрицание тоже можно усилить: not a single — «ни одного», not in the least — «ничуть», by no means — «отнюдь не», not … whatsoever — «совершенно никакой».",
         "highlights": [
@@ -226,12 +211,13 @@
                 "ru": "Она помнит каждую мелочь."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Сам: the director himself",
+      "label": "Сам: himself",
       "intro": {
         "text": "Возвратное местоимение подчёркивает, что сделал именно этот человек: I did it myself — «я сам», The director himself called me — «звонил сам директор».",
         "highlights": [
@@ -256,42 +242,23 @@
         {
           "title": "Где стоит",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Место",
-              "Пример",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "после подлежащего",
-                  "The president himself opened it.",
-                  "Открыл сам президент."
-                ]
-              },
-              {
-                "cells": [
-                  "в конце фразы",
-                  "I painted the room myself.",
-                  "Я сам покрасил комнату."
-                ]
-              },
-              {
-                "cells": [
-                  "ever в вопросе",
-                  "Why ever did you agree?",
-                  "Зачем же ты согласился?"
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "rules": [
+            {
+              "name": "после подлежащего",
+              "suffix": "Открыл сам президент.",
+              "example": "The president himself opened it."
+            },
+            {
+              "name": "в конце фразы",
+              "suffix": "Я сам покрасил комнату.",
+              "example": "I painted the room myself."
+            },
+            {
+              "name": "ever в вопросе",
+              "suffix": "Зачем же ты согласился?",
+              "example": "Why ever did you agree?"
+            }
+          ]
         },
         {
           "title": "Живые примеры",
@@ -314,12 +281,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: in earth, like it at all",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки с усилителями.",
+        "text": "Частые ошибки с усилителями. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -359,14 +326,51 @@
             "type": "tip",
             "title": "Не перебарщивай",
             "text": "Один усилитель на фразу — сильно. Три — уже смешно. At all и whatsoever живут только рядом с отрицанием или вопросом."
-          },
-          "quote": {
-            "text": "Усилитель — как соль: щепотка делает вкус, горсть всё портит.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:emphasis.place",
+      "description": "at all, whatsoever — с отрицанием или в вопросе",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:emphasis.fixed",
+      "description": "on earth, by far, by no means, not a single — целиком",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:emphasis.self",
+      "description": "myself / himself — «сам», не вместо подлежащего",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_very"
+  ],
+  "prerequisites": [
+    "cards_pronouns"
+  ],
+  "prerequisites_reviewed": false
 }
