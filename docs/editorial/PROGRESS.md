@@ -590,12 +590,12 @@
 - **cards_collocations.**
   - Неверные варианты, которые на деле правильны: take a decision (брит.), a heavy accent, a big risk, give a commitment.
   - «Больше всего коллокаций — у коротких глаголов» смягчено.
-  - Задания на ошибки перенесены на слайд ошибок, 9 новых; 12 пустых пояснений заполнены, 1 дубль заменён.
+  - Задания на ошибки перенесены на слайд ошибок, 9 новых; 13 пустых пояснений заполнены, 1 дубль заменён.
 - **cards_idioms.**
   - У заданий о стиле («в деловом письме идиомы неуместны») в переводе указано, где это сказано. Без этого идиома в ответе тоже была бы правильной.
   - Let's call it a day — дубль, заменён; 10 новых заданий.
 - **cards_strongadjectives.** Quite amazing и quite huge — правильные (quite с сильным словом значит «совсем»), убраны из неверных. 2 дубля заменены, 10 новых заданий.
-- **cards_begoingto.** Will, I'm going to и Present Simple в 8 заданиях были правильными по смыслу (It'll rain, I'm going to have pizza). Неверные варианты заменены на ошибочные формы.
+- **cards_begoingto.** Will, I'm going to и Present Simple в 7 заданиях были правильными по смыслу (It'll rain, I'm going to have pizza). Неверные варианты заменены на ошибочные формы.
 - **cards_therewaswere.** There were a box and two bags — спорное согласование, задание заменено.
 - **cards_wouldlike.**
   - Неверные варианты, которые на деле правильны: I'd like to (ответ на приглашение), How do you like your steak?, She won't like this film, soup, rooms.
