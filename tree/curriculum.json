@@ -2587,6 +2587,48 @@
       "reviewed": false
     },
     {
+      "id": "b2_modals_past_more",
+      "level": "B2",
+      "title": "Should have, needn't have",
+      "slices": [
+        {
+          "route": "cards_modalperfect",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_modals_past"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_modal_perfect_cont",
+      "level": "C1",
+      "title": "Must have been doing",
+      "slices": [
+        {
+          "route": "cards_modalperfectcont",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2_modals_past_more"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_haveto_core",
       "level": "A2",
       "title": "Have to: приходится",
@@ -3141,6 +3183,27 @@
       "reviewed": false
     },
     {
+      "id": "c1_lest",
+      "level": "C1",
+      "title": "Lest, for fear of",
+      "slices": [
+        {
+          "route": "cards_lestforfear",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_so_that"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "b1_like_unlike",
       "level": "B1",
       "title": "Like, unlike, as",
@@ -3355,6 +3418,26 @@
       "prerequisites": [
         "a1_wordorder_svo",
         "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_hard_hardly",
+      "level": "B1",
+      "title": "Hard или hardly",
+      "slices": [
+        {
+          "route": "cards_hardhardly",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_adverbs_manner"
       ],
       "reviewed": false
     },
@@ -3831,6 +3914,26 @@
       "prerequisites": [
         "a1_emotions_words",
         "a1_prep_place"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_ed_ing",
+      "level": "B1",
+      "title": "Bored или boring",
+      "slices": [
+        {
+          "route": "cards_edingadj",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_emotions_prep"
       ],
       "reviewed": false
     },
@@ -4630,6 +4733,48 @@
       "reviewed": false
     },
     {
+      "id": "b2_unless_in_case",
+      "level": "B2",
+      "title": "Unless, as long as",
+      "slices": [
+        {
+          "route": "cards_unlessincase",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2_cond_wish_linkers"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_mixed_conditionals",
+      "level": "B2",
+      "title": "Смешанные условия",
+      "slices": [
+        {
+          "route": "cards_mixedconditionals",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_cond_unreal"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "c1_but_for",
       "level": "C1",
       "title": "But for, otherwise",
@@ -4647,6 +4792,84 @@
       ],
       "prerequisites": [
         "b2_cond_wish_linkers"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_inversion",
+      "level": "C1",
+      "title": "Never have I…",
+      "slices": [
+        {
+          "route": "cards_inversion",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_inversion_if",
+      "level": "C1",
+      "title": "Had I known",
+      "slices": [
+        {
+          "route": "cards_inversion",
+          "revision": 1,
+          "slides": [
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c1_inversion",
+        "b2_mixed_conditionals"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_hardly_when",
+      "level": "C1",
+      "title": "Hardly … when",
+      "slices": [
+        {
+          "route": "cards_hardlywhen",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c1_inversion"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_no_sooner",
+      "level": "C1",
+      "title": "No sooner … than",
+      "slices": [
+        {
+          "route": "cards_nosoonerthan",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c1_inversion"
       ],
       "reviewed": false
     },
@@ -4683,6 +4906,25 @@
             1,
             2,
             3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_wish_present"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "c1_subjunctive",
+      "level": "C1",
+      "title": "I suggest he go",
+      "slices": [
+        {
+          "route": "cards_subjunctive",
+          "revision": 1,
+          "slides": [
+            0,
+            1
           ]
         }
       ],
@@ -4884,6 +5126,27 @@
       "reviewed": false
     },
     {
+      "id": "b2_reporting_verbs",
+      "level": "B2",
+      "title": "Admit, deny, refuse",
+      "slices": [
+        {
+          "route": "cards_reportingverbs",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_reported_questions"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "b1_passive_core",
       "level": "B1",
       "title": "Пассив: be + V3",
@@ -4939,6 +5202,87 @@
             3,
             5,
             6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_passive_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_passive_get",
+      "level": "B2",
+      "title": "Got fired, needs washing",
+      "slices": [
+        {
+          "route": "cards_passiveget",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_passive_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_passive_phrasal",
+      "level": "B2",
+      "title": "I was given, put off",
+      "slices": [
+        {
+          "route": "cards_passiveget",
+          "revision": 1,
+          "slides": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2_passive_get"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_passive_modals",
+      "level": "B2",
+      "title": "Must be done",
+      "slices": [
+        {
+          "route": "cards_passivemodals",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_passive_core",
+        "a2_modals_must"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_reporting_passive",
+      "level": "B2",
+      "title": "He is said to be",
+      "slices": [
+        {
+          "route": "cards_reportingpassive",
+          "revision": 1,
+          "slides": [
+            0,
+            1
           ]
         }
       ],

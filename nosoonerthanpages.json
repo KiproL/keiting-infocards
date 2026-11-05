@@ -3,23 +3,23 @@
   "route": "cards_nosoonerthan",
   "slides": [
     {
-      "label": "No sooner … than: не успел … как",
+      "label": "No sooner … than",
       "intro": {
-        "text": "No sooner … than — едва … как: едва что-то произошло, как сразу же случилось другое. Оба действия произошли почти одновременно, с минимальным промежутком. Обязательна инверсия.",
+        "text": "В рассказе: No sooner had we left than it started to rain — «не успели мы выйти, как пошёл дождь». No sooner … than — второе событие случилось сразу после первого. Если no sooner стоит в начале, порядок как в вопросе: had we.",
         "highlights": [
           {
-            "text": "No sooner … than",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "едва … как",
-            "color": "info",
+            "text": "No sooner had we left than it started to rain",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "инверсия",
-            "color": "bad",
+            "text": "сразу после первого",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "порядок как в вопросе",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -162,42 +162,23 @@
         {
           "title": "Сравнение с обычным порядком",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Форма",
-              "Стиль",
-              "Пример"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "As soon as",
-                  "обычный",
-                  "As soon as I arrived, it started raining."
-                ]
-              },
-              {
-                "cells": [
-                  "No sooner…than",
-                  "формальный",
-                  "No sooner had I arrived than it started raining."
-                ]
-              },
-              {
-                "cells": [
-                  "Hardly…when",
-                  "формальный",
-                  "Hardly had I arrived when it started raining."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "rules": [
+            {
+              "name": "As soon as",
+              "suffix": "обычно",
+              "example": "As soon as I arrived, it started raining."
+            },
+            {
+              "name": "No sooner … than",
+              "suffix": "книжно",
+              "example": "No sooner had I arrived than it started raining."
+            },
+            {
+              "name": "Hardly … when",
+              "suffix": "книжно",
+              "example": "Hardly had I arrived when it started raining."
+            }
+          ]
         },
         {
           "title": "С инверсией — обязательно",
@@ -205,7 +186,7 @@
           "callout": {
             "type": "warning",
             "title": "Порядок слов",
-            "text": "После No sooner в начале предложения had выходит перед подлежащим: No sooner HAD I arrived. НЕ No sooner I had arrived."
+            "text": "Если No sooner в начале предложения, had выходит перед подлежащим: No sooner had I arrived. Не No sooner I had arrived."
           }
         },
         {
@@ -229,15 +210,6 @@
               "ru": "Не успели мы начать, как свет погас."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "No sooner — это литературное «не успел». Используется в книгах и формальной речи.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -260,17 +232,18 @@
               "text": "Если no sooner стоит после подлежащего, порядок обычный."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: No sooner I had, no sooner … when",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в No sooner … than.",
+        "text": "Частые ошибки с No sooner … than. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -306,5 +279,41 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:nosoonerthan.order",
+      "description": "No sooner had + подлежащее + V3 — порядок как в вопросе",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:nosoonerthan.when",
+      "description": "no sooner — с than, hardly — с when; в обычной речи — as soon as",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:nosoonerthan.v3",
+      "description": "после had — V3",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "prerequisites": [
+    "cards_inversion"
+  ],
+  "prerequisites_reviewed": false
 }

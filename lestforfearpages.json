@@ -3,34 +3,19 @@
   "route": "cards_lestforfear",
   "slides": [
     {
-      "label": "«Чтобы не»: so as not to, for fear of, lest",
+      "label": "«Чтобы не»: обороты",
       "intro": {
-        "text": "Чтобы сказать «чтобы не», есть несколько оборотов: so as not to — нейтрально, for fear of / for fear that — «боясь, что», lest — очень книжное «как бы не».",
+        "text": "Ты выходишь пораньше: I left early so as not to be late — «чтобы не опоздать». Для «чтобы не» есть несколько оборотов: so as not to — нейтрально, for fear of — «боясь», lest — очень книжно.",
         "highlights": [
           {
-            "text": "чтобы не",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "so as not to",
-            "color": "good",
-            "style": "bold"
-          },
-          {
-            "text": "for fear of",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "for fear that",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "lest",
+            "text": "so as not to be late",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "несколько оборотов",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -110,7 +95,7 @@
       ]
     },
     {
-      "label": "Lest: книжное «как бы не»",
+      "label": "Lest: книжное",
       "intro": {
         "text": "Lest встречается в книгах, речах и законах. После него глагол стоит в начальной форме (сослагательное наклонение) или с should, а not не нужен: смысл «не» уже внутри lest.",
         "highlights": [
@@ -306,12 +291,13 @@
                 "ru": "Я записал, чтобы не забыть. (то же в разговоре)"
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "In case — это подстраховка, не цель",
+      "label": "In case — не цель",
       "intro": {
         "text": "In case — «на случай, если»: это подстраховка, а не цель. Take an umbrella in case it rains — зонт берут не «чтобы не было дождя», а на случай дождя.",
         "highlights": [
@@ -385,12 +371,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: lest he will, for fear of fall",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки в оборотах «чтобы не».",
+        "text": "Частые ошибки с оборотами «чтобы не». Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -430,14 +416,58 @@
             "type": "tip",
             "title": "Как выбрать",
             "text": "В речи — so as not to или so that … don't. В официальном тексте — for fear that. Lest — для книг и торжественных надписей."
-          },
-          "quote": {
-            "text": "Lest уже содержит «не» — второе отрицание лишнее.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:lestforfear.soasnot",
+      "description": "so as not to / in order not to — not перед to",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:lestforfear.fear",
+      "description": "for fear of + -ing; for fear that + would",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:lestforfear.lest",
+      "description": "lest + глагол без will и без not",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:lestforfear.incase",
+      "description": "in case — подстраховка, после него без will",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_fear"
+  ],
+  "prerequisites": [
+    "cards_sothat"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -3,19 +3,19 @@
   "route": "cards_passivemodals",
   "slides": [
     {
-      "label": "Пассив с модальными: can be done",
+      "label": "Must be done",
       "intro": {
-        "text": "Пассив соединяется с модальными: can be done (можно сделать), must have been given (наверняка дали). Модальный не меняется, меняется только «хвост».",
+        "text": "Табличка в музее: Bags must be left at the entrance — «сумки нужно оставить у входа». Пассив можно поставить после модального: must be done — о сейчас и будущем, must have been done — о прошлом. Сам модальный не меняется.",
         "highlights": [
           {
-            "text": "Модальный не меняется",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "Bags must be left at the entrance",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "«хвост»",
-            "color": "info",
-            "style": "bold"
+            "text": "после модального",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -87,12 +87,13 @@
                 "ru": "Машину сейчас как раз должны чинить."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "О настоящем и будущем: must be signed",
+      "label": "Сейчас и в будущем",
       "intro": {
         "text": "Модальный + be + V3 — что можно, нужно или должно быть сделано.",
         "highlights": [
@@ -153,12 +154,13 @@
                 "ru": "Результаты объявят завтра."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "О прошлом: could have been avoided",
+      "label": "Must have been done",
       "intro": {
         "text": "Модальный + have been + V3 — догадки, упрёки и упущенное о прошлом: He must have been given the wrong address.",
         "highlights": [
@@ -228,17 +230,18 @@
                 "ru": "Не может быть, что это сделал один человек."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: must be did, must have sent",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки — и как сказать правильно.",
+        "text": "Частые ошибки с пассивом после модальных. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -270,8 +273,58 @@
               "right": "This can be fixed easily. (V3)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Модальный не меняется. О сейчас и будущем — модальный + be + V3, о прошлом — модальный + have been + V3."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:passivemodals.be",
+      "description": "модальный + be + V3",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:passivemodals.havebeen",
+      "description": "о прошлом — модальный + have been + V3",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:passivemodals.v3",
+      "description": "после be — V3",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_must"
+  ],
+  "prerequisites": [
+    "cards_activepassive"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -8,6 +8,7 @@
 | intro_reading_vowels | Intro | readingrules 0, 1, 2, 3 | Читать гласную по типу слога: открытый (name) и закрытый (man); читать сочетания гласной с r: car, bird, more; читать c и g перед e, i, y и перед другими буквами; не читать английские слова по буквам, как русские | intro_alphabet_names |
 | a1_nouns_core | A1 | pluralnouns 0, 1, 3 | Образовать множественное число (+s, +es, y → ies), употреблять частые особые формы (men, children, people, teeth, sheep) и согласовать is / are, this / these | — |
 | a2_nouns_special | A2 | pluralnouns 2, 4, 5 | Писать формы на -o и -f/-fe, понимать, что jeans и scissors — множественное число, а news, advice, information не считают штуками, и согласовать с ними глагол | a1_nouns_core |
+| b1_collective_nouns | B1 | collectivenouns 0, 1, 2 | Согласовывать глагол: the police are, the news is; advice, information, furniture — без -s и a; одна штука — a piece of, a pair of | a2_nouns_special |
 | b2_nouns_rare | B2 | pluralnouns 6 | Узнавать редкие формы (roofs, oxen, crises, criteria) и пары с разным смыслом и стилем (fish / fishes, people / peoples) | a2_nouns_special |
 | a1_article_introduction | A1 | articles 0, 1 | Назвать один исчисляемый предмет с a/an по звуку следующего слова; не ставить два определителя | a1_nouns_core |
 | a1_article_reference | A1 | articles 2, 3, 4 | Выбрать the, когда собеседник понимает, какой именно предмет: уже назван, виден, единственный в ситуации, уточнён; говорить о многих предметах и веществах вообще без артикля; имена, языки, приёмы пищи без артикля; выбрать a/an, the или нулевой артикль для одного слова в разных ситуациях | a1_article_introduction |
@@ -24,16 +25,22 @@
 | a2_pronouns_reflexive | A2 | pronouns 3, 7, 8 | Употреблять myself, yourself… когда действие направлено на себя и не ставить их после глаголов без -ся; заменять повторяемое существительное на one / ones; выбрать нужное местоимение в смешанных заданиях; me and him, it's / its | a1_pronouns_personal, a1_article_reference |
 | b1_pronouns_relative | B1 | pronouns 6 | Связать части предложения словами who, which, that, whose, where | a1_pronouns_personal |
 | b1_relative_core | B1 | relativeclauses 0, 1, 2, 3, 4 | Уточнять, о ком или о чём речь: who, which, that, whose, where, when; ставить запятые и не использовать с ними that; опускать слово перед другим подлежащим и ставить предлог в конец | b1_pronouns_relative |
+| b2_cleft | B2 | cleftsentence 0, 1 | Выделять главное: It was Tom who…, It was in Paris that…; who — о людях, that — обо всём | b1_relative_core |
+| b2_emphasis | B2 | emphasis 0, 1, 2, 3 | Усиливать мысль: the very, at all, whatsoever, on earth, by far, not a single; myself / himself — «сам» | a2_pronouns_reflexive |
+| b2_emphatic_do | B2 | emphaticdo 0, 1 | Подчёркивать и возражать: I do like it, I did lock it! — do / does / did + глагол без -s и -ed; be усиливают голосом | a1_simple_questions |
+| c1_what_i_need | C1 | pseudocleft 0, 1, 2, 3, 4 | Выделять главное: What I need is…, All I want is…, The thing that…, The reason why…; без it после What-части | b2_cleft |
 | a1_prep_place | A1 | prepositions 0, 1, 2, 3 | Выбрать in, on, at для места: в чём-то, на поверхности, в точке; описать положение: under, between, opposite, next to, behind; выбрать at, on, in для времени: час, день и дата, месяц и год | — |
 | a1_days_months | A1 | daysmonths 0, 1, 2 | Называть дни недели, месяцы и времена года; выбирать on (день, дата), in (месяц, сезон, год) и обходиться без предлога с next, last, this, every | a1_prep_place |
 | a2_prep_direction | A2 | prepositions 4, 5 | Показать направление: to, into, out of, across, through; go home без to; не ставить русские предлоги вместо английских: in Moscow, at home, to home → home | a1_prep_place |
 | a2_prep_verbs | A2 | prepositions 6, 7 | Употреблять глаголы с постоянным предлогом: wait for, listen to, depend on; употреблять прилагательные с постоянным предлогом: good at, afraid of, interested in | a1_simple_routines |
+| b1_by_until | B1 | bytimeuntil 0, 1, 2, 3 | Различать by (не позже) и until (до момента, без перерыва), by the time; in time и on time; within, during, for | a1_prep_place |
 | b1_prep_nouns | B1 | prepositions 8 | Употреблять существительные с предлогом: reason for, increase in, solution to | a2_prep_verbs |
 | a1_aboutme_basics | A1 | aboutme 0, 1, 2, 3 | Назвать имя, откуда ты, где живёшь и чем занимаешься; рассказать об интересах с like, love, enjoy + -ing и be into; связно рассказать о себе в пяти фразах и не делать типичных ошибок (I am from…, I like…) | a1_simple_routines |
 | a1_countries | A1 | countries 0, 1, 2 | Говорить, откуда ты и кто по национальности (I'm from Russia / I'm Russian); называть язык без the; знать, где нужно the: the UK, the USA | a1_be_core |
 | a1_cont_core | A1 | presentcont 0, 1, 2 | Сказать, что происходит сейчас: am / is / are + -ing в утверждении, отрицании и вопросе; правильно писать -ing: making, running, lying | a1_be_core |
 | a2_cont_vs_simple | A2 | presentcont 3, 4, 5 | Не ставить в Continuous глаголы состояния (know, like, want) в основном значении; выбрать Continuous (сейчас, временно) или Simple (обычно, всегда) по смыслу; находить и исправлять ошибки Continuous: пропуск am/is/are, лишнее -ing | a1_cont_core, a1_simple_routines |
 | a2_comparisons_degrees | A2 | comparisons 0, 1, 2, 3, 4, 5 | Образовать сравнительную и превосходную степень коротких прилагательных (-er, -est); образовать степени длинных прилагательных с more / the most; употреблять особые формы: good, better, the best; bad, worse, the worst; farther / further; сравнивать с than и as … as; не смешивать more и -er; сравнивать наречиями (faster, more carefully) и ставить the там, где он нужен | a1_article_reference |
+| b2_comparatives_more | B2 | comparativesadv 0, 1, 2, 3, 4 | Усиливать и связывать сравнения: much / far / slightly + -er, не very; the more…, the better; colder and colder | a2_comparisons_degrees |
 | a2_asas_core | A2 | asas 0, 1 | Сказать «такой же, как» и «не такой, как»: as … as, not as … as, twice as … as; исправлять ошибки: as taller as, so tall as в утверждении | a2_comparisons_degrees |
 | a1_questions_yesno | A1 | questions 0, 1, 2, 4 | Задать вопрос «да или нет» с do / does, be или can и кратко ответить; задать вопрос с what, where, when, why, how: вопросительное слово + вспомогательный глагол; задать вопрос с выбором (tea or coffee?) и ответить вариантом | a1_simple_questions |
 | a2_questions_subject | A2 | questions 3 | Спросить о подлежащем без do: Who called? What happened? | a1_questions_yesno |
@@ -64,8 +71,11 @@
 | a2_irregular_forms | A2 | irregularverbs 0, 1, 2, 3, 4, 5 | Узнавать и употреблять три формы частых неправильных глаголов по группам (cut, bought, written, come) и выбирать V1, V2 или V3 по конструкции | a1_past_irregular |
 | a2_modals_can | A2 | modalverbs 0, 1, 2 | Соблюдать общие правила модальных: начальная форма без to, без -s, вопрос без do; говорить об умении и возможности с can, could, be able to; could и was able to в прошлом; спрашивать разрешение и говорить о возможности с may и might | a1_simple_questions, a1_past_meaning |
 | a2_modals_must | A2 | modalverbs 3, 4, 6 | Различать must, have to, mustn't и don't have to; had to в прошлом; давать совет и предупреждение: should, ought to, had better; предлагать с shall; исправлять ошибки: can swims, must to go, will can | a2_modals_can |
+| b1_deduction | B1 | deduction 0, 1, 2, 3, 4 | Делать догадки о настоящем: must be — наверняка, might / may / could be — возможно, can't be — точно нет; mustn't — запрет, не догадка | a2_modals_can |
 | b1_supposed_to | B1 | besupposedto 0, 2 | Говорить, что положено по правилам или ожиданиям: be supposed to + глагол; was supposed to — «должен был, но не вышло»; supposed — с -d | a2_modals_must |
 | b1_modals_past | B1 | modalverbs 5 | Делать вывод и жалеть о прошлом: must have, can't have, should have done | a2_modals_must |
+| b2_modals_past_more | B2 | modalperfect 0, 1, 2, 3 | Говорить о прошлом с модальными: should have — упрёк, could have — упущенное, must / might / can't have — догадки; needn't have — сделал зря | b1_modals_past |
+| c1_modal_perfect_cont | C1 | modalperfectcont 0, 1, 2, 3 | Делать догадки и упрёки о процессе в прошлом: must / might / can't / should have been + -ing; отличать от must have done | b2_modals_past_more |
 | a2_haveto_core | A2 | haveto 0, 1, 2 | Сказать, что приходится что-то делать (have to / has to) в настоящем, прошлом и будущем; построить вопрос и отрицание с do; понимать, где have to и must взаимозаменяемы, а где нет | a1_simple_questions, a1_past_forms |
 | a2_mustnt_core | A2 | mustnt 0, 1, 2 | Выразить обязанность (must) и запрет (mustn't); строить отрицание и вопрос без do; заменять must в прошлом на had to; отвечать на Must I…? — No, you don't have to | a2_modals_must, a2_haveto_core |
 | a2_donthaveto_core | A2 | donthaveto 0, 1 | Сказать, что делать не обязательно (don't / doesn't / didn't / won't have to), и не путать это с запретом mustn't | a2_mustnt_core |
@@ -89,8 +99,12 @@
 | b1_gerund_noun | B1 | gerund 0, 1 | Называть действие как понятие с помощью -ing в роли подлежащего и дополнения; употреблять worth, no use, can't help, feel like + -ing | a2_verb_ing_to |
 | b1_its_worth | B1 | itsworth 0, 1 | Советовать и отговаривать: It's worth + -ing, It's no use + -ing, There's no point (in) + -ing; worth it | b1_gerund_noun |
 | b1_despite | B1 | despite 0, 1 | Говорить «хотя» и «несмотря на»: although / even though + фраза, despite / in spite of + существительное или -ing; без but | a2_because_of |
+| c1_concessive | C1 | concessive 0, 1, 2, 3 | Говорить книжное «хотя»: Tired as she was…, Much as I like…, Try as I might…; however hard, no matter how; без but во второй части | b1_despite |
+| c1_whereas_albeit | C1 | contrastlinkers 0, 1, 2, 3 | Противопоставлять в письме: whereas / while — два факта; albeit + слово; notwithstanding + сущ.; nonetheless, even so | b1_despite |
+| c1_discourse_markers | C1 | discoursemarkers 0, 1, 2, 3 | Вести разговор маркерами: mind you, admittedly, to be fair, come to think of it, anyway, all in all | b1_despite |
 | b1_in_order_to | B1 | inorderto 0, 1 | Называть цель официально: in order to / so as to + глагол, in order not to; в разговоре — просто to | a2_infinitive_core |
 | b1_so_that | B1 | sothat 0, 1 | Называть цель, когда действует другой человек: so that + подлежащее + can / could / will / would; отличать от so — результата | b1_in_order_to, a2_modals_can |
+| c1_lest | C1 | lestforfear 0, 1, 2, 3 | Говорить «чтобы не»: so as not to, for fear of + -ing, книжное lest + глагол; отличать цель от подстраховки in case | b1_so_that |
 | b1_like_unlike | B1 | likeunlike 0, 1 | Сравнивать: like — как, похож; unlike — в отличие от; as — в роли, в качестве | a2_the_same_as |
 | b1_make_someone | B1 | makesomeonedo 0, 1 | Говорить «заставить» и «вызвать»: make + кто + глагол без to; в пассиве — be made to | a2_let_someone |
 | b1_get_someone_to | B1 | getsomeonetodo 0, 1 | Говорить «уговорить»: get + кто + to + глагол; выбирать между get, make, let и have по смыслу | b1_make_someone |
@@ -102,6 +116,7 @@
 | a1_wordorder_svo | A1 | wordorder 0 | Строить предложение по схеме «кто — делает — что»; не пропускать подлежащее (It's cold) | a1_be_core |
 | a2_wordorder_frequency | A2 | wordorder 1, 2, 4, 5 | Ставить always, often, never перед обычным глаголом, после be и вспомогательного; ставить уточнения в конце по порядку «как — где — когда»; ничего между глаголом и дополнением; ставить also, only, too, enough на своё место; исправлять ошибки порядка слов: like very much coffee, go always | a1_wordorder_svo, a1_simple_routines |
 | a2_adverbs_manner | A2 | adverbs 0, 1, 2, 3 | Описать, как выполняется действие: прилагательное + -ly с правильным написанием, well, fast, hard, late; после look, feel, taste — прилагательное; ставить наречие после дополнения | a1_wordorder_svo, a1_be_core |
+| b1_hard_hardly | B1 | hardhardly 0, 1, 2 | Не путать hard и hardly, late и lately, near и nearly, high и highly; не ставить not с hardly; hardly any, hardly ever | a2_adverbs_manner |
 | b1_wordorder_adjectives | B1 | wordorder 3 | Ставить несколько прилагательных в обычном порядке: мнение — размер — возраст — цвет — материал | a1_wordorder_svo |
 | a1_directions_ask | A1 | directions 0, 1, 2, 3, 4 | Вежливо спросить дорогу: Excuse me, how do I get to…? Is there a … near here?; объяснить и понять дорогу: go straight on, turn left, on the corner, opposite; понимать объяснение дороги в связном диалоге; не говорить кальками: say me, turn to left, in the left | a1_there_core, a1_prep_place, a1_imperative_core |
 | a1_shopping_choose | A1 | shopping 0, 1, 3, 4, 5 | Попросить размер и цвет, примерить вещь (try on), сказать, подходит ли она (fit / suit); спросить цену и способ оплаты: by card, in cash, receipt, 20% off; понимать фразы покупателя и продавца в диалоге; исправлять ошибки: How much costs it, measure вместо try on, Give me | a1_greetings_hello, a1_time_clock |
@@ -125,6 +140,7 @@
 | a2_hobbies_talk | A2 | hobbies 2, 5 | Рассказать о хобби: be into, take up, twice a week; исправлять ошибки: play swimming, do football, the football | a1_hobbies_ing |
 | a1_emotions_words | A1 | emotions 0 | Назвать чувство через be или feel | a1_be_core |
 | a2_emotions_prep | A2 | emotions 1, 2, 3, 4, 5 | Употреблять чувство с нужным предлогом: afraid of, angry with, proud of; различать -ed (что чувствую) и -ing (что вызывает): bored / boring; понимать разговор о переживаниях; исправлять ошибки: I'm boring, afraid from, angry on | a1_emotions_words, a1_prep_place |
+| b1_ed_ing | B1 | edingadj 0, 1, 2 | Различать bored и boring: -ed — что человек чувствует, -ing — что вызывает чувство; ставить свой предлог: interested in, tired of | a2_emotions_prep |
 | a1_study_words | A1 | study 0, 2 | Называть школьные и вузовские слова: subject, mark, lecture; спросить и попросить на занятии: Can I ask…? Could you repeat…? | a1_nouns_core, a1_questions_yesno |
 | a2_study_verbs | A2 | study 1, 3, 4, 5 | Различать take, pass, fail an exam и study / learn; понимать разговор перед экзаменом; исправлять ошибки: passed вместо took, I learn at university, made my homework | a1_study_words, a1_past_forms |
 | a1_tech_words | A1 | technology 0 | Называть устройства и вещи в телефоне и компьютере; laptop, а не notebook | a1_nouns_core |
@@ -165,7 +181,16 @@
 | b1_cond_unreal | B1 | conditionals 2 | Говорить о воображаемом сейчас (Second: if + Past, would; If I were you) и о том, чего не случилось (Third: if + Past Perfect, would have + V3) | b1_cond_real, b1_pastperf_core |
 | b1_wish_present | B1 | wish 0, 1 | Жалеть о настоящем: I wish / If only + прошедшее, could, were; отличать wish от hope | b1_cond_unreal |
 | b2_cond_wish_linkers | B2 | conditionals 3, 4, 5 | Выражать сожаление с wish и if only (Past, Past Perfect, would), выбирать unless, as long as, in case, even if, otherwise вместо if; исправлять частые ошибки условных | b1_cond_unreal |
+| b2_unless_in_case | B2 | unlessincase 0, 1, 2, 3 | Выбирать союз условия по смыслу: unless, as long as, provided, even if, even though, in case; после них — без will | b2_cond_wish_linkers |
+| b2_mixed_conditionals | B2 | mixedconditionals 0, 1, 2, 3 | Связывать прошлое и настоящее в условии: If I had…, I would be now; If I were…, I would have…; после if — без would | b1_cond_unreal |
+| c1_but_for | C1 | butforotherwise 0, 1, 2, 3 | Говорить «если бы не» и «иначе»: but for + сущ., were it not for, had it not been for; otherwise, or else; supposing, what if | b2_cond_wish_linkers |
+| c1_inversion | C1 | inversion 0, 1, 3 | Усиливать мысль инверсией: Never have I…, Rarely does he…, Little did they know, Not only… but also; если нет вспомогательного — do / does / did | a1_simple_questions |
+| c1_inversion_if | C1 | inversion 2, 3 | Строить условие без if: Had I known…, Were I you…, Should you need… | c1_inversion, b2_mixed_conditionals |
+| c1_hardly_when | C1 | hardlywhen 0, 1 | Рассказывать о событиях одно за другим: Hardly had I + V3 … when…; hardly и scarcely — с when | c1_inversion |
+| c1_no_sooner | C1 | nosoonerthan 0, 1 | Рассказывать о событиях одно за другим: No sooner had I + V3 … than…; в обычной речи — as soon as | c1_inversion |
 | b2_wish_past | B2 | wish 2, 3 | Жалеть о прошлом (wish + Past Perfect) и о чужом поведении (wish + would); не ставить would о себе | b1_wish_present, b1_pastperf_core |
+| b2_as_if | B2 | asifthough 0, 1, 2, 3 | Говорить «как будто»: look / sound / feel as if; похоже на правду — обычное время, явная неправда — сдвиг назад (as if he knew) | b1_wish_present |
+| c1_subjunctive | C1 | subjunctive 0, 1 | Говорить о требованиях и рекомендациях официально: suggest / demand / it's important that + глагол без -s, be для всех; знать британские варианты со should и обычным временем | b1_wish_present |
 | b2_its_high_time | B2 | itshightime 0, 1 | Говорить «давно пора» с упрёком: It's (high / about) time + кто + прошедшее; без упрёка — for + кто + to | a2_its_time, b1_cond_unreal |
 | b2_would_rather_past | B2 | wouldratherpast 0, 1 | Вежливо говорить, чего хочешь от другого: I'd rather you + прошедшее, о прошлом — Past Perfect; отрицание — didn't | b1_wouldrather_core, b1_cond_unreal |
 | b2_might_as_well | B2 | mightaswell 0, 1 | Говорить «почему бы и нет, раз так»: might / may as well + глагол без to; отличать от might и had better | a2_modals_can |
@@ -175,11 +200,18 @@
 | b1_pastperf_core | B1 | pastperf 0, 1, 2, 3, 4, 5 | Показать, что одно прошлое действие было раньше другого (had + V3), строить отрицание и вопрос, решать, когда хватает Past Simple, и не использовать Past Perfect для «давнего» прошлого | a2_perfect_meaning, a1_past_forms |
 | b1_reported_statements | B1 | reportedspeech 0, 1, 2, 3, 6 | Пересказывать чужие слова: said / told, сдвиг времени на шаг назад, then, the next day, there; знать, когда сдвиг не нужен (says, общая истина, всё ещё правда) | b1_pastperf_core |
 | b1_reported_questions | B1 | reportedspeech 4, 5, 7 | Пересказывать вопросы (asked if / whether, порядок утверждения) и просьбы (told me (not) to, advised, warned, suggested + -ing); исправлять частые ошибки косвенной речи | b1_reported_statements, b1_infinitive_patterns |
+| b2_reporting_verbs | B2 | reportingverbs 0, 1, 2, 3 | Пересказывать точным глаголом: agree / refuse to, advise someone to, deny / admit + -ing, accuse of; suggest — без «человек + to» | b1_reported_questions |
 | b1_passive_core | B1 | activepassive 0, 1, 2, 4, 7, 8 | Строить пассив be + V3 во всех основных временах и с модальными глаголами, превращать актив в пассив, решать, нужен ли by и пассив вообще; не ставить пассив у happen, arrive, belong, cost | a2_irregular_forms |
 | b1_have_done | B1 | havesomethingdone 0, 1, 2, 3 | Говорить об услугах и неприятностях: have / get + что + третья форма во всех временах (had my hair cut, had my bag stolen) | b1_passive_core |
 | b2_passive_more | B2 | activepassive 3, 5, 6 | Употреблять пассив с двумя дополнениями (I was given…), get + V3 и have something done, безличный пассив It is said that / He is said to | b1_passive_core |
+| b2_passive_get | B2 | passiveget 0, 1, 4 | Говорить разговорным пассивом: get fired, get stuck, get paid; need + -ing — «нужно сделать»; get и be вместе не ставить | b1_passive_core |
+| b2_passive_phrasal | B2 | passiveget 2, 3, 4 | Строить пассив с двумя дополнениями (I was given a book) и с глаголами с предлогом или частицей (was looked after, was put off) | b2_passive_get |
+| b2_passive_modals | B2 | passivemodals 0, 1, 2, 3 | Ставить пассив после модальных: must be done, can be fixed; о прошлом — must / should / could have been done | b1_passive_core, a2_modals_must |
+| b2_reporting_passive | B2 | reportingpassive 0, 1 | Передавать мнения без источника: It is said that…, He is said to be / to have done | b1_passive_core |
 | b2_be_to | B2 | besupposedto 1 | Узнавать официальный план и указание в новостях и инструкциях: The President is to visit…, You are not to leave | b1_supposed_to |
+| c1_be_to | C1 | betoinfinitive 0, 1, 2, 3 | Понимать все значения be to: официальный план, приказ, запрет; if we are to — «если хотим»; was to — «было суждено», was to have done — «должно было, но не случилось» | b2_be_to |
 | b2_likely_bound | B2 | likelyto 0, 1, 2 | Оценивать вероятность: be likely / unlikely / bound / due to + глагол; It is likely that…; due to — «из-за» | a2_modals_can |
+| b2_due_set_verge | B2 | beduetoset 0, 1, 2, 3 | Говорить о сроках и прогнозах точнее will: be due to — по расписанию, be set to — ожидается, be on the verge of — вот-вот | b2_likely_bound |
 | a2_alreadyyet_meaning | A2 | alreadyyet 0, 1, 3 | Различать already, yet, still и just по смыслу; ставить already, just между have и V3, still перед глаголом, yet в конце; исправлять ошибки: yet в утверждении, just в конце | a2_perfect_meaning |
 | b1_alreadyyet_nuance | B1 | alreadyyet 2 | Слышать оттенки: still not — досада, already в вопросе — удивление | a2_alreadyyet_meaning |
 | b1_still_anymore | B1 | stillanymore 0, 1, 2 | Говорить «всё ещё» (still перед глаголом, после be) и «больше не» (not … any more / any longer в конце, no longer перед глаголом) | a2_alreadyyet_meaning |

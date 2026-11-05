@@ -3,24 +3,19 @@
   "route": "cards_reportingverbs",
   "slides": [
     {
-      "label": "Глаголы пересказа + to: agree, refuse, advise",
+      "label": "Agree to, advise me to",
       "intro": {
-        "text": "Вместо скучного said в пересказе берут глагол, который сразу передаёт смысл: He offered to help — «Он предложил помочь». У каждого глагола своя схема: после одних — to + глагол, после других — человек + to.",
+        "text": "Пересказываешь разговор: «Я помогу», — сказал он → He offered to help. Вместо said берут глагол, который сразу передаёт смысл: offered, refused, denied. У каждого своя схема: to + глагол, человек + to или -ing.",
         "highlights": [
           {
-            "text": "said",
-            "color": "bad",
+            "text": "He offered to help",
+            "color": "example",
             "style": "bold"
-          },
-          {
-            "text": "сразу передаёт смысл",
-            "color": "term",
-            "style": "bold_underline"
           },
           {
             "text": "своя схема",
-            "color": "info",
-            "style": "bold"
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -126,7 +121,7 @@
                 "cells": [
                   "encourage",
                   "They encouraged her to apply.",
-                  "Они уговаривали её подать заявку."
+                  "Они побуждали её подать заявку."
                 ]
               }
             ],
@@ -136,7 +131,7 @@
       ]
     },
     {
-      "label": "Глаголы пересказа + -ing: deny, admit, accuse of",
+      "label": "Deny doing, accuse of",
       "intro": {
         "text": "После deny, admit, suggest и recommend идёт -ing. Глаголы с предлогом — accuse of, blame for, apologise for, insist on — тоже требуют -ing.",
         "highlights": [
@@ -246,12 +241,13 @@
                 "ru": "Он отрицал, что знает её."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Как пересказать: понять, что человек сделал",
+      "label": "Как пересказать",
       "intro": {
         "text": "Сначала пойми, что человек сделал словами: предложил, отказался, признал. Потом подставь нужный глагол и его схему.",
         "highlights": [
@@ -306,12 +302,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: suggested me to, denied to steal",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки с глаголами пересказа.",
+        "text": "Частые ошибки с глаголами пересказа. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -351,14 +347,71 @@
             "type": "tip",
             "title": "Учи схемой",
             "text": "Запоминай не просто deny, а deny doing; не accuse, а accuse someone of doing. Тогда пересказ строится сам."
-          },
-          "quote": {
-            "text": "Глагол пересказа — это сразу и «сказал», и «что именно сделал».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:reportingverbs.to",
+      "description": "agree, refuse, offer, promise + to",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportingverbs.objto",
+      "description": "advise, warn, persuade + человек + to",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportingverbs.ing",
+      "description": "deny, admit, suggest + -ing; после предлога — -ing",
+      "slides": [
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportingverbs.choose",
+      "description": "глагол выбирают по смыслу сказанного",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportingverbs.suggest",
+      "description": "suggest — без «человек + to»",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_b2_deny",
+    "word_b1_admit",
+    "word_a2_refuse",
+    "word_a2_suggest",
+    "word_b1_accuse"
+  ],
+  "prerequisites": [
+    "cards_reportedspeech"
+  ],
+  "prerequisites_reviewed": false
 }

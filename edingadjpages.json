@@ -3,29 +3,29 @@
   "route": "cards_edingadj",
   "slides": [
     {
-      "label": "Bored или boring: чувствую или вызываю",
+      "label": "Bored или boring",
       "intro": {
-        "text": "Прилагательное на -ed — что ЧУВСТВУЕТ человек: I'm bored — мне скучно. На -ing — каков предмет или человек, который это чувство вызывает: the film is boring — фильм скучный.",
+        "text": "Фильм тянется два часа, ты зеваешь: The film is boring — «фильм скучный». А о себе: I'm bored — «мне скучно». На -ed — что человек чувствует. На -ing — что вызывает это чувство: фильм, урок, поездка, человек.",
         "highlights": [
           {
-            "text": "-ed",
+            "text": "The film is boring",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "I'm bored",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "что человек чувствует",
             "color": "term",
             "style": "bold_underline"
           },
           {
-            "text": "ЧУВСТВУЕТ",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "-ing",
+            "text": "что вызывает это чувство",
             "color": "info",
             "style": "bold_underline"
-          },
-          {
-            "text": "вызывает",
-            "color": "info",
-            "style": "bold"
           }
         ]
       },
@@ -160,12 +160,13 @@
                 "ru": "Инструкция была запутанной — я запутался."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Предлоги после -ed: interested in, tired of",
+      "label": "Interested in, tired of",
       "intro": {
         "text": "После прилагательных на -ed обычно стоит свой предлог. Его учат вместе со словом.",
         "highlights": [
@@ -269,17 +270,18 @@
                 "ru": "Она переживала из-за экзамена."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: I'm boring, interested lesson",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с -ed и -ing.",
+        "text": "Частые ошибки с прилагательными на -ed и -ing. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -311,8 +313,59 @@
               "right": "It was a tiring day. (день утомляет — -ing)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Про чувства человека — -ed: I'm bored. Про то, что вызывает чувство, — -ing: the film is boring. I'm boring — это «я зануда»."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:edingadj.feel",
+      "description": "-ed — что человек чувствует",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:edingadj.cause",
+      "description": "-ing — что вызывает чувство",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:edingadj.prep",
+      "description": "после -ed — свой предлог: interested in, tired of",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_bored",
+    "word_interested",
+    "word_tired",
+    "word_excited"
+  ],
+  "prerequisites": [
+    "cards_emotions"
+  ],
+  "prerequisites_reviewed": false
 }

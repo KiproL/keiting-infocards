@@ -30,7 +30,7 @@
 
 ## Статус карточек
 
-**Полностью переработано: 116 из 242** (105 прежних карточек и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 126.
+**Полностью переработано: 146 из 242** (135 прежних карточек и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 96.
 
 | Карточка | Ред. | Проверено | Исправлено | Части | Задания | Связи | Нужна поддержка приложения |
 |---|---|---|---|---|---|---|---|
@@ -150,7 +150,37 @@
 | cards_eachother | 1 | да | да | 1 | 30 | да | нет (M-027) |
 | cards_thesameas | 1 | да | да | 1 | 57 | да | нет (M-027) |
 | cards_likeunlike | 1 | да | да | 1 | 41 | да | нет (M-027) |
-| остальные 126 | 0 | нет | нет | нет | нет | нет | — |
+| cards_betoinfinitive | 1 | да | да | 1 | 19 | да | нет (M-028) |
+| cards_beduetoset | 1 | да | да | 1 | 20 | да | нет (M-028) |
+| cards_asifthough | 1 | да | да | 1 | 23 | да | нет (M-028) |
+| cards_butforotherwise | 1 | да | да | 1 | 21 | да | нет (M-028) |
+| cards_bytimeuntil | 1 | да | да | 1 | 21 | да | нет (M-028) |
+| cards_cleftsentence | 1 | да | да | 1 | 35 | да | нет (M-028) |
+| cards_pseudocleft | 1 | да | да | 1 | 30 | да | нет (M-028) |
+| cards_collectivenouns | 1 | да | да | 1 | 57 | да | нет (M-028) |
+| cards_comparativesadv | 1 | да | да | 1 | 35 | да | нет (M-028) |
+| cards_concessive | 1 | да | да | 1 | 20 | да | нет (M-028) |
+| cards_contrastlinkers | 1 | да | да | 1 | 19 | да | нет (M-028) |
+| cards_deduction | 1 | да | да | 1 | 30 | да | нет (M-028) |
+| cards_discoursemarkers | 1 | да | да | 1 | 20 | да | нет (M-028) |
+| cards_emphasis | 1 | да | да | 1 | 22 | да | нет (M-028) |
+| cards_emphaticdo | 1 | да | да | 1 | 33 | да | нет (M-028) |
+| cards_edingadj | 1 | да | да | 1 | 50 | да | нет (M-028) |
+| cards_hardhardly | 1 | да | да | 1 | 56 | да | нет (M-028) |
+| cards_hardlywhen | 1 | да | да | 1 | 40 | да | нет (M-028) |
+| cards_nosoonerthan | 1 | да | да | 1 | 41 | да | нет (M-028) |
+| cards_inversion | 1 | да | да | 2 | 87 | да | нет (M-028) |
+| cards_lestforfear | 1 | да | да | 1 | 19 | да | нет (M-028) |
+| cards_mixedconditionals | 1 | да | да | 1 | 23 | да | нет (M-028) |
+| cards_modalperfect | 1 | да | да | 1 | 69 | да | нет (M-028) |
+| cards_modalperfectcont | 1 | да | да | 1 | 23 | да | нет (M-028) |
+| cards_passiveget | 1 | да | да | 2 | 30 | да | нет (M-028) |
+| cards_passivemodals | 1 | да | да | 1 | 24 | да | нет (M-028) |
+| cards_reportingpassive | 1 | да | да | 1 | 41 | да | нет (M-028) |
+| cards_reportingverbs | 1 | да | да | 1 | 24 | да | нет (M-028) |
+| cards_subjunctive | 1 | да | да | 1 | 41 | да | нет (M-028) |
+| cards_unlessincase | 1 | да | да | 1 | 19 | да | нет (M-028) |
+| остальные 96 | 0 | нет | нет | нет | нет | нет | — |
 
 «Связи» означает: проверены error_patterns и теги, привязка заданий к слайдам, `related_words`, предпосылки карточки. У лексических карточек — ещё `target_words`. У alphabet и readingrules связей со словарём нет: они о буквах и чтении, а не о словах. Поэтому там «частично».
 
@@ -1703,6 +1733,103 @@ M-027: индексы слайдов и привязка заданий преж
 - node-тесты: 15/15.
 - check_card.py: без замечаний.
 - Сверка со схемой приложения: 0 ошибок.
+- layout.js и fit.js: без замечаний после правок.
+- Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
+
+## Партия 18: тридцать карточек B1–C1, полный цикл по заданию и стандарту
+
+Первая половина (коммит `dc163e9`): betoinfinitive, beduetoset, asifthough, butforotherwise, bytimeuntil, cleftsentence, pseudocleft, collectivenouns, comparativesadv, concessive, contrastlinkers, deduction, discoursemarkers, emphasis, emphaticdo.
+
+Вторая половина: edingadj, hardhardly, hardlywhen, nosoonerthan, inversion, lestforfear, mixedconditionals, modalperfect, modalperfectcont, passiveget, passivemodals, reportingpassive, reportingverbs, subjunctive, unlessincase.
+
+Редакция 0 → 1. Темы и порядок слайдов прежние, у каждой карточки появилась часть в учебном плане.
+
+### Готовое содержание
+
+- **Во всех карточках:**
+  - вступление начинается с ситуации («друг пришёл весь мокрый», «табличка в музее»), потом форма;
+  - названия слайдов — 2–4 слова, слайды ошибок называются «Частые ошибки»;
+  - шуточные цитаты, «правило большого пальца» и слова капслоком (I DO like you, he GO, No sooner HAD I, ЧУВСТВУЕТ) убраны;
+  - скрытые блоки «Ещё примеры» показаны сразу;
+  - у всех есть error_patterns, теги заданий, related_words и предпосылки.
+- **Ошибки и варианты разведены.** Не ошибки, а варианты:
+  - после suggest и It's important that в британском разговорном — обычное время (I suggest that he goes) или should. Эти строки убраны из ошибок subjunctive, вместо них «I suggest him to go» и «It's essential that he will be there». Добавлен блок «В британском — проще»;
+  - as if с обычным временем (He talks as if he knows everything) — блок «Можно и без сдвига»;
+  - американское As tired as she was, she kept going — тоже правильно;
+  - It was in Paris where… — разговорный вариант cleft, блок «Where и when — разговорно».
+- **Отдельные правки:**
+  - be to: пример с королевой заменён на короля;
+  - due to / set to и must be: ссылки на карточки «Be likely / bound to» и «Should have / Must have»;
+  - deduction: в ошибке «It can be true» правильный вариант — might (can — «бывает»);
+  - emphatic do: be усиливают голосом, исключение — Do be careful!;
+  - hardly … when: убрано «hardly — самая частая из трёх»;
+  - reporting verbs: encourage переведён «побуждали», а не «уговаривали» — это persuade;
+  - mixed conditionals: в задания добавлены now, yesterday, last year. Без них второе или третье условие тоже было бы верно.
+- **Таблицы в правила.** «Сравнение с обычным порядком» (no sooner), «Сигналы» (inversion) и «После чего используется» (subjunctive) сжимали колонки и переделаны в правила. Длинное слово в колонке ошибок unless заменено.
+
+### Задания
+
+- **Ошибочные варианты, дававшие правильный английский, заменены в 125 заданиях.** Предложения при этом не менялись. Примеры:
+  - mustn't have и mustn't have been в догадках: в американском must not have — «наверное, нет»;
+  - «If you change your mind», «If she hadn't loved him», «If he had spoken English» в inversion и mixed conditionals — правильные условия с другим временем;
+  - Often и Usually перед инверсией: Often have I wondered… — книжно возможно;
+  - goes, is, took после suggest и important that (британский вариант) — заменены на to + глагол и -ing;
+  - have sold out и have been sold — оба правильно;
+  - offered вместо promised в пересказе «I'll call you»;
+  - nearby the, later on, in order to not.
+- **Переписаны 96 предложений** (ID сохранены):
+  - дубли внутри карточки и с другими карточками;
+  - в 5 заданиях hardhardly пропуск стоял после can, и вариант can't hardly давал «I can can't hardly». Теперь в пропуске can hardly целиком.
+- Заполнены 60 пустых объяснений.
+- **Добавлено 103 задания** `<имя>_r1_<слайд>_<n>`. У каждого слайда части теперь не меньше 4 заданий: этого требует `CurriculumDrill.hasEnoughEvidence`. У обзорных слайдов и слайдов ошибок mixed conditionals, modal perfect, passive get и passive modals заданий раньше не было вовсе.
+
+### Готовая разметка частей
+
+- **Делятся две карточки:**
+  - inversion: `c1_inversion` (слайды 0, 1, 3) — Never have I…, Rarely does he…; `c1_inversion_if` (слайды 2, 3) — Had I known, Were I you. Условие без if опирается на смешанные условия;
+  - passiveget: `b2_passive_get` (0, 1, 4) — get fired, need + -ing; `b2_passive_phrasal` (2, 3, 4) — I was given, was put off.
+- **Остальные — по одной части:**
+  - by / until, the police are, must be / can't be, -ed / -ing, hard / hardly — B1;
+  - due to / set to, as if, cleft, the more…, the very, emphatic do, unless, mixed conditionals, should have, passive get, passive modals, reporting passive, reporting verbs — B2;
+  - be to, but for, what I need is, tired as she was, whereas / albeit, discourse markers, inversion, hardly … when, no sooner, lest, must have been doing, subjunctive — C1.
+- Частей теперь 213. Описания — в PARTS.md, цели — в UNITS.md.
+- Для вторых частей `c1_inversion_if` и `b2_passive_phrasal` нарисованы иконки, всего иконок частей 67.
+
+### Реализованное отображение
+
+- В карточках — только существующие блоки.
+- **Иконки показываются в приложении**, коммит `cbb9a8c` в репозитории приложения. Плитка «Теории» берёт иконку карточки из `icons/index.json`, экран курса — иконку части. Файлы `.svg` загружаются по сети, поэтому новые иконки появляются без новой версии. Подробно — в COMPONENTS.md.
+- layout.js и fit.js: сжатий нет. Сверка со схемой приложения: 0 карточек с ошибкой загрузки.
+
+### Необходимые миграции
+
+M-028: индексы слайдов и привязка заданий прежние, новые части. Действий от приложения не нужно.
+
+### Оставшиеся проблемы
+
+- **Be to в двух карточках.** besupposedto #1 даёт основы (B2), betoinfinitive — все значения (C1). Часть C1 опирается на B2, повтор оставлен.
+- **Пассив в нескольких карточках.** Часть `b2_passive_more` (activepassive: given, get, said) пересекается с passiveget, passivemodals и reportingpassive. Новые части подробнее. Объединять — это миграция, пока не делал.
+- **Unless и in case** есть и в conditionals #4 (`b2_cond_wish_linkers`), и в unlessincase. Вторая часть шире: as long as, provided, even if / even though.
+- **Задания на выбор по смыслу** (unless / if, even if / even though, must / might, so that / lest) — верный ответ определяет перевод. Где мог, неверный вариант сделан и грамматически неверным.
+- **30 заданий второй половины повторяют примеры с карточки.** Это закрепление показанного, такие не переписывал.
+- **Уровни в банке.** Простые задания лежат в файлах B2–C2 (открытый вопрос 8), не переносил.
+- **Иконки на устройстве не проверены**: здесь нет Android SDK.
+
+### Источники
+
+- test-english: [The subjunctive in English](https://test-english.com/grammar-points/c1/the-subjunctive-in-english-present-and-past/3/) — в британском разговорном вместо subjunctive обычное время (They suggested that he leaves early) или should + глагол.
+- Wikipedia: [American and British English grammatical differences](https://en.wikipedia.org/wiki/American_and_British_English_grammatical_differences) — в американском subjunctive после suggest — норма, в британском его часто заменяет should.
+- Oxford Learner's Dictionaries: [lest](https://www.oxfordlearnersdictionaries.com/definition/english/lest) — formal or literary; после lest — начальная форма или should.
+- Grammaring: [Hardly, scarcely, barely, no sooner](https://grammaring.com/node/280) — hardly / scarcely — с when, no sooner — с than; инверсия, если слово в начале.
+- British Council LearnEnglish: [Unreal time](https://learnenglish.britishcouncil.org/free-resources/grammar/c1/unreal-time) — as if с прошедшим временем — «на самом деле не так», с настоящим — может быть правдой.
+
+### Проверки
+
+- audit-content и audit-curriculum: 242 карточки, 213 частей, 0 ошибок. Предупреждений 75, как и до партии.
+- node-тесты: 15/15.
+- check_card.py: без замечаний.
+- Сверка со схемой приложения: 0 ошибок.
+- Проверка «не меньше 4 заданий на слайд части»: 0 слайдов меньше нормы.
 - layout.js и fit.js: без замечаний после правок.
 - Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
 

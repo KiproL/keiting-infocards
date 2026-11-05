@@ -3,29 +3,19 @@
   "route": "cards_passiveget",
   "slides": [
     {
-      "label": "Пассив B2: get, два дополнения, фразовые",
+      "label": "Пассив B2: обзор",
       "intro": {
-        "text": "Обычный пассив — be + V3. На уровне B2 к нему добавляются три вещи: разговорный пассив с get (He got fired), пассив с двумя дополнениями (I was given a book) и пассив с фразовыми глаголами.",
+        "text": "Коллега рассказывает новости: Tom got fired, and I was given his desk — «Тома уволили, а мне отдали его стол». Пассив B2 — это не только be + V3: есть разговорный get, пассив с двумя дополнениями и фразовые глаголы.",
         "highlights": [
           {
-            "text": "be + V3",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "get",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "I was given a book",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "фразовыми глаголами",
+            "text": "Tom got fired, and I was given his desk",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "не только be + V3",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -80,7 +70,7 @@
       ]
     },
     {
-      "label": "Need + -ing и get + V3",
+      "label": "Got fired, needs washing",
       "intro": {
         "text": "Need + -ing — пассив без be: The car needs washing = The car needs to be washed. Get + V3 — разговорный пассив для неожиданного или неприятного: He got fired.",
         "highlights": [
@@ -168,7 +158,7 @@
       ]
     },
     {
-      "label": "Кому и о ком: I was given, he was looked after",
+      "label": "I was given",
       "intro": {
         "text": "Если у глагола два дополнения, подлежащим обычно делают человека: I was given a book. А у глаголов с предлогом предлог остаётся на месте: She was looked after.",
         "highlights": [
@@ -242,7 +232,7 @@
       ]
     },
     {
-      "label": "Фразовые глаголы в пассиве: was put off",
+      "label": "Was put off",
       "intro": {
         "text": "В пассиве фразовый глагол не разрывают: частица и предлог остаются сразу после V3. The baby was looked after by her grandma.",
         "highlights": [
@@ -317,17 +307,18 @@
                 "ru": "Новые правила ввели в прошлом году."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: was got fired, A book was given me",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки — и как сказать правильно.",
+        "text": "Частые ошибки с get-пассивом, двумя дополнениями и фразовыми глаголами. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -359,8 +350,61 @@
               "right": "The meeting was put off. (it лишнее)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Get и be вместе не ставят. Если два дополнения, подлежащее — человек: I was given. Предлог и частица стоят сразу после V3."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:passiveget.get",
+      "description": "get + V3 без be; need + -ing",
+      "slides": [
+        0,
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:passiveget.person",
+      "description": "два дополнения — подлежащее человек: I was given",
+      "slides": [
+        0,
+        2,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:passiveget.prep",
+      "description": "предлог и частица остаются после V3",
+      "slides": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_get",
+    "word_give"
+  ],
+  "prerequisites": [
+    "cards_activepassive"
+  ],
+  "prerequisites_reviewed": false
 }

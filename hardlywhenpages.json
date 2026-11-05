@@ -3,23 +3,23 @@
   "route": "cards_hardlywhen",
   "slides": [
     {
-      "label": "Hardly … when: едва … как",
+      "label": "Hardly … when",
       "intro": {
-        "text": "Hardly … when — едва … как: едва что-то произошло, как сразу же случилось другое. Полный синоним No sooner … than, но с союзом when вместо than. Также требует инверсии.",
+        "text": "В рассказе: Hardly had I sat down when the phone rang — «едва я сел, как зазвонил телефон». Hardly … when — два события одно за другим, почти без паузы. Если hardly в начале, порядок как в вопросе: had I. Тот же смысл у No sooner … than.",
         "highlights": [
           {
-            "text": "Hardly … when",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "едва … как",
-            "color": "info",
+            "text": "Hardly had I sat down when the phone rang",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "when",
-            "color": "example",
+            "text": "почти без паузы",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "порядок как в вопросе",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -201,7 +201,7 @@
           "callout": {
             "type": "tip",
             "title": "Разницы в смысле нет",
-            "text": "Все три конструкции означают одно и то же — едва одно событие, как сразу другое. Hardly — самая частая из трёх."
+            "text": "Смысл у всех трёх один: едва случилось одно, как сразу другое. Hardly и scarcely — с when, no sooner — с than."
           }
         },
         {
@@ -252,17 +252,18 @@
               "text": "Если hardly стоит не в начале, порядок слов обычный: I had hardly… Инверсия нужна только когда hardly — первое слово."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: Hardly I had, hardly … than",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в Hardly … when.",
+        "text": "Частые ошибки с Hardly … when. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -292,16 +293,51 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "Hardly — всегда с when. No sooner — всегда с than. Никогда не наоборот."
-          },
-          "quote": {
-            "text": "Hardly — литературное «едва». Звучит поэтично и формально.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "title": "Как запомнить",
+            "text": "Hardly — с when, no sooner — с than. Не наоборот."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:hardlywhen.order",
+      "description": "Hardly had + подлежащее + V3 — порядок как в вопросе",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hardlywhen.when",
+      "description": "hardly / scarcely — с when, no sooner — с than",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hardlywhen.v3",
+      "description": "после had — V3",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_b1_hardly",
+    "word_b2_scarcely"
+  ],
+  "prerequisites": [
+    "cards_inversion"
+  ],
+  "prerequisites_reviewed": false
 }

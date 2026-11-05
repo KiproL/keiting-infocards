@@ -3,29 +3,19 @@
   "route": "cards_subjunctive",
   "slides": [
     {
-      "label": "I suggest he go: после требований",
+      "label": "I suggest he go",
       "intro": {
-        "text": "Subjunctive — сослагательное наклонение. Используется после глаголов требования, предложения, совета и после безличных конструкций. Глагол остаётся в начальной форме, без -s в 3-м лице.",
+        "text": "Врач даёт рекомендацию: I suggest that he rest for a week — «советую ему неделю отдыхать». После suggest, demand, insist и It's important that глагол стоит в начальной форме: he rest, she be — без -s. Так говорят в официальной речи и в американском английском.",
         "highlights": [
           {
-            "text": "Subjunctive",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "требования",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "без -s",
+            "text": "I suggest that he rest for a week",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "начальной форме",
-            "color": "bad",
-            "style": "bold"
+            "text": "в начальной форме",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -149,49 +139,28 @@
         {
           "title": "После чего используется",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Тип глагола",
-              "Примеры",
-              "Пример предложения"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "Предложение",
-                  "suggest, recommend, propose",
-                  "I suggest that he go."
-                ]
-              },
-              {
-                "cells": [
-                  "Требование",
-                  "demand, insist, require",
-                  "They demanded that she leave."
-                ]
-              },
-              {
-                "cells": [
-                  "Безличное",
-                  "It's essential, important",
-                  "It's important that he be there."
-                ]
-              },
-              {
-                "cells": [
-                  "Желание",
-                  "wish, if only",
-                  "I wish I were taller."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "rules": [
+            {
+              "name": "suggest, recommend, propose",
+              "suffix": "совет",
+              "example": "I suggest that he go."
+            },
+            {
+              "name": "demand, insist, require",
+              "suffix": "требование",
+              "example": "They demanded that she leave."
+            },
+            {
+              "name": "it's essential / important",
+              "suffix": "важно",
+              "example": "It's important that he be there."
+            },
+            {
+              "name": "wish, if only",
+              "suffix": "желание",
+              "example": "I wish I were taller."
+            }
+          ]
         },
         {
           "title": "Главная особенность",
@@ -199,8 +168,13 @@
           "callout": {
             "type": "warning",
             "title": "Без -s в 3-м лице",
-            "text": "I suggest that he GO — не goes. She be — не is. Это главное отличие subjunctive от обычного Present Simple."
+            "text": "I suggest that he go — не goes. It's important that she be there — не is. Этим subjunctive и отличается от Present Simple."
           }
+        },
+        {
+          "title": "В британском — проще",
+          "borderColor": "term",
+          "text": "В британском разговорном часто говорят обычным временем: I suggest that he goes, It's important that she is on time. Это не ошибка. Ещё один британский вариант — should: I suggest that he should go. В официальном тексте и в американском — he go, she be."
         },
         {
           "title": "Живые примеры",
@@ -247,17 +221,18 @@
               }
             ],
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: suggest that he goes",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в subjunctive.",
+        "text": "Частые ошибки с subjunctive. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -269,12 +244,12 @@
           "borderColor": "bad",
           "errors": [
             {
-              "wrong": "I suggest that he goes.",
-              "right": "I suggest that he go. (без -s)"
+              "wrong": "I suggest him to go.",
+              "right": "I suggest that he go. (после suggest — не «человек + to»)"
             },
             {
-              "wrong": "It's important that she is on time.",
-              "right": "It's important that she be on time. (be для всех лиц)"
+              "wrong": "It's essential that he will be there.",
+              "right": "It's essential that he be there. (без will)"
             },
             {
               "wrong": "They demanded that he to leave.",
@@ -288,15 +263,59 @@
           "callout": {
             "type": "tip",
             "title": "Где встречается",
-            "text": "Subjunctive чаще в формальной и академической речи. В разговорной часто заменяется на should: I suggest that he should go — тоже правильно."
-          },
-          "quote": {
-            "text": "Subjunctive — редкая, но элегантная форма для формальной речи.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Subjunctive — в официальной, деловой и академической речи и в американском английском. В британском разговорном вместо него — should + глагол или обычное время."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:subjunctive.base",
+      "description": "после suggest / demand / important that — глагол без -s",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:subjunctive.be",
+      "description": "be — для всех лиц",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:subjunctive.not",
+      "description": "отрицание — not + глагол, без do",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:subjunctive.should",
+      "description": "британский вариант — should + глагол",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_suggest",
+    "word_b2_demand"
+  ],
+  "prerequisites": [
+    "cards_wish"
+  ],
+  "prerequisites_reviewed": false
 }

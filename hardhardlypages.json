@@ -3,24 +3,24 @@
   "route": "cards_hardhardly",
   "slides": [
     {
-      "label": "Hard и hardly: -ly меняет смысл",
+      "label": "Hard и hardly",
       "intro": {
-        "text": "У нескольких наречий форма с -ly — совсем другое слово. Hard — усердно, а hardly — едва, почти не.",
+        "text": "Тебя хвалят: You work hard — «ты много работаешь». А hardly — совсем другое слово: I hardly slept — «я почти не спал». У нескольких наречий окончание -ly меняет смысл: late и lately, near и nearly, high и highly.",
         "highlights": [
           {
-            "text": "совсем другое слово",
-            "color": "bad",
+            "text": "You work hard",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "Hard",
+            "text": "I hardly slept",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "-ly меняет смысл",
             "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "hardly",
-            "color": "info",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -105,12 +105,13 @@
                 "ru": "Работа почти закончена."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Hardly: «едва, почти не»",
+      "label": "Hardly: почти не",
       "intro": {
         "text": "Hardly уже отрицательное, поэтому not с ним не ставят: I can hardly hear you. Часто идёт с any и ever.",
         "highlights": [
@@ -176,17 +177,18 @@
                 "ru": "Почти никто не знал ответа."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: works hardly, can't hardly",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с этими наречиями.",
+        "text": "Частые ошибки с hard, hardly и похожими наречиями. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -218,8 +220,68 @@
               "right": "I nearly missed the bus. (почти — nearly)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Hard — «усердно, сильно», hardly — «почти не». В hardly уже есть «не», поэтому can't hardly — ошибка."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:hardhardly.hard",
+      "description": "hard, late, near — без -ly: усердно, поздно, близко",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hardhardly.ly",
+      "description": "hardly, lately, nearly, highly — другой смысл",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hardhardly.double",
+      "description": "в hardly уже есть «не» — без not",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hardhardly.any",
+      "description": "hardly any / ever / anyone",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_hard",
+    "word_b1_hardly",
+    "word_a2_lately",
+    "word_a2_nearly"
+  ],
+  "prerequisites": [
+    "cards_adverbs"
+  ],
+  "prerequisites_reviewed": false
 }

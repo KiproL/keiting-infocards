@@ -545,3 +545,15 @@ gerund, infinitive, reportedspeech, activepassive: редакция 0 → 1. И�
 
 Действий от приложения не нужно.
 
+
+## M-028. Партия 18 — совместимо, опубликовано
+
+- **Редакция 0 → 1**, 30 карточек: betoinfinitive, beduetoset, asifthough, butforotherwise, bytimeuntil, cleftsentence, pseudocleft, collectivenouns, comparativesadv, concessive, contrastlinkers, deduction, discoursemarkers, emphasis, emphaticdo, edingadj, hardhardly, hardlywhen, nosoonerthan, inversion, lestforfear, mixedconditionals, modalperfect, modalperfectcont, passiveget, passivemodals, reportingpassive, reportingverbs, subjunctive, unlessincase. Индексы и темы слайдов прежние.
+- **Перепривязки нет.** Задания остались на своих слайдах.
+- **Изменён пропуск в 5 заданиях** hardhardly: `hardhardly_1_n3`, `hardhardly_1_n7`, `hardhardly_1_n10`, `hardhardly_2_n1`, `hardhardly_2_n13`. Пропуск стоял после can / could / have, и вариант «can't hardly» давал «I can can't hardly…». Теперь в пропуске can hardly целиком. ID прежние.
+- **Новые задания:** `<имя>_r1_<слайд>_<n>`, 103 шт. — чтобы у каждого слайда части было не меньше 4 заданий.
+- **Новые части:** 32, по PARTS.md. Раньше этих карточек в учебном плане не было, засчитывать нечего.
+- **Новые иконки:** `icons/parts/c1_inversion_if`, `icons/parts/b2_passive_phrasal`.
+- **Показ иконок** сделан в приложении (коммит `cbb9a8c`), формат `icons/index.json` прежний.
+
+Действий от приложения не нужно.

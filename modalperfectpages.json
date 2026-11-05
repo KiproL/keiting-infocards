@@ -3,24 +3,19 @@
   "route": "cards_modalperfect",
   "slides": [
     {
-      "label": "Should have, could have: о прошлом",
+      "label": "Should have, could have",
       "intro": {
-        "text": "Модальный глагол + have + V3 говорит о прошлом: сожаление и упрёк (should have), упущенная возможность (could have) и догадки (must, might, can't have).",
+        "text": "Друг не позвонил, и ты волновался весь вечер: You should have called! — «надо было позвонить!». Модальный + have + V3 — разговор о прошлом: упрёк и сожаление (should have), упущенная возможность (could have), догадки (must have, can't have).",
         "highlights": [
           {
-            "text": "have + V3",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "сожаление и упрёк",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "догадки",
+            "text": "You should have called!",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "разговор о прошлом",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -146,7 +141,7 @@
           "borderColor": "info",
           "table": {
             "headers": [
-              "Конструкция",
+              "Форма",
               "Значение",
               "Пример"
             ],
@@ -236,12 +231,13 @@
                 "ru": "Я бы пришёл, но болел."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Догадки о прошлом: must have, can't have",
+      "label": "Догадки о прошлом",
       "intro": {
         "text": "В догадках модальный глагол показывает уверенность: must — почти уверен, might — может быть, can't — точно нет.",
         "highlights": [
@@ -311,12 +307,13 @@
                 "ru": "Он мог сесть не на тот поезд."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Needn't have или didn't need to",
+      "label": "Needn't have",
       "intro": {
         "text": "Needn't have done — сделал, но зря: это было не нужно. Didn't need to do — не нужно было, и (обычно) не делал.",
         "highlights": [
@@ -394,12 +391,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: should have came, should of",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с модальными о прошлом.",
+        "text": "Частые ошибки с модальными о прошлом. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -451,5 +448,67 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:modalperfect.v3",
+      "description": "модальный + have + V3, не V2",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalperfect.meaning",
+      "description": "should have — упрёк, could have — упущенное",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalperfect.deduction",
+      "description": "must have — наверняка, might — возможно, can't — точно нет",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalperfect.needn",
+      "description": "needn't have — сделал зря; didn't need to — не делал",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalperfect.of",
+      "description": "should have, не should of",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_should",
+    "word_must"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

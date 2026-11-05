@@ -772,3 +772,58 @@ Reported speech и Active / Passive разделены на части без п
 | likeunlike | `b1_like_unlike` | B1 | a2_the_same_as |
 | mightaswell | `b2_might_as_well` | B2 | a2_modals_can |
 
+
+## Партия 18
+
+**Inversion** — делится по теме:
+
+| Часть | Уровень | Слайды | Что |
+|---|---|---|---|
+| `c1_inversion` | C1 | 0 Never have I…; 1 Rarely, little, only; 3 Частые ошибки | инверсия после never, rarely, little, only then, not only |
+| `c1_inversion_if` | C1 | 2 Had I known; 3 Частые ошибки | условие без if: Had I known, Were I you, Should you need |
+
+Карта содержания: всё сохранено, ничего не перенесено и не удалено. Условие без if опирается на смешанные условия (`b2_mixed_conditionals`), поэтому вынесено в свою часть.
+
+**Пассив B2 (passiveget)** — делится по теме:
+
+| Часть | Уровень | Слайды | Что |
+|---|---|---|---|
+| `b2_passive_get` | B2 | 0 Пассив B2: обзор; 1 Got fired, needs washing; 4 Частые ошибки | get + V3, need + -ing |
+| `b2_passive_phrasal` | B2 | 2 I was given; 3 Was put off; 4 Частые ошибки | два дополнения, глаголы с предлогом и частицей |
+
+Карта содержания: всё сохранено, ничего не перенесено и не удалено.
+
+**Остальные — по одной части:**
+
+| Карточка | Часть | Уровень | Предпосылки |
+|---|---|---|---|
+| betoinfinitive | `c1_be_to` | C1 | b2_be_to |
+| beduetoset | `b2_due_set_verge` | B2 | b2_likely_bound |
+| asifthough | `b2_as_if` | B2 | b1_wish_present |
+| butforotherwise | `c1_but_for` | C1 | b2_cond_wish_linkers |
+| bytimeuntil | `b1_by_until` | B1 | a1_prep_place |
+| cleftsentence | `b2_cleft` | B2 | b1_relative_core |
+| pseudocleft | `c1_what_i_need` | C1 | b2_cleft |
+| collectivenouns | `b1_collective_nouns` | B1 | a2_nouns_special |
+| comparativesadv | `b2_comparatives_more` | B2 | a2_comparisons_degrees |
+| concessive | `c1_concessive` | C1 | b1_despite |
+| contrastlinkers | `c1_whereas_albeit` | C1 | b1_despite |
+| deduction | `b1_deduction` | B1 | a2_modals_can |
+| discoursemarkers | `c1_discourse_markers` | C1 | b1_despite |
+| emphasis | `b2_emphasis` | B2 | a2_pronouns_reflexive |
+| emphaticdo | `b2_emphatic_do` | B2 | a1_simple_questions |
+| edingadj | `b1_ed_ing` | B1 | a2_emotions_prep |
+| hardhardly | `b1_hard_hardly` | B1 | a2_adverbs_manner |
+| unlessincase | `b2_unless_in_case` | B2 | b2_cond_wish_linkers |
+| mixedconditionals | `b2_mixed_conditionals` | B2 | b1_cond_unreal |
+| hardlywhen | `c1_hardly_when` | C1 | c1_inversion |
+| nosoonerthan | `c1_no_sooner` | C1 | c1_inversion |
+| lestforfear | `c1_lest` | C1 | b1_so_that |
+| modalperfect | `b2_modals_past_more` | B2 | b1_modals_past |
+| modalperfectcont | `c1_modal_perfect_cont` | C1 | b2_modals_past_more |
+| passivemodals | `b2_passive_modals` | B2 | b1_passive_core, a2_modals_must |
+| reportingpassive | `b2_reporting_passive` | B2 | b1_passive_core |
+| reportingverbs | `b2_reporting_verbs` | B2 | b1_reported_questions |
+| subjunctive | `c1_subjunctive` | C1 | b1_wish_present |
+
+`c1_inversion` опирается на `a1_simple_questions`: порядок слов как в вопросе. `c1_inversion_if` — на `c1_inversion` и `b2_mixed_conditionals`. `b2_passive_phrasal` — на `b2_passive_get`.

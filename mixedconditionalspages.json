@@ -3,24 +3,19 @@
   "route": "cards_mixedconditionals",
   "slides": [
     {
-      "label": "Смешанные условия: прошлое влияет на сейчас",
+      "label": "Смешанные условия",
       "intro": {
-        "text": "Смешанные условные предложения соединяют два времени: условие из одного времени, а результат — из другого. Например, прошлое решение влияет на настоящее.",
+        "text": "Ты когда-то не пошёл учиться на врача: If I had studied medicine, I would be a doctor now — «если бы тогда выучился, сейчас был бы врачом». В смешанном условии условие и результат — из разных времён: прошлое влияет на сейчас или наоборот.",
         "highlights": [
           {
-            "text": "два времени",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "прошлое",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "настоящее",
+            "text": "If I had studied medicine, I would be a doctor now",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "из разных времён",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -85,12 +80,13 @@
                 "ru": "Если бы я лучше знал математику, я бы сдал экзамен."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Прошлое → настоящее: If I had…, I would be…",
+      "label": "Прошлое → сейчас",
       "intro": {
         "text": "Что-то было (или не было) в прошлом — и из-за этого сейчас всё иначе.",
         "highlights": [
@@ -289,12 +285,13 @@
                 "ru": "Если бы я не переехал в Москву, я бы тебя не знал."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Настоящее → прошлое: If I were…, I would have…",
+      "label": "Сейчас → прошлое",
       "intro": {
         "text": "Постоянная черта или факт сейчас объясняет, что случилось (или не случилось) в прошлом.",
         "highlights": [
@@ -493,14 +490,15 @@
                 "ru": "Если бы я любил рыбу, я бы заказал лосося."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: would have после if",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Частые ошибки в смешанных условных.",
+        "text": "Частые ошибки со смешанными условиями. Справа — как правильно и почему.",
         "highlights": [
           {
             "text": "Частые ошибки",
@@ -527,8 +525,60 @@
               "right": "If he spoke French, he would have got the job. (после if — Past Simple)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Сначала реши, когда условие и когда результат. Прошлое — had + V3 или would have + V3, сейчас — Past Simple или would + глагол. После if would не ставят."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:mixedconditionals.pastnow",
+      "description": "прошлое → сейчас: If + had V3, would + глагол",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:mixedconditionals.nowpast",
+      "description": "сейчас → прошлое: If + Past Simple, would have + V3",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:mixedconditionals.nowould",
+      "description": "после if — без would",
+      "slides": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_if"
+  ],
+  "prerequisites": [
+    "cards_conditionals"
+  ],
+  "prerequisites_reviewed": false
 }

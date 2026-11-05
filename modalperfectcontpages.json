@@ -3,19 +3,19 @@
   "route": "cards_modalperfectcont",
   "slides": [
     {
-      "label": "Must have been doing: догадка о процессе",
+      "label": "Must have been doing",
       "intro": {
-        "text": "Модальный + have been + -ing — догадка или сожаление о процессе в прошлом: He must have been waiting for hours — «он, должно быть, ждал часами».",
+        "text": "Друг пришёл весь мокрый и запыхавшийся: You must have been running — «ты, наверное, бежал». Модальный + have been + -ing — догадка или упрёк о процессе, который шёл какое-то время.",
         "highlights": [
           {
-            "text": "have been + -ing",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "You must have been running",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "о процессе в прошлом",
-            "color": "info",
-            "style": "bold"
+            "text": "о процессе",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -202,12 +202,13 @@
                 "ru": "Надо было слушать внимательнее."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Must have done или must have been doing",
+      "label": "Done или been doing",
       "intro": {
         "text": "Must have done — о результате или факте. Must have been doing — о процессе, который шёл какое-то время, часто со следами: глаза красные, всё мокрое.",
         "highlights": [
@@ -273,12 +274,13 @@
                 "ru": "Возможно, она спала, когда ты звонил."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Упрёки: should have been doing",
+      "label": "Упрёки о процессе",
       "intro": {
         "text": "Should have been doing — «надо было делать, а ты…». Wouldn't have been doing — «не стал бы делать», если бы знал.",
         "highlights": [
@@ -344,17 +346,18 @@
                 "ru": "Я бы не волновался, если бы ты позвонил."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: must have been cry, must been",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки — и как сказать правильно.",
+        "text": "Частые ошибки с must have been doing. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -386,8 +389,66 @@
               "right": "He can't have been sleeping. (догадка «нет» — can't)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Формула целиком: модальный + have + been + -ing. Ни одно слово не выпадает. Догадка «точно нет» — can't."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:modalperfectcont.ing",
+      "description": "have been + -ing, все четыре части",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalperfectcont.choice",
+      "description": "процесс — have been doing, результат — have done",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalperfectcont.cant",
+      "description": "догадка «нет» — can't, не mustn't",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:modalperfectcont.regret",
+      "description": "should have been doing — упрёк о процессе",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_must"
+  ],
+  "prerequisites": [
+    "cards_modalperfect"
+  ],
+  "prerequisites_reviewed": false
 }

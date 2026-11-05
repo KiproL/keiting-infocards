@@ -3,33 +3,18 @@
   "route": "cards_unlessincase",
   "slides": [
     {
-      "label": "Unless, as long as, provided: точнее, чем if",
+      "label": "Unless, as long as",
       "intro": {
-        "text": "Вместо if есть слова с точным оттенком: unless — «если не», as long as и provided (that) — «при условии, что», even if — «даже если». После всех них — настоящее время, не will.",
+        "text": "Друг просит машину: You can take it as long as you drive carefully — «бери, только езди аккуратно». Вместо if есть союзы с точным смыслом: unless — «если не», as long as и provided — «при условии», even if — «даже если». После них — настоящее время.",
         "highlights": [
           {
-            "text": "unless",
-            "color": "term",
+            "text": "as long as you drive carefully",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "as long as",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "provided (that)",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "even if",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "не will",
-            "color": "bad",
+            "text": "с точным смыслом",
+            "color": "info",
             "style": "bold_underline"
           }
         ]
@@ -110,7 +95,7 @@
       ]
     },
     {
-      "label": "Unless и if not",
+      "label": "Unless или if not",
       "intro": {
         "text": "Unless = if … not, но не всегда. Если смысл «я расстроюсь, если этого не будет», unless не подходит: I'll be upset if you don't come, а не unless you come.",
         "highlights": [
@@ -184,12 +169,13 @@
                 "ru": "Мне будет грустно, если ты не придёшь. (здесь unless не подходит)"
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Even if, even though, in case",
+      "label": "Even if, even though",
       "intro": {
         "text": "Even if — «даже если» о возможном: Even if it rains, we'll go. Even though — «хотя, несмотря на то что» о реальном факте: Even though it was raining, we went.",
         "highlights": [
@@ -283,17 +269,18 @@
                 "ru": "Запиши адрес на случай, если забудешь."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: unless you don't, as long as you will",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Вот самые частые ошибки с условными союзами.",
+        "text": "Частые ошибки с unless, as long as и in case. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -322,7 +309,7 @@
             },
             {
               "wrong": "In case of you need help, call me.",
-              "right": "In case you need help, call me. (in case of — только с существительным)"
+              "right": "In case you need help, call me. (in case of + сущ.)"
             }
           ]
         },
@@ -333,14 +320,70 @@
             "type": "tip",
             "title": "Проверь себя",
             "text": "После unless, as long as, provided, even if и in case — настоящее время. Отрицание unless уже содержит."
-          },
-          "quote": {
-            "text": "Unless — это if и not в одном слове.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:unlessincase.unless",
+      "description": "unless = if … not, без второго not",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:unlessincase.cond",
+      "description": "as long as, provided — «при условии»",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:unlessincase.present",
+      "description": "после unless, as long as, provided, in case — без will",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:unlessincase.evenif",
+      "description": "even if — возможное, even though — факт",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:unlessincase.incase",
+      "description": "in case — подстраховка; in case of + сущ.",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_b1_unless",
+    "word_a2_case"
+  ],
+  "prerequisites": [
+    "cards_conditionals"
+  ],
+  "prerequisites_reviewed": false
 }

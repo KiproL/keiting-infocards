@@ -3,29 +3,19 @@
   "route": "cards_inversion",
   "slides": [
     {
-      "label": "Never have I…: порядок как в вопросе",
+      "label": "Never have I…",
       "intro": {
-        "text": "Инверсия — порядок слов как в вопросе, но в утверждении: Never have I seen… Так говорят, когда в начало вынесено отрицательное или ограничивающее слово. Звучит сильно и книжно.",
+        "text": "В речи на выпускном: Never have I been so proud — «никогда я так не гордился». Если в начало вынести never, rarely, little или only then, дальше порядок как в вопросе: вспомогательный глагол, потом подлежащее. Звучит сильно и книжно.",
         "highlights": [
           {
-            "text": "Инверсия",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "как в вопросе",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "Never have I seen",
+            "text": "Never have I been so proud",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "сильно и книжно",
-            "color": "accent2",
-            "style": "bold"
+            "text": "порядок как в вопросе",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -212,12 +202,13 @@
                 "ru": "Ни при каких обстоятельствах не открывайте эту дверь."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Слова-сигналы: rarely, little, not only",
+      "label": "Rarely, little, only",
       "intro": {
         "text": "Инверсию включают слова со смыслом «никогда», «редко», «только», «ни за что». Каждое — со своим оттенком.",
         "highlights": [
@@ -237,77 +228,48 @@
         {
           "title": "Сигналы",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Начало",
-              "Значение",
-              "Пример"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "Never / Never before",
-                  "никогда",
-                  "Never have I felt so happy."
-                ]
-              },
-              {
-                "cells": [
-                  "Rarely / Seldom",
-                  "редко",
-                  "Seldom do we see such talent."
-                ]
-              },
-              {
-                "cells": [
-                  "Not only … but also",
-                  "не только…, но и",
-                  "Not only is she smart, but she's also kind."
-                ]
-              },
-              {
-                "cells": [
-                  "Little",
-                  "совсем не (знать, подозревать)",
-                  "Little did he know the truth."
-                ]
-              },
-              {
-                "cells": [
-                  "Only then / Only when",
-                  "только тогда / только когда",
-                  "Only then did I understand."
-                ]
-              },
-              {
-                "cells": [
-                  "Not until",
-                  "только когда, не раньше",
-                  "Not until he left did I relax."
-                ]
-              },
-              {
-                "cells": [
-                  "Under no circumstances",
-                  "ни при каких условиях",
-                  "Under no circumstances should you open it."
-                ]
-              },
-              {
-                "cells": [
-                  "At no time",
-                  "ни разу, никогда",
-                  "At no time was he in danger."
-                ]
-              }
-            ],
-            "borderColor": "info",
-            "headerColors": [
-              "term",
-              "info",
-              "example"
-            ]
-          }
+          "rules": [
+            {
+              "name": "Never / Never before",
+              "suffix": "никогда",
+              "example": "Never have I felt so happy."
+            },
+            {
+              "name": "Rarely / Seldom",
+              "suffix": "редко",
+              "example": "Seldom do we see such talent."
+            },
+            {
+              "name": "Not only … but also",
+              "suffix": "не только…, но и",
+              "example": "Not only is she smart, but she's also kind."
+            },
+            {
+              "name": "Little",
+              "suffix": "и не подозревать",
+              "example": "Little did he know the truth."
+            },
+            {
+              "name": "Only then / Only when",
+              "suffix": "только тогда",
+              "example": "Only then did I understand."
+            },
+            {
+              "name": "Not until",
+              "suffix": "только когда",
+              "example": "Not until he left did I relax."
+            },
+            {
+              "name": "Under no circumstances",
+              "suffix": "ни за что",
+              "example": "Under no circumstances should you open it."
+            },
+            {
+              "name": "At no time",
+              "suffix": "ни разу",
+              "example": "At no time was he in danger."
+            }
+          ]
         },
         {
           "title": "Родственники",
@@ -321,7 +283,7 @@
       ]
     },
     {
-      "label": "Условия без if: Had I known",
+      "label": "Had I known",
       "intro": {
         "text": "В книжной речи if можно убрать, переставив глагол вперёд: Had I known… — «Если бы я знал…». Так работает с had, were и should.",
         "highlights": [
@@ -400,12 +362,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: Never I have, Rarely he calls",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в инверсии.",
+        "text": "Частые ошибки с инверсией. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -449,14 +411,61 @@
             "type": "tip",
             "title": "Не переборщи",
             "text": "Инверсия — приём для эссе, речи и сильного акцента. В обычном разговоре хватает прямого порядка: I've never seen it."
-          },
-          "quote": {
-            "text": "Отрицание впереди — порядок как в вопросе.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:inversion.order",
+      "description": "отрицательное слово + вспомогательный + подлежащее",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:inversion.do",
+      "description": "нет вспомогательного — do / does / did",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:inversion.signal",
+      "description": "never, rarely, little, only then, not until — слова, после которых инверсия",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:inversion.if",
+      "description": "без if: Had I known, Were I you, Should you need",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_never",
+    "word_b1_rarely",
+    "word_b2_seldom",
+    "word_little"
+  ],
+  "prerequisites": [
+    "cards_conditionals"
+  ],
+  "prerequisites_reviewed": false
 }
