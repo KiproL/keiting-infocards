@@ -211,6 +211,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: на кого и из-за чего",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I'm angry with my brother.",
+              "ru": "Я злюсь на брата. (на человека — with; амер. также at)"
+            },
+            {
+              "en": "I'm angry about the delay.",
+              "ru": "Я злюсь из-за задержки. (из-за чего — about)"
+            },
+            {
+              "en": "I'm worried about my exam.",
+              "ru": "Я переживаю из-за экзамена."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -454,7 +472,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -490,5 +508,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_feel",
+    "word_a2_nervous",
+    "word_a2_scared",
+    "word_boring",
+    "word_a2_upset",
+    "word_excited",
+    "word_a2_embarrassed",
+    "word_bored",
+    "word_a2_surprised",
+    "word_tired",
+    "word_b1_confused",
+    "word_a2_worry"
+  ],
+  "prerequisites": [
+    "cards_prepositions"
+  ],
+  "prerequisites_reviewed": false
 }

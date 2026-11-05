@@ -74,6 +74,24 @@
           }
         },
         {
+          "title": "Сравни: be и have",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "She's tall and slim.",
+              "ru": "Она высокая и стройная. (рост, фигура — be)"
+            },
+            {
+              "en": "She has long dark hair.",
+              "ru": "У неё длинные тёмные волосы. (волосы, глаза — have)"
+            },
+            {
+              "en": "He has a beard.",
+              "ru": "У него борода. (have, не is with)"
+            }
+          ]
+        },
+        {
           "title": "Вежливо",
           "borderColor": "bad",
           "callout": {
@@ -216,7 +234,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -466,7 +485,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -606,7 +626,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -661,5 +681,24 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_like",
+    "word_friendly",
+    "word_b1_shy",
+    "phrasal_take_after",
+    "word_tall",
+    "word_short",
+    "word_a2_slim",
+    "word_kind",
+    "word_a2_honest",
+    "word_a2_generous",
+    "word_a2_clever",
+    "word_a2_guy"
+  ],
+  "prerequisites": [
+    "cards_havegot",
+    "cards_wordorder"
+  ],
+  "prerequisites_reviewed": false
 }

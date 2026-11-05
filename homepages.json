@@ -179,7 +179,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -407,6 +408,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: do и make",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I do the cleaning on Saturdays.",
+              "ru": "По субботам я убираюсь. (дело по дому — do)"
+            },
+            {
+              "en": "I make my bed every morning.",
+              "ru": "Каждое утро заправляю кровать. (make the bed)"
+            },
+            {
+              "en": "I make dinner at seven.",
+              "ru": "В семь я готовлю ужин. (создаю — make)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -584,7 +603,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -627,5 +646,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_a2_cooker",
+    "word_a2_wardrobe",
+    "word_kitchen",
+    "word_bedroom",
+    "word_sofa",
+    "word_a2_fridge",
+    "word_make",
+    "word_a2_ground",
+    "word_a2_cupboard",
+    "word_first",
+    "word_bathroom",
+    "word_toilet"
+  ],
+  "prerequisites": [
+    "cards_thereisare"
+  ],
+  "prerequisites_reviewed": false
 }

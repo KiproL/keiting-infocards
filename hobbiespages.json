@@ -192,6 +192,28 @@
           }
         },
         {
+          "title": "Сравни: игра и инструмент",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I play football.",
+              "ru": "Я играю в футбол. (игра — без the)"
+            },
+            {
+              "en": "I play the guitar.",
+              "ru": "Я играю на гитаре. (инструмент — обычно с the)"
+            },
+            {
+              "en": "I go swimming.",
+              "ru": "Я хожу плавать. (занятие на -ing — go)"
+            },
+            {
+              "en": "I do yoga.",
+              "ru": "Я занимаюсь йогой. (остальное — do)"
+            }
+          ]
+        },
+        {
           "title": "Инструменты",
           "borderColor": "good",
           "callout": {
@@ -337,7 +359,8 @@
               "text": "В конце фразы: I go swimming twice a week."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -491,7 +514,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -537,5 +560,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_go",
+    "word_play",
+    "word_reading",
+    "word_b1_photography",
+    "word_twice",
+    "word_cooking",
+    "word_a2_drawing",
+    "word_a2_singing",
+    "word_time",
+    "word_football",
+    "word_fun",
+    "word_a2_fishing"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

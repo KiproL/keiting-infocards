@@ -193,6 +193,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: take, pass, fail",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I took the exam yesterday.",
+              "ru": "Вчера я сдавал экзамен. (результат неизвестен)"
+            },
+            {
+              "en": "I passed the exam.",
+              "ru": "Я сдал экзамен. (успешно)"
+            },
+            {
+              "en": "I failed the exam.",
+              "ru": "Я провалил экзамен."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -239,7 +257,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -424,7 +443,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -479,5 +498,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_study",
+    "word_take",
+    "word_a2_pass",
+    "word_a2_graduate",
+    "word_explain",
+    "word_b1_revise",
+    "word_lesson",
+    "word_next",
+    "word_school",
+    "word_university",
+    "word_teacher",
+    "word_a2_mark"
+  ],
+  "prerequisites": [
+    "cards_pastsimp"
+  ],
+  "prerequisites_reviewed": false
 }

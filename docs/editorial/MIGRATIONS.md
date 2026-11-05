@@ -248,3 +248,7 @@ imperative, havegot, botheither, greetings, family, numbers, pastsimp, modalverb
 ## M-014. Доработка партии 6: редакции 1 → 2 — совместимо, опубликовано
 
 timemoney, wordorder, directions, shopping, restaurant, weather, food, jobs: редакция 2. Индексы слайдов и привязка заданий прежние. Память FSRS по целям сбросится по обычному правилу.
+
+## M-015. Доработка партии 7: редакции 1 → 2 — совместимо, опубликовано
+
+appearance, body, clothes, home, hobbies, emotions, study, technology: редакция 2. Индексы слайдов и привязка заданий прежние.

@@ -83,6 +83,28 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: arm и hand, leg и foot",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I broke my arm.",
+              "ru": "Я сломал руку. (выше кисти — arm)"
+            },
+            {
+              "en": "I cut my hand.",
+              "ru": "Я порезал руку. (кисть — hand)"
+            },
+            {
+              "en": "My leg hurts.",
+              "ru": "Болит нога. (от бедра до щиколотки — leg)"
+            },
+            {
+              "en": "My foot hurts.",
+              "ru": "Болит ступня. (foot)"
+            }
+          ]
         }
       ]
     },
@@ -188,7 +210,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -446,7 +469,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -496,5 +519,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_a2_hurt",
+    "word_a2_headache",
+    "word_b1_toe",
+    "word_a2_sore",
+    "word_feel",
+    "word_get",
+    "word_break",
+    "word_drink",
+    "word_look",
+    "word_a2_yet",
+    "word_a2_rest",
+    "word_arm"
+  ],
+  "prerequisites": [
+    "cards_havegot"
+  ],
+  "prerequisites_reviewed": false
 }

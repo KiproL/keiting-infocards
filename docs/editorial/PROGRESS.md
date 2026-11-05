@@ -64,14 +64,14 @@
 | cards_weather | 2 | да | да | 5 | 71 | да | нет (M-008, M-014) |
 | cards_food | 2 | да | да | 5 | 68 | да | нет (M-008, M-014) |
 | cards_jobs | 2 | да | да | 5 | 71 | да | нет (M-008, M-014) |
-| cards_appearance | 1 | да | да | 6 | 91 | да | нет (M-010) |
-| cards_body | 1 | да | да | 5 | 70 | да | нет (M-010) |
-| cards_clothes | 1 | да | да | 5 | 71 | да | нет (M-010) |
-| cards_home | 1 | да | да | 5 | 71 | да | нет (M-010) |
-| cards_hobbies | 1 | да | да | 5 | 78 | да | нет (M-010) |
-| cards_emotions | 1 | да | да | 5 | 70 | да | нет (M-010) |
-| cards_study | 1 | да | да | 5 | 71 | да | нет (M-010) |
-| cards_technology | 1 | да | да | 5 | 70 | да | нет (M-010) |
+| cards_appearance | 2 | да | да | 6 | 91 | да | нет (M-010, M-015) |
+| cards_body | 2 | да | да | 5 | 70 | да | нет (M-010, M-015) |
+| cards_clothes | 2 | да | да | 5 | 71 | да | нет (M-010, M-015) |
+| cards_home | 2 | да | да | 5 | 71 | да | нет (M-010, M-015) |
+| cards_hobbies | 2 | да | да | 5 | 78 | да | нет (M-010, M-015) |
+| cards_emotions | 2 | да | да | 5 | 70 | да | нет (M-010, M-015) |
+| cards_study | 2 | да | да | 5 | 71 | да | нет (M-010, M-015) |
+| cards_technology | 2 | да | да | 5 | 70 | да | нет (M-010, M-015) |
 | cards_britishamerican | 1 | да | да | 5 | 70 | да | нет (M-012) |
 | cards_collocations | 1 | да | да | 5 | 82 | да | нет (M-012) |
 | cards_idioms | 1 | да | да | 4 | 62 | да | нет (M-012) |
@@ -695,6 +695,30 @@
 - [Cambridge Dictionary: past](https://dictionary.cambridge.org/dictionary/english/past) — ten past seven; американское after / of описано там же как вариант;
 - [Oxford Learner's: fit](https://www.oxfordlearnersdictionaries.com/definition/english/fit_1) и [suit](https://www.oxfordlearnersdictionaries.com/definition/english/suit_2);
 - [Cambridge Dictionary: tip](https://dictionary.cambridge.org/dictionary/english/tip) и источники о чаевых в партии 6.
+
+### Партия 7, редакция 2
+
+- **appearance.** Таблица «Три вопроса с like» выведена в текст — по ней есть задания. «Порядок по шагам» — справочный блок, отмечен необязательным. Добавлены пары be / have: She's tall / She has long hair.
+- **body.** Таблица «-ache, sore или hurt» выведена в текст. Добавлены пары arm / hand, leg / foot — граница слов, которой нет в русском.
+- **clothes.** Таблицы «Британский и американский», «fit, suit, go with» и «Какая одежда» выведены в текст. Добавлены пары I'm putting on / I'm wearing и правильное Wear a coat.
+- **home.** «Этажи: Британия и США» выведены в текст. Добавлены пары do the cleaning / make the bed / make dinner.
+- **hobbies.** «Как часто» выведено в текст. Добавлены пары play football / play the guitar / go swimming / do yoga.
+- **emotions.** Добавлены пары angry with someone / about something.
+- **study.** «Study или learn» выведено в текст. Добавлены пары took / passed / failed the exam.
+- **technology.** Добавлены пары laptop / notebook, download / upload.
+
+**Смешанные слайды, предложено разделение (не выполнено):** study, слайд 0 соединяет школьные слова A1 (school, pupil, lesson) с вузовскими B1–B2 (thesis, degree, major, assignment).
+
+**Связи:**
+- `target_words` — у 386 заданий;
+- `related_words` — у всех восьми;
+- предпосылки карточек: appearance → havegot, wordorder; body → havegot; clothes → pluralnouns, presentcont; home → thereisare; hobbies → presentsimp; emotions → prepositions; study → pastsimp.
+
+**Источники:**
+- [Cambridge Dictionary: wear](https://dictionary.cambridge.org/dictionary/english/wear) и [put on](https://dictionary.cambridge.org/dictionary/english/put-on);
+- [Cambridge Dictionary: finish](https://dictionary.cambridge.org/dictionary/english/finish) — finish university без the;
+- [Cambridge Dictionary: fed up](https://dictionary.cambridge.org/dictionary/english/fed-up) — with и разговорное of;
+- [Cambridge Dictionary: ground floor](https://dictionary.cambridge.org/dictionary/english/ground-floor).
 
 ## Выполненные проверки (партия 1)
 

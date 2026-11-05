@@ -161,7 +161,8 @@
               "text": "В Британии pants — это трусы. Скажешь в Лондоне «nice pants» про брюки — тебя поймут не так."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         },
         {
           "label": "Ещё примеры",
@@ -403,6 +404,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: put on и wear",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I'm putting on my coat.",
+              "ru": "Я надеваю пальто. (действие сейчас)"
+            },
+            {
+              "en": "I'm wearing a coat.",
+              "ru": "Я в пальто. (уже надето)"
+            },
+            {
+              "en": "Wear a coat — it's cold.",
+              "ru": "Иди в пальто — холодно. (совет, тоже правильно)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -480,7 +499,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -594,7 +614,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -736,7 +757,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -772,5 +793,24 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_a2_suit",
+    "word_a2_fit",
+    "word_wear",
+    "phrasal_try_on",
+    "word_jacket",
+    "word_boot",
+    "phrasal_put_on",
+    "word_a2_take_off",
+    "word_b1_dressed",
+    "word_trousers",
+    "word_shirt",
+    "word_dress"
+  ],
+  "prerequisites": [
+    "cards_pluralnouns",
+    "cards_presentcont"
+  ],
+  "prerequisites_reviewed": false
 }
