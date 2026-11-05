@@ -239,8 +239,8 @@
               "example": "large → larger → the largest"
             },
             {
-              "name": "Одна гласная + конечная согласная",
-              "suffix": "в коротком слове согласная часто удваивается",
+              "name": "Одна гласная + согласная на конце",
+              "suffix": "удвоение",
               "example": "big → bigger; hot → hotter; но new → newer"
             },
             {
@@ -575,23 +575,23 @@
             "borderColor": "info",
             "rules": [
               {
-                "name": "farther",
-                "suffix": "физическое расстояние",
+                "name": "Физическое расстояние",
+                "suffix": "farther",
                 "example": "The station is farther than the park."
               },
               {
-                "name": "further",
-                "suffix": "и расстояние, и «дополнительный / дальнейший»",
+                "name": "И расстояние, и «дополнительный, дальнейший»",
+                "suffix": "further",
                 "example": "We need further information."
               },
               {
-                "name": "older",
-                "suffix": "для людей и предметов, с than",
+                "name": "Для людей и предметов, с than",
+                "suffix": "older",
                 "example": "He is older than me."
               },
               {
-                "name": "elder",
-                "suffix": "обычно перед словом родства; не употребляем с than",
+                "name": "Перед словом родства, без than",
+                "suffix": "elder",
                 "example": "my elder brother"
               }
             ]
@@ -731,8 +731,8 @@
           "borderColor": "term",
           "rules": [
             {
-              "name": "the + превосходная",
-              "suffix": "обычная модель перед существительным",
+              "name": "the + превосходная перед существительным",
+              "suffix": "обычно",
               "example": "She is the tallest girl in the class."
             },
             {
@@ -778,7 +778,7 @@
               },
               {
                 "cells": [
-                  "Неправильные",
+                  "Особые",
                   "особая форма",
                   "well → better → the best"
                 ]

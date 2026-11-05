@@ -141,21 +141,21 @@
                 {
                   "cells": [
                     "Irregular",
-                    "меняется форма",
+                    "своя форма",
                     "man → men, child → children"
                   ]
                 },
                 {
                   "cells": [
                     "Uncountable",
-                    "обычно без мн. ч.; нужна единица количества",
+                    "без -s",
                     "water, information, advice"
                   ]
                 },
                 {
                   "cells": [
                     "Plural only",
-                    "только мн. ч.",
+                    "только с -s",
                     "trousers, scissors, glasses"
                   ]
                 }
@@ -380,18 +380,18 @@
           "borderColor": "info",
           "rules": [
             {
-              "name": "/s/",
-              "suffix": "после /p/, /t/, /k/, /f/, /θ/",
+              "name": "После /p/, /t/, /k/, /f/, /θ/",
+              "suffix": "/s/",
               "example": "cats, books, cups, hats"
             },
             {
-              "name": "/z/",
-              "suffix": "после гласных и других звонких звуков, кроме группы /ɪz/",
+              "name": "После гласных и других звонких",
+              "suffix": "/z/",
               "example": "dogs, boys, trees, keys"
             },
             {
-              "name": "/ɪz/",
-              "suffix": "после /s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/ — отдельный слог",
+              "name": "После /s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/ — отдельный слог",
+              "suffix": "/ɪz/",
               "example": "buses, boxes, watches, dishes"
             }
           ]
@@ -427,27 +427,23 @@
           "borderColor": "term",
           "table": {
             "headers": [
-              "Правило",
               "Когда",
               "Пример"
             ],
             "headerColors": [
-              "info",
               "example",
               "term"
             ],
             "rows": [
               {
                 "cells": [
-                  "+es",
-                  "у некоторых слов; запоминаем вместе со словом",
+                  "+es: у некоторых слов; запоминаем вместе со словом",
                   "potato → potatoes, tomato → tomatoes, hero → heroes"
                 ]
               },
               {
                 "cells": [
-                  "+s",
-                  "у многих слов, в том числе этих",
+                  "+s: у многих слов, в том числе этих",
                   "photo → photos, piano → pianos, radio → radios"
                 ]
               }
@@ -672,7 +668,7 @@
             },
             {
               "wrong": "childrens",
-              "right": "children (уже множественное)"
+              "right": "children (это уже много)"
             }
           ]
         },
@@ -812,22 +808,22 @@
               {
                 "cells": [
                   "Вещества",
-                  "water, milk, bread, sugar, rice",
-                  "a glass of water, a loaf of bread, a kilo of rice"
+                  "water, milk, rice",
+                  "a glass of water, a kilo of rice"
                 ]
               },
               {
                 "cells": [
                   "Понятия",
-                  "information, advice, knowledge",
-                  "a piece of advice, a piece of information"
+                  "information, advice",
+                  "a piece of advice"
                 ]
               },
               {
                 "cells": [
-                  "Собирательные",
-                  "furniture, luggage, news",
-                  "a piece of furniture, a piece of news"
+                  "Наборы",
+                  "furniture, luggage",
+                  "a piece of furniture"
                 ]
               }
             ]
@@ -938,7 +934,7 @@
             },
             {
               "wrong": "two informations",
-              "right": "two pieces of information (неисчисляемое)"
+              "right": "two pieces of information (information не считают)"
             },
             {
               "wrong": "potatos",
@@ -1153,18 +1149,18 @@
           "borderColor": "info",
           "rules": [
             {
-              "name": "fish → fishes",
-              "suffix": "разные виды рыб, в научном описании",
+              "name": "Разные виды рыб, в научном описании",
+              "suffix": "fish → fishes",
               "example": "the fishes of the Amazon"
             },
             {
-              "name": "person → persons",
-              "suffix": "официальные надписи и документы",
+              "name": "Официальные надписи и документы",
+              "suffix": "person → persons",
               "example": "No more than four persons in the lift."
             },
             {
-              "name": "people → peoples",
-              "suffix": "«народы»",
+              "name": "«Народы»",
+              "suffix": "people → peoples",
               "example": "the peoples of Europe"
             }
           ],

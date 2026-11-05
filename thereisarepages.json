@@ -78,7 +78,7 @@
           "borderColor": "info",
           "table": {
             "headers": [
-              "Форма",
+              "Вид",
               "Когда",
               "Пример"
             ],
@@ -220,18 +220,18 @@
             "borderColor": "info",
             "rules": [
               {
-                "name": "some",
-                "suffix": "немного, сколько-то",
+                "name": "Немного, сколько-то",
+                "suffix": "some",
                 "example": "There is some bread. There are some eggs."
               },
               {
-                "name": "a lot of",
-                "suffix": "много — подходит ко всему",
+                "name": "Много — подходит ко всему",
+                "suffix": "a lot of",
                 "example": "There is a lot of snow. There are a lot of cars."
               },
               {
-                "name": "many",
-                "suffix": "много — то, что считаем",
+                "name": "Много — то, что считаем",
+                "suffix": "many",
                 "example": "There are many shops here."
               }
             ],
