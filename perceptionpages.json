@@ -1,0 +1,224 @@
+{
+  "tenseName": "See him do / doing",
+  "route": "cards_perception",
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "slides": [
+    {
+      "label": "Видел, как он…",
+      "intro": {
+        "text": "«Я видел, как он переходил улицу» по-английски — без «как» и без «что»: I saw him cross the street. После see, hear, watch, notice и feel сначала тот, кого видим или слышим, а сразу за ним — глагол без to.",
+        "highlights": [
+          {
+            "text": "без «как»",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "I saw him cross the street",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "без to",
+            "color": "info",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formula": {
+            "parts": [
+              {
+                "text": "see / hear / watch",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "him / her / them",
+                "color": "example"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "глагол / -ing",
+                "color": "term"
+              }
+            ],
+            "accentColor": "term"
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I heard her sing.",
+              "ru": "Я слышал, как она спела."
+            },
+            {
+              "en": "We watched the children play.",
+              "ru": "Мы смотрели, как играют дети."
+            },
+            {
+              "en": "Did you see him leave?",
+              "ru": "Ты видел, как он ушёл?"
+            }
+          ]
+        },
+        {
+          "title": "Когда that уместно",
+          "borderColor": "term",
+          "text": "I saw that he was tired — «я заметил, понял, что он устал»: это вывод, а не само действие. Тогда that и обычное время подходят."
+        }
+      ]
+    },
+    {
+      "label": "Cross или crossing",
+      "intro": {
+        "text": "Глагол без to — видел действие целиком, от начала до конца: I saw him cross the street — перешёл. -ing — видел часть процесса: I saw him crossing the street — переходил, когда я посмотрел.",
+        "highlights": [
+          {
+            "text": "целиком",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "часть процесса",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сравни",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I saw him cross the street.",
+              "ru": "Я видел, как он перешёл улицу — всё действие."
+            },
+            {
+              "en": "I saw him crossing the street.",
+              "ru": "Я видел, как он переходил улицу — момент процесса."
+            }
+          ]
+        },
+        {
+          "title": "Где чаще -ing",
+          "borderColor": "term",
+          "text": "С watch и с длительными действиями чаще -ing. С smell и feel о том, что продолжается, — тоже: I can smell something burning."
+        },
+        {
+          "title": "В пассиве появляется to",
+          "borderColor": "bad",
+          "text": "He was seen to leave the building — «видели, как он вышел». Это книжный оборот; с -ing to не нужен: He was seen leaving."
+        }
+      ]
+    },
+    {
+      "label": "Частые ошибки",
+      "intro": {
+        "text": "Частые ошибки с see, hear, watch. Справа — как правильно и почему.",
+        "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I saw him to cross the street.",
+              "right": "I saw him cross the street. (без to)"
+            },
+            {
+              "wrong": "I saw he crossing the street.",
+              "right": "I saw him crossing the street. (him, не he)"
+            },
+            {
+              "wrong": "I saw him crossed the street.",
+              "right": "I saw him cross / crossing the street."
+            },
+            {
+              "wrong": "I watched him to play.",
+              "right": "I watched him play. (без to)"
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой ориентир",
+            "text": "Кого видишь — him, her, them. Дальше глагол без to (всё действие) или с -ing (процесс)."
+          }
+        }
+      ]
+    }
+  ],
+  "error_patterns": [
+    {
+      "id": "error:perception.bare",
+      "description": "see / hear + кто-то + глагол без to",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:perception.ing",
+      "description": "-ing — процесс, без to — целиком",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:perception.object",
+      "description": "him / her / them, не he / she / they",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:perception.passive",
+      "description": "be seen to do",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "prerequisites": [
+    "cards_gerund",
+    "cards_infinitive"
+  ],
+  "prerequisites_reviewed": false,
+  "related_words": [
+    "word_see",
+    "word_hear",
+    "word_watch",
+    "word_b2_notice"
+  ]
+}

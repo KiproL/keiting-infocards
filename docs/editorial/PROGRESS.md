@@ -30,7 +30,7 @@
 
 ## Статус карточек
 
-**Полностью переработано: 79 из 233** (77 прежних карточек и 2 новые). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 154.
+**Полностью переработано: 88 из 242** (77 прежних карточек и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 154.
 
 | Карточка | Ред. | Проверено | Исправлено | Части | Задания | Связи | Нужна поддержка приложения |
 |---|---|---|---|---|---|---|---|
@@ -113,6 +113,15 @@
 | cards_infinitive | 1 | да | да | 3 | 153 | да | нет (M-024) |
 | cards_reportedspeech | 1 | да | да | 2 | 145 | да | нет (M-024) |
 | cards_activepassive | 1 | да | да | 2 | 166 | да | нет (M-024) |
+| cards_daysmonths (новая) | 1 | да | да | 1 | 24 | да | нет (M-025) |
+| cards_countries (новая) | 1 | да | да | 1 | 23 | да | нет (M-025) |
+| cards_dailyroutine (новая) | 1 | да | да | 1 | 23 | да | нет (M-025) |
+| cards_colours (новая) | 1 | да | да | 1 | 20 | да | нет (M-025) |
+| cards_otheranother (новая) | 1 | да | да | 1 | 19 | да | нет (M-025) |
+| cards_questionprep (новая) | 1 | да | да | 1 | 19 | да | нет (M-025) |
+| cards_exclamations (новая) | 1 | да | да | 1 | 22 | да | нет (M-025) |
+| cards_stillanymore (новая) | 1 | да | да | 1 | 20 | да | нет (M-025) |
+| cards_perception (новая) | 1 | да | да | 1 | 17 | да | нет (M-025) |
 | остальные 154 | 0 | нет | нет | нет | нет | нет | — |
 
 «Связи» означает: проверены error_patterns и теги, привязка заданий к слайдам, `related_words`, предпосылки карточки. У лексических карточек — ещё `target_words`. У alphabet и readingrules связей со словарём нет: они о буквах и чтении, а не о словах. Поэтому там «частично».
@@ -1364,6 +1373,107 @@ M-024: 5 заданий перенесены из gerund в edingadj, индек
 - node-тесты: 15/15.
 - check_card.py: без замечаний.
 - layout.js и fit.js: без замечаний после правок.
+
+## Партия 15: девять новых карточек — пропущенные темы
+
+**Как искал пропуски.** Прошёл по темам, которые входят в любой курс A1–B2, и проверил поиском по всем `*pages.json`, есть ли у них своё объяснение. Нашлось девять тем, которые в курсе только упоминались в примерах или не встречались вовсе. Каждая — отдельный навык, поэтому это новые карточки, а не слайды в чужих: новые слайды в старых карточках сдвинули бы границы частей.
+
+**Как опубликовано.** Как в партии 12: файлы `<имя>pages.json` и строки в `cards/index.json`. Четыре лексические темы — в папке «Темы», остальные — в «Конструкциях». Приложению обновление не нужно.
+
+### Готовое содержание
+
+Во всех девяти карточках по три слайда: два объясняющих и «Частые ошибки». Объяснение начинается с ситуации и смысла, потом форма. Рядом примеры с разной функцией. Отдельно отмечены не ошибки, а варианты: британский и американский, разговорный и официальный.
+
+- **Дни, месяцы, времена года (A1):**
+  - дни недели и on, on Saturdays — каждую неделю; next, last, this, every без on; at the weekend (брит.) / on the weekend (амер.); как читается Wednesday;
+  - месяцы и сезоны с in, дата с on; autumn / fall; in summer и in the summer — оба правильные; ссылка на «Даты и годы» в «Числах».
+- **Страны и национальности (A1):**
+  - Where are you from?; I'm from Russia и I'm Russian; таблица «страна — национальность — язык»; окончания -an, -ish, -ese;
+  - язык без the, народ — the French; He's Chinese без a; British и English; the UK, the USA — ссылка на «Артикли с названиями».
+- **Распорядок дня (A1):**
+  - утро: wake up и get up, have a shower, get dressed, have breakfast; have и eat;
+  - день и вечер: get home, go to bed без артикля и без to; in the evening, at night; ссылка на «Порядок слов» о usually.
+- **Цвета (A1):**
+  - цвета, What colour is it?, colour / color, grey / gray; синий и голубой — blue, light blue;
+  - цвет перед предметом и после be, без -s; Red is my favourite colour; in black; a big red ball.
+- **Another, other, the other (A2):**
+  - another — один (и another three days), other — мн. ч. и неисчисляемое; «ещё один» или «другой» — по ситуации;
+  - the other — второй из двух или остальные; others — без существительного; each other — ссылка на свою карточку.
+- **Предлог в конце вопроса (A2):**
+  - Who are you talking to?; перевод с русского; предлог от глагола: wait for, listen to;
+  - To whom…? — официально, в разговоре книжно; What … for = зачем.
+- **What a day! How nice! (A2):**
+  - What a + ед. ч., What + мн. ч. и неисчисляемое; weather и news без a;
+  - How + прилагательное или наречие, порядок утверждения; что выбрать, what или how; ссылка на So / Such.
+- **Still, any more, no longer (B1):**
+  - still перед глаголом и после be; still + отрицание; ссылка на Already, yet, still, just;
+  - not … any more / any longer в конце, no longer перед глаголом и без второго отрицания; anymore в американском.
+- **See him do / doing (B2):**
+  - see / hear / watch / feel + him + глагол без to; когда уместно that (вывод, а не само действие);
+  - cross — всё действие, crossing — процесс; smell something burning; пассив was seen to leave.
+
+### Задания
+
+- 187 заданий, у всех есть перевод, объяснение и теги ошибок. На каждый слайд 5–9 заданий.
+- Ошибочные варианты проверены на «правильный английский по ошибке». Что заменил при проверке:
+  - «For what are you looking?», «About what are you thinking?», «Of what are you afraid?», «In what is she interested?», «At what are they laughing?», «For what did you do that?» — книжные, но правильные. А карточка сама говорит, что предлог можно поставить в начало. Заменены вопросами без предлога и с порядком утверждения.
+  - «She already lives…», «Are you already at the office?» — правильный английский с другим смыслом. Заменены на yet и more.
+  - «They don't sell it still» — заменено на no longer.
+- Не взяты в варианты: take a shower, eat breakfast, clean your teeth, on the weekend, see him crossing — это правильные варианты. Где нужно, они упомянуты в объяснении.
+- Для словарных тем указаны `target_words` (дни, месяцы, цвета, слова распорядка). У карточек конструкций — `related_words`. Russia, Russian, French и longer в словаре нет, поэтому у «Стран» связей со словарём нет.
+
+### Готовая разметка частей
+
+Девять частей, по одной на карточку, слайды 0–2:
+
+| Часть | Уровень | Предпосылки |
+|---|---|---|
+| `a1_days_months` | A1 | a1_prep_place |
+| `a1_countries` | A1 | a1_be_core |
+| `a1_daily_routine` | A1 | a1_simple_routines |
+| `a1_colours` | A1 | a1_be_core |
+| `a2_other_another` | A2 | a1_det_some_any |
+| `a2_question_prep` | A2 | a1_questions_yesno, a1_prep_place |
+| `a2_exclamations` | A2 | a1_article_introduction, a2_nouns_special |
+| `b1_still_anymore` | B1 | a2_alreadyyet_meaning |
+| `b2_perception` | B2 | b1_infinitive_patterns, a2_verb_ing_to |
+
+Цели — в UNITS.md. Делить не нужно: у каждой темы один уровень и один навык. Частей теперь 151.
+
+### Реализованное отображение
+
+- Использованы только существующие блоки: таблица, пояснение, примеры, преобразование, формула, ошибки. Новых компонентов нет.
+- Вёрстка проверена. Пять мест не помещались: длинные слова в колонке ошибок («национальность», «прилагательное», «существительное») и «разговариваешь» в преобразовании. Переписаны.
+- Название части «Страны и национальности» не помещалось в 278 px — стало «Страны, народы, языки».
+
+### Необходимые миграции
+
+M-025: новые файлы, строки index.json, задания и части. Прежние route, ID и индексы не менялись. Действий от приложения не нужно.
+
+### Оставшиеся проблемы
+
+- **Порядок в папке.** Новые карточки попадают в конец папки. Порядок внутри папки задаёт приложение.
+- **Словарь.** Названий стран и национальностей в словаре нет. Добавлять их — массовая правка словаря, её не делал.
+- **Ссылки из старых карточек.** aboutme, prepositions, alreadyyet и другие пока не ссылаются на новые карточки. Добавить при их переработке.
+
+### Источники
+
+- British Council: [Still and no longer, already and yet](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/still-no-longer-already-yet) — still и no longer перед глаголом и после be, any longer / any more в конце.
+- British Council: [-ing forms](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/ing-forms) — see, watch, hear + -ing; в ответе редакции на странице: глагол без to — всё действие, -ing — процесс.
+- Oxford Learner's Dictionaries: [see](https://www.oxfordlearnersdictionaries.com/definition/english/see) — see somebody do / doing, be seen to do.
+- British Council: [Specific and general determiners](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/specific-general-determiners) — another, other, the other.
+- British Council: [Pronouns in questions](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/pronouns-questions) — предлог в конце вопроса; в ответах редакции: whom звучит очень официально.
+- English Grammar: [Exclamatory sentences](https://www.englishgrammar.org/exclamatory-sentences) — What a + ед. ч., What + мн. ч. и неисчисляемое, How + прилагательное.
+- British Council: [Capital letters and apostrophes](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/capital-letters-apostrophes) — дни, месяцы, национальности и языки с большой буквы.
+- Oxford Learner's Dictionaries: [weekend](https://www.oxfordlearnersdictionaries.com/definition/english/weekend) — at the weekend (брит.), on the weekend (амер.).
+
+### Проверки
+
+- audit-content и audit-curriculum: 242 карточки, 151 часть, 0 ошибок, 79 предупреждений. Новых предупреждений нет.
+- node-тесты: 15/15.
+- check_card.py: без замечаний.
+- layout.js и fit.js: без замечаний после правок.
+- Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
 
 ## Открытые вопросы и следующая партия
 

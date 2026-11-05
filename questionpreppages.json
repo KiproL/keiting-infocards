@@ -1,0 +1,252 @@
+{
+  "tenseName": "Предлог в конце вопроса",
+  "route": "cards_questionprep",
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "slides": [
+    {
+      "label": "Предлог — в конец",
+      "intro": {
+        "text": "По-русски предлог стоит в начале вопроса: «С кем ты разговариваешь?». В английском он обычно уходит в конец: Who are you talking to? Вопросительное слово — в начале, предлог — после глагола.",
+        "highlights": [
+          {
+            "text": "в начале вопроса",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "уходит в конец",
+            "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Who are you talking to?",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "С русского",
+          "borderColor": "good",
+          "transforms": [
+            {
+              "from": "С кем ты говоришь?",
+              "to": "Who are you talking to?",
+              "toColor": "good"
+            },
+            {
+              "from": "О чём ты думаешь?",
+              "to": "What are you thinking about?",
+              "toColor": "good"
+            },
+            {
+              "from": "Чего ты боишься?",
+              "to": "What are you afraid of?",
+              "toColor": "good"
+            },
+            {
+              "from": "Откуда ты?",
+              "to": "Where are you from?",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "What are you looking for?",
+              "ru": "Что ты ищешь?"
+            },
+            {
+              "en": "Who is this present for?",
+              "ru": "Для кого этот подарок?"
+            },
+            {
+              "en": "What is the film about?",
+              "ru": "О чём фильм?"
+            },
+            {
+              "en": "Who did you go with?",
+              "ru": "С кем ты ходил?"
+            }
+          ]
+        },
+        {
+          "title": "Предлог от глагола",
+          "borderColor": "term",
+          "text": "Предлог часто «принадлежит» глаголу: wait for, listen to, look at. Он остаётся и в вопросе: What are you waiting for?"
+        }
+      ]
+    },
+    {
+      "label": "To whom и what for",
+      "intro": {
+        "text": "В официальной речи предлог можно поставить в начало, но тогда нужно whom: To whom should I send the report? В разговоре это звучит книжно — обычно говорят Who should I send it to? What … for значит «зачем».",
+        "highlights": [
+          {
+            "text": "whom",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "книжно",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "What … for",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Разговорно или официально",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Разговорно",
+              "Официально"
+            ],
+            "headerColors": [
+              "good",
+              "term"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "Who did you travel with?",
+                  "With whom did you travel?"
+                ]
+              },
+              {
+                "cells": [
+                  "Who should I send it to?",
+                  "To whom should I send it?"
+                ]
+              },
+              {
+                "cells": [
+                  "Which hotel are you staying at?",
+                  "At which hotel are you staying?"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "What for — зачем",
+          "borderColor": "term",
+          "examples": [
+            {
+              "en": "What did you do that for?",
+              "ru": "Зачем ты это сделал?"
+            },
+            {
+              "en": "— I need some money. — What for?",
+              "ru": "— Мне нужны деньги. — Зачем?"
+            }
+          ]
+        },
+        {
+          "title": "Где правило не работает",
+          "borderColor": "bad",
+          "text": "После who в начале официального варианта нужно whom: with whom, а не with who."
+        }
+      ]
+    },
+    {
+      "label": "Частые ошибки",
+      "intro": {
+        "text": "Частые ошибки в вопросах с предлогом. Справа — как правильно и почему.",
+        "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "With who are you talking?",
+              "right": "Who are you talking to? (предлог — в конец)"
+            },
+            {
+              "wrong": "About what is the film?",
+              "right": "What is the film about?"
+            },
+            {
+              "wrong": "From where are you?",
+              "right": "Where are you from?"
+            },
+            {
+              "wrong": "What are you waiting?",
+              "right": "What are you waiting for? (wait for)"
+            },
+            {
+              "wrong": "To who should I write?",
+              "right": "Who should I write to? / To whom…? (официально — whom)"
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой ориентир",
+            "text": "Начни с вопросительного слова, предлог поставь после глагола. Wait for, listen to, look at — предлог не теряем."
+          }
+        }
+      ]
+    }
+  ],
+  "error_patterns": [
+    {
+      "id": "error:questionprep.end",
+      "description": "Предлог — в конце вопроса",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:questionprep.verb_prep",
+      "description": "wait for, listen to — предлог остаётся",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:questionprep.formal",
+      "description": "Официально: предлог + whom",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "prerequisites": [
+    "cards_questions",
+    "cards_prepositions"
+  ],
+  "prerequisites_reviewed": false
+}

@@ -514,3 +514,12 @@ gerund, infinitive, reportedspeech, activepassive: редакция 0 → 1. И�
 - activepassive: `b1_passive_core` (0, 1, 2, 4, 7, 8), `b2_passive_more` (3, 5, 6).
 
 Действий от приложения не нужно.
+
+## M-025. Девять новых карточек — совместимо, опубликовано
+
+- **Новые файлы**, редакция 1: `daysmonthspages.json`, `countriespages.json`, `dailyroutinepages.json`, `colourspages.json`, `otheranotherpages.json`, `questionpreppages.json`, `exclamationspages.json`, `stillanymorepages.json`, `perceptionpages.json`.
+- **Строки в `cards/index.json`:** 9, всего 43.
+- **Новые задания:** `<имя>_r1_<слайд>_<n>`, 187 шт.
+- **Новые части:** `a1_days_months`, `a1_countries`, `a1_daily_routine`, `a1_colours`, `a2_other_another`, `a2_question_prep`, `a2_exclamations`, `b1_still_anymore`, `b2_perception`.
+
+Прежние route, ID и индексы слайдов не менялись. Действий от приложения не нужно.

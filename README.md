@@ -30,7 +30,7 @@ keiting-infocards/
 | Папка / файл | Что внутри | Где используется в приложении |
 |---|---|---|
 | `*pages.json` (корень) | карточка теории: `route`, `tenseName` (название), `slides` (слайды). Маршрут `cards_pastsimp` → файл `pastsimppages.json` | `feature/cards/remote/CardRoutes.kt` |
-| `cards/index.json` | карточки, которые появляются в приложении без обновления: id, папка (`constructions`, `communication`…), название, уровень (34 шт.) | `feature/cards/remote/CardIndex.kt` |
+| `cards/index.json` | карточки, которые появляются в приложении без обновления: id, папка (`constructions`, `communication`…), название, уровень (43 шт.) | `feature/cards/remote/CardIndex.kt` |
 | `dictionary/words_<уровень>.json` | слова уровня A1–C2: перевод, значения, примеры, связи | `ContentPack.kt` → словарь, «Мои слова», практика |
 | `dictionary/phrases_<уровень>.json` | фразы уровня | «Мои фразы», фраза дня, практика |
 | `dictionary/forms_<уровень>.json` | формы слов отдельными записями словаря (add → added, go → went) с переводом и примером | режим «Какая форма», карточка слова |
@@ -105,6 +105,7 @@ keiting-infocards/
 | `clothespages.json` | Одежда |
 | `collectivenounspages.json` | The police are |
 | `collocationspages.json` | Коллокации |
+| `colourspages.json` | Цвета |
 | `comparativesadvpages.json` | Сравнения: the more…, the better |
 | `comparisonspages.json` | Comparisons |
 | `compoundadjectivespages.json` | Составные прилагательные |
@@ -118,7 +119,10 @@ keiting-infocards/
 | `consonantcombospages.json` | Consonant Combos |
 | `contractionspages.json` | Сокращённые формы |
 | `contrastlinkerspages.json` | Whereas, albeit, notwithstanding |
+| `countriespages.json` | Страны и национальности |
 | `cvpages.json` | Резюме и сопроводительное письмо |
+| `dailyroutinepages.json` | Распорядок дня |
+| `daysmonthspages.json` | Дни, месяцы, времена года |
 | `deductionpages.json` | Must be, can't be — догадки |
 | `descriptionspages.json` | Descriptions |
 | `despitepages.json` | Despite / Although |
@@ -138,6 +142,7 @@ keiting-infocards/
 | `endingspages.json` | Окончания -s и -ed |
 | `essaylinkerspages.json` | Связки для текста |
 | `essaypages.json` | Как писать эссе |
+| `exclamationspages.json` | What a day! How nice! |
 | `falsefriendspages.json` | Ложные друзья |
 | `familypages.json` | Семья и отношения |
 | `fewlittlepages.json` | Few / Little |
@@ -208,6 +213,7 @@ keiting-infocards/
 | `notespages.json` | Открытки и записки |
 | `numberspages.json` | Numbers |
 | `opinionspages.json` | Мнение и спор |
+| `otheranotherpages.json` | Other, another, the other |
 | `participleclausespages.json` | Participle clauses |
 | `partitivespages.json` | A piece of, a cup of |
 | `passivegetpages.json` | Пассив: get и два дополнения |
@@ -216,6 +222,7 @@ keiting-infocards/
 | `pastperfcontpages.json` | Past Perfect Continuous |
 | `pastperfpages.json` | Past Perfect |
 | `pastsimppages.json` | Past Simple |
+| `perceptionpages.json` | See him do / doing |
 | `pharmacypages.json` | Аптека |
 | `phonecallspages.json` | По телефону |
 | `phrasalbytopicpages.json` | Фразовые глаголы по темам |
@@ -235,6 +242,7 @@ keiting-infocards/
 | `punctuationadvpages.json` | Пунктуация в эссе |
 | `punctuationpages.json` | Пунктуация |
 | `quantifierspages.json` | Quantifiers: a great deal, plenty, most |
+| `questionpreppages.json` | Предлог в конце вопроса |
 | `questionspages.json` | Questions |
 | `quiteratherpages.json` | Quite, rather, fairly, pretty |
 | `readingrulespages.json` | Правила чтения |
@@ -254,6 +262,7 @@ keiting-infocards/
 | `sosuchpages.json` | So / Such / Enough |
 | `sothatpages.json` | So that |
 | `spellingpages.json` | Орфография |
+| `stillanymorepages.json` | Still, any more, no longer |
 | `storypages.json` | Как написать рассказ |
 | `strongadjectivespages.json` | Сильные прилагательные |
 | `studypages.json` | Учёба |

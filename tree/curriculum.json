@@ -1362,6 +1362,27 @@
       "reviewed": false
     },
     {
+      "id": "a2_exclamations",
+      "level": "A2",
+      "title": "What a day! How nice!",
+      "slices": [
+        {
+          "route": "cards_exclamations",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_introduction",
+        "a2_nouns_special"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a1_be_core",
       "level": "A1",
       "title": "Кто я и где я",
@@ -1375,6 +1396,26 @@
         }
       ],
       "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a1_colours",
+      "level": "A1",
+      "title": "Цвета",
+      "slices": [
+        {
+          "route": "cards_colours",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
       "reviewed": false
     },
     {
@@ -1407,6 +1448,26 @@
           "slides": [
             1,
             4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_daily_routine",
+      "level": "A1",
+      "title": "Распорядок дня",
+      "slices": [
+        {
+          "route": "cards_dailyroutine",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
           ]
         }
       ],
@@ -1561,6 +1622,26 @@
       "reviewed": false
     },
     {
+      "id": "a1_days_months",
+      "level": "A1",
+      "title": "Дни, месяцы, сезоны",
+      "slices": [
+        {
+          "route": "cards_daysmonths",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_prep_place"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_prep_direction",
       "level": "A2",
       "title": "Куда: to, into, across",
@@ -1634,6 +1715,26 @@
       ],
       "prerequisites": [
         "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_countries",
+      "level": "A1",
+      "title": "Страны, народы, языки",
+      "slices": [
+        {
+          "route": "cards_countries",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
       ],
       "reviewed": false
     },
@@ -1760,6 +1861,27 @@
       "reviewed": false
     },
     {
+      "id": "a2_question_prep",
+      "level": "A2",
+      "title": "Who are you talking to?",
+      "slices": [
+        {
+          "route": "cards_questionprep",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_questions_yesno",
+        "a1_prep_place"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_questions_tags",
       "level": "A2",
       "title": "Хвостики: don't you?",
@@ -1835,6 +1957,26 @@
       "prerequisites": [
         "a1_det_some_any",
         "a2_nouns_special"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_other_another",
+      "level": "A2",
+      "title": "Another, other, the other",
+      "slices": [
+        {
+          "route": "cards_otheranother",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_det_some_any"
       ],
       "reviewed": false
     },
@@ -2531,6 +2673,27 @@
       ],
       "prerequisites": [
         "b1_infinitive_patterns"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_perception",
+      "level": "B2",
+      "title": "See him do / doing",
+      "slices": [
+        {
+          "route": "cards_perception",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_infinitive_patterns",
+        "a2_verb_ing_to"
       ],
       "reviewed": false
     },
@@ -3997,6 +4160,26 @@
           "route": "cards_alreadyyet",
           "revision": 1,
           "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_alreadyyet_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_still_anymore",
+      "level": "B1",
+      "title": "Still, any more, no longer",
+      "slices": [
+        {
+          "route": "cards_stillanymore",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
             2
           ]
         }

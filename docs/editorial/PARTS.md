@@ -678,3 +678,19 @@ Kotlin-генератор упражнений здесь не запускал�
 | Частые ошибки (сл. 7) | B1 | сохранено |
 
 Reported speech и Active / Passive разделены на части без переноса пунктов между слайдами. Удалено только «Интересный факт» (APA) в Passive — непроверенное и не учебное.
+
+## Партия 15 (новые карточки)
+
+| Тема | Часть | Уровень | Слайды | Предпосылки |
+|---|---|---|---|---|
+| Дни, месяцы, сезоны | `a1_days_months` | A1 | 0 Дни недели, 1 Месяцы и сезоны, 2 Частые ошибки | a1_prep_place |
+| Страны и национальности | `a1_countries` «Страны, народы, языки» | A1 | 0 Where are you from?, 1 Язык и народ, 2 Частые ошибки | a1_be_core |
+| Распорядок дня | `a1_daily_routine` | A1 | 0 Мой день: утро, 1 День и вечер, 2 Частые ошибки | a1_simple_routines |
+| Цвета | `a1_colours` | A1 | 0 Какого цвета, 1 Цвет в предложении, 2 Частые ошибки | a1_be_core |
+| Another, other | `a2_other_another` | A2 | 0 Another и other, 1 The other и others, 2 Частые ошибки | a1_det_some_any |
+| Предлог в конце вопроса | `a2_question_prep` | A2 | 0 Предлог — в конец, 1 To whom и what for, 2 Частые ошибки | a1_questions_yesno, a1_prep_place |
+| Восклицания | `a2_exclamations` | A2 | 0 What a…!, 1 How…!, 2 Частые ошибки | a1_article_introduction, a2_nouns_special |
+| Still, any more | `b1_still_anymore` | B1 | 0 Still: всё ещё, 1 Больше не, 2 Частые ошибки | a2_alreadyyet_meaning |
+| See him do / doing | `b2_perception` | B2 | 0 Видел, как он…, 1 Cross или crossing, 2 Частые ошибки | b1_infinitive_patterns, a2_verb_ing_to |
+
+Делить не нужно: каждая тема — один уровень и один навык. «Частые ошибки» — шаг своей части.
