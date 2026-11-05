@@ -3,29 +3,24 @@
   "route": "cards_sosuch",
   "slides": [
     {
-      "label": "So и such: «такой», «так»",
+      "label": "So и such",
       "intro": {
-        "text": "So и such усиливают: «такой», «так». So ставят перед прилагательным или наречием, such — перед существительным (часто с прилагательным).",
+        "text": "Так говорят, когда что-то впечатляет: It's so cold! It's such a cold day! So ставят перед прилагательным или наречием, such — перед существительным, часто с прилагательным: such a nice day.",
         "highlights": [
           {
             "text": "So",
-            "color": "term",
-            "style": "bold_underline"
+            "color": "info",
+            "style": "bold"
           },
           {
             "text": "such",
-            "color": "info",
-            "style": "bold_underline"
-          },
-          {
-            "text": "перед прилагательным",
             "color": "term",
             "style": "bold"
           },
           {
             "text": "перед существительным",
-            "color": "info",
-            "style": "bold"
+            "color": "example",
+            "style": "bold_underline"
           }
         ]
       },
@@ -321,7 +316,7 @@
       ]
     },
     {
-      "label": "So … that: настолько, что",
+      "label": "So … that",
       "intro": {
         "text": "So … that и such … that показывают следствие: «настолько…, что…». Первая часть — причина, вторая — что из неё вышло.",
         "highlights": [
@@ -660,22 +655,22 @@
     {
       "label": "Enough: где ставить",
       "intro": {
-        "text": "Enough — «достаточно». Его место зависит от соседа: ПОСЛЕ прилагательного и наречия, но ПЕРЕД существительным.",
+        "text": "Enough — «достаточно». Его место зависит от соседа: после прилагательного и наречия (old enough), но перед существительным (enough time).",
         "highlights": [
           {
             "text": "Enough",
             "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "после прилагательного и наречия",
+            "color": "info",
             "style": "bold_underline"
           },
           {
-            "text": "ПОСЛЕ",
+            "text": "перед существительным",
             "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "ПЕРЕД",
-            "color": "info",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -957,12 +952,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: so a beautiful, enough old",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с so, such и enough.",
+        "text": "Частые ошибки с so, such и enough. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -975,11 +970,11 @@
           "errors": [
             {
               "wrong": "It's so a beautiful day!",
-              "right": "It's such a beautiful day! (есть существительное — such)"
+              "right": "It's such a beautiful day! (дальше day — such)"
             },
             {
               "wrong": "She is such kind.",
-              "right": "She is so kind. (нет существительного — so)"
+              "right": "She is so kind. (дальше только kind — so)"
             },
             {
               "wrong": "They are such a good players.",
@@ -991,11 +986,11 @@
             },
             {
               "wrong": "He isn't enough old.",
-              "right": "He isn't old enough. (enough — после прилагательного)"
+              "right": "He isn't old enough. (enough — после old)"
             },
             {
               "wrong": "We have time enough.",
-              "right": "We have enough time. (enough — перед существительным)"
+              "right": "We have enough time. (enough — перед time; time enough — книжно)"
             }
           ]
         },
@@ -1006,14 +1001,58 @@
             "type": "tip",
             "title": "Проверка за секунду",
             "text": "Дальше существительное — such. Нет существительного — so. Enough: после прилагательного, перед существительным."
-          },
-          "quote": {
-            "text": "So — к признаку, such — к предмету.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:sosuch.so_such",
+      "description": "So — перед прилагательным, such — перед существительным",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:sosuch.that",
+      "description": "so / such … that — следствие",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:sosuch.enough",
+      "description": "Enough после прилагательного, перед существительным",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:sosuch.article",
+      "description": "such a + ед. ч., such + мн. ч. и неисчисляемые",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_so",
+    "word_a2_such",
+    "word_enough"
+  ],
+  "prerequisites": [
+    "cards_tooto"
+  ],
+  "prerequisites_reviewed": false
 }

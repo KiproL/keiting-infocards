@@ -3196,6 +3196,45 @@
       "reviewed": false
     },
     {
+      "id": "b1_wouldprefer_core",
+      "level": "B1",
+      "title": "Would prefer",
+      "slices": [
+        {
+          "route": "cards_wouldprefer",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_wouldlike_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_wouldrather_core",
+      "level": "B1",
+      "title": "Would rather",
+      "slices": [
+        {
+          "route": "cards_wouldrather",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_wouldprefer_core"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_fewlittle_core",
       "level": "A2",
       "title": "Few, little, a few",
@@ -3212,6 +3251,64 @@
       ],
       "prerequisites": [
         "a2_det_many_much"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_tooto_core",
+      "level": "A2",
+      "title": "Too … to: слишком",
+      "slices": [
+        {
+          "route": "cards_tooto",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_det_many_much"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_enough",
+      "level": "A2",
+      "title": "Enough: где ставить",
+      "slices": [
+        {
+          "route": "cards_sosuch",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_tooto_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_so_such",
+      "level": "B1",
+      "title": "So, such, so … that",
+      "slices": [
+        {
+          "route": "cards_sosuch",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_enough"
       ],
       "reviewed": false
     },
@@ -3414,6 +3511,46 @@
       "reviewed": false
     },
     {
+      "id": "a2_present_future",
+      "level": "A2",
+      "title": "Будущее настоящим",
+      "slices": [
+        {
+          "route": "cards_presentforfuture",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_cont_core",
+        "a2_future_will_goingto"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_timeclauses_core",
+      "level": "B1",
+      "title": "When I come: без will",
+      "slices": [
+        {
+          "route": "cards_timeclauses",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_future_will_goingto"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_perfect_meaning",
       "level": "A2",
       "title": "Present Perfect: результат",
@@ -3452,6 +3589,54 @@
       ],
       "prerequisites": [
         "a2_perfect_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_ppc_core",
+      "level": "B1",
+      "title": "Делаю уже давно",
+      "slices": [
+        {
+          "route": "cards_presentperfcont",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_perfect_time",
+        "a1_cont_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_pastperf_core",
+      "level": "B1",
+      "title": "Past Perfect: раньше",
+      "slices": [
+        {
+          "route": "cards_pastperf",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_perfect_meaning",
+        "a1_past_forms"
       ],
       "reviewed": false
     },

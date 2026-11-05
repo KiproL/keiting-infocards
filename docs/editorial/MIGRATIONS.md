@@ -450,3 +450,20 @@ haveto, donthaveto, mustnt, needto, beableto, hadbetter, shall, irregularverbs: 
 - `a2_irregular_forms`.
 
 Действий от приложения не нужно.
+
+## M-021. Партия 11 — совместимо, опубликовано
+
+presentperfcont, pastperf, tooto, sosuch, wouldprefer, wouldrather, presentforfuture, timeclauses: редакция 0 → 1. Индексы, темы слайдов и привязка заданий прежние.
+
+Новые части:
+- `b1_ppc_core`;
+- `b1_pastperf_core`;
+- `a2_tooto_core`;
+- `a2_enough` (sosuch 2);
+- `b1_so_such` (sosuch 0, 1, 3);
+- `b1_wouldprefer_core`;
+- `b1_wouldrather_core`;
+- `a2_present_future`;
+- `b1_timeclauses_core`.
+
+Действий от приложения не нужно.

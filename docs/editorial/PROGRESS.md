@@ -30,7 +30,7 @@
 
 ## Статус карточек
 
-**Полностью переработано: 63 из 231.** Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 168.
+**Полностью переработано: 71 из 231.** Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 160.
 
 | Карточка | Ред. | Проверено | Исправлено | Части | Задания | Связи | Нужна поддержка приложения |
 |---|---|---|---|---|---|---|---|
@@ -97,7 +97,15 @@
 | cards_hadbetter | 1 | да | да | 1 | 35 | да | нет (M-020) |
 | cards_shall | 1 | да | да | 1 | 36 | да | нет (M-020) |
 | cards_irregularverbs | 1 | да | да | 1 | 118 | да | нет (M-020) |
-| остальные 168 | 0 | нет | нет | нет | нет | нет | — |
+| cards_presentperfcont | 1 | да | да | 1 | 103 | да | нет (M-021) |
+| cards_pastperf | 1 | да | да | 1 | 102 | да | нет (M-021) |
+| cards_tooto | 1 | да | да | 1 | 57 | да | нет (M-021) |
+| cards_sosuch | 1 | да | да | 2 | 72 | да | нет (M-021) |
+| cards_wouldprefer | 1 | да | да | 1 | 36 | да | нет (M-021) |
+| cards_wouldrather | 1 | да | да | 1 | 57 | да | нет (M-021) |
+| cards_presentforfuture | 1 | да | да | 1 | 30 | да | нет (M-021) |
+| cards_timeclauses | 1 | да | да | 1 | 57 | да | нет (M-021) |
+| остальные 160 | 0 | нет | нет | нет | нет | нет | — |
 
 «Связи» означает: проверены error_patterns и теги, привязка заданий к слайдам, `related_words`, предпосылки карточки. У лексических карточек — ещё `target_words`. У alphabet и readingrules связей со словарём нет: они о буквах и чтении, а не о словах. Поэтому там «частично».
 
@@ -1031,6 +1039,97 @@ M-020: новый слайд beableto 2 в конце, перепривязка 
 - node-тесты: 15/15.
 - check_card.py: без замечаний.
 - layout.js и fit.js: без замечаний после исправления.
+
+## Партия 11: восемь карточек, полный цикл по заданию и стандарту
+
+presentperfcont, pastperf, tooto, sosuch, wouldprefer, wouldrather, presentforfuture, timeclauses: редакция 0 → 1.
+
+### Готовое содержание
+
+- **Present Perfect Continuous.**
+  - Вступление начинается с ситуации («жду уже час»).
+  - Ряд маркеров стал подсказкой с границей.
+  - Добавлен раздел о глаголах состояния: know, like, want, have («иметь») без Continuous; live и work — в обоих временах; «сколько сделано» — только Perfect.
+  - Добавлена ошибка «I've been knowing».
+  - Since и for — ссылка на Present Perfect, без повтора.
+- **Past Perfect.**
+  - Добавлено, что это время нужно для порядка событий, а не для «давнего» прошлого.
+  - Добавлена пара «When I arrived, she left / she had left» и раздел «Рассказ по порядку».
+  - Добавлены ошибки «I had been to Paris in 2010», «My grandfather had lived in Kyiv».
+  - Запутанная таблица «Место в предложении» заменена одной фразой. Неясные пояснения before и after исправлены.
+- **Too … to.**
+  - Ложное правило «not too … to сказать нельзя» исправлено: It's not too late to change.
+  - Добавлена ошибка «too heavy to lift it».
+  - Перевод «слишком маленькая, чтобы водить» → «слишком молода».
+- **So, such, enough.** Убран капслок. «Time enough» помечено как книжное, а не как ошибка.
+- **Would prefer и would rather.**
+  - Вместо «сильнее, чем like, но мягче, чем want» — выбор из вариантов в конкретной ситуации.
+  - Уточнено, где to, а где rather than.
+  - Утверждение «would rather звучит решительнее» убрано: источниками не подтверждается.
+  - Блок «Prefer или would prefer» теперь виден сразу.
+- **Будущее настоящим.**
+  - Добавлен раздел «Где правило не работает»: личные планы, погода, when и if.
+  - Пошаговый выбор времени теперь виден сразу.
+- **When I come.** Добавлен раздел «Когда will всё-таки нужен»: вопрос When…? и косвенный вопрос (I don't know if he will come).
+- **Во всех карточках:**
+  - названия слайдов — 2–4 слова;
+  - шуточные цитаты удалены;
+  - «Правило большого пальца» (калька) заменено.
+
+### Задания
+
+- **Исправлены ошибочные варианты, дававшие правильный английский, — в 31 задании.** Примеры:
+  - «The shop closed, so we went home»;
+  - «After they ate…»;
+  - «The museum is closing at six»;
+  - «He starts his new job on Monday»;
+  - «The coffee is too hot»;
+  - «Do you prefer tea or coffee?»;
+  - «I've been wanting to tell you».
+- **Переписаны 11 заданий** (ID сохранены): 7 дублей и 4 неестественных предложения.
+- Заполнены 6 пустых объяснений.
+- У всех восьми карточек появились error_patterns и теги заданий, related_words и предпосылки.
+
+### Готовая разметка частей
+
+- **Делить нужно только so / such / enough:**
+  - enough — A2;
+  - so, such и so … that — B1: British Council даёт их в уроке «Intensifiers: so and such» уровня B1–B2.
+- **Остальные — по одной части:**
+  - Present Perfect Continuous, Past Perfect, would prefer, would rather, when I come — B1;
+  - too … to и будущее настоящим — A2.
+- Описания — в PARTS.md, цели — в UNITS.md.
+- На каждом шаге не меньше 15 заданий.
+
+### Реализованное отображение
+
+- **Блоки.** Все поддерживаются приложением.
+- **Вёрстка.** Шесть пояснений к ошибкам не помещались в колонку из-за длинных слов («прилагательным», «существительного»), переписаны короче. После правки сжатий нет.
+- **Части.** Отдельного показа нет (COMPONENTS.md). Этим темам подойдёт и предложенная линия времени: Past Perfect, Present Perfect Continuous.
+
+### Необходимые миграции
+
+M-021: индексы слайдов и привязка заданий прежние, новые части. Действий от приложения не нужно.
+
+### Оставшиеся проблемы
+
+- **Уровни в банке.** У Present Perfect Continuous простые задания лежат в файлах C1 и C2 (открытый вопрос 8).
+- **Задания if / when** сравнивают смысл: вариант when грамматически возможен, неверен он только по переводу. Если генератор показывает задание без перевода, такие задания лучше не давать в режиме выбора.
+
+### Источники
+
+- British Council: [Present perfect simple and continuous](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect-simple-continuous).
+- British Council: [Past perfect](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-perfect) — более раннее событие, порядок слов не важен.
+- Bishop's University, Writing Centre: [Simple Past Versus Past Perfect](https://www.ubishops.ca/wp-content/uploads/Simple-Past-Versus-Past-Perfect.pdf) — с before и after Past Perfect не обязателен.
+- British Council: [Intensifiers: so and such](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/intensifiers-so-such).
+- Oxford Learner's Dictionaries: [prefer](https://www.oxfordlearnersdictionaries.com/definition/english/prefer) — prefer A to B, would prefer to do, would prefer somebody to do.
+
+### Проверки
+
+- audit-content и audit-curriculum: 0 ошибок, 79 предупреждений.
+- node-тесты: 15/15.
+- check_card.py: без замечаний.
+- layout.js и fit.js: без замечаний после правки.
 
 ## Открытые вопросы и следующая партия
 

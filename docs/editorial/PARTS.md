@@ -579,3 +579,31 @@ Kotlin-генератор упражнений здесь не запускал�
 | Could или was able to (сл. 1) | B1, сл. 2 | перенесено, дополнено: managed to, couldn't в отрицании, could с see и hear |
 | Частые ошибки в скрытом блоке (сл. 1) | A2, сл. 1 | перенесено из скрытого блока на слайд |
 | Цитата | — | удалено: не учебное содержание |
+
+## Партия 11
+
+| Тема | Часть | Уровень | Слайды | Предпосылки | Дальше |
+|---|---|---|---|---|---|
+| Present Perfect Continuous | `b1_ppc_core` «Делаю уже давно» | B1 | 0–5 | b1_perfect_time, a1_cont_core | — |
+| Past Perfect | `b1_pastperf_core` «Past Perfect: раньше» | B1 | 0–5 | a2_perfect_meaning, a1_past_forms | — |
+| Too … to | `a2_tooto_core` «Too … to: слишком» | A2 | 0, 1, 2 | a2_det_many_much | a2_enough |
+| So / Such / Enough | `a2_enough` «Enough: где ставить» | A2 | 2 | a2_tooto_core | b1_so_such |
+| So / Such / Enough | `b1_so_such` «So, such, so … that» | B1 | 0, 1, 3 | a2_enough | — |
+| Would prefer | `b1_wouldprefer_core` «Would prefer» | B1 | 0, 1 | a1_wouldlike_core | b1_wouldrather_core |
+| Would rather | `b1_wouldrather_core` «Would rather» | B1 | 0, 1, 2 | b1_wouldprefer_core | — |
+| Present for Future | `a2_present_future` «Будущее настоящим» | A2 | 0, 1 | a1_cont_core, a2_future_will_goingto | — |
+| When / As soon as | `b1_timeclauses_core` «When I come: без will» | B1 | 0, 1, 2 | a2_future_will_goingto | — |
+
+**Делить нужно только so / such / enough.** Место enough — материал A2. Усиление so и such и следствие so … that — B1.
+
+Карта содержания so / such / enough:
+
+| Исходный пункт | Где теперь | Отметка |
+|---|---|---|
+| So и such, so many / much (сл. 0) | B1, сл. 0 | сохранено; вступление начинается с ситуации |
+| So … that, such … that, that можно опустить (сл. 1) | B1, сл. 1 | сохранено |
+| Место enough (сл. 2) | A2, сл. 2 | сохранено; убран капслок |
+| Частые ошибки (сл. 3) | B1, сл. 3 | сохранено; time enough помечено как книжное, а не ошибка |
+| Цитата | — | удалено: не учебное содержание |
+
+В читалке слайд 2 (A2) стоит между слайдами B1-части. В курсе порядок задают части; в читалке нужна поддержка границ частей (COMPONENTS.md).

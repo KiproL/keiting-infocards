@@ -3,23 +3,28 @@
   "route": "cards_pastperf",
   "slides": [
     {
-      "label": "Past Perfect: раньше другого",
+      "label": "Раньше другого",
       "intro": {
-        "text": "Past Perfect — «прошлое в прошлом»: действие случилось раньше другого прошлого действия. When I arrived, she had already left — она ушла раньше, чем я пришёл.",
+        "text": "Ты приходишь на вокзал, а поезда уже нет: When I arrived, the train had left. Past Perfect (had + V3) показывает, что одно прошлое действие случилось раньше другого. Это время нужно для порядка событий в прошлом, а не для «давнего» прошлого вообще.",
         "highlights": [
           {
-            "text": "Past Perfect",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "прошлое в прошлом",
+            "text": "When I arrived, the train had left",
             "color": "example",
             "style": "bold"
           },
           {
             "text": "раньше другого",
             "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "had + V3",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "не для «давнего» прошлого",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -136,35 +141,6 @@
         {
           "title": "Место в предложении",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Порядок",
-              "Что было раньше",
-              "Что было позже"
-            ],
-            "headerColors": [
-              "info",
-              "term",
-              "example"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "Сначала раньше",
-                  "Past Perfect",
-                  "Past Simple"
-                ]
-              },
-              {
-                "cells": [
-                  "Сначала позже",
-                  "Past Simple",
-                  "Past Perfect"
-                ]
-              }
-            ],
-            "borderColor": "info"
-          },
           "examples": [
             {
               "en": "I had finished my homework before dinner.",
@@ -174,10 +150,25 @@
               "en": "She had already left when I arrived.",
               "ru": "Она уже ушла, когда я приехал."
             }
+          ],
+          "text": "Past Perfect может стоять в любой части предложения: порядок слов не обязан повторять порядок событий."
+        },
+        {
+          "title": "When: раньше или потом",
+          "borderColor": "term",
+          "examples": [
+            {
+              "en": "When I arrived, she left.",
+              "ru": "Когда я пришёл, она ушла: сначала пришёл я."
+            },
+            {
+              "en": "When I arrived, she had left.",
+              "ru": "Когда я пришёл, она уже ушла: она ушла раньше."
+            }
           ]
         },
         {
-          "title": "Ключевые маркеры",
+          "title": "Слова-подсказки",
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
@@ -189,16 +180,8 @@
               "just",
               "never … before"
             ]
-          }
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Past Perfect — это «ещё раньше», чем прошлое.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
+          },
+          "text": "Before, after, by the time и already подсказывают порядок, но не требуют Past Perfect: если порядок и так ясен (after, before), подходит и Past Simple — слайд «Past Perfect или Simple»."
         }
       ],
       "expandables": [
@@ -232,12 +215,12 @@
       ]
     },
     {
-      "label": "Утверждение, отрицание, вопрос",
+      "label": "Отрицание и вопрос",
       "intro": {
-        "text": "Had — одна форма для всех лиц: I, you, he, she, it, we, they.",
+        "text": "Had — одна форма для всех лиц: I, you, he, she, it, we, they. Отрицание — hadn't + V3, вопрос — Had + подлежащее + V3?, без did.",
         "highlights": [
           {
-            "text": "had",
+            "text": "Had",
             "color": "term",
             "style": "bold_underline"
           },
@@ -247,8 +230,8 @@
             "style": "bold"
           },
           {
-            "text": "одна форма",
-            "color": "example",
+            "text": "без did",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -558,22 +541,22 @@
       ]
     },
     {
-      "label": "Подсказки: before, by the time, already",
+      "label": "Before, by the time",
       "intro": {
-        "text": "Слова-маркеры показывают порядок двух действий в прошлом — какое из них произошло раньше.",
+        "text": "Подсказки помогают увидеть порядок двух прошлых событий: by the time — «к тому времени как», already — «уже», just — «только что». Решает порядок событий, а не само слово.",
         "highlights": [
           {
-            "text": "Слова-маркеры",
-            "color": "term",
+            "text": "порядок двух прошлых событий",
+            "color": "info",
             "style": "bold_underline"
           },
           {
-            "text": "порядок",
-            "color": "info",
+            "text": "by the time",
+            "color": "term",
             "style": "bold"
           },
           {
-            "text": "раньше",
+            "text": "Решает порядок событий",
             "color": "example",
             "style": "bold"
           }
@@ -647,12 +630,12 @@
           "rules": [
             {
               "name": "before",
-              "suffix": "затем главное",
+              "suffix": "«до того как»",
               "example": "I had finished before she came."
             },
             {
               "name": "after",
-              "suffix": "затем главное",
+              "suffix": "«после того как»",
               "example": "After she had come, we left."
             }
           ]
@@ -678,7 +661,7 @@
       ]
     },
     {
-      "label": "Третья форма после had",
+      "label": "Had + V3",
       "intro": {
         "text": "После had глагол всегда стоит в третьей форме — V3 (Past Participle). Правильные образуют её через -ed, неправильные — запоминаем.",
         "highlights": [
@@ -822,7 +805,7 @@
       ]
     },
     {
-      "label": "Past Perfect или Past Simple",
+      "label": "Past Perfect или Simple",
       "intro": {
         "text": "Когда в прошлом было два действия, Past Perfect используется для того, что случилось раньше, а Past Simple — для того, что позже.",
         "highlights": [
@@ -913,16 +896,25 @@
             "title": "Когда нужен Past Perfect",
             "text": "Если важно показать, что одно действие произошло раньше другого — Past Perfect. Если порядок и так понятен (before, after) — можно Past Simple."
           }
+        },
+        {
+          "title": "Рассказ по порядку",
+          "borderColor": "info",
+          "callout": {
+            "type": "tip",
+            "title": "Назад во времени",
+            "text": "Если события идут по порядку, хватает Past Simple: I got up, had breakfast and left. Past Perfect нужен, когда рассказ возвращается назад: I left, but then I remembered that I had forgotten my phone."
+          }
         }
       ]
     },
     {
-      "label": "Частые ошибки: had went, did had",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Семь самых частых ошибок в Past Perfect.",
+        "text": "Частые ошибки в Past Perfect. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -960,6 +952,14 @@
             {
               "wrong": "She hadn't went there.",
               "right": "She hadn't gone there. (нужна V3)"
+            },
+            {
+              "wrong": "I had been to Paris in 2010.",
+              "right": "I went to Paris in 2010. (одно событие — Past Simple)"
+            },
+            {
+              "wrong": "My grandfather had lived in Kyiv.",
+              "right": "My grandfather lived in Kyiv. (нет второго, более позднего события)"
             }
           ]
         },
@@ -968,16 +968,65 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
+            "title": "Простой ориентир",
             "text": "После had — всегда V3. Не V2, не V-ing, не начальная форма. И никакого did с had."
-          },
-          "quote": {
-            "text": "Had + V3 — формула прошлого в прошлом.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:pastperf.v3",
+      "description": "После had — V3",
+      "slides": [
+        0,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastperf.had",
+      "description": "Had для всех лиц; hadn't, Had…? без did",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastperf.order",
+      "description": "Раньше — had + V3, позже — Past Simple",
+      "slides": [
+        0,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastperf.markers",
+      "description": "Before, after, by the time, already, just",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_already",
+    "word_before",
+    "word_after",
+    "word_just"
+  ],
+  "prerequisites": [
+    "cards_pastsimp",
+    "cards_presentperf"
+  ],
+  "prerequisites_reviewed": false
 }

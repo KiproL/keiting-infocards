@@ -3,23 +3,28 @@
   "route": "cards_wouldprefer",
   "slides": [
     {
-      "label": "Would prefer: «предпочёл бы»",
+      "label": "Would prefer",
       "intro": {
-        "text": "Would prefer — вежливое предпочтение. Сильнее, чем like, но мягче, чем want. Можно добавить rather than, чтобы подчеркнуть выбор из двух вариантов.",
+        "text": "Официант спрашивает: Would you prefer tea or coffee? Would prefer — «предпочёл бы» в конкретной ситуации: выбираем один вариант из нескольких. После него — существительное или to + глагол: I'd prefer to walk.",
         "highlights": [
           {
-            "text": "would prefer",
+            "text": "Would you prefer tea or coffee?",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "Would prefer",
             "color": "term",
             "style": "bold_underline"
           },
           {
-            "text": "предпочтение",
+            "text": "выбираем один вариант",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "rather than",
-            "color": "example",
+            "text": "to + глагол",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -236,20 +241,21 @@
             "callout": {
               "type": "tip",
               "title": "Prefer A to B",
-              "text": "Prefer вообще — с to между вариантами: I prefer cats to dogs. Would prefer — с rather than."
+              "text": "Prefer вообще: I prefer cats to dogs — между вариантами to. С would prefer и глаголами — rather than: I'd prefer to walk rather than drive. С существительными подходят оба: I'd prefer tea to / rather than coffee."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: prefer go, prefer to going",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в would prefer.",
+        "text": "Частые ошибки с would prefer. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -280,15 +286,57 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Want — хочу (прямо). Would like — вежливое «хотел бы». Would prefer — вежливое «предпочёл бы». Каждый следующий уровень вежливее и мягче."
-          },
-          "quote": {
-            "text": "Would prefer — это выбор с уважением к собеседнику.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Want — прямое «хочу». Would like — вежливое «хотел бы». Would prefer — вежливый выбор из вариантов."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:wouldprefer.to",
+      "description": "would prefer + to + глагол",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldprefer.noun",
+      "description": "would prefer + существительное, без to",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldprefer.rather_than",
+      "description": "выбор из двух — rather than",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldprefer.would",
+      "description": "would + prefer, без -s",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_prefer",
+    "word_a2_rather"
+  ],
+  "prerequisites": [
+    "cards_wouldlike"
+  ],
+  "prerequisites_reviewed": false
 }

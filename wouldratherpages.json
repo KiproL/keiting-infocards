@@ -3,23 +3,28 @@
   "route": "cards_wouldrather",
   "slides": [
     {
-      "label": "Would rather: «я бы лучше»",
+      "label": "Would rather: лучше бы",
       "intro": {
-        "text": "Would rather — выражение предпочтения. Означает «я бы лучше…». Это выбор одного варианта вместо другого.",
+        "text": "Друг зовёт в кино, а ты устал: I'd rather stay at home — я бы лучше остался дома. Would rather выражает предпочтение; после него глагол без to, а сравнение — через than: I'd rather walk than drive.",
         "highlights": [
           {
-            "text": "Would rather",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "I'd rather stay at home",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "предпочтения",
+            "text": "предпочтение",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "вместо другого",
-            "color": "example",
+            "text": "глагол без to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "than",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -273,20 +278,11 @@
               "ru": "Я бы предпочёл об этом не говорить."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Would rather — это выбор с уважением к себе и собеседнику.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ]
     },
     {
-      "label": "Would rather или would prefer",
+      "label": "Rather или prefer",
       "intro": {
         "text": "Would rather и would prefer — обе про предпочтение, но строятся по-разному: после would rather — глагол без to.",
         "highlights": [
@@ -326,7 +322,7 @@
               {
                 "cells": [
                   "would rather",
-                  "глагол БЕЗ to",
+                  "глагол без to",
                   "I'd rather go."
                 ]
               },
@@ -371,7 +367,8 @@
               "en": "Would you rather I called later?",
               "ru": "Мне лучше позвонить позже?"
             }
-          ]
+          ],
+          "text": "Если предпочтение касается другого человека, после would rather идёт подлежащее и прошедшее время, хотя речь о настоящем или будущем. Подробно — в карточке «Would rather + прошедшее»."
         },
         {
           "title": "Совет",
@@ -379,18 +376,18 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Would rather — без to. Would prefer — с to. Обе фразы вежливые, но would rather звучит более решительно."
+            "text": "Would rather — без to. Would prefer — с to. Обе фразы вежливые и часто взаимозаменяемы: I'd rather go = I'd prefer to go."
           }
         }
       ]
     },
     {
-      "label": "Частые ошибки: rather to stay, rather staying",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в would rather.",
+        "text": "Частые ошибки с would rather. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -426,5 +423,64 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:wouldrather.no_to",
+      "description": "would rather + глагол без to и без -ing",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldrather.than",
+      "description": "выбор из двух — than",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldrather.not",
+      "description": "would rather not, а не not to",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldrather.prefer",
+      "description": "would prefer — с to, would rather — без to",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldrather.subject",
+      "description": "о себе — без I; о другом — прошедшее",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_rather",
+    "word_than",
+    "word_a2_prefer"
+  ],
+  "prerequisites": [
+    "cards_wouldprefer"
+  ],
+  "prerequisites_reviewed": false
 }

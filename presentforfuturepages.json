@@ -3,13 +3,18 @@
   "route": "cards_presentforfuture",
   "slides": [
     {
-      "label": "Будущее настоящим: договорились или по расписанию",
+      "label": "Будущее настоящим",
       "intro": {
-        "text": "О будущем можно говорить настоящим временем. Present Continuous — то, о чём уже договорились (I'm meeting Tom), Present Simple — расписание и графики (The train leaves at 7).",
+        "text": "Ты уже договорился с другом: I'm meeting Tom at six. А поезд уходит по расписанию: The train leaves at 7:15. О будущем можно говорить настоящим временем: Present Continuous — о том, о чём уже договорились, Present Simple — о расписании и программах.",
         "highlights": [
           {
-            "text": "настоящим временем",
-            "color": "term",
+            "text": "I'm meeting Tom at six",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "The train leaves at 7:15",
+            "color": "example",
             "style": "bold"
           },
           {
@@ -19,17 +24,7 @@
           },
           {
             "text": "Present Simple",
-            "color": "example",
-            "style": "bold"
-          },
-          {
-            "text": "уже договорились",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "расписание",
-            "color": "example",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -117,6 +112,11 @@
               "ru": "Завтра магазин открывается в девять."
             }
           ]
+        },
+        {
+          "title": "Где правило не работает",
+          "borderColor": "term",
+          "text": "Present Simple не говорит о личных планах: I meet Tom tomorrow — ошибка, если это договорённость. Погоду и предположения настоящим временем не выражают: It will rain / It's going to rain. После when, if, as soon as о будущем тоже настоящее время — карточка When / As soon as."
         }
       ],
       "expandables": [
@@ -135,17 +135,18 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: I meet Tom tomorrow, It rains tomorrow",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки, когда о будущем говорят настоящим.",
+        "text": "Частые ошибки, когда о будущем говорят настоящим временем. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -158,7 +159,7 @@
           "errors": [
             {
               "wrong": "I meet Tom tomorrow at six. (договорились)",
-              "right": "I'm meeting Tom tomorrow at six. (договорённость — Continuous)"
+              "right": "I'm meeting Tom tomorrow at six. (договорились — Continuous)"
             },
             {
               "wrong": "The train is leaving at 7:15 every day.",
@@ -181,14 +182,50 @@
             "type": "tip",
             "title": "Спроси себя",
             "text": "Это записано в ежедневнике — Present Continuous. Это напечатано в расписании — Present Simple. Погода и прогнозы — will или going to."
-          },
-          "quote": {
-            "text": "Ежедневник — Continuous, расписание — Simple.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:presentforfuture.cont",
+      "description": "Договорились — Present Continuous",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentforfuture.simple",
+      "description": "Расписание — Present Simple",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentforfuture.other",
+      "description": "Намерение и прогноз — going to или will",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_tomorrow",
+    "word_tonight"
+  ],
+  "prerequisites": [
+    "cards_presentcont",
+    "cards_futuresimp"
+  ],
+  "prerequisites_reviewed": false
 }

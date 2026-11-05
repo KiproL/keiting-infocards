@@ -3,23 +3,28 @@
   "route": "cards_presentperfcont",
   "slides": [
     {
-      "label": "Present Perfect Continuous: делаю уже давно",
+      "label": "Делаю уже давно",
       "intro": {
-        "text": "Present Perfect Continuous — действие началось в прошлом и идёт до сих пор (или только что закончилось): I have been waiting for an hour — я жду уже час. Важна длительность.",
+        "text": "Ты ждёшь друга и говоришь: I've been waiting for an hour. Present Perfect Continuous описывает действие, которое началось в прошлом и идёт до сих пор или только что закончилось: важны длительность и процесс. По-русски здесь обычно настоящее время: «я жду уже час».",
         "highlights": [
           {
-            "text": "Present Perfect Continuous",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "I've been waiting for an hour",
+            "color": "example",
+            "style": "bold"
           },
           {
             "text": "идёт до сих пор",
             "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "только что закончилось",
+            "color": "term",
             "style": "bold"
           },
           {
-            "text": "длительность",
-            "color": "example",
+            "text": "настоящее время",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -167,7 +172,7 @@
           }
         },
         {
-          "title": "Ключевые маркеры",
+          "title": "Слова-подсказки",
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
@@ -181,7 +186,8 @@
               "all week",
               "just"
             ]
-          }
+          },
+          "text": "For, since, how long, all day подсказывают длительность, но форму не выбирают: с know, like, want и have в значении «иметь» говорят Present Perfect — I've known her for years (слайд «Процесс или результат»)."
         },
         {
           "title": "Живые примеры",
@@ -204,15 +210,6 @@
               "ru": "Весь день идёт дождь."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Present Perfect Continuous — про то, как долго уже длится.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -242,23 +239,23 @@
       ]
     },
     {
-      "label": "Утверждение, отрицание, вопрос",
+      "label": "Отрицание и вопрос",
       "intro": {
-        "text": "Have / has been не меняется в зависимости от глагола: дальше всегда V-ing. Одна конструкция для всех глаголов.",
+        "text": "Have и has меняются по подлежащему, а been и V-ing — никогда: I have been working, she has been working. В вопросе have или has ставим перед подлежащим, в отрицании добавляем not.",
         "highlights": [
           {
-            "text": "have / has been",
-            "color": "term",
+            "text": "been и V-ing",
+            "color": "info",
             "style": "bold_underline"
           },
           {
-            "text": "не меняется",
+            "text": "перед подлежащим",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "V-ing",
-            "color": "example",
+            "text": "not",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -597,18 +594,28 @@
       ]
     },
     {
-      "label": "Подсказки: for, since, lately",
+      "label": "For, since, lately",
       "intro": {
-        "text": "Слова-маркеры подчёркивают длительность действия — как долго оно продолжается или продолжалось.",
+        "text": "Подсказки говорят о длительности: for — сколько времени, since — с какого момента, lately и recently — «в последнее время». Since и for подробно разобраны в карточке Present Perfect, на слайде «Since, for, how long».",
         "highlights": [
           {
-            "text": "Слова-маркеры",
-            "color": "term",
+            "text": "длительности",
+            "color": "example",
             "style": "bold_underline"
           },
           {
-            "text": "длительность",
-            "color": "info",
+            "text": "for",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "since",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "lately и recently",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -716,7 +723,7 @@
       ]
     },
     {
-      "label": "Глагол с -ing после been",
+      "label": "Been + -ing",
       "intro": {
         "text": "После been глагол всегда с окончанием -ing. Написание зависит от последних букв глагола.",
         "highlights": [
@@ -789,7 +796,7 @@
       ]
     },
     {
-      "label": "Процесс или результат: have been reading и have read",
+      "label": "Процесс или результат",
       "intro": {
         "text": "Оба времени связывают прошлое с настоящим, но Present Perfect Continuous делает акцент на процессе, а Present Perfect — на результате.",
         "highlights": [
@@ -878,28 +885,42 @@
           ]
         },
         {
+          "title": "Глаголы состояния — без Continuous",
+          "borderColor": "term",
+          "text": "Know, like, love, want, believe и have в значении «иметь» обычно не ставят в Continuous: I've known her since school, а не I've been knowing. Live и work подходят к обоим временам. Если считаем, сколько сделано (три чашки, пять писем), — только Present Perfect.",
+          "examples": [
+            {
+              "en": "I've known him for ten years.",
+              "ru": "Я знаю его десять лет."
+            },
+            {
+              "en": "I've been living / I've lived here since 2019.",
+              "ru": "Я живу здесь с 2019 года — оба варианта верны."
+            },
+            {
+              "en": "I've drunk three cups of coffee today.",
+              "ru": "Сегодня я выпил три чашки кофе: считаем результат."
+            }
+          ]
+        },
+        {
           "title": "Совет",
           "borderColor": "good",
           "callout": {
             "type": "tip",
             "title": "Как различить",
             "text": "Если отвечаешь на вопрос «как долго?» — Perfect Continuous. Если «сколько сделано?» — Perfect."
-          },
-          "quote": {
-            "text": "Perfect считает, Perfect Continuous измеряет.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     },
     {
-      "label": "Частые ошибки: have been wait, since two hours",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Семь самых частых ошибок в Present Perfect Continuous.",
+        "text": "Частые ошибки в Present Perfect Continuous. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -937,6 +958,10 @@
             {
               "wrong": "I work here since 2015.",
               "right": "I have been working here since 2015. (с since — Perfect)"
+            },
+            {
+              "wrong": "I've been knowing her for years.",
+              "right": "I've known her for years. (know — без Continuous)"
             }
           ]
         },
@@ -945,16 +970,71 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
+            "title": "Простой ориентир",
             "text": "Have / has + been + глагол с -ing. been не меняется, V-ing не меняется. После for — период, после since — точка начала."
-          },
-          "quote": {
-            "text": "Три части — have / has, been, V-ing. Убери одну — рассыпется всё.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:presentperfcont.form",
+      "description": "have / has + been + V-ing",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperfcont.ing",
+      "description": "Написание -ing",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperfcont.for_since",
+      "description": "For — сколько времени, since — с какого момента",
+      "slides": [
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperfcont.vs_perfect",
+      "description": "Как долго — Perfect Continuous, сколько сделано — Perfect",
+      "slides": [
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperfcont.state",
+      "description": "Know, like, want, have (иметь) — без Continuous",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_for",
+    "word_a2_since",
+    "word_a2_lately",
+    "word_a2_recently"
+  ],
+  "prerequisites": [
+    "cards_presentperf",
+    "cards_presentcont"
+  ],
+  "prerequisites_reviewed": false
 }
