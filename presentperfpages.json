@@ -5,26 +5,26 @@
     {
       "label": "Результат к сейчас",
       "intro": {
-        "text": "Present Perfect — действие было в прошлом, но важно сейчас: I've lost my keys — и сейчас их нет. Важен результат или опыт, а не когда именно.",
+        "text": "Ты приходишь домой и не можешь открыть дверь: I've lost my keys — ключи потеряны, и это важно прямо сейчас. Present Perfect связывает прошлое действие с настоящим: важен результат или опыт, а не когда именно это случилось.",
         "highlights": [
           {
-            "text": "Present Perfect",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "важно сейчас",
+            "text": "I've lost my keys",
             "color": "example",
             "style": "bold"
           },
           {
+            "text": "Present Perfect",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
             "text": "результат или опыт",
-            "color": "bad",
-            "style": "bold"
+            "color": "example",
+            "style": "bold_underline"
           },
           {
             "text": "не когда именно",
-            "color": "info",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -172,23 +172,6 @@
           }
         },
         {
-          "title": "Ключевые маркеры",
-          "borderColor": "good",
-          "verbGrid": {
-            "accentColor": "example",
-            "verbs": [
-              "just",
-              "already",
-              "yet",
-              "ever",
-              "never",
-              "since",
-              "for",
-              "this week"
-            ]
-          }
-        },
-        {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
@@ -209,12 +192,27 @@
               "ru": "Они только что приехали."
             }
           ]
+        },
+        {
+          "title": "Результат или просто история",
+          "borderColor": "term",
+          "text": "Если результата сейчас нет и мы рассказываем, как было, нужен Past Simple. Как только называем время (вчера, в 2020 году), тоже переходим на Past Simple — об этом слайд «Perfect или Past Simple».",
+          "examples": [
+            {
+              "en": "I've lost my keys.",
+              "ru": "Я потерял ключи — их до сих пор нет."
+            },
+            {
+              "en": "I lost my keys, but I found them later.",
+              "ru": "Я потерял ключи, но потом нашёл: это история, результата сейчас нет."
+            }
+          ]
         }
       ],
       "expandables": [
         {
-          "label": "Три случая Present Perfect",
-          "preview": "результат, опыт, до сих пор",
+          "label": "Результат и опыт",
+          "preview": "что есть сейчас, что было в жизни",
           "initiallyExpanded": false,
           "section": {
             "borderColor": "info",
@@ -244,13 +242,6 @@
                     "Have you ever been to Italy?",
                     "Ты бывал в Италии?"
                   ]
-                },
-                {
-                  "cells": [
-                    "началось и длится",
-                    "I've lived here for 5 years.",
-                    "Я живу здесь 5 лет."
-                  ]
                 }
               ]
             },
@@ -263,21 +254,26 @@
     {
       "label": "Отрицание и вопрос",
       "intro": {
-        "text": "Have или has + третья форма глагола (V3). С he, she, it — has, с остальными — have.",
+        "text": "Have и has здесь — вспомогательные глаголы: они строят время, а «иметь» не значат. В отрицании к ним добавляем not, в вопросе ставим их перед подлежащим — тем, кто действует. Do и did не нужны.",
         "highlights": [
           {
-            "text": "Have или has",
+            "text": "вспомогательные глаголы",
             "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "not",
+            "color": "bad",
             "style": "bold"
           },
           {
-            "text": "третья форма",
+            "text": "перед подлежащим",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "V3",
-            "color": "example",
+            "text": "Do и did не нужны",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -563,6 +559,40 @@
           ]
         },
         {
+          "title": "Краткие ответы",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Вопрос",
+              "Да",
+              "Нет"
+            ],
+            "headerColors": [
+              "info",
+              "good",
+              "bad"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "Have you finished?",
+                  "Yes, I have.",
+                  "No, I haven't."
+                ]
+              },
+              {
+                "cells": [
+                  "Has she called?",
+                  "Yes, she has.",
+                  "No, she hasn't."
+                ]
+              }
+            ]
+          },
+          "text": "В кратком ответе повторяем только have или has, без V3."
+        },
+        {
           "title": "Сокращения",
           "borderColor": "term",
           "table": {
@@ -602,28 +632,51 @@
             ],
             "borderColor": "term"
           }
+        },
+        {
+          "title": "Не путай с do и did",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "Do you have finished?",
+              "right": "Have you finished? (вопрос строим через have)"
+            },
+            {
+              "wrong": "She doesn't has called.",
+              "right": "She hasn't called. (not добавляем к has)"
+            },
+            {
+              "wrong": "He hasn't call.",
+              "right": "He hasn't called. (после hasn't — V3)"
+            }
+          ]
         }
       ]
     },
     {
-      "label": "Подсказки",
+      "label": "Just, yet, ever, never",
       "intro": {
-        "text": "Слова-маркеры подсказывают, что действие связано с настоящим моментом или ещё не завершено.",
+        "text": "Некоторые слова часто стоят рядом с Present Perfect, потому что сами говорят о связи с настоящим: just — только что, yet — к этому моменту, ever — когда-нибудь в жизни. Но решает смысл, а не слово: это подсказки, а не правило.",
         "highlights": [
           {
-            "text": "Слова-маркеры",
+            "text": "just",
             "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "связано",
-            "color": "info",
             "style": "bold"
           },
           {
-            "text": "не завершено",
+            "text": "yet",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "ever",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "решает смысл, а не слово",
             "color": "example",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -677,40 +730,11 @@
                   "никогда",
                   "I have never been to Japan."
                 ]
-              },
-              {
-                "cells": [
-                  "since",
-                  "с (момента)",
-                  "They have lived here since 2015."
-                ]
-              },
-              {
-                "cells": [
-                  "for",
-                  "в течение периода",
-                  "I have lived here for five years."
-                ]
               }
             ],
             "borderColor": "info"
-          }
-        },
-        {
-          "title": "Since vs For",
-          "borderColor": "term",
-          "rules": [
-            {
-              "name": "since",
-              "suffix": "точка начала (с когда)",
-              "example": "I have worked here since 2018."
-            },
-            {
-              "name": "for",
-              "suffix": "период (сколько)",
-              "example": "I have worked here for six years."
-            }
-          ]
+          },
+          "text": "Just, already и never ставим между have и V3; yet — в конец; ever — в вопросе после подлежащего."
         },
         {
           "title": "Just / Already / Yet",
@@ -718,7 +742,7 @@
           "callout": {
             "type": "tip",
             "title": "Разница",
-            "text": "Just — только что. Already — уже (раньше, чем ожидалось). Yet — ещё не / уже? (в вопросах и отрицаниях)."
+            "text": "Just — только что. Already — уже, раньше, чем ждали. Yet — в вопросе «уже?», в отрицании «ещё не». Подробно о месте этих слов и о still — в карточке «Already, yet, still»."
           }
         },
         {
@@ -742,6 +766,11 @@
               "ru": "Я никогда не был в Японии."
             }
           ]
+        },
+        {
+          "title": "Подсказка, а не правило",
+          "borderColor": "term",
+          "text": "Since и for (с какого момента, сколько времени) разобраны в части B1 — слайд «Since, for, how long». Там же — почему never бывает и с Past Simple."
         }
       ]
     },
@@ -901,7 +930,7 @@
     {
       "label": "Perfect или Past Simple",
       "intro": {
-        "text": "Оба времени говорят о прошлом, но фокус разный: Present Perfect — результат сейчас, Past Simple — конкретный момент в прошлом.",
+        "text": "Оба времени говорят о прошлом. Present Perfect отвечает на вопрос «что есть сейчас, было ли когда-нибудь?», Past Simple — «что случилось тогда?». Как только называем или спрашиваем, когда именно, нужен Past Simple.",
         "highlights": [
           {
             "text": "Present Perfect",
@@ -910,18 +939,13 @@
           },
           {
             "text": "Past Simple",
-            "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "результат сейчас",
-            "color": "example",
-            "style": "bold_underline"
-          },
-          {
-            "text": "конкретный момент",
             "color": "term",
             "style": "bold"
+          },
+          {
+            "text": "когда именно",
+            "color": "example",
+            "style": "bold_underline"
           }
         ]
       },
@@ -982,21 +1006,24 @@
           ]
         },
         {
-          "title": "Ключевое различие",
-          "borderColor": "term",
-          "callout": {
-            "type": "tip",
-            "title": "Если время указано",
-            "text": "Если в предложении есть yesterday, last week, in 2010, ago — это Past Simple. Если just, already, yet, ever, never — обычно Present Perfect. В американском разговорном с just, already, yet часто говорят и Past Simple: I just ate. Did you eat yet?"
+          "title": "Сначала опыт, потом подробности",
+          "borderColor": "info",
+          "steps": {
+            "accentColor": "info",
+            "items": [
+              "Have you ever been to London? — Ты бывал в Лондоне? Спрашиваем об опыте, время не важно.",
+              "Yes, I have. I went there last summer. — Да. Ездил прошлым летом. Появилось время — Past Simple.",
+              "Did you like it? — Тебе понравилось? Говорим о той поездке — тоже Past Simple."
+            ]
           }
         },
         {
-          "title": "Совет",
-          "borderColor": "good",
+          "title": "Слова закончившегося времени",
+          "borderColor": "term",
           "callout": {
-            "type": "success",
-            "title": "Как запомнить",
-            "text": "Результат сейчас важен — Present Perfect. Точный момент в прошлом — Past Simple."
+            "type": "tip",
+            "title": "Время названо — Past Simple",
+            "text": "Yesterday, last week, in 2010, two days ago, when I was a child называют время, которое уже закончилось, — с ними нужен Past Simple. Тонкости (today, this morning, американский вариант) — в части B1."
           }
         }
       ]
@@ -1058,11 +1085,284 @@
           }
         }
       ]
+    },
+    {
+      "label": "Закончилось или нет",
+      "intro": {
+        "text": "Выбор зависит от периода, о котором говорим. Если он ещё идёт (today, this week, so far), действие связано с сейчас — Present Perfect. Если период закончился (yesterday, last year, when I was a child) — Past Simple, даже если результат остался.",
+        "highlights": [
+          {
+            "text": "ещё идёт",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "закончился",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Present Perfect",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Past Simple",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Период ещё идёт или уже нет",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Период",
+              "Время",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "today, this week",
+                  "Present Perfect",
+                  "I've sent ten emails today."
+                ]
+              },
+              {
+                "cells": [
+                  "so far, up to now",
+                  "Present Perfect",
+                  "We've sold fifty tickets so far."
+                ]
+              },
+              {
+                "cells": [
+                  "yesterday, last week",
+                  "Past Simple",
+                  "I sent ten emails yesterday."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "This morning: смотри на часы",
+          "borderColor": "term",
+          "text": "This morning, this afternoon подходят к обоим временам: всё зависит от того, закончилась ли эта часть дня.",
+          "examples": [
+            {
+              "en": "I've had two coffees this morning.",
+              "ru": "Утром я выпил две чашки кофе — говорю ещё утром."
+            },
+            {
+              "en": "I had two coffees this morning.",
+              "ru": "Утром я выпил две чашки кофе — говорю вечером, утро прошло."
+            }
+          ]
+        },
+        {
+          "title": "Новость, потом подробности",
+          "borderColor": "info",
+          "text": "Новость сообщаем в Present Perfect, а когда переходим к обстоятельствам — к Past Simple.",
+          "examples": [
+            {
+              "en": "I've cut my finger!",
+              "ru": "Я порезал палец! — новость, результат виден."
+            },
+            {
+              "en": "How did you do that? — I cut it on some broken glass.",
+              "ru": "Как это вышло? — Порезал о битое стекло: теперь говорим о конкретном моменте."
+            }
+          ]
+        },
+        {
+          "title": "When — вопрос о моменте",
+          "borderColor": "term",
+          "text": "When спрашивает, в какой момент это было, поэтому с ним Past Simple: When did you arrive? When have you arrived? так не говорят. О длительности спрашивают How long have you…? — это следующий слайд."
+        },
+        {
+          "title": "Жизнь или эпоха закончилась",
+          "borderColor": "term",
+          "examples": [
+            {
+              "en": "Shakespeare wrote many plays.",
+              "ru": "Шекспир написал много пьес: его жизнь закончилась — Past Simple."
+            },
+            {
+              "en": "My sister has written two books.",
+              "ru": "Моя сестра написала две книги: она пишет и сейчас, это её опыт к сегодняшнему дню."
+            },
+            {
+              "en": "I never went to the gym when I lived there.",
+              "ru": "Я никогда не ходил в спортзал, пока там жил: never, но период закончился."
+            }
+          ]
+        },
+        {
+          "title": "Американский вариант",
+          "borderColor": "info",
+          "callout": {
+            "type": "info",
+            "title": "Не ошибка, а вариант",
+            "text": "В американском английском с just, already, yet часто говорят Past Simple: I just finished it. Did you do it yet? В британском нейтральном привычнее I've just finished it. Have you done it yet? В заданиях курса — британский вариант."
+          }
+        },
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "When have you arrived?",
+              "right": "When did you arrive? (when — момент)"
+            },
+            {
+              "wrong": "I've seen her last week.",
+              "right": "I saw her last week. (неделя закончилась)"
+            },
+            {
+              "wrong": "Shakespeare has written many plays.",
+              "right": "Shakespeare wrote many plays. (жизнь закончилась)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Since, for, how long",
+      "intro": {
+        "text": "По-русски говорим «я живу здесь пять лет» в настоящем времени. В английском так нельзя: состояние началось в прошлом и продолжается, поэтому нужен Present Perfect: I've lived here for five years.",
+        "highlights": [
+          {
+            "text": "в настоящем времени",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "началось в прошлом и продолжается",
+            "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "I've lived here for five years",
+            "color": "good",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "С русского",
+          "borderColor": "good",
+          "transforms": [
+            {
+              "from": "Я живу здесь пять лет.",
+              "to": "I've lived here for five years.",
+              "toColor": "good"
+            },
+            {
+              "from": "Я знаю её со школы.",
+              "to": "I've known her since school.",
+              "toColor": "good"
+            },
+            {
+              "from": "Сколько ты здесь работаешь?",
+              "to": "How long have you worked here?",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Since или for",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "since",
+              "suffix": "момент начала",
+              "example": "since 2018, since Monday, since I moved"
+            },
+            {
+              "name": "for",
+              "suffix": "длительность",
+              "example": "for six years, for a week, for ages"
+            }
+          ],
+          "text": "Since отвечает на вопрос «с какого момента?», for — «как долго?»."
+        },
+        {
+          "title": "Живу или жил",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I've lived in Paris for two years.",
+              "ru": "Я живу в Париже два года — и сейчас живу."
+            },
+            {
+              "en": "I lived in Paris for two years.",
+              "ru": "Я жил в Париже два года — раньше, теперь нет."
+            }
+          ]
+        },
+        {
+          "title": "Ago — это момент, а не длительность",
+          "borderColor": "term",
+          "text": "Ago отсчитывает назад от сейчас и называет момент, поэтому с ним Past Simple.",
+          "examples": [
+            {
+              "en": "I moved here two years ago.",
+              "ru": "Я переехал сюда два года назад."
+            },
+            {
+              "en": "I've lived here for two years.",
+              "ru": "Я живу здесь два года."
+            }
+          ]
+        },
+        {
+          "title": "Состояние или процесс",
+          "borderColor": "info",
+          "callout": {
+            "type": "tip",
+            "title": "Known, been, had",
+            "text": "С know, be, have в значении «иметь» говорим только так: I've known him for years. С live и work возможны оба варианта: I've lived here / I've been living here for two years — разница небольшая. Процесс подробно — в карточке Present Perfect Continuous."
+          }
+        },
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I live here for five years.",
+              "right": "I've lived here for five years. (длится до сих пор)"
+            },
+            {
+              "wrong": "I know him since 2010.",
+              "right": "I've known him since 2010. (с момента до сих пор)"
+            },
+            {
+              "wrong": "I've lived here since five years.",
+              "right": "I've lived here for five years. (five years — длительность)"
+            },
+            {
+              "wrong": "I've moved here two years ago.",
+              "right": "I moved here two years ago. (ago — момент)"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
-  "editorial_review_date": "2026-11-04",
+  "editorial_review_date": "2026-11-05",
   "error_patterns": [
     {
       "id": "error:presentperf.have_has",
@@ -1070,7 +1370,6 @@
       "slides": [
         0,
         1,
-        4,
         5
       ],
       "decoys": []
@@ -1080,15 +1379,15 @@
       "description": "После have / has — третья форма (V3)",
       "slides": [
         0,
-        2,
         3,
-        5
+        5,
+        7
       ],
       "decoys": []
     },
     {
       "id": "error:presentperf.markers",
-      "description": "Just, already, yet, ever, never — место и смысл",
+      "description": "Just, already, yet, ever, never — смысл и место",
       "slides": [
         2,
         5
@@ -1099,8 +1398,7 @@
       "id": "error:presentperf.since_for",
       "description": "Since — с какого момента, for — сколько времени",
       "slides": [
-        2,
-        5
+        7
       ],
       "decoys": []
     },
@@ -1109,7 +1407,17 @@
       "description": "Указано время в прошлом — Past Simple; результат сейчас — Present Perfect",
       "slides": [
         4,
-        5
+        5,
+        6,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperf.duration",
+      "description": "Длится до сих пор — Present Perfect, а не Present Simple",
+      "slides": [
+        7
       ],
       "decoys": []
     }
@@ -1120,7 +1428,10 @@
     "word_a2_yet",
     "word_ever",
     "word_never",
-    "word_a2_since"
+    "word_a2_since",
+    "word_ago",
+    "word_today",
+    "word_for"
   ],
   "prerequisites": [
     "cards_pastsimp"

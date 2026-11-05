@@ -1324,14 +1324,53 @@
       "slices": [
         {
           "route": "cards_pluralnouns",
-          "revision": 3,
+          "revision": 4,
           "slides": [
             0,
-            1
+            1,
+            3
           ]
         }
       ],
       "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a2_nouns_special",
+      "level": "A2",
+      "title": "Knives, jeans, news",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 4,
+          "slides": [
+            2,
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_nouns_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_nouns_rare",
+      "level": "B2",
+      "title": "Редкие формы: crises",
+      "slices": [
+        {
+          "route": "cards_pluralnouns",
+          "revision": 4,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_nouns_special"
+      ],
       "reviewed": false
     },
     {
@@ -1421,99 +1460,6 @@
       ],
       "prerequisites": [
         "a1_simple_questions"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_nouns_variants",
-      "level": "A1",
-      "title": "Исключения: men, teeth",
-      "slices": [
-        {
-          "route": "cards_pluralnouns",
-          "revision": 3,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_nouns_spelling",
-      "level": "A2",
-      "title": "Слова на -o и -f",
-      "slices": [
-        {
-          "route": "cards_pluralnouns",
-          "revision": 3,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_nouns_uncountable",
-      "level": "A2",
-      "title": "Jeans, news, advice",
-      "slices": [
-        {
-          "route": "cards_pluralnouns",
-          "revision": 3,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_nouns_review",
-      "level": "A2",
-      "title": "Один и много: проверка",
-      "slices": [
-        {
-          "route": "cards_pluralnouns",
-          "revision": 3,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_variants",
-        "a2_nouns_spelling",
-        "a2_nouns_uncountable"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_nouns_rare",
-      "level": "B1",
-      "title": "Редкие формы: crises",
-      "slices": [
-        {
-          "route": "cards_pluralnouns",
-          "revision": 3,
-          "slides": [
-            6
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_variants",
-        "a2_nouns_spelling"
       ],
       "reviewed": false
     },
@@ -1618,48 +1564,14 @@
           "route": "cards_thereisare",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_there_questions",
-      "level": "A1",
-      "title": "Is there…? There isn’t…",
-      "slices": [
-        {
-          "route": "cards_thereisare",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_there_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_there_review",
-      "level": "A1",
-      "title": "There is / are: проверка",
-      "slices": [
-        {
-          "route": "cards_thereisare",
-          "revision": 2,
-          "slides": [
+            0,
+            1,
             2
           ]
         }
       ],
       "prerequisites": [
-        "a1_there_questions"
+        "a1_nouns_core"
       ],
       "reviewed": false
     },
@@ -2447,7 +2359,7 @@
         }
       ],
       "prerequisites": [
-        "a2_nouns_uncountable"
+        "a2_nouns_special"
       ],
       "reviewed": false
     },
@@ -3860,7 +3772,7 @@
       ],
       "prerequisites": [
         "a1_jobs_names",
-        "a2_nouns_uncountable"
+        "a2_nouns_special"
       ],
       "reviewed": false
     },
@@ -5091,8 +5003,7 @@
         }
       ],
       "prerequisites": [
-        "a1_therewas_core",
-        "a1_there_questions"
+        "a1_therewas_core"
       ],
       "reviewed": false
     },
@@ -5437,7 +5348,7 @@
         }
       ],
       "prerequisites": [
-        "a1_there_questions"
+        "a1_there_core"
       ],
       "reviewed": false
     },
@@ -5682,109 +5593,43 @@
     {
       "id": "a2_perfect_meaning",
       "level": "A2",
-      "title": "Результат к сейчас",
+      "title": "Present Perfect: результат",
       "slices": [
         {
           "route": "cards_presentperf",
-          "revision": 1,
+          "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_past_meaning"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_perfect_negq",
-      "level": "A2",
-      "title": "Отрицание и вопрос",
-      "slices": [
-        {
-          "route": "cards_presentperf",
-          "revision": 1,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_perfect_meaning"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_perfect_markers",
-      "level": "A2",
-      "title": "Подсказки",
-      "slices": [
-        {
-          "route": "cards_presentperf",
-          "revision": 1,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_perfect_meaning"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_perfect_v3",
-      "level": "A2",
-      "title": "Третья форма (V3)",
-      "slices": [
-        {
-          "route": "cards_presentperf",
-          "revision": 1,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_past_irregular"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_perfect_vs_past",
-      "level": "B1",
-      "title": "Perfect или Past Simple",
-      "slices": [
-        {
-          "route": "cards_presentperf",
-          "revision": 1,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_perfect_markers"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_perfect_review",
-      "level": "A2",
-      "title": "Present Perfect: проверка",
-      "slices": [
-        {
-          "route": "cards_presentperf",
-          "revision": 1,
-          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
             5
           ]
         }
       ],
       "prerequisites": [
-        "a2_perfect_negq",
-        "a2_perfect_v3"
+        "a1_past_irregular",
+        "a1_past_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_perfect_time",
+      "level": "B1",
+      "title": "Present Perfect: период",
+      "slices": [
+        {
+          "route": "cards_presentperf",
+          "revision": 2,
+          "slides": [
+            6,
+            7
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_perfect_meaning"
       ],
       "reviewed": false
     },

@@ -10,25 +10,20 @@
 | intro_reading_r | Intro | readingrules 1 | Читать сочетания гласной с r: car, bird, more | intro_reading_vowels |
 | intro_reading_consonants | Intro | readingrules 2 | Читать c и g перед e, i, y и перед другими буквами | intro_alphabet_names |
 | intro_reading_review | Intro | readingrules 3 | Не читать английские слова по буквам, как русские | intro_reading_vowels, intro_reading_r, intro_reading_consonants |
-| a1_nouns_core | A1 | pluralnouns 0, 1 | Образовать множественное число с +s, +es, y → ies и согласовать is/are, this/these | — |
+| a1_nouns_core | A1 | pluralnouns 0, 1, 3 | Образовать множественное число (+s, +es, y → ies), употреблять частые особые формы (men, children, people, teeth, sheep) и согласовать is / are, this / these | — |
+| a2_nouns_special | A2 | pluralnouns 2, 4, 5 | Писать формы на -o и -f/-fe, понимать, что jeans и scissors — множественное число, а news, advice, information не считают штуками, и согласовать с ними глагол | a1_nouns_core |
+| b2_nouns_rare | B2 | pluralnouns 6 | Узнавать редкие формы (roofs, oxen, crises, criteria) и пары с разным смыслом и стилем (fish / fishes, people / peoples) | a2_nouns_special |
 | a1_article_introduction | A1 | articles 0, 1 | Назвать один исчисляемый предмет с a/an по звуку следующего слова; не ставить два определителя | a1_nouns_core |
 | a1_be_core | A1 | presentsimp 3 | Говорить о себе и других с am/is/are: возраст, место, профессия, состояние; вопрос и отрицание без do | — |
 | a1_simple_routines | A1 | presentsimp 0, 2 | Описывать привычки, факты и расписание; ставить -s/-es/-ies с he/she/it | a1_be_core |
 | a1_simple_questions | A1 | presentsimp 1 | Строить отрицание и вопрос с do/does, глагол после них — в начальной форме; краткие ответы | a1_simple_routines |
 | a1_simple_review | A1 | presentsimp 4 | Исправлять частые ошибки: he play, does he plays, I am play, he have | a1_simple_questions |
-| a1_nouns_variants | A1 | pluralnouns 3 | Употреблять частые особые формы: men, women, children, people, feet, teeth, sheep, fish | a1_nouns_core |
-| a2_nouns_spelling | A2 | pluralnouns 2 | Писать формы слов на -o и -f/-fe, проверяя исключения по словарю | a1_nouns_core |
-| a2_nouns_uncountable | A2 | pluralnouns 4 | Считать неисчисляемое через единицу; trousers и scissors с are; news и физика с is | a1_nouns_core |
-| a2_nouns_review | A2 | pluralnouns 5 | Найти и исправить ошибки числа и согласования в смешанных примерах | a1_nouns_variants, a2_nouns_spelling, a2_nouns_uncountable |
-| b1_nouns_rare | B1 | pluralnouns 6 | Узнавать редкие формы множественного числа (crises, criteria, roofs) и пары с разным смыслом (fishes, persons, peoples) | a1_nouns_variants, a2_nouns_spelling |
 | a1_article_reference | A1 | articles 2 | Выбрать the, когда собеседник понимает, какой именно предмет: уже назван, виден, единственный в ситуации, уточнён | a1_article_introduction |
 | a1_article_zero | A1 | articles 3 | Говорить о многих предметах и веществах вообще без артикля; имена, языки, приёмы пищи без артикля | a1_article_introduction |
 | a1_article_choice | A1 | articles 4 | Выбрать a/an, the или нулевой артикль для одного слова в разных ситуациях | a1_article_reference, a1_article_zero |
 | a2_article_superlative | A2 | articles 5 | Ставить the с превосходной степенью и порядковыми числами; my вместо the | a1_article_reference, a2_comparisons_degrees |
 | a2_article_institutions | A2 | articles 6 | Различать дело (go to school, by bus) и конкретное место (the school, on the bus) | a1_article_zero |
-| a1_there_core | A1 | thereisare 0 | Сказать, что где есть: there is с одним предметом и неисчисляемым, there are — с несколькими | a1_nouns_core |
-| a1_there_questions | A1 | thereisare 1 | Спросить Is there…? / Are there…?, ответить кратко и построить отрицание с any или no | a1_there_core |
-| a1_there_review | A1 | thereisare 2 | Не путать there is и it is, is и are в одном задании без подсказки | a1_there_questions |
+| a1_there_core | A1 | thereisare 0, 1, 2 | Сообщить, что где-то есть предмет или предметы (there is / there are), построить отрицание и вопрос без do, отличить there is от it is | a1_nouns_core |
 | a1_pronouns_personal | A1 | pronouns 0, 1 | Выбрать местоимение-подлежащее (I, he) или дополнение (me, him) по месту в предложении | — |
 | a1_pronouns_possessive | A1 | pronouns 2 | Различать my перед существительным и mine вместо него; its и it's | a1_pronouns_personal |
 | a1_pronouns_demonstrative | A1 | pronouns 4 | Выбрать this / that / these / those по числу и расстоянию | a1_nouns_core |
@@ -71,7 +66,7 @@
 | a2_det_negation | A2 | determinants 2 | Сказать «нет ни одного»: no, none, not any без двойного отрицания | a1_det_some_any |
 | a2_det_compounds | A2 | determinants 3 | Употреблять somebody, anything, nowhere и их пары по тем же правилам, что some / any | a2_det_negation |
 | a2_det_every_each | A2 | determinants 4 | Различать every, each и all; глагол после every в единственном числе | a1_nouns_core |
-| a2_det_many_much | A2 | determinants 5 | Выбрать many или much по исчисляемости; a lot of — для обоих | a2_nouns_uncountable |
+| a2_det_many_much | A2 | determinants 5 | Выбрать many или much по исчисляемости; a lot of — для обоих | a2_nouns_special |
 | a2_det_review | A2 | determinants 6 | Выбрать слово количества в смешанных заданиях | a2_det_compounds, a2_det_every_each, a2_det_many_much |
 | a1_imperative_core | A1 | imperative 0 | Попросить, предложить и запретить: глагол без you, Don't + глагол, Let's + глагол | — |
 | a2_imperative_polite | A2 | imperative 1 | Смягчить просьбу (please, could you…?) и понимать, где прямая форма нормальна | a1_imperative_core, a1_questions_yesno |
@@ -148,7 +143,7 @@
 | a1_food_practice | A1 | food 3, 4 | Понимать разговор о еде и холодильнике | a1_food_taste_meals |
 | a1_food_review | A1 | food 5 | Исправлять ошибки: a bread, very salt, Russian kitchen, take a lunch | a1_food_practice |
 | a1_jobs_names | A1 | jobs 0 | Назвать профессию с a / an: I'm a nurse, he's an engineer | a1_article_introduction |
-| a2_jobs_work_job | A2 | jobs 1 | Различать job (место, считаем) и work (работа вообще, без a) | a1_jobs_names, a2_nouns_uncountable |
+| a2_jobs_work_job | A2 | jobs 1 | Различать job (место, считаем) и work (работа вообще, без a) | a1_jobs_names, a2_nouns_special |
 | a1_jobs_talk | A1 | jobs 2 | Спросить и рассказать о работе: What do you do? I work as / for / at / in | a1_jobs_names, a1_simple_questions |
 | a2_jobs_practice | A2 | jobs 3, 4 | Понимать разговор о работе | a1_jobs_talk, a2_jobs_work_job |
 | a2_jobs_review | A2 | jobs 5 | Исправлять ошибки: I'm teacher, a lot of works, What is your work? | a2_jobs_practice |
@@ -215,7 +210,7 @@
 | a2_goingto_will | A2 | begoingto 1 | Выбрать going to (план, примета) или will (решение сейчас, обещание) | a1_goingto_form |
 | a2_goingto_review | A2 | begoingto 2 | Исправлять ошибки: I going to, will going to, am going to yesterday | a2_goingto_will |
 | a1_therewas_core | A1 | therewaswere 0 | Сказать, что где было: there was с одним, there were с несколькими | a1_there_core, a1_past_meaning |
-| a1_therewas_negq | A1 | therewaswere 1 | Спросить Was there…? / Were there…? и ответить; there wasn't / there was no | a1_therewas_core, a1_there_questions |
+| a1_therewas_negq | A1 | therewaswere 1 | Спросить Was there…? / Were there…? и ответить; there wasn't / there was no | a1_therewas_core |
 | a1_therewas_review | A1 | therewaswere 2 | Исправлять ошибки: there was many, It was a party | a1_therewas_negq |
 | a1_wouldlike_core | A1 | wouldlike 0 | Вежливо попросить и предложить: I'd like a coffee, I'd like to + глагол | a1_simple_routines |
 | a1_wouldlike_questions | A1 | wouldlike 1 | Задать вопрос Would you like…? и ответить Yes, please / I'd love to | a1_wouldlike_core |
@@ -234,7 +229,7 @@
 | a2_usedto_core | A2 | usedto 0 | Сказать о прошлой привычке или факте с used to; отрицание и вопрос с use | a1_past_forms |
 | a2_usedto_review | A2 | usedto 1 | Исправлять ошибки: I use to, used to living, didn't used to | a2_usedto_core |
 | b1_usedto_vs_beused | B1 | usedto 2 | Различать used to + глагол (раньше) и be used to + -ing (привык) | a2_usedto_core |
-| a2_therewillbe_core | A2 | therewillbe 0 | Сказать, что что-то будет: there will be, there won't be, Will there be…? | a1_there_questions |
+| a2_therewillbe_core | A2 | therewillbe 0 | Сказать, что что-то будет: there will be, there won't be, Will there be…? | a1_there_core |
 | a2_therewillbe_review | A2 | therewillbe 1 | Не пропускать be: There will a party ✗ | a2_therewillbe_core |
 | a2_pastcont_core | A2 | pastcont 0 | Сказать, что действие шло в момент прошлого: was / were + -ing; отличать от Past Simple | a1_past_meaning, a1_cont_core |
 | a2_pastcont_negq | A2 | pastcont 1 | Строить wasn't / weren't + -ing и вопрос Was / Were…? | a2_pastcont_core |
@@ -248,12 +243,8 @@
 | a2_future_markers | A2 | futuresimp 3 | Узнавать подсказки будущего и мнения; после when и if — настоящее | a1_future_will |
 | a2_future_will_goingto | A2 | futuresimp 4 | Выбирать will (решение сейчас, мнение) или going to (план, признаки) | a2_future_markers, a2_goingto_will |
 | a2_future_review | A2 | futuresimp 5 | Исправлять ошибки: will to, wills, do you will, will can | a1_future_negq |
-| a2_perfect_meaning | A2 | presentperf 0 | Понимать, когда нужен Present Perfect: результат сейчас, опыт, длится до сих пор | a1_past_meaning |
-| a2_perfect_negq | A2 | presentperf 1 | Строить haven't / hasn't + V3 и вопрос Have / Has…? | a2_perfect_meaning |
-| a2_perfect_markers | A2 | presentperf 2 | Ставить just, already, yet, ever, never; различать since и for | a2_perfect_meaning |
-| a2_perfect_v3 | A2 | presentperf 3 | Образовывать V3 правильных и частых неправильных глаголов; been и gone | a1_past_irregular |
-| b1_perfect_vs_past | B1 | presentperf 4 | Выбирать Present Perfect (результат, без времени) или Past Simple (указано время) | a2_perfect_markers |
-| a2_perfect_review | A2 | presentperf 5 | Исправлять ошибки: have went, have seen yesterday | a2_perfect_negq, a2_perfect_v3 |
+| a2_perfect_meaning | A2 | presentperf 0, 1, 2, 3, 4, 5 | Сказать о результате к сейчас и об опыте (have / has + V3), построить отрицание, вопрос и краткий ответ, выбрать Past Simple, когда названо время | a1_past_irregular, a1_past_forms |
+| b1_perfect_time | B1 | presentperf 6, 7 | Выбрать время по периоду (today, this morning, so far — или закончился), сообщить новость и перейти к подробностям, сказать, сколько длится состояние (since, for, how long) | a2_perfect_meaning |
 | a2_alreadyyet_meaning | A2 | alreadyyet 0 | Различать already, yet, still и just по смыслу | a2_perfect_meaning |
 | a2_alreadyyet_position | A2 | alreadyyet 1 | Ставить already, just между have и V3, still перед глаголом, yet в конце | a2_alreadyyet_meaning |
 | b1_alreadyyet_nuance | B1 | alreadyyet 2 | Слышать оттенки: still not — досада, already в вопросе — удивление | a2_alreadyyet_position |

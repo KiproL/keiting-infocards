@@ -264,3 +264,53 @@ genericarticles, articlesnames, usedto, therewillbe, pastcont, futuresimp, prese
 У usedto в конец добавлен слайд 2 «Used to или be used to». На него перепривязаны задания `usedto_0_n6`, `usedto_0_5`, `usedto_0_n10`, `usedto_0_n14` (#0 → #2).
 
 В `articlesnames_1_5` второй пропуск убран, ответ прежний. Новые задания получили ID вида `<карточка>_r1_<слайд>_<n>`. Действий от приложения не нужно.
+
+## M-018. Стандарт частей: показательные темы — совместимо, опубликовано
+
+Части пересобраны по правилам из PARTS.md: делим только по уровню или по навыку, на который ссылаются другие темы. «Проверка» и «… в речи» входят в свою часть.
+
+**Части.** Ни один слайд не потерял часть, ни один не попал в две.
+
+| Было | Стало | Слайды новой части |
+|---|---|---|
+| `a1_there_core`, `a1_there_questions`, `a1_there_review` | `a1_there_core` | thereisare 0, 1, 2 |
+| `a2_perfect_meaning`, `a2_perfect_negq`, `a2_perfect_markers`, `a2_perfect_v3`, `b1_perfect_vs_past`, `a2_perfect_review` | `a2_perfect_meaning` (A2) | presentperf 0–5 |
+| — (новые слайды) | `b1_perfect_time` (B1) | presentperf 6, 7 |
+| `a1_nouns_core`, `a1_nouns_variants` | `a1_nouns_core` | pluralnouns 0, 1, 3 |
+| `a2_nouns_spelling`, `a2_nouns_uncountable`, `a2_nouns_review` | `a2_nouns_special` | pluralnouns 2, 4, 5 |
+| `b1_nouns_rare` (B1) | `b2_nouns_rare` (B2) | pluralnouns 6 |
+
+**Перенаправленные предпосылки других частей:**
+- `a2_det_many_much` и `a2_jobs_work_job`: `a2_nouns_uncountable` → `a2_nouns_special`;
+- `a2_therewillbe_core` и `a1_therewas_negq`: `a1_there_questions` → `a1_there_core`.
+
+**Почему это не ломает прогресс.**
+- Результаты хранятся по шагам `route#slide` с редакцией (CurriculumResults, CurriculumGraph.checked). Статус части вычисляется из её шагов. Объединение частей ничего не теряет и ничего не засчитывает заранее.
+- У новых шагов presentperf#6 и #7 результатов нет.
+- Редакции presentperf (1 → 2) и pluralnouns (3 → 4) повышены, поэтому память по их шагам сбросится по обычному правилу.
+- Сохранённая незавершённая проверка с удалённым ID части не пройдёт `CourseCheckpoint.permitted`. Экран сообщит, что материалы изменились. Но все части сейчас Draft, поэтому таких проверок быть не может.
+
+**presentperf, редакция 2.**
+- В конец добавлены слайды 6 «Закончилось или нет» и 7 «Since, for, how long».
+- Слайд 2 больше не объясняет since и for: это перенесено на слайд 7. Цель шага #2 сузилась до just, yet, ever, never.
+- Слайд 4 остался A2: «время названо — Past Simple». Американский вариант перенесён на слайд 6.
+
+Перепривязка заданий (ID не менялись):
+
+| Задания | Было | Стало |
+|---|---|---|
+| `presentperf_2_n6`, `_2_n7`, `_2_n8`, `_2_n9`, `_2_n11`, `_2_n12`; `aboutme_3_n4`, `aboutme_3_n9`, `aboutme_0_n14`, `aboutme_3_n13` | #2 | #7 |
+| `presentperf_0_n9` | #0 | #7 |
+| `presentperf_4_n8`, `presentperf_4_n12` | #4 | #7 |
+| `presentperf_5_n8`, `presentperf_5_n9`, `presentperf_5_n10` | #5 | #7 |
+| `presentperf_4_n7`, `presentperf_4_n9` | #4 | #6 |
+
+- `presentperf_3_n8`: предложение заменено на «We have [studied] all the new words.» Ответ прежний.
+- Новые задания:
+  - `presentperf_r2_6_0` … `presentperf_r2_6_5`;
+  - `presentperf_r2_7_0`, `presentperf_r2_7_1`.
+- Новый error_pattern `error:presentperf.duration`. Им помечены задания на «длится до сих пор». У всех шаблонов `slides` пересчитаны по заданиям.
+
+**pluralnouns, редакция 4.** Индексы слайдов и привязка заданий прежние. Исправлены три неестественных примера.
+
+Действий от приложения для совместимости не нужно. Поддержка частей в интерфейсе — отдельное предложение в COMPONENTS.md.
