@@ -3,23 +3,23 @@
   "route": "cards_letsomeonedo",
   "slides": [
     {
-      "label": "Let someone do: разрешить",
+      "label": "Разрешить: let",
       "intro": {
-        "text": "Let someone do — разрешение на действие. Кто-то позволяет другому что-то сделать. После let — глагол без to.",
+        "text": "Родители разрешают сыну погулять подольше: They let me stay out late. Let + кто + глагол без to — «разрешить, дать сделать». Официальнее — allow + кто + to: They allowed me to stay out late.",
         "highlights": [
           {
-            "text": "Let someone do",
+            "text": "They let me stay out late",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "глагол без to",
             "color": "term",
             "style": "bold_underline"
           },
           {
-            "text": "разрешение",
-            "color": "good",
-            "style": "bold"
-          },
-          {
-            "text": "без to",
-            "color": "example",
+            "text": "allow + кто + to",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -39,7 +39,7 @@
                 "color": "muted"
               },
               {
-                "text": "someone",
+                "text": "кто",
                 "color": "example"
               },
               {
@@ -47,102 +47,15 @@
                 "color": "muted"
               },
               {
-                "text": "глагол (без to)",
+                "text": "глагол без to",
                 "color": "term"
               }
             ],
-            "accentColor": "term",
-            "drill": {
-              "slots": [
-                "let",
-                "someone",
-                "глагол (без to)"
-              ],
-              "decoys": [
-                "to",
-                "V-ing"
-              ],
-              "examples": [
-                {
-                  "en": "My parents let me stay up late.",
-                  "ru": "Родители разрешают мне поздно ложиться.",
-                  "parts": [
-                    [
-                      "My parents",
-                      ""
-                    ],
-                    [
-                      "let",
-                      "let"
-                    ],
-                    [
-                      "me",
-                      "someone"
-                    ],
-                    [
-                      "stay up",
-                      "глагол (без to)"
-                    ],
-                    [
-                      "late.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "She let her son drive her car.",
-                  "ru": "Она разрешила сыну водить её машину.",
-                  "parts": [
-                    [
-                      "She",
-                      ""
-                    ],
-                    [
-                      "let",
-                      "let"
-                    ],
-                    [
-                      "her son",
-                      "someone"
-                    ],
-                    [
-                      "drive",
-                      "глагол (без to)"
-                    ],
-                    [
-                      "her car.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "Let me help you.",
-                  "ru": "Давай я тебе помогу.",
-                  "parts": [
-                    [
-                      "Let",
-                      "let"
-                    ],
-                    [
-                      "me",
-                      "someone"
-                    ],
-                    [
-                      "help",
-                      "глагол (без to)"
-                    ],
-                    [
-                      "you.",
-                      ""
-                    ]
-                  ]
-                }
-              ]
-            }
+            "accentColor": "term"
           }
         },
         {
-          "title": "Сравнение",
+          "title": "Let, allow, make",
           "borderColor": "info",
           "table": {
             "headers": [
@@ -152,33 +65,33 @@
             ],
             "headerColors": [
               "info",
-              "example",
-              "term"
+              "term",
+              "example"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
-                  "let someone do",
-                  "разрешаем",
+                  "let + кто + глагол",
+                  "разрешить",
                   "She let me go."
                 ]
               },
               {
                 "cells": [
-                  "make someone do",
-                  "заставляем",
-                  "She made me go."
+                  "allow + кто + to",
+                  "разрешить, официальнее",
+                  "She allowed me to go."
                 ]
               },
               {
                 "cells": [
-                  "allow someone to",
-                  "формально",
-                  "She allowed me to go."
+                  "make + кто + глагол",
+                  "заставить",
+                  "She made me go."
                 ]
               }
-            ],
-            "borderColor": "info"
+            ]
           }
         },
         {
@@ -187,42 +100,57 @@
           "examples": [
             {
               "en": "Let me help you.",
-              "ru": "Позволь мне помочь тебе."
+              "ru": "Давай я тебе помогу."
             },
             {
               "en": "My parents let me stay up late.",
-              "ru": "Родители разрешили мне не спать допоздна."
+              "ru": "Родители разрешали мне не ложиться допоздна."
             },
             {
               "en": "Let him speak.",
               "ru": "Дай ему сказать."
             },
             {
-              "en": "Please let me explain.",
-              "ru": "Пожалуйста, дай мне объяснить."
+              "en": "They didn't let us in.",
+              "ru": "Нас не впустили."
             }
           ]
+        },
+        {
+          "title": "Let не меняется",
+          "borderColor": "term",
+          "text": "Let — неправильный глагол: let — let — let. Вчера тоже let: My dad let me drive yesterday."
+        },
+        {
+          "title": "«Мне разрешили»",
+          "borderColor": "info",
+          "text": "Let не бывает в пассиве. «Мне разрешили» — I was allowed to…: She was allowed to leave early."
         }
       ]
     },
     {
       "label": "Let's и let me",
       "intro": {
-        "text": "Let's — короткая форма let us. Это предложение что-то сделать вместе.",
+        "text": "Let's — короткое let us: предложение сделать что-то вместе, «давай». Let me — «давай я», «дай мне». После них тоже глагол без to.",
         "highlights": [
           {
             "text": "Let's",
             "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "вместе",
-            "color": "info",
             "style": "bold"
           },
           {
-            "text": "предложение",
+            "text": "«давай»",
             "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "Let me",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "глагол без to",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -239,28 +167,29 @@
             ],
             "headerColors": [
               "info",
-              "example",
-              "term"
+              "term",
+              "example"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
-                  "Let's go",
-                  "пойдём",
+                  "Let's + глагол",
+                  "давай",
                   "Let's go to the park."
                 ]
               },
               {
                 "cells": [
-                  "Let's not go",
-                  "давай не пойдём",
+                  "Let's not + глагол",
+                  "давай не будем",
                   "Let's not argue."
                 ]
               },
               {
                 "cells": [
-                  "Let me",
-                  "позволь мне",
+                  "Let me + глагол",
+                  "давай я, дай мне",
                   "Let me try."
                 ]
               },
@@ -268,12 +197,16 @@
                 "cells": [
                   "Let him / her",
                   "пусть он / она",
-                  "Let him speak."
+                  "Let her decide."
                 ]
               }
-            ],
-            "borderColor": "info"
+            ]
           }
+        },
+        {
+          "title": "Don't let's",
+          "borderColor": "term",
+          "text": "В британском разговорном вместо Let's not иногда говорят Don't let's argue. Основной вариант — Let's not."
         },
         {
           "title": "Ошибки",
@@ -281,7 +214,7 @@
           "errors": [
             {
               "wrong": "Let me to help you.",
-              "right": "Let me help you. (после let — без to)"
+              "right": "Let me help you. (без to)"
             },
             {
               "wrong": "Let me helping you.",
@@ -290,6 +223,10 @@
             {
               "wrong": "Let's to go.",
               "right": "Let's go. (без to)"
+            },
+            {
+              "wrong": "Let I try.",
+              "right": "Let me try. (me, не I)"
             }
           ]
         },
@@ -298,41 +235,57 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "После let, make — глагол без to. После get, allow — с to. Это касается всех конструкций с объектом + инфинитив."
-          },
-          "quote": {
-            "text": "Let — это разрешение. Make — это приказ.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
-        }
-      ],
-      "expandables": [
-        {
-          "label": "Let в прошедшем",
-          "preview": "let — let — let",
-          "initiallyExpanded": false,
-          "section": {
-            "borderColor": "info",
-            "examples": [
-              {
-                "en": "My dad let me drive his car yesterday.",
-                "ru": "Вчера папа разрешил мне водить свою машину. (let не меняется)"
-              },
-              {
-                "en": "They didn't let us in.",
-                "ru": "Нас не впустили."
-              },
-              {
-                "en": "She was allowed to leave early.",
-                "ru": "Ей разрешили уйти пораньше. (в пассиве — be allowed to)"
-              }
-            ],
-            "title": ""
+            "title": "Без to",
+            "text": "После let и make — глагол без to. После allow и get — с to."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:letsomeonedo.bare",
+      "description": "После let — глагол без to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:letsomeonedo.allow",
+      "description": "allow / be allowed + to",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:letsomeonedo.choice",
+      "description": "Разрешить — let, заставить — make",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:letsomeonedo.lets",
+      "description": "Let's, let's not, let me",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_let",
+    "word_a2_allow"
+  ],
+  "prerequisites": [
+    "cards_infinitive"
+  ],
+  "prerequisites_reviewed": false
 }

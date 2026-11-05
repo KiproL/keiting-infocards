@@ -30,7 +30,7 @@
 
 ## Статус карточек
 
-**Полностью переработано: 88 из 242** (77 прежних карточек и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 154.
+**Полностью переработано: 102 из 242** (91 прежняя карточка и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 140.
 
 | Карточка | Ред. | Проверено | Исправлено | Части | Задания | Связи | Нужна поддержка приложения |
 |---|---|---|---|---|---|---|---|
@@ -122,7 +122,21 @@
 | cards_exclamations (новая) | 1 | да | да | 1 | 22 | да | нет (M-025) |
 | cards_stillanymore (новая) | 1 | да | да | 1 | 20 | да | нет (M-025) |
 | cards_perception (новая) | 1 | да | да | 1 | 17 | да | нет (M-025) |
-| остальные 154 | 0 | нет | нет | нет | нет | нет | — |
+| cards_beusedto | 1 | да | да | 1 | 31 | да | нет (M-026) |
+| cards_getusedto | 1 | да | да | 1 | 36 | да | нет (M-026) |
+| cards_wouldhabits | 1 | да | да | 1 | 36 | да | нет (M-026) |
+| cards_annoyinghabits | 1 | да | да | 1 | 19 | да | нет (M-026) |
+| cards_itstime | 1 | да | да | 1 | 31 | да | нет (M-026) |
+| cards_itshightime | 1 | да | да | 1 | 44 | да | нет (M-026) |
+| cards_itsworth | 1 | да | да | 1 | 37 | да | нет (M-026) |
+| cards_ittakes | 1 | да | да | 1 | 55 | да | нет (M-026) |
+| cards_wouldratherpast | 1 | да | да | 1 | 33 | да | нет (M-026) |
+| cards_wish | 1 | да | да | 2 | 80 | да | нет (M-026) |
+| cards_havesomethingdone | 1 | да | да | 1 | 77 | да | нет (M-026) |
+| cards_letsomeonedo | 1 | да | да | 1 | 42 | да | нет (M-026) |
+| cards_makesomeonedo | 1 | да | да | 1 | 36 | да | нет (M-026) |
+| cards_getsomeonetodo | 1 | да | да | 1 | 35 | да | нет (M-026) |
+| остальные 140 | 0 | нет | нет | нет | нет | нет | — |
 
 «Связи» означает: проверены error_patterns и теги, привязка заданий к слайдам, `related_words`, предпосылки карточки. У лексических карточек — ещё `target_words`. У alphabet и readingrules связей со словарём нет: они о буквах и чтении, а не о словах. Поэтому там «частично».
 
@@ -1472,6 +1486,119 @@ M-025: новые файлы, строки index.json, задания и час�
 - audit-content и audit-curriculum: 242 карточки, 151 часть, 0 ошибок, 79 предупреждений. Новых предупреждений нет.
 - node-тесты: 15/15.
 - check_card.py: без замечаний.
+- layout.js и fit.js: без замечаний после правок.
+- Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
+
+## Партия 16: четырнадцать карточек, полный цикл по заданию и стандарту
+
+beusedto, getusedto, wouldhabits, annoyinghabits, itstime, itshightime, itsworth, ittakes, wouldratherpast, wish, havesomethingdone, letsomeonedo, makesomeonedo, getsomeonetodo: редакция 0 → 1. Темы и порядок слайдов прежние. Раньше этих карточек не было в учебном плане, теперь у каждой есть часть.
+
+### Готовое содержание
+
+- **Во всех карточках:**
+  - вступление начинается с ситуации («переехал в шумный район», «гость закуривает»), потом форма;
+  - названия слайдов — 2–4 слова, слайды ошибок называются «Частые ошибки»;
+  - шуточные цитаты и «правило большого пальца» (калька) убраны;
+  - скрытые блоки «Ещё примеры» встроены в слайд или убраны как повтор;
+  - у каждой карточки есть error_patterns, теги заданий, related_words и предпосылки.
+- **Be used to, get used to.**
+  - Объяснено, почему после to идёт -ing: to здесь — предлог «к».
+  - Добавлены вопрос и отрицание.
+  - Have gotten used to помечено как американский вариант, а не ошибка.
+  - Добавлены ошибки «I used to the cold», «She is use to it», «I get used to it soon».
+- **Would о прошлом.**
+  - Добавлено, что would здесь не значит «бы».
+  - Добавлена ошибка «Yesterday I would go…»: одно событие — Past Simple.
+- **Always + -ing.**
+  - Капслок «WILL» заменён словами «ударное will».
+  - Добавлено, что always + -ing бывает и с одобрением: He's always helping people. Так сказано у British Council.
+- **It's time, it's high time.**
+  - Границы разведены: «пора» (to, for) — A2, «давно пора» с прошедшим — B2.
+  - В A2 добавлено for + кто + to.
+  - В B2 добавлено, что прошедшее время здесь не о прошлом, как после wish и would rather.
+- **It's worth.**
+  - Добавлены worth + существительное и worth it.
+  - Отмечено, что in в «no point in» можно опустить: это вариант, а не ошибка.
+- **It takes.** Добавлено «It takes courage to…» и ошибка «spent two hours to clean».
+- **Would rather + прошедшее.**
+  - Пример о прошлом показан отдельно.
+  - Таблица с would prefer видна сразу.
+- **Wish.**
+  - Were и was — оба правильные, were официальнее.
+  - Would — только о том, что может измениться (I wish he were taller, а не would be).
+  - В первом слайде показано отличие wish от hope.
+- **Have something done.**
+  - Добавлен раздел о русском «я сделал маникюр».
+  - Ошибка «I cut my hair at the hairdresser's» заменена на «I made my hair cut»: «I cut my hair» в разговоре так и говорят, это двусмысленно, но не ошибка.
+- **Let, make, get.**
+  - У let добавлено, что пассива нет, и «мне разрешили» — I was allowed to.
+  - Don't let's помечено как британский разговорный вариант.
+  - Have someone do («поручить») перенесено из скрытого блока в таблицу get.
+
+### Задания
+
+- **Ошибочные варианты, дававшие правильный английский, заменены в 74 заданиях.** Предложения при этом не менялись. Примеры:
+  - would rather + глагол без -s («I'd rather he stay», «I'd rather you not smoke») — в американском это допустимое сослагательное. Заменены на will и to;
+  - «Every summer we will go to the sea» — правильное будущее;
+  - «Let's don't», «Don't let's» — разговорные варианты;
+  - «She took a week painting», «He takes hours playing» — правильный английский;
+  - в have something done — активные формы с другим смыслом («I washed my car») и Past Perfect («I had repaired my car»);
+  - «It's no use seeing», «It's worth complaining» — грамматически верны, неверен только смысл.
+- **Переписаны 89 предложений** (ID сохранены):
+  - 14 получили контекст, чтобы неверный вариант нельзя было прочитать как правильный («Now she's upset. I'd rather you hadn't said that», «I wish I had been there last night»);
+  - остальные — дубли.
+- Заполнены 44 пустых объяснения, добавлено 5 заданий.
+- **Перепривязка:**
+  - 6 заданий «It's time + прошедшее» перенесены: itstime #0 → itshightime #0;
+  - 13 заданий о прошлом и would в wish перенесены: #0 → #2, чтобы в часть B1 не попадали темы B2.
+
+### Готовая разметка частей
+
+- **Делить нужно только wish:**
+  - о настоящем — B1 (`b1_wish_present`, слайды 0–1);
+  - о прошлом и о чужом поведении — B2 (`b2_wish_past`, слайды 2–3).
+- **Остальные — по одной части:**
+  - It's time, it takes, let — A2;
+  - be used to, get used to, would, it's worth, have something done, make, get — B1;
+  - always + -ing, it's high time, would rather + прошедшее — B2.
+- Описания — в PARTS.md, цели — в UNITS.md. Частей теперь 166.
+
+### Реализованное отображение
+
+- **Блоки.** Только существующие. Три таблицы из трёх колонок сжимали первую колонку. Две переделаны в список правил, одна — в примеры.
+- **Найдена и исправлена ошибка данных, моя, партии 15.** У perception и у 11 карточек этой партии в секции стоял `formula` объектом. Приложение ждёт там список (объект — это `formulaCard`), и карточка не загрузилась бы целиком. Исправлено на `formulaCard`.
+  - Проверки репозитория этого не ловили. Теперь сверяю каждую карточку со схемой из CardModels.kt: 242 карточки, 0 ошибок.
+  - Предложение для приложения: добавить такую сверку в audit-content.
+
+### Необходимые миграции
+
+M-026: индексы слайдов прежние. Перепривязаны 19 заданий (6 — в другую карточку, 13 — на другой слайд той же карточки), новые части. Действий от приложения не нужно.
+
+### Оставшиеся проблемы
+
+- **Уровни в банке.** Простые задания этих карточек лежат в файлах B2–C2 (открытый вопрос 8), не переносил.
+- **Задания на выбор глагола по смыслу** (make, let, get; wish, hope) сравнивают смысл. Где мог, неверный вариант сделан ещё и грамматически неверным. Где нельзя, верный ответ определяет перевод.
+- **Ссылка в conditionals.** В слайде 3 карточка названа «I wish», а называется она «Wish / If only». Поправлю при следующей редакции conditionals.
+
+### Источники
+
+- British Council: [Different uses of 'used to'](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/different-uses-of-used-to) — used to, be used to, get used to.
+- British Council: [Wishes and hypotheses](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/wishes-hypotheses) — wish + прошедшее, Past Perfect, would; were и was; if only.
+- British Council: [Present continuous](https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous) — always + -ing, не всегда с раздражением.
+- Oxford Learner's Dictionaries: [would](https://www.oxfordlearnersdictionaries.com/definition/english/would) — would о прошлых привычках, would rather somebody did.
+- Oxford Learner's Dictionaries: [time](https://www.oxfordlearnersdictionaries.com/definition/english/time_1) — it's time to do, it's time somebody did, it's about / high time.
+- Oxford Learner's Dictionaries: [worth](https://www.oxfordlearnersdictionaries.com/definition/english/worth) — be worth doing, worth it, worth + существительное.
+- Oxford Learner's Dictionaries: [take](https://www.oxfordlearnersdictionaries.com/definition/english/take) — it takes … to do.
+- Oxford Learner's Dictionaries: [make](https://www.oxfordlearnersdictionaries.com/definition/english/make) — make somebody do, be made to do.
+- Oxford Learner's Dictionaries: [let](https://www.oxfordlearnersdictionaries.com/definition/english/let) — без пассива; Let's not, Don't let's (брит.).
+- Perfect English Grammar: [Causatives: have and get](https://www.perfect-english-grammar.com/causatives-have-get.html) — have / get something done, get someone to do.
+
+### Проверки
+
+- audit-content и audit-curriculum: 242 карточки, 166 частей, 0 ошибок, 79 предупреждений. Новых предупреждений нет.
+- node-тесты: 15/15.
+- check_card.py: без замечаний.
+- Сверка со схемой приложения: 0 карточек с ошибкой загрузки.
 - layout.js и fit.js: без замечаний после правок.
 - Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
 

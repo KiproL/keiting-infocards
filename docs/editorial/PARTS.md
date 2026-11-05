@@ -694,3 +694,51 @@ Reported speech и Active / Passive разделены на части без п
 | See him do / doing | `b2_perception` | B2 | 0 Видел, как он…, 1 Cross или crossing, 2 Частые ошибки | b1_infinitive_patterns, a2_verb_ing_to |
 
 Делить не нужно: каждая тема — один уровень и один навык. «Частые ошибки» — шаг своей части.
+
+## Партия 16
+
+**Wish** — делится по уровню:
+
+| Часть | Уровень | Слайды | Что |
+|---|---|---|---|
+| `b1_wish_present` | B1 | 0 I wish: жаль, что; 1 Wish о настоящем | wish + прошедшее, could, were; wish и hope |
+| `b2_wish_past` | B2 | 2 О прошлом и о других; 3 Частые ошибки | wish + Past Perfect, wish + would |
+
+Карта содержания wish:
+
+| Пункт | Уровень | Что сделано |
+|---|---|---|
+| Три случая (сл. 0) | B1 | сохранено: таблица-обзор, прошлое и would помечены «шаг 3» |
+| Wish или hope (сл. 0) | B1 | дополнено |
+| Wish о настоящем, were / was (сл. 1) | B1 | исправлено: оба варианта правильные |
+| Прошлое и чужое поведение (сл. 2) | B2 | сохранено, дополнено: would — только о том, что может измениться |
+| 13 заданий о прошлом и would (сл. 0) | B2 | перенесено на слайд 2 |
+| Частые ошибки (сл. 3) | B2 | сохранено |
+
+**It's time / It's high time** — граница между двумя карточками:
+
+| Пункт | Было | Стало |
+|---|---|---|
+| It's time to / for | itstime #0 | сохранено, A2 |
+| It's time + прошедшее | itstime #0 и itshightime #0 | только itshightime, B2; в itstime — ссылка |
+| 6 заданий «It's time you went…» | itstime #0 | перенесено в itshightime #0 |
+
+**Остальные — по одной части:**
+
+| Карточка | Часть | Уровень | Предпосылки |
+|---|---|---|---|
+| beusedto | `b1_be_used_to` | B1 | b1_usedto_vs_beused |
+| getusedto | `b1_get_used_to` | B1 | b1_be_used_to |
+| wouldhabits | `b1_would_habits` | B1 | a2_usedto_core |
+| annoyinghabits | `b2_annoying_habits` | B2 | a2_cont_vs_simple, b1_would_habits |
+| itstime | `a2_its_time` | A2 | a2_infinitive_core |
+| ittakes | `a2_it_takes` | A2 | a2_infinitive_core |
+| letsomeonedo | `a2_let_someone` | A2 | a2_infinitive_core |
+| itsworth | `b1_its_worth` | B1 | b1_gerund_noun |
+| makesomeonedo | `b1_make_someone` | B1 | a2_let_someone |
+| getsomeonetodo | `b1_get_someone_to` | B1 | b1_make_someone |
+| havesomethingdone | `b1_have_done` | B1 | b1_passive_core |
+| itshightime | `b2_its_high_time` | B2 | a2_its_time, b1_cond_unreal |
+| wouldratherpast | `b2_would_rather_past` | B2 | b1_wouldrather_core, b1_cond_unreal |
+
+«Частые ошибки» — шаг своей части.

@@ -74,9 +74,15 @@
 | a2_shall_core | A2 | shall 0, 1 | Предложить помощь (Shall I…?) и совместное действие (Shall we…?), ответить на предложение и не путать shall с will you и should | a2_modals_must, a1_questions_yesno |
 | b1_hadbetter_core | B1 | hadbetter 0, 1 | Дать настойчивый совет с предупреждением (you'd better, you'd better not) и выбрать should, когда совет нужен мягкий | a2_modals_must |
 | a2_infinitive_core | A2 | infinitive 0, 1, 2, 3 | Ставить to + глагол после want, decide, hope и других; обходиться без to после модальных глаголов, let, make, had better; выражать цель через to, а «чтобы не» — so as not to | a2_modals_can |
+| a2_its_time | A2 | itstime 0, 1 | Говорить «пора»: It's time to + глагол, It's time for + существительное, It's time for us to… | a2_infinitive_core |
+| a2_it_takes | A2 | ittakes 0, 1, 2 | Говорить, сколько времени нужно на дело: It takes me 20 minutes to…; спрашивать How long does it take?; то же через spend + -ing | a2_infinitive_core |
+| a2_let_someone | A2 | letsomeonedo 0, 1 | Разрешать и предлагать: let + кто + глагол без to, let me, let's / let's not; «мне разрешили» — I was allowed to | a2_infinitive_core |
 | a2_verb_ing_to | A2 | gerund 2, 3, 5 | Выбирать -ing (enjoy, finish, avoid) или to (want, decide, hope) после глагола; ставить -ing после предлога, в том числе после look forward to и be used to | a2_infinitive_core, a2_prep_verbs |
 | b1_infinitive_patterns | B1 | infinitive 4, 5, 7 | Употреблять to после прилагательных (happy to help), too и enough, вопросительных слов (what to do) и в схеме want / ask / tell + кто-то + to | a2_infinitive_core, a2_tooto_core |
 | b1_gerund_noun | B1 | gerund 0, 1 | Называть действие как понятие с помощью -ing в роли подлежащего и дополнения; употреблять worth, no use, can't help, feel like + -ing | a2_verb_ing_to |
+| b1_its_worth | B1 | itsworth 0, 1 | Советовать и отговаривать: It's worth + -ing, It's no use + -ing, There's no point (in) + -ing; worth it | b1_gerund_noun |
+| b1_make_someone | B1 | makesomeonedo 0, 1 | Говорить «заставить» и «вызвать»: make + кто + глагол без to; в пассиве — be made to | a2_let_someone |
+| b1_get_someone_to | B1 | getsomeonetodo 0, 1 | Говорить «уговорить»: get + кто + to + глагол; выбирать между get, make, let и have по смыслу | b1_make_someone |
 | b1_ing_to_meaning | B1 | gerund 4 | Различать смысл stop, remember, forget, try, regret, mean с -ing и с to | a2_verb_ing_to |
 | b2_infinitive_forms | B2 | infinitive 6 | Понимать и употреблять to be doing, to have done, to be done после seem, appear, be said, need | b1_infinitive_patterns |
 | b2_perception | B2 | perception 0, 1, 2 | Употреблять see / hear / watch + кто-то + глагол без to (всё действие) или -ing (процесс); him, а не he; пассив be seen to do | b1_infinitive_patterns, a2_verb_ing_to |
@@ -132,6 +138,10 @@
 | b1_names_city | B1 | articlesnames 2, 3 | Не ставить the с улицами, площадями, парками; ставить с отелями, музеями, театрами и названиями с of; исправлять ошибки: the Moscow, in USA, the Lake Baikal | a2_names_countries |
 | a2_usedto_core | A2 | usedto 0, 1 | Сказать о прошлой привычке или факте с used to; отрицание и вопрос с use; исправлять ошибки: I use to, used to living, didn't used to | a1_past_forms |
 | b1_usedto_vs_beused | B1 | usedto 2 | Различать used to + глагол (раньше) и be used to + -ing (привык) | a2_usedto_core |
+| b1_be_used_to | B1 | beusedto 0, 1 | Говорить, к чему уже привык: be used to + -ing или существительное; менять be по времени; не путать с used to + глагол | b1_usedto_vs_beused |
+| b1_get_used_to | B1 | getusedto 0, 1 | Говорить о привыкании: get used to + -ing (getting, got, will get used to); отличать процесс от состояния be used to | b1_be_used_to |
+| b1_would_habits | B1 | wouldhabits 0, 1 | Рассказывать о повторявшихся действиях в прошлом через would + глагол; для состояний (был, жил, имел) брать used to | a2_usedto_core |
+| b2_annoying_habits | B2 | annoyinghabits 0, 1, 2, 3 | Говорить о раздражающих привычках: always + -ing, keep + -ing, ударное will / would; смягчать через tend to и have a habit of | a2_cont_vs_simple, b1_would_habits |
 | a2_therewillbe_core | A2 | therewillbe 0, 1 | Сказать, что что-то будет: there will be, there won't be, Will there be…?; не пропускать be: There will a party ✗ | a1_there_core |
 | a2_pastcont_core | A2 | pastcont 0, 1, 2, 3, 5 | Сказать, что действие шло в момент прошлого: was / were + -ing; отличать от Past Simple; строить wasn't / weren't + -ing и вопрос Was / Were…?; узнавать подсказки while, when, at that moment, this time yesterday; правильно писать -ing в Past Continuous; исправлять ошибки: was read, they was, was knowing | a1_past_meaning, a1_cont_core |
 | b1_pastcont_interrupt | B1 | pastcont 4 | Сочетать длинное действие (Past Continuous) и прервавшее его короткое (Past Simple) | a2_pastcont_core, a1_past_irregular |
@@ -141,7 +151,11 @@
 | b1_timeclauses_core | B1 | timeclauses 0, 1, 2 | Ставить настоящее время после when, as soon as, until, before, after о будущем; отличать when и if; ставить will в вопросе When…? и косвенном вопросе | a2_future_will_goingto |
 | b1_cond_real | B1 | conditionals 0, 1 | Понимать устройство условного предложения и запятую; говорить об общем факте (Zero) и реальном будущем (First: if + Present, will / can / may) без will после if | a2_future_will_goingto |
 | b1_cond_unreal | B1 | conditionals 2 | Говорить о воображаемом сейчас (Second: if + Past, would; If I were you) и о том, чего не случилось (Third: if + Past Perfect, would have + V3) | b1_cond_real, b1_pastperf_core |
+| b1_wish_present | B1 | wish 0, 1 | Жалеть о настоящем: I wish / If only + прошедшее, could, were; отличать wish от hope | b1_cond_unreal |
 | b2_cond_wish_linkers | B2 | conditionals 3, 4, 5 | Выражать сожаление с wish и if only (Past, Past Perfect, would), выбирать unless, as long as, in case, even if, otherwise вместо if; исправлять частые ошибки условных | b1_cond_unreal |
+| b2_wish_past | B2 | wish 2, 3 | Жалеть о прошлом (wish + Past Perfect) и о чужом поведении (wish + would); не ставить would о себе | b1_wish_present, b1_pastperf_core |
+| b2_its_high_time | B2 | itshightime 0, 1 | Говорить «давно пора» с упрёком: It's (high / about) time + кто + прошедшее; без упрёка — for + кто + to | a2_its_time, b1_cond_unreal |
+| b2_would_rather_past | B2 | wouldratherpast 0, 1 | Вежливо говорить, чего хочешь от другого: I'd rather you + прошедшее, о прошлом — Past Perfect; отрицание — didn't | b1_wouldrather_core, b1_cond_unreal |
 | a2_perfect_meaning | A2 | presentperf 0, 1, 2, 3, 4, 5 | Сказать о результате к сейчас и об опыте (have / has + V3), построить отрицание, вопрос и краткий ответ, выбрать Past Simple, когда названо время | a1_past_forms |
 | b1_perfect_time | B1 | presentperf 6, 7 | Выбрать время по периоду (today, this morning, so far — или закончился), сообщить новость и перейти к подробностям, сказать, сколько длится состояние (since, for, how long) | a2_perfect_meaning |
 | b1_ppc_core | B1 | presentperfcont 0, 1, 2, 3, 4, 5 | Сказать, как долго идёт действие до сих пор (have / has been + V-ing), отличать процесс от результата (have been reading / have read) и не ставить в Continuous know, like, want | b1_perfect_time, a1_cont_core |
@@ -149,6 +163,7 @@
 | b1_reported_statements | B1 | reportedspeech 0, 1, 2, 3, 6 | Пересказывать чужие слова: said / told, сдвиг времени на шаг назад, then, the next day, there; знать, когда сдвиг не нужен (says, общая истина, всё ещё правда) | b1_pastperf_core |
 | b1_reported_questions | B1 | reportedspeech 4, 5, 7 | Пересказывать вопросы (asked if / whether, порядок утверждения) и просьбы (told me (not) to, advised, warned, suggested + -ing); исправлять частые ошибки косвенной речи | b1_reported_statements, b1_infinitive_patterns |
 | b1_passive_core | B1 | activepassive 0, 1, 2, 4, 7, 8 | Строить пассив be + V3 во всех основных временах и с модальными глаголами, превращать актив в пассив, решать, нужен ли by и пассив вообще; не ставить пассив у happen, arrive, belong, cost | a2_irregular_forms |
+| b1_have_done | B1 | havesomethingdone 0, 1, 2, 3 | Говорить об услугах и неприятностях: have / get + что + третья форма во всех временах (had my hair cut, had my bag stolen) | b1_passive_core |
 | b2_passive_more | B2 | activepassive 3, 5, 6 | Употреблять пассив с двумя дополнениями (I was given…), get + V3 и have something done, безличный пассив It is said that / He is said to | b1_passive_core |
 | a2_alreadyyet_meaning | A2 | alreadyyet 0, 1, 3 | Различать already, yet, still и just по смыслу; ставить already, just между have и V3, still перед глаголом, yet в конце; исправлять ошибки: yet в утверждении, just в конце | a2_perfect_meaning |
 | b1_alreadyyet_nuance | B1 | alreadyyet 2 | Слышать оттенки: still not — досада, already в вопросе — удивление | a2_alreadyyet_meaning |

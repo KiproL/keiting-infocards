@@ -3,145 +3,59 @@
   "route": "cards_itstime",
   "slides": [
     {
-      "label": "It's time: пора",
+      "label": "Пора: it's time",
       "intro": {
-        "text": "It's time to — пора что-то делать. Подходящий момент наступил. Можно усилить через It's time + прошедшее время, если намекаем, что давно пора.",
+        "text": "Пора выходить, пора обедать — по-английски It's time. Дальше два пути: to + глагол (It's time to go) или for + существительное (It's time for lunch).",
         "highlights": [
           {
-            "text": "It's time to",
+            "text": "It's time",
             "color": "term",
-            "style": "bold_underline"
+            "style": "bold"
           },
           {
-            "text": "пора",
+            "text": "to + глагол",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "давно пора",
-            "color": "bad",
+            "text": "for + существительное",
+            "color": "example",
             "style": "bold"
           }
         ]
       },
       "sections": [
         {
-          "title": "Формула",
-          "borderColor": "term",
-          "formulaCard": {
-            "parts": [
-              {
-                "text": "It's time to",
-                "color": "info"
-              },
-              {
-                "text": "+",
-                "color": "muted"
-              },
-              {
-                "text": "глагол",
-                "color": "example"
-              }
-            ],
-            "accentColor": "term",
-            "drill": {
-              "slots": [
-                "It's time to",
-                "глагол"
-              ],
-              "decoys": [
-                "V-ing",
-                "V3"
-              ],
-              "examples": [
-                {
-                  "en": "It's time to go.",
-                  "ru": "Пора идти.",
-                  "parts": [
-                    [
-                      "It's time to",
-                      "It's time to"
-                    ],
-                    [
-                      "go.",
-                      "глагол"
-                    ]
-                  ]
-                },
-                {
-                  "en": "It's time to say goodbye.",
-                  "ru": "Пора прощаться.",
-                  "parts": [
-                    [
-                      "It's time to",
-                      "It's time to"
-                    ],
-                    [
-                      "say",
-                      "глагол"
-                    ],
-                    [
-                      "goodbye.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "It's time to get up!",
-                  "ru": "Пора вставать!",
-                  "parts": [
-                    [
-                      "It's time to",
-                      "It's time to"
-                    ],
-                    [
-                      "get up!",
-                      "глагол"
-                    ]
-                  ]
-                }
-              ]
-            }
-          }
-        },
-        {
-          "title": "Три формы",
+          "title": "Два пути",
           "borderColor": "info",
           "table": {
             "headers": [
-              "Форма",
-              "Смысл",
-              "Пример"
+              "Схема",
+              "Пример",
+              "Перевод"
             ],
             "headerColors": [
               "info",
-              "example",
-              "term"
+              "term",
+              "example"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
                   "It's time to + глагол",
-                  "пора что-то делать",
-                  "It's time to go."
+                  "It's time to go.",
+                  "Пора идти."
                 ]
               },
               {
                 "cells": [
                   "It's time for + сущ.",
-                  "пора для чего-то",
-                  "It's time for lunch."
-                ]
-              },
-              {
-                "cells": [
-                  "It's time + прош. вр.",
-                  "давно пора (упрек)",
-                  "It's time you went to bed."
+                  "It's time for lunch.",
+                  "Пора обедать."
                 ]
               }
-            ],
-            "borderColor": "info"
+            ]
           }
         },
         {
@@ -157,54 +71,34 @@
               "ru": "Пора сделать перерыв."
             },
             {
-              "en": "It's time you called your mother.",
-              "ru": "Пора бы уже позвонить маме."
+              "en": "Kids, it's time for bed!",
+              "ru": "Дети, пора спать!"
             },
             {
-              "en": "It's time to start.",
-              "ru": "Пора начинать."
+              "en": "It's time to make a decision.",
+              "ru": "Пора принять решение."
             }
           ]
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "It's high time — «давно пора»",
-          "preview": "с упрёком",
-          "initiallyExpanded": false,
-          "section": {
-            "borderColor": "info",
-            "examples": [
-              {
-                "en": "It's high time you found a job.",
-                "ru": "Тебе давно пора найти работу."
-              },
-              {
-                "en": "It's about time they fixed the road.",
-                "ru": "Им бы уже давно пора починить дорогу."
-              },
-              {
-                "en": "It's time we went home.",
-                "ru": "Нам пора бы домой."
-              }
-            ],
-            "callout": {
-              "type": "tip",
-              "title": "Прошедшее — о настоящем",
-              "text": "После It's (high) time + кто — глагол в прошедшем, хотя речь о сейчас: It's time you went."
-            },
-            "title": ""
-          }
+          "title": "Кому пора",
+          "borderColor": "term",
+          "text": "Кому пора — for + кто + to: It's time for us to go. = Нам пора идти."
+        },
+        {
+          "title": "Давно пора",
+          "borderColor": "info",
+          "text": "It's time you went to bed — «тебе давно пора спать». После time + кто — прошедшее время. Это отдельная тема — карточка «It's (high) time»."
         }
       ]
     },
     {
-      "label": "Частые ошибки: time go, time for go",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в It's time.",
+        "text": "Частые ошибки с it's time. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -220,12 +114,20 @@
               "right": "It's time to go home. (нужен to)"
             },
             {
-              "wrong": "It's time to going home.",
-              "right": "It's time to go home. (после to — без -ing)"
+              "wrong": "It's time to going.",
+              "right": "It's time to go. (после to — без -ing)"
             },
             {
               "wrong": "It's time for go.",
-              "right": "It's time to go. / It's time for lunch. (for — с существительным)"
+              "right": "It's time to go. (глагол — с to)"
+            },
+            {
+              "wrong": "It's time to lunch.",
+              "right": "It's time for lunch. (lunch — for)"
+            },
+            {
+              "wrong": "It's time for you go.",
+              "right": "It's time for you to go. (for + кто + to)"
             }
           ]
         },
@@ -235,15 +137,49 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "It's time to + глагол — пора что-то делать. It's time for + существительное — пора для чего-то. После to всегда глагол в начальной форме."
-          },
-          "quote": {
-            "text": "It's time — это часы, которые уже пробили.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Глагол — to: time to go. Существительное — for: time for lunch. После to — начальная форма."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:itstime.to",
+      "description": "Перед глаголом — to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:itstime.for",
+      "description": "Перед существительным — for",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:itstime.base",
+      "description": "После to — начальная форма глагола",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_time"
+  ],
+  "prerequisites": [
+    "cards_infinitive"
+  ],
+  "prerequisites_reviewed": false
 }

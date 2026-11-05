@@ -3,23 +3,23 @@
   "route": "cards_makesomeonedo",
   "slides": [
     {
-      "label": "Make someone do: заставить",
+      "label": "Заставить: make",
       "intro": {
-        "text": "Make someone do — принуждение к действию. Заставляем кого-то что-то сделать, у него нет выбора. После make — глагол без to.",
+        "text": "Учитель оставил класс после уроков: The teacher made us stay. Make + кто + глагол без to — «заставить». А ещё «вызвать»: The film made me cry — «фильм довёл меня до слёз».",
         "highlights": [
           {
-            "text": "Make someone do",
+            "text": "The teacher made us stay",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "глагол без to",
             "color": "term",
             "style": "bold_underline"
           },
           {
-            "text": "принуждение",
-            "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "без to",
-            "color": "example",
+            "text": "«вызвать»",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -39,7 +39,7 @@
                 "color": "muted"
               },
               {
-                "text": "someone",
+                "text": "кто",
                 "color": "example"
               },
               {
@@ -47,98 +47,15 @@
                 "color": "muted"
               },
               {
-                "text": "глагол (без to)",
+                "text": "глагол без to",
                 "color": "term"
               }
             ],
-            "accentColor": "term",
-            "drill": {
-              "slots": [
-                "make",
-                "someone",
-                "глагол (без to)"
-              ],
-              "decoys": [
-                "to",
-                "V-ing"
-              ],
-              "examples": [
-                {
-                  "en": "She made me laugh.",
-                  "ru": "Она меня рассмешила.",
-                  "parts": [
-                    [
-                      "She",
-                      ""
-                    ],
-                    [
-                      "made",
-                      "make"
-                    ],
-                    [
-                      "me",
-                      "someone"
-                    ],
-                    [
-                      "laugh.",
-                      "глагол (без to)"
-                    ]
-                  ]
-                },
-                {
-                  "en": "The teacher made us rewrite the essay.",
-                  "ru": "Учитель заставил нас переписать сочинение.",
-                  "parts": [
-                    [
-                      "The teacher",
-                      ""
-                    ],
-                    [
-                      "made",
-                      "make"
-                    ],
-                    [
-                      "us",
-                      "someone"
-                    ],
-                    [
-                      "rewrite",
-                      "глагол (без to)"
-                    ],
-                    [
-                      "the essay.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "Don't make me wait.",
-                  "ru": "Не заставляй меня ждать.",
-                  "parts": [
-                    [
-                      "Don't",
-                      ""
-                    ],
-                    [
-                      "make",
-                      "make"
-                    ],
-                    [
-                      "me",
-                      "someone"
-                    ],
-                    [
-                      "wait.",
-                      "глагол (без to)"
-                    ]
-                  ]
-                }
-              ]
-            }
+            "accentColor": "term"
           }
         },
         {
-          "title": "Make / Let / Get",
+          "title": "Make, let, get",
           "borderColor": "info",
           "table": {
             "headers": [
@@ -148,38 +65,33 @@
             ],
             "headerColors": [
               "info",
-              "example",
-              "term"
+              "term",
+              "example"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
-                  "make someone do",
-                  "заставляем",
+                  "make + кто + глагол",
+                  "заставить",
                   "She made me wait."
                 ]
               },
               {
                 "cells": [
-                  "let someone do",
-                  "разрешаем",
+                  "let + кто + глагол",
+                  "разрешить",
                   "She let me go."
                 ]
               },
               {
                 "cells": [
-                  "get someone to do",
-                  "убеждаем",
+                  "get + кто + to",
+                  "уговорить",
                   "She got me to help."
                 ]
               }
-            ],
-            "borderColor": "info"
-          },
-          "callout": {
-            "type": "warning",
-            "title": "Три разные силы",
-            "text": "Make — заставляет (без выбора). Let — позволяет (с разрешения). Get — убеждает (согласился)."
+            ]
           }
         },
         {
@@ -187,60 +99,49 @@
           "borderColor": "good",
           "examples": [
             {
-              "en": "My mom made me clean my room.",
-              "ru": "Мама заставила меня убрать комнату."
+              "en": "My mum made me clean my room.",
+              "ru": "Мама заставила меня убраться в комнате."
             },
             {
-              "en": "The teacher made us stay after class.",
-              "ru": "Учитель заставил нас остаться после урока."
+              "en": "He always makes me laugh.",
+              "ru": "Он всегда меня смешит."
             },
             {
-              "en": "He made me laugh.",
-              "ru": "Он меня рассмешил."
+              "en": "What made you change your mind?",
+              "ru": "Почему ты передумал?"
             },
             {
-              "en": "They made him apologize.",
-              "ru": "Они заставили его извиниться."
+              "en": "They made him apologise.",
+              "ru": "Его заставили извиниться."
             }
           ]
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "Make в пассиве: to возвращается",
-          "preview": "I was made to wait",
-          "initiallyExpanded": false,
-          "section": {
-            "borderColor": "info",
-            "transforms": [
-              {
-                "from": "They made me wait.",
-                "to": "I was made to wait.",
-                "toColor": "info"
-              },
-              {
-                "from": "The boss made us work late.",
-                "to": "We were made to work late.",
-                "toColor": "info"
-              }
-            ],
-            "callout": {
-              "type": "warning",
-              "title": "Исключение",
-              "text": "В активе после make — без to. В пассиве to обязателен: was made to do."
+          "title": "В пассиве — с to",
+          "borderColor": "info",
+          "transforms": [
+            {
+              "from": "They made me wait.",
+              "to": "I was made to wait.",
+              "toColor": "info"
             },
-            "title": ""
-          }
+            {
+              "from": "The boss made us work late.",
+              "to": "We were made to work late.",
+              "toColor": "info"
+            }
+          ],
+          "text": "В пассиве to возвращается: was made to do."
         }
       ]
     },
     {
-      "label": "Частые ошибки: made me to wait",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в make someone do.",
+        "text": "Частые ошибки с make someone do. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -253,7 +154,7 @@
           "errors": [
             {
               "wrong": "She made me to wait.",
-              "right": "She made me wait. (после make — без to)"
+              "right": "She made me wait. (без to)"
             },
             {
               "wrong": "She made me waiting.",
@@ -262,6 +163,10 @@
             {
               "wrong": "She made that I waited.",
               "right": "She made me wait. (make + кто + глагол)"
+            },
+            {
+              "wrong": "I was made wait.",
+              "right": "I was made to wait. (в пассиве — to)"
             }
           ]
         },
@@ -271,15 +176,57 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Make — без to. Get — с to. Let — без to. Запомни: make + do, let + do, get + to do."
-          },
-          "quote": {
-            "text": "Make — это приказ. Let — это разрешение. Get — это уговоры.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Make и let — без to. Get и allow — с to. В пассиве to возвращается: I was made to wait."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:makesomeonedo.bare",
+      "description": "После make — глагол без to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:makesomeonedo.object",
+      "description": "make + кто (me, him), не that",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:makesomeonedo.passive",
+      "description": "В пассиве — be made to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:makesomeonedo.choice",
+      "description": "Заставить — make, разрешить — let, уговорить — get",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_make",
+    "word_b1_force"
+  ],
+  "prerequisites": [
+    "cards_letsomeonedo"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -3,23 +3,23 @@
   "route": "cards_wouldhabits",
   "slides": [
     {
-      "label": "Would: «бывало, мы…»",
+      "label": "Бывало, мы…",
       "intro": {
-        "text": "Would + глагол рассказывает о том, что повторялось в прошлом: «бывало, мы ходили…». Это как used to, но только о действиях — о состояниях would не говорит.",
+        "text": "Вспоминая детство, по-русски говорят «бывало, мы ходили на речку». По-английски — would + глагол: We would go to the river. Would так рассказывает только о повторявшихся действиях. О состояниях — был, жил, имел — нужен used to.",
         "highlights": [
           {
-            "text": "Would + глагол",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "повторялось в прошлом",
-            "color": "info",
+            "text": "We would go to the river",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "только о действиях",
-            "color": "bad",
+            "text": "повторявшихся действиях",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "used to",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -47,94 +47,11 @@
                 "color": "muted"
               },
               {
-                "text": "глагол",
+                "text": "глагол без to",
                 "color": "info"
               }
             ],
-            "accentColor": "term",
-            "drill": {
-              "slots": [
-                "подлежащее",
-                "would",
-                "глагол"
-              ],
-              "decoys": [
-                "used",
-                "will"
-              ],
-              "examples": [
-                {
-                  "en": "Every summer we would go to the sea.",
-                  "ru": "Каждое лето мы ездили на море.",
-                  "parts": [
-                    [
-                      "Every summer",
-                      ""
-                    ],
-                    [
-                      "we",
-                      "подлежащее"
-                    ],
-                    [
-                      "would",
-                      "would"
-                    ],
-                    [
-                      "go",
-                      "глагол"
-                    ],
-                    [
-                      "to the sea.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "My grandma would tell us stories.",
-                  "ru": "Бабушка, бывало, рассказывала нам истории.",
-                  "parts": [
-                    [
-                      "My grandma",
-                      "подлежащее"
-                    ],
-                    [
-                      "would",
-                      "would"
-                    ],
-                    [
-                      "tell",
-                      "глагол"
-                    ],
-                    [
-                      "us stories.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "He would sit by the window for hours.",
-                  "ru": "Он, бывало, часами сидел у окна.",
-                  "parts": [
-                    [
-                      "He",
-                      "подлежащее"
-                    ],
-                    [
-                      "would",
-                      "would"
-                    ],
-                    [
-                      "sit",
-                      "глагол"
-                    ],
-                    [
-                      "by the window for hours.",
-                      ""
-                    ]
-                  ]
-                }
-              ]
-            }
+            "accentColor": "term"
           }
         },
         {
@@ -142,43 +59,43 @@
           "borderColor": "info",
           "table": {
             "headers": [
-              "",
+              "Что",
               "used to",
               "would"
             ],
+            "headerColors": [
+              "info",
+              "good",
+              "term"
+            ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
-                  "Повторялись действия",
-                  "✓ We used to play.",
-                  "✓ We would play."
+                  "повторявшееся действие",
+                  "We used to play outside.",
+                  "We would play outside."
                 ]
               },
               {
                 "cells": [
-                  "Состояние, привычка быть",
-                  "✓ I used to be shy.",
-                  "✗ I would be shy."
+                  "состояние: be, have, live, like, know",
+                  "I used to be shy.",
+                  "— нельзя"
                 ]
               },
               {
                 "cells": [
-                  "Было, а теперь нет",
-                  "✓ He used to live here.",
-                  "✗ He would live here."
+                  "одно событие",
+                  "— Past Simple",
+                  "— Past Simple"
                 ]
               }
-            ],
-            "borderColor": "info",
-            "headerColors": [
-              "muted",
-              "term",
-              "info"
             ]
           }
         },
         {
-          "title": "Примеры",
+          "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
             {
@@ -190,58 +107,38 @@
               "ru": "Бабушка, бывало, рассказывала нам сказки."
             },
             {
-              "en": "He would always bring flowers.",
-              "ru": "Он всегда приносил цветы."
+              "en": "On Sundays Dad would make pancakes.",
+              "ru": "По воскресеньям папа пёк блины."
+            },
+            {
+              "en": "After school I would go straight to the park.",
+              "ru": "После школы я сразу шёл в парк."
             }
           ]
         },
         {
-          "title": "Сначала used to",
-          "borderColor": "good",
+          "title": "Как звучит рассказ",
+          "borderColor": "info",
           "callout": {
             "type": "tip",
-            "title": "Так звучит естественно",
-            "text": "Обычно рассказ начинают с used to, а дальше — would: When I was a child, I used to live in a village. We would swim in the river…"
+            "title": "Сначала used to",
+            "text": "Рассказ обычно начинают с used to или Past Simple, чтобы было ясно, что речь о прошлом. Дальше — would: When I was a child, we used to live in a village. We would swim in the river every day."
           }
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "On Sundays Dad would make pancakes.",
-                "ru": "По воскресеньям папа, бывало, пёк блины."
-              },
-              {
-                "en": "We would stay up late and watch films.",
-                "ru": "Мы допоздна не спали и смотрели фильмы."
-              },
-              {
-                "en": "After school I would go straight to the park.",
-                "ru": "После школы я сразу шёл в парк."
-              },
-              {
-                "en": "She would often call me late at night.",
-                "ru": "Она часто звонила мне поздно ночью."
-              }
-            ]
-          }
+          "title": "Здесь would — не «бы»",
+          "borderColor": "term",
+          "text": "We would play football — «мы играли в футбол», без «бы». Что это прошлое, подсказывает рассказ."
         }
       ]
     },
     {
-      "label": "Частые ошибки: would have a dog, would be shy",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с would о прошлом.",
+        "text": "Частые ошибки с would о прошлом. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -253,20 +150,24 @@
           "borderColor": "bad",
           "errors": [
             {
-              "wrong": "I would have a dog when I was a child.",
-              "right": "I used to have a dog when I was a child. (состояние — used to)"
+              "wrong": "I would have a dog as a child.",
+              "right": "I used to have a dog… (иметь — состояние)"
             },
             {
               "wrong": "She would be very shy.",
-              "right": "She used to be very shy. (состояние — used to)"
+              "right": "She used to be very shy. (быть — состояние)"
             },
             {
               "wrong": "We would to play football.",
-              "right": "We would play football. (после would — без to)"
+              "right": "We would play football. (без to)"
             },
             {
               "wrong": "He would lived in Paris.",
               "right": "He used to live in Paris. (жил — состояние)"
+            },
+            {
+              "wrong": "Yesterday I would go to the gym.",
+              "right": "Yesterday I went to the gym. (один раз — Past Simple)"
             }
           ]
         },
@@ -276,15 +177,49 @@
           "callout": {
             "type": "tip",
             "title": "Действие или состояние",
-            "text": "Представь кадр из фильма: если видно действие (играли, ходили) — можно would. Если это состояние (был, жил, имел) — только used to."
-          },
-          "quote": {
-            "text": "Would — для действий, used to — для всего.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Представь кадр из фильма. Видно повторяющееся действие — играли, ходили — можно would. Состояние — был, жил, имел — только used to."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:wouldhabits.state",
+      "description": "Состояние — только used to, не would",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldhabits.bare",
+      "description": "После would — глагол без to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldhabits.action",
+      "description": "Повторявшееся действие — would",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_would"
+  ],
+  "prerequisites": [
+    "cards_usedto"
+  ],
+  "prerequisites_reviewed": false
 }

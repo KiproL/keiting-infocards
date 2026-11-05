@@ -523,3 +523,14 @@ gerund, infinitive, reportedspeech, activepassive: редакция 0 → 1. И�
 - **Новые части:** `a1_days_months`, `a1_countries`, `a1_daily_routine`, `a1_colours`, `a2_other_another`, `a2_question_prep`, `a2_exclamations`, `b1_still_anymore`, `b2_perception`.
 
 Прежние route, ID и индексы слайдов не менялись. Действий от приложения не нужно.
+
+## M-026. Партия 16 — совместимо, опубликовано
+
+- **Редакция 0 → 1:** beusedto, getusedto, wouldhabits, annoyinghabits, itstime, itshightime, itsworth, ittakes, wouldratherpast, wish, havesomethingdone, letsomeonedo, makesomeonedo, getsomeonetodo. Индексы и темы слайдов прежние.
+- **Перепривязка в другую карточку** — itstime #0 → itshightime #0: `itstime_0_4`, `itstime_0_n2`, `itstime_0_n5`, `itstime_0_n8`, `itstime_0_n10`, `itstime_0_n13`.
+- **Перепривязка внутри карточки** — wish #0 → #2: `wish_0_1`, `wish_0_2`, `wish_0_4`, `wish_0_5`, `wish_0_n1`, `wish_0_n2`, `wish_0_n4`, `wish_0_n5`, `wish_0_n7`, `wish_0_n8`, `wish_0_n10`, `wish_0_n12`, `wish_0_n13`.
+- **Новые задания:** `annoyinghabits_r1_3_0…2`, `itstime_r1_0_0…1`.
+- **Новые части:** 15, по PARTS.md. Раньше этих карточек в учебном плане не было, старых частей нет, засчитывать нечего.
+- **Исправление данных партии 15:** в `perceptionpages.json` поле `formula` → `formulaCard`. Без этого карточка не загрузилась бы.
+
+Действий от приложения не нужно.

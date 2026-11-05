@@ -3,23 +3,23 @@
   "route": "cards_getusedto",
   "slides": [
     {
-      "label": "Get used to: привыкаю",
+      "label": "Привыкаю постепенно",
       "intro": {
-        "text": "Get used to — процесс привыкания. Это не состояние, а действие: ты постепенно привыкаешь к чему-то новому.",
+        "text": "Первую неделю на новой работе всё непривычно, но с каждым днём легче: I'm getting used to it — «я привыкаю». Get used to — процесс: привыкание идёт, уже случилось или ещё будет. После to, как и в be used to, — существительное или -ing.",
         "highlights": [
           {
-            "text": "Get used to",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "I'm getting used to it",
+            "color": "example",
+            "style": "bold"
           },
           {
             "text": "процесс",
             "color": "info",
-            "style": "bold"
+            "style": "bold_underline"
           },
           {
-            "text": "постепенно",
-            "color": "example",
+            "text": "существительное или -ing",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -39,164 +39,87 @@
                 "color": "muted"
               },
               {
-                "text": "-ing / сущ.",
+                "text": "-ing / существительное",
                 "color": "example"
               }
             ],
-            "accentColor": "term",
-            "drill": {
-              "slots": [
-                "get used to",
-                "-ing / сущ."
-              ],
-              "decoys": [
-                "V-ing",
-                "V3"
-              ],
-              "examples": [
-                {
-                  "en": "You will get used to the noise.",
-                  "ru": "Ты привыкнешь к шуму.",
-                  "parts": [
-                    [
-                      "You will",
-                      ""
-                    ],
-                    [
-                      "get used to",
-                      "get used to"
-                    ],
-                    [
-                      "the noise.",
-                      "-ing / сущ."
-                    ]
-                  ]
-                },
-                {
-                  "en": "I got used to living alone.",
-                  "ru": "Я привык жить один.",
-                  "parts": [
-                    [
-                      "I",
-                      ""
-                    ],
-                    [
-                      "got used to",
-                      "get used to"
-                    ],
-                    [
-                      "living alone.",
-                      "-ing / сущ."
-                    ]
-                  ]
-                },
-                {
-                  "en": "She is getting used to her new job.",
-                  "ru": "Она привыкает к новой работе.",
-                  "parts": [
-                    [
-                      "She",
-                      ""
-                    ],
-                    [
-                      "is getting used to",
-                      "get used to"
-                    ],
-                    [
-                      "her new job.",
-                      "-ing / сущ."
-                    ]
-                  ]
-                }
-              ]
-            }
+            "accentColor": "term"
           }
         },
         {
-          "title": "По временам",
+          "title": "Get меняется по времени",
+          "borderColor": "info",
+          "rules": [
+            {
+              "name": "привыкаю",
+              "suffix": "am / is / are getting used to",
+              "example": "I'm getting used to my new job."
+            },
+            {
+              "name": "привык",
+              "suffix": "got used to",
+              "example": "She got used to the noise."
+            },
+            {
+              "name": "привыкну",
+              "suffix": "will get used to",
+              "example": "You'll get used to it."
+            },
+            {
+              "name": "уже привык",
+              "suffix": "have got used to",
+              "example": "I've got used to living alone."
+            },
+            {
+              "name": "никак не привыкну",
+              "suffix": "can't get used to",
+              "example": "I can't get used to the cold."
+            }
+          ]
+        },
+        {
+          "title": "Have got или have gotten",
+          "borderColor": "term",
+          "text": "В американском английском — have gotten used to. Оба варианта правильные."
+        },
+        {
+          "title": "Три конструкции",
           "borderColor": "info",
           "table": {
             "headers": [
-              "Время",
-              "Форма",
-              "Пример"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "Present",
-                  "am / is / are getting used to",
-                  "I'm getting used to it."
-                ]
-              },
-              {
-                "cells": [
-                  "Past",
-                  "got used to",
-                  "I got used to the noise."
-                ]
-              },
-              {
-                "cells": [
-                  "Future",
-                  "will get used to",
-                  "You'll get used to it."
-                ]
-              },
-              {
-                "cells": [
-                  "Perfect",
-                  "have got used to",
-                  "I have got used to living alone."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
-        },
-        {
-          "title": "Get used to vs Be used to",
-          "borderColor": "term",
-          "table": {
-            "headers": [
-              "Форма",
+              "Оборот",
               "Смысл",
               "Пример"
             ],
             "headerColors": [
               "info",
-              "example",
-              "term"
+              "term",
+              "example"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
-                  "be used to",
-                  "уже привык (состояние)",
-                  "I am used to living alone."
+                  "used to + глагол",
+                  "раньше, теперь нет",
+                  "I used to smoke."
                 ]
               },
               {
                 "cells": [
-                  "get used to",
-                  "привыкаю (процесс)",
-                  "I am getting used to living alone."
+                  "be used to + -ing",
+                  "уже привык",
+                  "I'm used to working late."
                 ]
               },
               {
                 "cells": [
-                  "will get used to",
-                  "привыкну (будущее)",
-                  "I will get used to it."
+                  "get used to + -ing",
+                  "привыкаю, привыкну",
+                  "I'm getting used to it."
                 ]
               }
-            ],
-            "borderColor": "term"
+            ]
           }
         },
         {
@@ -212,71 +135,24 @@
               "ru": "Она быстро привыкла к холоду."
             },
             {
-              "en": "You'll get used to it soon.",
-              "ru": "Ты скоро к этому привыкнешь."
+              "en": "It took me a year to get used to London.",
+              "ru": "Мне понадобился год, чтобы привыкнуть к Лондону."
             },
             {
               "en": "He can't get used to waking up early.",
-              "ru": "Он не может привыкнуть рано вставать."
+              "ru": "Он никак не привыкнет рано вставать."
             }
           ]
-        }
-      ],
-      "expandables": [
-        {
-          "label": "Used to, be used to, get used to",
-          "preview": "три похожих — три смысла",
-          "initiallyExpanded": false,
-          "section": {
-            "borderColor": "info",
-            "table": {
-              "headers": [
-                "Оборот",
-                "Смысл",
-                "Пример"
-              ],
-              "headerColors": [
-                "term",
-                "muted",
-                "example"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "used to + глагол",
-                    "раньше (а теперь нет)",
-                    "I used to smoke."
-                  ]
-                },
-                {
-                  "cells": [
-                    "be used to + -ing",
-                    "уже привык",
-                    "I'm used to working late."
-                  ]
-                },
-                {
-                  "cells": [
-                    "get used to + -ing",
-                    "привыкаю, привыкну",
-                    "I'm getting used to it."
-                  ]
-                }
-              ]
-            },
-            "title": ""
-          }
         }
       ]
     },
     {
-      "label": "Частые ошибки: get used to wake",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в get used to.",
+        "text": "Частые ошибки с get used to. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -289,15 +165,23 @@
           "errors": [
             {
               "wrong": "I'm getting used to wake up early.",
-              "right": "I'm getting used to waking up early. (to здесь предлог — -ing)"
+              "right": "I'm getting used to waking up early. (после to — -ing)"
             },
             {
               "wrong": "I got used to live alone.",
-              "right": "I got used to living alone. (после to — -ing)"
+              "right": "I got used to living alone. (-ing)"
             },
             {
-              "wrong": "I get used to wake early.",
-              "right": "I get used to waking early. (после to — -ing)"
+              "wrong": "I'm getting use to it.",
+              "right": "I'm getting used to it. (used — с d)"
+            },
+            {
+              "wrong": "I get used to it soon.",
+              "right": "I'll get used to it soon. (будущее — will)"
+            },
+            {
+              "wrong": "I used to the new flat.",
+              "right": "I got used to the new flat. (нужен get или be)"
             }
           ]
         },
@@ -307,15 +191,49 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Be used to — уже привык. Get used to — сейчас привыкаю. Процесс vs состояние."
-          },
-          "quote": {
-            "text": "Be used to — фотография. Get used to — фильм.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Привыкаю — get used to, уже привык — be used to. Get меняется по времени: getting, got, will get."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:getusedto.ing",
+      "description": "После get used to — -ing или существительное",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:getusedto.process",
+      "description": "Процесс — get used to, состояние — be used to",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:getusedto.tense",
+      "description": "Get меняется по времени: getting, got, will get",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_b1_used",
+    "word_get"
+  ],
+  "prerequisites": [
+    "cards_beusedto"
+  ],
+  "prerequisites_reviewed": false
 }

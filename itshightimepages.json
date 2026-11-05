@@ -3,22 +3,22 @@
   "route": "cards_itshightime",
   "slides": [
     {
-      "label": "It's high time you went: давно пора",
+      "label": "Давно пора",
       "intro": {
-        "text": "It's time / It's high time — пора что-то сделать, причём давно. После этой конструкции используется Past Simple, хотя речь о настоящем или будущем. Это грамматический парадокс, который надо просто запомнить.",
+        "text": "Уже полночь, а сын всё сидит за компьютером: It's time you went to bed — «давно пора спать». После It's time + кто глагол стоит в прошедшем, хотя речь о сейчас. Так звучит упрёк: это уже должно было случиться. High и about его усиливают.",
         "highlights": [
           {
-            "text": "It's high time",
+            "text": "It's time you went to bed",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "в прошедшем",
             "color": "term",
             "style": "bold_underline"
           },
           {
-            "text": "причём давно",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "Past Simple",
+            "text": "упрёк",
             "color": "bad",
             "style": "bold"
           }
@@ -39,7 +39,7 @@
                 "color": "muted"
               },
               {
-                "text": "подлежащее",
+                "text": "кто",
                 "color": "example"
               },
               {
@@ -51,90 +51,11 @@
                 "color": "term"
               }
             ],
-            "accentColor": "term",
-            "drill": {
-              "slots": [
-                "It's (high) time",
-                "подлежащее",
-                "Past Simple"
-              ],
-              "decoys": [
-                "to",
-                "will"
-              ],
-              "examples": [
-                {
-                  "en": "It's time we went home.",
-                  "ru": "Нам пора идти домой.",
-                  "parts": [
-                    [
-                      "It's time",
-                      "It's (high) time"
-                    ],
-                    [
-                      "we",
-                      "подлежащее"
-                    ],
-                    [
-                      "went",
-                      "Past Simple"
-                    ],
-                    [
-                      "home.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "It's high time you found a job.",
-                  "ru": "Тебе давно пора найти работу.",
-                  "parts": [
-                    [
-                      "It's high time",
-                      "It's (high) time"
-                    ],
-                    [
-                      "you",
-                      "подлежащее"
-                    ],
-                    [
-                      "found",
-                      "Past Simple"
-                    ],
-                    [
-                      "a job.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "It's time the kids went to bed.",
-                  "ru": "Детям пора спать.",
-                  "parts": [
-                    [
-                      "It's time",
-                      "It's (high) time"
-                    ],
-                    [
-                      "the kids",
-                      "подлежащее"
-                    ],
-                    [
-                      "went",
-                      "Past Simple"
-                    ],
-                    [
-                      "to bed.",
-                      ""
-                    ]
-                  ]
-                }
-              ]
-            }
+            "accentColor": "term"
           }
         },
         {
-          "title": "Сравнение",
+          "title": "Сравни",
           "borderColor": "info",
           "table": {
             "headers": [
@@ -144,33 +65,33 @@
             ],
             "headerColors": [
               "info",
-              "example",
-              "term"
+              "term",
+              "example"
             ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
                   "It's time to + глагол",
-                  "пора сделать",
+                  "пора",
                   "It's time to go."
                 ]
               },
               {
                 "cells": [
-                  "It's time + Past Simple",
-                  "пора бы уже (упрек)",
+                  "It's time + кто + прошедшее",
+                  "пора бы уже",
                   "It's time you went to bed."
                 ]
               },
               {
                 "cells": [
-                  "It's high time + Past Simple",
-                  "давно пора (сильно)",
+                  "It's high / about time…",
+                  "давно пора",
                   "It's high time you found a job."
                 ]
               }
-            ],
-            "borderColor": "info"
+            ]
           }
         },
         {
@@ -178,41 +99,46 @@
           "borderColor": "good",
           "examples": [
             {
-              "en": "It's time you went to bed.",
-              "ru": "Пора бы тебе уже спать."
-            },
-            {
               "en": "It's high time we left.",
               "ru": "Нам давно пора уходить."
             },
             {
               "en": "It's time she started taking things seriously.",
-              "ru": "Пора бы ей уже начать относиться серьёзно."
+              "ru": "Пора бы ей начать относиться ко всему серьёзно."
             },
             {
-              "en": "It's high time you told the truth.",
-              "ru": "Давно пора сказать правду."
+              "en": "It's time the children were in bed.",
+              "ru": "Детям давно пора спать."
+            },
+            {
+              "en": "It's about time they fixed the road.",
+              "ru": "Давно пора починить дорогу."
             }
           ]
         },
         {
-          "title": "Почему Past Simple",
-          "borderColor": "term",
+          "title": "Почему прошедшее",
+          "borderColor": "info",
           "callout": {
             "type": "info",
-            "title": "Логика конструкции",
-            "text": "Past Simple здесь — грамматическая условность. Он показывает, что действие откладывалось слишком долго, поэтому как будто уже должно было произойти."
+            "title": "Не про прошлое",
+            "text": "Прошедшее время здесь значит «ещё не сделано, а пора было». Так же оно работает после wish и would rather."
           }
+        },
+        {
+          "title": "Без упрёка",
+          "borderColor": "term",
+          "text": "Если упрёка нет, говорят for + кто + to: It's time for you to go to bed."
         }
       ]
     },
     {
-      "label": "Частые ошибки: high time you go",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в It's (high) time.",
+        "text": "Частые ошибки с it's (high) time. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -225,15 +151,19 @@
           "errors": [
             {
               "wrong": "It's high time you go to bed.",
-              "right": "It's high time you went to bed. (после time + кто — Past Simple)"
+              "right": "It's high time you went to bed. (прошедшее)"
             },
             {
-              "wrong": "It's high time for you go to bed.",
-              "right": "It's high time you went to bed. (или It's high time for you to go)"
+              "wrong": "It's high time you will go.",
+              "right": "It's high time you went. (без will)"
             },
             {
-              "wrong": "It's high time you will go to bed.",
-              "right": "It's high time you went to bed. (без will)"
+              "wrong": "It's high time for you go.",
+              "right": "It's high time you went. / …for you to go."
+            },
+            {
+              "wrong": "It's time you would stop.",
+              "right": "It's time you stopped. (без would)"
             }
           ]
         },
@@ -242,16 +172,51 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Простой тест",
-            "text": "После It's time + подлежащее всегда Past Simple. Даже если речь о настоящем или будущем."
-          },
-          "quote": {
-            "text": "It's high time — вежливый упрёк, замаскированный под грамматику.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "title": "Простая проверка",
+            "text": "После It's time + кто — прошедшее время, даже если речь о сейчас. Нет «кто» — to + глагол."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:itshightime.past",
+      "description": "После time + кто — прошедшее время",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:itshightime.no_will",
+      "description": "Без will и would",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:itshightime.structure",
+      "description": "time + кто + прошедшее или for + кто + to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_time"
+  ],
+  "prerequisites": [
+    "cards_itstime",
+    "cards_conditionals"
+  ],
+  "prerequisites_reviewed": false
 }

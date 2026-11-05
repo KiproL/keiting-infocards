@@ -3,28 +3,23 @@
   "route": "cards_wish",
   "slides": [
     {
-      "label": "I wish: жаль, что…",
+      "label": "I wish: жаль, что",
       "intro": {
-        "text": "Wish — «жаль, что…», «хотелось бы». После него время сдвигается на шаг назад: о настоящем — Past Simple, о прошлом — Past Perfect. If only — то же, но сильнее.",
+        "text": "Машины нет, а хочется: I wish I had a car — «жаль, что у меня нет машины». Wish говорит о том, что не так, как хотелось бы. Время после него делает шаг назад: о настоящем — прошедшее, о прошлом — Past Perfect. If only — то же, но сильнее.",
         "highlights": [
           {
-            "text": "Wish",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "жаль, что…",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "на шаг назад",
+            "text": "I wish I had a car",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "If only",
+            "text": "шаг назад",
             "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "If only",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -39,81 +34,80 @@
               "Формула",
               "Пример"
             ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
+            "borderColor": "info",
             "rows": [
               {
                 "cells": [
                   "настоящее",
-                  "wish + Past Simple",
-                  "I wish I knew. — Жаль, что я не знаю."
+                  "wish + прошедшее",
+                  "I wish I knew."
                 ]
               },
               {
                 "cells": [
-                  "прошлое",
+                  "прошлое — шаг 3",
                   "wish + Past Perfect",
-                  "I wish I had gone. — Жаль, что я не пошёл."
+                  "I wish I had gone."
                 ]
               },
               {
                 "cells": [
-                  "чужое поведение",
+                  "чужое поведение — шаг 3",
                   "wish + would",
-                  "I wish you would stop. — Хоть бы ты перестал."
+                  "I wish you would stop."
                 ]
               }
-            ],
-            "borderColor": "info",
-            "headerColors": [
-              "term",
-              "info",
-              "example"
             ]
           }
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "I wish I spoke French.",
-                "ru": "Жаль, что я не говорю по-французски. (настоящее)"
-              },
-              {
-                "en": "I wish I hadn't eaten so much.",
-                "ru": "Зря я столько съел. (прошлое)"
-              },
-              {
-                "en": "I wish you would stop shouting.",
-                "ru": "Хоть бы ты перестал кричать. (чужое поведение)"
-              },
-              {
-                "en": "If only I had more free time!",
-                "ru": "Если бы только у меня было больше свободного времени!"
-              }
-            ]
-          }
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "I wish I spoke French.",
+              "ru": "Жаль, что я не говорю по-французски."
+            },
+            {
+              "en": "I wish we lived closer.",
+              "ru": "Жаль, что мы живём не рядом."
+            },
+            {
+              "en": "If only I had more free time!",
+              "ru": "Если бы только у меня было больше свободного времени!"
+            }
+          ]
+        },
+        {
+          "title": "Wish или hope",
+          "borderColor": "info",
+          "text": "О том, что вполне может сбыться, говорят hope: I hope you pass. Wish — о том, чего нет: I wish you were here."
         }
       ]
     },
     {
-      "label": "Wish о настоящем: I wish I knew",
+      "label": "Wish о настоящем",
       "intro": {
-        "text": "Недовольны тем, что есть сейчас, — говорим в прошедшем. По-русски наоборот: отрицание меняется на утверждение.",
+        "text": "Недовольны тем, что есть сейчас, — говорим в прошедшем. Утверждение и отрицание меняются местами: «жаль, что не знаю» — I wish I knew.",
         "highlights": [
           {
             "text": "в прошедшем",
             "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "меняются местами",
+            "color": "info",
             "style": "bold"
           },
           {
-            "text": "наоборот",
-            "color": "info",
+            "text": "I wish I knew",
+            "color": "example",
             "style": "bold"
           }
         ]
@@ -133,7 +127,7 @@
                 "color": "muted"
               },
               {
-                "text": "подлежащее",
+                "text": "кто",
                 "color": "text"
               },
               {
@@ -141,98 +135,15 @@
                 "color": "muted"
               },
               {
-                "text": "Past Simple",
+                "text": "прошедшее / could / were",
                 "color": "info"
-              },
-              {
-                "text": "/ could / were",
-                "color": "muted"
               }
             ],
-            "accentColor": "term",
-            "drill": {
-              "slots": [
-                "I wish",
-                "подлежащее",
-                "Past Simple"
-              ],
-              "decoys": [
-                "will",
-                "V-ing"
-              ],
-              "examples": [
-                {
-                  "en": "I wish I had more time.",
-                  "ru": "Жаль, что у меня мало времени.",
-                  "parts": [
-                    [
-                      "I wish",
-                      "I wish"
-                    ],
-                    [
-                      "I",
-                      "подлежащее"
-                    ],
-                    [
-                      "had",
-                      "Past Simple"
-                    ],
-                    [
-                      "more time.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "I wish you lived closer.",
-                  "ru": "Жаль, что ты живёшь не ближе.",
-                  "parts": [
-                    [
-                      "I wish",
-                      "I wish"
-                    ],
-                    [
-                      "you",
-                      "подлежащее"
-                    ],
-                    [
-                      "lived",
-                      "Past Simple"
-                    ],
-                    [
-                      "closer.",
-                      ""
-                    ]
-                  ]
-                },
-                {
-                  "en": "I wish it was summer.",
-                  "ru": "Хотелось бы, чтобы сейчас было лето.",
-                  "parts": [
-                    [
-                      "I wish",
-                      "I wish"
-                    ],
-                    [
-                      "it",
-                      "подлежащее"
-                    ],
-                    [
-                      "was",
-                      "Past Simple"
-                    ],
-                    [
-                      "summer.",
-                      ""
-                    ]
-                  ]
-                }
-              ]
-            }
+            "accentColor": "term"
           }
         },
         {
-          "title": "Примеры",
+          "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
             {
@@ -244,55 +155,35 @@
               "ru": "Жаль, что я не умею плавать."
             },
             {
-              "en": "I wish it were summer.",
-              "ru": "Хотелось бы, чтобы было лето."
+              "en": "I wish I didn't have to work today.",
+              "ru": "Жаль, что сегодня надо работать."
+            },
+            {
+              "en": "She wishes she were taller.",
+              "ru": "Ей хотелось бы быть повыше."
             }
           ]
         },
         {
-          "title": "Were для всех",
+          "title": "Were или was",
           "borderColor": "info",
           "callout": {
             "type": "info",
-            "title": "Книжно и в песнях",
-            "text": "I wish I were, he were. В разговоре часто was — это тоже нормально."
+            "title": "Оба правильные",
+            "text": "I wish I were taller и I wish I was taller — оба варианта верны. Were звучит официальнее, was — разговорнее."
           }
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "I wish I lived near the sea.",
-                "ru": "Жаль, что я живу не у моря."
-              },
-              {
-                "en": "I wish I didn't have to work today.",
-                "ru": "Жаль, что сегодня надо работать."
-              },
-              {
-                "en": "She wishes she were taller.",
-                "ru": "Ей хотелось бы быть повыше."
-              },
-              {
-                "en": "I wish I knew the answer.",
-                "ru": "Жаль, что я не знаю ответа."
-              }
-            ]
-          }
+          "title": "Не умею — could",
+          "borderColor": "term",
+          "text": "«Жаль, что не умею, не могу» — could: I wish I could drive. Would о себе не говорят."
         }
       ]
     },
     {
-      "label": "Wish о прошлом и о других",
+      "label": "О прошлом и о других",
       "intro": {
-        "text": "Жалеем о прошлом — Past Perfect. Хотим, чтобы КТО-ТО ДРУГОЙ вёл себя иначе, — would. О себе would не говорят.",
+        "text": "Жалеем о прошлом — Past Perfect: I wish I had studied harder. Хотим, чтобы кто-то другой вёл себя иначе или что-то изменилось, — would: I wish you would listen. О себе would не говорят.",
         "highlights": [
           {
             "text": "Past Perfect",
@@ -300,13 +191,13 @@
             "style": "bold"
           },
           {
-            "text": "КТО-ТО ДРУГОЙ",
+            "text": "would",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "would",
-            "color": "example",
+            "text": "О себе would не говорят",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -314,7 +205,7 @@
       "sections": [
         {
           "title": "Прошлое",
-          "borderColor": "good",
+          "borderColor": "term",
           "examples": [
             {
               "en": "I wish I hadn't said that.",
@@ -323,12 +214,16 @@
             {
               "en": "If only we had left earlier!",
               "ru": "Вот бы мы вышли раньше!"
+            },
+            {
+              "en": "I wish I had studied harder at school.",
+              "ru": "Жаль, что я плохо учился в школе."
             }
           ]
         },
         {
-          "title": "Раздражение",
-          "borderColor": "good",
+          "title": "Чужое поведение",
+          "borderColor": "info",
           "examples": [
             {
               "en": "I wish you would listen to me.",
@@ -337,47 +232,27 @@
             {
               "en": "I wish it would stop raining.",
               "ru": "Хоть бы дождь перестал."
+            },
+            {
+              "en": "I wish you wouldn't leave your shoes here.",
+              "ru": "Хоть бы ты не оставлял здесь обувь."
             }
           ]
-        }
-      ],
-      "expandables": [
+        },
         {
-          "label": "Ещё примеры",
-          "preview": "4 примера в речи",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "good",
-            "examples": [
-              {
-                "en": "I wish I had studied harder at school.",
-                "ru": "Жаль, что я плохо учился в школе."
-              },
-              {
-                "en": "If only I hadn't lost my keys!",
-                "ru": "Если бы только я не потерял ключи!"
-              },
-              {
-                "en": "I wish my neighbours would be quieter.",
-                "ru": "Хоть бы соседи вели себя потише."
-              },
-              {
-                "en": "I wish you wouldn't leave your shoes here.",
-                "ru": "Хоть бы ты не оставлял здесь обувь."
-              }
-            ]
-          }
+          "title": "Would — о том, что может измениться",
+          "borderColor": "term",
+          "text": "Would — о действии, которое человек мог бы изменить. О постоянных фактах — прошедшее: I wish he were taller, а не I wish he would be taller."
         }
       ]
     },
     {
-      "label": "Частые ошибки: wish I know, wish you will",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с wish.",
+        "text": "Частые ошибки с wish. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -390,32 +265,82 @@
           "errors": [
             {
               "wrong": "I wish I know the answer.",
-              "right": "I wish I knew the answer. (о настоящем — Past Simple)"
+              "right": "I wish I knew the answer. (прошедшее)"
             },
             {
               "wrong": "I wish I didn't go yesterday.",
-              "right": "I wish I hadn't gone yesterday. (о прошлом — Past Perfect)"
+              "right": "I wish I hadn't gone yesterday. (Past Perfect)"
             },
             {
               "wrong": "I wish I would be taller.",
-              "right": "I wish I were taller. (о себе would не ставят)"
+              "right": "I wish I were taller. (о себе — без would)"
             },
             {
               "wrong": "I wish you will come.",
-              "right": "I hope you will come. (о реальном будущем — hope)"
+              "right": "I hope you will come. (реальное будущее — hope)"
             }
           ]
         },
         {
-          "title": "Wish или hope",
+          "title": "Совет",
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Реальное будущее",
+            "title": "Wish или hope",
             "text": "Hope — надеюсь, что будет: I hope you pass. Wish — жаль, что не так: I wish you were here."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:wish.present",
+      "description": "О настоящем — прошедшее, could, were",
+      "slides": [
+        0,
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wish.past",
+      "description": "О прошлом — Past Perfect",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wish.would",
+      "description": "Чужое поведение — would; о себе — без would",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wish.hope",
+      "description": "Реальное будущее — hope, не wish",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_wish",
+    "word_hope"
+  ],
+  "prerequisites": [
+    "cards_conditionals",
+    "cards_pastperf"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -2580,6 +2580,64 @@
       "reviewed": false
     },
     {
+      "id": "a2_its_time",
+      "level": "A2",
+      "title": "It's time: пора",
+      "slices": [
+        {
+          "route": "cards_itstime",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_infinitive_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_it_takes",
+      "level": "A2",
+      "title": "It takes: сколько времени",
+      "slices": [
+        {
+          "route": "cards_ittakes",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_infinitive_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_let_someone",
+      "level": "A2",
+      "title": "Let: разрешить, let's",
+      "slices": [
+        {
+          "route": "cards_letsomeonedo",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_infinitive_core"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_verb_ing_to",
       "level": "A2",
       "title": "Enjoy doing, want to do",
@@ -2637,6 +2695,63 @@
       ],
       "prerequisites": [
         "a2_verb_ing_to"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_its_worth",
+      "level": "B1",
+      "title": "It's worth, no point",
+      "slices": [
+        {
+          "route": "cards_itsworth",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_gerund_noun"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_make_someone",
+      "level": "B1",
+      "title": "Make someone do",
+      "slices": [
+        {
+          "route": "cards_makesomeonedo",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_let_someone"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_get_someone_to",
+      "level": "B1",
+      "title": "Get someone to do",
+      "slices": [
+        {
+          "route": "cards_getsomeonetodo",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_make_someone"
       ],
       "reviewed": false
     },
@@ -3756,6 +3871,85 @@
       "reviewed": false
     },
     {
+      "id": "b1_be_used_to",
+      "level": "B1",
+      "title": "Be used to: уже привык",
+      "slices": [
+        {
+          "route": "cards_beusedto",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_usedto_vs_beused"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_get_used_to",
+      "level": "B1",
+      "title": "Get used to: привыкаю",
+      "slices": [
+        {
+          "route": "cards_getusedto",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_be_used_to"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_would_habits",
+      "level": "B1",
+      "title": "Would: бывало, мы…",
+      "slices": [
+        {
+          "route": "cards_wouldhabits",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_usedto_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_annoying_habits",
+      "level": "B2",
+      "title": "Вечно он…: привычки",
+      "slices": [
+        {
+          "route": "cards_annoyinghabits",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_cont_vs_simple",
+        "b1_would_habits"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_therewillbe_core",
       "level": "A2",
       "title": "There will be",
@@ -3936,6 +4130,25 @@
       "reviewed": false
     },
     {
+      "id": "b1_wish_present",
+      "level": "B1",
+      "title": "I wish: о настоящем",
+      "slices": [
+        {
+          "route": "cards_wish",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_cond_unreal"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "b2_cond_wish_linkers",
       "level": "B2",
       "title": "Wish, unless, in case",
@@ -3951,6 +4164,66 @@
         }
       ],
       "prerequisites": [
+        "b1_cond_unreal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_wish_past",
+      "level": "B2",
+      "title": "Wish: о прошлом, would",
+      "slices": [
+        {
+          "route": "cards_wish",
+          "revision": 1,
+          "slides": [
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_wish_present",
+        "b1_pastperf_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_its_high_time",
+      "level": "B2",
+      "title": "It's high time you…",
+      "slices": [
+        {
+          "route": "cards_itshightime",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_its_time",
+        "b1_cond_unreal"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_would_rather_past",
+      "level": "B2",
+      "title": "I'd rather you did",
+      "slices": [
+        {
+          "route": "cards_wouldratherpast",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_wouldrather_core",
         "b1_cond_unreal"
       ],
       "reviewed": false
@@ -4108,6 +4381,27 @@
       ],
       "prerequisites": [
         "a2_irregular_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_have_done",
+      "level": "B1",
+      "title": "Have something done",
+      "slices": [
+        {
+          "route": "cards_havesomethingdone",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_passive_core"
       ],
       "reviewed": false
     },
