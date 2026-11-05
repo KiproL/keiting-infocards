@@ -37,7 +37,6 @@ keiting-infocards/
 | `sentences/sentences_<уровень>.json` | общий банк предложений A1–C2 с переводом | задания к теории (`DrillEngine`), Кубик, Голос, Блиц |
 | `quotes/quotes.json` | цитаты дня с переводом и метками-темами | `QuoteRepository.kt` |
 | `texts/texts.json` | тексты 20–80 слов с переводом, словариком и вопросами | режим «Текст» |
-| `icons/` | иконки новых карточек и вторых и следующих частей: `.xml` (векторный ресурс Android) и `.svg`, соответствие — в `icons/index.json`, описание — в `icons/README.md` | пока не читается: нужен показ в приложении |
 | `tree/course.json` | **текущий** курс «Древо познания» 3.0: главы и уроки | `TreeScreen`, `ContentPack.kt` |
 | `tree/curriculum.json` | черновой план курса: цели по навыкам (`outcomes`) и учебные части тем (`units`) со ссылками на route, редакцию и слайды. Все части пока `reviewed=false` | `CurriculumRepository`, пакет «Программа Древа» |
 | `tree/tree.json` | старый формат Древа (узлы с теорией). Текущее приложение его не читает, но в нём есть тексты, которые ещё нужно сверить (см. `docs/learning/CURRICULUM.md` в Keiting) | — |

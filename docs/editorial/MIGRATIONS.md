@@ -557,3 +557,12 @@ gerund, infinitive, reportedspeech, activepassive: редакция 0 → 1. И�
 - **Показ иконок** сделан в приложении (коммит `cbb9a8c`), формат `icons/index.json` прежний.
 
 Действий от приложения не нужно.
+
+## M-029. Иконки перенесены в приложение — опубликовано
+
+- **Удалено из материалов:** папка `icons/` целиком: `index.json`, `cards/*.xml|svg`, `parts/*.xml|svg`, генератор и `preview.png`.
+- **Добавлено в приложение** (коммит `7a53374`): `res/drawable/icon_card_<имя>.xml` (11), `res/drawable/icon_part_<id>.xml` (67), таблица `feature/cards/CardIcons.kt`, генератор `tools/icons`.
+- **Убрано из приложения:** загрузка `icons/index.json`, `RemoteIcon`, зависимость `io.coil-kt:coil-svg`.
+- Route карточек и ID частей прежние.
+
+Старые версии приложения (коммит `cbb9a8c`) не найдут `icons/index.json` и покажут иконку папки, как до него. Ничего не ломается. Новую иконку теперь приносит новая версия приложения.
