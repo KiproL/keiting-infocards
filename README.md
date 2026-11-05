@@ -30,7 +30,7 @@ keiting-infocards/
 | Папка / файл | Что внутри | Где используется в приложении |
 |---|---|---|
 | `*pages.json` (корень) | карточка теории: `route`, `tenseName` (название), `slides` (слайды). Маршрут `cards_pastsimp` → файл `pastsimppages.json` | `feature/cards/remote/CardRoutes.kt` |
-| `cards/index.json` | карточки, которые появляются в приложении без обновления: id, папка (`constructions`, `communication`…), название, уровень (32 шт.) | `feature/cards/remote/CardIndex.kt` |
+| `cards/index.json` | карточки, которые появляются в приложении без обновления: id, папка (`constructions`, `communication`…), название, уровень (34 шт.) | `feature/cards/remote/CardIndex.kt` |
 | `dictionary/words_<уровень>.json` | слова уровня A1–C2: перевод, значения, примеры, связи | `ContentPack.kt` → словарь, «Мои слова», практика |
 | `dictionary/phrases_<уровень>.json` | фразы уровня | «Мои фразы», фраза дня, практика |
 | `dictionary/forms_<уровень>.json` | формы слов отдельными записями словаря (add → added, go → went) с переводом и примером | режим «Какая форма», карточка слова |
@@ -69,6 +69,7 @@ keiting-infocards/
 | `advancedidiomspages.json` | Продвинутые идиомы |
 | `advancedpassivepages.json` | Passive: продвинутый уровень |
 | `adverbcollocationspages.json` | Коллокации: deeply, highly |
+| `adverbspages.json` | Наречия: quickly, well |
 | `advicepages.json` | Как дать совет |
 | `advrelativepages.json` | Relative clauses: продвинутый уровень |
 | `alphabetpages.json` | Алфавит и диктовка по буквам |
@@ -220,6 +221,7 @@ keiting-infocards/
 | `phrasalbytopicpages.json` | Фразовые глаголы по темам |
 | `phrasalverbspages.json` | Phrasal Verbs |
 | `pluralnounspages.json` | Plural Nouns |
+| `possessivepages.json` | Притяжательный 's |
 | `postpages.json` | Почта и доставка |
 | `prefixespages.json` | Приставки |
 | `prepositionspages.json` | Предлоги: место, время, направление |

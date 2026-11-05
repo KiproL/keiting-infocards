@@ -1,0 +1,470 @@
+{
+  "tenseName": "Наречия: quickly, well",
+  "route": "cards_adverbs",
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "slides": [
+    {
+      "label": "Careful или carefully",
+      "intro": {
+        "text": "Прилагательное отвечает на вопрос «какой?» и описывает человека или предмет: a careful driver — осторожный водитель. Наречие отвечает на вопрос «как?» и описывает действие: She drives carefully — она водит осторожно. Чаще всего наречие — это прилагательное + -ly.",
+        "highlights": [
+          {
+            "text": "«какой?»",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "«как?»",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "прилагательное + -ly",
+            "color": "example",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "глагол",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "наречие",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "глагол",
+                "наречие"
+              ],
+              "decoys": [
+                "прилагательное",
+                "V-ing"
+              ],
+              "examples": [
+                {
+                  "en": "She drives carefully.",
+                  "ru": "Она водит осторожно.",
+                  "parts": [
+                    [
+                      "She",
+                      ""
+                    ],
+                    [
+                      "drives",
+                      "глагол"
+                    ],
+                    [
+                      "carefully.",
+                      "наречие"
+                    ]
+                  ]
+                },
+                {
+                  "en": "He speaks quietly.",
+                  "ru": "Он говорит тихо.",
+                  "parts": [
+                    [
+                      "He",
+                      ""
+                    ],
+                    [
+                      "speaks",
+                      "глагол"
+                    ],
+                    [
+                      "quietly.",
+                      "наречие"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Какой или как",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Какой? — прилагательное",
+              "Как? — наречие"
+            ],
+            "headerColors": [
+              "info",
+              "term"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "a careful driver",
+                  "She drives carefully."
+                ]
+              },
+              {
+                "cells": [
+                  "a quiet voice",
+                  "He speaks quietly."
+                ]
+              },
+              {
+                "cells": [
+                  "a bad singer",
+                  "She sings badly."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Где стоит наречие",
+          "borderColor": "term",
+          "text": "Наречие образа действия обычно стоит после глагола, а если есть дополнение — после него: She speaks English well, а не She speaks well English.",
+          "examples": [
+            {
+              "en": "He opened the door slowly.",
+              "ru": "Он медленно открыл дверь."
+            },
+            {
+              "en": "They answered all the questions correctly.",
+              "ru": "Они правильно ответили на все вопросы."
+            }
+          ]
+        },
+        {
+          "title": "Look, feel, taste + прилагательное",
+          "borderColor": "bad",
+          "text": "После be, look, seem, feel, sound, taste, smell ставим прилагательное: оно описывает подлежащее, а не действие. Но если look значит «смотреть», нужно наречие.",
+          "examples": [
+            {
+              "en": "You look tired.",
+              "ru": "Ты выглядишь усталым: какой ты?"
+            },
+            {
+              "en": "The soup tastes good.",
+              "ru": "Суп вкусный."
+            },
+            {
+              "en": "She looked at me angrily.",
+              "ru": "Она сердито на меня посмотрела: как смотрела?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "-ly: как пишется",
+      "intro": {
+        "text": "Обычно просто добавляем -ly: quick → quickly. Но у некоторых окончаний есть свои правила написания.",
+        "highlights": [
+          {
+            "text": "-ly",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "свои правила",
+            "color": "example",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Правила",
+          "borderColor": "term",
+          "rules": [
+            {
+              "name": "Большинство",
+              "suffix": "+ ly",
+              "example": "quick → quickly, bad → badly"
+            },
+            {
+              "name": "-y",
+              "suffix": "y → ily",
+              "example": "easy → easily, happy → happily"
+            },
+            {
+              "name": "-le",
+              "suffix": "e → y",
+              "example": "gentle → gently, terrible → terribly"
+            },
+            {
+              "name": "-ic",
+              "suffix": "+ ally",
+              "example": "basic → basically"
+            },
+            {
+              "name": "-ful",
+              "suffix": "+ ly",
+              "example": "careful → carefully"
+            }
+          ]
+        },
+        {
+          "title": "Не каждое -ly — наречие",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Friendly, lovely, lonely",
+            "text": "Friendly, lovely, lonely, silly, ugly — прилагательные: a friendly smile. «Дружелюбно» — in a friendly way."
+          }
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "She smiled happily.",
+              "ru": "Она радостно улыбнулась."
+            },
+            {
+              "en": "You can do it easily.",
+              "ru": "Ты легко с этим справишься."
+            },
+            {
+              "en": "He spoke gently to the child.",
+              "ru": "Он мягко говорил с ребёнком."
+            },
+            {
+              "en": "She always smiles in a friendly way.",
+              "ru": "Она всегда приветливо улыбается."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Good — well, fast, hard",
+      "intro": {
+        "text": "Несколько частых наречий не получают -ly. Good превращается в well, а fast, hard, late и early не меняются: a fast car — He drives fast.",
+        "highlights": [
+          {
+            "text": "Good превращается в well",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "не меняются",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Особые наречия",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Прилагательное",
+              "Наречие",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "good",
+                  "well",
+                  "She sings well."
+                ]
+              },
+              {
+                "cells": [
+                  "fast",
+                  "fast",
+                  "He runs fast."
+                ]
+              },
+              {
+                "cells": [
+                  "hard",
+                  "hard",
+                  "They work hard."
+                ]
+              },
+              {
+                "cells": [
+                  "late",
+                  "late",
+                  "The bus came late."
+                ]
+              },
+              {
+                "cells": [
+                  "early",
+                  "early",
+                  "I got up early."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Hardly и lately — другие слова",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Не наречия от hard и late",
+            "text": "Hardly значит «едва», lately — «в последнее время»: I can hardly hear you. Подробнее — в карточке «Hard / hardly, late / lately»."
+          }
+        },
+        {
+          "title": "Well о здоровье",
+          "borderColor": "term",
+          "text": "В значении «здоров» well — прилагательное: I'm well, thanks. В разговоре на How are you? часто отвечают I'm good — это тоже нормально.",
+          "examples": [
+            {
+              "en": "She's a good cook — she cooks well.",
+              "ru": "Она хорошо готовит."
+            },
+            {
+              "en": "He works hard.",
+              "ru": "Он много и усердно работает."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Частые ошибки",
+      "intro": {
+        "text": "Частые ошибки с наречиями. Справа — как правильно и почему.",
+        "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "He speaks English very good.",
+              "right": "He speaks English very well. (как? — well)"
+            },
+            {
+              "wrong": "She drives careful.",
+              "right": "She drives carefully. (как? — наречие)"
+            },
+            {
+              "wrong": "He works hardly.",
+              "right": "He works hard. (hardly — «едва»)"
+            },
+            {
+              "wrong": "You look sadly.",
+              "right": "You look sad. (после look — «какой?»)"
+            },
+            {
+              "wrong": "She speaks well English.",
+              "right": "She speaks English well. (наречие — после English)"
+            },
+            {
+              "wrong": "The train arrived lately.",
+              "right": "The train arrived late. (lately — «недавно»)"
+            },
+            {
+              "wrong": "He talks friendly.",
+              "right": "He talks in a friendly way. (friendly — «какой?»)"
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой ориентир",
+            "text": "Задай вопрос. «Какой?» — прилагательное. «Как?» — наречие. После look, feel, taste — снова «какой?»."
+          }
+        }
+      ]
+    }
+  ],
+  "error_patterns": [
+    {
+      "id": "error:adverbs.ly",
+      "description": "Как? — наречие, какой? — прилагательное",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:adverbs.spelling",
+      "description": "Написание -ly: easily, gently, basically",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:adverbs.irregular",
+      "description": "good → well; fast, hard, late, early без -ly",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:adverbs.linking",
+      "description": "После look, feel, taste — прилагательное",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:adverbs.position",
+      "description": "Наречие — после глагола и дополнения",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "prerequisites": [
+    "cards_comparisons",
+    "cards_wordorder"
+  ],
+  "prerequisites_reviewed": false,
+  "related_words": [
+    "word_well",
+    "word_hard",
+    "word_fast",
+    "word_late",
+    "word_early",
+    "word_a2_carefully",
+    "word_quickly"
+  ]
+}

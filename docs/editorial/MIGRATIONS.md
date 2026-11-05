@@ -467,3 +467,14 @@ presentperfcont, pastperf, tooto, sosuch, wouldprefer, wouldrather, presentforfu
 - `b1_timeclauses_core`.
 
 Действий от приложения не нужно.
+
+## M-022. Две новые карточки — совместимо, опубликовано
+
+- **Новые файлы:** `possessivepages.json` (`cards_possessive`) и `adverbspages.json` (`cards_adverbs`), редакция 1.
+- **Строки в `cards/index.json`:** приложение показывает такие карточки без обновления.
+- **Новые задания:**
+  - `possessive_r1_<слайд>_<n>`;
+  - `adverbs_r1_<слайд>_<n>`.
+- **Новые части:** `a1_possessive_core`, `a2_adverbs_manner`.
+
+Прежние route, ID и индексы слайдов не менялись. Действий от приложения не нужно.

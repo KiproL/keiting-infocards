@@ -1,0 +1,466 @@
+{
+  "tenseName": "Притяжательный 's",
+  "route": "cards_possessive",
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "slides": [
+    {
+      "label": "Anna's bag: чей",
+      "intro": {
+        "text": "По-русски говорим «сумка Анны». По-английски владельца ставят перед предметом и добавляют 's: Anna's bag. Апостроф (') — значок над строкой, который отделяет 's от имени.",
+        "highlights": [
+          {
+            "text": "владельца ставят перед предметом",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Anna's bag",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "Апостроф (')",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Формула",
+          "borderColor": "term",
+          "formulaCard": {
+            "parts": [
+              {
+                "text": "владелец + 's",
+                "color": "info"
+              },
+              {
+                "text": "+",
+                "color": "muted"
+              },
+              {
+                "text": "предмет",
+                "color": "example"
+              }
+            ],
+            "accentColor": "term",
+            "drill": {
+              "slots": [
+                "владелец + 's",
+                "предмет"
+              ],
+              "decoys": [
+                "of",
+                "the"
+              ],
+              "examples": [
+                {
+                  "en": "This is Tom's phone.",
+                  "ru": "Это телефон Тома.",
+                  "parts": [
+                    [
+                      "This is",
+                      ""
+                    ],
+                    [
+                      "Tom's",
+                      "владелец + 's"
+                    ],
+                    [
+                      "phone.",
+                      "предмет"
+                    ]
+                  ]
+                },
+                {
+                  "en": "My sister's name is Kate.",
+                  "ru": "Мою сестру зовут Кейт.",
+                  "parts": [
+                    [
+                      "My",
+                      ""
+                    ],
+                    [
+                      "sister's",
+                      "владелец + 's"
+                    ],
+                    [
+                      "name",
+                      "предмет"
+                    ],
+                    [
+                      "is Kate.",
+                      ""
+                    ]
+                  ]
+                },
+                {
+                  "en": "Is this your dad's car?",
+                  "ru": "Это машина твоего папы?",
+                  "parts": [
+                    [
+                      "Is this your",
+                      ""
+                    ],
+                    [
+                      "dad's",
+                      "владелец + 's"
+                    ],
+                    [
+                      "car?",
+                      "предмет"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "С русского",
+          "borderColor": "good",
+          "transforms": [
+            {
+              "from": "сумка Анны",
+              "to": "Anna's bag",
+              "toColor": "good"
+            },
+            {
+              "from": "машина моего брата",
+              "to": "my brother's car",
+              "toColor": "good"
+            },
+            {
+              "from": "имя учителя",
+              "to": "the teacher's name",
+              "toColor": "good"
+            }
+          ]
+        },
+        {
+          "title": "Живые примеры",
+          "borderColor": "good",
+          "examples": [
+            {
+              "en": "This is Tom's phone.",
+              "ru": "Это телефон Тома."
+            },
+            {
+              "en": "My sister's name is Kate.",
+              "ru": "Мою сестру зовут Кейт."
+            },
+            {
+              "en": "Is this your dad's car?",
+              "ru": "Это машина твоего папы?"
+            },
+            {
+              "en": "Liam is Anne and Gary's son.",
+              "ru": "Лиам — сын Энн и Гэри: общий владелец, 's один раз в конце."
+            }
+          ]
+        },
+        {
+          "title": "'s — это не всегда «чей»",
+          "borderColor": "term",
+          "text": "'s бывает и сокращением is: Anna's here = Anna is here. Различаем по следующему слову: дальше предмет (Anna's bag) — это «чей»; дальше место, состояние или -ing (Anna's at home, Anna's tired) — это is.",
+          "examples": [
+            {
+              "en": "Anna's bag is red.",
+              "ru": "Сумка Анны красная: чей."
+            },
+            {
+              "en": "Anna's at work.",
+              "ru": "Анна на работе: is."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Много владельцев",
+      "intro": {
+        "text": "Если владельцев несколько и слово уже кончается на -s, добавляем только апостроф: my parents' house — дом моих родителей. Если во множественном числе нет -s (children, men, people), ставим 's: the children's toys.",
+        "highlights": [
+          {
+            "text": "только апостроф",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "my parents' house",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "ставим 's",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Сколько владельцев",
+          "borderColor": "info",
+          "table": {
+            "headers": [
+              "Владелец",
+              "Пишем",
+              "Пример"
+            ],
+            "headerColors": [
+              "info",
+              "term",
+              "example"
+            ],
+            "borderColor": "info",
+            "rows": [
+              {
+                "cells": [
+                  "один: brother",
+                  "'s",
+                  "my brother's room"
+                ]
+              },
+              {
+                "cells": [
+                  "несколько: brothers",
+                  "'",
+                  "my brothers' room"
+                ]
+              },
+              {
+                "cells": [
+                  "мн. ч. без -s: children",
+                  "'s",
+                  "the children's room"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Слышим одинаково, пишем по-разному",
+          "borderColor": "term",
+          "text": "Sister's и sisters' произносятся одинаково. Разницу видно только на письме — по месту апострофа.",
+          "examples": [
+            {
+              "en": "my sister's friends",
+              "ru": "друзья моей сестры — сестра одна"
+            },
+            {
+              "en": "my sisters' friends",
+              "ru": "друзья моих сестёр — их несколько"
+            }
+          ]
+        },
+        {
+          "title": "Имена на -s",
+          "borderColor": "info",
+          "text": "Если имя кончается на -s, правильны оба варианта: James's bag и James' bag.",
+          "examples": [
+            {
+              "en": "The twins' school is closed today.",
+              "ru": "Школа близнецов сегодня закрыта."
+            },
+            {
+              "en": "These are men's shoes.",
+              "ru": "Это мужская обувь."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Whose и of",
+      "intro": {
+        "text": "Спросить «чей?» — Whose …?: Whose bag is this? — It's Anna's. Когда владелец — не человек и не животное, обычно говорят через of: the top of the page — верх страницы.",
+        "highlights": [
+          {
+            "text": "Whose …?",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "It's Anna's",
+            "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "через of",
+            "color": "term",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Вопрос Whose",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "Whose phone is this?",
+              "ru": "Чей это телефон?"
+            },
+            {
+              "en": "Whose is this coat? — It's Tom's.",
+              "ru": "Чьё это пальто? — Тома."
+            },
+            {
+              "en": "Who's that man? — It's my uncle.",
+              "ru": "Кто этот мужчина? — Мой дядя: who's = who is."
+            }
+          ]
+        },
+        {
+          "title": "Whose или who's",
+          "borderColor": "bad",
+          "callout": {
+            "type": "warning",
+            "title": "Звучат одинаково",
+            "text": "Whose — «чей». Who's — сокращение who is или who has. Проверка: можно ли сказать who is? Если да — who's."
+          }
+        },
+        {
+          "title": "Люди — 's, предметы — of",
+          "borderColor": "term",
+          "text": "'s обычно ставят, когда владелец — человек, животное или группа людей. С предметами говорят через of или соединяют два существительных: the top of the page, the car door.",
+          "examples": [
+            {
+              "en": "my friend's house",
+              "ru": "дом моего друга — человек"
+            },
+            {
+              "en": "the top of the page",
+              "ru": "верх страницы — предмет"
+            },
+            {
+              "en": "today's newspaper",
+              "ru": "сегодняшняя газета: со словами времени 's тоже бывает"
+            }
+          ]
+        },
+        {
+          "title": "At Anna's, at the doctor's",
+          "borderColor": "info",
+          "text": "Иногда предмет после 's не называют: at Anna's — у Анны дома, at the doctor's — у врача, в кабинете врача.",
+          "examples": [
+            {
+              "en": "Let's meet at Anna's.",
+              "ru": "Давай встретимся у Анны."
+            },
+            {
+              "en": "I'm at the doctor's now.",
+              "ru": "Я сейчас у врача."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Частые ошибки",
+      "intro": {
+        "text": "Частые ошибки с притяжательным 's. Справа — как правильно и почему.",
+        "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "the car of my father",
+              "right": "my father's car (владелец — человек: 's)"
+            },
+            {
+              "wrong": "This is the book of Anna.",
+              "right": "This is Anna's book. (владелец — перед предметом)"
+            },
+            {
+              "wrong": "my parent's house (их двое)",
+              "right": "my parents' house (несколько — апостроф после s)"
+            },
+            {
+              "wrong": "the childrens' toys",
+              "right": "the children's toys (children уже мн. ч.)"
+            },
+            {
+              "wrong": "Who's bag is this?",
+              "right": "Whose bag is this? (чей — whose)"
+            },
+            {
+              "wrong": "Annas bag",
+              "right": "Anna's bag (нужен апостроф)"
+            }
+          ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простой ориентир",
+            "text": "Сначала владелец, потом предмет. Один владелец — 's. Несколько на -s — только '. Предмет-владелец — of."
+          }
+        }
+      ]
+    }
+  ],
+  "error_patterns": [
+    {
+      "id": "error:possessive.singular",
+      "description": "Один владелец — 's перед предметом",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:possessive.plural",
+      "description": "Несколько на -s — только '; children, men — 's",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:possessive.whose",
+      "description": "Чей — whose, а не who's",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:possessive.of",
+      "description": "Владелец-предмет — of",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "prerequisites": [
+    "cards_pluralnouns",
+    "cards_pronouns"
+  ],
+  "prerequisites_reviewed": false,
+  "related_words": [
+    "word_a2_whose",
+    "word_of"
+  ]
+}
