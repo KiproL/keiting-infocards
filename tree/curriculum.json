@@ -4660,6 +4660,548 @@
         "a2_tech_practice"
       ],
       "reviewed": false
+    },
+    {
+      "id": "a2_uk_us_words",
+      "level": "A2",
+      "title": "Flat и apartment",
+      "slices": [
+        {
+          "route": "cards_britishamerican",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a2_uk_us_spelling",
+      "level": "A2",
+      "title": "Colour и color",
+      "slices": [
+        {
+          "route": "cards_britishamerican",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "b1_uk_us_grammar",
+      "level": "B1",
+      "title": "UK и US: грамматика",
+      "slices": [
+        {
+          "route": "cards_britishamerican",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_havegot_vs_have",
+        "a1_past_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_uk_us_sound",
+      "level": "B1",
+      "title": "UK и US: произношение",
+      "slices": [
+        {
+          "route": "cards_britishamerican",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "intro_reading_r"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_uk_us_practice",
+      "level": "B1",
+      "title": "UK и US в речи",
+      "slices": [
+        {
+          "route": "cards_britishamerican",
+          "revision": 1,
+          "slides": [
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_uk_us_words",
+        "b1_uk_us_grammar"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_colloc_intro",
+      "level": "A2",
+      "title": "Слова парами",
+      "slices": [
+        {
+          "route": "cards_collocations",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "a2_colloc_verbs",
+      "level": "A2",
+      "title": "Make, do, take",
+      "slices": [
+        {
+          "route": "cards_collocations",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_colloc_intro"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_colloc_adjectives",
+      "level": "A2",
+      "title": "Heavy rain, strong wind",
+      "slices": [
+        {
+          "route": "cards_collocations",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_colloc_intro"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_colloc_practice",
+      "level": "A2",
+      "title": "Сочетания в речи",
+      "slices": [
+        {
+          "route": "cards_collocations",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_colloc_verbs",
+        "a2_colloc_adjectives"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_colloc_review",
+      "level": "A2",
+      "title": "Сочетания: проверка",
+      "slices": [
+        {
+          "route": "cards_collocations",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_colloc_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_idioms_intro",
+      "level": "B1",
+      "title": "Что такое идиома",
+      "slices": [
+        {
+          "route": "cards_idioms",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "reviewed": false
+    },
+    {
+      "id": "b1_idioms_pairs",
+      "level": "B1",
+      "title": "Идиомы: как у нас",
+      "slices": [
+        {
+          "route": "cards_idioms",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_idioms_intro"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_idioms_register",
+      "level": "B1",
+      "title": "Идиомы в меру",
+      "slices": [
+        {
+          "route": "cards_idioms",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_idioms_intro"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_idioms_practice",
+      "level": "B1",
+      "title": "Идиомы в речи",
+      "slices": [
+        {
+          "route": "cards_idioms",
+          "revision": 1,
+          "slides": [
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_idioms_pairs",
+        "b1_idioms_register"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_strongadj_words",
+      "level": "A2",
+      "title": "Вместо very",
+      "slices": [
+        {
+          "route": "cards_strongadjectives",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_strongadj_very",
+      "level": "A2",
+      "title": "Very или absolutely",
+      "slices": [
+        {
+          "route": "cards_strongadjectives",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_strongadj_words"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_strongadj_practice",
+      "level": "A2",
+      "title": "Сильные слова в речи",
+      "slices": [
+        {
+          "route": "cards_strongadjectives",
+          "revision": 1,
+          "slides": [
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_strongadj_very"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_strongadj_review",
+      "level": "A2",
+      "title": "Сильные: проверка",
+      "slices": [
+        {
+          "route": "cards_strongadjectives",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_strongadj_practice"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_goingto_form",
+      "level": "A1",
+      "title": "Планы: going to",
+      "slices": [
+        {
+          "route": "cards_begoingto",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_goingto_will",
+      "level": "A2",
+      "title": "Going to или will",
+      "slices": [
+        {
+          "route": "cards_begoingto",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_goingto_form"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_goingto_review",
+      "level": "A2",
+      "title": "Going to: проверка",
+      "slices": [
+        {
+          "route": "cards_begoingto",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_goingto_will"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_therewas_core",
+      "level": "A1",
+      "title": "Что где было",
+      "slices": [
+        {
+          "route": "cards_therewaswere",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_there_core",
+        "a1_past_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_therewas_negq",
+      "level": "A1",
+      "title": "Was there…?",
+      "slices": [
+        {
+          "route": "cards_therewaswere",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_therewas_core",
+        "a1_there_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_therewas_review",
+      "level": "A1",
+      "title": "There was: проверка",
+      "slices": [
+        {
+          "route": "cards_therewaswere",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_therewas_negq"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_wouldlike_core",
+      "level": "A1",
+      "title": "Вежливое «хочу»",
+      "slices": [
+        {
+          "route": "cards_wouldlike",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_wouldlike_questions",
+      "level": "A1",
+      "title": "Would you like…?",
+      "slices": [
+        {
+          "route": "cards_wouldlike",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_wouldlike_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_wouldlike_review",
+      "level": "A1",
+      "title": "Would like: проверка",
+      "slices": [
+        {
+          "route": "cards_wouldlike",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_wouldlike_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_fewlittle_core",
+      "level": "A2",
+      "title": "Few, little, a few",
+      "slices": [
+        {
+          "route": "cards_fewlittle",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_det_many_much"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_fewlittle_talk",
+      "level": "A2",
+      "title": "Not many, not much",
+      "slices": [
+        {
+          "route": "cards_fewlittle",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_fewlittle_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_fewlittle_review",
+      "level": "A2",
+      "title": "Few, little: проверка",
+      "slices": [
+        {
+          "route": "cards_fewlittle",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_fewlittle_talk"
+      ],
+      "reviewed": false
     }
   ]
 }
