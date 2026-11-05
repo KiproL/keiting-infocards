@@ -30,7 +30,7 @@ keiting-infocards/
 | Папка / файл | Что внутри | Где используется в приложении |
 |---|---|---|
 | `*pages.json` (корень) | карточка теории: `route`, `tenseName` (название), `slides` (слайды). Маршрут `cards_pastsimp` → файл `pastsimppages.json` | `feature/cards/remote/CardRoutes.kt` |
-| `cards/index.json` | карточки, которые появляются в приложении без обновления: id, папка (`constructions`, `communication`…), название, уровень (43 шт.) | `feature/cards/remote/CardIndex.kt` |
+| `cards/index.json` | карточки, которые появляются в приложении без обновления: id, папка (`constructions`, `communication`…), название, уровень (44 шт.) | `feature/cards/remote/CardIndex.kt` |
 | `dictionary/words_<уровень>.json` | слова уровня A1–C2: перевод, значения, примеры, связи | `ContentPack.kt` → словарь, «Мои слова», практика |
 | `dictionary/phrases_<уровень>.json` | фразы уровня | «Мои фразы», фраза дня, практика |
 | `dictionary/forms_<уровень>.json` | формы слов отдельными записями словаря (add → added, go → went) с переводом и примером | режим «Какая форма», карточка слова |

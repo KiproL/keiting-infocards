@@ -827,3 +827,12 @@ Reported speech и Active / Passive разделены на части без п
 | subjunctive | `c1_subjunctive` | C1 | b1_wish_present |
 
 `c1_inversion` опирается на `a1_simple_questions`: порядок слов как в вопросе. `c1_inversion_if` — на `c1_inversion` и `b2_mixed_conditionals`. `b2_passive_phrasal` — на `b2_passive_get`.
+
+## Новая карточка: сленг
+
+| Часть | Уровень | Слайды | Что |
+|---|---|---|---|
+| `b1_slang` | B1 | 0 Сленг: где можно; 1 Обращения; 2 Оценки; 3 Глаголы; 6 Частые ошибки | где уместен сленг, mate / dude, cool / sick, hang out / crash at |
+| `b2_slang_uk_net` | B2 | 4 Британский и американский; 5 Интернет; 6 Частые ошибки | knackered, gutted, skint, quid, bucks; vibe, cringe, lowkey, no cap |
+
+Предпосылки: `b1_slang` ← `a2_uk_us_words`; `b2_slang_uk_net` ← `b1_slang`.

@@ -30,7 +30,7 @@
 
 ## Статус карточек
 
-**Полностью переработано: 146 из 242** (135 прежних карточек и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 96.
+**Полностью переработано: 147 из 243** (135 прежних карточек и 12 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 96.
 
 | Карточка | Ред. | Проверено | Исправлено | Части | Задания | Связи | Нужна поддержка приложения |
 |---|---|---|---|---|---|---|---|
@@ -180,6 +180,7 @@
 | cards_reportingverbs | 1 | да | да | 1 | 24 | да | нет (M-028) |
 | cards_subjunctive | 1 | да | да | 1 | 41 | да | нет (M-028) |
 | cards_unlessincase | 1 | да | да | 1 | 19 | да | нет (M-028) |
+| cards_slang | 1 | да | да | 2 | 41 | да | нет (M-030) |
 | остальные 96 | 0 | нет | нет | нет | нет | нет | — |
 
 «Связи» означает: проверены error_patterns и теги, привязка заданий к слайдам, `related_words`, предпосылки карточки. У лексических карточек — ещё `target_words`. У alphabet и readingrules связей со словарём нет: они о буквах и чтении, а не о словах. Поэтому там «частично».
@@ -1832,6 +1833,57 @@ M-028: индексы слайдов и привязка заданий преж
 - Проверка «не меньше 4 заданий на слайд части»: 0 слайдов меньше нормы.
 - layout.js и fit.js: без замечаний после правок.
 - Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
+
+## Новая карточка: сленг
+
+`slangpages.json`, «Сленг: cool, mate, hang out», папка «Лексика», редакция 1. Темы раньше не было: сленг упоминался только как признак стиля в «Официальные и разговорные слова» и в «Сокращения в переписке».
+
+### Готовое содержание
+
+- **7 слайдов:**
+  - «Сленг: где можно» — три стиля одного слова (exhausted, worn out, beat), где сленг уместен, что он быстро стареет;
+  - «Обращения: mate, dude» — mate, dude, bro, buddy, you guys, What's up?;
+  - «Оценки: cool, sick» — cool, awesome, sick, legit, lame, sketchy, gross;
+  - «Глаголы: hang out» — hang out, chill, grab a bite, crash at, bail on, ghost, freak out, be broke, be into;
+  - «Британский и американский» — knackered, gutted, chuffed, skint, cheers, quid; beat, bucks;
+  - «Интернет: vibe, cringe» — vibe, cringe, lowkey, sus, no cap, slay, GOAT, FOMO, с предупреждением, что такие слова стареют быстрее всего;
+  - «Частые ошибки» — сленг в письме и с учителем, I'm sick вместо That's sick, hanged out, a gutted fan, five quids.
+- **Мата нет.** На первом слайде одна пометка: грубые слова полезно узнавать, но иностранцу их лучше не говорить.
+- Значения и пометки «брит.», «амер.», «после be» сверены по Oxford Learner's Dictionaries и Merriam-Webster.
+
+### Задания
+
+41 задание `slang_r1_<слайд>_<n>`, от 4 до 8 на слайд. Неверные варианты — неверные формы (hanged out, quids, sicked, lowkeys), а не другие слова сленга. Иначе, например, «Thanks, dude!» вместо «Thanks, mate!» тоже было бы правильно. Исключение — задания на уместность: в письме «Dear Ms Brown» и в просьбе к учителю сленговый вариант неверен по ситуации.
+
+### Готовая разметка частей
+
+- `b1_slang` (B1, слайды 0–3 и 6) — «Сленг: cool, mate», опирается на `a2_uk_us_words`.
+- `b2_slang_uk_net` (B2, слайды 4–6) — «Knackered, vibe, no cap», опирается на `b1_slang`.
+- Частей теперь 215.
+
+### Реализованное отображение
+
+- Только существующие блоки: правила, таблица в два столбца, примеры, ошибки. Сжатий нет, названия слайдов — не больше двух строк.
+- Иконки: `icon_card_slang` (тёмные очки) и `icon_part_b2_slang_uk_net` — в приложении, коммит `d608e26`. Без новой версии приложения у карточки будет иконка папки.
+
+### Необходимые миграции
+
+M-030: новая карточка, новые задания и части. Прежние route, ID и индексы не менялись.
+
+### Оставшиеся проблемы
+
+- **Сленг стареет.** Слайд «Интернет» стоит пересматривать раз в год-два.
+- **Словарь.** Карточка связана с 10 словами словаря: mate, cool, awesome, sick, crash, ghost, chill, vibe, cringe, dude. Слов knackered, gutted, skint, sus, no cap в словаре нет. Не добавлял: массовая правка словаря не входит в задание.
+
+### Источники
+
+- Oxford Learner's Dictionaries: [mate](https://www.oxfordlearnersdictionaries.com/definition/english/mate_1), [knackered](https://www.oxfordlearnersdictionaries.com/definition/english/knackered), [gutted](https://www.oxfordlearnersdictionaries.com/definition/english/gutted), [chuffed](https://www.oxfordlearnersdictionaries.com/definition/english/chuffed), [skint](https://www.oxfordlearnersdictionaries.com/definition/english/skint) — британское, informal, не перед существительным.
+- Merriam-Webster: [sick](https://www.merriam-webster.com/dictionary/sick) (slang: «outstandingly good»), [sketchy](https://www.merriam-webster.com/dictionary/sketchy), [ghost](https://www.merriam-webster.com/dictionary/ghost), [lowkey](https://www.merriam-webster.com/dictionary/lowkey), [sus](https://www.merriam-webster.com/dictionary/sus), [no cap](https://www.merriam-webster.com/slang/no-cap), [GOAT](https://www.merriam-webster.com/dictionary/GOAT), [bail](https://www.merriam-webster.com/dictionary/bail).
+
+### Проверки
+
+- audit-content и audit-curriculum: 243 карточки, 215 частей, 0 ошибок, 75 предупреждений, как и раньше.
+- node-тесты 15/15, check_card.py и сверка со схемой — без замечаний, layout.js и fit.js — без сжатий.
 
 ## Открытые вопросы и следующая партия
 
