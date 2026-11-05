@@ -742,3 +742,33 @@ Reported speech и Active / Passive разделены на части без п
 | wouldratherpast | `b2_would_rather_past` | B2 | b1_wouldrather_core, b1_cond_unreal |
 
 «Частые ошибки» — шаг своей части.
+
+## Партия 17
+
+**Be supposed to** — делится по уровню:
+
+| Часть | Уровень | Слайды | Что |
+|---|---|---|---|
+| `b1_supposed_to` | B1 | 0 Так положено; 2 Частые ошибки | be supposed to, was supposed to, not supposed to |
+| `b2_be_to` | B2 | 1 Be to: официально | be to + глагол: план, указание, «было суждено» |
+
+Карта содержания: всё сохранено. В слайд 1 дополнено, где говорят be to и чем его заменить в обычной речи. Перенесено и удалено ничего.
+
+**Остальные — по одной части:**
+
+| Карточка | Часть | Уровень | Предпосылки |
+|---|---|---|---|
+| beaboutto | `b1_about_to` | B1 | a2_goingto_will |
+| likelyto | `b2_likely_bound` | B2 | a2_modals_can |
+| becauseof | `a2_because_of` | A2 | a2_verb_ing_to |
+| whatabouthowabout | `a2_how_about` | A2 | a2_verb_ing_to |
+| idloveto | `a2_id_love_to` | A2 | a2_infinitive_core |
+| isitokayif | `a2_is_it_okay` | A2 | a1_simple_questions |
+| eachother | `a2_each_other` | A2 | a2_pronouns_reflexive |
+| thesameas | `a2_the_same_as` | A2 | a1_article_reference |
+| despite | `b1_despite` | B1 | a2_because_of |
+| inorderto | `b1_in_order_to` | B1 | a2_infinitive_core |
+| sothat | `b1_so_that` | B1 | b1_in_order_to, a2_modals_can |
+| likeunlike | `b1_like_unlike` | B1 | a2_the_same_as |
+| mightaswell | `b2_might_as_well` | B2 | a2_modals_can |
+

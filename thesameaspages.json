@@ -3,24 +3,19 @@
   "route": "cards_thesameas",
   "slides": [
     {
-      "label": "The same as: такой же, как",
+      "label": "Такой же, как",
       "intro": {
-        "text": "The same as — указание на полное сходство. «Такой же, как». Используется для сравнения двух предметов, людей или явлений.",
+        "text": "У подруги телефон той же модели, что у тебя: Her phone is the same as mine — «такой же, как мой». The same as — полное сходство: тот же самый предмет, имя, день. The — обязательно, а после same — as.",
         "highlights": [
           {
-            "text": "The same as",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "полное сходство",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "такой же, как",
+            "text": "Her phone is the same as mine",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "The — обязательно",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -210,22 +205,22 @@
       ]
     },
     {
-      "label": "The same as или as … as",
+      "label": "Same as или as…as",
       "intro": {
-        "text": "Оба про равенство, но по-разному. The same as — про идентичность предмета. As…as — про равенство качества.",
+        "text": "Оба оборота про равенство, но разное. The same as — тот же самый предмет: the same car. As … as — одинаковое качество: as fast as.",
         "highlights": [
           {
-            "text": "the same as",
+            "text": "The same as",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "as…as",
+            "text": "As … as",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "идентичность",
+            "text": "одинаковое качество",
             "color": "example",
             "style": "bold_underline"
           }
@@ -319,17 +314,18 @@
                 "ru": "Он не такой высокий, как брат."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: same as без the, same than",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в the same as.",
+        "text": "Частые ошибки с the same as. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -359,16 +355,51 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Простой тест",
-            "text": "После the same всегда идёт as, никогда than или like. Это железное правило."
-          },
-          "quote": {
-            "text": "The same as — это про идентичность, а не про похожесть.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "title": "Простая проверка",
+            "text": "После the same — as, а не than и не like. Без as — если сравнения нет: We go to the same school."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:thesameas.the",
+      "description": "the same — с the",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:thesameas.as",
+      "description": "после the same — as, не than и не like",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:thesameas.asas",
+      "description": "одно качество — as … as",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_same"
+  ],
+  "prerequisites": [
+    "cards_articles"
+  ],
+  "prerequisites_reviewed": false
 }

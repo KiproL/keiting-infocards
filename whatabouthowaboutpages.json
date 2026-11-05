@@ -3,29 +3,19 @@
   "route": "cards_whatabouthowabout",
   "slides": [
     {
-      "label": "What about / How about: «как насчёт»",
+      "label": "Как насчёт…?",
       "intro": {
-        "text": "What about / How about значат одно и то же — неформальное предложение что-то сделать. После них либо -ing, либо существительное.",
+        "text": "Друзья скучают, ты предлагаешь: How about going to the cinema? — «как насчёт кино?». What about и How about значат одно и то же — лёгкое предложение. После них — -ing или существительное.",
         "highlights": [
           {
-            "text": "What about / How about",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "неформальное",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "-ing",
+            "text": "How about going to the cinema?",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "существительное",
-            "color": "bad",
-            "style": "bold"
+            "text": "-ing или существительное",
+            "color": "term",
+            "style": "bold_underline"
           }
         ]
       },
@@ -177,6 +167,11 @@
               "ru": "Как насчёт завтра вечером?"
             }
           ]
+        },
+        {
+          "title": "How about we…",
+          "borderColor": "term",
+          "text": "В разговоре после How about бывает и целая фраза: How about we order a pizza? Это тоже правильно."
         }
       ],
       "expandables": [
@@ -235,17 +230,18 @@
               "text": "What about Anna? — А как же Анна? Так напоминают о ком-то забытом."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: How about go, What about to have",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в What / How about.",
+        "text": "Частые ошибки с what about и how about. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -276,15 +272,40 @@
           "callout": {
             "type": "tip",
             "title": "Простой тест",
-            "text": "После What about и How about никогда не ставится to. Только -ing или существительное."
-          },
-          "quote": {
-            "text": "How about — это приглашение без нажима.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "После What about и How about не ставят to: только -ing, существительное или, в разговоре, целую фразу."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:whatabouthowabout.ing",
+      "description": "После about — -ing, без to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:whatabouthowabout.noun",
+      "description": "После about — существительное или местоимение",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_about"
+  ],
+  "prerequisites": [
+    "cards_gerund"
+  ],
+  "prerequisites_reviewed": false
 }

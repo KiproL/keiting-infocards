@@ -534,3 +534,14 @@ gerund, infinitive, reportedspeech, activepassive: редакция 0 → 1. И�
 - **Исправление данных партии 15:** в `perceptionpages.json` поле `formula` → `formulaCard`. Без этого карточка не загрузилась бы.
 
 Действий от приложения не нужно.
+
+## M-027. Партия 17 — совместимо, опубликовано
+
+- **Редакция 0 → 1:** beaboutto, besupposedto, likelyto, becauseof, despite, inorderto, sothat, whatabouthowabout, idloveto, isitokayif, mightaswell, eachother, thesameas, likeunlike. Индексы и темы слайдов прежние.
+- **Перепривязки нет.** Задания остались на своих слайдах.
+- **Изменён формат 4 заданий:** `thesameas_0_1`, `thesameas_0_3`, `thesameas_1_0`, `thesameas_1_3` — вместо двух пропусков один. ID прежние.
+- **Новые части:** 15, по PARTS.md. Раньше этих карточек в учебном плане не было, засчитывать нечего.
+- **Новая иконка:** `icons/parts/b2_be_to`.
+
+Действий от приложения не нужно.
+

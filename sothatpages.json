@@ -3,23 +3,23 @@
   "route": "cards_sothat",
   "slides": [
     {
-      "label": "So that: «чтобы» + кто-то",
+      "label": "Чтобы кто-то мог",
       "intro": {
-        "text": "So that — указание цели действия. Отвечает на вопрос «зачем?». После него часто используется модальный глагол (can, could, will, would).",
+        "text": "Говоришь громче, чтобы все слышали: Speak louder so that everyone can hear. So that отвечает на вопрос «зачем?». После него — подлежащее и чаще всего can, could, will или would.",
         "highlights": [
           {
-            "text": "So that",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "цели",
-            "color": "info",
+            "text": "Speak louder so that everyone can hear",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "зачем?",
-            "color": "example",
+            "text": "«зачем?»",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "can, could, will или would",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -148,49 +148,28 @@
         {
           "title": "Примеры с модальными",
           "borderColor": "info",
-          "table": {
-            "headers": [
-              "Модальный",
-              "Пример",
-              "Перевод"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "can",
-                  "I study so that I can pass.",
-                  "Учусь, чтобы сдать."
-                ]
-              },
-              {
-                "cells": [
-                  "could",
-                  "He ran so that he could catch it.",
-                  "Он бежал, чтобы успеть."
-                ]
-              },
-              {
-                "cells": [
-                  "will",
-                  "I'll leave early so that I will arrive on time.",
-                  "Уйду рано, чтобы прийти вовремя."
-                ]
-              },
-              {
-                "cells": [
-                  "would",
-                  "She whispered so that nobody would hear.",
-                  "Она шептала, чтобы никто не услышал."
-                ]
-              }
-            ],
-            "borderColor": "info"
-          }
+          "rules": [
+            {
+              "name": "can",
+              "suffix": "сейчас и потом",
+              "example": "I study so that I can pass."
+            },
+            {
+              "name": "could",
+              "suffix": "в прошлом",
+              "example": "He ran so that he could catch it."
+            },
+            {
+              "name": "will",
+              "suffix": "потом",
+              "example": "I'll leave early so that I'll be on time."
+            },
+            {
+              "name": "would",
+              "suffix": "в прошлом",
+              "example": "She whispered so that nobody would hear."
+            }
+          ]
         },
         {
           "title": "So that vs So",
@@ -200,6 +179,11 @@
             "title": "Разные вещи",
             "text": "So that — цель. So — результат. «Я учусь так, чтобы сдать» (so that) vs «Я учился, так что сдал» (so)."
           }
+        },
+        {
+          "title": "That можно опустить",
+          "borderColor": "term",
+          "text": "В разговоре that часто опускают: I left early so I wouldn't be late. Это по-прежнему цель. So после запятой — уже результат: It was late, so I left."
         },
         {
           "title": "Живые примеры",
@@ -231,54 +215,36 @@
           "initiallyExpanded": false,
           "section": {
             "borderColor": "info",
-            "table": {
-              "headers": [
-                "Конструкция",
-                "Когда",
-                "Пример"
-              ],
-              "headerColors": [
-                "term",
-                "muted",
-                "example"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "to + глагол",
-                    "тот же человек",
-                    "I left early to catch the bus."
-                  ]
-                },
-                {
-                  "cells": [
-                    "so that + кто + can",
-                    "другой человек или модальный",
-                    "I left early so that you could sleep."
-                  ]
-                },
-                {
-                  "cells": [
-                    "so that … won't",
-                    "«чтобы не»",
-                    "Write it down so that you won't forget."
-                  ]
-                }
-              ]
-            },
-            "title": ""
-          }
+            "title": "",
+            "rules": [
+              {
+                "name": "to",
+                "suffix": "тот же человек",
+                "example": "I left early to catch the bus."
+              },
+              {
+                "name": "so that",
+                "suffix": "другой человек",
+                "example": "I left early so that you could sleep."
+              },
+              {
+                "name": "so … won't",
+                "suffix": "чтобы не",
+                "example": "Write it down so that you won't forget."
+              }
+            ]
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: so that pass, for that",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в so that.",
+        "text": "Частые ошибки с so that. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -309,15 +275,49 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "После so that всегда идёт подлежащее + модальный или will/would. Без подлежащего — это уже не so that, а обычное so."
-          },
-          "quote": {
-            "text": "So that отвечает на вопрос «зачем». So — на вопрос «и что в итоге».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "После so that — подлежащее и глагол, часто с can, could, will, would. Цель в прошлом — could или would."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:sothat.purpose",
+      "description": "Цель — so that, результат — so",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:sothat.modal",
+      "description": "После so that — can / could / will / would по времени",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:sothat.subject",
+      "description": "После so that — подлежащее + глагол",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_so"
+  ],
+  "prerequisites": [
+    "cards_inorderto",
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

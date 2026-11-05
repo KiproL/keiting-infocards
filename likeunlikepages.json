@@ -3,13 +3,13 @@
   "route": "cards_likeunlike",
   "slides": [
     {
-      "label": "Like — как, unlike — в отличие от",
+      "label": "Like и unlike",
       "intro": {
-        "text": "Like — сравнение через сходство: «как», «похожий на». Unlike — сравнение через различие: «в отличие от». Это не глагол like «нравится».",
+        "text": "Брат весь в отца, а сестра другая: Like his dad, Tom loves football. Unlike them, Kate hates it. Like — «как, похоже на», unlike — «в отличие от». Это не глагол like — «нравиться».",
         "highlights": [
           {
-            "text": "Like",
-            "color": "info",
+            "text": "Like his dad, Tom loves football",
+            "color": "example",
             "style": "bold"
           },
           {
@@ -18,14 +18,9 @@
             "style": "bold"
           },
           {
-            "text": "сходство",
-            "color": "example",
-            "style": "bold_underline"
-          },
-          {
-            "text": "различие",
+            "text": "не глагол like",
             "color": "term",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -152,7 +147,7 @@
     {
       "label": "Like или as",
       "intro": {
-        "text": "Like и as часто путают. Like — сравнение, as — роль или функция. Два разных слова.",
+        "text": "Like и as часто путают. Like — только похож: works like a machine. As — и есть в этой роли: works as a doctor.",
         "highlights": [
           {
             "text": "Like",
@@ -165,7 +160,7 @@
             "style": "bold"
           },
           {
-            "text": "роль",
+            "text": "и есть в этой роли",
             "color": "example",
             "style": "bold_underline"
           }
@@ -206,6 +201,11 @@
           }
         },
         {
+          "title": "Like или as перед фразой",
+          "borderColor": "term",
+          "text": "В разговоре like бывает и перед целой фразой: Like I said, it was late. В письме — as: As I said…"
+        },
+        {
           "title": "Ошибки",
           "borderColor": "bad",
           "errors": [
@@ -229,12 +229,7 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Like — похож. As — на самом деле в этой роли. Если человек и есть врач — as a doctor. Если только выглядит как врач — like a doctor."
-          },
-          "quote": {
-            "text": "Like — про сходство. Unlike — про разницу. As — про реальную роль.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Like — только похож. As — и есть в этой роли. Врач по профессии — as a doctor. Только выглядит как врач — like a doctor."
           }
         }
       ],
@@ -264,9 +259,49 @@
                 "ru": "Похоже на дождь."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:likeunlike.like",
+      "description": "like — как, похоже на",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:likeunlike.unlike",
+      "description": "unlike — в отличие от, без to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:likeunlike.as",
+      "description": "as — в роли, в качестве",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_like",
+    "word_b1_unlike"
+  ],
+  "prerequisites": [
+    "cards_thesameas"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -3,24 +3,24 @@
   "route": "cards_becauseof",
   "slides": [
     {
-      "label": "Because of + существительное",
+      "label": "Из-за: because of",
       "intro": {
-        "text": "Because of — указание причины. После него идёт существительное или -ing, а не целое предложение. Это отличие от because.",
+        "text": "Опоздал и объясняешь почему. Если дальше целое предложение с глаголом — because: because it was raining. Если только существительное или -ing — because of: because of the rain, «из-за дождя».",
         "highlights": [
           {
-            "text": "Because of",
+            "text": "because",
             "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "причины",
-            "color": "info",
             "style": "bold"
           },
           {
-            "text": "существительное",
+            "text": "because of the rain",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "целое предложение",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -224,17 +224,18 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: because of + предложение",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в because of.",
+        "text": "Частые ошибки с because of. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -247,7 +248,7 @@
           "errors": [
             {
               "wrong": "I was late because of it was raining.",
-              "right": "I was late because of the rain. (после of — существительное)"
+              "right": "I was late because of the rain. (после of — без глагола)"
             },
             {
               "wrong": "Because of it was cold, we stayed home.",
@@ -255,7 +256,7 @@
             },
             {
               "wrong": "I stayed home because of it rained.",
-              "right": "I stayed home because it rained. / because of the rain. (с предложением — because)"
+              "right": "I stayed home because it rained. (дальше фраза — because)"
             }
           ]
         },
@@ -266,14 +267,39 @@
             "type": "tip",
             "title": "Как различить",
             "text": "Если после причины стоит целое предложение с глаголом — because. Если только существительное — because of."
-          },
-          "quote": {
-            "text": "Because of — про существительное. Because — про целое предложение.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:becauseof.of",
+      "description": "because of + существительное или -ing",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:becauseof.clause",
+      "description": "because + целое предложение",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_because"
+  ],
+  "prerequisites": [
+    "cards_gerund"
+  ],
+  "prerequisites_reviewed": false
 }

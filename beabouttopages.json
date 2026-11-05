@@ -3,24 +3,19 @@
   "route": "cards_beaboutto",
   "slides": [
     {
-      "label": "be about to: «вот-вот»",
+      "label": "Вот-вот: about to",
       "intro": {
-        "text": "Be about to — действие случится вот-вот, через несколько секунд или минут: The film is about to start. По-русски — «вот-вот», «как раз собираюсь».",
+        "text": "Свет в зале гаснет, и ты шепчешь соседу: The film is about to start — «фильм вот-вот начнётся». Be about to — то, что случится прямо сейчас, через секунды или минуты. По-русски — «вот-вот», «как раз собираюсь».",
         "highlights": [
           {
-            "text": "Be about to",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "вот-вот",
-            "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "как раз собираюсь",
+            "text": "The film is about to start",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "прямо сейчас",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -210,6 +205,11 @@
               "ru": "Мы вот-вот уйдём."
             }
           ]
+        },
+        {
+          "title": "Not about to — и не собираюсь",
+          "borderColor": "term",
+          "text": "I'm not about to give up — «я и не собираюсь сдаваться». Так говорят о твёрдом отказе, а не о времени."
         }
       ],
       "expandables": [
@@ -239,17 +239,18 @@
               "text": "Was about to + when — «уже собирался, и тут…». Так рассказывают о том, что помешало."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: about leave, about to leaving",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в be about to.",
+        "text": "Частые ошибки с be about to. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -266,11 +267,15 @@
             },
             {
               "wrong": "I am about to leaving.",
-              "right": "I am about to leave. (после to — без -ing)"
+              "right": "I am about to leave. (без -ing)"
             },
             {
               "wrong": "I about to go.",
-              "right": "I am about to go. (без am нельзя)"
+              "right": "I am about to go. (нужен am)"
+            },
+            {
+              "wrong": "I'm about to leave tomorrow.",
+              "right": "I'm leaving tomorrow. (план — не about to)"
             }
           ]
         },
@@ -280,15 +285,49 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Be about to — вот прямо сейчас, следующие три секунды. Be going to — план, время есть."
-          },
-          "quote": {
-            "text": "About to — про следующие секунды. Going to — про следующие дни.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Be about to — прямо сейчас. Be going to или Present Continuous — план, до него ещё есть время."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:beaboutto.to",
+      "description": "about + to + глагол без -ing",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:beaboutto.be",
+      "description": "Нужен be: am / is / are / was",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:beaboutto.plan",
+      "description": "План на потом — going to, не about to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_about"
+  ],
+  "prerequisites": [
+    "cards_begoingto"
+  ],
+  "prerequisites_reviewed": false
 }

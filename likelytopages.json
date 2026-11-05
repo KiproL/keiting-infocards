@@ -3,28 +3,23 @@
   "route": "cards_likelyto",
   "slides": [
     {
-      "label": "Насколько вероятно: likely, bound, due",
+      "label": "Насколько вероятно",
       "intro": {
-        "text": "Эти конструкции говорят, насколько что-то вероятно: be likely to — вероятно, be unlikely to — вряд ли, be bound to — наверняка, be due to — должно по плану.",
+        "text": "Прогноз обещает тучи — говоришь: It's likely to rain, «вероятно, будет дождь». Эти конструкции показывают, насколько что-то вероятно: likely — вероятно, unlikely — вряд ли, bound — наверняка, due — должно по плану. После всех — to + глагол.",
         "highlights": [
           {
-            "text": "be likely to",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "be unlikely to",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "be bound to",
-            "color": "good",
-            "style": "bold"
-          },
-          {
-            "text": "be due to",
+            "text": "It's likely to rain",
             "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "насколько что-то вероятно",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "to + глагол",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -228,12 +223,13 @@
                 "ru": "Ей точно понравится этот подарок."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "It is likely that и due to = «из-за»",
+      "label": "Likely that, due to",
       "intro": {
         "text": "Likely — прилагательное, поэтому можно и через It is likely that. А due to бывает ещё и предлогом «из-за».",
         "highlights": [
@@ -279,6 +275,11 @@
               "ru": "Ребёнок должен родиться в мае."
             }
           ]
+        },
+        {
+          "title": "Likely как наречие",
+          "borderColor": "term",
+          "text": "В американском английском likely бывает и наречием: He will likely come = He is likely to come. В британском так тоже говорят, но чаще — probably."
         }
       ],
       "expandables": [
@@ -307,17 +308,18 @@
                 "ru": "Отчёт нужно сдать в следующий понедельник."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: likely come, bound win",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с этими конструкциями.",
+        "text": "Частые ошибки с likely, bound и due. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -338,15 +340,73 @@
             },
             {
               "wrong": "The plane is due arrive at 6.",
-              "right": "The plane is due to arrive at 6. (нужен to)"
+              "right": "The plane is due to arrive at 6."
             },
             {
-              "wrong": "He likely will come.",
-              "right": "He is likely to come. / He will probably come. (likely — прилагательное)"
+              "wrong": "It's likely that he come.",
+              "right": "It's likely that he'll come. (нужен глагол)"
             }
           ]
+        },
+        {
+          "title": "Совет",
+          "borderColor": "good",
+          "callout": {
+            "type": "tip",
+            "title": "Простая проверка",
+            "text": "Likely, bound, due + to + глагол. После It is likely that — целое предложение."
+          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:likelyto.to",
+      "description": "likely / bound / due + to + глагол",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:likelyto.meaning",
+      "description": "likely — вероятно, unlikely — вряд ли, bound — наверняка, due — по плану",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:likelyto.that",
+      "description": "It is likely that + предложение",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:likelyto.due",
+      "description": "due to — из-за; due — к сроку",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_likely",
+    "word_b1_due"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

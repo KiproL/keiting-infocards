@@ -3,39 +3,24 @@
   "route": "cards_despite",
   "slides": [
     {
-      "label": "Although и despite: хотя и несмотря на",
+      "label": "Хотя и несмотря на",
       "intro": {
-        "text": "«Хотя» и «несмотря на» — две группы слов. Although и even though — перед целой фразой с глаголом. Despite и in spite of — перед существительным или -ing.",
+        "text": "Шёл дождь, а вы всё равно гуляли. Сказать можно двумя способами: Although it was raining, we went out — «хотя шёл дождь». Despite the rain, we went out — «несмотря на дождь». Although и even though — перед целой фразой с глаголом, despite и in spite of — перед существительным или -ing.",
         "highlights": [
           {
-            "text": "Although",
-            "color": "term",
+            "text": "Although it was raining",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "even though",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "Despite",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "in spite of",
-            "color": "info",
+            "text": "Despite the rain",
+            "color": "example",
             "style": "bold"
           },
           {
             "text": "перед целой фразой",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "перед существительным или -ing",
             "color": "info",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -274,22 +259,22 @@
           "rules": [
             {
               "name": "although",
-              "suffix": "хотя — нейтрально",
+              "suffix": "нейтрально",
               "example": "Although I like him, I don't trust him."
             },
             {
               "name": "though",
-              "suffix": "то же, разговорно; можно в конце",
-              "example": "It's expensive. I'll buy it, though."
+              "suffix": "разговорно, и в конце",
+              "example": "I'll buy it, though."
             },
             {
               "name": "even though",
-              "suffix": "хотя и… — сильнее, удивительнее",
+              "suffix": "сильнее",
               "example": "Even though he studied, he failed."
             },
             {
               "name": "despite the fact that",
-              "suffix": "мост к целой фразе",
+              "suffix": "мост к фразе",
               "example": "Despite the fact that it rained, we went out."
             }
           ]
@@ -321,17 +306,18 @@
                 "ru": "Еда была хорошей. Обслуживание, правда, медленное."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: despite + фраза, despite of",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с despite и although.",
+        "text": "Частые ошибки с despite и although. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -356,7 +342,7 @@
             },
             {
               "wrong": "Although the rain, we went out.",
-              "right": "Despite the rain, we went out. (перед существительным — despite)"
+              "right": "Despite the rain, we went out. (нет глагола — despite)"
             },
             {
               "wrong": "Although it was cold, but we swam.",
@@ -371,14 +357,65 @@
             "type": "tip",
             "title": "Не ставь but",
             "text": "По-русски «хотя…, но…» — нормально. По-английски although и but в одной фразе не дружат: выбери одно."
-          },
-          "quote": {
-            "text": "Despite — без of, in spite — с of.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:despite.although",
+      "description": "although / even though + фраза с глаголом",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:despite.despite",
+      "description": "despite / in spite of + существительное или -ing",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:despite.of",
+      "description": "despite — без of, in spite — с of",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:despite.but",
+      "description": "although и but вместе не ставят",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:despite.though",
+      "description": "though в конце — разговорно",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_b1_despite",
+    "word_a2_although"
+  ],
+  "prerequisites": [
+    "cards_becauseof"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -3,29 +3,19 @@
   "route": "cards_isitokayif",
   "slides": [
     {
-      "label": "Is it okay if…: «ничего, если…?»",
+      "label": "Ничего, если…?",
       "intro": {
-        "text": "Is it okay if…? — простая вежливая просьба разрешения: «ничего, если…?». Мягче, чем Can I…?, но не такая официальная, как May I…? После if — обычное настоящее время.",
+        "text": "В гостях хочешь открыть окно: Is it okay if I open the window? — «ничего, если я открою окно?». Это простая вежливая просьба: мягче, чем Can I…?, и не так официально, как May I…? После if — настоящее время, без will.",
         "highlights": [
           {
-            "text": "Is it okay if",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "вежливая просьба",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "ничего, если",
+            "text": "Is it okay if I open the window?",
             "color": "example",
             "style": "bold"
           },
           {
-            "text": "обычное настоящее время",
-            "color": "good",
-            "style": "bold"
+            "text": "без will",
+            "color": "bad",
+            "style": "bold_underline"
           }
         ]
       },
@@ -206,6 +196,11 @@
               "ru": "Ничего, если я тебе позже позвоню?"
             }
           ]
+        },
+        {
+          "title": "OK или okay",
+          "borderColor": "term",
+          "text": "Оба написания правильные: Is it OK if… = Is it okay if…"
         }
       ],
       "expandables": [
@@ -252,12 +247,13 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Как ответить: Sure или I'm afraid not",
+      "label": "Sure или I'm afraid not",
       "intro": {
         "text": "На Is it okay if…? отвечают коротко: Sure, Of course, Go ahead. Отказывают мягко: I'm afraid not — и коротко объясняют почему.",
         "highlights": [
@@ -376,24 +372,14 @@
       ]
     },
     {
-      "label": "Частые ошибки: to и will после if",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки: лишнее to, will после if и пропущенное it.",
+        "text": "Частые ошибки с is it okay if. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "лишнее to",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "will после if",
-            "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "пропущенное it",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -425,16 +411,66 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "После if — обычное настоящее время, без will. Это стандартный приём для условных предложений."
-          },
-          "quote": {
-            "text": "Is it okay if — это вежливый вход в чужое пространство.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "title": "Простая проверка",
+            "text": "После if — настоящее время без will и без to: Is it okay if I sit here? С he и she — -s: if she sits."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:isitokayif.present",
+      "description": "После if — настоящее время, без will и to",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:isitokayif.it",
+      "description": "Is it okay — нужен it",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:isitokayif.s",
+      "description": "he / she — глагол с -s",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:isitokayif.reply",
+      "description": "Ответы: Sure, Of course, Go ahead, I'm afraid not",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:isitokayif.polite",
+      "description": "Can I — просто, May I — официально",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    }
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

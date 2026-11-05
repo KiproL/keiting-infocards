@@ -3,24 +3,19 @@
   "route": "cards_mightaswell",
   "slides": [
     {
-      "label": "Might as well: «почему бы и нет», «раз уж так»",
+      "label": "Почему бы и нет",
       "intro": {
-        "text": "May / Might as well — «почему бы не…», «раз уж так». Выражает решение сделать что-то, потому что нет причин этого не делать. Не энтузиазм, а скорее разумный выбор из имеющегося.",
+        "text": "Автобус ушёл, следующий через час, а идти пятнадцать минут: We might as well walk — «можно и пешком». Might as well — решение «раз так, почему бы и нет»: не от радости, а потому что лучше варианта нет. May as well — то же самое.",
         "highlights": [
           {
-            "text": "May / Might as well",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "почему бы не",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "раз уж так",
+            "text": "We might as well walk",
             "color": "example",
             "style": "bold"
+          },
+          {
+            "text": "почему бы и нет",
+            "color": "info",
+            "style": "bold_underline"
           }
         ]
       },
@@ -217,7 +212,7 @@
               {
                 "cells": [
                   "had better",
-                  "лучше (с угрозой)",
+                  "лучше, а то будет хуже",
                   "I'd better go."
                 ]
               }
@@ -271,17 +266,18 @@
               "text": "Might as well have + V3 — «результат был бы тот же», часто с досадой."
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
     {
-      "label": "Частые ошибки: as well to go, well as",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в May / Might as well.",
+        "text": "Частые ошибки с might as well. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -311,16 +307,49 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "После as well — глагол без to. Порядок слов фиксированный: may / might as well + глагол."
-          },
-          "quote": {
-            "text": "May as well — это когда выбор уже сделан, просто нет причин отказываться.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "title": "Простая проверка",
+            "text": "После as well — глагол без to. Порядок слов всегда один: may / might as well + глагол."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:mightaswell.bare",
+      "description": "После as well — глагол без to и -ing",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:mightaswell.order",
+      "description": "Порядок: might as well",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:mightaswell.meaning",
+      "description": "might — возможно; might as well — почему бы и нет",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_well"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

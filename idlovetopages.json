@@ -3,23 +3,23 @@
   "route": "cards_idloveto",
   "slides": [
     {
-      "label": "I'd love to: «с удовольствием»",
+      "label": "С удовольствием",
       "intro": {
-        "text": "I'd love to — «с удовольствием», «очень хотел бы». Это согласие с радостью, сильнее, чем спокойное I'd like to.",
+        "text": "Друг зовёт на день рождения, и ты рад: I'd love to come! — «с удовольствием приду!». I'd love to — согласие с радостью, теплее, чем спокойное I'd like to. После него — to + глагол.",
         "highlights": [
           {
-            "text": "I'd love to",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "с радостью",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "I'd like to",
+            "text": "I'd love to come!",
             "color": "example",
+            "style": "bold"
+          },
+          {
+            "text": "согласие с радостью",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "to + глагол",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -171,18 +171,23 @@
           ]
         },
         {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "I'd like to — вежливо. I'd love to — от души.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
+          "title": "I'd love или I love",
+          "borderColor": "term",
+          "examples": [
+            {
+              "en": "I love to swim.",
+              "ru": "Я люблю плавать — вообще."
+            },
+            {
+              "en": "I'd love to swim.",
+              "ru": "Я бы с радостью поплавал — сейчас, в этот раз."
+            }
+          ]
         }
       ]
     },
     {
-      "label": "Ответ на приглашение: да или мягкое нет",
+      "label": "Да или мягкое нет",
       "intro": {
         "text": "I'd love to — стандартный тёплый ответ на приглашение. А если надо отказать, добавляют but и причину: I'd love to, but I'm busy.",
         "highlights": [
@@ -273,12 +278,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: I'd love come",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в I'd love to.",
+        "text": "Частые ошибки с I'd love to. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -308,11 +313,49 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "После I'd love всегда идёт TO + глагол. Частица to не исчезает, даже если рядом стоит would."
+            "title": "Простая проверка",
+            "text": "После I'd love — to + глагол. To не исчезает и в полной форме: I would love to come."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:idloveto.to",
+      "description": "I'd love + to + глагол",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:idloveto.meaning",
+      "description": "like — спокойно, love — с радостью, hate — не хотел бы",
+      "slides": [
+        0
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:idloveto.reply",
+      "description": "Ответ: I'd love to! / I'd love to, but…",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_love"
+  ],
+  "prerequisites": [
+    "cards_infinitive"
+  ],
+  "prerequisites_reviewed": false
 }

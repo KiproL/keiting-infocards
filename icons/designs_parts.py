@@ -188,3 +188,6 @@ icon('b1_alreadyyet_nuance', 'Часть «Оттенки смысла»: рег
      (circle(196, 200, 30) + ' ' + circle(330, 320, 30), 19))
 # contractions
 icon('a2_contractions_s_d', "Часть «'s, 'd и полная форма»", T("'d", 320, 1.4))
+# besupposedto
+icon('b2_be_to', 'Часть «Be to: официально»: объявление — is to', (rrect(120, 96, 392, 416, 26), 19),
+     ('M170,160 L342,160 M170,206 L300,206', 15), word('is to', 340, 200))

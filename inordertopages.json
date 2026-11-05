@@ -3,22 +3,17 @@
   "route": "cards_inorderto",
   "slides": [
     {
-      "label": "In order to: «чтобы» официально",
+      "label": "Чтобы: in order to",
       "intro": {
-        "text": "In order to — формальное указание цели. То же, что и to + глагол, но звучит более официально. Часто используется в письменной и деловой речи.",
+        "text": "In order to — то же «чтобы», что и простое to, только официальнее: так пишут в письмах, инструкциях и эссе. In order to apply, fill in this form — «чтобы подать заявку, заполните форму». В разговоре обычно хватает to.",
         "highlights": [
           {
-            "text": "In order to",
-            "color": "term",
+            "text": "официальнее",
+            "color": "info",
             "style": "bold_underline"
           },
           {
-            "text": "формальное",
-            "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "официально",
+            "text": "In order to apply, fill in this form",
             "color": "example",
             "style": "bold"
           }
@@ -177,6 +172,11 @@
           ]
         },
         {
+          "title": "To not — в разговоре",
+          "borderColor": "term",
+          "text": "In order to not be late тоже встречается в разговоре. В письме привычнее in order not to."
+        },
+        {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
@@ -221,17 +221,18 @@
               }
             ],
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: in order for help, in order to not",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в in order to.",
+        "text": "Частые ошибки с in order to. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -244,15 +245,19 @@
           "errors": [
             {
               "wrong": "I came in order for help you.",
-              "right": "I came in order to help you. (in order to + глагол)"
+              "right": "I came in order to help you."
             },
             {
               "wrong": "In order to helping you, I came.",
-              "right": "I came in order to help you. (после to — без -ing)"
+              "right": "I came in order to help you. (без -ing)"
             },
             {
-              "wrong": "I came in order to not be late.",
-              "right": "I came in order not to be late. (not — перед to)"
+              "wrong": "I came in order help you.",
+              "right": "I came in order to help you. (нужен to)"
+            },
+            {
+              "wrong": "I came for to help you.",
+              "right": "I came to help you. (без for)"
             }
           ]
         },
@@ -262,15 +267,48 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "In order to и so as to — формальные версии простого to. В обычной речи достаточно to. Используй in order to в письме, эссе, деловой переписке."
-          },
-          "quote": {
-            "text": "In order to — это to в костюме и с галстуком.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "In order to и so as to — официальные варианты простого to. В разговоре хватает to, в письме и эссе — in order to."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:inorderto.to",
+      "description": "in order to + глагол, не for",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:inorderto.not",
+      "description": "Отрицание — in order not to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:inorderto.base",
+      "description": "После to — начальная форма",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_order"
+  ],
+  "prerequisites": [
+    "cards_infinitive"
+  ],
+  "prerequisites_reviewed": false
 }

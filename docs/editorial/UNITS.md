@@ -64,6 +64,7 @@
 | a2_irregular_forms | A2 | irregularverbs 0, 1, 2, 3, 4, 5 | Узнавать и употреблять три формы частых неправильных глаголов по группам (cut, bought, written, come) и выбирать V1, V2 или V3 по конструкции | a1_past_irregular |
 | a2_modals_can | A2 | modalverbs 0, 1, 2 | Соблюдать общие правила модальных: начальная форма без to, без -s, вопрос без do; говорить об умении и возможности с can, could, be able to; could и was able to в прошлом; спрашивать разрешение и говорить о возможности с may и might | a1_simple_questions, a1_past_meaning |
 | a2_modals_must | A2 | modalverbs 3, 4, 6 | Различать must, have to, mustn't и don't have to; had to в прошлом; давать совет и предупреждение: should, ought to, had better; предлагать с shall; исправлять ошибки: can swims, must to go, will can | a2_modals_can |
+| b1_supposed_to | B1 | besupposedto 0, 2 | Говорить, что положено по правилам или ожиданиям: be supposed to + глагол; was supposed to — «должен был, но не вышло»; supposed — с -d | a2_modals_must |
 | b1_modals_past | B1 | modalverbs 5 | Делать вывод и жалеть о прошлом: must have, can't have, should have done | a2_modals_must |
 | a2_haveto_core | A2 | haveto 0, 1, 2 | Сказать, что приходится что-то делать (have to / has to) в настоящем, прошлом и будущем; построить вопрос и отрицание с do; понимать, где have to и must взаимозаменяемы, а где нет | a1_simple_questions, a1_past_forms |
 | a2_mustnt_core | A2 | mustnt 0, 1, 2 | Выразить обязанность (must) и запрет (mustn't); строить отрицание и вопрос без do; заменять must в прошлом на had to; отвечать на Must I…? — No, you don't have to | a2_modals_must, a2_haveto_core |
@@ -78,9 +79,19 @@
 | a2_it_takes | A2 | ittakes 0, 1, 2 | Говорить, сколько времени нужно на дело: It takes me 20 minutes to…; спрашивать How long does it take?; то же через spend + -ing | a2_infinitive_core |
 | a2_let_someone | A2 | letsomeonedo 0, 1 | Разрешать и предлагать: let + кто + глагол без to, let me, let's / let's not; «мне разрешили» — I was allowed to | a2_infinitive_core |
 | a2_verb_ing_to | A2 | gerund 2, 3, 5 | Выбирать -ing (enjoy, finish, avoid) или to (want, decide, hope) после глагола; ставить -ing после предлога, в том числе после look forward to и be used to | a2_infinitive_core, a2_prep_verbs |
+| a2_because_of | A2 | becauseof 0, 1 | Называть причину: because + целое предложение, because of + существительное или -ing | a2_verb_ing_to |
+| a2_how_about | A2 | whatabouthowabout 0, 1 | Предлагать: How about / What about + -ing или существительное; в разговоре — How about we… | a2_verb_ing_to |
+| a2_id_love_to | A2 | idloveto 0, 1, 2 | Соглашаться с радостью и мягко отказываться: I'd love to (come), I'd love to, but…; отличать от I love to и I'd like to | a2_infinitive_core |
+| a2_is_it_okay | A2 | isitokayif 0, 1, 2 | Вежливо спрашивать разрешения: Is it okay if I + настоящее время; отвечать Sure, Go ahead, I'm afraid not | a1_simple_questions |
+| a2_each_other | A2 | eachother 0, 1 | Говорить «друг друга»: each other, each other's, talk to each other; отличать от themselves; meet и marry — без each other | a2_pronouns_reflexive |
+| a2_the_same_as | A2 | thesameas 0, 1, 2 | Сравнивать по полному сходству: the same (+ сущ.) as; отличать от as … as; не ставить than и like | a1_article_reference |
 | b1_infinitive_patterns | B1 | infinitive 4, 5, 7 | Употреблять to после прилагательных (happy to help), too и enough, вопросительных слов (what to do) и в схеме want / ask / tell + кто-то + to | a2_infinitive_core, a2_tooto_core |
 | b1_gerund_noun | B1 | gerund 0, 1 | Называть действие как понятие с помощью -ing в роли подлежащего и дополнения; употреблять worth, no use, can't help, feel like + -ing | a2_verb_ing_to |
 | b1_its_worth | B1 | itsworth 0, 1 | Советовать и отговаривать: It's worth + -ing, It's no use + -ing, There's no point (in) + -ing; worth it | b1_gerund_noun |
+| b1_despite | B1 | despite 0, 1 | Говорить «хотя» и «несмотря на»: although / even though + фраза, despite / in spite of + существительное или -ing; без but | a2_because_of |
+| b1_in_order_to | B1 | inorderto 0, 1 | Называть цель официально: in order to / so as to + глагол, in order not to; в разговоре — просто to | a2_infinitive_core |
+| b1_so_that | B1 | sothat 0, 1 | Называть цель, когда действует другой человек: so that + подлежащее + can / could / will / would; отличать от so — результата | b1_in_order_to, a2_modals_can |
+| b1_like_unlike | B1 | likeunlike 0, 1 | Сравнивать: like — как, похож; unlike — в отличие от; as — в роли, в качестве | a2_the_same_as |
 | b1_make_someone | B1 | makesomeonedo 0, 1 | Говорить «заставить» и «вызвать»: make + кто + глагол без to; в пассиве — be made to | a2_let_someone |
 | b1_get_someone_to | B1 | getsomeonetodo 0, 1 | Говорить «уговорить»: get + кто + to + глагол; выбирать между get, make, let и have по смыслу | b1_make_someone |
 | b1_ing_to_meaning | B1 | gerund 4 | Различать смысл stop, remember, forget, try, regret, mean с -ing и с to | a2_verb_ing_to |
@@ -125,6 +136,7 @@
 | a2_strongadj_words | A2 | strongadjectives 0, 1, 2, 3, 4 | Заменять very + обычное прилагательное сильным: huge, exhausted, starving; ставить very с обычными, absolutely — с сильными, really — с теми и другими; употреблять сильные прилагательные в речи; исправлять ошибки: very huge, absolutely cold, very perfect | a1_be_core |
 | a1_goingto_form | A1 | begoingto 0 | Сказать о плане: am / is / are going to + начальная форма | a1_be_core |
 | a2_goingto_will | A2 | begoingto 1, 2 | Выбрать going to (план, примета) или will (решение сейчас, обещание); исправлять ошибки: I going to, will going to, am going to yesterday | a1_goingto_form |
+| b1_about_to | B1 | beaboutto 0, 1 | Говорить о том, что случится вот-вот: be about to + глагол, was about to … when; not about to — «и не собираюсь»; отличать от плана (going to) | a2_goingto_will |
 | a1_therewas_core | A1 | therewaswere 0, 1, 2 | Сказать, что где было: there was с одним, there were с несколькими; спросить Was there…? / Were there…? и ответить; there wasn't / there was no; исправлять ошибки: there was many, It was a party | a1_there_core, a1_past_meaning |
 | a1_wouldlike_core | A1 | wouldlike 0, 1, 2 | Вежливо попросить и предложить: I'd like a coffee, I'd like to + глагол; задать вопрос Would you like…? и ответить Yes, please / I'd love to; исправлять ошибки: I want в просьбе, would like go, do you would like | a1_simple_routines |
 | b1_wouldprefer_core | B1 | wouldprefer 0, 1 | Вежливо выбрать вариант: would prefer + существительное или to + глагол, rather than; отличать prefer вообще от would prefer сейчас | a1_wouldlike_core |
@@ -156,6 +168,7 @@
 | b2_wish_past | B2 | wish 2, 3 | Жалеть о прошлом (wish + Past Perfect) и о чужом поведении (wish + would); не ставить would о себе | b1_wish_present, b1_pastperf_core |
 | b2_its_high_time | B2 | itshightime 0, 1 | Говорить «давно пора» с упрёком: It's (high / about) time + кто + прошедшее; без упрёка — for + кто + to | a2_its_time, b1_cond_unreal |
 | b2_would_rather_past | B2 | wouldratherpast 0, 1 | Вежливо говорить, чего хочешь от другого: I'd rather you + прошедшее, о прошлом — Past Perfect; отрицание — didn't | b1_wouldrather_core, b1_cond_unreal |
+| b2_might_as_well | B2 | mightaswell 0, 1 | Говорить «почему бы и нет, раз так»: might / may as well + глагол без to; отличать от might и had better | a2_modals_can |
 | a2_perfect_meaning | A2 | presentperf 0, 1, 2, 3, 4, 5 | Сказать о результате к сейчас и об опыте (have / has + V3), построить отрицание, вопрос и краткий ответ, выбрать Past Simple, когда названо время | a1_past_forms |
 | b1_perfect_time | B1 | presentperf 6, 7 | Выбрать время по периоду (today, this morning, so far — или закончился), сообщить новость и перейти к подробностям, сказать, сколько длится состояние (since, for, how long) | a2_perfect_meaning |
 | b1_ppc_core | B1 | presentperfcont 0, 1, 2, 3, 4, 5 | Сказать, как долго идёт действие до сих пор (have / has been + V-ing), отличать процесс от результата (have been reading / have read) и не ставить в Continuous know, like, want | b1_perfect_time, a1_cont_core |
@@ -165,6 +178,8 @@
 | b1_passive_core | B1 | activepassive 0, 1, 2, 4, 7, 8 | Строить пассив be + V3 во всех основных временах и с модальными глаголами, превращать актив в пассив, решать, нужен ли by и пассив вообще; не ставить пассив у happen, arrive, belong, cost | a2_irregular_forms |
 | b1_have_done | B1 | havesomethingdone 0, 1, 2, 3 | Говорить об услугах и неприятностях: have / get + что + третья форма во всех временах (had my hair cut, had my bag stolen) | b1_passive_core |
 | b2_passive_more | B2 | activepassive 3, 5, 6 | Употреблять пассив с двумя дополнениями (I was given…), get + V3 и have something done, безличный пассив It is said that / He is said to | b1_passive_core |
+| b2_be_to | B2 | besupposedto 1 | Узнавать официальный план и указание в новостях и инструкциях: The President is to visit…, You are not to leave | b1_supposed_to |
+| b2_likely_bound | B2 | likelyto 0, 1, 2 | Оценивать вероятность: be likely / unlikely / bound / due to + глагол; It is likely that…; due to — «из-за» | a2_modals_can |
 | a2_alreadyyet_meaning | A2 | alreadyyet 0, 1, 3 | Различать already, yet, still и just по смыслу; ставить already, just между have и V3, still перед глаголом, yet в конце; исправлять ошибки: yet в утверждении, just в конце | a2_perfect_meaning |
 | b1_alreadyyet_nuance | B1 | alreadyyet 2 | Слышать оттенки: still not — досада, already в вопросе — удивление | a2_alreadyyet_meaning |
 | b1_still_anymore | B1 | stillanymore 0, 1, 2 | Говорить «всё ещё» (still перед глаголом, после be) и «больше не» (not … any more / any longer в конце, no longer перед глаголом) | a2_alreadyyet_meaning |

@@ -30,7 +30,7 @@
 
 ## Статус карточек
 
-**Полностью переработано: 102 из 242** (91 прежняя карточка и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 140.
+**Полностью переработано: 116 из 242** (105 прежних карточек и 11 новых). Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 126.
 
 | Карточка | Ред. | Проверено | Исправлено | Части | Задания | Связи | Нужна поддержка приложения |
 |---|---|---|---|---|---|---|---|
@@ -136,7 +136,21 @@
 | cards_letsomeonedo | 1 | да | да | 1 | 42 | да | нет (M-026) |
 | cards_makesomeonedo | 1 | да | да | 1 | 36 | да | нет (M-026) |
 | cards_getsomeonetodo | 1 | да | да | 1 | 35 | да | нет (M-026) |
-| остальные 140 | 0 | нет | нет | нет | нет | нет | — |
+| cards_beaboutto | 1 | да | да | 1 | 36 | да | нет (M-027) |
+| cards_besupposedto | 1 | да | да | 2 | 51 | да | нет (M-027) |
+| cards_likelyto | 1 | да | да | 1 | 59 | да | нет (M-027) |
+| cards_becauseof | 1 | да | да | 1 | 37 | да | нет (M-027) |
+| cards_despite | 1 | да | да | 1 | 37 | да | нет (M-027) |
+| cards_inorderto | 1 | да | да | 1 | 31 | да | нет (M-027) |
+| cards_sothat | 1 | да | да | 1 | 36 | да | нет (M-027) |
+| cards_whatabouthowabout | 1 | да | да | 1 | 36 | да | нет (M-027) |
+| cards_idloveto | 1 | да | да | 1 | 50 | да | нет (M-027) |
+| cards_isitokayif | 1 | да | да | 1 | 55 | да | нет (M-027) |
+| cards_mightaswell | 1 | да | да | 1 | 36 | да | нет (M-027) |
+| cards_eachother | 1 | да | да | 1 | 30 | да | нет (M-027) |
+| cards_thesameas | 1 | да | да | 1 | 57 | да | нет (M-027) |
+| cards_likeunlike | 1 | да | да | 1 | 41 | да | нет (M-027) |
+| остальные 126 | 0 | нет | нет | нет | нет | нет | — |
 
 «Связи» означает: проверены error_patterns и теги, привязка заданий к слайдам, `related_words`, предпосылки карточки. У лексических карточек — ещё `target_words`. У alphabet и readingrules связей со словарём нет: они о буквах и чтении, а не о словах. Поэтому там «частично».
 
@@ -1599,6 +1613,97 @@ M-026: индексы слайдов прежние. Перепривязаны 
 - node-тесты: 15/15.
 - check_card.py: без замечаний.
 - Сверка со схемой приложения: 0 карточек с ошибкой загрузки.
+- layout.js и fit.js: без замечаний после правок.
+- Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
+
+## Партия 17: четырнадцать карточек, полный цикл по заданию и стандарту
+
+beaboutto, besupposedto, likelyto, becauseof, despite, inorderto, sothat, whatabouthowabout, idloveto, isitokayif, mightaswell, eachother, thesameas, likeunlike: редакция 0 → 1. Темы и порядок слайдов прежние, у каждой карточки появилась часть в учебном плане.
+
+### Готовое содержание
+
+- **Во всех карточках:**
+  - вступление начинается с ситуации («свет в зале гаснет», «на двери бассейна правило»), потом форма;
+  - названия слайдов — 2–4 слова, слайды ошибок называются «Частые ошибки»;
+  - шуточные цитаты и «правило большого пальца» убраны;
+  - скрытые блоки «Ещё примеры» показаны сразу; только «Might as well have done» (C1) оставлен свёрнутым;
+  - у всех есть error_patterns, теги заданий, related_words и предпосылки.
+- **Ошибки и варианты разведены.** Не ошибки, а варианты:
+  - likely как наречие (He will likely come) — Oxford прямо пишет, что это не ошибка;
+  - in order to not — в разговоре встречается, в письме привычнее in order not to;
+  - so вместо so that — разговорный вариант для цели;
+  - How about we… — тоже правильно;
+  - hug и kiss — можно и без each other.
+
+  Строки «He likely will come» и «in order to not be late» убраны из ошибок, вместо них настоящие ошибки.
+- **Be about to.** Добавлено not about to — «и не собираюсь». Добавлена ошибка «I'm about to leave tomorrow»: план — не about to. Убрано «следующие три секунды».
+- **Be supposed to.** Слайд 1 (be to) получил объяснение, где так говорят и чем заменить в обычной речи, и ссылку на карточку «Be to + infinitive».
+- **So that.** Добавлено, что that в разговоре опускают. Неестественный пример «so that I will arrive» заменён.
+- **I'd love to.** Добавлено отличие I love to (вообще) от I'd love to (сейчас).
+- **Might as well.** «Had better — лучше (с угрозой)» исправлено на «лучше, а то будет хуже».
+- **The same as, like / unlike.** Вступления переписаны. Добавлено like перед фразой (Like I said) — разговорно, в письме — as.
+
+### Задания
+
+- **Ошибочные варианты, дававшие правильный английский, заменены в 62 заданиях.** Предложения при этом не менялись. Примеры:
+  - so вместо so that и so that вместо so — оба разговорно или книжно возможны;
+  - to not в in order to и so as to;
+  - «couldn't sleep for the noise» — правильное британское выражение;
+  - «Go on» как разрешение, «Is it okay that…», «It's okay if…?»;
+  - «He will likely be late», «I love to see you again», «I'd love it»;
+  - близкие по смыслу варианты в likely: bound вместо likely и наоборот;
+  - them, us, ourselves в each other — дают правильные фразы с другим смыслом.
+- **Переписаны 74 предложения** (ID сохранены):
+  - в 4 заданиях the same as было два пропуска — оставлен один, проверка содержания это и требовала;
+  - остальные — дубли.
+- Заполнены 26 пустых объяснений.
+
+### Готовая разметка частей
+
+- **Делить нужно только besupposedto:**
+  - be supposed to — B1 (`b1_supposed_to`, слайды 0 и 2);
+  - be to — B2 (`b2_be_to`, слайд 1). Официальный стиль новостей и инструкций — уровень выше.
+- **Остальные — по одной части:**
+  - because of, how about, I'd love to, is it okay if, each other, the same as — A2;
+  - be about to, although / despite, in order to, so that, like / unlike — B1;
+  - likely / bound, might as well — B2.
+- Частей теперь 181. Описания — в PARTS.md, цели — в UNITS.md.
+- Для новой второй части `b2_be_to` нарисована иконка, всего иконок частей 65.
+
+### Реализованное отображение
+
+- Только существующие блоки.
+- Две таблицы в so that и строки «Оттенки» в despite сжимали колонки. Переделаны в короткие правила. Длинные слова в колонке ошибок заменены. После правок сжатий нет.
+- Сверка со схемой приложения: 0 карточек с ошибкой загрузки.
+
+### Необходимые миграции
+
+M-027: индексы слайдов и привязка заданий прежние, новые части. Действий от приложения не нужно.
+
+### Оставшиеся проблемы
+
+- **Be to в двух карточках.** Тема есть и в besupposedto #1, и в отдельной карточке betoinfinitive. При её переработке решу, где оставить подробности.
+- **Due to в двух карточках.** «Из-за» есть и в likelyto #1, и в becauseof. Это разные уровни, A2 и B2, повтор оставлен.
+- **Задания на выбор по смыслу** (like / unlike / as, each other / themselves, love / hate) сравнивают смысл, верный ответ определяет перевод. Где мог, неверный вариант сделан и грамматически неверным.
+- **Уровни в банке.** Простые задания лежат в файлах B2–C2 (открытый вопрос 8), не переносил.
+
+### Источники
+
+- Oxford Learner's Dictionaries: [likely (adverb)](https://www.oxfordlearnersdictionaries.com/definition/english/likely_2) — likely без most / very в американском «is not considered incorrect».
+- Oxford Learner's Dictionaries: [likely (adjective)](https://www.oxfordlearnersdictionaries.com/definition/english/likely_1) — likely to do, it is likely that.
+- Merriam-Webster: [about](https://www.merriam-webster.com/dictionary/about) — about to «on the verge of», not about to — решимость не делать.
+- Perfect Your English: [So that, in order that, in order to, so as to](https://perfectyourenglish.com/blog/so-that-in-order-that-in-order-to-so-as-to/) — в разговоре that после so опускают.
+- Merriam-Webster: [To Boldly Go: split infinitives](https://www.merriam-webster.com/wordplay/to-boldly-split-infinitives) — современные справочники допускают to not.
+- VOA Learning English: [Making and Responding to Suggestions](https://learningenglish.voanews.com/a/making-and-responding-to-suggestions/4266045.html) — How about + подлежащее + глагол.
+- Oxford Learner's Dictionaries: [let](https://www.oxfordlearnersdictionaries.com/definition/english/let) — Don't let's (брит.) — партия 16, использовано для проверки вариантов.
+
+### Проверки
+
+- audit-content и audit-curriculum: 242 карточки, 181 часть, 0 ошибок.
+- Предупреждений 75 вместо 79: ушли 4 задания с двумя пропусками в the same as.
+- node-тесты: 15/15.
+- check_card.py: без замечаний.
+- Сверка со схемой приложения: 0 ошибок.
 - layout.js и fit.js: без замечаний после правок.
 - Kotlin-генератор упражнений здесь не запускался: нет Android SDK.
 

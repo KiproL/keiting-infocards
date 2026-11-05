@@ -3,24 +3,24 @@
   "route": "cards_eachother",
   "slides": [
     {
-      "label": "each other: друг друга",
+      "label": "Друг друга",
       "intro": {
-        "text": "Each other — «друг друга»: действие идёт в обе стороны. Не путай с themselves — «себя»: там каждый делает что-то сам с собой.",
+        "text": "Двое встретились взглядом: They looked at each other — «они посмотрели друг на друга». Each other — действие идёт в обе стороны. Themselves — «себя»: каждый делает что-то сам с собой.",
         "highlights": [
           {
-            "text": "Each other",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "They looked at each other",
+            "color": "example",
+            "style": "bold"
           },
           {
             "text": "в обе стороны",
             "color": "info",
-            "style": "bold"
+            "style": "bold_underline"
           },
           {
-            "text": "themselves",
-            "color": "bad",
-            "style": "bold_underline"
+            "text": "Themselves",
+            "color": "term",
+            "style": "bold"
           }
         ]
       },
@@ -137,17 +137,18 @@
               }
             ],
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: themselves вместо each other",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с each other.",
+        "text": "Частые ошибки с each other. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -182,15 +183,58 @@
           "callout": {
             "type": "tip",
             "title": "Meet и marry — без each other",
-            "text": "Meet, marry, kiss и hug уже значат «друг с другом»: They met in 2010. They got married last year. Each other здесь обычно не нужно."
-          },
-          "quote": {
-            "text": "Each other — двустороннее, -selves — на себя.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Meet и marry уже значат «друг с другом»: They met in 2010. They got married last year. С kiss и hug можно и так, и так: They kissed / They kissed each other."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-06",
+  "error_patterns": [
+    {
+      "id": "error:eachother.each",
+      "description": "друг друга — each other, себя — themselves",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:eachother.poss",
+      "description": "each other's — «чей»",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:eachother.prep",
+      "description": "Предлог — перед each other: talk to each other",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:eachother.verbs",
+      "description": "meet, marry — без each other",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_each",
+    "word_other"
+  ],
+  "prerequisites": [
+    "cards_pronouns"
+  ],
+  "prerequisites_reviewed": false
 }
