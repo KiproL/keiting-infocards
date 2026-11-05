@@ -1695,7 +1695,6 @@ M-027: индексы слайдов и привязка заданий преж
 - Perfect Your English: [So that, in order that, in order to, so as to](https://perfectyourenglish.com/blog/so-that-in-order-that-in-order-to-so-as-to/) — в разговоре that после so опускают.
 - Merriam-Webster: [To Boldly Go: split infinitives](https://www.merriam-webster.com/wordplay/to-boldly-split-infinitives) — современные справочники допускают to not.
 - VOA Learning English: [Making and Responding to Suggestions](https://learningenglish.voanews.com/a/making-and-responding-to-suggestions/4266045.html) — How about + подлежащее + глагол.
-- Oxford Learner's Dictionaries: [let](https://www.oxfordlearnersdictionaries.com/definition/english/let) — Don't let's (брит.) — партия 16, использовано для проверки вариантов.
 
 ### Проверки
 
