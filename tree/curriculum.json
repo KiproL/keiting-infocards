@@ -2134,6 +2134,29 @@
       "reviewed": false
     },
     {
+      "id": "a2_irregular_forms",
+      "level": "A2",
+      "title": "Неправильные глаголы",
+      "slices": [
+        {
+          "route": "cards_irregularverbs",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_irregular"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_modals_can",
       "level": "A2",
       "title": "Can, could, may, might",
@@ -2184,6 +2207,163 @@
           "revision": 2,
           "slides": [
             5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_must"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_haveto_core",
+      "level": "A2",
+      "title": "Have to: приходится",
+      "slices": [
+        {
+          "route": "cards_haveto",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_questions",
+        "a1_past_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_mustnt_core",
+      "level": "A2",
+      "title": "Must и mustn't",
+      "slices": [
+        {
+          "route": "cards_mustnt",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_must",
+        "a2_haveto_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_donthaveto_core",
+      "level": "A2",
+      "title": "Don't have to",
+      "slices": [
+        {
+          "route": "cards_donthaveto",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_mustnt_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_needto_core",
+      "level": "A2",
+      "title": "Need to: нужно",
+      "slices": [
+        {
+          "route": "cards_needto",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_haveto_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_beableto_core",
+      "level": "A2",
+      "title": "Be able to: смогу",
+      "slices": [
+        {
+          "route": "cards_beableto",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_can"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_beableto_past",
+      "level": "B1",
+      "title": "Could или was able to",
+      "slices": [
+        {
+          "route": "cards_beableto",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_beableto_core",
+        "a1_past_irregular"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_shall_core",
+      "level": "A2",
+      "title": "Shall I…? Shall we…?",
+      "slices": [
+        {
+          "route": "cards_shall",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_must",
+        "a1_questions_yesno"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_hadbetter_core",
+      "level": "B1",
+      "title": "Had better: лучше бы",
+      "slices": [
+        {
+          "route": "cards_hadbetter",
+          "revision": 1,
+          "slides": [
+            0,
+            1
           ]
         }
       ],

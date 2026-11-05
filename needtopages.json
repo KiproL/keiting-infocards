@@ -3,23 +3,28 @@
   "route": "cards_needto",
   "slides": [
     {
-      "label": "Need to: мне нужно",
+      "label": "Need to: нужно",
       "intro": {
-        "text": "Need to говорит, что что-то нужно сделать. Это необходимость для себя — внутренняя потребность, а не внешняя обязанность.",
+        "text": "Need to — «нужно»: I need to call my mom. Это просто необходимость, без оттенка приказа. С he, she, it — needs to, вопрос и отрицание — с do: Do you need to…? I don't need to.",
         "highlights": [
           {
             "text": "Need to",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "нужно",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "внутренняя потребность",
+            "text": "необходимость",
             "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "needs to",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "с do",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -192,7 +197,7 @@
       ],
       "expandables": [
         {
-          "label": "Need + существительное и needn't",
+          "label": "Need + слово или + to",
           "preview": "другие формы need",
           "initiallyExpanded": false,
           "section": {
@@ -241,17 +246,18 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: need go, he need",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в need to.",
+        "text": "Частые ошибки с need to. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -282,15 +288,59 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Need to — сам чувствуешь потребность. Have to — обстоятельства заставляют."
-          },
-          "quote": {
-            "text": "Need to идёт изнутри, have to приходит снаружи.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Need to — это необходимо. Have to — так требуют обстоятельства или правила. Часто подходят оба: I need to / have to go now."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:needto.to",
+      "description": "need + to + глагол",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:needto.needs",
+      "description": "he / she / it — needs",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:needto.do",
+      "description": "Отрицание и вопрос — с do: don't need to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:needto.tense",
+      "description": "needed to, will need to",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_need",
+    "word_have"
+  ],
+  "prerequisites": [
+    "cards_haveto"
+  ],
+  "prerequisites_reviewed": false
 }

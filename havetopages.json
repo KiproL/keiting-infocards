@@ -3,29 +3,24 @@
   "route": "cards_haveto",
   "slides": [
     {
-      "label": "have to: «приходится»",
+      "label": "Have to: приходится",
       "intro": {
-        "text": "Have to — «надо, приходится». Это обязанность, которую задают обстоятельства: работа, закон, правила. Не личное желание, а необходимость снаружи. С he, she, it — has to.",
+        "text": "Когда работа, закон или обстоятельства не оставляют выбора, говорят have to: I have to get up at six — мне приходится вставать в шесть. С he, she, it — has to. В отличие от must, have to есть во всех временах: had to, will have to.",
         "highlights": [
           {
-            "text": "Have to",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "обстоятельства",
+            "text": "have to",
             "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "необходимость снаружи",
-            "color": "example",
             "style": "bold"
           },
           {
             "text": "has to",
             "color": "info",
             "style": "bold"
+          },
+          {
+            "text": "во всех временах",
+            "color": "example",
+            "style": "bold_underline"
           }
         ]
       },
@@ -243,29 +238,30 @@
               "text": "Перед to звонкий v переходит в глухой f: так проще произнести. Пишется всё равно have to."
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
     {
-      "label": "Отрицание и вопрос: do you have to",
+      "label": "Do you have to…?",
       "intro": {
-        "text": "Have to — обычный глагол, поэтому в вопросах и отрицаниях нужны do / does / did. Don't have to — «не обязательно», а не «нельзя».",
+        "text": "Have to ведёт себя как обычный глагол: в вопросе и отрицании нужны do, does, did. Don't have to значит «не обязательно», а не «нельзя»: You don't have to come — можешь не приходить.",
         "highlights": [
           {
-            "text": "do / does / did",
-            "color": "bad",
+            "text": "do, does, did",
+            "color": "info",
             "style": "bold"
           },
           {
-            "text": "don't have to",
-            "color": "info",
+            "text": "Don't have to",
+            "color": "term",
             "style": "bold"
           },
           {
             "text": "не обязательно",
             "color": "example",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -314,7 +310,7 @@
           ]
         },
         {
-          "title": "Have to vs must",
+          "title": "Have to, must, mustn't",
           "borderColor": "term",
           "table": {
             "headers": [
@@ -331,14 +327,14 @@
               {
                 "cells": [
                   "have to",
-                  "внешняя обязанность",
+                  "так требуют правила, обстоятельства",
                   "I have to wear a uniform."
                 ]
               },
               {
                 "cells": [
                   "must",
-                  "личное решение",
+                  "так считает говорящий; правила на табличках",
                   "I must call my mom."
                 ]
               },
@@ -352,13 +348,14 @@
               {
                 "cells": [
                   "mustn't",
-                  "запрещено",
+                  "нельзя",
                   "You mustn't smoke here."
                 ]
               }
             ],
             "borderColor": "term"
-          }
+          },
+          "text": "Граница между have to и must не жёсткая: часто подходят оба — I must go / I have to go. Вопросы с must звучат официально, поэтому спрашивают Do I have to…? В прошлом и после will у must формы нет — только had to, will have to."
         }
       ],
       "expandables": [
@@ -392,19 +389,14 @@
       ]
     },
     {
-      "label": "Частые ошибки: have to и must",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Четыре ошибки: have to в прошлом, has to с he и путаница have to и must.",
+        "text": "Частые ошибки с have to: время, has to и путаница с must. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "в прошлом",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "путаница have to и must",
-            "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -437,15 +429,73 @@
           "callout": {
             "type": "tip",
             "title": "Как различить",
-            "text": "Have to — обстоятельства заставляют. Must — ты сам так решил. Если можно добавить «приходится / вынужден» — это have to."
-          },
-          "quote": {
-            "text": "Must — голос внутри. Have to — голос снаружи.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "text": "Have to — так требуют обстоятельства или правила. Must — так считает говорящий. Если сомневаешься, have to почти всегда подойдёт."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:haveto.has_to",
+      "description": "С he, she, it — has to",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:haveto.tense",
+      "description": "В прошлом — had to, в будущем — will have to",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:haveto.do",
+      "description": "Вопрос и отрицание — с do / does / did",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:haveto.meaning",
+      "description": "Have to, must, don't have to, mustn't — разный смысл",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:haveto.base",
+      "description": "После have to — начальная форма глагола",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_have",
+    "word_must"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

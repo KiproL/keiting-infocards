@@ -425,3 +425,28 @@ genericarticles, articlesnames, usedto, therewillbe, pastcont, futuresimp, prese
 | `a2_contractions_s_d` (contractions) | `a2_contractions_s_d`, `a2_contractions_full`, `a2_contractions_review` |
 
 Редакции повышены из-за правки содержания: presentcont 2 → 3, pastsimp 2 → 3, pastcont 1 → 2, futuresimp 1 → 2 (ряды слов-маркеров стали подсказками с границами правила; у pastcont исправлен цвет Past Simple). Память по шагам этих карточек сбросится по обычному правилу. Действий от приложения не нужно.
+
+## M-020. Партия 10 — совместимо, опубликовано
+
+haveto, donthaveto, mustnt, needto, beableto, hadbetter, shall, irregularverbs: редакция 0 → 1. Индексы и темы прежних слайдов сохранены.
+
+**be able to.**
+- В конец добавлен слайд 2 «Could или was able to» (B1). Различие could и was able to перенесено туда со слайда 1. Цель шага beableto#1 сузилась до «can или be able to».
+- Задание `beableto_1_4` перепривязано: #1 → #2.
+
+**irregularverbs.** Задание `irregularverbs_1_n12` перепривязано: #1 → #3.
+
+**Новые задания:** `beableto_r1_2_0` … `beableto_r1_2_5`.
+
+**Новые части:**
+- `a2_haveto_core`;
+- `a2_mustnt_core`;
+- `a2_donthaveto_core`;
+- `a2_needto_core`;
+- `a2_beableto_core`;
+- `b1_beableto_past`;
+- `a2_shall_core`;
+- `b1_hadbetter_core`;
+- `a2_irregular_forms`.
+
+Действий от приложения не нужно.

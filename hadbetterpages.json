@@ -3,23 +3,23 @@
   "route": "cards_hadbetter",
   "slides": [
     {
-      "label": "Had better: «лучше бы, иначе…»",
+      "label": "Had better: лучше бы",
       "intro": {
-        "text": "Had better — это не «лучше» в смысле сравнения. Это предупреждение: если не сделать — будут последствия. Обычно сокращается до 'd better.",
+        "text": "Друг смотрит на часы: You'd better go, or you'll miss the train. Had better — «лучше бы, а то…»: совет с предупреждением о неприятных последствиях. Better здесь не сравнивает. В речи обычно сокращают до 'd better.",
         "highlights": [
           {
-            "text": "had better",
-            "color": "bad",
-            "style": "bold_underline"
-          },
-          {
-            "text": "предупреждение",
-            "color": "info",
+            "text": "You'd better go",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "последствия",
-            "color": "example",
+            "text": "совет с предупреждением",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "'d better",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -32,7 +32,7 @@
             "parts": [
               {
                 "text": "had better",
-                "color": "bad"
+                "color": "info"
               },
               {
                 "text": "+",
@@ -152,7 +152,7 @@
               {
                 "cells": [
                   "had better not",
-                  "запрет",
+                  "лучше не делать, а то…",
                   "You'd better not be late."
                 ]
               }
@@ -185,14 +185,14 @@
       ],
       "expandables": [
         {
-          "label": "Should, had better, must",
+          "label": "Should или had better",
           "preview": "от совета к обязанности",
           "initiallyExpanded": false,
           "section": {
             "borderColor": "info",
             "table": {
               "headers": [
-                "Оборот",
+                "Что",
                 "Сила",
                 "Пример"
               ],
@@ -232,17 +232,18 @@
               "text": "Had better звучит строго. Старшим и коллегам лучше сказать should или It might be a good idea to…"
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Частые ошибки: had better to go, have better",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в had better.",
+        "text": "Частые ошибки с had better. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -274,14 +275,49 @@
             "type": "tip",
             "title": "Как различить",
             "text": "Should — мягкий совет. Had better — сильный совет с предупреждением. Must — обязанность. Если можно сказать «иначе будет плохо» — это had better."
-          },
-          "quote": {
-            "text": "Had better — это should, который взял в руки дубину.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:hadbetter.no_to",
+      "description": "had better + глагол без to и без -ing",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hadbetter.had",
+      "description": "Всегда had, не have",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:hadbetter.not",
+      "description": "had better not, а не don't",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_better",
+    "word_should"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

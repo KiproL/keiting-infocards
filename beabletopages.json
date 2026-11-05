@@ -3,22 +3,22 @@
   "route": "cards_beableto",
   "slides": [
     {
-      "label": "Be able to: «смочь» в любом времени",
+      "label": "Be able to: смогу",
       "intro": {
-        "text": "Be able to — способность сделать что-то. Это заменитель can, который работает во всех временах и формах. Используется, когда can не справляется.",
+        "text": "У can нет формы будущего, и после will или have его не поставить. Чтобы сказать «смогу», «смог», «удалось», используют be able to: I'll be able to help you tomorrow.",
         "highlights": [
           {
-            "text": "Be able to",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "способность",
+            "text": "can",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "заменитель can",
+            "text": "be able to",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "«смогу», «смог», «удалось»",
             "color": "example",
             "style": "bold"
           }
@@ -206,7 +206,7 @@
               "ru": "Завтра я смогу тебе помочь."
             },
             {
-              "en": "She has been able to swim since age 5.",
+              "en": "She has been able to swim since she was five.",
               "ru": "Она умеет плавать с 5 лет."
             },
             {
@@ -224,10 +224,15 @@
     {
       "label": "Can или be able to",
       "intro": {
-        "text": "Can работает только в настоящем (и could — в прошлом). Be able to работает во всех временах — это его главное преимущество.",
+        "text": "Can — настоящее, could — прошлое. Be able to нужен там, где can стоять не может: после will, have, модальных глаголов и to.",
         "highlights": [
           {
             "text": "Can",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "could",
             "color": "info",
             "style": "bold"
           },
@@ -237,8 +242,8 @@
             "style": "bold"
           },
           {
-            "text": "во всех временах",
-            "color": "good",
+            "text": "где can стоять не может",
+            "color": "example",
             "style": "bold_underline"
           }
         ]
@@ -297,63 +302,161 @@
           }
         },
         {
-          "title": "Was able to или could",
-          "borderColor": "info",
-          "examples": [
-            {
-              "en": "I could swim when I was six.",
-              "ru": "Я умел плавать в шесть лет. (умение вообще — could)"
-            },
-            {
-              "en": "I was able to swim to the island.",
-              "ru": "Мне удалось доплыть до острова. (один случай — was able to)"
-            },
-            {
-              "en": "I couldn't / wasn't able to open the door.",
-              "ru": "Не смог открыть дверь. (в отрицании — оба)"
-            }
-          ]
-        },
-        {
           "title": "Совет",
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "Если can нельзя поставить — ставь be able to. Это универсальный заменитель для всех времён."
-          },
-          "quote": {
-            "text": "Can короткий, но бессилен в будущем. Be able to длинный, но работает везде.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
+            "title": "Простой ориентир",
+            "text": "Если can поставить нельзя — ставь be able to. В настоящем времени can звучит естественнее: I can swim, а I am able to swim — книжно. Как говорить о прошлом умении и успехе — на следующем слайде."
           }
+        },
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "I will can help you.",
+              "right": "I will be able to help you. (после will — be able to)"
+            },
+            {
+              "wrong": "I have could finish.",
+              "right": "I have been able to finish. (после have — been able to)"
+            },
+            {
+              "wrong": "I want to can swim.",
+              "right": "I want to be able to swim. (после to — be able to)"
+            }
+          ]
         }
       ],
-      "expandables": [
-        {
-          "label": "Частые ошибки",
-          "preview": "will can, have could",
-          "initiallyExpanded": false,
-          "section": {
-            "borderColor": "bad",
-            "errors": [
-              {
-                "wrong": "I will can help you.",
-                "right": "I will be able to help you. (после will — be able to)"
-              },
-              {
-                "wrong": "I have could finish.",
-                "right": "I have been able to finish. (после have — been able to)"
-              },
-              {
-                "wrong": "I want to can swim.",
-                "right": "I want to be able to swim. (после to — be able to)"
-              }
-            ],
-            "title": ""
+      "expandables": []
+    },
+    {
+      "label": "Could или was able to",
+      "intro": {
+        "text": "Рассказывая о прошлом, различаем умение вообще и успех в одном случае. Could — «умел, мог вообще»: I could swim when I was six. Was able to или managed to — «удалось в тот раз»: The water was cold, but I was able to swim to the island.",
+        "highlights": [
+          {
+            "text": "умение вообще",
+            "color": "info",
+            "style": "bold_underline"
+          },
+          {
+            "text": "успех в одном случае",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Could",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Was able to",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "managed to",
+            "color": "term",
+            "style": "bold"
           }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Умение или успех",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I could swim when I was six.",
+              "ru": "Я умел плавать в шесть лет — умение вообще."
+            },
+            {
+              "en": "I was able to swim to the island.",
+              "ru": "Мне удалось доплыть до острова — один раз, с усилием."
+            },
+            {
+              "en": "After two hours we managed to find a taxi.",
+              "ru": "Через два часа нам удалось поймать такси."
+            }
+          ]
+        },
+        {
+          "title": "В отрицании подходят оба",
+          "borderColor": "term",
+          "text": "Couldn't говорит и о том, что не умел, и о том, что не получилось один раз. Wasn't able to звучит чуть официальнее.",
+          "examples": [
+            {
+              "en": "I couldn't open the door.",
+              "ru": "Я не смог открыть дверь."
+            },
+            {
+              "en": "I wasn't able to open the door.",
+              "ru": "То же самое, чуть официальнее."
+            }
+          ]
+        },
+        {
+          "title": "Видел, слышал: could",
+          "borderColor": "info",
+          "text": "С see, hear, smell, understand о прошлом обычно говорят could, даже об одном случае: We could hear the sea from our room."
+        },
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "The exam was hard, but I could pass it.",
+              "right": "The exam was hard, but I was able to pass it. (удалось один раз)"
+            },
+            {
+              "wrong": "Yesterday I could find the keys.",
+              "right": "Yesterday I managed to find the keys. (успех в одном случае)"
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:beableto.after",
+      "description": "После will, have, модальных и to — be able to, а не can",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:beableto.be_form",
+      "description": "am / is / are, was / were, been — по подлежащему и времени",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:beableto.could",
+      "description": "Could — умение вообще, was able to — удалось в тот раз",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_able",
+    "word_could",
+    "word_a2_manage"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

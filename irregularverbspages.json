@@ -3,12 +3,12 @@
   "route": "cards_irregularverbs",
   "slides": [
     {
-      "label": "Три формы: go, went, gone",
+      "label": "Три формы глагола",
       "intro": {
-        "text": "Неправильные глаголы образуют прошедшее время (V2) и третью форму (V3) не через -ed, а по-своему. Всего их около 200, но в жизни нужна сотня. Учить проще группами — по тому, как меняются формы.",
+        "text": "Обычно прошедшее время строим через -ed: work → worked. У неправильных глаголов формы свои: go → went → gone. V2 — форма прошедшего времени, V3 — третья форма для Perfect и пассива. Их около двухсот, но в обычной речи хватает сотни. Учить проще группами — по тому, как меняются формы.",
         "highlights": [
           {
-            "text": "Неправильные глаголы",
+            "text": "неправильных глаголов",
             "color": "term",
             "style": "bold_underline"
           },
@@ -24,7 +24,7 @@
           },
           {
             "text": "группами",
-            "color": "good",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -127,8 +127,8 @@
                 "ru": "Вчера я ехал на такси."
               },
               {
-                "en": "I have never gone by plane. (V3)",
-                "ru": "Я никогда не летал самолётом."
+                "en": "My brother has gone to work. (V3)",
+                "ru": "Брат ушёл на работу."
               },
               {
                 "en": "Did you see the match? — Yes, I saw it.",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "label": "Все три одинаковые: cut, put, let",
+      "label": "Cut, put, let",
       "intro": {
         "text": "Самая лёгкая группа: форма не меняется вообще. Время видно только по контексту и словам рядом: yesterday, already.",
         "highlights": [
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "label": "V2 = V3: bought, kept, sent",
+      "label": "Bought, kept, sent",
       "intro": {
         "text": "Самая большая группа: прошедшее и третья форма совпадают. Внутри есть свои узоры — по ним глаголы запоминаются кучками.",
         "highlights": [
@@ -596,6 +596,17 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Две формы: learned и learnt",
+          "borderColor": "info",
+          "text": "У нескольких глаголов есть и правильная, и неправильная форма. В американском английском обычно learned, dreamed, burned; в британском встречаются обе: learnt, dreamt, burnt. У get третья форма в американском часто gotten: I've gotten used to it, в британском — got. Обе формы верны; в одном тексте держись одного варианта.",
+          "examples": [
+            {
+              "en": "I learned / learnt a lot this year.",
+              "ru": "Я многому научился за этот год — обе формы верны."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -629,7 +640,7 @@
       ]
     },
     {
-      "label": "Все три разные: write, wrote, written",
+      "label": "Write, wrote, written",
       "intro": {
         "text": "Здесь меняется всё. Подсказка: третья форма часто на -n или -en — written, spoken, given, known.",
         "highlights": [
@@ -941,7 +952,7 @@
       ]
     },
     {
-      "label": "V3 = V1: come, came, come",
+      "label": "Come, came, come",
       "intro": {
         "text": "Маленькая группа: третья форма возвращается к основе. Их три — и все очень частые.",
         "highlights": [
@@ -1048,12 +1059,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: have went, teached",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с неправильными глаголами.",
+        "text": "Частые ошибки с неправильными глаголами. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -1105,5 +1116,70 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:irregularverbs.v1",
+      "description": "После did, didn't, will, to — V1",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:irregularverbs.v2",
+      "description": "Past Simple — V2",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:irregularverbs.v3",
+      "description": "После have / has и в пассиве — V3",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:irregularverbs.regular",
+      "description": "Не добавлять -ed к неправильным: teached, buyed",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_go",
+    "word_see",
+    "word_buy",
+    "word_write",
+    "word_come",
+    "word_teach"
+  ],
+  "prerequisites": [
+    "cards_pastsimp"
+  ],
+  "prerequisites_reviewed": false
 }

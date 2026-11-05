@@ -3,14 +3,19 @@
   "route": "cards_mustnt",
   "slides": [
     {
-      "label": "Must — надо, mustn't — нельзя",
+      "label": "Must и mustn't",
       "intro": {
-        "text": "Must выражает обязанность или личное решение. Mustn't — категорический запрет. Это самое сильное «нельзя» в английском.",
+        "text": "На двери музея: Visitors must leave bags here. You mustn't take photos. Must — «надо, обязательно»: так требуют правила или так считает говорящий. Mustn't — «нельзя»: это запрет.",
         "highlights": [
           {
             "text": "Must",
-            "color": "term",
+            "color": "info",
             "style": "bold"
+          },
+          {
+            "text": "обязательно",
+            "color": "example",
+            "style": "bold_underline"
           },
           {
             "text": "Mustn't",
@@ -18,13 +23,8 @@
             "style": "bold"
           },
           {
-            "text": "категорический запрет",
-            "color": "example",
-            "style": "bold_underline"
-          },
-          {
-            "text": "нельзя",
-            "color": "info",
+            "text": "запрет",
+            "color": "bad",
             "style": "bold"
           }
         ]
@@ -322,22 +322,27 @@
       ]
     },
     {
-      "label": "Отрицание и вопрос: Must I…?",
+      "label": "Must I…? без do",
       "intro": {
-        "text": "Must — модальный глагол, работает без do. Отрицание — mustn't, вопрос — Must I…?",
+        "text": "Must — модальный глагол, поэтому работает без do: отрицание mustn't, вопрос Must I…? Такие вопросы звучат официально, в разговоре чаще спрашивают Do I have to…?",
         "highlights": [
           {
             "text": "без do",
-            "color": "bad",
-            "style": "bold_underline"
-          },
-          {
-            "text": "mustn't",
             "color": "info",
             "style": "bold"
           },
           {
+            "text": "mustn't",
+            "color": "bad",
+            "style": "bold"
+          },
+          {
             "text": "Must I…?",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "Do I have to…?",
             "color": "term",
             "style": "bold"
           }
@@ -379,50 +384,12 @@
           ]
         },
         {
-          "title": "Сравнение",
+          "title": "Как ответить на Must I…?",
           "borderColor": "term",
-          "table": {
-            "headers": [
-              "Форма",
-              "Смысл",
-              "Пример"
-            ],
-            "headerColors": [
-              "info",
-              "example",
-              "term"
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "must",
-                  "обязан (внутреннее)",
-                  "I must study."
-                ]
-              },
-              {
-                "cells": [
-                  "have to",
-                  "обязан (внешнее)",
-                  "I have to study."
-                ]
-              },
-              {
-                "cells": [
-                  "mustn't",
-                  "нельзя",
-                  "You mustn't smoke."
-                ]
-              },
-              {
-                "cells": [
-                  "don't have to",
-                  "не обязательно",
-                  "You don't have to come."
-                ]
-              }
-            ],
-            "borderColor": "term"
+          "callout": {
+            "type": "tip",
+            "title": "Нет — don't have to, а не mustn't",
+            "text": "Must I wear a tie? — No, you don't have to. Ответ No, you mustn't значил бы «тебе запрещено»."
           }
         }
       ],
@@ -457,12 +424,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: must to, don't must, musted",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Четыре самые частые ошибки в must и mustn't.",
+        "text": "Частые ошибки с must и mustn't. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Четыре самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -498,14 +465,60 @@
             "type": "tip",
             "title": "Как различить",
             "text": "Must — обязан сам или по правилу. Mustn't — нельзя. Have to — приходится по обстоятельствам. Don't have to — не обязательно."
-          },
-          "quote": {
-            "text": "Must — самое сильное слово долженствования. Используй его осторожно.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:mustnt.no_to",
+      "description": "После must — глагол без to",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:mustnt.no_do",
+      "description": "Must без do: mustn't, Must I…?",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:mustnt.past",
+      "description": "У must нет прошедшего: had to, wasn't allowed to, couldn't",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:mustnt.meaning",
+      "description": "must, mustn't, have to, don't have to — разный смысл",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_must",
+    "word_have"
+  ],
+  "prerequisites": [
+    "cards_modalverbs",
+    "cards_haveto"
+  ],
+  "prerequisites_reviewed": false
 }

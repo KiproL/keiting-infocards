@@ -3,9 +3,9 @@
   "route": "cards_shall",
   "slides": [
     {
-      "label": "Shall I…? Shall we…?: предлагаем",
+      "label": "Shall I…? Shall we…?",
       "intro": {
-        "text": "Shall I…? — «мне сделать…?»: предлагаешь помощь. Shall we…? — «давай…?»: предлагаешь сделать вместе. Разрешения тут не спрашивают — предлагают действие.",
+        "text": "Shall I…? — «мне сделать…?»: предлагаешь помощь. Shall we…? — «давай…?»: предлагаешь сделать что-то вместе. Так говорят в основном в британском английском; в американском чаще Should I…? или Do you want me to…?",
         "highlights": [
           {
             "text": "Shall I…?",
@@ -14,12 +14,12 @@
           },
           {
             "text": "Shall we…?",
-            "color": "good",
+            "color": "info",
             "style": "bold"
           },
           {
-            "text": "предлагают действие",
-            "color": "example",
+            "text": "в британском английском",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -294,7 +294,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         },
         {
           "label": "What shall we…? Where shall we…?",
@@ -326,7 +327,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: shall, will и should",
+      "label": "Shall, will, should",
       "intro": {
         "text": "Shall часто путают с will и should. Shall I / we — предложение, will you — просьба, should — совет.",
         "highlights": [
@@ -402,7 +403,7 @@
             },
             {
               "wrong": "Shall he come?",
-              "right": "Should he come? (shall — только с I и we)"
+              "right": "Should he come? (в вопросах shall почти всегда с I и we)"
             }
           ]
         },
@@ -413,14 +414,50 @@
             "type": "tip",
             "title": "Когда использовать",
             "text": "Shall I / Shall we — только для предложений и вопросов о совместных действиях. Если хочешь дать совет — нужен should."
-          },
-          "quote": {
-            "text": "Shall — редкое слово, но именно оно делает предложение вежливым.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:shall.offer",
+      "description": "Shall I — сделаю для тебя, Shall we — давай вместе",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:shall.vs",
+      "description": "Will you — просьба, should — совет, shall — предложение",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:shall.form",
+      "description": "Shall + глагол без to и без do",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_shall",
+    "word_will",
+    "word_should"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

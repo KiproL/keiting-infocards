@@ -553,3 +553,29 @@ Kotlin-генератор упражнений здесь не запускал�
 
 Карта: 0 «I'm, don't, won't» → `a1_contractions_core` (с); 1 «'s и 'd: два значения» → `a2_contractions_s_d` (с); 2 «Когда пишут полностью» → `a2_contractions_s_d` (с); 3 «Частые ошибки» → `a2_contractions_s_d` (с).
 
+
+## Партия 10
+
+| Тема | Часть | Уровень | Слайды | Предпосылки | Дальше |
+|---|---|---|---|---|---|
+| Have to | `a2_haveto_core` «Have to: приходится» | A2 | 0 Have to: приходится, 1 Do you have to…?, 2 Частые ошибки | a1_simple_questions, a1_past_forms | a2_mustnt_core, a2_needto_core |
+| Must / Mustn't | `a2_mustnt_core` «Must и mustn't» | A2 | 0 Must и mustn't, 1 Must I…? без do, 2 Частые ошибки | a2_modals_must, a2_haveto_core | a2_donthaveto_core |
+| Don't have to | `a2_donthaveto_core` «Don't have to» | A2 | 0 Не обязательно, 1 Частые ошибки | a2_mustnt_core | — |
+| Need to | `a2_needto_core` «Need to: нужно» | A2 | 0 Need to: нужно, 1 Частые ошибки | a2_haveto_core | — |
+| Be able to | `a2_beableto_core` «Be able to: смогу» | A2 | 0 Be able to: смогу, 1 Can или be able to | a2_modals_can | b1_beableto_past |
+| Be able to | `b1_beableto_past` «Could или was able to» | B1 | 2 Could или was able to | a2_beableto_core, a1_past_irregular | — |
+| Shall I / Shall we | `a2_shall_core` «Shall I…? Shall we…?» | A2 | 0 Shall I…? Shall we…?, 1 Shall, will, should | a2_modals_must, a1_questions_yesno | — |
+| Had better | `b1_hadbetter_core` «Had better: лучше бы» | B1 | 0 Had better: лучше бы, 1 Частые ошибки | a2_modals_must | — |
+| Irregular Verbs | `a2_irregular_forms` «Неправильные глаголы» | A2 | 0–5 | a1_past_irregular | — |
+
+**Делить нужно только be able to.** Различие could и was able to — материал B1: British Council даёт его в уроке «Past ability» уровня B1–B2. Остальные темы — один уровень и один навык.
+
+Карта содержания be able to:
+
+| Исходный пункт | Где теперь | Отметка |
+|---|---|---|
+| Формы be able to по временам, когда can нельзя (сл. 0) | A2, сл. 0 | сохранено; вступление начинается с ситуации, пример «since age 5» исправлен |
+| Сравнение can и be able to (сл. 1) | A2, сл. 1 | сохранено; совет переписан: be able to в настоящем звучит книжно |
+| Could или was able to (сл. 1) | B1, сл. 2 | перенесено, дополнено: managed to, couldn't в отрицании, could с see и hear |
+| Частые ошибки в скрытом блоке (сл. 1) | A2, сл. 1 | перенесено из скрытого блока на слайд |
+| Цитата | — | удалено: не учебное содержание |
