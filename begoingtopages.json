@@ -196,6 +196,24 @@
           }
         },
         {
+          "title": "Сравни: собираюсь и иду",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I'm going to visit my grandma.",
+              "ru": "Я собираюсь навестить бабушку. (going to + глагол — план)"
+            },
+            {
+              "en": "I'm going to the shop.",
+              "ru": "Я иду в магазин. (going to + место — просто «иду»)"
+            },
+            {
+              "en": "It's going to rain.",
+              "ru": "Собирается дождь. (видно по тучам)"
+            }
+          ]
+        },
+        {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
@@ -373,7 +391,8 @@
               "text": "Going to часто звучит как gonna: I'm gonna call her. Так говорят, но в письме лучше полностью."
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -424,7 +443,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -465,5 +484,14 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_plan",
+    "word_will",
+    "word_tomorrow"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

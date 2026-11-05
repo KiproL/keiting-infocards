@@ -252,3 +252,7 @@ timemoney, wordorder, directions, shopping, restaurant, weather, food, jobs: р�
 ## M-015. Доработка партии 7: редакции 1 → 2 — совместимо, опубликовано
 
 appearance, body, clothes, home, hobbies, emotions, study, technology: редакция 2. Индексы слайдов и привязка заданий прежние.
+
+## M-016. Доработка партии 8: редакции 1 → 2 — совместимо, опубликовано
+
+britishamerican, collocations, idioms, strongadjectives, begoingto, therewaswere, wouldlike, fewlittle: редакция 2. Индексы слайдов и привязка заданий прежние.

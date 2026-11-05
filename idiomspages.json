@@ -42,6 +42,28 @@
               "ru": "На сегодня хватит."
             }
           ]
+        },
+        {
+          "title": "Сравни: прямой смысл и идиома",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "He broke his leg.",
+              "ru": "Он сломал ногу. (прямой смысл)"
+            },
+            {
+              "en": "Break a leg!",
+              "ru": "Ни пуха ни пера! (идиома)"
+            },
+            {
+              "en": "I ate a piece of cake.",
+              "ru": "Я съел кусок торта. (прямой смысл)"
+            },
+            {
+              "en": "The test was a piece of cake.",
+              "ru": "Тест был проще простого. (идиома)"
+            }
+          ]
         }
       ],
       "chips": {
@@ -254,7 +276,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -420,7 +443,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -444,5 +467,17 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "phrase_break_a_leg",
+    "word_a2_normal",
+    "phrase_kill_two_birds",
+    "phrase_when_pigs_fly",
+    "word_a2_excellent",
+    "phrase_speak_of_the_devil_a1"
+  ],
+  "prerequisites": [
+    "cards_collocations"
+  ],
+  "prerequisites_reviewed": false
 }

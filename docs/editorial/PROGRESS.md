@@ -72,14 +72,14 @@
 | cards_emotions | 2 | да | да | 5 | 70 | да | нет (M-010, M-015) |
 | cards_study | 2 | да | да | 5 | 71 | да | нет (M-010, M-015) |
 | cards_technology | 2 | да | да | 5 | 70 | да | нет (M-010, M-015) |
-| cards_britishamerican | 1 | да | да | 5 | 70 | да | нет (M-012) |
-| cards_collocations | 1 | да | да | 5 | 82 | да | нет (M-012) |
-| cards_idioms | 1 | да | да | 4 | 62 | да | нет (M-012) |
-| cards_strongadjectives | 1 | да | да | 4 | 61 | да | нет (M-012) |
-| cards_begoingto | 1 | да | да | 3 | 51 | да | нет (M-012) |
-| cards_therewaswere | 1 | да | да | 3 | 51 | да | нет (M-012) |
-| cards_wouldlike | 1 | да | да | 3 | 51 | да | нет (M-012) |
-| cards_fewlittle | 1 | да | да | 3 | 51 | да | нет (M-012) |
+| cards_britishamerican | 2 | да | да | 5 | 70 | да | нет (M-012, M-016) |
+| cards_collocations | 2 | да | да | 5 | 82 | да | нет (M-012, M-016) |
+| cards_idioms | 2 | да | да | 4 | 62 | да | нет (M-012, M-016) |
+| cards_strongadjectives | 2 | да | да | 4 | 61 | да | нет (M-012, M-016) |
+| cards_begoingto | 2 | да | да | 3 | 51 | да | нет (M-012, M-016) |
+| cards_therewaswere | 2 | да | да | 3 | 51 | да | нет (M-012, M-016) |
+| cards_wouldlike | 2 | да | да | 3 | 51 | да | нет (M-012, M-016) |
+| cards_fewlittle | 2 | да | да | 3 | 51 | да | нет (M-012, M-016) |
 | остальные 185 | 0 | нет | нет | нет | нет | нет | — |
 
 ## cards_articles, ред. 3
@@ -719,6 +719,32 @@
 - [Cambridge Dictionary: finish](https://dictionary.cambridge.org/dictionary/english/finish) — finish university без the;
 - [Cambridge Dictionary: fed up](https://dictionary.cambridge.org/dictionary/english/fed-up) — with и разговорное of;
 - [Cambridge Dictionary: ground floor](https://dictionary.cambridge.org/dictionary/english/ground-floor).
+
+### Партия 8, редакция 2
+
+- **britishamerican.** Добавлены пары «одно слово — разный смысл»: chips (UK — картошка фри, US — чипсы), pants (UK — трусы, US — брюки).
+- **collocations.** Добавлены пары, где одно русское слово переводится по-разному: крепкий кофе — strong coffee, сильный дождь — heavy rain, высокая цена — a high price, близкий друг — a close friend.
+- **idioms.** Добавлены пары «прямой смысл — идиома»: He broke his leg / Break a leg!, a piece of cake. Таблица «Ещё пары» отмечена необязательной.
+- **strongadjectives.** Объяснено, что такое сильное прилагательное: в нём «очень» уже есть.
+- **begoingto.**
+  - Добавлены пары I'm going to visit (план) / I'm going to the shop (просто «иду») — частая путаница.
+  - Таблица «как выбрать» повторяет основную и отмечена необязательной.
+- **therewaswere, wouldlike.** Таблицы There was / It was и I like / I'd like выведены из свёрнутых блоков: по ним есть задания.
+- **fewlittle.** Пары few / a few уже были на слайде; изменений в тексте нет, редакция повышена вместе с партией.
+
+**Смешанные слайды, предложено разделение (не выполнено):** collocations, слайд 0 — вводный уровня A2, но в его заданиях есть B2: a narrow escape, a bitter disappointment, a deeply held belief. Эти задания стоит перенести на слайд 2 или в отдельную часть B2.
+
+**Связи:**
+- `target_words` — у 146 заданий четырёх лексических карточек;
+- `related_words` — у всех восьми;
+- предпосылки карточек: idioms → collocations; begoingto и wouldlike → presentsimp; therewaswere → thereisare, pastsimp; fewlittle → determinants.
+
+Тем же способом `target_words` проставлены у 32 заданий aboutme из партии 4: это единственная лексическая карточка ранних партий.
+
+**Источники:**
+- [Cambridge Dictionary: chips](https://dictionary.cambridge.org/dictionary/english/chip) и [pants](https://dictionary.cambridge.org/dictionary/english/pants);
+- [Cambridge Dictionary: quite](https://dictionary.cambridge.org/dictionary/english/quite) — quite + сильное прилагательное значит «совсем»;
+- [Cambridge Dictionary: decision](https://dictionary.cambridge.org/dictionary/english/decision) — make / take a decision.
 
 ## Выполненные проверки (партия 1)
 
