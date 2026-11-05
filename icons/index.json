@@ -1,0 +1,383 @@
+{
+ "version": 1,
+ "note": "Иконки в стиле res/drawable/icon_cards_*.xml. Для каждой — .xml (векторный ресурс Android) и .svg (то же для загрузки по сети).",
+ "cards": {
+  "cards_possessive": {
+   "xml": "icons/cards/cards_possessive.xml",
+   "svg": "icons/cards/cards_possessive.svg",
+   "about": "Иконка «Притяжательный 's»: бирка «чьё» с 's"
+  },
+  "cards_adverbs": {
+   "xml": "icons/cards/cards_adverbs.xml",
+   "svg": "icons/cards/cards_adverbs.svg",
+   "about": "Иконка «Наречия»: -ly — как делается действие"
+  },
+  "cards_daysmonths": {
+   "xml": "icons/cards/cards_daysmonths.xml",
+   "svg": "icons/cards/cards_daysmonths.svg",
+   "about": "Иконка «Дни, месяцы, времена года»: календарь"
+  },
+  "cards_countries": {
+   "xml": "icons/cards/cards_countries.xml",
+   "svg": "icons/cards/cards_countries.svg",
+   "about": "Иконка «Страны и национальности»: глобус"
+  },
+  "cards_dailyroutine": {
+   "xml": "icons/cards/cards_dailyroutine.xml",
+   "svg": "icons/cards/cards_dailyroutine.svg",
+   "about": "Иконка «Распорядок дня»: будильник"
+  },
+  "cards_colours": {
+   "xml": "icons/cards/cards_colours.xml",
+   "svg": "icons/cards/cards_colours.svg",
+   "about": "Иконка «Цвета»: палитра художника"
+  },
+  "cards_otheranother": {
+   "xml": "icons/cards/cards_otheranother.xml",
+   "svg": "icons/cards/cards_otheranother.svg",
+   "about": "Иконка «Another, other, the other»: ещё один такой же"
+  },
+  "cards_questionprep": {
+   "xml": "icons/cards/cards_questionprep.xml",
+   "svg": "icons/cards/cards_questionprep.svg",
+   "about": "Иконка «Предлог в конце вопроса»: … to?"
+  },
+  "cards_exclamations": {
+   "xml": "icons/cards/cards_exclamations.xml",
+   "svg": "icons/cards/cards_exclamations.svg",
+   "about": "Иконка «What a day! How nice!»: восклицание"
+  },
+  "cards_stillanymore": {
+   "xml": "icons/cards/cards_stillanymore.xml",
+   "svg": "icons/cards/cards_stillanymore.svg",
+   "about": "Иконка «Still, any more, no longer»: продолжается — и больше нет"
+  },
+  "cards_perception": {
+   "xml": "icons/cards/cards_perception.xml",
+   "svg": "icons/cards/cards_perception.svg",
+   "about": "Иконка «See him do / doing»: вижу и слышу, как…"
+  }
+ },
+ "parts": {
+  "a2_nouns_special": {
+   "xml": "icons/parts/a2_nouns_special.xml",
+   "svg": "icons/parts/a2_nouns_special.svg",
+   "about": "Часть «Knives, jeans, news»: джинсы — всегда во множественном"
+  },
+  "b2_nouns_rare": {
+   "xml": "icons/parts/b2_nouns_rare.xml",
+   "svg": "icons/parts/b2_nouns_rare.svg",
+   "about": "Часть «Редкие формы: crises»: cactus → cacti"
+  },
+  "a1_article_reference": {
+   "xml": "icons/parts/a1_article_reference.xml",
+   "svg": "icons/parts/a1_article_reference.svg",
+   "about": "Часть «The или без артикля»: the — тот самый"
+  },
+  "a2_article_special": {
+   "xml": "icons/parts/a2_article_special.xml",
+   "svg": "icons/parts/a2_article_special.svg",
+   "about": "Часть «The best, the school»: the best — звезда"
+  },
+  "a1_simple_routines": {
+   "xml": "icons/parts/a1_simple_routines.xml",
+   "svg": "icons/parts/a1_simple_routines.svg",
+   "about": "Часть «Факты и привычки»: повторяется — he works"
+  },
+  "a1_simple_questions": {
+   "xml": "icons/parts/a1_simple_questions.xml",
+   "svg": "icons/parts/a1_simple_questions.svg",
+   "about": "Часть «Don't, doesn't, do you…?»"
+  },
+  "a2_pronouns_reflexive": {
+   "xml": "icons/parts/a2_pronouns_reflexive.xml",
+   "svg": "icons/parts/a2_pronouns_reflexive.svg",
+   "about": "Часть «Myself, one, ones»: зеркало — сам себя"
+  },
+  "b1_pronouns_relative": {
+   "xml": "icons/parts/b1_pronouns_relative.xml",
+   "svg": "icons/parts/b1_pronouns_relative.svg",
+   "about": "Часть «Слово «который»»: which указывает назад"
+  },
+  "a2_prep_direction": {
+   "xml": "icons/parts/a2_prep_direction.xml",
+   "svg": "icons/parts/a2_prep_direction.svg",
+   "about": "Часть «Куда: to, into, across»: стрелка внутрь"
+  },
+  "a2_prep_verbs": {
+   "xml": "icons/parts/a2_prep_verbs.xml",
+   "svg": "icons/parts/a2_prep_verbs.svg",
+   "about": "Часть «Listen to, good at»: listen to"
+  },
+  "b1_prep_nouns": {
+   "xml": "icons/parts/b1_prep_nouns.xml",
+   "svg": "icons/parts/b1_prep_nouns.svg",
+   "about": "Часть «Reason for, rise in»: рост — rise in"
+  },
+  "a2_cont_vs_simple": {
+   "xml": "icons/parts/a2_cont_vs_simple.xml",
+   "svg": "icons/parts/a2_cont_vs_simple.svg",
+   "about": "Часть «Сейчас или обычно»: -ing или -s"
+  },
+  "a2_questions_subject": {
+   "xml": "icons/parts/a2_questions_subject.xml",
+   "svg": "icons/parts/a2_questions_subject.svg",
+   "about": "Часть «Who called? — без do»"
+  },
+  "a2_questions_tags": {
+   "xml": "icons/parts/a2_questions_tags.xml",
+   "svg": "icons/parts/a2_questions_tags.svg",
+   "about": "Часть «Хвостики: don't you?»: вопрос-хвостик"
+  },
+  "b1_questions_tags_special": {
+   "xml": "icons/parts/b1_questions_tags_special.xml",
+   "svg": "icons/parts/b1_questions_tags_special.svg",
+   "about": "Часть «Aren't I, shall we»"
+  },
+  "a2_det_many_much": {
+   "xml": "icons/parts/a2_det_many_much.xml",
+   "svg": "icons/parts/a2_det_many_much.svg",
+   "about": "Часть «None, every, much»: сколько — much"
+  },
+  "a2_imperative_polite": {
+   "xml": "icons/parts/a2_imperative_polite.xml",
+   "svg": "icons/parts/a2_imperative_polite.svg",
+   "about": "Часть «Как попросить вежливо»: please"
+  },
+  "a2_havegot_vs_have": {
+   "xml": "icons/parts/a2_havegot_vs_have.xml",
+   "svg": "icons/parts/a2_havegot_vs_have.svg",
+   "about": "Часть «Have got или have»"
+  },
+  "a2_so_neither": {
+   "xml": "icons/parts/a2_so_neither.xml",
+   "svg": "icons/parts/a2_so_neither.svg",
+   "about": "Часть «So do I, Neither do I»: я тоже"
+  },
+  "b1_both_pairs": {
+   "xml": "icons/parts/b1_both_pairs.xml",
+   "svg": "icons/parts/b1_both_pairs.svg",
+   "about": "Часть «Both … and, either … or»: оба вместе"
+  },
+  "a2_greetings_smalltalk": {
+   "xml": "icons/parts/a2_greetings_smalltalk.xml",
+   "svg": "icons/parts/a2_greetings_smalltalk.svg",
+   "about": "Часть «Small talk»: разговор о погоде"
+  },
+  "a2_family_inlaws": {
+   "xml": "icons/parts/a2_family_inlaws.xml",
+   "svg": "icons/parts/a2_family_inlaws.svg",
+   "about": "Часть «Родня и отношения»: кольца"
+  },
+  "a1_numbers_big": {
+   "xml": "icons/parts/a1_numbers_big.xml",
+   "svg": "icons/parts/a1_numbers_big.svg",
+   "about": "Часть «Десятки, сотни, тысячи»"
+  },
+  "a1_numbers_ordinal": {
+   "xml": "icons/parts/a1_numbers_ordinal.xml",
+   "svg": "icons/parts/a1_numbers_ordinal.svg",
+   "about": "Часть «Первый, второй, третий»: пьедестал"
+  },
+  "a2_numbers_dates": {
+   "xml": "icons/parts/a2_numbers_dates.xml",
+   "svg": "icons/parts/a2_numbers_dates.svg",
+   "about": "Часть «Даты, дроби, проценты»"
+  },
+  "a1_past_irregular": {
+   "xml": "icons/parts/a1_past_irregular.xml",
+   "svg": "icons/parts/a1_past_irregular.svg",
+   "about": "Часть «Неправильные глаголы»: went"
+  },
+  "a1_past_forms": {
+   "xml": "icons/parts/a1_past_forms.xml",
+   "svg": "icons/parts/a1_past_forms.svg",
+   "about": "Часть «Did и didn't»"
+  },
+  "a2_modals_must": {
+   "xml": "icons/parts/a2_modals_must.xml",
+   "svg": "icons/parts/a2_modals_must.svg",
+   "about": "Часть «Must, have to, should»: обязательно"
+  },
+  "b1_modals_past": {
+   "xml": "icons/parts/b1_modals_past.xml",
+   "svg": "icons/parts/b1_modals_past.svg",
+   "about": "Часть «Must have, should have»: о прошлом"
+  },
+  "b1_beableto_past": {
+   "xml": "icons/parts/b1_beableto_past.xml",
+   "svg": "icons/parts/b1_beableto_past.svg",
+   "about": "Часть «Could или was able to»: сумел — кубок"
+  },
+  "b1_infinitive_patterns": {
+   "xml": "icons/parts/b1_infinitive_patterns.xml",
+   "svg": "icons/parts/b1_infinitive_patterns.svg",
+   "about": "Часть «Happy to, want you to»"
+  },
+  "b2_infinitive_forms": {
+   "xml": "icons/parts/b2_infinitive_forms.xml",
+   "svg": "icons/parts/b2_infinitive_forms.svg",
+   "about": "Часть «To have done, to be done»: уже сделано"
+  },
+  "b1_gerund_noun": {
+   "xml": "icons/parts/b1_gerund_noun.xml",
+   "svg": "icons/parts/b1_gerund_noun.svg",
+   "about": "Часть «Герундий как понятие»: -ing — это предмет"
+  },
+  "b1_ing_to_meaning": {
+   "xml": "icons/parts/b1_ing_to_meaning.xml",
+   "svg": "icons/parts/b1_ing_to_meaning.svg",
+   "about": "Часть «Stop doing, stop to do»: знак стоп"
+  },
+  "a2_measures": {
+   "xml": "icons/parts/a2_measures.xml",
+   "svg": "icons/parts/a2_measures.svg",
+   "about": "Часть «Мили, футы, фунты»: линейка"
+  },
+  "a2_wordorder_frequency": {
+   "xml": "icons/parts/a2_wordorder_frequency.xml",
+   "svg": "icons/parts/a2_wordorder_frequency.svg",
+   "about": "Часть «Always, also, как, где»"
+  },
+  "b1_wordorder_adjectives": {
+   "xml": "icons/parts/b1_wordorder_adjectives.xml",
+   "svg": "icons/parts/b1_wordorder_adjectives.svg",
+   "about": "Часть «Big, old, red: порядок»: по размеру"
+  },
+  "a2_shopping_return": {
+   "xml": "icons/parts/a2_shopping_return.xml",
+   "svg": "icons/parts/a2_shopping_return.svg",
+   "about": "Часть «Вернуть или обменять»: сумка и возврат"
+  },
+  "a2_nature_words": {
+   "xml": "icons/parts/a2_nature_words.xml",
+   "svg": "icons/parts/a2_nature_words.svg",
+   "about": "Часть «Горы, реки, море»"
+  },
+  "a2_food_cooking": {
+   "xml": "icons/parts/a2_food_cooking.xml",
+   "svg": "icons/parts/a2_food_cooking.svg",
+   "about": "Часть «Готовка: boil, fry, bake»: сковорода"
+  },
+  "a2_jobs_work_job": {
+   "xml": "icons/parts/a2_jobs_work_job.xml",
+   "svg": "icons/parts/a2_jobs_work_job.svg",
+   "about": "Часть «Job, work и разговор»: портфель"
+  },
+  "a2_appearance_order": {
+   "xml": "icons/parts/a2_appearance_order.xml",
+   "svg": "icons/parts/a2_appearance_order.svg",
+   "about": "Часть «Long dark hair, look like»: похож на"
+  },
+  "a2_body_habits": {
+   "xml": "icons/parts/a2_body_habits.xml",
+   "svg": "icons/parts/a2_body_habits.svg",
+   "about": "Часть «Здоровые привычки»: сердце и пульс"
+  },
+  "a2_clothes_verbs": {
+   "xml": "icons/parts/a2_clothes_verbs.xml",
+   "svg": "icons/parts/a2_clothes_verbs.svg",
+   "about": "Часть «Put on, wear, fit»: футболка"
+  },
+  "a2_home_chores": {
+   "xml": "icons/parts/a2_home_chores.xml",
+   "svg": "icons/parts/a2_home_chores.svg",
+   "about": "Часть «Дела по дому»: ведро"
+  },
+  "a2_hobbies_talk": {
+   "xml": "icons/parts/a2_hobbies_talk.xml",
+   "svg": "icons/parts/a2_hobbies_talk.svg",
+   "about": "Часть «Рассказ о хобби»: о музыке"
+  },
+  "a2_emotions_prep": {
+   "xml": "icons/parts/a2_emotions_prep.xml",
+   "svg": "icons/parts/a2_emotions_prep.svg",
+   "about": "Часть «Afraid of, bored»: скучно"
+  },
+  "a2_study_verbs": {
+   "xml": "icons/parts/a2_study_verbs.xml",
+   "svg": "icons/parts/a2_study_verbs.svg",
+   "about": "Часть «Take или pass»: сдал экзамен"
+  },
+  "a2_tech_verbs": {
+   "xml": "icons/parts/a2_tech_verbs.xml",
+   "svg": "icons/parts/a2_tech_verbs.svg",
+   "about": "Часть «Download, crash, fix»: скачать"
+  },
+  "b1_uk_us_grammar": {
+   "xml": "icons/parts/b1_uk_us_grammar.xml",
+   "svg": "icons/parts/b1_uk_us_grammar.svg",
+   "about": "Часть «UK и US: грамматика»"
+  },
+  "a2_goingto_will": {
+   "xml": "icons/parts/a2_goingto_will.xml",
+   "svg": "icons/parts/a2_goingto_will.svg",
+   "about": "Часть «Going to или will»: развилка"
+  },
+  "b1_so_such": {
+   "xml": "icons/parts/b1_so_such.xml",
+   "svg": "icons/parts/b1_so_such.svg",
+   "about": "Часть «So, such, so … that»: так!"
+  },
+  "b1_names_city": {
+   "xml": "icons/parts/b1_names_city.xml",
+   "svg": "icons/parts/b1_names_city.svg",
+   "about": "Часть «Названия в городе»: улица и дома"
+  },
+  "b1_usedto_vs_beused": {
+   "xml": "icons/parts/b1_usedto_vs_beused.xml",
+   "svg": "icons/parts/b1_usedto_vs_beused.svg",
+   "about": "Часть «Used to или be used to»: привычное кресло"
+  },
+  "b1_pastcont_interrupt": {
+   "xml": "icons/parts/b1_pastcont_interrupt.xml",
+   "svg": "icons/parts/b1_pastcont_interrupt.svg",
+   "about": "Часть «Когда что-то случилось»: процесс и вспышка"
+  },
+  "a2_future_will_goingto": {
+   "xml": "icons/parts/a2_future_will_goingto.xml",
+   "svg": "icons/parts/a2_future_will_goingto.svg",
+   "about": "Часть «Will или going to»: указатель"
+  },
+  "b1_cond_unreal": {
+   "xml": "icons/parts/b1_cond_unreal.xml",
+   "svg": "icons/parts/b1_cond_unreal.svg",
+   "about": "Часть «If: если бы»: мечта-облако"
+  },
+  "b2_cond_wish_linkers": {
+   "xml": "icons/parts/b2_cond_wish_linkers.xml",
+   "svg": "icons/parts/b2_cond_wish_linkers.svg",
+   "about": "Часть «Wish, unless, in case»: на всякий случай — зонт"
+  },
+  "b2_wish_past": {
+   "xml": "icons/parts/b2_wish_past.xml",
+   "svg": "icons/parts/b2_wish_past.svg",
+   "about": "Часть «Wish: о прошлом, would»: падающая звезда"
+  },
+  "b1_perfect_time": {
+   "xml": "icons/parts/b1_perfect_time.xml",
+   "svg": "icons/parts/b1_perfect_time.svg",
+   "about": "Часть «Present Perfect: период»: с тех пор и до сейчас"
+  },
+  "b1_reported_questions": {
+   "xml": "icons/parts/b1_reported_questions.xml",
+   "svg": "icons/parts/b1_reported_questions.svg",
+   "about": "Часть «Пересказ: asked, told to»: вопрос передают дальше"
+  },
+  "b2_passive_more": {
+   "xml": "icons/parts/b2_passive_more.xml",
+   "svg": "icons/parts/b2_passive_more.svg",
+   "about": "Часть «Пассив: given, get, said»: подарок — was given"
+  },
+  "b1_alreadyyet_nuance": {
+   "xml": "icons/parts/b1_alreadyyet_nuance.xml",
+   "svg": "icons/parts/b1_alreadyyet_nuance.svg",
+   "about": "Часть «Оттенки смысла»: регулятор"
+  },
+  "a2_contractions_s_d": {
+   "xml": "icons/parts/a2_contractions_s_d.xml",
+   "svg": "icons/parts/a2_contractions_s_d.svg",
+   "about": "Часть «'s, 'd и полная форма»"
+  }
+ }
+}

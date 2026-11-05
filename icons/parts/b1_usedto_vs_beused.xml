@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Часть «Used to или be used to»: привычное кресло -->
+<!-- Неоновый стиль: два слоя свечения (широкие полупрозрачные линии), основная линия, светлая сердцевина. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- свечение -->
+    <path
+        android:pathData="M150,250 L150,170 Q150,124 196,124 L316,124 Q362,124 362,170 L362,250 M110,250 Q110,220 136,220 Q160,220 160,250 L160,300 L352,300 L352,250 Q352,220 376,220 Q402,220 402,250 L402,346 L110,346 Z M140,346 L140,396 M372,346 L372,396"
+        android:strokeWidth="51"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="60" android:startY="90"
+                android:endX="452" android:endY="422">
+                <item android:offset="0.0" android:color="#16D21CFF" />
+                <item android:offset="0.5" android:color="#165B1BFF" />
+                <item android:offset="1.0" android:color="#160A63FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- мягкое свечение -->
+    <path
+        android:pathData="M150,250 L150,170 Q150,124 196,124 L316,124 Q362,124 362,170 L362,250 M110,250 Q110,220 136,220 Q160,220 160,250 L160,300 L352,300 L352,250 Q352,220 376,220 Q402,220 402,250 L402,346 L110,346 Z M140,346 L140,396 M372,346 L372,396"
+        android:strokeWidth="32.3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="60" android:startY="90"
+                android:endX="452" android:endY="422">
+                <item android:offset="0.0" android:color="#30D21CFF" />
+                <item android:offset="0.5" android:color="#305B1BFF" />
+                <item android:offset="1.0" android:color="#300A63FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- основная линия -->
+    <path
+        android:pathData="M150,250 L150,170 Q150,124 196,124 L316,124 Q362,124 362,170 L362,250 M110,250 Q110,220 136,220 Q160,220 160,250 L160,300 L352,300 L352,250 Q352,220 376,220 Q402,220 402,250 L402,346 L110,346 Z M140,346 L140,396 M372,346 L372,396"
+        android:strokeWidth="17"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="60" android:startY="90"
+                android:endX="452" android:endY="422">
+                <item android:offset="0.0" android:color="#FFD21CFF" />
+                <item android:offset="0.5" android:color="#FF5B1BFF" />
+                <item android:offset="1.0" android:color="#FF0A63FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- сердцевина -->
+    <path
+        android:pathData="M150,250 L150,170 Q150,124 196,124 L316,124 Q362,124 362,170 L362,250 M110,250 Q110,220 136,220 Q160,220 160,250 L160,300 L352,300 L352,250 Q352,220 376,220 Q402,220 402,250 L402,346 L110,346 Z M140,346 L140,396 M372,346 L372,396"
+        android:strokeWidth="5.1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="60" android:startY="90"
+                android:endX="452" android:endY="422">
+                <item android:offset="0.0" android:color="#D8FFB8FB" />
+                <item android:offset="0.5" android:color="#D8C9B5FF" />
+                <item android:offset="1.0" android:color="#D8A6ECFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>
