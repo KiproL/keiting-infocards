@@ -194,7 +194,7 @@
           }
         },
         {
-          "title": "Ключевые маркеры",
+          "title": "Слова-подсказки",
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
@@ -206,7 +206,8 @@
               "all day",
               "from … to"
             ]
-          }
+          },
+          "text": "While, when, at that moment подсказывают, что действие шло в момент прошлого. Но when бывает и с двумя Past Simple: When she called, I answered — сначала звонок, потом ответ."
         },
         {
           "title": "Живые примеры",
@@ -552,17 +553,17 @@
     {
       "label": "Подсказки",
       "intro": {
-        "text": "Слова-маркеры показывают, что действие было в процессе в конкретный момент или период прошлого.",
+        "text": "Подсказки показывают, что действие шло в конкретный момент или период прошлого: while — «пока», at that moment — «в тот момент». Но решает смысл, а не слово: when вводит и прервавшее действие (I was cooking when she called), и следующее за другим (When she called, I answered).",
         "highlights": [
           {
-            "text": "Слова-маркеры",
-            "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "в процессе",
+            "text": "шло",
             "color": "info",
             "style": "bold"
+          },
+          {
+            "text": "решает смысл, а не слово",
+            "color": "example",
+            "style": "bold_underline"
           }
         ]
       },
@@ -784,7 +785,7 @@
           },
           {
             "text": "Past Simple",
-            "color": "bad",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -921,9 +922,9 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
-  "editorial_review_date": "2026-11-04",
+  "editorial_review_date": "2026-11-05",
   "error_patterns": [
     {
       "id": "error:pastcont.be",

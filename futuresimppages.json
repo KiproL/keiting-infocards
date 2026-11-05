@@ -186,7 +186,7 @@
           }
         },
         {
-          "title": "Ключевые маркеры",
+          "title": "Слова-подсказки",
           "borderColor": "good",
           "verbGrid": {
             "accentColor": "example",
@@ -200,7 +200,8 @@
               "tonight",
               "later"
             ]
-          }
+          },
+          "text": "Эти слова говорят только о том, что речь о будущем, а форму не выбирают: tomorrow подходит и к I'll call, и к I'm going to call, и к I'm meeting him tomorrow. Will выбирают по смыслу: решение сейчас, обещание, прогноз."
         },
         {
           "title": "Живые примеры",
@@ -705,28 +706,28 @@
     {
       "label": "Подсказки",
       "intro": {
-        "text": "Слова-подсказки: время в будущем (tomorrow, next week) и слова мнения (I think, I'm sure, probably). С мнением почти всегда — will.",
+        "text": "Слова времени (tomorrow, next week) показывают, что речь о будущем, но форму не выбирают. Слова мнения (I think, I'm sure, probably) чаще всего идут с will: так говорят о прогнозе по собственному мнению.",
         "highlights": [
           {
-            "text": "Слова-подсказки",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "время в будущем",
+            "text": "Слова времени",
             "color": "info",
             "style": "bold"
           },
           {
-            "text": "слова мнения",
+            "text": "форму не выбирают",
             "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Слова мнения",
+            "color": "term",
             "style": "bold"
           }
         ]
       },
       "sections": [
         {
-          "title": "Временные маркеры",
+          "title": "Слова времени",
           "borderColor": "info",
           "table": {
             "headers": [
@@ -791,7 +792,8 @@
               }
             ],
             "borderColor": "info"
-          }
+          },
+          "text": "С этими словами возможны и going to, и Present Continuous: I'm going to call you tomorrow. I'm meeting Anna next week. Как выбрать — на слайде «Will или going to»."
         },
         {
           "title": "Маркеры предположения",
@@ -1051,9 +1053,9 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
-  "editorial_review_date": "2026-11-04",
+  "editorial_review_date": "2026-11-05",
   "error_patterns": [
     {
       "id": "error:futuresimp.form",

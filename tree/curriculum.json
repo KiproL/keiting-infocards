@@ -1210,14 +1210,16 @@
     {
       "id": "intro_alphabet_names",
       "level": "Intro",
-      "title": "Как называются буквы",
+      "title": "Английский алфавит",
       "slices": [
         {
           "route": "cards_alphabet",
           "revision": 1,
           "slides": [
             0,
-            1
+            1,
+            2,
+            3
           ]
         }
       ],
@@ -1225,14 +1227,16 @@
       "reviewed": false
     },
     {
-      "id": "intro_alphabet_dictation",
+      "id": "intro_reading_vowels",
       "level": "Intro",
-      "title": "Продиктовать e-mail",
+      "title": "Как читать слова",
       "slices": [
         {
-          "route": "cards_alphabet",
+          "route": "cards_readingrules",
           "revision": 1,
           "slides": [
+            0,
+            1,
             2,
             3
           ]
@@ -1240,80 +1244,6 @@
       ],
       "prerequisites": [
         "intro_alphabet_names"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "intro_reading_vowels",
-      "level": "Intro",
-      "title": "Тип слога",
-      "slices": [
-        {
-          "route": "cards_readingrules",
-          "revision": 1,
-          "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "intro_alphabet_names"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "intro_reading_r",
-      "level": "Intro",
-      "title": "Гласная + r",
-      "slices": [
-        {
-          "route": "cards_readingrules",
-          "revision": 1,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "intro_reading_vowels"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "intro_reading_consonants",
-      "level": "Intro",
-      "title": "C и g: city, cat, gym, go",
-      "slices": [
-        {
-          "route": "cards_readingrules",
-          "revision": 1,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "intro_alphabet_names"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "intro_reading_review",
-      "level": "Intro",
-      "title": "Читаем слово, а не буквы",
-      "slices": [
-        {
-          "route": "cards_readingrules",
-          "revision": 1,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "intro_reading_vowels",
-        "intro_reading_r",
-        "intro_reading_consonants"
       ],
       "reviewed": false
     },
@@ -1393,6 +1323,45 @@
       "reviewed": false
     },
     {
+      "id": "a1_article_reference",
+      "level": "A1",
+      "title": "The или без артикля",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_introduction"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_article_special",
+      "level": "A2",
+      "title": "The best, the school",
+      "slices": [
+        {
+          "route": "cards_articles",
+          "revision": 3,
+          "slides": [
+            5,
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_comparisons_degrees"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a1_be_core",
       "level": "A1",
       "title": "Кто я и где я",
@@ -1430,128 +1399,19 @@
     {
       "id": "a1_simple_questions",
       "level": "A1",
-      "title": "Не и вопрос: don't, does",
+      "title": "Don't, doesn't, do you…?",
       "slices": [
         {
           "route": "cards_presentsimp",
           "revision": 2,
           "slides": [
-            1
+            1,
+            4
           ]
         }
       ],
       "prerequisites": [
         "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_simple_review",
-      "level": "A1",
-      "title": "Present Simple: проверка",
-      "slices": [
-        {
-          "route": "cards_presentsimp",
-          "revision": 2,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_simple_questions"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_article_reference",
-      "level": "A1",
-      "title": "Тот самый предмет: the",
-      "slices": [
-        {
-          "route": "cards_articles",
-          "revision": 3,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_introduction"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_article_zero",
-      "level": "A1",
-      "title": "Вообще и без артикля",
-      "slices": [
-        {
-          "route": "cards_articles",
-          "revision": 3,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_introduction"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_article_choice",
-      "level": "A1",
-      "title": "Выбор артикля",
-      "slices": [
-        {
-          "route": "cards_articles",
-          "revision": 3,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_reference",
-        "a1_article_zero"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_article_superlative",
-      "level": "A2",
-      "title": "The best, the first",
-      "slices": [
-        {
-          "route": "cards_articles",
-          "revision": 3,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_reference",
-        "a2_comparisons_degrees"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_article_institutions",
-      "level": "A2",
-      "title": "School или the school",
-      "slices": [
-        {
-          "route": "cards_articles",
-          "revision": 3,
-          "slides": [
-            6
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_zero"
       ],
       "reviewed": false
     },
@@ -1578,70 +1438,22 @@
     {
       "id": "a1_pronouns_personal",
       "level": "A1",
-      "title": "I или me",
+      "title": "I, me, my, this, who",
       "slices": [
         {
           "route": "cards_pronouns",
           "revision": 1,
           "slides": [
             0,
-            1
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "reviewed": false
-    },
-    {
-      "id": "a1_pronouns_possessive",
-      "level": "A1",
-      "title": "My или mine",
-      "slices": [
-        {
-          "route": "cards_pronouns",
-          "revision": 1,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_pronouns_personal"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_pronouns_demonstrative",
-      "level": "A1",
-      "title": "This, that, these, those",
-      "slices": [
-        {
-          "route": "cards_pronouns",
-          "revision": 1,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_pronouns_questions",
-      "level": "A1",
-      "title": "Who, whose, what, which",
-      "slices": [
-        {
-          "route": "cards_pronouns",
-          "revision": 1,
-          "slides": [
+            1,
+            2,
+            4,
             5
           ]
         }
       ],
       "prerequisites": [
+        "a1_nouns_core",
         "a1_be_core"
       ],
       "reviewed": false
@@ -1649,56 +1461,21 @@
     {
       "id": "a2_pronouns_reflexive",
       "level": "A2",
-      "title": "Myself, yourself",
+      "title": "Myself, one, ones",
       "slices": [
         {
           "route": "cards_pronouns",
           "revision": 1,
           "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_pronouns_personal"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_pronouns_one",
-      "level": "A2",
-      "title": "One и ones",
-      "slices": [
-        {
-          "route": "cards_pronouns",
-          "revision": 1,
-          "slides": [
-            7
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_reference",
-        "a1_pronouns_demonstrative"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_pronouns_review",
-      "level": "A2",
-      "title": "Местоимения: проверка",
-      "slices": [
-        {
-          "route": "cards_pronouns",
-          "revision": 1,
-          "slides": [
+            3,
+            7,
             8
           ]
         }
       ],
       "prerequisites": [
-        "a1_pronouns_possessive",
-        "a2_pronouns_reflexive"
+        "a1_pronouns_personal",
+        "a1_article_reference"
       ],
       "reviewed": false
     },
@@ -1723,54 +1500,20 @@
     {
       "id": "a1_prep_place",
       "level": "A1",
-      "title": "Где: in, on, at",
+      "title": "In, on, at: место, время",
       "slices": [
         {
           "route": "cards_prepositions",
           "revision": 2,
           "slides": [
             0,
-            1
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "reviewed": false
-    },
-    {
-      "id": "a1_prep_position",
-      "level": "A1",
-      "title": "Under, between, opposite",
-      "slices": [
-        {
-          "route": "cards_prepositions",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_prep_place"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_prep_time",
-      "level": "A1",
-      "title": "Когда: at, on, in",
-      "slices": [
-        {
-          "route": "cards_prepositions",
-          "revision": 2,
-          "slides": [
+            1,
+            2,
             3
           ]
         }
       ],
-      "prerequisites": [
-        "a1_prep_place"
-      ],
+      "prerequisites": [],
       "reviewed": false
     },
     {
@@ -1782,67 +1525,32 @@
           "route": "cards_prepositions",
           "revision": 2,
           "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_prep_position"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_prep_review",
-      "level": "A2",
-      "title": "Предлоги: проверка",
-      "slices": [
-        {
-          "route": "cards_prepositions",
-          "revision": 2,
-          "slides": [
+            4,
             5
           ]
         }
       ],
       "prerequisites": [
-        "a1_prep_time",
-        "a2_prep_direction"
+        "a1_prep_place"
       ],
       "reviewed": false
     },
     {
       "id": "a2_prep_verbs",
       "level": "A2",
-      "title": "Глагол + предлог",
+      "title": "Listen to, good at",
       "slices": [
         {
           "route": "cards_prepositions",
           "revision": 2,
           "slides": [
-            6
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_prep_adjectives",
-      "level": "A2",
-      "title": "Good at, afraid of",
-      "slices": [
-        {
-          "route": "cards_prepositions",
-          "revision": 2,
-          "slides": [
+            6,
             7
           ]
         }
       ],
       "prerequisites": [
-        "a1_be_core"
+        "a1_simple_routines"
       ],
       "reviewed": false
     },
@@ -1867,56 +1575,21 @@
     {
       "id": "a1_aboutme_basics",
       "level": "A1",
-      "title": "Кто я и откуда",
-      "slices": [
-        {
-          "route": "cards_aboutme",
-          "revision": 2,
-          "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_be_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_aboutme_interests",
-      "level": "A1",
-      "title": "Что я люблю",
-      "slices": [
-        {
-          "route": "cards_aboutme",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_aboutme_story",
-      "level": "A1",
       "title": "Рассказ о себе",
       "slices": [
         {
           "route": "cards_aboutme",
           "revision": 2,
           "slides": [
+            0,
+            1,
             2,
             3
           ]
         }
       ],
       "prerequisites": [
-        "a1_aboutme_basics",
-        "a1_aboutme_interests"
+        "a1_simple_routines"
       ],
       "reviewed": false
     },
@@ -1927,52 +1600,16 @@
       "slices": [
         {
           "route": "cards_presentcont",
-          "revision": 2,
+          "revision": 3,
           "slides": [
             0,
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_be_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_cont_spelling",
-      "level": "A1",
-      "title": "Как добавить -ing",
-      "slices": [
-        {
-          "route": "cards_presentcont",
-          "revision": 2,
-          "slides": [
+            1,
             2
           ]
         }
       ],
       "prerequisites": [
-        "a1_cont_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_cont_states",
-      "level": "A2",
-      "title": "Глаголы состояния",
-      "slices": [
-        {
-          "route": "cards_presentcont",
-          "revision": 2,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_cont_core",
-        "a1_simple_routines"
+        "a1_be_core"
       ],
       "reviewed": false
     },
@@ -1983,9 +1620,11 @@
       "slices": [
         {
           "route": "cards_presentcont",
-          "revision": 2,
+          "revision": 3,
           "slides": [
-            4
+            3,
+            4,
+            5
           ]
         }
       ],
@@ -1996,35 +1635,20 @@
       "reviewed": false
     },
     {
-      "id": "a2_cont_review",
-      "level": "A2",
-      "title": "Continuous: проверка",
-      "slices": [
-        {
-          "route": "cards_presentcont",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_cont_spelling",
-        "a2_cont_states"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a2_comparisons_degrees",
       "level": "A2",
-      "title": "Tall, taller, the tallest",
+      "title": "Taller, more, the best",
       "slices": [
         {
           "route": "cards_comparisons",
           "revision": 2,
           "slides": [
             0,
-            1
+            1,
+            2,
+            3,
+            4,
+            5
           ]
         }
       ],
@@ -2034,123 +1658,13 @@
       "reviewed": false
     },
     {
-      "id": "a2_comparisons_long",
-      "level": "A2",
-      "title": "More и the most",
-      "slices": [
-        {
-          "route": "cards_comparisons",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_comparisons_degrees"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_comparisons_irregular",
-      "level": "A2",
-      "title": "Good, better, the best",
-      "slices": [
-        {
-          "route": "cards_comparisons",
-          "revision": 2,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_comparisons_degrees"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_comparisons_than",
-      "level": "A2",
-      "title": "Than и as … as",
-      "slices": [
-        {
-          "route": "cards_comparisons",
-          "revision": 2,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_comparisons_degrees"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_comparisons_review",
-      "level": "A2",
-      "title": "Сравнения: проверка",
-      "slices": [
-        {
-          "route": "cards_comparisons",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_comparisons_long",
-        "a2_comparisons_irregular",
-        "a2_comparisons_than"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a2_asas_core",
       "level": "A2",
-      "title": "As … as: такой же, как",
+      "title": "As … as: как",
       "slices": [
         {
           "route": "cards_asas",
           "revision": 2,
-          "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_comparisons_than"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_asas_review",
-      "level": "A2",
-      "title": "As … as: проверка",
-      "slices": [
-        {
-          "route": "cards_asas",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_asas_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_questions_yesno",
-      "level": "A1",
-      "title": "Вопрос «да или нет»",
-      "slices": [
-        {
-          "route": "cards_questions",
-          "revision": 1,
           "slides": [
             0,
             1
@@ -2158,43 +1672,28 @@
         }
       ],
       "prerequisites": [
-        "a1_simple_questions"
+        "a2_comparisons_degrees"
       ],
       "reviewed": false
     },
     {
-      "id": "a1_questions_wh",
+      "id": "a1_questions_yesno",
       "level": "A1",
-      "title": "What, where, why",
+      "title": "Вопросы: do, what, or",
       "slices": [
         {
           "route": "cards_questions",
           "revision": 1,
           "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_questions_yesno"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_questions_choice",
-      "level": "A1",
-      "title": "Tea or coffee?",
-      "slices": [
-        {
-          "route": "cards_questions",
-          "revision": 1,
-          "slides": [
+            0,
+            1,
+            2,
             4
           ]
         }
       ],
       "prerequisites": [
-        "a1_questions_yesno"
+        "a1_simple_questions"
       ],
       "reviewed": false
     },
@@ -2212,7 +1711,7 @@
         }
       ],
       "prerequisites": [
-        "a1_questions_wh"
+        "a1_questions_yesno"
       ],
       "reviewed": false
     },
@@ -2225,12 +1724,13 @@
           "route": "cards_questions",
           "revision": 1,
           "slides": [
-            5
+            5,
+            7
           ]
         }
       ],
       "prerequisites": [
-        "a1_questions_yesno"
+        "a2_questions_subject"
       ],
       "reviewed": false
     },
@@ -2248,26 +1748,6 @@
         }
       ],
       "prerequisites": [
-        "a2_questions_tags"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_questions_review",
-      "level": "A2",
-      "title": "Вопросы: проверка",
-      "slices": [
-        {
-          "route": "cards_questions",
-          "revision": 1,
-          "slides": [
-            7
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_questions_wh",
-        "a2_questions_subject",
         "a2_questions_tags"
       ],
       "reviewed": false
@@ -2292,94 +1772,25 @@
       "reviewed": false
     },
     {
-      "id": "a2_det_negation",
-      "level": "A2",
-      "title": "No, none, not any",
-      "slices": [
-        {
-          "route": "cards_determinants",
-          "revision": 1,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_det_some_any"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_det_compounds",
-      "level": "A2",
-      "title": "Somebody, anything",
-      "slices": [
-        {
-          "route": "cards_determinants",
-          "revision": 1,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_det_negation"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_det_every_each",
-      "level": "A2",
-      "title": "Every, each, all",
-      "slices": [
-        {
-          "route": "cards_determinants",
-          "revision": 1,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a2_det_many_much",
       "level": "A2",
-      "title": "Many, much, a lot of",
+      "title": "None, every, much",
       "slices": [
         {
           "route": "cards_determinants",
           "revision": 1,
           "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_nouns_special"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_det_review",
-      "level": "A2",
-      "title": "Some, any: проверка",
-      "slices": [
-        {
-          "route": "cards_determinants",
-          "revision": 1,
-          "slides": [
+            2,
+            3,
+            4,
+            5,
             6
           ]
         }
       ],
       "prerequisites": [
-        "a2_det_compounds",
-        "a2_det_every_each",
-        "a2_det_many_much"
+        "a1_det_some_any",
+        "a2_nouns_special"
       ],
       "reviewed": false
     },
@@ -2392,7 +1803,8 @@
           "route": "cards_imperative",
           "revision": 2,
           "slides": [
-            0
+            0,
+            2
           ]
         }
       ],
@@ -2415,24 +1827,6 @@
       "prerequisites": [
         "a1_imperative_core",
         "a1_questions_yesno"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_imperative_review",
-      "level": "A1",
-      "title": "Просьбы: проверка",
-      "slices": [
-        {
-          "route": "cards_imperative",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_imperative_core"
       ],
       "reviewed": false
     },
@@ -2463,31 +1857,14 @@
           "route": "cards_havegot",
           "revision": 2,
           "slides": [
-            1
+            1,
+            2
           ]
         }
       ],
       "prerequisites": [
         "a1_havegot_core",
         "a1_simple_questions"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_havegot_review",
-      "level": "A2",
-      "title": "Have got: проверка",
-      "slices": [
-        {
-          "route": "cards_havegot",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_havegot_vs_have"
       ],
       "reviewed": false
     },
@@ -2510,24 +1887,6 @@
       "reviewed": false
     },
     {
-      "id": "b1_both_pairs",
-      "level": "B1",
-      "title": "Both … and, either … or",
-      "slices": [
-        {
-          "route": "cards_botheither",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_both_either"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a2_so_neither",
       "level": "A2",
       "title": "So do I, Neither do I",
@@ -2546,20 +1905,21 @@
       "reviewed": false
     },
     {
-      "id": "b1_both_review",
+      "id": "b1_both_pairs",
       "level": "B1",
-      "title": "Both, neither: проверка",
+      "title": "Both … and, either … or",
       "slices": [
         {
           "route": "cards_botheither",
           "revision": 2,
           "slides": [
+            1,
             3
           ]
         }
       ],
       "prerequisites": [
-        "b1_both_pairs",
+        "a2_both_either",
         "a2_so_neither"
       ],
       "reviewed": false
@@ -2567,34 +1927,21 @@
     {
       "id": "a1_greetings_hello",
       "level": "A1",
-      "title": "Привет и пока",
+      "title": "Привет и знакомство",
       "slices": [
         {
           "route": "cards_greetings",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "reviewed": false
-    },
-    {
-      "id": "a1_greetings_meet",
-      "level": "A1",
-      "title": "Знакомство",
-      "slices": [
-        {
-          "route": "cards_greetings",
-          "revision": 2,
-          "slides": [
-            1
+            0,
+            1,
+            3,
+            4,
+            5
           ]
         }
       ],
       "prerequisites": [
-        "a1_greetings_hello",
         "a1_be_core"
       ],
       "reviewed": false
@@ -2613,57 +1960,23 @@
         }
       ],
       "prerequisites": [
-        "a1_greetings_meet"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_greetings_phrases",
-      "level": "A1",
-      "title": "Фразы и диалог",
-      "slices": [
-        {
-          "route": "cards_greetings",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_greetings_meet"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_greetings_review",
-      "level": "A1",
-      "title": "Приветствия: проверка",
-      "slices": [
-        {
-          "route": "cards_greetings",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_greetings_meet"
+        "a1_greetings_hello"
       ],
       "reviewed": false
     },
     {
       "id": "a1_family_core",
       "level": "A1",
-      "title": "Самые близкие",
+      "title": "Семья",
       "slices": [
         {
           "route": "cards_family",
           "revision": 2,
           "slides": [
-            0
+            0,
+            3,
+            4,
+            5
           ]
         }
       ],
@@ -2673,68 +1986,14 @@
     {
       "id": "a2_family_inlaws",
       "level": "A2",
-      "title": "Родня по браку",
+      "title": "Родня и отношения",
       "slices": [
         {
           "route": "cards_family",
           "revision": 2,
           "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_family_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_family_relationships",
-      "level": "A2",
-      "title": "Отношения",
-      "slices": [
-        {
-          "route": "cards_family",
-          "revision": 2,
-          "slides": [
+            1,
             2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_family_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_family_phrases",
-      "level": "A1",
-      "title": "Семья в предложениях",
-      "slices": [
-        {
-          "route": "cards_family",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_family_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_family_review",
-      "level": "A1",
-      "title": "Семья: проверка",
-      "slices": [
-        {
-          "route": "cards_family",
-          "revision": 2,
-          "slides": [
-            5
           ]
         }
       ],
@@ -2799,13 +2058,15 @@
     {
       "id": "a2_numbers_dates",
       "level": "A2",
-      "title": "Даты и годы",
+      "title": "Даты, дроби, проценты",
       "slices": [
         {
           "route": "cards_numbers",
           "revision": 2,
           "slides": [
-            4
+            4,
+            5,
+            6
           ]
         }
       ],
@@ -2816,94 +2077,21 @@
       "reviewed": false
     },
     {
-      "id": "a2_numbers_fractions",
-      "level": "A2",
-      "title": "Дроби и проценты",
-      "slices": [
-        {
-          "route": "cards_numbers",
-          "revision": 2,
-          "slides": [
-            6
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_numbers_ordinal"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_numbers_review",
-      "level": "A2",
-      "title": "Числа: проверка",
-      "slices": [
-        {
-          "route": "cards_numbers",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_numbers_dates",
-        "a2_numbers_fractions"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a1_past_meaning",
       "level": "A1",
-      "title": "Что случилось",
+      "title": "Что случилось: -ed",
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 2,
+          "revision": 3,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_past_forms",
-      "level": "A1",
-      "title": "Did и didn't",
-      "slices": [
-        {
-          "route": "cards_pastsimp",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_past_meaning",
-        "a1_simple_questions"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_past_ed",
-      "level": "A1",
-      "title": "Окончание -ed",
-      "slices": [
-        {
-          "route": "cards_pastsimp",
-          "revision": 2,
-          "slides": [
+            0,
             2
           ]
         }
       ],
       "prerequisites": [
-        "a1_past_meaning"
+        "a1_simple_routines"
       ],
       "reviewed": false
     },
@@ -2914,124 +2102,75 @@
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 2,
+          "revision": 3,
           "slides": [
             3
           ]
         }
       ],
       "prerequisites": [
-        "a1_past_ed"
+        "a1_past_meaning"
       ],
       "reviewed": false
     },
     {
-      "id": "a1_past_review",
+      "id": "a1_past_forms",
       "level": "A1",
-      "title": "Past Simple: проверка",
+      "title": "Did и didn't",
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 2,
+          "revision": 3,
           "slides": [
+            1,
             4
           ]
         }
       ],
       "prerequisites": [
-        "a1_past_forms",
+        "a1_simple_questions",
         "a1_past_irregular"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_modals_rules",
-      "level": "A2",
-      "title": "Модальные: правила",
-      "slices": [
-        {
-          "route": "cards_modalverbs",
-          "revision": 2,
-          "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_simple_questions"
       ],
       "reviewed": false
     },
     {
       "id": "a2_modals_can",
       "level": "A2",
-      "title": "Can, could, be able to",
+      "title": "Can, could, may, might",
       "slices": [
         {
           "route": "cards_modalverbs",
           "revision": 2,
           "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_modals_rules",
-        "a1_past_meaning"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_modals_may",
-      "level": "A2",
-      "title": "May и might",
-      "slices": [
-        {
-          "route": "cards_modalverbs",
-          "revision": 2,
-          "slides": [
+            0,
+            1,
             2
           ]
         }
       ],
       "prerequisites": [
-        "a2_modals_rules"
+        "a1_simple_questions",
+        "a1_past_meaning"
       ],
       "reviewed": false
     },
     {
       "id": "a2_modals_must",
       "level": "A2",
-      "title": "Must, have to, mustn't",
+      "title": "Must, have to, should",
       "slices": [
         {
           "route": "cards_modalverbs",
           "revision": 2,
           "slides": [
-            3
+            3,
+            4,
+            6
           ]
         }
       ],
       "prerequisites": [
-        "a2_modals_rules"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_modals_advice",
-      "level": "A2",
-      "title": "Should, had better, shall",
-      "slices": [
-        {
-          "route": "cards_modalverbs",
-          "revision": 2,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_modals_rules"
+        "a2_modals_can"
       ],
       "reviewed": false
     },
@@ -3049,82 +2188,30 @@
         }
       ],
       "prerequisites": [
-        "a2_modals_must",
-        "a2_modals_may"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_modals_review",
-      "level": "A2",
-      "title": "Модальные: проверка",
-      "slices": [
-        {
-          "route": "cards_modalverbs",
-          "revision": 2,
-          "slides": [
-            6
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_modals_can",
-        "a2_modals_must",
-        "a2_modals_advice"
+        "a2_modals_must"
       ],
       "reviewed": false
     },
     {
       "id": "a1_time_clock",
       "level": "A1",
-      "title": "Который час: past и to",
+      "title": "Время, даты и цены",
       "slices": [
         {
           "route": "cards_timemoney",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
           ]
         }
       ],
       "prerequisites": [
-        "a1_numbers_1_20"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_time_dates",
-      "level": "A1",
-      "title": "Даты и годы: on, in, at",
-      "slices": [
-        {
-          "route": "cards_timemoney",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_time_clock",
-        "a1_numbers_ordinal"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_money_prices",
-      "level": "A1",
-      "title": "Цены и деньги",
-      "slices": [
-        {
-          "route": "cards_timemoney",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
+        "a1_numbers_ordinal",
         "a1_numbers_big"
       ],
       "reviewed": false
@@ -3144,44 +2231,6 @@
       ],
       "prerequisites": [
         "a1_numbers_big"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_timemoney_phrases",
-      "level": "A1",
-      "title": "Время и деньги в речи",
-      "slices": [
-        {
-          "route": "cards_timemoney",
-          "revision": 2,
-          "slides": [
-            4,
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_time_clock",
-        "a1_money_prices"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_timemoney_review",
-      "level": "A1",
-      "title": "Время, деньги: проверка",
-      "slices": [
-        {
-          "route": "cards_timemoney",
-          "revision": 2,
-          "slides": [
-            6
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_timemoney_phrases"
       ],
       "reviewed": false
     },
@@ -3206,37 +2255,22 @@
     {
       "id": "a2_wordorder_frequency",
       "level": "A2",
-      "title": "Always, never: где стоят",
+      "title": "Always, also, как, где",
       "slices": [
         {
           "route": "cards_wordorder",
           "revision": 2,
           "slides": [
-            1
+            1,
+            2,
+            4,
+            5
           ]
         }
       ],
       "prerequisites": [
         "a1_wordorder_svo",
         "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_wordorder_tail",
-      "level": "A2",
-      "title": "Как → где → когда",
-      "slices": [
-        {
-          "route": "cards_wordorder",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_wordorder_svo"
       ],
       "reviewed": false
     },
@@ -3259,152 +2293,49 @@
       "reviewed": false
     },
     {
-      "id": "a2_wordorder_also_enough",
-      "level": "A2",
-      "title": "Also, only, enough",
+      "id": "a1_directions_ask",
+      "level": "A1",
+      "title": "Как пройти?",
       "slices": [
         {
-          "route": "cards_wordorder",
+          "route": "cards_directions",
           "revision": 2,
           "slides": [
+            0,
+            1,
+            2,
+            3,
             4
           ]
         }
       ],
       "prerequisites": [
-        "a2_wordorder_frequency"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_wordorder_review",
-      "level": "A2",
-      "title": "Порядок слов: проверка",
-      "slices": [
-        {
-          "route": "cards_wordorder",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_wordorder_frequency",
-        "a2_wordorder_tail",
-        "a2_wordorder_also_enough"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_directions_ask",
-      "level": "A1",
-      "title": "Как спросить дорогу",
-      "slices": [
-        {
-          "route": "cards_directions",
-          "revision": 2,
-          "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_there_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_directions_explain",
-      "level": "A1",
-      "title": "Как объяснить дорогу",
-      "slices": [
-        {
-          "route": "cards_directions",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_directions_ask",
+        "a1_there_core",
         "a1_prep_place",
         "a1_imperative_core"
       ],
       "reviewed": false
     },
     {
-      "id": "a1_directions_practice",
-      "level": "A1",
-      "title": "Дорога в речи и диалоге",
-      "slices": [
-        {
-          "route": "cards_directions",
-          "revision": 2,
-          "slides": [
-            2,
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_directions_explain"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_directions_review",
-      "level": "A1",
-      "title": "Дорога: проверка",
-      "slices": [
-        {
-          "route": "cards_directions",
-          "revision": 2,
-          "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_directions_practice"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a1_shopping_choose",
       "level": "A1",
-      "title": "Выбрать и примерить",
+      "title": "В магазине",
       "slices": [
         {
           "route": "cards_shopping",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            3,
+            4,
+            5
           ]
         }
       ],
       "prerequisites": [
-        "a1_greetings_phrases"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_shopping_pay",
-      "level": "A1",
-      "title": "Оплатить: cash or card",
-      "slices": [
-        {
-          "route": "cards_shopping",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_shopping_choose",
-        "a1_money_prices"
+        "a1_greetings_hello",
+        "a1_time_clock"
       ],
       "reviewed": false
     },
@@ -3422,172 +2353,53 @@
         }
       ],
       "prerequisites": [
-        "a1_shopping_pay"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_shopping_practice",
-      "level": "A1",
-      "title": "Покупки в речи",
-      "slices": [
-        {
-          "route": "cards_shopping",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_shopping_pay"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_shopping_review",
-      "level": "A1",
-      "title": "Покупки: проверка",
-      "slices": [
-        {
-          "route": "cards_shopping",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_shopping_practice"
+        "a1_shopping_choose"
       ],
       "reviewed": false
     },
     {
       "id": "a1_restaurant_arrive",
       "level": "A1",
-      "title": "Прийти и сесть",
+      "title": "В ресторане",
       "slices": [
         {
           "route": "cards_restaurant",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_greetings_phrases"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_restaurant_order",
-      "level": "A1",
-      "title": "Заказать: I'd like, I'll have",
-      "slices": [
-        {
-          "route": "cards_restaurant",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_restaurant_arrive"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_restaurant_bill",
-      "level": "A1",
-      "title": "Счёт и чаевые",
-      "slices": [
-        {
-          "route": "cards_restaurant",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_restaurant_order",
-        "a1_money_prices"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_restaurant_practice",
-      "level": "A1",
-      "title": "Ресторан в речи",
-      "slices": [
-        {
-          "route": "cards_restaurant",
-          "revision": 2,
-          "slides": [
+            0,
+            1,
+            2,
             3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_restaurant_order"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_restaurant_review",
-      "level": "A1",
-      "title": "Ресторан: проверка",
-      "slices": [
-        {
-          "route": "cards_restaurant",
-          "revision": 2,
-          "slides": [
+            4,
             5
           ]
         }
       ],
       "prerequisites": [
-        "a1_restaurant_practice"
+        "a1_greetings_hello",
+        "a1_time_clock"
       ],
       "reviewed": false
     },
     {
       "id": "a1_weather_words",
       "level": "A1",
-      "title": "Солнце, дождь, ветер",
+      "title": "Погода",
       "slices": [
         {
           "route": "cards_weather",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            3,
+            4,
+            5
           ]
         }
       ],
       "prerequisites": [
         "a1_be_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_weather_talk",
-      "level": "A1",
-      "title": "Как говорить о погоде",
-      "slices": [
-        {
-          "route": "cards_weather",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_weather_words"
       ],
       "reviewed": false
     },
@@ -3606,57 +2418,24 @@
       ],
       "prerequisites": [
         "a1_weather_words",
-        "a1_article_zero"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_weather_practice",
-      "level": "A1",
-      "title": "Погода в речи и диалоге",
-      "slices": [
-        {
-          "route": "cards_weather",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_weather_talk"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_weather_review",
-      "level": "A1",
-      "title": "Погода: проверка",
-      "slices": [
-        {
-          "route": "cards_weather",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_weather_practice"
+        "a1_article_reference"
       ],
       "reviewed": false
     },
     {
       "id": "a1_food_products",
       "level": "A1",
-      "title": "Продукты",
+      "title": "Еда и вкус",
       "slices": [
         {
           "route": "cards_food",
           "revision": 2,
           "slides": [
-            0
+            0,
+            2,
+            3,
+            4,
+            5
           ]
         }
       ],
@@ -3685,88 +2464,38 @@
       "reviewed": false
     },
     {
-      "id": "a1_food_taste_meals",
-      "level": "A1",
-      "title": "Вкус и приёмы пищи",
-      "slices": [
-        {
-          "route": "cards_food",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_food_products"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_food_practice",
-      "level": "A1",
-      "title": "Еда в речи и диалоге",
-      "slices": [
-        {
-          "route": "cards_food",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_food_taste_meals"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_food_review",
-      "level": "A1",
-      "title": "Еда: проверка",
-      "slices": [
-        {
-          "route": "cards_food",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_food_practice"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a1_jobs_names",
       "level": "A1",
-      "title": "Профессии: I'm a nurse",
+      "title": "Профессии",
       "slices": [
         {
           "route": "cards_jobs",
           "revision": 2,
           "slides": [
-            0
+            0,
+            2
           ]
         }
       ],
       "prerequisites": [
-        "a1_article_introduction"
+        "a1_article_introduction",
+        "a1_simple_questions"
       ],
       "reviewed": false
     },
     {
       "id": "a2_jobs_work_job",
       "level": "A2",
-      "title": "Job или work",
+      "title": "Job, work и разговор",
       "slices": [
         {
           "route": "cards_jobs",
           "revision": 2,
           "slides": [
-            1
+            1,
+            3,
+            4,
+            5
           ]
         }
       ],
@@ -3777,72 +2506,16 @@
       "reviewed": false
     },
     {
-      "id": "a1_jobs_talk",
-      "level": "A1",
-      "title": "What do you do?",
-      "slices": [
-        {
-          "route": "cards_jobs",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_jobs_names",
-        "a1_simple_questions"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_jobs_practice",
-      "level": "A2",
-      "title": "Работа в речи и диалоге",
-      "slices": [
-        {
-          "route": "cards_jobs",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_jobs_talk",
-        "a2_jobs_work_job"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_jobs_review",
-      "level": "A2",
-      "title": "Работа: проверка",
-      "slices": [
-        {
-          "route": "cards_jobs",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_jobs_practice"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a1_appearance_looks",
       "level": "A1",
-      "title": "Рост, волосы, лицо",
+      "title": "Внешность и характер",
       "slices": [
         {
           "route": "cards_appearance",
           "revision": 2,
           "slides": [
-            0
+            0,
+            2
           ]
         }
       ],
@@ -3854,130 +2527,44 @@
     {
       "id": "a2_appearance_order",
       "level": "A2",
-      "title": "Long dark hair: порядок",
+      "title": "Long dark hair, look like",
       "slices": [
         {
           "route": "cards_appearance",
           "revision": 2,
           "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_appearance_looks"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_character",
-      "level": "A1",
-      "title": "Черты характера",
-      "slices": [
-        {
-          "route": "cards_appearance",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_be_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_like_looklike",
-      "level": "A2",
-      "title": "Like или look like",
-      "slices": [
-        {
-          "route": "cards_appearance",
-          "revision": 2,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_appearance_looks",
-        "a1_character",
-        "a1_simple_questions"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_appearance_practice",
-      "level": "A2",
-      "title": "Внешность в речи",
-      "slices": [
-        {
-          "route": "cards_appearance",
-          "revision": 2,
-          "slides": [
+            1,
+            3,
             4,
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_like_looklike"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_appearance_review",
-      "level": "A2",
-      "title": "Внешность: проверка",
-      "slices": [
-        {
-          "route": "cards_appearance",
-          "revision": 2,
-          "slides": [
+            5,
             6
           ]
         }
       ],
       "prerequisites": [
-        "a2_appearance_practice",
-        "a2_appearance_order"
+        "a1_appearance_looks",
+        "a1_simple_questions"
       ],
       "reviewed": false
     },
     {
       "id": "a1_body_parts",
       "level": "A1",
-      "title": "Части тела",
+      "title": "Тело и что болит",
       "slices": [
         {
           "route": "cards_body",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            3,
+            4,
+            5
           ]
         }
       ],
       "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_body_ache",
-      "level": "A1",
-      "title": "Что болит",
-      "slices": [
-        {
-          "route": "cards_body",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_body_parts",
         "a1_havegot_core"
       ],
       "reviewed": false
@@ -3996,80 +2583,26 @@
         }
       ],
       "prerequisites": [
-        "a1_body_ache"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_body_practice",
-      "level": "A1",
-      "title": "Здоровье в речи",
-      "slices": [
-        {
-          "route": "cards_body",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_body_ache"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_body_review",
-      "level": "A1",
-      "title": "Здоровье: проверка",
-      "slices": [
-        {
-          "route": "cards_body",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_body_practice"
+        "a1_body_parts"
       ],
       "reviewed": false
     },
     {
       "id": "a1_clothes_words",
       "level": "A1",
-      "title": "Одежда",
+      "title": "Одежда и обувь",
       "slices": [
         {
           "route": "cards_clothes",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_nouns_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_clothes_accessories",
-      "level": "A1",
-      "title": "Обувь и аксессуары",
-      "slices": [
-        {
-          "route": "cards_clothes",
-          "revision": 2,
-          "slides": [
+            0,
             1
           ]
         }
       ],
       "prerequisites": [
-        "a1_clothes_words"
+        "a1_nouns_core"
       ],
       "reviewed": false
     },
@@ -4082,7 +2615,10 @@
           "route": "cards_clothes",
           "revision": 2,
           "slides": [
-            2
+            2,
+            3,
+            4,
+            5
           ]
         }
       ],
@@ -4093,76 +2629,24 @@
       "reviewed": false
     },
     {
-      "id": "a2_clothes_practice",
-      "level": "A2",
-      "title": "Одежда в речи",
+      "id": "a1_home_rooms",
+      "level": "A1",
+      "title": "Комнаты и мебель",
       "slices": [
         {
-          "route": "cards_clothes",
+          "route": "cards_home",
           "revision": 2,
           "slides": [
+            0,
+            1,
             3,
             4
           ]
         }
       ],
       "prerequisites": [
-        "a2_clothes_verbs"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_clothes_review",
-      "level": "A2",
-      "title": "Одежда: проверка",
-      "slices": [
-        {
-          "route": "cards_clothes",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_clothes_practice"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_home_rooms",
-      "level": "A1",
-      "title": "Комнаты и этажи",
-      "slices": [
-        {
-          "route": "cards_home",
-          "revision": 2,
-          "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
         "a1_there_core",
         "a1_numbers_ordinal"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_home_furniture",
-      "level": "A1",
-      "title": "Мебель и техника",
-      "slices": [
-        {
-          "route": "cards_home",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_home_rooms"
       ],
       "reviewed": false
     },
@@ -4175,86 +2659,34 @@
           "route": "cards_home",
           "revision": 2,
           "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_home_furniture"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_home_practice",
-      "level": "A1",
-      "title": "Дом в речи",
-      "slices": [
-        {
-          "route": "cards_home",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_home_furniture"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_home_review",
-      "level": "A2",
-      "title": "Дом: проверка",
-      "slices": [
-        {
-          "route": "cards_home",
-          "revision": 2,
-          "slides": [
+            2,
             5
           ]
         }
       ],
       "prerequisites": [
-        "a1_home_practice",
-        "a2_home_chores"
+        "a1_home_rooms"
       ],
       "reviewed": false
     },
     {
       "id": "a1_hobbies_ing",
       "level": "A1",
-      "title": "Хобби на -ing",
+      "title": "Хобби: play, go, do",
       "slices": [
         {
           "route": "cards_hobbies",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            3,
+            4
           ]
         }
       ],
       "prerequisites": [
         "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_hobbies_play_go_do",
-      "level": "A1",
-      "title": "Play, go или do",
-      "slices": [
-        {
-          "route": "cards_hobbies",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_hobbies_ing"
       ],
       "reviewed": false
     },
@@ -4267,50 +2699,13 @@
           "route": "cards_hobbies",
           "revision": 2,
           "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_hobbies_play_go_do"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_hobbies_practice",
-      "level": "A1",
-      "title": "Хобби в речи",
-      "slices": [
-        {
-          "route": "cards_hobbies",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_hobbies_play_go_do"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_hobbies_review",
-      "level": "A2",
-      "title": "Хобби: проверка",
-      "slices": [
-        {
-          "route": "cards_hobbies",
-          "revision": 2,
-          "slides": [
+            2,
             5
           ]
         }
       ],
       "prerequisites": [
-        "a1_hobbies_practice",
-        "a2_hobbies_talk"
+        "a1_hobbies_ing"
       ],
       "reviewed": false
     },
@@ -4335,13 +2730,17 @@
     {
       "id": "a2_emotions_prep",
       "level": "A2",
-      "title": "Чувство + предлог",
+      "title": "Afraid of, bored",
       "slices": [
         {
           "route": "cards_emotions",
           "revision": 2,
           "slides": [
-            1
+            1,
+            2,
+            3,
+            4,
+            5
           ]
         }
       ],
@@ -4352,76 +2751,22 @@
       "reviewed": false
     },
     {
-      "id": "a2_emotions_ed_ing",
-      "level": "A2",
-      "title": "Bored или boring",
-      "slices": [
-        {
-          "route": "cards_emotions",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_emotions_words"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_emotions_practice",
-      "level": "A2",
-      "title": "Чувства в речи",
-      "slices": [
-        {
-          "route": "cards_emotions",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_emotions_prep",
-        "a2_emotions_ed_ing"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_emotions_review",
-      "level": "A2",
-      "title": "Чувства: проверка",
-      "slices": [
-        {
-          "route": "cards_emotions",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_emotions_practice"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a1_study_words",
       "level": "A1",
-      "title": "Школа и университет",
+      "title": "Учёба и занятие",
       "slices": [
         {
           "route": "cards_study",
           "revision": 2,
           "slides": [
-            0
+            0,
+            2
           ]
         }
       ],
       "prerequisites": [
-        "a1_nouns_core"
+        "a1_nouns_core",
+        "a1_questions_yesno"
       ],
       "reviewed": false
     },
@@ -4434,69 +2779,16 @@
           "route": "cards_study",
           "revision": 2,
           "slides": [
-            1
+            1,
+            3,
+            4,
+            5
           ]
         }
       ],
       "prerequisites": [
         "a1_study_words",
         "a1_past_forms"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_study_classroom",
-      "level": "A1",
-      "title": "Фразы на занятии",
-      "slices": [
-        {
-          "route": "cards_study",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_questions_yesno"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_study_practice",
-      "level": "A2",
-      "title": "Учёба в речи",
-      "slices": [
-        {
-          "route": "cards_study",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_study_verbs",
-        "a1_study_classroom"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_study_review",
-      "level": "A2",
-      "title": "Учёба: проверка",
-      "slices": [
-        {
-          "route": "cards_study",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_study_practice"
       ],
       "reviewed": false
     },
@@ -4521,74 +2813,23 @@
     {
       "id": "a2_tech_verbs",
       "level": "A2",
-      "title": "Download или upload",
+      "title": "Download, crash, fix",
       "slices": [
         {
           "route": "cards_technology",
           "revision": 2,
           "slides": [
-            1
+            1,
+            2,
+            3,
+            4,
+            5
           ]
         }
       ],
       "prerequisites": [
         "a1_tech_words",
         "a1_imperative_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_tech_problems",
-      "level": "A2",
-      "title": "Если не работает",
-      "slices": [
-        {
-          "route": "cards_technology",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_tech_verbs"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_tech_practice",
-      "level": "A2",
-      "title": "Техника в речи",
-      "slices": [
-        {
-          "route": "cards_technology",
-          "revision": 2,
-          "slides": [
-            3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_tech_problems"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_tech_review",
-      "level": "A2",
-      "title": "Техника: проверка",
-      "slices": [
-        {
-          "route": "cards_technology",
-          "revision": 2,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_tech_practice"
       ],
       "reviewed": false
     },
@@ -4601,22 +2842,7 @@
           "route": "cards_britishamerican",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "reviewed": false
-    },
-    {
-      "id": "a2_uk_us_spelling",
-      "level": "A2",
-      "title": "Colour и color",
-      "slices": [
-        {
-          "route": "cards_britishamerican",
-          "revision": 2,
-          "slides": [
+            0,
             1
           ]
         }
@@ -4633,51 +2859,18 @@
           "route": "cards_britishamerican",
           "revision": 2,
           "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_havegot_vs_have",
-        "a1_past_forms"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_uk_us_sound",
-      "level": "B1",
-      "title": "UK и US: произношение",
-      "slices": [
-        {
-          "route": "cards_britishamerican",
-          "revision": 2,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "intro_reading_r"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_uk_us_practice",
-      "level": "B1",
-      "title": "UK и US в речи",
-      "slices": [
-        {
-          "route": "cards_britishamerican",
-          "revision": 2,
-          "slides": [
+            2,
+            3,
             4,
             5
           ]
         }
       ],
       "prerequisites": [
-        "a2_uk_us_words",
-        "b1_uk_us_grammar"
+        "a2_havegot_vs_have",
+        "a1_past_forms",
+        "intro_reading_vowels",
+        "a2_uk_us_words"
       ],
       "reviewed": false
     },
@@ -4690,157 +2883,36 @@
           "route": "cards_collocations",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "reviewed": false
-    },
-    {
-      "id": "a2_colloc_verbs",
-      "level": "A2",
-      "title": "Make, do, take",
-      "slices": [
-        {
-          "route": "cards_collocations",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_colloc_intro"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_colloc_adjectives",
-      "level": "A2",
-      "title": "Heavy rain, strong wind",
-      "slices": [
-        {
-          "route": "cards_collocations",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_colloc_intro"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_colloc_practice",
-      "level": "A2",
-      "title": "Сочетания в речи",
-      "slices": [
-        {
-          "route": "cards_collocations",
-          "revision": 2,
-          "slides": [
+            0,
+            1,
+            2,
             3,
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_colloc_verbs",
-        "a2_colloc_adjectives"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_colloc_review",
-      "level": "A2",
-      "title": "Сочетания: проверка",
-      "slices": [
-        {
-          "route": "cards_collocations",
-          "revision": 2,
-          "slides": [
+            4,
             5
           ]
         }
       ],
-      "prerequisites": [
-        "a2_colloc_practice"
-      ],
+      "prerequisites": [],
       "reviewed": false
     },
     {
       "id": "b1_idioms_intro",
       "level": "B1",
-      "title": "Что такое идиома",
+      "title": "Идиомы",
       "slices": [
         {
           "route": "cards_idioms",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "reviewed": false
-    },
-    {
-      "id": "b1_idioms_pairs",
-      "level": "B1",
-      "title": "Идиомы: как у нас",
-      "slices": [
-        {
-          "route": "cards_idioms",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b1_idioms_intro"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_idioms_register",
-      "level": "B1",
-      "title": "Идиомы в меру",
-      "slices": [
-        {
-          "route": "cards_idioms",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b1_idioms_intro"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_idioms_practice",
-      "level": "B1",
-      "title": "Идиомы в речи",
-      "slices": [
-        {
-          "route": "cards_idioms",
-          "revision": 2,
-          "slides": [
+            0,
+            1,
+            2,
             3,
             4
           ]
         }
       ],
-      "prerequisites": [
-        "b1_idioms_pairs",
-        "b1_idioms_register"
-      ],
+      "prerequisites": [],
       "reviewed": false
     },
     {
@@ -4852,67 +2924,16 @@
           "route": "cards_strongadjectives",
           "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_be_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_strongadj_very",
-      "level": "A2",
-      "title": "Very или absolutely",
-      "slices": [
-        {
-          "route": "cards_strongadjectives",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_strongadj_words"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_strongadj_practice",
-      "level": "A2",
-      "title": "Сильные слова в речи",
-      "slices": [
-        {
-          "route": "cards_strongadjectives",
-          "revision": 2,
-          "slides": [
+            0,
+            1,
             2,
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_strongadj_very"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_strongadj_review",
-      "level": "A2",
-      "title": "Сильные: проверка",
-      "slices": [
-        {
-          "route": "cards_strongadjectives",
-          "revision": 2,
-          "slides": [
+            3,
             4
           ]
         }
       ],
       "prerequisites": [
-        "a2_strongadj_practice"
+        "a1_be_core"
       ],
       "reviewed": false
     },
@@ -4943,7 +2964,8 @@
           "route": "cards_begoingto",
           "revision": 2,
           "slides": [
-            1
+            1,
+            2
           ]
         }
       ],
@@ -4953,33 +2975,17 @@
       "reviewed": false
     },
     {
-      "id": "a2_goingto_review",
-      "level": "A2",
-      "title": "Going to: проверка",
-      "slices": [
-        {
-          "route": "cards_begoingto",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_goingto_will"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a1_therewas_core",
       "level": "A1",
-      "title": "Что где было",
+      "title": "There was, there were",
       "slices": [
         {
           "route": "cards_therewaswere",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            2
           ]
         }
       ],
@@ -4990,92 +2996,22 @@
       "reviewed": false
     },
     {
-      "id": "a1_therewas_negq",
-      "level": "A1",
-      "title": "Was there…?",
-      "slices": [
-        {
-          "route": "cards_therewaswere",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_therewas_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_therewas_review",
-      "level": "A1",
-      "title": "There was: проверка",
-      "slices": [
-        {
-          "route": "cards_therewaswere",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_therewas_negq"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a1_wouldlike_core",
       "level": "A1",
-      "title": "Вежливое «хочу»",
+      "title": "I'd like, would you like",
       "slices": [
         {
           "route": "cards_wouldlike",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            2
           ]
         }
       ],
       "prerequisites": [
         "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_wouldlike_questions",
-      "level": "A1",
-      "title": "Would you like…?",
-      "slices": [
-        {
-          "route": "cards_wouldlike",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_wouldlike_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_wouldlike_review",
-      "level": "A1",
-      "title": "Would like: проверка",
-      "slices": [
-        {
-          "route": "cards_wouldlike",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_wouldlike_questions"
       ],
       "reviewed": false
     },
@@ -5088,7 +3024,9 @@
           "route": "cards_fewlittle",
           "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            2
           ]
         }
       ],
@@ -5098,69 +3036,18 @@
       "reviewed": false
     },
     {
-      "id": "a2_fewlittle_talk",
-      "level": "A2",
-      "title": "Not many, not much",
-      "slices": [
-        {
-          "route": "cards_fewlittle",
-          "revision": 2,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_fewlittle_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_fewlittle_review",
-      "level": "A2",
-      "title": "Few, little: проверка",
-      "slices": [
-        {
-          "route": "cards_fewlittle",
-          "revision": 2,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_fewlittle_talk"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "b1_generic_kinds",
       "level": "B1",
-      "title": "Обо всём виде",
+      "title": "Артикль в обобщениях",
       "slices": [
         {
           "route": "cards_genericarticles",
           "revision": 1,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_zero"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_generic_groups",
-      "level": "B1",
-      "title": "The rich, the elderly",
-      "slices": [
-        {
-          "route": "cards_genericarticles",
-          "revision": 1,
-          "slides": [
-            1
+            0,
+            1,
+            2,
+            3
           ]
         }
       ],
@@ -5170,76 +3057,21 @@
       "reviewed": false
     },
     {
-      "id": "b1_generic_abstract",
-      "level": "B1",
-      "title": "Life или the life of",
-      "slices": [
-        {
-          "route": "cards_genericarticles",
-          "revision": 1,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_zero"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_generic_review",
-      "level": "B1",
-      "title": "Обобщение: проверка",
-      "slices": [
-        {
-          "route": "cards_genericarticles",
-          "revision": 1,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b1_generic_kinds",
-        "b1_generic_groups",
-        "b1_generic_abstract"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "a2_names_countries",
       "level": "A2",
-      "title": "Страны и города",
+      "title": "Страны, реки, горы",
       "slices": [
         {
           "route": "cards_articlesnames",
           "revision": 1,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_article_zero"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_names_geography",
-      "level": "A2",
-      "title": "Реки, моря, горы",
-      "slices": [
-        {
-          "route": "cards_articlesnames",
-          "revision": 1,
-          "slides": [
+            0,
             1
           ]
         }
       ],
       "prerequisites": [
-        "a2_names_countries"
+        "a1_article_reference"
       ],
       "reviewed": false
     },
@@ -5252,31 +3084,13 @@
           "route": "cards_articlesnames",
           "revision": 1,
           "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_names_countries"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "b1_names_review",
-      "level": "B1",
-      "title": "Названия: проверка",
-      "slices": [
-        {
-          "route": "cards_articlesnames",
-          "revision": 1,
-          "slides": [
+            2,
             3
           ]
         }
       ],
       "prerequisites": [
-        "a2_names_geography",
-        "b1_names_city"
+        "a2_names_countries"
       ],
       "reviewed": false
     },
@@ -5289,30 +3103,13 @@
           "route": "cards_usedto",
           "revision": 1,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_past_forms"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_usedto_review",
-      "level": "A2",
-      "title": "Used to: проверка",
-      "slices": [
-        {
-          "route": "cards_usedto",
-          "revision": 1,
-          "slides": [
+            0,
             1
           ]
         }
       ],
       "prerequisites": [
-        "a2_usedto_core"
+        "a1_past_forms"
       ],
       "reviewed": false
     },
@@ -5337,36 +3134,19 @@
     {
       "id": "a2_therewillbe_core",
       "level": "A2",
-      "title": "Что где будет",
+      "title": "There will be",
       "slices": [
         {
           "route": "cards_therewillbe",
           "revision": 1,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_there_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_therewillbe_review",
-      "level": "A2",
-      "title": "There will be: проверка",
-      "slices": [
-        {
-          "route": "cards_therewillbe",
-          "revision": 1,
-          "slides": [
+            0,
             1
           ]
         }
       ],
       "prerequisites": [
-        "a2_therewillbe_core"
+        "a1_there_core"
       ],
       "reviewed": false
     },
@@ -5377,9 +3157,13 @@
       "slices": [
         {
           "route": "cards_pastcont",
-          "revision": 1,
+          "revision": 2,
           "slides": [
-            0
+            0,
+            1,
+            2,
+            3,
+            5
           ]
         }
       ],
@@ -5390,166 +3174,41 @@
       "reviewed": false
     },
     {
-      "id": "a2_pastcont_negq",
-      "level": "A2",
-      "title": "Отрицание и вопрос",
-      "slices": [
-        {
-          "route": "cards_pastcont",
-          "revision": 1,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_pastcont_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_pastcont_markers",
-      "level": "A2",
-      "title": "Подсказки",
-      "slices": [
-        {
-          "route": "cards_pastcont",
-          "revision": 1,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_pastcont_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_pastcont_ing",
-      "level": "A2",
-      "title": "Как добавить -ing",
-      "slices": [
-        {
-          "route": "cards_pastcont",
-          "revision": 1,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_cont_spelling"
-      ],
-      "reviewed": false
-    },
-    {
       "id": "b1_pastcont_interrupt",
       "level": "B1",
       "title": "Когда что-то случилось",
       "slices": [
         {
           "route": "cards_pastcont",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             4
           ]
         }
       ],
       "prerequisites": [
-        "a2_pastcont_markers",
+        "a2_pastcont_core",
         "a1_past_irregular"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_pastcont_review",
-      "level": "A2",
-      "title": "Was doing: проверка",
-      "slices": [
-        {
-          "route": "cards_pastcont",
-          "revision": 1,
-          "slides": [
-            5
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_pastcont_negq",
-        "a2_pastcont_ing"
       ],
       "reviewed": false
     },
     {
       "id": "a1_future_will",
       "level": "A1",
-      "title": "Решения и прогнозы",
+      "title": "Will, won't, I'll",
       "slices": [
         {
           "route": "cards_futuresimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
-            0
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_simple_routines"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_future_negq",
-      "level": "A1",
-      "title": "Отрицание и вопрос",
-      "slices": [
-        {
-          "route": "cards_futuresimp",
-          "revision": 1,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_future_will"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a1_future_contractions",
-      "level": "A1",
-      "title": "I'll, won't",
-      "slices": [
-        {
-          "route": "cards_futuresimp",
-          "revision": 1,
-          "slides": [
+            0,
+            1,
             2
           ]
         }
       ],
       "prerequisites": [
-        "a1_future_will"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_future_markers",
-      "level": "A2",
-      "title": "Подсказки",
-      "slices": [
-        {
-          "route": "cards_futuresimp",
-          "revision": 1,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_future_will"
+        "a1_simple_routines"
       ],
       "reviewed": false
     },
@@ -5560,33 +3219,17 @@
       "slices": [
         {
           "route": "cards_futuresimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
-            4
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_future_markers",
-        "a2_goingto_will"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_future_review",
-      "level": "A2",
-      "title": "Future Simple: проверка",
-      "slices": [
-        {
-          "route": "cards_futuresimp",
-          "revision": 1,
-          "slides": [
+            3,
+            4,
             5
           ]
         }
       ],
       "prerequisites": [
-        "a1_future_negq"
+        "a1_future_will",
+        "a2_goingto_will"
       ],
       "reviewed": false
     },
@@ -5609,7 +3252,6 @@
         }
       ],
       "prerequisites": [
-        "a1_past_irregular",
         "a1_past_forms"
       ],
       "reviewed": false
@@ -5636,36 +3278,20 @@
     {
       "id": "a2_alreadyyet_meaning",
       "level": "A2",
-      "title": "Already, yet, still, just",
+      "title": "Already, yet, still",
       "slices": [
         {
           "route": "cards_alreadyyet",
           "revision": 1,
           "slides": [
-            0
+            0,
+            1,
+            3
           ]
         }
       ],
       "prerequisites": [
         "a2_perfect_meaning"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_alreadyyet_position",
-      "level": "A2",
-      "title": "Где ставить",
-      "slices": [
-        {
-          "route": "cards_alreadyyet",
-          "revision": 1,
-          "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_alreadyyet_meaning"
       ],
       "reviewed": false
     },
@@ -5683,25 +3309,7 @@
         }
       ],
       "prerequisites": [
-        "a2_alreadyyet_position"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_alreadyyet_review",
-      "level": "A2",
-      "title": "Already, yet: проверка",
-      "slices": [
-        {
-          "route": "cards_alreadyyet",
-          "revision": 1,
-          "slides": [
-            3
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a2_alreadyyet_position"
+        "a2_alreadyyet_meaning"
       ],
       "reviewed": false
     },
@@ -5726,54 +3334,20 @@
     {
       "id": "a2_contractions_s_d",
       "level": "A2",
-      "title": "'s и 'd",
+      "title": "'s, 'd и полная форма",
       "slices": [
         {
           "route": "cards_contractions",
           "revision": 1,
           "slides": [
-            1
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_contractions_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_contractions_full",
-      "level": "A2",
-      "title": "Когда пишут полностью",
-      "slices": [
-        {
-          "route": "cards_contractions",
-          "revision": 1,
-          "slides": [
-            2
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a1_contractions_core"
-      ],
-      "reviewed": false
-    },
-    {
-      "id": "a2_contractions_review",
-      "level": "A2",
-      "title": "Сокращения: проверка",
-      "slices": [
-        {
-          "route": "cards_contractions",
-          "revision": 1,
-          "slides": [
+            1,
+            2,
             3
           ]
         }
       ],
       "prerequisites": [
-        "a2_contractions_full"
+        "a1_contractions_core"
       ],
       "reviewed": false
     }

@@ -314,3 +314,114 @@ genericarticles, articlesnames, usedto, therewillbe, pastcont, futuresimp, prese
 **pluralnouns, редакция 4.** Индексы слайдов и привязка заданий прежние. Исправлены три неестественных примера.
 
 Действий от приложения для совместимости не нужно. Поддержка частей в интерфейсе — отдельное предложение в COMPONENTS.md.
+
+## M-019. Стандарт частей: остальные 52 темы — совместимо, опубликовано
+
+Части всех переработанных карточек пересобраны по правилам PARTS.md: было 249 частей, стало 108. Слайды, их индексы и задания не менялись. Каждый прежний ID перенаправлен в часть, которая теперь содержит все его слайды; предпосылки других частей переписаны по этой карте. Прогресс хранится по шагам route#slide, поэтому ничего не теряется и ничего не засчитывается заранее (подробно — M-018).
+
+| Новая часть | Прежние части |
+|---|---|
+| `a1_article_introduction` (articles) | `a1_article_introduction` |
+| `a1_article_reference` (articles) | `a1_article_reference`, `a1_article_zero`, `a1_article_choice` |
+| `a2_article_special` (articles) | `a2_article_superlative`, `a2_article_institutions` |
+| `a1_be_core` (presentsimp) | `a1_be_core` |
+| `a1_simple_routines` (presentsimp) | `a1_simple_routines` |
+| `a1_simple_questions` (presentsimp) | `a1_simple_questions`, `a1_simple_review` |
+| `intro_alphabet_names` (alphabet) | `intro_alphabet_names`, `intro_alphabet_dictation` |
+| `intro_reading_vowels` (readingrules) | `intro_reading_vowels`, `intro_reading_r`, `intro_reading_consonants`, `intro_reading_review` |
+| `a1_pronouns_personal` (pronouns) | `a1_pronouns_personal`, `a1_pronouns_possessive`, `a1_pronouns_demonstrative`, `a1_pronouns_questions` |
+| `a2_pronouns_reflexive` (pronouns) | `a2_pronouns_reflexive`, `a2_pronouns_one`, `a2_pronouns_review` |
+| `b1_pronouns_relative` (pronouns) | `b1_pronouns_relative` |
+| `a1_prep_place` (prepositions) | `a1_prep_place`, `a1_prep_position`, `a1_prep_time` |
+| `a2_prep_direction` (prepositions) | `a2_prep_direction`, `a2_prep_review` |
+| `a2_prep_verbs` (prepositions) | `a2_prep_verbs`, `a2_prep_adjectives` |
+| `b1_prep_nouns` (prepositions) | `b1_prep_nouns` |
+| `a1_aboutme_basics` (aboutme) | `a1_aboutme_basics`, `a1_aboutme_interests`, `a1_aboutme_story` |
+| `a2_asas_core` (asas) | `a2_asas_core`, `a2_asas_review` |
+| `a1_cont_core` (presentcont) | `a1_cont_core`, `a1_cont_spelling` |
+| `a2_cont_vs_simple` (presentcont) | `a2_cont_states`, `a2_cont_vs_simple`, `a2_cont_review` |
+| `a2_comparisons_degrees` (comparisons) | `a2_comparisons_degrees`, `a2_comparisons_long`, `a2_comparisons_irregular`, `a2_comparisons_than`, `a2_comparisons_review` |
+| `a1_questions_yesno` (questions) | `a1_questions_yesno`, `a1_questions_wh`, `a1_questions_choice` |
+| `a2_questions_subject` (questions) | `a2_questions_subject` |
+| `a2_questions_tags` (questions) | `a2_questions_tags`, `a2_questions_review` |
+| `b1_questions_tags_special` (questions) | `b1_questions_tags_special` |
+| `a1_det_some_any` (determinants) | `a1_det_some_any` |
+| `a2_det_many_much` (determinants) | `a2_det_negation`, `a2_det_compounds`, `a2_det_every_each`, `a2_det_many_much`, `a2_det_review` |
+| `a1_imperative_core` (imperative) | `a1_imperative_core`, `a1_imperative_review` |
+| `a2_imperative_polite` (imperative) | `a2_imperative_polite` |
+| `a1_havegot_core` (havegot) | `a1_havegot_core` |
+| `a2_havegot_vs_have` (havegot) | `a2_havegot_vs_have`, `a2_havegot_review` |
+| `a2_both_either` (botheither) | `a2_both_either` |
+| `b1_both_pairs` (botheither) | `b1_both_pairs`, `b1_both_review` |
+| `a2_so_neither` (botheither) | `a2_so_neither` |
+| `a1_greetings_hello` (greetings) | `a1_greetings_hello`, `a1_greetings_meet`, `a1_greetings_phrases`, `a1_greetings_review` |
+| `a2_greetings_smalltalk` (greetings) | `a2_greetings_smalltalk` |
+| `a1_family_core` (family) | `a1_family_core`, `a1_family_phrases`, `a1_family_review` |
+| `a2_family_inlaws` (family) | `a2_family_inlaws`, `a2_family_relationships` |
+| `a1_numbers_1_20` (numbers) | `a1_numbers_1_20` |
+| `a1_numbers_big` (numbers) | `a1_numbers_big` |
+| `a1_numbers_ordinal` (numbers) | `a1_numbers_ordinal` |
+| `a2_numbers_dates` (numbers) | `a2_numbers_dates`, `a2_numbers_fractions`, `a2_numbers_review` |
+| `a1_past_meaning` (pastsimp) | `a1_past_meaning`, `a1_past_ed` |
+| `a1_past_forms` (pastsimp) | `a1_past_forms`, `a1_past_review` |
+| `a1_past_irregular` (pastsimp) | `a1_past_irregular` |
+| `a2_modals_can` (modalverbs) | `a2_modals_rules`, `a2_modals_can`, `a2_modals_may` |
+| `a2_modals_must` (modalverbs) | `a2_modals_must`, `a2_modals_advice`, `a2_modals_review` |
+| `b1_modals_past` (modalverbs) | `b1_modals_past` |
+| `a1_time_clock` (timemoney) | `a1_time_clock`, `a1_time_dates`, `a1_money_prices`, `a1_timemoney_phrases`, `a1_timemoney_review` |
+| `a2_measures` (timemoney) | `a2_measures` |
+| `a1_wordorder_svo` (wordorder) | `a1_wordorder_svo` |
+| `a2_wordorder_frequency` (wordorder) | `a2_wordorder_frequency`, `a2_wordorder_tail`, `a2_wordorder_also_enough`, `a2_wordorder_review` |
+| `b1_wordorder_adjectives` (wordorder) | `b1_wordorder_adjectives` |
+| `a1_directions_ask` (directions) | `a1_directions_ask`, `a1_directions_explain`, `a1_directions_practice`, `a1_directions_review` |
+| `a1_shopping_choose` (shopping) | `a1_shopping_choose`, `a1_shopping_pay`, `a1_shopping_practice`, `a1_shopping_review` |
+| `a2_shopping_return` (shopping) | `a2_shopping_return` |
+| `a1_restaurant_arrive` (restaurant) | `a1_restaurant_arrive`, `a1_restaurant_order`, `a1_restaurant_bill`, `a1_restaurant_practice`, `a1_restaurant_review` |
+| `a1_weather_words` (weather) | `a1_weather_words`, `a1_weather_talk`, `a1_weather_practice`, `a1_weather_review` |
+| `a2_nature_words` (weather) | `a2_nature_words` |
+| `a1_food_products` (food) | `a1_food_products`, `a1_food_taste_meals`, `a1_food_practice`, `a1_food_review` |
+| `a2_food_cooking` (food) | `a2_food_cooking` |
+| `a1_jobs_names` (jobs) | `a1_jobs_names`, `a1_jobs_talk` |
+| `a2_jobs_work_job` (jobs) | `a2_jobs_work_job`, `a2_jobs_practice`, `a2_jobs_review` |
+| `a1_appearance_looks` (appearance) | `a1_appearance_looks`, `a1_character` |
+| `a2_appearance_order` (appearance) | `a2_appearance_order`, `a2_like_looklike`, `a2_appearance_practice`, `a2_appearance_review` |
+| `a1_body_parts` (body) | `a1_body_parts`, `a1_body_ache`, `a1_body_practice`, `a1_body_review` |
+| `a2_body_habits` (body) | `a2_body_habits` |
+| `a1_clothes_words` (clothes) | `a1_clothes_words`, `a1_clothes_accessories` |
+| `a2_clothes_verbs` (clothes) | `a2_clothes_verbs`, `a2_clothes_practice`, `a2_clothes_review` |
+| `a1_home_rooms` (home) | `a1_home_rooms`, `a1_home_furniture`, `a1_home_practice` |
+| `a2_home_chores` (home) | `a2_home_chores`, `a2_home_review` |
+| `a1_hobbies_ing` (hobbies) | `a1_hobbies_ing`, `a1_hobbies_play_go_do`, `a1_hobbies_practice` |
+| `a2_hobbies_talk` (hobbies) | `a2_hobbies_talk`, `a2_hobbies_review` |
+| `a1_emotions_words` (emotions) | `a1_emotions_words` |
+| `a2_emotions_prep` (emotions) | `a2_emotions_prep`, `a2_emotions_ed_ing`, `a2_emotions_practice`, `a2_emotions_review` |
+| `a1_study_words` (study) | `a1_study_words`, `a1_study_classroom` |
+| `a2_study_verbs` (study) | `a2_study_verbs`, `a2_study_practice`, `a2_study_review` |
+| `a1_tech_words` (technology) | `a1_tech_words` |
+| `a2_tech_verbs` (technology) | `a2_tech_verbs`, `a2_tech_problems`, `a2_tech_practice`, `a2_tech_review` |
+| `a2_uk_us_words` (britishamerican) | `a2_uk_us_words`, `a2_uk_us_spelling` |
+| `b1_uk_us_grammar` (britishamerican) | `b1_uk_us_grammar`, `b1_uk_us_sound`, `b1_uk_us_practice` |
+| `a2_colloc_intro` (collocations) | `a2_colloc_intro`, `a2_colloc_verbs`, `a2_colloc_adjectives`, `a2_colloc_practice`, `a2_colloc_review` |
+| `b1_idioms_intro` (idioms) | `b1_idioms_intro`, `b1_idioms_pairs`, `b1_idioms_register`, `b1_idioms_practice` |
+| `a2_strongadj_words` (strongadjectives) | `a2_strongadj_words`, `a2_strongadj_very`, `a2_strongadj_practice`, `a2_strongadj_review` |
+| `a1_goingto_form` (begoingto) | `a1_goingto_form` |
+| `a2_goingto_will` (begoingto) | `a2_goingto_will`, `a2_goingto_review` |
+| `a1_therewas_core` (therewaswere) | `a1_therewas_core`, `a1_therewas_negq`, `a1_therewas_review` |
+| `a1_wouldlike_core` (wouldlike) | `a1_wouldlike_core`, `a1_wouldlike_questions`, `a1_wouldlike_review` |
+| `a2_fewlittle_core` (fewlittle) | `a2_fewlittle_core`, `a2_fewlittle_talk`, `a2_fewlittle_review` |
+| `b1_generic_kinds` (genericarticles) | `b1_generic_kinds`, `b1_generic_groups`, `b1_generic_abstract`, `b1_generic_review` |
+| `a2_names_countries` (articlesnames) | `a2_names_countries`, `a2_names_geography` |
+| `b1_names_city` (articlesnames) | `b1_names_city`, `b1_names_review` |
+| `a2_usedto_core` (usedto) | `a2_usedto_core`, `a2_usedto_review` |
+| `b1_usedto_vs_beused` (usedto) | `b1_usedto_vs_beused` |
+| `a2_therewillbe_core` (therewillbe) | `a2_therewillbe_core`, `a2_therewillbe_review` |
+| `a2_pastcont_core` (pastcont) | `a2_pastcont_core`, `a2_pastcont_negq`, `a2_pastcont_markers`, `a2_pastcont_ing`, `a2_pastcont_review` |
+| `b1_pastcont_interrupt` (pastcont) | `b1_pastcont_interrupt` |
+| `a1_future_will` (futuresimp) | `a1_future_will`, `a1_future_negq`, `a1_future_contractions` |
+| `a2_future_will_goingto` (futuresimp) | `a2_future_markers`, `a2_future_will_goingto`, `a2_future_review` |
+| `a2_alreadyyet_meaning` (alreadyyet) | `a2_alreadyyet_meaning`, `a2_alreadyyet_position`, `a2_alreadyyet_review` |
+| `b1_alreadyyet_nuance` (alreadyyet) | `b1_alreadyyet_nuance` |
+| `a1_contractions_core` (contractions) | `a1_contractions_core` |
+| `a2_contractions_s_d` (contractions) | `a2_contractions_s_d`, `a2_contractions_full`, `a2_contractions_review` |
+
+Редакции повышены из-за правки содержания: presentcont 2 → 3, pastsimp 2 → 3, pastcont 1 → 2, futuresimp 1 → 2 (ряды слов-маркеров стали подсказками с границами правила; у pastcont исправлен цвет Past Simple). Память по шагам этих карточек сбросится по обычному правилу. Действий от приложения не нужно.
