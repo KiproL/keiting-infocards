@@ -119,7 +119,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -204,6 +205,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: заказ и вкус",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I'd like the steak, please.",
+              "ru": "Мне стейк, пожалуйста. (заказ сейчас)"
+            },
+            {
+              "en": "I like steak.",
+              "ru": "Я люблю стейк. (вообще)"
+            },
+            {
+              "en": "I'll have the soup.",
+              "ru": "Я буду суп. (решил прямо сейчас)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -430,7 +449,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -454,5 +473,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_order",
+    "word_book",
+    "word_a2_included",
+    "word_b1_medium",
+    "word_under",
+    "word_menu",
+    "word_a2_recommend",
+    "word_b1_spicy",
+    "word_bill",
+    "word_change",
+    "word_bread",
+    "word_a2_fresh"
+  ],
+  "prerequisites": [
+    "cards_wouldlike"
+  ],
+  "prerequisites_reviewed": false
 }

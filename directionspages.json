@@ -220,6 +220,28 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: где стоит и где повернуть",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "The bank is on the corner.",
+              "ru": "Банк на углу. (где находится — on)"
+            },
+            {
+              "en": "Turn left at the corner.",
+              "ru": "На углу поверните налево. (в какой точке — at)"
+            },
+            {
+              "en": "It's on the left.",
+              "ru": "Это слева. (с the)"
+            },
+            {
+              "en": "Turn left.",
+              "ru": "Поверните налево. (без to и без the)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -273,7 +295,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -414,7 +437,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -448,5 +471,24 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_left",
+    "word_tell",
+    "phrase_excuse_me",
+    "word_far",
+    "word_walk",
+    "word_right",
+    "word_next_to",
+    "word_minute",
+    "word_get",
+    "word_near",
+    "word_a2_straight",
+    "word_second"
+  ],
+  "prerequisites": [
+    "cards_prepositions",
+    "cards_imperative"
+  ],
+  "prerequisites_reviewed": false
 }

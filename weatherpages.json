@@ -89,6 +89,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: сейчас и обычно",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "It's raining.",
+              "ru": "Идёт дождь. (прямо сейчас)"
+            },
+            {
+              "en": "It rains a lot here in autumn.",
+              "ru": "Осенью здесь часто идут дожди. (обычно)"
+            },
+            {
+              "en": "It's a rainy day.",
+              "ru": "Дождливый день. (rainy — прилагательное)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -149,7 +167,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -248,7 +267,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -513,7 +533,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -559,5 +579,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_rain",
+    "word_like",
+    "word_a2_degree",
+    "word_a2_heavy",
+    "word_below",
+    "word_a2_pour",
+    "word_mountain",
+    "word_river",
+    "word_a2_lake",
+    "word_beach",
+    "word_a2_forest",
+    "word_nice"
+  ],
+  "prerequisites": [
+    "cards_presentcont"
+  ],
+  "prerequisites_reviewed": false
 }

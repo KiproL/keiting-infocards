@@ -244,3 +244,7 @@ imperative, havegot, botheither, greetings, family, numbers, pastsimp, modalverb
 У numbers в конец добавлен слайд 6 «Дроби и проценты». На него перепривязаны задания: `numbers_4_n2`, `numbers_4_n3`, `numbers_4_n4`, `numbers_4_n5`, `numbers_4_n10`, `numbers_4_n11`, `numbers_4_n12`, `numbers_4_n14` (#4 → #6). Слайд 4 теперь только «Даты и годы». Новая часть `a2_numbers_fractions`.
 
 Редакция повышена из-за содержательных изменений: память FSRS по целям этих карточек сбросится по обычному правилу приложения, история сохраняется. Других действий от приложения не нужно.
+
+## M-014. Доработка партии 6: редакции 1 → 2 — совместимо, опубликовано
+
+timemoney, wordorder, directions, shopping, restaurant, weather, food, jobs: редакция 2. Индексы слайдов и привязка заданий прежние. Память FSRS по целям сбросится по обычному правилу.

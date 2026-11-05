@@ -83,6 +83,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: fit и suit",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "This jacket doesn't fit me.",
+              "ru": "Эта куртка мне не по размеру."
+            },
+            {
+              "en": "This colour doesn't suit me.",
+              "ru": "Этот цвет мне не идёт."
+            },
+            {
+              "en": "Can I try it on?",
+              "ru": "Можно примерить? (try on — примерить)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -136,7 +154,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -440,7 +459,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -474,5 +493,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_a2_fit",
+    "word_b1_receipt",
+    "word_look",
+    "word_try",
+    "word_bag",
+    "word_a2_tight",
+    "word_return",
+    "word_a2_exchange",
+    "word_b1_refund",
+    "word_small",
+    "word_close",
+    "word_help"
+  ],
+  "prerequisites": [
+    "cards_numbers"
+  ],
+  "prerequisites_reviewed": false
 }

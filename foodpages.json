@@ -101,6 +101,28 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: продукт и штука",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I had chicken for lunch.",
+              "ru": "На обед я ел курицу. (мясо — без a)"
+            },
+            {
+              "en": "There is a chicken in the garden.",
+              "ru": "В саду курица. (птица — с a)"
+            },
+            {
+              "en": "I drink coffee every morning.",
+              "ru": "Я пью кофе каждое утро. (вообще)"
+            },
+            {
+              "en": "Two coffees, please.",
+              "ru": "Два кофе, пожалуйста. (в кафе — чашки)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -188,7 +210,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -450,7 +473,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         },
         {
           "label": "Ещё примеры",
@@ -635,7 +659,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -697,5 +721,24 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_bread",
+    "word_a2_boil",
+    "word_b1_bake",
+    "word_add",
+    "word_a2_sweet",
+    "word_b1_spicy",
+    "word_lunch",
+    "word_meat",
+    "word_vegetable",
+    "word_fruit",
+    "word_rice",
+    "word_cheese"
+  ],
+  "prerequisites": [
+    "cards_pluralnouns",
+    "cards_determinants"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -87,6 +87,24 @@
           }
         },
         {
+          "title": "Сравни: past и to",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "It's ten past seven.",
+              "ru": "Десять минут восьмого (7:10)."
+            },
+            {
+              "en": "It's ten to seven.",
+              "ru": "Без десяти семь (6:50)."
+            },
+            {
+              "en": "It's half past seven.",
+              "ru": "Половина восьмого (7:30) — по-английски считают от семи."
+            }
+          ]
+        },
+        {
           "title": "Полезные слова",
           "borderColor": "term",
           "rules": [
@@ -143,7 +161,8 @@
               }
             ],
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -375,6 +394,20 @@
               "example": "— Sure. / Cash only."
             }
           ]
+        },
+        {
+          "title": "Сравни: is и are",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "How much is this T-shirt?",
+              "ru": "Сколько стоит эта футболка? (одна вещь — is)"
+            },
+            {
+              "en": "How much are these shoes?",
+              "ru": "Сколько стоят эти туфли? (несколько — are)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -428,7 +461,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -700,7 +734,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -769,5 +803,24 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_mile",
+    "word_past",
+    "word_o_clock",
+    "word_quarter",
+    "word_pound",
+    "word_fifty",
+    "word_change",
+    "word_a2_centimetre",
+    "word_half",
+    "word_euro",
+    "word_kilometre",
+    "word_seven"
+  ],
+  "prerequisites": [
+    "cards_numbers",
+    "cards_prepositions"
+  ],
+  "prerequisites_reviewed": false
 }

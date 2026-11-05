@@ -56,14 +56,14 @@
 | cards_numbers | 2 | да | да | 6 | 97 | да | нет (M-007, M-013) |
 | cards_pastsimp | 2 | да | да | 5 | 90 | да | нет (M-007, M-013) |
 | cards_modalverbs | 2 | да | да | 7 | 129 | да | нет (M-007, M-013) |
-| cards_timemoney | 1 | да | да | 6 | 85 | да | нет (M-008) |
-| cards_wordorder | 1 | да | да | 6 | 108 | да | нет (M-008) |
-| cards_directions | 1 | да | да | 4 | 70 | да | нет (M-008) |
-| cards_shopping | 1 | да | да | 5 | 70 | да | нет (M-008) |
-| cards_restaurant | 1 | да | да | 5 | 70 | да | нет (M-008) |
-| cards_weather | 1 | да | да | 5 | 71 | да | нет (M-008) |
-| cards_food | 1 | да | да | 5 | 68 | да | нет (M-008) |
-| cards_jobs | 1 | да | да | 5 | 71 | да | нет (M-008) |
+| cards_timemoney | 2 | да | да | 6 | 85 | да | нет (M-008, M-014) |
+| cards_wordorder | 2 | да | да | 6 | 108 | да | нет (M-008, M-014) |
+| cards_directions | 2 | да | да | 4 | 70 | да | нет (M-008, M-014) |
+| cards_shopping | 2 | да | да | 5 | 70 | да | нет (M-008, M-014) |
+| cards_restaurant | 2 | да | да | 5 | 70 | да | нет (M-008, M-014) |
+| cards_weather | 2 | да | да | 5 | 71 | да | нет (M-008, M-014) |
+| cards_food | 2 | да | да | 5 | 68 | да | нет (M-008, M-014) |
+| cards_jobs | 2 | да | да | 5 | 71 | да | нет (M-008, M-014) |
 | cards_appearance | 1 | да | да | 6 | 91 | да | нет (M-010) |
 | cards_body | 1 | да | да | 5 | 70 | да | нет (M-010) |
 | cards_clothes | 1 | да | да | 5 | 71 | да | нет (M-010) |
@@ -666,6 +666,35 @@
 - [British Council: have, have got](https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/using-have-have-got);
 - [Merriam-Webster Learner's: have got / have gotten](https://learnersdictionary.com/qa/difference-between-have-got-and-have-gotten);
 - [British Council: modals — deductions about the present](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/modals-deductions-about-present) — must / might / can't без числовых вероятностей.
+
+### Партия 6, редакция 2
+
+- **timemoney.**
+  - Правила «во сколько, с какого до какого» и слова про деньги выведены из свёрнутых блоков: по ним есть задания.
+  - Добавлены пары ten past seven / ten to seven с часами, а также is / are в вопросе о цене.
+- **wordorder.** Объяснены термины «смысловой», «вспомогательный», «модальный» глагол. Добавлены пары: место always перед обычным глаголом, после be, между have и глаголом.
+- **directions.** Таблица «На транспорте» выведена в текст. Добавлены пары on the corner / at the corner, on the left / turn left.
+- **shopping.** «Размеры и цвета» выведены в текст. Добавлены пары fit / suit и try on.
+- **restaurant.** «Что в меню» — справочный блок, отмечен необязательным. Добавлены пары I'd like the steak / I like steak.
+- **weather.** Таблицы «sun → sunny» и температуры выведены в текст. Добавлены пары It's raining / It rains a lot here.
+- **food.** «Как посчитать неисчисляемое» и «Breakfast, lunch, dinner» выведены в текст. Добавлены пары chicken / a chicken, coffee / two coffees — граница «вещество или штука».
+- **jobs.** «Work for, at или in» выведено в текст. Добавлены пары I'm a teacher / I'm the teacher of this class.
+
+**Смешанные слайды, предложено разделение (не выполнено):**
+- jobs, слайд 1: job / work (A2) соединены с salary / wage, promotion, overtime (B1);
+- food, слайд 2: вкус и приёмы пищи (A1) соединены с прожаркой rare / well-done (B1).
+
+Это стоит разнести, когда будет решён вопрос об уровнях заданий.
+
+**Связи:**
+- `target_words` — у 263 заданий семи лексических карточек;
+- `related_words` — у всех восьми;
+- предпосылки карточек: timemoney → numbers, prepositions; wordorder → presentsimp; directions → prepositions, imperative; shopping → numbers; restaurant → wouldlike; weather → presentcont; food → pluralnouns, determinants; jobs → articles.
+
+**Источники:**
+- [Cambridge Dictionary: past](https://dictionary.cambridge.org/dictionary/english/past) — ten past seven; американское after / of описано там же как вариант;
+- [Oxford Learner's: fit](https://www.oxfordlearnersdictionaries.com/definition/english/fit_1) и [suit](https://www.oxfordlearnersdictionaries.com/definition/english/suit_2);
+- [Cambridge Dictionary: tip](https://dictionary.cambridge.org/dictionary/english/tip) и источники о чаевых в партии 6.
 
 ## Выполненные проверки (партия 1)
 

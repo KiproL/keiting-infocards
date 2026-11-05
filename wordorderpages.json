@@ -300,6 +300,25 @@
               "suffix": "после подлежащего",
               "example": "Do you usually walk to work?"
             }
+          ],
+          "text": "Смысловой глагол называет само действие: drink, go, work. Вспомогательный помогает построить время, отрицание или вопрос: do, have, will. Модальный — can, should, must."
+        },
+        {
+          "title": "Сравни: обычный глагол и be",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I often drink coffee.",
+              "ru": "Я часто пью кофе. (перед обычным глаголом)"
+            },
+            {
+              "en": "I'm often late.",
+              "ru": "Я часто опаздываю. (после am / is / are)"
+            },
+            {
+              "en": "I have often thought about it.",
+              "ru": "Я часто об этом думал. (между have и глаголом)"
+            }
           ]
         },
         {
@@ -821,7 +840,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -870,5 +889,18 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_always",
+    "word_often",
+    "word_never",
+    "word_usually",
+    "word_also",
+    "word_only",
+    "word_enough"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

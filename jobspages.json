@@ -103,6 +103,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: a и the",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I'm a teacher.",
+              "ru": "Я учитель. (профессия — a)"
+            },
+            {
+              "en": "I'm the teacher of this class.",
+              "ru": "Я учитель этого класса. (тот самый — the)"
+            },
+            {
+              "en": "She works as a nurse.",
+              "ru": "Она работает медсестрой. (после as — тоже a)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -360,7 +378,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -504,7 +523,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -560,5 +579,23 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_work",
+    "word_job",
+    "word_b2_promotion",
+    "word_driver",
+    "word_teacher",
+    "word_doctor",
+    "word_a2_builder",
+    "word_waiter",
+    "word_a2_boss",
+    "word_a2_colleague",
+    "word_b1_living",
+    "word_a2_developer"
+  ],
+  "prerequisites": [
+    "cards_articles"
+  ],
+  "prerequisites_reviewed": false
 }
