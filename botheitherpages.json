@@ -78,6 +78,28 @@
           }
         },
         {
+          "title": "Сравни три слова",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "Both of them came.",
+              "ru": "Пришли оба."
+            },
+            {
+              "en": "Neither of them came.",
+              "ru": "Не пришёл ни один из двух."
+            },
+            {
+              "en": "Either of them can come.",
+              "ru": "Может прийти любой из двух."
+            },
+            {
+              "en": "All of them came.",
+              "ru": "Пришли все (больше двух) — уже all."
+            }
+          ]
+        },
+        {
           "title": "С of",
           "borderColor": "term",
           "rules": [
@@ -766,7 +788,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -806,5 +828,15 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_both",
+    "word_a2_either",
+    "word_b1_neither",
+    "word_b1_nor"
+  ],
+  "prerequisites": [
+    "cards_pronouns"
+  ],
+  "prerequisites_reviewed": false
 }

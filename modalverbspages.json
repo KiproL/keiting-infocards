@@ -135,7 +135,7 @@
           "callout": {
             "type": "warning",
             "title": "Без to",
-            "text": "После модального — всегда чистый инфинитив БЕЗ частицы to. И никакого -s в 3-м лице."
+            "text": "После модального — глагол в начальной форме без to (её называют «голый инфинитив»): can swim. И никакого -s в 3-м лице."
           }
         },
         {
@@ -157,27 +157,27 @@
           }
         },
         {
-          "title": "5 железных правил",
+          "title": "Пять правил",
           "borderColor": "term",
           "bullets": [
             {
-              "text": "После модального — инфинитив БЕЗ to",
+              "text": "После модального — начальная форма без to: can go",
               "color": "bad"
             },
             {
-              "text": "В 3-м лице НЕТ окончания -s",
+              "text": "В 3-м лице нет окончания -s: she can",
               "color": "bad"
             },
             {
-              "text": "Вопрос — инверсией, БЕЗ do/does",
+              "text": "В вопросе модальный встаёт перед подлежащим, без do / does: Can you…?",
               "color": "bad"
             },
             {
-              "text": "Отрицание — просто not",
+              "text": "Отрицание — просто not: can't, mustn't",
               "color": "bad"
             },
             {
-              "text": "У модальных нет инфинитива — есть заменители (be able to, have to)",
+              "text": "Формы to can нет — в других временах берут заменители: be able to, have to",
               "color": "bad"
             }
           ]
@@ -433,27 +433,27 @@
           }
         },
         {
-          "title": "Шкала вероятности",
+          "title": "Насколько уверен",
           "borderColor": "term",
           "transforms": [
             {
               "from": "must be",
-              "to": "почти уверен (95%)",
+              "to": "почти уверен",
               "toColor": "good"
             },
             {
               "from": "may be",
-              "to": "вполне возможно (50%)",
+              "to": "вполне возможно",
               "toColor": "info"
             },
             {
               "from": "might / could be",
-              "to": "возможно, шансов меньше (30%)",
+              "to": "возможно, но менее уверенно",
               "toColor": "term"
             },
             {
               "from": "can't be",
-              "to": "невозможно (0%)",
+              "to": "уверен, что нет",
               "toColor": "bad"
             }
           ]
@@ -546,7 +546,7 @@
           }
         },
         {
-          "title": "Самая частая путаница",
+          "title": "Частая путаница",
           "borderColor": "bad",
           "callout": {
             "type": "warning",
@@ -920,20 +920,11 @@
               "right": "You should see a doctor. (после should — без to)"
             }
           ]
-        },
-        {
-          "title": "Интересный факт",
-          "borderColor": "info",
-          "callout": {
-            "type": "info",
-            "title": "Почему could пишется с l?",
-            "text": "Буква l в слове could не произносится. Она появилась в XVI веке по аналогии с would и should. До этого писали просто coud."
-          }
         }
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -973,5 +964,16 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_could",
+    "word_may",
+    "word_a2_might",
+    "word_must",
+    "word_should"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

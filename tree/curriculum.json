@@ -148,7 +148,7 @@
       "materials": [
         {
           "route": "cards_greetings",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             1,
@@ -329,7 +329,7 @@
       "materials": [
         {
           "route": "cards_greetings",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             1,
@@ -2478,7 +2478,7 @@
       "slices": [
         {
           "route": "cards_imperative",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0
           ]
@@ -2494,7 +2494,7 @@
       "slices": [
         {
           "route": "cards_imperative",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -2513,7 +2513,7 @@
       "slices": [
         {
           "route": "cards_imperative",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -2531,7 +2531,7 @@
       "slices": [
         {
           "route": "cards_havegot",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0
           ]
@@ -2549,7 +2549,7 @@
       "slices": [
         {
           "route": "cards_havegot",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -2568,7 +2568,7 @@
       "slices": [
         {
           "route": "cards_havegot",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -2586,7 +2586,7 @@
       "slices": [
         {
           "route": "cards_botheither",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0
           ]
@@ -2604,7 +2604,7 @@
       "slices": [
         {
           "route": "cards_botheither",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -2622,7 +2622,7 @@
       "slices": [
         {
           "route": "cards_botheither",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -2640,7 +2640,7 @@
       "slices": [
         {
           "route": "cards_botheither",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             3
           ]
@@ -2659,7 +2659,7 @@
       "slices": [
         {
           "route": "cards_greetings",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0
           ]
@@ -2675,7 +2675,7 @@
       "slices": [
         {
           "route": "cards_greetings",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -2694,7 +2694,7 @@
       "slices": [
         {
           "route": "cards_greetings",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -2712,7 +2712,7 @@
       "slices": [
         {
           "route": "cards_greetings",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             3,
             4
@@ -2731,7 +2731,7 @@
       "slices": [
         {
           "route": "cards_greetings",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             5
           ]
@@ -2749,7 +2749,7 @@
       "slices": [
         {
           "route": "cards_family",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0
           ]
@@ -2765,7 +2765,7 @@
       "slices": [
         {
           "route": "cards_family",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -2783,7 +2783,7 @@
       "slices": [
         {
           "route": "cards_family",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -2801,7 +2801,7 @@
       "slices": [
         {
           "route": "cards_family",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             3,
             4
@@ -2820,7 +2820,7 @@
       "slices": [
         {
           "route": "cards_family",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             5
           ]
@@ -2838,7 +2838,7 @@
       "slices": [
         {
           "route": "cards_numbers",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -2854,7 +2854,7 @@
       "slices": [
         {
           "route": "cards_numbers",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -2872,7 +2872,7 @@
       "slices": [
         {
           "route": "cards_numbers",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0,
             3
@@ -2887,11 +2887,11 @@
     {
       "id": "a2_numbers_dates",
       "level": "A2",
-      "title": "Даты, годы, дроби",
+      "title": "Даты и годы",
       "slices": [
         {
           "route": "cards_numbers",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             4
           ]
@@ -2904,20 +2904,39 @@
       "reviewed": false
     },
     {
+      "id": "a2_numbers_fractions",
+      "level": "A2",
+      "title": "Дроби и проценты",
+      "slices": [
+        {
+          "route": "cards_numbers",
+          "revision": 2,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_numbers_ordinal"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a2_numbers_review",
       "level": "A2",
       "title": "Числа: проверка",
       "slices": [
         {
           "route": "cards_numbers",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             5
           ]
         }
       ],
       "prerequisites": [
-        "a2_numbers_dates"
+        "a2_numbers_dates",
+        "a2_numbers_fractions"
       ],
       "reviewed": false
     },
@@ -2928,7 +2947,7 @@
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0
           ]
@@ -2946,7 +2965,7 @@
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -2965,7 +2984,7 @@
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -2983,7 +3002,7 @@
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             3
           ]
@@ -3001,7 +3020,7 @@
       "slices": [
         {
           "route": "cards_pastsimp",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             4
           ]
@@ -3020,7 +3039,7 @@
       "slices": [
         {
           "route": "cards_modalverbs",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             0
           ]
@@ -3038,7 +3057,7 @@
       "slices": [
         {
           "route": "cards_modalverbs",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             1
           ]
@@ -3057,7 +3076,7 @@
       "slices": [
         {
           "route": "cards_modalverbs",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             2
           ]
@@ -3075,7 +3094,7 @@
       "slices": [
         {
           "route": "cards_modalverbs",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             3
           ]
@@ -3093,7 +3112,7 @@
       "slices": [
         {
           "route": "cards_modalverbs",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             4
           ]
@@ -3111,7 +3130,7 @@
       "slices": [
         {
           "route": "cards_modalverbs",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             5
           ]
@@ -3130,7 +3149,7 @@
       "slices": [
         {
           "route": "cards_modalverbs",
-          "revision": 1,
+          "revision": 2,
           "slides": [
             6
           ]

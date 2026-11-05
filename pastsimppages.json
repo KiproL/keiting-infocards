@@ -5,7 +5,7 @@
     {
       "label": "Что случилось",
       "intro": {
-        "text": "Past Simple — простое прошедшее: что случилось и закончилось. Обычно понятно когда: вчера, в 2010-м, два часа назад. Глагол во 2-й форме: worked, went.",
+        "text": "Past Simple — простое прошедшее: что случилось и закончилось. Обычно понятно когда: вчера, в 2010-м, два часа назад. Глагол во 2-й форме (V2): у правильных глаголов — с -ed (worked), у неправильных — своя форма (went).",
         "highlights": [
           {
             "text": "Past Simple",
@@ -154,6 +154,28 @@
               "ru": "Мы встретились на прошлой неделе."
             }
           ]
+        },
+        {
+          "title": "Сравни: обычно и вчера",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I work from home.",
+              "ru": "Я работаю из дома. (обычно — Present Simple)"
+            },
+            {
+              "en": "I worked from home yesterday.",
+              "ru": "Вчера я работал из дома. (закончилось — Past Simple)"
+            },
+            {
+              "en": "She goes to the gym on Mondays.",
+              "ru": "По понедельникам она ходит в спортзал."
+            },
+            {
+              "en": "She went to the gym last Monday.",
+              "ru": "В прошлый понедельник она ходила в спортзал."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -207,7 +229,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -925,7 +948,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
@@ -988,7 +1012,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -1028,5 +1052,17 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_yesterday",
+    "word_ago",
+    "word_last",
+    "word_go",
+    "word_see",
+    "word_buy"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

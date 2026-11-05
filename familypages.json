@@ -113,6 +113,28 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: brother и cousin",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "He is my brother.",
+              "ru": "Это мой брат (родной)."
+            },
+            {
+              "en": "He is my cousin.",
+              "ru": "Это мой двоюродный брат."
+            },
+            {
+              "en": "My parents are teachers.",
+              "ru": "Мои родители — учителя (мама и папа)."
+            },
+            {
+              "en": "My relatives live in Kazan.",
+              "ru": "Мои родственники живут в Казани (вся родня)."
+            }
+          ]
         }
       ],
       "expandables": [
@@ -166,7 +188,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         },
         {
           "label": "Ещё примеры",
@@ -560,7 +583,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -596,5 +619,24 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_parent",
+    "word_cousin",
+    "word_b1_relative",
+    "word_grandparent",
+    "word_uncle",
+    "word_mum",
+    "word_daughter",
+    "word_brother",
+    "word_husband",
+    "word_boyfriend",
+    "word_girlfriend",
+    "word_sister"
+  ],
+  "prerequisites": [
+    "cards_pronouns",
+    "cards_pluralnouns"
+  ],
+  "prerequisites_reviewed": false
 }

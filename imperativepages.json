@@ -5,7 +5,7 @@
     {
       "label": "Просьбы и команды",
       "intro": {
-        "text": "Просьбу, команду или совет дают глаголом без подлежащего — без you: Sit down. Запрет — Don't + глагол: Don't worry. Предложить сделать вместе — Let's: Let's go.",
+        "text": "Повелительное наклонение — форма глагола для просьб, команд и советов. Её дают глаголом без подлежащего — без you: Sit down. Запрет — Don't + глагол: Don't worry. Предложить сделать вместе — Let's: Let's go.",
         "highlights": [
           {
             "text": "без подлежащего",
@@ -78,6 +78,28 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: рассказ и просьба",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "You open the window every morning.",
+              "ru": "Ты каждое утро открываешь окно. (рассказ — есть you)"
+            },
+            {
+              "en": "Open the window, please.",
+              "ru": "Открой окно, пожалуйста. (просьба — без you)"
+            },
+            {
+              "en": "Don't open the window.",
+              "ru": "Не открывай окно. (запрет — don't)"
+            },
+            {
+              "en": "Let's open the window.",
+              "ru": "Давай откроем окно. (вместе — let's)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -283,7 +305,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -314,5 +336,11 @@
       ],
       "decoys": []
     }
+  ],
+  "related_words": [
+    "word_please",
+    "word_let",
+    "word_never",
+    "word_always"
   ]
 }

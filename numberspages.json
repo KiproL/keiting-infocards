@@ -533,7 +533,7 @@
           "callout": {
             "type": "warning",
             "title": "Никогда fourty",
-            "text": "Только forty — без u. Это самая частая ошибка. Запомни: four → forty, но не fourty."
+            "text": "Только forty — без u. Это частая ошибка. Запомни: four → forty, но не fourty."
           },
           "examples": [
             {
@@ -948,9 +948,9 @@
       ]
     },
     {
-      "label": "Даты, годы, дроби",
+      "label": "Даты и годы",
       "intro": {
-        "text": "В датах день месяца — всегда порядковое. Годы читаются парами цифр. Дроби и проценты — тоже числа, но с нюансами.",
+        "text": "В датах день месяца читают как порядковое число: the first of May. Годы читаются парами цифр: nineteen ninety.",
         "highlights": [
           {
             "text": "порядковое",
@@ -960,11 +960,6 @@
           {
             "text": "парами",
             "color": "info",
-            "style": "bold"
-          },
-          {
-            "text": "нюансами",
-            "color": "example",
             "style": "bold"
           }
         ]
@@ -1031,9 +1026,189 @@
               "suffix": "twenty ten",
               "example": "с 2010 снова парами; можно и two thousand (and) ten"
             }
-          ],
-          "text": "50% по-британски — fifty per cent, по-американски — fifty percent."
+          ]
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Цены и телефоны",
+          "preview": "£5.99, 0791 223…",
+          "initiallyExpanded": false,
+          "section": {
+            "borderColor": "info",
+            "table": {
+              "headers": [
+                "Пишем",
+                "Говорим"
+              ],
+              "headerColors": [
+                "term",
+                "info"
+              ],
+              "borderColor": "info",
+              "rows": [
+                {
+                  "cells": [
+                    "£5.99",
+                    "five pounds ninety-nine / five ninety-nine"
+                  ]
+                },
+                {
+                  "cells": [
+                    "$12.50",
+                    "twelve dollars fifty"
+                  ]
+                },
+                {
+                  "cells": [
+                    "0",
+                    "oh (в телефоне) / zero"
+                  ]
+                },
+                {
+                  "cells": [
+                    "0791 223 455",
+                    "oh-seven-nine-one, double two three, four double five"
+                  ]
+                },
+                {
+                  "cells": [
+                    "3.5",
+                    "three point five"
+                  ]
+                }
+              ]
+            },
+            "title": ""
+          },
+          "presentation": "optional"
+        }
+      ]
+    },
+    {
+      "label": "Частые ошибки",
+      "intro": {
+        "text": "Частые ошибки с английскими числами — и как их избежать.",
+        "highlights": [
+          {
+            "text": "Частые ошибки",
+            "color": "bad",
+            "style": "bold_underline"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Слева — нельзя, справа — правильно",
+          "borderColor": "bad",
+          "errors": [
+            {
+              "wrong": "fourty",
+              "right": "forty (без u)"
+            },
+            {
+              "wrong": "five hundreds dollars",
+              "right": "five hundred dollars (после числа — без -s)"
+            },
+            {
+              "wrong": "the one of May",
+              "right": "the first of May (в датах — порядковое)"
+            },
+            {
+              "wrong": "a fourth part",
+              "right": "a quarter (амер. также one fourth)"
+            },
+            {
+              "wrong": "nineth",
+              "right": "ninth (e уходит)"
+            },
+            {
+              "wrong": "21th",
+              "right": "21st (последнее слово — first)"
+            },
+            {
+              "wrong": "threeteen",
+              "right": "thirteen (thir-, не three-)"
+            }
+          ]
         },
+        {
+          "title": "Как не ошибаться",
+          "borderColor": "good",
+          "callout": {
+            "type": "success",
+            "title": "Правило большого пальца",
+            "text": "Запомни три слова с особым написанием: forty (без u), ninth (без e), twelfth (ve → f). Остальное — по правилам."
+          }
+        }
+      ],
+      "expandables": [
+        {
+          "label": "Thirteen или thirty на слух",
+          "preview": "thirTEEN vs THIRty",
+          "initiallyExpanded": false,
+          "section": {
+            "title": "",
+            "borderColor": "info",
+            "callout": {
+              "type": "info",
+              "title": "Как различать на слух",
+              "text": "Числа 13–19 и десятки (30, 40…) отличаются только ударением: thirTEEN — на конце, THIRty — в начале. При диктовке специально произносят медленнее: thirteen = one-three."
+            },
+            "examples": [
+              {
+                "en": "thirTEEN [θɜːˈtiːn]",
+                "ru": "13 — ударение в конце"
+              },
+              {
+                "en": "THIRty [ˈθɜːti]",
+                "ru": "30 — ударение в начале"
+              },
+              {
+                "en": "fourTEEN [fɔːˈtiːn]",
+                "ru": "14 — ударение в конце"
+              },
+              {
+                "en": "FORty [ˈfɔːti]",
+                "ru": "40 — ударение в начале"
+              },
+              {
+                "en": "fifTEEN [fɪfˈtiːn]",
+                "ru": "15 — ударение в конце"
+              },
+              {
+                "en": "FIFty [ˈfɪfti]",
+                "ru": "50 — ударение в начале"
+              }
+            ]
+          },
+          "presentation": "optional"
+        }
+      ]
+    },
+    {
+      "label": "Дроби и проценты",
+      "intro": {
+        "text": "Дробь читают так: сверху обычное число, снизу — порядковое: 1/3 — a third, 2/3 — two thirds. Половина и четверть — особые слова: a half, a quarter. Проценты — per cent (амер. percent).",
+        "highlights": [
+          {
+            "text": "порядковое",
+            "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "a half, a quarter",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "per cent",
+            "color": "example",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
         {
           "title": "Дроби",
           "borderColor": "info",
@@ -1116,166 +1291,14 @@
               "en": "10 ÷ 2 = 5",
               "ru": "ten divided by two equals five"
             }
-          ]
+          ],
+          "text": "50% по-британски — fifty per cent, по-американски — fifty percent."
         }
       ],
-      "expandables": [
-        {
-          "label": "Цены и телефоны",
-          "preview": "£5.99, 0791 223…",
-          "initiallyExpanded": false,
-          "section": {
-            "borderColor": "info",
-            "table": {
-              "headers": [
-                "Пишем",
-                "Говорим"
-              ],
-              "headerColors": [
-                "term",
-                "info"
-              ],
-              "borderColor": "info",
-              "rows": [
-                {
-                  "cells": [
-                    "£5.99",
-                    "five pounds ninety-nine / five ninety-nine"
-                  ]
-                },
-                {
-                  "cells": [
-                    "$12.50",
-                    "twelve dollars fifty"
-                  ]
-                },
-                {
-                  "cells": [
-                    "0",
-                    "oh (в телефоне) / zero"
-                  ]
-                },
-                {
-                  "cells": [
-                    "0791 223 455",
-                    "oh-seven-nine-one, double two three, four double five"
-                  ]
-                },
-                {
-                  "cells": [
-                    "3.5",
-                    "three point five"
-                  ]
-                }
-              ]
-            },
-            "title": ""
-          }
-        }
-      ]
-    },
-    {
-      "label": "Частые ошибки",
-      "intro": {
-        "text": "Частые ошибки с английскими числами — и как их избежать.",
-        "highlights": [
-          {
-            "text": "Частые ошибки",
-            "color": "bad",
-            "style": "bold_underline"
-          }
-        ]
-      },
-      "sections": [
-        {
-          "title": "Слева — нельзя, справа — правильно",
-          "borderColor": "bad",
-          "errors": [
-            {
-              "wrong": "fourty",
-              "right": "forty (без u)"
-            },
-            {
-              "wrong": "five hundreds dollars",
-              "right": "five hundred dollars (после числа — без -s)"
-            },
-            {
-              "wrong": "the one of May",
-              "right": "the first of May (в датах — порядковое)"
-            },
-            {
-              "wrong": "a fourth part",
-              "right": "a quarter (амер. также one fourth)"
-            },
-            {
-              "wrong": "nineth",
-              "right": "ninth (e уходит)"
-            },
-            {
-              "wrong": "21th",
-              "right": "21st (последнее слово — first)"
-            },
-            {
-              "wrong": "threeteen",
-              "right": "thirteen (thir-, не three-)"
-            }
-          ]
-        },
-        {
-          "title": "Как не ошибаться",
-          "borderColor": "good",
-          "callout": {
-            "type": "success",
-            "title": "Правило большого пальца",
-            "text": "Запомни три слова с особым написанием: forty (без u), ninth (без e), twelfth (ve → f). Остальное — по правилам."
-          }
-        }
-      ],
-      "expandables": [
-        {
-          "label": "Интересный факт про ударение",
-          "preview": "thirTEEN vs THIRty",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "info",
-            "callout": {
-              "type": "info",
-              "title": "Как различать на слух",
-              "text": "Числа 13–19 и десятки (30, 40…) отличаются только ударением: thirTEEN — на конце, THIRty — в начале. При диктовке специально произносят медленнее: thirteen = one-three."
-            },
-            "examples": [
-              {
-                "en": "thirTEEN [θɜːˈtiːn]",
-                "ru": "13 — ударение в конце"
-              },
-              {
-                "en": "THIRty [ˈθɜːti]",
-                "ru": "30 — ударение в начале"
-              },
-              {
-                "en": "fourTEEN [fɔːˈtiːn]",
-                "ru": "14 — ударение в конце"
-              },
-              {
-                "en": "FORty [ˈfɔːti]",
-                "ru": "40 — ударение в начале"
-              },
-              {
-                "en": "fifTEEN [fɪfˈtiːn]",
-                "ru": "15 — ударение в конце"
-              },
-              {
-                "en": "FIFty [ˈfɪfti]",
-                "ru": "50 — ударение в начале"
-              }
-            ]
-          }
-        }
-      ]
+      "expandables": []
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -1317,9 +1340,24 @@
       "description": "Даты, годы, дроби, проценты",
       "slides": [
         4,
-        5
+        5,
+        6
       ],
       "decoys": []
     }
+  ],
+  "related_words": [
+    "word_second",
+    "word_twelve",
+    "word_fifth",
+    "word_hundred",
+    "word_third",
+    "word_first",
+    "word_thirteen",
+    "word_forty",
+    "word_fourth",
+    "word_ninety",
+    "word_two",
+    "word_three"
   ]
 }

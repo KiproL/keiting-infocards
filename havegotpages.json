@@ -319,7 +319,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
@@ -392,6 +393,28 @@
               "info"
             ]
           }
+        },
+        {
+          "title": "Сравни: have got и got",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I've got a new car.",
+              "ru": "У меня есть новая машина. (have got — есть сейчас)"
+            },
+            {
+              "en": "I got a new car last week.",
+              "ru": "На прошлой неделе я купил новую машину. (got — получил, купил)"
+            },
+            {
+              "en": "I've got a cold.",
+              "ru": "Я простужен. (есть сейчас)"
+            },
+            {
+              "en": "I got a cold on holiday.",
+              "ru": "Я простудился в отпуске. (получил)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -466,7 +489,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -489,5 +512,13 @@
       ],
       "decoys": []
     }
-  ]
+  ],
+  "related_words": [
+    "word_have",
+    "word_get"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

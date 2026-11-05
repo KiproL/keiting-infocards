@@ -92,6 +92,20 @@
               "ru": "Отлично, спасибо!"
             }
           ]
+        },
+        {
+          "title": "Сравни: вечером при встрече и прощаясь",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "Good evening, everyone!",
+              "ru": "Добрый вечер всем! (при встрече)"
+            },
+            {
+              "en": "Good night, see you tomorrow.",
+              "ru": "Спокойной ночи, до завтра. (прощаясь)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -117,21 +131,21 @@
                 {
                   "cells": [
                     "Good morning",
-                    "до 12:00",
+                    "примерно до 12:00",
                     "при встрече"
                   ]
                 },
                 {
                   "cells": [
                     "Good afternoon",
-                    "12:00–18:00",
+                    "примерно 12:00–18:00",
                     "при встрече"
                   ]
                 },
                 {
                   "cells": [
                     "Good evening",
-                    "после 18:00",
+                    "примерно после 18:00",
                     "при встрече"
                   ]
                 },
@@ -145,7 +159,8 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         },
         {
           "label": "Ещё примеры",
@@ -252,7 +267,7 @@
     {
       "label": "Small talk",
       "intro": {
-        "text": "Small talk — лёгкий разговор ни о чём, чтобы познакомиться и снять неловкость. Безопасные темы: погода, выходные, работа, поездки, еда, сериалы. Не спрашивают о деньгах, возрасте, весе, политике и религии.",
+        "text": "Small talk — лёгкий разговор ни о чём, чтобы познакомиться и снять неловкость. Безопасные темы: погода, выходные, работа, поездки, еда, сериалы. Не спрашивают о деньгах, возрасте, весе, политике и религии — по крайней мере малознакомых: это звучит слишком лично.",
         "highlights": [
           {
             "text": "Small talk",
@@ -518,7 +533,7 @@
       ]
     }
   ],
-  "editorial_revision": 1,
+  "editorial_revision": 2,
   "editorial_review_scope": "full_card_language_review",
   "editorial_review_date": "2026-11-04",
   "error_patterns": [
@@ -542,5 +557,19 @@
       ],
       "decoys": []
     }
+  ],
+  "related_words": [
+    "word_meet",
+    "word_weekend",
+    "word_fine",
+    "word_evening",
+    "word_see",
+    "word_go",
+    "word_bad",
+    "word_talk",
+    "word_morning",
+    "word_hi",
+    "word_bye",
+    "word_interesting"
   ]
 }
