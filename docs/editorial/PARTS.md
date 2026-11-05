@@ -616,3 +616,25 @@ Kotlin-генератор упражнений здесь не запускал�
 | Наречия | `a2_adverbs_manner` «Как? Carefully, well» | A2 | 0 Careful или carefully, 1 -ly: как пишется, 2 Good — well, fast, hard, 3 Частые ошибки | a1_wordorder_svo, a1_be_core | Hard / hardly (B1) |
 
 Делить не нужно: каждая тема — один уровень и один навык.
+
+## Партия 13
+
+| Тема | Часть | Уровень | Слайды | Предпосылки | Дальше |
+|---|---|---|---|---|---|
+| Conditionals | `b1_cond_real` «If: факт и реальное» | B1 | 0 Условие и результат, 1 Zero и First | a2_future_will_goingto | b1_cond_unreal |
+| Conditionals | `b1_cond_unreal` «If: если бы» | B1 | 2 Second и Third | b1_cond_real, b1_pastperf_core | b2_cond_wish_linkers |
+| Conditionals | `b2_cond_wish_linkers` «Wish, unless, in case» | B2 | 3 Wish и if only, 4 Unless, in case, 5 Частые ошибки | b1_cond_unreal | карточки wish, unlessincase, mixedconditionals |
+| Relative Clauses | `b1_relative_core` «Который: who, which» | B1 | 0–4 | b1_pronouns_relative | — |
+
+Карта содержания conditionals:
+
+| Исходный пункт | Где теперь | Отметка |
+|---|---|---|
+| Устройство, сводная таблица четырёх типов, запятая (сл. 0) | B1, сл. 0 | сохранено; вступление переписано; «Как выбрать тип» виден сразу |
+| Zero и First, can / may / must в результате (сл. 1) | B1, сл. 1 | сохранено; убран неправильный пример среди правильных |
+| Second, were / was, Third (сл. 2) | B1, сл. 2 | сохранено |
+| Wish, if only (сл. 3) | B2, сл. 3 | сохранено; вступление объясняет сдвиг времени и ссылается на карточку wish |
+| Unless, as long as, in case, even if (сл. 4) | B2, сл. 4 | сохранено, дополнено otherwise; инверсия — необязательный блок |
+| Частые ошибки (сл. 5) | B2, сл. 5 | исправлено: If I was you убрано из ошибок (разговорный вариант), добавлено If I would have known |
+| Цитаты | — | удалено: не учебное содержание |
+| Задания на when / until, mixed, инверсию | timeclauses, mixedconditionals, inversion | перенесено в карточки этих тем |

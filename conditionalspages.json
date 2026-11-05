@@ -8,12 +8,12 @@
   },
   "slides": [
     {
-      "label": "Условие и результат: четыре типа",
+      "label": "Условие и результат",
       "intro": {
-        "text": "Условное предложение состоит из двух частей: if-часть (условие) и главная часть (результат). Всего четыре основных типа — от реального до нереального в прошлом.",
+        "text": "Условное предложение говорит: если одно, то другое. If-часть — условие, главная часть — результат. Типы различаются тем, насколько ситуация реальна: от общего факта до того, чего уже не изменить. Начни с Zero и First, Second и Third — следующий шаг.",
         "highlights": [
           {
-            "text": "if-часть",
+            "text": "If-часть",
             "color": "info",
             "style": "bold"
           },
@@ -23,14 +23,9 @@
             "style": "bold"
           },
           {
-            "text": "четыре",
+            "text": "насколько ситуация реальна",
             "color": "example",
             "style": "bold_underline"
-          },
-          {
-            "text": "нереального",
-            "color": "bad",
-            "style": "bold"
           }
         ]
       },
@@ -226,15 +221,6 @@
               "example": "I will stay home if it rains."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Условие — это вопрос: реально ли это вообще? От ответа зависит форма.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -267,12 +253,13 @@
               "title": "Русское «бы»",
               "text": "Если в русском есть «бы» — это Second или Third, а не First. «Если бы я был богат» — Second."
             }
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Zero и First: факт и реальное будущее",
+      "label": "Zero и First",
       "intro": {
         "text": "Zero описывает общий факт или закон природы. First — реальное условие в будущем, которое вполне может случиться.",
         "highlights": [
@@ -378,20 +365,13 @@
             {
               "en": "If she calls, I will tell her everything.",
               "ru": "Если она позвонит, я ей всё расскажу."
-            },
-            {
-              "en": "If it will rain, I will stay home.",
-              "ru": "✗ неправильно: после if — без will",
-              "icon": "cross",
-              "iconColor": "bad",
-              "ruColor": "bad"
             }
           ]
         }
       ],
       "expandables": [
         {
-          "label": "Will в главной части",
+          "label": "Не только will",
           "preview": "will, can, may, must — что можно",
           "initiallyExpanded": false,
           "section": {
@@ -419,12 +399,13 @@
                 "example": "If you finish, you must tell me."
               }
             ]
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Second и Third: нереально сейчас и в прошлом",
+      "label": "Second и Third",
       "intro": {
         "text": "Second описывает нереальную ситуацию в настоящем. Third — нереальную ситуацию в прошлом, которую уже не изменить.",
         "highlights": [
@@ -563,24 +544,24 @@
       ]
     },
     {
-      "label": "Wish и if only: сожаления",
+      "label": "Wish и if only",
       "intro": {
-        "text": "Wish и if only — сожаления о том, чего нет сейчас или не было в прошлом. Смешанные условные (mixed) — отдельная карточка уровня B2.",
+        "text": "Wish и if only выражают сожаление о том, чего нет сейчас или не было в прошлом. Время после wish «сдвигается» назад: о настоящем — Past Simple, о прошлом — Past Perfect. Подробно — карточка «I wish», смешанные условия — карточка Mixed Conditionals.",
         "highlights": [
           {
-            "text": "wish",
+            "text": "Wish и if only",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "if only",
+            "text": "сожаление",
             "color": "example",
-            "style": "bold"
+            "style": "bold_underline"
           },
           {
-            "text": "сожаления",
-            "color": "bad",
-            "style": "bold_underline"
+            "text": "«сдвигается» назад",
+            "color": "info",
+            "style": "bold"
           }
         ]
       },
@@ -665,13 +646,13 @@
       ]
     },
     {
-      "label": "Unless, as long as, in case, even if",
+      "label": "Unless, in case",
       "intro": {
-        "text": "Вместо if можно использовать другие союзы условия: unless, as long as, in case, even if. Каждый придаёт свой оттенок: строгость, время, случайность.",
+        "text": "Вместо if можно взять другой союз, и он добавит оттенок: unless — «если не», as long as — «при условии, что», in case — «на всякий случай», even if — «даже если», otherwise — «иначе». Подробнее — карточка «Unless, as long as».",
         "highlights": [
           {
             "text": "unless",
-            "color": "bad",
+            "color": "term",
             "style": "bold"
           },
           {
@@ -686,8 +667,13 @@
           },
           {
             "text": "even if",
-            "color": "accent2",
-            "style": "bold_underline"
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "otherwise",
+            "color": "term",
+            "style": "bold"
           }
         ]
       },
@@ -740,6 +726,13 @@
                   "even if",
                   "даже если (результат тот же)",
                   "I'll go even if it rains."
+                ]
+              },
+              {
+                "cells": [
+                  "otherwise",
+                  "иначе",
+                  "Hurry up, otherwise we'll miss the train."
                 ]
               }
             ],
@@ -800,7 +793,7 @@
       ],
       "expandables": [
         {
-          "label": "Инверсия без if — формально",
+          "label": "Без if — официально",
           "preview": "Should / Were / Had + подлежащее",
           "initiallyExpanded": false,
           "section": {
@@ -828,17 +821,18 @@
               "title": "Где встречается",
               "text": "Типично для деловой переписки, юридических текстов, литературы. В обычной речи почти не используется."
             }
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
     {
-      "label": "Частые ошибки: if it will rain, if I would have",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Шесть самых частых ошибок в условных предложениях — слева как нельзя, справа как правильно.",
+        "text": "Частые ошибки в условных предложениях. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Шесть самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -858,8 +852,8 @@
               "right": "If I had money… (после if — Past Simple)"
             },
             {
-              "wrong": "If I was you…",
-              "right": "If I were you… (в устойчивом обороте — were)"
+              "wrong": "If I would have known…",
+              "right": "If I had known… (после if — без would)"
             },
             {
               "wrong": "I wish I am taller.",
@@ -882,23 +876,93 @@
             "type": "success",
             "title": "Три вопроса",
             "text": "Реально ли это в будущем? → First. Воображаемо сейчас? → Second. Уже не изменить? → Third. Если в русском есть «бы» — это Second или Third."
-          },
-          "quote": {
-            "text": "Условные предложения — это не формы, а выбор реальности.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
-          }
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "If пишется без will, wish — без would, а unless — без not. Три слова — три главные ошибки.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:conditionals.no_will",
+      "description": "После if — без will и would",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:conditionals.first",
+      "description": "First: if + Present, will + глагол",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:conditionals.zero",
+      "description": "Zero: общий факт — Present в обеих частях",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:conditionals.second",
+      "description": "Second: if + Past, would + глагол; were",
+      "slides": [
+        0,
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:conditionals.third",
+      "description": "Third: if + Past Perfect, would have + V3",
+      "slides": [
+        0,
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:conditionals.wish",
+      "description": "Wish и if only: время сдвигается назад",
+      "slides": [
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:conditionals.linkers",
+      "description": "Unless, in case, as long as, even if, otherwise",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_if",
+    "word_b1_unless",
+    "word_a2_wish",
+    "word_would"
+  ],
+  "prerequisites": [
+    "cards_futuresimp",
+    "cards_pastperf"
+  ],
+  "prerequisites_reviewed": false
 }

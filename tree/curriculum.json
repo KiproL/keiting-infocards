@@ -1520,6 +1520,28 @@
       "reviewed": false
     },
     {
+      "id": "b1_relative_core",
+      "level": "B1",
+      "title": "Который: who, which",
+      "slices": [
+        {
+          "route": "cards_relativeclauses",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_pronouns_relative"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a1_prep_place",
       "level": "A1",
       "title": "In, on, at: место, время",
@@ -3591,6 +3613,64 @@
       ],
       "prerequisites": [
         "a2_future_will_goingto"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_cond_real",
+      "level": "B1",
+      "title": "If: факт и реальное",
+      "slices": [
+        {
+          "route": "cards_conditionals",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_future_will_goingto"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_cond_unreal",
+      "level": "B1",
+      "title": "If: если бы",
+      "slices": [
+        {
+          "route": "cards_conditionals",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_cond_real",
+        "b1_pastperf_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_cond_wish_linkers",
+      "level": "B2",
+      "title": "Wish, unless, in case",
+      "slices": [
+        {
+          "route": "cards_conditionals",
+          "revision": 1,
+          "slides": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_cond_unreal"
       ],
       "reviewed": false
     },

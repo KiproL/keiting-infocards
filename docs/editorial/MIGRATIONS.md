@@ -478,3 +478,25 @@ presentperfcont, pastperf, tooto, sosuch, wouldprefer, wouldrather, presentforfu
 - **Новые части:** `a1_possessive_core`, `a2_adverbs_manner`.
 
 Прежние route, ID и индексы слайдов не менялись. Действий от приложения не нужно.
+
+## M-023. Партия 13 — совместимо, опубликовано
+
+conditionals, relativeclauses: редакция 0 → 1. Индексы и темы слайдов прежние.
+
+Перепривязка заданий (ID не менялись):
+
+| Задания | Было | Стало |
+|---|---|---|
+| `oak_cond_10`, `oak_cond_11`, `oak_cond_12`, `oak_cond_20`, `oak_cond_23` | conditionals #0 | timeclauses #0 |
+| `conditionals_3_n0`, `conditionals_3_n14` | conditionals #3 | mixedconditionals #1 |
+| `conditionals_3_n13` | conditionals #3 | mixedconditionals #2 |
+| `conditionals_4_n10`, `conditionals_4_n11`, `conditionals_4_n12` | conditionals #4 | inversion #2 |
+| `oak_cond_8`, `oak_cond_9`, `oak_cond_13`, `oak_cond_18` | conditionals #0 | conditionals #4 |
+
+Новые части:
+- `b1_cond_real` (conditionals 0, 1);
+- `b1_cond_unreal` (2);
+- `b2_cond_wish_linkers` (3–5);
+- `b1_relative_core` (relativeclauses 0–4).
+
+Действий от приложения не нужно.

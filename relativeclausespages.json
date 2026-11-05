@@ -3,18 +3,18 @@
   "route": "cards_relativeclauses",
   "slides": [
     {
-      "label": "Who, which, that: какой именно",
+      "label": "Который: who, which",
       "intro": {
-        "text": "Придаточное определительное уточняет, КАКОЙ именно человек или предмет. Стоит сразу после существительного и начинается со слова who, which, that, whose, where или when.",
+        "text": "Чтобы уточнить, о каком именно человеке или предмете речь, по-русски говорим «который»: мужчина, который живёт по соседству. По-английски такая часть начинается с who, which, that, whose, where или when и стоит сразу после существительного.",
         "highlights": [
           {
-            "text": "Придаточное определительное",
-            "color": "term",
+            "text": "о каком именно",
+            "color": "info",
             "style": "bold_underline"
           },
           {
-            "text": "КАКОЙ именно",
-            "color": "info",
+            "text": "who, which, that, whose, where или when",
+            "color": "term",
             "style": "bold"
           },
           {
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "label": "Какое слово: who, which, whose, where",
+      "label": "Какое слово выбрать",
       "intro": {
         "text": "Слово выбирают по тому, о ком или о чём речь: о людях — who, о вещах — which, that подходит к обоим.",
         "highlights": [
@@ -274,6 +274,21 @@
             "title": "Книжный вариант who",
             "text": "The person whom I met — так пишут в официальном тексте. В разговоре — who или вовсе без слова."
           }
+        },
+        {
+          "title": "Where или which",
+          "borderColor": "term",
+          "text": "Where значит «в котором, где» и не требует предлога: the city where I live. Если место — объект действия, нужен which или that: the city which I visited. Проверка: можно ли сказать «там»? I live there — значит where.",
+          "examples": [
+            {
+              "en": "This is the city where I was born.",
+              "ru": "Это город, где я родился."
+            },
+            {
+              "en": "This is the city which I visited last year.",
+              "ru": "Это город, который я посетил в прошлом году."
+            }
+          ]
         }
       ]
     },
@@ -370,7 +385,7 @@
       ]
     },
     {
-      "label": "Когда who / which можно убрать",
+      "label": "Когда слово убирают",
       "intro": {
         "text": "Who, which, that можно опустить, если сразу за ними идёт другое подлежащее (I, you, she, Tom). Если за ними сразу глагол — оставляем.",
         "highlights": [
@@ -476,12 +491,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: man which, film that I saw it",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в придаточных.",
+        "text": "Частые ошибки в придаточных с who, which, that. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -520,5 +535,67 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:relativeclauses.who_which",
+      "description": "Люди — who, вещи — which, оба — that",
+      "slides": [
+        0,
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:relativeclauses.whose_where",
+      "description": "Чей — whose, место — where, время — when",
+      "slides": [
+        0,
+        1,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:relativeclauses.commas",
+      "description": "С запятыми — who / which, без that",
+      "slides": [
+        2,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:relativeclauses.omit",
+      "description": "Слово можно убрать только перед другим подлежащим",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:relativeclauses.preposition",
+      "description": "Предлог в конце или перед which / whom; без лишнего it",
+      "slides": [
+        3,
+        4
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_who",
+    "word_which",
+    "word_that",
+    "word_a2_whose",
+    "word_where"
+  ],
+  "prerequisites": [
+    "cards_pronouns"
+  ],
+  "prerequisites_reviewed": false
 }
