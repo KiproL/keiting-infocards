@@ -638,3 +638,43 @@ Kotlin-генератор упражнений здесь не запускал�
 | Частые ошибки (сл. 5) | B2, сл. 5 | исправлено: If I was you убрано из ошибок (разговорный вариант), добавлено If I would have known |
 | Цитаты | — | удалено: не учебное содержание |
 | Задания на when / until, mixed, инверсию | timeclauses, mixedconditionals, inversion | перенесено в карточки этих тем |
+
+## Партия 14
+
+| Тема | Часть | Уровень | Слайды | Предпосылки | Дальше |
+|---|---|---|---|---|---|
+| Infinitive | `a2_infinitive_core` «To do или do» | A2 | 0 To do или do, 1 Want to, decide to, 2 Без to: can, let, 3 Цель: чтобы | a2_modals_can | a2_verb_ing_to, b1_infinitive_patterns |
+| Gerund | `a2_verb_ing_to` «Enjoy doing, want to do» | A2 | 2 -ing или to do, 3 Предлог + -ing, 5 Частые ошибки | a2_infinitive_core, a2_prep_verbs | b1_gerund_noun, b1_ing_to_meaning |
+| Infinitive | `b1_infinitive_patterns` «Happy to, want you to» | B1 | 4 Happy to, what to do, 5 I want you to…, 7 Частые ошибки | a2_infinitive_core, a2_tooto_core | b2_infinitive_forms, b1_reported_questions |
+| Gerund | `b1_gerund_noun` «Герундий как понятие» | B1 | 0 Герундий: что это, 1 Где стоит герундий | a2_verb_ing_to | — |
+| Gerund | `b1_ing_to_meaning` «Stop doing, stop to do» | B1 | 4 Stop doing, stop to do | a2_verb_ing_to | — |
+| Infinitive | `b2_infinitive_forms` «To have done, to be done» | B2 | 6 To have done | b1_infinitive_patterns | — |
+| Reported Speech | `b1_reported_statements` «Пересказ: said, told» | B1 | 0, 1, 2, 3, 6 | b1_pastperf_core | b1_reported_questions |
+| Reported Speech | `b1_reported_questions` «Пересказ: asked, told to» | B1 | 4, 5, 7 | b1_reported_statements, b1_infinitive_patterns | — |
+| Active & Passive | `b1_passive_core` «Пассив: be + V3» | B1 | 0, 1, 2, 4, 7, 8 | a2_irregular_forms | b2_passive_more |
+| Active & Passive | `b2_passive_more` «Пассив: given, get, said» | B2 | 3, 5, 6 | b1_passive_core | карточки passiveget, havesomethingdone, reportingpassive |
+
+Карта содержания gerund:
+
+| Исходный пункт | Где теперь | Отметка |
+|---|---|---|
+| Что такое герундий, -ing или to (сл. 0) | B1, сл. 0 | сохранено; формы being written и правописание — необязательные блоки |
+| Роли в предложении, swimming pool, устойчивые обороты (сл. 1) | B1, сл. 1 | исправлено: непонятное пояснение про swimming pool |
+| Глаголы + -ing и + to (сл. 2) | A2, сл. 2 | сохранено; неправильные предложения убраны из блока примеров |
+| Предлог + -ing, to как предлог (сл. 3) | A2, сл. 3 | сохранено |
+| Stop, remember, forget, try, regret, mean (сл. 4) | B1, сл. 4 | сохранено |
+| Прилагательные -ing / -ed (сл. 4) | карточка «-ed и -ing» | удалено как повтор: не герундий, тема разобрана в своей карточке; 5 заданий перенесены туда |
+| Частые ошибки (сл. 5) | A2, сл. 5 | сохранено; 2 ошибки про -ed / -ing убраны вместе с темой |
+| «Интересные факты», цитаты | — | удалено: не учебное содержание |
+
+Карта содержания infinitive:
+
+| Исходный пункт | Где теперь | Отметка |
+|---|---|---|
+| To / без to, глагол + to, без to, цель (сл. 0–3) | A2 | сохранено; дополнено: for + существительное, so as not to |
+| Прилагательное + to, too / enough, what to do (сл. 4) | B1 | сохранено |
+| Want you to (сл. 5) | B1 | сохранено |
+| To be doing, to have done, пассив (сл. 6) | B2 | перенесено в отдельную часть B2 |
+| Частые ошибки (сл. 7) | B1 | сохранено |
+
+Reported speech и Active / Passive разделены на части без переноса пунктов между слайдами. Удалено только «Интересный факт» (APA) в Passive — непроверенное и не учебное.

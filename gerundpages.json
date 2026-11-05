@@ -3,19 +3,19 @@
   "route": "cards_gerund",
   "slides": [
     {
-      "label": "Герундий: действие как понятие",
+      "label": "Герундий: что это",
       "intro": {
-        "text": "Герундий (gerund) — глагол с -ing, который работает как существительное: swimming — «плавание», reading — «чтение». Он называет действие как понятие.",
+        "text": "Swimming is my favourite sport — «плавание — мой любимый спорт». Герундий (gerund) — глагол с -ing, который работает как существительное и называет действие как понятие: reading — «чтение», cooking — «готовка».",
         "highlights": [
           {
-            "text": "Герундий (gerund)",
-            "color": "term",
+            "text": "Swimming is my favourite sport",
+            "color": "example",
             "style": "bold"
           },
           {
-            "text": "-ing",
-            "color": "accent2",
-            "style": "bold"
+            "text": "Герундий (gerund)",
+            "color": "term",
+            "style": "bold_underline"
           },
           {
             "text": "как существительное",
@@ -79,12 +79,12 @@
           "rules": [
             {
               "name": "Reading",
-              "suffix": "действие как понятие",
+              "suffix": "понятие",
               "example": "Reading is useful. — Чтение полезно."
             },
             {
               "name": "to read",
-              "suffix": "действие как цель или намерение",
+              "suffix": "цель, намерение",
               "example": "I want to read. — Я хочу почитать."
             }
           ]
@@ -130,7 +130,8 @@
                 "valueColor": "text"
               }
             ]
-          }
+          },
+          "presentation": "optional"
         },
         {
           "label": "Правописание -ing",
@@ -149,7 +150,8 @@
                 "В некоторых коротких словах конечная согласная удваивается: swim → swimming, run → running."
               ]
             }
-          }
+          },
+          "presentation": "optional"
         },
         {
           "label": "Ещё примеры",
@@ -230,7 +232,7 @@
           "callout": {
             "type": "info",
             "title": "Важный нюанс",
-            "text": "В сочетаниях swimming pool и reading room слово на -ing входит в состав существительного и описывает его назначение. Это не самый типичный пример герундия в роли определения."
+            "text": "В swimming pool и reading room слово на -ing показывает назначение: бассейн для плавания, зал для чтения. Такие сочетания запоминаем как одно слово."
           },
           "examples": [
             {
@@ -304,32 +306,28 @@
               "example": "How about going to the cinema?"
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Герундий помогает говорить о действии как о понятии.",
-            "author": "заметка",
-            "accentColor": "accent2"
-          }
         }
       ]
     },
     {
-      "label": "Только -ing или только to do",
+      "label": "-ing или to do",
       "intro": {
-        "text": "После одних глаголов используется форма -ing, после других — инфинитив с to.",
+        "text": "После одних глаголов второй глагол ставят с -ing (enjoy playing), после других — с to (decide to stay). Правила, по которому это можно вывести, нет: сочетание запоминают вместе с глаголом.",
         "highlights": [
           {
-            "text": "форма -ing",
+            "text": "-ing",
             "color": "term",
             "style": "bold"
           },
           {
-            "text": "инфинитив с to",
+            "text": "to",
             "color": "info",
             "style": "bold"
+          },
+          {
+            "text": "запоминают вместе с глаголом",
+            "color": "example",
+            "style": "bold_underline"
           }
         ]
       },
@@ -362,15 +360,9 @@
           "examples": [
             {
               "en": "I enjoy playing chess.",
-              "ru": "правильно",
+              "ru": "Я люблю играть в шахматы.",
               "icon": "check",
               "iconColor": "good"
-            },
-            {
-              "en": "I enjoy to play.",
-              "ru": "неправильно",
-              "icon": "cross",
-              "iconColor": "bad"
             },
             {
               "en": "She suggested going home.",
@@ -410,15 +402,9 @@
           "examples": [
             {
               "en": "We decided to stay home.",
-              "ru": "правильно",
+              "ru": "Мы решили остаться дома.",
               "icon": "check",
               "iconColor": "good"
-            },
-            {
-              "en": "We decided staying.",
-              "ru": "неправильно",
-              "icon": "cross",
-              "iconColor": "bad"
             },
             {
               "en": "I hope to see you soon.",
@@ -442,7 +428,7 @@
       ]
     },
     {
-      "label": "После предлога — -ing",
+      "label": "Предлог + -ing",
       "intro": {
         "text": "Если после предлога стоит глагол, он обычно используется в форме -ing.",
         "highlights": [
@@ -518,15 +504,9 @@
           "examples": [
             {
               "en": "I look forward to seeing you.",
-              "ru": "правильно",
+              "ru": "Жду встречи с тобой.",
               "icon": "check",
               "iconColor": "good"
-            },
-            {
-              "en": "I look forward to see you.",
-              "ru": "неправильно",
-              "icon": "cross",
-              "iconColor": "bad"
             },
             {
               "en": "I'm used to getting up early.",
@@ -541,7 +521,7 @@
       ]
     },
     {
-      "label": "Смысл меняется: stop doing и stop to do",
+      "label": "Stop doing, stop to do",
       "intro": {
         "text": "Некоторые глаголы меняют значение в зависимости от того, используется после них -ing или to do.",
         "highlights": [
@@ -630,58 +610,21 @@
           ]
         },
         {
-          "title": "Прилагательные -ing / -ed",
+          "title": "-ed и -ing — другая тема",
           "borderColor": "info",
-          "text": "Это не герундий, а формы, которые часто используются как прилагательные: -ing описывает причину чувства, а -ed — того, кто это чувство испытывает.",
-          "transforms": [
-            {
-              "from": "bore",
-              "to": "boring lesson / I'm bored",
-              "toColor": "example"
-            },
-            {
-              "from": "interest",
-              "to": "interesting book / I'm interested",
-              "toColor": "example"
-            },
-            {
-              "from": "tire",
-              "to": "tiring day / I'm tired",
-              "toColor": "example"
-            },
-            {
-              "from": "surprise",
-              "to": "surprising result / We were surprised",
-              "toColor": "example"
-            },
-            {
-              "from": "excite",
-              "to": "exciting news / I'm excited",
-              "toColor": "example"
-            },
-            {
-              "from": "confuse",
-              "to": "confusing task / I'm confused",
-              "toColor": "example"
-            }
-          ]
+          "text": "Boring и bored, interesting и interested — не герундий, а прилагательные. Они разобраны в карточке «-ed и -ing»."
         }
       ]
     },
     {
-      "label": "Частые ошибки: enjoy to swim, look forward to see",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Слева — неправильный вариант, справа — правильный. Сравни и запомни сочетания.",
+        "text": "Частые ошибки с -ing и to do. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "неправильный вариант",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
-          },
-          {
-            "text": "правильный",
-            "color": "good",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -707,14 +650,6 @@
               "right": "She is good at drawing. (после предлога — -ing)"
             },
             {
-              "wrong": "I'm interesting in music.",
-              "right": "I'm interested in music. (чувствую — -ed)"
-            },
-            {
-              "wrong": "I'm boring. (мне скучно)",
-              "right": "I'm bored. (мне скучно — -ed)"
-            },
-            {
               "wrong": "I'm used to get up early.",
               "right": "I'm used to getting up early. (be used to + -ing)"
             }
@@ -727,39 +662,85 @@
             "type": "success",
             "title": "Как не ошибаться",
             "text": "Сначала определи конструкцию: после глагола стоит предлог, или это сочетание конкретного глагола с -ing / to do? Не полагайся только на смысл — проверяй модель управления."
-          },
-          "quote": {
-            "text": "Даже большие бренды иногда играют с правилами — но ты лучше играй по ним.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ],
-      "expandables": [
-        {
-          "label": "Интересные факты",
-          "preview": "I'm lovin' it и Finding Nemo",
-          "initiallyExpanded": false,
-          "section": {
-            "title": "",
-            "borderColor": "accent2",
-            "bullets": [
-              {
-                "text": "I'm lovin' it — намеренно разговорное и рекламное употребление. Это не обычная нейтральная модель для глагола love.",
-                "color": "example"
-              },
-              {
-                "text": "Finding Nemo — название мультфильма; здесь форма -ing входит в название и передаёт идею поиска.",
-                "color": "example"
-              },
-              {
-                "text": "Многие глаголы требуют определённую модель: -ing, to do или допускают обе формы. Такие сочетания лучше учить вместе с глаголом.",
-                "color": "example"
-              }
-            ]
-          }
-        }
-      ]
+      "expandables": []
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:gerund.subject",
+      "description": "Действие как понятие — V-ing: Reading is useful",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:gerund.fixed",
+      "description": "worth, no use, can't help, feel like + -ing",
+      "slides": [
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:gerund.verb_ing",
+      "description": "enjoy, finish, mind, avoid + -ing",
+      "slides": [
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:gerund.verb_to",
+      "description": "want, decide, hope, promise + to",
+      "slides": [
+        0,
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:gerund.prep",
+      "description": "После предлога — -ing; look forward to, be used to + -ing",
+      "slides": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:gerund.meaning",
+      "description": "stop, remember, forget, try, regret: -ing и to — разный смысл",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_enjoy",
+    "word_b2_avoid",
+    "word_a2_mind",
+    "word_stop",
+    "word_remember",
+    "word_b1_worth"
+  ],
+  "prerequisites": [
+    "cards_presentcont",
+    "cards_prepositions"
+  ],
+  "prerequisites_reviewed": false
 }

@@ -3,23 +3,23 @@
   "route": "cards_reportedspeech",
   "slides": [
     {
-      "label": "Пересказываем чужие слова",
+      "label": "Пересказ слов",
       "intro": {
-        "text": "Косвенная речь — когда пересказываешь чужие слова без кавычек. В русском время почти не меняется, а в английском делает шаг назад в прошлое: «am» становится «was».",
+        "text": "Вчера друг сказал: «I am tired». Пересказывая, говорим: He said he was tired. По-русски время в пересказе не меняется («сказал, что устал»), а в английском после said оно обычно делает шаг назад: am → was.",
         "highlights": [
           {
-            "text": "Косвенная речь",
-            "color": "term",
-            "style": "bold_underline"
+            "text": "He said he was tired",
+            "color": "example",
+            "style": "bold"
           },
           {
-            "text": "без кавычек",
-            "color": "info",
+            "text": "не меняется",
+            "color": "term",
             "style": "bold"
           },
           {
             "text": "шаг назад",
-            "color": "bad",
+            "color": "info",
             "style": "bold_underline"
           }
         ]
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "label": "Сдвиг времён: is → was, will → would",
+      "label": "Сдвиг времён",
       "intro": {
         "text": "Если глагол-пересказ в прошлом (said, told), время в пересказе сдвигается на шаг назад. По-русски «сказал, что живёт», а по-английски «said he lived».",
         "highlights": [
@@ -342,26 +342,21 @@
     {
       "label": "Said или told",
       "intro": {
-        "text": "Оба значат «сказал», но told требует, КОМУ сказали: told me, told Anna. Said обходится без этого, а если нужно «кому» — said to me.",
+        "text": "Оба значат «сказал», но после told называют, кому сказали: told me, told Anna. Said обходится без этого, а если всё же нужно «кому» — said to me.",
         "highlights": [
           {
             "text": "told",
             "color": "term",
-            "style": "bold_underline"
-          },
-          {
-            "text": "said",
-            "color": "info",
-            "style": "bold_underline"
-          },
-          {
-            "text": "КОМУ",
-            "color": "bad",
             "style": "bold"
           },
           {
-            "text": "said to me",
+            "text": "кому сказали",
             "color": "example",
+            "style": "bold_underline"
+          },
+          {
+            "text": "Said",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -423,7 +418,7 @@
       ]
     },
     {
-      "label": "Время и место: tomorrow → the next day",
+      "label": "Tomorrow → the next day",
       "intro": {
         "text": "Вместе со временем сдвигаются слова «сейчас», «здесь», «завтра»: пересказываешь в другой день и в другом месте, и «завтра» уже стало «на следующий день».",
         "highlights": [
@@ -547,7 +542,7 @@
       ]
     },
     {
-      "label": "Пересказ вопросов: asked if",
+      "label": "Пересказ вопросов",
       "intro": {
         "text": "В пересказанном вопросе порядок слов как в обычном утверждении: без do, does, did и без вопросительного знака. Вместо «ли» — if или whether.",
         "highlights": [
@@ -889,7 +884,7 @@
       ]
     },
     {
-      "label": "Просьбы и советы: told me to",
+      "label": "Просьбы и советы",
       "intro": {
         "text": "Просьбу или приказ пересказывают через to + глагол: «Сядь!» → He told me to sit down. Отказ — not to. А кроме said и told есть глаголы точнее: advised, warned, promised.",
         "highlights": [
@@ -1119,7 +1114,7 @@
       ]
     },
     {
-      "label": "Когда время не сдвигаем",
+      "label": "Когда не сдвигаем",
       "intro": {
         "text": "Сдвиг не обязателен, если пересказ в настоящем (says, tells) или слова до сих пор правда. Земля как вращалась, так и вращается.",
         "highlights": [
@@ -1162,7 +1157,7 @@
             },
             {
               "name": "Сразу пересказываем",
-              "suffix": "только что прозвучало",
+              "suffix": "только что",
               "example": "\"What did he say?\" — \"He said he's coming.\""
             }
           ]
@@ -1184,12 +1179,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: said me, asked where did I",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в косвенной речи.",
+        "text": "Частые ошибки в косвенной речи. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -1237,14 +1232,81 @@
             "type": "tip",
             "title": "Как не запутаться",
             "text": "Сначала реши, что пересказываешь: утверждение (said/told + that), вопрос (asked + if/what, прямой порядок) или просьбу (told/asked + to). Потом сдвинь время на шаг назад."
-          },
-          "quote": {
-            "text": "В пересказе всё уезжает на шаг в прошлое: время, «сегодня» и «здесь».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:reportedspeech.shift",
+      "description": "После said — время на шаг назад",
+      "slides": [
+        0,
+        1,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportedspeech.say_tell",
+      "description": "said — без «кому», told — с «кому»",
+      "slides": [
+        0,
+        2,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportedspeech.time_place",
+      "description": "now → then, tomorrow → the next day, here → there",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportedspeech.question",
+      "description": "Вопрос: if / whether, порядок утверждения",
+      "slides": [
+        4,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportedspeech.request",
+      "description": "Просьба: told / asked + (not) to; suggest + -ing",
+      "slides": [
+        5,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:reportedspeech.no_shift",
+      "description": "says, общая истина, всё ещё правда — без сдвига",
+      "slides": [
+        6
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_say",
+    "word_tell",
+    "word_ask",
+    "word_a2_whether",
+    "word_b1_advise",
+    "word_b1_warn"
+  ],
+  "prerequisites": [
+    "cards_pastperf",
+    "cards_questions"
+  ],
+  "prerequisites_reviewed": false
 }

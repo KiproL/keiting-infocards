@@ -2417,6 +2417,124 @@
       "reviewed": false
     },
     {
+      "id": "a2_infinitive_core",
+      "level": "A2",
+      "title": "To do или do",
+      "slices": [
+        {
+          "route": "cards_infinitive",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_modals_can"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_verb_ing_to",
+      "level": "A2",
+      "title": "Enjoy doing, want to do",
+      "slices": [
+        {
+          "route": "cards_gerund",
+          "revision": 1,
+          "slides": [
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_infinitive_core",
+        "a2_prep_verbs"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_infinitive_patterns",
+      "level": "B1",
+      "title": "Happy to, want you to",
+      "slices": [
+        {
+          "route": "cards_infinitive",
+          "revision": 1,
+          "slides": [
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_infinitive_core",
+        "a2_tooto_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_gerund_noun",
+      "level": "B1",
+      "title": "Герундий как понятие",
+      "slices": [
+        {
+          "route": "cards_gerund",
+          "revision": 1,
+          "slides": [
+            0,
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_verb_ing_to"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_ing_to_meaning",
+      "level": "B1",
+      "title": "Stop doing, stop to do",
+      "slices": [
+        {
+          "route": "cards_gerund",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_verb_ing_to"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_infinitive_forms",
+      "level": "B2",
+      "title": "To have done, to be done",
+      "slices": [
+        {
+          "route": "cards_infinitive",
+          "revision": 1,
+          "slides": [
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_infinitive_patterns"
+      ],
+      "reviewed": false
+    },
+    {
       "id": "a1_time_clock",
       "level": "A1",
       "title": "Время, даты и цены",
@@ -3761,6 +3879,92 @@
       "prerequisites": [
         "a2_perfect_meaning",
         "a1_past_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_reported_statements",
+      "level": "B1",
+      "title": "Пересказ: said, told",
+      "slices": [
+        {
+          "route": "cards_reportedspeech",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            3,
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_pastperf_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_reported_questions",
+      "level": "B1",
+      "title": "Пересказ: asked, told to",
+      "slices": [
+        {
+          "route": "cards_reportedspeech",
+          "revision": 1,
+          "slides": [
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_reported_statements",
+        "b1_infinitive_patterns"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_passive_core",
+      "level": "B1",
+      "title": "Пассив: be + V3",
+      "slices": [
+        {
+          "route": "cards_activepassive",
+          "revision": 1,
+          "slides": [
+            0,
+            1,
+            2,
+            4,
+            7,
+            8
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_irregular_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b2_passive_more",
+      "level": "B2",
+      "title": "Пассив: given, get, said",
+      "slices": [
+        {
+          "route": "cards_activepassive",
+          "revision": 1,
+          "slides": [
+            3,
+            5,
+            6
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_passive_core"
       ],
       "reviewed": false
     },

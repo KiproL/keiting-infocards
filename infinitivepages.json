@@ -3,9 +3,9 @@
   "route": "cards_infinitive",
   "slides": [
     {
-      "label": "To do или просто do",
+      "label": "To do или do",
       "intro": {
-        "text": "Инфинитив — начальная форма глагола. Он бывает с частицей to (to work) и без неё (work). Почти всегда нужен to; без него — после модальных глаголов и нескольких особых слов.",
+        "text": "Инфинитив — начальная форма глагола, которую ставят после другого глагола: I want to sleep. Чаще всего нужна частица to; без неё — после модальных глаголов (can, must, should), после let и make и в нескольких выражениях.",
         "highlights": [
           {
             "text": "Инфинитив",
@@ -13,7 +13,7 @@
             "style": "bold_underline"
           },
           {
-            "text": "с частицей to",
+            "text": "частица to",
             "color": "info",
             "style": "bold"
           },
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "label": "Глаголы, после которых to: want, decide",
+      "label": "Want to, decide to",
       "intro": {
         "text": "После многих глаголов второй глагол идёт с to. Их проще выучить списком — это самые частые.",
         "highlights": [
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "label": "Без to: после can, make, let",
+      "label": "Без to: can, let",
       "intro": {
         "text": "Без to инфинитив стоит после модальных глаголов, после make и let и в нескольких устойчивых выражениях.",
         "highlights": [
@@ -456,18 +456,23 @@
       ]
     },
     {
-      "label": "Цель: to = «чтобы»",
+      "label": "Цель: чтобы",
       "intro": {
-        "text": "To сам по себе значит «чтобы»: I came to help — я пришёл, чтобы помочь. For здесь не ставят.",
+        "text": "To сам значит «чтобы»: I came to help — я пришёл, чтобы помочь. For + глагол для цели не ставят; for идёт с существительным: I went out for a walk.",
         "highlights": [
           {
             "text": "«чтобы»",
             "color": "term",
+            "style": "bold_underline"
+          },
+          {
+            "text": "For + глагол",
+            "color": "bad",
             "style": "bold"
           },
           {
-            "text": "For здесь не ставят",
-            "color": "bad",
+            "text": "for идёт с существительным",
+            "color": "info",
             "style": "bold"
           }
         ]
@@ -491,7 +496,7 @@
             },
             {
               "en": "To be honest, I don't like it.",
-              "ru": "Честно говоря, мне не нравится."
+              "ru": "Честно говоря, мне не нравится: устойчивое выражение, а не цель."
             }
           ]
         },
@@ -501,7 +506,7 @@
           "callout": {
             "type": "info",
             "title": "Отрицание цели",
-            "text": "«Чтобы не опоздать» — so as not to be late или in order not to be late: I left early so as not to be late."
+            "text": "«Чтобы не опоздать» — so as not to be late или in order not to be late. Просто not to для цели звучит неестественно: I left early so as not to be late."
           }
         }
       ],
@@ -536,7 +541,7 @@
       ]
     },
     {
-      "label": "После прилагательных, too и enough",
+      "label": "Happy to, what to do",
       "intro": {
         "text": "Инфинитив ставят после прилагательных (happy to help), после too и enough и после вопросительных слов (what to do).",
         "highlights": [
@@ -570,7 +575,7 @@
             "rows": [
               {
                 "cells": [
-                  "прилагательное + to",
+                  "прил. + to",
                   "Nice to meet you.",
                   "Приятно познакомиться."
                 ]
@@ -651,7 +656,7 @@
       ]
     },
     {
-      "label": "«Хочу, чтобы ты…»: I want you to come",
+      "label": "I want you to…",
       "intro": {
         "text": "«Хочу, чтобы ты пришёл» по-английски — без «что» и «чтобы»: I want you to come. Так же после ask, tell, expect, would like: объект + to do.",
         "highlights": [
@@ -834,7 +839,7 @@
       ]
     },
     {
-      "label": "Формы инфинитива: to be doing, to have done",
+      "label": "To have done",
       "intro": {
         "text": "Кроме простого to do, у инфинитива есть формы для процесса, прошлого и пассива. Чаще всего они встречаются после seem, appear, be said и модальных глаголов.",
         "highlights": [
@@ -913,12 +918,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: want that you, must to",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с инфинитивом.",
+        "text": "Частые ошибки с инфинитивом. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -957,5 +962,79 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:infinitive.to",
+      "description": "Обычно — to + глагол",
+      "slides": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:infinitive.bare",
+      "description": "Без to: модальные, let, make, had better, would rather",
+      "slides": [
+        0,
+        2,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:infinitive.purpose",
+      "description": "Цель — to, не for; чтобы не — so as not to",
+      "slides": [
+        3,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:infinitive.adj_wh",
+      "description": "прил. + to, too / enough + to, what / how + to",
+      "slides": [
+        4,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:infinitive.object",
+      "description": "want / ask / tell + кто-то + to",
+      "slides": [
+        5,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:infinitive.forms",
+      "description": "to be doing, to have done, to be done",
+      "slides": [
+        6
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_want",
+    "word_decide",
+    "word_hope",
+    "word_let",
+    "word_make",
+    "word_enough"
+  ],
+  "prerequisites": [
+    "cards_modalverbs"
+  ],
+  "prerequisites_reviewed": false
 }

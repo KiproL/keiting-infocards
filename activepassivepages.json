@@ -3,7 +3,7 @@
   "route": "cards_activepassive",
   "slides": [
     {
-      "label": "Залог: кто делает и с кем делают",
+      "label": "Кто делает",
       "intro": {
         "text": "Залог показывает, кто в центре. В активном подлежащее само действует: The chef cooks dinner. В пассивном с подлежащим что-то делают: Dinner is cooked — ужин готовят.",
         "highlights": [
@@ -221,15 +221,15 @@
           "examples": [
             {
               "en": "The dinner is cooked by the chef.",
-              "ru": "Ужин готовится поваром."
+              "ru": "Ужин готовит повар: в центре — ужин."
             },
             {
               "en": "This cake was baked by my mother.",
-              "ru": "Этот торт испечён моей мамой."
+              "ru": "Этот торт испекла моя мама."
             },
             {
               "en": "Hamlet was written by Shakespeare.",
-              "ru": "«Гамлет» написан Шекспиром."
+              "ru": "«Гамлета» написал Шекспир."
             }
           ]
         },
@@ -254,20 +254,11 @@
               "color": "accent2"
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Активный залог — про действие. Пассивный залог — про результат.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ]
     },
     {
-      "label": "Пассив во всех временах: be + V3",
+      "label": "Be + V3 во временах",
       "intro": {
         "text": "Формула be + V3 неизменна. Меняется только форма be — она и показывает время всего предложения.",
         "highlights": [
@@ -398,7 +389,7 @@
       ]
     },
     {
-      "label": "Active → Passive за три шага",
+      "label": "Active → Passive",
       "intro": {
         "text": "Три шага: объект становится подлежащим, глагол меняется на be + V3, исполнитель уходит в конец с предлогом by.",
         "highlights": [
@@ -498,20 +489,11 @@
               "example": "English is spoken all over the world."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Пассив — это не «грамотнее». Это другой ракурс на то же самое действие.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
-          }
         }
       ]
     },
     {
-      "label": "Два дополнения: He was given a book",
+      "label": "Два дополнения",
       "intro": {
         "text": "Глаголы give, send, show, tell имеют два дополнения (кому и что), поэтому из одного активного предложения можно сделать два пассивных.",
         "highlights": [
@@ -614,11 +596,16 @@
               "ru": "Ей показали фотографии."
             }
           ]
+        },
+        {
+          "title": "Подробнее",
+          "borderColor": "info",
+          "text": "Эта тема подробно разобрана в карточке «Пассив: get и два дополнения»."
         }
       ]
     },
     {
-      "label": "С модальными: must be done",
+      "label": "Must be done",
       "intro": {
         "text": "С модальными глаголами формула не меняется: модальный + be + V3 — между модальным и V3 ставится be.",
         "highlights": [
@@ -843,11 +830,16 @@
             "title": "Смена акцента",
             "text": "Пассив убирает акцент с того, кто должен выполнить действие, и подчёркивает само задание."
           }
+        },
+        {
+          "title": "Подробнее",
+          "borderColor": "info",
+          "text": "Эта тема подробно разобрана в карточке «Пассив с модальными»."
         }
       ]
     },
     {
-      "label": "Get вместо be и have something done",
+      "label": "Get и have done",
       "intro": {
         "text": "Глагол get работает в двух ролях: как разговорная замена be в пассиве — и в каузативе have / get + V3 (have/get something done), когда действие для вас выполняет кто-то другой.",
         "highlights": [
@@ -1080,11 +1072,16 @@
               "ru": "Не пассив — она оделась."
             }
           ]
+        },
+        {
+          "title": "Подробнее",
+          "borderColor": "info",
+          "text": "Эта тема подробно разобрана в карточке «Have something done»."
         }
       ]
     },
     {
-      "label": "Безличный пассив: It is said that",
+      "label": "It is said that",
       "intro": {
         "text": "Конструкция It is said / believed / known используется, чтобы передать общее мнение или слух без указания источника.",
         "highlights": [
@@ -1289,11 +1286,16 @@
             "title": "Новости, наука, академия",
             "text": "Конструкция типична для новостей, научных и академических текстов — она позволяет говорить о фактах и мнениях, не называя конкретный источник."
           }
+        },
+        {
+          "title": "Подробнее",
+          "borderColor": "info",
+          "text": "Эта тема подробно разобрана в карточке «Reporting passive»."
         }
       ]
     },
     {
-      "label": "Когда пассив, а когда актив",
+      "label": "Пассив или актив",
       "intro": {
         "text": "Пассив — не значит «более грамотно». У него есть свои случаи — и есть случаи, где лучше звучит активный залог.",
         "highlights": [
@@ -1376,14 +1378,14 @@
             "rows": [
               {
                 "cells": [
-                  "Исполнитель неизвестен",
+                  "Кто — неизвестно",
                   "My bike was stolen.",
                   "Someone stole my bike."
                 ]
               },
               {
                 "cells": [
-                  "Исполнитель важен",
+                  "Кто — важно",
                   "The cake was baked by Mom.",
                   "My mom baked the cake."
                 ]
@@ -1406,34 +1408,19 @@
             "type": "tip",
             "title": "Не переводите всё в пассив",
             "text": "Выбирайте залог исходя из того, что в предложении главное — действие или тот, кто его совершает."
-          },
-          "quote": {
-            "text": "Пассив прячет исполнителя. Иногда это мудро, иногда — трусливо.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     },
     {
-      "label": "Частые ошибки и глаголы без пассива",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки — включая глаголы без пассива: у них его вообще не бывает. Слева как нельзя, справа как правильно.",
+        "text": "Частые ошибки с пассивом и глаголы, у которых его нет. Справа — как правильно и почему.",
         "highlights": [
           {
-            "text": "частые ошибки",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
-          },
-          {
-            "text": "без пассива",
-            "color": "term",
-            "style": "bold"
-          },
-          {
-            "text": "как правильно",
-            "color": "good",
-            "style": "bold"
           }
         ]
       },
@@ -1457,15 +1444,13 @@
           "examples": [
             {
               "en": "The accident happened yesterday.",
-              "ru": "✓ правильно",
-              "icon": "check",
-              "iconColor": "good"
-            },
+              "ru": "Авария произошла вчера."
+            }
+          ],
+          "errors": [
             {
-              "en": "The accident was happened.",
-              "ru": "✗ нельзя — happen непереходный",
-              "icon": "cross",
-              "iconColor": "bad"
+              "wrong": "The accident was happened.",
+              "right": "The accident happened. (happen — без объекта, пассива нет)"
             }
           ]
         },
@@ -1487,27 +1472,21 @@
           "examples": [
             {
               "en": "This car belongs to my uncle.",
-              "ru": "✓ правильно",
-              "icon": "check",
-              "iconColor": "good"
-            },
-            {
-              "en": "This car is belonged to my uncle.",
-              "ru": "✗ нельзя",
-              "icon": "cross",
-              "iconColor": "bad"
+              "ru": "Эта машина принадлежит моему дяде."
             },
             {
               "en": "Did this book cost a lot?",
-              "ru": "✓ правильно",
-              "icon": "check",
-              "iconColor": "good"
+              "ru": "Эта книга дорого стоила?"
+            }
+          ],
+          "errors": [
+            {
+              "wrong": "This car is belonged to my uncle.",
+              "right": "This car belongs to my uncle. (belong — без пассива)"
             },
             {
-              "en": "Was cost this book a lot?",
-              "ru": "✗ нельзя",
-              "icon": "cross",
-              "iconColor": "bad"
+              "wrong": "Was cost this book a lot?",
+              "right": "Did this book cost a lot? (cost — без пассива)"
             }
           ]
         },
@@ -1553,22 +1532,96 @@
               "right": "It is said that… (пассив — V3)"
             }
           ]
-        },
-        {
-          "title": "Интересный факт",
-          "borderColor": "info",
-          "callout": {
-            "type": "info",
-            "title": "Современные правила письма",
-            "text": "В научных статьях пассив используют так часто, что это стало предметом критики. APA-стиль сейчас советует чаще использовать актив: The researchers conducted the experiment."
-          },
-          "quote": {
-            "text": "Пассив — не признак учёности. Ясность важнее формальности.",
-            "author": "правило академического письма",
-            "accentColor": "accent2"
-          }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-05",
+  "error_patterns": [
+    {
+      "id": "error:activepassive.form",
+      "description": "Пассив — be + V3",
+      "slides": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:activepassive.tense",
+      "description": "Время показывает be: is, was, has been, will be",
+      "slides": [
+        1,
+        2,
+        8
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:activepassive.choice",
+      "description": "Пассив или актив — по тому, что важно",
+      "slides": [
+        0,
+        2,
+        7
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:activepassive.two_objects",
+      "description": "Два дополнения: I was given…",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:activepassive.modal",
+      "description": "modal + be + V3",
+      "slides": [
+        4,
+        8
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:activepassive.get_have",
+      "description": "get + V3, have something done",
+      "slides": [
+        5,
+        8
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:activepassive.impersonal",
+      "description": "It is said that / is said to",
+      "slides": [
+        6,
+        8
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:activepassive.no_passive",
+      "description": "happen, arrive, belong, cost — без пассива",
+      "slides": [
+        8
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_by",
+    "word_happen",
+    "word_a2_belong"
+  ],
+  "prerequisites": [
+    "cards_irregularverbs"
+  ],
+  "prerequisites_reviewed": false
 }

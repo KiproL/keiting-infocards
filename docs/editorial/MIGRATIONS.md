@@ -500,3 +500,17 @@ conditionals, relativeclauses: редакция 0 → 1. Индексы и те�
 - `b1_relative_core` (relativeclauses 0–4).
 
 Действий от приложения не нужно.
+
+## M-024. Партия 14 — совместимо, опубликовано
+
+gerund, infinitive, reportedspeech, activepassive: редакция 0 → 1. Индексы и темы слайдов прежние.
+
+**Перепривязка.** Задания `gerund_4_n10` … `gerund_4_n14` (boring / bored) перенесены: gerund #4 → edingadj #0.
+
+**Новые части:**
+- gerund: `a2_verb_ing_to` (2, 3, 5), `b1_gerund_noun` (0, 1), `b1_ing_to_meaning` (4);
+- infinitive: `a2_infinitive_core` (0–3), `b1_infinitive_patterns` (4, 5, 7), `b2_infinitive_forms` (6);
+- reportedspeech: `b1_reported_statements` (0–3, 6), `b1_reported_questions` (4, 5, 7);
+- activepassive: `b1_passive_core` (0, 1, 2, 4, 7, 8), `b2_passive_more` (3, 5, 6).
+
+Действий от приложения не нужно.
