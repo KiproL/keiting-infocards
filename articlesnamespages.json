@@ -3,7 +3,7 @@
   "route": "cards_articlesnames",
   "slides": [
     {
-      "label": "Страны и города: Spain, но the USA",
+      "label": "Страны и города",
       "intro": {
         "text": "Имена, города и большинство стран — без артикля: Paris, Spain. The нужен, если в названии множественное число или слова republic, kingdom, states, union.",
         "highlights": [
@@ -54,6 +54,24 @@
               "term"
             ]
           }
+        },
+        {
+          "title": "Сравни",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I went to Spain.",
+              "ru": "Я ездил в Испанию. (обычная страна — без the)"
+            },
+            {
+              "en": "I went to the UK.",
+              "ru": "Я ездил в Великобританию. (kingdom — с the)"
+            },
+            {
+              "en": "I went to the Netherlands.",
+              "ru": "Я ездил в Нидерланды. (множественное число — с the)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -87,7 +105,7 @@
       ]
     },
     {
-      "label": "Реки, моря, горы: где нужен the",
+      "label": "Реки, моря, горы",
       "intro": {
         "text": "Вода и цепочки — реки, моря, горные хребты, группы островов — с the. Одиночные объекты (гора, озеро, остров) и континенты — без артикля.",
         "highlights": [
@@ -218,7 +236,7 @@
       ]
     },
     {
-      "label": "В городе: Red Square, но the Hilton",
+      "label": "Названия в городе",
       "intro": {
         "text": "Улицы, площади, парки, вокзалы и аэропорты — без артикля: Oxford Street, Red Square. Отели, театры, музеи и названия с of — с the: the Hilton, the Louvre, the Tower of London.",
         "highlights": [
@@ -320,12 +338,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: the Moscow, in USA",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с артиклями в названиях.",
+        "text": "Частые ошибки с артиклями в названиях.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -364,5 +382,60 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:articlesnames.country",
+      "description": "Страны и города: без the, кроме USA, UK, Netherlands…",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:articlesnames.water",
+      "description": "Реки, моря, океаны, горные хребты, группы островов — с the",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:articlesnames.single",
+      "description": "Отдельная гора, озеро, остров, континент — без the",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:articlesnames.city",
+      "description": "Улицы, площади, парки — без the; отели, музеи, театры, названия с of — с the",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_country",
+    "word_river",
+    "word_sea",
+    "word_mountain",
+    "word_a2_lake",
+    "word_island",
+    "word_street",
+    "word_city"
+  ],
+  "prerequisites": [
+    "cards_articles"
+  ],
+  "prerequisites_reviewed": false
 }

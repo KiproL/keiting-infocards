@@ -3,7 +3,7 @@
   "route": "cards_presentperf",
   "slides": [
     {
-      "label": "Present Perfect: результат к сейчас",
+      "label": "Результат к сейчас",
       "intro": {
         "text": "Present Perfect — действие было в прошлом, но важно сейчас: I've lost my keys — и сейчас их нет. Важен результат или опыт, а не когда именно.",
         "highlights": [
@@ -209,15 +209,6 @@
               "ru": "Они только что приехали."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Present Perfect — мост между прошлым и настоящим.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -264,12 +255,13 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         }
       ]
     },
     {
-      "label": "Утверждение, отрицание, вопрос",
+      "label": "Отрицание и вопрос",
       "intro": {
         "text": "Have или has + третья форма глагола (V3). С he, she, it — has, с остальными — have.",
         "highlights": [
@@ -321,12 +313,12 @@
           },
           "examples": [
             {
-              "en": "I have finished my homework.",
-              "ru": "Я уже закончил домашнее задание."
+              "en": "We've painted the kitchen.",
+              "ru": "Мы покрасили кухню. (результат — она новая)"
             },
             {
-              "en": "She has cooked dinner.",
-              "ru": "Она приготовила ужин."
+              "en": "He's lost his phone.",
+              "ru": "Он потерял телефон. (и сейчас его нет)"
             }
           ]
         },
@@ -614,7 +606,7 @@
       ]
     },
     {
-      "label": "Подсказки: just, already, ever, since",
+      "label": "Подсказки",
       "intro": {
         "text": "Слова-маркеры подсказывают, что действие связано с настоящим моментом или ещё не завершено.",
         "highlights": [
@@ -754,7 +746,7 @@
       ]
     },
     {
-      "label": "Третья форма: worked, gone, written",
+      "label": "Третья форма (V3)",
       "intro": {
         "text": "Третья форма — V3 (Past Participle) — образуется по-разному: у правильных глаголов через -ed, у неправильных её нужно запоминать.",
         "highlights": [
@@ -907,7 +899,7 @@
       ]
     },
     {
-      "label": "Present Perfect или Past Simple",
+      "label": "Perfect или Past Simple",
       "intro": {
         "text": "Оба времени говорят о прошлом, но фокус разный: Present Perfect — результат сейчас, Past Simple — конкретный момент в прошлом.",
         "highlights": [
@@ -995,7 +987,7 @@
           "callout": {
             "type": "tip",
             "title": "Если время указано",
-            "text": "Если в предложении есть yesterday, last week, in 2010, ago — это Past Simple. Если just, already, yet, ever, never — Present Perfect."
+            "text": "Если в предложении есть yesterday, last week, in 2010, ago — это Past Simple. Если just, already, yet, ever, never — обычно Present Perfect. В американском разговорном с just, already, yet часто говорят и Past Simple: I just ate. Did you eat yet?"
           }
         },
         {
@@ -1003,24 +995,19 @@
           "borderColor": "good",
           "callout": {
             "type": "success",
-            "title": "Правило большого пальца",
+            "title": "Как запомнить",
             "text": "Результат сейчас важен — Present Perfect. Точный момент в прошлом — Past Simple."
-          },
-          "quote": {
-            "text": "Present Perfect — про сейчас. Past Simple — про тогда.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     },
     {
-      "label": "Частые ошибки: have went, have seen yesterday",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Семь самых частых ошибок в Present Perfect.",
+        "text": "Частые ошибки в Present Perfect.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -1066,16 +1053,77 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
+            "title": "Как не ошибиться",
             "text": "После have / has — всегда V3. И никаких yesterday, last week — с Present Perfect они несовместимы."
-          },
-          "quote": {
-            "text": "Have и V3 — неразлучны. Yesterday — их враг.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:presentperf.have_has",
+      "description": "Have — I / you / we / they, has — he / she / it",
+      "slides": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperf.v3",
+      "description": "После have / has — третья форма (V3)",
+      "slides": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperf.markers",
+      "description": "Just, already, yet, ever, never — место и смысл",
+      "slides": [
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperf.since_for",
+      "description": "Since — с какого момента, for — сколько времени",
+      "slides": [
+        2,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:presentperf.vs_past",
+      "description": "Указано время в прошлом — Past Simple; результат сейчас — Present Perfect",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_just",
+    "word_a2_already",
+    "word_a2_yet",
+    "word_ever",
+    "word_never",
+    "word_a2_since"
+  ],
+  "prerequisites": [
+    "cards_pastsimp"
+  ],
+  "prerequisites_reviewed": false
 }

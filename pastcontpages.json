@@ -3,7 +3,7 @@
   "route": "cards_pastcont",
   "slides": [
     {
-      "label": "Past Continuous: делал в тот момент",
+      "label": "Делал в тот момент",
       "intro": {
         "text": "Past Continuous — действие, которое шло в какой-то момент прошлого: «в 8 вечера я читал». Не «сделал», а «делал в тот момент». Строится из was / were и глагола с -ing.",
         "highlights": [
@@ -139,6 +139,28 @@
           }
         },
         {
+          "title": "Сравни: сделал и делал",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I read a book yesterday.",
+              "ru": "Вчера я прочитал книгу. (действие целиком — Past Simple)"
+            },
+            {
+              "en": "I was reading a book at 8 pm.",
+              "ru": "В 8 вечера я читал книгу. (шло в тот момент — Past Continuous)"
+            },
+            {
+              "en": "It rained yesterday.",
+              "ru": "Вчера был дождь."
+            },
+            {
+              "en": "It was raining when I left.",
+              "ru": "Когда я выходил, шёл дождь."
+            }
+          ]
+        },
+        {
           "title": "Was или Were",
           "borderColor": "info",
           "table": {
@@ -207,20 +229,11 @@
               "ru": "Весь день шёл дождь."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Past Continuous — это видео в прошлом, а Past Simple — фотография.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ]
     },
     {
-      "label": "Утверждение, отрицание, вопрос",
+      "label": "Отрицание и вопрос",
       "intro": {
         "text": "Was или were зависит только от того, кто действует: I was, they were. После них — всегда глагол с -ing.",
         "highlights": [
@@ -260,12 +273,12 @@
           },
           "examples": [
             {
-              "en": "I was reading a book at 8 pm.",
-              "ru": "Я читал книгу в 8 вечера."
+              "en": "She was singing in the shower.",
+              "ru": "Она пела в душе."
             },
             {
-              "en": "He was working all day.",
-              "ru": "Он работал весь день."
+              "en": "We were waiting outside.",
+              "ru": "Мы ждали на улице."
             }
           ]
         },
@@ -537,7 +550,7 @@
       ]
     },
     {
-      "label": "Подсказки: while, when, at that moment",
+      "label": "Подсказки",
       "intro": {
         "text": "Слова-маркеры показывают, что действие было в процессе в конкретный момент или период прошлого.",
         "highlights": [
@@ -621,35 +634,32 @@
           "rules": [
             {
               "name": "while",
-              "suffix": "с Past Continuous",
+              "suffix": "обычно с длинным действием",
               "example": "While I was cooking, she was reading."
             },
             {
               "name": "when",
-              "suffix": "с Past Simple",
+              "suffix": "часто с коротким",
               "example": "I was cooking when she called."
             }
-          ]
+          ],
+          "text": "While обычно вводит длинное действие в Past Continuous, when — короткое в Past Simple. Но и When I was cooking, she called — тоже правильно."
         },
         {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
             {
-              "en": "While I was cooking, she was cleaning.",
-              "ru": "Пока я готовил, она убиралась."
+              "en": "When you called, I was having a bath.",
+              "ru": "Когда ты позвонил, я принимал ванну."
             },
             {
-              "en": "I was sleeping when you called.",
-              "ru": "Я спал, когда ты позвонил."
+              "en": "What were you doing while I was out?",
+              "ru": "Что ты делал, пока меня не было?"
             },
             {
-              "en": "At that moment, we were having dinner.",
-              "ru": "В тот момент мы ужинали."
-            },
-            {
-              "en": "It was raining all day.",
-              "ru": "Весь день шёл дождь."
+              "en": "This time yesterday we were flying to Rome.",
+              "ru": "Вчера в это время мы летели в Рим."
             }
           ]
         }
@@ -666,7 +676,7 @@
             "style": "bold_underline"
           },
           {
-            "text": "написание",
+            "text": "Написание",
             "color": "info",
             "style": "bold"
           }
@@ -758,7 +768,7 @@
       ]
     },
     {
-      "label": "Делал, когда случилось: Continuous и Simple",
+      "label": "Когда что-то случилось",
       "intro": {
         "text": "Часто оба времени идут вместе: длинное действие шло (Past Continuous), и его прервало короткое (Past Simple): I was cooking when the phone rang.",
         "highlights": [
@@ -853,12 +863,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: was read, they was",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Семь самых частых ошибок в Past Continuous.",
+        "text": "Частые ошибки в Past Continuous.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -886,8 +896,8 @@
               "right": "I was working yesterday. (нужен -ing)"
             },
             {
-              "wrong": "While I cooked, she read.",
-              "right": "While I was cooking, she was reading. (два процесса — Continuous)"
+              "wrong": "Was you sleeping?",
+              "right": "Were you sleeping? (you → were)"
             },
             {
               "wrong": "I was sleeping when he was calling.",
@@ -904,16 +914,72 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
+            "title": "Как не ошибиться",
             "text": "Was — для I / he / she / it. Were — для you / we / they. После was / were — всегда глагол с -ing."
-          },
-          "quote": {
-            "text": "Was и were — основа Past Continuous. Перепутаешь — сломаешь всё предложение.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:pastcont.be",
+      "description": "Was — I / he / she / it, were — you / we / they",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastcont.ing",
+      "description": "После was / were — глагол с -ing",
+      "slides": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastcont.while_when",
+      "description": "While — длинное действие, when — короткое",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastcont.interrupt",
+      "description": "Шло действие (Continuous) — его прервало короткое (Simple)",
+      "slides": [
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:pastcont.state",
+      "description": "Глаголы состояния (know, want) — в Past Simple",
+      "slides": [
+        5
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_while",
+    "word_when",
+    "word_moment"
+  ],
+  "prerequisites": [
+    "cards_pastsimp",
+    "cards_presentcont"
+  ],
+  "prerequisites_reviewed": false
 }

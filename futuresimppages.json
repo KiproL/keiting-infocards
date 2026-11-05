@@ -3,7 +3,7 @@
   "route": "cards_futuresimp",
   "slides": [
     {
-      "label": "Future Simple: решения, обещания, прогнозы",
+      "label": "Решения и прогнозы",
       "intro": {
         "text": "Future Simple — будущее через will: I will call = я позвоню. Так говорят о решении, принятом прямо сейчас, об обещании, о предложении помочь и о прогнозе «по ощущениям».",
         "highlights": [
@@ -223,20 +223,11 @@
               "ru": "Думаю, завтра будет дождь."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Will — это про решение в моменте, а не про план заранее.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ]
     },
     {
-      "label": "Утверждение, отрицание, вопрос",
+      "label": "Отрицание и вопрос",
       "intro": {
         "text": "Will не меняется по лицам: одна форма для всех — I, you, he, she, it, we, they. Глагол после will — в начальной форме, без to и без -s.",
         "highlights": [
@@ -280,16 +271,12 @@
           },
           "examples": [
             {
-              "en": "I will call you tomorrow.",
-              "ru": "Я позвоню тебе завтра."
+              "en": "He will be thirty next year.",
+              "ru": "В следующем году ему будет тридцать."
             },
             {
-              "en": "She will help us.",
-              "ru": "Она поможет нам."
-            },
-            {
-              "en": "They will arrive soon.",
-              "ru": "Они скоро приедут."
+              "en": "We'll see.",
+              "ru": "Посмотрим."
             }
           ]
         },
@@ -585,7 +572,7 @@
       ]
     },
     {
-      "label": "Сокращения: I'll, won't",
+      "label": "I'll, won't",
       "intro": {
         "text": "В речи will почти всегда сокращают: I'll, she'll, won't. Это норма, а не небрежность — так говорят и в новостях.",
         "highlights": [
@@ -716,7 +703,7 @@
       ]
     },
     {
-      "label": "Подсказки: tomorrow, I think, probably",
+      "label": "Подсказки",
       "intro": {
         "text": "Слова-подсказки: время в будущем (tomorrow, next week) и слова мнения (I think, I'm sure, probably). С мнением почти всегда — will.",
         "highlights": [
@@ -825,6 +812,24 @@
             {
               "en": "He'll probably agree.",
               "ru": "Наверное, он согласится. (probably — после will)"
+            }
+          ]
+        },
+        {
+          "title": "После when и if — настоящее",
+          "borderColor": "bad",
+          "examples": [
+            {
+              "en": "I'll call you when I get home.",
+              "ru": "Я позвоню, когда приду домой. (when + настоящее)"
+            },
+            {
+              "en": "If it rains, we'll stay at home.",
+              "ru": "Если пойдёт дождь, мы останемся дома. (if + настоящее)"
+            },
+            {
+              "en": "✗ when I will get home",
+              "ru": "так нельзя: после when и if will не ставят"
             }
           ]
         },
@@ -981,30 +986,21 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
+            "title": "Как запомнить",
             "text": "Если решение пришло в голову только что — will. Если было решено раньше — going to. Если есть видимые признаки — going to. Если просто мнение — will."
-          }
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Will — это реакция. Going to — это намерение.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
     },
     {
-      "label": "Частые ошибки: will to, wills, do you will",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Семь самых частых ошибок с will — слева как нельзя, справа как правильно.",
+        "text": "Частые ошибки с will.",
         "highlights": [
           {
-            "text": "Семь самых частых",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           }
         ]
       },
@@ -1048,16 +1044,78 @@
           "borderColor": "good",
           "callout": {
             "type": "tip",
-            "title": "Правило большого пальца",
-            "text": "Will — модальный глагол. После него чистый инфинитив без to. И не будет, и won't не сочетаются с другими модальными (can, must). Вместо них — be able to, have to."
-          },
-          "quote": {
-            "text": "Will — простой, но ошибки с ним самые частые.",
-            "author": "заметка на полях",
-            "accentColor": "accent2"
+            "title": "Как не ошибиться",
+            "text": "После will — начальная форма без to: will go. Will не ставят рядом с другими модальными (will can — нельзя): вместо них — will be able to, will have to."
           }
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:futuresimp.form",
+      "description": "Will + начальная форма: без to и без -s",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:futuresimp.negq",
+      "description": "Won't; вопрос — Will you…? без do",
+      "slides": [
+        0,
+        1,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:futuresimp.contraction",
+      "description": "Сокращения: I'll, won't",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:futuresimp.markers",
+      "description": "Слова-подсказки: tomorrow, in a week, I think",
+      "slides": [
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:futuresimp.will_goingto",
+      "description": "Will — решение сейчас, going to — план или примета",
+      "slides": [
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:futuresimp.modals",
+      "description": "Will be able to, will have to",
+      "slides": [
+        5
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_will",
+    "word_tomorrow",
+    "word_b1_probably",
+    "word_soon"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

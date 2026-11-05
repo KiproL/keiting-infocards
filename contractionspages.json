@@ -3,7 +3,7 @@
   "route": "cards_contractions",
   "slides": [
     {
-      "label": "Главные сокращения: I'm, don't, won't",
+      "label": "I'm, don't, won't",
       "intro": {
         "text": "В речи и переписке вспомогательные глаголы и not почти всегда сокращают: I'm, don't, won't. Апостроф (') стоит на месте выпавших букв: I am → I'm.",
         "highlights": [
@@ -159,7 +159,8 @@
               "text": "Оба правильные. Второй (He's not) звучит чуть твёрже — с ударением на not."
             },
             "title": ""
-          }
+          },
+          "presentation": "inline"
         },
         {
           "label": "Ещё примеры",
@@ -261,6 +262,24 @@
               "muted"
             ]
           }
+        },
+        {
+          "title": "Сравни: 's",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "She's working.",
+              "ru": "Она работает. ('s = is: дальше -ing)"
+            },
+            {
+              "en": "She's worked here for years.",
+              "ru": "Она работает здесь много лет. ('s = has: дальше V3)"
+            },
+            {
+              "en": "Anna's car",
+              "ru": "машина Анны ('s — чей)"
+            }
+          ]
         }
       ],
       "expandables": [
@@ -368,18 +387,23 @@
       ]
     },
     {
-      "label": "Частые ошибки: it's, won't, Yes, I am",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки: сокращение в коротком ответе, it's без апострофа и «самодельные» формы.",
+        "text": "Частые ошибки: сокращение в коротком ответе, it's без апострофа и «самодельные» формы.",
         "highlights": [
           {
-            "text": "в коротком ответе",
+            "text": "Частые ошибки",
             "color": "bad",
+            "style": "bold_underline"
+          },
+          {
+            "text": "коротком ответе",
+            "color": "term",
             "style": "bold"
           },
           {
-            "text": "«самодельные» формы",
-            "color": "bad",
+            "text": "it's без апострофа",
+            "color": "term",
             "style": "bold"
           }
         ]
@@ -417,5 +441,52 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:contractions.form",
+      "description": "Апостроф на месте выпавших букв: I'm, doesn't, won't",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:contractions.s_d",
+      "description": "'s = is / has / чей, 'd = would / had",
+      "slides": [
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:contractions.full",
+      "description": "Полностью: короткий ответ Yes, I am; официальный текст",
+      "slides": [
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:contractions.homophones",
+      "description": "Не путать: it's / its, you're / your, they're / their, who's / whose",
+      "slides": [
+        0,
+        3
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_not"
+  ],
+  "prerequisites": [
+    "cards_presentsimp"
+  ],
+  "prerequisites_reviewed": false
 }

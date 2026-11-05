@@ -3,7 +3,7 @@
   "route": "cards_alreadyyet",
   "slides": [
     {
-      "label": "Already, yet, still, just: что значат",
+      "label": "Already, yet, still, just",
       "intro": {
         "text": "Четыре коротких слова показывают, случилось ли действие: already — уже, yet — уже? / ещё не, still — всё ещё, just — только что.",
         "highlights": [
@@ -109,9 +109,9 @@
       ]
     },
     {
-      "label": "Где ставить: в середине или в конце",
+      "label": "Где ставить",
       "intro": {
-        "text": "Already, still и just стоят перед смысловым глаголом, а yet — в конце предложения.",
+        "text": "Already, still и just обычно стоят перед смысловым глаголом, а yet — в конце предложения.",
         "highlights": [
           {
             "text": "перед смысловым глаголом",
@@ -155,7 +155,8 @@
               "suffix": "перед haven't, don't",
               "example": "I still haven't found it."
             }
-          ]
+          ],
+          "text": "Already в разговоре бывает и в конце, с удивлением или нажимом: I've done it already!"
         },
         {
           "title": "Время",
@@ -198,7 +199,7 @@
       ]
     },
     {
-      "label": "Оттенки: спокойно, с досадой, с удивлением",
+      "label": "Оттенки смысла",
       "intro": {
         "text": "Yet и still not оба значат «ещё не», но still звучит с досадой: всё никак. А already в вопросе — удивление: уже? так быстро?",
         "highlights": [
@@ -269,12 +270,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: yet в утверждении, just в конце",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с already, yet, still, just.",
+        "text": "Частые ошибки с already, yet, still, just.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -309,5 +310,47 @@
         }
       ]
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:alreadyyet.meaning",
+      "description": "Already — уже, yet — уже? / ещё не, still — всё ещё, just — только что",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:alreadyyet.position",
+      "description": "Yet — в конце, already и just — между have и V3, still — перед глаголом и после be",
+      "slides": [
+        1,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:alreadyyet.nuance",
+      "description": "Still not — с досадой, already в вопросе — с удивлением",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_a2_already",
+    "word_a2_yet",
+    "word_still",
+    "word_just"
+  ],
+  "prerequisites": [
+    "cards_presentperf"
+  ],
+  "prerequisites_reviewed": false
 }

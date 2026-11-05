@@ -3,12 +3,12 @@
   "route": "cards_usedto",
   "slides": [
     {
-      "label": "Used to: раньше было, теперь нет",
+      "label": "Раньше было, теперь нет",
       "intro": {
         "text": "Used to используется только для прошедших привычек и фактов. Значит: раньше было так, а сейчас уже нет.",
         "highlights": [
           {
-            "text": "used to",
+            "text": "Used to",
             "color": "term",
             "style": "bold_underline"
           },
@@ -170,6 +170,24 @@
           }
         },
         {
+          "title": "Сравни: used to и Past Simple",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I used to smoke.",
+              "ru": "Раньше я курил. (было долго и прошло)"
+            },
+            {
+              "en": "I smoked a cigarette yesterday.",
+              "ru": "Вчера я выкурил сигарету. (один раз — Past Simple)"
+            },
+            {
+              "en": "I used to live in Omsk.",
+              "ru": "Раньше я жил в Омске. (теперь нет)"
+            }
+          ]
+        },
+        {
           "title": "Живые примеры",
           "borderColor": "good",
           "examples": [
@@ -236,17 +254,18 @@
               ]
             },
             "title": ""
-          }
+          },
+          "presentation": "optional"
         }
       ]
     },
     {
-      "label": "Частые ошибки: use to, used to living",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Три самые частые ошибки в used to.",
+        "text": "Частые ошибки в used to.",
         "highlights": [
           {
-            "text": "самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -267,7 +286,7 @@
             },
             {
               "wrong": "I didn't used to like coffee.",
-              "right": "I didn't use to like coffee. (после did — use)"
+              "right": "I didn't use to like coffee. (после did — use; didn't used to часто пишут, но норма — use)"
             }
           ]
         },
@@ -278,14 +297,138 @@
             "type": "tip",
             "title": "Как различить",
             "text": "Used to — было раньше и прошло. Be used to — уже привык сейчас. I used to wake up early (раньше) / I am used to waking up early (сейчас привык)."
-          },
-          "quote": {
-            "text": "Used to смотрит назад — на то, чего больше нет.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
+    },
+    {
+      "label": "Used to или be used to",
+      "intro": {
+        "text": "Похоже, но смысл разный. Used to + глагол — «раньше делал, теперь нет». Be used to + -ing — «привык», и be здесь меняется: I am used to, she was used to.",
+        "highlights": [
+          {
+            "text": "Used to + глагол",
+            "color": "term",
+            "style": "bold"
+          },
+          {
+            "text": "Be used to + -ing",
+            "color": "info",
+            "style": "bold"
+          },
+          {
+            "text": "привык",
+            "color": "term",
+            "style": "bold"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Три конструкции",
+          "borderColor": "term",
+          "table": {
+            "headers": [
+              "Форма",
+              "Смысл",
+              "Пример"
+            ],
+            "headerColors": [
+              "term",
+              "info",
+              "example"
+            ],
+            "borderColor": "term",
+            "rows": [
+              {
+                "cells": [
+                  "used to + глагол",
+                  "раньше делал",
+                  "I used to get up early."
+                ]
+              },
+              {
+                "cells": [
+                  "be used to + -ing",
+                  "привык (состояние)",
+                  "I'm used to getting up early."
+                ]
+              },
+              {
+                "cells": [
+                  "get used to + -ing",
+                  "привыкаю (процесс)",
+                  "I'm getting used to getting up early."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title": "Сравни",
+          "borderColor": "info",
+          "examples": [
+            {
+              "en": "I used to work at night.",
+              "ru": "Раньше я работал по ночам. (теперь нет)"
+            },
+            {
+              "en": "I'm used to working at night.",
+              "ru": "Я привык работать по ночам. (и это нормально)"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "borderColor": "info",
+          "callout": {
+            "type": "tip",
+            "title": "Подробнее",
+            "text": "Be used to и get used to подробно разобраны в отдельных карточках «Be used to» и «Get used to»."
+          }
+        }
+      ],
+      "expandables": []
     }
-  ]
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:usedto.form",
+      "description": "Used to + начальная форма: used to live",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:usedto.did",
+      "description": "После did — use: didn't use to, Did you use to…?",
+      "slides": [
+        0,
+        1
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:usedto.be_used",
+      "description": "Used to (раньше) или be used to + -ing (привык)",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    }
+  ],
+  "related_words": [
+    "word_use",
+    "word_b1_used"
+  ],
+  "prerequisites": [
+    "cards_pastsimp"
+  ],
+  "prerequisites_reviewed": false
 }

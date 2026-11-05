@@ -30,7 +30,7 @@
 
 ## Статус карточек
 
-**Полностью переработано: 46 из 231.** Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 185.
+**Полностью переработано: 55 из 231.** Перенесённых из APK и не вычитанных карточек больше нет. Не тронуто: 176.
 
 | Карточка | Ред. | Проверено | Исправлено | Части | Задания | Связи | Нужна поддержка приложения |
 |---|---|---|---|---|---|---|---|
@@ -80,7 +80,16 @@
 | cards_therewaswere | 2 | да | да | 3 | 51 | да | нет (M-012, M-016) |
 | cards_wouldlike | 2 | да | да | 3 | 51 | да | нет (M-012, M-016) |
 | cards_fewlittle | 2 | да | да | 3 | 51 | да | нет (M-012, M-016) |
-| остальные 185 | 0 | нет | нет | нет | нет | нет | — |
+| cards_genericarticles | 1 | да | да | 4 | 31 | да | нет (M-017) |
+| cards_articlesnames | 1 | да | да | 4 | 83 | да | нет (M-017) |
+| cards_usedto | 1 | да | да | 3 | 38 | да | нет (M-017) |
+| cards_therewillbe | 1 | да | да | 2 | 30 | да | нет (M-017) |
+| cards_pastcont | 1 | да | да | 6 | 102 | да | нет (M-017) |
+| cards_futuresimp | 1 | да | да | 6 | 108 | да | нет (M-017) |
+| cards_presentperf | 1 | да | да | 6 | 106 | да | нет (M-017) |
+| cards_alreadyyet | 1 | да | да | 4 | 71 | да | нет (M-017) |
+| cards_contractions | 1 | да | да | 4 | 77 | да | нет (M-017) |
+| остальные 176 | 0 | нет | нет | нет | нет | нет | — |
 
 «Связи» означает: проверены error_patterns и теги, привязка заданий к слайдам, `related_words`, предпосылки карточки. У лексических карточек — ещё `target_words`. У alphabet и readingrules связей со словарём нет: они о буквах и чтении, а не о словах. Поэтому там «частично».
 
@@ -750,6 +759,74 @@
 - [Cambridge Dictionary: chips](https://dictionary.cambridge.org/dictionary/english/chip) и [pants](https://dictionary.cambridge.org/dictionary/english/pants);
 - [Cambridge Dictionary: quite](https://dictionary.cambridge.org/dictionary/english/quite) — quite + сильное прилагательное значит «совсем»;
 - [Cambridge Dictionary: decision](https://dictionary.cambridge.org/dictionary/english/decision) — make / take a decision.
+
+## Партия 9: девять карточек, полный цикл
+
+Проверка шла по всем пунктам задания: содержание, части, совместимость, связи, задания, проверки.
+
+- **cards_genericarticles** (обобщение).
+  - Добавлены пары Dogs are loyal (вообще) / The dogs are hungry (эти) / A dog needs… (любая) — граница трёх способов.
+  - Play the piano уточнено: в американском часто без the; из неверных вариантов это убрано.
+  - Неверные варианты The dogs, The computers и The teacher были правильными в другом смысле — заменены. A history of Russia (книга) тоже убрано.
+  - Написано 10 новых заданий (было 21). Дубль Life is beautiful и пересечение с articles заменены.
+- **cards_articlesnames** (названия).
+  - Добавлены пары Spain / the UK / the Netherlands.
+  - 4 дубля внутри карточки заменены.
+  - В задании `articlesnames_1_5` было два пропуска, оставлен один: предупреждений аудита стало 79.
+- **cards_usedto.**
+  - Слайд 0 смешивал used to (A2) с be used to + -ing (B1). Сравнение вынесено на новый слайд 2 в конце карточки: таблица used to / be used to / get used to и пары. 4 задания перепривязаны, написано 2 новых.
+  - Добавлены пары used to / Past Simple (I used to smoke / I smoked yesterday).
+  - Таблица used to / would — подробность уровня B1, отмечена необязательной.
+  - Didn't used to описано как частое написание, но не норма.
+- **cards_therewillbe.**
+  - Добавлены пары there is / was / will be.
+  - «Частица be» исправлено на «глагол be», капслок BE убран.
+  - Yes, there will be и There is a storm tonight — правильные фразы, убраны из неверных.
+- **cards_pastcont.**
+  - Добавлены пары I read / I was reading, It rained / It was raining.
+  - «While — с Continuous, when — с Simple» смягчено: это частая схема, а не закон.
+  - «While I cooked, she read — ошибка» убрано: так говорить можно.
+  - Неверные варианты, которые на деле правильны: When I was cooking…, While I waited…, She lived in Paris when… — заменены в 12 заданиях.
+  - Повторы примеров между слайдами заменены новыми примерами, 3 дубля заменены.
+- **cards_futuresimp.**
+  - Добавлен блок «после when и if — настоящее» (I'll call you when I get home) — граница, на которой часто ошибаются.
+  - Невнятный совет «И не будет, и won't не сочетаются…» переписан.
+  - Неверные варианты, которые правильны: I'm going to answer it, I think I'm going to go to bed, people are going to live on Mars, Where do we stay? и другие.
+  - Повторы примеров убраны, 2 дубля заменены.
+- **cards_presentperf.**
+  - «С just, already, yet — Present Perfect» дополнено американским I just ate, Did you eat yet?.
+  - Таблица трёх случаев выведена из свёрнутого блока.
+  - Неверные варианты, которые правильны (I lost my keys, We just bought a car, Did you ever meet…?, It stopped raining и другие), заменены в 10 заданиях; 2 дубля заменены.
+- **cards_alreadyyet.**
+  - Already в конце (I've done it already!) описано как разговорный вариант.
+  - Have you finished already? (удивление) и Did you eat already? — правильные фразы, убраны из неверных в 7 заданиях; 3 дубля заменены.
+- **cards_contractions.**
+  - Таблица «два способа сказать «не»» выведена в текст, добавлены пары 's = is / has / чей.
+  - У заданий об официальном стиле в пояснении сказано, что We're и I don't agree — не ошибка, а менее официальный вариант.
+  - 5 межкарточных дублей заменены.
+
+Во всех карточках названия слайдов короткие, убраны цитаты и «самые частые». Вёрстка проверена замером.
+
+**Смешанные слайды, предложено разделение (не выполнено):** contractions, слайд 1 — I'd left (had, B1) рядом с I'm, he's (A1).
+
+**Связи:**
+- `related_words` и предпосылки — у всех девяти карточек;
+- `target_words` нет: все девять грамматические, проверяется форма, а не слово.
+
+Добавлено 39 учебных частей, всего 258; цели — в [UNITS.md](UNITS.md). cards_articlesadv не трогали: по M-004 нужно решение.
+
+**Источники:**
+- [Cambridge Dictionary: used to](https://dictionary.cambridge.org/dictionary/english/used-to);
+- [already](https://dictionary.cambridge.org/dictionary/english/already) и [yet](https://dictionary.cambridge.org/dictionary/english/yet) — американский Past Simple с ними;
+- [while](https://dictionary.cambridge.org/dictionary/english/while);
+- [Oxford Learner's: the](https://www.oxfordlearnersdictionaries.com/definition/english/the) — the с названиями рек, морей, стран во множественном числе.
+
+## Выполненные проверки (партия 9)
+
+- `audit-content.mjs`: 0 ошибок, 79 предупреждений — на одно меньше. Заданий 13 864.
+- `audit-curriculum.mjs`: 0 ошибок; 258 черновых частей, `reviewed=true` — 0.
+- Node-тесты: 15 из 15. Замер вёрстки и названий замечаний не дал.
+- Kotlin-генератор не запускался.
 
 ## Выполненные проверки (партия 1)
 

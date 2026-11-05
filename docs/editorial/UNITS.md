@@ -223,3 +223,42 @@
 | a2_fewlittle_core | A2 | fewlittle 0 | Выбрать few или little по исчисляемости и a few / a little по смыслу «немного, но хватает» | a2_det_many_much |
 | a2_fewlittle_talk | A2 | fewlittle 1 | В разговоре говорить not many / not much; quite a few — «довольно много» | a2_fewlittle_core |
 | a2_fewlittle_review | A2 | fewlittle 2 | Исправлять ошибки: a little friends, few water, only few | a2_fewlittle_talk |
+| b1_generic_kinds | B1 | genericarticles 0 | Говорить обо всём виде тремя способами: dogs, a dog, the dog — и выбирать обычный (множественное без артикля) | a1_article_zero |
+| b1_generic_groups | B1 | genericarticles 1 | Называть группу людей the + прилагательное с глаголом во множественном числе | a1_article_reference |
+| b1_generic_abstract | B1 | genericarticles 2 | Употреблять абстрактные слова без артикля в общем смысле и с the, когда смысл уточнён | a1_article_zero |
+| b1_generic_review | B1 | genericarticles 3 | Исправлять ошибки: The life is beautiful, the poors, the rich is | b1_generic_kinds, b1_generic_groups, b1_generic_abstract |
+| a2_names_countries | A2 | articlesnames 0 | Не ставить the с городами и большинством стран; ставить с the USA, the UK, the Netherlands | a1_article_zero |
+| a2_names_geography | A2 | articlesnames 1 | Ставить the с реками, морями, хребтами, группами островов; без the — отдельная гора, озеро, континент | a2_names_countries |
+| b1_names_city | B1 | articlesnames 2 | Не ставить the с улицами, площадями, парками; ставить с отелями, музеями, театрами и названиями с of | a2_names_countries |
+| b1_names_review | B1 | articlesnames 3 | Исправлять ошибки: the Moscow, in USA, the Lake Baikal | a2_names_geography, b1_names_city |
+| a2_usedto_core | A2 | usedto 0 | Сказать о прошлой привычке или факте с used to; отрицание и вопрос с use | a1_past_forms |
+| a2_usedto_review | A2 | usedto 1 | Исправлять ошибки: I use to, used to living, didn't used to | a2_usedto_core |
+| b1_usedto_vs_beused | B1 | usedto 2 | Различать used to + глагол (раньше) и be used to + -ing (привык) | a2_usedto_core |
+| a2_therewillbe_core | A2 | therewillbe 0 | Сказать, что что-то будет: there will be, there won't be, Will there be…? | a1_there_questions |
+| a2_therewillbe_review | A2 | therewillbe 1 | Не пропускать be: There will a party ✗ | a2_therewillbe_core |
+| a2_pastcont_core | A2 | pastcont 0 | Сказать, что действие шло в момент прошлого: was / were + -ing; отличать от Past Simple | a1_past_meaning, a1_cont_core |
+| a2_pastcont_negq | A2 | pastcont 1 | Строить wasn't / weren't + -ing и вопрос Was / Were…? | a2_pastcont_core |
+| a2_pastcont_markers | A2 | pastcont 2 | Узнавать подсказки while, when, at that moment, this time yesterday | a2_pastcont_core |
+| a2_pastcont_ing | A2 | pastcont 3 | Правильно писать -ing в Past Continuous | a1_cont_spelling |
+| b1_pastcont_interrupt | B1 | pastcont 4 | Сочетать длинное действие (Past Continuous) и прервавшее его короткое (Past Simple) | a2_pastcont_markers, a1_past_irregular |
+| a2_pastcont_review | A2 | pastcont 5 | Исправлять ошибки: was read, they was, was knowing | a2_pastcont_negq, a2_pastcont_ing |
+| a1_future_will | A1 | futuresimp 0 | Сказать о решении сейчас, обещании, предложении помощи и прогнозе: will + начальная форма | a1_simple_routines |
+| a1_future_negq | A1 | futuresimp 1 | Строить won't и вопрос Will you…? без do; краткие ответы | a1_future_will |
+| a1_future_contractions | A1 | futuresimp 2 | Употреблять и понимать сокращения I'll, she'll, won't | a1_future_will |
+| a2_future_markers | A2 | futuresimp 3 | Узнавать подсказки будущего и мнения; после when и if — настоящее | a1_future_will |
+| a2_future_will_goingto | A2 | futuresimp 4 | Выбирать will (решение сейчас, мнение) или going to (план, признаки) | a2_future_markers, a2_goingto_will |
+| a2_future_review | A2 | futuresimp 5 | Исправлять ошибки: will to, wills, do you will, will can | a1_future_negq |
+| a2_perfect_meaning | A2 | presentperf 0 | Понимать, когда нужен Present Perfect: результат сейчас, опыт, длится до сих пор | a1_past_meaning |
+| a2_perfect_negq | A2 | presentperf 1 | Строить haven't / hasn't + V3 и вопрос Have / Has…? | a2_perfect_meaning |
+| a2_perfect_markers | A2 | presentperf 2 | Ставить just, already, yet, ever, never; различать since и for | a2_perfect_meaning |
+| a2_perfect_v3 | A2 | presentperf 3 | Образовывать V3 правильных и частых неправильных глаголов; been и gone | a1_past_irregular |
+| b1_perfect_vs_past | B1 | presentperf 4 | Выбирать Present Perfect (результат, без времени) или Past Simple (указано время) | a2_perfect_markers |
+| a2_perfect_review | A2 | presentperf 5 | Исправлять ошибки: have went, have seen yesterday | a2_perfect_negq, a2_perfect_v3 |
+| a2_alreadyyet_meaning | A2 | alreadyyet 0 | Различать already, yet, still и just по смыслу | a2_perfect_meaning |
+| a2_alreadyyet_position | A2 | alreadyyet 1 | Ставить already, just между have и V3, still перед глаголом, yet в конце | a2_alreadyyet_meaning |
+| b1_alreadyyet_nuance | B1 | alreadyyet 2 | Слышать оттенки: still not — досада, already в вопросе — удивление | a2_alreadyyet_position |
+| a2_alreadyyet_review | A2 | alreadyyet 3 | Исправлять ошибки: yet в утверждении, just в конце | a2_alreadyyet_position |
+| a1_contractions_core | A1 | contractions 0 | Писать и читать сокращения с апострофом: I'm, doesn't, won't | a1_be_core |
+| a2_contractions_s_d | A2 | contractions 1 | Понимать 's (is / has / чей) и 'd (would / had) по следующему слову | a1_contractions_core |
+| a2_contractions_full | A2 | contractions 2 | Писать полностью в коротком ответе (Yes, I am) и в официальном тексте | a1_contractions_core |
+| a2_contractions_review | A2 | contractions 3 | Исправлять ошибки: Yes, I'm; its / it's; willn't | a2_contractions_full |

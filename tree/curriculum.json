@@ -5221,6 +5221,716 @@
         "a2_fewlittle_talk"
       ],
       "reviewed": false
+    },
+    {
+      "id": "b1_generic_kinds",
+      "level": "B1",
+      "title": "Обо всём виде",
+      "slices": [
+        {
+          "route": "cards_genericarticles",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_zero"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_generic_groups",
+      "level": "B1",
+      "title": "The rich, the elderly",
+      "slices": [
+        {
+          "route": "cards_genericarticles",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_reference"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_generic_abstract",
+      "level": "B1",
+      "title": "Life или the life of",
+      "slices": [
+        {
+          "route": "cards_genericarticles",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_zero"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_generic_review",
+      "level": "B1",
+      "title": "Обобщение: проверка",
+      "slices": [
+        {
+          "route": "cards_genericarticles",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b1_generic_kinds",
+        "b1_generic_groups",
+        "b1_generic_abstract"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_names_countries",
+      "level": "A2",
+      "title": "Страны и города",
+      "slices": [
+        {
+          "route": "cards_articlesnames",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_article_zero"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_names_geography",
+      "level": "A2",
+      "title": "Реки, моря, горы",
+      "slices": [
+        {
+          "route": "cards_articlesnames",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_names_countries"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_names_city",
+      "level": "B1",
+      "title": "Названия в городе",
+      "slices": [
+        {
+          "route": "cards_articlesnames",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_names_countries"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_names_review",
+      "level": "B1",
+      "title": "Названия: проверка",
+      "slices": [
+        {
+          "route": "cards_articlesnames",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_names_geography",
+        "b1_names_city"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_usedto_core",
+      "level": "A2",
+      "title": "Раньше было, теперь нет",
+      "slices": [
+        {
+          "route": "cards_usedto",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_forms"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_usedto_review",
+      "level": "A2",
+      "title": "Used to: проверка",
+      "slices": [
+        {
+          "route": "cards_usedto",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_usedto_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_usedto_vs_beused",
+      "level": "B1",
+      "title": "Used to или be used to",
+      "slices": [
+        {
+          "route": "cards_usedto",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_usedto_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_therewillbe_core",
+      "level": "A2",
+      "title": "Что где будет",
+      "slices": [
+        {
+          "route": "cards_therewillbe",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_there_questions"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_therewillbe_review",
+      "level": "A2",
+      "title": "There will be: проверка",
+      "slices": [
+        {
+          "route": "cards_therewillbe",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_therewillbe_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pastcont_core",
+      "level": "A2",
+      "title": "Делал в тот момент",
+      "slices": [
+        {
+          "route": "cards_pastcont",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_meaning",
+        "a1_cont_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pastcont_negq",
+      "level": "A2",
+      "title": "Отрицание и вопрос",
+      "slices": [
+        {
+          "route": "cards_pastcont",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_pastcont_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pastcont_markers",
+      "level": "A2",
+      "title": "Подсказки",
+      "slices": [
+        {
+          "route": "cards_pastcont",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_pastcont_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pastcont_ing",
+      "level": "A2",
+      "title": "Как добавить -ing",
+      "slices": [
+        {
+          "route": "cards_pastcont",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_cont_spelling"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_pastcont_interrupt",
+      "level": "B1",
+      "title": "Когда что-то случилось",
+      "slices": [
+        {
+          "route": "cards_pastcont",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_pastcont_markers",
+        "a1_past_irregular"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_pastcont_review",
+      "level": "A2",
+      "title": "Was doing: проверка",
+      "slices": [
+        {
+          "route": "cards_pastcont",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_pastcont_negq",
+        "a2_pastcont_ing"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_future_will",
+      "level": "A1",
+      "title": "Решения и прогнозы",
+      "slices": [
+        {
+          "route": "cards_futuresimp",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_simple_routines"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_future_negq",
+      "level": "A1",
+      "title": "Отрицание и вопрос",
+      "slices": [
+        {
+          "route": "cards_futuresimp",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_future_will"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_future_contractions",
+      "level": "A1",
+      "title": "I'll, won't",
+      "slices": [
+        {
+          "route": "cards_futuresimp",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_future_will"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_future_markers",
+      "level": "A2",
+      "title": "Подсказки",
+      "slices": [
+        {
+          "route": "cards_futuresimp",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_future_will"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_future_will_goingto",
+      "level": "A2",
+      "title": "Will или going to",
+      "slices": [
+        {
+          "route": "cards_futuresimp",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_future_markers",
+        "a2_goingto_will"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_future_review",
+      "level": "A2",
+      "title": "Future Simple: проверка",
+      "slices": [
+        {
+          "route": "cards_futuresimp",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_future_negq"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_perfect_meaning",
+      "level": "A2",
+      "title": "Результат к сейчас",
+      "slices": [
+        {
+          "route": "cards_presentperf",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_perfect_negq",
+      "level": "A2",
+      "title": "Отрицание и вопрос",
+      "slices": [
+        {
+          "route": "cards_presentperf",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_perfect_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_perfect_markers",
+      "level": "A2",
+      "title": "Подсказки",
+      "slices": [
+        {
+          "route": "cards_presentperf",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_perfect_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_perfect_v3",
+      "level": "A2",
+      "title": "Третья форма (V3)",
+      "slices": [
+        {
+          "route": "cards_presentperf",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_past_irregular"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_perfect_vs_past",
+      "level": "B1",
+      "title": "Perfect или Past Simple",
+      "slices": [
+        {
+          "route": "cards_presentperf",
+          "revision": 1,
+          "slides": [
+            4
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_perfect_markers"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_perfect_review",
+      "level": "A2",
+      "title": "Present Perfect: проверка",
+      "slices": [
+        {
+          "route": "cards_presentperf",
+          "revision": 1,
+          "slides": [
+            5
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_perfect_negq",
+        "a2_perfect_v3"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_alreadyyet_meaning",
+      "level": "A2",
+      "title": "Already, yet, still, just",
+      "slices": [
+        {
+          "route": "cards_alreadyyet",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_perfect_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_alreadyyet_position",
+      "level": "A2",
+      "title": "Где ставить",
+      "slices": [
+        {
+          "route": "cards_alreadyyet",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_alreadyyet_meaning"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "b1_alreadyyet_nuance",
+      "level": "B1",
+      "title": "Оттенки смысла",
+      "slices": [
+        {
+          "route": "cards_alreadyyet",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_alreadyyet_position"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_alreadyyet_review",
+      "level": "A2",
+      "title": "Already, yet: проверка",
+      "slices": [
+        {
+          "route": "cards_alreadyyet",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_alreadyyet_position"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a1_contractions_core",
+      "level": "A1",
+      "title": "I'm, don't, won't",
+      "slices": [
+        {
+          "route": "cards_contractions",
+          "revision": 1,
+          "slides": [
+            0
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_be_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_contractions_s_d",
+      "level": "A2",
+      "title": "'s и 'd",
+      "slices": [
+        {
+          "route": "cards_contractions",
+          "revision": 1,
+          "slides": [
+            1
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_contractions_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_contractions_full",
+      "level": "A2",
+      "title": "Когда пишут полностью",
+      "slices": [
+        {
+          "route": "cards_contractions",
+          "revision": 1,
+          "slides": [
+            2
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a1_contractions_core"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "a2_contractions_review",
+      "level": "A2",
+      "title": "Сокращения: проверка",
+      "slices": [
+        {
+          "route": "cards_contractions",
+          "revision": 1,
+          "slides": [
+            3
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a2_contractions_full"
+      ],
+      "reviewed": false
     }
   ]
 }

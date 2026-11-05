@@ -256,3 +256,11 @@ appearance, body, clothes, home, hobbies, emotions, study, technology: реда�
 ## M-016. Доработка партии 8: редакции 1 → 2 — совместимо, опубликовано
 
 britishamerican, collocations, idioms, strongadjectives, begoingto, therewaswere, wouldlike, fewlittle: редакция 2. Индексы слайдов и привязка заданий прежние.
+
+## M-017. Партия 9 — совместимо, опубликовано
+
+genericarticles, articlesnames, usedto, therewillbe, pastcont, futuresimp, presentperf, alreadyyet, contractions: редакция 0 → 1. Индексы и темы прежних слайдов сохранены.
+
+У usedto в конец добавлен слайд 2 «Used to или be used to». На него перепривязаны задания `usedto_0_n6`, `usedto_0_5`, `usedto_0_n10`, `usedto_0_n14` (#0 → #2).
+
+В `articlesnames_1_5` второй пропуск убран, ответ прежний. Новые задания получили ID вида `<карточка>_r1_<слайд>_<n>`. Действий от приложения не нужно.
