@@ -3,7 +3,7 @@
   "route": "cards_fewlittle",
   "slides": [
     {
-      "label": "Few, little, a few, a little",
+      "label": "Few, little, a few",
       "intro": {
         "text": "Few и little значат «мало». Few — о том, что можно посчитать (people, books), little — о том, что нельзя (time, money). Буква a меняет настроение: a few — «немного, но хватает».",
         "highlights": [
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "label": "В разговоре: not many, not much",
+      "label": "Not many, not much",
       "intro": {
         "text": "Без a — слова книжные. В разговоре «мало» чаще говорят через not many и not much, а few и little оставляют для устойчивых сочетаний.",
         "highlights": [
@@ -196,12 +196,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: a little friends, few water",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с few и little.",
+        "text": "Частые ошибки с few и little.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -237,14 +237,31 @@
             "type": "tip",
             "title": "Два вопроса",
             "text": "Можно посчитать? Да — few, нет — little. Хватает? Да — с a, нет — без a."
-          },
-          "quote": {
-            "text": "A — это «чуть-чуть есть». Без a — «почти нет».",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:fewlittle.count",
+      "description": "Few — считаем, little — нет; с a — «немного, но хватает»",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:fewlittle.notmany",
+      "description": "В разговоре — not many, not much, quite a few",
+      "slides": [
+        1
+      ],
+      "decoys": []
     }
   ]
 }

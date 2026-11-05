@@ -3,7 +3,7 @@
   "route": "cards_therewaswere",
   "slides": [
     {
-      "label": "There was / were: что где было",
+      "label": "Что где было",
       "intro": {
         "text": "There was / There were — то же, что There is / There are, только в прошлом: «там был, были». Was — с одним предметом, were — с несколькими.",
         "highlights": [
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "label": "Отрицание и вопрос: Was there…?",
+      "label": "Отрицание и вопрос",
       "intro": {
         "text": "Всё как в настоящем, только was / were вместо is / are. В вопросе there уходит после was: Was there…? Отрицание — wasn't / weren't или no.",
         "highlights": [
@@ -323,14 +323,14 @@
       ]
     },
     {
-      "label": "Частые ошибки: was many, It was a party",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Четыре самые частые ошибки: was со множественным и It was вместо There was.",
+        "text": "Частые ошибки: was со множественным и It was вместо There was.",
         "highlights": [
           {
-            "text": "Четыре самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
-            "style": "bold"
+            "style": "bold_underline"
           },
           {
             "text": "It was вместо There was",
@@ -361,17 +361,39 @@
               "right": "There were not any people. (people — were)"
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Если в настоящем There is — в прошлом обязательно There was.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:therewaswere.agreement",
+      "description": "Was — с одним, were — с несколькими",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:therewaswere.there_it",
+      "description": "Было, имелось — There was, не It was",
+      "slides": [
+        0,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:therewaswere.negq",
+      "description": "Was there…? There wasn't / There was no",
+      "slides": [
+        1
+      ],
+      "decoys": []
     }
   ]
 }

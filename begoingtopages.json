@@ -3,7 +3,7 @@
   "route": "cards_begoingto",
   "slides": [
     {
-      "label": "be going to: планы и намерения",
+      "label": "Планы: going to",
       "intro": {
         "text": "Be going to — «собираюсь». Так говорят о том, что уже решили заранее: планы и намерения. Be меняется по лицам (am, is, are), а going to и глагол остаются как есть.",
         "highlights": [
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "label": "Планы и прогнозы по приметам",
+      "label": "Going to или will",
       "intro": {
         "text": "Два случая. Первый — план, который уже есть: I'm going to visit her. Второй — прогноз по тому, что видно сейчас: тучи на небе — It's going to rain.",
         "highlights": [
@@ -378,12 +378,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: Be going to",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Четыре самые частые ошибки с be going to.",
+        "text": "Частые ошибки с be going to.",
         "highlights": [
           {
-            "text": "Четыре самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -419,14 +419,51 @@
             "type": "tip",
             "title": "Простой тест",
             "text": "Если по-русски «собираюсь» — be going to. Если «позвоню, решу по ходу» — will."
-          },
-          "quote": {
-            "text": "Will — это когда решаешь в моменте. Going to — когда решение уже созрело.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:begoingto.be",
+      "description": "Am, is, are перед going to",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:begoingto.form",
+      "description": "После going to — начальная форма",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:begoingto.will",
+      "description": "Going to — план или примета, will — решение сейчас",
+      "slides": [
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:begoingto.past",
+      "description": "О прошлом — was / were going to",
+      "slides": [
+        2
+      ],
+      "decoys": []
     }
   ]
 }

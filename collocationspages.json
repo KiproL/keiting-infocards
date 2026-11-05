@@ -3,7 +3,7 @@
   "route": "cards_collocations",
   "slides": [
     {
-      "label": "Слова, которые ходят парами",
+      "label": "Слова парами",
       "intro": {
         "text": "Коллокации — слова, которые носители ставят вместе по привычке: heavy rain, а не strong rain. Логикой их не вывести — только запомнить.",
         "highlights": [
@@ -81,9 +81,9 @@
       ]
     },
     {
-      "label": "Глагол + существительное: pay attention",
+      "label": "Глагол + слово",
       "intro": {
-        "text": "Больше всего коллокаций — у коротких глаголов.",
+        "text": "Много коллокаций — у коротких глаголов: make, do, take, have.",
         "highlights": [
           {
             "text": "у коротких глаголов",
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "label": "Прилагательное + существительное: heavy traffic",
+      "label": "Heavy rain, strong wind",
       "intro": {
         "text": "У прилагательных свои «пары», и по-русски они часто другие.",
         "highlights": [
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "label": "Коллокации в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -383,12 +383,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: did a mistake, strong rain",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки в сочетаниях слов.",
+        "text": "Частые ошибки в сочетаниях слов.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -426,6 +426,34 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:collocations.verb",
+      "description": "Глагол + существительное: make a mistake, take a photo",
+      "slides": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:collocations.adjective",
+      "description": "Прилагательное + существительное: heavy rain, strong coffee",
+      "slides": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "decoys": []
     }
   ]
 }

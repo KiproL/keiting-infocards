@@ -3,7 +3,7 @@
   "route": "cards_idioms",
   "slides": [
     {
-      "label": "Идиомы: смысл не из слов",
+      "label": "Что такое идиома",
       "intro": {
         "text": "Идиома — выражение, смысл которого не складывается из слов: a piece of cake — не «кусок торта», а «проще простого». Учат целиком и в ситуации.",
         "highlights": [
@@ -123,7 +123,7 @@
       }
     },
     {
-      "label": "Как у нас: убить двух зайцев",
+      "label": "Как у нас",
       "intro": {
         "text": "У многих идиом есть русская пара — смысл тот же, картинка другая. Так их легче запомнить.",
         "highlights": [
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "label": "Идиомы в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "label": "Диалог: первый день на работе",
+      "label": "Диалог: первый день",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -418,6 +418,31 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:idioms.idiom",
+      "description": "Идиома целиком: a piece of cake, call it a day",
+      "slides": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:idioms.register",
+      "description": "Где идиомы неуместны: деловое письмо, отчёт",
+      "slides": [
+        2
+      ],
+      "decoys": []
     }
   ]
 }

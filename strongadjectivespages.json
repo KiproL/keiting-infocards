@@ -3,7 +3,7 @@
   "route": "cards_strongadjectives",
   "slides": [
     {
-      "label": "Вместо very: huge, exhausted, starving",
+      "label": "Вместо very",
       "intro": {
         "text": "Вместо very + обычное слово можно взять одно сильное: very big → huge. Речь звучит живее и богаче.",
         "highlights": [
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "label": "Сильные прилагательные в предложениях",
+      "label": "Примеры фраз",
       "intro": {
         "text": "Слова темы в живых предложениях — прочитай вслух.",
         "highlights": [
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "label": "Диалог: отпуск в Исландии",
+      "label": "Диалог об отпуске",
       "intro": {
         "text": "Короткий разговор на эту тему: так говорят в жизни.",
         "highlights": [
@@ -307,12 +307,12 @@
       ]
     },
     {
-      "label": "Частые ошибки: very huge, absolutely cold",
+      "label": "Частые ошибки",
       "intro": {
-        "text": "Самые частые ошибки с сильными прилагательными.",
+        "text": "Частые ошибки с сильными прилагательными.",
         "highlights": [
           {
-            "text": "Самые частые",
+            "text": "Частые ошибки",
             "color": "bad",
             "style": "bold_underline"
           }
@@ -346,6 +346,31 @@
           ]
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:strongadjectives.word",
+      "description": "Сильное слово вместо very: huge, exhausted",
+      "slides": [
+        0,
+        2,
+        3
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:strongadjectives.intensifier",
+      "description": "Very — с обычными, absolutely — с сильными, really — с теми и другими",
+      "slides": [
+        1,
+        3,
+        4
+      ],
+      "decoys": []
     }
   ]
 }

@@ -3,7 +3,7 @@
   "route": "cards_wouldlike",
   "slides": [
     {
-      "label": "would like: вежливое «хочу»",
+      "label": "Вежливое «хочу»",
       "intro": {
         "text": "Would like — вежливое «хотел бы». Так просят, заказывают и приглашают. В речи сокращается: I'd like. После него — предмет (a coffee) или to + глагол (to go).",
         "highlights": [
@@ -286,15 +286,6 @@
               "ru": "Мы хотели бы посмотреть меню."
             }
           ]
-        },
-        {
-          "title": "Мысль напоследок",
-          "borderColor": "accent2",
-          "quote": {
-            "text": "Would like — это «хочу» в вежливой форме. В английском это норма, а не излишняя формальность.",
-            "author": "правило большого пальца",
-            "accentColor": "accent2"
-          }
         }
       ],
       "expandables": [
@@ -353,7 +344,7 @@
       ]
     },
     {
-      "label": "Отрицание и вопрос: Would you like…?",
+      "label": "Would you like…?",
       "intro": {
         "text": "Отрицание и вопрос — без do: would сам встаёт вперёд или получает not. Wouldn't like, Would you like…?",
         "highlights": [
@@ -451,7 +442,7 @@
       ]
     },
     {
-      "label": "Частые ошибки: I want, would like go",
+      "label": "Частые ошибки",
       "intro": {
         "text": "Четыре ошибки, которые ломают вежливость или грамматику.",
         "highlights": [
@@ -469,7 +460,7 @@
           "errors": [
             {
               "wrong": "I want a coffee, please.",
-              "right": "I would like a coffee, please. (want звучит резко)"
+              "right": "I would like a coffee, please. (want в просьбе звучит слишком прямо)"
             },
             {
               "wrong": "I would like go home.",
@@ -495,6 +486,49 @@
           }
         }
       ]
+    }
+  ],
+  "editorial_revision": 1,
+  "editorial_review_scope": "full_card_language_review",
+  "editorial_review_date": "2026-11-04",
+  "error_patterns": [
+    {
+      "id": "error:wouldlike.to",
+      "description": "Would like + to + глагол",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldlike.question",
+      "description": "Вопрос и отрицание без do: Would you like…?",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldlike.polite",
+      "description": "Хотел бы — would like, не want",
+      "slides": [
+        2
+      ],
+      "decoys": []
+    },
+    {
+      "id": "error:wouldlike.form",
+      "description": "Would like + предмет",
+      "slides": [
+        0,
+        1,
+        2
+      ],
+      "decoys": []
     }
   ]
 }
